@@ -2,13 +2,13 @@
   "id": "russia_ukraine",
   "name": "Rusia–Ucrania",
   "description": "Cobertura mediática del conflicto entre Rusia y Ucrania",
-  "updated": "2026-07-01T14:56:49+00:00",
-  "total_articles": 125,
-  "overall_avg": -0.6525,
+  "updated": "2026-07-01T15:47:07+00:00",
+  "total_articles": 131,
+  "overall_avg": -0.6494,
   "distribution": {
-    "pos": 13,
+    "pos": 14,
     "neu": 7,
-    "neg": 105
+    "neg": 110
   },
   "sources": [
     "The Guardian",
@@ -19,12 +19,12 @@
     "The Independent",
     "CBS News",
     "The New York Times",
+    "The Washington Post",
     "WSJ",
     "Sky News",
     "The Atlantic",
     "Atlantic Council",
     "CNBC",
-    "The Washington Post",
     "NBC News",
     "ABC News - Breaking News, Latest News and Videos",
     "Radio Free Europe/Radio Liberty",
@@ -47,7 +47,10 @@
     "consilium.europa.eu",
     "The Moscow Times",
     "Anadolu Ajansı",
-    "NPR"
+    "NPR",
+    "Fortune",
+    "UN News",
+    "France ONU"
   ],
   "daily": [
     {
@@ -124,8 +127,16 @@
     },
     {
       "date": "2026-05-28",
+      "count": 2,
+      "avg": -0.7506,
+      "pos": 0,
+      "neu": 0,
+      "neg": 2
+    },
+    {
+      "date": "2026-05-29",
       "count": 1,
-      "avg": -0.5859,
+      "avg": -0.8625,
       "pos": 0,
       "neu": 0,
       "neg": 1
@@ -324,19 +335,19 @@
     },
     {
       "date": "2026-06-30",
-      "count": 21,
-      "avg": -0.5569,
+      "count": 23,
+      "avg": -0.5603,
       "pos": 3,
       "neu": 3,
-      "neg": 15
+      "neg": 17
     },
     {
       "date": "2026-07-01",
-      "count": 15,
-      "avg": -0.5997,
-      "pos": 2,
+      "count": 17,
+      "avg": -0.5608,
+      "pos": 3,
       "neu": 1,
-      "neg": 12
+      "neg": 13
     }
   ],
   "by_source": [
@@ -352,8 +363,8 @@
     },
     {
       "source": "Al Jazeera",
-      "count": 10,
-      "avg": -0.6979
+      "count": 11,
+      "avg": -0.5944
     },
     {
       "source": "BBC",
@@ -367,8 +378,8 @@
     },
     {
       "source": "The Independent",
-      "count": 6,
-      "avg": -0.6847
+      "count": 7,
+      "avg": -0.7267
     },
     {
       "source": "CBS News",
@@ -379,6 +390,11 @@
       "source": "The New York Times",
       "count": 3,
       "avg": -0.8384
+    },
+    {
+      "source": "The Washington Post",
+      "count": 3,
+      "avg": -0.3418
     },
     {
       "source": "WSJ",
@@ -404,11 +420,6 @@
       "source": "CNBC",
       "count": 2,
       "avg": -0.6085
-    },
-    {
-      "source": "The Washington Post",
-      "count": 2,
-      "avg": -0.1462
     },
     {
       "source": "NBC News",
@@ -524,26 +535,41 @@
       "source": "NPR",
       "count": 1,
       "avg": -0.7096
+    },
+    {
+      "source": "Fortune",
+      "count": 1,
+      "avg": -0.8625
+    },
+    {
+      "source": "UN News",
+      "count": 1,
+      "avg": -0.9153
+    },
+    {
+      "source": "France ONU",
+      "count": 1,
+      "avg": -0.4588
     }
   ],
   "top_entities": [
     {
       "name": "Ukraine",
       "type": "LOCATION",
-      "count": 101,
-      "avg": -0.622
+      "count": 105,
+      "avg": -0.6204
     },
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 86,
-      "avg": -0.7362
+      "count": 90,
+      "avg": -0.7242
     },
     {
       "name": "Vladimir Putin",
       "type": "PERSON",
-      "count": 33,
-      "avg": -0.6793
+      "count": 36,
+      "avg": -0.6548
     },
     {
       "name": "Moscow",
@@ -572,14 +598,14 @@
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 5,
-      "avg": -0.8531
+      "count": 6,
+      "avg": -0.8331
     },
     {
       "name": "United States",
       "type": "LOCATION",
-      "count": 4,
-      "avg": -0.5398
+      "count": 5,
+      "avg": -0.5784
     },
     {
       "name": "NATO",
@@ -615,6 +641,19 @@
       ]
     },
     {
+      "title": "Is Ukraine’s campaign of targeting Russian refineries working?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/opinions/2026/7/1/is-ukraines-campaign-of-targeting-russian-refineries-working?traffic_source=rss",
+      "published": "2026-07-01T15:29:46+00:00",
+      "compound": 0.4404,
+      "label": "positive",
+      "entities": [
+        "Vladimir Putin",
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
       "title": "Who is Vadym Yermolaiev, the Ukrainian tycoon injured in Monaco blast?",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/7/1/who-is-vadym-yermolaiev-the-ukrainian-tycoon-injured-in-monaco-blast?traffic_source=rss",
@@ -622,6 +661,18 @@
       "compound": -0.5994,
       "label": "negative",
       "entities": [
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Half a million Russian troops killed in Ukraine war as drones cause havoc",
+      "source": "The Independent",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeTlnS0JXY203aUdtX0dMV3RxenpQdlJVNXNDZ2RfWVh6MFFoa1NPV1JUR1ZaTGNtdHVlUHNCLUJRMFN5SWFoUU41SzVCb3RTNjJCWmZSVjducF82QWQ2cGRrRXdVdVVCMGN1Q2dQRkE3SjdCZF9JalJ5MGJnbGQ5VGlfd2t4SEpDWHg2UnNEMW9KRDdsZVhWMC1TdkZRYjgtRFF5bzlfTlJqM19Q?oc=5",
+      "published": "2026-07-01T15:15:00+00:00",
+      "compound": -0.979,
+      "label": "negative",
+      "entities": [
+        "Russia",
         "Ukraine"
       ]
     },
@@ -872,6 +923,17 @@
       ]
     },
     {
+      "title": "France calls on the Belarusian authorities to cease supporting Russia’s war effort",
+      "source": "France ONU",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUXJmTkhDV0RwdEhiQTdONXRsU2JtT3VHT1BFWjNUbG43THV4TWtBRzlBVGc1dlhGUXJPNmFiWGswVXNzN2dmaTBoVXNZS0hxdmd3NzNtR000RkZpUmUyOG9MZUVXZmMtdzNuUGZjYUVvZEQ0Q0V4TURfRUtrUk1kSWx5STVpLVJONVc1bk5qV1NCTHUyTFZwcjFkLUlFbmtWaXcycFN3?oc=5",
+      "published": "2026-06-30T19:45:29+00:00",
+      "compound": -0.4588,
+      "label": "negative",
+      "entities": [
+        "Russia"
+      ]
+    },
+    {
       "title": "How severe is Russia’s energy shortage because of Ukrainian strikes?",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbldubXZWYm8wWTJIN0pZZnotYUEyU2t2ZzZ4MTJsdmNobE4tcnJZQkpxRmticnNmNmZPcVhrWnhScllBTDVWSFpWRU9BaHBDSFhGUGhmeXlFZWpWblQ4T0RFaGx6ZDJ0Mk55WTE0SU1NTGlyeFlwb3BxMDBDV1VRc1RFQkF1aklSNnlaSFo1S0JRLUlLMnNFcTVfT1dPdWtKQWI2QUthMDlKU0HSAbABQVVfeXFMTTRiMXJWakhIcE14Q3NNdTFJbDlYUjlfeDNZdUNtOHdPalJoTkNMSzVWVUNOc3I4d0lLVXA1U0VCY0c0eEthYkRmeEt1ZW05T0hUb0FJY0YtQU5mUXNFWWJyOERYNjdOakxfNEx4SDZHOWhjb01CdjJhVlJoWnJ2bEYwSEl1RGFQOGVrQ2J0OVA3QURkZkRrRFpvMHdOYTdwSjVzeTRhekluZHoxN1B1Zkk?oc=5",
@@ -892,6 +954,19 @@
       "label": "negative",
       "entities": [
         "Ukraine"
+      ]
+    },
+    {
+      "title": "As war stalls, Putin concedes he never cut a deal with Trump in Alaska",
+      "source": "The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOejJIcXRFY2Z6Z1VFc1dHMFJ0NFlEcU04VWVoSVMySlVMb3o5ZmQ5VklOaXZHQWgwQ3NnX2JXbGhaYXNzeEk5dmtFMWRvY2gxSUdBc2tBM1NFajNNTHlXQnUwY1BqLU1rcmk4UF9USE5EU3gxQUFvdEQ2VS1jZk5QZTRrdEU1TThNLVpsTVpDM1dSTG9RM2dkdHBpeWJ5TVN1OHBJSEx2NGpPOUxiQW80?oc=5",
+      "published": "2026-06-30T19:10:07+00:00",
+      "compound": -0.7329,
+      "label": "negative",
+      "entities": [
+        "Vladimir Putin",
+        "Donald Trump",
+        "United States"
       ]
     },
     {
@@ -1309,59 +1384,6 @@
         "Vladimir Putin",
         "Ukraine",
         "Crimea"
-      ]
-    },
-    {
-      "title": "Ukraine war briefing: Zelenskyy declares 40-day Russia blitz to ‘influence the aggressor state’",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMEJUdUhyWk56NXRPdkpqWjhEb3NYZTU5SjNCdHlyYndBV2tVNU5ycnNzTmJ4UjVRYjkyMVdSeVRjcHoyaUZ2UHZCTGg3c0JGZGpzMFRfb1BxZlBnOUlGNml5T1pBOUdjcGhYSmpyYzNlMU03QWd3Wi1PUm9KMDFpSU1LMWtKWmpubHFRcGVjbkFCNzcwLXo5di0tQkk?oc=5",
-      "published": "2026-06-26T21:05:00+00:00",
-      "compound": -0.886,
-      "label": "negative",
-      "entities": [
-        "Volodymyr Zelensky",
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Ukraine launches huge drone attack on Russia and occupied Crimea as it seeks to force Putin \"to end the war\"",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWmRnTldvUUFMTFRJeVQtVFlfa2F5cHlRZW1GeTZUY29CUjJ6YVBrNmhJR1Nkc1RtNE5YUHBHQ1QwcU55enBKRGllMTFhZ3JoTjBlWVNCYi1jQkR5REhiYUJNamNrTm8wTHZCUG9hTTcxQVBWWmNtbzFVZFdZUW5WUC1YNU9PR1NOUEFkeFBkYTRSSm93WGx1U3g3RV96Ui16cmZJMW9mbw?oc=5",
-      "published": "2026-06-26T17:58:30+00:00",
-      "compound": -0.886,
-      "label": "negative",
-      "entities": [
-        "Vladimir Putin",
-        "Russia",
-        "Ukraine",
-        "Crimea"
-      ]
-    },
-    {
-      "title": "Russia preparing possible ‘provocation’ in Baltic states or Poland, sources say",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/jun/26/russia-provocation-baltic-states-poland",
-      "published": "2026-06-26T14:45:27+00:00",
-      "compound": -0.9231,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine",
-        "Moscow",
-        "NATO"
-      ]
-    },
-    {
-      "title": "Ukraine launches 40-day operation to ‘pressure Russia to end the war’",
-      "source": "Euronews",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQd2VaMC1nVVQwYk5PT3k5a1JmVmVSQ0Z6UlV4WVF5MFpMUndGVnBZNzhzRm5jTmgtT1FJYmFXMXdZaXRZSzF2UW9xalktbUM2SWxnU3kxZkhiSjVyTlpLUlF3Tl9qN2pKa0l0QmxLem5KTF85eW1oZnYxRVpvUS02VVVna2RkamtJako1Ujl1ZHpSVlBkMUdjQVBqcGRmYXJRSG13ZnpJRGozUDh5aTBHQkFMWQ?oc=5",
-      "published": "2026-06-26T13:13:32+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Russia",
-        "Ukraine"
       ]
     }
   ]

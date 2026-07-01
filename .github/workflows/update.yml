@@ -1,0 +1,50 @@
+name: Actualizar dashboard
+
+# Cuándo corre:
+on:
+  schedule:
+    # Cada 6 horas. El minuto 17 (en vez de 0) evita la congestión de las horas
+    # en punto, cuando GitHub encola miles de workflows y los demora.
+    - cron: "17 */6 * * *"
+  workflow_dispatch: {}   # botón "Run workflow" para dispararlo a mano
+  push:
+    branches: [main]
+    paths: ["conflicts/**", "pipeline/**"]  # re-correr si cambiás config o código
+
+# Permiso para que el job pueda commitear la data generada al repo.
+permissions:
+  contents: write
+
+# Evita que dos corridas pisen el histórico al mismo tiempo.
+concurrency:
+  group: actualizar-datos
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Correr pipeline (scraping + NLP)
+        run: python -m pipeline.run
+
+      - name: Commitear datos si cambiaron
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data
+          if git diff --staged --quiet; then
+            echo "Sin novedades: no hay datos nuevos."
+          else
+            git commit -m "chore: actualizar datos ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+            git push
+          fi

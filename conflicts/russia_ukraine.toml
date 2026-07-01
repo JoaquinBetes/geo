@@ -1,0 +1,125 @@
+# =============================================================================
+#  CONFIGURACIÓN DE UN CONFLICTO
+# -----------------------------------------------------------------------------
+#  Para AGREGAR OTRO CONFLICTO (ej. China-Taiwán) copiás este archivo a
+#  conflicts/china_taiwan.toml, cambiás id/name/feeds/keywords/entities y listo.
+#  El pipeline levanta automáticamente todos los .toml de esta carpeta.
+# =============================================================================
+
+id = "russia_ukraine"
+name = "Rusia–Ucrania"
+description = "Cobertura mediática del conflicto entre Rusia y Ucrania"
+
+# Un artículo se incluye sólo si su título o resumen contiene al menos una de
+# estas palabras (sin distinguir mayúsculas). Filtra el ruido de los feeds
+# generalistas (deportes, cultura, etc.). Dejá la lista vacía para no filtrar.
+keywords = [
+  "ukraine", "ukrainian", "russia", "russian", "kyiv", "kiev",
+  "moscow", "putin", "zelensky", "zelenskyy", "donbas", "donbass",
+  "crimea", "bakhmut", "kremlin", "nato",
+]
+
+# -----------------------------------------------------------------------------
+#  FEEDS RSS
+#  - source: etiqueta del medio que se muestra en el dashboard.
+#  - aggregator = true: para feeds que juntan varios medios (Google News).
+#    En ese caso el medio real se toma de cada artículo, no de 'source'.
+# -----------------------------------------------------------------------------
+
+[[feeds]]
+source = "Google News"
+aggregator = true
+url = "https://news.google.com/rss/search?q=ukraine%20russia%20war&hl=en-US&gl=US&ceid=US:en"
+
+[[feeds]]
+source = "Al Jazeera"
+url = "https://www.aljazeera.com/xml/rss/all.xml"
+
+[[feeds]]
+source = "The Guardian"
+url = "https://www.theguardian.com/world/ukraine/rss"
+
+[[feeds]]
+source = "BBC"
+url = "https://feeds.bbci.co.uk/news/world/rss.xml"
+
+[[feeds]]
+source = "NPR"
+url = "https://feeds.npr.org/1004/rss.xml"
+
+# -----------------------------------------------------------------------------
+#  ENTIDADES A TRACKEAR (gazetteer)
+#  Contamos menciones y sentimiento asociado a cada una. 'aliases' cubre
+#  variantes y errores comunes. Evitá alias muy cortos/ambiguos (us, un, eu)
+#  porque generan falsos positivos con palabras comunes en inglés.
+# -----------------------------------------------------------------------------
+
+[[entities]]
+name = "Vladimir Putin"
+type = "PERSON"
+aliases = ["putin"]
+
+[[entities]]
+name = "Volodymyr Zelensky"
+type = "PERSON"
+aliases = ["zelensky", "zelenskyy", "zelenskiy"]
+
+[[entities]]
+name = "Donald Trump"
+type = "PERSON"
+aliases = ["trump"]
+
+[[entities]]
+name = "Sergei Lavrov"
+type = "PERSON"
+aliases = ["lavrov"]
+
+[[entities]]
+name = "Russia"
+type = "LOCATION"
+aliases = ["russian", "kremlin"]
+
+[[entities]]
+name = "Ukraine"
+type = "LOCATION"
+aliases = ["ukrainian"]
+
+[[entities]]
+name = "United States"
+type = "LOCATION"
+aliases = ["washington", "white house"]
+
+[[entities]]
+name = "Kyiv"
+type = "LOCATION"
+aliases = ["kiev"]
+
+[[entities]]
+name = "Moscow"
+type = "LOCATION"
+aliases = []
+
+[[entities]]
+name = "Crimea"
+type = "LOCATION"
+aliases = []
+
+[[entities]]
+name = "Donbas"
+type = "LOCATION"
+aliases = ["donbass"]
+
+[[entities]]
+name = "NATO"
+type = "ORG"
+aliases = []
+
+[[entities]]
+name = "European Union"
+type = "ORG"
+aliases = ["european union"]
+
+[[entities]]
+name = "United Nations"
+type = "ORG"
+aliases = ["united nations"]

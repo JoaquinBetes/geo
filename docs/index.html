@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard de tono geopolítico</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Chart.js por CDN: no necesitamos build ni npm para el frontend. -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>Tono geopolítico</h1>
+      <p class="subtitle">Sentimiento y entidades en la cobertura mediática, en el tiempo</p>
+    </div>
+    <div class="controls">
+      <label for="conflict-select">Conflicto</label>
+      <select id="conflict-select"></select>
+    </div>
+  </header>
+
+  <main id="dashboard" hidden>
+    <!-- Tarjetas KPI -->
+    <section class="kpis">
+      <div class="card kpi">
+        <span class="kpi-label">Artículos</span>
+        <span class="kpi-value" id="kpi-total">–</span>
+      </div>
+      <div class="card kpi">
+        <span class="kpi-label">Tono promedio</span>
+        <span class="kpi-value" id="kpi-sentiment">–</span>
+      </div>
+      <div class="card kpi">
+        <span class="kpi-label">Medios</span>
+        <span class="kpi-value" id="kpi-sources">–</span>
+      </div>
+      <div class="card kpi">
+        <span class="kpi-label">Actualizado</span>
+        <span class="kpi-value small" id="kpi-updated">–</span>
+      </div>
+    </section>
+
+    <!-- Serie temporal -->
+    <section class="card wide">
+      <h2>Tono a lo largo del tiempo</h2>
+      <p class="hint">Línea = tono promedio diario (-1 a 1) · Barras = cantidad de artículos</p>
+      <div class="chart-box tall"><canvas id="chart-timeline"></canvas></div>
+    </section>
+
+    <div class="grid-2">
+      <section class="card">
+        <h2>Distribución de sentimiento</h2>
+        <div class="chart-box"><canvas id="chart-dist"></canvas></div>
+      </section>
+      <section class="card">
+        <h2>Medios con más cobertura</h2>
+        <div class="chart-box"><canvas id="chart-sources"></canvas></div>
+      </section>
+    </div>
+
+    <section class="card wide">
+      <h2>Entidades más mencionadas</h2>
+      <p class="hint">Largo = menciones · Color = tono promedio con el que aparecen</p>
+      <div class="chart-box tall"><canvas id="chart-entities"></canvas></div>
+    </section>
+
+    <section class="card wide">
+      <h2>Titulares recientes</h2>
+      <ul id="recent-list" class="recent"></ul>
+    </section>
+  </main>
+
+  <div id="empty" class="empty" hidden>
+    <p>Todavía no hay datos. Corré el pipeline con
+      <code>python -m pipeline.run</code> y recargá.</p>
+  </div>
+
+  <footer class="foot">
+    <span>Scraping RSS → sentimiento (VADER) + entidades → visualización.</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

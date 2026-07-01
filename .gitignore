@@ -1,0 +1,15 @@
+# Entorno virtual y caché de Python
+.venv/
+__pycache__/
+*.pyc
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Config local de Claude Code (tiene rutas absolutas de esta máquina)
+.claude/
+
+# OJO: docs/data/ NO se ignora a propósito.
+# Esa carpeta contiene los datos que va acumulando el pipeline y que
+# GitHub Actions commitea en cada corrida. Es el "estado" del proyecto.

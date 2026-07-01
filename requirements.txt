@@ -1,0 +1,4 @@
+# Dependencias del pipeline. Todas son Python puro -> funcionan igual en
+# Python 3.14 (tu máquina) y en 3.12 (GitHub Actions), sin compilar nada.
+feedparser>=6.0
+vaderSentiment>=3.3

@@ -2,13 +2,13 @@
   "id": "russia_ukraine",
   "name": "Rusia–Ucrania",
   "description": "Cobertura mediática del conflicto entre Rusia y Ucrania",
-  "updated": "2026-07-01T15:57:06+00:00",
-  "total_articles": 138,
-  "overall_avg": -0.6504,
+  "updated": "2026-07-01T20:15:31+00:00",
+  "total_articles": 147,
+  "overall_avg": -0.6626,
   "distribution": {
     "pos": 14,
     "neu": 9,
-    "neg": 115
+    "neg": 124
   },
   "sources": [
     "The Guardian",
@@ -53,7 +53,11 @@
     "UN News",
     "France ONU",
     "France 24",
-    "Encyclopedia Britannica"
+    "Encyclopedia Britannica",
+    "The Christian Science Monitor",
+    "New York Post",
+    "Defense Express",
+    "The Sun"
   ],
   "daily": [
     {
@@ -114,19 +118,19 @@
     },
     {
       "date": "2026-05-26",
-      "count": 2,
-      "avg": -0.0137,
+      "count": 3,
+      "avg": -0.319,
       "pos": 1,
       "neu": 0,
-      "neg": 1
+      "neg": 2
     },
     {
       "date": "2026-05-27",
-      "count": 3,
-      "avg": -0.8504,
+      "count": 4,
+      "avg": -0.877,
       "pos": 0,
       "neu": 0,
-      "neg": 3
+      "neg": 4
     },
     {
       "date": "2026-05-28",
@@ -298,11 +302,11 @@
     },
     {
       "date": "2026-06-25",
-      "count": 5,
-      "avg": -0.8551,
+      "count": 6,
+      "avg": -0.8512,
       "pos": 0,
       "neu": 0,
-      "neg": 5
+      "neg": 6
     },
     {
       "date": "2026-06-26",
@@ -338,26 +342,26 @@
     },
     {
       "date": "2026-06-30",
-      "count": 23,
-      "avg": -0.5603,
+      "count": 24,
+      "avg": -0.576,
       "pos": 3,
       "neu": 3,
-      "neg": 17
+      "neg": 18
     },
     {
       "date": "2026-07-01",
-      "count": 23,
-      "avg": -0.5775,
+      "count": 28,
+      "avg": -0.6174,
       "pos": 3,
       "neu": 3,
-      "neg": 17
+      "neg": 22
     }
   ],
   "by_source": [
     {
       "source": "The Guardian",
-      "count": 30,
-      "avg": -0.7366
+      "count": 31,
+      "avg": -0.7397
     },
     {
       "source": "Institute for the Study of War",
@@ -371,8 +375,8 @@
     },
     {
       "source": "BBC",
-      "count": 9,
-      "avg": -0.8268
+      "count": 12,
+      "avg": -0.8273
     },
     {
       "source": "CNN",
@@ -391,8 +395,8 @@
     },
     {
       "source": "The New York Times",
-      "count": 3,
-      "avg": -0.8384
+      "count": 4,
+      "avg": -0.8126
     },
     {
       "source": "The Atlantic",
@@ -568,26 +572,46 @@
       "source": "Encyclopedia Britannica",
       "count": 1,
       "avg": -0.9246
+    },
+    {
+      "source": "The Christian Science Monitor",
+      "count": 1,
+      "avg": -0.936
+    },
+    {
+      "source": "New York Post",
+      "count": 1,
+      "avg": -0.908
+    },
+    {
+      "source": "Defense Express",
+      "count": 1,
+      "avg": -0.8074
+    },
+    {
+      "source": "The Sun",
+      "count": 1,
+      "avg": -0.9545
     }
   ],
   "top_entities": [
     {
       "name": "Ukraine",
       "type": "LOCATION",
-      "count": 111,
-      "avg": -0.6289
+      "count": 120,
+      "avg": -0.6456
     },
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 94,
-      "avg": -0.7232
+      "count": 100,
+      "avg": -0.7335
     },
     {
       "name": "Vladimir Putin",
       "type": "PERSON",
-      "count": 39,
-      "avg": -0.6531
+      "count": 41,
+      "avg": -0.6667
     },
     {
       "name": "Moscow",
@@ -598,8 +622,8 @@
     {
       "name": "Volodymyr Zelensky",
       "type": "PERSON",
-      "count": 20,
-      "avg": -0.7625
+      "count": 21,
+      "avg": -0.7658
     },
     {
       "name": "Kyiv",
@@ -616,8 +640,8 @@
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 6,
-      "avg": -0.8331
+      "count": 7,
+      "avg": -0.8329
     },
     {
       "name": "United States",
@@ -646,6 +670,30 @@
   ],
   "recent": [
     {
+      "title": "Ukrainian charged in Germany over Nord Stream blasts",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c33yjk0ldkdo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-01T18:19:32+00:00",
+      "compound": -0.5994,
+      "label": "negative",
+      "entities": [
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Russia’s top banker begs for Putin end to Ukraine war, issues stark warning: ‘Economy simply cannot survive’",
+      "source": "New York Post",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOTVudmcwUmlDTEktc2tXZ2lCMVJOd2stVEtvUXg4NndHZEJMY0RmMzFSTGc2U05MS0ZWVlV6bzhWT1NHQThJVkRMUEdyWjE3ZE1GU3h1OEdlRU41YnRhd3YzNUlGT3V2MFBibG4wNi10bG5ndmc1U09Gb09qalhiYVkxdzVOcUVBNDhoRTF3TXQxcTgwcUh0U01QcDF0YTBPOFRWSFctZw?oc=5",
+      "published": "2026-07-01T17:39:00+00:00",
+      "compound": -0.908,
+      "label": "negative",
+      "entities": [
+        "Vladimir Putin",
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
       "title": "Ukraine war live: Putin orders fresh plan to seize Kyiv, says Ukraine military chief",
       "source": "The Independent",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcGZ1UjFFcGVEbzVHcUFhUGZscGF2bXppUkJGZnByenROR1g2Ylh6bWI4OC03Mll4bFoybmd3blZJTy1XbF8zVmV6NUg2NktqS2w5eGVJTEcxTDJ4dm50UU96bFVpcURsaWJhaU1HYUkxTEtxbkZhY0R3MUJUWEZIS0dBd204YWhEeXFnMlNlaGtURWM4VkRtS0lYRGVhdVAwSVE4T0NTVkN4RHJJOUtURmRJYXAtamxI?oc=5",
@@ -656,6 +704,17 @@
         "Vladimir Putin",
         "Ukraine",
         "Kyiv"
+      ]
+    },
+    {
+      "title": "Troop Casualties in Ukraine War Top 2 Million, Study Finds",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcVhGelhrUzdma0huOWpla0UzWEdPOWMzU2tHRTctYW1RcUZJZkN4NnY1NkVWQW8tVWh5Y1ByRXBORk9tLXFzUF9PSWNhaFFXaGhva0Zjb3FQemdBdjJ4RUZyRTBQdVhDcTJhTVNoWXU4c2ZEb29SaGVVNzh1aGFscG0wN1hqNDlIUGxv?oc=5",
+      "published": "2026-07-01T16:00:08+00:00",
+      "compound": -0.7351,
+      "label": "negative",
+      "entities": [
+        "Ukraine"
       ]
     },
     {
@@ -688,6 +747,18 @@
       "source": "the-sun.com",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX1JjSW5HVGZRRnBETENPN2dPYlhWSHZFVXlFSGpNZHdiT1d6bl9HYUdVbnB1X3FINzczTlBXSVNaeVVhcFhqZmFZTmdxSV9IRUo2eldPeEhMaGt6cGVrdmp2WUtrQXdybTgxRm14Q0JHbHZ6Y3JWcXhlNG5oNUNNdFBEcm9EeEtk?oc=5",
       "published": "2026-07-01T15:19:39+00:00",
+      "compound": -0.9545,
+      "label": "negative",
+      "entities": [
+        "Vladimir Putin",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Putin suffers fresh humiliating blow as tyrant loses 26,000 troops within one month in biggest toll of Ukraine war yet",
+      "source": "The Sun",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRFVGMTUxZXJYQ1RxOHBBaGlINWFVY1hUX3QxTnFCY3ZvRml4UHJac2VMcFpTdUFsbHZRTWxMN3UwQzZlVFRKZEtyeGItamFKazVuVlJMdjBCOXRjblNFOUZLNTFpZUJmX084QWl4d2dRQ1l5aVRmY0dtYWZteVV2Rm1oZWFuQnZVZVE?oc=5",
+      "published": "2026-07-01T15:17:00+00:00",
       "compound": -0.9545,
       "label": "negative",
       "entities": [
@@ -894,6 +965,18 @@
       ]
     },
     {
+      "title": "1589 Days of russia-Ukraine War – russian Casualties in Ukraine",
+      "source": "Defense Express",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRTZQMTZMaEFTcmRINjNudnZqRElXVVg1TDZJOVdaU1duVFExRXc2bWxUdERoOV9TdkJVVjVQS1dyMGhyR2FfbTQ3dmo4TW9PbFZhR05YeUhBQnp0ZTdPTU1aRUVSQU1PRmdrSElHQjV5S0EzaldtUmNCclg4Nl9OVHBzYUdwUkUyNXhtbTFYM3lMaFlDUmVCSkZNWGZMM1JPSEVCUk1R?oc=5",
+      "published": "2026-07-01T06:23:14+00:00",
+      "compound": -0.8074,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
       "title": "Ukraine war briefing: Swedish defence maker Saab signs deal to deliver 16 fighter jets to Kyiv",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/jul/01/ukraine-war-briefing-swedish-defence-maker-saab-signs-deal-to-deliver-16-fighter-jets-to-kyiv",
@@ -968,6 +1051,18 @@
       "entities": [
         "Vladimir Putin",
         "Donald Trump",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Ukraine has brought the (drone) war to Russia. But it may prolong the fighting.",
+      "source": "The Christian Science Monitor",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSEpWbXVzV1BManFtZm5uLTM5X3JkMFhOZlpMcFZoR2ZmcWtEejc0SVo3aVRVSGR3TkQ1b3hBdWdhQnRIOUw0U291SzVzR1M0emcxeXFiV1pEU092WVZCN21oM292Nm1vek1DakwyMUw5Z2dPaGRuVktHN3ZTZkpKeWNPWkFJb1RUZ2l2S3ZtY2lGSXVKTkZn0gGwAUFVX3lxTFBicWh2Mi1LLXBTTGVlcU14Nlg0VEFTbmZ0VHVGRnI0YTVQOElvRTlzOF9PTVVXTXNOZnlVOWhMUG5kU2lfS181WHhnSFBtM0M3TXBXeVpGZl9fOHVlLVdJcEx5Zlc1NmhnRkRYMUFCa25mVWNJX1FJOVM2amg4M2tQVTZGWXdYTnozei1OQjBuVkw4WllsWkRwR2RRczR3ZXRlTEJ6RDVySElkenlxQmM1?oc=5",
+      "published": "2026-06-30T20:37:37+00:00",
+      "compound": -0.936,
+      "label": "negative",
+      "entities": [
+        "Russia",
         "Ukraine"
       ]
     },
@@ -1311,83 +1406,6 @@
       "label": "neutral",
       "entities": [
         "Ukraine"
-      ]
-    },
-    {
-      "title": "Fragments of Ice review – fascinating chronicle of Soviet collapse through the lens of a Ukrainian ice skater",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/film/2026/jun/29/fragments-of-ice-review-fascinating-chronicle-of-soviet-collapse-through-the-lens-of-a-ukrainian-ice-skater",
-      "published": "2026-06-29T09:00:32+00:00",
-      "compound": 0.7184,
-      "label": "positive",
-      "entities": [
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Ukraine war latest: Putin admits ‘problems’ in invasion as he warns of fuel shortages",
-      "source": "The Independent",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONWdqcmJOWmtwaVp4LTAwSnFsSzRSUVJDVDlBRVU2bjNrOGw0OTQwNzFZeWIyc1NGOFZReEE0Wjh3blYwTjdORXNwNjI1aV96TlZXbGZUSkllZ180Y2l1dlNCZ1NiWFplMjRnRUtQY0pVXzhDN0lSMHUwaDhKa3VkaklrVVREQTJXaVRfQTdFRmUyY1cySTBtaDJCa0xld2w5c1VBV1NBVkFkZUgwaFI4WS1MQTBzMzA?oc=5",
-      "published": "2026-06-29T07:18:38+00:00",
-      "compound": -0.8126,
-      "label": "negative",
-      "entities": [
-        "Vladimir Putin",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Russia-Ukraine War | Map, Casualties, Timeline, Death Toll, Causes, & Significance",
-      "source": "Encyclopedia Britannica",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8tUldzMF83NEpEQlYzYUtzME1ZdTZqem1MT2lBaXNZRUFJYnFpaHcydDVIOWo1SkwyUm5rZUFxTzM2YmFsckJXUzVQQXpUSy1MZTBoMmhPbGc1NFV1NVU5ZQ?oc=5",
-      "published": "2026-06-29T05:00:00+00:00",
-      "compound": -0.9246,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Ukraine war briefing: Putin expects US negotiators in Moscow; fuel rationing in Siberia as crisis bites",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/jun/29/ukraine-war-briefing-putin-expects-us-negotiators-moscow-fuel-rationing-siberia",
-      "published": "2026-06-29T02:52:46+00:00",
-      "compound": -0.9966,
-      "label": "negative",
-      "entities": [
-        "Vladimir Putin",
-        "Volodymyr Zelensky",
-        "Donald Trump",
-        "Russia",
-        "Ukraine",
-        "United States",
-        "Moscow",
-        "Crimea"
-      ]
-    },
-    {
-      "title": "Russian Offensive Campaign Assessment, June 28, 2026",
-      "source": "Institute for the Study of War",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaHFrb0k3RzI5NFpPVDdpRHEtbnp0M3ROSkp3aGhUYnBjYUpiNGtveVVvTTZFc0piMF9kQk5sN1RScW0waTJEdElBYkdHYk02S3NMT0RIaWdNX1BDeV80OTNWZ3hGQm1jOEhGbHFlcU81NHgtRUNhckliekw3cnpzWWxxa2xZa3dRTjY0bEdzSWZ3eUFPNGx1U0JLTUdkS0NnS3N2S1I4TQ?oc=5",
-      "published": "2026-06-29T01:04:39+00:00",
-      "compound": -0.872,
-      "label": "negative",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "Ukraine’s targets in Russia are fully justified | Letters",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/jun/28/ukraines-targets-in-russia-are-fully-justified",
-      "published": "2026-06-28T19:58:18+00:00",
-      "compound": -0.9534,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine",
-        "Moscow"
       ]
     }
   ]

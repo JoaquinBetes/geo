@@ -2,13 +2,13 @@
   "id": "russia_ukraine",
   "name": "Rusia–Ucrania",
   "description": "Cobertura mediática del conflicto entre Rusia y Ucrania",
-  "updated": "2026-07-02T14:29:24+00:00",
-  "total_articles": 218,
-  "overall_avg": -0.6912,
+  "updated": "2026-07-02T19:52:01+00:00",
+  "total_articles": 232,
+  "overall_avg": -0.6924,
   "distribution": {
-    "pos": 15,
+    "pos": 16,
     "neu": 12,
-    "neg": 191
+    "neg": 204
   },
   "sources": [
     "The Guardian",
@@ -18,11 +18,13 @@
     "CNN",
     "The Independent",
     "The New York Times",
-    "CBS News",
     "Sky News",
+    "CBS News",
     "AP News",
     "The Atlantic",
     "NPR",
+    "Kyiv Post",
+    "The Kyiv Independent",
     "CNBC",
     "The Washington Post",
     "WSJ",
@@ -30,8 +32,7 @@
     "Radio Free Europe/Radio Liberty",
     "Atlantic Council",
     "The Hill",
-    "Kyiv Post",
-    "The Kyiv Independent",
+    "Bloomberg.com",
     "Reuters",
     "Euronews",
     "CSIS | Center for Strategic and International Studies",
@@ -46,7 +47,6 @@
     "Forbes",
     "Telegraph India",
     "The Detroit News",
-    "Bloomberg.com",
     "Mediazona",
     "New York Magazine",
     "Jacobin",
@@ -72,7 +72,11 @@
     "TVP World",
     "Straight Arrow News - SAN - Unbiased. Straight Facts.",
     "Firstpost",
-    "Toledo Blade"
+    "Toledo Blade",
+    "Army Recognition",
+    "Yahoo",
+    "CBC",
+    "MSN"
   ],
   "daily": [
     {
@@ -365,19 +369,19 @@
     },
     {
       "date": "2026-06-29",
-      "count": 13,
-      "avg": -0.4563,
-      "pos": 2,
+      "count": 14,
+      "avg": -0.4026,
+      "pos": 3,
       "neu": 2,
       "neg": 9
     },
     {
       "date": "2026-06-30",
-      "count": 25,
-      "avg": -0.5862,
+      "count": 26,
+      "avg": -0.6009,
       "pos": 3,
       "neu": 3,
-      "neg": 19
+      "neg": 20
     },
     {
       "date": "2026-07-01",
@@ -389,11 +393,11 @@
     },
     {
       "date": "2026-07-02",
-      "count": 40,
-      "avg": -0.8482,
+      "count": 52,
+      "avg": -0.8311,
       "pos": 0,
       "neu": 0,
-      "neg": 40
+      "neg": 52
     }
   ],
   "by_source": [
@@ -404,8 +408,8 @@
     },
     {
       "source": "Al Jazeera",
-      "count": 19,
-      "avg": -0.6043
+      "count": 20,
+      "avg": -0.6198
     },
     {
       "source": "Institute for the Study of War",
@@ -414,13 +418,13 @@
     },
     {
       "source": "BBC",
-      "count": 16,
-      "avg": -0.8057
+      "count": 17,
+      "avg": -0.8015
     },
     {
       "source": "CNN",
-      "count": 12,
-      "avg": -0.3117
+      "count": 14,
+      "avg": -0.3948
     },
     {
       "source": "The Independent",
@@ -429,8 +433,13 @@
     },
     {
       "source": "The New York Times",
-      "count": 8,
-      "avg": -0.7861
+      "count": 9,
+      "avg": -0.7668
+    },
+    {
+      "source": "Sky News",
+      "count": 7,
+      "avg": -0.8314
     },
     {
       "source": "CBS News",
@@ -438,14 +447,9 @@
       "avg": -0.497
     },
     {
-      "source": "Sky News",
-      "count": 6,
-      "avg": -0.8086
-    },
-    {
       "source": "AP News",
-      "count": 5,
-      "avg": -0.4507
+      "count": 6,
+      "avg": -0.3262
     },
     {
       "source": "The Atlantic",
@@ -456,6 +460,16 @@
       "source": "NPR",
       "count": 4,
       "avg": -0.7973
+    },
+    {
+      "source": "Kyiv Post",
+      "count": 3,
+      "avg": -0.3541
+    },
+    {
+      "source": "The Kyiv Independent",
+      "count": 3,
+      "avg": -0.9416
     },
     {
       "source": "CNBC",
@@ -493,14 +507,9 @@
       "avg": -0.6278
     },
     {
-      "source": "Kyiv Post",
+      "source": "Bloomberg.com",
       "count": 2,
-      "avg": -0.2678
-    },
-    {
-      "source": "The Kyiv Independent",
-      "count": 2,
-      "avg": -0.9207
+      "avg": -0.722
     },
     {
       "source": "Reuters",
@@ -571,11 +580,6 @@
       "source": "The Detroit News",
       "count": 1,
       "avg": -0.7329
-    },
-    {
-      "source": "Bloomberg.com",
-      "count": 1,
-      "avg": -0.8316
     },
     {
       "source": "Mediazona",
@@ -706,32 +710,52 @@
       "source": "Toledo Blade",
       "count": 1,
       "avg": -0.8126
+    },
+    {
+      "source": "Army Recognition",
+      "count": 1,
+      "avg": -0.6808
+    },
+    {
+      "source": "Yahoo",
+      "count": 1,
+      "avg": -0.7783
+    },
+    {
+      "source": "CBC",
+      "count": 1,
+      "avg": -0.8807
+    },
+    {
+      "source": "MSN",
+      "count": 1,
+      "avg": -0.7783
     }
   ],
   "top_entities": [
     {
       "name": "Ukraine",
       "type": "LOCATION",
-      "count": 178,
-      "avg": -0.6798
+      "count": 191,
+      "avg": -0.6818
     },
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 155,
-      "avg": -0.7372
+      "count": 165,
+      "avg": -0.7332
     },
     {
       "name": "Vladimir Putin",
       "type": "PERSON",
-      "count": 48,
-      "avg": -0.6867
+      "count": 51,
+      "avg": -0.6758
     },
     {
       "name": "Kyiv",
       "type": "LOCATION",
-      "count": 36,
-      "avg": -0.8208
+      "count": 42,
+      "avg": -0.8156
     },
     {
       "name": "Volodymyr Zelensky",
@@ -742,8 +766,8 @@
     {
       "name": "Moscow",
       "type": "LOCATION",
-      "count": 27,
-      "avg": -0.8358
+      "count": 28,
+      "avg": -0.8375
     },
     {
       "name": "Crimea",
@@ -758,16 +782,16 @@
       "avg": -0.8514
     },
     {
+      "name": "NATO",
+      "type": "ORG",
+      "count": 6,
+      "avg": -0.793
+    },
+    {
       "name": "United States",
       "type": "LOCATION",
       "count": 5,
       "avg": -0.5784
-    },
-    {
-      "name": "NATO",
-      "type": "ORG",
-      "count": 3,
-      "avg": -0.9292
     },
     {
       "name": "Donbas",
@@ -783,6 +807,95 @@
     }
   ],
   "recent": [
+    {
+      "title": "Russia, Ukraine Exchange Missile Strikes Ahead of NATO Summit",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRk9kR2xPR09YN01TRTQxQ2djTEhvazItaWhlc3lZWVllZ1hoVlVHZ2JmTnVjeXpITFE4U1EtR25rbFFYV1Y0NWI2RFlXM2xYU3RBSWdweDJNeVFXOUxidUg1SlptUW1VRmpwMWVDR21CRU0zSE13d0YyN0VsRXl6MUZseG1ZX29ySFpKYkx3ZlpRbUd2TU5fWE96WTc1cUI2ckJYMnlwOXJTVGJOWVA2MGI2LVo?oc=5",
+      "published": "2026-07-02T19:37:39+00:00",
+      "compound": -0.6124,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine",
+        "NATO"
+      ]
+    },
+    {
+      "title": "Ukraine war latest: 'Serious destruction' — massive Russian missile, drone attack on Kyiv kills at least 22, injures nearly 90",
+      "source": "The Kyiv Independent",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQX2xHSTZ4d3hZek54WGdOejJzdnJvM3o3U1NHdDNUbEdGbEJMS1dqSmwtUGg2SkVQdHRtNnhnQzVIS2tham5yU05nRzhmSkloZW92V1Z4T1RWNGlHYktyYm9MdDI1YlVpWVo4bjZaQkx3eU1UcURpOUl6MlJTMFVkVktwdUFURjdpVEZQVG5ud2g2YlFjZTJ1emNVUVVtWkVvUWdfYWJ3Q2JIV3J1RU0yaG9iTnFJN3kyRTNTejZ4SlZmZXBUYy1VSEh1RHVZd3JGU2g4UlQwc0lZRE9XMU5tM2ZB?oc=5",
+      "published": "2026-07-02T17:46:42+00:00",
+      "compound": -0.9834,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine",
+        "Kyiv"
+      ]
+    },
+    {
+      "title": "Putin beginning to hint he wants to see an end to Ukraine war, former NATO official says",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWmhOSVIxN1ozMFphTE1CNkdaQ3NxSk1EaC12Q1pDcUY5NjFKdkcxeUsyLVVGWGU4QW5Ob3pvVmFaMzV4bTR1RkdKMDVIekVDSE9ZaDhQVHh1VlJQSkthb1dsOFFrLWVsR0tPSmRXYWd1YkhNUUZKSDI4RUpZYURCR1NqcEdUM0tC?oc=5",
+      "published": "2026-07-02T17:24:45+00:00",
+      "compound": -0.8316,
+      "label": "negative",
+      "entities": [
+        "Vladimir Putin",
+        "Ukraine",
+        "NATO"
+      ]
+    },
+    {
+      "title": "Bloodier than Stalingrad: Number of casualties in Russia’s war on Ukraine reaches 2 million",
+      "source": "MSN",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA2WUprS1dNR1RqV21qUFgtdzRxZ05LakFweVg2dmJvQ1dwMkJBaC03ckVtZjEzLUtnb3p2TjBfRjNCVWF6bFBTVEYzZHI4TmNnRW9LOXcwc0tTS3NE?oc=5",
+      "published": "2026-07-02T17:22:20+00:00",
+      "compound": -0.7783,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "German prosecutors allege Ukraine ordered Nord Stream pipeline attack",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/2/german-prosecutors-allege-ukraine-ordered-nord-stream-pipeline-attack?traffic_source=rss",
+      "published": "2026-07-02T16:46:37+00:00",
+      "compound": -0.9136,
+      "label": "negative",
+      "entities": [
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Deadly, large-scale Russian attack shakes Kyiv as Ukrainian strikes batter Moscow's oil sector",
+      "source": "CBC",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUkpfek8zbExWZ2wzQW5wS3g5dmRJb1d2dW43cDZvdExlOFhIc0NLbk90bk1TMndSQ1NnT000SWh6TjZJRkNsMlNUc2N5R3lpaXpVUkF1NjdSbW12dVNScUxPOFhDX3BiUFNTTDFNOTlnTEZJaVFwc1BndW1ZdjdQWmhB?oc=5",
+      "published": "2026-07-02T16:24:47+00:00",
+      "compound": -0.8807,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine",
+        "Kyiv",
+        "Moscow"
+      ]
+    },
+    {
+      "title": "Pistorius Says Ukraine War Nears Turning Point as NATO Prepares €40B Support Package",
+      "source": "Kyiv Post",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9meWhLWE9oa19zbkZNVUJEanpWZzZFTW4zcC1yZmo1NjFCcnlIMU5MemVaV2tzX2hkQkRPN3BnaUFYSWQwSFNXb01zZw?oc=5",
+      "published": "2026-07-02T14:57:31+00:00",
+      "compound": -0.5267,
+      "label": "negative",
+      "entities": [
+        "Ukraine",
+        "Kyiv",
+        "NATO"
+      ]
+    },
     {
       "title": "German prosecutors accuse Kyiv of ordering 2022 Nord Stream sabotage",
       "source": "The Guardian",
@@ -833,6 +946,18 @@
       ]
     },
     {
+      "title": "Watch: BBC at site of deadly Russian attack on Kyiv flats",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9VX3N4cHBvZnRvcTdQSnZYQjJwb3JuV2k2a2x0Nl9fdEFLbHU5MGw3THA4SHJuMkdsbEs2ZEpQUzQ3c0pVUDU5UnlGNXFlelBWZ3JSLUNTdw?oc=5",
+      "published": "2026-07-02T12:37:02+00:00",
+      "compound": -0.7351,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Kyiv"
+      ]
+    },
+    {
       "title": "Facing New Pressure from Ukraine, Putin Signals Intent to Dig In",
       "source": "The New York Times",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQOFZuR1RfYXY2VlBVZTZmVGVyZjloUno4d2phY18zTFZKYWRkQTd6RzJOVHREeVZlYVZIcGl2ckgwbThMWTV4VkFDdzZtcFpMbWtPVkZrMlBMY2lVWXZ2eExvTV9DMzF1c0prdmFLMU1qU2YxLVNSd0xaM1U2YWdGUEFQcFRUekZYb2U3N2VsYw?oc=5",
@@ -841,6 +966,30 @@
       "label": "negative",
       "entities": [
         "Vladimir Putin",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "China secretly trains hundreds of Russian soldiers to gain critical knowledge from Ukraine war",
+      "source": "Army Recognition",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYWh5UU90VVZ4THhYUG00aG1mOE5OU3h0c250ZzVsQkxqMzF5SXRiVVRQTUN2YkxaakFvQnh3NXNpRjBTSl9zREdGaW16OGtPZmFMbE03cy1Dc2hDRV9zMjRjeVp1WHJRTWs4ZVI1eXh2ZG5YOUJEdEF1Q3kxZDRfLU5kMG9xYU1uRkdVMWZRQWl4ZUFHM1lncWJzRjQ3bm8?oc=5",
+      "published": "2026-07-02T11:15:16+00:00",
+      "compound": -0.6808,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Bloodier than Stalingrad: Number of casualties in Russia’s war on Ukraine reaches 2 million",
+      "source": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMjVwOWdxQUV0cTYyNXIxdkR0OEJHajZtektHakNTQUxRZU5keHpldkZvMkpWQTF2dklvLVJRRnhkdV92WGRuQnBLbk9jX1RXTFZLUlFVbjlXQ0J4MGFsR3JKa3p0a3JOWVlweTFrNHZla2l5QWxrMVZnMHRYUHdHMWNkbnROOFJiMlNneVN1OE9PSlpseks0TU1vanNYUEc0Q0p3?oc=5",
+      "published": "2026-07-02T10:45:37+00:00",
+      "compound": -0.7783,
+      "label": "negative",
+      "entities": [
+        "Russia",
         "Ukraine"
       ]
     },
@@ -917,6 +1066,19 @@
       "entities": [
         "Russia",
         "Ukraine"
+      ]
+    },
+    {
+      "title": "Russia Strikes Ukraine as Explosions Rock Capital of Kyiv",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRmZOaXhJcjQyamxuWTVQSkxHTlZNQ1Q1ZG1HS3EzM0FGLWN1V3hLZkFMSndDeG9xTFJtbmd2T3R0WkQwOWxhUzUzSVdMdU1EbnRwelBkZWJVTjFsc1FPcWJoYkpUUlJYakQ0U3V1MVRXRE1XSEJDX1lGdTktZ2FYeEpBZy1ad21hbDVoVlNKVGk0NUU2YVdpb2JlX05Mc0FK?oc=5",
+      "published": "2026-07-02T08:33:32+00:00",
+      "compound": -0.6124,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine",
+        "Kyiv"
       ]
     },
     {
@@ -1255,6 +1417,18 @@
       ]
     },
     {
+      "title": "Russia unleashes a massive assault on Ukraine’s capital, killing more than 20",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPa3hhcXRKYUVMTF9iaHdKYTBuQ3dmc05WWmdqZEljWUlGelphU0M4b2hrV1gxaUVyQ19wZVhYekE0RHhFS0tsOE05QUZxUWxQYk5IZEFPaXR6TXNHd2d1c1NvcWlQQ0ZxVWZwX0Y2TU05LUZSc2toOUZYRFBmOFItVQ?oc=5",
+      "published": "2026-07-02T01:04:00+00:00",
+      "compound": -0.9545,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
       "title": "New study: Russian fatalities in Ukraine war are four times the number of US deaths in all wars since WWII combined",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWFJZenBpTFF5NmlkdkdMTDNEZDI1emR5RWs2ekxMNlFnc2F3T1hpQXJhWG1TWERpZWxaVlkxOUxZOG1EcGpmWGxiSHQyY3lvMUxRRFhia21XUlE4WGh5bW55S2JjSVNRTXQyejQyenBfb3g0emYwSzAtcVhRQUx2eVdvc2o1dmZKUFRnZ0lRQVR5RHpU?oc=5",
@@ -1369,152 +1543,6 @@
         "Volodymyr Zelensky",
         "Russia",
         "Ukraine"
-      ]
-    },
-    {
-      "title": "The Russia-Ukraine War Report Card, July 1, 2026",
-      "source": "Russia Matters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObjRPR0VGTjlEazB4cktuRktjeXR6YlJBUjZjWVBkVXhSbzRyejZiaGE0T3B0WEZ0Z3RWRjVpUDdweUZES0tQbWZmTjlFVnAybTM0WVQwRzZRbHdjOFNpRnFrOEhXcENtb2QwcW00RU1JVXlKaU9uaDZIaEtlWE9lU1g0N2Q0UnR4bkNLMlE5bzNONHZqSEJWQXBBalFCQ2NGZGVieGZ3Wm9zMmJi?oc=5",
-      "published": "2026-07-01T19:20:35+00:00",
-      "compound": -0.8271,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Ukraine hit a Russian oil refinery for the second time in a week, Zelenskyy says",
-      "source": "PBS",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQ0xjMThCekdzUFpxbEJ5d0JKdmMzU1JBb3RGLVpFY29xYlEtTjFWSXczLVZnQnNZcEJsWlFkQXpmclVaSEg3Ql9pdzItWnZaVjZfRVVIUjJyZEVVUzF0a3pzTHMxOU0tWGgzeVd4Wm5yOGVubzdzaHFicl9GRzRReWIxR2tFblhLVTVRQ1F6Uld5dVFzUjdmZi1zbTItQ2dKa0pnenRHU3dtZFlRZjdCUmRoZDnSAboBQVVfeXFMTkNpRTVwbUlwV18wampHTU1EbmJTLXJUSXVRVVFxVklnZWFXa3RkaGtiV3F6N0pfb09KMGExNzdOTkwtcHFmUjF6T2h1MTNFeFZ4Z3BtUnd1a2UwbjYzWTRnRE9mUUY3VDRPZE5mTWo0cWRuRnpPQ2pWOHY0MUxpX01HOFlDekxqcjhxV0t2RHYtc0ZuT0lnVlRxbW9TNzB3TW5tdF9lYXdFMFNEb1hKQThzNjZsWkRQV1Jn?oc=5",
-      "published": "2026-07-01T18:27:17+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Volodymyr Zelensky",
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Ukrainian charged in Germany over Nord Stream blasts",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c33yjk0ldkdo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-01T18:19:32+00:00",
-      "compound": -0.5994,
-      "label": "negative",
-      "entities": [
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Ukrainian charged in Germany over Nord Stream blasts",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1UVm5YRV9Sc19LblBXWDFxLXhleWFtb3cwV2NWQ3ZKd0lBN1FCY3piTENZd1R6Ul9oekV2V0hGMzVTTzJvT2tFcWo5M3ZOSTNWNXd5dFNyVjJIdw?oc=5",
-      "published": "2026-07-01T18:19:32+00:00",
-      "compound": -0.3818,
-      "label": "negative",
-      "entities": [
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Ukraine war latest: Russia suffering 'one crisis after another' as Ukraine's drones hammer Crimea, Fedorov says",
-      "source": "The Kyiv Independent",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1DQ3dGNFRvbHo5TGlJNi1FLWR4WE1yYmV0UG55dE1ETThLd3pxMlh4c0tyQi0zZXphbU95bXQwc1RkN1VIYlpWTWx3WkRkczZMY29TaFhfd29uQ1oyYnZEcg?oc=5",
-      "published": "2026-07-01T18:14:34+00:00",
-      "compound": -0.9726,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine",
-        "Kyiv",
-        "Crimea"
-      ]
-    },
-    {
-      "title": "Russia’s top banker begs for Putin end to Ukraine war, issues stark warning: ‘Economy simply cannot survive’",
-      "source": "New York Post",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOTVudmcwUmlDTEktc2tXZ2lCMVJOd2stVEtvUXg4NndHZEJMY0RmMzFSTGc2U05MS0ZWVlV6bzhWT1NHQThJVkRMUEdyWjE3ZE1GU3h1OEdlRU41YnRhd3YzNUlGT3V2MFBibG4wNi10bG5ndmc1U09Gb09qalhiYVkxdzVOcUVBNDhoRTF3TXQxcTgwcUh0U01QcDF0YTBPOFRWSFctZw?oc=5",
-      "published": "2026-07-01T17:39:00+00:00",
-      "compound": -0.908,
-      "label": "negative",
-      "entities": [
-        "Vladimir Putin",
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Russia bears the brunt as Ukraine war casualties exceed 2 million",
-      "source": "Straight Arrow News - SAN - Unbiased. Straight Facts.",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOXJtS1VvcGtMa3lYUmtJckw2TU9kQ1ZRUnBocm43NV9wNkllYlo3RVUzeDJvY1pnSnVSYnFEREFsSkhQalNZbEhOYzhZYWxNVUR3X1dWNE9UQjVZM1IyU2pEdk9RU05fcERnY1RZVWpSMG83R0pQaUlSNW82ZlpmVWNRRW0wYUdHOHM1UnZB?oc=5",
-      "published": "2026-07-01T17:19:52+00:00",
-      "compound": -0.7269,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Ukraine war live: Putin orders fresh plan to seize Kyiv, says Ukraine military chief",
-      "source": "The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcGZ1UjFFcGVEbzVHcUFhUGZscGF2bXppUkJGZnByenROR1g2Ylh6bWI4OC03Mll4bFoybmd3blZJTy1XbF8zVmV6NUg2NktqS2w5eGVJTEcxTDJ4dm50UU96bFVpcURsaWJhaU1HYUkxTEtxbkZhY0R3MUJUWEZIS0dBd204YWhEeXFnMlNlaGtURWM4VkRtS0lYRGVhdVAwSVE4T0NTVkN4RHJJOUtURmRJYXAtamxI?oc=5",
-      "published": "2026-07-01T17:18:42+00:00",
-      "compound": -0.6369,
-      "label": "negative",
-      "entities": [
-        "Vladimir Putin",
-        "Ukraine",
-        "Kyiv"
-      ]
-    },
-    {
-      "title": "Russia Ukraine War",
-      "source": "Religion News Service",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQenExZ0JWVWdLdndydXFrTXdCS3VoeDk2VE5QZnliM0QybE4zS3lmMFV3ZExINmRzTWhLaVlXSUZwc3g1MzlJYUl0MGM5SkFpWmpyM0xCbldnV2ZJZmNKaXhXaTBVQV9meFJ3ZXJPUmVtQXdnM3U1WVdEd1VMTUw1NS1lRnpaRmlwRUxENzZyOHByVXhUc3RpOHRvVThPTncyeWhJQUJiTmZnN1VNazY3QkFuVUswQmN0OWhZTU1zdHFrY0lYNWdHVndiZw?oc=5",
-      "published": "2026-07-01T17:04:26+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "APTOPIX Russia Ukraine War",
-      "source": "Religion News Service",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdWhTVmRpaWdmaE84eTJDbTI5eTRieEZ0dER6TEctbHlvSnNkVFVXOTFkS1ZpTkl0MWs5ZHlvYTljT1ZGYldOd1pGUUNsM0ZRRi1PUm9MV1B5NzB1ZHRoelA3WDNjSUI3aUhkMjdfNlNwMXJLaXRodU1nNWU5WXAyMzdjZDNXUGFZNDE3ZzRXbUtfdllHcUZzUC1OZmc3Rmp3X24wMXR6a1RpV09QbjRUZ0NaQXpCblNXdEdCMEJQa1lwSlNUMzBsVTFNUXk5cTQ4TmZqMmFB?oc=5",
-      "published": "2026-07-01T16:35:17+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Troop Casualties in Ukraine War Top 2 Million, Study Finds",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcVhGelhrUzdma0huOWpla0UzWEdPOWMzU2tHRTctYW1RcUZJZkN4NnY1NkVWQW8tVWh5Y1ByRXBORk9tLXFzUF9PSWNhaFFXaGhva0Zjb3FQemdBdjJ4RUZyRTBQdVhDcTJhTVNoWXU4c2ZEb29SaGVVNzh1aGFscG0wN1hqNDlIUGxv?oc=5",
-      "published": "2026-07-01T16:00:08+00:00",
-      "compound": -0.7351,
-      "label": "negative",
-      "entities": [
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Russian Blood and Treasure: The Ballooning Costs of Putin’s War",
-      "source": "CSIS | Center for Strategic and International Studies",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdFg3cWVmQ3FHN2dxUVVya21XY3lWbDkxZ1pkcVFSZVc3VnhyelVJODd5X01iaGx1Ulljd1pPcXFmdmQ5cHZPQWd1UmxUeVp6cTM1SUFkbklLZm90Zmtfb0Z1Y1QyYXp3YzN0M3QwMXNzanJfNC1KNFJzVUgxUW9sQ3A3enB3WWFwM3VCUw?oc=5",
-      "published": "2026-07-01T15:59:27+00:00",
-      "compound": -0.6597,
-      "label": "negative",
-      "entities": [
-        "Vladimir Putin",
-        "Russia"
       ]
     }
   ]

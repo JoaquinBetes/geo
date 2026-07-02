@@ -2,13 +2,13 @@
   "id": "russia_ukraine",
   "name": "Rusia–Ucrania",
   "description": "Cobertura mediática del conflicto entre Rusia y Ucrania",
-  "updated": "2026-07-02T09:32:22+00:00",
-  "total_articles": 204,
-  "overall_avg": -0.6962,
+  "updated": "2026-07-02T14:29:24+00:00",
+  "total_articles": 218,
+  "overall_avg": -0.6912,
   "distribution": {
     "pos": 15,
-    "neu": 10,
-    "neg": 179
+    "neu": 12,
+    "neg": 191
   },
   "sources": [
     "The Guardian",
@@ -19,14 +19,15 @@
     "The Independent",
     "The New York Times",
     "CBS News",
+    "Sky News",
+    "AP News",
     "The Atlantic",
     "NPR",
-    "AP News",
     "CNBC",
     "The Washington Post",
     "WSJ",
-    "Sky News",
     "ABC News - Breaking News, Latest News and Videos",
+    "Radio Free Europe/Radio Liberty",
     "Atlantic Council",
     "The Hill",
     "Kyiv Post",
@@ -35,12 +36,13 @@
     "Euronews",
     "CSIS | Center for Strategic and International Studies",
     "the-sun.com",
+    "Defense Express",
+    "DW.com",
     "Russia Matters",
     "Religion News Service",
     "Ukrinform - Ukrainian National News Agency",
     "Euromaidan Press",
     "NBC News",
-    "Radio Free Europe/Radio Liberty",
     "Forbes",
     "Telegraph India",
     "The Detroit News",
@@ -60,9 +62,7 @@
     "Encyclopedia Britannica",
     "The Christian Science Monitor",
     "New York Post",
-    "Defense Express",
     "The Sun",
-    "DW.com",
     "PBS",
     "ABC News & Headlines – Australian Broadcasting Corporation",
     "Foreign Affairs",
@@ -71,13 +71,30 @@
     "Le Monde.fr",
     "TVP World",
     "Straight Arrow News - SAN - Unbiased. Straight Facts.",
-    "Firstpost"
+    "Firstpost",
+    "Toledo Blade"
   ],
   "daily": [
+    {
+      "date": "2025-12-19",
+      "count": 1,
+      "avg": -0.8316,
+      "pos": 0,
+      "neu": 0,
+      "neg": 1
+    },
     {
       "date": "2026-01-27",
       "count": 1,
       "avg": -0.8316,
+      "pos": 0,
+      "neu": 0,
+      "neg": 1
+    },
+    {
+      "date": "2026-02-12",
+      "count": 1,
+      "avg": -0.5514,
       "pos": 0,
       "neu": 0,
       "neg": 1
@@ -324,10 +341,10 @@
     },
     {
       "date": "2026-06-26",
-      "count": 8,
-      "avg": -0.7821,
+      "count": 9,
+      "avg": -0.6952,
       "pos": 0,
-      "neu": 1,
+      "neu": 2,
       "neg": 7
     },
     {
@@ -364,26 +381,26 @@
     },
     {
       "date": "2026-07-01",
-      "count": 46,
-      "avg": -0.6396,
+      "count": 47,
+      "avg": -0.626,
       "pos": 3,
-      "neu": 4,
+      "neu": 5,
       "neg": 39
     },
     {
       "date": "2026-07-02",
-      "count": 30,
-      "avg": -0.8884,
+      "count": 40,
+      "avg": -0.8482,
       "pos": 0,
       "neu": 0,
-      "neg": 30
+      "neg": 40
     }
   ],
   "by_source": [
     {
       "source": "The Guardian",
-      "count": 37,
-      "avg": -0.7701
+      "count": 39,
+      "avg": -0.7607
     },
     {
       "source": "Al Jazeera",
@@ -397,8 +414,8 @@
     },
     {
       "source": "BBC",
-      "count": 14,
-      "avg": -0.7924
+      "count": 16,
+      "avg": -0.8057
     },
     {
       "source": "CNN",
@@ -412,13 +429,23 @@
     },
     {
       "source": "The New York Times",
-      "count": 7,
-      "avg": -0.8232
+      "count": 8,
+      "avg": -0.7861
     },
     {
       "source": "CBS News",
       "count": 6,
       "avg": -0.497
+    },
+    {
+      "source": "Sky News",
+      "count": 6,
+      "avg": -0.8086
+    },
+    {
+      "source": "AP News",
+      "count": 5,
+      "avg": -0.4507
     },
     {
       "source": "The Atlantic",
@@ -429,11 +456,6 @@
       "source": "NPR",
       "count": 4,
       "avg": -0.7973
-    },
-    {
-      "source": "AP News",
-      "count": 3,
-      "avg": -0.7512
     },
     {
       "source": "CNBC",
@@ -451,14 +473,14 @@
       "avg": -0.3109
     },
     {
-      "source": "Sky News",
-      "count": 3,
-      "avg": -0.8335
-    },
-    {
       "source": "ABC News - Breaking News, Latest News and Videos",
       "count": 2,
       "avg": -0.9368
+    },
+    {
+      "source": "Radio Free Europe/Radio Liberty",
+      "count": 2,
+      "avg": -0.6078
     },
     {
       "source": "Atlantic Council",
@@ -501,6 +523,16 @@
       "avg": -0.9498
     },
     {
+      "source": "Defense Express",
+      "count": 2,
+      "avg": -0.8074
+    },
+    {
+      "source": "DW.com",
+      "count": 2,
+      "avg": -0.9271
+    },
+    {
       "source": "Russia Matters",
       "count": 2,
       "avg": -0.8271
@@ -524,11 +556,6 @@
       "source": "NBC News",
       "count": 1,
       "avg": 0.0
-    },
-    {
-      "source": "Radio Free Europe/Radio Liberty",
-      "count": 1,
-      "avg": -0.9423
     },
     {
       "source": "Forbes",
@@ -626,19 +653,9 @@
       "avg": -0.908
     },
     {
-      "source": "Defense Express",
-      "count": 1,
-      "avg": -0.8074
-    },
-    {
       "source": "The Sun",
       "count": 1,
       "avg": -0.9545
-    },
-    {
-      "source": "DW.com",
-      "count": 1,
-      "avg": -0.9325
     },
     {
       "source": "PBS",
@@ -684,44 +701,49 @@
       "source": "Firstpost",
       "count": 1,
       "avg": -0.9081
+    },
+    {
+      "source": "Toledo Blade",
+      "count": 1,
+      "avg": -0.8126
     }
   ],
   "top_entities": [
     {
       "name": "Ukraine",
       "type": "LOCATION",
-      "count": 167,
-      "avg": -0.685
+      "count": 178,
+      "avg": -0.6798
     },
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 145,
-      "avg": -0.7481
+      "count": 155,
+      "avg": -0.7372
     },
     {
       "name": "Vladimir Putin",
       "type": "PERSON",
-      "count": 46,
-      "avg": -0.684
+      "count": 48,
+      "avg": -0.6867
     },
     {
       "name": "Kyiv",
       "type": "LOCATION",
-      "count": 30,
-      "avg": -0.8021
+      "count": 36,
+      "avg": -0.8208
+    },
+    {
+      "name": "Volodymyr Zelensky",
+      "type": "PERSON",
+      "count": 29,
+      "avg": -0.7098
     },
     {
       "name": "Moscow",
       "type": "LOCATION",
       "count": 27,
       "avg": -0.8358
-    },
-    {
-      "name": "Volodymyr Zelensky",
-      "type": "PERSON",
-      "count": 27,
-      "avg": -0.742
     },
     {
       "name": "Crimea",
@@ -761,6 +783,91 @@
     }
   ],
   "recent": [
+    {
+      "title": "German prosecutors accuse Kyiv of ordering 2022 Nord Stream sabotage",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/02/german-prosecutors-accuse-kyiv-of-ordering-2022-nord-stream-sabotage",
+      "published": "2026-07-02T14:15:52+00:00",
+      "compound": -0.9679,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine",
+        "Kyiv"
+      ]
+    },
+    {
+      "title": "'Most massive' Russian attack on Kyiv kills at least 20",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE96dUpsLTQ3NVJJTExOeFkwREpNTmlEWjdKZGNJcXpJYjEwenhORmUwcWcxQnRWam81bzNNN0pidzl5bnF5dGpvZnNYTUU0LXAtT3MxY2gwcW9hUQ?oc=5",
+      "published": "2026-07-02T13:45:33+00:00",
+      "compound": -0.9291,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Kyiv"
+      ]
+    },
+    {
+      "title": "MPs seek to end UK broadcast of Russian ‘soft power’ cartoon Masha and the Bear",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/jul/02/mps-uk-broadcast-russian-cartoon-masha-and-the-bear",
+      "published": "2026-07-02T13:17:36+00:00",
+      "compound": -0.2023,
+      "label": "negative",
+      "entities": [
+        "Russia"
+      ]
+    },
+    {
+      "title": "Watch: BBC at site of deadly Russian attack on Kyiv flats",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/videos/c33yl1l8dkro?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-02T12:37:02+00:00",
+      "compound": -0.8676,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine",
+        "Kyiv"
+      ]
+    },
+    {
+      "title": "Facing New Pressure from Ukraine, Putin Signals Intent to Dig In",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQOFZuR1RfYXY2VlBVZTZmVGVyZjloUno4d2phY18zTFZKYWRkQTd6RzJOVHREeVZlYVZIcGl2ckgwbThMWTV4VkFDdzZtcFpMbWtPVkZrMlBMY2lVWXZ2eExvTV9DMzF1c0prdmFLMU1qU2YxLVNSd0xaM1U2YWdGUEFQcFRUekZYb2U3N2VsYw?oc=5",
+      "published": "2026-07-02T12:17:01+00:00",
+      "compound": -0.5267,
+      "label": "negative",
+      "entities": [
+        "Vladimir Putin",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Russia Scrambles To Recruit Enough Men For Ukraine War. Now It’s Also Forcing Them.",
+      "source": "Radio Free Europe/Radio Liberty",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPakxVcWdvdFVlWXB4UkJkTF81X2d5R3VYNGJ1eFFCd0YzYkpORHNvSk9XMVdhN3hnTmFlMXF4b01heDRkc2lVczdkanpaYUZ1LThMU19TWEg0dmZOUDR0cmtuRUpmVmFraDJabFJMMnBmNThURWZ1R3lSNkVhcU0zQkVZNXIza3VERVNMVC1R0gGQAUFVX3lxTE5PZHctVEdjS1VoQVVlQkZOOXNFOXotcDlGd0RkRmJkZWhHRVU0VjYzZGZ6MktacVB2TmJnMk1pcmNFLUViLWd0ZENOSnN6Y21uWXdxX3hHeEpjdi1pcEM4YUtPOFJUR3FrSjRqQUNIX2J1YkwyS2Z6QVBrNEd6Vjh1azhoRmFjX0U4NmlSc1RULQ?oc=5",
+      "published": "2026-07-02T10:44:34+00:00",
+      "compound": -0.2732,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Bloodier than Stalingrad: Casualties in Russia’s war on Ukraine reaches 2 million",
+      "source": "Toledo Blade",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQeVhHSEx1RWRIQXNxR0RTNmM2Q2dOYWEtZGJnVVZTa0ZlTzJOdnFzMVBoTjJvNjRsenMyXzJWMUZlUkdEM2x4VTNTOERmWlREdS01OEQwN3hQR2gxN1Z3SFVKQU91Zm10LXBnYXRoLVp5QWcyYjRtcmZ2MzQ4WDJ4QjJGbXk3TXpvUC1pYkJXZUt5T0hYaUlIYVBzXzdod1Bka1pUMzNtS2xjMUk?oc=5",
+      "published": "2026-07-02T09:55:16+00:00",
+      "compound": -0.8126,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
     {
       "title": "Kyiv attacks death toll rises to 17 as Russia warns it will ‘continue to increase pressure’ on the Ukrainian capital – Europe live",
       "source": "The Guardian",
@@ -848,6 +955,19 @@
       ]
     },
     {
+      "title": "Ukraine war latest: Putin briefed on Kyiv attacks after 'night of horror' in Ukraine",
+      "source": "Sky News",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPLVpyS19ObkZRNlJmcDYtdDNDcEhpdkQwVVp0X2FzQWJsTkNJWmRhRml3bTlxLXI3bXRfUkhDV0lGS1dCaUxZbmhUYklUaU5WZHdFWVhjb0dPNWJqV3hZYWZPUEZ5eEhsTlRDQnc3UE50TTZFRktYbXVKUU05dWVyZ1JJZ3lNaTg?oc=5",
+      "published": "2026-07-02T07:59:23+00:00",
+      "compound": -0.9682,
+      "label": "negative",
+      "entities": [
+        "Vladimir Putin",
+        "Ukraine",
+        "Kyiv"
+      ]
+    },
+    {
       "title": "Russia unleashes biggest attack yet on Kyiv, kills at least 13, mayor says",
       "source": "CBS News",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWU9DdUhnTzFPa1RGdjhMc0RBVXo2V3VDbkduQXJPNzUyM3F4Z2pMbzM3MC16d1pOWC1nVU5peDJyb0JER05DNHBQdUhFQzJiVThHU1hnaW1Zb0tqNGwyMVhRcWQ3bnlzbnJlZFJxSnM1eUNZaWdDUWxUNHRJV3h4aU1oRnFEcmxXUWc?oc=5",
@@ -857,6 +977,30 @@
       "entities": [
         "Russia",
         "Kyiv"
+      ]
+    },
+    {
+      "title": "Russian attack on Kyiv kills at least 13, injures dozens",
+      "source": "DW.com",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQckJPRDcxX1U0SEdQZkNOWFZXOW9aRXp6YkJjeGhJZ1ZIZjkwWjZXbV90V0NZYTZyUTV3OFBuV3U4M19XbUtuR3lrN1g1Wk90TndnLWFXN3BYbE1DX0NRNVJVazNscDdNLXZpMHBRS3FPR1d3SWdPM3IyLUlDM29vbjBkekRocEdz0gGnAUFVX3lxTE44U1JHYzJaUHJDVldkbmpIc3F2Rmk4MVRtTXZ6QkhoSXI0M2FMMVJ3MFdqUGhKNlNxRHBHM0c5WVR2Mnh6NkR4YWc1T1lUWHdpVkFvSHdCd2RVd040bnp6aUVtVWVFd2lVMnpUOEFnVEF2ODkzU0phNXZrSlEyb3Bya3lmVl94M3NCTWsyRVpDaTdIQUxsUzJrd0FuSGRpUUZxalF4X29j?oc=5",
+      "published": "2026-07-02T07:36:46+00:00",
+      "compound": -0.9217,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Kyiv"
+      ]
+    },
+    {
+      "title": "1590 Days of russia-Ukraine War – russian Casualties in Ukraine",
+      "source": "Defense Express",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMEhYX2FVaVRQQzB3el81eDJ2Y0VQNi1ZbWM5b3NJcmpvNEpDeVFJSFdnNjZmRGEyLWRIcDk1TmtuZEp4S3BEQjlRLVRtWC1RRHZtMnpyWnVMNXY0SlhWcHRFNFFrR011NkhkSUpyRnhlRHFPYVNZRkdtbGs1bEhlMWh2al9GcWxMM09KdzcwOVpWeEFldmxtN3ppWDd6X0cxcXFuVnh3?oc=5",
+      "published": "2026-07-02T06:33:00+00:00",
+      "compound": -0.8074,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
       ]
     },
     {
@@ -1371,126 +1515,6 @@
       "entities": [
         "Vladimir Putin",
         "Russia"
-      ]
-    },
-    {
-      "title": "Is Ukraine’s campaign of targeting Russian refineries working?",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRGIxQXZGY2J0cDVfQlZqcDczYUU3WVVjOW96ZmoxX1BSdkxPcURsRnM0YmtTbnFheUsyR0ItZU9tV1VEVkxZSnNXWVFLakJUQi0zN2YySXc0OEl3ZGUtclJNMkVDbU1rdURLLW0yN25JOHhFNElwcHhGejAtMWgzVFo0clVKLUVDdUNDMFhDelhDajdGZUMyLWljUGNsdEdlLVJPTDhfVdIBrAFBVV95cUxPZEFKQWItMUY0NDFxbEpIMHpsdjh5bDA2ZGo0Z0ViM1VLTWNRLWROVnA4T2ZXT2pxV3pyTW1nelVrSEZLRG14MXF1aVJYSXRiQzRWZzNsaFktQjVITWhEOUZxOUpCUHdkMjBxVDZzd2RXYWZyN1JUYk9RUm4tQVF3elJwamRRbVQ0eUNhaWFZcmNjODduZlVzUzJjdWJNTkU2aU9KSDE3OGlQWEND?oc=5",
-      "published": "2026-07-01T15:39:30+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Is Ukraine’s campaign of targeting Russian refineries working?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/opinions/2026/7/1/is-ukraines-campaign-of-targeting-russian-refineries-working?traffic_source=rss",
-      "published": "2026-07-01T15:29:46+00:00",
-      "compound": 0.4404,
-      "label": "positive",
-      "entities": [
-        "Vladimir Putin",
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Putin suffers fresh humiliating blow as tyrant loses 26,000 troops within one month in biggest toll of Ukraine war yet",
-      "source": "the-sun.com",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX1JjSW5HVGZRRnBETENPN2dPYlhWSHZFVXlFSGpNZHdiT1d6bl9HYUdVbnB1X3FINzczTlBXSVNaeVVhcFhqZmFZTmdxSV9IRUo2eldPeEhMaGt6cGVrdmp2WUtrQXdybTgxRm14Q0JHbHZ6Y3JWcXhlNG5oNUNNdFBEcm9EeEtk?oc=5",
-      "published": "2026-07-01T15:19:39+00:00",
-      "compound": -0.9545,
-      "label": "negative",
-      "entities": [
-        "Vladimir Putin",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Putin suffers fresh humiliating blow as tyrant loses 26,000 troops within one month in biggest toll of Ukraine war yet",
-      "source": "The Sun",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRFVGMTUxZXJYQ1RxOHBBaGlINWFVY1hUX3QxTnFCY3ZvRml4UHJac2VMcFpTdUFsbHZRTWxMN3UwQzZlVFRKZEtyeGItamFKazVuVlJMdjBCOXRjblNFOUZLNTFpZUJmX084QWl4d2dRQ1l5aVRmY0dtYWZteVV2Rm1oZWFuQnZVZVE?oc=5",
-      "published": "2026-07-01T15:17:00+00:00",
-      "compound": -0.9545,
-      "label": "negative",
-      "entities": [
-        "Vladimir Putin",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Who is Vadym Yermolaiev, the Ukrainian tycoon injured in Monaco blast?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/1/who-is-vadym-yermolaiev-the-ukrainian-tycoon-injured-in-monaco-blast?traffic_source=rss",
-      "published": "2026-07-01T15:15:39+00:00",
-      "compound": -0.5994,
-      "label": "negative",
-      "entities": [
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Half a million Russian troops killed in Ukraine war as drones cause havoc",
-      "source": "The Independent",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeTlnS0JXY203aUdtX0dMV3RxenpQdlJVNXNDZ2RfWVh6MFFoa1NPV1JUR1ZaTGNtdHVlUHNCLUJRMFN5SWFoUU41SzVCb3RTNjJCWmZSVjducF82QWQ2cGRrRXdVdVVCMGN1Q2dQRkE3SjdCZF9JalJ5MGJnbGQ5VGlfd2t4SEpDWHg2UnNEMW9KRDdsZVhWMC1TdkZRYjgtRFF5bzlfTlJqM19Q?oc=5",
-      "published": "2026-07-01T15:15:00+00:00",
-      "compound": -0.979,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Amid war on Ukraine, 'over half of Russians expressing pessimism for the first time in 20 years'",
-      "source": "France 24",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWnB0cHFkUmRwN0dQWUFXQTQyU1BQeGp5a2czRDh1bUd0OHUtR3RCbXU2aTJTNlNlbUw3SlA2UnNneHZLR0QtdEhsbEZQZWhqanpobFZBWjV2Y1NFbTVHdzdPVTNPV3BkTno5UXhjX2pvYm50UXlvRENXSk81M1o2WXRHR09DckFuVmJadEsycDM3bnNRRXN3dVBnUms0d3d3a2IycWRjTkF1bjVqTVduV0M4R2t1aWV4QXdwbGR3?oc=5",
-      "published": "2026-07-01T14:54:04+00:00",
-      "compound": -0.9153,
-      "label": "negative",
-      "entities": [
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Ukraine strikes Russian oil refinery as Zelenskyy calls for Moscow to end war",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQamwyWk9KeWNYWEtVZ1RXVGl5aG9LQjFpM0V6YW1od3Zad3dCcXpxVFZRRXJoaHFxTUJTbjBHSC1jMHNSazU0NTNjdFk0dkFURUpENHBqamNaano0R2xUT0hHVF9RRDJySzBqUDJ6S3d6cXlnSDZZRUttMC1Xc0k3TmdESXE2eTJnWnozQ2lNcWE3SXFneUZjVHFPR3NmcTBVREUzQzlRcVdWZTUwdlBuOXdR0gG3AUFVX3lxTE1WZV85ZjIwLTdoMjdyQkhscW5qdThrYTc3SVgwUnBkbjU1VGhlODdyTVpxU08xZkxhTVdYT0RDNDBhbG1FZFRxZG5JU255cXRwSTIwUEVVdERsanRKbmpHZUFaR1gyQ1Bib1ZqOXctQlNTYjNMUWlOa0VpSkpwUzlBQ2VjLXo3MVZWSURSVk10VVczVzRmRk5aQ1g5OEpBSFlCYnE2bkVVbWJ4aG4wLTZ5VkNMbFBHMA?oc=5",
-      "published": "2026-07-01T14:52:14+00:00",
-      "compound": -0.9153,
-      "label": "negative",
-      "entities": [
-        "Volodymyr Zelensky",
-        "Russia",
-        "Ukraine",
-        "Moscow"
-      ]
-    },
-    {
-      "title": "Ukrainian drone attacks on oil refineries plunge Russia into a summer fuel crisis",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVWhCd0owd29LOGZjcXNhWmpEaVRIb1lyUE5jamlUVlhLNE5aMWVPLUVvTTdDSlRUNkNIa2RjS2NUY3gyZG5VWHl1bV9IUERWVkR4NlpHYk9xZ3pzY2VOZUdpdWtZNzhYTVEtWjJ1c0xvTlJjZVZ3STlBcmFtUl96RnRoZHA2dFRxVXZSUzZCQmZCbldBT0hEZ1Zn?oc=5",
-      "published": "2026-07-01T14:14:00+00:00",
-      "compound": -0.9325,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Putin Is Slipping Into Delusion",
-      "source": "The Atlantic",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVVItQ1NxdFI2bHFqS2ZBQm02MlpCMVFjQm5ybEdtcFZPWWdIRjRDWlRfX0QteUNONU9JaDRUQWgtUGdzY1QxRnV0UElXSllqN05EOVl0ZWpkX0NoMEZEaTZKQjRJZkhZYkxQZWFqTDJIT21Rbl94Zkl0VGxDRkRUcmlzZm0xVkJiMzk5ZS0ycw?oc=5",
-      "published": "2026-07-01T14:12:27+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Vladimir Putin"
       ]
     }
   ]

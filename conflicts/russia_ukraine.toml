@@ -9,6 +9,7 @@
 id = "russia_ukraine"
 name = "Rusia–Ucrania"
 description = "Cobertura mediática del conflicto entre Rusia y Ucrania"
+start_date = "2022-02-24"   # inicio de la invasión a gran escala (para baselines)
 
 # Un artículo se incluye sólo si su título o resumen contiene al menos una de
 # estas palabras (sin distinguir mayúsculas). Filtra el ruido de los feeds
@@ -123,3 +124,394 @@ aliases = ["european union"]
 name = "United Nations"
 type = "ORG"
 aliases = ["united nations"]
+
+# -----------------------------------------------------------------------------
+#  PESTAÑA MILITAR
+#  Los eventos se extraen de los artículos ya scrapeados: si un artículo con
+#  vocabulario militar menciona un lugar del gazetteer de abajo, se geolocaliza.
+#  Las pérdidas vienen de un dataset público (reclamo del Estado Mayor ucraniano).
+# -----------------------------------------------------------------------------
+
+[military]
+losses_personnel_url = "https://raw.githubusercontent.com/PetroIvaniuk/2022-Ukraine-Russia-War-Dataset/main/data/russia_losses_personnel.json"
+losses_equipment_url = "https://raw.githubusercontent.com/PetroIvaniuk/2022-Ukraine-Russia-War-Dataset/main/data/russia_losses_equipment.json"
+losses_caveat = "Pérdidas rusas según el Estado Mayor de Ucrania: estimación de una de las partes, no verificada de forma independiente."
+events_caveat = "Eventos extraídos automáticamente de titulares de prensa (no confirmación en terreno). La geolocalización es a nivel ciudad/zona."
+
+# --- Gazetteer de lugares (lat/lon a nivel ciudad) ---
+# metonym = true: la ciudad se usa como sinónimo del gobierno ("Moscow rejects...")
+# y sólo se geolocaliza un evento ahí si ningún otro lugar aparece en la noticia.
+
+[[places]]
+name = "Kyiv"
+aliases = ["kiev"]
+lat = 50.4501
+lon = 30.5234
+metonym = true
+
+[[places]]
+name = "Moscow"
+aliases = []
+lat = 55.7558
+lon = 37.6173
+metonym = true
+
+[[places]]
+name = "Kharkiv"
+aliases = ["kharkov"]
+lat = 49.9935
+lon = 36.2304
+
+[[places]]
+name = "Odesa"
+aliases = ["odessa"]
+lat = 46.4825
+lon = 30.7233
+
+[[places]]
+name = "Dnipro"
+aliases = ["dnipropetrovsk"]
+lat = 48.4647
+lon = 35.0462
+
+[[places]]
+name = "Lviv"
+aliases = []
+lat = 49.8397
+lon = 24.0297
+
+[[places]]
+name = "Zaporizhzhia"
+aliases = ["zaporizhia", "zaporozhye"]
+lat = 47.8388
+lon = 35.1396
+
+[[places]]
+name = "Mariupol"
+aliases = []
+lat = 47.0971
+lon = 37.5434
+
+[[places]]
+name = "Donetsk"
+aliases = []
+lat = 48.0159
+lon = 37.8029
+
+[[places]]
+name = "Luhansk"
+aliases = ["lugansk"]
+lat = 48.5740
+lon = 39.3078
+
+[[places]]
+name = "Bakhmut"
+aliases = ["bakhmutske"]
+lat = 48.5941
+lon = 38.0021
+
+[[places]]
+name = "Avdiivka"
+aliases = ["avdeevka"]
+lat = 48.1394
+lon = 37.7497
+
+[[places]]
+name = "Kupiansk"
+aliases = ["kupyansk"]
+lat = 49.7106
+lon = 37.6156
+
+[[places]]
+name = "Kherson"
+aliases = []
+lat = 46.6354
+lon = 32.6169
+
+[[places]]
+name = "Mykolaiv"
+aliases = ["nikolaev"]
+lat = 46.9750
+lon = 31.9946
+
+[[places]]
+name = "Sumy"
+aliases = []
+lat = 50.9077
+lon = 34.7981
+
+[[places]]
+name = "Chernihiv"
+aliases = ["chernigov"]
+lat = 51.4982
+lon = 31.2893
+
+[[places]]
+name = "Poltava"
+aliases = []
+lat = 49.5883
+lon = 34.5514
+
+[[places]]
+name = "Kryvyi Rih"
+aliases = ["krivoy rog"]
+lat = 47.9105
+lon = 33.3918
+
+[[places]]
+name = "Sevastopol"
+aliases = []
+lat = 44.6166
+lon = 33.5254
+
+[[places]]
+name = "Simferopol"
+aliases = []
+lat = 44.9521
+lon = 34.1024
+
+[[places]]
+name = "Kerch"
+aliases = ["kerch strait", "kerch bridge"]
+lat = 45.3531
+lon = 36.4545
+
+[[places]]
+name = "Melitopol"
+aliases = []
+lat = 46.8489
+lon = 35.3653
+
+[[places]]
+name = "Berdiansk"
+aliases = ["berdyansk"]
+lat = 46.7553
+lon = 36.7885
+
+[[places]]
+name = "Enerhodar"
+aliases = ["energodar", "zaporizhzhia nuclear"]
+lat = 47.4989
+lon = 34.6558
+
+[[places]]
+name = "Izium"
+aliases = ["izyum"]
+lat = 49.2128
+lon = 37.2569
+
+[[places]]
+name = "Lyman"
+aliases = []
+lat = 48.9898
+lon = 37.8021
+
+[[places]]
+name = "Kramatorsk"
+aliases = []
+lat = 48.7389
+lon = 37.5848
+
+[[places]]
+name = "Sloviansk"
+aliases = ["slavyansk", "slovyansk"]
+lat = 48.8532
+lon = 37.6045
+
+[[places]]
+name = "Pokrovsk"
+aliases = []
+lat = 48.2820
+lon = 37.1760
+
+[[places]]
+name = "Toretsk"
+aliases = []
+lat = 48.3959
+lon = 37.8482
+
+[[places]]
+name = "Chasiv Yar"
+aliases = ["chasiv-yar"]
+lat = 48.5936
+lon = 38.2812
+
+[[places]]
+name = "Vuhledar"
+aliases = ["ugledar"]
+lat = 47.7799
+lon = 37.2486
+
+[[places]]
+name = "Orikhiv"
+aliases = ["orikhove"]
+lat = 47.5672
+lon = 35.7857
+
+[[places]]
+name = "Nikopol"
+aliases = []
+lat = 47.5772
+lon = 34.3575
+
+[[places]]
+name = "Vovchansk"
+aliases = []
+lat = 50.2907
+lon = 36.9455
+
+[[places]]
+name = "Belgorod"
+aliases = []
+lat = 50.5977
+lon = 36.5858
+
+[[places]]
+name = "Kursk"
+aliases = []
+lat = 51.7304
+lon = 36.1926
+
+[[places]]
+name = "Bryansk"
+aliases = []
+lat = 53.2521
+lon = 34.3717
+
+[[places]]
+name = "Rostov-on-Don"
+aliases = ["rostov"]
+lat = 47.2357
+lon = 39.7015
+
+[[places]]
+name = "Voronezh"
+aliases = []
+lat = 51.6608
+lon = 39.2003
+
+[[places]]
+name = "Novorossiysk"
+aliases = []
+lat = 44.7239
+lon = 37.7708
+
+[[places]]
+name = "Engels"
+aliases = ["engels air base"]
+lat = 51.4827
+lon = 46.1123
+
+# -----------------------------------------------------------------------------
+#  PESTAÑA ECONÓMICA
+#  Series de mercado (Yahoo Finance, semanal, sin API key) + snapshot curado de
+#  ayuda internacional. baseline: el frontend calcula la variación % contra la
+#  última cotización previa a start_date.
+# -----------------------------------------------------------------------------
+
+[economy]
+note = "El petróleo financia el presupuesto ruso; el trigo mide el impacto en seguridad alimentaria global; el rublo y la grivna son el pulso financiero de cada bando."
+
+[[economy.markets]]
+id = "brent"
+name = "Petróleo Brent"
+unit = "USD/barril"
+group = "commodity"
+symbol = "BZ=F"
+
+[[economy.markets]]
+id = "wheat"
+name = "Trigo (Chicago)"
+unit = "¢/bushel"
+group = "commodity"
+symbol = "ZW=F"
+
+[[economy.markets]]
+id = "natgas"
+name = "Gas natural (Henry Hub)"
+unit = "USD/MMBtu"
+group = "commodity"
+symbol = "NG=F"
+
+[[economy.markets]]
+id = "usdrub"
+name = "USD/RUB (rublo ruso)"
+unit = "₽ por USD"
+group = "fx"
+symbol = "RUB=X"
+
+[[economy.markets]]
+id = "usduah"
+name = "USD/UAH (grivna ucraniana)"
+unit = "₴ por USD"
+group = "fx"
+symbol = "UAH=X"
+
+# --- Ayuda internacional a Ucrania (asignaciones, miles de millones de €) ---
+# Snapshot manual aproximado del Kiel Institute Ukraine Support Tracker.
+# Actualizar de vez en cuando desde https://www.ifw-kiel.de/topics/war-against-ukraine/ukraine-support-tracker/
+
+[economy.aid]
+as_of = "2025-12"
+source = "Kiel Institute Ukraine Support Tracker (cifras aproximadas)"
+unit = "mil millones €"
+
+[[economy.aid.donors]]
+donor = "Estados Unidos"
+military = 65.0
+financial = 46.0
+humanitarian = 4.0
+
+[[economy.aid.donors]]
+donor = "Instituciones UE"
+military = 7.0
+financial = 68.0
+humanitarian = 3.0
+
+[[economy.aid.donors]]
+donor = "Alemania"
+military = 19.0
+financial = 1.5
+humanitarian = 5.0
+
+[[economy.aid.donors]]
+donor = "Reino Unido"
+military = 15.0
+financial = 3.5
+humanitarian = 2.5
+
+[[economy.aid.donors]]
+donor = "Japón"
+military = 0.5
+financial = 9.0
+humanitarian = 2.5
+
+[[economy.aid.donors]]
+donor = "Dinamarca"
+military = 9.0
+financial = 0.3
+humanitarian = 0.4
+
+[[economy.aid.donors]]
+donor = "Países Bajos"
+military = 8.0
+financial = 0.6
+humanitarian = 1.0
+
+[[economy.aid.donors]]
+donor = "Canadá"
+military = 4.5
+financial = 5.5
+humanitarian = 1.0
+
+[[economy.aid.donors]]
+donor = "Noruega"
+military = 4.5
+financial = 3.5
+humanitarian = 1.5
+
+[[economy.aid.donors]]
+donor = "Polonia"
+military = 3.0
+financial = 0.7
+humanitarian = 1.0

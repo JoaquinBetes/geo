@@ -1,9 +1,14 @@
-# Dashboard de tono geopolítico
+# GEO//MONITOR — Monitor de conflictos OSINT
 
-Trackea cómo cambia el **tono** (análisis de sentimiento) y qué **entidades**
-aparecen en la cobertura mediática de un conflicto, a lo largo del tiempo.
+Dashboard de fuentes abiertas que sigue un conflicto en **tres ejes cruzables**:
 
-**Pipeline:** RSS (scraping) → NLP (sentimiento + entidades) → JSON → dashboard estático.
+| Pestaña | Qué mide | Fuente |
+|---|---|---|
+| **01 Narrativa** | Tono (sentimiento) y entidades en la cobertura mediática | RSS de medios + Google News |
+| **02 Militar** | Eventos geolocalizados, anomalías de actividad, pérdidas | Eventos derivados de las propias noticias + dataset del Estado Mayor ucraniano |
+| **03 Economía** | Commodities, tipos de cambio, ayuda internacional | Yahoo Finance (sin key) + snapshot del Kiel Institute |
+
+**Pipeline:** RSS/APIs → NLP y agregación (Python puro) → JSON estático → dashboard (Chart.js + Leaflet). Sin backend, sin API keys, deploy en GitHub Pages con actualización automática vía Actions.
 
 Arranca con **Rusia–Ucrania** y está diseñado para agregar otros conflictos
 (China–Taiwán, etc.) con sólo copiar un archivo de configuración.
@@ -11,22 +16,35 @@ Arranca con **Rusia–Ucrania** y está diseñado para agregar otros conflictos
 ## Cómo funciona
 
 ```
-conflicts/*.toml   →   pipeline/   →   docs/data/*.json   →   docs/ (dashboard)
-  (config)          (Python: RSS+NLP)   (datos generados)     (HTML+JS estático)
+conflicts/*.toml   →   pipeline/           →   docs/data/<id>/*.json   →   docs/ (dashboard)
+  (config)            (Python: fetch+NLP)       (datos generados)          (HTML+JS estático)
 ```
 
-- **`conflicts/`** — un `.toml` por conflicto: feeds RSS, palabras clave y
-  entidades a trackear.
-- **`pipeline/`** — código Python:
+- **`conflicts/`** — un `.toml` por conflicto: feeds RSS, keywords, entidades,
+  gazetteer de lugares (lat/lon), datasets de pérdidas y series de mercado.
+- **`pipeline/`** — código Python (100% puro, sin compilar):
   - `fetch.py` descarga y filtra artículos de los RSS.
-  - `analyze.py` calcula sentimiento (VADER) y detecta entidades (gazetteer).
-  - `store.py` acumula el histórico y arma los agregados.
-  - `run.py` orquesta todo.
-- **`docs/`** — el sitio estático que sirve GitHub Pages. Lee los JSON de
-  `docs/data/` y dibuja los gráficos con Chart.js.
+  - `analyze.py` sentimiento (VADER) + entidades (gazetteer).
+  - `military.py` extrae eventos geolocalizados de las noticias (estilo GDELT),
+    detecta picos anómalos (media móvil 30 d + 2σ) y baja las pérdidas.
+  - `econ.py` series de mercado semanales de Yahoo Finance, con baseline pre-guerra.
+  - `store.py` histórico acumulativo + agregados.
+  - `run.py` orquesta; cada capa es tolerante a fallos de su fuente.
+- **`docs/`** — sitio estático (Pages): `js/core.js` (estado y pestañas),
+  `js/narrative.js`, `js/military.js` (mapa Leaflet + heatmap), `js/economy.js`.
 
-El histórico (`docs/data/<id>/articles.jsonl`) se **acumula con cada corrida**:
-así se puede ver la evolución del discurso en el tiempo.
+El histórico de artículos (`docs/data/<id>/articles.jsonl`) se **acumula con
+cada corrida**: la profundidad temporal del dashboard crece sola con el cron.
+
+## Honestidad metodológica (importante)
+
+- Los **eventos militares** se extraen automáticamente de titulares: miden
+  *cobertura de eventos por la prensa*, no confirmación en terreno.
+- Las **pérdidas** son el reclamo del Estado Mayor de Ucrania: estimación de
+  una de las partes, no verificada independientemente.
+- La **ayuda internacional** es un snapshot manual aproximado del Kiel Institute
+  Ukraine Support Tracker (actualizar de tanto en tanto en el TOML).
+- Cada caveat se muestra en el propio dashboard, junto al dato.
 
 ## Correr localmente (Windows)
 
@@ -51,32 +69,29 @@ así se puede ver la evolución del discurso en el tiempo.
 ## Agregar otro conflicto
 
 1. Copiá `conflicts/russia_ukraine.toml` a, por ejemplo, `conflicts/china_taiwan.toml`.
-2. Cambiá `id`, `name`, `keywords`, los `feeds` y las `entities`.
-3. Corré `python -m pipeline.run`. El dashboard suma el conflicto solo (aparece
-   en el selector de arriba).
-
-No hay que tocar código: el pipeline levanta todos los `.toml` de `conflicts/`.
+2. Cambiá `id`, `name`, `keywords`, `feeds`, `entities` y — si querés esas
+   pestañas — `places` (militar) y `economy.markets` (economía). Las pestañas
+   sin config simplemente no aparecen para ese conflicto.
+3. Corré `python -m pipeline.run`. Aparece solo en el selector.
 
 ## Desplegar en GitHub (Pages + Actions)
 
-1. Subí el repo a GitHub (tiene que ser **público** para que Pages y los
-   workflows programados sean gratis e ilimitados).
-2. **Settings → Pages** → *Build and deployment* → Source: **Deploy from a
-   branch** → Branch: `main`, carpeta: **`/docs`** → Save.
-3. **Settings → Actions → General** → *Workflow permissions* → marcá
-   **Read and write permissions** (para que el bot pueda commitear la data).
-4. El workflow `.github/workflows/update.yml` corre solo cada 6 horas. Para
-   probarlo ya: **Actions → Actualizar dashboard → Run workflow**.
+1. Repo **público** (Pages y cron gratis e ilimitados).
+2. **Settings → Pages** → Deploy from a branch → `main` + carpeta **`/docs`**.
+3. **Settings → Actions → General** → Workflow permissions → **Read and write**.
+4. `.github/workflows/update.yml` corre cada 6 h; para probar ya:
+   **Actions → Actualizar dashboard → Run workflow**.
 
-Tu dashboard queda en `https://<usuario>.github.io/<repo>/`.
+> Recordatorio: en repos públicos, GitHub desactiva los workflows programados
+> tras 60 días sin actividad. Cualquier push los reactiva.
 
 ## Limitaciones y próximos pasos
 
-- **Sentimiento (VADER):** liviano y sin modelos, pero está afinado para textos
-  cortos en inglés estilo redes sociales. Para titulares de noticias es un buen
-  primer paso; se puede mejorar con un modelo transformer afinado en noticias.
-- **Entidades (gazetteer):** listamos a mano las entidades por conflicto. Es
-  preciso y rápido, pero no descubre entidades nuevas. Se puede reemplazar por
-  NER real (spaCy / transformers) sin tocar el resto del pipeline.
-- **Histórico:** los RSS sólo traen lo reciente; el histórico se construye a
-  medida que el cron va corriendo día a día.
+- **VADER** está afinado para inglés corto; un transformer afinado en noticias
+  mejoraría el matiz. Es enchufable en `analyze.py`.
+- El **gazetteer** (entidades y lugares) no descubre nombres nuevos; NER real
+  (spaCy/transformers) es el upgrade natural, sin tocar el resto.
+- **Pestaña energética** (Zaporiyia, ataques a la red, flujo de gas): la
+  arquitectura de pestañas ya lo soporta; falta la fuente de datos.
+- El histórico de artículos crece con el tiempo; si el repo engorda, podar o
+  mover el store.

@@ -3,83 +3,160 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dashboard de tono geopolítico</title>
+  <title>GEO // Monitor de conflictos OSINT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <link rel="stylesheet" href="style.css" />
-  <!-- Chart.js por CDN: no necesitamos build ni npm para el frontend. -->
+  <!-- Todo por CDN: sin build, sin npm. Pages sólo sirve archivos. -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
 </head>
 <body>
+  <!-- Franja superior estilo "documento clasificado" (es todo lo contrario: OSINT) -->
+  <div class="classification">OSINT · FUENTES ABIERTAS · SIN CLASIFICAR · ACTUALIZACIÓN AUTOMÁTICA CADA 6 H</div>
+
   <header class="topbar">
-    <div>
-      <h1>Tono geopolítico</h1>
-      <p class="subtitle">Sentimiento y entidades en la cobertura mediática, en el tiempo</p>
+    <div class="brand">
+      <h1>GEO<span class="slash">//</span>MONITOR</h1>
+      <p class="subtitle">Narrativa mediática · Actividad militar · Impacto económico</p>
     </div>
-    <div class="controls">
-      <label for="conflict-select">Conflicto</label>
-      <select id="conflict-select"></select>
+    <div class="readouts">
+      <div class="readout">
+        <label class="r-label" for="conflict-select">Conflicto</label>
+        <select id="conflict-select"></select>
+      </div>
+      <div class="readout">
+        <span class="r-label">Actualizado</span>
+        <span class="r-value" id="hdr-updated">–</span>
+      </div>
     </div>
   </header>
 
+  <nav class="tabs" id="tabs">
+    <button class="tab-btn" data-tab="narrative"><span class="tab-num">01</span>Narrativa</button>
+    <button class="tab-btn" data-tab="military"><span class="tab-num">02</span>Militar</button>
+    <button class="tab-btn" data-tab="economy"><span class="tab-num">03</span>Economía</button>
+  </nav>
+
   <main id="dashboard" hidden>
-    <!-- Tarjetas KPI -->
-    <section class="kpis">
-      <div class="card kpi">
-        <span class="kpi-label">Artículos</span>
-        <span class="kpi-value" id="kpi-total">–</span>
-      </div>
-      <div class="card kpi">
-        <span class="kpi-label">Tono promedio</span>
-        <span class="kpi-value" id="kpi-sentiment">–</span>
-      </div>
-      <div class="card kpi">
-        <span class="kpi-label">Medios</span>
-        <span class="kpi-value" id="kpi-sources">–</span>
-      </div>
-      <div class="card kpi">
-        <span class="kpi-label">Actualizado</span>
-        <span class="kpi-value small" id="kpi-updated">–</span>
-      </div>
-    </section>
 
-    <!-- Serie temporal -->
-    <section class="card wide">
-      <h2>Tono a lo largo del tiempo</h2>
-      <p class="hint">Línea = tono promedio diario (-1 a 1) · Barras = cantidad de artículos</p>
-      <div class="chart-box tall"><canvas id="chart-timeline"></canvas></div>
-    </section>
-
-    <div class="grid-2">
-      <section class="card">
-        <h2>Distribución de sentimiento</h2>
-        <div class="chart-box"><canvas id="chart-dist"></canvas></div>
+    <!-- ============================ 01 NARRATIVA ============================ -->
+    <section id="tab-narrative" class="tab-panel">
+      <section class="kpis">
+        <div class="card kpi"><span class="kpi-label">Artículos</span><span class="kpi-value" id="kpi-total">–</span></div>
+        <div class="card kpi"><span class="kpi-label">Tono promedio</span><span class="kpi-value" id="kpi-sentiment">–</span></div>
+        <div class="card kpi"><span class="kpi-label">Medios</span><span class="kpi-value" id="kpi-sources">–</span></div>
+        <div class="card kpi"><span class="kpi-label">Negativos</span><span class="kpi-value" id="kpi-negpct">–</span></div>
       </section>
-      <section class="card">
-        <h2>Medios con más cobertura</h2>
-        <div class="chart-box"><canvas id="chart-sources"></canvas></div>
-      </section>
-    </div>
 
-    <section class="card wide">
-      <h2>Entidades más mencionadas</h2>
-      <p class="hint">Largo = menciones · Color = tono promedio con el que aparecen</p>
-      <div class="chart-box tall"><canvas id="chart-entities"></canvas></div>
+      <section class="card wide">
+        <h2>Tono a lo largo del tiempo</h2>
+        <p class="hint">Línea = tono promedio diario (−1 a 1) · Barras = cantidad de artículos</p>
+        <div class="chart-box tall"><canvas id="chart-timeline"></canvas></div>
+      </section>
+
+      <div class="grid-2">
+        <section class="card">
+          <h2>Distribución de sentimiento</h2>
+          <div class="chart-box"><canvas id="chart-dist"></canvas></div>
+        </section>
+        <section class="card">
+          <h2>Medios con más cobertura</h2>
+          <div class="chart-box"><canvas id="chart-sources"></canvas></div>
+        </section>
+      </div>
+
+      <section class="card wide">
+        <h2>Entidades más mencionadas</h2>
+        <p class="hint">Largo = menciones · Color = tono promedio con el que aparecen</p>
+        <div class="chart-box tall"><canvas id="chart-entities"></canvas></div>
+      </section>
+
+      <section class="card wide">
+        <h2>Titulares recientes</h2>
+        <ul id="recent-list" class="recent"></ul>
+      </section>
     </section>
 
-    <section class="card wide">
-      <h2>Titulares recientes</h2>
-      <ul id="recent-list" class="recent"></ul>
+    <!-- ============================ 02 MILITAR ============================= -->
+    <section id="tab-military" class="tab-panel" hidden>
+      <section class="kpis">
+        <div class="card kpi"><span class="kpi-label">Eventos últimos 7 días</span><span class="kpi-value" id="mil-kpi-events">–</span><span class="kpi-sub" id="mil-kpi-events-sub"></span></div>
+        <div class="card kpi"><span class="kpi-label">Zona más activa (30 d)</span><span class="kpi-value small-lg" id="mil-kpi-hot">–</span></div>
+        <div class="card kpi"><span class="kpi-label">Bajas rusas (reclamo ucr.)</span><span class="kpi-value" id="mil-kpi-personnel">–</span><span class="kpi-sub" id="mil-kpi-personnel-sub"></span></div>
+        <div class="card kpi"><span class="kpi-label">Tanques destruidos</span><span class="kpi-value" id="mil-kpi-tanks">–</span><span class="kpi-sub" id="mil-kpi-tanks-sub"></span></div>
+      </section>
+
+      <section class="card wide">
+        <div class="card-head">
+          <div>
+            <h2>Mapa de eventos reportados</h2>
+            <p class="hint" id="mil-map-caveat"></p>
+          </div>
+          <label class="toggle"><input type="checkbox" id="heat-toggle" /> Mapa de calor</label>
+        </div>
+        <div id="map"></div>
+        <div class="legend" id="map-legend"></div>
+      </section>
+
+      <section class="card wide">
+        <h2>Actividad diaria por tipo de evento</h2>
+        <p class="hint">▲ = pico anómalo (supera media móvil 30 d + 2σ)</p>
+        <div class="chart-box tall"><canvas id="chart-mil-daily"></canvas></div>
+      </section>
+
+      <section class="card wide">
+        <h2>Cruce: narrativa vs. actividad militar</h2>
+        <p class="hint">¿El tono de los medios reacciona a los picos de eventos en el terreno?</p>
+        <div class="chart-box"><canvas id="chart-mil-corr"></canvas></div>
+      </section>
+
+      <section class="card wide">
+        <h2>Desgaste: pérdidas acumuladas de equipamiento</h2>
+        <p class="hint" id="mil-losses-caveat"></p>
+        <div class="counter-grid" id="equip-counters"></div>
+        <div class="chart-box tall"><canvas id="chart-mil-equip"></canvas></div>
+      </section>
+
+      <section class="card wide">
+        <h2>Bajas de personal (acumulado y ritmo semanal)</h2>
+        <div class="chart-box tall"><canvas id="chart-mil-personnel"></canvas></div>
+      </section>
+    </section>
+
+    <!-- ============================ 03 ECONOMÍA ============================ -->
+    <section id="tab-economy" class="tab-panel" hidden>
+      <section class="kpis" id="eco-kpis"></section>
+
+      <section class="card wide note" id="eco-note-card">
+        <h2>Cómo leer estos indicadores</h2>
+        <p class="hint" id="eco-note"></p>
+      </section>
+
+      <div class="grid-2" id="eco-markets"></div>
+
+      <section class="card wide" id="eco-aid-card">
+        <h2>Ayuda internacional a Ucrania por donante</h2>
+        <p class="hint" id="eco-aid-caveat"></p>
+        <div class="chart-box tall"><canvas id="chart-eco-aid"></canvas></div>
+      </section>
     </section>
   </main>
 
   <div id="empty" class="empty" hidden>
-    <p>Todavía no hay datos. Corré el pipeline con
-      <code>python -m pipeline.run</code> y recargá.</p>
+    <p>Todavía no hay datos. Corré el pipeline con <code>python -m pipeline.run</code> y recargá.</p>
   </div>
 
   <footer class="foot">
-    <span>Scraping RSS → sentimiento (VADER) + entidades → visualización.</span>
+    <span>Pipeline abierto: RSS → NLP (VADER + gazetteer) → JSON estático → este dashboard. Sin backend.</span>
   </footer>
 
-  <script src="app.js"></script>
+  <script src="js/core.js"></script>
+  <script src="js/narrative.js"></script>
+  <script src="js/military.js"></script>
+  <script src="js/economy.js"></script>
+  <script>boot();</script>
 </body>
 </html>

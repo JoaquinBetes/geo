@@ -168,6 +168,23 @@ def write_summary(conflict_id: str, summary: dict) -> None:
         json.dump(summary, f, ensure_ascii=False, indent=2)
 
 
+def write_json(conflict_id: str, filename: str, obj: dict) -> None:
+    """Escribe un JSON arbitrario en la carpeta de datos del conflicto."""
+    d = _conflict_dir(conflict_id)
+    d.mkdir(parents=True, exist_ok=True)
+    with (d / filename).open("w", encoding="utf-8") as f:
+        json.dump(obj, f, ensure_ascii=False, indent=2)
+
+
+def read_json(conflict_id: str, filename: str) -> dict | None:
+    """Lee un JSON previo (None si todavía no existe)."""
+    path = _conflict_dir(conflict_id) / filename
+    if not path.exists():
+        return None
+    with path.open(encoding="utf-8") as f:
+        return json.load(f)
+
+
 def write_index(entries: list[dict]) -> None:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     index = {"updated": _now_iso(), "conflicts": entries}

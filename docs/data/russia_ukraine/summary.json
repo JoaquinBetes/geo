@@ -2,13 +2,13 @@
   "id": "russia_ukraine",
   "name": "Rusia–Ucrania",
   "description": "Cobertura mediática del conflicto entre Rusia y Ucrania",
-  "updated": "2026-07-03T04:08:53+00:00",
-  "total_articles": 250,
-  "overall_avg": -0.6987,
+  "updated": "2026-07-03T09:35:04+00:00",
+  "total_articles": 256,
+  "overall_avg": -0.7032,
   "distribution": {
     "pos": 16,
     "neu": 12,
-    "neg": 222
+    "neg": 228
   },
   "sources": [
     "The Guardian",
@@ -16,8 +16,8 @@
     "Institute for the Study of War",
     "CNN",
     "BBC",
-    "The New York Times",
     "The Independent",
+    "The New York Times",
     "Sky News",
     "CBS News",
     "AP News",
@@ -29,6 +29,7 @@
     "The Washington Post",
     "WSJ",
     "Russia Matters",
+    "Euromaidan Press",
     "ABC News - Breaking News, Latest News and Videos",
     "Radio Free Europe/Radio Liberty",
     "Forbes",
@@ -43,7 +44,6 @@
     "DW.com",
     "Religion News Service",
     "Ukrinform - Ukrainian National News Agency",
-    "Euromaidan Press",
     "Yahoo",
     "NBC News",
     "Telegraph India",
@@ -403,41 +403,41 @@
     },
     {
       "date": "2026-07-02",
-      "count": 65,
-      "avg": -0.8188,
+      "count": 67,
+      "avg": -0.8214,
       "pos": 0,
       "neu": 0,
-      "neg": 65
+      "neg": 67
     },
     {
       "date": "2026-07-03",
-      "count": 4,
-      "avg": -0.8504,
+      "count": 8,
+      "avg": -0.8651,
       "pos": 0,
       "neu": 0,
-      "neg": 4
+      "neg": 8
     }
   ],
   "by_source": [
     {
       "source": "The Guardian",
-      "count": 42,
-      "avg": -0.7735
+      "count": 43,
+      "avg": -0.7779
     },
     {
       "source": "Al Jazeera",
-      "count": 20,
-      "avg": -0.6198
+      "count": 21,
+      "avg": -0.6236
     },
     {
       "source": "Institute for the Study of War",
-      "count": 18,
-      "avg": -0.8618
+      "count": 19,
+      "avg": -0.8623
     },
     {
       "source": "CNN",
-      "count": 17,
-      "avg": -0.4542
+      "count": 18,
+      "avg": -0.4756
     },
     {
       "source": "BBC",
@@ -445,14 +445,14 @@
       "avg": -0.8015
     },
     {
+      "source": "The Independent",
+      "count": 12,
+      "avg": -0.8159
+    },
+    {
       "source": "The New York Times",
       "count": 12,
       "avg": -0.729
-    },
-    {
-      "source": "The Independent",
-      "count": 11,
-      "avg": -0.8007
     },
     {
       "source": "Sky News",
@@ -508,6 +508,11 @@
       "source": "Russia Matters",
       "count": 3,
       "avg": -0.6827
+    },
+    {
+      "source": "Euromaidan Press",
+      "count": 3,
+      "avg": -0.9297
     },
     {
       "source": "ABC News - Breaking News, Latest News and Videos",
@@ -578,11 +583,6 @@
       "source": "Ukrinform - Ukrainian National News Agency",
       "count": 2,
       "avg": -0.733
-    },
-    {
-      "source": "Euromaidan Press",
-      "count": 2,
-      "avg": -0.9105
     },
     {
       "source": "Yahoo",
@@ -764,26 +764,26 @@
     {
       "name": "Ukraine",
       "type": "LOCATION",
-      "count": 207,
-      "avg": -0.6904
+      "count": 210,
+      "avg": -0.693
     },
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 177,
-      "avg": -0.734
+      "count": 181,
+      "avg": -0.7379
     },
     {
       "name": "Vladimir Putin",
       "type": "PERSON",
-      "count": 55,
-      "avg": -0.6929
+      "count": 56,
+      "avg": -0.698
     },
     {
       "name": "Kyiv",
       "type": "LOCATION",
-      "count": 46,
-      "avg": -0.8137
+      "count": 48,
+      "avg": -0.8175
     },
     {
       "name": "Volodymyr Zelensky",
@@ -794,8 +794,8 @@
     {
       "name": "Moscow",
       "type": "LOCATION",
-      "count": 29,
-      "avg": -0.843
+      "count": 30,
+      "avg": -0.8471
     },
     {
       "name": "Crimea",
@@ -836,6 +836,41 @@
   ],
   "recent": [
     {
+      "title": "Ukraine strike hits Belgorod, causing fire and power outages",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/3/ukraine-strike-hits-belgorod-causing-fire-and-power-outages?traffic_source=rss",
+      "published": "2026-07-03T07:48:26+00:00",
+      "compound": -0.7003,
+      "label": "negative",
+      "entities": [
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Kill zones and drone nets: a journey through Ukraine’s fortress belt",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/ng-interactive/2026/jul/03/kill-zones-drone-nets-journey-ukraine-fortress-belt",
+      "published": "2026-07-03T06:00:22+00:00",
+      "compound": -0.9643,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine",
+        "Moscow"
+      ]
+    },
+    {
+      "title": "Half a million dead but just 40sqkm gained in six months: Impact of Putin’s devastating war in numbers",
+      "source": "The Independent",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOb1l3S0NiRmNUT1JBLWU0OUp6aDZKNUlNb1lSd3VrdnpDcEM4QzQyS180YXhYYlIxSG55OWFOMW91X0JtdklYd0xGN2I4MFBsRTNkSGhQS1lJV29jSmJKeE8zelhqUkdQaGxJbkk2blhxUUt6TFQ0TWsxTDNXa2Z4YlBjeUpsOHVxTzhLNGgwQkxlR2N5WWxGRW1adHJUajFaR2VKdUh5eGdmbWEwUmtfNjE4NVVBUnNpR2hJcg?oc=5",
+      "published": "2026-07-03T04:46:00+00:00",
+      "compound": -0.9825,
+      "label": "negative",
+      "entities": [
+        "Vladimir Putin"
+      ]
+    },
+    {
       "title": "Ukraine war live: Putin and Zelensky vow to escalate fighting after deadliest strike",
       "source": "The Independent",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQldhMFdQM2Q0RHd2SzVpdzREei1KWWxWY0pyS2xhdWVoMzVmaXVxWncyQ0tnNi1fMmNsS3BoMG9BTnZPTEdBS01pVXJtN3J3T05MUjFSamRrclQzV2tWdXlkMmNzaDRzM0R3YnRJaTU1SjJRMGFvV1dabk5rbEN1NEVzMG53SHpsNE42cGxDck1tb1NKZmtoTEJSVjd0UWZtNWtGTzVpdmtpaWZ5Z0RvSEwzUWkyTzNoZ0xF?oc=5",
@@ -859,6 +894,17 @@
         "Russia",
         "Ukraine",
         "Kyiv"
+      ]
+    },
+    {
+      "title": "Russian Offensive Campaign Assessment, July 2, 2026",
+      "source": "Institute for the Study of War",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUUF5ZHBqLVRBbHl2MjlWYzVpTTlJeHUxR09GY3pFby1HSzE2UmhmUm9lQ0c2X2Yxb3QtY0NYcDFBUzYtVWt4T1p1dVFDczhrdnRRdTZyNUJrMXVVNGo0dkZxV1pHU3gzbTBnQU5oUDVueHVTRWFydzRJNGt5V2w3QUxfeEpoVmxpZkpYc0o5eDFBTmtPT2sxTnlqSEloVDJMa3dQcldn?oc=5",
+      "published": "2026-07-03T01:11:35+00:00",
+      "compound": -0.872,
+      "label": "negative",
+      "entities": [
+        "Russia"
       ]
     },
     {
@@ -899,6 +945,19 @@
       "label": "negative",
       "entities": [
         "Ukraine"
+      ]
+    },
+    {
+      "title": "Russo-Ukrainian war, day 1590: Russia's largest attack on Kyiv in months kills 25 — a record 52,500 shelter underground",
+      "source": "Euromaidan Press",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9qNElZOUczajZXQXRaMVJzVEIteHF2RFBLUFFxU05xYVNQbm8yTkFMM0lUNGhXLXl5SUdHbHRUczFnS0dQUnFieEJmM09vQU5yYXYydmZrMUVkdU1MdFlHR2pMSm5MNVgzVGtUVktpSjJXVkZqelI0?oc=5",
+      "published": "2026-07-02T22:45:12+00:00",
+      "compound": -0.9682,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine",
+        "Kyiv"
       ]
     },
     {
@@ -1060,6 +1119,18 @@
       "label": "negative",
       "entities": [
         "Vladimir Putin"
+      ]
+    },
+    {
+      "title": "Recent Russian strikes on Kyiv highlight shifting nature of war",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSFFHcTJja2o5MzFnUVRWRGg4SFotZGYwYmtHSHpiUjBmekdnZVBrbm5fbTBMWm8xcHJsSkxEVlpwMXZXT1RwUWlzRlZ1OGtVRUJZc0VTN1NiMUY3dWRUakxXM0lWTEctRlRYeVdqMmJxRnBwUmZ6M1JNNnloUjE0djVFaURmdmN1Q0t4Q1JCazhmMGdjN3VVMQ?oc=5",
+      "published": "2026-07-02T15:04:55+00:00",
+      "compound": -0.8402,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Kyiv"
       ]
     },
     {
@@ -1495,83 +1566,6 @@
       "url": "https://www.bbc.co.uk/news/articles/c4gyv05gk4do?at_medium=RSS&at_campaign=rss",
       "published": "2026-07-02T04:08:37+00:00",
       "compound": -0.7845,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine",
-        "Kyiv"
-      ]
-    },
-    {
-      "title": "5 dead, dozens injured after Kyiv targeted with Russian missile, drone strikes: Mayor",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQY3pQVzJKTEFaQjhuVWRmWmtlVzk3YXpMLU5leXBLVnlYQmUxUGZBVkh2cjU5TkVoMENudVg2VnhpS0hJVm0tZ1lrTVp6Y1ZfNFhYUmtlRVpPVUtpanB6azJFT3RHQzM1ajFySHZublBBRjZ1VDUwQy1TQWpMVW5OWGMzZmU0bi1KS3dVVUg1eUNaZkNIX2RKVzcwdDNyX29Nci1VMzBVWdIBrAFBVV95cUxPaU1zREtSaS1RVkozVDB1b3FvZXQzNlpCeFFwN0FteUgtOVpMVTZWRlo5X3FtV0twa25DYk85QmpsYW5GelJ3a1pzU2N1YjVfWnpDSVdMSzZVanVhMGRWYU5YTEo3NG5lLVRxNm8zbHh2MzBfREF1bkMtUlQ1LXlxTlVKa3c5SDAxVUFZaW52SXAyZEdYNTREOVZLNEFvYXlJMlQwSHRBOWx4aTht?oc=5",
-      "published": "2026-07-02T03:51:40+00:00",
-      "compound": -0.9584,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Kyiv"
-      ]
-    },
-    {
-      "title": "Ukraine-Russia war latest: Poland scrambles jets as two killed in Putin’s major aerial attack on Kyiv",
-      "source": "The Independent",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRVdBWnRpUEowdUF3bVpDZ250MkR1cGF3WUFoSGhOT1E2Q1dtdkhqNUhLQXZoS1FHWEtJMWkxeE1ZS1I0TTlxZk81Sk1mRTc2cnVTU3JvdzY4R2ZQYzRMdjQyTXh1TXdOMmZEWUg1eDM4NzdLUUVST3hjM0p5RE1uZDNBTllSYU9LUXBrNm5oMHBhaURsUkp1TFVKQTQyTEhzM19BUDZDLUxfM2hmVmdBRE5n?oc=5",
-      "published": "2026-07-02T03:48:57+00:00",
-      "compound": -0.9765,
-      "label": "negative",
-      "entities": [
-        "Vladimir Putin",
-        "Russia",
-        "Ukraine",
-        "Kyiv"
-      ]
-    },
-    {
-      "title": "Ukraine war casualties cross 2 million as Russia loses 30,000 soldiers a month: Study",
-      "source": "Firstpost",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQYkNqZXRuS0pLMzFodHUzWmhuX2k2eHNxQXhJU1VzU3V0QnBFeEc5dVp6Si1yOERuNmpvbE93ck0yWUJabTRhOVdZWjY2YVZwV0dLTXFaVEgxVG1TQ21JY1lJeWNucjVhalZnd3JJNDQzbWgyNXdBem9XMTFxNHd3cFBNR1lQbXBXNHRhYXF6QWlLMk9UVUJNQTNlSmVpU21Vb2JydHBtMnlGY3gtM1lFeWFyR1BWTG54ZXpHSUdaRXZpWW00anZVWNIBzgFBVV95cUxQTHNoOEhENm5XQk5mRGNCbkJwWHFNajN3MjNoSW5OUk8tUFB0dlRqWU9pcWxURWRUYjRKdmZMNFJWTEpvYmN2QmtRanNwdDJxSnFxandFYWNVRXFkT3dZN3dOZmROR29GdjhkSEJUZlJzY2lFVXdpLXhnYkVfMGZtSFBzbEdoYl9TalNGcGVWNVhtbU9oZHhsRmJfN0NiRVozVWFwOUcwY1NjZVdVNTl1U0hheGR6Z29wdExkUHNjcTRhb3hMVHQ5aS1qdzRsdw?oc=5",
-      "published": "2026-07-02T03:31:40+00:00",
-      "compound": -0.9081,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "German prosecutors charge Ukrainian suspect over Nord Stream explosions",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/2/german-prosecutors-charge-ukrainian-suspect-over-nord-stream-explosions?traffic_source=rss",
-      "published": "2026-07-02T03:31:32+00:00",
-      "compound": -0.7783,
-      "label": "negative",
-      "entities": [
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Ukraine war briefing: More than 2 million military casualties caused by Russia’s invasion, study finds",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/jul/02/ukraine-war-briefing-more-than-2-million-military-casualties-caused-by-russias-invasion-study-finds",
-      "published": "2026-07-02T03:12:47+00:00",
-      "compound": -0.9987,
-      "label": "negative",
-      "entities": [
-        "Volodymyr Zelensky",
-        "Russia",
-        "Ukraine",
-        "Kyiv",
-        "Moscow"
-      ]
-    },
-    {
-      "title": "Russian missile and drone strikes in Ukraine capital kill at least eight and injure dozens",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/jul/02/russia-attacks-kyiv-missiles-drones-ukraine",
-      "published": "2026-07-02T02:45:10+00:00",
-      "compound": -0.9648,
       "label": "negative",
       "entities": [
         "Russia",

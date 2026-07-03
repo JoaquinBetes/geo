@@ -2,34 +2,36 @@
   "id": "russia_ukraine",
   "name": "Rusia–Ucrania",
   "description": "Cobertura mediática del conflicto entre Rusia y Ucrania",
-  "updated": "2026-07-02T19:52:01+00:00",
-  "total_articles": 232,
-  "overall_avg": -0.6924,
+  "updated": "2026-07-03T04:08:53+00:00",
+  "total_articles": 250,
+  "overall_avg": -0.6987,
   "distribution": {
     "pos": 16,
     "neu": 12,
-    "neg": 204
+    "neg": 222
   },
   "sources": [
     "The Guardian",
     "Al Jazeera",
     "Institute for the Study of War",
-    "BBC",
     "CNN",
-    "The Independent",
+    "BBC",
     "The New York Times",
+    "The Independent",
     "Sky News",
     "CBS News",
     "AP News",
-    "The Atlantic",
     "NPR",
+    "The Atlantic",
+    "CNBC",
     "Kyiv Post",
     "The Kyiv Independent",
-    "CNBC",
     "The Washington Post",
     "WSJ",
+    "Russia Matters",
     "ABC News - Breaking News, Latest News and Videos",
     "Radio Free Europe/Radio Liberty",
+    "Forbes",
     "Atlantic Council",
     "The Hill",
     "Bloomberg.com",
@@ -39,12 +41,11 @@
     "the-sun.com",
     "Defense Express",
     "DW.com",
-    "Russia Matters",
     "Religion News Service",
     "Ukrinform - Ukrainian National News Agency",
     "Euromaidan Press",
+    "Yahoo",
     "NBC News",
-    "Forbes",
     "Telegraph India",
     "The Detroit News",
     "Mediazona",
@@ -74,9 +75,10 @@
     "Firstpost",
     "Toledo Blade",
     "Army Recognition",
-    "Yahoo",
     "CBC",
-    "MSN"
+    "MSN",
+    "The Conversation",
+    "WION"
   ],
   "daily": [
     {
@@ -139,6 +141,14 @@
       "date": "2026-05-19",
       "count": 1,
       "avg": -0.8316,
+      "pos": 0,
+      "neu": 0,
+      "neg": 1
+    },
+    {
+      "date": "2026-05-20",
+      "count": 1,
+      "avg": -0.6369,
       "pos": 0,
       "neu": 0,
       "neg": 1
@@ -393,18 +403,26 @@
     },
     {
       "date": "2026-07-02",
-      "count": 52,
-      "avg": -0.8311,
+      "count": 65,
+      "avg": -0.8188,
       "pos": 0,
       "neu": 0,
-      "neg": 52
+      "neg": 65
+    },
+    {
+      "date": "2026-07-03",
+      "count": 4,
+      "avg": -0.8504,
+      "pos": 0,
+      "neu": 0,
+      "neg": 4
     }
   ],
   "by_source": [
     {
       "source": "The Guardian",
-      "count": 39,
-      "avg": -0.7607
+      "count": 42,
+      "avg": -0.7735
     },
     {
       "source": "Al Jazeera",
@@ -417,24 +435,24 @@
       "avg": -0.8618
     },
     {
+      "source": "CNN",
+      "count": 17,
+      "avg": -0.4542
+    },
+    {
       "source": "BBC",
       "count": 17,
       "avg": -0.8015
     },
     {
-      "source": "CNN",
-      "count": 14,
-      "avg": -0.3948
+      "source": "The New York Times",
+      "count": 12,
+      "avg": -0.729
     },
     {
       "source": "The Independent",
-      "count": 9,
-      "avg": -0.7661
-    },
-    {
-      "source": "The New York Times",
-      "count": 9,
-      "avg": -0.7668
+      "count": 11,
+      "avg": -0.8007
     },
     {
       "source": "Sky News",
@@ -452,14 +470,19 @@
       "avg": -0.3262
     },
     {
+      "source": "NPR",
+      "count": 5,
+      "avg": -0.8134
+    },
+    {
       "source": "The Atlantic",
       "count": 4,
       "avg": -0.281
     },
     {
-      "source": "NPR",
+      "source": "CNBC",
       "count": 4,
-      "avg": -0.7973
+      "avg": -0.6447
     },
     {
       "source": "Kyiv Post",
@@ -472,11 +495,6 @@
       "avg": -0.9416
     },
     {
-      "source": "CNBC",
-      "count": 3,
-      "avg": -0.6326
-    },
-    {
       "source": "The Washington Post",
       "count": 3,
       "avg": -0.3418
@@ -487,6 +505,11 @@
       "avg": -0.3109
     },
     {
+      "source": "Russia Matters",
+      "count": 3,
+      "avg": -0.6827
+    },
+    {
       "source": "ABC News - Breaking News, Latest News and Videos",
       "count": 2,
       "avg": -0.9368
@@ -495,6 +518,11 @@
       "source": "Radio Free Europe/Radio Liberty",
       "count": 2,
       "avg": -0.6078
+    },
+    {
+      "source": "Forbes",
+      "count": 2,
+      "avg": -0.8316
     },
     {
       "source": "Atlantic Council",
@@ -542,11 +570,6 @@
       "avg": -0.9271
     },
     {
-      "source": "Russia Matters",
-      "count": 2,
-      "avg": -0.8271
-    },
-    {
       "source": "Religion News Service",
       "count": 2,
       "avg": -0.8316
@@ -562,14 +585,14 @@
       "avg": -0.9105
     },
     {
+      "source": "Yahoo",
+      "count": 2,
+      "avg": -0.805
+    },
+    {
       "source": "NBC News",
       "count": 1,
       "avg": 0.0
-    },
-    {
-      "source": "Forbes",
-      "count": 1,
-      "avg": -0.8316
     },
     {
       "source": "Telegraph India",
@@ -717,11 +740,6 @@
       "avg": -0.6808
     },
     {
-      "source": "Yahoo",
-      "count": 1,
-      "avg": -0.7783
-    },
-    {
       "source": "CBC",
       "count": 1,
       "avg": -0.8807
@@ -730,68 +748,78 @@
       "source": "MSN",
       "count": 1,
       "avg": -0.7783
+    },
+    {
+      "source": "The Conversation",
+      "count": 1,
+      "avg": -0.8225
+    },
+    {
+      "source": "WION",
+      "count": 1,
+      "avg": -0.8316
     }
   ],
   "top_entities": [
     {
       "name": "Ukraine",
       "type": "LOCATION",
-      "count": 191,
-      "avg": -0.6818
+      "count": 207,
+      "avg": -0.6904
     },
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 165,
-      "avg": -0.7332
+      "count": 177,
+      "avg": -0.734
     },
     {
       "name": "Vladimir Putin",
       "type": "PERSON",
-      "count": 51,
-      "avg": -0.6758
+      "count": 55,
+      "avg": -0.6929
     },
     {
       "name": "Kyiv",
       "type": "LOCATION",
-      "count": 42,
-      "avg": -0.8156
+      "count": 46,
+      "avg": -0.8137
     },
     {
       "name": "Volodymyr Zelensky",
       "type": "PERSON",
-      "count": 29,
-      "avg": -0.7098
+      "count": 31,
+      "avg": -0.7263
     },
     {
       "name": "Moscow",
       "type": "LOCATION",
-      "count": 28,
-      "avg": -0.8375
+      "count": 29,
+      "avg": -0.843
     },
     {
       "name": "Crimea",
       "type": "LOCATION",
-      "count": 13,
-      "avg": -0.6927
+      "count": 15,
+      "avg": -0.7157
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 8,
-      "avg": -0.8514
+      "count": 10,
+      "avg": -0.8447
     },
     {
       "name": "NATO",
       "type": "ORG",
-      "count": 6,
-      "avg": -0.793
+      "count": 7,
+      "avg": -0.8224
     },
     {
       "name": "United States",
       "type": "LOCATION",
-      "count": 5,
-      "avg": -0.5784
+      "count": 6,
+      "avg": -0.6485
     },
     {
       "name": "Donbas",
@@ -808,6 +836,122 @@
   ],
   "recent": [
     {
+      "title": "Ukraine war live: Putin and Zelensky vow to escalate fighting after deadliest strike",
+      "source": "The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQldhMFdQM2Q0RHd2SzVpdzREei1KWWxWY0pyS2xhdWVoMzVmaXVxWncyQ0tnNi1fMmNsS3BoMG9BTnZPTEdBS01pVXJtN3J3T05MUjFSamRrclQzV2tWdXlkMmNzaDRzM0R3YnRJaTU1SjJRMGFvV1dabk5rbEN1NEVzMG53SHpsNE42cGxDck1tb1NKZmtoTEJSVjd0UWZtNWtGTzVpdmtpaWZ5Z0RvSEwzUWkyTzNoZ0xF?oc=5",
+      "published": "2026-07-03T03:54:52+00:00",
+      "compound": -0.93,
+      "label": "negative",
+      "entities": [
+        "Vladimir Putin",
+        "Volodymyr Zelensky",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Ukraine war briefing: Both sides vow to escalate fighting after Russia’s deadly Kyiv barrage",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORi1LTEd6YklsY2E1WldBMGh5dUJnYzNldkNqbjItYmFpV216anFJU2xwODVFckVRUmd0aDlQVGhUN1lyV3RpMWlDWmdiSzZyYkpGWGJIVlo2OV9XRmZZQ2xFbTVUYVJfMTk0eTJHYk03MUtVeGgtdXlwMUNMQkh1ZjMxVGZhcGRCOFdVclV3QVh6X2JiU0RxRm5kVU54YldFY3k2UU9EdzNJRnBhNC1wZkRLNG9oYXFXR1dQZTluUmNnY0U5WWJhY21QVVdZcjR0YXc?oc=5",
+      "published": "2026-07-03T03:19:00+00:00",
+      "compound": -0.9153,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine",
+        "Kyiv"
+      ]
+    },
+    {
+      "title": "Ukraine war briefing: Both sides vow to escalate fighting after Russia’s deadly Kyiv barrage",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/03/ukraine-war-briefing-both-sides-vow-to-escalate-fighting-after-russias-deadly-kyiv-barrage",
+      "published": "2026-07-03T00:42:13+00:00",
+      "compound": -0.9987,
+      "label": "negative",
+      "entities": [
+        "Volodymyr Zelensky",
+        "Donald Trump",
+        "Russia",
+        "Ukraine",
+        "United States",
+        "Kyiv",
+        "Moscow",
+        "NATO"
+      ]
+    },
+    {
+      "title": "As Ukraine War Escalates, Witkoff and Kushner Are Focused on Iran",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPOXJJdnR4YUl5VXl2NTN0S2tSazE5cUJhS3lqVFZpRVd4QTlGd1JoMFYwNW9wQ0ZMbmVxOUJaT3JacnVnR2ZUOWhDRjhqMHFCaHAwOHlVeGJzUEVxZlIzVlNZNDd1aGFaMGktWUE2TmZtXzZXWlpvUmNxdERic3lyazN3eVJIMWJVWE82ajltcnRudw?oc=5",
+      "published": "2026-07-03T00:33:03+00:00",
+      "compound": -0.5574,
+      "label": "negative",
+      "entities": [
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Suspect identified in Monaco parcel bombing that wounded sanctioned Ukrainian-born oligarch",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/03/suspect-identified-in-monaco-parcel-bombing-that-wounded-sanctioned-ukrainian-born-oligarch",
+      "published": "2026-07-02T23:52:38+00:00",
+      "compound": -0.9062,
+      "label": "negative",
+      "entities": [
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Ukraine war military casualties cross 2 million; Russian deaths four times higher: Study finds",
+      "source": "WION",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYjVoOXk0dHBOcjU1TXE4TjRpdENiUnFzUXhRdE5RYlZBaE5YVGJqdmZnNE9CTWEtcVNGeDhNcWt6UGVyUUVveXdXdlZRWExaSjhWZ0JnWWlHVmVObEhmbGFHZlBaV2VRYmVManpIdV9JN1NiZk1QMndLc0lqV3ZrajFwbkFza3ZlREcyY0F2anQ5UjJSYTFTVzFOSXV1a0JiSFJ4dnh6SUo1WDNCZEpnbHdSajd1UlUtajVSMWNDLU9nRkV1ejBWRGhOM3JWa0FfSkHSAdcBQVVfeXFMTy1JbmpwMlhTeU0xQld2RC11V0ZlMjdEUVFHanF6ZW9vMzF0djlwZ01GcjRrSTJPVGNpZTJHbnJXU2doTVlrdmxJclhVWDhSR3E3VDh2aU5IcVNzSFFZb1B4QmwzcXdYeDMzbTFFczZUQWU2blJfTU5YYTA4d1BTamVpN2VSNHVqMkhTcmw4dWJMZUNhM1VfSXI4QkZTbkdMTjlFY3NfWE56QS1lSTllUE5kWk1ndmhNR25jVHB0VUY0RE1VVFVFeElYdDdlUUl3SGF2WXFJRWs?oc=5",
+      "published": "2026-07-02T21:57:00+00:00",
+      "compound": -0.8316,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "With Attacks on Crimea, Ukraine Hopes to Pressure Putin to End the War",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zUTRGaEhSd2J5RGNKUVpkNDlqaXdEQWh2ZHhJWnBUVzZha0lXbVV4b3pIVXZkTjlGRzdPS01tMlVoRVZ4bFZGbldRVThVNDFVWDBYYUw5cXVZNFJoOGRnNHhKR2ZtZ3hrU3V1U05tT3d5OWlGaUpKYzBla01JaXM?oc=5",
+      "published": "2026-07-02T21:19:49+00:00",
+      "compound": -0.9081,
+      "label": "negative",
+      "entities": [
+        "Vladimir Putin",
+        "Ukraine",
+        "Crimea"
+      ]
+    },
+    {
+      "title": "Are the wars in Ukraine and Iran showing the limits of global powers?",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/02/nx-s1-5877615/are-the-wars-in-ukraine-and-iran-showing-the-limits-of-global-powers",
+      "published": "2026-07-02T20:13:37+00:00",
+      "compound": -0.8779,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine",
+        "Kyiv"
+      ]
+    },
+    {
+      "title": "Has the Russian-Ukraine war reached a turning point favoring Ukraine?",
+      "source": "Russia Matters",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZXQ5M3BXYnIzalJQRFItRV92V1NBeklGTnoxRGNyV05EOFltOEJRS3JMLURnU3lBbWJMUVJBUFlWZFdHblA1VmctYnpZU3Q0WTFDOUV2WElQbkp2YlpCQWM5NnBIbVdCWE1fSFY2VEhIeE1ENkMxMk1tM01RalJtaElKUmxmQk1HU3pKUmMxUk1HVWRPRWhTNDJIczRoRXlvZW5J?oc=5",
+      "published": "2026-07-02T19:50:29+00:00",
+      "compound": -0.3939,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
       "title": "Russia, Ukraine Exchange Missile Strikes Ahead of NATO Summit",
       "source": "Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRk9kR2xPR09YN01TRTQxQ2djTEhvazItaWhlc3lZWVllZ1hoVlVHZ2JmTnVjeXpITFE4U1EtR25rbFFYV1Y0NWI2RFlXM2xYU3RBSWdweDJNeVFXOUxidUg1SlptUW1VRmpwMWVDR21CRU0zSE13d0YyN0VsRXl6MUZseG1ZX29ySFpKYkx3ZlpRbUd2TU5fWE96WTc1cUI2ckJYMnlwOXJTVGJOWVA2MGI2LVo?oc=5",
@@ -818,6 +962,30 @@
         "Russia",
         "Ukraine",
         "NATO"
+      ]
+    },
+    {
+      "title": "Thursday, July 2. Russia’s War On Ukraine: News And Information From Ukraine",
+      "source": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZG9wZlk5b1JZR0pzY1lxMVZGZkdpQzJwbmg5V0doa25TbWxkMUhtS0JxTENnVUNvZFZlU3NGcE5QU05uejh2SllxdGpTa2lXLW1XWmpHVWVva3VMa2FESlBTQjBvdnFUMW92aDhTMWxzOTJuYUFXMzljODlvUXBKUHZ6WkVsem4zaG04?oc=5",
+      "published": "2026-07-02T19:32:16+00:00",
+      "compound": -0.8316,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Thursday, July 2. Russia’s War On Ukraine: News And Information From Ukraine",
+      "source": "Forbes",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZVJDb2ZocmtvOEVCSS1SUTBBNTVoT2lOVFBhcnFoMkptaTVQalNkWllDSlVzc1R4dDRTcHZlcE1GbEhlTHVCTzdSR015X0xHWDhEMlZXZTZZRF9oWlFJSnNTdWo1ZUplMVJPY1pXMlluMWxueGg0dHdIclU2QUs3eHJqMzZxRlJmTWE4eDdTVTJWQzgtQUlSdF85TU1vTmFpZ09OWndSOVkyT1NxRmtKQmZvMWgzRHlvQU1UNUQxNHNzMlk?oc=5",
+      "published": "2026-07-02T19:32:16+00:00",
+      "compound": -0.8316,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
       ]
     },
     {
@@ -884,6 +1052,17 @@
       ]
     },
     {
+      "title": "Half a million dead but just 40sqkm gained in six months: Impact of Putin’s devastating war in numbers",
+      "source": "The Independent",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNd0pkX3VSR3VfaGphWjBoQlBqVkF0WUxHV0ZiUC1jbDJSNVdQbGdaLVZyMU9UMDc2S2g1VVNMQ25rTGIweDNpcjlsV3hpOEp2T0hacENUSUNHTlFyU2hUd2Nycy1CcW9zMVZieDFtRDkzWFg0dUp3NlpZNG1mM01SXzJNVUtHYVVXNHExd09mdjBoc3A0YkllbXI3RTR0cmJFamhBTjA4M0JPT0g1?oc=5",
+      "published": "2026-07-02T15:15:00+00:00",
+      "compound": -0.9825,
+      "label": "negative",
+      "entities": [
+        "Vladimir Putin"
+      ]
+    },
+    {
       "title": "Pistorius Says Ukraine War Nears Turning Point as NATO Prepares €40B Support Package",
       "source": "Kyiv Post",
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9meWhLWE9oa19zbkZNVUJEanpWZzZFTW4zcC1yZmo1NjFCcnlIMU5MemVaV2tzX2hkQkRPN3BnaUFYSWQwSFNXb01zZw?oc=5",
@@ -894,6 +1073,18 @@
         "Ukraine",
         "Kyiv",
         "NATO"
+      ]
+    },
+    {
+      "title": "Even as It Bombards Kyiv, Russia’s Wider Military Campaign Has Largely Stalled",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbWNIelpWVlFIUU8yR3o1VGJKNDE0bjg5SDAybXNIWlg3X2NFQ0VkdjFSZXBUdnMxVGlubk9XRzRlemI4WllyVE05WHMxcF9VZlJEbXNNS1JKYURaaVlMeFRabFB2TkN4cVFoejE0b3ViVlI5UU83UnIxWGFOWGpELUlqUGh0QmlqVTY1Z0NGS2doUQ?oc=5",
+      "published": "2026-07-02T14:49:35+00:00",
+      "compound": -0.3818,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Kyiv"
       ]
     },
     {
@@ -919,6 +1110,19 @@
       "entities": [
         "Russia",
         "Kyiv"
+      ]
+    },
+    {
+      "title": "State of emergency in Crimea as Ukraine focuses pressure on ‘jewel in Putin’s crown’",
+      "source": "The Conversation",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWWRBZURlZzdfM1RCMW1CMlpNeXBSRjFoNVlrZ2t3V1E0OThUMmpkN1lweWNYY0tYZzZ4NTV5M3ZObC1oYXczZFVGUU4xZGVpc2xwcThSem53Q044X2VDNFptdlgybmJ1YlNHWVZMdVZNZ25McmlMM1dXazJEQUVYdzY5eGQ4SExOc3JNczhRQ1FxZkpUdWc2Q3h1WlU5SVlWT2diTVo1MjllcER3M0lPSzBNRVN0Snc?oc=5",
+      "published": "2026-07-02T13:39:27+00:00",
+      "compound": -0.8225,
+      "label": "negative",
+      "entities": [
+        "Vladimir Putin",
+        "Ukraine",
+        "Crimea"
       ]
     },
     {
@@ -999,6 +1203,30 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPakxVcWdvdFVlWXB4UkJkTF81X2d5R3VYNGJ1eFFCd0YzYkpORHNvSk9XMVdhN3hnTmFlMXF4b01heDRkc2lVczdkanpaYUZ1LThMU19TWEg0dmZOUDR0cmtuRUpmVmFraDJabFJMMnBmNThURWZ1R3lSNkVhcU0zQkVZNXIza3VERVNMVC1R0gGQAUFVX3lxTE5PZHctVEdjS1VoQVVlQkZOOXNFOXotcDlGd0RkRmJkZWhHRVU0VjYzZGZ6MktacVB2TmJnMk1pcmNFLUViLWd0ZENOSnN6Y21uWXdxX3hHeEpjdi1pcEM4YUtPOFJUR3FrSjRqQUNIX2J1YkwyS2Z6QVBrNEd6Vjh1azhoRmFjX0U4NmlSc1RULQ?oc=5",
       "published": "2026-07-02T10:44:34+00:00",
       "compound": -0.2732,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Bloodier than Stalingrad: Number of casualties in Russia’s war on Ukraine reaches 2 million",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUjNIdmRRN3BKbFBKMzlkRTlGdkFQbXRFcFRBV3hEVXFjRFYxbE5TU0tGZ0VoYmhreElTZ05jQ3JESVZhclNCRjB5aWxxNUtRUVYyWUh5RmlnTnZKUlZXZUxhX2xpNllZZXFZd0hCdGxPR1lmTWdCUWZiNklSN1BGREdmRTZlc0VWcGc?oc=5",
+      "published": "2026-07-02T10:16:54+00:00",
+      "compound": -0.7783,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Bloodier than Stalingrad: Number of casualties in Russia’s war on Ukraine reaches 2 million",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOa3djeGxNQ3RsQmN1cnozZXhiQ29WQ0ZvbXhuYnlSbHh1MlhyTkF1Yi05TV9rd1g3YXdvQVQ4STRFdGlERHJ3cU9MbFhvbzR4b2pvcGJJQU4tSWlLaTJ4UkQ2M2JrUzVlb3F3YndYTTVVN2JCVjI3em5IMWR3dEpBZVhvWDNFbXBN?oc=5",
+      "published": "2026-07-02T10:16:54+00:00",
+      "compound": -0.7783,
       "label": "negative",
       "entities": [
         "Russia",
@@ -1250,6 +1478,18 @@
       ]
     },
     {
+      "title": "Russia launches massive strike on Ukraine as Poland scrambles jets, Finland restricts airspace",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPN0Q0eFBZR29QUVRUZkVqd29rNjRyZHl3OTY2cGZQM19sb0NuQWNOendSR184TmRwSnZfLWVWUnVmSEFrYVN2YmxCMVFkOWt6UkJ0Q20yd1p4R1BBOHgyMHZQdk1VaGhlTDdpWTd6SGVxZHl0dGJjLUtjMWxwQkgwVERhY3hvdjhFZkJaRzVkV1o?oc=5",
+      "published": "2026-07-02T04:43:19+00:00",
+      "compound": -0.6808,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
       "title": "At least eight killed in major missile and drone strikes on Kyiv",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/articles/c4gyv05gk4do?at_medium=RSS&at_campaign=rss",
@@ -1337,212 +1577,6 @@
         "Russia",
         "Ukraine",
         "Kyiv"
-      ]
-    },
-    {
-      "title": "Kyiv attacked after Ukraine’s Zelenskyy warns of ‘massive Russian strike’",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNN1hJSG1zb3B3azJTOC1YWFRYa09tRjJSMGRzeGtKeS0tczhMQTNCcVlUN1lDak1KdG1fWFBxeDZrdHhlcE5jRmZIUGJfWXQ0V1A3UWljTjZ4MEx5MXBmbTF6c2hsOVNORWdNU0E4VzRYaUZLMUFyNFJxLVJHeXZSbFVNUGE4MV9OQTFJSm5oYkFJcjFJRUI4ejNla3VIbUZFcFd6U3Ixa1dRbXBSUEJ30gG0AUFVX3lxTE1OMnNtUlJMbmpDMVliemJPV29fbGU0Wno0Sk1oZ0JsRVpLdXFKdDFRMmNJUmJSWUI1LVpCc3BnU2YxMkNsSjRvaWRGbXQxbDdoUUVOcUxOdDJLRDd5YWVfSDlFcHVwS2ZsVkRXV1BMUTNvTUlockFaZGJKZk52cVNKeUp4LUt4TmU3NENnS3JmaTEwVVRVVmFoNXgxY2ljbWNWNGc4SHdvNEE1YXNoTDBselhyTQ?oc=5",
-      "published": "2026-07-02T02:33:37+00:00",
-      "compound": -0.7783,
-      "label": "negative",
-      "entities": [
-        "Volodymyr Zelensky",
-        "Russia",
-        "Ukraine",
-        "Kyiv"
-      ]
-    },
-    {
-      "title": "At least 8 killed in Kyiv after Zelenskyy warns of ‘massive Russian strike’",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/2/kyiv-attacked-after-ukraines-zelenskyy-warns-of-massive-russian-strike?traffic_source=rss",
-      "published": "2026-07-02T02:15:06+00:00",
-      "compound": -0.9169,
-      "label": "negative",
-      "entities": [
-        "Volodymyr Zelensky",
-        "Russia",
-        "Ukraine",
-        "Kyiv"
-      ]
-    },
-    {
-      "title": "Russian Offensive Campaign Assessment, July 1, 2026",
-      "source": "Institute for the Study of War",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNakJLSmViaTlfclEtUTRqZjktYWdoVVViWTQ3YnFmenNJOXVyMnMxdzdRakVRczJiM2hBM2c5N09IUmdUa2x2V1VpYU41QlNoS0cxb3JnY2dTR2ZqbC1xUERuUmQ0Tk9VQ29ieDB3S1ZaT0dVY3BUZ3NNSjJ0YXNUeEV3MnNOamd5dlRtbEFYckkyeHhrVjZSamc0dWhuOXQtU1hlVDhB?oc=5",
-      "published": "2026-07-02T02:10:59+00:00",
-      "compound": -0.872,
-      "label": "negative",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "Ukraine war: Kyiv hit by Russian ballistic missile attack",
-      "source": "DW.com",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQckJPRDcxX1U0SEdQZkNOWFZXOW9aRXp6YkJjeGhJZ1ZIZjkwWjZXbV90V0NZYTZyUTV3OFBuV3U4M19XbUtuR3lrN1g1Wk90TndnLWFXN3BYbE1DX0NRNVJVazNscDdNLXZpMHBRS3FPR1d3SWdPM3IyLUlDM29vbjBkekRocEdz0gGIAUFVX3lxTE1LRXJkSFI4RURYR2FzMFFaSDZjS2hnNThSUXpCa1FhV3FidDlIa0pxN242MlFfaXk4YzVBTDY2dWxiQW9pS2tkck43cC1fOUpjUkt0NHVtTi14N3d5TnJaWjZrVWdHUFdqYzBHSWZaa2FxLW1GN0N0TUMzek1maDNHckU0dGVOc1A?oc=5",
-      "published": "2026-07-02T01:43:29+00:00",
-      "compound": -0.9325,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine",
-        "Kyiv"
-      ]
-    },
-    {
-      "title": "Russian attack on Ukraine shakes Kyiv for hours",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaHNTaXZqSXdZU3VxemduZGktc2NXazJYODljRUdSQTJlMEFBQ0xwY1JLdlNwWUo2MG5ETnVNWGFUanRZRXJUQVROTjZuZVVPeU9jVXpBSHBTZ1lWYnVzWVoxS3Ywa2dORElkdEt3TFBaNzhyX0Z5dVZnTktQVXZMM0EtUFh1MjRFd1M3cEpkRXkxTVdXNmtGUmJyV0VmQks5MEw4V0hkdw?oc=5",
-      "published": "2026-07-02T01:35:39+00:00",
-      "compound": -0.7351,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine",
-        "Kyiv"
-      ]
-    },
-    {
-      "title": "Ukraine war briefing: More than 2 million military casualties caused by Russia’s invasion, study finds",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQMzk3dG1iR1A2c25HNXVZRkxkOGkxc2ZYaURtTzk3ZVg2VDVZLWpvRVRxaHFtUDBaQlRaMUxWOG14Znpod3VTQlNVZmZKc1Nhc09VMGRIY1hvZHpxYXBDTUtiWWFwalBsNG9MUm1CdW8xWmhlR011Y3hUTEt0NWNmdTZoQUdENExSdjNqZWFDZ1BFWWdVOHVYNnZGcG5hU0s2OHBqWHE1V25ZMUI2TlBDcWhlamxQR0pVVzFpQ09fOVRvaXI1d0trMXV6RkMtV3F3Z1BsV0E2V2JjbXJlOXc?oc=5",
-      "published": "2026-07-02T01:05:00+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Russia unleashes a massive assault on Ukraine’s capital, killing more than 20",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPa3hhcXRKYUVMTF9iaHdKYTBuQ3dmc05WWmdqZEljWUlGelphU0M4b2hrV1gxaUVyQ19wZVhYekE0RHhFS0tsOE05QUZxUWxQYk5IZEFPaXR6TXNHd2d1c1NvcWlQQ0ZxVWZwX0Y2TU05LUZSc2toOUZYRFBmOFItVQ?oc=5",
-      "published": "2026-07-02T01:04:00+00:00",
-      "compound": -0.9545,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "New study: Russian fatalities in Ukraine war are four times the number of US deaths in all wars since WWII combined",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWFJZenBpTFF5NmlkdkdMTDNEZDI1emR5RWs2ekxMNlFnc2F3T1hpQXJhWG1TWERpZWxaVlkxOUxZOG1EcGpmWGxiSHQyY3lvMUxRRFhia21XUlE4WGh5bW55S2JjSVNRTXQyejQyenBfb3g0emYwSzAtcVhRQUx2eVdvc2o1dmZKUFRnZ0lRQVR5RHpU?oc=5",
-      "published": "2026-07-02T00:32:59+00:00",
-      "compound": -0.9726,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Ukraine war live: Putin orders army to plan new ways to capture Kyiv",
-      "source": "The Independent",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMmVfVUtLMHhvNlVsUHRDd1o5YVhXX1pqZHYzZldIMW5LZmFJZTN0MHVVT2JMcnJ2QTZkekFfYWpEUVE2WWY4cWNNV1V0UFNpZ3VYaEFwdEJ1cm56WHRRV3J1Zm9ZNGlNUzlNWlV6LVlNMGl6YmZkbmRvTlBhX2wySGhTeWZLNnVuRDE5OEczaGFyZkxmRG90a3o0UENhbEUzSVp6SlJLZy1CUHNOOHhRZ251b2xVcllPVnRUUnRJVTluYUE5alE?oc=5",
-      "published": "2026-07-02T00:00:29+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Vladimir Putin",
-        "Ukraine",
-        "Kyiv"
-      ]
-    },
-    {
-      "title": "ISW: Russians increasingly interested in end of war in Ukraine",
-      "source": "Ukrinform - Ukrainian National News Agency",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMGlScTRlNHZNOEZBWlJGeWN0dlRJTG14OEhraTd3emk3WmFYZmM5TzFFQUxIb1dCdzJ0XzF0WnpoVHhYMTVFd29nMHZQUXdUN09GYTc5UUotdVdwWHgzUVN4NXZIeXNSaVpXbEpDMmZRUVZJLW5paThyeFB5b0dadDZ5YkZtSDhScUQ4RkluUVNIS1duNnJFa1hHREdLeFdFZE5nTWlqRDY4QWx3N2trZg?oc=5",
-      "published": "2026-07-01T23:25:00+00:00",
-      "compound": -0.5267,
-      "label": "negative",
-      "entities": [
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Couple arrested after daring Empire State marriage proposal stunt",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/1/couple-arrested-after-daring-empire-state-marriage-proposal-stunt?traffic_source=rss",
-      "published": "2026-07-01T23:03:58+00:00",
-      "compound": -0.1531,
-      "label": "negative",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "Russo-Ukrainian war, day 1589: Ukraine strikes Russia’s Su-30 hangars",
-      "source": "Euromaidan Press",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNazFrcGo3NF8tbkRTbkVjUExQVTlhWFpocGlBUVlXeG1Wc1Zma2Z6ZWR1ajRsYm5rb2R1WTRIeGc4WklSeFRYRWdaZmJlTlNZUFdOZDIwTlF1WThrenpraVBNUEhXWGtBcHRFR043My0yM2tmb2t2ZUlYX0l3RlRVWDVvWmRnQlRRTEJQaFo5Sy01NUZOZk96WkN6WURKaVlxRjdvY0VlZ2ZCUQ?oc=5",
-      "published": "2026-07-01T22:58:38+00:00",
-      "compound": -0.9153,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "War in Ukraine exceeds two million casualties, according to US think tank",
-      "source": "Le Monde.fr",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTDd2MUxoc3NTQ0ZEQlR6MVJkQkszMWNnaURFVU9iOENOWk5oaExqUG1RX3ZjODZISUlvZWJjT2dveVhDaU9JWnN5eFFKRlJJYU8yZTZsZWRXM3pubkdmWFFSZW9iNWhvSkJwNXpuSElQSm1tdzZwMHZlLU0wYWNCaGJKc0QzaGF5LVczWm1SZ1B3UEVEeUotWDFxQ3RjSFNZUWpwSWkxa29iLWVUSWNna0xnYnZpUTZLRnQ0VnBGRkU4OW8?oc=5",
-      "published": "2026-07-01T22:26:33+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Ukraine War Crosses a Grim Milestone",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTEFBYmlRbUhhRHRoUHBtc3RwYjZ4aUJyYTFnaXloT25QNEljUG5vamRFcW13Tmg2UnFZa3dMNG1vZkQzQ1ZXcEFDRk83YWJtYVhIZjZ3U0JqV2VFU0tpbTVSMm5HRkdzcldaVEJuTGJwaXlKY0otVGFOUm9yVmdJVXI4eFc0RG1hUDA4b0Vn?oc=5",
-      "published": "2026-07-01T22:05:35+00:00",
-      "compound": -0.9451,
-      "label": "negative",
-      "entities": [
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Ukraine Takes the War to Russia",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNd3NheVc2aXFnczYxcG5QSWxNOE0wbTNxVVhqN3VIclczZUtVSDlyY01XVFAxNV92WXdYeDk1cVJYNWliX3pGNkxlWlpremllVEk1blFTeEtCT2tqblJZSThpOXhvcXN6U2Z0NHR5aTRsYVl1NlRJUmJzX2FrY0MwUnhrQ3RaT3pwSl9xSnU2MGxuUQ?oc=5",
-      "published": "2026-07-01T20:55:52+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Russian couple arrested after climbing Empire State Building",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/1/russian-couple-arrested-after-climbing-empire-state-building?traffic_source=rss",
-      "published": "2026-07-01T20:54:39+00:00",
-      "compound": -0.4767,
-      "label": "negative",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "Zelensky warns of massive Russian strike planned for Ukraine",
-      "source": "The Hill",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUEltc1dFMlNzOXo3ZkdOV2JfVjdoTW1mZ2NyUFRCak5VQ3huamp2MlRHWFNsZXdva3lBNGFhZ3QwRm1pdXFMRDZpZV9wSDdNRXdNYjVDRXVzRkxFTUZwZXItc1ZTMTNGTFRQb1htc0ZyY201cXdyb2FsTmg4RWxNbktncy1OX2xHdjlZWWpnY9IBlAFBVV95cUxQZVZIYzZWUnZjeXlhUVltdUpmYkttWFotZG5ScjdzR1pGYXJpOUV1TzJhRVpMSW1hVkxZV0w1M0ZtbVl0bGxkeURkeGprUURmX013WDNKTlRkQlNxdVNGSno1ejlfbzJpenFFcDR4SF9OMVVnc0JDMHlBcU1DOGY3aUZrRHppM283ZFgxMk1jZG90azJH?oc=5",
-      "published": "2026-07-01T19:52:00+00:00",
-      "compound": -0.4215,
-      "label": "negative",
-      "entities": [
-        "Volodymyr Zelensky",
-        "Russia",
-        "Ukraine"
       ]
     }
   ]

@@ -15,6 +15,7 @@ from .analyze import analyze_article, build_entity_matchers
 from .config import load_conflicts
 from .econ import build_economy
 from .fetch import fetch_conflict
+from .influence import build_influence
 from .military import build_military
 from .regions import build_regions
 from .store import (
@@ -97,6 +98,17 @@ def run(conflict_ids: list[str] | None = None) -> None:
             write_json(cid, "economy.json", economy)
             tabs.append("economy")
             print(f"[{cid}] economía: {len(economy['markets'])} series de mercado")
+
+        # --- Capa 4: influencia (alineamiento curado + narradores en vivo) ---
+        try:
+            influence = build_influence(conflict, all_articles)
+        except Exception as exc:
+            print(f"[{cid}] influencia: ERROR ({exc}); conservo versión anterior")
+            influence = read_json(cid, "influence.json")
+        if influence:
+            write_json(cid, "influence.json", influence)
+            tabs.append("influence")
+            print(f"[{cid}] influencia: {len(influence['narrators'])} países narradores")
 
         index_entries.append(
             {

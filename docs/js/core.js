@@ -37,7 +37,7 @@ const state = {
   maps: {},                 // instancias Leaflet, clave "pestaña:nombre"
 };
 
-const TAB_HASH = { narrative: "narrativa", military: "militar", economy: "economia" };
+const TAB_HASH = { narrative: "narrativa", military: "militar", economy: "economia", influence: "influencia" };
 const HASH_TAB = Object.fromEntries(Object.entries(TAB_HASH).map(([k, v]) => [v, k]));
 
 // --- Helpers -----------------------------------------------------------------
@@ -142,6 +142,7 @@ function showTab(tab) {
     if (tab === "narrative") renderNarrative(state.data);
     if (tab === "military") renderMilitary(state.data);
     if (tab === "economy") renderEconomy(state.data);
+    if (tab === "influence") renderInfluence(state.data);
   }
   // Leaflet necesita recalcular tamaño al volver a ser visible.
   for (const [key, map] of Object.entries(state.maps)) {
@@ -169,22 +170,22 @@ async function loadConflict(entry) {
   state.maps = {};
 
   const base = `data/${entry.id}`;
-  const [summary, military, economy, regions, layers] = await Promise.all([
+  const [summary, military, economy, influence, regions, layers] = await Promise.all([
     fetchJson(`${base}/summary.json`),
     state.tabs.includes("military") ? fetchJson(`${base}/military.json`).catch(() => null) : null,
     state.tabs.includes("economy") ? fetchJson(`${base}/economy.json`).catch(() => null) : null,
+    state.tabs.includes("influence") ? fetchJson(`${base}/influence.json`).catch(() => null) : null,
     fetchJson(`${base}/regions.json`).catch(() => null),
     fetchJson(`${base}/layers.geojson`).catch(() => null),
   ]);
-  state.data = { summary, military, economy, regions, layers };
+  state.data = { summary, military, economy, influence, regions, layers };
 
   document.getElementById("hdr-updated").textContent = fmtDate(summary.updated);
   document.getElementById("empty").hidden = true;
   document.getElementById("dashboard").hidden = false;
 
-  const available = state.tabs.filter(
-    (t) => t === "narrative" || (t === "military" ? military : economy)
-  );
+  const loaded = { narrative: summary, military, economy, influence };
+  const available = state.tabs.filter((t) => loaded[t]);
   setupTabs(available);
 }
 

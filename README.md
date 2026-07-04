@@ -7,6 +7,7 @@ Dashboard de fuentes abiertas que sigue un conflicto en **tres ejes cruzables**:
 | **01 Narrativa** | Tono (sentimiento) y entidades en la cobertura mediática | RSS de medios + Google News |
 | **02 Militar** | Eventos geolocalizados, anomalías de actividad, pérdidas | Eventos derivados de las propias noticias + dataset del Estado Mayor ucraniano |
 | **03 Economía** | Commodities, tipos de cambio, ayuda internacional | Yahoo Finance (sin key) + snapshot del Kiel Institute |
+| **04 Influencia** | Alineamiento diplomático mundial (ONU + sanciones) y quién narra el conflicto | Snapshot curado (votos AG ONU, sanciones) + cálculo propio por país sede del medio |
 
 **Pipeline:** RSS/APIs → NLP y agregación (Python puro) → JSON estático → dashboard (Chart.js + Leaflet). Sin backend, sin API keys, deploy en GitHub Pages con actualización automática vía Actions.
 
@@ -35,7 +36,8 @@ conflicts/*.toml   →   pipeline/           →   docs/data/<id>/*.json   →  
 - **`docs/`** — sitio estático (Pages): `js/core.js` (estado, pestañas y
   fábrica de mapas), `js/narrative.js`, `js/military.js`, `js/economy.js`.
 - **`docs/geo/`** — límites regionales de [geoBoundaries](https://www.geoboundaries.org)
-  (gbOpen, **CC-BY 4.0**), simplificados con Douglas-Peucker propio (9,5 MB → 256 KB).
+  (gbOpen, **CC-BY 4.0**), simplificados con Douglas-Peucker propio (9,5 MB → 256 KB),
+  y mapamundi de [Natural Earth](https://www.naturalearthdata.com) (dominio público, 155 KB).
 - **`docs/data/<id>/layers.geojson`** — capa **curada a mano** (no la genera el
   pipeline): infraestructura estratégica, rutas comerciales y chokepoints, con
   trazados esquemáticos y campo `status` a mantener.

@@ -2,13 +2,13 @@
   "id": "russia_ukraine",
   "name": "Rusia–Ucrania",
   "description": "Cobertura mediática del conflicto entre Rusia y Ucrania",
-  "updated": "2026-07-04T20:43:52+00:00",
-  "total_articles": 426,
-  "overall_avg": -0.5593,
+  "updated": "2026-07-04T21:12:37+00:00",
+  "total_articles": 431,
+  "overall_avg": -0.5558,
   "distribution": {
-    "pos": 52,
+    "pos": 53,
     "neu": 37,
-    "neg": 337
+    "neg": 341
   },
   "sources": [
     "Al Jazeera",
@@ -29,13 +29,13 @@
     "Russia Matters",
     "Yahoo",
     "The Atlantic",
+    "ABC News - Breaking News, Latest News and Videos",
     "Atlantic Council",
     "CNBC",
     "The Washington Post",
     "Reuters",
     "Euromaidan Press",
     "Ukrinform - Ukrainian National News Agency",
-    "ABC News - Breaking News, Latest News and Videos",
     "Radio Free Europe/Radio Liberty",
     "The Hill",
     "WSJ",
@@ -483,11 +483,19 @@
     },
     {
       "date": "2026-07-04",
-      "count": 79,
-      "avg": -0.2593,
-      "pos": 18,
+      "count": 81,
+      "avg": -0.2509,
+      "pos": 19,
       "neu": 16,
-      "neg": 45
+      "neg": 46
+    },
+    {
+      "date": "2026-07-05",
+      "count": 3,
+      "avg": -0.4852,
+      "pos": 0,
+      "neu": 0,
+      "neg": 3
     }
   ],
   "by_source": [
@@ -503,8 +511,8 @@
     },
     {
       "source": "BBC",
-      "count": 45,
-      "avg": -0.4235
+      "count": 46,
+      "avg": -0.394
     },
     {
       "source": "Institute for the Study of War",
@@ -518,8 +526,8 @@
     },
     {
       "source": "NPR",
-      "count": 15,
-      "avg": -0.4173
+      "count": 18,
+      "avg": -0.4286
     },
     {
       "source": "The New York Times",
@@ -582,6 +590,11 @@
       "avg": -0.281
     },
     {
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "count": 4,
+      "avg": -0.8599
+    },
+    {
       "source": "Atlantic Council",
       "count": 4,
       "avg": 0.0019
@@ -610,11 +623,6 @@
       "source": "Ukrinform - Ukrainian National News Agency",
       "count": 4,
       "avg": -0.8283
-    },
-    {
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "count": 3,
-      "avg": -0.8881
     },
     {
       "source": "Radio Free Europe/Radio Liberty",
@@ -956,14 +964,14 @@
     {
       "name": "Ukraine",
       "type": "LOCATION",
-      "count": 297,
-      "avg": -0.6266
+      "count": 299,
+      "avg": -0.6268
     },
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 269,
-      "avg": -0.674
+      "count": 271,
+      "avg": -0.6739
     },
     {
       "name": "Vladimir Putin",
@@ -1028,6 +1036,36 @@
   ],
   "recent": [
     {
+      "title": "A new phase in the war in Ukraine",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/04/nx-s1-5879372/a-new-phase-in-the-war-in-ukraine",
+      "published": "2026-07-05T00:03:51+00:00",
+      "compound": -0.5423,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Pope Leo visits Lampedusa to spotlight missing migrants",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/04/nx-s1-5879160/pope-leo-visits-lampedusa-to-spotlight-missing-migrants",
+      "published": "2026-07-05T00:03:49+00:00",
+      "compound": -0.0772,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Iran begins week of funeral celebrations for Khamenei",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/04/nx-s1-5877738/iran-begins-week-of-funeral-celebrations-for-khamenei",
+      "published": "2026-07-05T00:03:46+00:00",
+      "compound": -0.836,
+      "label": "negative",
+      "entities": []
+    },
+    {
       "title": "Putin visits military installation, vowing to take more of Ukraine",
       "source": "The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZThNamVaZEVGTE0wbFoyVXJoOXZZbHBkaHNxcVZRR2Nwa1VfNkNYWFY3WVRmX19lMEhPY2pKVjU2dFhVWHFMOEVRdVJydWpKSVQ0cDZDM2thSm96VmRHZmZFLWpzWDJ0NU4xQUo5c0dNbjVxa2kyYm9BS0Q4cmF3SmFfUUpwVEtkZFVuOW9DNmZqRzNjOFAxWEJVUkhoWERaN0RTRUxwekJHTWpy?oc=5",
@@ -1039,6 +1077,15 @@
         "Ukraine",
         "United States"
       ]
+    },
+    {
+      "title": "Eala wins 'for all the girls with ruffled socks and chubby cheeks'",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/cjwgpz3wj69o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-04T23:19:11+00:00",
+      "compound": 0.9325,
+      "label": "positive",
+      "entities": []
     },
     {
       "title": "Lebanon’s Aoun calls on US to keep ‘always standing beside’ his country",
@@ -1241,6 +1288,18 @@
       "compound": 0.5719,
       "label": "positive",
       "entities": []
+    },
+    {
+      "title": "Ukraine launches major drone attack again on Russia",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeTVOcEU1NHNfcVBOTXV2VHNGUGpKNnltdGFvMG5ZSUxpTVkwSXo1YUVJa2FNdUI4VDIyUEZtcEJLV2VSTTVTNzJBS0JWd2E2ODlEalZNdmdXUWZsdmQ3dnlsWGxSRkM4QS0wYlZrUTYxTDFKNUt5b3AxQUNLSmZ6SEpGOXhuREk4MUJIUXNiTXc5RW44Q29JQlNMWdIBoAFBVV95cUxPbExNUG1BUWxQMnU5SFZ6VENZOGdTQUtVcjl0VllxMUNHcjBiWjhMTWpHdVNRQ0FvODhrUFQxdTZYOTBOYkpwbWpTdFhBVDZJMTJMSGE5MTE0X0Q3MzA2Umd2MWRQdHNEckJrTDEtWjJQMy1URDNGZjI0XzZxR1ZtUjdhS1BNUEc1Z1ZDb0pXdEs5clVlNktWSUpCOUVSTlJR?oc=5",
+      "published": "2026-07-04T20:36:56+00:00",
+      "compound": -0.7755,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
     },
     {
       "title": "Injury ends Williams' Wimbledon comeback",
@@ -1604,64 +1663,6 @@
       "entities": [
         "Russia",
         "Ukraine"
-      ]
-    },
-    {
-      "title": "Keiko Fujimori declared winner of Peru's presidential election weeks after vote",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cr5jpvv06e1o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-04T10:52:55+00:00",
-      "compound": 0.6808,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Ukraine hits oil and military facilities near Russia’s St Petersburg",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/4/ukraine-hits-oil-and-military-facilities-near-russias-st-petersburg?traffic_source=rss",
-      "published": "2026-07-04T10:29:19+00:00",
-      "compound": -0.3612,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine",
-        "Kyiv"
-      ]
-    },
-    {
-      "title": "Ukraine Is Bringing the War With Russia to Crimea, Strike After Strike",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPS3F5QzFCQWtobkFnUUxSN3FUeVlwancxaDlYdHVMNXVxSzdOQUhybjdndkVrQVhxb01xcllqcU5hMlprb05fOWY2UHp0dDVuTWQwQzFtM1RDZktXRk9KemE1QUl1bVNpajZWY3VSYVVRN3gxaWtGT3gzRXE3SWJYNzlBaUxQRTJKMlU2RE4xTXFucHBhSWVSUTZXenU2T2s?oc=5",
-      "published": "2026-07-04T10:07:21+00:00",
-      "compound": -0.8957,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine",
-        "Crimea"
-      ]
-    },
-    {
-      "title": "Russia claims it captured the strategic key Ukrainian city of Kostiantynivk",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/4/russia-claims-it-captured-the-strategic-key-ukrainian-city-of-kostiantynivk?traffic_source=rss",
-      "published": "2026-07-04T10:04:35+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Mali’s army says rebels launch new attacks on towns and cities",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/4/armed-fighters-attack-multiple-towns-across-mali?traffic_source=rss",
-      "published": "2026-07-04T09:14:56+00:00",
-      "compound": -0.7845,
-      "label": "negative",
-      "entities": [
-        "Russia"
       ]
     }
   ]

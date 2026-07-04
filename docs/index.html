@@ -38,6 +38,7 @@
     <button class="tab-btn" data-tab="narrative"><span class="tab-num">01</span>Narrativa</button>
     <button class="tab-btn" data-tab="military"><span class="tab-num">02</span>Militar</button>
     <button class="tab-btn" data-tab="economy"><span class="tab-num">03</span>Economía</button>
+    <button class="tab-btn" data-tab="influence"><span class="tab-num">04</span>Influencia</button>
   </nav>
 
   <main id="dashboard" hidden>
@@ -181,6 +182,41 @@
         <div class="chart-box tall"><canvas id="chart-eco-aid"></canvas></div>
       </section>
     </section>
+
+    <!-- ============================ 04 INFLUENCIA ========================== -->
+    <section id="tab-influence" class="tab-panel" hidden>
+      <section class="kpis">
+        <div class="card kpi"><span class="kpi-label">Sancionan a Rusia</span><span class="kpi-value" id="inf-kpi-sanctions">–</span></div>
+        <div class="card kpi"><span class="kpi-label">Condenaron en ONU</span><span class="kpi-value" id="inf-kpi-yes">–</span></div>
+        <div class="card kpi"><span class="kpi-label">Se abstuvieron</span><span class="kpi-value" id="inf-kpi-abstain">–</span></div>
+        <div class="card kpi"><span class="kpi-label">Con Rusia</span><span class="kpi-value" id="inf-kpi-no">–</span></div>
+      </section>
+
+      <section class="card wide">
+        <h2>Mapamundi de alineamiento diplomático</h2>
+        <p class="hint" id="inf-map-hint"></p>
+        <div id="map-world" class="eco-map"></div>
+        <div class="legend" id="inf-map-legend"></div>
+      </section>
+
+      <div class="grid-2">
+        <section class="card">
+          <h2>El mundo por bloques</h2>
+          <p class="hint">Cantidad de países en cada categoría de alineamiento.</p>
+          <div class="chart-box"><canvas id="chart-inf-blocs"></canvas></div>
+        </section>
+        <section class="card">
+          <h2>Soft power narrativo: quién cuenta la guerra</h2>
+          <p class="hint">Artículos por país sede del medio · color = tono promedio. Dato vivo del pipeline.</p>
+          <div class="chart-box"><canvas id="chart-inf-narrators"></canvas></div>
+        </section>
+      </div>
+
+      <section class="card wide note">
+        <h2>Cómo leer este tablero</h2>
+        <p class="hint" id="inf-note"></p>
+      </section>
+    </section>
   </main>
 
   <div id="empty" class="empty" hidden>
@@ -195,6 +231,7 @@
   <script src="js/narrative.js"></script>
   <script src="js/military.js"></script>
   <script src="js/economy.js"></script>
+  <script src="js/influence.js"></script>
   <script>boot();</script>
 </body>
 </html>

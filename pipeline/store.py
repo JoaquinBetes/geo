@@ -177,12 +177,20 @@ def write_json(conflict_id: str, filename: str, obj: dict) -> None:
 
 
 def read_json(conflict_id: str, filename: str) -> dict | None:
-    """Lee un JSON previo (None si todavía no existe)."""
+    """Lee un JSON previo (None si no existe o está corrupto).
+
+    "Corrupto" pasa en la vida real: p. ej. un merge de git que dejó
+    marcadores de conflicto adentro. Para un fallback, None es mejor que
+    tirar abajo toda la corrida.
+    """
     path = _conflict_dir(conflict_id) / filename
     if not path.exists():
         return None
-    with path.open(encoding="utf-8") as f:
-        return json.load(f)
+    try:
+        with path.open(encoding="utf-8") as f:
+            return json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return None
 
 
 def write_index(entries: list[dict]) -> None:

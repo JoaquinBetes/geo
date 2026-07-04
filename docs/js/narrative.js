@@ -2,7 +2,10 @@
 // narrative.js — pestaña 01: sentimiento y entidades en la cobertura mediática.
 // =============================================================================
 
-function renderNarrative(d) {
+function renderNarrative(data) {
+  const d = data.summary;
+  renderNarrativeGeo(data, "mentions");
+
   // --- KPIs ---
   document.getElementById("kpi-total").textContent = fmtNum(d.total_articles);
   const s = document.getElementById("kpi-sentiment");
@@ -147,4 +150,59 @@ function renderNarrative(d) {
     li.append(dot, main, meta);
     ul.appendChild(li);
   }
+}
+
+// --- Geografía del relato: coropletas comparativas (atención / tono) ----------
+async function renderNarrativeGeo(data, metric) {
+  const card = document.getElementById("nar-geo-card");
+  const r = data.regions;
+  if (!r?.countries?.length) { card.hidden = true; return; }
+  card.hidden = false;
+
+  // Estado del toggle Atención/Tono.
+  document.querySelectorAll("#nar-metric button").forEach((b) => {
+    b.classList.toggle("active", b.dataset.metric === metric);
+    b.onclick = () => renderNarrativeGeo(data, b.dataset.metric);
+  });
+
+  const byCountry = {};
+  for (const reg of r.regions) {
+    (byCountry[reg.country] ??= new Map()).set(reg.region, reg);
+  }
+  const maxMentions = Math.max(1, ...r.regions.map((x) => x.mentions));
+
+  for (const [i, country] of r.countries.entries()) {
+    document.getElementById(`nar-geo-title-${i}`).textContent = country.name;
+    const values = byCountry[country.code] ?? new Map();
+    const geo = await loadGeoFile(country.geo);
+
+    choropleth({
+      key: `narrative:geo${i}`,
+      elId: `map-nar-${i}`,
+      geo,
+      hasData: (name) => values.has(name),
+      styleOf: (name) => {
+        const v = values.get(name);
+        let fill = "rgba(127,146,168,0.05)";
+        if (v?.mentions) {
+          fill = metric === "mentions"
+            ? ramp(COLORS.amber, Math.sqrt(v.mentions / maxMentions))
+            : ramp(v.tone_avg < 0 ? COLORS.neg : COLORS.pos, Math.abs(v.tone_avg));
+        }
+        return { fillColor: fill, fillOpacity: 1, color: "#223041", weight: 1 };
+      },
+      tooltipOf: (name) => {
+        const v = values.get(name);
+        if (!v?.mentions) return `${regionLabel(name)}: sin menciones`;
+        return `${regionLabel(name)}: ${v.mentions} menciones · tono ${v.tone_avg.toFixed(2)}`;
+      },
+    });
+  }
+
+  const legend = document.getElementById("nar-geo-legend");
+  legend.innerHTML = metric === "mentions"
+    ? `<span><span class="swatch" style="background:${ramp(COLORS.amber, 0.15)}"></span>pocas menciones</span>` +
+      `<span><span class="swatch" style="background:${ramp(COLORS.amber, 1)}"></span>muchas (máx. ${maxMentions})</span>`
+    : `<span><span class="swatch" style="background:${ramp(COLORS.neg, 0.9)}"></span>tono negativo</span>` +
+      `<span><span class="swatch" style="background:${ramp(COLORS.pos, 0.9)}"></span>tono positivo</span>`;
 }

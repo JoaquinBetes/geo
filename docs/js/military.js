@@ -4,11 +4,13 @@
 // combina las dos capas.
 // =============================================================================
 
-function renderMilitary({ summary, military: m }) {
+function renderMilitary(data) {
+  const { summary, military: m } = data;
   if (!m) return;
 
   renderMilKpis(m);
-  renderMap(m);
+  renderMap(m, data.layers);
+  renderMilitaryGeo(data.regions);
   renderMilDaily(m);
   renderMilCorrelation(summary, m);
   renderLosses(m);
@@ -42,17 +44,10 @@ function renderMilKpis(m) {
 }
 
 // --- Mapa Leaflet -------------------------------------------------------------
-function renderMap(m) {
+function renderMap(m, layers) {
   document.getElementById("mil-map-caveat").textContent = m.caveats.events;
 
-  const map = L.map("map", { scrollWheelZoom: false }).setView([48.6, 33.0], 6);
-  state.map = map;
-
-  L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
-    subdomains: "abcd",
-    maxZoom: 12,
-  }).addTo(map);
+  const map = newMap("military:main", "map").setView([48.6, 33.0], 6);
 
   // Capa de marcadores: un círculo por evento, color según tipo.
   const markers = L.layerGroup();
@@ -84,6 +79,27 @@ function renderMap(m) {
     else { map.removeLayer(heat); markers.addTo(map); }
   };
 
+  // Capa curada de infraestructura estratégica (toggle propio).
+  const infraFeatures = (layers?.features ?? []).filter((f) => f.properties.layer === "infra");
+  const infraToggle = document.getElementById("infra-toggle");
+  if (infraFeatures.length) {
+    const infra = L.layerGroup(
+      infraFeatures.map((f) => {
+        const [lon, lat] = f.geometry.coordinates;
+        return L.marker([lat, lon], {
+          icon: L.divIcon({ className: "infra-icon", html: "◈", iconSize: [16, 16] }),
+        }).bindPopup(
+          `<div class="popup-meta">Infraestructura estratégica</div>` +
+          `<strong>${f.properties.name}</strong><br>${f.properties.desc}`
+        );
+      })
+    );
+    if (infraToggle.checked) infra.addTo(map);
+    infraToggle.onchange = (e) => (e.target.checked ? infra.addTo(map) : map.removeLayer(infra));
+  } else {
+    infraToggle.closest("label").hidden = true;
+  }
+
   // Leyenda
   const legend = document.getElementById("map-legend");
   legend.innerHTML = "";
@@ -93,6 +109,57 @@ function renderMap(m) {
     span.innerHTML = `<span class="dot" style="background:${meta.color}"></span>${meta.label} (${n})`;
     legend.appendChild(span);
   }
+  if (infraFeatures.length) {
+    const span = document.createElement("span");
+    span.innerHTML = `<span style="color:${COLORS.amber}">◈</span> Infraestructura (${infraFeatures.length})`;
+    legend.appendChild(span);
+  }
+}
+
+// --- Coropleta comparativa: intensidad de eventos por región -------------------
+async function renderMilitaryGeo(r) {
+  const card = document.getElementById("mil-geo-card");
+  if (!r?.countries?.length) { card.hidden = true; return; }
+  card.hidden = false;
+
+  const byCountry = {};
+  for (const reg of r.regions) {
+    (byCountry[reg.country] ??= new Map()).set(reg.region, reg);
+  }
+  const maxEvents = Math.max(1, ...r.regions.map((x) => x.events));
+
+  for (const [i, country] of r.countries.entries()) {
+    document.getElementById(`mil-geo-title-${i}`).textContent = country.name;
+    const values = byCountry[country.code] ?? new Map();
+    const geo = await loadGeoFile(country.geo);
+
+    choropleth({
+      key: `military:geo${i}`,
+      elId: `map-mil-${i}`,
+      geo,
+      hasData: (name) => (values.get(name)?.events ?? 0) > 0,
+      styleOf: (name) => {
+        const v = values.get(name);
+        const fill = v?.events
+          ? ramp(COLORS.neg, Math.sqrt(v.events / maxEvents))
+          : "rgba(127,146,168,0.05)";
+        return { fillColor: fill, fillOpacity: 1, color: "#223041", weight: 1 };
+      },
+      tooltipOf: (name) => {
+        const v = values.get(name);
+        if (!v?.events) return `${regionLabel(name)}: sin eventos reportados`;
+        const parts = Object.entries(EVENT_META)
+          .filter(([t]) => v[t])
+          .map(([t, meta]) => `${meta.label}: ${v[t]}`)
+          .join(" · ");
+        return `${regionLabel(name)}: ${v.events} eventos (${parts})`;
+      },
+    });
+  }
+
+  document.getElementById("mil-geo-legend").innerHTML =
+    `<span><span class="swatch" style="background:${ramp(COLORS.neg, 0.15)}"></span>pocos eventos</span>` +
+    `<span><span class="swatch" style="background:${ramp(COLORS.neg, 1)}"></span>muchos (máx. ${maxEvents})</span>`;
 }
 
 // --- Actividad diaria por tipo + anomalías ------------------------------------

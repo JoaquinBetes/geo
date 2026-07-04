@@ -1,13 +1,13 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-07-03T18:29:59+00:00",
+  "updated": "2026-07-04T20:34:36+00:00",
   "caveats": {
     "events": "Eventos extraídos automáticamente de titulares de prensa (no confirmación en terreno). La geolocalización es a nivel ciudad/zona.",
     "losses": "Pérdidas rusas según el Estado Mayor de Ucrania: estimación de una de las partes, no verificada de forma independiente."
   },
   "kpis": {
-    "events_total": 46,
-    "events_7d": 39,
+    "events_total": 51,
+    "events_7d": 43,
     "events_prev_7d": 3,
     "hottest_place": "Kyiv"
   },
@@ -23,6 +23,15 @@
     },
     {
       "date": "2026-05-26",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-06-15",
       "total": 1,
       "strike": 1,
       "ground": 0,
@@ -122,10 +131,19 @@
     },
     {
       "date": "2026-07-03",
-      "total": 8,
-      "strike": 7,
+      "total": 9,
+      "strike": 8,
       "ground": 1,
       "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-04",
+      "total": 3,
+      "strike": 2,
+      "ground": 0,
+      "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
     }
@@ -150,6 +168,16 @@
       "title": "Russia tells Marco Rubio U.S. citizens should leave Kyiv ahead of 'systematic' strikes on Ukrainian capital",
       "source": "CNBC",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNlRvMlFKbWZJclBrLTVfRnVRVmg3NHVZdkNtek9IZkZNbERhZkZkNTFtUEU4eGdrc0x5bjRyeUlvTDd1Y1F5TmwweW85bG5UVkcwQzRsbVd0NjE2MzQ2SktwazZPZWNUVFpYcUlwT2NlcU53RDkzZFhoVnZmeHMwNTNJQ244d9IBiwFBVV95cUxPX2F5MV9uc3pJcG5GVXhEbkc4endvVnF4NG1LZnFWaDlVdHJqZFRJNEhyOElZaG9qdE9taUYxaldFR2E3UGU5aUJYeDR4ck9EaEp6VDRaMlViYld2RW9FV2xNUF8xWHJMQ2lmSW5QZ3BkR0NuSjB1eFJPR2VLQ3RXbDR6akd3VzNfc2NN?oc=5"
+    },
+    {
+      "date": "2026-06-15",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russian strikes kill 11 and set historic cathedral in Kyiv ablaze",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53dEZ6S3V2Smg4VmhrQ0F3QUJmTXhWSzRTUkJtVGVUWlRBVG5NMVY5MmcxcjJuZmF3eTE5dGYwS2kzX0VVS2ZheUczV3lxZXdMSHpKNTBfM0hjQQ?oc=5"
     },
     {
       "date": "2026-06-18",
@@ -590,12 +618,52 @@
       "title": "Russia’s triumphant tone shifts as Ukraine deploys ‘asymmetrical tactics’",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/7/3/russias-triumphant-tone-shifts-as-ukraine-deploys-asymmetrical-tactics?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war latest: SBU strikes Russia's Saky air base in occupied Crimea for second time in a week",
+      "source": "The Kyiv Independent",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQaTZ3RURzeW5yeVNkSlo3QmFGRWdFcF9XQjZlR2dkU09HMkhZN0ktUklPV0ZySGFyY0VleHpCTUROUUJBam5XWWg2ZEJnY1BZczdDRVIyc0dvdFdlRU1ZMUVkS2dNd0JGNmcxQ0lYaWF2VWRkU2dMZWpIVnJZNlh2MktJTDBha2xUR1RoQzRrNmY5ZS1uMjd6SVNmdFRtYmQzLUZPNS1EN003bGU0czJsNlRwTGxKaEhrUkhvcjdURF9lLXRyZVcxN2pvU0pjU2hFcmxObUVB?oc=5"
+    },
+    {
+      "date": "2026-07-04",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war live: St Petersburg oil port and ‘important military target’ hit by Kyiv",
+      "source": "The Independent",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNk9vRzlVVzlEc0prOEFnNDJmd3BZeUhjbllucEQwVThoSF8zcnJERTlQeHFCcGxIbllRRU5uamlSWnZNUFZWNHlwc1VmdmZiN25JWnNlNVpidk1Ob0tvZHpaWnZudHZiZFNCZDFpV3d1Q3FBazZEVU5LcEpWWHZiX1ZwMWF1UW9UbUFTTlBiaHI3NEE2QmlfRVliTzNYRVdnZGU2d3I2VVVmT2ZP?oc=5"
+    },
+    {
+      "date": "2026-07-04",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Will economic pressure move the Kremlin towards talks with Kyiv?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/7/4/will-economic-pressure-move-the-kremlin-towards-talks-with-kyiv?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-04",
+      "type": "strike",
+      "place": "Donetsk",
+      "lat": 48.0159,
+      "lon": 37.8029,
+      "title": "Ukraine war briefing: Germany calls reports Russian soldiers are being trained in China ‘deeply disturbing’",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/04/ukraine-war-briefing-germany-calls-reports-russian-soldiers-are-being-trained-in-china-deeply-disturbing"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 26
+      "count": 30
     },
     {
       "place": "Moscow",
@@ -606,11 +674,11 @@
       "count": 2
     },
     {
-      "place": "Bryansk",
-      "count": 1
+      "place": "Donetsk",
+      "count": 2
     },
     {
-      "place": "Donetsk",
+      "place": "Bryansk",
       "count": 1
     },
     {

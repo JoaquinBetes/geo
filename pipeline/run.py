@@ -16,6 +16,7 @@ from .config import load_conflicts
 from .econ import build_economy
 from .fetch import fetch_conflict
 from .military import build_military
+from .regions import build_regions
 from .store import (
     append_articles,
     build_summary,
@@ -74,6 +75,17 @@ def run(conflict_ids: list[str] | None = None) -> None:
                 f"geolocalizados | pérdidas: "
                 f"{'OK' if military.get('losses') else 'sin datos'}"
             )
+
+        # --- Capa 2b: agregados regionales (coropletas comparativas) ---
+        try:
+            regions = build_regions(conflict, all_articles)
+        except Exception as exc:
+            print(f"[{cid}] regiones: ERROR ({exc}); conservo versión anterior")
+            regions = read_json(cid, "regions.json")
+        if regions:
+            write_json(cid, "regions.json", regions)
+            n_con_datos = sum(1 for r in regions["regions"] if r["mentions"])
+            print(f"[{cid}] regiones: {n_con_datos} con menciones")
 
         # --- Capa 3: economía (mercados + ayuda) ---
         try:

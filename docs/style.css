@@ -225,6 +225,76 @@ main { padding: clamp(16px, 4vw, 48px); }
   white-space: nowrap;
 }
 .toggle input { accent-color: var(--amber); }
+.toggles { display: flex; gap: 16px; flex-wrap: wrap; }
+
+/* --- Pares de mapas comparativos (regla: Ucrania | Rusia, lado a lado) --- */
+.map-pair {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 14px;
+}
+.map-title {
+  margin: 0 0 6px;
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.map-title::before { content: "▸ "; color: var(--amber); }
+.mini-map {
+  height: 320px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: #0c1016;
+}
+.eco-map {
+  height: 480px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: #0c1016;
+}
+
+/* Botones de métrica (Atención / Tono) */
+.metric-toggle { display: flex; gap: 4px; }
+.metric-toggle button {
+  appearance: none;
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.metric-toggle button.active {
+  color: #171204;
+  background: var(--amber);
+  border-color: var(--amber);
+  font-weight: 600;
+}
+
+/* Íconos de infraestructura estratégica en el mapa militar */
+.infra-icon {
+  color: var(--amber);
+  font-size: 15px;
+  line-height: 16px;
+  text-align: center;
+  text-shadow: 0 0 5px #000, 0 0 2px #000;
+}
+
+/* Swatches de leyenda para coropletas */
+.legend .swatch {
+  width: 14px; height: 10px;
+  display: inline-block;
+  margin-right: 5px;
+  border: 1px solid var(--border);
+  vertical-align: middle;
+}
 
 .legend {
   display: flex;

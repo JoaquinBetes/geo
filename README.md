@@ -30,8 +30,21 @@ conflicts/*.toml   →   pipeline/           →   docs/data/<id>/*.json   →  
   - `econ.py` series de mercado semanales de Yahoo Finance, con baseline pre-guerra.
   - `store.py` histórico acumulativo + agregados.
   - `run.py` orquesta; cada capa es tolerante a fallos de su fuente.
-- **`docs/`** — sitio estático (Pages): `js/core.js` (estado y pestañas),
-  `js/narrative.js`, `js/military.js` (mapa Leaflet + heatmap), `js/economy.js`.
+  - `regions.py` agrega menciones/tono/eventos por región administrativa
+    (alimenta las coropletas comparativas).
+- **`docs/`** — sitio estático (Pages): `js/core.js` (estado, pestañas y
+  fábrica de mapas), `js/narrative.js`, `js/military.js`, `js/economy.js`.
+- **`docs/geo/`** — límites regionales de [geoBoundaries](https://www.geoboundaries.org)
+  (gbOpen, **CC-BY 4.0**), simplificados con Douglas-Peucker propio (9,5 MB → 256 KB).
+- **`docs/data/<id>/layers.geojson`** — capa **curada a mano** (no la genera el
+  pipeline): infraestructura estratégica, rutas comerciales y chokepoints, con
+  trazados esquemáticos y campo `status` a mantener.
+
+### Regla de diseño comparativa
+
+Todo mapa o estadística "política" se muestra **en par**: Ucrania a la
+izquierda, Rusia a la derecha (mismos colores, misma escala). La simetría es
+deliberada: obliga a mirar a los dos bandos con la misma vara.
 
 El histórico de artículos (`docs/data/<id>/articles.jsonl`) se **acumula con
 cada corrida**: la profundidad temporal del dashboard crece sola con el cron.

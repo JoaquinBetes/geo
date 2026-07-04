@@ -1,0 +1,112 @@
+{
+  "type": "FeatureCollection",
+  "note": "Capa CURADA A MANO (no la genera el pipeline). layer: 'infra' se muestra en el mapa militar; 'route' y 'chokepoint' en el económico. Trazados de rutas ESQUEMÁTICOS, no cartografía de precisión. Actualizar 'status' cuando cambie la realidad.",
+  "as_of": "2026-07",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "nuclear", "name": "Central nuclear de Zaporiyia", "desc": "La mayor planta nuclear de Europa (6 reactores). Bajo ocupación rusa desde marzo 2022; el OIEA mantiene presencia permanente por el riesgo de accidente." },
+      "geometry": { "type": "Point", "coordinates": [34.586, 47.512] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "nuclear", "name": "Central nuclear de Rivne", "desc": "4 reactores en el noroeste ucraniano. Los cortes de red por ataques a subestaciones obligan a reducir potencia." },
+      "geometry": { "type": "Point", "coordinates": [25.887, 51.325] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "nuclear", "name": "Central nuclear de Khmelnytskyi", "desc": "2 reactores operativos y ampliación en obra: el plan ucraniano para compensar la pérdida de Zaporiyia." },
+      "geometry": { "type": "Point", "coordinates": [26.649, 50.301] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "nuclear", "name": "Central nuclear Ucrania Sur", "desc": "3 reactores sobre el río Bug del Sur; clave para el suministro del sur del país." },
+      "geometry": { "type": "Point", "coordinates": [31.220, 47.812] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "military", "name": "Base aérea de Engels", "desc": "Base de bombarderos estratégicos rusos (Tu-95/Tu-160) que lanzan misiles de crucero sobre Ucrania. Blanco recurrente de drones ucranianos de largo alcance." },
+      "geometry": { "type": "Point", "coordinates": [46.211, 51.483] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "military", "name": "Base naval de Sebastopol", "desc": "Cuartel general histórico de la Flota del Mar Negro. Los ataques con drones navales y misiles forzaron la dispersión de buques hacia Novorossiysk." },
+      "geometry": { "type": "Point", "coordinates": [33.525, 44.617] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "military", "name": "Base aérea de Saky (Crimea)", "desc": "Aviación naval rusa en Crimea occidental; uno de los primeros blancos profundos ucranianos (agosto 2022)." },
+      "geometry": { "type": "Point", "coordinates": [33.588, 45.093] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "port", "name": "Puerto de Odesa", "desc": "Principal salida del grano ucraniano. Su operatividad define la seguridad alimentaria de países importadores de Medio Oriente y África." },
+      "geometry": { "type": "Point", "coordinates": [30.748, 46.495] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "port", "name": "Puerto de Mariupol", "desc": "Puerto del mar de Azov bajo ocupación desde 2022; salida histórica del acero del Donbás." },
+      "geometry": { "type": "Point", "coordinates": [37.500, 47.049] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "logistics", "name": "Puente de Kerch", "desc": "Única conexión terrestre directa Rusia–Crimea y símbolo político del Kremlin. Atacado en 2022 y 2023; cuello de botella logístico del frente sur." },
+      "geometry": { "type": "Point", "coordinates": [36.510, 45.308] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "energy", "name": "Estación de gas de Sudzha", "desc": "Punto de entrada del gasoducto que llevaba gas ruso a Europa vía Ucrania hasta el fin del contrato de tránsito (enero 2025). Zona de la incursión ucraniana en Kursk (2024)." },
+      "geometry": { "type": "Point", "coordinates": [35.272, 51.192] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "port", "name": "Puerto de Novorossiysk", "desc": "Salida del petróleo ruso y del oleoducto CPC (crudo kazajo); refugio de la Flota del Mar Negro tras los ataques a Sebastopol." },
+      "geometry": { "type": "Point", "coordinates": [37.787, 44.724] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "route", "kind": "grain", "name": "Corredor de granos del Mar Negro", "status": "Activo (corredor unilateral ucraniano)", "desc": "Ruta Odesa → Bósforo pegada a la costa de Rumania y Bulgaria. Tras la caída del acuerdo de granos (2023), Ucrania la sostiene bajo su propio paraguas antiaéreo. De acá depende el precio global del trigo." },
+      "geometry": { "type": "LineString", "coordinates": [[30.748, 46.45], [30.55, 45.8], [29.8, 45.0], [29.2, 44.0], [28.6, 42.8], [29.05, 41.4]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "route", "kind": "gas", "name": "TurkStream", "status": "Activo", "desc": "Gasoducto submarino Rusia → Turquía (Anapa → Kıyıköy): la única ruta de gas ruso a Europa que sigue plenamente operativa, vía los Balcanes." },
+      "geometry": { "type": "LineString", "coordinates": [[37.35, 44.90], [35.0, 43.9], [32.0, 43.0], [29.5, 42.2], [28.10, 41.65]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "route", "kind": "gas", "name": "Tránsito de gas vía Ucrania", "status": "Cortado (enero 2025)", "desc": "La ruta histórica Sudzha → Uzhhorod que abasteció Europa central por décadas. Ucrania no renovó el contrato de tránsito: fin de 50+ años de gas ruso cruzando su territorio." },
+      "geometry": { "type": "LineString", "coordinates": [[35.272, 51.192], [33.5, 50.6], [31.5, 50.0], [28.5, 49.6], [25.5, 48.9], [22.30, 48.62]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "route", "kind": "oil", "name": "Oleoducto Druzhba (ramal sur)", "status": "Parcialmente activo", "desc": "El oleoducto de la 'Amistad' soviética. El ramal sur sigue llevando crudo ruso a Hungría y Eslovaquia (exentas de sanciones); el ramal norte a Polonia/Alemania está cortado." },
+      "geometry": { "type": "LineString", "coordinates": [[49.0, 53.2], [43.0, 52.8], [38.0, 52.5], [34.38, 53.25], [30.5, 52.3], [26.0, 51.9], [22.5, 49.0], [19.0, 47.8]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "route", "kind": "oil", "name": "Ruta petrolera del Bósforo ('flota fantasma')", "status": "Activo", "desc": "Salida del crudo ruso desde Novorossiysk hacia el Mediterráneo en tanqueros de bandera opaca que evaden el tope de precios del G7." },
+      "geometry": { "type": "LineString", "coordinates": [[37.787, 44.724], [35.5, 43.8], [32.5, 42.7], [29.05, 41.4]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "route", "kind": "gas", "name": "Nord Stream 1 y 2", "status": "Fuera de servicio (sabotaje 2022)", "desc": "Los gasoductos bálticos Rusia → Alemania, volados en septiembre 2022. El símbolo de la ruptura energética entre Rusia y Europa occidental." },
+      "geometry": { "type": "LineString", "coordinates": [[28.6, 60.6], [24.0, 59.0], [19.5, 56.8], [16.0, 55.3], [13.64, 54.14]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "chokepoint", "kind": "strait", "name": "Estrecho del Bósforo", "desc": "Única salida del Mar Negro. Turquía controla el paso militar (Convención de Montreux, cerrada a buques de guerra desde 2022) y ve pasar todo el comercio: grano, crudo y flota fantasma." },
+      "geometry": { "type": "Point", "coordinates": [29.06, 41.12] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "chokepoint", "kind": "strait", "name": "Isla de las Serpientes", "desc": "Islote que domina la aproximación marítima a Odesa y la desembocadura del Danubio. Su recuperación por Ucrania (junio 2022) hizo viable el corredor de granos." },
+      "geometry": { "type": "Point", "coordinates": [30.204, 45.255] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "chokepoint", "kind": "strait", "name": "Estrecho de Kerch", "desc": "Paso entre el Mar Negro y el mar de Azov, controlado de facto por Rusia: llave del comercio de los puertos ucranianos del Azov ocupados." },
+      "geometry": { "type": "Point", "coordinates": [36.55, 45.20] }
+    }
+  ]
+}

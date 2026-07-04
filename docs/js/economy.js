@@ -4,15 +4,77 @@
 // al inicio del conflicto (baseline "pre-guerra").
 // =============================================================================
 
-function renderEconomy(e) {
+function renderEconomy(data) {
+  const e = data.economy;
   if (!e) return;
 
   document.getElementById("eco-note").textContent = e.note || "";
   document.getElementById("eco-note-card").hidden = !e.note;
 
   renderEcoKpis(e);
+  renderEcoMap(data.layers);
   renderEcoMarkets(e);
   renderAid(e);
+}
+
+// --- Mapa de rutas y chokepoints geoeconómicos ---------------------------------
+const ROUTE_KIND_META = {
+  grain: { label: "Granos", color: COLORS.pos },
+  gas: { label: "Gas", color: COLORS.cyan },
+  oil: { label: "Petróleo", color: COLORS.amber },
+  strait: { label: "Chokepoint", color: COLORS.neg },
+};
+
+function renderEcoMap(layers) {
+  const card = document.getElementById("eco-map-card");
+  const features = (layers?.features ?? []).filter(
+    (f) => f.properties.layer === "route" || f.properties.layer === "chokepoint"
+  );
+  if (!features.length) { card.hidden = true; return; }
+  card.hidden = false;
+
+  const map = newMap("economy:routes", "map-eco");
+
+  // Ruta punteada = cortada / fuera de servicio (el estado vive en el GeoJSON).
+  const isDown = (p) => /cortado|fuera de servicio/i.test(p.status ?? "");
+
+  const layer = L.geoJSON({ type: "FeatureCollection", features }, {
+    style: (f) => {
+      const meta = ROUTE_KIND_META[f.properties.kind] ?? { color: COLORS.neu };
+      return {
+        color: meta.color,
+        weight: 2.5,
+        opacity: isDown(f.properties) ? 0.55 : 0.9,
+        dashArray: isDown(f.properties) ? "6 7" : null,
+      };
+    },
+    pointToLayer: (f, latlng) =>
+      L.circleMarker(latlng, {
+        radius: 7,
+        color: COLORS.neg,
+        weight: 2,
+        fillColor: COLORS.neg,
+        fillOpacity: 0.5,
+      }),
+    onEachFeature: (f, l) => {
+      const p = f.properties;
+      l.bindPopup(
+        `<div class="popup-meta">${p.layer === "chokepoint" ? "Chokepoint" : "Ruta"}` +
+        `${p.status ? ` · ${p.status}` : ""}</div>` +
+        `<strong>${p.name}</strong><br>${p.desc}`
+      );
+    },
+  }).addTo(map);
+
+  map.fitBounds(layer.getBounds().pad(0.08));
+
+  const legend = document.getElementById("eco-map-legend");
+  legend.innerHTML = "";
+  for (const meta of Object.values(ROUTE_KIND_META)) {
+    const span = document.createElement("span");
+    span.innerHTML = `<span class="dot" style="background:${meta.color}"></span>${meta.label}`;
+    legend.appendChild(span);
+  }
 }
 
 // --- KPIs: última cotización + variación vs. pre-guerra ------------------------

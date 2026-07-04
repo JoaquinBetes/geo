@@ -74,6 +74,24 @@
         <div class="chart-box tall"><canvas id="chart-entities"></canvas></div>
       </section>
 
+      <section class="card wide" id="nar-geo-card" hidden>
+        <div class="card-head">
+          <div>
+            <h2>Geografía del relato — comparativa</h2>
+            <p class="hint">De qué regiones habla la prensa y con qué tono. Las capitales incluyen menciones a sus gobiernos. Límites: geoBoundaries (CC-BY).</p>
+          </div>
+          <div class="metric-toggle" id="nar-metric">
+            <button data-metric="mentions" class="active">Atención</button>
+            <button data-metric="tone">Tono</button>
+          </div>
+        </div>
+        <div class="map-pair">
+          <div><h3 class="map-title" id="nar-geo-title-0">–</h3><div id="map-nar-0" class="mini-map"></div></div>
+          <div><h3 class="map-title" id="nar-geo-title-1">–</h3><div id="map-nar-1" class="mini-map"></div></div>
+        </div>
+        <div class="legend" id="nar-geo-legend"></div>
+      </section>
+
       <section class="card wide">
         <h2>Titulares recientes</h2>
         <ul id="recent-list" class="recent"></ul>
@@ -95,10 +113,23 @@
             <h2>Mapa de eventos reportados</h2>
             <p class="hint" id="mil-map-caveat"></p>
           </div>
-          <label class="toggle"><input type="checkbox" id="heat-toggle" /> Mapa de calor</label>
+          <div class="toggles">
+            <label class="toggle"><input type="checkbox" id="infra-toggle" checked /> Infraestructura</label>
+            <label class="toggle"><input type="checkbox" id="heat-toggle" /> Mapa de calor</label>
+          </div>
         </div>
         <div id="map"></div>
         <div class="legend" id="map-legend"></div>
+      </section>
+
+      <section class="card wide" id="mil-geo-card" hidden>
+        <h2>Intensidad por región — comparativa</h2>
+        <p class="hint">Eventos reportados por la prensa, acumulados por región administrativa. Límites: geoBoundaries (CC-BY).</p>
+        <div class="map-pair">
+          <div><h3 class="map-title" id="mil-geo-title-0">–</h3><div id="map-mil-0" class="mini-map"></div></div>
+          <div><h3 class="map-title" id="mil-geo-title-1">–</h3><div id="map-mil-1" class="mini-map"></div></div>
+        </div>
+        <div class="legend" id="mil-geo-legend"></div>
       </section>
 
       <section class="card wide">
@@ -133,6 +164,13 @@
       <section class="card wide note" id="eco-note-card">
         <h2>Cómo leer estos indicadores</h2>
         <p class="hint" id="eco-note"></p>
+      </section>
+
+      <section class="card wide" id="eco-map-card" hidden>
+        <h2>Rutas y chokepoints geoeconómicos</h2>
+        <p class="hint" id="eco-map-hint">Trazados esquemáticos (no cartografía de precisión). Línea punteada = ruta cortada o fuera de servicio. Clic en cada elemento para el detalle.</p>
+        <div id="map-eco" class="eco-map"></div>
+        <div class="legend" id="eco-map-legend"></div>
       </section>
 
       <div class="grid-2" id="eco-markets"></div>

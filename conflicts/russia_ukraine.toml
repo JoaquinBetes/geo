@@ -11,6 +11,19 @@ name = "Rusia–Ucrania"
 description = "Cobertura mediática del conflicto entre Rusia y Ucrania"
 start_date = "2022-02-24"   # inicio de la invasión a gran escala (para baselines)
 
+# Países del conflicto: alimentan los mapas comparativos lado a lado.
+# 'geo' apunta al GeoJSON de límites regionales servido junto al dashboard
+# (geoBoundaries gbOpen, CC-BY 4.0, simplificado).
+[[countries]]
+code = "UA"
+name = "Ucrania"
+geo = "geo/ua_adm1.json"
+
+[[countries]]
+code = "RU"
+name = "Rusia"
+geo = "geo/ru_adm1.json"
+
 # Un artículo se incluye sólo si su título o resumen contiene al menos una de
 # estas palabras (sin distinguir mayúsculas). Filtra el ruido de los feeds
 # generalistas (deportes, cultura, etc.). Dejá la lista vacía para no filtrar.
@@ -144,6 +157,8 @@ events_caveat = "Eventos extraídos automáticamente de titulares de prensa (no 
 
 [[places]]
 name = "Kyiv"
+country = "UA"
+region = "Kyiv"
 aliases = ["kiev"]
 lat = 50.4501
 lon = 30.5234
@@ -151,6 +166,8 @@ metonym = true
 
 [[places]]
 name = "Moscow"
+country = "RU"
+region = "Moscow"
 aliases = []
 lat = 55.7558
 lon = 37.6173
@@ -158,246 +175,328 @@ metonym = true
 
 [[places]]
 name = "Kharkiv"
+country = "UA"
+region = "Kharkiv Oblast"
 aliases = ["kharkov"]
 lat = 49.9935
 lon = 36.2304
 
 [[places]]
 name = "Odesa"
+country = "UA"
+region = "Odessa Oblast"
 aliases = ["odessa"]
 lat = 46.4825
 lon = 30.7233
 
 [[places]]
 name = "Dnipro"
+country = "UA"
+region = "Dnipropetrovsk Oblast"
 aliases = ["dnipropetrovsk"]
 lat = 48.4647
 lon = 35.0462
 
 [[places]]
 name = "Lviv"
+country = "UA"
+region = "Lviv Oblast"
 aliases = []
 lat = 49.8397
 lon = 24.0297
 
 [[places]]
 name = "Zaporizhzhia"
+country = "UA"
+region = "Zaporizhia Oblast"
 aliases = ["zaporizhia", "zaporozhye"]
 lat = 47.8388
 lon = 35.1396
 
 [[places]]
 name = "Mariupol"
+country = "UA"
+region = "Donetsk Oblast"
 aliases = []
 lat = 47.0971
 lon = 37.5434
 
 [[places]]
 name = "Donetsk"
+country = "UA"
+region = "Donetsk Oblast"
 aliases = []
 lat = 48.0159
 lon = 37.8029
 
 [[places]]
 name = "Luhansk"
+country = "UA"
+region = "Luhansk Oblast"
 aliases = ["lugansk"]
 lat = 48.5740
 lon = 39.3078
 
 [[places]]
 name = "Bakhmut"
+country = "UA"
+region = "Donetsk Oblast"
 aliases = ["bakhmutske"]
 lat = 48.5941
 lon = 38.0021
 
 [[places]]
 name = "Avdiivka"
+country = "UA"
+region = "Donetsk Oblast"
 aliases = ["avdeevka"]
 lat = 48.1394
 lon = 37.7497
 
 [[places]]
 name = "Kupiansk"
+country = "UA"
+region = "Kharkiv Oblast"
 aliases = ["kupyansk"]
 lat = 49.7106
 lon = 37.6156
 
 [[places]]
 name = "Kherson"
+country = "UA"
+region = "Kherson Oblast"
 aliases = []
 lat = 46.6354
 lon = 32.6169
 
 [[places]]
 name = "Mykolaiv"
+country = "UA"
+region = "Mykolaiv Oblast"
 aliases = ["nikolaev"]
 lat = 46.9750
 lon = 31.9946
 
 [[places]]
 name = "Sumy"
+country = "UA"
+region = "Sumy Oblast"
 aliases = []
 lat = 50.9077
 lon = 34.7981
 
 [[places]]
 name = "Chernihiv"
+country = "UA"
+region = "Chernihiv Oblast"
 aliases = ["chernigov"]
 lat = 51.4982
 lon = 31.2893
 
 [[places]]
 name = "Poltava"
+country = "UA"
+region = "Poltava Oblast"
 aliases = []
 lat = 49.5883
 lon = 34.5514
 
 [[places]]
 name = "Kryvyi Rih"
+country = "UA"
+region = "Dnipropetrovsk Oblast"
 aliases = ["krivoy rog"]
 lat = 47.9105
 lon = 33.3918
 
 [[places]]
 name = "Sevastopol"
+country = "UA"
+region = "Sevastopol"
 aliases = []
 lat = 44.6166
 lon = 33.5254
 
 [[places]]
 name = "Simferopol"
+country = "UA"
+region = "Autonomous Republic of Crimea"
 aliases = []
 lat = 44.9521
 lon = 34.1024
 
 [[places]]
 name = "Kerch"
+country = "UA"
+region = "Autonomous Republic of Crimea"
 aliases = ["kerch strait", "kerch bridge"]
 lat = 45.3531
 lon = 36.4545
 
 [[places]]
 name = "Melitopol"
+country = "UA"
+region = "Zaporizhia Oblast"
 aliases = []
 lat = 46.8489
 lon = 35.3653
 
 [[places]]
 name = "Berdiansk"
+country = "UA"
+region = "Zaporizhia Oblast"
 aliases = ["berdyansk"]
 lat = 46.7553
 lon = 36.7885
 
 [[places]]
 name = "Enerhodar"
+country = "UA"
+region = "Zaporizhia Oblast"
 aliases = ["energodar", "zaporizhzhia nuclear"]
 lat = 47.4989
 lon = 34.6558
 
 [[places]]
 name = "Izium"
+country = "UA"
+region = "Kharkiv Oblast"
 aliases = ["izyum"]
 lat = 49.2128
 lon = 37.2569
 
 [[places]]
 name = "Lyman"
+country = "UA"
+region = "Donetsk Oblast"
 aliases = []
 lat = 48.9898
 lon = 37.8021
 
 [[places]]
 name = "Kramatorsk"
+country = "UA"
+region = "Donetsk Oblast"
 aliases = []
 lat = 48.7389
 lon = 37.5848
 
 [[places]]
 name = "Sloviansk"
+country = "UA"
+region = "Donetsk Oblast"
 aliases = ["slavyansk", "slovyansk"]
 lat = 48.8532
 lon = 37.6045
 
 [[places]]
 name = "Pokrovsk"
+country = "UA"
+region = "Donetsk Oblast"
 aliases = []
 lat = 48.2820
 lon = 37.1760
 
 [[places]]
 name = "Toretsk"
+country = "UA"
+region = "Donetsk Oblast"
 aliases = []
 lat = 48.3959
 lon = 37.8482
 
 [[places]]
 name = "Chasiv Yar"
+country = "UA"
+region = "Donetsk Oblast"
 aliases = ["chasiv-yar"]
 lat = 48.5936
 lon = 38.2812
 
 [[places]]
 name = "Vuhledar"
+country = "UA"
+region = "Donetsk Oblast"
 aliases = ["ugledar"]
 lat = 47.7799
 lon = 37.2486
 
 [[places]]
 name = "Orikhiv"
+country = "UA"
+region = "Zaporizhia Oblast"
 aliases = ["orikhove"]
 lat = 47.5672
 lon = 35.7857
 
 [[places]]
 name = "Nikopol"
+country = "UA"
+region = "Dnipropetrovsk Oblast"
 aliases = []
 lat = 47.5772
 lon = 34.3575
 
 [[places]]
 name = "Vovchansk"
+country = "UA"
+region = "Kharkiv Oblast"
 aliases = []
 lat = 50.2907
 lon = 36.9455
 
 [[places]]
 name = "Belgorod"
+country = "RU"
+region = "Belgorod Oblast"
 aliases = []
 lat = 50.5977
 lon = 36.5858
 
 [[places]]
 name = "Kursk"
+country = "RU"
+region = "Kursk Oblast"
 aliases = []
 lat = 51.7304
 lon = 36.1926
 
 [[places]]
 name = "Bryansk"
+country = "RU"
+region = "Bryansk Oblast"
 aliases = []
 lat = 53.2521
 lon = 34.3717
 
 [[places]]
 name = "Rostov-on-Don"
+country = "RU"
+region = "Rostov Oblast"
 aliases = ["rostov"]
 lat = 47.2357
 lon = 39.7015
 
 [[places]]
 name = "Voronezh"
+country = "RU"
+region = "Voronezh Oblast"
 aliases = []
 lat = 51.6608
 lon = 39.2003
 
 [[places]]
 name = "Novorossiysk"
+country = "RU"
+region = "Krasnodar Krai"
 aliases = []
 lat = 44.7239
 lon = 37.7708
 
 [[places]]
 name = "Engels"
+country = "RU"
+region = "Saratov Oblast"
 aliases = ["engels air base"]
 lat = 51.4827
 lon = 46.1123

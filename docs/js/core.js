@@ -30,11 +30,11 @@ Chart.defaults.font.size = 10;
 const state = {
   conflictId: null,
   tabs: [],                 // pestañas disponibles para el conflicto actual
-  data: {},                 // { summary, military, economy }
+  data: {},                 // { summary, military, economy, regions, layers }
   rendered: {},             // qué pestañas ya se dibujaron (render perezoso)
   activeTab: "narrative",
   charts: {},               // instancias Chart.js (para destruir al recargar)
-  map: null,                // instancia Leaflet
+  maps: {},                 // instancias Leaflet, clave "pestaña:nombre"
 };
 
 const TAB_HASH = { narrative: "narrativa", military: "militar", economy: "economia" };
@@ -69,6 +69,61 @@ async function fetchJson(url) {
   return r.json();
 }
 
+// --- Mapas Leaflet -------------------------------------------------------------
+// Los GeoJSON de límites (geoBoundaries CC-BY) se cachean: se comparten entre
+// pestañas y no cambian entre conflictos.
+const GEO_CACHE = {};
+function loadGeoFile(path) {
+  if (!GEO_CACHE[path]) GEO_CACHE[path] = fetchJson(path);
+  return GEO_CACHE[path];
+}
+
+// Crea (o recrea) un mapa registrado en state.maps con los tiles oscuros.
+function newMap(key, elId, opts = {}) {
+  if (state.maps[key]) { state.maps[key].remove(); delete state.maps[key]; }
+  const map = L.map(elId, { scrollWheelZoom: false, ...opts });
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
+    subdomains: "abcd",
+    maxZoom: 12,
+  }).addTo(map);
+  state.maps[key] = map;
+  return map;
+}
+
+function regionLabel(name) {
+  return name.replace(/ Oblast$/i, "").replace("Autonomous Republic of Crimea", "Crimea");
+}
+
+function hexToRgb(hex) {
+  const n = parseInt(hex.slice(1), 16);
+  return { r: (n >> 16) & 255, g: (n >> 8) & 255, b: n & 255 };
+}
+
+// Color con opacidad proporcional a t ∈ [0,1] (rampa de intensidad).
+function ramp(baseHex, t) {
+  const { r, g, b } = hexToRgb(baseHex);
+  return `rgba(${r},${g},${b},${(0.10 + 0.78 * Math.max(0, Math.min(1, t))).toFixed(3)})`;
+}
+
+// Coropleta genérica: pinta un GeoJSON de regiones según styleOf/tooltipOf.
+// hasData decide qué regiones definen el encuadre inicial del mapa.
+function choropleth({ key, elId, geo, styleOf, tooltipOf, hasData }) {
+  const map = newMap(key, elId, { zoomControl: false, attributionControl: false });
+  const layer = L.geoJSON(geo, {
+    style: (f) => styleOf(f.properties.name),
+    onEachFeature: (f, l) =>
+      l.bindTooltip(tooltipOf(f.properties.name), { sticky: true }),
+  }).addTo(map);
+
+  const withData = geo.features.filter((f) => hasData(f.properties.name));
+  const fit = withData.length >= 2
+    ? L.geoJSON({ type: "FeatureCollection", features: withData }).getBounds()
+    : layer.getBounds();
+  map.fitBounds(fit.pad(0.12));
+  return map;
+}
+
 // --- Pestañas ----------------------------------------------------------------
 function showTab(tab) {
   state.activeTab = tab;
@@ -84,13 +139,13 @@ function showTab(tab) {
   // así que cada pestaña se dibuja recién la primera vez que se muestra.
   if (!state.rendered[tab]) {
     state.rendered[tab] = true;
-    if (tab === "narrative") renderNarrative(state.data.summary);
+    if (tab === "narrative") renderNarrative(state.data);
     if (tab === "military") renderMilitary(state.data);
-    if (tab === "economy") renderEconomy(state.data.economy);
+    if (tab === "economy") renderEconomy(state.data);
   }
   // Leaflet necesita recalcular tamaño al volver a ser visible.
-  if (tab === "military" && state.map) {
-    setTimeout(() => state.map.invalidateSize(), 60);
+  for (const [key, map] of Object.entries(state.maps)) {
+    if (key.startsWith(`${tab}:`)) setTimeout(() => map.invalidateSize(), 60);
   }
 }
 
@@ -110,15 +165,18 @@ async function loadConflict(entry) {
   state.rendered = {};
   Object.values(state.charts).forEach((c) => c.destroy());
   state.charts = {};
-  if (state.map) { state.map.remove(); state.map = null; }
+  Object.values(state.maps).forEach((m) => m.remove());
+  state.maps = {};
 
   const base = `data/${entry.id}`;
-  const [summary, military, economy] = await Promise.all([
+  const [summary, military, economy, regions, layers] = await Promise.all([
     fetchJson(`${base}/summary.json`),
     state.tabs.includes("military") ? fetchJson(`${base}/military.json`).catch(() => null) : null,
     state.tabs.includes("economy") ? fetchJson(`${base}/economy.json`).catch(() => null) : null,
+    fetchJson(`${base}/regions.json`).catch(() => null),
+    fetchJson(`${base}/layers.geojson`).catch(() => null),
   ]);
-  state.data = { summary, military, economy };
+  state.data = { summary, military, economy, regions, layers };
 
   document.getElementById("hdr-updated").textContent = fmtDate(summary.updated);
   document.getElementById("empty").hidden = true;

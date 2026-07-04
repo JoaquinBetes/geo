@@ -2,19 +2,19 @@
   "id": "russia_ukraine",
   "name": "Rusia–Ucrania",
   "description": "Cobertura mediática del conflicto entre Rusia y Ucrania",
-  "updated": "2026-07-04T13:58:03+00:00",
-  "total_articles": 359,
-  "overall_avg": -0.648,
+  "updated": "2026-07-04T19:37:08+00:00",
+  "total_articles": 370,
+  "overall_avg": -0.6403,
   "distribution": {
-    "pos": 30,
-    "neu": 24,
-    "neg": 305
+    "pos": 32,
+    "neu": 26,
+    "neg": 312
   },
   "sources": [
     "The Guardian",
     "Al Jazeera",
-    "Institute for the Study of War",
     "BBC",
+    "Institute for the Study of War",
     "CNN",
     "The New York Times",
     "The Independent",
@@ -24,18 +24,18 @@
     "NPR",
     "DW.com",
     "PBS",
+    "Kyiv Post",
     "The Kyiv Independent",
     "Russia Matters",
     "Yahoo",
     "The Atlantic",
-    "Kyiv Post",
+    "Atlantic Council",
     "CNBC",
     "Reuters",
     "Euromaidan Press",
     "Ukrinform - Ukrainian National News Agency",
     "ABC News - Breaking News, Latest News and Videos",
     "Radio Free Europe/Radio Liberty",
-    "Atlantic Council",
     "The Hill",
     "The Washington Post",
     "WSJ",
@@ -47,6 +47,7 @@
     "CSIS | Center for Strategic and International Studies",
     "The Moscow Times",
     "Anadolu Ajansı",
+    "ABC News & Headlines – Australian Broadcasting Corporation",
     "Fortune",
     "the-sun.com",
     "France 24",
@@ -64,7 +65,6 @@
     "Politico",
     "consilium.europa.eu",
     "dw.com",
-    "ABC News & Headlines – Australian Broadcasting Corporation",
     "Financial Times",
     "Foreign Affairs",
     "MSN",
@@ -100,7 +100,9 @@
     "finchannel",
     "Beyond the Horizon ISSG",
     "Brookings",
-    "The Jerusalem Post"
+    "The Jerusalem Post",
+    "Foreign Policy",
+    "AOL.com"
   ],
   "daily": [
     {
@@ -409,10 +411,10 @@
     },
     {
       "date": "2026-06-25",
-      "count": 6,
-      "avg": -0.8512,
+      "count": 7,
+      "avg": -0.7296,
       "pos": 0,
-      "neu": 0,
+      "neu": 1,
       "neg": 6
     },
     {
@@ -481,33 +483,33 @@
     },
     {
       "date": "2026-07-04",
-      "count": 22,
-      "avg": -0.6014,
-      "pos": 0,
-      "neu": 5,
-      "neg": 17
+      "count": 32,
+      "avg": -0.5476,
+      "pos": 2,
+      "neu": 6,
+      "neg": 24
     }
   ],
   "by_source": [
     {
       "source": "The Guardian",
-      "count": 45,
-      "avg": -0.7847
+      "count": 46,
+      "avg": -0.7872
     },
     {
       "source": "Al Jazeera",
-      "count": 40,
-      "avg": -0.4959
+      "count": 43,
+      "avg": -0.4946
+    },
+    {
+      "source": "BBC",
+      "count": 25,
+      "avg": -0.7289
     },
     {
       "source": "Institute for the Study of War",
       "count": 24,
       "avg": -0.8644
-    },
-    {
-      "source": "BBC",
-      "count": 23,
-      "avg": -0.768
     },
     {
       "source": "CNN",
@@ -555,6 +557,11 @@
       "avg": -0.6598
     },
     {
+      "source": "Kyiv Post",
+      "count": 5,
+      "avg": -0.4871
+    },
+    {
       "source": "The Kyiv Independent",
       "count": 5,
       "avg": -0.8705
@@ -575,9 +582,9 @@
       "avg": -0.281
     },
     {
-      "source": "Kyiv Post",
+      "source": "Atlantic Council",
       "count": 4,
-      "avg": -0.4772
+      "avg": 0.0019
     },
     {
       "source": "CNBC",
@@ -608,11 +615,6 @@
       "source": "Radio Free Europe/Radio Liberty",
       "count": 3,
       "avg": -0.4138
-    },
-    {
-      "source": "Atlantic Council",
-      "count": 3,
-      "avg": -0.2524
     },
     {
       "source": "The Hill",
@@ -668,6 +670,11 @@
       "source": "Anadolu Ajansı",
       "count": 2,
       "avg": 0.125
+    },
+    {
+      "source": "ABC News & Headlines – Australian Broadcasting Corporation",
+      "count": 2,
+      "avg": -0.6974
     },
     {
       "source": "Fortune",
@@ -753,11 +760,6 @@
       "source": "dw.com",
       "count": 1,
       "avg": -0.9648
-    },
-    {
-      "source": "ABC News & Headlines – Australian Broadcasting Corporation",
-      "count": 1,
-      "avg": -0.6597
     },
     {
       "source": "Financial Times",
@@ -938,32 +940,42 @@
       "source": "The Jerusalem Post",
       "count": 1,
       "avg": 0.0
+    },
+    {
+      "source": "Foreign Policy",
+      "count": 1,
+      "avg": 0.0
+    },
+    {
+      "source": "AOL.com",
+      "count": 1,
+      "avg": -0.9042
     }
   ],
   "top_entities": [
     {
       "name": "Ukraine",
       "type": "LOCATION",
-      "count": 287,
-      "avg": -0.6343
+      "count": 295,
+      "avg": -0.6309
     },
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 261,
-      "avg": -0.6878
+      "count": 267,
+      "avg": -0.6769
     },
     {
       "name": "Vladimir Putin",
       "type": "PERSON",
-      "count": 66,
-      "avg": -0.641
+      "count": 69,
+      "avg": -0.6151
     },
     {
       "name": "Kyiv",
       "type": "LOCATION",
-      "count": 62,
-      "avg": -0.7999
+      "count": 64,
+      "avg": -0.796
     },
     {
       "name": "Volodymyr Zelensky",
@@ -1016,6 +1028,77 @@
   ],
   "recent": [
     {
+      "title": "Will economic pressure move the Kremlin towards talks with Kyiv?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/7/4/will-economic-pressure-move-the-kremlin-towards-talks-with-kyiv?traffic_source=rss",
+      "published": "2026-07-04T19:19:18+00:00",
+      "compound": -0.8225,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine",
+        "Kyiv"
+      ]
+    },
+    {
+      "title": "Ukrainian drones hit St Petersburg oil terminal and nearby port",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/04/ukrainian-drones-hit-st-petersburg-oil-terminal-and-nearby-port",
+      "published": "2026-07-04T19:09:06+00:00",
+      "compound": -0.903,
+      "label": "negative",
+      "entities": [
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Russia’s Medvedev says Strait of Hormuz is Iran’s ‘nuclear weapon’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/4/russias-medvedev-says-strait-of-hormuz-is-irans-nuclear?traffic_source=rss",
+      "published": "2026-07-04T18:46:13+00:00",
+      "compound": 0.3182,
+      "label": "positive",
+      "entities": [
+        "Russia"
+      ]
+    },
+    {
+      "title": "Russian attacks leave trail of destruction across Ukraine",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/4/russian-attacks-leave-trail-of-destruction-across-ukraine?traffic_source=rss",
+      "published": "2026-07-04T15:46:35+00:00",
+      "compound": -0.9274,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Former chess champion Kramnik banned over cheating remarks",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cd6epx607dqo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-04T15:45:15+00:00",
+      "compound": -0.5574,
+      "label": "negative",
+      "entities": [
+        "Russia"
+      ]
+    },
+    {
+      "title": "Putin may gamble on mobilization to rescue Russia’s Ukraine invasion",
+      "source": "Atlantic Council",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWDVVcktLUjdIcHlocTY4WG9vc0hzd1NDRUZZNlJQWndvUUx5LU14TlNlXzRlZVhWQzJtWUNNUm9pcDkyYVRrc01HaG5Hc0pjdkZaakpnU2lBOERIenVwZXBGSGlia3hPVEZSQ0tuNnZmMFItcnJGRjMwbFZpdnNianBLNmx2ODNwcjY1cWhjMDJpcmJrZldYazJBZzZiQ0VLSzdlcGw0SWdGeUxpRGlBMU5VRDcycXdTM2Zj?oc=5",
+      "published": "2026-07-04T15:09:00+00:00",
+      "compound": 0.765,
+      "label": "positive",
+      "entities": [
+        "Vladimir Putin",
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
       "title": "Ukraine war live: St Petersburg oil port and ‘important military target’ hit by Kyiv",
       "source": "The Independent",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNk9vRzlVVzlEc0prOEFnNDJmd3BZeUhjbllucEQwVThoSF8zcnJERTlQeHFCcGxIbllRRU5uamlSWnZNUFZWNHlwc1VmdmZiN25JWnNlNVpidk1Ob0tvZHpaWnZudHZiZFNCZDFpV3d1Q3FBazZEVU5LcEpWWHZiX1ZwMWF1UW9UbUFTTlBiaHI3NEE2QmlfRVliTzNYRVdnZGU2d3I2VVVmT2ZP?oc=5",
@@ -1037,6 +1120,18 @@
       "entities": [
         "Ukraine",
         "NATO"
+      ]
+    },
+    {
+      "title": "‘It is a crisis’: Putin under increasing pressure from Ukraine war",
+      "source": "AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORU1aMVg4Vms0ak1ubTd0WHNHMlg0MjNSSWFLMkhrU1NSSjZWOFFPME52bjRUM3hMZ0RJc0xYcnZKOEhuYmNHOWNxSFY0ZlFYZ1hseFZnaXBFU2pUdkhsWVAyNDVzUV9vMjlJaVQ4VTJfN3RTODFlU0lrdE5OTFotcERfVUp3YzRZTFE?oc=5",
+      "published": "2026-07-04T13:33:58+00:00",
+      "compound": -0.9042,
+      "label": "negative",
+      "entities": [
+        "Vladimir Putin",
+        "Ukraine"
       ]
     },
     {
@@ -1068,6 +1163,18 @@
       "title": "Ukraine hits major oil terminal in Russia's St Petersburg",
       "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9xUGl0Y2NlR2tfT3pJLU9tOENicExKcUhKdEhKTnFWOVd5eUQzb3VyYVduLWZFYXFnQzd6Q2hMVHRPV3NKTGlkT0ZPM2ZiN19tVUlJbU5DSXRfQQ?oc=5",
+      "published": "2026-07-04T12:34:28+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Ukraine hits major oil terminal in Russia's St Petersburg",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1PSzFNLVRxQmNBUlFGcVFZakttQTNlMHZqSUZDUjd1VzJ6TnRzQVlJNmR0Q1FjWWo0RlZ0SVo3NHZ5ZzJrM0FlVTFfRDZsRWlTSU9qdlhvcVpkWXZ0?oc=5",
       "published": "2026-07-04T12:34:28+00:00",
       "compound": 0.0,
       "label": "neutral",
@@ -1110,6 +1217,18 @@
       "entities": [
         "Russia",
         "Ukraine"
+      ]
+    },
+    {
+      "title": "81% of Russians Back Ending Ukraine War as Support for ‘Victory’ Drops to Record-Low 9%",
+      "source": "Kyiv Post",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFB5b25DMTZVbTZTRnplU1FjcG0yZzBBNVhub1Q0VHdCTzNudm1LZUtzd2VoRlA5NENOeHZtcEprMWV3eHNLZVhxb2VENA?oc=5",
+      "published": "2026-07-04T10:55:52+00:00",
+      "compound": -0.5267,
+      "label": "negative",
+      "entities": [
+        "Ukraine",
+        "Kyiv"
       ]
     },
     {
@@ -1182,6 +1301,17 @@
       "label": "negative",
       "entities": [
         "Russia"
+      ]
+    },
+    {
+      "title": "Ukraine retaliates, striking St Petersburg following deadliest attack",
+      "source": "ABC News & Headlines – Australian Broadcasting Corporation",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUnhjVGZUa0RMdVZEazFvZUV0SUc5d2RTdlRtcmx0SDVVd2RUcmlCMWxyTmRNOUZxODFfMWVITXJzRkN5YS1MQU96ZTVHWXB1Nkl6TGRVWllXa2hyVk9qQnRVSVcyRlZsZW9iV0E5amtpa2tucG9meVdzSTdfNzlaUVNpSU9RWVRkOVlxTDhMNEpwZDN2RUdMRTlldnVjYmluY0o0VGxlc21FMXA3?oc=5",
+      "published": "2026-07-04T09:05:19+00:00",
+      "compound": -0.7351,
+      "label": "negative",
+      "entities": [
+        "Ukraine"
       ]
     },
     {
@@ -1613,128 +1743,6 @@
       "entities": [
         "Russia",
         "Kyiv"
-      ]
-    },
-    {
-      "title": "Russia's war strategy shifts beyond the battlefield and into the skies over Ukraine",
-      "source": "Forces News",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZzh6S0VybWNnTGQxYzZvZEpOODFBOHdVeHNkRVM5dllncVR0MUVGek9jU2YyUENybHpxYUQ5NkYyNzBlZUQ2MzJLRTNqa3dnZzhUUF9TN1FyWm92MmtkTlgySTNGZktJMTlReGV3dV9QamZPVVlERWJ3emNid3hCbWdxZ0otMlJTelhkNXM5b1psY1M5ckFfUjdBY1g3bHVZbkRFenVLQQ?oc=5",
-      "published": "2026-07-03T15:28:00+00:00",
-      "compound": -0.9186,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Ukraine strikes Russia's Saky air base in occupied Crimea for second time in a week, SBU says",
-      "source": "The Kyiv Independent",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSHZJbl93MThZcGxHdWFxc2xUWEdSUDZyVHF1X1kwRjRwdzBxTEo0eUQxZWtvV1NCX2o2WGZiQjdQZHp2U0o0eHRmVnJKd2Z4VENnbjliYUlDdDNRbzRCS1BBYUVucnhmRjVrU3A4Zm9rYWNmbUx1RXlXWU1kQ2NLZUdPVFE3bnhBM182MmUyN3lsaWU3TEtsNzEzc1RRYzVTZmpEWGxjRXZjRmFpbTRYZDRqenQyMkE?oc=5",
-      "published": "2026-07-03T15:21:31+00:00",
-      "compound": -0.6124,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine",
-        "Kyiv",
-        "Crimea"
-      ]
-    },
-    {
-      "title": "July 4th events threatened by heat wave. And, Russia strikes on Ukraine's capital",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/03/g-s1-131920/up-first-newsletter-america-250-heat-wave-ukraine-russia-democratic-party",
-      "published": "2026-07-03T14:39:07+00:00",
-      "compound": -0.9678,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Putin’s Job Approval Rating Sees Sharpest Weekly Drop Since Ukraine Invasion – VTsIOM",
-      "source": "The Moscow Times",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbldiUk0wYmxza3RTMHhMRjUxMWVaSDV1RXlQTHhZeXlNT1V0U1Z6Yzh5TTlveWRwNUhpRHJITTB6SGZfTzdXamd5Wmlqb0dlOExhdGV2aWxkRU1PSHduREdkeTdPTENNVjRKbkVCY0d3a1Ezdmxzd2ZNbnlSeXdoS19jSEhJcE82T3d3U2FkcWJmeTY2ZVRoOHRHVlZwT1h1MEtMdncwQm85WW9GTWIyajF5TjZSUXZqRmNuZ19GQ203RjVYd192aUk0dw?oc=5",
-      "published": "2026-07-03T14:17:00+00:00",
-      "compound": 0.4588,
-      "label": "positive",
-      "entities": [
-        "Vladimir Putin",
-        "Ukraine",
-        "Moscow"
-      ]
-    },
-    {
-      "title": "Justice and protection for children of Ukraine at the core of meetings at the Council of Europe",
-      "source": "coe.int",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObHdsTm9NT1JxdzJka3VJVGZDb1ZBMnNlQ0V5TWgtZ055TWpMeHZ3U2xwZk9PdTJ1MmJkUklURzdfV0R4Y3hjWTFvejdqdXJjR3Zib3NrZ2FKZWdkRHk5SjJra2VTSnNNT0ppMkFGUTNhRmt6SWxXZFB6WjRyWWxhemVhbGQ5bWpKWUNySEwteHlValNJQjdMaVhlVV9sSUQwSzhkdzdVUlQzZklTSWtSUW1fRXNJeVJYRzNyY24yYmlVa0tTQ3BlMm1Lcw?oc=5",
-      "published": "2026-07-03T14:16:03+00:00",
-      "compound": 0.7783,
-      "label": "positive",
-      "entities": [
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Russia Has Lost at Least 8 of Its Best Fighters Over Ukraine and Built More Than It Started the War With",
-      "source": "19FortyFive",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOLVZ1cW5FLTI0MmstZlNxQ09tNmI1dUNKeUZUNzJwTGx5Unp3Umdyb0FCcmJsZVBRUHdVV3BMalNjNkFTMWxnMnBwa2ljb3RjR0VNMnU0LXY3VmxDZlpjYnluQjBYM0t2TVYzZW9WWDZWc1ZjUk4yWklOTFV3OE82UkxXZXhORTVTekFjeWJhVVFLNGJ0RWlpYmdaT3g1QUpyUlYzNHp5dTFROEd5UlVCMU9sOVUxY0pubzRvVVp0MUJ6Uk04c0FDckh6RjB0bkswdVRobldHUlM?oc=5",
-      "published": "2026-07-03T14:13:28+00:00",
-      "compound": -0.5267,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Russian attack on Kyiv kills at least 27, injures scores",
-      "source": "DW.com",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMlo1WkphVVRMcTl4QmJLN0sybFhvUEo4anR6NU5KQUhJOGpMRmJpYXZLOXNIWk5kTVpHZHM5MUxvcFhsSmV6LW5ZelhMYzB4UldoWWlYaTF6X0NNNzlITW51RFItVVV3MTRJOUtNZGlxVFZ1a1FSQzVtMHVaZ1drMHVSQlBPR2ZpdlJ5aU02dUxudnVvM091azZuSUhEam9xeUhxc3hDc9IBpwFBVV95cUxNTDdCM2FtQ3BVX2k3bVdBZmQ0TEJyQXBUM2RQOE8wZnhlaHdTVHdoS19XNGFNaTFGYVR5dGRZRVVaVkM0MFY0TlVia3hQZ2pjLVdvMzdieVlMMlMwc1prU3huUTNPLUNkUUsyZlpOV2xKV0tqVmdDdExDY2cwZ0RfTm8xSUtBTERUOFFYUXlTaTVfZzhpSzNBeHNCLXZmT1p1aHhKQU45dw?oc=5",
-      "published": "2026-07-03T13:59:36+00:00",
-      "compound": -0.9217,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Kyiv"
-      ]
-    },
-    {
-      "title": "Russia’s triumphant tone shifts as Ukraine deploys ‘asymmetrical tactics’",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSUNwcWp1NUZRZGJsUmRxT1dUMEkzaW8zOHVEY0lLdDNOc242ZmFMVHNUd2ptUE9hT1ZybUlBZHlveTg4WE9RMnpQamp4R0I0Yjlfdm1EcGJyN1ZqNGtfb1BmZEd4OFA4Vzk2SmhqYVhSdWlUeG1JLWFVaUQwUWRQZVdxYWNna0RfN3RVNEtOeVNVcmFyaW9IYTRGcVI1TUNPMGo1OXBvU1g5ZWJlb2pn0gG0AUFVX3lxTE9fYXgzRnRRSnlocllhaWdmZHNxUVc1R3lJS0NrSTJCZGRMeVJNeG8wRVZxTEZZOEc3QkRZLXliVXJRNlV0NGZjbzBVYWZhd0JyUGhDRmlCVmF5SGpTUHB0WndRaGl5Q2pIdE03d2U2T08tZzZlRDlaRmNwU0dPX0pFRWk5UURRVW5Yb0NlTUozS09xdVhqQ2lSS3FhLVRad1p2UlhYZjZ1UlJRaU5HRjU5emtSdw?oc=5",
-      "published": "2026-07-03T13:49:58+00:00",
-      "compound": 0.7783,
-      "label": "positive",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Ukraine war sparks fears of an organised crime resurgence in Russia",
-      "source": "The Conversation",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQREoxRVhVdF8wS194X0VJQklIZVJWMXY0QWd3a3U5RERaTVZfZU44SXBXNUV1dDhkZjMyeGFNN3NQTnJHWmo1UVVpUVgtcHg3UUF4aXZRU3RMWUdhTHZVeHhjeFJPdkRUVlo3cGViSTRPSjVnd0txS1JmdUdScVVTYWpQdTB6MGtxSkJZNlBQRWdKcXZmcFlpX2owWXd5SGFCWW5PeA?oc=5",
-      "published": "2026-07-03T12:58:26+00:00",
-      "compound": -0.9657,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Report: US Warns Poland Russia Plotting Strike Or Border Incursion To Test NATO",
-      "source": "i24NEWS",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSkpTNGc1UWZzcEV3RU5JdUpud1lhaHNlN0lZMkJBMDFKX2pHYVpyQVpaUGJDblBGUE1sb21rSWg2MWowejFOVzN3TmotWTRRcmNMMWlOd1lzMEVkbURQMFFIYUZ4d0R3SWhOQW1DamFvTkZkcDBDSG56X0FWNVg0eWNQc1dYdEFaaTlVT2dpa1lSQmx6VU1xY0VtMGd2dkl0ZWVWNnlGZUNnVldRamR0VG5sT0VRZFZ5anR6MFBWUk9LOF8wZ2JxcW1DVTlOZ0dPUERLX2o2SnY5UFh1UmtxTg?oc=5",
-      "published": "2026-07-03T12:38:08+00:00",
-      "compound": -0.4215,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "NATO"
       ]
     }
   ]

@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-07-05T09:22:49+00:00",
+  "updated": "2026-07-05T14:09:23+00:00",
   "losses_label": "Bajas rusas (reclamo ucr.)",
   "caveats": {
     "events": "Eventos extraídos automáticamente de titulares de prensa (no confirmación en terreno). La geolocalización es a nivel ciudad/zona.",
@@ -11,9 +11,9 @@
     "to": "2026-07-05"
   },
   "kpis": {
-    "events_total": 59,
-    "events_unlocated": 98,
-    "events_7d": 50,
+    "events_total": 60,
+    "events_unlocated": 103,
+    "events_7d": 51,
     "events_prev_7d": 3,
     "hottest_place": "Kyiv"
   },
@@ -155,8 +155,8 @@
     },
     {
       "date": "2026-07-05",
-      "total": 2,
-      "strike": 0,
+      "total": 3,
+      "strike": 1,
       "ground": 0,
       "infrastructure": 2,
       "air_defense": 0,
@@ -753,12 +753,22 @@
       "title": "Ukraine war live: Trump offers ‘solution’ to Putin in phone call as Kyiv hits port",
       "source": "The Independent",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSW5ucmRGM1Zud2kwVzNaS05aY2lYNEZvdC1DeTdCQTN4VFB3dUtxNFJkdldFYlZmN210Vk9xR2NvQ25MczY4OEJNbkc4YnlfeWZBN2poQ3hZdEs1MDctNFVyUE0yaV9GdGR3QzF1QTZvQVdwY3RZR0tMTXBMZldaTU1idzNpc3JQTTEtd3k4WUNDekJzVFcySkZOck9mTEVVblRUNzdUblg1VG16UXBHSWIwYkJDcmw4eENGSWR3Qm9HZw?oc=5"
+    },
+    {
+      "date": "2026-07-05",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Far From Kyiv and Moscow, Soldiers Stalk Ruins and Evade Drones on the Front",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUC10QzBSY0dPcmh1d1g3bDJCanBITldNQXFpMlRjTXdOMVo0eWwyZDFhVUVHVGF2RUxMUWQ0UGo0NG9zdEs3YXM2cGR6VmJyTTVLd29abThhOUpZTEFOZW9ITklRenQtUEJWeG1FVHIyUlhYbF9vN0RNdWVGS0ZXSG4ySzhsS19J?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 36
+      "count": 37
     },
     {
       "place": "Moscow",

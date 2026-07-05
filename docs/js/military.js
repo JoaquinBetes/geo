@@ -10,7 +10,7 @@ function renderMilitary(data) {
 
   renderMilKpis(m);
   renderMap(m, data.layers);
-  renderMilitaryGeo(data.regions);
+  renderMilitaryGeo(data.regions, m);
   renderMilDaily(m);
   renderMilCorrelation(summary, m);
   renderLosses(m);
@@ -51,7 +51,15 @@ function renderMilKpis(m) {
 
 // --- Mapa Leaflet -------------------------------------------------------------
 function renderMap(m, layers) {
-  document.getElementById("mil-map-caveat").textContent = m.caveats.events;
+  // Caveat + transparencia: qué ventana temporal cubre y cuánto queda afuera.
+  let caveat = m.caveats.events;
+  if (m.window) {
+    caveat += ` Ventana de datos: ${m.window.from} → ${m.window.to} (el histórico crece con cada corrida del pipeline).`;
+  }
+  if (m.kpis.events_unlocated) {
+    caveat += ` ${m.kpis.events_unlocated} menciones militares sin lugar identificable ("país contra país") quedan fuera del mapa.`;
+  }
+  document.getElementById("mil-map-caveat").textContent = caveat;
 
   // Encuadre según los eventos del conflicto (no hay centro hardcodeado).
   const map = newMap("military:main", "map");
@@ -129,7 +137,7 @@ function renderMap(m, layers) {
 }
 
 // --- Coropleta comparativa: intensidad de eventos por región -------------------
-async function renderMilitaryGeo(r) {
+async function renderMilitaryGeo(r, m) {
   const card = document.getElementById("mil-geo-card");
   if (!r?.countries?.length) { card.hidden = true; return; }
   card.hidden = false;
@@ -139,6 +147,18 @@ async function renderMilitaryGeo(r) {
     (byCountry[reg.country] ??= new Map()).set(reg.region, reg);
   }
   const maxEvents = Math.max(1, ...r.regions.map((x) => x.events));
+
+  // La coropleta sólo suma eventos DENTRO de regiones administrativas: los del
+  // teatro regional (estrechos, mares, bases en terceros países) quedan fuera.
+  const regional = r.regions.reduce((acc, x) => acc + x.events, 0);
+  const theater = Math.max(0, (m?.kpis.events_total ?? regional) - regional);
+  let hint = "Eventos reportados por la prensa, acumulados por región administrativa.";
+  if (m?.window) hint += ` Ventana: ${m.window.from} → ${m.window.to}.`;
+  if (theater > 0) {
+    hint += ` ${theater} eventos ocurren en el teatro regional (estrechos, mares, bases externas) y no suman a ninguna región.`;
+  }
+  hint += " Límites: geoBoundaries (CC-BY).";
+  document.getElementById("mil-geo-hint").textContent = hint;
 
   for (const [i, country] of r.countries.entries()) {
     document.getElementById(`mil-geo-title-${i}`).textContent = country.name;

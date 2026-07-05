@@ -2,12 +2,12 @@
   "id": "iran_israel",
   "name": "Irán–Israel/EE.UU.",
   "description": "Cobertura mediática del conflicto entre Irán, Israel y Estados Unidos",
-  "updated": "2026-07-05T01:42:56+00:00",
-  "total_articles": 198,
-  "overall_avg": -0.3517,
+  "updated": "2026-07-05T02:01:35+00:00",
+  "total_articles": 199,
+  "overall_avg": -0.35,
   "distribution": {
     "pos": 42,
-    "neu": 22,
+    "neu": 23,
     "neg": 134
   },
   "sources": [
@@ -27,6 +27,7 @@
     "The Hill",
     "The Washington Post",
     "NDTV",
+    "Asharq Al-Awsat English",
     "The Independent",
     "Radio Free Europe/Radio Liberty",
     "Anadolu Ajansı",
@@ -48,7 +49,6 @@
     "kmph.com",
     "vox.com",
     "Axios",
-    "Asharq Al-Awsat English",
     "Middle East Eye",
     "arabnews.jp",
     "TRT World",
@@ -218,10 +218,10 @@
     },
     {
       "date": "2026-07-04",
-      "count": 93,
-      "avg": -0.2587,
+      "count": 94,
+      "avg": -0.2559,
       "pos": 24,
-      "neu": 13,
+      "neu": 14,
       "neg": 56
     },
     {
@@ -313,6 +313,11 @@
       "source": "NDTV",
       "count": 2,
       "avg": -0.7329
+    },
+    {
+      "source": "Asharq Al-Awsat English",
+      "count": 2,
+      "avg": -0.247
     },
     {
       "source": "The Independent",
@@ -418,11 +423,6 @@
       "source": "Axios",
       "count": 1,
       "avg": 0.802
-    },
-    {
-      "source": "Asharq Al-Awsat English",
-      "count": 1,
-      "avg": -0.4939
     },
     {
       "source": "Middle East Eye",
@@ -534,14 +534,14 @@
     {
       "name": "Iran",
       "type": "LOCATION",
-      "count": 125,
-      "avg": -0.4444
+      "count": 126,
+      "avg": -0.4409
     },
     {
       "name": "Israel",
       "type": "LOCATION",
-      "count": 98,
-      "avg": -0.4971
+      "count": 99,
+      "avg": -0.4921
     },
     {
       "name": "Khamenei",
@@ -1175,6 +1175,18 @@
       ]
     },
     {
+      "title": "Türkiye's Erdogan Says Israel Must Not Scupper US-Iran Deal",
+      "source": "Asharq Al-Awsat English",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWGlpbnA5SlNLbzRjMFNiTUVQM2FuZmhkd0JIczhwZmhRVjRPbGgtTGFOM01WdWd2WEdZdm5DcnVSTUN6bVZtTjJVelZLblJ1Ukd2UHQxcnZfOFZlRmlqam9SVVJVTUZPUWVMNmJwaHE2dTNNNTFETF9yWVhONTVvUGNRRlpqUUg2NTRxV0sxUjRySkxwTGpmWjVFYTdKZGlHMnNGUkJFNA?oc=5",
+      "published": "2026-07-04T19:58:16+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
       "title": "Crowds mourn Ayatollah Ali Khamenei as Iran begins days-long funeral ceremonies",
       "source": "CBC",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9oTWp2aHg1YnBRWF9tS1ZtVmotalByREFBM2VwZGp1ZlRfdEY4WFZQdF9pbjRXekFTdFNDdFFSRV9LcE1jWlQ0S2JUdFBZTTVyTlJBUWJfSVp6bUZlM2RObGdOUkpXR2tWMERhY1RWTThyLTNsOXFBRHpoRWVMeEk?oc=5",
@@ -1276,17 +1288,6 @@
       "label": "negative",
       "entities": [
         "IDF",
-        "Israel"
-      ]
-    },
-    {
-      "title": "At least 7 Palestinians killed by Israeli forces over past 48 hours in Gaza",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/4/at-least-7-palestinians-killed-by-israeli-forces-over-past-48-hours-in-gaza?traffic_source=rss",
-      "published": "2026-07-04T19:23:48+00:00",
-      "compound": -0.6705,
-      "label": "negative",
-      "entities": [
         "Israel"
       ]
     }

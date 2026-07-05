@@ -242,6 +242,19 @@ def build_military(conflict: dict, articles: list[dict]) -> dict | None:
     events = extract_events(articles, matchers)
     series = daily_series(events)
 
+    # Transparencia metodológica: ventana temporal que cubren los artículos y
+    # cuántas menciones militares quedaron sin lugar identificable (los
+    # titulares "país contra país" no se pueden poner en el mapa).
+    dates = sorted(
+        d for d in ((a.get("published") or a.get("fetched") or "")[:10] for a in articles) if d
+    )
+    window = {"from": dates[0], "to": dates[-1]} if dates else None
+    unlocated = 0
+    for art in articles:
+        text = f"{art['title']}. {art.get('summary', '')}"
+        if classify_event(text) and not _locate(text, matchers):
+            unlocated += 1
+
     recent7 = _recent(events, 7)
     prev7 = [e for e in _recent(events, 14) if e not in recent7]
 
@@ -266,8 +279,10 @@ def build_military(conflict: dict, articles: list[dict]) -> dict | None:
             "events": mil.get("events_caveat", ""),
             "losses": mil.get("losses_caveat", ""),
         },
+        "window": window,
         "kpis": {
             "events_total": len(events),
+            "events_unlocated": unlocated,
             "events_7d": len(recent7),
             "events_prev_7d": len(prev7),
             "hottest_place": top_places[0]["place"] if top_places else None,

@@ -2,13 +2,13 @@
   "id": "russia_ukraine",
   "name": "Rusia–Ucrania",
   "description": "Cobertura mediática del conflicto entre Rusia y Ucrania",
-  "updated": "2026-07-05T02:06:16+00:00",
-  "total_articles": 447,
-  "overall_avg": -0.5402,
+  "updated": "2026-07-05T04:20:34+00:00",
+  "total_articles": 453,
+  "overall_avg": -0.5381,
   "distribution": {
-    "pos": 58,
-    "neu": 39,
-    "neg": 350
+    "pos": 59,
+    "neu": 40,
+    "neg": 354
   },
   "sources": [
     "Al Jazeera",
@@ -102,7 +102,8 @@
     "Global Rights Compliance",
     "finchannel",
     "Beyond the Horizon ISSG",
-    "Brookings"
+    "Brookings",
+    "The Times of India"
   ],
   "daily": [
     {
@@ -491,23 +492,23 @@
     },
     {
       "date": "2026-07-05",
-      "count": 16,
-      "avg": -0.1595,
-      "pos": 4,
-      "neu": 1,
-      "neg": 11
+      "count": 22,
+      "avg": -0.2202,
+      "pos": 5,
+      "neu": 2,
+      "neg": 15
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 74,
-      "avg": -0.3029
+      "count": 77,
+      "avg": -0.2957
     },
     {
       "source": "The Guardian",
-      "count": 49,
-      "avg": -0.7258
+      "count": 51,
+      "avg": -0.725
     },
     {
       "source": "BBC",
@@ -958,68 +959,73 @@
       "source": "Brookings",
       "count": 1,
       "avg": -0.5267
+    },
+    {
+      "source": "The Times of India",
+      "count": 1,
+      "avg": -0.5267
     }
   ],
   "top_entities": [
     {
       "name": "Ukraine",
       "type": "LOCATION",
-      "count": 305,
-      "avg": -0.616
+      "count": 308,
+      "avg": -0.6163
     },
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 275,
-      "avg": -0.6648
+      "count": 276,
+      "avg": -0.666
     },
     {
       "name": "Vladimir Putin",
       "type": "PERSON",
-      "count": 75,
-      "avg": -0.5608
+      "count": 78,
+      "avg": -0.5641
     },
     {
       "name": "Kyiv",
       "type": "LOCATION",
-      "count": 65,
-      "avg": -0.7927
-    },
-    {
-      "name": "Moscow",
-      "type": "LOCATION",
-      "count": 35,
-      "avg": -0.7421
+      "count": 66,
+      "avg": -0.7957
     },
     {
       "name": "Volodymyr Zelensky",
       "type": "PERSON",
-      "count": 35,
-      "avg": -0.6445
+      "count": 37,
+      "avg": -0.6507
+    },
+    {
+      "name": "Moscow",
+      "type": "LOCATION",
+      "count": 36,
+      "avg": -0.749
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 21,
-      "avg": -0.3841
+      "count": 25,
+      "avg": -0.422
     },
     {
       "name": "Crimea",
       "type": "LOCATION",
-      "count": 19,
-      "avg": -0.6886
+      "count": 20,
+      "avg": -0.7037
     },
     {
       "name": "United States",
       "type": "LOCATION",
-      "count": 9,
-      "avg": -0.2652
+      "count": 10,
+      "avg": -0.2929
     },
     {
       "name": "NATO",
       "type": "ORG",
-      "count": 9,
-      "avg": -0.6226
+      "count": 10,
+      "avg": -0.6595
     },
     {
       "name": "Donbas",
@@ -1035,6 +1041,15 @@
     }
   ],
   "recent": [
+    {
+      "title": "A name, a document, a future: Cameroon’s fight to register every child",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/5/a-name-a-document-a-future-cameroons-fight-to-register-every-child?traffic_source=rss",
+      "published": "2026-07-05T03:55:54+00:00",
+      "compound": 0.1901,
+      "label": "positive",
+      "entities": []
+    },
     {
       "title": "This immigrant served in the US military. Now he faces deportation",
       "source": "Al Jazeera",
@@ -1079,6 +1094,27 @@
       ]
     },
     {
+      "title": "Fireworks light up New York City to mark 250 years of US independence",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/5/aje-onl-nf_fireworks-light-up-new-york-city-to-mark-250-years-040726?traffic_source=rss",
+      "published": "2026-07-05T02:55:06+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Severe weather disrupts US’s 250th celebrations",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/5/severe-weather-disrupts-uss-250th-celebrations?traffic_source=rss",
+      "published": "2026-07-05T02:54:05+00:00",
+      "compound": -0.5423,
+      "label": "negative",
+      "entities": [
+        "Donald Trump",
+        "United States"
+      ]
+    },
+    {
       "title": "Russia says Trump 'reaffirmed readiness' to help end Ukraine war in phone call with Putin",
       "source": "Anadolu Ajansı",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeHU3cVJ4QUVSMEViZ3NVUnlKUjRXdllsZVJpejhJUnV3VEx2RnRIb2ZXNUZuQ09rdk9KSkpibHRob2VKVWNvYUVmUTlMNk9zWC1BUWhmdUxRVzEyazlNNmdfUFJjTTNCWE50VllrUGZZRWJMa3dnYk9Rb1RrcEtjd2hPNWtUc2M1RFQxYXdsTVVvdzdhUk5vNnA1ZDJwY2otVEpTUzltZ3JKZkV0UUNPQ3plT0c0cGJVNm9peWdIV1JaRFRuTzdvaU94Q0cyOUJU?oc=5",
@@ -1116,6 +1152,20 @@
       "entities": []
     },
     {
+      "title": "Donald Trump offers to help end Ukraine war during 90-minute call with Putin, Zelenskyy",
+      "source": "The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPZEIweEFYbFhXRTVNWE1nTXhrZnNiU0NjX18wYVVTWFlVeFVlLWpQMlFObFcxeDVRVUptbERFOW55MU1UZnFCTmRoeEZqcUVMLVIzdzRZUmRpeHNrcEh6bVhGOVhrZV9qei1QZlM3ZDUwVndJcjdUdkgxUnRjZmlxanFiLUVaN1I0UkJnM0ZRV2hLbHJENGxreVlsaVdXT2JTNGpnbm9EdzQ0QnJxT2NraHl2aGIyTTg0a2JnYjgwZnoxd0F1cjhMZGYyRi12LVRJYlROSElDWGY3Q3NhaTEzNmFNdjdLLXZ4d29XTDB3?oc=5",
+      "published": "2026-07-05T02:33:00+00:00",
+      "compound": -0.5267,
+      "label": "negative",
+      "entities": [
+        "Vladimir Putin",
+        "Volodymyr Zelensky",
+        "Donald Trump",
+        "Ukraine"
+      ]
+    },
+    {
       "title": "Mbappe draws level with Messi as France beat Paraguay to set up Morocco tie",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/sports/2026/7/4/mbappe-draws-level-with-messi-as-france-beat-paraguay-to-set-up-morocco-tie?traffic_source=rss",
@@ -1135,6 +1185,38 @@
         "Vladimir Putin",
         "Donald Trump",
         "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Ukraine war briefing: Trump repositions himself as peacemaker in long call with Putin",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/05/ukraine-war-briefing-trump-repositions-himself-as-peacemaker-in-long-call-with-putin",
+      "published": "2026-07-05T02:06:25+00:00",
+      "compound": -0.9918,
+      "label": "negative",
+      "entities": [
+        "Vladimir Putin",
+        "Volodymyr Zelensky",
+        "Donald Trump",
+        "Russia",
+        "Ukraine",
+        "Kyiv",
+        "Moscow",
+        "Crimea",
+        "NATO"
+      ]
+    },
+    {
+      "title": "Ukraine war briefing: Trump repositions himself as peacemaker in long call with Putin",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNOWRxcFVvMll2RktSLVRld213VHlsNEtsbzhBWlBnWmRTTThseVVwUlNrQkM2SHRrTDhvMFJIdjY3Smx5MFdwMHg2YXlsTkk5bnNvMU12UHoxdWtOX0hUQ3h1QlJoZUQ2OHBBMmEwNjgyT01WRTZ4MEFwUE1zSldyLTZmZnhGTnd6NXAtTVcwUnM1THdvck1xTE1xRWtkbGhaMlJIQjF4b2U4RlNzSERaQ0FHUmR5OS16d2o2eWJVNVZ1VWpaOEt3V0xn?oc=5",
+      "published": "2026-07-05T02:06:00+00:00",
+      "compound": -0.4215,
+      "label": "negative",
+      "entities": [
+        "Vladimir Putin",
+        "Donald Trump",
         "Ukraine"
       ]
     },
@@ -1612,63 +1694,6 @@
         "Ukraine",
         "NATO"
       ]
-    },
-    {
-      "title": "Brain drain leaves Yemen’s health sector in tatters and millions helpless",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/2026/7/4/brain-drain-leaves-yemens-health-sector-in-tatters-and-millions-helpless?traffic_source=rss",
-      "published": "2026-07-04T16:38:32+00:00",
-      "compound": -0.0516,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "‘It is a crisis’: Putin under increasing pressure from Ukraine war",
-      "source": "AOL.com",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORU1aMVg4Vms0ak1ubTd0WHNHMlg0MjNSSWFLMkhrU1NSSjZWOFFPME52bjRUM3hMZ0RJc0xYcnZKOEhuYmNHOWNxSFY0ZlFYZ1hseFZnaXBFU2pUdkhsWVAyNDVzUV9vMjlJaVQ4VTJfN3RTODFlU0lrdE5OTFotcERfVUp3YzRZTFE?oc=5",
-      "published": "2026-07-04T16:33:58+00:00",
-      "compound": -0.9042,
-      "label": "negative",
-      "entities": [
-        "Vladimir Putin",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Why closure matters at the end of life",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/longform/2026/7/4/why-closure-matters-at-the-end-of-life?traffic_source=rss",
-      "published": "2026-07-04T15:41:19+00:00",
-      "compound": 0.5994,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Nabatieh recovery begins amid ongoing southern Lebanon tensions",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/4/nabatieh-recovery-begins-amid-ongoing-southern-lebanon-tensions?traffic_source=rss",
-      "published": "2026-07-04T15:31:20+00:00",
-      "compound": -0.6597,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Pope Leo urges migrant protection, integration on visit to Lampedusa",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/4/pope-urges-protection-integration-of-migrants-on-visit-to-island-frontier?traffic_source=rss",
-      "published": "2026-07-04T15:17:29+00:00",
-      "compound": 0.4588,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Firefighters race to contain flames in northeastern Spain",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/4/firefighters-race-to-contain-flames-in-northeastern-spain?traffic_source=rss",
-      "published": "2026-07-04T15:09:27+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
     }
   ]
 }

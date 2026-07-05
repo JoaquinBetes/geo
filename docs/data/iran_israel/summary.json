@@ -2,13 +2,13 @@
   "id": "iran_israel",
   "name": "Irán–Israel/EE.UU.",
   "description": "Cobertura mediática del conflicto entre Irán, Israel y Estados Unidos",
-  "updated": "2026-07-05T02:06:20+00:00",
-  "total_articles": 199,
-  "overall_avg": -0.35,
+  "updated": "2026-07-05T04:20:36+00:00",
+  "total_articles": 213,
+  "overall_avg": -0.3375,
   "distribution": {
-    "pos": 42,
-    "neu": 23,
-    "neg": 134
+    "pos": 46,
+    "neu": 27,
+    "neg": 140
   },
   "sources": [
     "Al Jazeera",
@@ -19,8 +19,8 @@
     "NPR",
     "NBC News",
     "The New York Times",
-    "Reuters",
     "The Jerusalem Post",
+    "Reuters",
     "PBS",
     "Ynetnews",
     "CNN",
@@ -28,6 +28,7 @@
     "The Washington Post",
     "NDTV",
     "Asharq Al-Awsat English",
+    "AP News",
     "The Independent",
     "Radio Free Europe/Radio Liberty",
     "Anadolu Ajansı",
@@ -56,7 +57,6 @@
     "www.israelhayom.com",
     "New York Post",
     "CTech",
-    "AP News",
     "Haaretz",
     "Time Magazine",
     "اسلام تايمز",
@@ -69,7 +69,9 @@
     "The Times of India",
     "WDSU",
     "Kurdistan24",
-    "Washington Times"
+    "Washington Times",
+    "WTVC",
+    "ایران اینترنشنال"
   ],
   "daily": [
     {
@@ -81,20 +83,28 @@
       "neg": 1
     },
     {
+      "date": "2026-06-14",
+      "count": 1,
+      "avg": 0.0,
+      "pos": 0,
+      "neu": 1,
+      "neg": 0
+    },
+    {
       "date": "2026-06-15",
-      "count": 2,
-      "avg": -0.3311,
+      "count": 3,
+      "avg": -0.255,
       "pos": 1,
       "neu": 0,
-      "neg": 1
+      "neg": 2
     },
     {
       "date": "2026-06-16",
-      "count": 2,
-      "avg": -0.895,
+      "count": 3,
+      "avg": -0.8008,
       "pos": 0,
       "neu": 0,
-      "neg": 2
+      "neg": 3
     },
     {
       "date": "2026-06-17",
@@ -218,31 +228,31 @@
     },
     {
       "date": "2026-07-04",
-      "count": 94,
-      "avg": -0.2559,
-      "pos": 24,
+      "count": 98,
+      "avg": -0.2646,
+      "pos": 25,
       "neu": 14,
-      "neg": 56
+      "neg": 59
     },
     {
       "date": "2026-07-05",
-      "count": 20,
-      "avg": -0.4319,
-      "pos": 2,
-      "neu": 2,
-      "neg": 16
+      "count": 27,
+      "avg": -0.3073,
+      "pos": 5,
+      "neu": 5,
+      "neg": 17
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 38,
-      "avg": -0.2347
+      "count": 42,
+      "avg": -0.2413
     },
     {
       "source": "BBC",
-      "count": 26,
-      "avg": -0.0979
+      "count": 27,
+      "avg": -0.0777
     },
     {
       "source": "The Guardian",
@@ -251,13 +261,13 @@
     },
     {
       "source": "Times of Israel",
-      "count": 15,
-      "avg": -0.453
+      "count": 17,
+      "avg": -0.3589
     },
     {
       "source": "The Times of Israel",
-      "count": 10,
-      "avg": -0.4285
+      "count": 11,
+      "avg": -0.3896
     },
     {
       "source": "NPR",
@@ -266,23 +276,23 @@
     },
     {
       "source": "NBC News",
-      "count": 6,
-      "avg": -0.5275
+      "count": 7,
+      "avg": -0.5396
     },
     {
       "source": "The New York Times",
-      "count": 4,
-      "avg": -0.3255
+      "count": 5,
+      "avg": -0.2604
+    },
+    {
+      "source": "The Jerusalem Post",
+      "count": 5,
+      "avg": -0.1501
     },
     {
       "source": "Reuters",
       "count": 4,
       "avg": -0.6577
-    },
-    {
-      "source": "The Jerusalem Post",
-      "count": 4,
-      "avg": -0.1877
     },
     {
       "source": "PBS",
@@ -318,6 +328,11 @@
       "source": "Asharq Al-Awsat English",
       "count": 2,
       "avg": -0.247
+    },
+    {
+      "source": "AP News",
+      "count": 2,
+      "avg": -0.4672
     },
     {
       "source": "The Independent",
@@ -460,11 +475,6 @@
       "avg": -0.7906
     },
     {
-      "source": "AP News",
-      "count": 1,
-      "avg": -0.8316
-    },
-    {
       "source": "Haaretz",
       "count": 1,
       "avg": -0.9618
@@ -528,26 +538,36 @@
       "source": "Washington Times",
       "count": 1,
       "avg": 0.0516
+    },
+    {
+      "source": "WTVC",
+      "count": 1,
+      "avg": -0.8481
+    },
+    {
+      "source": "ایران اینترنشنال",
+      "count": 1,
+      "avg": -0.6124
     }
   ],
   "top_entities": [
     {
       "name": "Iran",
       "type": "LOCATION",
-      "count": 126,
-      "avg": -0.4409
+      "count": 134,
+      "avg": -0.4257
     },
     {
       "name": "Israel",
       "type": "LOCATION",
-      "count": 99,
-      "avg": -0.4921
+      "count": 106,
+      "avg": -0.4668
     },
     {
       "name": "Khamenei",
       "type": "PERSON",
-      "count": 40,
-      "avg": -0.5455
+      "count": 42,
+      "avg": -0.5546
     },
     {
       "name": "Tehran",
@@ -558,38 +578,38 @@
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 18,
-      "avg": -0.3198
+      "count": 20,
+      "avg": -0.3456
     },
     {
       "name": "Strait of Hormuz",
       "type": "LOCATION",
-      "count": 16,
-      "avg": -0.4561
+      "count": 18,
+      "avg": -0.3789
     },
     {
       "name": "United States",
       "type": "LOCATION",
-      "count": 13,
-      "avg": -0.3786
+      "count": 14,
+      "avg": -0.3903
     },
     {
       "name": "Benjamin Netanyahu",
       "type": "PERSON",
-      "count": 10,
-      "avg": -0.2348
+      "count": 12,
+      "avg": -0.1862
     },
     {
       "name": "Jerusalem",
       "type": "LOCATION",
-      "count": 7,
-      "avg": -0.1537
+      "count": 8,
+      "avg": -0.1345
     },
     {
       "name": "Hezbollah",
       "type": "ORG",
-      "count": 6,
-      "avg": -0.2095
+      "count": 7,
+      "avg": -0.2671
     },
     {
       "name": "IDF",
@@ -598,16 +618,16 @@
       "avg": -0.5579
     },
     {
+      "name": "IRGC",
+      "type": "ORG",
+      "count": 2,
+      "avg": -0.2576
+    },
+    {
       "name": "Houthis",
       "type": "ORG",
       "count": 2,
       "avg": 0.0186
-    },
-    {
-      "name": "IRGC",
-      "type": "ORG",
-      "count": 1,
-      "avg": -0.9918
     },
     {
       "name": "Natanz",
@@ -636,6 +656,15 @@
       ]
     },
     {
+      "title": "A name, a document, a future: Cameroon’s fight to register every child",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/5/a-name-a-document-a-future-cameroons-fight-to-register-every-child?traffic_source=rss",
+      "published": "2026-07-05T03:55:54+00:00",
+      "compound": 0.1901,
+      "label": "positive",
+      "entities": []
+    },
+    {
       "title": "Hamas said to decide to stall for time in talks for Gaza’s future, reject any concessions",
       "source": "Times of Israel",
       "url": "https://www.timesofisrael.com/liveblog-july-5-2026/",
@@ -655,6 +684,18 @@
       "compound": -0.3506,
       "label": "negative",
       "entities": []
+    },
+    {
+      "title": "Cousin of slain hostage to Netanyahu: ‘Would you have also said Yoni came back from Entebbe?’",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/cousin-of-slain-hostage-to-netanyahu-would-you-have-also-said-yoni-came-back-from-entebbe/",
+      "published": "2026-07-05T03:41:38+00:00",
+      "compound": 0.2168,
+      "label": "positive",
+      "entities": [
+        "Benjamin Netanyahu",
+        "Israel"
+      ]
     },
     {
       "title": "White nationalists march on Washington DC ahead of Freedom 250 celebrations",
@@ -717,6 +758,54 @@
       "entities": [
         "Donald Trump",
         "United States"
+      ]
+    },
+    {
+      "title": "Fireworks light up New York City to mark 250 years of US independence",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/5/aje-onl-nf_fireworks-light-up-new-york-city-to-mark-250-years-040726?traffic_source=rss",
+      "published": "2026-07-05T02:55:06+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Severe weather disrupts US’s 250th celebrations",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/5/severe-weather-disrupts-uss-250th-celebrations?traffic_source=rss",
+      "published": "2026-07-05T02:54:05+00:00",
+      "compound": -0.5423,
+      "label": "negative",
+      "entities": [
+        "Donald Trump",
+        "United States"
+      ]
+    },
+    {
+      "title": "Iranian diplomat says country will ‘definitely’ collect Hormuz fees, defying US",
+      "source": "The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZnM4c3Z0bXNvTWdmbVhPS0JpZ191RGp5UUduV3UwTm5vblhBQ2RTQ1doeHlCbXBJZnlGcm5XSWc1Sm1Wa29aX3pkRXA0d19GUl9jLWVGNVBjdjNGSU9nVC1fczNmQl9vOVJVOHVUM0Fvb1JFNGR4Y2VtUHB4dnZIXy1YZUtrOTZ1VjJ0OHlBQjJ4VGg5Tm9VZnhUMUxsbTlGSzJIRnpZMDRhOW_SAbABQVVfeXFMTUFjV1V0Ukc3ZnpUNXlSYmN1NmJUTlIzWGFIVGN5aEQ0WUxLWTl1MVFXeE5tU2k3M09Ya1RRMWhxNU9xWVppT1pQZGdWWG9PdXh4OGx5djlBaVcwQy1KRGZkZXhpb0ZfX3pFc09DWHdWWnMxR0ViS3BKOURIVUwzckVfSFEydFhxV3U4U19xQzdzSGpJa3Y3TUd6V3R4dDkwN3lMUFE0UjgtWE5sSnlFUks?oc=5",
+      "published": "2026-07-05T02:45:29+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Iran",
+        "Israel",
+        "Strait of Hormuz"
+      ]
+    },
+    {
+      "title": "Iranian diplomat says country will ‘definitely’ collect Hormuz fees, defying US",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/iranian-diplomat-says-country-will-definitely-collect-hormuz-fees-defying-us/",
+      "published": "2026-07-05T02:40:04+00:00",
+      "compound": 0.4767,
+      "label": "positive",
+      "entities": [
+        "IRGC",
+        "Iran",
+        "Israel",
+        "Strait of Hormuz"
       ]
     },
     {
@@ -847,6 +936,19 @@
         "Khamenei",
         "Iran",
         "Israel"
+      ]
+    },
+    {
+      "title": "Live Updates: Latest from Israel, Iran, and Middle East",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9wRHpPUW5NRkNMMmxzVFZCWkcyanA1MnhnbG16SW82U2ZqYXRRdWNBTFdRR2ljWjJ4eTRhQ2paUWxfZUZROVdfV1JiSzhkUXRmY3F0WW1GOTJIeHNINDFqTG1YSjJrU0owYVA4NlUtMjM5QzBSNjRvenlGbXBGRjg?oc=5",
+      "published": "2026-07-05T00:00:05+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Iran",
+        "Israel",
+        "Jerusalem"
       ]
     },
     {
@@ -1021,6 +1123,17 @@
       ]
     },
     {
+      "title": "Funeral of Iran's former supreme leader 'intensely political moment'",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5MWG1IZ2VqZlZTZjRxWTJSeFFDblVZbk9SNWk1LXY3VDhfVlZ0UFN1bEVhbS04YjNpMzR5N285OTFNNDVmVWlXQV9jUlZ3d2FXVHVPelZVZw?oc=5",
+      "published": "2026-07-04T21:46:43+00:00",
+      "compound": 0.4472,
+      "label": "positive",
+      "entities": [
+        "Iran"
+      ]
+    },
+    {
       "title": "Russia’s Medvedev says Strait of Hormuz is Iran’s ‘nuclear weapon’",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/4/russias-medvedev-says-strait-of-hormuz-is-irans-nuclear?traffic_source=rss",
@@ -1126,6 +1239,18 @@
       ]
     },
     {
+      "title": "Live - Trump says US won’t target officials at Khamenei funeral to preserve talks",
+      "source": "ایران اینترنشنال",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5VeWZFRzlkR2VIMGFTMm1WbkFhcFc4TGlUNFRWek1FUmdaTWJyMDlMYmF1bEpSWEczUkhZZTRsS1JUcDZ4MjIxSHJ3Q1dsOWpxaGlXMlZSOVV4R1UzUkE?oc=5",
+      "published": "2026-07-04T20:52:13+00:00",
+      "compound": -0.6124,
+      "label": "negative",
+      "entities": [
+        "Khamenei",
+        "Donald Trump"
+      ]
+    },
+    {
       "title": "Paraguay 0-1 France: FIFA World Cup 2026 last 16 – as it happened",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/sports/liveblog/2026/7/4/france-vs-paraguay-live-fifa-world-cup-2026?traffic_source=rss",
@@ -1183,111 +1308,6 @@
       "label": "neutral",
       "entities": [
         "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Crowds mourn Ayatollah Ali Khamenei as Iran begins days-long funeral ceremonies",
-      "source": "CBC",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9oTWp2aHg1YnBRWF9tS1ZtVmotalByREFBM2VwZGp1ZlRfdEY4WFZQdF9pbjRXekFTdFNDdFFSRV9LcE1jWlQ0S2JUdFBZTTVyTlJBUWJfSVp6bUZlM2RObGdOUkpXR2tWMERhY1RWTThyLTNsOXFBRHpoRWVMeEk?oc=5",
-      "published": "2026-07-04T19:57:50+00:00",
-      "compound": -0.8625,
-      "label": "negative",
-      "entities": [
-        "Khamenei",
-        "Iran"
-      ]
-    },
-    {
-      "title": "FIFA World Cup 2026: Best Round of 16 knockout matches to watch",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/4/biggest-fifa-world-cup-matches-to-watch-in-round-of-16-knockout-stage?traffic_source=rss",
-      "published": "2026-07-04T19:51:20+00:00",
-      "compound": 0.8442,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "BBC in Tehran as mourners gather for former supreme leader's funeral",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE12ODV0Y05NRTJ2UVdKZVR5QmlMaC1GcmhQVE1RMXhSUm5vMVM5M3lKWFVqd3VqbUVFVF80UXRrRDA1RmtmME9OX3M4aFRlY3lBN1NUV0dLVQ?oc=5",
-      "published": "2026-07-04T19:49:36+00:00",
-      "compound": -0.34,
-      "label": "negative",
-      "entities": [
-        "Tehran"
-      ]
-    },
-    {
-      "title": "BBC in Tehran as mourners gather for former supreme leader's funeral",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/videos/c5yz9jn0xkko?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-04T19:49:36+00:00",
-      "compound": -0.4939,
-      "label": "negative",
-      "entities": [
-        "Khamenei",
-        "Iran",
-        "Tehran"
-      ]
-    },
-    {
-      "title": "Iranian mourners vow revenge on US, Israel during funeral for supreme leader",
-      "source": "kmph.com",
-      "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxOcldhOGJodndyNlBGdWtfeXd1VThxSF9McmpSb3hUNmZON01sSmlXX1p4T3VESFdfZXpDWVBhc1Ita0FKOTJWMUstby1kNWZRdHd3OFFDLURONWJtQmR2a2k5dkI3cXFCekQwRnhISnFLVk0xZk94LVgwVU1uUDk0ek9tSTlxX2F6RVUzdVVVUmFuS0EwUUx2X080Y0ZleWhiUXJ2MDNGcW11UFRoQTlTUlZZS0RFV2ptRnU0bzhRZ1c3S0ZGbjhrbnRwNHFqd1Jrd1dEYWxDeGpER0hYTXlrNXVFbml4UGxSc09MY20wLTZfakZxeEk4SV9mQ1dLaWUyYWh2ejd0SWJOUGxHX1MtRkRUdElBdjFMZzVodldTb3NVT09QNTFTWExBMXJmMi01SlV0SkJNU0hhbU5mMnFsN3ZIaDdkWmlEU0ZxUVF0WmZvOWxMTUpLSW40Nll4MW5OZzAw?oc=5",
-      "published": "2026-07-04T19:48:51+00:00",
-      "compound": -0.8481,
-      "label": "negative",
-      "entities": [
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Erdoğan warns Israel against sabotaging Pakistan-brokered US-Iran peace deal",
-      "source": "Arab News PK",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1uWjYtZzdESE12NnN4UTRUdE9lOFpOX0NycU5fR2tZMnFCOWJQSlk4RW50VzQ3dVVFa0ZTUGJKSUYyZ1Z5b2RZajlyclA2Mk9UVExyZlQ3ZXk?oc=5",
-      "published": "2026-07-04T19:48:40+00:00",
-      "compound": 0.7351,
-      "label": "positive",
-      "entities": [
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Iranian mourners vow revenge on US, Israel during funeral for supreme leader",
-      "source": "National Desk",
-      "url": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxPby1ubkpJbEpEZHpNSEswT0xZWkRBSnd0ek1Tc3dGNlhIVkFxOG53eWVDUTZQYlhoZk42WHF5dWEyVEg1WjR4RXJTZ2dSekNyZG12dnpyWExWb0o2d3BlWGUzNENnNGFYMlk1V3FPQlBaZFRFaXZIZ05Ic0hMWi1fSWhEQ3VDalhmdWFhZzRiQ1JYaUZvajNBOXFGWVBwQlkxSUtrbmNVdV9VTzlkYlgwVnRpemIxYlVEWnRZQmpfTUg4Y2hKZ0YtcVE1QmJqSlpzSXo3VmVlZEcyOXRrUFpkUEgxZWFWX2NlLWJIcWt2a2FoQWJ1WDJzUFN4MjFvLS1qa3RVOTZ2Q0VQVkxLVThqd3VjWDNSRHZ2WmdEc0dBQXM3VGJKMnBGWjV6ZkNFNEFpWHhqdXRYc1lVaVF0MVhhbWhFWTRPalFtTG5yYk9LUS10eWxPZzNkOHNFRXowQQ?oc=5",
-      "published": "2026-07-04T19:44:50+00:00",
-      "compound": -0.8481,
-      "label": "negative",
-      "entities": [
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Türkiye’s Erdogan warns against 'war-addicted' Israel's attempts to 'dynamite' US-Iran deal",
-      "source": "TRT World",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9QeXZCYlJwMUFGMnNnZEFhWXBObDJpWGdFSWE2Qmc5VjNSbHhNc0xQYlJjai0yMGJYbWNMT2Z4R2FKWjF6QXFNWVFUalU3M25FMzV0RUFGRW4?oc=5",
-      "published": "2026-07-04T19:37:22+00:00",
-      "compound": 0.1531,
-      "label": "positive",
-      "entities": [
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Three Palestinians said injured by IDF amid settler attack on West Bank village",
-      "source": "Times of Israel",
-      "url": "https://www.timesofisrael.com/three-palestinians-said-injured-by-idf-amid-settler-attack-on-west-bank-village/",
-      "published": "2026-07-04T19:30:30+00:00",
-      "compound": -0.9612,
-      "label": "negative",
-      "entities": [
-        "IDF",
         "Israel"
       ]
     }

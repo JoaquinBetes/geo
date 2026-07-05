@@ -2,21 +2,21 @@
   "id": "china_taiwan",
   "name": "China–Taiwán",
   "description": "Cobertura mediática de la tensión entre China y Taiwán",
-  "updated": "2026-07-05T02:06:23+00:00",
-  "total_articles": 223,
-  "overall_avg": -0.1186,
+  "updated": "2026-07-05T04:20:37+00:00",
+  "total_articles": 230,
+  "overall_avg": -0.1187,
   "distribution": {
-    "pos": 54,
-    "neu": 71,
-    "neg": 98
+    "pos": 56,
+    "neu": 74,
+    "neg": 100
   },
   "sources": [
     "Taipei Times",
     "Al Jazeera",
     "BBC",
     "The Guardian",
-    "NPR",
     "Reuters",
+    "NPR",
     "South China Morning Post",
     "Institute for the Study of War",
     "Washington Times",
@@ -56,7 +56,10 @@
     "CNN",
     "Bloomberg.com",
     "Taiwan News",
-    "A News"
+    "A News",
+    "The Japan News",
+    "France 24",
+    "Demócrata"
   ],
   "daily": [
     {
@@ -189,10 +192,10 @@
     },
     {
       "date": "2026-06-11",
-      "count": 1,
+      "count": 2,
       "avg": 0.0,
       "pos": 0,
-      "neu": 1,
+      "neu": 2,
       "neg": 0
     },
     {
@@ -293,10 +296,10 @@
     },
     {
       "date": "2026-07-02",
-      "count": 14,
-      "avg": -0.1487,
+      "count": 15,
+      "avg": -0.1388,
       "pos": 4,
-      "neu": 4,
+      "neu": 5,
       "neg": 6
     },
     {
@@ -317,11 +320,11 @@
     },
     {
       "date": "2026-07-05",
-      "count": 56,
-      "avg": -0.1168,
-      "pos": 7,
-      "neu": 26,
-      "neg": 23
+      "count": 61,
+      "avg": -0.1211,
+      "pos": 9,
+      "neu": 27,
+      "neg": 25
     }
   ],
   "by_source": [
@@ -332,8 +335,8 @@
     },
     {
       "source": "Al Jazeera",
-      "count": 26,
-      "avg": -0.0888
+      "count": 29,
+      "avg": -0.0918
     },
     {
       "source": "BBC",
@@ -346,14 +349,14 @@
       "avg": 0.1183
     },
     {
+      "source": "Reuters",
+      "count": 13,
+      "avg": -0.1386
+    },
+    {
       "source": "NPR",
       "count": 13,
       "avg": -0.3715
-    },
-    {
-      "source": "Reuters",
-      "count": 12,
-      "avg": -0.1501
     },
     {
       "source": "South China Morning Post",
@@ -554,26 +557,41 @@
       "source": "A News",
       "count": 1,
       "avg": 0.0
+    },
+    {
+      "source": "The Japan News",
+      "count": 1,
+      "avg": 0.2023
+    },
+    {
+      "source": "France 24",
+      "count": 1,
+      "avg": 0.0
+    },
+    {
+      "source": "Demócrata",
+      "count": 1,
+      "avg": -0.7003
     }
   ],
   "top_entities": [
     {
       "name": "Taiwan",
       "type": "LOCATION",
-      "count": 99,
-      "avg": -0.1462
+      "count": 103,
+      "avg": -0.1453
     },
     {
       "name": "China",
       "type": "LOCATION",
-      "count": 98,
-      "avg": -0.1542
+      "count": 102,
+      "avg": -0.153
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 20,
-      "avg": -0.0934
+      "count": 21,
+      "avg": -0.1148
     },
     {
       "name": "Xi Jinping",
@@ -584,14 +602,14 @@
     {
       "name": "United States",
       "type": "LOCATION",
-      "count": 11,
-      "avg": -0.1217
+      "count": 12,
+      "avg": -0.1568
     },
     {
       "name": "Japan",
       "type": "LOCATION",
-      "count": 7,
-      "avg": 0.1507
+      "count": 9,
+      "avg": 0.1397
     },
     {
       "name": "KMT",
@@ -619,6 +637,15 @@
     }
   ],
   "recent": [
+    {
+      "title": "A name, a document, a future: Cameroon’s fight to register every child",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/5/a-name-a-document-a-future-cameroons-fight-to-register-every-child?traffic_source=rss",
+      "published": "2026-07-05T03:55:54+00:00",
+      "compound": 0.1901,
+      "label": "positive",
+      "entities": []
+    },
     {
       "title": "This immigrant served in the US military. Now he faces deportation",
       "source": "Al Jazeera",
@@ -1072,6 +1099,39 @@
       ]
     },
     {
+      "title": "Taiwan denounces that China erodes its status quo with new patrols to the east of the island",
+      "source": "Demócrata",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSmE3X0I1c3N5SlVISzlWTXBzbFl4aU5yR3VuZ291UDdwbmlTX0xWRGlGdDlyd1NnQVozLThDQW1BLV9vRU9VZEF2WUIxZlJZTW4tWlZqcWd3YnFTQ3IyVHdzVzdYcGtiQnRhalVEQWhIMEZNb2Nzc0tHWFJrelJyRzkycUNFM0c3cWFCVzBNVzNtdHhsRmZjWFJsX3pxTVdMYnlQSm0weUhCMmwzX0FZQjFLdnI4d0FXLVJTSGU1WGZxdWlXdkt0TXVjQ2JJbnh50gHWAUFVX3lxTE0wbmh2TWc4X0docnJINVRLU3NaR0xEdll6X2VDamlZM1dib0Z0RkFacmFXZ1dNcUU5SnZqVXJ6QzVZX0pILVYtX3RseTg3TklPNG5lZGF5YTNnTzV3bktnTHhaLWxka2tnMTZfTHVzdThiRHhiQU9aSnhZOE51eURxUGQwdHkta3I1ZUQ3SndDOUY2LUpqRXhCa0toUUFIbjNoZzdIa1FpQWlHZWdfT3FIMTFqNkx2d25HdUkzOGNKc0F3bTk0VUdmWjVQcWRqT1F2RHc0dVE?oc=5",
+      "published": "2026-07-05T02:56:27+00:00",
+      "compound": -0.7003,
+      "label": "negative",
+      "entities": [
+        "China",
+        "Taiwan"
+      ]
+    },
+    {
+      "title": "Fireworks light up New York City to mark 250 years of US independence",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/5/aje-onl-nf_fireworks-light-up-new-york-city-to-mark-250-years-040726?traffic_source=rss",
+      "published": "2026-07-05T02:55:06+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Severe weather disrupts US’s 250th celebrations",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/5/severe-weather-disrupts-uss-250th-celebrations?traffic_source=rss",
+      "published": "2026-07-05T02:54:05+00:00",
+      "compound": -0.5423,
+      "label": "negative",
+      "entities": [
+        "Donald Trump",
+        "United States"
+      ]
+    },
+    {
       "title": "Ticket prices plunge for USA-Belgium World Cup last-16 match",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/sports/2026/7/4/ticket-prices-plunge-for-us-belgium-world-cup-last-16-match?traffic_source=rss",
@@ -1079,6 +1139,19 @@
       "compound": -0.3919,
       "label": "negative",
       "entities": []
+    },
+    {
+      "title": "China Claims ‘Jurisdiction’ Over Waters East of Taiwan, Repeatedly Sends Vessels through Area as Demonstration",
+      "source": "The Japan News",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91UnRPVXVldG1HX1RkRFBFY3d3Y3pxdENBdnJaZzdRbGxONl90V3ZHeG5iOGVpdTRhZkRSQXk2dThQMlVBanN3dWlLUGdVb2x2ZDVIeFQ4RS1MRTN0VW84S2hodFBISHlQMXdURm9rSXVXVUJKOVE?oc=5",
+      "published": "2026-07-05T02:34:00+00:00",
+      "compound": 0.2023,
+      "label": "positive",
+      "entities": [
+        "China",
+        "Taiwan",
+        "Japan"
+      ]
     },
     {
       "title": "Mbappe draws level with Messi as France beat Paraguay to set up Morocco tie",
@@ -1146,54 +1219,6 @@
       "compound": -0.0772,
       "label": "negative",
       "entities": []
-    },
-    {
-      "title": "Iran begins week of funeral celebrations for Khamenei",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/04/nx-s1-5877738/iran-begins-week-of-funeral-celebrations-for-khamenei",
-      "published": "2026-07-05T00:03:46+00:00",
-      "compound": -0.836,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Eala wins 'for all the girls with ruffled socks and chubby cheeks'",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cjwgpz3wj69o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-04T23:19:11+00:00",
-      "compound": 0.9325,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Lebanon’s Aoun calls on US to keep ‘always standing beside’ his country",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/4/lebanons-aoun-calls-on-us-to-keep-always-standing-beside-his-country?traffic_source=rss",
-      "published": "2026-07-04T23:06:41+00:00",
-      "compound": 0.6908,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Ounahi fires Morocco into World Cup quarterfinals with 3-0 win over Canada",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/4/ounahi-fires-morocco-into-world-cup-quarterfinals-with-3-0-win-over-canada?traffic_source=rss",
-      "published": "2026-07-04T23:03:15+00:00",
-      "compound": 0.5994,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "China-Taiwan war drums beat louder as Taipei rearms reservists & upgrades its homegrown jets | Videos",
-      "source": "Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQeUlRNnpydWZjWENHbG9RS2JVMjFIejB4U09TX2FfalkyUC1wT0k5eVRuSGI3M25SWWJOMkdvV0RYSU84N0k4MHdDUTl5R3BfVG16V3dxMVhuUC02VTFqZzByZHBZM2F5Um1iNTllNlBoelc1Q1JTUVhZVmotUElRMjZQM0QzNFZha25fTDJXNk83RHFCX1RKdTdYZ2hVam5aUWlXMmp4amF4R3RkWEtnQWpTWHlFakg1ZnZUMmlDM2VUR2k1NDVNZEZFQUk5TWNYS1drNkQ1TW5EakZOOTVFcE1R0gHnAUFVX3lxTE9WUnpvbWE1emhtM3BNVTg5LTZTcDRiSWFObkxsSWRJdUtrWG85M1dsdFFoWEhabGh4czhRb2k0cmdvSkVOdXUtMXotbzhpNWF2U05fSUptUVN0ZWxTVzdpMVhRZG1nM3RyN3Nka3JsRXdHZDRRaXhTOVdmMHA3Rk93ZUdDeGItZEJ6N3Bmcl93S3ZBTENsWmJ3VmhpYzBYOGFDaEVCNF9PUHprRi1hUVFuZTJucF9xVWNMaDlITUtFei1FMDJDM3BzQURfbnZOU1czMGdjSVhTTjA1Mjh0V3gxXzBtNGNESQ?oc=5",
-      "published": "2026-07-04T22:58:33+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "China",
-        "Taiwan"
-      ]
     }
   ]
 }

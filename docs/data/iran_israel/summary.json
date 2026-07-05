@@ -2,13 +2,13 @@
   "id": "iran_israel",
   "name": "Irán–Israel/EE.UU.",
   "description": "Cobertura mediática del conflicto entre Irán, Israel y Estados Unidos",
-  "updated": "2026-07-05T01:21:44+00:00",
-  "total_articles": 195,
-  "overall_avg": -0.3494,
+  "updated": "2026-07-05T01:37:24+00:00",
+  "total_articles": 198,
+  "overall_avg": -0.3517,
   "distribution": {
-    "pos": 41,
+    "pos": 42,
     "neu": 22,
-    "neg": 132
+    "neg": 134
   },
   "sources": [
     "Al Jazeera",
@@ -67,7 +67,9 @@
     "Arab News PK",
     "CBC",
     "The Times of India",
-    "WDSU"
+    "WDSU",
+    "Kurdistan24",
+    "Washington Times"
   ],
   "daily": [
     {
@@ -208,27 +210,27 @@
     },
     {
       "date": "2026-07-03",
-      "count": 36,
-      "avg": -0.4987,
-      "pos": 5,
+      "count": 37,
+      "avg": -0.4838,
+      "pos": 6,
       "neu": 2,
       "neg": 29
     },
     {
       "date": "2026-07-04",
-      "count": 92,
-      "avg": -0.2517,
+      "count": 93,
+      "avg": -0.2587,
       "pos": 24,
       "neu": 13,
-      "neg": 55
+      "neg": 56
     },
     {
       "date": "2026-07-05",
-      "count": 19,
-      "avg": -0.4199,
+      "count": 20,
+      "avg": -0.4319,
       "pos": 2,
       "neu": 2,
-      "neg": 15
+      "neg": 16
     }
   ],
   "by_source": [
@@ -249,8 +251,8 @@
     },
     {
       "source": "Times of Israel",
-      "count": 14,
-      "avg": -0.4382
+      "count": 15,
+      "avg": -0.453
     },
     {
       "source": "The Times of Israel",
@@ -516,20 +518,30 @@
       "source": "WDSU",
       "count": 1,
       "avg": -0.7506
+    },
+    {
+      "source": "Kurdistan24",
+      "count": 1,
+      "avg": -0.9001
+    },
+    {
+      "source": "Washington Times",
+      "count": 1,
+      "avg": 0.0516
     }
   ],
   "top_entities": [
     {
       "name": "Iran",
       "type": "LOCATION",
-      "count": 123,
-      "avg": -0.4447
+      "count": 125,
+      "avg": -0.4444
     },
     {
       "name": "Israel",
       "type": "LOCATION",
-      "count": 95,
-      "avg": -0.4969
+      "count": 98,
+      "avg": -0.4971
     },
     {
       "name": "Khamenei",
@@ -558,8 +570,8 @@
     {
       "name": "United States",
       "type": "LOCATION",
-      "count": 11,
-      "avg": -0.3921
+      "count": 13,
+      "avg": -0.3786
     },
     {
       "name": "Benjamin Netanyahu",
@@ -576,8 +588,8 @@
     {
       "name": "Hezbollah",
       "type": "ORG",
-      "count": 5,
-      "avg": -0.2617
+      "count": 6,
+      "avg": -0.2095
     },
     {
       "name": "IDF",
@@ -611,6 +623,18 @@
     }
   ],
   "recent": [
+    {
+      "title": "Masked Patriot Front white nationalists stage July 4 march through DC",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/masked-patriot-front-white-nationalists-stage-july-4-march-through-dc/",
+      "published": "2026-07-05T04:25:27+00:00",
+      "compound": -0.6597,
+      "label": "negative",
+      "entities": [
+        "Israel",
+        "United States"
+      ]
+    },
     {
       "title": "Hamas said to decide to stall for time in talks for Gaza’s future, reject any concessions",
       "source": "Times of Israel",
@@ -1264,18 +1288,6 @@
       "label": "negative",
       "entities": [
         "Israel"
-      ]
-    },
-    {
-      "title": "Huge crowds turn out in Tehran for funeral of Supreme Leader Ayatollah Ali Khamenei",
-      "source": "NBC News",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNN3hRRlBranMwa1VYR2RnZWtheEdTZkR1R0ZwRUdobFhpdFNULWZrOU9sSlJMNVk2bEw5LWpUR05NRmQwbzVqR1lRYzhON0NUMUlUNHh3VHNfM3ZBSHdWRFNPNHlqY3ZBREE5WEhEMHRUXzk0VlhTMUFNS0pPV21nNG0xNzNfcVhTNlRENmo1YXQtMnBQTGxlMG92RF9pbHRTLXJGbWhNRHBuQ01uWWxCb25tRlJlZw?oc=5",
-      "published": "2026-07-04T19:18:19+00:00",
-      "compound": 0.7783,
-      "label": "positive",
-      "entities": [
-        "Khamenei",
-        "Tehran"
       ]
     }
   ]

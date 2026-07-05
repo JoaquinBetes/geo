@@ -22,6 +22,8 @@ const ROUTE_KIND_META = {
   grain: { label: "Granos", color: COLORS.pos },
   gas: { label: "Gas", color: COLORS.cyan },
   oil: { label: "Petróleo", color: COLORS.amber },
+  shipping: { label: "Comercio marítimo", color: COLORS.pos },
+  chain: { label: "Línea estratégica", color: COLORS.muted },
   strait: { label: "Chokepoint", color: COLORS.neg },
 };
 
@@ -68,9 +70,12 @@ function renderEcoMap(layers) {
 
   map.fitBounds(layer.getBounds().pad(0.08));
 
+  // Leyenda: sólo los tipos presentes en la capa de este conflicto.
+  const kinds = [...new Set(features.map((f) => f.properties.kind))];
   const legend = document.getElementById("eco-map-legend");
   legend.innerHTML = "";
-  for (const meta of Object.values(ROUTE_KIND_META)) {
+  for (const kind of Object.keys(ROUTE_KIND_META).filter((k) => kinds.includes(k))) {
+    const meta = ROUTE_KIND_META[kind];
     const span = document.createElement("span");
     span.innerHTML = `<span class="dot" style="background:${meta.color}"></span>${meta.label}`;
     legend.appendChild(span);
@@ -90,7 +95,7 @@ function renderEcoKpis(e) {
       const up = mk.change_pct >= 0;
       // Subas = presión (rojo): commodities más caros o divisa más depreciada.
       sub = `<span class="kpi-sub"><span class="${up ? "up" : "down"}">` +
-            `${up ? "▲" : "▼"} ${Math.abs(mk.change_pct)}%</span> vs. pre-guerra</span>`;
+            `${up ? "▲" : "▼"} ${Math.abs(mk.change_pct)}%</span> vs. ${e.baseline_label}</span>`;
     }
     div.innerHTML =
       `<span class="kpi-label">${mk.name}</span>` +
@@ -111,7 +116,7 @@ function renderEcoMarkets(e) {
     const canvasId = `chart-eco-${mk.id}`;
     card.innerHTML =
       `<h2>${mk.name}</h2>` +
-      `<p class="hint">${mk.unit}${mk.baseline != null ? ` · línea punteada = nivel pre-guerra (${mk.baseline_date})` : ""}</p>` +
+      `<p class="hint">${mk.unit}${mk.baseline != null ? ` · línea punteada = nivel ${e.baseline_label} (${mk.baseline_date})` : ""}</p>` +
       `<div class="chart-box"><canvas id="${canvasId}"></canvas></div>`;
     grid.appendChild(card);
 

@@ -88,6 +88,8 @@ def build_economy(conflict: dict, previous: dict | None) -> dict | None:
         "updated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "start_date": conflict.get("start_date"),
         "note": econ.get("note", ""),
+        # Cómo llamar al nivel de referencia ("pre-guerra", "pre-crisis"...)
+        "baseline_label": econ.get("baseline_label", "pre-guerra"),
         "markets": markets,
         "aid": aid,
     }

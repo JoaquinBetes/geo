@@ -1,0 +1,153 @@
+{
+  "id": "china_taiwan",
+  "updated": "2026-07-05T01:39:07+00:00",
+  "as_of": "2026-01",
+  "reference": "Reconocimiento diplomático bajo la política de 'Una sola China' + arquitectura de seguridad del Indo-Pacífico",
+  "note": "Sólo ~12 estados reconocen formalmente a Taiwán (ROC), casi todos pequeños (varios microestados insulares no son visibles en el mapa). El resto del mundo reconoce a la RPC — pero la red de socios de seguridad de EE.UU. cuenta otra historia: la diplomacia formal y el alineamiento estratégico van por carriles separados.",
+  "kpis": [
+    {
+      "label": "Reconocen a Taiwán (ROC)",
+      "value": "~12"
+    },
+    {
+      "label": "Red de seguridad EE.UU.",
+      "value": "8"
+    },
+    {
+      "label": "Reconocen a la RPC",
+      "value": "~170"
+    },
+    {
+      "label": "Alineados con Beijing",
+      "value": "11"
+    }
+  ],
+  "categories": [
+    {
+      "id": "recognize",
+      "label": "Taiwán y quienes lo reconocen",
+      "color": "green",
+      "countries": [
+        "TWN",
+        "GTM",
+        "PRY",
+        "BLZ",
+        "HTI",
+        "SWZ"
+      ],
+      "rest": false,
+      "nodata": false
+    },
+    {
+      "id": "security",
+      "label": "Red de seguridad EE.UU.–aliados",
+      "color": "cyan",
+      "countries": [
+        "USA",
+        "JPN",
+        "KOR",
+        "PHL",
+        "AUS",
+        "NZL",
+        "GBR",
+        "CAN"
+      ],
+      "rest": false,
+      "nodata": false
+    },
+    {
+      "id": "status_quo",
+      "label": "Reconoce a la RPC (statu quo)",
+      "color": "amber",
+      "countries": [],
+      "rest": true,
+      "nodata": false
+    },
+    {
+      "id": "pro_beijing",
+      "label": "Alineado con Beijing",
+      "color": "red",
+      "countries": [
+        "RUS",
+        "PRK",
+        "BLR",
+        "IRN",
+        "PAK",
+        "KHM",
+        "LAO",
+        "MMR",
+        "VEN",
+        "CUB",
+        "NIC"
+      ],
+      "rest": false,
+      "nodata": false
+    },
+    {
+      "id": "nodata",
+      "label": "Sin datos",
+      "color": "gray",
+      "countries": [
+        "KOS",
+        "PSE",
+        "ESH",
+        "SOL",
+        "CYN",
+        "GRL",
+        "NCL",
+        "PRI",
+        "FLK",
+        "ATF"
+      ],
+      "rest": false,
+      "nodata": true
+    }
+  ],
+  "narrators": [
+    {
+      "country": "Taiwán",
+      "articles": 69,
+      "tone_avg": -0.0669
+    },
+    {
+      "country": "Reino Unido",
+      "articles": 59,
+      "tone_avg": -0.0373
+    },
+    {
+      "country": "Qatar",
+      "articles": 26,
+      "tone_avg": -0.0888
+    },
+    {
+      "country": "Otros / sin clasificar",
+      "articles": 25,
+      "tone_avg": -0.2527
+    },
+    {
+      "country": "Estados Unidos",
+      "articles": 24,
+      "tone_avg": -0.3049
+    },
+    {
+      "country": "Hong Kong",
+      "articles": 6,
+      "tone_avg": -0.2462
+    },
+    {
+      "country": "China (estatal)",
+      "articles": 5,
+      "tone_avg": 0.2327
+    },
+    {
+      "country": "India",
+      "articles": 4,
+      "tone_avg": -0.6459
+    },
+    {
+      "country": "Japón",
+      "articles": 3,
+      "tone_avg": -0.2594
+    }
+  ]
+}

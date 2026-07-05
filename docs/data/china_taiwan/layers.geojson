@@ -1,0 +1,102 @@
+{
+  "type": "FeatureCollection",
+  "note": "Capa CURADA A MANO (no la genera el pipeline). layer: 'infra' -> mapa militar; 'route'/'chokepoint' -> mapa económico. Trazados ESQUEMÁTICOS. Actualizar 'status' cuando cambie la realidad.",
+  "as_of": "2026-07",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "industry", "name": "Fabs de TSMC (Hsinchu)", "desc": "El parque científico de Hsinchu concentra la fabricación de los chips más avanzados del planeta. Probablemente la infraestructura industrial más estratégica del mundo: el 'escudo de silicio' de Taiwán." },
+      "geometry": { "type": "Point", "coordinates": [120.9675, 24.8138] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "industry", "name": "TSMC Fab 18 (Tainan)", "desc": "La fábrica de los nodos de 3 y 2 nm. Un bloqueo del estrecho detendría la electrónica mundial en semanas." },
+      "geometry": { "type": "Point", "coordinates": [120.2700, 23.1000] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "military", "name": "Base naval de Zuoying (Kaohsiung)", "desc": "Principal base de la armada taiwanesa y hogar de su flota de submarinos, incluido el programa de submarinos propios." },
+      "geometry": { "type": "Point", "coordinates": [120.2900, 22.6900] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "military", "name": "Base aérea de Hualien", "desc": "Cazas taiwaneses protegidos en hangares excavados en la montaña, en la costa este (la más lejana de China)." },
+      "geometry": { "type": "Point", "coordinates": [121.6200, 24.0230] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "military", "name": "Kinmen", "desc": "Islas taiwanesas a ~3 km de la costa china: el punto de contacto más caliente. Las incursiones de guardacostas chinos acá son el termómetro diario de la presión." },
+      "geometry": { "type": "Point", "coordinates": [118.3186, 24.4370] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "military", "name": "Islas Matsu", "desc": "Archipiélago taiwanés frente a Fuzhou; sus cables submarinos de internet fueron cortados varias veces por buques chinos." },
+      "geometry": { "type": "Point", "coordinates": [119.9520, 26.1505] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "military", "name": "Penghu (Pescadores)", "desc": "La llave del estrecho: quien controla Penghu controla la aproximación anfibia a Taiwán. Guarnición taiwanesa permanente." },
+      "geometry": { "type": "Point", "coordinates": [119.5793, 23.5711] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "military", "name": "Comando del Teatro Oriental (Nanjing)", "desc": "El cuartel del PLA responsable de un eventual asalto a Taiwán; dirige las maniobras de cerco alrededor de la isla." },
+      "geometry": { "type": "Point", "coordinates": [118.7969, 32.0603] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "military", "name": "Base de submarinos de Yulin (Hainán)", "desc": "Base subterránea de los submarinos nucleares chinos, puerta al Mar de China Meridional." },
+      "geometry": { "type": "Point", "coordinates": [109.5500, 18.2200] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "military", "name": "Base naval de Ningbo (Flota del Este)", "desc": "La flota del PLA orientada al escenario Taiwán-Japón." },
+      "geometry": { "type": "Point", "coordinates": [121.5440, 29.8683] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "military", "name": "Base aérea de Kadena (Okinawa)", "desc": "El poder aéreo estadounidense más cercano al estrecho (~650 km). Japón sería inevitablemente parte de cualquier contingencia." },
+      "geometry": { "type": "Point", "coordinates": [127.7700, 26.3500] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "military", "name": "Andersen AFB (Guam)", "desc": "El bastión estadounidense del Pacífico occidental; blanco declarado de los misiles chinos DF-26 ('Guam killer')." },
+      "geometry": { "type": "Point", "coordinates": [144.9200, 13.5800] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "military", "name": "Yokosuka (7ª Flota de EE.UU.)", "desc": "Base del único portaaviones estadounidense desplegado permanentemente en el exterior." },
+      "geometry": { "type": "Point", "coordinates": [139.6700, 35.2900] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "route", "kind": "shipping", "name": "Ruta de contenedores del estrecho", "status": "Activa", "desc": "Cerca de la mitad de la flota mundial de contenedores pasa por el estrecho de Taiwán o sus aguas cercanas cada año. Un bloqueo dispararía los fletes y la inflación global." },
+      "geometry": { "type": "LineString", "coordinates": [[118.5, 21.5], [119.3, 23.0], [119.8, 24.5], [120.8, 25.8], [122.3, 27.5], [122.8, 30.0]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "route", "kind": "shipping", "name": "Salida al Pacífico (canal de Bashi)", "status": "Activa", "desc": "El corredor entre Taiwán y Filipinas: paso de submarinos, cables submarinos de datos y comercio. Zona habitual de ejercicios del PLA." },
+      "geometry": { "type": "LineString", "coordinates": [[119.5, 21.0], [121.0, 21.4], [123.0, 20.5], [127.0, 19.0]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "route", "kind": "chain", "name": "Primera cadena de islas", "status": "Concepto estratégico", "desc": "Kyushu–Okinawa–Taiwán–Luzón–Borneo: la línea que en la doctrina china 'encierra' a su armada, y en la estadounidense la contiene. Taiwán es su eslabón central — por eso importa tanto." },
+      "geometry": { "type": "LineString", "coordinates": [[130.5, 31.5], [128.5, 28.5], [127.8, 26.3], [124.5, 24.8], [121.8, 24.0], [120.9, 21.5], [121.0, 17.0], [119.5, 12.5], [117.0, 8.5]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "chokepoint", "kind": "strait", "name": "Estrecho de Taiwán", "desc": "180 km de agua que separan dos sistemas políticos y sostienen la electrónica mundial. El chokepoint definitorio del siglo XXI." },
+      "geometry": { "type": "Point", "coordinates": [119.5000, 24.0000] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "chokepoint", "kind": "strait", "name": "Canal de Bashi", "desc": "Entre Taiwán y Luzón: por acá pasan los cables submarinos que conectan Asia oriental con el mundo y la ruta de los submarinos de ambos bandos." },
+      "geometry": { "type": "Point", "coordinates": [121.0000, 21.5000] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "chokepoint", "kind": "strait", "name": "Estrecho de Miyako", "desc": "El pasillo entre Okinawa y Miyako: la puerta de la armada china hacia el Pacífico abierto, vigilada por Japón." },
+      "geometry": { "type": "Point", "coordinates": [125.0000, 25.7500] }
+    }
+  ]
+}

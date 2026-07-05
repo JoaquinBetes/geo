@@ -103,6 +103,7 @@ select:focus { outline: 1px solid var(--amber); }
 /* --- Pestañas --- */
 .tabs {
   display: flex;
+  flex-wrap: wrap;   /* en pantallas angostas las pestañas pasan a 2 filas */
   gap: 4px;
   padding: 0 clamp(16px, 4vw, 48px);
   border-bottom: 1px solid var(--border);
@@ -364,4 +365,18 @@ main { padding: clamp(16px, 4vw, 48px); }
   font-size: 0.68rem;
   letter-spacing: 0.04em;
   border-top: 1px solid var(--border);
+}
+
+/* --- Móvil: pestañas compactas y mapas más bajos --- */
+@media (max-width: 540px) {
+  .tab-btn {
+    padding: 10px 10px 8px;
+    font-size: 0.66rem;
+    letter-spacing: 0.06em;
+  }
+  .tab-num { margin-right: 4px; }
+  #map { height: 360px; }
+  .eco-map { height: 340px; }
+  .mini-map { height: 260px; }
+  .kpi-value { font-size: 1.5rem; }
 }

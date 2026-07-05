@@ -61,7 +61,7 @@ async function renderWorldMap(inf, categoryOf) {
     maxBoundsViscosity: 0.8,
   });
 
-  L.geoJSON(geo, {
+  const layer = L.geoJSON(geo, {
     style: (f) => {
       const cat = categoryOf(f.properties.code);
       return {
@@ -77,7 +77,9 @@ async function renderWorldMap(inf, categoryOf) {
     },
   }).addTo(map);
 
-  map.setView([24, 12], 1);
+  // fitBounds (y no un zoom fijo): el mapamundi se adapta al ancho del
+  // contenedor, clave en móviles.
+  map.fitBounds(layer.getBounds(), { padding: [4, 4] });
 
   const legend = document.getElementById("inf-map-legend");
   legend.innerHTML = "";

@@ -1,0 +1,716 @@
+# =============================================================================
+#  CONFLICTO: CHINA – TAIWÁN
+#  Tercer conflicto del monitor. A diferencia de los otros dos no hay guerra
+#  abierta: se monitorea la ESCALADA (maniobras, patrullas, bloqueos, chips).
+# =============================================================================
+
+id = "china_taiwan"
+name = "China–Taiwán"
+description = "Cobertura mediática de la tensión entre China y Taiwán"
+start_date = "2024-05-20"   # asunción de Lai Ching-te: inicio del ciclo actual de presión
+order = 3
+
+[[countries]]
+code = "CN"
+name = "China"
+geo = "geo/cn_adm1.json"
+
+[[countries]]
+code = "TW"
+name = "Taiwán"
+geo = "geo/tw_adm1.json"
+
+# Filtro centrado en el eje Taiwán: las notas de China sobre otros temas
+# (economía, comercio) no entran si no mencionan el estrecho.
+keywords = [
+  "taiwan", "taiwanese", "taipei", "cross-strait", "kinmen", "matsu",
+  "penghu", "tsmc", "lai ching-te", "one china", "reunification",
+]
+
+# -----------------------------------------------------------------------------
+#  FEEDS RSS (verificados 2026-07; Focus Taiwan devuelve 404)
+# -----------------------------------------------------------------------------
+
+[[feeds]]
+source = "Google News"
+aggregator = true
+url = "https://news.google.com/rss/search?q=china%20taiwan&hl=en-US&gl=US&ceid=US:en"
+
+[[feeds]]
+source = "The Guardian"
+url = "https://www.theguardian.com/world/taiwan/rss"
+
+[[feeds]]
+source = "Taipei Times"
+url = "https://www.taipeitimes.com/xml/index.rss"
+
+[[feeds]]
+source = "Al Jazeera"
+url = "https://www.aljazeera.com/xml/rss/all.xml"
+
+[[feeds]]
+source = "BBC"
+url = "https://feeds.bbci.co.uk/news/world/rss.xml"
+
+[[feeds]]
+source = "NPR"
+url = "https://feeds.npr.org/1004/rss.xml"
+
+# -----------------------------------------------------------------------------
+#  ENTIDADES A TRACKEAR
+# -----------------------------------------------------------------------------
+
+[[entities]]
+name = "Xi Jinping"
+type = "PERSON"
+aliases = ["xi"]
+
+[[entities]]
+name = "Lai Ching-te"
+type = "PERSON"
+aliases = ["william lai"]
+
+[[entities]]
+name = "Donald Trump"
+type = "PERSON"
+aliases = ["trump"]
+
+[[entities]]
+name = "PLA"
+type = "ORG"
+aliases = ["people's liberation army"]
+
+[[entities]]
+name = "TSMC"
+type = "ORG"
+aliases = ["taiwan semiconductor"]
+
+[[entities]]
+name = "KMT"
+type = "ORG"
+aliases = ["kuomintang"]
+
+[[entities]]
+name = "DPP"
+type = "ORG"
+aliases = ["democratic progressive party"]
+
+[[entities]]
+name = "US Navy"
+type = "ORG"
+aliases = ["seventh fleet", "7th fleet"]
+
+[[entities]]
+name = "China"
+type = "LOCATION"
+aliases = ["chinese", "beijing"]
+
+[[entities]]
+name = "Taiwan"
+type = "LOCATION"
+aliases = ["taiwanese"]
+
+[[entities]]
+name = "United States"
+type = "LOCATION"
+aliases = ["washington", "white house", "pentagon"]
+
+[[entities]]
+name = "Japan"
+type = "LOCATION"
+aliases = ["japanese", "tokyo"]
+
+[[entities]]
+name = "Philippines"
+type = "LOCATION"
+aliases = ["filipino"]
+
+[[entities]]
+name = "Taiwan Strait"
+type = "LOCATION"
+aliases = []
+
+[[entities]]
+name = "Kinmen"
+type = "LOCATION"
+aliases = []
+
+# -----------------------------------------------------------------------------
+#  PESTAÑA MILITAR (sin dataset de pérdidas: no hay guerra abierta)
+# -----------------------------------------------------------------------------
+
+[military]
+events_caveat = "Eventos extraídos automáticamente de titulares de prensa (maniobras, patrullas, incursiones; no confirmación independiente). Geolocalización a nivel ciudad/zona."
+losses_caveat = ""
+
+# --- Gazetteer: Taiwán ---
+
+[[places]]
+name = "Taipei"
+country = "TW"
+region = "Taipei"
+aliases = []
+lat = 25.0330
+lon = 121.5654
+metonym = true
+
+[[places]]
+name = "Kaohsiung"
+country = "TW"
+region = "Kaohsiung"
+aliases = ["zuoying"]
+lat = 22.6273
+lon = 120.3014
+
+[[places]]
+name = "Hsinchu"
+country = "TW"
+region = "Hsinchu"
+aliases = []
+lat = 24.8138
+lon = 120.9675
+
+[[places]]
+name = "Taichung"
+country = "TW"
+region = "Taichung"
+aliases = []
+lat = 24.1477
+lon = 120.6736
+
+[[places]]
+name = "Tainan"
+country = "TW"
+region = "Tainan"
+aliases = []
+lat = 22.9999
+lon = 120.2270
+
+[[places]]
+name = "Keelung"
+country = "TW"
+region = "Keelung"
+aliases = []
+lat = 25.1276
+lon = 121.7392
+
+[[places]]
+name = "Hualien"
+country = "TW"
+region = "Hualien County"
+aliases = []
+lat = 23.9769
+lon = 121.6044
+
+[[places]]
+name = "Kinmen"
+country = "TW"
+region = "Kinmen"
+aliases = ["quemoy"]
+lat = 24.4370
+lon = 118.3186
+
+[[places]]
+name = "Matsu"
+country = "TW"
+region = "Matsu Islands"
+aliases = ["matsu islands"]
+lat = 26.1505
+lon = 119.9520
+
+[[places]]
+name = "Penghu"
+country = "TW"
+region = "Penghu"
+aliases = ["pescadores"]
+lat = 23.5711
+lon = 119.5793
+
+[[places]]
+name = "Taoyuan"
+country = "TW"
+region = "Taoyuan"
+aliases = []
+lat = 24.9936
+lon = 121.3010
+
+# --- Gazetteer: China ---
+
+[[places]]
+name = "Beijing"
+country = "CN"
+region = "Beijing Municipality"
+aliases = []
+lat = 39.9042
+lon = 116.4074
+metonym = true
+
+[[places]]
+name = "Shanghai"
+country = "CN"
+region = "Shanghai Municipality"
+aliases = []
+lat = 31.2304
+lon = 121.4737
+
+[[places]]
+name = "Fuzhou"
+country = "CN"
+region = "Fujian Province"
+aliases = []
+lat = 26.0745
+lon = 119.2965
+
+[[places]]
+name = "Xiamen"
+country = "CN"
+region = "Fujian Province"
+aliases = []
+lat = 24.4798
+lon = 118.0894
+
+# geoBoundaries etiqueta Guangdong como "Guangzhou Province" (nombre de ellos)
+[[places]]
+name = "Guangzhou"
+country = "CN"
+region = "Guangzhou Province"
+aliases = []
+lat = 23.1291
+lon = 113.2644
+
+[[places]]
+name = "Zhanjiang"
+country = "CN"
+region = "Guangzhou Province"
+aliases = []
+lat = 21.2707
+lon = 110.3594
+
+[[places]]
+name = "Sanya"
+country = "CN"
+region = "Hainan Province"
+aliases = ["yulin naval base"]
+lat = 18.2528
+lon = 109.5119
+
+[[places]]
+name = "Qingdao"
+country = "CN"
+region = "Shandong Province"
+aliases = []
+lat = 36.0671
+lon = 120.3826
+
+[[places]]
+name = "Ningbo"
+country = "CN"
+region = "Zhejiang Province"
+aliases = []
+lat = 29.8683
+lon = 121.5440
+
+[[places]]
+name = "Nanjing"
+country = "CN"
+region = "Jiangsu Province"
+aliases = []
+lat = 32.0603
+lon = 118.7969
+
+# --- Teatro regional (sin región: sólo mapa de puntos) ---
+
+[[places]]
+name = "Taiwan Strait"
+aliases = []
+lat = 24.0000
+lon = 119.5000
+
+[[places]]
+name = "Bashi Channel"
+aliases = ["bashi strait"]
+lat = 21.5000
+lon = 121.0000
+
+[[places]]
+name = "South China Sea"
+aliases = []
+lat = 15.0000
+lon = 115.0000
+
+[[places]]
+name = "Okinawa"
+aliases = ["kadena"]
+lat = 26.3344
+lon = 127.8056
+
+[[places]]
+name = "Guam"
+aliases = ["andersen"]
+lat = 13.4443
+lon = 144.7937
+
+[[places]]
+name = "Manila"
+aliases = []
+lat = 14.5995
+lon = 120.9842
+metonym = true
+
+[[places]]
+name = "Senkaku"
+aliases = ["diaoyu", "senkakus"]
+lat = 25.7450
+lon = 123.4700
+
+# -----------------------------------------------------------------------------
+#  PESTAÑA ECONÓMICA
+# -----------------------------------------------------------------------------
+
+[economy]
+baseline_label = "pre-crisis"
+note = "TSMC fabrica ~90% de los chips más avanzados del mundo: su cotización es el termómetro del riesgo de bloqueo. El dólar taiwanés y el yuan miden la presión financiera sobre cada orilla; por el estrecho pasa cerca de la mitad del tráfico mundial de contenedores. Línea base: asunción de Lai Ching-te (may 2024)."
+
+[[economy.markets]]
+id = "tsmc"
+name = "TSMC (ADR, NYSE)"
+unit = "USD"
+group = "equity"
+symbol = "TSM"
+
+[[economy.markets]]
+id = "twii"
+name = "Índice bursátil de Taipéi"
+unit = "puntos"
+group = "equity"
+symbol = "^TWII"
+
+[[economy.markets]]
+id = "usdtwd"
+name = "USD/TWD (dólar taiwanés)"
+unit = "NT$ por USD"
+group = "fx"
+symbol = "TWD=X"
+
+[[economy.markets]]
+id = "usdcny"
+name = "USD/CNY (yuan chino)"
+unit = "¥ por USD"
+group = "fx"
+symbol = "CNY=X"
+
+# -----------------------------------------------------------------------------
+#  PESTAÑA INFLUENCIA
+#  Acá el alineamiento es el reconocimiento diplomático (política de "Una sola
+#  China") + la arquitectura de seguridad del Indo-Pacífico.
+# -----------------------------------------------------------------------------
+
+[influence]
+as_of = "2026-01"
+reference = "Reconocimiento diplomático bajo la política de 'Una sola China' + arquitectura de seguridad del Indo-Pacífico"
+note = "Sólo ~12 estados reconocen formalmente a Taiwán (ROC), casi todos pequeños (varios microestados insulares no son visibles en el mapa). El resto del mundo reconoce a la RPC — pero la red de socios de seguridad de EE.UU. cuenta otra historia: la diplomacia formal y el alineamiento estratégico van por carriles separados."
+
+[[influence.kpis]]
+label = "Reconocen a Taiwán (ROC)"
+value = "~12"
+
+[[influence.kpis]]
+label = "Red de seguridad EE.UU."
+value = "8"
+
+[[influence.kpis]]
+label = "Reconocen a la RPC"
+value = "~170"
+
+[[influence.kpis]]
+label = "Alineados con Beijing"
+value = "11"
+
+[[influence.categories]]
+id = "recognize"
+label = "Taiwán y quienes lo reconocen"
+color = "green"
+countries = ["TWN", "GTM", "PRY", "BLZ", "HTI", "SWZ"]
+
+[[influence.categories]]
+id = "security"
+label = "Red de seguridad EE.UU.–aliados"
+color = "cyan"
+countries = ["USA", "JPN", "KOR", "PHL", "AUS", "NZL", "GBR", "CAN"]
+
+[[influence.categories]]
+id = "status_quo"
+label = "Reconoce a la RPC (statu quo)"
+color = "amber"
+rest = true
+
+[[influence.categories]]
+id = "pro_beijing"
+label = "Alineado con Beijing"
+color = "red"
+countries = ["RUS", "PRK", "BLR", "IRN", "PAK", "KHM", "LAO", "MMR", "VEN", "CUB", "NIC"]
+
+[[influence.categories]]
+id = "nodata"
+label = "Sin datos"
+color = "gray"
+nodata = true
+countries = ["KOS", "PSE", "ESH", "SOL", "CYN", "GRL", "NCL", "PRI", "FLK", "ATF"]
+
+# --- Medio -> país sede ---
+
+[[influence.media_origins]]
+match = "taipei times"
+country = "Taiwán"
+
+[[influence.media_origins]]
+match = "focus taiwan"
+country = "Taiwán"
+
+[[influence.media_origins]]
+match = "taiwan news"
+country = "Taiwán"
+
+[[influence.media_origins]]
+match = "global times"
+country = "China (estatal)"
+
+[[influence.media_origins]]
+match = "xinhua"
+country = "China (estatal)"
+
+[[influence.media_origins]]
+match = "china daily"
+country = "China (estatal)"
+
+[[influence.media_origins]]
+match = "cgtn"
+country = "China (estatal)"
+
+[[influence.media_origins]]
+match = "people's daily"
+country = "China (estatal)"
+
+[[influence.media_origins]]
+match = "south china morning post"
+country = "Hong Kong"
+
+[[influence.media_origins]]
+match = "scmp"
+country = "Hong Kong"
+
+[[influence.media_origins]]
+match = "nikkei"
+country = "Japón"
+
+[[influence.media_origins]]
+match = "kyodo"
+country = "Japón"
+
+[[influence.media_origins]]
+match = "japan times"
+country = "Japón"
+
+[[influence.media_origins]]
+match = "yonhap"
+country = "Corea del Sur"
+
+[[influence.media_origins]]
+match = "korea herald"
+country = "Corea del Sur"
+
+[[influence.media_origins]]
+match = "channel news asia"
+country = "Singapur"
+
+[[influence.media_origins]]
+match = "straits times"
+country = "Singapur"
+
+[[influence.media_origins]]
+match = "rappler"
+country = "Filipinas"
+
+[[influence.media_origins]]
+match = "abs-cbn"
+country = "Filipinas"
+
+[[influence.media_origins]]
+match = "telegraph india"
+country = "India"
+
+[[influence.media_origins]]
+match = "guardian"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "bbc"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "sky news"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "independent"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "reuters"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "telegraph"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "economist"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "financial times"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "al jazeera"
+country = "Qatar"
+
+[[influence.media_origins]]
+match = "euronews"
+country = "Francia"
+
+[[influence.media_origins]]
+match = "france 24"
+country = "Francia"
+
+[[influence.media_origins]]
+match = "deutsche welle"
+country = "Alemania"
+
+[[influence.media_origins]]
+match = "spiegel"
+country = "Alemania"
+
+[[influence.media_origins]]
+match = "times of india"
+country = "India"
+
+[[influence.media_origins]]
+match = "hindustan"
+country = "India"
+
+[[influence.media_origins]]
+match = "ndtv"
+country = "India"
+
+[[influence.media_origins]]
+match = "wion"
+country = "India"
+
+[[influence.media_origins]]
+match = "moscow times"
+country = "Rusia (exilio/estatal)"
+
+[[influence.media_origins]]
+match = "tass"
+country = "Rusia (exilio/estatal)"
+
+[[influence.media_origins]]
+match = "new york times"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "wall street journal"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "wsj"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "cnn"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "cbs"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "nbc"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "abc news"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "washington post"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "politico"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "the hill"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "forbes"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "cnbc"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "ap news"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "associated press"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "npr"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "atlantic council"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "atlantic"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "bloomberg"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "newsweek"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "fox news"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "csis"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "radio free"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "voice of america"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "axios"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "time"
+country = "Estados Unidos"

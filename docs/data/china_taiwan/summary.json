@@ -2,12 +2,12 @@
   "id": "china_taiwan",
   "name": "China–Taiwán",
   "description": "Cobertura mediática de la tensión entre China y Taiwán",
-  "updated": "2026-07-05T02:05:10+00:00",
-  "total_articles": 222,
-  "overall_avg": -0.1191,
+  "updated": "2026-07-05T02:06:23+00:00",
+  "total_articles": 223,
+  "overall_avg": -0.1186,
   "distribution": {
     "pos": 54,
-    "neu": 70,
+    "neu": 71,
     "neg": 98
   },
   "sources": [
@@ -26,6 +26,7 @@
     "The Japan Times",
     "Global Times",
     "WSJ",
+    "AP News",
     "The Times of India",
     "Hindustan Times",
     "CSIS | Center for Strategic and International Studies",
@@ -39,7 +40,6 @@
     "JAPAN Forward",
     "Українські Національні Новини (УНН)",
     "Politics Today",
-    "AP News",
     "American Enterprise Institute - AEI",
     "News On AIR",
     "dominotheory.com",
@@ -261,10 +261,10 @@
     },
     {
       "date": "2026-06-22",
-      "count": 1,
-      "avg": 0.8961,
+      "count": 2,
+      "avg": 0.4481,
       "pos": 1,
-      "neu": 0,
+      "neu": 1,
       "neg": 0
     },
     {
@@ -401,6 +401,11 @@
       "avg": 0.0
     },
     {
+      "source": "AP News",
+      "count": 2,
+      "avg": -0.4559
+    },
+    {
       "source": "The Times of India",
       "count": 2,
       "avg": -0.4455
@@ -464,11 +469,6 @@
       "source": "Politics Today",
       "count": 1,
       "avg": -0.9001
-    },
-    {
-      "source": "AP News",
-      "count": 1,
-      "avg": -0.9118
     },
     {
       "source": "American Enterprise Institute - AEI",
@@ -558,16 +558,16 @@
   ],
   "top_entities": [
     {
+      "name": "Taiwan",
+      "type": "LOCATION",
+      "count": 99,
+      "avg": -0.1462
+    },
+    {
       "name": "China",
       "type": "LOCATION",
       "count": 98,
       "avg": -0.1542
-    },
-    {
-      "name": "Taiwan",
-      "type": "LOCATION",
-      "count": 98,
-      "avg": -0.1477
     },
     {
       "name": "Donald Trump",

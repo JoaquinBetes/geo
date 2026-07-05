@@ -13,7 +13,11 @@ CONFLICTS_DIR = ROOT / "conflicts"
 
 
 def load_conflicts() -> list[dict]:
-    """Devuelve la lista de conflictos configurados (uno por archivo .toml)."""
+    """Devuelve la lista de conflictos configurados (uno por archivo .toml).
+
+    'order' (opcional) controla la posición en el selector del dashboard;
+    sin él, el orden es alfabético por nombre de archivo.
+    """
     conflicts = []
     for path in sorted(CONFLICTS_DIR.glob("*.toml")):
         with path.open("rb") as f:
@@ -22,4 +26,5 @@ def load_conflicts() -> list[dict]:
         data.setdefault("id", path.stem)
         data.setdefault("name", data["id"])
         conflicts.append(data)
+    conflicts.sort(key=lambda c: (c.get("order", 99), c["id"]))
     return conflicts

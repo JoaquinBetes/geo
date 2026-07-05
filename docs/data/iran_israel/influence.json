@@ -1,0 +1,182 @@
+{
+  "id": "iran_israel",
+  "updated": "2026-07-05T01:18:10+00:00",
+  "as_of": "2026-01",
+  "reference": "Sanciones nucleares/misilísticas sobre Irán y mecanismo 'snapback' del JCPOA activado por el E3 (sept. 2025), que restauró las sanciones de la ONU",
+  "note": "A diferencia de Ucrania, acá no hay un voto único de la Asamblea General que sirva de foto: el alineamiento se lee por sanciones a Irán, acuerdos con Israel y apoyo material a Teherán. La gran mayoría del mundo es genuinamente no alineada en este conflicto.",
+  "kpis": [
+    {
+      "label": "Presionan / sancionan a Irán",
+      "value": "42"
+    },
+    {
+      "label": "Paz o acuerdos con Israel",
+      "value": "5"
+    },
+    {
+      "label": "No alineados",
+      "value": "~120"
+    },
+    {
+      "label": "Apoyan a Irán",
+      "value": "7"
+    }
+  ],
+  "categories": [
+    {
+      "id": "sanction",
+      "label": "Presiona / sanciona a Irán",
+      "color": "cyan",
+      "countries": [
+        "USA",
+        "ISR",
+        "GBR",
+        "CAN",
+        "AUS",
+        "NZL",
+        "NOR",
+        "ISL",
+        "CHE",
+        "JPN",
+        "KOR",
+        "UKR",
+        "AUT",
+        "BEL",
+        "BGR",
+        "HRV",
+        "CYP",
+        "CZE",
+        "DNK",
+        "EST",
+        "FIN",
+        "FRA",
+        "DEU",
+        "GRC",
+        "HUN",
+        "IRL",
+        "ITA",
+        "LVA",
+        "LTU",
+        "LUX",
+        "MLT",
+        "NLD",
+        "POL",
+        "PRT",
+        "ROU",
+        "SVK",
+        "SVN",
+        "ESP",
+        "SWE",
+        "MNE",
+        "MKD",
+        "ALB"
+      ],
+      "rest": false,
+      "nodata": false
+    },
+    {
+      "id": "israel_peace",
+      "label": "Paz o acuerdos con Israel (región)",
+      "color": "green",
+      "countries": [
+        "ARE",
+        "BHR",
+        "MAR",
+        "EGY",
+        "JOR"
+      ],
+      "rest": false,
+      "nodata": false
+    },
+    {
+      "id": "neutral",
+      "label": "No alineado / equilibrista",
+      "color": "amber",
+      "countries": [],
+      "rest": true,
+      "nodata": false
+    },
+    {
+      "id": "pro_iran",
+      "label": "Apoya a Irán",
+      "color": "red",
+      "countries": [
+        "RUS",
+        "CHN",
+        "PRK",
+        "VEN",
+        "CUB",
+        "NIC",
+        "BLR"
+      ],
+      "rest": false,
+      "nodata": false
+    },
+    {
+      "id": "nodata",
+      "label": "Sin datos",
+      "color": "gray",
+      "countries": [
+        "KOS",
+        "PSE",
+        "ESH",
+        "SOL",
+        "CYN",
+        "GRL",
+        "NCL",
+        "PRI",
+        "FLK",
+        "ATF"
+      ],
+      "rest": false,
+      "nodata": true
+    }
+  ],
+  "narrators": [
+    {
+      "country": "Reino Unido",
+      "articles": 56,
+      "tone_avg": -0.344
+    },
+    {
+      "country": "Qatar",
+      "articles": 37,
+      "tone_avg": -0.2164
+    },
+    {
+      "country": "Israel",
+      "articles": 33,
+      "tone_avg": -0.4534
+    },
+    {
+      "country": "Estados Unidos",
+      "articles": 32,
+      "tone_avg": -0.3186
+    },
+    {
+      "country": "Otros / sin clasificar",
+      "articles": 27,
+      "tone_avg": -0.4028
+    },
+    {
+      "country": "India",
+      "articles": 3,
+      "tone_avg": -0.5396
+    },
+    {
+      "country": "Francia",
+      "articles": 2,
+      "tone_avg": -0.4455
+    },
+    {
+      "country": "Arabia Saudita",
+      "articles": 2,
+      "tone_avg": 0.1206
+    },
+    {
+      "country": "Turquía",
+      "articles": 1,
+      "tone_avg": -0.9042
+    }
+  ]
+}

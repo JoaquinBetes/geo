@@ -1,147 +1,198 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-07-04T21:19:11+00:00",
+  "updated": "2026-07-05T01:17:33+00:00",
   "as_of": "2026-01",
-  "un_resolution": "Res. ES-11/1 (2 mar 2022): condena de la invasión — 141 a favor, 5 en contra, 35 abstenciones, 12 ausentes",
+  "reference": "Res. ES-11/1 (2 mar 2022): condena de la invasión — 141 a favor, 5 en contra, 35 abstenciones, 12 ausentes",
   "note": "El alineamiento combina dos señales: sancionar a Rusia (compromiso material) y el voto en la Asamblea General (posición declarativa). Muchos países condenaron sin sancionar: ahí vive el 'Sur Global' no alineado.",
-  "alignment": {
-    "sanctions": [
-      "USA",
-      "CAN",
-      "GBR",
-      "UKR",
-      "JPN",
-      "KOR",
-      "AUS",
-      "NZL",
-      "SGP",
-      "TWN",
-      "NOR",
-      "ISL",
-      "CHE",
-      "AUT",
-      "BEL",
-      "BGR",
-      "HRV",
-      "CYP",
-      "CZE",
-      "DNK",
-      "EST",
-      "FIN",
-      "FRA",
-      "DEU",
-      "GRC",
-      "HUN",
-      "IRL",
-      "ITA",
-      "LVA",
-      "LTU",
-      "LUX",
-      "MLT",
-      "NLD",
-      "POL",
-      "PRT",
-      "ROU",
-      "SVK",
-      "SVN",
-      "ESP",
-      "SWE",
-      "MNE",
-      "MKD",
-      "ALB"
-    ],
-    "un_no": [
-      "RUS",
-      "BLR",
-      "PRK",
-      "SYR",
-      "ERI"
-    ],
-    "un_abstain": [
-      "DZA",
-      "AGO",
-      "ARM",
-      "BGD",
-      "BOL",
-      "BDI",
-      "CAF",
-      "CHN",
-      "COG",
-      "CUB",
-      "SLV",
-      "GNQ",
-      "IND",
-      "IRN",
-      "IRQ",
-      "KAZ",
-      "KGZ",
-      "LAO",
-      "MDG",
-      "MLI",
-      "MNG",
-      "MOZ",
-      "NAM",
-      "NIC",
-      "PAK",
-      "SEN",
-      "ZAF",
-      "SSD",
-      "LKA",
-      "SDN",
-      "TJK",
-      "TZA",
-      "UGA",
-      "VNM",
-      "ZWE"
-    ],
-    "un_absent": [
-      "AZE",
-      "BFA",
-      "CMR",
-      "SWZ",
-      "ETH",
-      "GIN",
-      "GNB",
-      "MAR",
-      "TGO",
-      "TKM",
-      "UZB",
-      "VEN"
-    ],
-    "no_data": [
-      "KOS",
-      "PSE",
-      "ESH",
-      "SOL",
-      "CYN",
-      "GRL",
-      "NCL",
-      "PRI",
-      "FLK",
-      "ATF"
-    ],
-    "un_yes_total": 141
-  },
+  "kpis": [
+    {
+      "label": "Sancionan a Rusia",
+      "value": "43"
+    },
+    {
+      "label": "Condenaron en ONU",
+      "value": "141"
+    },
+    {
+      "label": "Se abstuvieron",
+      "value": "35"
+    },
+    {
+      "label": "Con Rusia",
+      "value": "5"
+    }
+  ],
+  "categories": [
+    {
+      "id": "sanction",
+      "label": "Condena y sanciona",
+      "color": "cyan",
+      "countries": [
+        "USA",
+        "CAN",
+        "GBR",
+        "UKR",
+        "JPN",
+        "KOR",
+        "AUS",
+        "NZL",
+        "SGP",
+        "TWN",
+        "NOR",
+        "ISL",
+        "CHE",
+        "AUT",
+        "BEL",
+        "BGR",
+        "HRV",
+        "CYP",
+        "CZE",
+        "DNK",
+        "EST",
+        "FIN",
+        "FRA",
+        "DEU",
+        "GRC",
+        "HUN",
+        "IRL",
+        "ITA",
+        "LVA",
+        "LTU",
+        "LUX",
+        "MLT",
+        "NLD",
+        "POL",
+        "PRT",
+        "ROU",
+        "SVK",
+        "SVN",
+        "ESP",
+        "SWE",
+        "MNE",
+        "MKD",
+        "ALB"
+      ],
+      "rest": false,
+      "nodata": false
+    },
+    {
+      "id": "condemn",
+      "label": "Condena sin sancionar",
+      "color": "green",
+      "countries": [],
+      "rest": true,
+      "nodata": false
+    },
+    {
+      "id": "abstain",
+      "label": "Ambiguo (abstención)",
+      "color": "amber",
+      "countries": [
+        "DZA",
+        "AGO",
+        "ARM",
+        "BGD",
+        "BOL",
+        "BDI",
+        "CAF",
+        "CHN",
+        "COG",
+        "CUB",
+        "SLV",
+        "GNQ",
+        "IND",
+        "IRN",
+        "IRQ",
+        "KAZ",
+        "KGZ",
+        "LAO",
+        "MDG",
+        "MLI",
+        "MNG",
+        "MOZ",
+        "NAM",
+        "NIC",
+        "PAK",
+        "SEN",
+        "ZAF",
+        "SSD",
+        "LKA",
+        "SDN",
+        "TJK",
+        "TZA",
+        "UGA",
+        "VNM",
+        "ZWE"
+      ],
+      "rest": false,
+      "nodata": false
+    },
+    {
+      "id": "against",
+      "label": "Alineado con Rusia",
+      "color": "red",
+      "countries": [
+        "RUS",
+        "BLR",
+        "PRK",
+        "SYR",
+        "ERI"
+      ],
+      "rest": false,
+      "nodata": false
+    },
+    {
+      "id": "nodata",
+      "label": "Sin voto / sin datos",
+      "color": "gray",
+      "countries": [
+        "AZE",
+        "BFA",
+        "CMR",
+        "SWZ",
+        "ETH",
+        "GIN",
+        "GNB",
+        "MAR",
+        "TGO",
+        "TKM",
+        "UZB",
+        "VEN",
+        "KOS",
+        "PSE",
+        "ESH",
+        "SOL",
+        "CYN",
+        "GRL",
+        "NCL",
+        "PRI",
+        "FLK",
+        "ATF"
+      ],
+      "rest": false,
+      "nodata": true
+    }
+  ],
   "narrators": [
     {
       "country": "Estados Unidos",
-      "articles": 135,
-      "tone_avg": -0.5879
+      "articles": 136,
+      "tone_avg": -0.5831
     },
     {
       "country": "Reino Unido",
-      "articles": 122,
-      "tone_avg": -0.5896
+      "articles": 123,
+      "tone_avg": -0.5826
     },
     {
       "country": "Otros / sin clasificar",
-      "articles": 75,
-      "tone_avg": -0.6515
+      "articles": 76,
+      "tone_avg": -0.655
     },
     {
       "country": "Qatar",
-      "articles": 66,
-      "tone_avg": -0.3131
+      "articles": 74,
+      "tone_avg": -0.3029
     },
     {
       "country": "Ucrania",
@@ -154,19 +205,24 @@
       "tone_avg": -0.5073
     },
     {
+      "country": "Rusia (exilio/estatal)",
+      "articles": 4,
+      "tone_avg": -0.1678
+    },
+    {
+      "country": "Turquía",
+      "articles": 4,
+      "tone_avg": 0.0368
+    },
+    {
       "country": "India",
       "articles": 3,
       "tone_avg": -0.7445
     },
     {
-      "country": "Rusia (exilio/estatal)",
-      "articles": 3,
-      "tone_avg": -0.4437
-    },
-    {
-      "country": "Turquía",
-      "articles": 3,
-      "tone_avg": 0.0833
+      "country": "Israel",
+      "articles": 2,
+      "tone_avg": -0.4158
     },
     {
       "country": "Unión Europea (inst.)",
@@ -177,11 +233,6 @@
       "country": "Canadá",
       "articles": 1,
       "tone_avg": -0.8807
-    },
-    {
-      "country": "Israel",
-      "articles": 1,
-      "tone_avg": 0.0
     }
   ]
 }

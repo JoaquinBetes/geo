@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "note": "Capa CURADA A MANO (no la genera el pipeline). layer: 'infra' se muestra en el mapa militar; 'route' y 'chokepoint' en el económico. Trazados de rutas ESQUEMÁTICOS. Actualizar 'status' cuando cambie la realidad.",
+  "as_of": "2026-07",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "nuclear", "name": "Planta de enriquecimiento de Natanz", "desc": "Principal sitio de enriquecimiento de uranio iraní. Saboteada varias veces y bombardeada en la guerra de junio 2025." },
+      "geometry": { "type": "Point", "coordinates": [51.916, 33.515] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "nuclear", "name": "Planta de Fordow", "desc": "Instalación de enriquecimiento enterrada bajo una montaña cerca de Qom; blanco de las bombas antibúnker estadounidenses (junio 2025)." },
+      "geometry": { "type": "Point", "coordinates": [50.996, 34.885] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "nuclear", "name": "Centro nuclear de Isfahan", "desc": "Complejo de conversión de uranio y laboratorios; uno de los tres sitios atacados por EE.UU. en junio 2025." },
+      "geometry": { "type": "Point", "coordinates": [51.610, 32.600] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "nuclear", "name": "Central nuclear de Bushehr", "desc": "Única central nuclear civil iraní (construida por Rusia). Un ataque acá tendría consecuencias radiológicas regionales." },
+      "geometry": { "type": "Point", "coordinates": [50.887, 28.829] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "nuclear", "name": "Reactor de agua pesada de Arak (Khondab)", "desc": "Reactor de investigación con potencial de plutonio; limitado por el JCPOA y bajo vigilancia del OIEA." },
+      "geometry": { "type": "Point", "coordinates": [49.240, 34.370] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "military", "name": "Complejo militar de Parchin", "desc": "Centro de desarrollo de misiles y explosivos al sureste de Teherán; blanco recurrente de ataques israelíes." },
+      "geometry": { "type": "Point", "coordinates": [51.772, 35.522] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "port", "name": "Terminal petrolera de Isla Kharg", "desc": "Por acá sale ~90% del crudo que exporta Irán: su punto económico más vulnerable." },
+      "geometry": { "type": "Point", "coordinates": [50.330, 29.233] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "military", "name": "Base naval de Bandar Abbas", "desc": "Principal base de la armada iraní, domina el estrecho de Ormuz junto a las lanchas rápidas del IRGC." },
+      "geometry": { "type": "Point", "coordinates": [56.267, 27.183] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "nuclear", "name": "Centro de Investigación del Néguev (Dimona)", "desc": "El complejo nuclear israelí, nunca reconocido oficialmente. Irán lo menciona como blanco de represalia." },
+      "geometry": { "type": "Point", "coordinates": [35.033, 31.069] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "port", "name": "Puerto y refinería de Haifa", "desc": "Corazón industrial-energético israelí; alcanzado por misiles balísticos iraníes en junio 2025." },
+      "geometry": { "type": "Point", "coordinates": [35.000, 32.810] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "military", "name": "Base aérea de Nevatim", "desc": "Base de los F-35 israelíes en el Néguev; blanco preferido de los misiles iraníes en 2024-2025." },
+      "geometry": { "type": "Point", "coordinates": [34.689, 31.208] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "military", "name": "Base aérea de Al Udeid (Qatar)", "desc": "La mayor base estadounidense de la región y sede del CENTCOM aéreo; atacada por Irán en represalia (junio 2025)." },
+      "geometry": { "type": "Point", "coordinates": [51.320, 25.120] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "military", "name": "Cuartel de la 5ª Flota de EE.UU. (Manama)", "desc": "Comando naval estadounidense del Golfo, en Baréin: garantiza (o no) el paso por Ormuz." },
+      "geometry": { "type": "Point", "coordinates": [50.586, 26.229] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "route", "kind": "oil", "name": "Ruta del crudo del Golfo", "status": "Activa", "desc": "De Kharg y las terminales del Golfo hacia Asia vía Ormuz. Una quinta parte del petróleo mundial pasa por este embudo." },
+      "geometry": { "type": "LineString", "coordinates": [[50.33, 29.23], [52.5, 27.6], [55.0, 26.6], [56.27, 26.55], [58.5, 25.0], [61.0, 24.0]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "route", "kind": "grain", "name": "Ruta Mar Rojo–Suez", "status": "Cortado parcialmente (ataques hutíes desde 2023)", "desc": "La arteria Asia-Europa. Los ataques hutíes desde Yemen desviaron gran parte del tráfico alrededor de África, encareciendo fletes globales." },
+      "geometry": { "type": "LineString", "coordinates": [[32.35, 30.45], [33.5, 28.0], [36.0, 24.0], [38.5, 20.0], [41.0, 15.5], [43.33, 12.58], [45.5, 12.2], [48.0, 12.8]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "chokepoint", "kind": "strait", "name": "Estrecho de Ormuz", "desc": "El chokepoint energético más importante del planeta (~20% del petróleo y ~25% del GNL mundial). El arma de disuasión definitiva de Irán es amenazar con cerrarlo." },
+      "geometry": { "type": "Point", "coordinates": [56.27, 26.57] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "chokepoint", "kind": "strait", "name": "Bab el-Mandeb", "desc": "Puerta sur del Mar Rojo, bajo fuego hutí (aliados de Irán) desde 2023: el frente marítimo indirecto del conflicto." },
+      "geometry": { "type": "Point", "coordinates": [43.33, 12.58] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "chokepoint", "kind": "strait", "name": "Canal de Suez", "desc": "El peaje de Egipto entre Asia y Europa: sus ingresos caen cada vez que el Mar Rojo se vuelve peligroso." },
+      "geometry": { "type": "Point", "coordinates": [32.35, 30.45] }
+    }
+  ]
+}

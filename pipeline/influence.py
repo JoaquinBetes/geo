@@ -2,13 +2,18 @@
 
 Dos naturalezas de dato conviven acá, bien etiquetadas:
 
-1. ALINEAMIENTO (curado): voto en la Asamblea General de la ONU + sanciones.
-   Vive en el TOML del conflicto como listas de códigos ISO-3; se revisa a
-   mano de tanto en tanto (campo as_of).
+1. ALINEAMIENTO (curado): categorías de países definidas en el TOML del
+   conflicto. El esquema es genérico — cada conflicto define sus propias
+   categorías (para Rusia-Ucrania: voto ONU + sanciones; para Irán-Israel:
+   sanciones a Irán, acuerdos con Israel, etc.):
+
+       [[influence.categories]]
+       id = "sanction"; label = "..."; color = "cyan"; countries = ["USA", ...]
+       # flags opcionales: rest = true (categoría por defecto para países no
+       # listados), nodata = true (se pinta apagado).
 
 2. NARRADORES (vivo): cuántos artículos aporta cada país sede de medios y con
-   qué tono. Sale de los artículos del pipeline en cada corrida: mide desde
-   dónde se cuenta el conflicto — el soft power narrativo.
+   qué tono. Se recalcula en cada corrida — el soft power narrativo.
 """
 
 from collections import defaultdict
@@ -51,19 +56,25 @@ def build_influence(conflict: dict, articles: list[dict]) -> dict | None:
     if not inf:
         return None
 
+    categories = [
+        {
+            "id": c.get("id", c["label"]),
+            "label": c["label"],
+            "color": c.get("color", "gray"),
+            "countries": c.get("countries", []),
+            "rest": bool(c.get("rest", False)),
+            "nodata": bool(c.get("nodata", False)),
+        }
+        for c in inf.get("categories", [])
+    ]
+
     return {
         "id": conflict["id"],
         "updated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "as_of": inf.get("as_of", ""),
-        "un_resolution": inf.get("un_resolution", ""),
+        "reference": inf.get("reference", ""),
         "note": inf.get("note", ""),
-        "alignment": {
-            "sanctions": inf.get("sanctions", []),
-            "un_no": inf.get("un_no", []),
-            "un_abstain": inf.get("un_abstain", []),
-            "un_absent": inf.get("un_absent", []),
-            "no_data": inf.get("no_data", []),
-            "un_yes_total": inf.get("un_yes", None),
-        },
+        "kpis": inf.get("kpis", []),
+        "categories": categories,
         "narrators": _narrators(articles, inf.get("media_origins", [])),
     }

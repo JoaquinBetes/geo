@@ -104,8 +104,8 @@
       <section class="kpis">
         <div class="card kpi"><span class="kpi-label">Eventos últimos 7 días</span><span class="kpi-value" id="mil-kpi-events">–</span><span class="kpi-sub" id="mil-kpi-events-sub"></span></div>
         <div class="card kpi"><span class="kpi-label">Zona más activa (30 d)</span><span class="kpi-value small-lg" id="mil-kpi-hot">–</span></div>
-        <div class="card kpi"><span class="kpi-label">Bajas rusas (reclamo ucr.)</span><span class="kpi-value" id="mil-kpi-personnel">–</span><span class="kpi-sub" id="mil-kpi-personnel-sub"></span></div>
-        <div class="card kpi"><span class="kpi-label">Tanques destruidos</span><span class="kpi-value" id="mil-kpi-tanks">–</span><span class="kpi-sub" id="mil-kpi-tanks-sub"></span></div>
+        <div class="card kpi" id="mil-kpi-personnel-card"><span class="kpi-label" id="mil-kpi-personnel-label">Bajas informadas</span><span class="kpi-value" id="mil-kpi-personnel">–</span><span class="kpi-sub" id="mil-kpi-personnel-sub"></span></div>
+        <div class="card kpi" id="mil-kpi-tanks-card"><span class="kpi-label">Tanques destruidos</span><span class="kpi-value" id="mil-kpi-tanks">–</span><span class="kpi-sub" id="mil-kpi-tanks-sub"></span></div>
       </section>
 
       <section class="card wide">
@@ -145,14 +145,14 @@
         <div class="chart-box"><canvas id="chart-mil-corr"></canvas></div>
       </section>
 
-      <section class="card wide">
+      <section class="card wide" id="mil-equip-card">
         <h2>Desgaste: pérdidas acumuladas de equipamiento</h2>
         <p class="hint" id="mil-losses-caveat"></p>
         <div class="counter-grid" id="equip-counters"></div>
         <div class="chart-box tall"><canvas id="chart-mil-equip"></canvas></div>
       </section>
 
-      <section class="card wide">
+      <section class="card wide" id="mil-personnel-card">
         <h2>Bajas de personal (acumulado y ritmo semanal)</h2>
         <div class="chart-box tall"><canvas id="chart-mil-personnel"></canvas></div>
       </section>
@@ -177,7 +177,7 @@
       <div class="grid-2" id="eco-markets"></div>
 
       <section class="card wide" id="eco-aid-card">
-        <h2>Ayuda internacional a Ucrania por donante</h2>
+        <h2>Ayuda internacional por donante</h2>
         <p class="hint" id="eco-aid-caveat"></p>
         <div class="chart-box tall"><canvas id="chart-eco-aid"></canvas></div>
       </section>
@@ -185,12 +185,7 @@
 
     <!-- ============================ 04 INFLUENCIA ========================== -->
     <section id="tab-influence" class="tab-panel" hidden>
-      <section class="kpis">
-        <div class="card kpi"><span class="kpi-label">Sancionan a Rusia</span><span class="kpi-value" id="inf-kpi-sanctions">–</span></div>
-        <div class="card kpi"><span class="kpi-label">Condenaron en ONU</span><span class="kpi-value" id="inf-kpi-yes">–</span></div>
-        <div class="card kpi"><span class="kpi-label">Se abstuvieron</span><span class="kpi-value" id="inf-kpi-abstain">–</span></div>
-        <div class="card kpi"><span class="kpi-label">Con Rusia</span><span class="kpi-value" id="inf-kpi-no">–</span></div>
-      </section>
+      <section class="kpis" id="inf-kpis"></section>
 
       <section class="card wide">
         <h2>Mapamundi de alineamiento diplomático</h2>

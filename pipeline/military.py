@@ -261,6 +261,7 @@ def build_military(conflict: dict, articles: list[dict]) -> dict | None:
     out = {
         "id": conflict["id"],
         "updated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "losses_label": mil.get("losses_label", ""),
         "caveats": {
             "events": mil.get("events_caveat", ""),
             "losses": mil.get("losses_caveat", ""),

@@ -1,0 +1,838 @@
+# =============================================================================
+#  CONFLICTO: IRÁN – ISRAEL / ESTADOS UNIDOS
+#  Creado copiando la estructura de russia_ukraine.toml (la prueba de que
+#  agregar un conflicto es sólo escribir configuración).
+# =============================================================================
+
+id = "iran_israel"
+name = "Irán–Israel/EE.UU."
+description = "Cobertura mediática del conflicto entre Irán, Israel y Estados Unidos"
+start_date = "2025-06-13"   # inicio de la guerra directa Israel-Irán (jun 2025)
+order = 2
+
+# Países del conflicto para los mapas comparativos lado a lado.
+[[countries]]
+code = "IR"
+name = "Irán"
+geo = "geo/ir_adm1.json"
+
+[[countries]]
+code = "IL"
+name = "Israel"
+geo = "geo/il_adm1.json"
+
+# Filtro de relevancia: pedimos términos del eje Irán (los feeds israelíes
+# generalistas traen mucha política doméstica que no es de este conflicto).
+keywords = [
+  "iran", "iranian", "tehran", "khamenei", "irgc", "revolutionary guard",
+  "hezbollah", "hizbollah", "hormuz", "natanz", "fordow", "fordo",
+  "houthi", "houthis", "pezeshkian", "mossad", "ayatollah",
+]
+
+# -----------------------------------------------------------------------------
+#  FEEDS RSS (verificados 2026-07)
+# -----------------------------------------------------------------------------
+
+[[feeds]]
+source = "Google News"
+aggregator = true
+url = "https://news.google.com/rss/search?q=iran%20israel&hl=en-US&gl=US&ceid=US:en"
+
+[[feeds]]
+source = "The Guardian"
+url = "https://www.theguardian.com/world/iran/rss"
+
+[[feeds]]
+source = "Times of Israel"
+url = "https://www.timesofisrael.com/feed/"
+
+[[feeds]]
+source = "Al Jazeera"
+url = "https://www.aljazeera.com/xml/rss/all.xml"
+
+[[feeds]]
+source = "BBC"
+url = "https://feeds.bbci.co.uk/news/world/rss.xml"
+
+[[feeds]]
+source = "NPR"
+url = "https://feeds.npr.org/1004/rss.xml"
+
+# -----------------------------------------------------------------------------
+#  ENTIDADES A TRACKEAR
+# -----------------------------------------------------------------------------
+
+[[entities]]
+name = "Khamenei"
+type = "PERSON"
+aliases = []
+
+[[entities]]
+name = "Benjamin Netanyahu"
+type = "PERSON"
+aliases = ["netanyahu"]
+
+[[entities]]
+name = "Donald Trump"
+type = "PERSON"
+aliases = ["trump"]
+
+[[entities]]
+name = "Masoud Pezeshkian"
+type = "PERSON"
+aliases = ["pezeshkian"]
+
+[[entities]]
+name = "IRGC"
+type = "ORG"
+aliases = ["revolutionary guard", "revolutionary guards", "quds force"]
+
+[[entities]]
+name = "Mossad"
+type = "ORG"
+aliases = []
+
+[[entities]]
+name = "IDF"
+type = "ORG"
+aliases = ["israel defense forces", "israeli military"]
+
+[[entities]]
+name = "Hezbollah"
+type = "ORG"
+aliases = ["hizbollah"]
+
+[[entities]]
+name = "Houthis"
+type = "ORG"
+aliases = ["houthi", "ansar allah"]
+
+[[entities]]
+name = "IAEA"
+type = "ORG"
+aliases = ["atomic energy agency"]
+
+[[entities]]
+name = "Iran"
+type = "LOCATION"
+aliases = ["iranian"]
+
+[[entities]]
+name = "Israel"
+type = "LOCATION"
+aliases = ["israeli"]
+
+[[entities]]
+name = "United States"
+type = "LOCATION"
+aliases = ["washington", "white house", "pentagon"]
+
+[[entities]]
+name = "Tehran"
+type = "LOCATION"
+aliases = []
+
+[[entities]]
+name = "Tel Aviv"
+type = "LOCATION"
+aliases = []
+
+[[entities]]
+name = "Jerusalem"
+type = "LOCATION"
+aliases = []
+
+[[entities]]
+name = "Strait of Hormuz"
+type = "LOCATION"
+aliases = ["hormuz"]
+
+[[entities]]
+name = "Natanz"
+type = "LOCATION"
+aliases = []
+
+[[entities]]
+name = "Fordow"
+type = "LOCATION"
+aliases = ["fordo"]
+
+[[entities]]
+name = "Saudi Arabia"
+type = "LOCATION"
+aliases = ["saudi"]
+
+# -----------------------------------------------------------------------------
+#  PESTAÑA MILITAR
+#  No existe un dataset público de pérdidas equivalente al ucraniano: la
+#  sección de pérdidas queda oculta automáticamente para este conflicto.
+# -----------------------------------------------------------------------------
+
+[military]
+events_caveat = "Eventos extraídos automáticamente de titulares de prensa (no confirmación en terreno). La geolocalización es a nivel ciudad/zona."
+losses_caveat = ""
+
+# --- Gazetteer: Irán ---
+
+[[places]]
+name = "Tehran"
+country = "IR"
+region = "Tehran"
+aliases = []
+lat = 35.6892
+lon = 51.3890
+metonym = true
+
+[[places]]
+name = "Natanz"
+country = "IR"
+region = "Isfahan"
+aliases = []
+lat = 33.5152
+lon = 51.9160
+
+[[places]]
+name = "Fordow"
+country = "IR"
+region = "Qom"
+aliases = ["fordo"]
+lat = 34.8845
+lon = 50.9955
+
+[[places]]
+name = "Isfahan"
+country = "IR"
+region = "Isfahan"
+aliases = ["esfahan"]
+lat = 32.6546
+lon = 51.6680
+
+[[places]]
+name = "Qom"
+country = "IR"
+region = "Qom"
+aliases = []
+lat = 34.6401
+lon = 50.8764
+
+[[places]]
+name = "Arak"
+country = "IR"
+region = "Markazi"
+aliases = ["khondab"]
+lat = 34.0917
+lon = 49.6893
+
+[[places]]
+name = "Bushehr"
+country = "IR"
+region = "Bushehr"
+aliases = []
+lat = 28.9684
+lon = 50.8385
+
+[[places]]
+name = "Bandar Abbas"
+country = "IR"
+region = "Hormozgan"
+aliases = []
+lat = 27.1832
+lon = 56.2666
+
+[[places]]
+name = "Kharg Island"
+country = "IR"
+region = "Bushehr"
+aliases = ["kharg"]
+lat = 29.2325
+lon = 50.3299
+
+[[places]]
+name = "Tabriz"
+country = "IR"
+region = "East Azerbaijan"
+aliases = []
+lat = 38.0800
+lon = 46.2919
+
+[[places]]
+name = "Shiraz"
+country = "IR"
+region = "Fars"
+aliases = []
+lat = 29.5918
+lon = 52.5837
+
+[[places]]
+name = "Mashhad"
+country = "IR"
+region = "Razavi Khorasan"
+aliases = []
+lat = 36.2605
+lon = 59.6168
+
+[[places]]
+name = "Kermanshah"
+country = "IR"
+region = "Kermanshah"
+aliases = []
+lat = 34.3142
+lon = 47.0650
+
+[[places]]
+name = "Ahvaz"
+country = "IR"
+region = "Khuzestan"
+aliases = []
+lat = 31.3183
+lon = 48.6706
+
+[[places]]
+name = "Chabahar"
+country = "IR"
+region = "Sistan and Baluchestan"
+aliases = []
+lat = 25.2919
+lon = 60.6430
+
+[[places]]
+name = "Parchin"
+country = "IR"
+region = "Tehran"
+aliases = []
+lat = 35.5223
+lon = 51.7717
+
+# --- Gazetteer: Israel ---
+
+[[places]]
+name = "Tel Aviv"
+country = "IL"
+region = "Tel Aviv"
+aliases = []
+lat = 32.0853
+lon = 34.7818
+
+[[places]]
+name = "Jerusalem"
+country = "IL"
+region = "Jerusalem District"
+aliases = []
+lat = 31.7683
+lon = 35.2137
+metonym = true
+
+[[places]]
+name = "Haifa"
+country = "IL"
+region = "Haifa"
+aliases = []
+lat = 32.7940
+lon = 34.9896
+
+[[places]]
+name = "Beersheba"
+country = "IL"
+region = "Southern District"
+aliases = ["beer sheva", "beersheva"]
+lat = 31.2530
+lon = 34.7915
+
+[[places]]
+name = "Dimona"
+country = "IL"
+region = "Southern District"
+aliases = []
+lat = 31.0690
+lon = 35.0330
+
+[[places]]
+name = "Eilat"
+country = "IL"
+region = "Southern District"
+aliases = []
+lat = 29.5577
+lon = 34.9519
+
+[[places]]
+name = "Ashkelon"
+country = "IL"
+region = "Southern District"
+aliases = []
+lat = 31.6688
+lon = 34.5743
+
+[[places]]
+name = "Ashdod"
+country = "IL"
+region = "Southern District"
+aliases = []
+lat = 31.8040
+lon = 34.6550
+
+[[places]]
+name = "Netanya"
+country = "IL"
+region = "Central District"
+aliases = []
+lat = 32.3215
+lon = 34.8532
+
+[[places]]
+name = "Nevatim"
+country = "IL"
+region = "Southern District"
+aliases = ["nevatim air base"]
+lat = 31.2080
+lon = 34.6890
+
+# --- Teatro regional (sin región: aparecen en el mapa de puntos, no en coropletas) ---
+
+[[places]]
+name = "Strait of Hormuz"
+aliases = ["hormuz"]
+lat = 26.5667
+lon = 56.2500
+
+[[places]]
+name = "Damascus"
+aliases = []
+lat = 33.5138
+lon = 36.2765
+
+[[places]]
+name = "Beirut"
+aliases = []
+lat = 33.8938
+lon = 35.5018
+
+[[places]]
+name = "Baghdad"
+aliases = []
+lat = 33.3152
+lon = 44.3661
+
+[[places]]
+name = "Erbil"
+aliases = ["irbil"]
+lat = 36.1911
+lon = 44.0092
+
+[[places]]
+name = "Sanaa"
+aliases = ["sana'a"]
+lat = 15.3694
+lon = 44.1910
+
+[[places]]
+name = "Doha"
+aliases = ["al udeid"]
+lat = 25.2854
+lon = 51.5310
+
+[[places]]
+name = "Manama"
+aliases = []
+lat = 26.2285
+lon = 50.5860
+
+[[places]]
+name = "Bab el-Mandeb"
+aliases = ["bab al-mandab", "bab el mandeb"]
+lat = 12.5833
+lon = 43.3333
+
+# -----------------------------------------------------------------------------
+#  PESTAÑA ECONÓMICA
+#  El rial iraní no cotiza en mercados abiertos (tipo oficial ficticio), así
+#  que el pulso financiero se mide con petróleo, oro y el shekel.
+# -----------------------------------------------------------------------------
+
+[economy]
+note = "El petróleo es el termómetro del estrecho de Ormuz (por ahí pasa una quinta parte del crudo mundial); el oro mide el miedo global a la escalada; el shekel, la presión sobre la economía israelí. El rial iraní no cotiza en mercados abiertos."
+
+[[economy.markets]]
+id = "brent"
+name = "Petróleo Brent"
+unit = "USD/barril"
+group = "commodity"
+symbol = "BZ=F"
+
+[[economy.markets]]
+id = "wti"
+name = "Petróleo WTI"
+unit = "USD/barril"
+group = "commodity"
+symbol = "CL=F"
+
+[[economy.markets]]
+id = "gold"
+name = "Oro"
+unit = "USD/onza troy"
+group = "commodity"
+symbol = "GC=F"
+
+[[economy.markets]]
+id = "usdils"
+name = "USD/ILS (shekel israelí)"
+unit = "₪ por USD"
+group = "fx"
+symbol = "ILS=X"
+
+# -----------------------------------------------------------------------------
+#  PESTAÑA INFLUENCIA
+# -----------------------------------------------------------------------------
+
+[influence]
+as_of = "2026-01"
+reference = "Sanciones nucleares/misilísticas sobre Irán y mecanismo 'snapback' del JCPOA activado por el E3 (sept. 2025), que restauró las sanciones de la ONU"
+note = "A diferencia de Ucrania, acá no hay un voto único de la Asamblea General que sirva de foto: el alineamiento se lee por sanciones a Irán, acuerdos con Israel y apoyo material a Teherán. La gran mayoría del mundo es genuinamente no alineada en este conflicto."
+
+[[influence.kpis]]
+label = "Presionan / sancionan a Irán"
+value = "42"
+
+[[influence.kpis]]
+label = "Paz o acuerdos con Israel"
+value = "5"
+
+[[influence.kpis]]
+label = "No alineados"
+value = "~120"
+
+[[influence.kpis]]
+label = "Apoyan a Irán"
+value = "7"
+
+[[influence.categories]]
+id = "sanction"
+label = "Presiona / sanciona a Irán"
+color = "cyan"
+countries = [
+  "USA", "ISR", "GBR", "CAN", "AUS", "NZL", "NOR", "ISL", "CHE", "JPN",
+  "KOR", "UKR",
+  "AUT", "BEL", "BGR", "HRV", "CYP", "CZE", "DNK", "EST", "FIN", "FRA",
+  "DEU", "GRC", "HUN", "IRL", "ITA", "LVA", "LTU", "LUX", "MLT", "NLD",
+  "POL", "PRT", "ROU", "SVK", "SVN", "ESP", "SWE",
+  "MNE", "MKD", "ALB",
+]
+
+[[influence.categories]]
+id = "israel_peace"
+label = "Paz o acuerdos con Israel (región)"
+color = "green"
+countries = ["ARE", "BHR", "MAR", "EGY", "JOR"]
+
+[[influence.categories]]
+id = "neutral"
+label = "No alineado / equilibrista"
+color = "amber"
+rest = true
+
+[[influence.categories]]
+id = "pro_iran"
+label = "Apoya a Irán"
+color = "red"
+countries = ["RUS", "CHN", "PRK", "VEN", "CUB", "NIC", "BLR"]
+
+[[influence.categories]]
+id = "nodata"
+label = "Sin datos"
+color = "gray"
+nodata = true
+countries = ["KOS", "PSE", "ESH", "SOL", "CYN", "GRL", "NCL", "PRI", "FLK", "ATF"]
+
+# --- Medio -> país sede ("quién narra el conflicto") ---
+# El orden importa: la primera coincidencia gana (regionales antes que genéricos).
+
+[[influence.media_origins]]
+match = "times of israel"
+country = "Israel"
+
+[[influence.media_origins]]
+match = "jerusalem post"
+country = "Israel"
+
+[[influence.media_origins]]
+match = "haaretz"
+country = "Israel"
+
+[[influence.media_origins]]
+match = "ynet"
+country = "Israel"
+
+[[influence.media_origins]]
+match = "i24"
+country = "Israel"
+
+[[influence.media_origins]]
+match = "press tv"
+country = "Irán (estatal)"
+
+[[influence.media_origins]]
+match = "tehran times"
+country = "Irán (estatal)"
+
+[[influence.media_origins]]
+match = "tasnim"
+country = "Irán (estatal)"
+
+[[influence.media_origins]]
+match = "mehr news"
+country = "Irán (estatal)"
+
+[[influence.media_origins]]
+match = "irna"
+country = "Irán (estatal)"
+
+[[influence.media_origins]]
+match = "al arabiya"
+country = "Arabia Saudita"
+
+[[influence.media_origins]]
+match = "arab news"
+country = "Arabia Saudita"
+
+[[influence.media_origins]]
+match = "asharq"
+country = "Arabia Saudita"
+
+[[influence.media_origins]]
+match = "national interest"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "the national"
+country = "Emiratos Árabes"
+
+[[influence.media_origins]]
+match = "gulf news"
+country = "Emiratos Árabes"
+
+[[influence.media_origins]]
+match = "khaleej"
+country = "Emiratos Árabes"
+
+[[influence.media_origins]]
+match = "middle east eye"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "al-monitor"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "telegraph india"
+country = "India"
+
+[[influence.media_origins]]
+match = "guardian"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "bbc"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "sky news"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "independent"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "reuters"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "telegraph"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "economist"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "financial times"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "al jazeera"
+country = "Qatar"
+
+[[influence.media_origins]]
+match = "euronews"
+country = "Francia"
+
+[[influence.media_origins]]
+match = "france 24"
+country = "Francia"
+
+[[influence.media_origins]]
+match = "le monde"
+country = "Francia"
+
+[[influence.media_origins]]
+match = "deutsche welle"
+country = "Alemania"
+
+[[influence.media_origins]]
+match = "spiegel"
+country = "Alemania"
+
+[[influence.media_origins]]
+match = "anadolu"
+country = "Turquía"
+
+[[influence.media_origins]]
+match = "daily sabah"
+country = "Turquía"
+
+[[influence.media_origins]]
+match = "times of india"
+country = "India"
+
+[[influence.media_origins]]
+match = "hindustan"
+country = "India"
+
+[[influence.media_origins]]
+match = "ndtv"
+country = "India"
+
+[[influence.media_origins]]
+match = "firstpost"
+country = "India"
+
+[[influence.media_origins]]
+match = "wion"
+country = "India"
+
+[[influence.media_origins]]
+match = "xinhua"
+country = "China"
+
+[[influence.media_origins]]
+match = "global times"
+country = "China"
+
+[[influence.media_origins]]
+match = "south china morning post"
+country = "China"
+
+[[influence.media_origins]]
+match = "scmp"
+country = "China"
+
+[[influence.media_origins]]
+match = "moscow times"
+country = "Rusia (exilio/estatal)"
+
+[[influence.media_origins]]
+match = "tass"
+country = "Rusia (exilio/estatal)"
+
+[[influence.media_origins]]
+match = "new york times"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "wall street journal"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "wsj"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "cnn"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "cbs"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "nbc"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "abc news"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "washington post"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "politico"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "the hill"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "forbes"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "cnbc"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "ap news"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "associated press"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "npr"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "atlantic council"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "atlantic"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "bloomberg"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "newsweek"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "fox news"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "institute for the study of war"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "csis"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "radio free europe"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "voice of america"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "axios"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "time"
+country = "Estados Unidos"

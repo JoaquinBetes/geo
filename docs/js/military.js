@@ -28,8 +28,14 @@ function renderMilKpis(m) {
 
   document.getElementById("mil-kpi-hot").textContent = k.hottest_place ?? "–";
 
+  // Sin dataset de pérdidas (depende del conflicto), las tarjetas se ocultan.
   const losses = m.losses;
+  document.getElementById("mil-kpi-personnel-card").hidden = !losses;
+  document.getElementById("mil-kpi-tanks-card").hidden = !losses;
   if (losses) {
+    if (m.losses_label) {
+      document.getElementById("mil-kpi-personnel-label").textContent = m.losses_label;
+    }
     document.getElementById("mil-kpi-personnel").textContent = fmtNum(losses.personnel.total);
     document.getElementById("mil-kpi-personnel-sub").innerHTML =
       `<span class="up">+${fmtNum(losses.personnel.delta_7d)}</span> últimos 7 días`;
@@ -47,7 +53,13 @@ function renderMilKpis(m) {
 function renderMap(m, layers) {
   document.getElementById("mil-map-caveat").textContent = m.caveats.events;
 
-  const map = newMap("military:main", "map").setView([48.6, 33.0], 6);
+  // Encuadre según los eventos del conflicto (no hay centro hardcodeado).
+  const map = newMap("military:main", "map");
+  if (m.events.length) {
+    map.fitBounds(L.latLngBounds(m.events.map((e) => [e.lat, e.lon])).pad(0.2));
+  } else {
+    map.setView([30, 40], 4);
+  }
 
   // Capa de marcadores: un círculo por evento, color según tipo.
   const markers = L.layerGroup();
@@ -256,12 +268,11 @@ function renderMilCorrelation(summary, m) {
 // --- Pérdidas -----------------------------------------------------------------
 function renderLosses(m) {
   const losses = m.losses;
-  const caveatEl = document.getElementById("mil-losses-caveat");
-  if (!losses) {
-    caveatEl.textContent = "Sin datos de pérdidas disponibles para este conflicto.";
-    return;
-  }
-  caveatEl.textContent = `${m.caveats.losses} Datos al ${losses.as_of}.`;
+  document.getElementById("mil-equip-card").hidden = !losses;
+  document.getElementById("mil-personnel-card").hidden = !losses;
+  if (!losses) return;
+  document.getElementById("mil-losses-caveat").textContent =
+    `${m.caveats.losses} Datos al ${losses.as_of}.`;
 
   // Tablero de contadores de equipamiento.
   const grid = document.getElementById("equip-counters");

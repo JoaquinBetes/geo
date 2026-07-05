@@ -1,40 +1,33 @@
 // =============================================================================
-// influence.js — pestaña 04: alineamiento diplomático (curado) + soft power
-// narrativo (vivo). El mapamundi combina voto en la ONU y sanciones.
+// influence.js — pestaña 04: alineamiento diplomático (curado, categorías
+// genéricas por conflicto) + soft power narrativo (vivo).
 // =============================================================================
 
-const ALIGN_META = {
-  sanction: { label: "Condena y sanciona", color: "#4db8e8" },
-  condemn: { label: "Condena sin sancionar", color: "#3fcf8e" },
-  abstain: { label: "Ambiguo (abstención)", color: "#e5a53d" },
-  against: { label: "Alineado con Rusia", color: "#ef5d52" },
-  nodata: { label: "Sin voto / sin datos", color: "#3a4657" },
+// Paleta semántica: el TOML de cada conflicto elige el color de cada categoría.
+const ALIGN_PALETTE = {
+  cyan: "#4db8e8",
+  green: "#3fcf8e",
+  amber: "#e5a53d",
+  red: "#ef5d52",
+  gray: "#3a4657",
 };
 
 function renderInfluence(data) {
   const inf = data.influence;
-  if (!inf) return;
+  if (!inf?.categories?.length) return;
 
   document.getElementById("inf-note").textContent =
-    `${inf.note} Voto de referencia: ${inf.un_resolution}. Snapshot curado a ${inf.as_of}; ` +
+    `${inf.note} Referencia: ${inf.reference}. Snapshot curado a ${inf.as_of}; ` +
     "el bloque narrativo se recalcula solo en cada corrida.";
 
-  // Clasificador país -> categoría. Prioridad: sanción > voto.
-  const a = inf.alignment;
-  const sets = {
-    sanction: new Set(a.sanctions),
-    against: new Set(a.un_no),
-    abstain: new Set(a.un_abstain),
-    absent: new Set(a.un_absent),
-    nodata: new Set(a.no_data),
-  };
-  const categoryOf = (code) => {
-    if (sets.sanction.has(code)) return "sanction";
-    if (sets.against.has(code)) return "against";
-    if (sets.abstain.has(code)) return "abstain";
-    if (sets.absent.has(code) || sets.nodata.has(code)) return "nodata";
-    return "condemn"; // el resto de la Asamblea votó a favor de la condena
-  };
+  // Clasificador país -> categoría: primera lista que lo contenga gana;
+  // los no listados caen en la categoría marcada rest = true.
+  const listed = inf.categories
+    .filter((c) => !c.rest)
+    .map((c) => ({ ...c, set: new Set(c.countries) }));
+  const restCat = inf.categories.find((c) => c.rest);
+  const categoryOf = (code) =>
+    listed.find((c) => c.set.has(code)) ?? restCat ?? inf.categories[0];
 
   renderInfKpis(inf);
   renderWorldMap(inf, categoryOf);
@@ -43,22 +36,22 @@ function renderInfluence(data) {
 }
 
 function renderInfKpis(inf) {
-  const a = inf.alignment;
-  const set = (id, v, color) => {
-    const el = document.getElementById(id);
-    el.textContent = v;
-    if (color) el.style.color = color;
-  };
-  set("inf-kpi-sanctions", a.sanctions.length, ALIGN_META.sanction.color);
-  set("inf-kpi-yes", a.un_yes_total ?? "–", ALIGN_META.condemn.color);
-  set("inf-kpi-abstain", a.un_abstain.length, ALIGN_META.abstain.color);
-  set("inf-kpi-no", a.un_no.length, ALIGN_META.against.color);
+  const wrap = document.getElementById("inf-kpis");
+  wrap.innerHTML = "";
+  for (const [i, kpi] of inf.kpis.entries()) {
+    const div = document.createElement("div");
+    div.className = "card kpi";
+    const color = ALIGN_PALETTE[inf.categories[i]?.color] ?? "";
+    div.innerHTML =
+      `<span class="kpi-label">${kpi.label}</span>` +
+      `<span class="kpi-value" style="color:${color}">${kpi.value}</span>`;
+    wrap.appendChild(div);
+  }
 }
 
 async function renderWorldMap(inf, categoryOf) {
   document.getElementById("inf-map-hint").textContent =
-    `Sanciones + voto en la Asamblea General (${inf.un_resolution}). ` +
-    `Snapshot a ${inf.as_of}. Límites: Natural Earth (dominio público).`;
+    `${inf.reference}. Snapshot a ${inf.as_of}. Límites: Natural Earth (dominio público).`;
 
   const geo = await loadGeoFile("geo/world.json");
   const map = newMap("influence:world", "map-world", {
@@ -70,17 +63,17 @@ async function renderWorldMap(inf, categoryOf) {
 
   L.geoJSON(geo, {
     style: (f) => {
-      const meta = ALIGN_META[categoryOf(f.properties.code)];
+      const cat = categoryOf(f.properties.code);
       return {
-        fillColor: meta.color,
-        fillOpacity: categoryOf(f.properties.code) === "nodata" ? 0.25 : 0.55,
+        fillColor: ALIGN_PALETTE[cat.color],
+        fillOpacity: cat.nodata ? 0.25 : 0.55,
         color: "#0a0d12",
         weight: 0.7,
       };
     },
     onEachFeature: (f, l) => {
-      const meta = ALIGN_META[categoryOf(f.properties.code)];
-      l.bindTooltip(`${f.properties.name}: ${meta.label}`, { sticky: true });
+      const cat = categoryOf(f.properties.code);
+      l.bindTooltip(`${f.properties.name}: ${cat.label}`, { sticky: true });
     },
   }).addTo(map);
 
@@ -88,27 +81,30 @@ async function renderWorldMap(inf, categoryOf) {
 
   const legend = document.getElementById("inf-map-legend");
   legend.innerHTML = "";
-  for (const meta of Object.values(ALIGN_META)) {
+  for (const cat of inf.categories) {
     const span = document.createElement("span");
-    span.innerHTML = `<span class="dot" style="background:${meta.color}"></span>${meta.label}`;
+    span.innerHTML =
+      `<span class="dot" style="background:${ALIGN_PALETTE[cat.color]}"></span>${cat.label}`;
     legend.appendChild(span);
   }
 }
 
 async function renderBlocs(inf, categoryOf) {
-  // Contamos países del mapa (176 de Natural Earth) por categoría.
+  // Contamos los países del mapamundi (Natural Earth) por categoría.
   const geo = await loadGeoFile("geo/world.json");
-  const counts = { sanction: 0, condemn: 0, abstain: 0, against: 0, nodata: 0 };
-  for (const f of geo.features) counts[categoryOf(f.properties.code)]++;
+  const counts = new Map(inf.categories.map((c) => [c.id, 0]));
+  for (const f of geo.features) {
+    const cat = categoryOf(f.properties.code);
+    counts.set(cat.id, (counts.get(cat.id) ?? 0) + 1);
+  }
 
-  const keys = Object.keys(ALIGN_META);
   swapChart("infBlocs", "chart-inf-blocs", {
     type: "doughnut",
     data: {
-      labels: keys.map((k) => ALIGN_META[k].label),
+      labels: inf.categories.map((c) => c.label),
       datasets: [{
-        data: keys.map((k) => counts[k]),
-        backgroundColor: keys.map((k) => ALIGN_META[k].color),
+        data: inf.categories.map((c) => counts.get(c.id) ?? 0),
+        backgroundColor: inf.categories.map((c) => ALIGN_PALETTE[c.color]),
         borderWidth: 0,
       }],
     },

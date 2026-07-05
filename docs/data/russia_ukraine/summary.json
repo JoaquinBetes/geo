@@ -2,13 +2,13 @@
   "id": "russia_ukraine",
   "name": "Rusia–Ucrania",
   "description": "Cobertura mediática del conflicto entre Rusia y Ucrania",
-  "updated": "2026-07-05T14:09:23+00:00",
-  "total_articles": 532,
-  "overall_avg": -0.508,
+  "updated": "2026-07-05T19:42:04+00:00",
+  "total_articles": 569,
+  "overall_avg": -0.488,
   "distribution": {
-    "pos": 73,
-    "neu": 55,
-    "neg": 404
+    "pos": 85,
+    "neu": 58,
+    "neg": 426
   },
   "sources": [
     "Al Jazeera",
@@ -21,29 +21,29 @@
     "The Independent",
     "AP News",
     "PBS",
-    "CBS News",
-    "Sky News",
     "DW.com",
+    "CBS News",
     "Reuters",
+    "Sky News",
+    "The Kyiv Independent",
     "Yahoo",
     "ABC News - Breaking News, Latest News and Videos",
     "Radio Free Europe/Radio Liberty",
+    "Atlantic Council",
     "Kyiv Post",
-    "The Kyiv Independent",
     "Anadolu Ajansı",
     "Russia Matters",
     "Euromaidan Press",
     "Ukrinform - Ukrainian National News Agency",
     "The Atlantic",
-    "Atlantic Council",
     "CNBC",
     "The Washington Post",
+    "The Moscow Times",
     "Defense Express",
     "UNITED24 Media",
     "GazetteXtra",
     "The Hill",
     "WSJ",
-    "The Moscow Times",
     "Le Monde.fr",
     "The Economist",
     "NBC News",
@@ -57,12 +57,14 @@
     "the-sun.com",
     "France 24",
     "New York Post",
+    "The Sun",
     "Religion News Service",
     "The Conversation",
     "WION",
     "EA WorldView",
     "The Jerusalem Post",
     "Futura Doctrina | Mick Ryan",
+    "Українська правда",
     "Telegraph India",
     "The Detroit News",
     "New York Magazine",
@@ -78,7 +80,6 @@
     "France ONU",
     "Encyclopedia Britannica",
     "The Christian Science Monitor",
-    "The Sun",
     "Stars and Stripes",
     "TVP World",
     "Straight Arrow News - SAN - Unbiased. Straight Facts.",
@@ -108,14 +109,16 @@
     "EL PAÍS English",
     "WTOP",
     "Council on Foreign Relations",
-    "Українська правда",
     "SMH.com.au",
     "Axios",
     "Al-Monitor",
     "Pajhwok Afghan News",
     "CNA",
     "Messenger-Inquirer",
-    "Kurdistan24"
+    "Kurdistan24",
+    "NDTV",
+    "The Globe and Mail",
+    "the-independent.com"
   ],
   "daily": [
     {
@@ -167,6 +170,14 @@
       "neg": 1
     },
     {
+      "date": "2026-05-14",
+      "count": 1,
+      "avg": -0.7351,
+      "pos": 0,
+      "neu": 0,
+      "neg": 1
+    },
+    {
       "date": "2026-05-18",
       "count": 1,
       "avg": -0.9628,
@@ -200,11 +211,11 @@
     },
     {
       "date": "2026-05-26",
-      "count": 3,
-      "avg": -0.319,
+      "count": 4,
+      "avg": -0.4689,
       "pos": 1,
       "neu": 0,
-      "neg": 2
+      "neg": 3
     },
     {
       "date": "2026-05-27",
@@ -512,28 +523,28 @@
     },
     {
       "date": "2026-07-05",
-      "count": 79,
-      "avg": -0.2701,
-      "pos": 15,
-      "neu": 13,
-      "neg": 51
+      "count": 114,
+      "avg": -0.2379,
+      "pos": 27,
+      "neu": 16,
+      "neg": 71
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 101,
-      "avg": -0.251
+      "count": 119,
+      "avg": -0.233
     },
     {
       "source": "BBC",
-      "count": 59,
-      "avg": -0.3432
+      "count": 65,
+      "avg": -0.2858
     },
     {
       "source": "The Guardian",
-      "count": 52,
-      "avg": -0.715
+      "count": 53,
+      "avg": -0.7188
     },
     {
       "source": "Institute for the Study of War",
@@ -547,8 +558,8 @@
     },
     {
       "source": "NPR",
-      "count": 19,
-      "avg": -0.4192
+      "count": 21,
+      "avg": -0.3655
     },
     {
       "source": "The New York Times",
@@ -571,9 +582,19 @@
       "avg": -0.6049
     },
     {
+      "source": "DW.com",
+      "count": 8,
+      "avg": -0.8274
+    },
+    {
       "source": "CBS News",
       "count": 7,
       "avg": -0.5502
+    },
+    {
+      "source": "Reuters",
+      "count": 7,
+      "avg": -0.3352
     },
     {
       "source": "Sky News",
@@ -581,14 +602,9 @@
       "avg": -0.8281
     },
     {
-      "source": "DW.com",
-      "count": 7,
-      "avg": -0.8183
-    },
-    {
-      "source": "Reuters",
+      "source": "The Kyiv Independent",
       "count": 6,
-      "avg": -0.2659
+      "avg": -0.8316
     },
     {
       "source": "Yahoo",
@@ -606,14 +622,14 @@
       "avg": -0.1447
     },
     {
+      "source": "Atlantic Council",
+      "count": 5,
+      "avg": -0.1099
+    },
+    {
       "source": "Kyiv Post",
       "count": 5,
       "avg": -0.4871
-    },
-    {
-      "source": "The Kyiv Independent",
-      "count": 5,
-      "avg": -0.8705
     },
     {
       "source": "Anadolu Ajansı",
@@ -641,11 +657,6 @@
       "avg": -0.281
     },
     {
-      "source": "Atlantic Council",
-      "count": 4,
-      "avg": 0.0019
-    },
-    {
       "source": "CNBC",
       "count": 4,
       "avg": -0.6447
@@ -654,6 +665,11 @@
       "source": "The Washington Post",
       "count": 4,
       "avg": -0.2563
+    },
+    {
+      "source": "The Moscow Times",
+      "count": 4,
+      "avg": -0.1197
     },
     {
       "source": "Defense Express",
@@ -679,11 +695,6 @@
       "source": "WSJ",
       "count": 3,
       "avg": -0.3109
-    },
-    {
-      "source": "The Moscow Times",
-      "count": 3,
-      "avg": 0.0906
     },
     {
       "source": "Le Monde.fr",
@@ -751,6 +762,11 @@
       "avg": -0.9265
     },
     {
+      "source": "The Sun",
+      "count": 2,
+      "avg": -0.7406
+    },
+    {
       "source": "Religion News Service",
       "count": 2,
       "avg": -0.8316
@@ -779,6 +795,11 @@
       "source": "Futura Doctrina | Mick Ryan",
       "count": 2,
       "avg": -0.4593
+    },
+    {
+      "source": "Українська правда",
+      "count": 2,
+      "avg": -0.465
     },
     {
       "source": "Telegraph India",
@@ -854,11 +875,6 @@
       "source": "The Christian Science Monitor",
       "count": 1,
       "avg": -0.936
-    },
-    {
-      "source": "The Sun",
-      "count": 1,
-      "avg": -0.9545
     },
     {
       "source": "Stars and Stripes",
@@ -1006,11 +1022,6 @@
       "avg": -0.9081
     },
     {
-      "source": "Українська правда",
-      "count": 1,
-      "avg": 0.0
-    },
-    {
       "source": "SMH.com.au",
       "count": 1,
       "avg": -0.9186
@@ -1044,50 +1055,65 @@
       "source": "Kurdistan24",
       "count": 1,
       "avg": -0.8402
+    },
+    {
+      "source": "NDTV",
+      "count": 1,
+      "avg": -0.5267
+    },
+    {
+      "source": "The Globe and Mail",
+      "count": 1,
+      "avg": 0.2023
+    },
+    {
+      "source": "the-independent.com",
+      "count": 1,
+      "avg": -0.7351
     }
   ],
   "top_entities": [
     {
       "name": "Ukraine",
       "type": "LOCATION",
-      "count": 342,
-      "avg": -0.5994
+      "count": 354,
+      "avg": -0.6013
     },
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 299,
-      "avg": -0.6536
+      "count": 307,
+      "avg": -0.6564
     },
     {
       "name": "Vladimir Putin",
       "type": "PERSON",
-      "count": 94,
-      "avg": -0.5514
+      "count": 99,
+      "avg": -0.5442
     },
     {
       "name": "Kyiv",
       "type": "LOCATION",
-      "count": 70,
-      "avg": -0.7879
-    },
-    {
-      "name": "Volodymyr Zelensky",
-      "type": "PERSON",
-      "count": 45,
-      "avg": -0.6103
+      "count": 72,
+      "avg": -0.7877
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 44,
-      "avg": -0.3349
+      "count": 49,
+      "avg": -0.3223
+    },
+    {
+      "name": "Volodymyr Zelensky",
+      "type": "PERSON",
+      "count": 46,
+      "avg": -0.6109
     },
     {
       "name": "Moscow",
       "type": "LOCATION",
-      "count": 37,
-      "avg": -0.7477
+      "count": 38,
+      "avg": -0.7478
     },
     {
       "name": "Crimea",
@@ -1098,14 +1124,14 @@
     {
       "name": "United States",
       "type": "LOCATION",
-      "count": 11,
-      "avg": -0.223
+      "count": 13,
+      "avg": -0.2684
     },
     {
       "name": "NATO",
       "type": "ORG",
-      "count": 10,
-      "avg": -0.6595
+      "count": 11,
+      "avg": -0.6475
     },
     {
       "name": "Donbas",
@@ -1122,6 +1148,330 @@
   ],
   "recent": [
     {
+      "title": "Trump thanks Fifa for overturning USA striker's ban",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cewqq5q8v41o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-05T19:36:11+00:00",
+      "compound": -0.4939,
+      "label": "negative",
+      "entities": [
+        "Donald Trump",
+        "United States"
+      ]
+    },
+    {
+      "title": "America at 250: Democracy’s greatest experiment?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/7/5/america-at-250-democracys-greatest-experiment?traffic_source=rss",
+      "published": "2026-07-05T19:15:00+00:00",
+      "compound": 0.5719,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Russia says Ukraine rejects local ceasefire in dispute over Kostiantynivka",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/5/russia-says-ukraine-rejects-local-ceasefire-in-dispute-over-kostiantynivka?traffic_source=rss",
+      "published": "2026-07-05T19:06:39+00:00",
+      "compound": -0.8271,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Sons of Iran’s leader Ali Khamenei attend funeral, but Mojtaba is absent",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/5/sons-of-irans-leader-ali-khamenei-attend-funeral-but-mojtaba-is-absent?traffic_source=rss",
+      "published": "2026-07-05T18:55:37+00:00",
+      "compound": -0.9468,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Osaka knocks out top-seeded Sabalenka to reach Wimbledon quarterfinals",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/5/osaka-knocks-out-top-seeded-sabalenka-to-reach-wimbledon-quarterfinals?traffic_source=rss",
+      "published": "2026-07-05T18:45:55+00:00",
+      "compound": 0.3182,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Palestinians rally outside Al-Shifa hospital, demanding medical evacuation",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/5/palestinians-rally-outside-al-shifa-hospital-demanding-medical-evacuation?traffic_source=rss",
+      "published": "2026-07-05T18:40:43+00:00",
+      "compound": -0.5859,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Folarin Balogun's soccer ban suspended by FIFA, allowing U.S. striker to play Belgium",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/05/g-s1-132061/folarin-balogun-soccer-reinstated-ban-suspended-fifa-belgium",
+      "published": "2026-07-05T18:37:19+00:00",
+      "compound": -0.5423,
+      "label": "negative",
+      "entities": [
+        "United States"
+      ]
+    },
+    {
+      "title": "Eight rescued from seaplane that made 'hard landing' in Manhattan river",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c20yy4r4g64o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-05T18:35:23+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Trump thanks FIFA as it suspends Balogun’s ban for Belgium World Cup match",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/5/trump-thanks-fifa-as-it-suspends-baloguns-ban-for-belgium-world-cup-match?traffic_source=rss",
+      "published": "2026-07-05T18:28:22+00:00",
+      "compound": 0.2846,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Lawmaker McGovern: Americans need to ‘fight for the soul’ of the US",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/the-bottom-line/2026/7/5/lawmaker-mcgovern-americans-need-to-fight-for-the-soul-of-the-us?traffic_source=rss",
+      "published": "2026-07-05T18:20:25+00:00",
+      "compound": -0.3818,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "'Definitely felt a big bang': Delta plane hit by firework while landing in Chicago",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cj4gg89r9gdo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-05T18:18:40+00:00",
+      "compound": 0.128,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Watch: Lyse Doucet on emotion and politics at Tehran funeral of former supreme leader",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/videos/c4gyye3rplno?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-05T17:54:47+00:00",
+      "compound": 0.5106,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Ukraine war latest: Zelensky calls Putin's Kostiantynivka bluff; Ukraine nearly doubles successful strikes behind Russian lines",
+      "source": "The Kyiv Independent",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9XOElsMVJfQ014TVBMcmxZa0tLeHJZc2NpVFhoRjFsc21Dc3BoVDNRS3lLTDFyQ3gzX0hHVmZKMmFrZTBoZzdDNjZxWFBEZlBXd2s0Y3NUdmk4S1ZfMlB2c1RFS09vemc5VlE?oc=5",
+      "published": "2026-07-05T17:45:01+00:00",
+      "compound": -0.6369,
+      "label": "negative",
+      "entities": [
+        "Vladimir Putin",
+        "Volodymyr Zelensky",
+        "Russia",
+        "Ukraine",
+        "Kyiv"
+      ]
+    },
+    {
+      "title": "US Congressman denies existence of Palestinians in interview",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/5/us-congressman-denies-existence-of-palestinians-in-interview-2?traffic_source=rss",
+      "published": "2026-07-05T17:37:26+00:00",
+      "compound": -0.4939,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Guam and surrounding Pacific islands brace for impact of Super Typhoon Bavi",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/05/g-s1-132052/guam-pacific-islands-brace-super-typhoon-bavi",
+      "published": "2026-07-05T17:22:55+00:00",
+      "compound": 0.8316,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "50 Houthi fighters killed in renewed clashes in Yemen",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/5/50-houthi-fighters-killed-in-renewed-clashes-in-yemen?traffic_source=rss",
+      "published": "2026-07-05T16:59:34+00:00",
+      "compound": -0.7269,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Super Typhoon Bavi threatens Guam with catastrophic winds and flooding",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/5/super-typhoon-bavi-threatens-guam-with-catastrophic-winds-and-flooding?traffic_source=rss",
+      "published": "2026-07-05T16:54:26+00:00",
+      "compound": -0.2023,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "What is the religious and political messaging behind Khamenei’s funeral?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/5/what-is-the-religious-and-political-messaging-behind-khameneis-funeral?traffic_source=rss",
+      "published": "2026-07-05T16:42:03+00:00",
+      "compound": -0.3612,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Brazil vs Norway LIVE: FIFA World Cup 2026 – last 16",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/liveblog/2026/7/5/brazil-vs-norway-live-fifa-world-cup-2026-last-16?traffic_source=rss",
+      "published": "2026-07-05T16:40:00+00:00",
+      "compound": 0.34,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "In \"Businesslike\" Putin Call, Trump Offers To Help End Ukraine War, Again",
+      "source": "NDTV",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdERBT1kxc2tqdmlmaEVPZkRtS29pcVB3aFdSVkszbU91aUpELXdIMWZpT0ZlcjF1cTQtWEVMb1MzbmpacTVxZFROTG5KYktvbEJkTnV0dWRNWjBSN2plZUF2ZTdSRGdjbnlqMGJfM1I1elI4WW9TYUNETDdSU3NfZUxoUVd6MUdYWW9acTJ2MjI4Q0hYR0lmblYzSkxybGRocDQyZ0RjVEw0MXN0SWQ00gG3AUFVX3lxTE9QTGNpemlpWTdtd1lyU3BqTy1vXzBxYmV6WVR2ekpEdFJ3N3VnMTdJSXAtMUxyUVE1dXlxUTdGdWpES0hUVVNCVkdmNXlwTjVYTkxqTFlhd0JZUzh5ME1jcFRWZ1dyOTZEOXVUVGR5ZTljZHFibndlVGR5XzlNYmFLNjR3VDRrTnp5WnJQajlQQ3RCSHZkVlNSTUpmYUQzZ0hPMk5zVkdpcWw2Wmo2TmI2Q1FaY3N4dw?oc=5",
+      "published": "2026-07-05T16:30:50+00:00",
+      "compound": -0.5267,
+      "label": "negative",
+      "entities": [
+        "Vladimir Putin",
+        "Donald Trump",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Syria delays first session of transitional parliament without explanation",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/5/syria-delays-first-session-of-transitional-parliament-without-explanation?traffic_source=rss",
+      "published": "2026-07-05T16:19:03+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Charles Leclerc wins F1 British Grand Prix behind safety car",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/5/charles-leclerc-wins-f1-british-grand-prix-behind-the-safety-car?traffic_source=rss",
+      "published": "2026-07-05T16:17:28+00:00",
+      "compound": 0.8779,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Photo of abused Palestinian detainee causes anguish for two Gaza mothers",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/2026/7/5/photo-of-abused-palestinian-detainee-sparks-anguish-for-two-gaza-mothers?traffic_source=rss",
+      "published": "2026-07-05T16:05:39+00:00",
+      "compound": -0.9042,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Russia says Ukraine rejects local ceasefire for handover of soldiers' bodies",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeGF1Njd3MW1BMW42cS1Qb0VJTjktdWt4eUplMlhvajB3dk9FaXJPV0dzMU1WVE9FSENPYlpCcy0tT2pwUVRZN1UxS05mUzV1Mi1UdTRtNkMwd2s3WV96eG5hMzBaMk45cmo2UWo1YjJyS29ydXdCMmlka09YRTBiOE1ncnVlQldmYkxSN0g0Z2kzcmtFWTdVTWw4XzBWRmtPNm9vczR4NnAxVVBQQnEw?oc=5",
+      "published": "2026-07-05T16:03:30+00:00",
+      "compound": -0.7506,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "From 'a beautiful night' to 'world's greatest hangover', guests react to Taylor and Travis's wedding",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/clyxxr9n2kjo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-05T15:48:20+00:00",
+      "compound": 0.8442,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Russia Says Ukraine Rejects Local Ceasefire for Handover of Soldiers’ Bodies",
+      "source": "The Moscow Times",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdFFYSlVvdFBFamNoU1BFNXViS1JiZVhuYXBVSnBWU21SQ1Z4S2FiT1N4dmVMSzdUMVRhRHFJcW1HN3hKT05JdzJ6cHZtbnNpX2p2cVpPdm53Tzh1blNwc25nNkhzNENFbXVKaktFaE5qeS1YOWYxREpaNTRIQ1o1RDBSalJweVh1RkRzRkZzdlZVSTVPeEFYOUl5VGtDUWtsdmYzY1hzYUJwUEIyb2hSYTVrZ1NURmhwaVY1eFRTYmEtZw?oc=5",
+      "published": "2026-07-05T15:25:49+00:00",
+      "compound": -0.7506,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine",
+        "Moscow"
+      ]
+    },
+    {
+      "title": "Thousands welcome home Cape Verde footballers after stunning World Cup run",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c70yy4xkeexo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-05T14:59:10+00:00",
+      "compound": 0.6808,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Trump offers to help Putin resolve Ukraine war in Fourth of July phone call",
+      "source": "The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQb3hoZDhFbEV2YnRidGF6ZkJVRnRVV0R4SDc1TWZYcllweExmNm9JdzFGdWp3OENzc2U3RDhUT21lSmZ2V2NiclFHWlR3eURGQ0QyMlhjOWtnajdhc3UzUnhFb1JtRDl4YWpkQ0pVUW5SQy04LXVnZVh0aEJFQlFoVjltcnBLTXpPNFRxSXFJTQ?oc=5",
+      "published": "2026-07-05T14:52:08+00:00",
+      "compound": 0.2023,
+      "label": "positive",
+      "entities": [
+        "Vladimir Putin",
+        "Donald Trump",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Cape Verde celebrates team’s return after historic World Cup",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/5/cape-verde-celebrates-teams-return-after-historic-world-cup?traffic_source=rss",
+      "published": "2026-07-05T14:48:26+00:00",
+      "compound": 0.7717,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Ukraine recruits female prisoners for frontline fighting",
+      "source": "DW.com",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZ2phVWxKSUl2dldwR3hOcy1UcElGWnhRQUtTbEZUNDlFQU1qSzJjTmxpSFBRZUdUSTA4X2NxdVY4YU1qaGRKMmpDbG53TjQ1T1RxTHBDZmdhOXZES0tWX0ZkNVNTX0V2OHF0TGxkMFdnUkRiSVFMUnliV2JkSFlqWk92Z2pQZWdmWHY3X25TeTZUT2pQODN4bg?oc=5",
+      "published": "2026-07-05T14:41:27+00:00",
+      "compound": -0.891,
+      "label": "negative",
+      "entities": [
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Vance believes Russia's offensive capabilities in war with Ukraine approaching zero",
+      "source": "Українська правда",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAyRk11NkNkWGtSZ2VCaVUyMTBab3BtOU8wVE9jYXZqa3dhTjFmVkNnalRISzhjVGltdXFiRFpEY2l0Z2lEdHlTNzAwc2tpREdScW4xM244QmNVTG53dnA3bFMwbzfSAXBBVV95cUxQMUJhZFdZU09tMVY1TjZXcm1VeElpTUxRaUlmSjFOUm14UEN0TlZGcFBKWmNqZXhPSlUxVzdYVEk2cTJzYUlrTlFWWmtnT3U5R1Ftb1RXU2hZV3NqZkpVUG9HaEZIUUNtVkpzdFRMSE5m?oc=5",
+      "published": "2026-07-05T14:28:00+00:00",
+      "compound": -0.93,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Extreme weather disrupts US’s 250th anniversary celebrations",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/5/extreme-weather-disrupts-uss-250th-anniversary-celebrations?traffic_source=rss",
+      "published": "2026-07-05T14:10:34+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
       "title": "Kremlin says Russia creating ‘buffer zone’ along Ukraine border",
       "source": "Anadolu Ajansı",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZmtjdExrZ1dNV05zSFVmMzVEc1ZvLXdXWVlzVnpDelk2RjZXMzVrU2I0MEQzSm1rNVBDcDUydEVMb1JzU1ppSWx1VFY4NVRVdG1hTElXcjZnYVkza2V1UEZ3a2RuYXdKczNZdlAwUWhwdVIzbkdIQ2s3S3BjZjV3SXVFdS1EVi1ocEMxUjlMRURfSHdObEF3bnZQM2hTak05Qm5RTzJSdElKenJhSUNtMGo3aw?oc=5",
@@ -1132,6 +1482,15 @@
         "Russia",
         "Ukraine"
       ]
+    },
+    {
+      "title": "Millions attend funeral prayers for Iran’s Khamenei and family",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/5/millions-attend-funeral-prayers-for-irans-khamenei-and-family?traffic_source=rss",
+      "published": "2026-07-05T13:48:13+00:00",
+      "compound": -0.1027,
+      "label": "negative",
+      "entities": []
     },
     {
       "title": "Ukraine Knocked Out Russian Buk-M3, Then Sent in Warplanes to Strike Command Posts",
@@ -1322,6 +1681,18 @@
       "entities": []
     },
     {
+      "title": "With Putin visibly weakened, now is the time to back Ukraine",
+      "source": "Atlantic Council",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdUdWa1h1bU5RXzFJX1NZcGFwd3Vsd3U0TWpfbG0zZ3E3OFJlTDdYRHlSYUUzOUlVSzdkb1hVQVdKenliVjdSM1pKcjZ1RlpqN1AzczRrWW9kQzBNZnU0RzRtdmc4Uk5PcDRabnpNTGtIUkM5MWxtRm5LTUYtSlRySU9pOW44NElROWlEekdieXFOeWdaT3RjSk5UU2Rfblc0bmxMOXU3cDQxelhlcnl2Rw?oc=5",
+      "published": "2026-07-05T10:29:00+00:00",
+      "compound": -0.5574,
+      "label": "negative",
+      "entities": [
+        "Vladimir Putin",
+        "Ukraine"
+      ]
+    },
+    {
       "title": "Reform UK’s Farage failed to disclose funds from convicted criminal: Report",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/7/5/reform-uks-farage-failed-to-disclose-funds-from-convicted-criminal-report?traffic_source=rss",
@@ -1394,387 +1765,6 @@
       "compound": 0.5994,
       "label": "positive",
       "entities": []
-    },
-    {
-      "title": "China releases underground church pastor after months in detention",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/5/china-releases-underground-church-pastor-after-months-in-detention?traffic_source=rss",
-      "published": "2026-07-05T08:54:12+00:00",
-      "compound": -0.6124,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Watch World Cup Day 24: France and Morocco advance to quarterfinals",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/2026/7/5/video-world-cup-2026-highlights?traffic_source=rss",
-      "published": "2026-07-05T08:30:41+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Pastor freed from prison in China weeks after Trump requested his release",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/05/nx-s1-5882784/pastor-freed-prison-china-trump-request",
-      "published": "2026-07-05T08:30:07+00:00",
-      "compound": -0.25,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Ukraine war live: Trump offers ‘solution’ to Putin in phone call as Kyiv hits port",
-      "source": "The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSW5ucmRGM1Zud2kwVzNaS05aY2lYNEZvdC1DeTdCQTN4VFB3dUtxNFJkdldFYlZmN210Vk9xR2NvQ25MczY4OEJNbkc4YnlfeWZBN2poQ3hZdEs1MDctNFVyUE0yaV9GdGR3QzF1QTZvQVdwY3RZR0tMTXBMZldaTU1idzNpc3JQTTEtd3k4WUNDekJzVFcySkZOck9mTEVVblRUNzdUblg1VG16UXBHSWIwYkJDcmw4eENGSWR3Qm9HZw?oc=5",
-      "published": "2026-07-05T08:27:38+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Vladimir Putin",
-        "Donald Trump",
-        "Ukraine",
-        "Kyiv"
-      ]
-    },
-    {
-      "title": "Palestinians in Gaza celebrate Morocco’s World Cup victory",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/5/palestinians-in-gaza-celebrate-moroccos-world-cup-victory?traffic_source=rss",
-      "published": "2026-07-05T08:25:00+00:00",
-      "compound": 0.8126,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "US marks 250th birthday with fireworks, flyovers and extreme weather",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cp9lppvkmz5o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-05T08:24:32+00:00",
-      "compound": -0.2617,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Trump offers to help end Russia-Ukraine war in Putin call, Kremlin says",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPU1BTX21PcnQ2em9FLXZzTEdyMm5RanB2SHlkdFdkdW82MjF0M215WEF5bDBQcDh0RFFXVGM2T2hSSWY1RVVEWFR6dlRhWHVTb05IWWdXeTZyTHp5WWFobEhjd3pnakVhdDIxODVxbGNhbkc0WmJ0aHhCa3NVMDdBOXBQX014dlZIQkxNanM1SW9tMVF4Y212SnVMQmhVcFdKblFzeDYxUkpjX2pDcFI4QzJoc9IBuAFBVV95cUxQS24yQ21QZG5CejdFZnZVeWVOcnJrbnpYTFdvU3c3Q2FGRXoxcE4ydUVpenZVbHBNeVZyb3prY0hSYVFlcHZ5SzNfNUNqcXdveTkwanlkSzg0SDJ2VnlQQ0ZPaS1RVzFWcmR1eFBwdkRHMUZibUN6MUYwUWIxbFloZVhMcUktYk11MWR5anlyLTROaXZXZW5CTHI5aHBiRjJrSDV0Q3hQdTIzQnB0ODdyN1lOUERhU0di?oc=5",
-      "published": "2026-07-05T08:12:11+00:00",
-      "compound": -0.5267,
-      "label": "negative",
-      "entities": [
-        "Vladimir Putin",
-        "Donald Trump",
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Russia Ukraine War",
-      "source": "GazetteXtra",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNamw0N3JPSXJjdWhHeEhLZTRIcklHc1p0V1RIS0EtQ2FVMWpYLTFQMERfM2RVbUhkTnJiZ0FSNTVVVTltT2sxNDRmSVZkWHBReGtYUGFKdUZab1NsTTdRcU9SdVdRZEdWWnlPQWZtbS1PcVVONUZHV1NycTBaRFMyU3lJMnpiYjNSREZnaGdFYWF6aVRXYWRnQ1ZwOWNWeHpab2tMMGpySnUzUXF2RTZaYlBR?oc=5",
-      "published": "2026-07-05T08:10:11+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Russia Ukraine War",
-      "source": "GazetteXtra",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcUp4bmxJR0MxWWpzeGctU1BXRzZWX1lVcDM0SHVOMVFvTUwxV0g2UUp2bEVFUHNkdXdSU25QOU9ObG11eTNxbkRIZnFGWUNTMXh6VlpaMVhlakFoYm1OYWxKTGh2TFF3d3cweC1lSVhzYTZPZm94RXdacUt0cmpORWUyVWQ0UXY5Z292d0R6anhNWEVUdGt5aVU5TzNNUHNoQXZabWhDZVBUai1DTjdxQnln?oc=5",
-      "published": "2026-07-05T08:09:45+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Iran’s China envoy vows ‘special’ Hormuz treatment for ‘friendly’ countries",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/5/irans-china-envoy-vows-special-hormuz-treatment-for-friendly-countries?traffic_source=rss",
-      "published": "2026-07-05T08:09:44+00:00",
-      "compound": -0.2023,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Trump offers to help end Russia-Ukraine war in Putin call, Kremlin says",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/5/trump-offers-to-help-end-ukraine-war-in-long-call-with-putin-kremlin-says?traffic_source=rss",
-      "published": "2026-07-05T08:06:15+00:00",
-      "compound": -0.296,
-      "label": "negative",
-      "entities": [
-        "Vladimir Putin",
-        "Donald Trump",
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "1 killed in attack on Crimea as Putin and Zelenskyy hold separate Trump calls",
-      "source": "WTOP",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTEQyOUIybkxkakh2emZpVmxFUU1tRFQ1TXozeUExWnY4Q3JiYWY3VXkxRVdlc1FVZGF2RC1XNkNWRTNnY0lIX2RnR2JCaUVqRlBfRERHU285ZHlLZUVhWngwcG1VMTNtR2pQVWtmZTFndE4tQ2s0MEhoZklLWlpHTG05OUJ0eEtJRER3YlRXQkltTlY5eHZJTHZZWHh5bWlJajRmdmd2b3ZtYTRvSHp3TDhFUW5IMXB1Yl9lY0JlT2VsejhTSkE?oc=5",
-      "published": "2026-07-05T08:02:16+00:00",
-      "compound": -0.9451,
-      "label": "negative",
-      "entities": [
-        "Vladimir Putin",
-        "Volodymyr Zelensky",
-        "Donald Trump",
-        "Crimea"
-      ]
-    },
-    {
-      "title": "Egypt and Morocco fans celebrate World Cup wins by singing for Palestine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/5/egypt-and-morocco-fans-celebrate-world-cup-wins-by-singing-for-palestine?traffic_source=rss",
-      "published": "2026-07-05T07:42:03+00:00",
-      "compound": 0.9524,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Russia Ukraine War",
-      "source": "Messenger-Inquirer",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPX3F4bzhXV1UtLWEwS1RuTlFRbXp1T0tSdlprS3JzOFRqYUoyQWlzYnhfOF9haEhSNFJxaEpyVG9QNUEzTHE3ZmFYSi11Q0ZWYnltcHIySlRMZVB2aVZBa0hKU253dTJRcUFwdENnNlhjV1ZxUzc5Z1VCSEdPRUdwQzNxZEVaNHhObHdqMzdBeEhpSjVYNkFMM0IxaW9LNVhPUGM1WmhUWDdPcFFEa0VQcFJjOGh3eUhLTWRUeGlobWZLUk9N?oc=5",
-      "published": "2026-07-05T07:30:26+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Scorching heat and delays: How Washington DC marked America 250",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/videos/cwyk2ypj014o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-05T07:19:08+00:00",
-      "compound": 0.4767,
-      "label": "positive",
-      "entities": [
-        "United States"
-      ]
-    },
-    {
-      "title": "Trump ‘offers to be peacemaker during 90-minute call with Putin’",
-      "source": "The Independent",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeDBQNUxtTm9kVEl2YjRHNHJaTFBrN2tXczZadmtBdzJldUU1b2xIQjBYYnlpNUc2UDF2Y1ZMQ2F5T093MTVCRVZZX1ZuWjRJd1M0ZjZDQ3dGMGNMZks4MjZHUS1qVkxja0RndXhZRWxWTG4xVGRJT2xUeGp5ZDBHNXNtOHR2TEs4NzNTVThyUktFZHNTakhhTg?oc=5",
-      "published": "2026-07-05T07:13:00+00:00",
-      "compound": 0.7184,
-      "label": "positive",
-      "entities": [
-        "Vladimir Putin",
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Ukraine War, Day 1,593: Kyiv Cuts Power in Besieged Crimea",
-      "source": "EA WorldView",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE40RU9KUFRCd0syNTROOC01VVhWWkRPMzRHc3Rsd1dHbmhyZkJGRHJYQWVsYjZ1d3hUdm1oNldhN2Y0dE1PZUc3T0lyZWNCLXB3c3ZSbnJzUk5wMWZ4QUhaSGFFTEV1MmNGdk4xQ005VGNEa0l3ZXVvSHVKTQ?oc=5",
-      "published": "2026-07-05T06:41:46+00:00",
-      "compound": -0.9042,
-      "label": "negative",
-      "entities": [
-        "Ukraine",
-        "Kyiv",
-        "Crimea"
-      ]
-    },
-    {
-      "title": "Ukraine’s 40 Day Gambit, Smoke Over St Petersburg, and Putin’s Intransigence. The Big Five, 5 July edition",
-      "source": "Futura Doctrina | Mick Ryan",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9wNTJteDhONGxGQmxZejlYRTVHdXBnamxNMHFLQks1b19ZVFNNZ0NkYU9SMVd4OFBVWFhDVFRMX1E4SEdteHp6ZUhBNk5waGpLTzl6MFhzaDlrRkVaNzhUcVljaTBHUDh5RWdHYTZhcmdaMjg?oc=5",
-      "published": "2026-07-05T06:39:51+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Vladimir Putin",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Brazil vs Norway: FIFA World Cup last 16 – Vinicius, Haaland and prediction",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/5/brazil-vs-norway-fifa-world-cup-last-16-vinicius-haaland-and-prediction?traffic_source=rss",
-      "published": "2026-07-05T06:22:26+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "1593 Days of russia-Ukraine War – russian Casualties in Ukraine",
-      "source": "Defense Express",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNelpWM0l3ZTNGOGxYbm1yY1EwcWZLOVFWdXVidHJ5bFpCNXVPSFQ5ZlZOZnRJbnNXWVB5RFE5azVhbi1SSEZxSHNMMUVVejdjRjBkUUkyU0FYTXFULS1sX09OVFh3a01XQTRwcUw3VFRoOWgyVnJpZm5IWm56VlZ0N2NrbHAyT0tpdURyek9xMGxrb053Wk1BWTRHN05Jc0lNcVQ0NUpoVWtSTzQ?oc=5",
-      "published": "2026-07-05T06:21:23+00:00",
-      "compound": -0.8074,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Trump offers help to end Ukraine war in call with Putin",
-      "source": "Pajhwok Afghan News",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdktqS2tZdkZ6ZEMyY2h3cWZBVDVpSnFabWNxTmN6YzRldkFvZ3BLNzREak03VTktZTJzS2NYc2F2Z3pXOVRFR2xCRk5sdVR1cWlLVlJxcUxwaTNoTFdmOFRtM2FRTDkwZ1RBZ0RIbmtNMVdRUHBzTVdrQndmRlQxOHdPSk9RVmdjdGhXMnh2eFc?oc=5",
-      "published": "2026-07-05T06:17:08+00:00",
-      "compound": -0.5267,
-      "label": "negative",
-      "entities": [
-        "Vladimir Putin",
-        "Donald Trump",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Trump holds 90 mins 'frank' phone call with Putin over Ukraine war: End of hostilities soon?",
-      "source": "WION",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcWN4VExPMmFIU0I4cFh6MERkNlRDOXFqWERBemNIWjRsSlVPeDZ4dlVIRTVFcjRjNFl1VTRVQlZsX0lJUEZCVDdQRHNraEhoRGxaMXBZcjBRTW1fbklFZVMyT0ZDVzQzdEEzSHJrYVJOcUN2V1pSSjdiVmJMQWIwMUUxM25HYklqZEtKYkcyZnRqa2VHRk1HdVZEb1U4STBvby1vUHVHdDlmV29ZWVBLWDY1WXJMX0FaY1kwcUI2cEVMUEk0THZQUnBHekbSAdIBQVVfeXFMUDZUampTWGFWeG10ZmlZYk9MR1hUbWp4WGpkRGwwUE84MUdxNlhpVUxueHBDa1dhZ1FySVR0Y0l6SFRRemowR1FqNFNweTN3MXpQcDVNRDVyRUhQdHRPU19PWFNBWWFlczNGd3dyUDE5MWczQXZhY2lyUy1faE5ybkQ2cFNDLTVLdlNkVzVvZElIbVh4SkZydW1aYnc4U1V0SkZkc1ZQYk5yU2pfY09EY1ZZWUVrT1VaLXhnUXUzRnkxbUR1S2pLY3Z5QzdxQ3RrTUZn?oc=5",
-      "published": "2026-07-05T06:15:24+00:00",
-      "compound": -0.9367,
-      "label": "negative",
-      "entities": [
-        "Vladimir Putin",
-        "Donald Trump",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Native Americans Resisting ICE",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/witness/2026/7/5/native-americans-resisting-ice?traffic_source=rss",
-      "published": "2026-07-05T06:02:12+00:00",
-      "compound": -0.0258,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Chinese underground church figure Jin Mingri freed from prison",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c4gy51ky75vo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-05T05:58:21+00:00",
-      "compound": -0.1531,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "How Iran's new regime is very different to what came before",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cg534ryp660o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-05T05:40:07+00:00",
-      "compound": -0.0772,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Trump lauds Americans in storm-delayed 250th anniversary speech",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/5/aje-onl-nf_trump-lauds-americans-in-250th-anniversary-speech-050726?traffic_source=rss",
-      "published": "2026-07-05T05:18:14+00:00",
-      "compound": 0.7783,
-      "label": "positive",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Russia's war casualty toll in Ukraine up by 1,290 over past day",
-      "source": "Ukrinform - Ukrainian National News Agency",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQnRtMURtQUV5Ulo2dDdGNFY3Z0hSX3ltVHE3OEhpVGU1TVR1cVpxUU5ZTS04NFd2dTVlcHFVWGhjRnV0VnNaV3ZfVms5bzVPQWRsdlFzSEsxLVJjbS1kZ1JGTGZ5TlJBZm9scTdaN2k1T2VOU0VuS1F1T2ZPYkxYN3JNNkZYNmNnZW5Kc0xyRkl6al8wQldkZGR0MU53VDNfNnotTFJwR2VJUkdvN0t3UQ?oc=5",
-      "published": "2026-07-05T05:18:00+00:00",
-      "compound": -0.9393,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "As war grinds on, Ukrainian climbers build a new outdoor culture inspired by Yosemite",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNOWRsYk9DNTRVZGlPR3BUZ0xDczAwOWEzU08tLTlkRU93b3JhdXZlY3ExaTk4YmRLTmFCTzBSTldLX1V1cXlQZ2FXa3dyVlhfaVV1RlBrSGhySWw1ZmNVSWlxaXFFd2pfb3lOcGstcV9ZcjIxUE9JZGxJZ2xQMExqZ1p4SDZhUTJYNDVnR3UtY2dUcjNPSjJIWW95Qzc?oc=5",
-      "published": "2026-07-05T04:16:00+00:00",
-      "compound": -0.34,
-      "label": "negative",
-      "entities": [
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Ukraine exploits Kremlin’s weaknesses with new weapons, striking key targets in Russia",
-      "source": "EL PAÍS English",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOYnVKTm41eVBtbUh0Vl9QUXFJa0FEdkVCM0NHYzRZbHVLT3R3WTRBYU5WN0x1UkNNS3lwU2dIemZGV3lzd2JsVnB6Tm8yNXBvQ3FjazBqcEU5a0ROM2s2c0FCNGlaZnFFbHIwZ3FGUWRoODZXMldYYnp5b0RwaTFfR2hZbVhWZHpZU0YxeU5JSnA2V003anhfMnRkaVduMHU5R1dNOEphMjNsQzhsdExBUDl6LU5LYk5XT0R3YTdCakQzR2lXXzBjbmN1aU9xN3hUS2ljak1BNmLSAewBQVVfeXFMUHBUYW9JU1Vac0VIYkZSTjRmbW8zbkVkU2NTMVlBRWlRZFI4Z1pNcUhNUEZITDJJcDVKbjNZSkJQYkdpZ2JWTU9IZTlzS21Md1A1YnViOFJoQnRDWGM1QVh5R2hocXp3NXZPUDR5MG8yRUdOQUNKXzloZ0Vaa0d3OGV5TnVTRmt1c1VMbnl3Q3Vfa0FpRjE1U0xpZWlnVndZMkdaRy1YXzdsalEzWFhNQVNibG83dnRSTXROZUMxYmY0bnc3U0NEaDNKRUhPYXY0d1NiVnE4enJleFFrb05YQmt2LXdydHo3a1QwSGM?oc=5",
-      "published": "2026-07-05T04:00:00+00:00",
-      "compound": -0.9274,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "A name, a document, a future: Cameroon’s fight to register every child",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/5/a-name-a-document-a-future-cameroons-fight-to-register-every-child?traffic_source=rss",
-      "published": "2026-07-05T03:55:54+00:00",
-      "compound": 0.1901,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "This immigrant served in the US military. Now he faces deportation",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/longform/2026/7/5/this-immigrant-served-in-the-us-military-now-he-faces-deportation?traffic_source=rss",
-      "published": "2026-07-05T03:49:14+00:00",
-      "compound": -0.3506,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "White nationalists march on Washington DC ahead of Freedom 250 celebrations",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/5/aje-onl-nf_white-nationalists-march-ahead-of-freedom-250-040726?traffic_source=rss",
-      "published": "2026-07-05T03:08:47+00:00",
-      "compound": 0.8555,
-      "label": "positive",
-      "entities": [
-        "United States"
-      ]
-    },
-    {
-      "title": "Iran war live: Huge crowds mourn Khamenei, Trump vows calm during funeral",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/7/5/iran-war-live-huge-crowds-mourn-khamenei-trump-vows-calm-during-funeral?traffic_source=rss",
-      "published": "2026-07-05T03:00:00+00:00",
-      "compound": -0.7906,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "White nationalists march in Washington, DC, area during July 4 festivities",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/4/white-nationalists-march-in-washington-dc-area-during-july-4-festivities?traffic_source=rss",
-      "published": "2026-07-05T02:57:52+00:00",
-      "compound": -0.7717,
-      "label": "negative",
-      "entities": [
-        "Donald Trump",
-        "United States"
-      ]
     }
   ]
 }

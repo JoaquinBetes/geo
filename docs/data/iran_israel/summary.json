@@ -2,13 +2,13 @@
   "id": "iran_israel",
   "name": "Irán–Israel/EE.UU.",
   "description": "Cobertura mediática del conflicto entre Irán, Israel y Estados Unidos",
-  "updated": "2026-07-06T19:18:50+00:00",
-  "total_articles": 598,
-  "overall_avg": -0.2678,
+  "updated": "2026-07-06T20:14:20+00:00",
+  "total_articles": 604,
+  "overall_avg": -0.2703,
   "distribution": {
-    "pos": 150,
+    "pos": 151,
     "neu": 94,
-    "neg": 354
+    "neg": 359
   },
   "sources": [
     "Al Jazeera",
@@ -125,7 +125,8 @@
     "Le Monde.fr",
     "The New York Sun",
     "PNI Atlantic News",
-    "EFE - Agencia de noticias"
+    "EFE - Agencia de noticias",
+    "Drop Site News"
   ],
   "daily": [
     {
@@ -298,23 +299,23 @@
     },
     {
       "date": "2026-07-06",
-      "count": 212,
-      "avg": -0.2256,
-      "pos": 59,
+      "count": 218,
+      "avg": -0.2338,
+      "pos": 60,
       "neu": 41,
-      "neg": 112
+      "neg": 117
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 180,
-      "avg": -0.1678
+      "count": 183,
+      "avg": -0.1667
     },
     {
       "source": "Times of Israel",
-      "count": 76,
-      "avg": -0.3108
+      "count": 77,
+      "avg": -0.319
     },
     {
       "source": "BBC",
@@ -328,8 +329,8 @@
     },
     {
       "source": "NPR",
-      "count": 23,
-      "avg": -0.1823
+      "count": 24,
+      "avg": -0.2138
     },
     {
       "source": "The Times of Israel",
@@ -880,14 +881,19 @@
       "source": "EFE - Agencia de noticias",
       "count": 1,
       "avg": -0.1531
+    },
+    {
+      "source": "Drop Site News",
+      "count": 1,
+      "avg": -0.9643
     }
   ],
   "top_entities": [
     {
       "name": "Israel",
       "type": "LOCATION",
-      "count": 287,
-      "avg": -0.3771
+      "count": 288,
+      "avg": -0.3791
     },
     {
       "name": "Iran",
@@ -1242,6 +1248,17 @@
       "entities": []
     },
     {
+      "title": "UN deems Israel’s detention of Hamas doctor ‘arbitrary’ as health fears mount",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/un-deems-israels-detention-of-hamas-doctor-arbitrary-as-health-fears-mount/",
+      "published": "2026-07-06T19:47:25+00:00",
+      "compound": -0.9451,
+      "label": "negative",
+      "entities": [
+        "Israel"
+      ]
+    },
+    {
       "title": "'It's a very sad day' - Mexican fans react to loss to England",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/videos/cn5999n95epo?at_medium=RSS&at_campaign=rss",
@@ -1257,6 +1274,24 @@
       "published": "2026-07-06T19:40:02+00:00",
       "compound": 0.0,
       "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "NATO urges members to deliver plans for reaching defence spending targets",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/6/nato-urges-members-to-deliver-plans-for-reaching-defence-spending-targets?traffic_source=rss",
+      "published": "2026-07-06T19:35:56+00:00",
+      "compound": -0.0987,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Pro-Palestine protesters rally for ‘Filton 25’ activists at UK court",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/6/pro-palestine-protesters-rally-for-filton-25-activists-at-uk-court?traffic_source=rss",
+      "published": "2026-07-06T19:29:00+00:00",
+      "compound": -0.4215,
+      "label": "negative",
       "entities": []
     },
     {
@@ -1283,6 +1318,15 @@
         "Iran",
         "Tehran"
       ]
+    },
+    {
+      "title": "NATO chief calls for ‘credible plans’ to reach defence spending goals",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/6/nato-chief-calls-for-credible-plans-to-reach-defence-spending-goals?traffic_source=rss",
+      "published": "2026-07-06T19:21:28+00:00",
+      "compound": 0.2263,
+      "label": "positive",
+      "entities": []
     },
     {
       "title": "Lebanon latest: Teacher killed by Israeli airstrike",
@@ -1600,44 +1644,6 @@
         "Iran",
         "Israel",
         "Tehran"
-      ]
-    },
-    {
-      "title": "From Manchester to Downing Street: What Burnham could mean for Palantir",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/6/from-manchester-to-downing-street-what-burnham-could-mean-for-palantir?traffic_source=rss",
-      "published": "2026-07-06T16:46:21+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Ukraine warns of interceptor missile shortage as 21 killed in Kyiv region",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cewqqnd7zdwo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-06T16:41:57+00:00",
-      "compound": -0.8885,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Hamas announces dissolution of Gaza governing body",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/6/hamas-announces-dissolution-of-gaza-governing-body?traffic_source=rss",
-      "published": "2026-07-06T16:36:52+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "England boss jokes Trump could help lift defender’s suspension",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/6/england-boss-jokes-trump-could-help-lift-defenders-suspension?traffic_source=rss",
-      "published": "2026-07-06T16:31:02+00:00",
-      "compound": 0.8126,
-      "label": "positive",
-      "entities": [
-        "Donald Trump"
       ]
     }
   ]

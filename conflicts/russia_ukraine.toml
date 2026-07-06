@@ -18,11 +18,13 @@ order = 1                   # posición en el selector del dashboard
 [[countries]]
 code = "UA"
 name = "Ucrania"
+iso3 = "UKR"    # código en el mapamundi (Natural Earth) para la portada
 geo = "geo/ua_adm1.json"
 
 [[countries]]
 code = "RU"
 name = "Rusia"
+iso3 = "RUS"
 geo = "geo/ru_adm1.json"
 
 # Un artículo se incluye sólo si su título o resumen contiene al menos una de

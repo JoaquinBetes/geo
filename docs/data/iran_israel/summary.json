@@ -2,21 +2,21 @@
   "id": "iran_israel",
   "name": "Irán–Israel/EE.UU.",
   "description": "Cobertura mediática del conflicto entre Irán, Israel y Estados Unidos",
-  "updated": "2026-07-06T14:34:11+00:00",
-  "total_articles": 540,
-  "overall_avg": -0.2697,
+  "updated": "2026-07-06T19:12:13+00:00",
+  "total_articles": 592,
+  "overall_avg": -0.2656,
   "distribution": {
-    "pos": 137,
-    "neu": 78,
-    "neg": 325
+    "pos": 149,
+    "neu": 94,
+    "neg": 349
   },
   "sources": [
     "Al Jazeera",
     "Times of Israel",
     "BBC",
     "The Guardian",
-    "The Times of Israel",
     "NPR",
+    "The Times of Israel",
     "The Jerusalem Post",
     "Reuters",
     "NBC News",
@@ -24,12 +24,13 @@
     "The New York Times",
     "NDTV",
     "Ynetnews",
+    "Crypto Briefing",
     "The Independent",
     "Haaretz",
-    "Crypto Briefing",
     "The Washington Post",
     "AP News",
     "The Times of India",
+    "JNS",
     "Middle East Monitor",
     "Fox News",
     "ایران اینترنشنال",
@@ -44,7 +45,6 @@
     "CBC",
     "Washington Times",
     "Muslim Network TV",
-    "JNS",
     "Egypt Independent",
     "Travel And Tour World",
     "Radio Free Europe/Radio Liberty",
@@ -113,7 +113,18 @@
     "Dawn",
     "Latest news from Azerbaijan",
     "KFOX",
-    "L'Orient Today"
+    "L'Orient Today",
+    "Informed Comment",
+    "TV7 Israel News",
+    "Jewish Telegraphic Agency",
+    "Infosecurity Magazine",
+    "FOX4KC.com",
+    "Politico",
+    "Al-Monitor",
+    "Українські Національні Новини (УНН)",
+    "Le Monde.fr",
+    "The New York Sun",
+    "PNI Atlantic News"
   ],
   "daily": [
     {
@@ -286,43 +297,43 @@
     },
     {
       "date": "2026-07-06",
-      "count": 154,
-      "avg": -0.2163,
-      "pos": 46,
-      "neu": 25,
-      "neg": 83
+      "count": 206,
+      "avg": -0.2181,
+      "pos": 58,
+      "neu": 41,
+      "neg": 107
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 155,
-      "avg": -0.1585
+      "count": 178,
+      "avg": -0.168
     },
     {
       "source": "Times of Israel",
-      "count": 71,
-      "avg": -0.315
+      "count": 75,
+      "avg": -0.3062
     },
     {
       "source": "BBC",
-      "count": 67,
-      "avg": -0.1294
+      "count": 74,
+      "avg": -0.1591
     },
     {
       "source": "The Guardian",
-      "count": 29,
-      "avg": -0.5221
-    },
-    {
-      "source": "The Times of Israel",
-      "count": 21,
-      "avg": -0.352
+      "count": 30,
+      "avg": -0.4971
     },
     {
       "source": "NPR",
-      "count": 21,
-      "avg": -0.1576
+      "count": 23,
+      "avg": -0.1823
+    },
+    {
+      "source": "The Times of Israel",
+      "count": 22,
+      "avg": -0.336
     },
     {
       "source": "The Jerusalem Post",
@@ -331,8 +342,8 @@
     },
     {
       "source": "Reuters",
-      "count": 7,
-      "avg": -0.4163
+      "count": 8,
+      "avg": -0.3707
     },
     {
       "source": "NBC News",
@@ -360,6 +371,11 @@
       "avg": -0.739
     },
     {
+      "source": "Crypto Briefing",
+      "count": 5,
+      "avg": -0.4163
+    },
+    {
       "source": "The Independent",
       "count": 4,
       "avg": -0.6916
@@ -368,11 +384,6 @@
       "source": "Haaretz",
       "count": 4,
       "avg": -0.6201
-    },
-    {
-      "source": "Crypto Briefing",
-      "count": 4,
-      "avg": -0.3887
     },
     {
       "source": "The Washington Post",
@@ -388,6 +399,11 @@
       "source": "The Times of India",
       "count": 3,
       "avg": 0.2425
+    },
+    {
+      "source": "JNS",
+      "count": 3,
+      "avg": 0.2969
     },
     {
       "source": "Middle East Monitor",
@@ -458,11 +474,6 @@
       "source": "Muslim Network TV",
       "count": 2,
       "avg": -0.2393
-    },
-    {
-      "source": "JNS",
-      "count": 2,
-      "avg": 0.4453
     },
     {
       "source": "Egypt Independent",
@@ -808,56 +819,111 @@
       "source": "L'Orient Today",
       "count": 1,
       "avg": 0.6808
+    },
+    {
+      "source": "Informed Comment",
+      "count": 1,
+      "avg": -0.8676
+    },
+    {
+      "source": "TV7 Israel News",
+      "count": 1,
+      "avg": -0.9451
+    },
+    {
+      "source": "Jewish Telegraphic Agency",
+      "count": 1,
+      "avg": 0.6808
+    },
+    {
+      "source": "Infosecurity Magazine",
+      "count": 1,
+      "avg": 0.0
+    },
+    {
+      "source": "FOX4KC.com",
+      "count": 1,
+      "avg": -0.34
+    },
+    {
+      "source": "Politico",
+      "count": 1,
+      "avg": 0.0
+    },
+    {
+      "source": "Al-Monitor",
+      "count": 1,
+      "avg": 0.6124
+    },
+    {
+      "source": "Українські Національні Новини (УНН)",
+      "count": 1,
+      "avg": 0.34
+    },
+    {
+      "source": "Le Monde.fr",
+      "count": 1,
+      "avg": 0.0
+    },
+    {
+      "source": "The New York Sun",
+      "count": 1,
+      "avg": -0.8126
+    },
+    {
+      "source": "PNI Atlantic News",
+      "count": 1,
+      "avg": 0.0
     }
   ],
   "top_entities": [
     {
       "name": "Israel",
       "type": "LOCATION",
-      "count": 261,
-      "avg": -0.3826
+      "count": 285,
+      "avg": -0.3745
     },
     {
       "name": "Iran",
       "type": "LOCATION",
-      "count": 245,
-      "avg": -0.4026
+      "count": 260,
+      "avg": -0.3865
     },
     {
       "name": "Khamenei",
       "type": "PERSON",
-      "count": 96,
-      "avg": -0.5503
+      "count": 105,
+      "avg": -0.528
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 66,
-      "avg": -0.266
+      "count": 76,
+      "avg": -0.2417
     },
     {
       "name": "Tehran",
       "type": "LOCATION",
-      "count": 45,
-      "avg": -0.448
+      "count": 51,
+      "avg": -0.3938
     },
     {
       "name": "Benjamin Netanyahu",
       "type": "PERSON",
-      "count": 32,
-      "avg": -0.1741
+      "count": 37,
+      "avg": -0.1425
     },
     {
       "name": "United States",
       "type": "LOCATION",
-      "count": 24,
-      "avg": -0.11
+      "count": 25,
+      "avg": -0.1137
     },
     {
       "name": "Strait of Hormuz",
       "type": "LOCATION",
-      "count": 23,
-      "avg": -0.3289
+      "count": 24,
+      "avg": -0.2897
     },
     {
       "name": "Jerusalem",
@@ -910,6 +976,501 @@
   ],
   "recent": [
     {
+      "title": "Trump confirms he asked Fifa to review Balogun ban",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c1myykx0gmxo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-06T22:06:34+00:00",
+      "compound": -0.2023,
+      "label": "negative",
+      "entities": [
+        "Donald Trump",
+        "United States"
+      ]
+    },
+    {
+      "title": "Charlie Kirk's family attends hearing for suspect charged with his murder",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c1myyyyjvx5o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-06T22:06:26+00:00",
+      "compound": -0.9349,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "‘We the people are Iran’s true missiles’: millions gather in Tehran for the fourth day of Ali Khamenei’s funeral",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/06/iran-tehran-ali-khamenei-funeral-day-four",
+      "published": "2026-07-06T21:54:35+00:00",
+      "compound": 0.2263,
+      "label": "positive",
+      "entities": [
+        "Khamenei",
+        "Iran",
+        "Israel",
+        "Tehran"
+      ]
+    },
+    {
+      "title": "Ebola death toll in DR Congo surpasses 500",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/6/ebola-death-toll-in-dr-congo-surpasses-500?traffic_source=rss",
+      "published": "2026-07-06T21:41:33+00:00",
+      "compound": -0.5106,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Trump rings in new ‘Trump Account’ investment accounts for children",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/6/trump-rings-in-new-trump-account-investment-accounts-for-children?traffic_source=rss",
+      "published": "2026-07-06T21:37:52+00:00",
+      "compound": 0.4588,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Iran reappoints a familiar face to powerful post during Khamenei funeral",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/6/iran-reappoints-a-familiar-face-to-powerful-post-during-khamenei-funeral?traffic_source=rss",
+      "published": "2026-07-06T21:28:38+00:00",
+      "compound": 0.0772,
+      "label": "positive",
+      "entities": [
+        "Khamenei",
+        "Iran"
+      ]
+    },
+    {
+      "title": "Macron arrives in Syria for first post-Assad visit by West European head of state",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/macron-arrives-in-syria-for-first-post-assad-visit-by-west-european-head-of-state/",
+      "published": "2026-07-06T21:21:52+00:00",
+      "compound": 0.836,
+      "label": "positive",
+      "entities": [
+        "Israel"
+      ]
+    },
+    {
+      "title": "Flavio Bolsonaro asks Trump to delay tariffs on Brazil until after election",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/6/flavio-bolsonaro-asks-trump-to-delay-tariffs-on-brazil-until-after-election?traffic_source=rss",
+      "published": "2026-07-06T21:02:40+00:00",
+      "compound": 0.2023,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Ticket prices continue to fall for USA-Belgium World Cup last-16 clash",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/6/ticket-prices-continue-to-fall-for-usa-belgium-world-cup-last-16-clash?traffic_source=rss",
+      "published": "2026-07-06T21:01:59+00:00",
+      "compound": -0.3612,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Mourners throng funeral procession in Tehran for Iran’s Supreme Leader Ayatollah Ali Khamenei",
+      "source": "FOX4KC.com",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRWJjU3V4SkFZWXA5eVVrNThvYmkxOFcwMDNrcnZkQ1J0V2NvblZYZW9MR1AtZVVpam5uWjJFbWlRQUwxWFVCdkk2OHpHdjdGUWhScVlvOG1SRXRYdGtCaFZOV2paeHdVNEdBV1piMkxjSnFGci1wQk0xMnhNNlc3V1Fwa1lGU3psR000RktreGM1aGZ4U2FsUDhwT3g4SkxSX3JRLU9vZ3ZpTE1OcnVmaU5CdGhjZGxveUZ4aFBIb0E2Q3l2OU83dVVJQUHSAdIBQVVfeXFMTXRKejF5cVBDcDZBdFJDdXFXa3pvTXNhSjNtOV9iUzFyNjZfS1NwckYtOVo2c3ZUNFhleklkTlc4dUtpZ012NUxDNndSZTB2Rkpkb0owaTFJbnowNldsV1lLaTNmaEtDZGJ4bkUzVUFLZzl4Qk9sMlRLbXlzV0lKSmEzR0phSFlIdmdlOEdMUFZFQjZYTXI3bE45VTUwVWlzQnY1QXFRRGpDUHJOTXdRcURCam5yc2pDVGZFZUNVZzI3WkxwRGxjaVZkZ2oyVjRqbmFn?oc=5",
+      "published": "2026-07-06T20:56:45+00:00",
+      "compound": -0.34,
+      "label": "negative",
+      "entities": [
+        "Khamenei",
+        "Iran",
+        "Tehran"
+      ]
+    },
+    {
+      "title": "All living former Supreme Court presidents pan government for not respecting court ruling",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/all-living-former-supreme-court-presidents-pan-government-for-not-respecting-court-ruling/",
+      "published": "2026-07-06T20:54:00+00:00",
+      "compound": 0.3703,
+      "label": "positive",
+      "entities": [
+        "Israel"
+      ]
+    },
+    {
+      "title": "Belgian football body challenges reversal of Balogun’s World Cup suspension",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/6/belgian-football-body-challenges-reversal-of-baloguns-world-cup-suspension?traffic_source=rss",
+      "published": "2026-07-06T20:51:30+00:00",
+      "compound": 0.0387,
+      "label": "neutral",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "What makes this NATO summit high stakes?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/6/what-makes-this-nato-summit-high-stakes?traffic_source=rss",
+      "published": "2026-07-06T20:41:31+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Iranian regime has undeserved reputation as master negotiator, experts say",
+      "source": "JNS",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSDNXR0dNdmlGNVhWd3NNMU9JYkhIdE9IOHhJWEJ3SXhXOHo5UlZwS2hoaER2dUhsOE14YUN4R04yOW5ialRBbGx0WEQ1QkhNbVpSYjMyTzctZkRyMWJHZXhFSnR4RkpyMVJHMHgza0o2N0NLdTBTeTVxS0ZhX2hRckxtTmhjekxfc29kd2JyaHJ3UXNFbmV3aHk5WUwzd2lTZG0tejJyVkVmeTg?oc=5",
+      "published": "2026-07-06T20:39:29+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Iran"
+      ]
+    },
+    {
+      "title": "Balogun, Garrincha and Pinochet: FIFA’s controversial World Cup decisions",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/6/balogun-garrincha-and-pinochet-fifas-controversial-world-cup-decisions?traffic_source=rss",
+      "published": "2026-07-06T20:39:08+00:00",
+      "compound": -0.7227,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "More than 1,000 arrested as part of global human trafficking crackdown",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c5yzzzdwqjko?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-06T20:24:31+00:00",
+      "compound": -0.7884,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Khamenei family mourns, but Mojtaba’s absence fuels public insecurity",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUWJFcTVqX3lIVkdlMVByYVNEM1BuMlk2T2lOMTdNS0lSd3l1MjZQSHpVX3NvTG5ORktjVUlSXzhZNlJkVzl5YWdxWG5vMzRWb2lWZ3VpVmlfdmNkdVpfQzEyaGN5STJIQ1RiU09kV2JGb0hybFlCc0lFak1ldEMxMUU2TmxJWnhMaC1kUTd4V1p4aEZqczVCR2UyV01XUXk5elUzX2ZVaVhzNVnSAbABQVVfeXFMT000bUxPTnJycTlrX09FY3BhaHBXNTMtSU80Mkc2MTBrWHAxempPUnpDbmlVcURCN3VXOVl1OENkQVdoZ1hDc3lCQVVrWmh0ZnJEQ0o3cW4zNDYzaDkyZmduNDFMRkdnZlZwNGZEVFdEclE4R2RscWxfSFBIZkhyUlRnaTlpb3lVNjZET3dHdmZuaTJwTE1iSDN5bjdlX183blRnRWYwSVZBSFBYd3dkOEo?oc=5",
+      "published": "2026-07-06T20:24:04+00:00",
+      "compound": -0.9349,
+      "label": "negative",
+      "entities": [
+        "Khamenei"
+      ]
+    },
+    {
+      "title": "Ex-Syrian intelligence chief found guilty of torture and sexual abuse by Austrian court",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cy8ddd1m3mpo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-06T20:22:38+00:00",
+      "compound": -0.875,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Khamenei family mourns, but Mojtaba’s absence fuels public insecurity",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/6/khamenei-family-mourns-but-mojtabas-absence-fuels-public-insecurity?traffic_source=rss",
+      "published": "2026-07-06T20:20:23+00:00",
+      "compound": 0.4767,
+      "label": "positive",
+      "entities": [
+        "Khamenei",
+        "Iran",
+        "Tehran"
+      ]
+    },
+    {
+      "title": "Central bank trims borrowing costs to 2022 low, sees room for further rate cuts",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/central-bank-trims-borrowing-costs-to-2022-low-sees-room-for-further-rate-cuts/",
+      "published": "2026-07-06T20:12:51+00:00",
+      "compound": -0.8834,
+      "label": "negative",
+      "entities": [
+        "Israel"
+      ]
+    },
+    {
+      "title": "UN rights body demands release of Palestinian doctor detained by Israel",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/6/un-rights-body-demands-release-of-palestinian-doctor-detained-by-israel?traffic_source=rss",
+      "published": "2026-07-06T20:09:38+00:00",
+      "compound": -0.8658,
+      "label": "negative",
+      "entities": [
+        "Israel"
+      ]
+    },
+    {
+      "title": "Rumors of Khamenei's Death & The Chaos Splitting the Middle East",
+      "source": "TV7 Israel News",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBNbHdrRFhpeG9sN0ZJcDRHSUxrYV9zQ0ZCOGx1dTRQbTVmcFFfR2E3cjlWcGM4LS05aGxrQ0JyU1V5eXBxM09jOWJkcHhEN0dFZWVkRUc0dVZqRXUySi0tUFljMUxwLWRoZC1SNmNvaWFuZnhXSVF3?oc=5",
+      "published": "2026-07-06T20:03:37+00:00",
+      "compound": -0.9451,
+      "label": "negative",
+      "entities": [
+        "Khamenei",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Ex-Syrian intelligence chief in Raqqa convicted of torture in Austria",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/6/ex-syrian-intelligence-chief-in-raqqa-convicted-of-torture-in-austria?traffic_source=rss",
+      "published": "2026-07-06T19:54:42+00:00",
+      "compound": -0.7351,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "'It's a very sad day' - Mexican fans react to loss to England",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/videos/cn5999n95epo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-06T19:43:51+00:00",
+      "compound": -0.8268,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Argentina vs Egypt: FIFA World Cup last 16 – Messi, Salah, prediction, news",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/6/argentina-vs-egypt-fifa-world-cup-last-16-messi-salah-prediction-kickoff-news?traffic_source=rss",
+      "published": "2026-07-06T19:40:02+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "'The spectacle Iran wants the world to see': Lyse Doucet in Tehran",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5vX0VHdWVlLTl2SllVMlJDX2R6MWFBRWhlR3BORVl5WFJDTHhGcHdLRlhTTW1DQ2JxOGhGdVdSd00teVpaZlZPclg4SEo0ZFljYkNRRDFabw?oc=5",
+      "published": "2026-07-06T19:23:44+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Iran",
+        "Tehran"
+      ]
+    },
+    {
+      "title": "'The spectacle Iran wants the world to see': Lyse Doucet in Tehran",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/videos/c78yyyl2ev4o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-06T19:23:44+00:00",
+      "compound": 0.5267,
+      "label": "positive",
+      "entities": [
+        "Khamenei",
+        "Iran",
+        "Tehran"
+      ]
+    },
+    {
+      "title": "Lebanon latest: Teacher killed by Israeli airstrike",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/6/lebanon-latest-teacher-killed-by-israeli-airstrike-2?traffic_source=rss",
+      "published": "2026-07-06T19:10:09+00:00",
+      "compound": -0.7906,
+      "label": "negative",
+      "entities": [
+        "Israel"
+      ]
+    },
+    {
+      "title": "New Iran-Nexus Hacking Group Targets Israel Government and IT Sectors",
+      "source": "Infosecurity Magazine",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wSjc2MUpLaHNjVjZBUWpfcEJtdVF1NkNnWDJTQWhoTnh5Zk4zcFZDZm15V0hCVGFMbkJyczltNkkzWFRFRlhDeEFPOGdyRExSbk5jdmZrdU8yQUNxeHc1dDYzS1NhZzhiZGhSRVdUM3dDaC1adGVmRlhhYkNDOGM?oc=5",
+      "published": "2026-07-06T19:00:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Portugal vs Spain LIVE: FIFA World Cup 2026 round of 16",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/liveblog/2026/7/6/portugal-vs-spain-live-fifa-world-cup-2026-round-of-16?traffic_source=rss",
+      "published": "2026-07-06T18:59:34+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Netanyahu says his ties with Trump are ‘fine’, takes aim at Turkiye",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdzNIcjZRa0NSOFFUdnNNcmR4ejJYQzJLV295OTBSQ1g5RWRqQUNaZTk4alByamJaR1pueVdFczdnM2lUM08xRU5rN3Q0V1hpeG9VWEk1a3FPZVRiRzJreHRMZXE0UW1USEg0LVNXb3hWX3ZnWGR4YkVwaUZxdE9vbzkwZVhGeVgwOUVuQzhJaE9fdU1lZ1NRN19PRGxIMVJpOGhON2phNNIBrAFBVV95cUxPbjk2WmlJd2VVa1Zza2ZmTmhibVpXbUZMM2Z6Znl0OVM5VDcwbHZIUjR1ZHFLLXp5UDY5d0syamFOVlExWXRJUjRIc0QweWxiTXB1N3VHc0hfQ3NabkxUQ2dEeFRxazVwdGlGQjVqakpSNjluQm4xQk1SS29jYXBTZnlfRGRxNEZ5aG5lWm1iVGw2dzU0NHZZUjlwb2R0UmVnR0g3S3dpVXdINmlK?oc=5",
+      "published": "2026-07-06T18:57:47+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Benjamin Netanyahu",
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Netanyahu says his ties with Trump are ‘fine’, takes aim at Turkiye",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/6/netanyahu-says-his-ties-with-trump-are-fine-takes-aim-at-turkiye?traffic_source=rss",
+      "published": "2026-07-06T18:54:14+00:00",
+      "compound": -0.3818,
+      "label": "negative",
+      "entities": [
+        "Benjamin Netanyahu",
+        "Donald Trump",
+        "Israel"
+      ]
+    },
+    {
+      "title": "UN discusses prevention of genocide: Six times it failed to do just that",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/6/un-discusses-prevention-of-genocide-six-times-it-failed-to-do-just-that?traffic_source=rss",
+      "published": "2026-07-06T18:38:35+00:00",
+      "compound": -0.5106,
+      "label": "negative",
+      "entities": [
+        "Israel"
+      ]
+    },
+    {
+      "title": "US president Trump defends FIFA’s Balogun red card reversal",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/6/us-president-trump-defends-fifas-balogun-red-card-reversal?traffic_source=rss",
+      "published": "2026-07-06T18:31:42+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "GWYNNE DYER: What options does Israel's Netanyahu still have?",
+      "source": "PNI Atlantic News",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNVpoS3VDMVN6dDM5MHZhcHFoc3p6TVJvR3hNUGxnamFlaDFsT1NjZmlqWlRWeGFldk5CUlFGM2sxNjlyaU1Fc2pLS1Ytb3lteVppaWxGUXVJZm5vVUs4RVdNY2c5eTZIYnJnN3U5TVJrelRNSHRkNURxcEhvR2V3elVMbGg5RWNtMEROdUQwd3kwcXczbENJaGtXTWk3amJzRTBBRDFJX3o?oc=5",
+      "published": "2026-07-06T18:26:32+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Benjamin Netanyahu",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Is NATO at breaking point as it meets in Turkiye?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/6/is-nato-at-breaking-point-as-it-meets-in-turkiye?traffic_source=rss",
+      "published": "2026-07-06T18:18:33+00:00",
+      "compound": 0.1027,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Iran called the implementation of the agreement with the US \"difficult but possible\" and stated that it does not recognize Israel",
+      "source": "Українські Національні Новини (УНН)",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQTk9CRGg4T0FJc1F3bFdBeXZUbmV4eWtUcnFkQ1JmZG9PcnVJRXZoTVBIdGJOOGRteW1VdEdvajRZV2FhNzhIQW5VbE5CMWd0ejlKeGJyQkp1UmhmaTVzRWVpTXJDRWl3NHhENTI1MmpZUTdFc29kbzFGVHM1X0ZqdTVRZkg3X2NDTnJEa251MlVPbU44aGYtLUEwWDM3YjlBREFfdmU4Z3kxbWY1cjQ2STRneVlMN0c5UHhPRjN5S0ZZQ0V3TjN6bjhseXVzN29lemhhYkMyRGpta2FMWkZXMkJOckXSAeMBQVVfeXFMUDQ3VnpQUEVCVXh2TFhYc1JpVERfVEstSU5sT0FBRV9VT2VJZXdWdGp4cnN4WDN5U05xU05ibmZOczk5ZlBqWEY5UnBLdmlscC1pSUNxQ0JCdUF6T2dNbEdxZDFxWmR3blFfaklnU0RkY1pkbFJzdnoxMUJ6bDNCdmJzRldZa0pjdnI5S05NcUJOSEdkWXUzanhwNnpqTzhqQUJLSzJFWF9laXdaZmx4RFZHNHZhM0x4RkgyVEhya2hydVR6dlBtV3N4eWhWenN3enhwc1dIcXlBSDFqbUYyUENlcEk?oc=5",
+      "published": "2026-07-06T18:10:05+00:00",
+      "compound": 0.34,
+      "label": "positive",
+      "entities": [
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "West Bank arts fest returns for first time since Gaza war, in ‘act of resistance’",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/west-bank-arts-fest-returns-for-first-time-since-gaza-war-in-act-of-resistance/",
+      "published": "2026-07-06T18:03:20+00:00",
+      "compound": -0.9197,
+      "label": "negative",
+      "entities": [
+        "Israel"
+      ]
+    },
+    {
+      "title": "Israel’s Smotrich declares ‘revolution’ in West Bank settlement expansion",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/6/israels-smotrich-declares-revolution-in-west-bank-settlement-expansion?traffic_source=rss",
+      "published": "2026-07-06T18:02:20+00:00",
+      "compound": -0.0258,
+      "label": "neutral",
+      "entities": [
+        "Israel"
+      ]
+    },
+    {
+      "title": "Bank of Israel cuts key rate by 25 bps as US-Iran ceasefire pushes down energy prices",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOV2FBVFI5dlZjdnZLNi1vdXhhRDJFd1lyYjl0d25Pcmh6V3lKb2p3V1V3cDV4TUtYWjMyTFhPcXNyQ2lrNWRsUzFIRF9yQy10VFctWGFMU1dkVkczUGEwUUhKS3RHSnM0cncwOVExQ0NxNHlieUlqelVlSV9KSDBPdTVscXlZaFZCRVpfNF9fQTZFS0tjelMwTzhGRWlMSHphdjJzbjRYYXlvaFpFSGtIQ3ZHRG9XNmVRcUluSTRaZ0laeTNjc1B4YWxhcTQzUQ?oc=5",
+      "published": "2026-07-06T18:00:46+00:00",
+      "compound": -0.0516,
+      "label": "negative",
+      "entities": [
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Oil prices ease as OPEC+ increases production, Hormuz traffic rebounds",
+      "source": "Al-Monitor",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVWlSTndqay1xcE13NmRzRDhnZnNXX3RYYmItUjRKbl96djNsLS10aHdFcUk5UjZpUHBfYnY0elFnUUswV05Gd3JWYzM1dlZidDJWVm5Xc0IxSy1mZnBXX0pCcTFnOGVZTXNqQmd4b1NpaV82U0o5cUl4MERvSjNJWWpsVndpVzd4a1laVHg4dFlXRWZvZlNYajJRa0lBYndaWHJHQVRBWVV4S1ZwUm5R?oc=5",
+      "published": "2026-07-06T17:59:21+00:00",
+      "compound": 0.6124,
+      "label": "positive",
+      "entities": [
+        "Strait of Hormuz"
+      ]
+    },
+    {
+      "title": "Bank of Israel cuts rate 25 bps amid US-Iran ceasefire, energy price drop",
+      "source": "Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTE5MTEdPTzVuMVhwVVZXMzh2SXVKS0dIcEYtamtyZ25BTU1iT05pZFhHc3VBZktzRlFzbkJyRFZoWS1jMTN5aDc3eVZnZ2VxbC1NdmNueHJfMkE4aE9LTWkwNHlENTNMWTJNaDIwYWRNZExFZU55WDlOdFVMM2R2dTZXVFlWNEx0dUZCMTVIVlMtVGQwRjBhV0JjT3FrZmczNlE?oc=5",
+      "published": "2026-07-06T17:56:38+00:00",
+      "compound": -0.5267,
+      "label": "negative",
+      "entities": [
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Netanyahu pushes back on Vance’s claims that US is Israel’s ‘only powerful ally’",
+      "source": "Jewish Telegraphic Agency",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPblhNeFc3WWlRbW50ckoyR2VVeUU2MEp4SUpBWkh0M1FFUjdtYjFIanBWZlZxMlVrQlNQR3c0ZlU5TFhzbmpZSjA4cVFta0V6WVd4MjZtbWlZVVJGYng4ZWh4M01MdDRwOS03b1RMYUdBWVFCXzhpZFQ5WW5meU1MOXlocnlLUFNwaWdjNUJUNUlnQUdwQ1dRNG5QTnZXZnpiQ0ctQlJZdUdHN2I0RXBNSWZOdzQ?oc=5",
+      "published": "2026-07-06T17:40:31+00:00",
+      "compound": 0.6808,
+      "label": "positive",
+      "entities": [
+        "Benjamin Netanyahu",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Trump claims Iran’s made concessions, before admitting that they’re not final",
+      "source": "The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUlVfREV0N2ctajBrSjBMZ1NYY2dsWHlUcWxRYkhFYUYyUnJJOFRGaE9VQVRmV2xqWk16bGpteldBOFBpXzlZTHR1SEVxbGxwTUM5RUhKUEpqV0R2NHlyU2djNXg0MjhIS0tlSnlXLTJEZnNKTDRydEVpWnVtRjU2am5ZS0FmM2ZNR05iRzNwdVVJaVBMWHByWi10UFJaZTdaNktadWxYREZJWkZZODB4TEt5UFgxVGVYMFJfWQ?oc=5",
+      "published": "2026-07-06T17:30:54+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Donald Trump",
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "FIFA World Cup: Mohamed Salah and the ghosts of Egypt’s ‘golden generation’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/6/fifa-world-cup-mohamed-salah-egypt-football-team-golden-generation?traffic_source=rss",
+      "published": "2026-07-06T17:29:39+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
       "title": "Israeli attack on vehicle in Lebanon kills at least four",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYTdqcUtpWldGSDhJcmVZN1c0d0l2MGpULW5tUF9DN0tockFvbkZrNFVIZmNZYy1kM1k0dDRLRW1xQ0cyendLZVB1c3RiaDV1Z2JweG4xNGhtYmItVUFqRlhGaFpjVlh6Y0tEb0Flam5yUTI5Sl82dnMtYTFSZVhlakV1dm9MOGFTWXFjUG1qZGhWc3l6OWlqb0Q1NzTSAaIBQVVfeXFMT0FqbzNSanF4aS1sV2dpMG0wNkVsOUlBZEVvWGpuOUgwcEtaTFlmRU5XZnJnZEJjSG9FMlpsdFVvSTQ1dFQ2ZWUxdlVmTV9BdkEwYjJuSlVQel9kbjJYbEowa09UWWIyazJ1OE1ZRWQ1d1BQSkRMMFQ3QmZOYXhPRnFuVUZpXzhmcE1JaU1PUHpDZG9rU3VVTHhSRjRDSXJLZ0N3?oc=5",
@@ -930,6 +1491,17 @@
       "entities": [
         "Benjamin Netanyahu",
         "Donald Trump",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Israeli attack on vehicle in Lebanon kills at least four",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/6/israeli-attack-on-vehicle-in-lebanon-kills-at-least-four?traffic_source=rss",
+      "published": "2026-07-06T17:22:31+00:00",
+      "compound": -0.8667,
+      "label": "negative",
+      "entities": [
         "Israel"
       ]
     },
@@ -1067,520 +1639,6 @@
       "entities": [
         "Israel"
       ]
-    },
-    {
-      "title": "Wildfire in southern France forces evacuation of 10,000 people",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/crlwweye9glo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-06T16:08:23+00:00",
-      "compound": -0.5574,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Refugees killed in landslides at Rohingya camps in Bangladesh",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/6/refugees-killed-in-landslides-at-rohingya-camps-in-bangladesh?traffic_source=rss",
-      "published": "2026-07-06T16:07:55+00:00",
-      "compound": -0.875,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Watch: Russian attack leaves gaping hole in Kyiv residential building",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/videos/cx2xxw99z88o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-06T16:07:23+00:00",
-      "compound": -0.4767,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Netanyahu details Iranian regime's fanaticism against the US, Israel",
-      "source": "Fox News",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1xdzJ5RkJsTWZnMm5JVDlON1RzUmdReWtkczRmazZEZnBFcDh3bGlFN2VrOUNTUW9TOUZpZ0pCQ1BmaVJXWDVXbUhXMTlLc3p6bUtrSE1R?oc=5",
-      "published": "2026-07-06T16:02:47+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Benjamin Netanyahu",
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Live Updates: Latest from Israel, Iran, and Middle East",
-      "source": "The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE44c1dvU3RxWTlqQUw0WlFQb0FYNUNRanU2aGpIRzNrOXk2cTVUMVZqZkZVbVgtWFE2NEp0ZkZFNEJWaVBBRW5XM2dvSFRtRGVQR2FGNzE5ZFk4eHhvU3RFeFl4Yk1WcFFaT1d5UlhxUldFdmd0TXB4amdvUHU1dW8?oc=5",
-      "published": "2026-07-06T16:00:05+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Iran",
-        "Israel",
-        "Jerusalem"
-      ]
-    },
-    {
-      "title": "Nasser, Israel, Iran: the United States’ fixation takes shape (2/3)",
-      "source": "L'Orient Today",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQWZ4NHN6ZENQb3hQRXNHMnpkNU1ic0kyWk94SHNhanZDZzhmVmxGbGdHSjdqYUNXcnlFWEpLQUdPMGIySjFpRzJNUlg0cDJQTUdiUk00ci1MV3k2bFF6bVFhcW9yQXBNOVpURjY2TkMxdVQ5MnR4RFV0c3A4S1I2UW5PM3FSOFF0RThpWEloRXpoYjF3R3A0aURyb1hjMDNKZlRSdGwzbEFBc1lFWFk0V1lvNWRVdkNS?oc=5",
-      "published": "2026-07-06T15:55:18+00:00",
-      "compound": 0.6808,
-      "label": "positive",
-      "entities": [
-        "Iran",
-        "Israel",
-        "United States"
-      ]
-    },
-    {
-      "title": "Help give Israeli children of reservists the summer they urgently need - Sponsored Content",
-      "source": "Times of Israel",
-      "url": "https://toi.li/BTalgW",
-      "published": "2026-07-06T15:55:17+00:00",
-      "compound": 0.6486,
-      "label": "positive",
-      "entities": [
-        "Israel"
-      ]
-    },
-    {
-      "title": "Large-scale Russian attack on Ukraine before NATO summit",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/6/large-scale-russian-attack-on-ukraine-before-nato-summit?traffic_source=rss",
-      "published": "2026-07-06T15:55:10+00:00",
-      "compound": -0.7351,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "The World Cup must pay its carbon bill",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/opinions/2026/7/6/the-world-cup-must-pay-its-carbon-bill?traffic_source=rss",
-      "published": "2026-07-06T15:48:45+00:00",
-      "compound": -0.1779,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Israel Belongs in the New Saudi-Iranian Order",
-      "source": "Foreign Policy",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5oQVlkOEZSNDlFS0VfVTgzV0djdkJDVkVIYkhlRGNQVWpQeWZuaFlaR19weW52RTctNEVRUTAxVExzSEtBTHNwMUhCcVhlS3Q0TWZhcTRuYkFwZ2VsdVZxZWxNSm9MTE5fOG9Ob1g5X2s1YjRqbHgzS2NRZw?oc=5",
-      "published": "2026-07-06T15:45:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Iran",
-        "Israel",
-        "Saudi Arabia"
-      ]
-    },
-    {
-      "title": "Israel launches tender to search for more natural gas in Mediterranean",
-      "source": "Times of Israel",
-      "url": "https://www.timesofisrael.com/israel-launches-tender-to-search-for-more-natural-gas-in-mediterranean/",
-      "published": "2026-07-06T15:40:42+00:00",
-      "compound": 0.7708,
-      "label": "positive",
-      "entities": [
-        "Israel"
-      ]
-    },
-    {
-      "title": "Hamas dissolves Gaza government ahead of eventual transfer of power to technocrats",
-      "source": "Times of Israel",
-      "url": "https://www.timesofisrael.com/hamas-dissolves-gaza-government-ahead-of-eventual-transfer-of-power-to-technocrats/",
-      "published": "2026-07-06T15:40:37+00:00",
-      "compound": -0.507,
-      "label": "negative",
-      "entities": [
-        "Israel"
-      ]
-    },
-    {
-      "title": "At least 25 killed in Sri Lanka prison riots",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cvg77klne3yo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-06T15:35:55+00:00",
-      "compound": -0.9837,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Dollar Falls Below EGP 49 For First Time Since US-Israel War on Iran",
-      "source": "CairoScene",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxON0lpeVhJbU8yOGZzNXFQTm9RVUtaNkxObHVRTmpNMm10aTR6VUlDS3h1NGtpc0puTUVEY0kydDNzazYyb2JjSklwbF9rRjZDZl9KQTBCMnhEOThUaF8xdC14RHc4Vk9PcDRpV0xlR0RxR3diRmw1Y0lUaFdoSC1TTFhGRE51a0x1cjlnaF9WV2lreHBOX0VJRzlPeHc?oc=5",
-      "published": "2026-07-06T15:34:09+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Nigeria says two nationals killed in South Africa amid rise of anti-migrant attacks",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cqj11lxwnn0o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-06T15:28:42+00:00",
-      "compound": -0.9169,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "El-Obeid under siege by RSF: Could this be Sudan’s next el-Fasher?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/6/el-obeid-under-siege-by-rsf-could-this-be-sudans-next-el-fasher?traffic_source=rss",
-      "published": "2026-07-06T15:21:52+00:00",
-      "compound": -0.7003,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Israeli attacks on Gaza kill at least 6 as ‘ceasefire’ violations continue",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/6/israeli-attacks-on-gaza-kill-at-least-6-as-ceasefire-violations-continue?traffic_source=rss",
-      "published": "2026-07-06T15:15:52+00:00",
-      "compound": -0.9313,
-      "label": "negative",
-      "entities": [
-        "Israel"
-      ]
-    },
-    {
-      "title": "Huge crowds fill Tehran streets for Khamenei's funeral procession",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9jbzI2Uk5VRVFzaGN4VFFyU0JsdmpoeEMxUElLeHgtR2JCNFhRZi1sZjFITnExVGNSQ0pSOGk1Q3ZOYS1xdmprVE1fbjY4WlJGVTlvZWpKWGFXUQ?oc=5",
-      "published": "2026-07-06T15:07:44+00:00",
-      "compound": -0.1027,
-      "label": "negative",
-      "entities": [
-        "Khamenei",
-        "Tehran"
-      ]
-    },
-    {
-      "title": "Huge crowds fill Tehran streets for Khamenei's funeral procession",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cdejj44kl70o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-06T15:07:44+00:00",
-      "compound": -0.6597,
-      "label": "negative",
-      "entities": [
-        "Khamenei",
-        "Iran",
-        "Tehran"
-      ]
-    },
-    {
-      "title": "Trump Says He Will Press Israel to Hold Back after Iran Retaliates for Beirut Attack",
-      "source": "The Washington Stand",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQczJIZUJFUnpZMXRBemhLSnhHWHlvVXZwTmNpMEV5RG5hWnRLWjl3RnJsUzlDUTNZTmJqUUN4akstOTF5dDRST3BFVVJxcXpQZnlHVG1GNGdFbE5SMURtNGFwdkt0dUZRc0ZlMGFpeVJlU2lJS1QtYjJnbFNCd0gxdW41RV9RWHY3NzdBYnIzUEZWdDF1Q0NacDJscDU2VUplQ3VDQmo1Y042eV9mbXBMaXkyZkUwZGZjMExIQg?oc=5",
-      "published": "2026-07-06T15:04:55+00:00",
-      "compound": -0.7351,
-      "label": "negative",
-      "entities": [
-        "Donald Trump",
-        "Iran",
-        "Israel",
-        "United States"
-      ]
-    },
-    {
-      "title": "Netanyahu blasts Iran’s ‘Death to America’ chants, praises US-Israel alliance",
-      "source": "Fox News",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5IbnVNcjdyWFAxQjBqRVNWRWwwcUFjYVJhZjZiWVcySWp1Ny1WelZmcVpzLVZfZTJOWWFuUVJSZHE5aE5zT1M0SjV4WmFZcWdkUndwc3FR?oc=5",
-      "published": "2026-07-06T15:03:10+00:00",
-      "compound": 0.7783,
-      "label": "positive",
-      "entities": [
-        "Benjamin Netanyahu",
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Vance tells Israel to “wake up and smell the reality” while handing Iran a strategic victory | PennLive letters",
-      "source": "PennLive.com",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNSkFUVE9QZ1ZNRjBFSDZ2NW9lVnhHLVZUMGtTMGg5VzlkVWVnSGpLcHNlbDJsbGZoU28wUWw2M0ZrV3ZpN1B6VENhR3FLcG8wMFFyRkVQZGZWbk0ycUZyeHZzMDdMaktqWlZrbEVPS0ZWVTFWSTV4cmN0NVlHSnl5WmtGdnZQNC1CNHhOc1JGTGFFTFVLY2hjQUVBQnZEU1hxOVVPRmwxeGtyOGFPaC1abVhLcURYWkZpbUFjUTc0UlNoM3FkS2UzSlJvQm9HNWRrdU52M0RjOGI4ZzJVeWM2dW1PbHhta2F2?oc=5",
-      "published": "2026-07-06T15:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "USA vs Belgium – World Cup last 16: Trump, Balogun, prediction, start time",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/6/usa-vs-belgium-world-cup-last-16-balogun-trossard-prediction-kickoff?traffic_source=rss",
-      "published": "2026-07-06T14:58:07+00:00",
-      "compound": -0.0772,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Why FIFA’s Balogun red card suspension after Trump call is so controversial",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/6/why-fifas-balogun-red-card-suspension-after-trump-call-is-so-controversial?traffic_source=rss",
-      "published": "2026-07-06T14:49:53+00:00",
-      "compound": -0.0171,
-      "label": "neutral",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Trump, Mamdani give contrasting July 4th speeches. And, U.S. faces Belgium in World Cup",
-      "source": "NPR",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQaWRfZmpQNHhFWDFUcGl2M2NRMmgwMHF6SGFkZlpnWUtzdThRdllMUkRyY01OTk9UaUxRTmxmc2xjMnc0T2IxWWlJd1NZZFhFVS1FSXJlUGs5TzRIRTR3eDRmaGZscElmV19mY2NBVlR5dzhvRVJFU2lPTDFwRHBUbHItdDh3bE9HSlZSdGdmQTRCdnZwSXlWRlNRUDZWbEI5N0d1ZW94ckdYU2JybmR5Z0l0Ymd5R2NYcU9SWHBuU052WksyUzVr?oc=5",
-      "published": "2026-07-06T14:46:36+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Trump, Mamdani give contrasting July 4th speeches. And, U.S. faces Belgium in World Cup",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/06/g-s1-132097/up-first-newsletter-america-250-trump-democrats-iran-israel-world-cup-folarin-balogun",
-      "published": "2026-07-06T14:46:36+00:00",
-      "compound": 0.2263,
-      "label": "positive",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Scorching heat worsens suffering in Gaza’s displacement camps",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/6/scorching-heat-worsens-suffering-in-gazas-displacement-camps?traffic_source=rss",
-      "published": "2026-07-06T14:44:04+00:00",
-      "compound": -0.9081,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Minister insists PM will obey High Court ruling, isn’t seeking constitutional crisis",
-      "source": "Times of Israel",
-      "url": "https://www.timesofisrael.com/minister-insists-pm-will-obey-high-court-ruling-isnt-seeking-constitutional-crisis/",
-      "published": "2026-07-06T14:39:04+00:00",
-      "compound": -0.9764,
-      "label": "negative",
-      "entities": [
-        "Israel"
-      ]
-    },
-    {
-      "title": "‘We have nothing to cool off with’: French heatwave exposes inequalities",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/6/we-have-nothing-to-cool-off-with-french-heatwave-exposes-inequalities?traffic_source=rss",
-      "published": "2026-07-06T14:37:26+00:00",
-      "compound": -0.193,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "The White House Must Not Betray Israel as It Did India",
-      "source": "Middle East Forum",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVEUzODhKZmhSMU8zLTUzcGJPTHBOVHRQQ1VvYkRUT2hybEtTeWhjOFR4LXp3SGg5TWF1WVV6dFZJWlg4US1iRkhOSjNVYVUzZEZTRWRudFFmMXRLemVyN0FFLVNyV05fWDkySGZMOFlIVGhKWlFEZmdPczVkN1RMa3gzMVg1bXFWd0lfdzVlM0xHaVRDeVE?oc=5",
-      "published": "2026-07-06T14:32:32+00:00",
-      "compound": 0.7741,
-      "label": "positive",
-      "entities": [
-        "Israel",
-        "United States"
-      ]
-    },
-    {
-      "title": "After Assad’s Fall: Iran and Hezbollah’s Operational Pattern in Southern Syria Continues",
-      "source": "Alma Research and Education Center",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSUVMWTNXcXlfd1lqdU40TWRzelhWU3NfaGUyVXlqdTRRaEdINmNiSFlpMXY4Ym54ZmE1NDBqSjRtQVBoampTSEg0Q3RpdGdHQ0JSbmFRYk9Nc2QtbXg3WGNfYi0xUTdISHJiWGVzVDk1ZHlEcmsyTXpET2gwTGxtNW1jamlxczJBVEZqSjJVNUdMUUFlWHN0SkFmazAxd19SZDRYMTZSXzdVaUZKNTRr?oc=5",
-      "published": "2026-07-06T14:29:11+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Hezbollah",
-        "Iran"
-      ]
-    },
-    {
-      "title": "Daily Briefing July 6: High Court showdown: Is Israel facing a constitutional crisis?",
-      "source": "Times of Israel",
-      "url": "https://www.timesofisrael.com/daily-briefing-july-6-high-court-showdown-is-israel-facing-a-constitutional-crisis/",
-      "published": "2026-07-06T14:20:00+00:00",
-      "compound": -0.8426,
-      "label": "negative",
-      "entities": [
-        "Israel"
-      ]
-    },
-    {
-      "title": "Is this a breakthrough moment for soccer in the US?",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cd6exx1xl4po?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-06T14:19:47+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Opinion | Iran is smartly using the Palestinians, and only Israel can stop it",
-      "source": "Haaretz",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPdXFzQTJTa0hQNXJwaW1hN3JqT0g4NmxZaHBVQU85RGlEWG42NmdfNE9jbGQwRC1SQkVaU05HajF1dTBQTjIzVGNGT3YzWXFVa3c3S0g0LVpSbUdRNEFRNjlKbFU4Y3VnSVRzaElKZTJnNGp5RWY3RmZTTGw1RnliWko1NnJNQ0JrYkpITXVLU1AwRlV4aWRrVjhya2QxQ0hpOGdJY2lBOWYtS3FPZHlMeEFmclNIN1RudmZyS1VDVlJ3S3pyVHA1RHZlXzVOVWFwb2pHcUN2Ul9hckItMlFZV3lPY0lfSUl2RTdGMFhBU0xlenZ1dmYza0F6Z3BEdnBtZXdjOQ?oc=5",
-      "published": "2026-07-06T14:06:00+00:00",
-      "compound": 0.1531,
-      "label": "positive",
-      "entities": [
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Iranian mourners demand vengeance against US and Israel before Khamenei’s coffin. Millions gather in Tehran under heavy security as reclusive successor Mojtaba assumes power",
-      "source": "Plataforma Media",
-      "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQZGNRWFB6OVlJdUoyMld0WW9DS05zcWdYVVpvT3FIaGNyM2h3QTRnZEg0bmd1dVdaWDMwRjFldVhjckVxbHRQeENTNFdiSkJBcERGWF96ZGVfY094MTVrZWtOM001UnRRLVlLaFlIR1R3UzhkU1NUcVRJd3Y5UVpTOFdXcVRQZ2gtUnQwQWNTN3FQQnY3VlFaNU91SFBTdU54a2d1QmhMeVFNLUU5b2RxVFh6a0VaSWtzR0NJalpfUmhyZEtFeDk1TF9tZzNjMXdlU1JiXy1MSDY3dDFqbUpNd2dvbEJkZWtBbUs5d3RncE16WkdmWmY3N2pPMG9hQTF0TzMwY0I1TjBpYUw3TTNEaWtPY3pENmJNc0R3M3RVY1hLUW0zR21lRUhraFFGeHpPYldkZzZaRjNXOWRJNGtr?oc=5",
-      "published": "2026-07-06T14:05:41+00:00",
-      "compound": -0.0,
-      "label": "neutral",
-      "entities": [
-        "Khamenei",
-        "Iran",
-        "Israel",
-        "Tehran"
-      ]
-    },
-    {
-      "title": "Iran war live: Leader funeral draws millions; Israel attacks Gaza, Lebanon",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQVpoTV83ckQybVhGcERsQXJRenJjd3FXdi1uclFRbGpVRkFKV2ptcVNrZE9WT0xSY2tYT01oLVNsd0ZiOEtjRVJud29jWUVpcFlxYXNHbDJSMG91OEVqTkljT2xwSHJZVjM2QUF0NGlOTXdYRGQ3bHlTaDhOY3pTajB5d2ZSem8xUlBNeXZnLTJuM1VQRTg0dXNkcFY2OWFNcElHZnlFX283ZzE5VEdXSVljdC00ZzAyRVlN0gHAAUFVX3lxTE5fOXQ0dU12MEI0bW5sNGE4T0w4SzRhTnFYMnpEaTdXQ3FSQjJackpWYzVrSzF6RUl0bGJKUW1LTVZLc01NYi1DRm15QWJXN213Y2xncDM1eUJteldrUmlBNkVmcndYUHB4cUxEMWF2aU1reTZZcjV1cDZ4cDk3SkJ6aklYRFZTa0Nhd21zV1hJb19BTXZNMmw4LUpUUmlfWnhNajZ4ci1uOC1oMzJLT0NWeWJ2emI1MGk3d192cG15bQ?oc=5",
-      "published": "2026-07-06T14:02:22+00:00",
-      "compound": -0.9559,
-      "label": "negative",
-      "entities": [
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Huge crowd joins funeral procession for Iran’s Supreme Leader Khamenei",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWTVfcDRmSHBCZDdVemk2a25lRXMyQWt4enAzRl8tLTNSUUpTMEtHUndNVUhSalZQa0F0YW85X25lLVJHUDQtdEtvNHdGYTdiU1R3cks4SHVQek9oZTV0MG13LUdiaDROS2p0aXZhQ3gxWU1JZGg5ZXBuXzdSLW1yS2FPalNsM1VYVTdlZGVQWFdqcHFZQzlfX1YxcXZwLThGajB5aVZ5bElvZ3JQVUHSAbMBQVVfeXFMTVAxazA2NF9EbkZqWk5EV09pR0tRRUdqaFhKVkwxSUc4cElOaXdGaGJ1NzhoRjNoUW5reHdROTc2R3dia29TSzd1RFV1ZFlFMXc0aEkxaVpFUmppNFVsUUZPbkNOSUw3TEZ3dGlvT083YXdvZ1R1SDhxY2JteXRFckdScVNjT2hKWmVELWxzZ1lnV0lQWkR4YWxrR1pyVUY0QVBkeHhqQUIyemFTanlhb3g1b2s?oc=5",
-      "published": "2026-07-06T13:56:26+00:00",
-      "compound": 0.7783,
-      "label": "positive",
-      "entities": [
-        "Khamenei",
-        "Iran"
-      ]
-    },
-    {
-      "title": "Huge crowd joins funeral procession for Iran’s Supreme Leader Khamenei",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/6/huge-crowd-joins-funeral-procession-for-irans-supreme-leader-khamenei?traffic_source=rss",
-      "published": "2026-07-06T13:52:55+00:00",
-      "compound": -0.4215,
-      "label": "negative",
-      "entities": [
-        "Khamenei",
-        "Iran",
-        "Israel",
-        "Tehran"
-      ]
-    },
-    {
-      "title": "Iranian parliament speaker: We have no peace with US and will not recognise Israel",
-      "source": "Middle East Monitor",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQb0F4SXF3ZFBuVmNsSjhQeWZVYzJVR0NxbUNBVllfNnRmNE5sUDBlZDNfUk1CcXBnekJfOEh2aUF6UGFCRGJxc05sV3RQYnd3dENfcnlpcm9HLUhtNHJqSHFkWVNFZERtUHJ5RVlydmpuc3d2RDRnd0djdEc2cXpKQTdOTXd0cmNQci10RDFuNjEtOE81V0M0THVGdHZPTDBBSS1sZ3JPUGhCbnZqdndsNVN1eTRlVWVOV3p3Z1cwOUtfYVHSAcgBQVVfeXFMUGgxVF9icGdWNUhFVFQ1Sm96MnpxMHN1QWQ1bjFLMmdNeTNxOWgwcG16Y3FVVjBfRmp4NldxRzhJTFRoQzA1bFFvbFJoVUIxMWZSNVFNV0c2bmFMeUNWeU55dWxrejJ4dmZmOXVhYTBUSnVvNzhTbG9YVmhqY2tUWnE1anhhSmtsU1c5SHZtVDRlRkNQMm1pcEdfS0hqbVBJRmdxWnNvZnJSUGUzaGFlM1VkSENyVzVqQjh6M0YzZjVXYVBRMHhfS2c?oc=5",
-      "published": "2026-07-06T13:46:00+00:00",
-      "compound": -0.6908,
-      "label": "negative",
-      "entities": [
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Netanyahu: Weakened Iran, strong Israel will lead to more peace deals",
-      "source": "JNS",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObmVKeHhmRVdjQTZCS0VISGxXZnVQZFFiME1adVlOOXdwOVNkLVhlcXNpbC1UdkY3NzFjWjBhUlFra2JDUnljOEkzS25TbEQ1cVo2QmdXNzBBUnlJeUd2VjdtRUllRlBGWjJBUzdNbWZwN0ZLZVRhLV9LOC1mT3RXQ3ZZVHJfYnRZN3RuQVk0Mm9BQ3VfTDZEY3pVSkx0SF9XZmhoVXM4VQ?oc=5",
-      "published": "2026-07-06T13:38:14+00:00",
-      "compound": 0.8906,
-      "label": "positive",
-      "entities": [
-        "Benjamin Netanyahu",
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Anti-Israel group files complaint in Netherlands against 2 MKs for ‘incitement to genocide’",
-      "source": "Times of Israel",
-      "url": "https://www.timesofisrael.com/anti-israel-group-files-complaint-in-netherlands-against-2-mks-for-incitement-to-genocide/",
-      "published": "2026-07-06T13:37:08+00:00",
-      "compound": -0.7003,
-      "label": "negative",
-      "entities": [
-        "Israel"
-      ]
-    },
-    {
-      "title": "Israel warns any Iranian leader who seeks its destruction will be eliminated",
-      "source": "New York Post",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQa05OcU5ET0M1MmpTWlQxQUowRHcyTXlNME5mdUJfek8tU2Ixa0J5NlZWY2U2OUdISV8xT1BRN2lQbFB5TThfLXN0TUF6Q0FBQ0hESURjTG5jWHQySFZtSzNhOWl5ZHY2TWxWVThjcUxfSENnVVN4aFBUNjBoT01rRzdUWEQ5RGw2Wk92T0RKX2FvWVVFMFZYZ19YSFlKWnRoT2hDU0R0cXlLUlVnMEd6TTh5YW1FcURxUVE?oc=5",
-      "published": "2026-07-06T13:30:00+00:00",
-      "compound": -0.8481,
-      "label": "negative",
-      "entities": [
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "As Tehran mourns slain Khamenei, Israel threatens Iran’s next leaders",
-      "source": "Muslim Network TV",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQWhXbzhxT1YwWjFxZ1RJRW5BYmVUS2VnSUxzd1M2THRPdjZYdGF3UWRKTzYzZU9FSVAySGNqT1RkdlJ2QTZmX0Z6UU01UFZFWGlIQUV6djVCSjFXb1RsbFpKbEV1V21sTWl2UkQ1QlFrd2tnUHlNTzBQMTNPcWliM1Z1c2ZDaVNPRkdBZ3NHN0RTLTA3Y2t0ZTFtMnF0UQ?oc=5",
-      "published": "2026-07-06T13:30:00+00:00",
-      "compound": -0.9001,
-      "label": "negative",
-      "entities": [
-        "Khamenei",
-        "Iran",
-        "Israel",
-        "Tehran"
-      ]
-    },
-    {
-      "title": "Inmates and guards killed in deadly fighting at Sri Lanka prison",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/6/inmates-and-guards-killed-in-deadly-fighting-at-sri-lanka-prison?traffic_source=rss",
-      "published": "2026-07-06T13:29:33+00:00",
-      "compound": -0.9666,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Impeachment trial of Philippine Vice President Sara Duterte begins",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/6/impeachment-trial-of-philippine-vice-president-sara-duterte-begins?traffic_source=rss",
-      "published": "2026-07-06T13:27:21+00:00",
-      "compound": -0.1779,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "UK’s Farage’s gold deal tests his populist brand as Restore Britain rises",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/6/uks-farages-gold-deal-tests-his-populist-brand-as-restore-britain-rises?traffic_source=rss",
-      "published": "2026-07-06T13:14:19+00:00",
-      "compound": 0.765,
-      "label": "positive",
-      "entities": []
     }
   ]
 }

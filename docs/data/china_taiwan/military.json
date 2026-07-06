@@ -1,6 +1,6 @@
 {
   "id": "china_taiwan",
-  "updated": "2026-07-06T14:34:16+00:00",
+  "updated": "2026-07-06T19:12:21+00:00",
   "losses_label": "",
   "caveats": {
     "events": "Maniobras, patrullas e incidentes detectados automáticamente en titulares de prensa; no están verificados de forma independiente. La ubicación es aproximada, a nivel ciudad o zona.",
@@ -8,12 +8,12 @@
   },
   "window": {
     "from": "2026-05-04",
-    "to": "2026-07-06"
+    "to": "2026-07-07"
   },
   "kpis": {
-    "events_total": 5,
-    "events_unlocated": 30,
-    "events_7d": 0,
+    "events_total": 6,
+    "events_unlocated": 36,
+    "events_7d": 1,
     "events_prev_7d": 0,
     "hottest_place": "Taipei"
   },
@@ -56,6 +56,15 @@
     },
     {
       "date": "2026-06-18",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-06",
       "total": 1,
       "strike": 1,
       "ground": 0,
@@ -114,12 +123,22 @@
       "title": "Inspired by Ukraine, and worried by China: Taiwan teaches its citizens how to fly drones",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/jun/18/taiwan-citizens-learn-fly-pilot-drones-courses-china"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "strike",
+      "place": "Taipei",
+      "lat": 25.033,
+      "lon": 121.5654,
+      "title": "China test-launches ballistic missile, irritating neighbors",
+      "source": "Taipei Times",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE01Ym1Dak9CTFh6di1OSTRYS2FzMzVMSUZiaVhxbFdxdldZS1BHcWdVNVFqUDZlUkxoSGFBSmpXbTBqTDVCVG1xRWM4b3Vsd1hBbzR6TXFaSGM5NXhJM3hHV18xWXFSYUF6ZlVGR2lmeGZ4dmJ2MElUQw?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Taipei",
-      "count": 1
+      "count": 2
     }
   ],
   "losses": null

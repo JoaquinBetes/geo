@@ -28,6 +28,8 @@ Chart.defaults.font.size = 10;
 
 // --- Estado global -----------------------------------------------------------
 const state = {
+  mode: "landing",          // "landing" (portada) o "conflict" (tablero)
+  index: null,              // index.json (alimenta portada y selector)
   conflictId: null,
   tabs: [],                 // pestañas disponibles para el conflicto actual
   data: {},                 // { summary, military, economy, regions, layers }
@@ -141,7 +143,8 @@ function showTab(tab) {
   document.querySelectorAll(".tab-panel").forEach((p) => {
     p.hidden = p.id !== `tab-${tab}`;
   });
-  history.replaceState(null, "", `#${TAB_HASH[tab]}`);
+  // URL compartible: #<conflicto>/<pestaña>
+  history.replaceState(null, "", `#${state.conflictId}/${TAB_HASH[tab]}`);
 
   // Render perezoso: los canvas ocultos se inicializan con tamaño 0,
   // así que cada pestaña se dibuja recién la primera vez que se muestra.
@@ -158,17 +161,16 @@ function showTab(tab) {
   }
 }
 
-function setupTabs(available) {
+function setupTabs(available, preferred) {
   document.querySelectorAll(".tab-btn").forEach((b) => {
     b.hidden = !available.includes(b.dataset.tab);
     b.onclick = () => showTab(b.dataset.tab);
   });
-  const fromHash = HASH_TAB[location.hash.replace("#", "")];
-  showTab(available.includes(fromHash) ? fromHash : "narrative");
+  showTab(available.includes(preferred) ? preferred : "narrative");
 }
 
 // --- Carga de un conflicto ---------------------------------------------------
-async function loadConflict(entry) {
+async function loadConflict(entry, preferredTab = "narrative") {
   state.conflictId = entry.id;
   state.tabs = entry.tabs || ["narrative"];
   state.rendered = {};
@@ -190,11 +192,51 @@ async function loadConflict(entry) {
 
   document.getElementById("hdr-updated").textContent = fmtDate(summary.updated);
   document.getElementById("empty").hidden = true;
-  document.getElementById("dashboard").hidden = false;
 
   const loaded = { narrative: summary, military, economy, influence };
   const available = state.tabs.filter((t) => loaded[t]);
-  setupTabs(available);
+  setupTabs(available, preferredTab);
+}
+
+// --- Routing: portada <-> tablero de conflicto ---------------------------------
+function currentRoute() {
+  const h = location.hash.replace(/^#/, "");
+  if (!h) return { mode: "landing" };
+  const [id, tabEs] = h.split("/");
+  return { mode: "conflict", id, tab: HASH_TAB[tabEs] ?? "narrative" };
+}
+
+function showLanding() {
+  state.mode = "landing";
+  document.getElementById("landing").hidden = false;
+  document.getElementById("dashboard").hidden = true;
+  document.getElementById("tabs").hidden = true;
+  document.getElementById("dash-controls").hidden = true;
+  history.replaceState(null, "", location.pathname + location.search);
+}
+
+async function openConflict(id, tab) {
+  const entry = state.index?.conflicts.find((c) => c.id === id);
+  if (!entry) return showLanding();
+
+  state.mode = "conflict";
+  document.getElementById("landing").hidden = true;
+  document.getElementById("dashboard").hidden = false;
+  document.getElementById("tabs").hidden = false;
+  document.getElementById("dash-controls").hidden = false;
+  document.getElementById("conflict-select").value = id;
+
+  if (state.conflictId !== id) {
+    await loadConflict(entry, tab ?? "narrative");
+  } else {
+    showTab(tab ?? state.activeTab);
+  }
+}
+
+function route() {
+  const r = currentRoute();
+  if (r.mode === "landing") showLanding();
+  else openConflict(r.id, r.tab);
 }
 
 // --- Arranque ----------------------------------------------------------------
@@ -210,6 +252,7 @@ async function boot() {
     document.getElementById("empty").hidden = false;
     return;
   }
+  state.index = index;
 
   const select = document.getElementById("conflict-select");
   select.innerHTML = "";
@@ -219,9 +262,10 @@ async function boot() {
     opt.textContent = c.name;
     select.appendChild(opt);
   }
-  select.onchange = () => {
-    const entry = index.conflicts.find((c) => c.id === select.value);
-    loadConflict(entry);
-  };
-  loadConflict(index.conflicts[0]);
+  select.onchange = () => openConflict(select.value, "narrative");
+  document.getElementById("btn-home").onclick = () => showLanding();
+
+  renderLanding(index);   // la portada se arma una sola vez
+  window.addEventListener("hashchange", route);
+  route();
 }

@@ -1,41 +1,134 @@
 {
-  "updated": "2026-07-06T14:34:18+00:00",
+  "updated": "2026-07-06T19:12:26+00:00",
   "conflicts": [
     {
       "id": "russia_ukraine",
       "name": "Rusia–Ucrania",
-      "total_articles": 752,
-      "updated": "2026-07-06T14:34:04+00:00",
+      "description": "Cobertura mediática del conflicto entre Rusia y Ucrania",
+      "total_articles": 797,
+      "tone": -0.4674,
+      "updated": "2026-07-06T19:11:56+00:00",
       "tabs": [
         "narrative",
         "military",
         "economy",
         "influence"
-      ]
+      ],
+      "countries": [
+        {
+          "code": "UA",
+          "name": "Ucrania",
+          "iso3": "UKR"
+        },
+        {
+          "code": "RU",
+          "name": "Rusia",
+          "iso3": "RUS"
+        }
+      ],
+      "spark": [
+        4,
+        5,
+        7,
+        11,
+        4,
+        5,
+        14,
+        28,
+        48,
+        78,
+        74,
+        92,
+        133,
+        199
+      ],
+      "events_7d": 74
     },
     {
       "id": "iran_israel",
       "name": "Irán–Israel/EE.UU.",
-      "total_articles": 540,
-      "updated": "2026-07-06T14:34:11+00:00",
+      "description": "Cobertura mediática del conflicto entre Irán, Israel y Estados Unidos",
+      "total_articles": 592,
+      "tone": -0.2656,
+      "updated": "2026-07-06T19:12:13+00:00",
       "tabs": [
         "narrative",
         "military",
         "economy",
         "influence"
-      ]
+      ],
+      "countries": [
+        {
+          "code": "IR",
+          "name": "Irán",
+          "iso3": "IRN"
+        },
+        {
+          "code": "IL",
+          "name": "Israel",
+          "iso3": "ISR"
+        }
+      ],
+      "spark": [
+        2,
+        1,
+        1,
+        1,
+        2,
+        7,
+        4,
+        1,
+        2,
+        13,
+        39,
+        109,
+        181,
+        206
+      ],
+      "events_7d": 9
     },
     {
       "id": "china_taiwan",
       "name": "China–Taiwán",
-      "total_articles": 528,
-      "updated": "2026-07-06T14:34:16+00:00",
+      "description": "Cobertura mediática de la tensión entre China y Taiwán",
+      "total_articles": 612,
+      "tone": -0.1173,
+      "updated": "2026-07-06T19:12:21+00:00",
       "tabs": [
         "narrative",
         "military",
         "economy",
         "influence"
-      ]
+      ],
+      "countries": [
+        {
+          "code": "CN",
+          "name": "China",
+          "iso3": "CHN"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwán",
+          "iso3": "TWN"
+        }
+      ],
+      "spark": [
+        2,
+        5,
+        1,
+        1,
+        2,
+        2,
+        1,
+        6,
+        17,
+        33,
+        80,
+        159,
+        221,
+        45
+      ],
+      "events_7d": 1
     }
   ]
 }

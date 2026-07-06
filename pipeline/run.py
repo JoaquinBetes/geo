@@ -110,13 +110,23 @@ def run(conflict_ids: list[str] | None = None) -> None:
             tabs.append("influence")
             print(f"[{cid}] influencia: {len(influence['narrators'])} países narradores")
 
+        # La portada (landing) se alimenta sólo de index.json: países a resaltar
+        # en el mapamundi, tono global, mini-serie de actividad y stats.
         index_entries.append(
             {
                 "id": cid,
                 "name": summary["name"],
+                "description": conflict.get("description", ""),
                 "total_articles": summary["total_articles"],
+                "tone": summary["overall_avg"],
                 "updated": summary["updated"],
                 "tabs": tabs,
+                "countries": [
+                    {"code": c.get("code"), "name": c.get("name"), "iso3": c.get("iso3")}
+                    for c in conflict.get("countries", [])
+                ],
+                "spark": [d["count"] for d in summary["daily"][-14:]],
+                "events_7d": military["kpis"]["events_7d"] if military else None,
             }
         )
 

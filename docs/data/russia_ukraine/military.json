@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-07-05T19:42:04+00:00",
+  "updated": "2026-07-06T04:39:04+00:00",
   "losses_label": "Bajas rusas (reclamo ucr.)",
   "caveats": {
     "events": "Eventos extraídos automáticamente de titulares de prensa (no confirmación en terreno). La geolocalización es a nivel ciudad/zona.",
@@ -8,13 +8,13 @@
   },
   "window": {
     "from": "2025-12-19",
-    "to": "2026-07-05"
+    "to": "2026-07-06"
   },
   "kpis": {
-    "events_total": 61,
-    "events_unlocated": 107,
-    "events_7d": 52,
-    "events_prev_7d": 3,
+    "events_total": 69,
+    "events_unlocated": 113,
+    "events_7d": 58,
+    "events_prev_7d": 5,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -155,10 +155,19 @@
     },
     {
       "date": "2026-07-05",
-      "total": 4,
-      "strike": 2,
+      "total": 5,
+      "strike": 3,
       "ground": 0,
       "infrastructure": 2,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-06",
+      "total": 7,
+      "strike": 6,
+      "ground": 0,
+      "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
     }
@@ -773,24 +782,104 @@
       "title": "Ukraine war latest: Zelensky calls Putin's Kostiantynivka bluff; Ukraine nearly doubles successful strikes behind Russian lines",
       "source": "The Kyiv Independent",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9XOElsMVJfQ014TVBMcmxZa0tLeHJZc2NpVFhoRjFsc21Dc3BoVDNRS3lLTDFyQ3gzX0hHVmZKMmFrZTBoZzdDNjZxWFBEZlBXd2s0Y3NUdmk4S1ZfMlB2c1RFS09vemc5VlE?oc=5"
+    },
+    {
+      "date": "2026-07-05",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Russo-Ukrainian war, day 1593: Ukraine struck over 200,000 Russian targets in June — now Moscow is advertising for people to stop the drones",
+      "source": "Euromaidan Press",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1qa3hMcDFlQ3pPa0YyNllFUjFqZFdyNUNra3pnLVhGc3VsWWh0dDhuLUEyS3lCbXhfcGItZ0I3TGl3ZEo2YVR0cno1dXVoM2tWSzVPaXhHUTc5NHNPYWV1MGZuTXlVWVNOMXlrSjJGSnZvTDhOUC1B?oc=5"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russia Launches Fresh Attack On Kyiv Following Zelenskyy Warning Of Impending Strike",
+      "source": "Radio Free Europe/Radio Liberty",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOT1lxOWJDVmtZRU9YVXBpT2NOVnZHcFlhUmpLeW9aYURnSE1Kem5DVjk5Y3NPaXFqak1DRGM3OXB3eW1ObkRBSV9FOHk5VFVNLUdORnFnSHZna013RGJ3TGRBMkdvdWdNYWV6YUc5V3hDdXpCdmtSNWhWUkpZU195VWlxM3dFQ19EamxjXzlR?oc=5"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Deadly Russian strikes hammer Kyiv on eve of Trump trip to critical NATO summit",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZncxNEF2SkEyMC1RczNCUlhmWEFzLUlFajJsbVM4d1prVlBiV2pzR3VwblgxMXZrNERwdXI5NnB0WHFiTzRSNkNYYkpkZ1lVSTZKYmNJWTFpVnpKSXkycVV1V0RpWUJMaHlxcjY1QzZzRVZkUnRJZ0g4T2F3UjM4VEQxdVNhcTcxbHdF?oc=5"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russia launches deadly missile and drone attacks on Kyiv",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWE96X1dmTDZoVnV2X1VsSzFKYm9kMVZSMk9JVlVkT2RuNnVzQWdpeGV6NVVNVFQ3emdpSzYyYkFZUnQxOWQydEpUWG40MVpHbmRfTWNGWFB0MVVlN3FzVEJ1RzhwTWkzWWRSc2lXRzg4cXRtOW45ZDB4ZE5ONDVkWWJ2QXNteldNRkZNeUp0WjkxXzNudFowN1JFSUFsMFdHRG9GQ2tB?oc=5"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russia launches BIG attack on Kyiv with ballistic missiles day after Trump called Putin to held end Ukraine war",
+      "source": "WION",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOUlBBWmxTT0lPZHBvU1gzdmdIbF9seDVfTWlUWFlZZWhKeGJIWS1oNWpiSy04azR3R2haLVgxLXY1SV9iUGVmVW8xcEt0MFJrUERsLWtnMlowVmFaVTc3MTZZZURzV1N1S2prU09DM2RUckpKUFJhRmVncFltaUplRy1jWXBTNUdpcUhmRlY1RFJFc2pnNmdEY01MUDZOTXBiRUljaWtKbmJzbU9qT29NLTYzdFVMeVJ0UXQtNGJJRS1kSkhSX2Ftb2lWMGJCU3ZVbVJuakVtQzNYTnM4M2RZRFFrYUdYaU83NmhZ0gHwAUFVX3lxTE1xejlDMEtrMUFxU2JNV1JHUk9rMHlXMktmZzVvckpoV2NaU0FmU01ieDhuTEJqMWQzWmhTY1BiUWNldTNEak9SbmdyVnVHN19WaE01SlUwUzhfSjdBeHRBWWZOalN1aHhTSzMzcTllZ0RYRkZpYUxUS04wNHYxQ21idzMtNEhCV2NjRkxiVEg5cUwwZ0h1UTgyQlA3cnZUUTl4eUxKTFQ4aVdyWEFraFFvTklXWEZ3NDVlTXBlMkVqQm9iY1NUUzJ6QVd1WFJSeXRfQWlLQVRJZnhMWGpiT2o5V2VuS0dqdU5LamJzcmJTbg?oc=5"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine hopes to sign ‘drone deals’ with seven Nato countries by end of year",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/06/ukraine-drone-deals-seven-nato-countries-end-of-year"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russia launches deadly missile and drone attacks on Kyiv",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/06/russia-launches-deadly-missile-drone-attacks-kyiv-ukraine"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "infrastructure",
+      "place": "Sevastopol",
+      "lat": 44.6166,
+      "lon": 33.5254,
+      "title": "Ukraine war briefing: Trump to meet Zelenskyy at Nato summit as US says battlefield progress ‘frozen’",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/06/ukraine-war-briefing-trump-to-meet-zelenskyy-at-nato-summit-as-us-says-battlefield-progress-frozen"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 38
+      "count": 44
     },
     {
       "place": "Moscow",
-      "count": 10
+      "count": 11
+    },
+    {
+      "place": "Sevastopol",
+      "count": 3
     },
     {
       "place": "Donetsk",
       "count": 3
-    },
-    {
-      "place": "Sevastopol",
-      "count": 2
     },
     {
       "place": "Bryansk",

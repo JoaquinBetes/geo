@@ -51,13 +51,16 @@ function renderMilKpis(m) {
 
 // --- Mapa Leaflet -------------------------------------------------------------
 function renderMap(m, layers) {
-  // Caveat + transparencia: qué ventana temporal cubre y cuánto queda afuera.
+  // Caveat + transparencia, redactado para el visitante (sin jerga interna).
   let caveat = m.caveats.events;
   if (m.window) {
-    caveat += ` Ventana de datos: ${m.window.from} → ${m.window.to} (el histórico crece con cada corrida del pipeline).`;
+    caveat += ` Cobertura: ${fmtDay(m.window.from)} – ${fmtDay(m.window.to)}; se amplía a medida que se recopilan más noticias.`;
   }
-  if (m.kpis.events_unlocated) {
-    caveat += ` ${m.kpis.events_unlocated} menciones militares sin lugar identificable ("país contra país") quedan fuera del mapa.`;
+  const unlocated = m.kpis.events_unlocated;
+  if (unlocated) {
+    caveat += unlocated === 1
+      ? " Otra noticia menciona acciones militares sin precisar el lugar y no aparece en el mapa."
+      : ` Otras ${unlocated} noticias mencionan acciones militares sin precisar el lugar y no aparecen en el mapa.`;
   }
   document.getElementById("mil-map-caveat").textContent = caveat;
 
@@ -152,10 +155,12 @@ async function renderMilitaryGeo(r, m) {
   // teatro regional (estrechos, mares, bases en terceros países) quedan fuera.
   const regional = r.regions.reduce((acc, x) => acc + x.events, 0);
   const theater = Math.max(0, (m?.kpis.events_total ?? regional) - regional);
-  let hint = "Eventos reportados por la prensa, acumulados por región administrativa.";
-  if (m?.window) hint += ` Ventana: ${m.window.from} → ${m.window.to}.`;
+  let hint = "Eventos mencionados en la prensa, sumados por región de cada país.";
+  if (m?.window) hint += ` Cobertura: ${fmtDay(m.window.from)} – ${fmtDay(m.window.to)}.`;
   if (theater > 0) {
-    hint += ` ${theater} eventos ocurren en el teatro regional (estrechos, mares, bases externas) y no suman a ninguna región.`;
+    hint += theater === 1
+      ? " Un evento ocurrió fuera de ambos países (estrechos, aguas internacionales o bases en terceros países) y no se cuenta acá."
+      : ` ${theater} eventos ocurrieron fuera de ambos países (estrechos, aguas internacionales o bases en terceros países) y no se cuentan acá.`;
   }
   hint += " Límites: geoBoundaries (CC-BY).";
   document.getElementById("mil-geo-hint").textContent = hint;
@@ -292,7 +297,7 @@ function renderLosses(m) {
   document.getElementById("mil-personnel-card").hidden = !losses;
   if (!losses) return;
   document.getElementById("mil-losses-caveat").textContent =
-    `${m.caveats.losses} Datos al ${losses.as_of}.`;
+    `${m.caveats.losses} Datos al ${fmtDay(losses.as_of)}.`;
 
   // Tablero de contadores de equipamiento.
   const grid = document.getElementById("equip-counters");

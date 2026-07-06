@@ -135,7 +135,7 @@
 
       <section class="card wide">
         <h2>Actividad diaria por tipo de evento</h2>
-        <p class="hint">▲ = pico anómalo (supera media móvil 30 d + 2σ)</p>
+        <p class="hint">▲ = pico de actividad inusual: muy por encima del promedio de los 30 días previos</p>
         <div class="chart-box tall"><canvas id="chart-mil-daily"></canvas></div>
       </section>
 
@@ -202,7 +202,7 @@
         </section>
         <section class="card">
           <h2>Soft power narrativo: quién cuenta la guerra</h2>
-          <p class="hint">Artículos por país sede del medio · color = tono promedio. Dato vivo del pipeline.</p>
+          <p class="hint">Artículos por país sede del medio · color = tono promedio. Se actualiza automáticamente con las noticias.</p>
           <div class="chart-box"><canvas id="chart-inf-narrators"></canvas></div>
         </section>
       </div>
@@ -219,7 +219,8 @@
   </div>
 
   <footer class="foot">
-    <span>Pipeline abierto: RSS → NLP (VADER + gazetteer) → JSON estático → este dashboard. Sin backend.</span>
+    <span>Monitor de fuentes abiertas: noticias (RSS) → análisis automático de texto → visualización.
+      Datos actualizados cada 6 horas. <a href="https://github.com/JoaquinBetes/geo">Código y metodología</a>.</span>
   </footer>
 
   <script src="js/core.js"></script>

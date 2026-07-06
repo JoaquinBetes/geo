@@ -1,20 +1,20 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-07-05T02:04:20+00:00",
+  "updated": "2026-07-06T14:18:07+00:00",
   "losses_label": "Bajas rusas (reclamo ucr.)",
   "caveats": {
-    "events": "Eventos extraídos automáticamente de titulares de prensa (no confirmación en terreno). La geolocalización es a nivel ciudad/zona.",
+    "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
     "losses": "Pérdidas rusas según el Estado Mayor de Ucrania: estimación de una de las partes, no verificada de forma independiente."
   },
   "window": {
     "from": "2025-12-19",
-    "to": "2026-07-05"
+    "to": "2026-07-06"
   },
   "kpis": {
-    "events_total": 57,
-    "events_unlocated": 93,
-    "events_7d": 48,
-    "events_prev_7d": 3,
+    "events_total": 76,
+    "events_unlocated": 108,
+    "events_7d": 65,
+    "events_prev_7d": 5,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -152,6 +152,24 @@
       "infrastructure": 2,
       "air_defense": 0,
       "anomaly": false
+    },
+    {
+      "date": "2026-07-05",
+      "total": 3,
+      "strike": 2,
+      "ground": 0,
+      "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-06",
+      "total": 16,
+      "strike": 15,
+      "ground": 0,
+      "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": true
     }
   ],
   "events": [
@@ -724,12 +742,202 @@
       "title": "Ukraine Rejects Kremlin Claim It Captured Key City As Moscow Issues \"Humanitarian\" Ultimatum",
       "source": "Radio Free Europe/Radio Liberty",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBFanpqZk53WkVJd2U2Z3Y4YkZlM2Q2cF9oTU9HNm5YdHBTMmllaGdCWnpWcEE0UzlEdVFZTm9Edk5zV09Ya0o3Q1YwSDFraVktMzg5WVlsX1BSbUR0NElBd25vc1ppbVlHanYyWmhpb05TU18wTWM0MmdZSG5Yd9IBgAFBVV95cUxNdFVzX2hIVi12WHk0SWZVa2o2OEhlaGkzTUxONXgzbjhaSzFkSVUyd0p5M1RLY1RXaWlkZkdxNl96cDhnbDZEYURydzQ3d0l1M2pVNmlmOVRNNlhEd25taTl4dS03MGo4RmJPcF9sRDlZYU5NUS1xLUdXN2ZPTEdGNg?oc=5"
+    },
+    {
+      "date": "2026-07-05",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Far From Kyiv and Moscow, Soldiers Stalk Ruins and Evade Drones on the Front",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUC10QzBSY0dPcmh1d1g3bDJCanBITldNQXFpMlRjTXdOMVo0eWwyZDFhVUVHVGF2RUxMUWQ0UGo0NG9zdEs3YXM2cGR6VmJyTTVLd29abThhOUpZTEFOZW9ITklRenQtUEJWeG1FVHIyUlhYbF9vN0RNdWVGS0ZXSG4ySzhsS19J?oc=5"
+    },
+    {
+      "date": "2026-07-05",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war latest: Zelensky calls Putin's Kostiantynivka bluff; Ukraine nearly doubles successful strikes behind Russian lines",
+      "source": "The Kyiv Independent",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9XOElsMVJfQ014TVBMcmxZa0tLeHJZc2NpVFhoRjFsc21Dc3BoVDNRS3lLTDFyQ3gzX0hHVmZKMmFrZTBoZzdDNjZxWFBEZlBXd2s0Y3NUdmk4S1ZfMlB2c1RFS09vemc5VlE?oc=5"
+    },
+    {
+      "date": "2026-07-05",
+      "type": "infrastructure",
+      "place": "Donetsk",
+      "lat": 48.0159,
+      "lon": 37.8029,
+      "title": "Ukraine war briefing: Trump repositions himself as peacemaker in long call with Putin",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/05/ukraine-war-briefing-trump-repositions-himself-as-peacemaker-in-long-call-with-putin"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Trump's calls, Ukraine's strikes and Russia's barrage on Kyiv put markets on alert",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObkE3UWhyLUNFYkhwWDF5ajQtTjYtR0hhNTJGOXUwR2pWLU9wVFc3dU9VLTBVYTNMN1NaU0R6VFVUeGV6TlpQMjcyblNPSmNsVUF1YWRnX3JYZjRDYV9fS2hpelpyN2dBekd0NEN0bXdackxsN1huellLMUFEdEVNM0kwdDPSAYoBQVVfeXFMT2V5em93RlE1eVVRUjc3OTc3R1VGSjZkYWFKZXNEci01VVdyaWRzSmxURGgzYWNVaTh6eExQd05HMHZlMUdUTTdXMGd2elpUamdaajluUU9fRmk1ZnlBcVJzZVBRSG50Vy1YNzVFbDc3NDRWQUJDdjAzR1h0UmE4TkswTjFXNkJQNUNn?oc=5"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine-Russia war: Warning of interceptor missile shortage as 20 killed in Kyiv region",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE93MU5MN1F3TGt1MThIZ2c1amI5azY4ak5nbzJ4RkxGY21jWTJLLXNON1c4ZW95c05TbzB3WnFOMHBsLW1Kdnl5enc5VmdQVEtMOFhvdlAxaFc0UQ?oc=5"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Deadly Russian strikes hammer Kyiv on eve of Trump trip to critical NATO summit",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZncxNEF2SkEyMC1RczNCUlhmWEFzLUlFajJsbVM4d1prVlBiV2pzR3VwblgxMXZrNERwdXI5NnB0WHFiTzRSNkNYYkpkZ1lVSTZKYmNJWTFpVnpKSXkycVV1V0RpWUJMaHlxcjY1QzZzRVZkUnRJZ0g4T2F3UjM4VEQxdVNhcTcxbHdF?oc=5"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Deadly Russian Strikes Hit Kyiv on Eve of NATO Summit",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTnE2T2QxX1R3VUVBQ3M2bnZoLXpkTjk5N1NTdUVQNWx1MU1wZ2x4bWdFQkVEN0FBVXFwd25zaFpXXzNsR29FbFpzQllLak9yQ0VtTmFvSmhCWVBkRkpTUWhmMGFZZC1FZ2pZdVJ3eTJoX0dYclF1bkZKNFVYejFHc1RyR3FFSFBqOExuZg?oc=5"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "At least 14 killed as Russian drones and missiles strike Kyiv on eve of Nato summit",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWE96X1dmTDZoVnV2X1VsSzFKYm9kMVZSMk9JVlVkT2RuNnVzQWdpeGV6NVVNVFQ3emdpSzYyYkFZUnQxOWQydEpUWG40MVpHbmRfTWNGWFB0MVVlN3FzVEJ1RzhwTWkzWWRSc2lXRzg4cXRtOW45ZDB4ZE5ONDVkWWJ2QXNteldNRkZNeUp0WjkxXzNudFowN1JFSUFsMFdHRG9GQ2tB?oc=5"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine War, Day 1,594: 11+ Civilians Killed and 56+ Injured by Russian Strikes on Kyiv",
+      "source": "EA WorldView",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPS2xPenlLQ0syUmItUmNmSnkwVEI2R1VtNS1kUUxZeHI4N2JVdTJiSlZreUI3NlZrVDJYNjVvSkdXLTBhYndyOGU4X3RLNW5EVlp0QlNzdk5PbDE0TVU2ckducDhNZ1hMTWpyS0xJR1NJSWFQdTIxdkNVNDlkaHlFaUVFM204SnZpdGdwVUgwN2Z5Z2lPWEJlZnZteTFnOGJZMHlLdA?oc=5"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russian strikes kill 12 in Kyiv as Ukraine runs low on air defences",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVHY0emVJd3h3VUdFQlJhMWNwckpjWGU4M2pvWmgxazFCNF9mWnhqeWhVS0RDbjFsSmVpZVZ6NUpkWlBNbk5OeG40a3JoOXVzb2thM1ZKWHJRQk5kTGU4d3ROYnhKUEhjOE5zR21fWlJrNWN3TXMxeENqaFdOa1BPMThtZFZlWjZWaElqTDNYWk8xcG5kblE4cW9ZeDRpTmZj?oc=5"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russia Hits Kyiv With Ballistic Missiles for Second Time in Four Days",
+      "source": "UNITED24 Media",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcGJ0MEhpd0NBdzR0SEVILV9KcWpOd2RaLWJ1eUhLcDRiZTFtb28yWUNwNlQ2eFBJVDQ0b2s4Ylc2MUVPX01KdXpuY1hoMVFTMnhOQ2E2UEZrZnpDTFk3Mzl2ODdpRGY3SFdwSk5ROUlIenVtdnpxaTlXZFNMNGVXcWZPWDJ2bVViZ2ItMnNmUHhSaGxxS0ZTdE1LLWJZdHBLQ3Q5RkkwLTFiYVViZUgzV0FEY0lGdmdORG9nQg?oc=5"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russian strikes on Kyiv expose widening air defence gaps on eve of Nato summit",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/06/russia-launches-deadly-missile-drone-attacks-kyiv-ukraine"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Zelenskyy calls for ‘strong decisions’ at Nato summit as Russia kills 19 in overnight strikes on Kyiv – Europe live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/live/2026/jul/06/ukraine-russia-zelenskyy-nato-summit-strikes-kyiv-europe-latest-news-updates"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russian drones and missiles pummel Kyiv on eve of Nato summit – video",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/video/2026/jul/06/russian-drones-and-missiles-pummel-kyiv-on-eve-of-nato-summit-video"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine hopes to sign ‘drone deals’ with seven Nato countries by end of year",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/06/ukraine-drone-deals-seven-nato-countries-end-of-year"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "infrastructure",
+      "place": "Sevastopol",
+      "lat": 44.6166,
+      "lon": 33.5254,
+      "title": "Ukraine war briefing: Trump to meet Zelenskyy at Nato summit as US says battlefield progress ‘frozen’",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/06/ukraine-war-briefing-trump-to-meet-zelenskyy-at-nato-summit-as-us-says-battlefield-progress-frozen"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine warns of interceptor missile shortage as 21 killed in Kyiv region",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cewqqnd7zdwo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Why Ukrainian strikes on annexed Crimea are a blow to Putin",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/videos/c2dy21549w1o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russian missile and drone attack on Ukraine's capital kills at least 12",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/06/g-s1-132088/russian-missile-drone-attack-kyiv-kills-at-least-12"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 35
+      "count": 52
     },
     {
       "place": "Moscow",
@@ -737,11 +945,11 @@
     },
     {
       "place": "Sevastopol",
-      "count": 2
+      "count": 3
     },
     {
       "place": "Donetsk",
-      "count": 2
+      "count": 3
     },
     {
       "place": "Bryansk",
@@ -769,918 +977,922 @@
     }
   ],
   "losses": {
-    "as_of": "2026-07-02",
+    "as_of": "2026-07-05",
     "personnel": {
-      "total": 1405900,
-      "delta_7d": 8840,
+      "total": 1409630,
+      "delta_7d": 8660,
       "series": [
         {
-          "date": "2022-03-03",
-          "total": 9000
+          "date": "2022-02-27",
+          "total": 4500
         },
         {
-          "date": "2022-03-10",
+          "date": "2022-03-06",
+          "total": 11000
+        },
+        {
+          "date": "2022-03-13",
           "total": 12000
         },
         {
-          "date": "2022-03-17",
-          "total": 14000
+          "date": "2022-03-20",
+          "total": 14700
         },
         {
-          "date": "2022-03-24",
-          "total": 15800
+          "date": "2022-03-27",
+          "total": 16600
         },
         {
-          "date": "2022-03-31",
-          "total": 17500
+          "date": "2022-04-03",
+          "total": 18000
         },
         {
-          "date": "2022-04-07",
-          "total": 18900
+          "date": "2022-04-10",
+          "total": 19300
         },
         {
-          "date": "2022-04-14",
-          "total": 19900
+          "date": "2022-04-17",
+          "total": 20300
         },
         {
-          "date": "2022-04-21",
-          "total": 21000
+          "date": "2022-04-24",
+          "total": 21800
         },
         {
-          "date": "2022-04-28",
-          "total": 22800
+          "date": "2022-05-01",
+          "total": 23500
         },
         {
-          "date": "2022-05-05",
-          "total": 24700
+          "date": "2022-05-08",
+          "total": 25500
         },
         {
-          "date": "2022-05-12",
-          "total": 26650
+          "date": "2022-05-15",
+          "total": 27400
         },
         {
-          "date": "2022-05-19",
-          "total": 28500
+          "date": "2022-05-22",
+          "total": 29050
         },
         {
-          "date": "2022-05-26",
-          "total": 29600
+          "date": "2022-05-29",
+          "total": 30150
         },
         {
-          "date": "2022-06-02",
-          "total": 30850
+          "date": "2022-06-05",
+          "total": 31150
         },
         {
-          "date": "2022-06-09",
-          "total": 31700
+          "date": "2022-06-12",
+          "total": 32150
         },
         {
-          "date": "2022-06-16",
-          "total": 32950
+          "date": "2022-06-19",
+          "total": 33600
         },
         {
-          "date": "2022-06-23",
-          "total": 34430
+          "date": "2022-06-26",
+          "total": 34850
         },
         {
-          "date": "2022-06-30",
-          "total": 35600
+          "date": "2022-07-03",
+          "total": 35970
         },
         {
-          "date": "2022-07-07",
-          "total": 36650
+          "date": "2022-07-10",
+          "total": 37300
         },
         {
-          "date": "2022-07-14",
-          "total": 37870
+          "date": "2022-07-17",
+          "total": 38300
         },
         {
-          "date": "2022-07-21",
-          "total": 38850
+          "date": "2022-07-24",
+          "total": 39520
         },
         {
-          "date": "2022-07-28",
-          "total": 40230
+          "date": "2022-07-31",
+          "total": 40830
         },
         {
-          "date": "2022-08-04",
-          "total": 41500
+          "date": "2022-08-07",
+          "total": 42200
         },
         {
-          "date": "2022-08-11",
-          "total": 43000
+          "date": "2022-08-14",
+          "total": 43550
         },
         {
-          "date": "2022-08-18",
-          "total": 44300
+          "date": "2022-08-21",
+          "total": 45200
         },
         {
-          "date": "2022-08-25",
-          "total": 45850
+          "date": "2022-08-28",
+          "total": 46750
         },
         {
-          "date": "2022-09-01",
-          "total": 48350
+          "date": "2022-09-04",
+          "total": 49500
         },
         {
-          "date": "2022-09-08",
-          "total": 51250
+          "date": "2022-09-11",
+          "total": 52650
         },
         {
-          "date": "2022-09-15",
-          "total": 53850
+          "date": "2022-09-18",
+          "total": 54480
         },
         {
-          "date": "2022-09-22",
-          "total": 55510
+          "date": "2022-09-25",
+          "total": 56700
         },
         {
-          "date": "2022-09-29",
-          "total": 58580
+          "date": "2022-10-02",
+          "total": 60110
         },
         {
-          "date": "2022-10-06",
-          "total": 61330
+          "date": "2022-10-09",
+          "total": 62500
         },
         {
-          "date": "2022-10-13",
-          "total": 63800
+          "date": "2022-10-16",
+          "total": 65000
         },
         {
-          "date": "2022-10-20",
-          "total": 66650
+          "date": "2022-10-23",
+          "total": 67470
         },
         {
-          "date": "2022-10-27",
-          "total": 69220
+          "date": "2022-10-30",
+          "total": 71200
         },
         {
-          "date": "2022-11-03",
-          "total": 74000
+          "date": "2022-11-06",
+          "total": 75930
         },
         {
-          "date": "2022-11-10",
-          "total": 78690
+          "date": "2022-11-13",
+          "total": 80860
         },
         {
-          "date": "2022-11-17",
-          "total": 83110
+          "date": "2022-11-20",
+          "total": 84210
         },
         {
-          "date": "2022-11-24",
-          "total": 85720
+          "date": "2022-11-27",
+          "total": 87310
         },
         {
-          "date": "2022-12-01",
-          "total": 89440
+          "date": "2022-12-04",
+          "total": 91150
         },
         {
-          "date": "2022-12-08",
-          "total": 93080
+          "date": "2022-12-11",
+          "total": 94140
         },
         {
-          "date": "2022-12-15",
-          "total": 96590
+          "date": "2022-12-18",
+          "total": 98280
         },
         {
-          "date": "2022-12-22",
-          "total": 100400
+          "date": "2022-12-25",
+          "total": 102050
         },
         {
-          "date": "2022-12-29",
-          "total": 104560
+          "date": "2023-01-01",
+          "total": 106720
         },
         {
-          "date": "2023-01-05",
-          "total": 109720
+          "date": "2023-01-08",
+          "total": 111170
         },
         {
-          "date": "2023-01-12",
-          "total": 113390
+          "date": "2023-01-15",
+          "total": 115290
         },
         {
-          "date": "2023-01-19",
-          "total": 118530
+          "date": "2023-01-22",
+          "total": 120760
         },
         {
-          "date": "2023-01-26",
-          "total": 123860
+          "date": "2023-01-29",
+          "total": 126160
         },
         {
-          "date": "2023-02-02",
-          "total": 129030
+          "date": "2023-02-05",
+          "total": 131290
         },
         {
-          "date": "2023-02-09",
-          "total": 135010
+          "date": "2023-02-12",
+          "total": 137780
         },
         {
-          "date": "2023-02-16",
-          "total": 140460
+          "date": "2023-02-19",
+          "total": 142860
         },
         {
-          "date": "2023-02-23",
-          "total": 145850
+          "date": "2023-02-26",
+          "total": 148130
         },
         {
-          "date": "2023-03-02",
-          "total": 150605
+          "date": "2023-03-05",
+          "total": 153120
         },
         {
-          "date": "2023-03-09",
-          "total": 156120
+          "date": "2023-03-12",
+          "total": 159090
         },
         {
-          "date": "2023-03-16",
-          "total": 162560
+          "date": "2023-03-19",
+          "total": 164910
         },
         {
-          "date": "2023-03-23",
-          "total": 168150
+          "date": "2023-03-26",
+          "total": 170550
         },
         {
-          "date": "2023-03-30",
-          "total": 172900
+          "date": "2023-04-02",
+          "total": 174550
         },
         {
-          "date": "2023-04-06",
-          "total": 176630
+          "date": "2023-04-09",
+          "total": 178150
         },
         {
-          "date": "2023-04-13",
-          "total": 180590
+          "date": "2023-04-16",
+          "total": 182070
         },
         {
-          "date": "2023-04-20",
-          "total": 184420
+          "date": "2023-04-23",
+          "total": 186420
         },
         {
-          "date": "2023-04-27",
-          "total": 188920
+          "date": "2023-04-30",
+          "total": 190510
         },
         {
-          "date": "2023-05-04",
-          "total": 192590
+          "date": "2023-05-07",
+          "total": 194430
         },
         {
-          "date": "2023-05-11",
-          "total": 196920
+          "date": "2023-05-14",
+          "total": 198880
         },
         {
-          "date": "2023-05-18",
-          "total": 201100
+          "date": "2023-05-21",
+          "total": 203160
         },
         {
-          "date": "2023-05-25",
-          "total": 205260
+          "date": "2023-05-28",
+          "total": 206600
         },
         {
-          "date": "2023-06-01",
-          "total": 208370
+          "date": "2023-06-04",
+          "total": 209940
         },
         {
-          "date": "2023-06-08",
-          "total": 212760
+          "date": "2023-06-11",
+          "total": 215640
         },
         {
-          "date": "2023-06-15",
-          "total": 217910
+          "date": "2023-06-18",
+          "total": 219820
         },
         {
-          "date": "2023-06-22",
-          "total": 222650
+          "date": "2023-06-25",
+          "total": 224630
         },
         {
-          "date": "2023-06-29",
-          "total": 227780
+          "date": "2023-07-02",
+          "total": 229660
         },
         {
-          "date": "2023-07-06",
-          "total": 232300
+          "date": "2023-07-09",
+          "total": 234040
         },
         {
-          "date": "2023-07-13",
-          "total": 236040
+          "date": "2023-07-16",
+          "total": 237680
         },
         {
-          "date": "2023-07-20",
-          "total": 240010
+          "date": "2023-07-23",
+          "total": 241960
         },
         {
-          "date": "2023-07-27",
-          "total": 244270
+          "date": "2023-07-30",
+          "total": 245700
         },
         {
-          "date": "2023-08-03",
-          "total": 247850
+          "date": "2023-08-06",
+          "total": 249700
         },
         {
-          "date": "2023-08-10",
-          "total": 252200
+          "date": "2023-08-13",
+          "total": 253850
         },
         {
-          "date": "2023-08-17",
-          "total": 256050
+          "date": "2023-08-20",
+          "total": 257470
         },
         {
-          "date": "2023-08-24",
-          "total": 259160
+          "date": "2023-08-27",
+          "total": 260820
         },
         {
-          "date": "2023-08-31",
-          "total": 263020
+          "date": "2023-09-03",
+          "total": 264660
         },
         {
-          "date": "2023-09-07",
-          "total": 266900
+          "date": "2023-09-10",
+          "total": 268630
         },
         {
-          "date": "2023-09-14",
-          "total": 270970
+          "date": "2023-09-17",
+          "total": 272320
         },
         {
-          "date": "2023-09-21",
-          "total": 274470
+          "date": "2023-09-24",
+          "total": 275850
         },
         {
-          "date": "2023-09-28",
-          "total": 277320
+          "date": "2023-10-01",
+          "total": 278570
         },
         {
-          "date": "2023-10-05",
-          "total": 280470
+          "date": "2023-10-08",
+          "total": 282280
         },
         {
-          "date": "2023-10-12",
-          "total": 284890
+          "date": "2023-10-15",
+          "total": 287770
         },
         {
-          "date": "2023-10-19",
-          "total": 290680
+          "date": "2023-10-22",
+          "total": 293830
         },
         {
-          "date": "2023-10-26",
-          "total": 297120
+          "date": "2023-10-29",
+          "total": 299080
         },
         {
-          "date": "2023-11-02",
-          "total": 302420
+          "date": "2023-11-05",
+          "total": 305090
         },
         {
-          "date": "2023-11-09",
-          "total": 308720
+          "date": "2023-11-12",
+          "total": 311750
         },
         {
-          "date": "2023-11-16",
-          "total": 315620
+          "date": "2023-11-19",
+          "total": 318570
         },
         {
-          "date": "2023-11-23",
-          "total": 321800
+          "date": "2023-11-26",
+          "total": 324830
         },
         {
-          "date": "2023-11-30",
-          "total": 328760
+          "date": "2023-12-03",
+          "total": 332040
         },
         {
-          "date": "2023-12-07",
-          "total": 336230
+          "date": "2023-12-10",
+          "total": 338820
         },
         {
-          "date": "2023-12-14",
-          "total": 342800
+          "date": "2023-12-17",
+          "total": 346070
         },
         {
-          "date": "2023-12-21",
-          "total": 350270
+          "date": "2023-12-24",
+          "total": 353190
         },
         {
-          "date": "2023-12-28",
-          "total": 356670
+          "date": "2023-12-31",
+          "total": 359230
         },
         {
-          "date": "2024-01-04",
-          "total": 362280
+          "date": "2024-01-07",
+          "total": 364730
         },
         {
-          "date": "2024-01-11",
-          "total": 367620
+          "date": "2024-01-14",
+          "total": 370000
         },
         {
-          "date": "2024-01-18",
-          "total": 373600
+          "date": "2024-01-21",
+          "total": 376030
         },
         {
-          "date": "2024-01-25",
-          "total": 379610
+          "date": "2024-01-28",
+          "total": 382110
         },
         {
-          "date": "2024-02-01",
-          "total": 386230
+          "date": "2024-02-04",
+          "total": 388750
         },
         {
-          "date": "2024-02-08",
-          "total": 392380
+          "date": "2024-02-11",
+          "total": 395200
         },
         {
-          "date": "2024-02-15",
-          "total": 399090
+          "date": "2024-02-18",
+          "total": 402430
         },
         {
-          "date": "2024-02-22",
-          "total": 407240
+          "date": "2024-02-25",
+          "total": 409820
         },
         {
-          "date": "2024-02-29",
-          "total": 413760
+          "date": "2024-03-03",
+          "total": 416800
         },
         {
-          "date": "2024-03-07",
-          "total": 421430
+          "date": "2024-03-10",
+          "total": 424060
         },
         {
-          "date": "2024-03-14",
-          "total": 427840
+          "date": "2024-03-17",
+          "total": 430740
         },
         {
-          "date": "2024-03-21",
-          "total": 433840
+          "date": "2024-03-24",
+          "total": 436750
         },
         {
-          "date": "2024-03-28",
-          "total": 439970
+          "date": "2024-03-31",
+          "total": 442170
         },
         {
-          "date": "2024-04-04",
-          "total": 445040
+          "date": "2024-04-07",
+          "total": 447510
         },
         {
-          "date": "2024-04-11",
-          "total": 450890
+          "date": "2024-04-14",
+          "total": 453650
         },
         {
-          "date": "2024-04-18",
-          "total": 456960
+          "date": "2024-04-21",
+          "total": 459530
         },
         {
-          "date": "2024-04-25",
-          "total": 462980
+          "date": "2024-04-28",
+          "total": 466150
         },
         {
-          "date": "2024-05-02",
-          "total": 470870
+          "date": "2024-05-05",
+          "total": 474260
         },
         {
-          "date": "2024-05-09",
-          "total": 478730
+          "date": "2024-05-12",
+          "total": 482290
         },
         {
-          "date": "2024-05-16",
-          "total": 488460
+          "date": "2024-05-19",
+          "total": 492290
         },
         {
-          "date": "2024-05-23",
-          "total": 497700
+          "date": "2024-05-26",
+          "total": 501190
         },
         {
-          "date": "2024-05-30",
-          "total": 506260
+          "date": "2024-06-02",
+          "total": 509860
         },
         {
-          "date": "2024-06-06",
-          "total": 515000
+          "date": "2024-06-09",
+          "total": 518560
         },
         {
-          "date": "2024-06-13",
-          "total": 522810
+          "date": "2024-06-16",
+          "total": 526310
         },
         {
-          "date": "2024-06-20",
-          "total": 530920
+          "date": "2024-06-23",
+          "total": 534360
         },
         {
-          "date": "2024-06-27",
-          "total": 539320
+          "date": "2024-06-30",
+          "total": 542700
         },
         {
-          "date": "2024-07-04",
-          "total": 547470
+          "date": "2024-07-07",
+          "total": 550990
         },
         {
-          "date": "2024-07-11",
-          "total": 555620
+          "date": "2024-07-14",
+          "total": 559090
         },
         {
-          "date": "2024-07-18",
-          "total": 563640
+          "date": "2024-07-21",
+          "total": 566710
         },
         {
-          "date": "2024-07-25",
-          "total": 571350
+          "date": "2024-07-28",
+          "total": 574690
         },
         {
-          "date": "2024-08-01",
-          "total": 579490
+          "date": "2024-08-04",
+          "total": 582910
         },
         {
-          "date": "2024-08-08",
-          "total": 587510
+          "date": "2024-08-11",
+          "total": 590920
         },
         {
-          "date": "2024-08-15",
-          "total": 595620
+          "date": "2024-08-18",
+          "total": 599350
         },
         {
-          "date": "2024-08-22",
-          "total": 604140
+          "date": "2024-08-25",
+          "total": 607680
         },
         {
-          "date": "2024-08-29",
-          "total": 612390
+          "date": "2024-09-01",
+          "total": 616300
         },
         {
-          "date": "2024-09-05",
-          "total": 621550
+          "date": "2024-09-08",
+          "total": 625260
         },
         {
-          "date": "2024-09-12",
-          "total": 630200
+          "date": "2024-09-15",
+          "total": 633800
         },
         {
-          "date": "2024-09-19",
-          "total": 638140
+          "date": "2024-09-22",
+          "total": 642420
         },
         {
-          "date": "2024-09-26",
-          "total": 647800
+          "date": "2024-09-29",
+          "total": 651810
         },
         {
-          "date": "2024-10-03",
-          "total": 656710
+          "date": "2024-10-06",
+          "total": 660470
         },
         {
-          "date": "2024-10-10",
-          "total": 665200
+          "date": "2024-10-13",
+          "total": 668930
         },
         {
-          "date": "2024-10-17",
-          "total": 674270
+          "date": "2024-10-20",
+          "total": 678520
         },
         {
-          "date": "2024-10-24",
-          "total": 684280
+          "date": "2024-10-27",
+          "total": 689040
         },
         {
-          "date": "2024-10-31",
-          "total": 694950
+          "date": "2024-11-03",
+          "total": 699090
         },
         {
-          "date": "2024-11-07",
-          "total": 704300
+          "date": "2024-11-10",
+          "total": 708890
         },
         {
-          "date": "2024-11-14",
-          "total": 716070
+          "date": "2024-11-17",
+          "total": 720880
         },
         {
-          "date": "2024-11-21",
-          "total": 727250
+          "date": "2024-11-24",
+          "total": 730740
         },
         {
-          "date": "2024-11-28",
-          "total": 736630
+          "date": "2024-12-01",
+          "total": 742130
         },
         {
-          "date": "2024-12-05",
-          "total": 748950
+          "date": "2024-12-08",
+          "total": 753370
         },
         {
-          "date": "2024-12-12",
-          "total": 758730
+          "date": "2024-12-15",
+          "total": 762440
         },
         {
-          "date": "2024-12-19",
-          "total": 768220
+          "date": "2024-12-22",
+          "total": 774100
         },
         {
-          "date": "2024-12-26",
-          "total": 780860
+          "date": "2024-12-29",
+          "total": 785930
         },
         {
-          "date": "2025-01-02",
-          "total": 792170
+          "date": "2025-01-05",
+          "total": 796490
         },
         {
-          "date": "2025-01-09",
-          "total": 803100
+          "date": "2025-01-12",
+          "total": 808250
         },
         {
-          "date": "2025-01-16",
-          "total": 814150
+          "date": "2025-01-19",
+          "total": 818740
         },
         {
-          "date": "2025-01-23",
-          "total": 825320
+          "date": "2025-01-26",
+          "total": 830190
         },
         {
-          "date": "2025-01-30",
-          "total": 835940
+          "date": "2025-02-02",
+          "total": 840360
         },
         {
-          "date": "2025-02-06",
-          "total": 845310
+          "date": "2025-02-09",
+          "total": 849320
         },
         {
-          "date": "2025-02-13",
-          "total": 854280
+          "date": "2025-02-16",
+          "total": 858390
         },
         {
-          "date": "2025-02-20",
-          "total": 863580
+          "date": "2025-02-23",
+          "total": 867180
         },
         {
-          "date": "2025-02-27",
-          "total": 871850
+          "date": "2025-03-02",
+          "total": 876720
         },
         {
-          "date": "2025-03-06",
-          "total": 881800
+          "date": "2025-03-09",
+          "total": 885130
         },
         {
-          "date": "2025-03-13",
-          "total": 890250
+          "date": "2025-03-16",
+          "total": 894240
         },
         {
-          "date": "2025-03-20",
-          "total": 899470
+          "date": "2025-03-23",
+          "total": 903480
         },
         {
-          "date": "2025-03-27",
-          "total": 908890
+          "date": "2025-03-30",
+          "total": 914000
         },
         {
-          "date": "2025-04-03",
-          "total": 919570
+          "date": "2025-04-06",
+          "total": 923670
         },
         {
-          "date": "2025-04-10",
-          "total": 929000
+          "date": "2025-04-13",
+          "total": 932670
         },
         {
-          "date": "2025-04-17",
-          "total": 937440
+          "date": "2025-04-20",
+          "total": 941100
         },
         {
-          "date": "2025-04-24",
-          "total": 945330
+          "date": "2025-04-27",
+          "total": 948640
         },
         {
-          "date": "2025-05-01",
-          "total": 953190
+          "date": "2025-05-04",
+          "total": 956810
         },
         {
-          "date": "2025-05-08",
-          "total": 961970
+          "date": "2025-05-11",
+          "total": 965890
         },
         {
-          "date": "2025-05-15",
-          "total": 970590
+          "date": "2025-05-18",
+          "total": 973730
         },
         {
-          "date": "2025-05-22",
-          "total": 977650
+          "date": "2025-05-25",
+          "total": 980850
         },
         {
-          "date": "2025-05-29",
-          "total": 984940
+          "date": "2025-06-01",
+          "total": 988560
         },
         {
-          "date": "2025-06-05",
-          "total": 992750
+          "date": "2025-06-08",
+          "total": 996150
         },
         {
-          "date": "2025-06-12",
-          "total": 1000340
+          "date": "2025-06-15",
+          "total": 1003860
         },
         {
-          "date": "2025-06-19",
-          "total": 1008240
+          "date": "2025-06-22",
+          "total": 1011490
         },
         {
-          "date": "2025-06-26",
-          "total": 1015750
+          "date": "2025-06-29",
+          "total": 1018940
         },
         {
-          "date": "2025-07-03",
-          "total": 1023090
+          "date": "2025-07-06",
+          "total": 1026440
         },
         {
-          "date": "2025-07-10",
-          "total": 1030580
+          "date": "2025-07-13",
+          "total": 1033930
         },
         {
-          "date": "2025-07-17",
-          "total": 1038650
+          "date": "2025-07-20",
+          "total": 1041990
         },
         {
-          "date": "2025-07-24",
-          "total": 1046270
+          "date": "2025-07-27",
+          "total": 1049250
         },
         {
-          "date": "2025-07-31",
-          "total": 1053260
+          "date": "2025-08-03",
+          "total": 1056130
         },
         {
-          "date": "2025-08-07",
-          "total": 1060310
+          "date": "2025-08-10",
+          "total": 1063240
         },
         {
-          "date": "2025-08-14",
-          "total": 1067100
+          "date": "2025-08-17",
+          "total": 1069950
         },
         {
-          "date": "2025-08-21",
-          "total": 1073530
+          "date": "2025-08-24",
+          "total": 1076070
         },
         {
-          "date": "2025-08-28",
-          "total": 1079630
+          "date": "2025-08-31",
+          "total": 1082140
         },
         {
-          "date": "2025-09-04",
-          "total": 1085410
+          "date": "2025-09-07",
+          "total": 1088150
         },
         {
-          "date": "2025-09-11",
-          "total": 1091890
+          "date": "2025-09-14",
+          "total": 1094610
         },
         {
-          "date": "2025-09-18",
-          "total": 1098380
+          "date": "2025-09-21",
+          "total": 1101610
         },
         {
-          "date": "2025-09-25",
-          "total": 1105490
+          "date": "2025-09-28",
+          "total": 1108510
         },
         {
-          "date": "2025-10-02",
-          "total": 1112460
+          "date": "2025-10-05",
+          "total": 1115250
         },
         {
-          "date": "2025-10-09",
-          "total": 1119390
+          "date": "2025-10-12",
+          "total": 1122810
         },
         {
-          "date": "2025-10-16",
-          "total": 1127300
+          "date": "2025-10-19",
+          "total": 1130180
         },
         {
-          "date": "2025-10-23",
-          "total": 1134170
+          "date": "2025-10-26",
+          "total": 1136890
         },
         {
-          "date": "2025-10-30",
-          "total": 1140860
+          "date": "2025-11-02",
+          "total": 1143670
         },
         {
-          "date": "2025-11-06",
-          "total": 1147740
+          "date": "2025-11-09",
+          "total": 1151070
         },
         {
-          "date": "2025-11-13",
-          "total": 1155360
+          "date": "2025-11-16",
+          "total": 1158260
         },
         {
-          "date": "2025-11-20",
-          "total": 1162120
+          "date": "2025-11-23",
+          "total": 1165260
         },
         {
-          "date": "2025-11-27",
-          "total": 1169690
+          "date": "2025-11-30",
+          "total": 1172860
         },
         {
-          "date": "2025-12-04",
-          "total": 1177370
+          "date": "2025-12-07",
+          "total": 1180870
         },
         {
-          "date": "2025-12-11",
-          "total": 1185080
+          "date": "2025-12-14",
+          "total": 1188490
         },
         {
-          "date": "2025-12-18",
-          "total": 1193300
+          "date": "2025-12-21",
+          "total": 1196740
         },
         {
-          "date": "2025-12-25",
-          "total": 1201230
+          "date": "2025-12-28",
+          "total": 1204510
         },
         {
-          "date": "2026-01-01",
-          "total": 1208970
+          "date": "2026-01-04",
+          "total": 1211530
         },
         {
-          "date": "2026-01-08",
-          "total": 1215900
+          "date": "2026-01-11",
+          "total": 1218940
         },
         {
-          "date": "2026-01-15",
-          "total": 1223090
+          "date": "2026-01-18",
+          "total": 1226420
         },
         {
-          "date": "2026-01-22",
-          "total": 1230810
+          "date": "2026-01-25",
+          "total": 1234040
         },
         {
-          "date": "2026-01-29",
-          "total": 1237400
+          "date": "2026-02-01",
+          "total": 1240680
         },
         {
-          "date": "2026-02-05",
-          "total": 1243840
+          "date": "2026-02-08",
+          "total": 1246330
         },
         {
-          "date": "2026-02-12",
-          "total": 1250150
+          "date": "2026-02-15",
+          "total": 1253270
         },
         {
-          "date": "2026-02-19",
-          "total": 1256910
+          "date": "2026-02-22",
+          "total": 1259780
         },
         {
-          "date": "2026-02-26",
-          "total": 1263850
+          "date": "2026-03-01",
+          "total": 1266770
         },
         {
-          "date": "2026-03-05",
-          "total": 1270400
+          "date": "2026-03-08",
+          "total": 1273290
         },
         {
-          "date": "2026-03-12",
-          "total": 1276760
+          "date": "2026-03-15",
+          "total": 1279170
         },
         {
-          "date": "2026-03-19",
-          "total": 1284090
+          "date": "2026-03-22",
+          "total": 1287880
         },
         {
-          "date": "2026-03-26",
-          "total": 1292170
+          "date": "2026-03-29",
+          "total": 1295830
         },
         {
-          "date": "2026-04-02",
-          "total": 1300030
+          "date": "2026-04-05",
+          "total": 1303550
         },
         {
-          "date": "2026-04-09",
-          "total": 1307540
+          "date": "2026-04-12",
+          "total": 1311180
         },
         {
-          "date": "2026-04-16",
-          "total": 1315070
+          "date": "2026-04-19",
+          "total": 1318220
         },
         {
-          "date": "2026-04-23",
-          "total": 1322550
+          "date": "2026-04-26",
+          "total": 1325650
         },
         {
-          "date": "2026-04-30",
-          "total": 1330290
+          "date": "2026-05-03",
+          "total": 1334030
         },
         {
-          "date": "2026-05-07",
-          "total": 1338060
+          "date": "2026-05-10",
+          "total": 1341110
         },
         {
-          "date": "2026-05-14",
-          "total": 1345240
+          "date": "2026-05-17",
+          "total": 1348790
         },
         {
-          "date": "2026-05-21",
-          "total": 1352980
+          "date": "2026-05-24",
+          "total": 1355920
         },
         {
-          "date": "2026-05-28",
-          "total": 1360110
+          "date": "2026-05-31",
+          "total": 1364060
         },
         {
-          "date": "2026-06-04",
-          "total": 1369340
+          "date": "2026-06-07",
+          "total": 1373620
         },
         {
-          "date": "2026-06-11",
-          "total": 1378820
+          "date": "2026-06-14",
+          "total": 1382870
         },
         {
-          "date": "2026-06-18",
-          "total": 1388050
+          "date": "2026-06-21",
+          "total": 1391950
         },
         {
-          "date": "2026-06-25",
-          "total": 1397060
+          "date": "2026-06-28",
+          "total": 1400970
         },
         {
-          "date": "2026-07-02",
-          "total": 1405900
+          "date": "2026-07-05",
+          "total": 1409630
         }
       ]
     },
@@ -1689,26 +1901,26 @@
         {
           "key": "tank",
           "name": "Tanques",
-          "total": 12069,
-          "delta_30d": 100
+          "total": 12081,
+          "delta_30d": 101
         },
         {
           "key": "APC",
           "name": "Blindados (APC)",
-          "total": 24861,
-          "delta_30d": 195
+          "total": 24878,
+          "delta_30d": 194
         },
         {
           "key": "field artillery",
           "name": "Artillería",
-          "total": 45168,
-          "delta_30d": 2056
+          "total": 45388,
+          "delta_30d": 2073
         },
         {
           "key": "drone",
           "name": "Drones",
-          "total": 385190,
-          "delta_30d": 61428
+          "total": 390738,
+          "delta_30d": 60966
         },
         {
           "key": "aircraft",
@@ -1731,2507 +1943,2518 @@
         {
           "key": "cruise missiles",
           "name": "Misiles crucero",
-          "total": 4798,
-          "delta_30d": 105
+          "total": 4847,
+          "delta_30d": 114
         }
       ],
       "series": [
         {
-          "date": "2022-03-03",
-          "tank": 217,
-          "APC": 900,
-          "field artillery": 90,
-          "drone": 3,
-          "aircraft": 30,
-          "helicopter": 31,
+          "date": "2022-02-27",
+          "tank": 150,
+          "APC": 706,
+          "field artillery": 50,
+          "drone": 2,
+          "aircraft": 27,
+          "helicopter": 26,
           "naval ship": 2,
           "cruise missiles": 0
         },
         {
-          "date": "2022-03-10",
-          "tank": 335,
-          "APC": 1105,
-          "field artillery": 123,
+          "date": "2022-03-06",
+          "tank": 285,
+          "APC": 985,
+          "field artillery": 109,
+          "drone": 4,
+          "aircraft": 44,
+          "helicopter": 48,
+          "naval ship": 2,
+          "cruise missiles": 0
+        },
+        {
+          "date": "2022-03-13",
+          "tank": 374,
+          "APC": 1226,
+          "field artillery": 140,
           "drone": 7,
-          "aircraft": 49,
-          "helicopter": 81,
+          "aircraft": 74,
+          "helicopter": 86,
           "naval ship": 3,
           "cruise missiles": 0
         },
         {
-          "date": "2022-03-17",
-          "tank": 444,
-          "APC": 1435,
-          "field artillery": 201,
-          "drone": 11,
-          "aircraft": 86,
-          "helicopter": 108,
+          "date": "2022-03-20",
+          "tank": 476,
+          "APC": 1487,
+          "field artillery": 230,
+          "drone": 21,
+          "aircraft": 96,
+          "helicopter": 118,
           "naval ship": 3,
           "cruise missiles": 0
         },
         {
-          "date": "2022-03-24",
-          "tank": 530,
-          "APC": 1597,
-          "field artillery": 280,
-          "drone": 50,
-          "aircraft": 108,
-          "helicopter": 124,
-          "naval ship": 4,
-          "cruise missiles": 0
-        },
-        {
-          "date": "2022-03-31",
-          "tank": 614,
-          "APC": 1735,
-          "field artillery": 311,
-          "drone": 83,
-          "aircraft": 135,
-          "helicopter": 131,
+          "date": "2022-03-27",
+          "tank": 582,
+          "APC": 1664,
+          "field artillery": 294,
+          "drone": 56,
+          "aircraft": 121,
+          "helicopter": 127,
           "naval ship": 7,
           "cruise missiles": 0
         },
         {
-          "date": "2022-04-07",
-          "tank": 698,
-          "APC": 1891,
-          "field artillery": 332,
-          "drone": 111,
-          "aircraft": 150,
-          "helicopter": 135,
+          "date": "2022-04-03",
+          "tank": 644,
+          "APC": 1830,
+          "field artillery": 325,
+          "drone": 89,
+          "aircraft": 143,
+          "helicopter": 134,
           "naval ship": 7,
           "cruise missiles": 0
         },
         {
-          "date": "2022-04-14",
-          "tank": 753,
-          "APC": 1968,
-          "field artillery": 366,
-          "drone": 134,
-          "aircraft": 160,
-          "helicopter": 144,
+          "date": "2022-04-10",
+          "tank": 722,
+          "APC": 1911,
+          "field artillery": 342,
+          "drone": 112,
+          "aircraft": 152,
+          "helicopter": 137,
           "naval ship": 7,
           "cruise missiles": 0
         },
         {
-          "date": "2022-04-21",
-          "tank": 829,
-          "APC": 2118,
-          "field artillery": 393,
-          "drone": 166,
-          "aircraft": 172,
-          "helicopter": 151,
+          "date": "2022-04-17",
+          "tank": 773,
+          "APC": 2002,
+          "field artillery": 376,
+          "drone": 148,
+          "aircraft": 165,
+          "helicopter": 146,
           "naval ship": 8,
           "cruise missiles": 0
         },
         {
-          "date": "2022-04-28",
-          "tank": 970,
-          "APC": 2389,
-          "field artillery": 431,
-          "drone": 215,
-          "aircraft": 187,
-          "helicopter": 155,
+          "date": "2022-04-24",
+          "tank": 873,
+          "APC": 2238,
+          "field artillery": 408,
+          "drone": 191,
+          "aircraft": 179,
+          "helicopter": 154,
           "naval ship": 8,
           "cruise missiles": 0
         },
         {
-          "date": "2022-05-05",
-          "tank": 1092,
-          "APC": 2651,
-          "field artillery": 499,
-          "drone": 312,
-          "aircraft": 196,
+          "date": "2022-05-01",
+          "tank": 1026,
+          "APC": 2471,
+          "field artillery": 451,
+          "drone": 245,
+          "aircraft": 192,
           "helicopter": 155,
-          "naval ship": 10,
-          "cruise missiles": 89
+          "naval ship": 8,
+          "cruise missiles": 84
         },
         {
-          "date": "2022-05-12",
-          "tank": 1195,
-          "APC": 2873,
-          "field artillery": 534,
-          "drone": 398,
+          "date": "2022-05-08",
+          "tank": 1130,
+          "APC": 2741,
+          "field artillery": 509,
+          "drone": 360,
           "aircraft": 199,
-          "helicopter": 161,
-          "naval ship": 13,
-          "cruise missiles": 94
+          "helicopter": 156,
+          "naval ship": 12,
+          "cruise missiles": 92
         },
         {
-          "date": "2022-05-19",
-          "tank": 1254,
-          "APC": 3063,
-          "field artillery": 595,
-          "drone": 455,
-          "aircraft": 203,
-          "helicopter": 167,
+          "date": "2022-05-15",
+          "tank": 1220,
+          "APC": 2958,
+          "field artillery": 555,
+          "drone": 416,
+          "aircraft": 200,
+          "helicopter": 164,
           "naval ship": 13,
-          "cruise missiles": 103
+          "cruise missiles": 95
         },
         {
-          "date": "2022-05-26",
-          "tank": 1315,
-          "APC": 3235,
-          "field artillery": 617,
-          "drone": 502,
-          "aircraft": 206,
+          "date": "2022-05-22",
+          "tank": 1285,
+          "APC": 3141,
+          "field artillery": 599,
+          "drone": 470,
+          "aircraft": 204,
           "helicopter": 170,
           "naval ship": 13,
-          "cruise missiles": 114
+          "cruise missiles": 107
         },
         {
-          "date": "2022-06-02",
-          "tank": 1363,
-          "APC": 3354,
-          "field artillery": 661,
-          "drone": 521,
+          "date": "2022-05-29",
+          "tank": 1338,
+          "APC": 3270,
+          "field artillery": 631,
+          "drone": 504,
+          "aircraft": 207,
+          "helicopter": 174,
+          "naval ship": 13,
+          "cruise missiles": 116
+        },
+        {
+          "date": "2022-06-05",
+          "tank": 1381,
+          "APC": 3392,
+          "field artillery": 686,
+          "drone": 548,
           "aircraft": 210,
           "helicopter": 175,
           "naval ship": 13,
-          "cruise missiles": 120
+          "cruise missiles": 122
         },
         {
-          "date": "2022-06-09",
-          "tank": 1398,
-          "APC": 3438,
-          "field artillery": 711,
-          "drone": 562,
+          "date": "2022-06-12",
+          "tank": 1430,
+          "APC": 3484,
+          "field artillery": 715,
+          "drone": 582,
           "aircraft": 212,
           "helicopter": 178,
           "naval ship": 13,
           "cruise missiles": 125
         },
         {
-          "date": "2022-06-16",
-          "tank": 1449,
-          "APC": 3545,
-          "field artillery": 729,
-          "drone": 591,
-          "aircraft": 213,
-          "helicopter": 179,
-          "naval ship": 13,
-          "cruise missiles": 129
-        },
-        {
-          "date": "2022-06-23",
-          "tank": 1504,
-          "APC": 3632,
-          "field artillery": 756,
-          "drone": 620,
+          "date": "2022-06-19",
+          "tank": 1468,
+          "APC": 3577,
+          "field artillery": 745,
+          "drone": 598,
           "aircraft": 216,
-          "helicopter": 183,
+          "helicopter": 181,
           "naval ship": 14,
-          "cruise missiles": 137
+          "cruise missiles": 130
         },
         {
-          "date": "2022-06-30",
-          "tank": 1573,
-          "APC": 3726,
-          "field artillery": 790,
-          "drone": 641,
+          "date": "2022-06-26",
+          "tank": 1532,
+          "APC": 3659,
+          "field artillery": 764,
+          "drone": 630,
           "aircraft": 217,
-          "helicopter": 185,
+          "helicopter": 184,
           "naval ship": 14,
-          "cruise missiles": 143
+          "cruise missiles": 139
         },
         {
-          "date": "2022-07-07",
-          "tank": 1602,
-          "APC": 3797,
-          "field artillery": 815,
-          "drone": 667,
+          "date": "2022-07-03",
+          "tank": 1584,
+          "APC": 3744,
+          "field artillery": 801,
+          "drone": 654,
           "aircraft": 217,
           "helicopter": 187,
           "naval ship": 15,
-          "cruise missiles": 155
+          "cruise missiles": 144
         },
         {
-          "date": "2022-07-14",
-          "tank": 1667,
-          "APC": 3832,
-          "field artillery": 840,
-          "drone": 681,
-          "aircraft": 219,
+          "date": "2022-07-10",
+          "tank": 1641,
+          "APC": 3823,
+          "field artillery": 834,
+          "drone": 676,
+          "aircraft": 217,
           "helicopter": 188,
           "naval ship": 15,
           "cruise missiles": 155
         },
         {
-          "date": "2022-07-21",
-          "tank": 1704,
-          "APC": 3912,
-          "field artillery": 859,
-          "drone": 710,
+          "date": "2022-07-17",
+          "tank": 1684,
+          "APC": 3879,
+          "field artillery": 846,
+          "drone": 688,
+          "aircraft": 220,
+          "helicopter": 188,
+          "naval ship": 15,
+          "cruise missiles": 166
+        },
+        {
+          "date": "2022-07-24",
+          "tank": 1722,
+          "APC": 3942,
+          "field artillery": 869,
+          "drone": 714,
           "aircraft": 221,
           "helicopter": 188,
           "naval ship": 15,
-          "cruise missiles": 167
+          "cruise missiles": 170
         },
         {
-          "date": "2022-07-28",
-          "tank": 1742,
-          "APC": 3979,
-          "field artillery": 894,
-          "drone": 729,
-          "aircraft": 222,
+          "date": "2022-07-31",
+          "tank": 1763,
+          "APC": 4004,
+          "field artillery": 916,
+          "drone": 735,
+          "aircraft": 223,
           "helicopter": 190,
           "naval ship": 15,
           "cruise missiles": 174
         },
         {
-          "date": "2022-08-04",
-          "tank": 1789,
-          "APC": 4026,
-          "field artillery": 946,
-          "drone": 742,
+          "date": "2022-08-07",
+          "tank": 1805,
+          "APC": 4055,
+          "field artillery": 958,
+          "drone": 750,
           "aircraft": 223,
           "helicopter": 191,
           "naval ship": 15,
           "cruise missiles": 182
         },
         {
-          "date": "2022-08-11",
-          "tank": 1846,
-          "APC": 4100,
-          "field artillery": 974,
-          "drone": 772,
-          "aircraft": 232,
-          "helicopter": 193,
+          "date": "2022-08-14",
+          "tank": 1864,
+          "APC": 4126,
+          "field artillery": 980,
+          "drone": 784,
+          "aircraft": 233,
+          "helicopter": 194,
           "naval ship": 15,
-          "cruise missiles": 185
+          "cruise missiles": 187
         },
         {
-          "date": "2022-08-18",
-          "tank": 1889,
-          "APC": 4179,
-          "field artillery": 1010,
-          "drone": 793,
+          "date": "2022-08-21",
+          "tank": 1912,
+          "APC": 4224,
+          "field artillery": 1028,
+          "drone": 806,
           "aircraft": 234,
           "helicopter": 197,
           "naval ship": 15,
           "cruise missiles": 190
         },
         {
-          "date": "2022-08-25",
-          "tank": 1929,
-          "APC": 4245,
-          "field artillery": 1037,
-          "drone": 828,
+          "date": "2022-08-28",
+          "tank": 1942,
+          "APC": 4257,
+          "field artillery": 1050,
+          "drone": 838,
           "aircraft": 234,
           "helicopter": 202,
           "naval ship": 15,
           "cruise missiles": 196
         },
         {
-          "date": "2022-09-01",
-          "tank": 1997,
-          "APC": 4345,
-          "field artillery": 1115,
-          "drone": 851,
-          "aircraft": 234,
-          "helicopter": 205,
+          "date": "2022-09-04",
+          "tank": 2049,
+          "APC": 4430,
+          "field artillery": 1147,
+          "drone": 864,
+          "aircraft": 236,
+          "helicopter": 206,
           "naval ship": 15,
-          "cruise missiles": 196
+          "cruise missiles": 203
         },
         {
-          "date": "2022-09-08",
-          "tank": 2112,
-          "APC": 4557,
-          "field artillery": 1226,
-          "drone": 884,
-          "aircraft": 239,
-          "helicopter": 210,
+          "date": "2022-09-11",
+          "tank": 2154,
+          "APC": 4617,
+          "field artillery": 1263,
+          "drone": 902,
+          "aircraft": 242,
+          "helicopter": 213,
           "naval ship": 15,
-          "cruise missiles": 214
+          "cruise missiles": 216
         },
         {
-          "date": "2022-09-15",
-          "tank": 2193,
-          "APC": 4682,
-          "field artillery": 1295,
-          "drone": 908,
-          "aircraft": 250,
-          "helicopter": 215,
+          "date": "2022-09-18",
+          "tank": 2210,
+          "APC": 4718,
+          "field artillery": 1309,
+          "drone": 918,
+          "aircraft": 251,
+          "helicopter": 217,
           "naval ship": 15,
-          "cruise missiles": 233
+          "cruise missiles": 238
         },
         {
-          "date": "2022-09-22",
-          "tank": 2236,
-          "APC": 4776,
-          "field artillery": 1341,
-          "drone": 941,
-          "aircraft": 253,
-          "helicopter": 218,
+          "date": "2022-09-25",
+          "tank": 2275,
+          "APC": 4832,
+          "field artillery": 1368,
+          "drone": 966,
+          "aircraft": 259,
+          "helicopter": 220,
           "naval ship": 15,
-          "cruise missiles": 240
+          "cruise missiles": 241
         },
         {
-          "date": "2022-09-29",
-          "tank": 2325,
-          "APC": 4909,
-          "field artillery": 1385,
-          "drone": 995,
-          "aircraft": 262,
-          "helicopter": 224,
+          "date": "2022-10-02",
+          "tank": 2377,
+          "APC": 4975,
+          "field artillery": 1405,
+          "drone": 1015,
+          "aircraft": 264,
+          "helicopter": 227,
           "naval ship": 15,
           "cruise missiles": 246
         },
         {
-          "date": "2022-10-06",
-          "tank": 2449,
-          "APC": 5064,
-          "field artillery": 1424,
-          "drone": 1047,
+          "date": "2022-10-09",
+          "tank": 2486,
+          "APC": 5133,
+          "field artillery": 1477,
+          "drone": 1086,
           "aircraft": 266,
-          "helicopter": 232,
+          "helicopter": 235,
           "naval ship": 15,
-          "cruise missiles": 246
+          "cruise missiles": 247
         },
         {
-          "date": "2022-10-13",
-          "tank": 2511,
-          "APC": 5167,
-          "field artillery": 1556,
-          "drone": 1182,
+          "date": "2022-10-16",
+          "tank": 2529,
+          "APC": 5193,
+          "field artillery": 1589,
+          "drone": 1224,
           "aircraft": 268,
-          "helicopter": 240,
+          "helicopter": 242,
           "naval ship": 16,
           "cruise missiles": 316
         },
         {
-          "date": "2022-10-20",
-          "tank": 2567,
-          "APC": 5255,
-          "field artillery": 1646,
-          "drone": 1311,
-          "aircraft": 269,
-          "helicopter": 243,
+          "date": "2022-10-23",
+          "tank": 2584,
+          "APC": 5284,
+          "field artillery": 1667,
+          "drone": 1361,
+          "aircraft": 270,
+          "helicopter": 245,
           "naval ship": 16,
-          "cruise missiles": 329
+          "cruise missiles": 350
         },
         {
-          "date": "2022-10-27",
-          "tank": 2631,
-          "APC": 5364,
-          "field artillery": 1690,
-          "drone": 1398,
-          "aircraft": 271,
-          "helicopter": 249,
+          "date": "2022-10-30",
+          "tank": 2672,
+          "APC": 5453,
+          "field artillery": 1724,
+          "drone": 1412,
+          "aircraft": 274,
+          "helicopter": 252,
           "naval ship": 16,
-          "cruise missiles": 351
+          "cruise missiles": 352
         },
         {
-          "date": "2022-11-03",
-          "tank": 2734,
-          "APC": 5552,
-          "field artillery": 1755,
-          "drone": 1442,
+          "date": "2022-11-06",
+          "tank": 2765,
+          "APC": 5611,
+          "field artillery": 1781,
+          "drone": 1465,
           "aircraft": 277,
-          "helicopter": 258,
-          "naval ship": 16,
-          "cruise missiles": 397
-        },
-        {
-          "date": "2022-11-10",
-          "tank": 2804,
-          "APC": 5682,
-          "field artillery": 1805,
-          "drone": 1499,
-          "aircraft": 278,
           "helicopter": 260,
           "naval ship": 16,
           "cruise missiles": 399
         },
         {
-          "date": "2022-11-17",
-          "tank": 2878,
-          "APC": 5804,
-          "field artillery": 1860,
-          "drone": 1531,
+          "date": "2022-11-13",
+          "tank": 2840,
+          "APC": 5742,
+          "field artillery": 1837,
+          "drone": 1507,
           "aircraft": 278,
           "helicopter": 261,
           "naval ship": 16,
-          "cruise missiles": 474
+          "cruise missiles": 399
         },
         {
-          "date": "2022-11-24",
-          "tank": 2898,
-          "APC": 5837,
-          "field artillery": 1889,
-          "drone": 1547,
+          "date": "2022-11-20",
+          "tank": 2886,
+          "APC": 5817,
+          "field artillery": 1868,
+          "drone": 1537,
+          "aircraft": 278,
+          "helicopter": 261,
+          "naval ship": 16,
+          "cruise missiles": 480
+        },
+        {
+          "date": "2022-11-27",
+          "tank": 2905,
+          "APC": 5856,
+          "field artillery": 1897,
+          "drone": 1555,
           "aircraft": 278,
           "helicopter": 261,
           "naval ship": 16,
           "cruise missiles": 531
         },
         {
-          "date": "2022-12-01",
-          "tank": 2915,
-          "APC": 5877,
-          "field artillery": 1904,
-          "drone": 1562,
-          "aircraft": 280,
-          "helicopter": 261,
+          "date": "2022-12-04",
+          "tank": 2922,
+          "APC": 5892,
+          "field artillery": 1908,
+          "drone": 1573,
+          "aircraft": 281,
+          "helicopter": 263,
           "naval ship": 16,
           "cruise missiles": 531
         },
         {
-          "date": "2022-12-08",
-          "tank": 2937,
-          "APC": 5911,
-          "field artillery": 1925,
-          "drone": 1603,
+          "date": "2022-12-11",
+          "tank": 2942,
+          "APC": 5920,
+          "field artillery": 1928,
+          "drone": 1613,
           "aircraft": 281,
           "helicopter": 264,
           "naval ship": 16,
           "cruise missiles": 592
         },
         {
-          "date": "2022-12-15",
-          "tank": 2975,
-          "APC": 5946,
-          "field artillery": 1943,
-          "drone": 1644,
+          "date": "2022-12-18",
+          "tank": 2987,
+          "APC": 5963,
+          "field artillery": 1948,
+          "drone": 1649,
           "aircraft": 281,
           "helicopter": 264,
           "naval ship": 16,
-          "cruise missiles": 592
+          "cruise missiles": 653
         },
         {
-          "date": "2022-12-22",
-          "tank": 3002,
-          "APC": 5981,
-          "field artillery": 1978,
-          "drone": 1693,
+          "date": "2022-12-25",
+          "tank": 3011,
+          "APC": 6010,
+          "field artillery": 1991,
+          "drone": 1706,
           "aircraft": 283,
           "helicopter": 267,
           "naval ship": 16,
           "cruise missiles": 653
         },
         {
-          "date": "2022-12-29",
-          "tank": 3018,
-          "APC": 6047,
-          "field artillery": 2004,
-          "drone": 1717,
+          "date": "2023-01-01",
+          "tank": 3031,
+          "APC": 6084,
+          "field artillery": 2021,
+          "drone": 1792,
           "aircraft": 283,
-          "helicopter": 268,
-          "naval ship": 16,
-          "cruise missiles": 653
-        },
-        {
-          "date": "2023-01-05",
-          "tank": 3041,
-          "APC": 6108,
-          "field artillery": 2051,
-          "drone": 1844,
-          "aircraft": 284,
-          "helicopter": 271,
+          "helicopter": 269,
           "naval ship": 16,
           "cruise missiles": 723
         },
         {
-          "date": "2023-01-12",
-          "tank": 3094,
-          "APC": 6159,
-          "field artillery": 2082,
-          "drone": 1865,
+          "date": "2023-01-08",
+          "tank": 3069,
+          "APC": 6130,
+          "field artillery": 2065,
+          "drone": 1849,
           "aircraft": 285,
+          "helicopter": 272,
+          "naval ship": 16,
+          "cruise missiles": 723
+        },
+        {
+          "date": "2023-01-15",
+          "tank": 3106,
+          "APC": 6183,
+          "field artillery": 2094,
+          "drone": 1872,
+          "aircraft": 286,
           "helicopter": 276,
           "naval ship": 17,
-          "cruise missiles": 723
+          "cruise missiles": 749
         },
         {
-          "date": "2023-01-19",
-          "tank": 3136,
-          "APC": 6235,
-          "field artillery": 2122,
-          "drone": 1882,
+          "date": "2023-01-22",
+          "tank": 3145,
+          "APC": 6268,
+          "field artillery": 2144,
+          "drone": 1892,
           "aircraft": 287,
           "helicopter": 277,
           "naval ship": 17,
           "cruise missiles": 749
         },
         {
-          "date": "2023-01-26",
-          "tank": 3175,
-          "APC": 6334,
-          "field artillery": 2169,
-          "drone": 1908,
-          "aircraft": 292,
-          "helicopter": 282,
-          "naval ship": 18,
-          "cruise missiles": 749
-        },
-        {
-          "date": "2023-02-02",
-          "tank": 3211,
-          "APC": 6382,
-          "field artillery": 2212,
-          "drone": 1951,
+          "date": "2023-01-29",
+          "tank": 3197,
+          "APC": 6366,
+          "field artillery": 2195,
+          "drone": 1947,
           "aircraft": 293,
           "helicopter": 284,
           "naval ship": 18,
           "cruise missiles": 796
         },
         {
-          "date": "2023-02-09",
-          "tank": 3255,
-          "APC": 6468,
-          "field artillery": 2244,
-          "drone": 1967,
-          "aircraft": 295,
-          "helicopter": 285,
+          "date": "2023-02-05",
+          "tank": 3220,
+          "APC": 6405,
+          "field artillery": 2226,
+          "drone": 1958,
+          "aircraft": 294,
+          "helicopter": 284,
           "naval ship": 18,
           "cruise missiles": 796
         },
         {
-          "date": "2023-02-16",
-          "tank": 3296,
-          "APC": 6517,
-          "field artillery": 2306,
-          "drone": 2012,
-          "aircraft": 298,
-          "helicopter": 287,
+          "date": "2023-02-12",
+          "tank": 3280,
+          "APC": 6488,
+          "field artillery": 2287,
+          "drone": 2007,
+          "aircraft": 296,
+          "helicopter": 286,
           "naval ship": 18,
           "cruise missiles": 857
         },
         {
-          "date": "2023-02-23",
-          "tank": 3350,
-          "APC": 6593,
-          "field artillery": 2352,
-          "drone": 2029,
-          "aircraft": 299,
+          "date": "2023-02-19",
+          "tank": 3310,
+          "APC": 6545,
+          "field artillery": 2327,
+          "drone": 2016,
+          "aircraft": 298,
           "helicopter": 287,
           "naval ship": 18,
           "cruise missiles": 873
         },
         {
-          "date": "2023-03-02",
-          "tank": 3397,
-          "APC": 6658,
-          "field artillery": 2398,
-          "drone": 2058,
-          "aircraft": 300,
+          "date": "2023-02-26",
+          "tank": 3381,
+          "APC": 6615,
+          "field artillery": 2380,
+          "drone": 2037,
+          "aircraft": 299,
           "helicopter": 288,
           "naval ship": 18,
           "cruise missiles": 873
         },
         {
-          "date": "2023-03-09",
-          "tank": 3441,
-          "APC": 6736,
-          "field artillery": 2465,
-          "drone": 2098,
-          "aircraft": 303,
+          "date": "2023-03-05",
+          "tank": 3414,
+          "APC": 6692,
+          "field artillery": 2426,
+          "drone": 2071,
+          "aircraft": 302,
           "helicopter": 289,
           "naval ship": 18,
           "cruise missiles": 873
         },
         {
-          "date": "2023-03-16",
-          "tank": 3504,
-          "APC": 6810,
-          "field artillery": 2539,
-          "drone": 2145,
-          "aircraft": 305,
+          "date": "2023-03-12",
+          "tank": 3466,
+          "APC": 6769,
+          "field artillery": 2487,
+          "drone": 2108,
+          "aircraft": 304,
           "helicopter": 289,
           "naval ship": 18,
           "cruise missiles": 907
         },
         {
-          "date": "2023-03-23",
-          "tank": 3570,
-          "APC": 6898,
-          "field artillery": 2608,
-          "drone": 2203,
+          "date": "2023-03-19",
+          "tank": 3532,
+          "APC": 6853,
+          "field artillery": 2568,
+          "drone": 2159,
           "aircraft": 305,
           "helicopter": 290,
           "naval ship": 18,
-          "cruise missiles": 909
+          "cruise missiles": 907
         },
         {
-          "date": "2023-03-30",
-          "tank": 3610,
-          "APC": 6974,
-          "field artillery": 2671,
-          "drone": 2239,
+          "date": "2023-03-26",
+          "tank": 3595,
+          "APC": 6947,
+          "field artillery": 2631,
+          "drone": 2216,
+          "aircraft": 305,
+          "helicopter": 291,
+          "naval ship": 18,
+          "cruise missiles": 911
+        },
+        {
+          "date": "2023-04-02",
+          "tank": 3618,
+          "APC": 6986,
+          "field artillery": 2687,
+          "drone": 2249,
           "aircraft": 306,
           "helicopter": 291,
           "naval ship": 18,
           "cruise missiles": 911
         },
         {
-          "date": "2023-04-06",
-          "tank": 3631,
-          "APC": 7013,
-          "field artillery": 2714,
-          "drone": 2287,
-          "aircraft": 306,
+          "date": "2023-04-09",
+          "tank": 3636,
+          "APC": 7024,
+          "field artillery": 2740,
+          "drone": 2312,
+          "aircraft": 307,
           "helicopter": 292,
           "naval ship": 18,
           "cruise missiles": 911
         },
         {
-          "date": "2023-04-13",
-          "tank": 3646,
-          "APC": 7053,
-          "field artillery": 2777,
+          "date": "2023-04-16",
+          "tank": 3657,
+          "APC": 7083,
+          "field artillery": 2795,
           "drone": 2339,
-          "aircraft": 307,
-          "helicopter": 293,
-          "naval ship": 18,
-          "cruise missiles": 911
-        },
-        {
-          "date": "2023-04-20",
-          "tank": 3667,
-          "APC": 7120,
-          "field artillery": 2825,
-          "drone": 2386,
           "aircraft": 308,
           "helicopter": 293,
           "naval ship": 18,
           "cruise missiles": 911
         },
         {
-          "date": "2023-04-27",
-          "tank": 3694,
-          "APC": 7178,
-          "field artillery": 2887,
-          "drone": 2461,
+          "date": "2023-04-23",
+          "tank": 3675,
+          "APC": 7131,
+          "field artillery": 2837,
+          "drone": 2402,
           "aircraft": 308,
           "helicopter": 294,
           "naval ship": 18,
           "cruise missiles": 911
         },
         {
-          "date": "2023-05-04",
-          "tank": 3707,
-          "APC": 7216,
-          "field artillery": 2962,
-          "drone": 2523,
+          "date": "2023-04-30",
+          "tank": 3699,
+          "APC": 7189,
+          "field artillery": 2914,
+          "drone": 2475,
+          "aircraft": 308,
+          "helicopter": 294,
+          "naval ship": 18,
+          "cruise missiles": 932
+        },
+        {
+          "date": "2023-05-07",
+          "tank": 3723,
+          "APC": 7248,
+          "field artillery": 3010,
+          "drone": 2572,
           "aircraft": 308,
           "helicopter": 294,
           "naval ship": 18,
           "cruise missiles": 947
         },
         {
-          "date": "2023-05-11",
-          "tank": 3740,
-          "APC": 7287,
-          "field artillery": 3053,
-          "drone": 2627,
+          "date": "2023-05-14",
+          "tank": 3756,
+          "APC": 7325,
+          "field artillery": 3116,
+          "drone": 2696,
           "aircraft": 308,
           "helicopter": 294,
           "naval ship": 18,
           "cruise missiles": 970
         },
         {
-          "date": "2023-05-18",
-          "tank": 3773,
-          "APC": 7373,
-          "field artillery": 3198,
-          "drone": 2759,
+          "date": "2023-05-21",
+          "tank": 3783,
+          "APC": 7398,
+          "field artillery": 3258,
+          "drone": 2822,
           "aircraft": 308,
           "helicopter": 294,
           "naval ship": 18,
-          "cruise missiles": 990
+          "cruise missiles": 1011
         },
         {
-          "date": "2023-05-25",
-          "tank": 3795,
-          "APC": 7432,
-          "field artillery": 3359,
-          "drone": 2907,
-          "aircraft": 309,
-          "helicopter": 296,
-          "naval ship": 18,
-          "cruise missiles": 1015
-        },
-        {
-          "date": "2023-06-01",
-          "tank": 3804,
-          "APC": 7478,
-          "field artillery": 3474,
-          "drone": 3131,
+          "date": "2023-05-28",
+          "tank": 3797,
+          "APC": 7456,
+          "field artillery": 3425,
+          "drone": 2993,
           "aircraft": 313,
           "helicopter": 298,
           "naval ship": 18,
-          "cruise missiles": 1107
+          "cruise missiles": 1056
         },
         {
-          "date": "2023-06-08",
-          "tank": 3891,
-          "APC": 7576,
-          "field artillery": 3668,
-          "drone": 3234,
+          "date": "2023-06-04",
+          "tank": 3837,
+          "APC": 7512,
+          "field artillery": 3555,
+          "drone": 3175,
+          "aircraft": 313,
+          "helicopter": 298,
+          "naval ship": 18,
+          "cruise missiles": 1132
+        },
+        {
+          "date": "2023-06-11",
+          "tank": 3926,
+          "APC": 7631,
+          "field artillery": 3736,
+          "drone": 3300,
           "aircraft": 314,
           "helicopter": 299,
           "naval ship": 18,
-          "cruise missiles": 1171
+          "cruise missiles": 1183
         },
         {
-          "date": "2023-06-15",
-          "tank": 3955,
-          "APC": 7667,
-          "field artillery": 3793,
-          "drone": 3333,
+          "date": "2023-06-18",
+          "tank": 3984,
+          "APC": 7729,
+          "field artillery": 3847,
+          "drone": 3371,
           "aircraft": 314,
-          "helicopter": 301,
+          "helicopter": 304,
           "naval ship": 18,
-          "cruise missiles": 1199
+          "cruise missiles": 1211
         },
         {
-          "date": "2023-06-22",
-          "tank": 4013,
-          "APC": 7783,
-          "field artillery": 3941,
-          "drone": 3438,
+          "date": "2023-06-25",
+          "tank": 4030,
+          "APC": 7806,
+          "field artillery": 4034,
+          "drone": 3472,
           "aircraft": 314,
-          "helicopter": 307,
+          "helicopter": 308,
           "naval ship": 18,
-          "cruise missiles": 1214
+          "cruise missiles": 1259
         },
         {
-          "date": "2023-06-29",
-          "tank": 4038,
-          "APC": 7857,
-          "field artillery": 4116,
-          "drone": 3513,
+          "date": "2023-07-02",
+          "tank": 4052,
+          "APC": 7888,
+          "field artillery": 4188,
+          "drone": 3557,
           "aircraft": 315,
           "helicopter": 308,
           "naval ship": 18,
           "cruise missiles": 1261
         },
         {
-          "date": "2023-07-06",
-          "tank": 4068,
-          "APC": 7932,
-          "field artillery": 4310,
-          "drone": 3635,
+          "date": "2023-07-09",
+          "tank": 4078,
+          "APC": 7964,
+          "field artillery": 4366,
+          "drone": 3685,
           "aircraft": 315,
           "helicopter": 309,
-          "naval ship": 18,
-          "cruise missiles": 1264
-        },
-        {
-          "date": "2023-07-13",
-          "tank": 4092,
-          "APC": 7999,
-          "field artillery": 4425,
-          "drone": 3752,
-          "aircraft": 315,
-          "helicopter": 310,
           "naval ship": 18,
           "cruise missiles": 1271
         },
         {
-          "date": "2023-07-20",
-          "tank": 4129,
-          "APC": 8065,
-          "field artillery": 4592,
-          "drone": 3918,
+          "date": "2023-07-16",
+          "tank": 4107,
+          "APC": 8026,
+          "field artillery": 4481,
+          "drone": 3820,
           "aircraft": 315,
           "helicopter": 310,
           "naval ship": 18,
-          "cruise missiles": 1293
+          "cruise missiles": 1273
         },
         {
-          "date": "2023-07-27",
-          "tank": 4186,
-          "APC": 8147,
-          "field artillery": 4745,
-          "drone": 3996,
+          "date": "2023-07-23",
+          "tank": 4151,
+          "APC": 8105,
+          "field artillery": 4658,
+          "drone": 3958,
+          "aircraft": 315,
+          "helicopter": 310,
+          "naval ship": 18,
+          "cruise missiles": 1298
+        },
+        {
+          "date": "2023-07-30",
+          "tank": 4205,
+          "APC": 8178,
+          "field artillery": 4795,
+          "drone": 4011,
           "aircraft": 315,
           "helicopter": 311,
           "naval ship": 18,
           "cruise missiles": 1347
         },
         {
-          "date": "2023-08-03",
-          "tank": 4224,
-          "APC": 8234,
-          "field artillery": 4892,
-          "drone": 4077,
+          "date": "2023-08-06",
+          "tank": 4237,
+          "APC": 8262,
+          "field artillery": 4965,
+          "drone": 4126,
           "aircraft": 315,
           "helicopter": 311,
           "naval ship": 18,
-          "cruise missiles": 1347
+          "cruise missiles": 1359
         },
         {
-          "date": "2023-08-10",
-          "tank": 4278,
-          "APC": 8303,
-          "field artillery": 5028,
-          "drone": 4179,
+          "date": "2023-08-13",
+          "tank": 4298,
+          "APC": 8335,
+          "field artillery": 5072,
+          "drone": 4204,
           "aircraft": 315,
           "helicopter": 313,
           "naval ship": 18,
-          "cruise missiles": 1377
+          "cruise missiles": 1379
         },
         {
-          "date": "2023-08-17",
-          "tank": 4329,
-          "APC": 8398,
-          "field artillery": 5169,
-          "drone": 4272,
-          "aircraft": 315,
-          "helicopter": 314,
-          "naval ship": 18,
-          "cruise missiles": 1406
-        },
-        {
-          "date": "2023-08-24",
-          "tank": 4375,
-          "APC": 8511,
-          "field artillery": 5333,
-          "drone": 4344,
+          "date": "2023-08-20",
+          "tank": 4346,
+          "APC": 8435,
+          "field artillery": 5245,
+          "drone": 4304,
           "aircraft": 315,
           "helicopter": 316,
           "naval ship": 18,
           "cruise missiles": 1406
         },
         {
-          "date": "2023-08-31",
-          "tank": 4436,
-          "APC": 8604,
-          "field artillery": 5507,
-          "drone": 4417,
+          "date": "2023-08-27",
+          "tank": 4396,
+          "APC": 8554,
+          "field artillery": 5403,
+          "drone": 4378,
           "aircraft": 315,
           "helicopter": 316,
           "naval ship": 18,
-          "cruise missiles": 1445
+          "cruise missiles": 1411
         },
         {
-          "date": "2023-09-07",
-          "tank": 4506,
-          "APC": 8703,
-          "field artillery": 5722,
-          "drone": 4541,
+          "date": "2023-09-03",
+          "tank": 4476,
+          "APC": 8649,
+          "field artillery": 5582,
+          "drone": 4444,
+          "aircraft": 315,
+          "helicopter": 316,
+          "naval ship": 18,
+          "cruise missiles": 1447
+        },
+        {
+          "date": "2023-09-10",
+          "tank": 4554,
+          "APC": 8755,
+          "field artillery": 5811,
+          "drone": 4593,
           "aircraft": 315,
           "helicopter": 316,
           "naval ship": 19,
           "cruise missiles": 1455
         },
         {
-          "date": "2023-09-14",
-          "tank": 4599,
-          "APC": 8810,
-          "field artillery": 5944,
-          "drone": 4697,
+          "date": "2023-09-17",
+          "tank": 4620,
+          "APC": 8828,
+          "field artillery": 6003,
+          "drone": 4742,
           "aircraft": 315,
           "helicopter": 316,
           "naval ship": 20,
           "cruise missiles": 1455
         },
         {
-          "date": "2023-09-21",
-          "tank": 4638,
-          "APC": 8883,
-          "field artillery": 6137,
-          "drone": 4850,
+          "date": "2023-09-24",
+          "tank": 4662,
+          "APC": 8914,
+          "field artillery": 6233,
+          "drone": 4888,
           "aircraft": 315,
           "helicopter": 316,
           "naval ship": 20,
-          "cruise missiles": 1479
+          "cruise missiles": 1518
         },
         {
-          "date": "2023-09-28",
-          "tank": 4679,
-          "APC": 8962,
-          "field artillery": 6375,
-          "drone": 4957,
-          "aircraft": 315,
+          "date": "2023-10-01",
+          "tank": 4702,
+          "APC": 8991,
+          "field artillery": 6477,
+          "drone": 5043,
+          "aircraft": 316,
           "helicopter": 316,
           "naval ship": 20,
           "cruise missiles": 1529
         },
         {
-          "date": "2023-10-05",
-          "tank": 4757,
-          "APC": 9052,
-          "field artillery": 6643,
-          "drone": 5129,
+          "date": "2023-10-08",
+          "tank": 4821,
+          "APC": 9123,
+          "field artillery": 6705,
+          "drone": 5190,
           "aircraft": 315,
           "helicopter": 316,
           "naval ship": 20,
           "cruise missiles": 1530
         },
         {
-          "date": "2023-10-12",
-          "tank": 4905,
-          "APC": 9264,
-          "field artillery": 6763,
-          "drone": 5247,
-          "aircraft": 316,
+          "date": "2023-10-15",
+          "tank": 4948,
+          "APC": 9362,
+          "field artillery": 6866,
+          "drone": 5269,
+          "aircraft": 317,
           "helicopter": 316,
           "naval ship": 20,
           "cruise missiles": 1531
         },
         {
-          "date": "2023-10-19",
-          "tank": 4992,
-          "APC": 9437,
-          "field artillery": 6983,
-          "drone": 5318,
+          "date": "2023-10-22",
+          "tank": 5081,
+          "APC": 9631,
+          "field artillery": 7032,
+          "drone": 5339,
           "aircraft": 320,
           "helicopter": 324,
           "naval ship": 20,
-          "cruise missiles": 1534
+          "cruise missiles": 1535
         },
         {
-          "date": "2023-10-26",
-          "tank": 5141,
-          "APC": 9715,
-          "field artillery": 7155,
-          "drone": 5389,
+          "date": "2023-10-29",
+          "tank": 5175,
+          "APC": 9758,
+          "field artillery": 7188,
+          "drone": 5399,
           "aircraft": 320,
           "helicopter": 324,
           "naval ship": 20,
-          "cruise missiles": 1538
+          "cruise missiles": 1544
         },
         {
-          "date": "2023-11-02",
-          "tank": 5241,
-          "APC": 9877,
-          "field artillery": 7292,
-          "drone": 5488,
+          "date": "2023-11-05",
+          "tank": 5284,
+          "APC": 9953,
+          "field artillery": 7375,
+          "drone": 5534,
           "aircraft": 322,
           "helicopter": 324,
           "naval ship": 20,
-          "cruise missiles": 1549
+          "cruise missiles": 1554
         },
         {
-          "date": "2023-11-09",
-          "tank": 5316,
-          "APC": 10014,
-          "field artillery": 7475,
-          "drone": 5593,
+          "date": "2023-11-12",
+          "tank": 5349,
+          "APC": 10073,
+          "field artillery": 7559,
+          "drone": 5632,
           "aircraft": 322,
           "helicopter": 324,
-          "naval ship": 20,
-          "cruise missiles": 1557
+          "naval ship": 22,
+          "cruise missiles": 1560
         },
         {
-          "date": "2023-11-16",
-          "tank": 5388,
-          "APC": 10121,
-          "field artillery": 7683,
-          "drone": 5689,
+          "date": "2023-11-19",
+          "tank": 5435,
+          "APC": 10166,
+          "field artillery": 7744,
+          "drone": 5755,
           "aircraft": 323,
           "helicopter": 324,
           "naval ship": 22,
           "cruise missiles": 1563
         },
         {
-          "date": "2023-11-23",
-          "tank": 5466,
-          "APC": 10224,
-          "field artillery": 7802,
-          "drone": 5799,
+          "date": "2023-11-26",
+          "tank": 5513,
+          "APC": 10279,
+          "field artillery": 7874,
+          "drone": 5901,
           "aircraft": 323,
           "helicopter": 324,
           "naval ship": 22,
-          "cruise missiles": 1564
+          "cruise missiles": 1565
         },
         {
-          "date": "2023-11-30",
-          "tank": 5551,
-          "APC": 10340,
-          "field artillery": 7909,
-          "drone": 5954,
+          "date": "2023-12-03",
+          "tank": 5575,
+          "APC": 10396,
+          "field artillery": 7949,
+          "drone": 5995,
           "aircraft": 323,
           "helicopter": 324,
           "naval ship": 22,
-          "cruise missiles": 1567
+          "cruise missiles": 1569
         },
         {
-          "date": "2023-12-07",
-          "tank": 5618,
-          "APC": 10482,
-          "field artillery": 8045,
-          "drone": 6116,
+          "date": "2023-12-10",
+          "tank": 5636,
+          "APC": 10529,
+          "field artillery": 8064,
+          "drone": 6136,
           "aircraft": 324,
           "helicopter": 324,
           "naval ship": 22,
-          "cruise missiles": 1571
+          "cruise missiles": 1586
         },
         {
-          "date": "2023-12-14",
-          "tank": 5692,
-          "APC": 10616,
-          "field artillery": 8088,
-          "drone": 6206,
+          "date": "2023-12-17",
+          "tank": 5739,
+          "APC": 10692,
+          "field artillery": 8137,
+          "drone": 6278,
           "aircraft": 324,
           "helicopter": 324,
           "naval ship": 22,
-          "cruise missiles": 1606
+          "cruise missiles": 1610
         },
         {
-          "date": "2023-12-21",
-          "tank": 5828,
-          "APC": 10825,
-          "field artillery": 8226,
-          "drone": 6342,
-          "aircraft": 324,
+          "date": "2023-12-24",
+          "tank": 5858,
+          "APC": 10888,
+          "field artillery": 8314,
+          "drone": 6404,
+          "aircraft": 327,
           "helicopter": 324,
           "naval ship": 22,
-          "cruise missiles": 1613
+          "cruise missiles": 1614
         },
         {
-          "date": "2023-12-28",
-          "tank": 5940,
-          "APC": 11015,
-          "field artillery": 8391,
-          "drone": 6503,
+          "date": "2023-12-31",
+          "tank": 5977,
+          "APC": 11070,
+          "field artillery": 8464,
+          "drone": 6591,
           "aircraft": 329,
           "helicopter": 324,
           "naval ship": 23,
-          "cruise missiles": 1620
+          "cruise missiles": 1709
         },
         {
-          "date": "2024-01-04",
-          "tank": 6002,
-          "APC": 11128,
-          "field artillery": 8574,
-          "drone": 6753,
+          "date": "2024-01-07",
+          "tank": 6022,
+          "APC": 11180,
+          "field artillery": 8653,
+          "drone": 6811,
           "aircraft": 329,
           "helicopter": 324,
           "naval ship": 23,
-          "cruise missiles": 1785
+          "cruise missiles": 1786
         },
         {
-          "date": "2024-01-11",
-          "tank": 6050,
-          "APC": 11238,
-          "field artillery": 8699,
-          "drone": 6834,
+          "date": "2024-01-14",
+          "tank": 6075,
+          "APC": 11302,
+          "field artillery": 8747,
+          "drone": 6861,
           "aircraft": 329,
           "helicopter": 324,
           "naval ship": 23,
-          "cruise missiles": 1806
+          "cruise missiles": 1814
         },
         {
-          "date": "2024-01-18",
-          "tank": 6147,
-          "APC": 11410,
-          "field artillery": 8835,
-          "drone": 6925,
+          "date": "2024-01-21",
+          "tank": 6181,
+          "APC": 11466,
+          "field artillery": 8875,
+          "drone": 6936,
           "aircraft": 331,
           "helicopter": 324,
           "naval ship": 23,
           "cruise missiles": 1818
         },
         {
-          "date": "2024-01-25",
-          "tank": 6257,
-          "APC": 11621,
-          "field artillery": 9067,
-          "drone": 7033,
+          "date": "2024-01-28",
+          "tank": 6280,
+          "APC": 11671,
+          "field artillery": 9097,
+          "drone": 7041,
           "aircraft": 331,
           "helicopter": 324,
           "naval ship": 23,
-          "cruise missiles": 1844
+          "cruise missiles": 1845
         },
         {
-          "date": "2024-02-01",
-          "tank": 6322,
-          "APC": 11773,
-          "field artillery": 9228,
-          "drone": 7136,
+          "date": "2024-02-04",
+          "tank": 6343,
+          "APC": 11818,
+          "field artillery": 9331,
+          "drone": 7173,
           "aircraft": 332,
           "helicopter": 324,
-          "naval ship": 23,
-          "cruise missiles": 1847
+          "naval ship": 24,
+          "cruise missiles": 1848
         },
         {
-          "date": "2024-02-08",
-          "tank": 6383,
-          "APC": 11899,
-          "field artillery": 9411,
-          "drone": 7191,
+          "date": "2024-02-11",
+          "tank": 6406,
+          "APC": 11956,
+          "field artillery": 9475,
+          "drone": 7257,
           "aircraft": 332,
           "helicopter": 325,
           "naval ship": 24,
-          "cruise missiles": 1880
+          "cruise missiles": 1881
         },
         {
-          "date": "2024-02-15",
-          "tank": 6442,
-          "APC": 12090,
-          "field artillery": 9620,
-          "drone": 7404,
-          "aircraft": 332,
+          "date": "2024-02-18",
+          "tank": 6487,
+          "APC": 12198,
+          "field artillery": 9709,
+          "drone": 7449,
+          "aircraft": 335,
           "helicopter": 325,
           "naval ship": 25,
-          "cruise missiles": 1882
+          "cruise missiles": 1898
         },
         {
-          "date": "2024-02-22",
-          "tank": 6523,
-          "APC": 12373,
-          "field artillery": 9867,
-          "drone": 7596,
-          "aircraft": 339,
+          "date": "2024-02-25",
+          "tank": 6542,
+          "APC": 12441,
+          "field artillery": 9981,
+          "drone": 7681,
+          "aircraft": 340,
           "helicopter": 325,
           "naval ship": 25,
-          "cruise missiles": 1903
+          "cruise missiles": 1907
         },
         {
-          "date": "2024-02-29",
-          "tank": 6593,
-          "APC": 12552,
-          "field artillery": 10070,
-          "drone": 7768,
-          "aircraft": 342,
+          "date": "2024-03-03",
+          "tank": 6640,
+          "APC": 12639,
+          "field artillery": 10188,
+          "drone": 7843,
+          "aircraft": 347,
           "helicopter": 325,
           "naval ship": 25,
-          "cruise missiles": 1912
+          "cruise missiles": 1915
         },
         {
-          "date": "2024-03-07",
-          "tank": 6695,
-          "APC": 12779,
-          "field artillery": 10350,
-          "drone": 7963,
+          "date": "2024-03-10",
+          "tank": 6731,
+          "APC": 12850,
+          "field artillery": 10466,
+          "drone": 8082,
           "aircraft": 347,
           "helicopter": 325,
           "naval ship": 26,
           "cruise missiles": 1919
         },
         {
-          "date": "2024-03-14",
-          "tank": 6757,
-          "APC": 12938,
-          "field artillery": 10565,
-          "drone": 8220,
-          "aircraft": 347,
-          "helicopter": 325,
-          "naval ship": 26,
-          "cruise missiles": 1920
-        },
-        {
-          "date": "2024-03-21",
-          "tank": 6832,
-          "APC": 13074,
-          "field artillery": 10740,
-          "drone": 8365,
+          "date": "2024-03-17",
+          "tank": 6790,
+          "APC": 12997,
+          "field artillery": 10634,
+          "drone": 8272,
           "aircraft": 347,
           "helicopter": 325,
           "naval ship": 26,
           "cruise missiles": 1922
         },
         {
-          "date": "2024-03-28",
-          "tank": 6914,
-          "APC": 13237,
-          "field artillery": 10963,
-          "drone": 8600,
+          "date": "2024-03-24",
+          "tank": 6876,
+          "APC": 13158,
+          "field artillery": 10855,
+          "drone": 8510,
           "aircraft": 347,
           "helicopter": 325,
           "naval ship": 26,
-          "cruise missiles": 2017
+          "cruise missiles": 1992
         },
         {
-          "date": "2024-04-04",
-          "tank": 7018,
-          "APC": 13386,
-          "field artillery": 11171,
-          "drone": 8817,
+          "date": "2024-03-31",
+          "tank": 6966,
+          "APC": 13304,
+          "field artillery": 11050,
+          "drone": 8731,
           "aircraft": 347,
           "helicopter": 325,
           "naval ship": 26,
-          "cruise missiles": 2059
+          "cruise missiles": 2048
         },
         {
-          "date": "2024-04-11",
-          "tank": 7137,
-          "APC": 13679,
-          "field artillery": 11452,
-          "drone": 9104,
+          "date": "2024-04-07",
+          "tank": 7074,
+          "APC": 13551,
+          "field artillery": 11316,
+          "drone": 8956,
           "aircraft": 347,
           "helicopter": 325,
           "naval ship": 26,
-          "cruise missiles": 2069
+          "cruise missiles": 2064
         },
         {
-          "date": "2024-04-18",
-          "tank": 7196,
-          "APC": 13835,
-          "field artillery": 11637,
-          "drone": 9284,
+          "date": "2024-04-14",
+          "tank": 7174,
+          "APC": 13765,
+          "field artillery": 11552,
+          "drone": 9235,
           "aircraft": 347,
           "helicopter": 325,
           "naval ship": 26,
-          "cruise missiles": 2093
+          "cruise missiles": 2089
         },
         {
-          "date": "2024-04-25",
-          "tank": 7255,
-          "APC": 13942,
-          "field artillery": 11836,
-          "drone": 9449,
+          "date": "2024-04-21",
+          "tank": 7229,
+          "APC": 13896,
+          "field artillery": 11719,
+          "drone": 9379,
           "aircraft": 348,
           "helicopter": 325,
           "naval ship": 26,
-          "cruise missiles": 2118
+          "cruise missiles": 2115
         },
         {
-          "date": "2024-05-02",
-          "tank": 7332,
-          "APC": 14096,
-          "field artillery": 12044,
-          "drone": 9561,
+          "date": "2024-04-28",
+          "tank": 7279,
+          "APC": 13991,
+          "field artillery": 11948,
+          "drone": 9507,
           "aircraft": 348,
           "helicopter": 325,
           "naval ship": 26,
-          "cruise missiles": 2126
+          "cruise missiles": 2124
         },
         {
-          "date": "2024-05-09",
-          "tank": 7429,
-          "APC": 14281,
-          "field artillery": 12340,
-          "drone": 9775,
+          "date": "2024-05-05",
+          "tank": 7375,
+          "APC": 14179,
+          "field artillery": 12212,
+          "drone": 9636,
           "aircraft": 349,
           "helicopter": 325,
           "naval ship": 26,
-          "cruise missiles": 2192
+          "cruise missiles": 2147
         },
         {
-          "date": "2024-05-16",
-          "tank": 7529,
-          "APC": 14538,
-          "field artillery": 12565,
-          "drone": 10028,
-          "aircraft": 351,
+          "date": "2024-05-12",
+          "tank": 7454,
+          "APC": 14375,
+          "field artillery": 12472,
+          "drone": 9910,
+          "aircraft": 350,
           "helicopter": 325,
           "naval ship": 26,
-          "cruise missiles": 2200
+          "cruise missiles": 2194
         },
         {
-          "date": "2024-05-23",
-          "tank": 7622,
-          "APC": 14748,
-          "field artillery": 12860,
-          "drone": 10391,
-          "aircraft": 355,
+          "date": "2024-05-19",
+          "tank": 7576,
+          "APC": 14630,
+          "field artillery": 12687,
+          "drone": 10155,
+          "aircraft": 354,
+          "helicopter": 326,
+          "naval ship": 26,
+          "cruise missiles": 2204
+        },
+        {
+          "date": "2024-05-26",
+          "tank": 7662,
+          "APC": 14803,
+          "field artillery": 12953,
+          "drone": 10425,
+          "aircraft": 357,
           "helicopter": 326,
           "naval ship": 27,
           "cruise missiles": 2209
         },
         {
-          "date": "2024-05-30",
-          "tank": 7710,
-          "APC": 14913,
-          "field artillery": 13101,
-          "drone": 10532,
+          "date": "2024-06-02",
+          "tank": 7765,
+          "APC": 14980,
+          "field artillery": 13233,
+          "drone": 10699,
           "aircraft": 357,
           "helicopter": 326,
           "naval ship": 27,
-          "cruise missiles": 2222
+          "cruise missiles": 2268
         },
         {
-          "date": "2024-06-06",
-          "tank": 7828,
-          "APC": 15076,
-          "field artillery": 13433,
-          "drone": 10846,
+          "date": "2024-06-09",
+          "tank": 7869,
+          "APC": 15131,
+          "field artillery": 13593,
+          "drone": 10982,
           "aircraft": 357,
           "helicopter": 326,
-          "naval ship": 27,
-          "cruise missiles": 2270
+          "naval ship": 28,
+          "cruise missiles": 2277
         },
         {
-          "date": "2024-06-13",
-          "tank": 7928,
-          "APC": 15208,
-          "field artillery": 13770,
-          "drone": 11075,
+          "date": "2024-06-16",
+          "tank": 7956,
+          "APC": 15269,
+          "field artillery": 13913,
+          "drone": 11159,
           "aircraft": 359,
           "helicopter": 326,
           "naval ship": 28,
-          "cruise missiles": 2285
+          "cruise missiles": 2296
         },
         {
-          "date": "2024-06-20",
-          "tank": 7987,
-          "APC": 15337,
-          "field artillery": 14052,
-          "drone": 11260,
+          "date": "2024-06-23",
+          "tank": 8019,
+          "APC": 15398,
+          "field artillery": 14195,
+          "drone": 11355,
           "aircraft": 359,
           "helicopter": 326,
           "naval ship": 28,
-          "cruise missiles": 2298
+          "cruise missiles": 2321
         },
         {
-          "date": "2024-06-27",
-          "tank": 8042,
-          "APC": 15459,
-          "field artillery": 14363,
-          "drone": 11459,
-          "aircraft": 359,
-          "helicopter": 326,
-          "naval ship": 28,
-          "cruise missiles": 2324
-        },
-        {
-          "date": "2024-07-04",
-          "tank": 8132,
-          "APC": 15600,
-          "field artillery": 14777,
-          "drone": 11694,
+          "date": "2024-06-30",
+          "tank": 8080,
+          "APC": 15524,
+          "field artillery": 14533,
+          "drone": 11584,
           "aircraft": 360,
           "helicopter": 326,
           "naval ship": 28,
-          "cruise missiles": 2342
+          "cruise missiles": 2331
         },
         {
-          "date": "2024-07-11",
-          "tank": 8182,
-          "APC": 15732,
-          "field artillery": 15110,
-          "drone": 12009,
+          "date": "2024-07-07",
+          "tank": 8155,
+          "APC": 15645,
+          "field artillery": 14937,
+          "drone": 11862,
+          "aircraft": 360,
+          "helicopter": 326,
+          "naval ship": 28,
+          "cruise missiles": 2352
+        },
+        {
+          "date": "2024-07-14",
+          "tank": 8206,
+          "APC": 15811,
+          "field artillery": 15262,
+          "drone": 12108,
           "aircraft": 361,
           "helicopter": 326,
           "naval ship": 28,
-          "cruise missiles": 2392
+          "cruise missiles": 2397
         },
         {
-          "date": "2024-07-18",
-          "tank": 8245,
-          "APC": 15883,
-          "field artillery": 15465,
-          "drone": 12274,
-          "aircraft": 361,
+          "date": "2024-07-21",
+          "tank": 8266,
+          "APC": 15963,
+          "field artillery": 15586,
+          "drone": 12402,
+          "aircraft": 362,
           "helicopter": 326,
           "naval ship": 28,
-          "cruise missiles": 2398
+          "cruise missiles": 2401
         },
         {
-          "date": "2024-07-25",
-          "tank": 8313,
-          "APC": 16039,
-          "field artillery": 15804,
-          "drone": 12610,
+          "date": "2024-07-28",
+          "tank": 8344,
+          "APC": 16095,
+          "field artillery": 15936,
+          "drone": 12766,
           "aircraft": 363,
           "helicopter": 326,
           "naval ship": 28,
-          "cruise missiles": 2402
+          "cruise missiles": 2405
         },
         {
-          "date": "2024-08-01",
-          "tank": 8399,
-          "APC": 16203,
-          "field artillery": 16119,
-          "drone": 12968,
+          "date": "2024-08-04",
+          "tank": 8411,
+          "APC": 16255,
+          "field artillery": 16276,
+          "drone": 13103,
           "aircraft": 363,
           "helicopter": 326,
           "naval ship": 28,
-          "cruise missiles": 2407
+          "cruise missiles": 2412
         },
         {
-          "date": "2024-08-08",
-          "tank": 8431,
-          "APC": 16332,
-          "field artillery": 16487,
-          "drone": 13293,
+          "date": "2024-08-11",
+          "tank": 8447,
+          "APC": 16363,
+          "field artillery": 16663,
+          "drone": 13399,
           "aircraft": 366,
-          "helicopter": 327,
+          "helicopter": 328,
           "naval ship": 28,
-          "cruise missiles": 2424
+          "cruise missiles": 2425
         },
         {
-          "date": "2024-08-15",
-          "tank": 8484,
-          "APC": 16426,
-          "field artillery": 16868,
-          "drone": 13598,
+          "date": "2024-08-18",
+          "tank": 8508,
+          "APC": 16480,
+          "field artillery": 17056,
+          "drone": 13752,
           "aircraft": 367,
           "helicopter": 328,
           "naval ship": 28,
-          "cruise missiles": 2428
+          "cruise missiles": 2432
         },
         {
-          "date": "2024-08-22",
-          "tank": 8529,
-          "APC": 16567,
-          "field artillery": 17262,
-          "drone": 13998,
+          "date": "2024-08-25",
+          "tank": 8547,
+          "APC": 16631,
+          "field artillery": 17396,
+          "drone": 14095,
           "aircraft": 367,
           "helicopter": 328,
           "naval ship": 28,
-          "cruise missiles": 2442
+          "cruise missiles": 2444
         },
         {
-          "date": "2024-08-29",
-          "tank": 8571,
-          "APC": 16699,
-          "field artillery": 17549,
-          "drone": 14369,
+          "date": "2024-09-01",
+          "tank": 8592,
+          "APC": 16760,
+          "field artillery": 17636,
+          "drone": 14507,
           "aircraft": 368,
           "helicopter": 328,
           "naval ship": 28,
-          "cruise missiles": 2556
+          "cruise missiles": 2557
         },
         {
-          "date": "2024-09-05",
-          "tank": 8624,
-          "APC": 16869,
-          "field artillery": 17725,
-          "drone": 14658,
+          "date": "2024-09-08",
+          "tank": 8636,
+          "APC": 16897,
+          "field artillery": 17804,
+          "drone": 14864,
           "aircraft": 368,
           "helicopter": 328,
           "naval ship": 28,
-          "cruise missiles": 2587
+          "cruise missiles": 2588
         },
         {
-          "date": "2024-09-12",
-          "tank": 8653,
-          "APC": 16955,
-          "field artillery": 18009,
-          "drone": 15033,
-          "aircraft": 369,
-          "helicopter": 328,
-          "naval ship": 28,
-          "cruise missiles": 2591
-        },
-        {
-          "date": "2024-09-19",
-          "tank": 8705,
-          "APC": 17093,
-          "field artillery": 18177,
-          "drone": 15417,
+          "date": "2024-09-15",
+          "tank": 8680,
+          "APC": 17063,
+          "field artillery": 18109,
+          "drone": 15234,
           "aircraft": 369,
           "helicopter": 328,
           "naval ship": 28,
           "cruise missiles": 2592
         },
         {
-          "date": "2024-09-26",
-          "tank": 8825,
-          "APC": 17344,
-          "field artillery": 18620,
-          "drone": 15946,
+          "date": "2024-09-22",
+          "tank": 8768,
+          "APC": 17222,
+          "field artillery": 18333,
+          "drone": 15628,
           "aircraft": 369,
           "helicopter": 328,
           "naval ship": 28,
-          "cruise missiles": 2599
+          "cruise missiles": 2595
         },
         {
-          "date": "2024-10-03",
-          "tank": 8893,
-          "APC": 17596,
-          "field artillery": 18906,
-          "drone": 16393,
+          "date": "2024-09-29",
+          "tank": 8869,
+          "APC": 17476,
+          "field artillery": 18795,
+          "drone": 16186,
+          "aircraft": 369,
+          "helicopter": 328,
+          "naval ship": 28,
+          "cruise missiles": 2610
+        },
+        {
+          "date": "2024-10-06",
+          "tank": 8919,
+          "APC": 17679,
+          "field artillery": 19092,
+          "drone": 16578,
           "aircraft": 368,
           "helicopter": 328,
           "naval ship": 28,
           "cruise missiles": 2613
         },
         {
-          "date": "2024-10-10",
-          "tank": 8945,
-          "APC": 17765,
-          "field artillery": 19263,
-          "drone": 16767,
+          "date": "2024-10-13",
+          "tank": 8971,
+          "APC": 17876,
+          "field artillery": 19410,
+          "drone": 16992,
           "aircraft": 369,
-          "helicopter": 328,
+          "helicopter": 329,
           "naval ship": 28,
           "cruise missiles": 2619
         },
         {
-          "date": "2024-10-17",
-          "tank": 9014,
-          "APC": 18002,
-          "field artillery": 19510,
-          "drone": 17104,
+          "date": "2024-10-20",
+          "tank": 9047,
+          "APC": 18111,
+          "field artillery": 19565,
+          "drone": 17287,
           "aircraft": 369,
           "helicopter": 329,
           "naval ship": 28,
-          "cruise missiles": 2620
+          "cruise missiles": 2624
         },
         {
-          "date": "2024-10-24",
-          "tank": 9090,
-          "APC": 18254,
-          "field artillery": 19719,
-          "drone": 17597,
+          "date": "2024-10-27",
+          "tank": 9113,
+          "APC": 18355,
+          "field artillery": 19821,
+          "drone": 17799,
           "aircraft": 369,
           "helicopter": 329,
           "naval ship": 28,
           "cruise missiles": 2625
         },
         {
-          "date": "2024-10-31",
-          "tank": 9156,
-          "APC": 18450,
-          "field artillery": 20013,
-          "drone": 18063,
+          "date": "2024-11-03",
+          "tank": 9182,
+          "APC": 18523,
+          "field artillery": 20086,
+          "drone": 18187,
           "aircraft": 369,
           "helicopter": 329,
           "naval ship": 28,
-          "cruise missiles": 2627
+          "cruise missiles": 2629
         },
         {
-          "date": "2024-11-07",
-          "tank": 9224,
-          "APC": 18612,
-          "field artillery": 20194,
-          "drone": 18408,
+          "date": "2024-11-10",
+          "tank": 9249,
+          "APC": 18726,
+          "field artillery": 20280,
+          "drone": 18619,
           "aircraft": 369,
           "helicopter": 329,
           "naval ship": 28,
-          "cruise missiles": 2631
+          "cruise missiles": 2634
         },
         {
-          "date": "2024-11-14",
-          "tank": 9319,
-          "APC": 18947,
-          "field artillery": 20472,
-          "drone": 18852,
+          "date": "2024-11-17",
+          "tank": 9350,
+          "APC": 19021,
+          "field artillery": 20556,
+          "drone": 18974,
           "aircraft": 369,
           "helicopter": 329,
           "naval ship": 28,
-          "cruise missiles": 2640
+          "cruise missiles": 2641
         },
         {
-          "date": "2024-11-21",
-          "tank": 9398,
-          "APC": 19143,
-          "field artillery": 20731,
-          "drone": 19259,
+          "date": "2024-11-24",
+          "tank": 9423,
+          "APC": 19209,
+          "field artillery": 20765,
+          "drone": 19366,
           "aircraft": 369,
           "helicopter": 329,
           "naval ship": 28,
-          "cruise missiles": 2756
+          "cruise missiles": 2764
         },
         {
-          "date": "2024-11-28",
-          "tank": 9450,
-          "APC": 19306,
-          "field artillery": 20852,
-          "drone": 19661,
+          "date": "2024-12-01",
+          "tank": 9469,
+          "APC": 19369,
+          "field artillery": 20923,
+          "drone": 19803,
           "aircraft": 369,
           "helicopter": 329,
           "naval ship": 28,
-          "cruise missiles": 2765
+          "cruise missiles": 2852
         },
         {
-          "date": "2024-12-05",
-          "tank": 9506,
-          "APC": 19472,
-          "field artillery": 21023,
-          "drone": 19977,
+          "date": "2024-12-08",
+          "tank": 9519,
+          "APC": 19571,
+          "field artillery": 21058,
+          "drone": 20071,
           "aircraft": 369,
           "helicopter": 329,
           "naval ship": 28,
-          "cruise missiles": 2855
+          "cruise missiles": 2857
         },
         {
-          "date": "2024-12-12",
-          "tank": 9532,
-          "APC": 19644,
-          "field artillery": 21072,
-          "drone": 20111,
-          "aircraft": 369,
-          "helicopter": 329,
-          "naval ship": 28,
-          "cruise missiles": 2861
-        },
-        {
-          "date": "2024-12-19",
-          "tank": 9576,
-          "APC": 19799,
-          "field artillery": 21178,
-          "drone": 20521,
+          "date": "2024-12-15",
+          "tank": 9551,
+          "APC": 19707,
+          "field artillery": 21128,
+          "drone": 20356,
           "aircraft": 369,
           "helicopter": 329,
           "naval ship": 28,
           "cruise missiles": 2943
         },
         {
-          "date": "2024-12-26",
-          "tank": 9630,
-          "APC": 19933,
-          "field artillery": 21357,
-          "drone": 20971,
+          "date": "2024-12-22",
+          "tank": 9609,
+          "APC": 19870,
+          "field artillery": 21284,
+          "drone": 20735,
+          "aircraft": 369,
+          "helicopter": 329,
+          "naval ship": 28,
+          "cruise missiles": 2947
+        },
+        {
+          "date": "2024-12-29",
+          "tank": 9656,
+          "APC": 19981,
+          "field artillery": 21450,
+          "drone": 21038,
           "aircraft": 369,
           "helicopter": 329,
           "naval ship": 28,
           "cruise missiles": 3003
         },
         {
-          "date": "2025-01-02",
-          "tank": 9676,
-          "APC": 20056,
-          "field artillery": 21552,
-          "drone": 21200,
-          "aircraft": 369,
-          "helicopter": 330,
-          "naval ship": 28,
-          "cruise missiles": 3003
-        },
-        {
-          "date": "2025-01-09",
-          "tank": 9731,
-          "APC": 20221,
-          "field artillery": 21765,
-          "drone": 21813,
+          "date": "2025-01-05",
+          "tank": 9686,
+          "APC": 20119,
+          "field artillery": 21603,
+          "drone": 21447,
           "aircraft": 369,
           "helicopter": 331,
           "naval ship": 28,
-          "cruise missiles": 3014
+          "cruise missiles": 3006
         },
         {
-          "date": "2025-01-16",
-          "tank": 9791,
-          "APC": 20368,
-          "field artillery": 22015,
-          "drone": 22503,
+          "date": "2025-01-12",
+          "tank": 9756,
+          "APC": 20289,
+          "field artillery": 21839,
+          "drone": 22021,
           "aircraft": 369,
           "helicopter": 331,
           "naval ship": 28,
-          "cruise missiles": 3049
+          "cruise missiles": 3018
         },
         {
-          "date": "2025-01-23",
-          "tank": 9850,
-          "APC": 20497,
-          "field artillery": 22256,
-          "drone": 23111,
+          "date": "2025-01-19",
+          "tank": 9811,
+          "APC": 20412,
+          "field artillery": 22055,
+          "drone": 22615,
           "aircraft": 369,
           "helicopter": 331,
           "naval ship": 28,
           "cruise missiles": 3051
         },
         {
-          "date": "2025-01-30",
-          "tank": 9890,
-          "APC": 20614,
-          "field artillery": 22412,
-          "drone": 23510,
+          "date": "2025-01-26",
+          "tank": 9868,
+          "APC": 20549,
+          "field artillery": 22323,
+          "drone": 23253,
+          "aircraft": 369,
+          "helicopter": 331,
+          "naval ship": 28,
+          "cruise missiles": 3053
+        },
+        {
+          "date": "2025-02-02",
+          "tank": 9908,
+          "APC": 20667,
+          "field artillery": 22538,
+          "drone": 23793,
           "aircraft": 369,
           "helicopter": 331,
           "naval ship": 28,
           "cruise missiles": 3054
         },
         {
-          "date": "2025-02-06",
-          "tank": 9965,
-          "APC": 20737,
-          "field artillery": 22753,
-          "drone": 24185,
-          "aircraft": 369,
+          "date": "2025-02-09",
+          "tank": 9992,
+          "APC": 20797,
+          "field artillery": 22844,
+          "drone": 24486,
+          "aircraft": 370,
           "helicopter": 331,
           "naval ship": 28,
           "cruise missiles": 3054
         },
         {
-          "date": "2025-02-13",
-          "tank": 10040,
-          "APC": 20894,
-          "field artillery": 23034,
-          "drone": 25072,
+          "date": "2025-02-16",
+          "tank": 10073,
+          "APC": 21011,
+          "field artillery": 23185,
+          "drone": 25377,
           "aircraft": 370,
           "helicopter": 331,
           "naval ship": 28,
           "cruise missiles": 3063
         },
         {
-          "date": "2025-02-20",
-          "tank": 10134,
-          "APC": 21112,
-          "field artillery": 23410,
-          "drone": 26021,
+          "date": "2025-02-23",
+          "tank": 10168,
+          "APC": 21151,
+          "field artillery": 23582,
+          "drone": 26428,
           "aircraft": 370,
           "helicopter": 331,
           "naval ship": 28,
           "cruise missiles": 3064
         },
         {
-          "date": "2025-02-27",
-          "tank": 10209,
-          "APC": 21196,
-          "field artillery": 23755,
-          "drone": 27102,
-          "aircraft": 370,
-          "helicopter": 331,
-          "naval ship": 28,
-          "cruise missiles": 3064
-        },
-        {
-          "date": "2025-03-06",
-          "tank": 10261,
-          "APC": 21311,
-          "field artillery": 24108,
-          "drone": 27929,
+          "date": "2025-03-02",
+          "tank": 10241,
+          "APC": 21274,
+          "field artillery": 23959,
+          "drone": 27594,
           "aircraft": 370,
           "helicopter": 331,
           "naval ship": 28,
           "cruise missiles": 3085
         },
         {
-          "date": "2025-03-13",
-          "tank": 10307,
-          "APC": 21432,
-          "field artillery": 24409,
-          "drone": 28983,
+          "date": "2025-03-09",
+          "tank": 10274,
+          "APC": 21360,
+          "field artillery": 24206,
+          "drone": 28362,
+          "aircraft": 370,
+          "helicopter": 331,
+          "naval ship": 28,
+          "cruise missiles": 3120
+        },
+        {
+          "date": "2025-03-16",
+          "tank": 10325,
+          "APC": 21478,
+          "field artillery": 24561,
+          "drone": 29413,
           "aircraft": 370,
           "helicopter": 331,
           "naval ship": 28,
           "cruise missiles": 3121
         },
         {
-          "date": "2025-03-20",
-          "tank": 10377,
-          "APC": 21561,
-          "field artillery": 24747,
-          "drone": 29895,
+          "date": "2025-03-23",
+          "tank": 10412,
+          "APC": 21636,
+          "field artillery": 25048,
+          "drone": 30495,
           "aircraft": 370,
           "helicopter": 331,
           "naval ship": 28,
           "cruise missiles": 3121
         },
         {
-          "date": "2025-03-27",
-          "tank": 10438,
-          "APC": 21701,
-          "field artillery": 25265,
-          "drone": 30926,
+          "date": "2025-03-30",
+          "tank": 10492,
+          "APC": 21816,
+          "field artillery": 25507,
+          "drone": 31345,
           "aircraft": 370,
           "helicopter": 335,
           "naval ship": 28,
           "cruise missiles": 3121
         },
         {
-          "date": "2025-04-03",
-          "tank": 10521,
-          "APC": 21902,
-          "field artillery": 25625,
-          "drone": 31597,
+          "date": "2025-04-06",
+          "tank": 10554,
+          "APC": 21972,
+          "field artillery": 25786,
+          "drone": 31846,
           "aircraft": 370,
           "helicopter": 335,
           "naval ship": 28,
-          "cruise missiles": 3123
+          "cruise missiles": 3130
         },
         {
-          "date": "2025-04-10",
-          "tank": 10579,
-          "APC": 22033,
-          "field artillery": 25982,
-          "drone": 32078,
-          "aircraft": 370,
-          "helicopter": 335,
-          "naval ship": 28,
-          "cruise missiles": 3145
-        },
-        {
-          "date": "2025-04-17",
-          "tank": 10654,
-          "APC": 22217,
-          "field artillery": 26442,
-          "drone": 32925,
+          "date": "2025-04-13",
+          "tank": 10603,
+          "APC": 22088,
+          "field artillery": 26163,
+          "drone": 32425,
           "aircraft": 370,
           "helicopter": 335,
           "naval ship": 28,
           "cruise missiles": 3145
         },
         {
-          "date": "2025-04-24",
-          "tank": 10694,
-          "APC": 22312,
-          "field artillery": 26823,
-          "drone": 33660,
+          "date": "2025-04-20",
+          "tank": 10677,
+          "APC": 22271,
+          "field artillery": 26649,
+          "drone": 33240,
           "aircraft": 370,
           "helicopter": 335,
           "naval ship": 28,
           "cruise missiles": 3148
         },
         {
-          "date": "2025-05-01",
-          "tank": 10732,
-          "APC": 22364,
-          "field artillery": 27136,
-          "drone": 34401,
+          "date": "2025-04-27",
+          "tank": 10719,
+          "APC": 22325,
+          "field artillery": 27007,
+          "drone": 34011,
           "aircraft": 370,
           "helicopter": 335,
           "naval ship": 28,
           "cruise missiles": 3196
         },
         {
-          "date": "2025-05-08",
-          "tank": 10782,
-          "APC": 22429,
-          "field artillery": 27552,
-          "drone": 35407,
+          "date": "2025-05-04",
+          "tank": 10758,
+          "APC": 22403,
+          "field artillery": 27327,
+          "drone": 34860,
+          "aircraft": 372,
+          "helicopter": 335,
+          "naval ship": 28,
+          "cruise missiles": 3196
+        },
+        {
+          "date": "2025-05-11",
+          "tank": 10792,
+          "APC": 22446,
+          "field artillery": 27670,
+          "drone": 35537,
           "aircraft": 372,
           "helicopter": 335,
           "naval ship": 28,
           "cruise missiles": 3197
         },
         {
-          "date": "2025-05-15",
-          "tank": 10812,
-          "APC": 22514,
-          "field artillery": 27872,
-          "drone": 36000,
+          "date": "2025-05-18",
+          "tank": 10832,
+          "APC": 22557,
+          "field artillery": 27980,
+          "drone": 36385,
           "aircraft": 372,
           "helicopter": 336,
           "naval ship": 28,
           "cruise missiles": 3197
         },
         {
-          "date": "2025-05-22",
-          "tank": 10839,
-          "APC": 22574,
-          "field artillery": 28122,
-          "drone": 36797,
+          "date": "2025-05-25",
+          "tank": 10854,
+          "APC": 22633,
+          "field artillery": 28269,
+          "drone": 37367,
           "aircraft": 372,
           "helicopter": 336,
           "naval ship": 28,
-          "cruise missiles": 3197
+          "cruise missiles": 3203
         },
         {
-          "date": "2025-05-29",
-          "tank": 10864,
-          "APC": 22645,
-          "field artillery": 28386,
-          "drone": 37999,
+          "date": "2025-06-01",
+          "tank": 10872,
+          "APC": 22656,
+          "field artillery": 28527,
+          "drone": 38366,
           "aircraft": 372,
           "helicopter": 336,
           "naval ship": 28,
-          "cruise missiles": 3265
+          "cruise missiles": 3268
         },
         {
-          "date": "2025-06-05",
-          "tank": 10887,
-          "APC": 22680,
-          "field artillery": 28750,
-          "drone": 39019,
-          "aircraft": 413,
-          "helicopter": 336,
+          "date": "2025-06-08",
+          "tank": 10911,
+          "APC": 22748,
+          "field artillery": 28892,
+          "drone": 39651,
+          "aircraft": 414,
+          "helicopter": 337,
           "naval ship": 28,
-          "cruise missiles": 3271
+          "cruise missiles": 3315
         },
         {
-          "date": "2025-06-12",
-          "tank": 10933,
-          "APC": 22786,
-          "field artillery": 29063,
-          "drone": 40435,
+          "date": "2025-06-15",
+          "tank": 10937,
+          "APC": 22804,
+          "field artillery": 29190,
+          "drone": 40709,
           "aircraft": 416,
           "helicopter": 337,
           "naval ship": 28,
           "cruise missiles": 3337
         },
         {
-          "date": "2025-06-19",
-          "tank": 10951,
-          "APC": 22853,
-          "field artillery": 29328,
-          "drone": 41229,
+          "date": "2025-06-22",
+          "tank": 10964,
+          "APC": 22867,
+          "field artillery": 29432,
+          "drone": 41579,
           "aircraft": 416,
           "helicopter": 337,
           "naval ship": 28,
-          "cruise missiles": 3369
+          "cruise missiles": 3376
         },
         {
-          "date": "2025-06-26",
-          "tank": 10968,
-          "APC": 22892,
-          "field artillery": 29617,
-          "drone": 42153,
-          "aircraft": 416,
-          "helicopter": 337,
-          "naval ship": 28,
-          "cruise missiles": 3388
-        },
-        {
-          "date": "2025-07-03",
-          "tank": 10986,
-          "APC": 22936,
-          "field artillery": 29815,
-          "drone": 43098,
+          "date": "2025-06-29",
+          "tank": 10976,
+          "APC": 22915,
+          "field artillery": 29689,
+          "drone": 42624,
           "aircraft": 420,
-          "helicopter": 340,
+          "helicopter": 337,
           "naval ship": 28,
-          "cruise missiles": 3436
+          "cruise missiles": 3394
         },
         {
-          "date": "2025-07-10",
-          "tank": 11011,
-          "APC": 22972,
-          "field artillery": 30140,
-          "drone": 44781,
+          "date": "2025-07-06",
+          "tank": 10992,
+          "APC": 22956,
+          "field artillery": 29960,
+          "drone": 43825,
           "aircraft": 421,
           "helicopter": 340,
           "naval ship": 28,
-          "cruise missiles": 3445
+          "cruise missiles": 3439
         },
         {
-          "date": "2025-07-17",
-          "tank": 11029,
-          "APC": 22996,
-          "field artillery": 30438,
-          "drone": 46414,
+          "date": "2025-07-13",
+          "tank": 11016,
+          "APC": 22983,
+          "field artillery": 30243,
+          "drone": 45511,
           "aircraft": 421,
           "helicopter": 340,
           "naval ship": 28,
           "cruise missiles": 3491
         },
         {
-          "date": "2025-07-24",
-          "tank": 11046,
-          "APC": 23047,
-          "field artillery": 30746,
-          "drone": 47638,
+          "date": "2025-07-20",
+          "tank": 11035,
+          "APC": 23021,
+          "field artillery": 30583,
+          "drone": 46982,
           "aircraft": 421,
           "helicopter": 340,
           "naval ship": 28,
-          "cruise missiles": 3533
+          "cruise missiles": 3515
         },
         {
-          "date": "2025-07-31",
-          "tank": 11067,
-          "APC": 23066,
-          "field artillery": 30911,
-          "drone": 48894,
+          "date": "2025-07-27",
+          "tank": 11057,
+          "APC": 23063,
+          "field artillery": 30822,
+          "drone": 48158,
           "aircraft": 421,
           "helicopter": 340,
           "naval ship": 28,
-          "cruise missiles": 3548
+          "cruise missiles": 3546
         },
         {
-          "date": "2025-08-07",
-          "tank": 11076,
-          "APC": 23095,
-          "field artillery": 31180,
-          "drone": 49930,
+          "date": "2025-08-03",
+          "tank": 11068,
+          "APC": 23071,
+          "field artillery": 31025,
+          "drone": 49374,
           "aircraft": 421,
           "helicopter": 340,
           "naval ship": 28,
-          "cruise missiles": 3555
+          "cruise missiles": 3552
         },
         {
-          "date": "2025-08-14",
-          "tank": 11104,
-          "APC": 23130,
-          "field artillery": 31458,
-          "drone": 51043,
+          "date": "2025-08-10",
+          "tank": 11089,
+          "APC": 23107,
+          "field artillery": 31343,
+          "drone": 50455,
           "aircraft": 421,
+          "helicopter": 340,
+          "naval ship": 28,
+          "cruise missiles": 3556
+        },
+        {
+          "date": "2025-08-17",
+          "tank": 11116,
+          "APC": 23143,
+          "field artillery": 31589,
+          "drone": 51528,
+          "aircraft": 422,
           "helicopter": 340,
           "naval ship": 28,
           "cruise missiles": 3558
         },
         {
-          "date": "2025-08-21",
-          "tank": 11120,
-          "APC": 23157,
-          "field artillery": 31789,
-          "drone": 52469,
-          "aircraft": 422,
-          "helicopter": 340,
-          "naval ship": 28,
-          "cruise missiles": 3565
-        },
-        {
-          "date": "2025-08-28",
-          "tank": 11139,
-          "APC": 23185,
-          "field artillery": 32064,
-          "drone": 53961,
+          "date": "2025-08-24",
+          "tank": 11129,
+          "APC": 23167,
+          "field artillery": 31898,
+          "drone": 53056,
           "aircraft": 422,
           "helicopter": 340,
           "naval ship": 28,
           "cruise missiles": 3598
         },
         {
-          "date": "2025-09-04",
-          "tank": 11157,
-          "APC": 23241,
-          "field artillery": 32385,
-          "drone": 56045,
+          "date": "2025-08-31",
+          "tank": 11151,
+          "APC": 23212,
+          "field artillery": 32199,
+          "drone": 55062,
+          "aircraft": 422,
+          "helicopter": 340,
+          "naval ship": 28,
+          "cruise missiles": 3664
+        },
+        {
+          "date": "2025-09-07",
+          "tank": 11163,
+          "APC": 23254,
+          "field artillery": 32516,
+          "drone": 56817,
           "aircraft": 422,
           "helicopter": 341,
           "naval ship": 28,
           "cruise missiles": 3686
         },
         {
-          "date": "2025-09-11",
-          "tank": 11176,
-          "APC": 23264,
-          "field artillery": 32628,
-          "drone": 58194,
+          "date": "2025-09-14",
+          "tank": 11184,
+          "APC": 23267,
+          "field artillery": 32749,
+          "drone": 59086,
           "aircraft": 422,
           "helicopter": 341,
           "naval ship": 28,
           "cruise missiles": 3718
         },
         {
-          "date": "2025-09-18",
-          "tank": 11191,
-          "APC": 23277,
-          "field artillery": 32879,
-          "drone": 60469,
+          "date": "2025-09-21",
+          "tank": 11193,
+          "APC": 23281,
+          "field artillery": 32952,
+          "drone": 61598,
           "aircraft": 422,
           "helicopter": 341,
           "naval ship": 28,
-          "cruise missiles": 3718
+          "cruise missiles": 3747
         },
         {
-          "date": "2025-09-25",
-          "tank": 11201,
-          "APC": 23287,
-          "field artillery": 33133,
-          "drone": 63235,
+          "date": "2025-09-28",
+          "tank": 11211,
+          "APC": 23290,
+          "field artillery": 33231,
+          "drone": 64385,
           "aircraft": 427,
           "helicopter": 345,
           "naval ship": 28,
           "cruise missiles": 3747
         },
         {
-          "date": "2025-10-02",
-          "tank": 11224,
-          "APC": 23296,
-          "field artillery": 33336,
-          "drone": 65823,
+          "date": "2025-10-05",
+          "tank": 11230,
+          "APC": 23299,
+          "field artillery": 33446,
+          "drone": 66863,
           "aircraft": 427,
           "helicopter": 346,
           "naval ship": 28,
-          "cruise missiles": 3790
+          "cruise missiles": 3803
         },
         {
-          "date": "2025-10-09",
-          "tank": 11241,
-          "APC": 23325,
-          "field artillery": 33534,
-          "drone": 68293,
-          "aircraft": 427,
-          "helicopter": 346,
-          "naval ship": 28,
-          "cruise missiles": 3841
-        },
-        {
-          "date": "2025-10-16",
-          "tank": 11261,
-          "APC": 23384,
-          "field artillery": 33713,
-          "drone": 70437,
+          "date": "2025-10-12",
+          "tank": 11248,
+          "APC": 23345,
+          "field artillery": 33578,
+          "drone": 69010,
           "aircraft": 427,
           "helicopter": 346,
           "naval ship": 28,
           "cruise missiles": 3859
         },
         {
-          "date": "2025-10-23",
-          "tank": 11282,
-          "APC": 23453,
-          "field artillery": 33938,
-          "drone": 73386,
+          "date": "2025-10-19",
+          "tank": 11268,
+          "APC": 23399,
+          "field artillery": 33834,
+          "drone": 71967,
+          "aircraft": 428,
+          "helicopter": 346,
+          "naval ship": 28,
+          "cruise missiles": 3864
+        },
+        {
+          "date": "2025-10-26",
+          "tank": 11291,
+          "APC": 23477,
+          "field artillery": 34002,
+          "drone": 74399,
           "aircraft": 428,
           "helicopter": 346,
           "naval ship": 28,
           "cruise missiles": 3880
         },
         {
-          "date": "2025-10-30",
-          "tank": 11305,
-          "APC": 23514,
-          "field artillery": 34089,
-          "drone": 75707,
+          "date": "2025-11-02",
+          "tank": 11316,
+          "APC": 23525,
+          "field artillery": 34162,
+          "drone": 77052,
           "aircraft": 428,
           "helicopter": 346,
           "naval ship": 28,
-          "cruise missiles": 3880
+          "cruise missiles": 3917
         },
         {
-          "date": "2025-11-06",
-          "tank": 11329,
-          "APC": 23541,
-          "field artillery": 34288,
-          "drone": 78430,
-          "aircraft": 428,
-          "helicopter": 346,
-          "naval ship": 28,
-          "cruise missiles": 3918
-        },
-        {
-          "date": "2025-11-13",
-          "tank": 11344,
-          "APC": 23567,
-          "field artillery": 34388,
-          "drone": 79945,
+          "date": "2025-11-09",
+          "tank": 11335,
+          "APC": 23545,
+          "field artillery": 34340,
+          "drone": 79368,
           "aircraft": 428,
           "helicopter": 347,
           "naval ship": 28,
           "cruise missiles": 3926
         },
         {
-          "date": "2025-11-20",
-          "tank": 11357,
-          "APC": 23597,
-          "field artillery": 34530,
-          "drone": 82470,
+          "date": "2025-11-16",
+          "tank": 11353,
+          "APC": 23591,
+          "field artillery": 34469,
+          "drone": 81286,
+          "aircraft": 428,
+          "helicopter": 347,
+          "naval ship": 28,
+          "cruise missiles": 3940
+        },
+        {
+          "date": "2025-11-23",
+          "tank": 11363,
+          "APC": 23615,
+          "field artillery": 34585,
+          "drone": 83338,
           "aircraft": 428,
           "helicopter": 347,
           "naval ship": 28,
           "cruise missiles": 3981
         },
         {
-          "date": "2025-11-27",
-          "tank": 11373,
-          "APC": 23628,
-          "field artillery": 34709,
-          "drone": 85174,
-          "aircraft": 430,
-          "helicopter": 347,
-          "naval ship": 28,
-          "cruise missiles": 3995
-        },
-        {
-          "date": "2025-12-04",
-          "tank": 11396,
-          "APC": 23685,
-          "field artillery": 34809,
-          "drone": 86476,
+          "date": "2025-11-30",
+          "tank": 11386,
+          "APC": 23672,
+          "field artillery": 34740,
+          "drone": 85851,
           "aircraft": 430,
           "helicopter": 347,
           "naval ship": 28,
           "cruise missiles": 4024
         },
         {
-          "date": "2025-12-11",
-          "tank": 11404,
-          "APC": 23699,
-          "field artillery": 34992,
-          "drone": 89148,
+          "date": "2025-12-07",
+          "tank": 11401,
+          "APC": 23688,
+          "field artillery": 34907,
+          "drone": 87927,
           "aircraft": 431,
           "helicopter": 347,
           "naval ship": 28,
-          "cruise missiles": 4058
+          "cruise missiles": 4054
         },
         {
-          "date": "2025-12-18",
-          "tank": 11432,
-          "APC": 23758,
-          "field artillery": 35232,
-          "drone": 91716,
+          "date": "2025-12-14",
+          "tank": 11410,
+          "APC": 23721,
+          "field artillery": 35041,
+          "drone": 90124,
           "aircraft": 432,
           "helicopter": 347,
           "naval ship": 28,
           "cruise missiles": 4073
         },
         {
-          "date": "2025-12-25",
-          "tank": 11456,
-          "APC": 23801,
-          "field artillery": 35435,
-          "drone": 94797,
-          "aircraft": 434,
+          "date": "2025-12-21",
+          "tank": 11435,
+          "APC": 23770,
+          "field artillery": 35298,
+          "drone": 92604,
+          "aircraft": 432,
           "helicopter": 347,
           "naval ship": 28,
-          "cruise missiles": 4107
+          "cruise missiles": 4073
         },
         {
-          "date": "2026-01-01",
-          "tank": 11488,
-          "APC": 23849,
-          "field artillery": 35678,
-          "drone": 98453,
+          "date": "2025-12-28",
+          "tank": 11469,
+          "APC": 23831,
+          "field artillery": 35557,
+          "drone": 96227,
           "aircraft": 434,
           "helicopter": 347,
           "naval ship": 28,
           "cruise missiles": 4136
         },
         {
-          "date": "2026-01-08",
-          "tank": 11521,
-          "APC": 23874,
-          "field artillery": 35874,
-          "drone": 102074,
+          "date": "2026-01-04",
+          "tank": 11499,
+          "APC": 23855,
+          "field artillery": 35756,
+          "drone": 99860,
           "aircraft": 434,
           "helicopter": 347,
           "naval ship": 28,
           "cruise missiles": 4137
         },
         {
-          "date": "2026-01-15",
-          "tank": 11557,
-          "APC": 23904,
-          "field artillery": 36182,
-          "drone": 107357,
+          "date": "2026-01-11",
+          "tank": 11541,
+          "APC": 23885,
+          "field artillery": 35952,
+          "drone": 104068,
+          "aircraft": 434,
+          "helicopter": 347,
+          "naval ship": 28,
+          "cruise missiles": 4155
+        },
+        {
+          "date": "2026-01-18",
+          "tank": 11571,
+          "APC": 23919,
+          "field artillery": 36294,
+          "drone": 109450,
           "aircraft": 434,
           "helicopter": 347,
           "naval ship": 28,
           "cruise missiles": 4163
         },
         {
-          "date": "2026-01-22",
-          "tank": 11596,
-          "APC": 23943,
-          "field artillery": 36516,
-          "drone": 112828,
+          "date": "2026-01-25",
+          "tank": 11605,
+          "APC": 23950,
+          "field artillery": 36612,
+          "drone": 114896,
           "aircraft": 434,
           "helicopter": 347,
           "naval ship": 28,
-          "cruise missiles": 4190
+          "cruise missiles": 4205
         },
         {
-          "date": "2026-01-29",
-          "tank": 11613,
-          "APC": 23965,
-          "field artillery": 36733,
-          "drone": 118679,
+          "date": "2026-02-01",
+          "tank": 11625,
+          "APC": 23980,
+          "field artillery": 36777,
+          "drone": 120134,
           "aircraft": 435,
           "helicopter": 347,
           "naval ship": 28,
           "cruise missiles": 4205
         },
         {
-          "date": "2026-02-05",
-          "tank": 11642,
-          "APC": 23996,
-          "field artillery": 36975,
-          "drone": 125094,
+          "date": "2026-02-08",
+          "tank": 11651,
+          "APC": 24010,
+          "field artillery": 37044,
+          "drone": 127549,
           "aircraft": 435,
           "helicopter": 347,
           "naval ship": 28,
-          "cruise missiles": 4245
+          "cruise missiles": 4269
         },
         {
-          "date": "2026-02-12",
-          "tank": 11662,
-          "APC": 24025,
-          "field artillery": 37213,
-          "drone": 132153,
+          "date": "2026-02-15",
+          "tank": 11672,
+          "APC": 24037,
+          "field artillery": 37293,
+          "drone": 134858,
           "aircraft": 435,
           "helicopter": 347,
-          "naval ship": 28,
-          "cruise missiles": 4270
+          "naval ship": 29,
+          "cruise missiles": 4286
         },
         {
-          "date": "2026-02-19",
-          "tank": 11682,
-          "APC": 24054,
-          "field artillery": 37384,
-          "drone": 138330,
+          "date": "2026-02-22",
+          "tank": 11694,
+          "APC": 24069,
+          "field artillery": 37470,
+          "drone": 142113,
           "aircraft": 435,
-          "helicopter": 347,
+          "helicopter": 348,
           "naval ship": 29,
           "cruise missiles": 4314
         },
         {
-          "date": "2026-02-26",
-          "tank": 11704,
-          "APC": 24091,
-          "field artillery": 37614,
-          "drone": 147138,
+          "date": "2026-03-01",
+          "tank": 11709,
+          "APC": 24108,
+          "field artillery": 37721,
+          "drone": 151359,
           "aircraft": 435,
           "helicopter": 348,
           "naval ship": 29,
-          "cruise missiles": 4347
-        },
-        {
-          "date": "2026-03-05",
-          "tank": 11727,
-          "APC": 24142,
-          "field artillery": 37915,
-          "drone": 158381,
-          "aircraft": 435,
-          "helicopter": 348,
-          "naval ship": 30,
           "cruise missiles": 4384
         },
         {
-          "date": "2026-03-12",
-          "tank": 11766,
-          "APC": 24197,
-          "field artillery": 38319,
-          "drone": 173068,
+          "date": "2026-03-08",
+          "tank": 11742,
+          "APC": 24157,
+          "field artillery": 38059,
+          "drone": 164416,
           "aircraft": 435,
           "helicopter": 349,
-          "naval ship": 31,
+          "naval ship": 30,
           "cruise missiles": 4403
         },
         {
-          "date": "2026-03-19",
-          "tank": 11786,
-          "APC": 24233,
-          "field artillery": 38538,
-          "drone": 185724,
+          "date": "2026-03-15",
+          "tank": 11781,
+          "APC": 24213,
+          "field artillery": 38438,
+          "drone": 179270,
           "aircraft": 435,
           "helicopter": 349,
+          "naval ship": 32,
+          "cruise missiles": 4468
+        },
+        {
+          "date": "2026-03-22",
+          "tank": 11793,
+          "APC": 24263,
+          "field artillery": 38638,
+          "drone": 190870,
+          "aircraft": 435,
+          "helicopter": 351,
           "naval ship": 33,
           "cruise missiles": 4468
         },
         {
-          "date": "2026-03-26",
-          "tank": 11807,
-          "APC": 24278,
-          "field artillery": 38795,
-          "drone": 198389,
+          "date": "2026-03-29",
+          "tank": 11820,
+          "APC": 24313,
+          "field artillery": 39001,
+          "drone": 204060,
           "aircraft": 435,
           "helicopter": 351,
           "naval ship": 33,
           "cruise missiles": 4491
         },
         {
-          "date": "2026-04-02",
-          "tank": 11830,
-          "APC": 24334,
-          "field artillery": 39228,
-          "drone": 213393,
-          "aircraft": 435,
-          "helicopter": 351,
-          "naval ship": 33,
-          "cruise missiles": 4491
-        },
-        {
-          "date": "2026-04-09",
-          "tank": 11847,
-          "APC": 24370,
-          "field artillery": 39689,
-          "drone": 227539,
+          "date": "2026-04-05",
+          "tank": 11839,
+          "APC": 24350,
+          "field artillery": 39439,
+          "drone": 219443,
           "aircraft": 435,
           "helicopter": 351,
           "naval ship": 33,
           "cruise missiles": 4517
         },
         {
-          "date": "2026-04-16",
-          "tank": 11866,
-          "APC": 24391,
-          "field artillery": 40046,
-          "drone": 240598,
+          "date": "2026-04-12",
+          "tank": 11859,
+          "APC": 24384,
+          "field artillery": 39871,
+          "drone": 233866,
           "aircraft": 435,
           "helicopter": 351,
           "naval ship": 33,
-          "cruise missiles": 4537
+          "cruise missiles": 4517
         },
         {
-          "date": "2026-04-23",
-          "tank": 11888,
-          "APC": 24441,
-          "field artillery": 40574,
-          "drone": 253430,
+          "date": "2026-04-19",
+          "tank": 11882,
+          "APC": 24420,
+          "field artillery": 40324,
+          "drone": 247131,
           "aircraft": 435,
           "helicopter": 351,
           "naval ship": 33,
           "cruise missiles": 4549
         },
         {
-          "date": "2026-04-30",
-          "tank": 11901,
-          "APC": 24493,
-          "field artillery": 40944,
-          "drone": 263360,
+          "date": "2026-04-26",
+          "tank": 11892,
+          "APC": 24463,
+          "field artillery": 40711,
+          "drone": 258091,
+          "aircraft": 435,
+          "helicopter": 351,
+          "naval ship": 33,
+          "cruise missiles": 4579
+        },
+        {
+          "date": "2026-05-03",
+          "tank": 11908,
+          "APC": 24503,
+          "field artillery": 41193,
+          "drone": 269813,
           "aircraft": 435,
           "helicopter": 352,
           "naval ship": 33,
           "cruise missiles": 4579
         },
         {
-          "date": "2026-05-07",
-          "tank": 11918,
-          "APC": 24521,
-          "field artillery": 41539,
-          "drone": 277912,
+          "date": "2026-05-10",
+          "tank": 11920,
+          "APC": 24544,
+          "field artillery": 41787,
+          "drone": 282697,
           "aircraft": 435,
           "helicopter": 352,
           "naval ship": 33,
           "cruise missiles": 4585
         },
         {
-          "date": "2026-05-14",
-          "tank": 11931,
-          "APC": 24557,
-          "field artillery": 42053,
-          "drone": 289678,
-          "aircraft": 435,
+          "date": "2026-05-17",
+          "tank": 11938,
+          "APC": 24578,
+          "field artillery": 42215,
+          "drone": 295454,
+          "aircraft": 436,
           "helicopter": 352,
           "naval ship": 33,
-          "cruise missiles": 4585
+          "cruise missiles": 4628
         },
         {
-          "date": "2026-05-21",
-          "tank": 11943,
-          "APC": 24591,
-          "field artillery": 42454,
-          "drone": 302787,
+          "date": "2026-05-24",
+          "tank": 11950,
+          "APC": 24603,
+          "field artillery": 42640,
+          "drone": 308321,
           "aircraft": 436,
           "helicopter": 353,
           "naval ship": 33,
           "cruise missiles": 4632
         },
         {
-          "date": "2026-05-28",
-          "tank": 11956,
-          "APC": 24625,
-          "field artillery": 42832,
-          "drone": 314902,
+          "date": "2026-05-31",
+          "tank": 11962,
+          "APC": 24657,
+          "field artillery": 42987,
+          "drone": 320327,
           "aircraft": 436,
           "helicopter": 353,
           "naval ship": 33,
-          "cruise missiles": 4687
+          "cruise missiles": 4693
         },
         {
-          "date": "2026-06-04",
-          "tank": 11978,
-          "APC": 24676,
-          "field artillery": 43247,
-          "drone": 327726,
-          "aircraft": 436,
-          "helicopter": 353,
-          "naval ship": 33,
-          "cruise missiles": 4733
-        },
-        {
-          "date": "2026-06-11",
-          "tank": 12010,
-          "APC": 24727,
-          "field artillery": 43787,
-          "drone": 342651,
+          "date": "2026-06-07",
+          "tank": 11989,
+          "APC": 24700,
+          "field artillery": 43479,
+          "drone": 334063,
           "aircraft": 436,
           "helicopter": 353,
           "naval ship": 33,
           "cruise missiles": 4733
         },
         {
-          "date": "2026-06-18",
-          "tank": 12038,
-          "APC": 24779,
-          "field artillery": 44240,
-          "drone": 357589,
+          "date": "2026-06-14",
+          "tank": 12020,
+          "APC": 24753,
+          "field artillery": 44010,
+          "drone": 349165,
           "aircraft": 436,
           "helicopter": 353,
           "naval ship": 33,
-          "cruise missiles": 4783
+          "cruise missiles": 4733
         },
         {
-          "date": "2026-06-25",
-          "tank": 12057,
-          "APC": 24818,
-          "field artillery": 44731,
-          "drone": 371882,
+          "date": "2026-06-21",
+          "tank": 12049,
+          "APC": 24797,
+          "field artillery": 44479,
+          "drone": 364149,
           "aircraft": 436,
           "helicopter": 353,
           "naval ship": 33,
           "cruise missiles": 4787
         },
         {
-          "date": "2026-07-02",
-          "tank": 12069,
-          "APC": 24861,
-          "field artillery": 45168,
-          "drone": 385190,
+          "date": "2026-06-28",
+          "tank": 12063,
+          "APC": 24844,
+          "field artillery": 44920,
+          "drone": 377500,
           "aircraft": 436,
           "helicopter": 353,
           "naval ship": 33,
-          "cruise missiles": 4798
+          "cruise missiles": 4790
+        },
+        {
+          "date": "2026-07-05",
+          "tank": 12081,
+          "APC": 24878,
+          "field artillery": 45388,
+          "drone": 390738,
+          "aircraft": 436,
+          "helicopter": 353,
+          "naval ship": 33,
+          "cruise missiles": 4847
         }
       ]
     }

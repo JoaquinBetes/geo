@@ -51,6 +51,14 @@ function fmtDate(iso) {
   });
 }
 
+// Fecha sin hora, legible ("8 jun 2026"), para textos de cobertura.
+function fmtDay(isoDay) {
+  if (!isoDay) return "–";
+  return new Date(`${isoDay}T00:00:00`).toLocaleDateString("es-AR", {
+    day: "numeric", month: "short", year: "numeric",
+  });
+}
+
 function sentimentColor(v) {
   if (v <= -0.05) return COLORS.neg;
   if (v >= 0.05) return COLORS.pos;

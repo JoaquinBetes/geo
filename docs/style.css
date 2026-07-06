@@ -366,6 +366,7 @@ main { padding: clamp(16px, 4vw, 48px); }
   letter-spacing: 0.04em;
   border-top: 1px solid var(--border);
 }
+.foot a { color: var(--cyan); }
 
 /* --- Móvil: pestañas compactas y mapas más bajos --- */
 @media (max-width: 540px) {

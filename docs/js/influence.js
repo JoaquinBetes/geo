@@ -17,8 +17,9 @@ function renderInfluence(data) {
   if (!inf?.categories?.length) return;
 
   document.getElementById("inf-note").textContent =
-    `${inf.note} Referencia: ${inf.reference}. Snapshot curado a ${inf.as_of}; ` +
-    "el bloque narrativo se recalcula solo en cada corrida.";
+    `${inf.note} Referencia: ${inf.reference}. Datos de alineamiento revisados ` +
+    `manualmente a ${inf.as_of}; el gráfico de narradores se actualiza ` +
+    "automáticamente con las noticias.";
 
   // Clasificador país -> categoría: primera lista que lo contenga gana;
   // los no listados caen en la categoría marcada rest = true.
@@ -51,7 +52,7 @@ function renderInfKpis(inf) {
 
 async function renderWorldMap(inf, categoryOf) {
   document.getElementById("inf-map-hint").textContent =
-    `${inf.reference}. Snapshot a ${inf.as_of}. Límites: Natural Earth (dominio público).`;
+    `${inf.reference}. Datos a ${inf.as_of}. Límites: Natural Earth (dominio público).`;
 
   const geo = await loadGeoFile("geo/world.json");
   const map = newMap("influence:world", "map-world", {

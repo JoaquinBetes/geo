@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-06T20:14:20+00:00",
+  "updated": "2026-07-07T04:16:51+00:00",
   "losses_label": "",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
@@ -8,14 +8,14 @@
   },
   "window": {
     "from": "2026-06-08",
-    "to": "2026-07-06"
+    "to": "2026-07-07"
   },
   "kpis": {
-    "events_total": 14,
-    "events_unlocated": 43,
+    "events_total": 16,
+    "events_unlocated": 52,
     "events_7d": 9,
-    "events_prev_7d": 5,
-    "hottest_place": "Tehran"
+    "events_prev_7d": 7,
+    "hottest_place": "Strait of Hormuz"
   },
   "daily": [
     {
@@ -65,9 +65,18 @@
     },
     {
       "date": "2026-07-06",
-      "total": 3,
+      "total": 4,
       "strike": 2,
       "ground": 1,
+      "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-07",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -213,15 +222,35 @@
       "title": "‘We the people are Iran’s true missiles’: millions gather in Tehran for the fourth day of Ali Khamenei’s funeral",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/jul/06/iran-tehran-ali-khamenei-funeral-day-four"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "infrastructure",
+      "place": "Bushehr",
+      "lat": 28.9684,
+      "lon": 50.8385,
+      "title": "Russian staff to return to Iran’s Bushehr nuclear plant from mid July — report",
+      "source": "The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVHFISXlzdkFmWWlRLWVtRWpia0F4MWpGQzZuOWVmWW1lRHVUSW14TktaVGgtbXlEZGR4MFBLSzJVNXdBanJUTTFNNkFlZXBvY3Y3ZEpiazJrbjFuYU1XMFNsT0FRZTNYNzR0Q3l1ZFYxQXR6a2JrVEdRRjBab012Wng1eDVpbFI1TGh3UEdQcVQ3dWk2WkE0YVUxZWswTDBPeFB1V2NRUmw3N0NtZUFPMmJ2QVpLQkJ1NFl4R0hn?oc=5"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Tanker set ablaze after being struck by projectile in the Strait of Hormuz as Iran mourns Khamenei",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOT2tfRFIyMHM3Y3R0UHRSQ0xwNEdNX2pjVUV5QkFGZk4yLUpVeU9RN0RHLXpUYU5UMzVIZkNwOWV4Q2dKTnJYZVl6UzZadkxHYUVYNmUzYWxoUEo1S2pPRUkxWmFsMHhadUYyams3ME5TOTlVSHhuTmgtRVA4NGo1NlJIOF9ZOUU2dGc?oc=5"
     }
   ],
   "top_places": [
     {
-      "place": "Tehran",
-      "count": 6
+      "place": "Strait of Hormuz",
+      "count": 7
     },
     {
-      "place": "Strait of Hormuz",
+      "place": "Tehran",
       "count": 6
     },
     {
@@ -230,6 +259,10 @@
     },
     {
       "place": "Jerusalem",
+      "count": 1
+    },
+    {
+      "place": "Bushehr",
       "count": 1
     }
   ],

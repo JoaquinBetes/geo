@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-07-06T20:14:18+00:00",
+  "updated": "2026-07-07T04:16:48+00:00",
   "losses_label": "Bajas rusas (reclamo ucr.)",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
@@ -8,13 +8,13 @@
   },
   "window": {
     "from": "2025-12-19",
-    "to": "2026-07-06"
+    "to": "2026-07-07"
   },
   "kpis": {
-    "events_total": 87,
-    "events_unlocated": 135,
-    "events_7d": 76,
-    "events_prev_7d": 5,
+    "events_total": 92,
+    "events_unlocated": 148,
+    "events_7d": 80,
+    "events_prev_7d": 6,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -164,12 +164,21 @@
     },
     {
       "date": "2026-07-06",
-      "total": 25,
-      "strike": 23,
-      "ground": 0,
+      "total": 28,
+      "strike": 25,
+      "ground": 1,
       "infrastructure": 2,
       "air_defense": 0,
       "anomaly": true
+    },
+    {
+      "date": "2026-07-07",
+      "total": 2,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
     }
   ],
   "events": [
@@ -1042,16 +1051,66 @@
       "title": "Russia's missile and drone attacks on Ukraine kill at least 22",
       "source": "NPR",
       "url": "https://www.npr.org/2026/07/06/g-s1-132088/russian-missile-drone-attack-kyiv-ukraine"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war latest: For second time in 4 days, Russia targets Kyiv, killing at least 23 in mass missile attack",
+      "source": "The Kyiv Independent",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPX0d0OUdoWHhGM0RSeGtMa1dDenU1TzdnR3BlNUJKOEItV3hWMzhPaFpaSy1RSVJDTU9qenVnREhudjN6TlA4M2pGZGttNWRWT1FvNE4yd2hrNlkwRWRxeFBRTk10ZnJjSXhDMkswRUJHNkgxWVdGRjJSZ2VFNk1SaV9TU1U0RFNlTXNSX1haMHdoenk5dk1MVjFub1BEMF9sVDFmSVF6Y3hHc1FzY0JKd3RBeU8zSE9HbnExbC1EREdxclVnWEYtdVdiSDdKbE4xLUU1WA?oc=5"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine warns of interceptor missile shortage as 23 killed in Kyiv region",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5lSzRncVI0WW91cXdYRDMzalVWanNVNVhZREp6amRDM2JQZWItbzBjOE9JZlV0OTAzaU95WS1wR1Foa2tyRzZTb2w4RWJsNDJTX1NJMFowQTlDUU1S?oc=5"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "ground",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "SVR: London Fighting Old Battle With Russia Through Ukraine",
+      "source": "Kyiv Post",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBzNXR4YnNsdWR1T2FoWmNJQ19LUFNwcHNNVFNUOHBfN3I4UXF5NXFlTmNyT1RIUnpzNEY3YWQ1ZE9pLW11UW50QnNqOA?oc=5"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Russian cities feel the pinch amid worsening fuel shortages",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/07/russia-cities-feel-pinch-amid-worsening-fuel-shortages"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "infrastructure",
+      "place": "Mykolaiv",
+      "lat": 46.975,
+      "lon": 31.9946,
+      "title": "Ukraine war briefing: Drones strike Russia oil refinery in Siberia as Zelenskyy warns region now ‘within reach’",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/07/ukraine-war-briefing-drones-strike-russia-oil-refinery-in-siberia-as-zelenskyy-warns-region-now-within-reach"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 60
+      "count": 63
     },
     {
       "place": "Moscow",
-      "count": 13
+      "count": 14
     },
     {
       "place": "Sevastopol",

@@ -2,13 +2,13 @@
   "id": "china_taiwan",
   "name": "China–Taiwán",
   "description": "Cobertura mediática de la tensión entre China y Taiwán",
-  "updated": "2026-07-07T11:27:05+00:00",
-  "total_articles": 750,
-  "overall_avg": -0.1305,
+  "updated": "2026-07-07T15:15:21+00:00",
+  "total_articles": 773,
+  "overall_avg": -0.1365,
   "distribution": {
-    "pos": 177,
-    "neu": 256,
-    "neg": 317
+    "pos": 181,
+    "neu": 261,
+    "neg": 331
   },
   "sources": [
     "Al Jazeera",
@@ -17,8 +17,8 @@
     "NPR",
     "Reuters",
     "The Guardian",
-    "Idaho State Journal",
     "Taiwan News",
+    "Idaho State Journal",
     "South China Morning Post",
     "Focus Taiwan",
     "dominotheory.com",
@@ -26,18 +26,19 @@
     "news.cgtn.com",
     "Washington Times",
     "Latest news from Azerbaijan",
+    "The Times of India",
     "Hindustan Times",
     "Nikkei Asia",
+    "Travel And Tour World",
     "Devdiscourse",
+    "U.S. News & World Report",
     "Global Times",
     "WSJ",
     "AP News",
-    "The Times of India",
+    "19FortyFive",
     "WV News",
     "The Strategist | ASPI's analysis and commentary site",
-    "Travel And Tour World",
     "Internazionale",
-    "U.S. News & World Report",
     "War on the Rocks",
     "The Jerusalem Post",
     "The Japan Times",
@@ -45,7 +46,6 @@
     "JAPAN Forward",
     "Xinhua",
     "Inquirer.net",
-    "19FortyFive",
     "Bloomberg.com",
     "Foreign Policy",
     "조선일보",
@@ -118,7 +118,11 @@
     "Brookings",
     "People's Daily Online",
     "NZ Herald",
-    "News.com.au"
+    "News.com.au",
+    "EurAsian Times",
+    "International Consortium of Investigative Journalists - ICIJ",
+    "Military Watch Magazine",
+    "KMVU FOX 26 Medford"
   ],
   "daily": [
     {
@@ -427,18 +431,18 @@
     },
     {
       "date": "2026-07-07",
-      "count": 134,
-      "avg": -0.1574,
-      "pos": 30,
-      "neu": 43,
-      "neg": 61
+      "count": 157,
+      "avg": -0.1831,
+      "pos": 34,
+      "neu": 48,
+      "neg": 75
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 209,
-      "avg": -0.152
+      "count": 220,
+      "avg": -0.1645
     },
     {
       "source": "Taipei Times",
@@ -452,8 +456,8 @@
     },
     {
       "source": "NPR",
-      "count": 33,
-      "avg": -0.2829
+      "count": 34,
+      "avg": -0.3015
     },
     {
       "source": "Reuters",
@@ -466,14 +470,14 @@
       "avg": 0.0692
     },
     {
+      "source": "Taiwan News",
+      "count": 18,
+      "avg": -0.2528
+    },
+    {
       "source": "Idaho State Journal",
       "count": 18,
       "avg": 0.0
-    },
-    {
-      "source": "Taiwan News",
-      "count": 15,
-      "avg": -0.2429
     },
     {
       "source": "South China Morning Post",
@@ -511,6 +515,11 @@
       "avg": -0.4079
     },
     {
+      "source": "The Times of India",
+      "count": 4,
+      "avg": -0.3877
+    },
+    {
       "source": "Hindustan Times",
       "count": 4,
       "avg": -0.6913
@@ -521,9 +530,19 @@
       "avg": 0.21
     },
     {
+      "source": "Travel And Tour World",
+      "count": 4,
+      "avg": 0.6068
+    },
+    {
       "source": "Devdiscourse",
       "count": 4,
       "avg": -0.4891
+    },
+    {
+      "source": "U.S. News & World Report",
+      "count": 4,
+      "avg": -0.4408
     },
     {
       "source": "Global Times",
@@ -541,9 +560,9 @@
       "avg": -0.0445
     },
     {
-      "source": "The Times of India",
+      "source": "19FortyFive",
       "count": 3,
-      "avg": -0.5169
+      "avg": 0.3303
     },
     {
       "source": "WV News",
@@ -556,19 +575,9 @@
       "avg": 0.255
     },
     {
-      "source": "Travel And Tour World",
-      "count": 3,
-      "avg": 0.529
-    },
-    {
       "source": "Internazionale",
       "count": 3,
       "avg": -0.5045
-    },
-    {
-      "source": "U.S. News & World Report",
-      "count": 3,
-      "avg": -0.3428
     },
     {
       "source": "War on the Rocks",
@@ -604,11 +613,6 @@
       "source": "Inquirer.net",
       "count": 2,
       "avg": -0.1192
-    },
-    {
-      "source": "19FortyFive",
-      "count": 2,
-      "avg": 0.8254
     },
     {
       "source": "Bloomberg.com",
@@ -974,32 +978,52 @@
       "source": "News.com.au",
       "count": 1,
       "avg": 0.0
+    },
+    {
+      "source": "EurAsian Times",
+      "count": 1,
+      "avg": -0.6124
+    },
+    {
+      "source": "International Consortium of Investigative Journalists - ICIJ",
+      "count": 1,
+      "avg": 0.0
+    },
+    {
+      "source": "Military Watch Magazine",
+      "count": 1,
+      "avg": 0.6767
+    },
+    {
+      "source": "KMVU FOX 26 Medford",
+      "count": 1,
+      "avg": -0.9111
     }
   ],
   "top_entities": [
     {
       "name": "China",
       "type": "LOCATION",
-      "count": 275,
-      "avg": -0.1365
+      "count": 284,
+      "avg": -0.1371
     },
     {
       "name": "Taiwan",
       "type": "LOCATION",
-      "count": 262,
-      "avg": -0.1216
+      "count": 273,
+      "avg": -0.1251
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 61,
-      "avg": -0.0536
+      "count": 63,
+      "avg": -0.0626
     },
     {
       "name": "Japan",
       "type": "LOCATION",
-      "count": 24,
-      "avg": 0.0591
+      "count": 29,
+      "avg": 0.0699
     },
     {
       "name": "United States",
@@ -1045,6 +1069,27 @@
     }
   ],
   "recent": [
+    {
+      "title": "Taiwanese authorities charge executives who helped China’s cyber spies target ICIJ network",
+      "source": "International Consortium of Investigative Journalists - ICIJ",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMkZYYWVVU2d2Nk00bVZTclFaWFN1d2dUZkVNUjZfUmZWMmZuSDBvelNsc0JBTGE4ODJMajF0U1huQmVTMzcwRFR0LWMwRXd0RFh3dW0zTG9yNzNzZi1tOFBvZF9ma0VjZVl5c1hZckhjN0FaT2U1V2tTeDlfaG43TDRkb1pqWmRnY09IRWdpLWk5Ql9QZE01TmZibGhNam14YkFPZnVTVkdtZ0YyNzVxZTU2UFJNd0xsZTRFTTVlN29FbzJDdzdUblRWRU9yU3h4VmFSRkdHdw?oc=5",
+      "published": "2026-07-07T14:50:32+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "China",
+        "Taiwan"
+      ]
+    },
+    {
+      "title": "Reform UK’s Farage resigns as MP amid funding scandal, forcing by-election",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/7/reform-uks-farage-resigns-as-mp-amid-funding-scandal-forcing-by-election?traffic_source=rss",
+      "published": "2026-07-07T14:48:52+00:00",
+      "compound": -0.3498,
+      "label": "negative",
+      "entities": []
+    },
     {
       "title": "Explosions injure 18 in Damascus during Macron's visit",
       "source": "BBC",
@@ -1093,11 +1138,41 @@
       ]
     },
     {
+      "title": "The World Cup is exposing the contradictions of national identity",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/opinions/2026/7/7/the-world-cup-is-exposing-the-contradictions-of-national-identity?traffic_source=rss",
+      "published": "2026-07-07T13:55:16+00:00",
+      "compound": -0.4215,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Taiwan Can Be Defended Against China. The Price Is the Real Problem",
+      "source": "19FortyFive",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOHgwQ05VQzZOV3JObXpXdjNSZW1qN3hzVlRsM01FbUJra1FjbkNJeW1VaU92aklBNEs1X1lRSEUzSFFIOHFyMGxWSFhtMU9wbmlidzRXRjFHQ0JDQkNUNWgxTFVPc3d6YWFJSHRLNHdBUWZDenFzaWZCM1B4TWg2RkhNYjVOMzhubko1WjVKX3h2cmtUWGN0NnltV0VYQmswcnNOVml3?oc=5",
+      "published": "2026-07-07T13:46:37+00:00",
+      "compound": -0.6597,
+      "label": "negative",
+      "entities": [
+        "China",
+        "Taiwan"
+      ]
+    },
+    {
       "title": "Ukraine to press NATO for anti-ballistic air defense after latest Russian attacks",
       "source": "NPR",
       "url": "https://www.npr.org/2026/07/07/nx-s1-5883932/ukraine-to-press-nato-for-anti-ballistic-air-defense-after-latest-russian-attacks",
       "published": "2026-07-07T13:44:38+00:00",
       "compound": -0.8762,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Mbappe slams racism by Paraguay’s Amarilla at World Cup: What we know",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/7/mbappe-slams-racism-by-paraguays-amarilla-at-world-cup-what-we-know?traffic_source=rss",
+      "published": "2026-07-07T13:44:12+00:00",
+      "compound": -0.9231,
       "label": "negative",
       "entities": []
     },
@@ -1156,12 +1231,51 @@
       "entities": []
     },
     {
+      "title": "Two mothers, each certain a viral Gaza prisoner photo shows her son",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/7/two-mothers-each-certain-a-viral-gaza-prisoner-photo-shows-her-son?traffic_source=rss",
+      "published": "2026-07-07T13:16:26+00:00",
+      "compound": -0.5574,
+      "label": "negative",
+      "entities": []
+    },
+    {
       "title": "Syria’s capital rocked by blasts during Macron visit",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/7/syrias-capital-rocked-by-blasts-during-macron-visit?traffic_source=rss",
       "published": "2026-07-07T13:15:44+00:00",
       "compound": 0.0,
       "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "At least nine police officers killed in southwestern Pakistan attack",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/7/at-least-nine-police-officers-killed-in-southwestern-pakistan-attack?traffic_source=rss",
+      "published": "2026-07-07T13:08:25+00:00",
+      "compound": -0.9201,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Hsiao rallies democracies against China’s expanding influence",
+      "source": "Taiwan News",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5Gd1kwSU5feE9TanBNV3BGclhnSzR1TUNmcERnSHpDamtrYjNseFJ4dno1bFFrTjRHazJ2NF9iR2JLMmxDcFN5NUdlZnViTnhlNnhlLVd2dFg?oc=5",
+      "published": "2026-07-07T13:07:08+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "China",
+        "Taiwan"
+      ]
+    },
+    {
+      "title": "Displaced Gaza farmers turn to dirt near tents to grow crops",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/7/7/displaced-gaza-farmers-turn-to-dirt-near-tents-to-grow-crops?traffic_source=rss",
+      "published": "2026-07-07T12:56:19+00:00",
+      "compound": -0.7783,
+      "label": "negative",
       "entities": []
     },
     {
@@ -1186,6 +1300,24 @@
       ]
     },
     {
+      "title": "LIVE: Argentina vs Egypt – FIFA World Cup 2026",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/liveblog/2026/7/7/argentina-vs-egypt-live-fifa-world-cup-2026?traffic_source=rss",
+      "published": "2026-07-07T12:30:00+00:00",
+      "compound": 0.34,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "France appeals court opens door for Le Pen presidential run, with ankle tag",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/7/france-appeals-court-opens-door-for-le-pen-presidential-run-with-ankle-tag?traffic_source=rss",
+      "published": "2026-07-07T12:22:17+00:00",
+      "compound": -0.7783,
+      "label": "negative",
+      "entities": []
+    },
+    {
       "title": "Taipei warns China ethnic unity law increases risks for Taiwanese travelers",
       "source": "Taiwan News",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1scGFVTWZsb2FVTG4wOG1vZUJhZUhsZTQ5OHlMV1paSmMxdnZpMDJlYThPLVo4TjJLMThNQUFGSHhwSUVnQ2hjUFM0eXhQRXR5S0d2RHFwSEM?oc=5",
@@ -1198,6 +1330,15 @@
       ]
     },
     {
+      "title": "Ships attacked in the Strait of Hormuz: What that means for ongoing talks",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/7/ships-attacked-in-the-strait-of-hormuz-what-that-means-for-ongoing-talks?traffic_source=rss",
+      "published": "2026-07-07T12:19:42+00:00",
+      "compound": -0.2732,
+      "label": "negative",
+      "entities": []
+    },
+    {
       "title": "Taiwan revives ‘anti-communist education’ for military cadets amid China threat",
       "source": "The Independent",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeVpaX0JtZjFidnZOMGFrTmFNdk9RQmVIVkd0WVJvZEp4dUo4NmFFU1FTdjVRQnoxdGMzV2lzT3hDQzdnUHNRZ21rWllLenE3M09zOG84Y2xFcTBwMFdNQzl2Yi1ZQ2w1dkdfSGdMMTl2ZGh1YXY3V3g5VmZTbFlsWFl3VDFMQl9ucjh3OHBpSU51S29WUVNLV3d4RnJHRGFfMHYzMVJvMA?oc=5",
@@ -1207,6 +1348,28 @@
       "entities": [
         "China",
         "Taiwan"
+      ]
+    },
+    {
+      "title": "Watch World Cup Day 26: Co-hosts USA and Ronaldo’s Portugal eliminated",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/2026/7/7/video-world-cup-2026-highlights?traffic_source=rss",
+      "published": "2026-07-07T12:10:41+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Chinese Army Units Facing Taiwan and Japan Receive First Heavy Tanks: How Capable is the Type 99?",
+      "source": "Military Watch Magazine",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYWlyTnpfQkxYcnBkQlF6azlQSHhUZ1pnRy1iel90Rkk0MTk5bGNfcTJYSWMxYkYxSnhVTTFiV3lkbVNQVEtHSC1lY0p2OVY2X3lNbmZMaWNnX2t5YnJOU2JOQUJxOUxuclNCR3NHMXdwUXlxYWpJN0lYa2J0T1ZWSnkzM0Eydw?oc=5",
+      "published": "2026-07-07T12:06:11+00:00",
+      "compound": 0.6767,
+      "label": "positive",
+      "entities": [
+        "China",
+        "Taiwan",
+        "Japan"
       ]
     },
     {
@@ -1275,6 +1438,19 @@
       ]
     },
     {
+      "title": "As Japan, South Korea, Taiwan and Hong Kong are all moving into 'super-aged' status, Chinese billionaire",
+      "source": "The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPY0xmdnB3WTVPLWU2YkFVNTZ0ZHkxZEZQdnJBaGprVWZrZjhLTkp6di1fcDFmWnRVejYwLURCbWI5OXpWMk93eEVvZzZ0RDJhTHVZQW5WemZOOUNYdDdFWW1xTS1wQ0lKWU5DVGd6U2ZxenNFQ2g1TGYyQVR1MUJlVkMtdjczQWZwckhZa3VCUnpJY1VlNURzMkJjZGNTa2dEdzJaTTJUV3ZWVDZlTXNsd0kyUDgwaE1VR1hHUk5oUU5EVXgzZDh6aHI0UHFoQzJXcllDQkVSbVU1ZjVWYzlxVkVtUU5FR3ZHd1R6b3hrYU1Fd0x3cE9UVmtDblRXOXNzaDRSOGpRUzk3VXA3VDJFc1VQLTIyVXEwNEtleGNPakdSNEZfd2lIeW03Qm11ZlpnUzdzUzlqcUMwZVVyUU0wUNIBxgJBVV95cUxQbUZIdjJPRUY0cHBvNGVhOWJpVnVFTXFUN0Y2b2JRUEZSeXVlVEtZdkplZ2pxX25ndHcyNHROeFpmXzFqTG5VNWx3RFd1bkFnTW9QUHk5OEtnZWFSNmt2SFlfeEdGb0YwdFBpT1A5MF9qVHFERmZQZWlaOGxqeG5hSjdlMGItdGd3UElmbVBTUkZxV2pvVU9uWlFWa01weVRXMVhoUG5XQnZkejNYQ21rYnV1ZUxZWXBNQ1N6ZUt3ZVdocWtNbVB3c2NfcnVFTW1DRWlDUktfb2lHTGJOeER4QTlUeVVraHVKeUhaeHBYSGswUFBnUmh2M2Vxd0NlRG1jbUlSY3ZBSGVncVlDN2JlRk5haEItSlhRWXlhYk45OFl5VHhGclhtTEstWDlmbm4tdG5LcTF6V3RVR3JrRmZfZTNxVG1Ddw?oc=5",
+      "published": "2026-07-07T11:51:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "China",
+        "Taiwan",
+        "Japan"
+      ]
+    },
+    {
       "title": "NATO summit set to begin in Turkey",
       "source": "NPR",
       "url": "https://www.npr.org/2026/07/07/nx-s1-5879166/nato-summit-set-to-begin-in-turkey",
@@ -1293,6 +1469,17 @@
       "compound": 0.2732,
       "label": "positive",
       "entities": []
+    },
+    {
+      "title": "Woman accuses Graham Platner of sexual assault. And, NATO summit begins",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/07/g-s1-132281/up-first-newsletter-graham-platner-nato-trump-climate-change-us-roads",
+      "published": "2026-07-07T11:40:46+00:00",
+      "compound": -0.9153,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
     },
     {
       "title": "Switzerland vs Colombia: FIFA World Cup last 16 – prediction, start, news",
@@ -1322,6 +1509,17 @@
       "entities": []
     },
     {
+      "title": "What does Trump want from his NATO allies?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/7/what-does-trump-want-from-his-nato-allies?traffic_source=rss",
+      "published": "2026-07-07T11:23:53+00:00",
+      "compound": 0.2406,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
       "title": "Russia touts ‘war with NATO’ amid losses in Ukraine",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/7/7/russia-touts-war-with-nato-amid-losses-in-ukraine?traffic_source=rss",
@@ -1329,6 +1527,17 @@
       "compound": -0.3612,
       "label": "negative",
       "entities": []
+    },
+    {
+      "title": "The Battle for Taiwan: Long or short? Invade or Squeeze? Bomb or Seize?",
+      "source": "KMVU FOX 26 Medford",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQdnFmcGhrMXBoNnZGWDFNQkI0bFZkOS1DRFpleWlHWFRCem9LTk9welRxRzFEMXF4N3NXcExOWGVnMzc2MGN2WlU5c2c3ZFZxZFlqUEdNRXdVYU4wOFlIX2U3WF9LeUVqS1o0WmFtdUpNQlZGcGhPUW9aNkVaTkdiY1VJYk1XTE9KeEhKaUp3THNoQnpxNXhmSVllMGJPNG5YTktIaU5xcVBGRDBMa3c4QWtETHpaVGZtempwX21Zbk1EZG9qdmNyWWtQZkNoT3k4cW1lUW1WeFBNRW9DU3EwRmpfUzB2aTZ0TVVUNnVsbElfUQ?oc=5",
+      "published": "2026-07-07T11:18:49+00:00",
+      "compound": -0.9111,
+      "label": "negative",
+      "entities": [
+        "Taiwan"
+      ]
     },
     {
       "title": "Why More Taiwanese Support ‘One China’ for Talks With Beijing",
@@ -1340,6 +1549,18 @@
       "entities": [
         "China",
         "Taiwan"
+      ]
+    },
+    {
+      "title": "Taiwan in Japan’s Indo-Pacific Strategy",
+      "source": "Taiwan News",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8ySDNHckxwb3pPWGlaRFEwU3loMkdiakpUM1FYRVJzb3hkYkZLQkxuZTQzdWxvcWVUcGt2MTA0ZkpyYWJJVVZnWGRoNURfbUNHWTlmTWRxc1A?oc=5",
+      "published": "2026-07-07T10:37:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Taiwan",
+        "Japan"
       ]
     },
     {
@@ -1438,224 +1659,24 @@
       ]
     },
     {
+      "title": "Taiwan's Preparations to Face a Chinese Attack Are Not a Provocation, Senior Official Says",
+      "source": "U.S. News & World Report",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPbldCT3J3ZHRRd0pGMDhnY1lRV0RtVlFOZW92RG1sOV9TQlV4NTVqRmVDMjNRMlhubl9VMGxaa3dncDNfeG5HaENyT2U4dDVmaGw1aFFHZVctR3hOSWRyQThyQW5JOGJXaUJBaEZoS0NCVnpwUmlSRXh2YXlTODI5VXRQcHBiaGJhcTJ4bDlNRkxoMjVfNmhvTkpuclFWbHI5TU00bWc5dEdmekhyd05QejdNR1JFbW1vc2ZNX2h0N05JMFBSUVByZUtaT29kb0xtbnZkN0ZyT21DZw?oc=5",
+      "published": "2026-07-07T09:04:04+00:00",
+      "compound": -0.7351,
+      "label": "negative",
+      "entities": [
+        "China",
+        "Taiwan"
+      ]
+    },
+    {
       "title": "China sentences former local official to death in $324m corruption case",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/economy/2026/7/7/china-sentences-former-local-official-to-death-in-324m-corruption-case?traffic_source=rss",
       "published": "2026-07-07T09:01:55+00:00",
       "compound": 0.0516,
       "label": "positive",
-      "entities": [
-        "China"
-      ]
-    },
-    {
-      "title": "Taiwan's Urgent Call: Preparing for the Unseen Threat",
-      "source": "Devdiscourse",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMkJoZ1d2cHRVZjE4U3g3VDV5OEVRbjRQRTVROEJid1BGeWFjRnowM2swZ2h4MUFqLS1RTmZ6RnE1aHdTOVoyWXlTcGc1VUplU3IxeUF6Rm5fcDJvNVR6b20wSm1ZYzlJN3JkY1JRNnZLdzNvU0hPaHBqcmdpUEdFRkliT1gxS0Z0MlBFcWFrcnZreko5eDd0QUNNSUxyRmpqX1VZX1M5aWhTQdIBrwFBVV95cUxPNk1SWnJLanRPc2lPZFhITjY0cVFvcEtGbF9nbThyV2JqZV9xTk1vTzdDT1VLQ1pRU0cxcGJVNmR3d1JkWFFDbmN2LUxqRmtRdDdwcUVweXJZTWp6ejFLRlpNSkhrdEtvb0czM2YxSGV6dnpqTnVadEJyTy1KQlY0VmYzOENwbElWTmtoMmxkMGlmRTlvQkdCQU1qWmJVNXlZdUkzUTFNVk9vS0NTNTcw?oc=5",
-      "published": "2026-07-07T08:54:35+00:00",
-      "compound": -0.6369,
-      "label": "negative",
-      "entities": [
-        "Taiwan"
-      ]
-    },
-    {
-      "title": "Palestine weekly: One thousand days of genocide in Gaza",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/7/palestine-weekly-one-thousand-days-of-genocide-in-gaza?traffic_source=rss",
-      "published": "2026-07-07T08:48:37+00:00",
-      "compound": -0.8555,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Taiwan voters on alert for China meddling after disinformation overseas",
-      "source": "Inquirer.net",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUUMxMjF6eG1qc2tfZ2ZnSy1JMjcyeWh4Rm55dlpNWUFzMkJYck1GRUxxN2pfZlk5b1U3dlVhcEZBRkxmQnY1MXRERVplX2Y4M0dYZ0g4NndTRlpwZFd6bVZHdG1mVkx1TklXZDZwR0hrNjd3aGU0eUpRTWp0UnRBLUF3aHIwLW5sMkZwWVkxc0M5ekxZLVQ3XzMxWFRSS0JaTlJXY2VlOXRwMDExTU5VVUNB0gG3AUFVX3lxTE8zSEVlVUN4bVBWN1pmX3VkeUV2NGQ2Zkdac29sWUlSV3YzRGlzSHFFMWZoUlZ1QzN3QXFlQUdQQm43QW1Rc3VjOWJqemJFaVJEeGUzS3F2T1FvbmN3ZXVqeGh6VjlxMFZ6TDJDcTFlZFdMXy1XWlBWQ2tfWmdmWkdIQ3lPRDRxaFpGZkx6bkJ5TE55Q2o3U01IQnhpeFZlOG1zOExUb3h1aDFSVWNvREZfVXdaM0ZWTQ?oc=5",
-      "published": "2026-07-07T08:39:00+00:00",
-      "compound": 0.5267,
-      "label": "positive",
-      "entities": [
-        "China",
-        "Taiwan"
-      ]
-    },
-    {
-      "title": "Comfortable in a truce with the US, China pushes Taiwan harder",
-      "source": "The Strategist | ASPI's analysis and commentary site",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUkhUVzBaSmpkSHVKeGxGN1JRVjJIZzY0M1pSNENDSGhzeEl0dVhITzlVU2pnamVFbFJ2S1NKOEllUVNKd3JKUjNzZEFza1RlQ2F3eVloX1NhSzNsVnpWbTAtNWRZdGg4SlduSGliRUFRbU11MVpwWXIwNG4tczBBcDQzbERKWTBQUUdNVVFUMldJMjVfQnk4NGtsd0E?oc=5",
-      "published": "2026-07-07T08:32:56+00:00",
-      "compound": 0.765,
-      "label": "positive",
-      "entities": [
-        "China",
-        "Taiwan"
-      ]
-    },
-    {
-      "title": "Sorry USA riled for World Cup thrashing by Belgium despite Balogun reprieve",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/7/sorry-usa-riled-for-world-cup-thrashing-by-belgium-despite-balogun-reprieve?traffic_source=rss",
-      "published": "2026-07-07T08:32:55+00:00",
-      "compound": 0.8555,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "China test-launches a ballistic missile in the South Pacific and raises regional concerns",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/07/nx-s1-5884537/china-ballistic-missile-south-pacific",
-      "published": "2026-07-07T08:29:03+00:00",
-      "compound": 0.128,
-      "label": "positive",
-      "entities": [
-        "China"
-      ]
-    },
-    {
-      "title": "Tanker set ablaze after being struck by projectile in the Strait of Hormuz",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/07/g-s1-132265/tanker-attack-strait-of-hormuz",
-      "published": "2026-07-07T08:28:45+00:00",
-      "compound": -0.8807,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Democracies need broader resilience to deter China: U.S. expert",
-      "source": "Focus Taiwan",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAyR3NmS1IzYlFWb2pld2NyOU8tVERwWXRfN3A4Z2IxY2ZMeVRZUVJkUzhVb2pEM3FYUmlJSy1TQTRrNnM1aU55REp3bmRyaUtZNzNMMHJRUQ?oc=5",
-      "published": "2026-07-07T08:22:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "China",
-        "Taiwan"
-      ]
-    },
-    {
-      "title": "‘Limited damage’: Upcoming Bollywood film angers Kashmir pellet gun victims",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/7/limited-damage-upcoming-bollywood-film-angers-kashmir-pellet-gun-victims?traffic_source=rss",
-      "published": "2026-07-07T08:11:53+00:00",
-      "compound": -0.8979,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "China's SLBM Test Pressures U.S. on Taiwan",
-      "source": "조선일보",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYVFSV2RCOGFVX3c0dFRfMWM4MkVQWEZKWWUybng2R0lHNjhaX0JGSXZMczVNMzJadUlqOENuT0ltNjBrMG5TaXFWWHlTdWQwV3gyV21iOHFpY2VMTG9EOGJiM1UzdkpwS3FYYlUyYndwQ1RGZElrM1Q1VG1RVGp6ckM1cDk?oc=5",
-      "published": "2026-07-07T08:04:19+00:00",
-      "compound": -0.5574,
-      "label": "negative",
-      "entities": [
-        "China",
-        "Taiwan"
-      ]
-    },
-    {
-      "title": "Egyptians dream of toppling Argentina in historic World Cup match",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/7/chk_egyptians-dream-of-toppling-argentina-in-historic-world-cup-match?traffic_source=rss",
-      "published": "2026-07-07T08:04:18+00:00",
-      "compound": 0.5859,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Khamenei’s coffin arrives in holy city of Qom",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/7/aje-onl-nf_khameneis-coffin-arrives-in-holy-city-of-qom-070726?traffic_source=rss",
-      "published": "2026-07-07T07:52:37+00:00",
-      "compound": -0.1779,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Cuba loses power across nation for third time this year",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/7/cuba-loses-power-across-nation-for-third-time-this-year?traffic_source=rss",
-      "published": "2026-07-07T07:50:50+00:00",
-      "compound": -0.3182,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Typhoon Bavi expected to bring winds and rain to Taiwan",
-      "source": "Taiwan News",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE01NGI1aC1Oel83SHhLenRaRjhweWJBNHZaMzVvbnhIOXhLRWNqOVVGWnpWZWRhQUFpbDRzdXdweDFoQWVHWVktZjVoMy0xMkRxbUJqMVVjRWk?oc=5",
-      "published": "2026-07-07T07:46:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Taiwan"
-      ]
-    },
-    {
-      "title": "Australian PM says Chinese missile test could have caused ‘considerable damage’ if weaponised",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/jul/07/chinese-government-tells-critics-not-to-overinterpret-missile-test-in-pacific-as-criticism-grows",
-      "published": "2026-07-07T07:28:02+00:00",
-      "compound": -0.9625,
-      "label": "negative",
-      "entities": [
-        "China"
-      ]
-    },
-    {
-      "title": "Zelensky to press Nato for air defence systems after intense Russian strikes",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c9d227e5zj6o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-07T07:18:19+00:00",
-      "compound": -0.4939,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Taiwan condemns China's Pacific intercontinental ballistic missile test",
-      "source": "Taiwan News",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5vUEVfZU5fd0I4eDBGZlRlMFlhUHVnRmVJWGFwV3VhdWN1bnNpMWdwUmtPRlE4MktrQ3dYekM3UHNraHpMMDlpNm9KOThTQ18wand4SlBCTlg?oc=5",
-      "published": "2026-07-07T06:24:00+00:00",
-      "compound": -0.765,
-      "label": "negative",
-      "entities": [
-        "China",
-        "Taiwan"
-      ]
-    },
-    {
-      "title": "Japan's colonial rule a dark chapter of Taiwan island",
-      "source": "China Daily",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBIU05jZGJESHVDUkR2NGZsUG11Yy1UeUZEQi1GLVA3WnVuRTJTTjBEUHhRejB3OGowblJ3X0F1eHFVTDE0TUdUQXJTZXlTNGtIV1hSYURBM0ZWMzYtRDE5WjhwNl9tRjBCN05abWdSM0pIaUJfQ0NsY0RBOFB4QQ?oc=5",
-      "published": "2026-07-07T05:51:09+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "China",
-        "Taiwan",
-        "Japan"
-      ]
-    },
-    {
-      "title": "Giant panda Yuan Zai celebrates 13th birthday in China's Taiwan",
-      "source": "China.org.cn",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1fNmFKenVwZDQtVHQzSW9zWEFrRFhEZzJSNGNOdWNraHdGOWdUaV81enlnS1Q2QzFQeFZHYlhMOHBLb3NfdklDZk1WeXdBakRXVER4cjM5alZ5RkwyX1AtNng2TVd4YUVKLXc?oc=5",
-      "published": "2026-07-07T04:50:33+00:00",
-      "compound": 0.8126,
-      "label": "positive",
-      "entities": [
-        "China",
-        "Taiwan"
-      ]
-    },
-    {
-      "title": "US budget slashing risks losing global scientific edge to China",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/7/us-budget-slashing-risks-losing-global-scientific-edge-to-china?traffic_source=rss",
-      "published": "2026-07-07T04:41:31+00:00",
-      "compound": -0.8658,
-      "label": "negative",
       "entities": [
         "China"
       ]

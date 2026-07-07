@@ -2,13 +2,13 @@
   "id": "russia_ukraine",
   "name": "Rusia–Ucrania",
   "description": "Cobertura mediática del conflicto entre Rusia y Ucrania",
-  "updated": "2026-07-07T11:26:58+00:00",
-  "total_articles": 934,
-  "overall_avg": -0.4659,
+  "updated": "2026-07-07T15:15:17+00:00",
+  "total_articles": 958,
+  "overall_avg": -0.4632,
   "distribution": {
-    "pos": 151,
-    "neu": 103,
-    "neg": 680
+    "pos": 155,
+    "neu": 106,
+    "neg": 697
   },
   "sources": [
     "Al Jazeera",
@@ -24,32 +24,32 @@
     "DW.com",
     "GazetteXtra",
     "Reuters",
+    "Sky News",
     "Radio Free Europe/Radio Liberty",
     "CBS News",
-    "Sky News",
     "PBS",
-    "The Kyiv Independent",
     "Kyiv Post",
+    "The Kyiv Independent",
     "CNBC",
     "Anadolu Ajansı",
     "Financial Times",
+    "ABC News - Breaking News, Latest News and Videos",
     "Atlantic Council",
+    "WSJ",
     "Defense Express",
     "Euromaidan Press",
     "Yahoo",
     "Ukrinform - Ukrainian National News Agency",
-    "ABC News - Breaking News, Latest News and Videos",
     "The Washington Post",
-    "WSJ",
     "The Moscow Times",
     "Russia Matters",
     "The Herald Journal",
+    "NBC News",
     "The Atlantic",
     "The Conversation",
     "WION",
     "EA WorldView",
     "NDTV",
-    "NBC News",
     "Forbes",
     "The Hill",
     "Bloomberg.com",
@@ -154,9 +154,19 @@
     "U.S. News & World Report",
     "Tony Blair Institute for Global Change",
     "livemint.com",
-    "Yahoo Finance UK"
+    "Yahoo Finance UK",
+    "Fox Business",
+    "VOV World"
   ],
   "daily": [
+    {
+      "date": "2025-11-25",
+      "count": 1,
+      "avg": -0.5574,
+      "pos": 0,
+      "neu": 0,
+      "neg": 1
+    },
     {
       "date": "2025-12-19",
       "count": 1,
@@ -207,11 +217,11 @@
     },
     {
       "date": "2026-05-14",
-      "count": 1,
-      "avg": -0.7351,
-      "pos": 0,
+      "count": 3,
+      "avg": -0.2964,
+      "pos": 1,
       "neu": 0,
-      "neg": 1
+      "neg": 2
     },
     {
       "date": "2026-05-16",
@@ -260,6 +270,14 @@
       "pos": 0,
       "neu": 0,
       "neg": 2
+    },
+    {
+      "date": "2026-05-24",
+      "count": 1,
+      "avg": -0.7351,
+      "pos": 0,
+      "neu": 0,
+      "neg": 1
     },
     {
       "date": "2026-05-25",
@@ -599,18 +617,18 @@
     },
     {
       "date": "2026-07-07",
-      "count": 89,
-      "avg": -0.4476,
-      "pos": 13,
-      "neu": 12,
-      "neg": 64
+      "count": 109,
+      "avg": -0.4315,
+      "pos": 16,
+      "neu": 15,
+      "neg": 78
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 266,
-      "avg": -0.2218
+      "count": 277,
+      "avg": -0.229
     },
     {
       "source": "BBC",
@@ -624,8 +642,8 @@
     },
     {
       "source": "NPR",
-      "count": 39,
-      "avg": -0.3038
+      "count": 40,
+      "avg": -0.3191
     },
     {
       "source": "Institute for the Study of War",
@@ -634,13 +652,13 @@
     },
     {
       "source": "CNN",
-      "count": 26,
-      "avg": -0.558
+      "count": 28,
+      "avg": -0.5237
     },
     {
       "source": "The Independent",
-      "count": 18,
-      "avg": -0.6914
+      "count": 19,
+      "avg": -0.6988
     },
     {
       "source": "The New York Times",
@@ -673,6 +691,11 @@
       "avg": -0.3734
     },
     {
+      "source": "Sky News",
+      "count": 10,
+      "avg": -0.8018
+    },
+    {
       "source": "Radio Free Europe/Radio Liberty",
       "count": 9,
       "avg": -0.2468
@@ -683,14 +706,14 @@
       "avg": -0.622
     },
     {
-      "source": "Sky News",
-      "count": 9,
-      "avg": -0.8289
-    },
-    {
       "source": "PBS",
       "count": 9,
       "avg": -0.6131
+    },
+    {
+      "source": "Kyiv Post",
+      "count": 8,
+      "avg": -0.5144
     },
     {
       "source": "The Kyiv Independent",
@@ -698,19 +721,14 @@
       "avg": -0.8513
     },
     {
-      "source": "Kyiv Post",
-      "count": 7,
-      "avg": -0.5879
-    },
-    {
       "source": "CNBC",
-      "count": 7,
-      "avg": -0.3903
+      "count": 8,
+      "avg": -0.3543
     },
     {
       "source": "Anadolu Ajansı",
-      "count": 7,
-      "avg": -0.1606
+      "count": 8,
+      "avg": -0.064
     },
     {
       "source": "Financial Times",
@@ -718,9 +736,19 @@
       "avg": -0.1449
     },
     {
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "count": 6,
+      "avg": -0.8441
+    },
+    {
       "source": "Atlantic Council",
       "count": 6,
       "avg": -0.2447
+    },
+    {
+      "source": "WSJ",
+      "count": 6,
+      "avg": -0.4165
     },
     {
       "source": "Defense Express",
@@ -743,19 +771,9 @@
       "avg": -0.8653
     },
     {
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "count": 5,
-      "avg": -0.877
-    },
-    {
       "source": "The Washington Post",
       "count": 5,
       "avg": -0.3874
-    },
-    {
-      "source": "WSJ",
-      "count": 5,
-      "avg": -0.3528
     },
     {
       "source": "The Moscow Times",
@@ -771,6 +789,11 @@
       "source": "The Herald Journal",
       "count": 5,
       "avg": -0.8316
+    },
+    {
+      "source": "NBC News",
+      "count": 4,
+      "avg": -0.4184
     },
     {
       "source": "The Atlantic",
@@ -796,11 +819,6 @@
       "source": "NDTV",
       "count": 4,
       "avg": -0.7575
-    },
-    {
-      "source": "NBC News",
-      "count": 3,
-      "avg": -0.5579
     },
     {
       "source": "Forbes",
@@ -1326,56 +1344,66 @@
       "source": "Yahoo Finance UK",
       "count": 1,
       "avg": -0.9517
+    },
+    {
+      "source": "Fox Business",
+      "count": 1,
+      "avg": -0.296
+    },
+    {
+      "source": "VOV World",
+      "count": 1,
+      "avg": -0.5574
     }
   ],
   "top_entities": [
     {
       "name": "Ukraine",
       "type": "LOCATION",
-      "count": 521,
-      "avg": -0.6203
+      "count": 533,
+      "avg": -0.6125
     },
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 444,
-      "avg": -0.6693
+      "count": 454,
+      "avg": -0.6585
     },
     {
       "name": "Vladimir Putin",
       "type": "PERSON",
-      "count": 133,
-      "avg": -0.5539
-    },
-    {
-      "name": "Kyiv",
-      "type": "LOCATION",
-      "count": 115,
-      "avg": -0.7726
+      "count": 135,
+      "avg": -0.556
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 112,
-      "avg": -0.3551
+      "count": 118,
+      "avg": -0.357
+    },
+    {
+      "name": "Kyiv",
+      "type": "LOCATION",
+      "count": 117,
+      "avg": -0.7656
     },
     {
       "name": "Volodymyr Zelensky",
       "type": "PERSON",
-      "count": 85,
-      "avg": -0.6452
+      "count": 87,
+      "avg": -0.6446
     },
     {
       "name": "NATO",
       "type": "ORG",
-      "count": 64,
-      "avg": -0.4838
+      "count": 67,
+      "avg": -0.4766
     },
     {
       "name": "Moscow",
       "type": "LOCATION",
-      "count": 48,
-      "avg": -0.7785
+      "count": 49,
+      "avg": -0.7765
     },
     {
       "name": "Crimea",
@@ -1403,6 +1431,39 @@
     }
   ],
   "recent": [
+    {
+      "title": "Reform UK’s Farage resigns as MP amid funding scandal, forcing by-election",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/7/reform-uks-farage-resigns-as-mp-amid-funding-scandal-forcing-by-election?traffic_source=rss",
+      "published": "2026-07-07T14:48:52+00:00",
+      "compound": -0.3498,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Ukraine has already won the war against Russia, Finnish president tells CNBC",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVFJvb0c2V1g5TGFiRHFtcDAtaVY4d0ZzU1dHMEs1Q3dRM2Fvd2VVaUR3SXhCN0Q2TEhwU3BDeFc1RFNoTmJIdGpOTjM5QXBpRTZ5YzR3QlVpRXJ0OGQ0SWdzcDgyNGFoWTBKdlF3YVJJNHdhOTNkQkg0YmhtLVV3cmpJb3dYa0MyUjJ6YVBTSWIza2ZpczR1WVNNYzE1bmfSAaQBQVVfeXFMTkNaUXVXODNmOFE3UURuNms2cW1Va0VVZTUteFNER3pUVkhBWElGMFpoQ0FlZ3NneXBsbE5KeGFVOTNGQjBsbnVIQlB1bkxWY3Q2cEJna3VjTXFzVjBMQ1EwZDhGUUxEeHB5OWJrVDE2UmRDY3VUYVM1TGxMdmVMNW9qRnBxaXdqVjJwRW93T0xGVGpkaTZzYlpPbXNoZlZlREpiNFQ?oc=5",
+      "published": "2026-07-07T14:37:05+00:00",
+      "compound": -0.1027,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Ukraine says ready for 'unconditional ceasefire' with Russia",
+      "source": "Anadolu Ajansı",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZHFjSmVtckU0OWhjR2d3djE3c195NVkweE51XzFpRUlmcjBBVVRfTDkyeVZZVUNzd1pPb0hpcS13YlpYYWFaZW5COV80Q0syQmJJM08xRmZUcUxxeWJjSmdoUkNrU0RjUFdsR0xWWXM5QjVCYWpBQjA3MlBKVjJ1ZjRBdDNPVXRBMkJzTE5WVFlTREZEVUFFX0I3NElIVXhp?oc=5",
+      "published": "2026-07-07T14:30:51+00:00",
+      "compound": 0.6124,
+      "label": "positive",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
     {
       "title": "Woman suspected of Monaco bombing found shot dead near Kyiv",
       "source": "The Guardian",
@@ -1432,6 +1493,19 @@
       "compound": -0.9349,
       "label": "negative",
       "entities": [
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Trump says war in Ukraine will be settled ‘hopefully soon’ after Putin call",
+      "source": "The Independent",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPa1NYRm5LbXU4NmprMGZkdW92YndWanZ3ZXBCeFk2cTZuOURvUE9CLXE0QkltUHZ0UGRBNm5yZlZ0aGpYVVR1eUFfNm1NT05Xb3hlMzZtb2FYNHVkV21vbjl5TWFxR1ZlTDB3T2g1MFhBbnlqWjQxa2Z1RjZTX0lNSnFzc1RHOENLSElzS3N2SmlrWThY?oc=5",
+      "published": "2026-07-07T14:14:00+00:00",
+      "compound": -0.8316,
+      "label": "negative",
+      "entities": [
+        "Vladimir Putin",
+        "Donald Trump",
         "Ukraine"
       ]
     },
@@ -1467,6 +1541,15 @@
       "entities": []
     },
     {
+      "title": "The World Cup is exposing the contradictions of national identity",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/opinions/2026/7/7/the-world-cup-is-exposing-the-contradictions-of-national-identity?traffic_source=rss",
+      "published": "2026-07-07T13:55:16+00:00",
+      "compound": -0.4215,
+      "label": "negative",
+      "entities": []
+    },
+    {
       "title": "Ukraine Russia War | Trump Claims Putin & Zelensky Want To End War, Peace Talks Close",
       "source": "NDTV",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcFQ4ZW9fcnBaeUlkYTdya05JaGJZcVdIM0tZTWp0ZDRlam1UMkxKSVdSMEVhVXN6N2wzMjZQRDAxNDQxMm9nVFMxYm9mYnhZWFB4amVGRUxhd2ZPQ3VMdkJSQ2ZnSUtfWUNGeDVlUmN5VkhoY2cxaWFEVG9ITVo5eEEzNXdlb1NwWFVGYk5hT1dpUGlpdmxIRXV0RnRhUjRPaW5QRVJCY3dwZkkyQ3k5S2JoemFHeDQ?oc=5",
@@ -1494,6 +1577,15 @@
         "Kyiv",
         "NATO"
       ]
+    },
+    {
+      "title": "Mbappe slams racism by Paraguay’s Amarilla at World Cup: What we know",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/7/mbappe-slams-racism-by-paraguays-amarilla-at-world-cup-what-we-know?traffic_source=rss",
+      "published": "2026-07-07T13:44:12+00:00",
+      "compound": -0.9231,
+      "label": "negative",
+      "entities": []
     },
     {
       "title": "Ukraine-Russia war latest: Crucial Zelensky-Trump talks expected at Nato summit after Moscow’s escalation",
@@ -1582,6 +1674,28 @@
       ]
     },
     {
+      "title": "Trump talks Ukraine-Russia and F-35 jets sale in meeting with Turkey’s Erdoğan",
+      "source": "NBC News",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcUFDVjZqOThpbEVod0I4WW0xVHFTUllXYWJMSGx1NWVQQTN2c2Q5bmRqM29SNERrTmhObF9FQjk2S2g2Tm5Jc2ptRjZ0QmZ4dkFJSXl0cmJMdm0td1FMMmZYTGFmSC1CZGpvZkNFMmo4b2FjNFk5SVZTblI2WHRmbzdYT2V3SWtwb2FqRlAtMDYwMWhiY1M0MmRYVUs4UkpvYmdmNE5rSHlTTUlpVUZBR0tOeEZKdDlMT3VvRERkdGFTd0U?oc=5",
+      "published": "2026-07-07T13:26:48+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Donald Trump",
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Two mothers, each certain a viral Gaza prisoner photo shows her son",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/7/two-mothers-each-certain-a-viral-gaza-prisoner-photo-shows-her-son?traffic_source=rss",
+      "published": "2026-07-07T13:16:26+00:00",
+      "compound": -0.5574,
+      "label": "negative",
+      "entities": []
+    },
+    {
       "title": "Syria’s capital rocked by blasts during Macron visit",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/7/syrias-capital-rocked-by-blasts-during-macron-visit?traffic_source=rss",
@@ -1617,6 +1731,24 @@
       ]
     },
     {
+      "title": "At least nine police officers killed in southwestern Pakistan attack",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/7/at-least-nine-police-officers-killed-in-southwestern-pakistan-attack?traffic_source=rss",
+      "published": "2026-07-07T13:08:25+00:00",
+      "compound": -0.9201,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Displaced Gaza farmers turn to dirt near tents to grow crops",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/7/7/displaced-gaza-farmers-turn-to-dirt-near-tents-to-grow-crops?traffic_source=rss",
+      "published": "2026-07-07T12:56:19+00:00",
+      "compound": -0.7783,
+      "label": "negative",
+      "entities": []
+    },
+    {
       "title": "Ukraine war is not going well for Russia – how dangerous is this for Vladimir Putin?",
       "source": "The Conversation",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQzFDWk5Ud1hISnBYN0NNUE53c2wzbzFjMF9wS3ZiYURzd0pCNTlLUmZaSUZrNkJNSzU1MHlDcHVWOEtwOXYwMlFiRkhtdjE5UFF2bFc0LUh6XzJvM1NVTVYyeWVLTF9kTkJ1TG9WWlFxXzdqcDVQX2pfcWV5bWZFdVdLQ2tHN3Z4V29XYVFSZjdoZTlGLWtFRHFVeTlfOFVrbDBFRzVJMnpMQmVLcFRieG1sbjk1TG8?oc=5",
@@ -1636,6 +1768,42 @@
       "published": "2026-07-07T12:45:14+00:00",
       "compound": -0.5267,
       "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "LIVE: Argentina vs Egypt – FIFA World Cup 2026",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/liveblog/2026/7/7/argentina-vs-egypt-live-fifa-world-cup-2026?traffic_source=rss",
+      "published": "2026-07-07T12:30:00+00:00",
+      "compound": 0.34,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "France appeals court opens door for Le Pen presidential run, with ankle tag",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/7/france-appeals-court-opens-door-for-le-pen-presidential-run-with-ankle-tag?traffic_source=rss",
+      "published": "2026-07-07T12:22:17+00:00",
+      "compound": -0.7783,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Ships attacked in the Strait of Hormuz: What that means for ongoing talks",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/7/ships-attacked-in-the-strait-of-hormuz-what-that-means-for-ongoing-talks?traffic_source=rss",
+      "published": "2026-07-07T12:19:42+00:00",
+      "compound": -0.2732,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Watch World Cup Day 26: Co-hosts USA and Ronaldo’s Portugal eliminated",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/2026/7/7/video-world-cup-2026-highlights?traffic_source=rss",
+      "published": "2026-07-07T12:10:41+00:00",
+      "compound": 0.0,
+      "label": "neutral",
       "entities": []
     },
     {
@@ -1707,6 +1875,18 @@
       ]
     },
     {
+      "title": "Woman accuses Graham Platner of sexual assault. And, NATO summit begins",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/07/g-s1-132281/up-first-newsletter-graham-platner-nato-trump-climate-change-us-roads",
+      "published": "2026-07-07T11:40:46+00:00",
+      "compound": -0.9153,
+      "label": "negative",
+      "entities": [
+        "Donald Trump",
+        "NATO"
+      ]
+    },
+    {
       "title": "Switzerland vs Colombia: FIFA World Cup last 16 – prediction, start, news",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/7/7/switzerland-colombia-world-cup-munoz-embolo-manzambi-prediction-news-start-time?traffic_source=rss",
@@ -1743,6 +1923,32 @@
       "entities": [
         "Russia",
         "Ukraine",
+        "NATO"
+      ]
+    },
+    {
+      "title": "Trump arrives at NATO summit as ending Russia-Ukraine war tops agenda",
+      "source": "Fox Business",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE10NV95VVlCUTd5M3JWbEVYUUFpeEsya09lVzdXZXFFNTZfb2FkUURhQmVneENZc1hGZWVhcldkQWp5OC1hYWtibFpYNEkyV0Z4X3VZOVZ5NUZVY28?oc=5",
+      "published": "2026-07-07T11:26:28+00:00",
+      "compound": -0.296,
+      "label": "negative",
+      "entities": [
+        "Donald Trump",
+        "Russia",
+        "Ukraine",
+        "NATO"
+      ]
+    },
+    {
+      "title": "What does Trump want from his NATO allies?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/7/what-does-trump-want-from-his-nato-allies?traffic_source=rss",
+      "published": "2026-07-07T11:23:53+00:00",
+      "compound": 0.2406,
+      "label": "positive",
+      "entities": [
+        "Donald Trump",
         "NATO"
       ]
     },
@@ -1818,6 +2024,45 @@
       ]
     },
     {
+      "title": "‘Shadow Fleet Is Leaving the Chat’: Ukraine Hits 8 Russian Fuel Tankers in 1 Night",
+      "source": "Kyiv Post",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBpcGswVmZsMWFlZnZtVDNCWDhoeUtFd3dsQmpVWmpPWTI4N05qQmtOaW9ER2U5WE9kRjZtMWtfVXp1eW1MTGVmX1lVSQ?oc=5",
+      "published": "2026-07-07T09:50:27+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Russia",
+        "Ukraine",
+        "Kyiv"
+      ]
+    },
+    {
+      "title": "Dozens of Ukrainian drones target Moscow, mayor says, as Zelenskyy vows more strikes",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNE9nZ25pbTZhbFd1cEEtWkZUc1I0U1JKN3VrTHMzU2JjRlV1ZEJQV1pvRTZ1d1JpVUVNMkRqN2xjSkZRYlN5WnBITXB4T3dhQ2plY3N5dXQtdzVNckFmNWUtOExsak5ZOTBqR1dqSWlHMjJXQzVmazlEY21GNGxrcEZGVGJ5eW8tSl9qaFJsd1Y4OWt2SldGMFR5UlozSmNYb1doWFp6VDhKSWl1akxGNdIBtgFBVV95cUxPdVM3UWVSSVJzS2hKbjMzaHR1T3RPd2hpWFFOV2RjOVFqaV9jUWFDbGpFYjhwQjF3U3l3R182Zi0xa3p0ci1ZVkxpUl92U1laYjBseUMwWUhTZkwyNkM3bTA4UWhzZDk0VE9qa29McnB3ZS10UllYWllGamVKOERfSTl3Z3hzZlJscXZvY2xndS0wc1BrYm5YT1dhOFZ2LVB4dnNZQnlTUWlOUXZHbzR3aVhYNjJpUQ?oc=5",
+      "published": "2026-07-07T09:46:00+00:00",
+      "compound": -0.6794,
+      "label": "negative",
+      "entities": [
+        "Volodymyr Zelensky",
+        "Ukraine",
+        "Moscow"
+      ]
+    },
+    {
+      "title": "President Trump says resolution to Russia-Ukraine conflict is 'getting closer'",
+      "source": "VOV World",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWjhDRS1ZNHZfdjJ3ZEF5VEJXSVlqUmZKbmZaaTJJU3hkZm5xN2dnOXFLT29ONjFtSWF2VFpCME5aRkRZdWJBd2ZTZEM0RHB3b2VjZDdsSVJHUmRJRHRrWm9IWXVlZFQ3Y3J4ZjdKYWJpYi1mOGNVbzIwQWZfTFRtd1Z3MHctUklMa3hSaWcwNlF0X3A4LVh4cHJIZHJFVFl2eHI0Y3ZPSnZmUXJuUy1OY05aMVQ?oc=5",
+      "published": "2026-07-07T09:36:00+00:00",
+      "compound": -0.5574,
+      "label": "negative",
+      "entities": [
+        "Donald Trump",
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
       "title": "India's landmark Ram temple overhauls board after alleged theft of donations",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/articles/c872ngz405xo?at_medium=RSS&at_campaign=rss",
@@ -1846,215 +2091,6 @@
         "Donald Trump",
         "NATO"
       ]
-    },
-    {
-      "title": "China sentences former local official to death in $324m corruption case",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/7/7/china-sentences-former-local-official-to-death-in-324m-corruption-case?traffic_source=rss",
-      "published": "2026-07-07T09:01:55+00:00",
-      "compound": 0.0516,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Palestine weekly: One thousand days of genocide in Gaza",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/7/palestine-weekly-one-thousand-days-of-genocide-in-gaza?traffic_source=rss",
-      "published": "2026-07-07T08:48:37+00:00",
-      "compound": -0.8555,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Sorry USA riled for World Cup thrashing by Belgium despite Balogun reprieve",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/7/sorry-usa-riled-for-world-cup-thrashing-by-belgium-despite-balogun-reprieve?traffic_source=rss",
-      "published": "2026-07-07T08:32:55+00:00",
-      "compound": 0.8555,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "China test-launches a ballistic missile in the South Pacific and raises regional concerns",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/07/nx-s1-5884537/china-ballistic-missile-south-pacific",
-      "published": "2026-07-07T08:29:03+00:00",
-      "compound": 0.128,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Tanker set ablaze after being struck by projectile in the Strait of Hormuz",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/07/g-s1-132265/tanker-attack-strait-of-hormuz",
-      "published": "2026-07-07T08:28:45+00:00",
-      "compound": -0.8807,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "‘Limited damage’: Upcoming Bollywood film angers Kashmir pellet gun victims",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/7/limited-damage-upcoming-bollywood-film-angers-kashmir-pellet-gun-victims?traffic_source=rss",
-      "published": "2026-07-07T08:11:53+00:00",
-      "compound": -0.8979,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Egyptians dream of toppling Argentina in historic World Cup match",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/7/chk_egyptians-dream-of-toppling-argentina-in-historic-world-cup-match?traffic_source=rss",
-      "published": "2026-07-07T08:04:18+00:00",
-      "compound": 0.5859,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Khamenei’s coffin arrives in holy city of Qom",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/7/aje-onl-nf_khameneis-coffin-arrives-in-holy-city-of-qom-070726?traffic_source=rss",
-      "published": "2026-07-07T07:52:37+00:00",
-      "compound": -0.1779,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Cuba loses power across nation for third time this year",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/7/cuba-loses-power-across-nation-for-third-time-this-year?traffic_source=rss",
-      "published": "2026-07-07T07:50:50+00:00",
-      "compound": -0.3182,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Zelensky to press Nato for air defence systems after intense Russian strikes",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c9d227e5zj6o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-07T07:18:19+00:00",
-      "compound": -0.4939,
-      "label": "negative",
-      "entities": [
-        "Volodymyr Zelensky",
-        "Russia",
-        "Ukraine",
-        "NATO"
-      ]
-    },
-    {
-      "title": "Nato braces for difficult summit as Trump puts pressure on spending",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/jul/07/nato-braces-for-difficult-summit-as-trump-puts-pressure-on-spending",
-      "published": "2026-07-07T07:00:31+00:00",
-      "compound": -0.4588,
-      "label": "negative",
-      "entities": [
-        "Donald Trump",
-        "United States",
-        "NATO"
-      ]
-    },
-    {
-      "title": "Europe faces up to prospect US may be unable to arm Nato allies",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/jul/07/europe-faces-up-to-prospect-us-may-be-unable-to-arm-nato-allies",
-      "published": "2026-07-07T07:00:30+00:00",
-      "compound": -0.6124,
-      "label": "negative",
-      "entities": [
-        "Donald Trump",
-        "Ukraine",
-        "NATO"
-      ]
-    },
-    {
-      "title": "Russian cities feel the pinch amid worsening fuel shortages",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/jul/07/russia-cities-feel-pinch-amid-worsening-fuel-shortages",
-      "published": "2026-07-07T07:00:29+00:00",
-      "compound": -0.9313,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine",
-        "Moscow"
-      ]
-    },
-    {
-      "title": "1595 Days of russia-Ukraine War – russian Casualties in Ukraine",
-      "source": "Defense Express",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdU83eGxLMC1kdWFjUFpFOE1tTTBiOEctTXBkZFdVYmdGNnJhUFo2N0xac0ktbldLVWdoOG1MdE9kcVRmWTEzLXFTNjlnWDRqell0bzJHOS1hV1RQQW42SlhrU3NVSkNlZHRpTG4wLWZQOEVOb3FIaGh3OHc3bnFqTng5V2JybHI5ZzR5MHdQMjRTbGt1SlZmSXhXcFlQQ1FxZlVGaUd3?oc=5",
-      "published": "2026-07-07T06:29:18+00:00",
-      "compound": -0.8074,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Ukraine war briefing: Drones strike Russia oil refinery in Siberia as Zelenskyy warns region now ‘within reach’",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQZjFWa2lUSGZDSWZBSXBORnk4NHlpcUZlbWk1V2IyX3QyNEpKU1RWRGJYcHNFcFlyckExcjlxMjZCOHpzVF91ZHhlZW04RVNYSHNoSkwtaGVNbExoTGk4Z2lOZmNYQVpYYktTOXdHQTRHLW1MSlEyclNEUnNkUDI5VnpXY3ozcG0tRzIxNjkwLVE5cG1neUtFZUVwbFZKV2pzd2YzdUo4OGgzSndyLWI0S1FMS0dzQ2Q0RkpxMTNnb3QwakQzYWVMRURRSjdwU3k0TjBaODRIU0had2lqd2tRdlI3ZzVJeG1qUFE?oc=5",
-      "published": "2026-07-07T06:20:00+00:00",
-      "compound": -0.891,
-      "label": "negative",
-      "entities": [
-        "Volodymyr Zelensky",
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Trump says resolution to Ukraine war 'getting closer' after talks with Putin and Zelenskyy",
-      "source": "The Hindu",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNQUJWaUhvbl9jX2k1SFVWRTdLRHFkaHdIQ2wxbkY3cHU1VmVyc2NKQVdPSmdKRkNnNUVBR3paNGduZW4zYVpPaWZKUnBEWTIwMmQ0WmhSdlNGb3hiSVgtYmxPb0VsUkxwMWpuX2xsQm5adllFMXpENXMxRHRZODFjRHBWdHpZWDZ6eWJ1SkU4YVZzdUVoMU9pUERTRktLUDZNWV92WXNqUFRQMVVkVDFXNVQ0SnRhSUxQZmNBRkJOZ0RLV3BYdUtmZEUtempCVEdzeXZqVzFHV2ItZy02M0cxek5oQmVYMzTSAe4BQVVfeXFMT1NtMDZVd0ttdWg3djZWNFp6Q3NTLTFRVGxsWWlnVWZNVzczcXVKSml3bklKM1FqTlFYVkFSQ2pJQzRrd1JsV1h2V25sRHFjR0pKejJHaFlNQ1cxTVgzMmJ4Z3U0c2NiMGJaS1RnRWhtVnJSc3p6a3k3a1BhWS1qdVdiS0ZnQVE3NVZUS0I3SGdlallUUHpUZTJuTm55Sy1XbG1PSmw4NmYtNkpKRlR2T0E3UUZtcjdUeC1QVFg1bkoxSDR4Y0VrOGZuTmVuYmlHWUdDX0tfcDhjaWhKNFVlenNoc000cXBjaWZuazJpQQ?oc=5",
-      "published": "2026-07-07T05:03:33+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Vladimir Putin",
-        "Volodymyr Zelensky",
-        "Donald Trump",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "US budget slashing risks losing global scientific edge to China",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/7/us-budget-slashing-risks-losing-global-scientific-edge-to-china?traffic_source=rss",
-      "published": "2026-07-07T04:41:31+00:00",
-      "compound": -0.8658,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Cristiano Ronaldo’s World Cup career ends as Spain defeat Portugal",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/7/cristiano-ronaldos-world-cup-career-ends-as-spain-defeat-portugal?traffic_source=rss",
-      "published": "2026-07-07T04:36:14+00:00",
-      "compound": -0.4588,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "At least 16 people buried following landslide in China",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/7/at-least-people-buried-following-landslide-in-china?traffic_source=rss",
-      "published": "2026-07-07T04:10:02+00:00",
-      "compound": -0.7184,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Tanker on fire off coast of Oman after being hit by projectile",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/7/tanker-on-fire-off-coast-of-oman-after-being-hit-by-projectile?traffic_source=rss",
-      "published": "2026-07-07T04:06:03+00:00",
-      "compound": -0.872,
-      "label": "negative",
-      "entities": []
     }
   ]
 }

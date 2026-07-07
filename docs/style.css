@@ -466,22 +466,23 @@ main { padding: clamp(16px, 4vw, 48px); }
 }
 .country.war {
   cursor: pointer;
-  fill-opacity: 0.5;
+  fill-opacity: 0.42;
   stroke: currentColor;
-  stroke-width: 0.9;
-  stroke-opacity: 0.85;
-  transition: fill-opacity 0.2s;
-  animation: reveal 0.55s ease-out forwards, warGlow 3.2s ease-in-out 2s infinite;
+  stroke-width: 1;
+  stroke-opacity: 0.95;
+  /* borde "en movimiento" (marching ants): tensión sin blur */
+  stroke-dasharray: 5 3;
+  transition: fill-opacity 0.18s, stroke-width 0.18s;
+  animation: reveal 0.55s ease-out forwards, march 26s linear infinite;
 }
+.country.war:hover,
 .country.war.hot {
-  fill-opacity: 0.9;
-  filter: drop-shadow(0 0 7px currentColor);
+  fill-opacity: 0.85;
+  stroke-width: 1.6;
+  stroke-dasharray: none;   /* al apuntar, el borde se "fija" (lock-on) */
 }
 @keyframes reveal { to { opacity: 1; } }
-@keyframes warGlow {
-  0%, 100% { filter: drop-shadow(0 0 0px currentColor); }
-  50% { filter: drop-shadow(0 0 5px currentColor); }
-}
+@keyframes march { to { stroke-dashoffset: -160; } }
 
 /* pings de radar sobre cada teatro */
 .ping, .core-dot { transform-box: fill-box; transform-origin: center; }
@@ -572,7 +573,8 @@ main { padding: clamp(16px, 4vw, 48px); }
 .c-card:hover, .c-card.hot {
   transform: translateY(-4px);
   border-color: var(--c);
-  box-shadow: 0 10px 30px -12px var(--c);
+  background: var(--panel-2);
+  box-shadow: 0 10px 24px -14px rgba(0, 0, 0, 0.9);
 }
 .c-head { display: flex; align-items: baseline; gap: 10px; }
 .c-num { font-family: var(--mono); font-size: 0.7rem; color: var(--c); letter-spacing: 0.15em; }

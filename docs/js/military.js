@@ -165,7 +165,8 @@ async function renderMilitaryGeo(r, m) {
   hint += " Límites: geoBoundaries (CC-BY).";
   document.getElementById("mil-geo-hint").textContent = hint;
 
-  for (const [i, country] of r.countries.entries()) {
+  const mapped = r.countries.filter((c) => c.geo);
+  for (const [i, country] of mapped.entries()) {
     document.getElementById(`mil-geo-title-${i}`).textContent = country.name;
     const values = byCountry[country.code] ?? new Map();
     const geo = await loadGeoFile(country.geo);

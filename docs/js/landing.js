@@ -180,6 +180,7 @@ function wireLandingEvents(conflicts) {
     setHot(el.dataset.conflict, true);
     const c = byId.get(el.dataset.conflict);
     if (c && el.closest("#world-svg")) {
+      tip.style.borderColor = c._color;
       tip.innerHTML =
         `<strong>${c.name}</strong>` +
         `<span>${fmtNum(c.total_articles)} artículos · tono ${(c.tone ?? 0).toFixed(2)}</span>` +

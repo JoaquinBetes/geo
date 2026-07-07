@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-06T19:18:09+00:00",
+  "updated": "2026-07-07T11:21:20+00:00",
   "countries": [
     {
       "code": "IR",
@@ -12,7 +12,12 @@
       "code": "IL",
       "name": "Israel",
       "iso3": "ISR",
-      "geo": "geo/il_adm1.json",
+      "geo": "geo/il_adm1.json"
+    },
+    {
+      "code": "US",
+      "name": "Estados Unidos",
+      "iso3": "USA",
       "keywords": [
         "iran",
         "iranian",
@@ -38,8 +43,8 @@
     {
       "country": "IL",
       "region": "Jerusalem District",
-      "mentions": 17,
-      "tone_avg": -0.2583,
+      "mentions": 21,
+      "tone_avg": -0.247,
       "events": 1,
       "strike": 0,
       "ground": 1,
@@ -70,6 +75,17 @@
     },
     {
       "country": "IR",
+      "region": "Qom",
+      "mentions": 3,
+      "tone_avg": -0.35,
+      "events": 0,
+      "strike": 0,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0
+    },
+    {
+      "country": "IR",
       "region": "Razavi Khorasan",
       "mentions": 1,
       "tone_avg": -0.1779,
@@ -82,8 +98,8 @@
     {
       "country": "IR",
       "region": "Tehran",
-      "mentions": 51,
-      "tone_avg": -0.3938,
+      "mentions": 55,
+      "tone_avg": -0.4114,
       "events": 6,
       "strike": 6,
       "ground": 0,

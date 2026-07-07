@@ -23,6 +23,13 @@ name = "Israel"
 iso3 = "ISR"
 geo = "geo/il_adm1.json"
 
+# Sin 'geo': se pinta en el mapamundi de la portada como parte del conflicto,
+# pero no participa de las coropletas comparativas (que son Irán | Israel).
+[[countries]]
+code = "US"
+name = "Estados Unidos"
+iso3 = "USA"
+
 # Filtro de relevancia: pedimos términos del eje Irán (los feeds israelíes
 # generalistas traen mucha política doméstica que no es de este conflicto).
 keywords = [

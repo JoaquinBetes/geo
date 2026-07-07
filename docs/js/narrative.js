@@ -171,7 +171,10 @@ async function renderNarrativeGeo(data, metric) {
   }
   const maxMentions = Math.max(1, ...r.regions.map((x) => x.mentions));
 
-  for (const [i, country] of r.countries.entries()) {
+  // Sólo países con mapa regional propio (los demás, p. ej. EE.UU. en
+  // Irán-Israel, participan del conflicto pero no del par comparativo).
+  const mapped = r.countries.filter((c) => c.geo);
+  for (const [i, country] of mapped.entries()) {
     document.getElementById(`nar-geo-title-${i}`).textContent = country.name;
     const values = byCountry[country.code] ?? new Map();
     const geo = await loadGeoFile(country.geo);

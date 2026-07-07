@@ -2,20 +2,20 @@
   "id": "iran_israel",
   "name": "Irán–Israel/EE.UU.",
   "description": "Cobertura mediática del conflicto entre Irán, Israel y Estados Unidos",
-  "updated": "2026-07-07T11:21:20+00:00",
-  "total_articles": 685,
-  "overall_avg": -0.2649,
+  "updated": "2026-07-07T11:25:55+00:00",
+  "total_articles": 728,
+  "overall_avg": -0.2741,
   "distribution": {
-    "pos": 172,
-    "neu": 110,
-    "neg": 403
+    "pos": 180,
+    "neu": 114,
+    "neg": 434
   },
   "sources": [
     "Al Jazeera",
     "Times of Israel",
     "BBC",
-    "The Guardian",
     "NPR",
+    "The Guardian",
     "The Times of Israel",
     "The Jerusalem Post",
     "Reuters",
@@ -28,13 +28,13 @@
     "Fox News",
     "Crypto Briefing",
     "The Independent",
+    "AP News",
     "Haaretz",
     "The Times of India",
     "ایران اینترنشنال",
     "CNN",
     "The Hill",
     "The Washington Post",
-    "AP News",
     "Middle East Monitor",
     "Anadolu Ajansı",
     "CBS News",
@@ -48,6 +48,7 @@
     "Muslim Network TV",
     "Egypt Independent",
     "Travel And Tour World",
+    "The Indian Express",
     "Radio Free Europe/Radio Liberty",
     "Truthout",
     "NewsNation",
@@ -107,7 +108,6 @@
     "JNS.org",
     "Pajhwok Afghan News",
     "Salon.com",
-    "The Indian Express",
     "CNBC",
     "KCRA",
     "Dawn",
@@ -134,7 +134,10 @@
     "The American Conservative",
     "The Forward",
     "The Federal",
-    "U.S. News & World Report"
+    "U.S. News & World Report",
+    "Drop Site News",
+    "FOX40",
+    "Forth.News"
   ],
   "daily": [
     {
@@ -307,36 +310,41 @@
     },
     {
       "date": "2026-07-06",
-      "count": 220,
-      "avg": -0.2259,
-      "pos": 61,
-      "neu": 43,
-      "neg": 116
+      "count": 243,
+      "avg": -0.2306,
+      "pos": 68,
+      "neu": 44,
+      "neg": 131
     },
     {
       "date": "2026-07-07",
-      "count": 75,
-      "avg": -0.2485,
-      "pos": 19,
-      "neu": 13,
-      "neg": 43
+      "count": 95,
+      "avg": -0.3199,
+      "pos": 20,
+      "neu": 16,
+      "neg": 59
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 208,
-      "avg": -0.1765
+      "count": 241,
+      "avg": -0.1974
     },
     {
       "source": "Times of Israel",
-      "count": 90,
-      "avg": -0.2885
+      "count": 91,
+      "avg": -0.2957
     },
     {
       "source": "BBC",
-      "count": 86,
-      "avg": -0.178
+      "count": 87,
+      "avg": -0.1856
+    },
+    {
+      "source": "NPR",
+      "count": 32,
+      "avg": -0.2363
     },
     {
       "source": "The Guardian",
@@ -344,14 +352,9 @@
       "avg": -0.5092
     },
     {
-      "source": "NPR",
-      "count": 31,
-      "avg": -0.2137
-    },
-    {
       "source": "The Times of Israel",
-      "count": 23,
-      "avg": -0.3468
+      "count": 24,
+      "avg": -0.3324
     },
     {
       "source": "The Jerusalem Post",
@@ -360,8 +363,8 @@
     },
     {
       "source": "Reuters",
-      "count": 9,
-      "avg": -0.3976
+      "count": 10,
+      "avg": -0.4369
     },
     {
       "source": "NBC News",
@@ -409,6 +412,11 @@
       "avg": -0.6916
     },
     {
+      "source": "AP News",
+      "count": 4,
+      "avg": -0.4508
+    },
+    {
       "source": "Haaretz",
       "count": 4,
       "avg": -0.6201
@@ -437,11 +445,6 @@
       "source": "The Washington Post",
       "count": 3,
       "avg": 0.0168
-    },
-    {
-      "source": "AP News",
-      "count": 3,
-      "avg": -0.3114
     },
     {
       "source": "Middle East Monitor",
@@ -507,6 +510,11 @@
       "source": "Travel And Tour World",
       "count": 2,
       "avg": -0.0455
+    },
+    {
+      "source": "The Indian Express",
+      "count": 2,
+      "avg": -0.9508
     },
     {
       "source": "Radio Free Europe/Radio Liberty",
@@ -804,11 +812,6 @@
       "avg": -0.7506
     },
     {
-      "source": "The Indian Express",
-      "count": 1,
-      "avg": -0.9584
-    },
-    {
       "source": "CNBC",
       "count": 1,
       "avg": 0.296
@@ -942,38 +945,53 @@
       "source": "U.S. News & World Report",
       "count": 1,
       "avg": 0.0
+    },
+    {
+      "source": "Drop Site News",
+      "count": 1,
+      "avg": -0.9643
+    },
+    {
+      "source": "FOX40",
+      "count": 1,
+      "avg": -0.34
+    },
+    {
+      "source": "Forth.News",
+      "count": 1,
+      "avg": -0.6124
     }
   ],
   "top_entities": [
     {
       "name": "Israel",
       "type": "LOCATION",
-      "count": 318,
-      "avg": -0.3584
+      "count": 323,
+      "avg": -0.3631
     },
     {
       "name": "Iran",
       "type": "LOCATION",
-      "count": 287,
-      "avg": -0.3883
+      "count": 293,
+      "avg": -0.3908
     },
     {
       "name": "Khamenei",
       "type": "PERSON",
-      "count": 116,
-      "avg": -0.534
+      "count": 122,
+      "avg": -0.5386
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 88,
-      "avg": -0.2487
+      "count": 92,
+      "avg": -0.2391
     },
     {
       "name": "Tehran",
       "type": "LOCATION",
-      "count": 55,
-      "avg": -0.4114
+      "count": 57,
+      "avg": -0.4136
     },
     {
       "name": "Benjamin Netanyahu",
@@ -984,14 +1002,14 @@
     {
       "name": "Strait of Hormuz",
       "type": "LOCATION",
-      "count": 31,
-      "avg": -0.3805
+      "count": 33,
+      "avg": -0.4109
     },
     {
       "name": "United States",
       "type": "LOCATION",
-      "count": 25,
-      "avg": -0.1137
+      "count": 26,
+      "avg": -0.1263
     },
     {
       "name": "Jerusalem",

@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-07-07T11:20:43+00:00",
+  "updated": "2026-07-07T11:25:25+00:00",
   "losses_label": "Bajas rusas (reclamo ucr.)",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
@@ -11,9 +11,9 @@
     "to": "2026-07-07"
   },
   "kpis": {
-    "events_total": 95,
-    "events_unlocated": 153,
-    "events_7d": 83,
+    "events_total": 97,
+    "events_unlocated": 162,
+    "events_7d": 85,
     "events_prev_7d": 6,
     "hottest_place": "Kyiv"
   },
@@ -164,8 +164,8 @@
     },
     {
       "date": "2026-07-06",
-      "total": 25,
-      "strike": 23,
+      "total": 27,
+      "strike": 25,
       "ground": 0,
       "infrastructure": 2,
       "air_defense": 0,
@@ -1053,6 +1053,26 @@
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5lSzRncVI0WW91cXdYRDMzalVWanNVNVhZREp6amRDM2JQZWItbzBjOE9JZlV0OTAzaU95WS1wR1Foa2tyRzZTb2w4RWJsNDJTX1NJMFowQTlDUU1S?oc=5"
     },
     {
+      "date": "2026-07-06",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Zelenskyy calls for ‘strong decisions’ at Nato summit as Russia kills 21 in overnight strikes on Kyiv – as it happened",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVTRlZkx0OTkwLVctTWFhR0pIYXhvczJOODlwVkN5ZnpHOE82bEkza1NIWXlGSUJPWnB0c1I2YlBKbUxhaEhka2c5QTFPWUItVkx4RDNOVDFiU04wYldmQnMyX0gtRVlEdE5KNkRHZmN6QXA0d0dPbncwSDdEcTkyVWMtQUk5YkFSNzhTVVFlWFlWME9VSkdQWW9RbzJuVlJRWlNNVWdadkxmUGVqaHk0QjEzVDR0YVduSVV6akNJbndBT3NZa3c?oc=5"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Russia's missile and drone attacks on Ukraine kill at least 22",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/06/g-s1-132088/russian-missile-drone-attack-kyiv-ukraine"
+    },
+    {
       "date": "2026-07-07",
       "type": "strike",
       "place": "Moscow",
@@ -1136,11 +1156,11 @@
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 64
+      "count": 65
     },
     {
       "place": "Moscow",
-      "count": 16
+      "count": 17
     },
     {
       "place": "Sevastopol",

@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-07T15:15:20+00:00",
+  "updated": "2026-07-07T20:14:23+00:00",
   "losses_label": "",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
@@ -11,9 +11,9 @@
     "to": "2026-07-07"
   },
   "kpis": {
-    "events_total": 26,
-    "events_unlocated": 59,
-    "events_7d": 19,
+    "events_total": 28,
+    "events_unlocated": 63,
+    "events_7d": 21,
     "events_prev_7d": 7,
     "hottest_place": "Strait of Hormuz"
   },
@@ -74,10 +74,10 @@
     },
     {
       "date": "2026-07-07",
-      "total": 11,
-      "strike": 10,
+      "total": 13,
+      "strike": 11,
       "ground": 0,
-      "infrastructure": 1,
+      "infrastructure": 2,
       "air_defense": 0,
       "anomaly": false
     }
@@ -342,12 +342,32 @@
       "title": "Explosions rock Damascus, wounding 18, near visiting French President Macron’s hotel",
       "source": "Times of Israel",
       "url": "https://www.timesofisrael.com/explosions-rock-damascus-wounding-18-near-french-presidents-hotel/"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "infrastructure",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Energy Minister Cohen proposes oil pipeline to bypass Hormuz",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA5YXNRZ01pdzhPZmdYeTROb0hickhCOTN1OFdKUTBFdXhpVjcwN29KWGFjY2lueldCMlN1TXBYY1RqQkRsWGJCQWpsempBcVJpSUhEaVJMT25GYmJM?oc=5"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Qatar: Iran is legally responsible for hits on three tankers in strait of Hormuz",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/07/qatar-says-iran-fully-responsible-after-tankers-struck-in-strait-of-hormuz"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 11
+      "count": 13
     },
     {
       "place": "Tehran",

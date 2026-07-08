@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-08T03:44:25+00:00",
+  "updated": "2026-07-08T08:44:09+00:00",
   "losses_label": "",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
@@ -11,9 +11,9 @@
     "to": "2026-07-08"
   },
   "kpis": {
-    "events_total": 41,
-    "events_unlocated": 68,
-    "events_7d": 34,
+    "events_total": 47,
+    "events_unlocated": 81,
+    "events_7d": 40,
     "events_prev_7d": 7,
     "hottest_place": "Strait of Hormuz"
   },
@@ -83,12 +83,12 @@
     },
     {
       "date": "2026-07-08",
-      "total": 9,
-      "strike": 9,
-      "ground": 0,
+      "total": 15,
+      "strike": 14,
+      "ground": 1,
       "infrastructure": 0,
       "air_defense": 0,
-      "anomaly": false
+      "anomaly": true
     }
   ],
   "events": [
@@ -501,27 +501,87 @@
       "title": "US launches strikes on Iran after tankers hit in Strait of Hormuz",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/articles/cwykq59jwpvo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "strike",
+      "place": "Jerusalem",
+      "lat": 31.7683,
+      "lon": 35.2137,
+      "title": "US Defense Secretary Pete Hegseth to visit Israel following overnight strikes on Iran",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5LYzZTWTZoVU03ejBmSEVnSmNEUTEyN2p0WU1zdHNHbFJrZkxFdDVNRGdrSG1zYUlMNlJOUUZMdk9pU21PVXd3YnRUMWlha3lQYTRIMW8wNXBNTFY5OEJHTVRKdVJfaFYyR29NS1Rn?oc=5"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Tehran targets Bahrain and Kuwait after US strikes and limits Iran's oil sales over ship attacks",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTXRXN1ZOY3dWb0Y3bFliM0t6QVRjQkxGNmNRRkVPM29YazVXaXVpaFo3N2h2MHdBLUlTMWNROTJuTUJQNFhaR3BwTzV5b0NDYk1WOG5NMXRHLWhuNHF1NXJqOFM0Vzg2TWo2bXRCUS11WmFEeU45UURDV0dqX0szLWxfbkptQXFxQVJXM0hjY2lkS1VJdkljZWFR?oc=5"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US strikes Iran, revokes oil sanctions waiver after attacks on tankers in Hormuz",
+      "source": "The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcVJPa2JLRGdTeEowVEJfRUI4MGlIQ0c2c1VEYlh2VmtvaWl1Ry02X0dKVHhIdkhYOWVIRDFDYlhpYXlfcGUzX2o3QkdjMFdVTU9IUmcyZVZEdzFiLWItQndxTWZmOVYyWHNZSS1NU3NBUUdEMXdheXRaOTdUT3A2MXB5SldYWjg1SFpQVFB5ek5Hc1gyUWxOak5ia2pkbzY0cjdqNC1LOWpITlRNNV9B0gG0AUFVX3lxTE1makc2MTBjazZWTGNNYTdKZ29fU0lqbDYyeEYyc1diQk84V01KeTdPUjBSMnBrRUVuRVhkUU1QRDRWdlYtQ3FzaDJXYjBXS1NmZTJsSW1UbHdkRVVPRzRGUkk3clRuLXlfc3FuMndfNkZfUy1Majh4MFA2X01XUTF2cktDemNtWTNZb0lCdFgtRzQxZzNTRjVzRGVJVmplOXVCcDlLVlQwbC16OU85OW41eC0zVw?oc=5"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "ground",
+      "place": "Eilat",
+      "lat": 29.5577,
+      "lon": 34.9519,
+      "title": "Alarm over potential Eilat attack met with skepticism, though not toward Houthi threat",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/alarm-over-potential-eilat-attack-met-with-skepticism-though-not-toward-houthi-threat/"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Oil surges as US strikes Iran, reversing return to pre-war prices",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/8/oil-prices-surge-as-us-strikes-iran-reversing-fall-to-pre-war-levels?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Tehran targets Bahrain and Kuwait after U.S. strikes",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/08/g-s1-132460/us-iran-attacks"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 23
+      "count": 25
     },
     {
       "place": "Tehran",
-      "count": 7
+      "count": 9
     },
     {
       "place": "Damascus",
       "count": 6
     },
     {
-      "place": "Doha",
-      "count": 1
+      "place": "Jerusalem",
+      "count": 2
     },
     {
-      "place": "Jerusalem",
+      "place": "Doha",
       "count": 1
     },
     {
@@ -534,6 +594,10 @@
     },
     {
       "place": "Bandar Abbas",
+      "count": 1
+    },
+    {
+      "place": "Eilat",
       "count": 1
     }
   ],

@@ -1,25 +1,43 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-07-08T18:14:18+00:00",
+  "updated": "2026-07-08T18:15:53+00:00",
   "losses_label": "Bajas rusas (reclamo ucr.)",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
     "losses": "Pérdidas rusas según el Estado Mayor de Ucrania: estimación de una de las partes, no verificada de forma independiente."
   },
   "window": {
-    "from": "2025-12-19",
+    "from": "2025-11-25",
     "to": "2026-07-08"
   },
   "kpis": {
-    "events_total": 103,
-    "events_unlocated": 190,
-    "events_7d": 86,
+    "events_total": 110,
+    "events_unlocated": 205,
+    "events_7d": 89,
     "events_prev_7d": 11,
     "hottest_place": "Kyiv"
   },
   "daily": [
     {
+      "date": "2026-05-15",
+      "total": 1,
+      "strike": 0,
+      "ground": 1,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
       "date": "2026-05-18",
+      "total": 2,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-05-25",
       "total": 1,
       "strike": 1,
       "ground": 0,
@@ -56,10 +74,10 @@
     },
     {
       "date": "2026-06-20",
-      "total": 1,
+      "total": 2,
       "strike": 0,
       "ground": 0,
-      "infrastructure": 1,
+      "infrastructure": 2,
       "air_defense": 0,
       "anomaly": false
     },
@@ -173,8 +191,8 @@
     },
     {
       "date": "2026-07-07",
-      "total": 8,
-      "strike": 5,
+      "total": 11,
+      "strike": 8,
       "ground": 1,
       "infrastructure": 1,
       "air_defense": 1,
@@ -192,6 +210,16 @@
   ],
   "events": [
     {
+      "date": "2026-05-15",
+      "type": "ground",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russia pounds Kyiv as its advance in eastern Ukraine slows to a crawl",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOS21mMklnREMydjhJMF9MdWllV182NG9VZDlnVWpSMXIzWHlhM1NjYlFib3dzSW1jY1cwR1NKQVE0Qk54SkpOdTlQZUEzcnJCeUxpT2lYbnREaHVJSndZM2F0aE1HTWhtLVdBUi1ZTzJWalBDOUtsTWZUSVdHbXdIVUxzRVdFMHdBSDhGR0k4TUJVNFF1Nm9jRWV5ZzQ4THRNcVZEdGdxMk4zd9IBrwFBVV95cUxOYnVQZWNDbk1nb2RicmtxTjJ5LUZsbzMySy1Eek5RSGQxcTNqSUI4b1ppNXRrUkJHUzBLSF8xbnRwWGdsWmlZUjlYYlp4dkxsQlowRU0waDRfYnFBWUhRcTZ4dkFFT01ITFU1T3c2VVVCd1dNSGFDNDNhQkRTZjM0YnpwZmFnUnNQTnJOYUlxa3F5YVphZUZNcnRQcGVuZVdRQW5WTUgtYVZRbDQ3Z1I0?oc=5"
+    },
+    {
       "date": "2026-05-18",
       "type": "strike",
       "place": "Moscow",
@@ -200,6 +228,26 @@
       "title": "Ukraine war latest: Russian satellite site hit by strike, Zelenskyy says, as baby killed by drone in Moscow region",
       "source": "Sky News",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPc1ltWGtkNXllSnpJUFY1LUltYU5FeFZWUHo3UldIS3hqZmZ0aDl1bWwzdHRMczlTeFUteTVab2VBeGZQME1fYWJSWlJ0cDBRcUFNRUdHR2Z2SzNuNjNrT21yWVRfbW4wdV92Y19iWmlSZldhN0tRbVEtUERiRlljZmpETExNOTZzUmYzOTNsLUZMbWk4MlhCd3BKR193YnRmNVhxNS02OUdwWlliZi1sanljSWxvLU81LXg5TS1Taw?oc=5"
+    },
+    {
+      "date": "2026-05-18",
+      "type": "infrastructure",
+      "place": "Odesa",
+      "lat": 46.4825,
+      "lon": 30.7233,
+      "title": "Ukraine war briefing: Chinese ship hit on way in to Odesa port, says Zelenskyy",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQmJBZGlzcXYtRVhzX0hzOUxoempYMUhOc21UYWRHUkJrMjN2dWpNaktSWmRxN1FSbjRaUTZYaDRzS01zdjNpVHU0OTFoZGk1MTBibTBYVC1ZRldkSlpwai1OR1BiN3piSWlxdDRUeXpXNjZpVkJhZEFfeFFJbERLVUNfOXZJQW5QbWFwUWphZWhZZEZxSXM2Ny1mVDJlUnR4bks4dGdTdw?oc=5"
+    },
+    {
+      "date": "2026-05-25",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russia hits Ukraine with Oreshnik missile in one of war's biggest attacks on Kyiv",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZTF3TzRleUdUZEptV2xCbjAyVWRISkNuTTBEM1hTWXZtZk9fT25jV0M3X0x5NlJWN2FxeUtqMjRMWWhac1RSX1U1MHl4dFJJSkZPZWE2M3lsNlJkTUtTZ3BvSkRmWXdBOHRTbG1FSDdiSUpGN0p1THdLaE1mUFBGM2FEY19wLXZEcjA4V0doX1BCUmlINUkzYU0zQTZ6djYyY0V4NTZNOEpEZw?oc=5"
     },
     {
       "date": "2026-05-26",
@@ -250,6 +298,16 @@
       "title": "Moscow oil refinery attack brings Russia's war with Ukraine closer to home",
       "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yeTBfbmxoYm9nYS1OWDdCaTJQRjJFRVVfSFRma3l1b1gwb3ZqMTJMMVhVMjg5YW5QUlZoa1g1UjZleTFJU0xiUHQ0dzdMZWxiVmJSRVdwaXYwUQ?oc=5"
+    },
+    {
+      "date": "2026-06-20",
+      "type": "infrastructure",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Moscow oil refinery attack brings Russia's war with Ukraine closer to home",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBweVp5dTBfajNrMzAzSVQ3aTVkMjhFMjVmejIzSXFyeElfc25SR05mejlJSVVvaDdUc0x4TjhabWhoVkFLZ2lCWWtuRUtvUzJyT0h1Z05Ocll5RXND?oc=5"
     },
     {
       "date": "2026-06-24",
@@ -1162,6 +1220,36 @@
       "url": "https://www.npr.org/2026/07/07/nx-s1-5883932/ukraine-to-press-nato-for-anti-ballistic-air-defense-after-latest-russian-attacks"
     },
     {
+      "date": "2026-07-07",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Dozens of Ukrainian drones target Moscow, mayor says, as Zelenskyy vows more strikes",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNE9nZ25pbTZhbFd1cEEtWkZUc1I0U1JKN3VrTHMzU2JjRlV1ZEJQV1pvRTZ1d1JpVUVNMkRqN2xjSkZRYlN5WnBITXB4T3dhQ2plY3N5dXQtdzVNckFmNWUtOExsak5ZOTBqR1dqSWlHMjJXQzVmazlEY21GNGxrcEZGVGJ5eW8tSl9qaFJsd1Y4OWt2SldGMFR5UlozSmNYb1doWFp6VDhKSWl1akxGNdIBtgFBVV95cUxPdVM3UWVSSVJzS2hKbjMzaHR1T3RPd2hpWFFOV2RjOVFqaV9jUWFDbGpFYjhwQjF3U3l3R182Zi0xa3p0ci1ZVkxpUl92U1laYjBseUMwWUhTZkwyNkM3bTA4UWhzZDk0VE9qa29McnB3ZS10UllYWllGamVKOERfSTl3Z3hzZlJscXZvY2xndS0wc1BrYm5YT1dhOFZ2LVB4dnNZQnlTUWlOUXZHbzR3aVhYNjJpUQ?oc=5"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "IOC moves to allow more Russian athletes back into the Olympic games",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/07/nx-s1-5884882/ioc-moves-to-allow-more-russian-athletes-back-into-the-olympic-games"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russian missiles strike Ukraine’s capital, Kyiv, for third time in a week",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/7/russian-missile-strikes-hit-ukraines-capital-kyiv-for-third-time-in-a-week?traffic_source=rss"
+    },
+    {
       "date": "2026-07-08",
       "type": "strike",
       "place": "Kyiv",
@@ -1225,11 +1313,11 @@
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 68
+      "count": 69
     },
     {
       "place": "Moscow",
-      "count": 18
+      "count": 21
     },
     {
       "place": "Sevastopol",

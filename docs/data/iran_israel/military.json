@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-08T18:14:26+00:00",
+  "updated": "2026-07-08T18:16:00+00:00",
   "losses_label": "",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
@@ -11,9 +11,9 @@
     "to": "2026-07-08"
   },
   "kpis": {
-    "events_total": 39,
-    "events_unlocated": 87,
-    "events_7d": 32,
+    "events_total": 51,
+    "events_unlocated": 108,
+    "events_7d": 44,
     "events_prev_7d": 7,
     "hottest_place": "Strait of Hormuz"
   },
@@ -74,18 +74,18 @@
     },
     {
       "date": "2026-07-07",
-      "total": 10,
-      "strike": 10,
+      "total": 16,
+      "strike": 13,
       "ground": 0,
-      "infrastructure": 0,
+      "infrastructure": 3,
       "air_defense": 0,
       "anomaly": false
     },
     {
       "date": "2026-07-08",
-      "total": 14,
-      "strike": 14,
-      "ground": 0,
+      "total": 20,
+      "strike": 19,
+      "ground": 1,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": true
@@ -343,6 +343,66 @@
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVDNPdTIwTDZReUdXUktsdFZWR1Jhd1BDSm9lVXVqZVN1YTNpSV9xOEZSeEkyRXVSMEkzZ1BLSk83NFNJMV95MlU2WWhtem41UU9nbmJheDkwdVpFUmQ0RVBsSXhLV2ZuLTNXTTlxSGNTNENDTm1NeUNXTURqVDdYNi1wOUY2Y0tyc09zak9HMWFaMjZOSDRiQlJyR1FpQklxX2RQTV9KTU1QM1ZFeGNtV2hVQnZaSFV4dGQzZQ?oc=5"
     },
     {
+      "date": "2026-07-07",
+      "type": "infrastructure",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Israel's energy minister touts oil pipeline to bypass Hormuz",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOc19EWTZjNnJMdWRaQTBFQlFsVDhJZl9CRmFGVHVGWlpBbHV5YWVsZEg0THdfLWs5VzNYUHhzZ3A5VHhPZWZHTGNvU3ROMzFXQ2VseHVaNWhVQUhCQXdFMXBtN0toV3EzUEhxYlhOR1NtWS03RXRvemZJS2lZZGFuR1dKR0I4YXNIZzFsbjF1N3p0XzAta09BaU5MdVc5ZkdmN1ZqT0ZUVzRWS29j?oc=5"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "strike",
+      "place": "Damascus",
+      "lat": 33.5138,
+      "lon": 36.2765,
+      "title": "Explosions rock Damascus, wounding 18, near visiting French President Macron’s hotel",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/explosions-rock-damascus-wounding-18-near-french-presidents-hotel/"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "infrastructure",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Energy Minister Cohen proposes oil pipeline to bypass Hormuz",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA5YXNRZ01pdzhPZmdYeTROb0hickhCOTN1OFdKUTBFdXhpVjcwN29KWGFjY2lueldCMlN1TXBYY1RqQkRsWGJCQWpsempBcVJpSUhEaVJMT25GYmJM?oc=5"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Hegseth to visit Israel on Wednesday as US strikes Iran after Hormuz tanker attacks",
+      "source": "Ynetnews",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wSTRzaGRoNlBmMi1nS2t2cnBUSFVoamNSbUFxRmE1QVdwZXBkRVpYUi0tYzJZb3BnUEh2SE9BY0hfUVFIalBKdFNYb2ljd1lnQTdfdnBR?oc=5"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "infrastructure",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Israel-Europe pipeline proposed to cut reliance on Strait of Hormuz",
+      "source": "Baird Maritime",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUzM4LV9BLUFnWEVJZC1RZ2l2TjdaUUdMMmxFWURYX0s5ai0zbGtRalRQVGJBaHAwSFY4bVBaaklzaWN1bTA0YXg4M0pwQjJKNy1LMUl4SWJScGtKd1dpbFNrT2FhaGs1dXZtUWlZdUVxSUVILUNwM09BdGcwZWM3dzhjcElhNmlfOFF6UWVCVW8tLURtNjFTWjVycDRoOHRiU3h1RnIxNHpmbVp2NU5fTURTS3lDdWPSAcQBQVVfeXFMUFUxVGpfRzdVWEdpRDk2VzNmSk9ZT28yVEdFMkV4eUNnRlRWX0huNlNJcGtqWFpISnhIanQxajA5MWNBQ3hqNkJqMk1NaVlMSmxtVkpNQzRBVTNmYXRPNE13TnREckRHUktyQUtNOWdWVVItdTg0TTFabXI5S1Nrb3ozeWt0ZFFBcVBpOE9EVTJGNklmcDExLUROYWxIazZJM0ZsOTVRSU9vTGhtbk1TVUdJWXpjbmVBWEJkQ0VTV2xVYlNCVQ?oc=5"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US launches strikes on southern Iran, Tehran vows ‘crushing response’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/7/us-says-strikes-launched-as-explosions-heard-in-southern-iran?traffic_source=rss"
+    },
+    {
       "date": "2026-07-08",
       "type": "strike",
       "place": "Strait of Hormuz",
@@ -481,12 +541,72 @@
       "title": "Tehran targets Bahrain and Kuwait after U.S. strikes",
       "source": "NPR",
       "url": "https://www.npr.org/2026/07/08/g-s1-132460/us-iran-attacks"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "strike",
+      "place": "Kharg Island",
+      "lat": 29.2325,
+      "lon": 50.3299,
+      "title": "Iran War Live Updates: Reports of fresh explosions on Iran's Qeshm island, blasts hear on Kharg island",
+      "source": "The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOUjc0YjdxRUh3N0RJSThucmdMNjF1dWhMQ3VfMnR6Q0o2NWtCZzMzU2loY1M0V3RxZ2FMUDdxeFQ5RmpwUDdhWDJHR1BsbWZ3WjRORGdTNWI1Q2RPcUZWNnN2eE11NXZ3aDdUMzQ5VlRsUHRxTEozX3d4M2xkOHAtdDdmWXVVZ1JzSDQwMC1hQmJyYmdWcVNNZndLYjdldTVMOTRpSWptci04WktQTkx5Z190dHRjenQyeno5dWNKY2ZEWUJWclBWblloSEZVbjEzSy02TkM4N0o3TjRaR2FUWFBmb0FfeUZtdFh1bWxVY2pzZ1liOThzVEVUdnh6VDNNVVlTR3hrMjQ5My15S0tFdXJ5dmhaZjVIaFBB0gGgAkFVX3lxTE5HSE05LUN5akJGelZub2hiWVVteHhpbUpYWUV2WDRPZnhROXFwMWgzWFJ5UDNSSXZuTHhvM2MxOTRiX2tmaHhXc1lYSnl5VUs0NXdMaXlZMUVQU3FkeV9TOFRyY1JtZWpVdXRrQ25OU3V2WTlwTXdZTWFGQnlWMjRQbGFpbkhyRmIyZWZHOV9zOVVMS3RzNUVJM04zbDgyLXlPeG93T1pMUmpOZzJ5YXZ4ZExkRVlWR2dYOGZMVGxvZGFyNmRycURnakdydm9MOGdaQTVaM3c5SHQwNFg0MWl0U2dKcTdLUGctcUF4ZndWS3hvQ3VZZ1ZiREpGdlhPcE84UjdyZ1BNU1VyajRJWkZRUlhXSFNuUF9JQVJfRl9GMw?oc=5"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US strikes Iran, revokes oil sanctions waiver after attacks on tankers in Hormuz",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/us-strikes-iran-revokes-oil-sanctions-waiver-after-attacks-on-tankers-in-hormuz/"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "strike",
+      "place": "Bandar Abbas",
+      "lat": 27.1832,
+      "lon": 56.2666,
+      "title": "Iran war live: US bombs Sirik, Qeshm, Bandar Abbas over Hormuz attacks",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/7/8/iran-war-live-us-bombs-sirik-qeshm-bandar-abbas-over-hormuz-attacks?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US launches strikes on Iran after tankers hit in Strait of Hormuz",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cwykq59jwpvo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "ground",
+      "place": "Eilat",
+      "lat": 29.5577,
+      "lon": 34.9519,
+      "title": "Alarm over potential Eilat attack met with skepticism, though not toward Houthi threat",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/alarm-over-potential-eilat-attack-met-with-skepticism-though-not-toward-houthi-threat/"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Oil surges as US strikes Iran, reversing return to pre-war prices",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/8/oil-prices-surge-as-us-strikes-iran-reversing-fall-to-pre-war-levels?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 21
+      "count": 29
     },
     {
       "place": "Tehran",
@@ -494,7 +614,7 @@
     },
     {
       "place": "Damascus",
-      "count": 6
+      "count": 7
     },
     {
       "place": "Doha",
@@ -506,6 +626,18 @@
     },
     {
       "place": "Bushehr",
+      "count": 1
+    },
+    {
+      "place": "Kharg Island",
+      "count": 1
+    },
+    {
+      "place": "Bandar Abbas",
+      "count": 1
+    },
+    {
+      "place": "Eilat",
       "count": 1
     }
   ],

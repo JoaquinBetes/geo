@@ -2,21 +2,21 @@
   "id": "iran_israel",
   "name": "Irán–Israel/EE.UU.",
   "description": "Cobertura mediática del conflicto entre Irán, Israel y Estados Unidos",
-  "updated": "2026-07-08T18:16:44+00:00",
-  "total_articles": 1076,
-  "overall_avg": -0.2837,
+  "updated": "2026-07-08T19:55:30+00:00",
+  "total_articles": 1099,
+  "overall_avg": -0.2857,
   "distribution": {
-    "pos": 261,
-    "neu": 170,
-    "neg": 645
+    "pos": 264,
+    "neu": 175,
+    "neg": 660
   },
   "sources": [
     "Al Jazeera",
     "Times of Israel",
     "BBC",
     "The Times of Israel",
-    "NPR",
     "The Guardian",
+    "NPR",
     "The Jerusalem Post",
     "Reuters",
     "NBC News",
@@ -39,6 +39,7 @@
     "JNS.org",
     "The Hill",
     "i24NEWS",
+    "CBS News",
     "EA WorldView",
     "Middle East Eye",
     "New York Post",
@@ -49,7 +50,6 @@
     "Middle East Monitor",
     "Al-Monitor",
     "Anadolu Ajansı",
-    "CBS News",
     "The Christian Science Monitor",
     "The New Arab",
     "Council on Foreign Relations",
@@ -63,6 +63,7 @@
     "Travel And Tour World",
     "The Indian Express",
     "Українські Національні Новини (УНН)",
+    "The Conversation",
     "The Forward",
     "The Federal",
     "thenationalnews.com",
@@ -135,7 +136,6 @@
     "Christianity Today",
     "The Israel Democracy Institute",
     "camera.org",
-    "The Conversation",
     "The American Conservative",
     "U.S. News & World Report",
     "Drop Site News",
@@ -165,7 +165,10 @@
     "Benzinga",
     "The Media Line",
     "Brookings",
-    "Small Wars Journal"
+    "Small Wars Journal",
+    "Manara Magazine",
+    "WPDE",
+    "The Lufkin Daily News"
   ],
   "daily": [
     {
@@ -354,31 +357,31 @@
     },
     {
       "date": "2026-07-07",
-      "count": 217,
-      "avg": -0.2544,
+      "count": 218,
+      "avg": -0.2572,
       "pos": 57,
       "neu": 39,
-      "neg": 121
+      "neg": 122
     },
     {
       "date": "2026-07-08",
-      "count": 216,
-      "avg": -0.3475,
-      "pos": 44,
-      "neu": 31,
-      "neg": 141
+      "count": 238,
+      "avg": -0.3485,
+      "pos": 47,
+      "neu": 36,
+      "neg": 155
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 365,
-      "avg": -0.2079
+      "count": 373,
+      "avg": -0.209
     },
     {
       "source": "Times of Israel",
-      "count": 135,
-      "avg": -0.2894
+      "count": 138,
+      "avg": -0.2966
     },
     {
       "source": "BBC",
@@ -387,18 +390,18 @@
     },
     {
       "source": "The Times of Israel",
+      "count": 48,
+      "avg": -0.3404
+    },
+    {
+      "source": "The Guardian",
       "count": 47,
-      "avg": -0.3476
+      "avg": -0.5888
     },
     {
       "source": "NPR",
       "count": 47,
       "avg": -0.2641
-    },
-    {
-      "source": "The Guardian",
-      "count": 42,
-      "avg": -0.5918
     },
     {
       "source": "The Jerusalem Post",
@@ -407,8 +410,8 @@
     },
     {
       "source": "Reuters",
-      "count": 16,
-      "avg": -0.3695
+      "count": 17,
+      "avg": -0.3477
     },
     {
       "source": "NBC News",
@@ -511,6 +514,11 @@
       "avg": -0.6791
     },
     {
+      "source": "CBS News",
+      "count": 3,
+      "avg": -0.4077
+    },
+    {
       "source": "EA WorldView",
       "count": 3,
       "avg": -0.7804
@@ -559,11 +567,6 @@
       "source": "Anadolu Ajansı",
       "count": 2,
       "avg": -0.8679
-    },
-    {
-      "source": "CBS News",
-      "count": 2,
-      "avg": -0.1771
     },
     {
       "source": "The Christian Science Monitor",
@@ -629,6 +632,11 @@
       "source": "Українські Національні Новини (УНН)",
       "count": 2,
       "avg": -0.0407
+    },
+    {
+      "source": "The Conversation",
+      "count": 2,
+      "avg": -0.3891
     },
     {
       "source": "The Forward",
@@ -991,11 +999,6 @@
       "avg": -0.5267
     },
     {
-      "source": "The Conversation",
-      "count": 1,
-      "avg": -0.7783
-    },
-    {
       "source": "The American Conservative",
       "count": 1,
       "avg": -0.0516
@@ -1144,50 +1147,65 @@
       "source": "Small Wars Journal",
       "count": 1,
       "avg": -0.941
+    },
+    {
+      "source": "Manara Magazine",
+      "count": 1,
+      "avg": 0.0
+    },
+    {
+      "source": "WPDE",
+      "count": 1,
+      "avg": -0.4215
+    },
+    {
+      "source": "The Lufkin Daily News",
+      "count": 1,
+      "avg": -0.7003
     }
   ],
   "top_entities": [
     {
       "name": "Israel",
       "type": "LOCATION",
-      "count": 469,
-      "avg": -0.3631
+      "count": 475,
+      "avg": -0.3658
     },
     {
       "name": "Iran",
       "type": "LOCATION",
-      "count": 448,
-      "avg": -0.4117
+      "count": 465,
+      "avg": -0.411
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 167,
+      "count": 175,
       "avg": -0.2572
     },
     {
       "name": "Khamenei",
       "type": "PERSON",
-      "count": 139,
-      "avg": -0.539
+      "count": 143,
+      "avg": -0.5434
     },
     {
       "name": "Tehran",
       "type": "LOCATION",
-      "count": 73,
-      "avg": -0.4812
+      "count": 74,
+      "avg": -0.4795
     },
     {
       "name": "Strait of Hormuz",
       "type": "LOCATION",
-      "count": 64,
-      "avg": -0.4762
+      "count": 65,
+      "avg": -0.4823
     },
     {
       "name": "Benjamin Netanyahu",
       "type": "PERSON",
-      "count": 62,
-      "avg": -0.1061
+      "count": 63,
+      "avg": -0.1111
     },
     {
       "name": "United States",
@@ -1504,6 +1522,17 @@
       "entities": []
     },
     {
+      "title": "Lebanon as the Centrepiece of Iran’s Diplomatic Strategy",
+      "source": "Manara Magazine",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA3OFYxTjlLb3FDMi14dW9CanZwWmRqR2FJc2VkOEdNREZaZ2w4a2NUOHpFelh3a012Z2RrT2RmYV9USjV4VERGY29UREExay11TkNFYmhjdjhsc05KM3cxYkdTNTNNZ21zRlpjaDI5OEdIU2NUdTR1eA?oc=5",
+      "published": "2026-07-08T19:33:18+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Iran"
+      ]
+    },
+    {
       "title": "EU aviation agency urges avoiding Iran, Iraq, Lebanon airspaces until August 31",
       "source": "Times of Israel",
       "url": "https://www.timesofisrael.com/eu-aviation-agency-urges-avoiding-iran-iraq-lebanon-airspaces-until-august-31/",
@@ -1537,6 +1566,18 @@
       "entities": [
         "Donald Trump",
         "Iran"
+      ]
+    },
+    {
+      "title": "US reportedly returning refueling planes to Israel amid Iran escalation",
+      "source": "The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNclhUSUZUYWNPN0dRVGJYblVQWklLRXA0OVJMZmlHY3BHLS1KbkJXMXI0dFNocFI5N2JiYWRsR0ZkS0tOMld2TUlRSS1rMDlKTzBvMmZWT0JPMlo4REk3S3UtLVAzN1hSMEI4aUh3NkwwdlZHTDZlcDNVWHdabTNhT3JFcXJlSzhlNTJvUkVJeE9XTkJsalhIcmRlVkZRcVRtMWlZM21QMVZ1dnJpbnQtV1NicnVWcTdP?oc=5",
+      "published": "2026-07-08T19:26:09+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Iran",
+        "Israel"
       ]
     },
     {
@@ -1582,6 +1623,17 @@
       ]
     },
     {
+      "title": "Arkia employees vow to fight potential Haredi buyout that would halt Shabbat flights",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/arkia-employees-vow-to-fight-potential-haredi-buyout-that-would-halt-shabbat-flights/",
+      "published": "2026-07-08T19:15:09+00:00",
+      "compound": -0.7783,
+      "label": "negative",
+      "entities": [
+        "Israel"
+      ]
+    },
+    {
       "title": "Germany urges US-Iran negotiations, offers to minesweep Hormuz",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORUZVV1pOSk9yLXdjVnFMWVAzbGJKMWh1ZlhlbFJ6V2tiYmstbTlSTzlsX005ZHVXREotNzFQdUhMM3hvOEhrbWR3QTBOeHRiSFQ5ZGdIM1k0YTVFNWpud0Y3U254c3MtUUQtQlUzb294cnZlbDh3OGJVWll2bUNiYW8wUUN6Y2x2NUVQUURNbG8tNVpQRWJ3OEM3bFRFOVN2b3ZhZXZpM2NnNjhaVDRNZtIBtgFBVV95cUxOSVozVFdrNkxwMzhveVktc0k3NS11dlBKTG9mWE9vM210dWctMnpuTzlWM2V3NWlHc0E4akdOalFDRzBXLVFoNEFKUDR4V09FUDhVREFHYzExNGFyODdXUV92a29INXVKempYNnpXbmU0c2F6N3czWG1ENjhURlotZW5aQlVHWXdGOUZZNUU2WlFzeEZMNmxqM282OWZVOTRfNzN3dkRFRHNLTDBuWkdMSEhocEh6Zw?oc=5",
@@ -1624,6 +1676,43 @@
       "entities": []
     },
     {
+      "title": "Atmosphere in Iran remains highly charged after Ayatollah’s funeral and escalation of grievances with US",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQYWdYR1VkVzd1UlFXLXdtN3RjOEZ2ZEF4cnVzVkF2czBHM1lCZFlXWU9wcENKanhIRExadEw2M3k0eUpuNHpyczJtTTlwOV9MOEZDcGdjMEZ6Mk9yZGRkTkJUSUwtbEs0blFXUDFKVC1PbGNCOGNmeDlNVm51WmQ0VldWUTdseW1oai1aY2RVVTJ2ODAtR2hSandfOHRXYVAtSVI3WjYwMElSejZQSGUxU3R5WXkyWTBjQjFVemtZWXB2Wk5pTGpINUZmSlk4X2JuTFFTX0Q3WHpvM2ZFb1otbVRDNA?oc=5",
+      "published": "2026-07-08T19:07:00+00:00",
+      "compound": -0.9039,
+      "label": "negative",
+      "entities": [
+        "Iran"
+      ]
+    },
+    {
+      "title": "Five key takeaways from the NATO summit in Ankara",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/8/five-key-takeaways-from-the-nato-summit-in-ankara?traffic_source=rss",
+      "published": "2026-07-08T19:06:35+00:00",
+      "compound": 0.6808,
+      "label": "positive",
+      "entities": [
+        "Donald Trump",
+        "Iran"
+      ]
+    },
+    {
+      "title": "Atmosphere in Iran remains highly charged after Ayatollah’s funeral and escalation of grievances with US",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/08/atmosphere-in-iran-remains-highly-charged-after-ayatollahs-funeral-and-escalation-of-grievances-with-us",
+      "published": "2026-07-08T19:05:46+00:00",
+      "compound": -0.3597,
+      "label": "negative",
+      "entities": [
+        "Khamenei",
+        "Donald Trump",
+        "Iran",
+        "Tehran"
+      ]
+    },
+    {
       "title": "Oil for unity: What is the US mediation plan in Libya?",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/7/8/oil-for-unity-what-is-the-us-mediation-plan-in-libya?traffic_source=rss",
@@ -1645,6 +1734,36 @@
         "IDF",
         "Israel"
       ]
+    },
+    {
+      "title": "Sabre-rattling to ‘tremendous love’: erratic Trump dominates final hours of Nato summit",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/08/erratic-trump-dominates-final-hours-nato-summit",
+      "published": "2026-07-08T19:00:12+00:00",
+      "compound": -0.8437,
+      "label": "negative",
+      "entities": [
+        "Donald Trump",
+        "Iran"
+      ]
+    },
+    {
+      "title": "Argentina fans accused of violence, racism by Egypt, Cape Verde supporters",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/8/argentina-fans-accused-of-violence-racism-by-egypt-cape-verde-supporters?traffic_source=rss",
+      "published": "2026-07-08T18:58:39+00:00",
+      "compound": -0.8689,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Mass cleanup underway after severe flooding in China",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/8/mass-cleanup-underway-after-severe-flooding-in-china?traffic_source=rss",
+      "published": "2026-07-08T18:58:17+00:00",
+      "compound": -0.3818,
+      "label": "negative",
+      "entities": []
     },
     {
       "title": "Germany urges US-Iran negotiations, offers to minesweep Hormuz",
@@ -1671,6 +1790,56 @@
       ]
     },
     {
+      "title": "Trump says US ‘may take over Kharg Island’: Here’s what you need to know",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/8/trump-says-us-may-take-over-kharg-island-heres-what-you-need-to-know?traffic_source=rss",
+      "published": "2026-07-08T18:52:13+00:00",
+      "compound": -0.6705,
+      "label": "negative",
+      "entities": [
+        "Donald Trump",
+        "Iran"
+      ]
+    },
+    {
+      "title": "War on Gaza draws large crowds to Khamenei’s funeral in Iraq",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/8/war-on-gaza-draws-large-crowds-to-khameneis-funeral-in-iraq?traffic_source=rss",
+      "published": "2026-07-08T18:51:32+00:00",
+      "compound": -0.7964,
+      "label": "negative",
+      "entities": [
+        "Khamenei",
+        "Iran"
+      ]
+    },
+    {
+      "title": "Oil shoots back up and stocks slide as Trump indicates Iran ceasefire over",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/oil-shoots-back-up-and-stocks-slide-as-trump-indicates-iran-ceasefire-over/",
+      "published": "2026-07-08T18:50:34+00:00",
+      "compound": -0.1531,
+      "label": "negative",
+      "entities": [
+        "Donald Trump",
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Masses gather in Iraq’s holy Shiite cities as Khamenei funeral frenzy crosses border",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/masses-gather-in-iraqs-holy-shiite-cities-as-khamenei-funeral-frenzy-crosses-border/",
+      "published": "2026-07-08T18:50:32+00:00",
+      "compound": -0.9325,
+      "label": "negative",
+      "entities": [
+        "Khamenei",
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
       "title": "Man sets wheelchair user in flames with Molotov cocktail",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/8/man-sets-wheelchair-user-in-flames-with-molotov-cocktail?traffic_source=rss",
@@ -1678,6 +1847,18 @@
       "compound": -0.34,
       "label": "negative",
       "entities": []
+    },
+    {
+      "title": "From menacing threats to comical misnomers: Donald Trump’s unlikely tale of love and darkness at Nato",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/jul/08/trump-nato-threats-mishaps",
+      "published": "2026-07-08T18:38:24+00:00",
+      "compound": 0.0516,
+      "label": "positive",
+      "entities": [
+        "Donald Trump",
+        "Iran"
+      ]
     },
     {
       "title": "Trump says he thinks Israel will withdraw troops from southern Lebanon",
@@ -1689,6 +1870,29 @@
       "entities": [
         "Donald Trump",
         "Israel"
+      ]
+    },
+    {
+      "title": "Israeli air strikes in Gaza kill eight, including two children",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/8/israeli-air-strikes-in-gaza-kill-eight-including-two-children?traffic_source=rss",
+      "published": "2026-07-08T18:35:11+00:00",
+      "compound": -0.8658,
+      "label": "negative",
+      "entities": [
+        "Israel"
+      ]
+    },
+    {
+      "title": "Trump says he ‘may be gone’ as he declares himself Iran’s No. 1 target",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/8/trump-says-he-may-be-gone-as-he-declares-himself-irans-no-1-target?traffic_source=rss",
+      "published": "2026-07-08T18:33:08+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Donald Trump",
+        "Iran"
       ]
     },
     {
@@ -1713,202 +1917,20 @@
       "entities": []
     },
     {
+      "title": "Spanish football legend Alexia Putellas joins London City Lionesses",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/8/spanish-football-legend-alexia-putellas-joins-london-city-lionesses?traffic_source=rss",
+      "published": "2026-07-08T18:25:13+00:00",
+      "compound": 0.8271,
+      "label": "positive",
+      "entities": []
+    },
+    {
       "title": "Zelenskyy seeks NATO support as Russia continues attacks",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/8/zelenskyy-seeks-nato-support-as-russia-continues-attacks?traffic_source=rss",
       "published": "2026-07-08T18:18:30+00:00",
       "compound": -0.0516,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Oil prices rise sharply after Iran launches attacks on tankers near strait of Hormuz",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTHZCN0g1UHJ1czVIT1dORUI2RW1sWWhYVFBrWFlCSlZaRFdjYW5STG9vMzZxZ1lGcUhubEdoV1Q5NFJTM1A3NnIzQ0pkM3VkazlycmdqLWpRRHEwRzdhc3J3M2RsSGlRNVh0Tk5MQ1dGUXliWk9PWkdzcV9JNHlEMnA4ZFB3empYN2x3VG5DZmFhbHdUUTlUbUZlVFBYbkk?oc=5",
-      "published": "2026-07-08T18:18:00+00:00",
-      "compound": -0.7003,
-      "label": "negative",
-      "entities": [
-        "Iran",
-        "Strait of Hormuz"
-      ]
-    },
-    {
-      "title": "Only 15% of Israelis believe Israel won war with Iran, survey finds",
-      "source": "The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ORDh5NDdZanU2Qm00U0RmclA3WF90Q2toV0hrMDB1eW0tamxsblJWbUVKMEpvT1NLbEpJZEs2dGM4c1ZFVFA5RkVoN2dtcXlIQWVIcThhOFA2ZzFp?oc=5",
-      "published": "2026-07-08T18:17:42+00:00",
-      "compound": -0.1027,
-      "label": "negative",
-      "entities": [
-        "Iran",
-        "Israel",
-        "Jerusalem"
-      ]
-    },
-    {
-      "title": "Teenager arrested after two girls, 13, seriously injured in German school attack",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c0qyvkgndzpo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-08T18:09:08+00:00",
-      "compound": -0.8625,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Greetings from a Syrian church, infused with a mix of sweet fruit and diverse faiths",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/08/nx-s1-5884694/syria-church-interfaith-fruit",
-      "published": "2026-07-08T18:05:34+00:00",
-      "compound": 0.8225,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Israel watches as U.S.-Iran tensions escalate",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbFczUUdsS2gwT1RBemNpLXFjSnZhd0ZyOUdoUFNmUjlaMDdQdUJ2QmNUOUhaRWwxUnV4c2ZLVE9CRlpkMmROb1VXbjB4aTc3a09zRVdqUGFSN183NHdwbk9XaVpoRUNzVVE3bUVKVENNVTNYOXoyX29YeUgzNUdaMjA2Q1c5WjRZVFV0Sl9CSzBsREVxNmdxMTFwVHVjUlFBb1E?oc=5",
-      "published": "2026-07-08T18:00:25+00:00",
-      "compound": -0.6597,
-      "label": "negative",
-      "entities": [
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Khamenei's coffin carried through Shia shrines as ceremonies held in Iraq",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cp9le3kjj8eo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-08T17:56:24+00:00",
-      "compound": 0.2732,
-      "label": "positive",
-      "entities": [
-        "Khamenei",
-        "Iran"
-      ]
-    },
-    {
-      "title": "Why have 100,000 people been signed off work with ADHD in the UK?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/8/why-have-100000-people-been-signed-off-work-with-adhd-in-the-uk?traffic_source=rss",
-      "published": "2026-07-08T17:44:08+00:00",
-      "compound": 0.3818,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Israel braces for renewed Iran fighting as Netanyahu, Katz cancel military ceremony",
-      "source": "Ynetnews",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Vc2VteG85WkR1d3VMdVNxV0xpaDFYRGcwWm1EVXZqUzEtX3BXcU5hR0lUQm51X0tKRVNDVmR5MGR0MG5tNjdFTGkta1Y0RW9oR3Rrb2FR?oc=5",
-      "published": "2026-07-08T17:41:50+00:00",
-      "compound": -0.7906,
-      "label": "negative",
-      "entities": [
-        "Benjamin Netanyahu",
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Trump: Iran MOU is over, ‘we’ll hit them hard again tonight,’ but talks with ‘scum’ Tehran can continue",
-      "source": "Times of Israel",
-      "url": "https://www.timesofisrael.com/trump-iran-mou-is-over-well-hit-them-hard-again-tonight-but-talks-can-continue/",
-      "published": "2026-07-08T17:34:39+00:00",
-      "compound": -0.8537,
-      "label": "negative",
-      "entities": [
-        "Khamenei",
-        "Donald Trump",
-        "Iran",
-        "Israel",
-        "Tehran"
-      ]
-    },
-    {
-      "title": "Is an Iran deal ‘over’ and war back on? A timeline of the conflict and talks",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUDQ1LVVrS3hnZ19sUXBRaWJaUk1hUHJ3eDA4aWlpbHhJckNkQ2R4TGZvdmQ2ZVJTVUpxQlFJMWpiNUU1MTd2NVZhOXZSYTBLSGcwWU1tY29RSV9DMEVmSHlBRTRkZFpJT2MyZmVxN0tYUDN1ZThUeWdiWnRWcnNPb0JzLXRCUHlvbXFsTjNR0gGTAUFVX3lxTFBNVVhCMVZEZ2Nld1BLREJrbGxlcjlKQkVobUtjM3ozeTFoa1BPS3llWHZYLXR2dEhnQ3JXYlgzUnllZzhfbzJlQUZzZWx1RWg5cWFSWDB4MENjOWp2LTF0NjZJdzkwNGstMmlOSjQzRkV6YXlQOVJheklNd1BMYU5kR3pxSmw1YXA1eFgyMnc1QXV2TQ?oc=5",
-      "published": "2026-07-08T17:34:11+00:00",
-      "compound": -0.9146,
-      "label": "negative",
-      "entities": [
-        "Iran"
-      ]
-    },
-    {
-      "title": "Pentagon Considers Relocating Gulf Bases to Israel",
-      "source": "Democracy Now!",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOM1hPeDlaM0thak5nNlFPZHRiaV9KTmktM3FzS1ZWeC05NGtEV2MwVkprOTVQQzIxcjZ5ekgxd0xRWjFkdGNzbjUtRWQxNW5JWVVpd0Q5eWdvTVpyUm9DT3ZSaFpRa0ljYl83QU90WTQ2OG84Y1FldVFRNUJGbFR4UUZldktSdF9FeGZPelI4bXBxa3lLSkpocERuM0E5TjA?oc=5",
-      "published": "2026-07-08T17:26:21+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Israel",
-        "United States"
-      ]
-    },
-    {
-      "title": "German doctor jailed for murder of 15 patients and suspected of more",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cq819jyp2g7o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-08T17:25:25+00:00",
-      "compound": -0.9022,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Trump on Iran: ‘We’ll probably hit them hard again tonight’",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/8/trump-on-iran-well-probably-hit-them-hard-again?traffic_source=rss",
-      "published": "2026-07-08T17:20:03+00:00",
-      "compound": -0.4404,
-      "label": "negative",
-      "entities": [
-        "Donald Trump",
-        "Iran"
-      ]
-    },
-    {
-      "title": "‘Down with the USA’: US influencer Jackson Hinkle attends Khamenei’s funera",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/8/down-with-the-usa-us-influencer-jackson-hinkle-attends-khameneis-funera?traffic_source=rss",
-      "published": "2026-07-08T17:17:23+00:00",
-      "compound": -0.3612,
-      "label": "negative",
-      "entities": [
-        "Khamenei"
-      ]
-    },
-    {
-      "title": "Trump says peace deal with Iran is over after sides exchange strikes",
-      "source": "CBC",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPR0JDNDBOblQ5ZXlOb25QTEtJdzdITV81STFoS3IzaXR5WE53R19TQ0ZGdC1NaGJjczd5NEt0dy0xSExuVC10eUNQRUR1UlIwSjJBRldjSEFhZXM1XzRFclpjOWZMQUpOUk1xMzVkOFUyZWNTUThaWmk3NEowRzIxR0ZBbG5KZktk?oc=5",
-      "published": "2026-07-08T17:16:24+00:00",
-      "compound": 0.4588,
-      "label": "positive",
-      "entities": [
-        "Donald Trump",
-        "Iran"
-      ]
-    },
-    {
-      "title": "A plea to the prime minister: Heed the lessons of our history in this land, and pull back from the brink",
-      "source": "Times of Israel",
-      "url": "https://www.timesofisrael.com/a-plea-to-the-prime-minister-heed-the-lessons-of-our-history-in-this-land-and-pull-back-from-the-brink/",
-      "published": "2026-07-08T17:07:10+00:00",
-      "compound": 0.631,
-      "label": "positive",
-      "entities": [
-        "Israel"
-      ]
-    },
-    {
-      "title": "Eight killed after landslide hits girls' school in Bangladesh",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cx2wkzww20ro?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-08T17:02:54+00:00",
-      "compound": -0.6705,
       "label": "negative",
       "entities": []
     }

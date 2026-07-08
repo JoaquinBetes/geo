@@ -2,13 +2,13 @@
   "id": "korea_peninsula",
   "name": "Corea del Norte–Corea del Sur",
   "description": "Cobertura mediática de la tensión en la península coreana",
-  "updated": "2026-07-08T18:16:52+00:00",
-  "total_articles": 184,
-  "overall_avg": -0.2231,
+  "updated": "2026-07-08T19:55:37+00:00",
+  "total_articles": 194,
+  "overall_avg": -0.2182,
   "distribution": {
-    "pos": 40,
-    "neu": 50,
-    "neg": 94
+    "pos": 43,
+    "neu": 52,
+    "neg": 99
   },
   "sources": [
     "Al Jazeera",
@@ -21,6 +21,7 @@
     "DailyNK",
     "Korea JoongAng Daily",
     "조선일보",
+    "38 North",
     "Yahoo",
     "CBS News",
     "upi.com",
@@ -28,7 +29,6 @@
     "19FortyFive",
     "South China Morning Post",
     "Yonhap News Agency",
-    "38 North",
     "The Times",
     "Salish Current",
     "Kyiv Post",
@@ -228,6 +228,14 @@
       "neg": 1
     },
     {
+      "date": "2026-06-16",
+      "count": 1,
+      "avg": 0.7906,
+      "pos": 1,
+      "neu": 0,
+      "neg": 0
+    },
+    {
       "date": "2026-06-18",
       "count": 1,
       "avg": 0.0,
@@ -333,18 +341,18 @@
     },
     {
       "date": "2026-07-08",
-      "count": 93,
-      "avg": -0.2052,
-      "pos": 22,
-      "neu": 23,
-      "neg": 48
+      "count": 102,
+      "avg": -0.2074,
+      "pos": 24,
+      "neu": 25,
+      "neg": 53
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 31,
-      "avg": -0.1845
+      "count": 39,
+      "avg": -0.1999
     },
     {
       "source": "BBC",
@@ -358,8 +366,8 @@
     },
     {
       "source": "NK News",
-      "count": 10,
-      "avg": -0.3085
+      "count": 11,
+      "avg": -0.2086
     },
     {
       "source": "NPR",
@@ -390,6 +398,11 @@
       "source": "조선일보",
       "count": 3,
       "avg": 0.5797
+    },
+    {
+      "source": "38 North",
+      "count": 3,
+      "avg": 0.2801
     },
     {
       "source": "Yahoo",
@@ -425,11 +438,6 @@
       "source": "Yonhap News Agency",
       "count": 2,
       "avg": -0.8316
-    },
-    {
-      "source": "38 North",
-      "count": 2,
-      "avg": 0.4201
     },
     {
       "source": "The Times",
@@ -656,14 +664,14 @@
     {
       "name": "North Korea",
       "type": "LOCATION",
-      "count": 100,
-      "avg": -0.2451
+      "count": 102,
+      "avg": -0.2326
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 23,
-      "avg": -0.2186
+      "count": 26,
+      "avg": -0.193
     },
     {
       "name": "Russia",
@@ -674,8 +682,8 @@
     {
       "name": "China",
       "type": "LOCATION",
-      "count": 17,
-      "avg": -0.0671
+      "count": 18,
+      "avg": -0.0845
     },
     {
       "name": "Kim Jong-un",
@@ -686,8 +694,8 @@
     {
       "name": "South Korea",
       "type": "LOCATION",
-      "count": 14,
-      "avg": 0.0355
+      "count": 15,
+      "avg": 0.0858
     },
     {
       "name": "Japan",
@@ -856,6 +864,17 @@
       "entities": []
     },
     {
+      "title": "The Logistics of Funding North Korean E-Wallets",
+      "source": "38 North",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOOWlTNmdLR2liaTRzSnVZMl9BS0RJSE9QR3oyNWRTaF94MlgxdUdXRktLNzlqTERDWVY1MnBPTDJ5UGJtSWhkY3pPN3Zib1FFUUlRYktMd0NlSTFEQ3hoblNrQnVNNGZrY2NyaWUwZnpITTJSMmR3ZDkzOXpVVmFFTmt3LWplMzg?oc=5",
+      "published": "2026-07-08T19:08:09+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "North Korea"
+      ]
+    },
+    {
       "title": "Pakistan military says 42 killed in fighter attacks in Balochistan",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/7/8/pakistan-military-says-42-killed-in-fighter-attacks-in-balochistan?traffic_source=rss",
@@ -863,6 +882,17 @@
       "compound": -0.8957,
       "label": "negative",
       "entities": []
+    },
+    {
+      "title": "Five key takeaways from the NATO summit in Ankara",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/8/five-key-takeaways-from-the-nato-summit-in-ankara?traffic_source=rss",
+      "published": "2026-07-08T19:06:35+00:00",
+      "compound": 0.6808,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
     },
     {
       "title": "Oil for unity: What is the US mediation plan in Libya?",
@@ -873,6 +903,26 @@
       "label": "positive",
       "entities": [
         "Donald Trump"
+      ]
+    },
+    {
+      "title": "Argentina fans accused of violence, racism by Egypt, Cape Verde supporters",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/8/argentina-fans-accused-of-violence-racism-by-egypt-cape-verde-supporters?traffic_source=rss",
+      "published": "2026-07-08T18:58:39+00:00",
+      "compound": -0.8689,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Mass cleanup underway after severe flooding in China",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/8/mass-cleanup-underway-after-severe-flooding-in-china?traffic_source=rss",
+      "published": "2026-07-08T18:58:17+00:00",
+      "compound": -0.3818,
+      "label": "negative",
+      "entities": [
+        "China"
       ]
     },
     {
@@ -907,6 +957,26 @@
       ]
     },
     {
+      "title": "Trump says US ‘may take over Kharg Island’: Here’s what you need to know",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/8/trump-says-us-may-take-over-kharg-island-heres-what-you-need-to-know?traffic_source=rss",
+      "published": "2026-07-08T18:52:13+00:00",
+      "compound": -0.6705,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "War on Gaza draws large crowds to Khamenei’s funeral in Iraq",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/8/war-on-gaza-draws-large-crowds-to-khameneis-funeral-in-iraq?traffic_source=rss",
+      "published": "2026-07-08T18:51:32+00:00",
+      "compound": -0.7964,
+      "label": "negative",
+      "entities": []
+    },
+    {
       "title": "Man sets wheelchair user in flames with Molotov cocktail",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/8/man-sets-wheelchair-user-in-flames-with-molotov-cocktail?traffic_source=rss",
@@ -914,6 +984,26 @@
       "compound": -0.34,
       "label": "negative",
       "entities": []
+    },
+    {
+      "title": "Israeli air strikes in Gaza kill eight, including two children",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/8/israeli-air-strikes-in-gaza-kill-eight-including-two-children?traffic_source=rss",
+      "published": "2026-07-08T18:35:11+00:00",
+      "compound": -0.8658,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Trump says he ‘may be gone’ as he declares himself Iran’s No. 1 target",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/8/trump-says-he-may-be-gone-as-he-declares-himself-irans-no-1-target?traffic_source=rss",
+      "published": "2026-07-08T18:33:08+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Donald Trump"
+      ]
     },
     {
       "title": "Bowen: For all his bluster, Trump has no better option than talks with Iran",
@@ -932,6 +1022,15 @@
       "url": "https://www.aljazeera.com/sports/2026/7/8/fifa-world-cup-2026-quarterfinal-fixtures-match-previews-schedule?traffic_source=rss",
       "published": "2026-07-08T18:27:17+00:00",
       "compound": 0.5423,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Spanish football legend Alexia Putellas joins London City Lionesses",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/8/spanish-football-legend-alexia-putellas-joins-london-city-lionesses?traffic_source=rss",
+      "published": "2026-07-08T18:25:13+00:00",
+      "compound": 0.8271,
       "label": "positive",
       "entities": []
     },
@@ -1223,100 +1322,6 @@
       "compound": 0.6124,
       "label": "positive",
       "entities": []
-    },
-    {
-      "title": "Cubans protest after third nationwide power cut this year",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cm20g0d3ry4o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-08T13:56:55+00:00",
-      "compound": -0.6597,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "FIFA World Cup 2026: Biggest takeaways from the round of 16",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/8/fifa-world-cup-2026-biggest-takeaways-from-the-round-of-16-quarterfinals?traffic_source=rss",
-      "published": "2026-07-08T12:51:39+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Trump says MoU ‘over’ after latest US and Iranian attacks",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/8/trump-says-mou-over-after-latest-us-and-iranian-attacks?traffic_source=rss",
-      "published": "2026-07-08T12:48:57+00:00",
-      "compound": -0.6597,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "U.S., S. Korea, Japan reaffirm N. Korea denuclearization, target cyber threats",
-      "source": "upi.com",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNRG1pU01iakRPeHdmTkY3c01rb0N2N0FjYVQ0ei1oR3Q4b2VFay0yblFmaENjOUNsZ1N5MzZJTE5RX210eWhudExDc2hwVlhvZk1pcjZfTkFHeGhXOGl0NVFtNHluU1k0UHBPM2JGZEhFUnQtTkU3NVJuWHh3WVMtdUNHc3RjWjVtbmJzRF9PZ3RvTDFfZ09rQzRIdTh5RGFjeTY5RGR2TlROTGxLUjRGWC1FWWg1S0x3b3BNWnNMQzJUNlNUSk1NaEZIUGt3d0RyLWNxUks1V3JjRFBHTFRUY1ROONIB6AFBVV95cUxONE9jRHF3dHVvaWFKbVVyc0Z5c1I3NU8wMGZPYzd3WEtpUUtnclFubDhfY3hSeGlSM2VyZEdtajhMUjRveV9kQnIwVWV6cmRBVVkwbDE3OUtYdnZiNGJnMFg0RlBjY1djQU12WkdOVEtGS045YXU0aUFMbzkwS2hQRV9RT3ljdHZMY3M0cmp6TXhsVzlmQVo3X3gyUUNhc1FlVWR1QXZhemhIWjFaRnlzYXZETHhBRUdzY0swNExpS3B5cXZhaVl1bVhwWDVSbElzVXEzby1zb3hDXzhkSnFmdTk2eHdPWjZX?oc=5",
-      "published": "2026-07-08T12:47:18+00:00",
-      "compound": -0.6808,
-      "label": "negative",
-      "entities": [
-        "Japan"
-      ]
-    },
-    {
-      "title": "Trump says ceasefire with Iran is 'over' as NATO summit wraps",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/08/nx-s1-5883929/trump-nato-iran-strikes-press-conference",
-      "published": "2026-07-08T12:12:59+00:00",
-      "compound": -0.7096,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Dispelling the misconceptions surrounding North Korea’s DMZ fortifications",
-      "source": "NK News",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPczExTjJjSUQ4UmFCTXhyZkF3cDhWaFF6Mk4xb05JSzFmMEtmSGlRMm9xZzF2NnVYSE83aWh0RlJNNTJPM0xnSDJTUk1WdVUzYkJmQmpQaTR2R3FMMklGZU4wNnNXQTc4LXRXS3NtZGMtOU1wTzd5UVdfMEgxaWQ5VDRRbFZGOXVESy1hM1FBMG5rQ1Z1SnRid3dVSVBQUjgxWnNz?oc=5",
-      "published": "2026-07-08T12:10:33+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "North Korea",
-        "DMZ"
-      ]
-    },
-    {
-      "title": "Lee, Zelensky meet for first time at NATO summit",
-      "source": "The Korea Herald",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBBUmZ1TjhlUTBHMkVLQWg0V2d2bWZqc1c1bFVydkFldVNsSzJFSHdBN09qNWhjTE5BOUh0cGpIbDQ1Z3hGZk01cDRzc0ZlNWpsRHB0cUNsYw?oc=5",
-      "published": "2026-07-08T12:08:37+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Will North Korea’s Succession Model Take Hold in Eritrea?",
-      "source": "horn review",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQmwtVF9ialNiQS16R2JQWDRaMVE2dHoxR1diVHJveVVaRjhfeEI4MHU5SmZuYWdLbGFreUNaLTlkOGdTcFE1S1NUWVZ0TTFFVEdqQmFPQ1M3R2pYZkhHdm1yQ2t3NEJMaVhUSHlXNWVHOTUxRG42ZHM4TzR3OGdFdGdib3JVRVBHY0xCdTk4YXNwR09S?oc=5",
-      "published": "2026-07-08T12:03:44+00:00",
-      "compound": 0.4515,
-      "label": "positive",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "North Korean hackers stole two-thirds of crypto in 2026: report",
-      "source": "CoinGeek",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNS2FRUU1EY1hiSFlSNlZ3aUp5dng2QWhxSHJmcWRMakdwMW1rY2hBNGVSM2poaThDUnBwNk02a25HczBCdFN0b2RpMmh4UnR5S2RacUtObkxDdEZHQk11YWZadEd1dkNPd2VTTW04T0dpSkFnLTV6dU8ySXhRRGp1YkRuZGs1M2M0RVE1Qg?oc=5",
-      "published": "2026-07-08T12:00:57+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "North Korea"
-      ]
     }
   ]
 }

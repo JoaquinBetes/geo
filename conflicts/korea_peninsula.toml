@@ -1,0 +1,609 @@
+# =============================================================================
+#  CONFLICTO: COREA DEL NORTE – COREA DEL SUR
+#  Armisticio sin tratado de paz desde 1953. Ciclo actual: Pyongyang enterró
+#  la reunificación y declaró al Sur "principal enemigo" (enero 2024), con el
+#  eje Pyongyang-Moscú como novedad estratégica.
+# =============================================================================
+
+id = "korea_peninsula"
+name = "Corea del Norte–Corea del Sur"
+description = "Cobertura mediática de la tensión en la península coreana"
+start_date = "2024-01-15"   # Kim declara al Sur "principal enemigo" y entierra la reunificación
+order = 5
+
+[[countries]]
+code = "KP"
+name = "Corea del Norte"
+iso3 = "PRK"
+geo = "geo/kp_adm1.json"
+
+[[countries]]
+code = "KR"
+name = "Corea del Sur"
+iso3 = "KOR"
+geo = "geo/kr_adm1.json"
+
+# Eje del conflicto: el Norte y la frontera (las noticias sólo del Sur no
+# entran salvo que mencionen a Pyongyang o la DMZ).
+keywords = [
+  "north korea", "north korean", "pyongyang", "kim jong", "dprk",
+  "dmz", "panmunjom", "yongbyon", "punggye",
+]
+
+# -----------------------------------------------------------------------------
+#  FEEDS RSS (verificados 2026-07; Korea Herald/Times sin RSS operativo —
+#  Yonhap y la prensa surcoreana llegan vía Google News)
+# -----------------------------------------------------------------------------
+
+[[feeds]]
+source = "Google News"
+aggregator = true
+url = "https://news.google.com/rss/search?q=north%20korea&hl=en-US&gl=US&ceid=US:en"
+
+[[feeds]]
+source = "The Guardian"
+url = "https://www.theguardian.com/world/north-korea/rss"
+
+[[feeds]]
+source = "Al Jazeera"
+url = "https://www.aljazeera.com/xml/rss/all.xml"
+
+[[feeds]]
+source = "BBC"
+url = "https://feeds.bbci.co.uk/news/world/rss.xml"
+
+[[feeds]]
+source = "NPR"
+url = "https://feeds.npr.org/1004/rss.xml"
+
+# -----------------------------------------------------------------------------
+#  ENTIDADES
+# -----------------------------------------------------------------------------
+
+[[entities]]
+name = "Kim Jong-un"
+type = "PERSON"
+aliases = ["kim jong un"]
+
+[[entities]]
+name = "Kim Yo-jong"
+type = "PERSON"
+aliases = ["kim yo jong"]
+
+[[entities]]
+name = "Lee Jae-myung"
+type = "PERSON"
+aliases = ["lee jae myung"]
+
+[[entities]]
+name = "Donald Trump"
+type = "PERSON"
+aliases = ["trump"]
+
+[[entities]]
+name = "North Korea"
+type = "LOCATION"
+aliases = ["north korean", "dprk"]
+
+[[entities]]
+name = "South Korea"
+type = "LOCATION"
+aliases = ["south korean"]
+
+[[entities]]
+name = "United States"
+type = "LOCATION"
+aliases = ["washington", "white house", "pentagon"]
+
+[[entities]]
+name = "Japan"
+type = "LOCATION"
+aliases = ["japanese", "tokyo"]
+
+[[entities]]
+name = "China"
+type = "LOCATION"
+aliases = ["chinese", "beijing"]
+
+[[entities]]
+name = "Russia"
+type = "LOCATION"
+aliases = ["russian", "moscow", "kremlin"]
+
+[[entities]]
+name = "DMZ"
+type = "LOCATION"
+aliases = ["demilitarized zone"]
+
+[[entities]]
+name = "Yongbyon"
+type = "LOCATION"
+aliases = []
+
+[[entities]]
+name = "UN Command"
+type = "ORG"
+aliases = ["united nations command"]
+
+# -----------------------------------------------------------------------------
+#  PESTAÑA MILITAR (sin dataset de pérdidas: no hay guerra abierta)
+# -----------------------------------------------------------------------------
+
+[military]
+events_caveat = "Lanzamientos, maniobras e incidentes detectados automáticamente en titulares de prensa; no están verificados de forma independiente. La ubicación es aproximada, a nivel ciudad o zona."
+losses_caveat = ""
+
+# --- Gazetteer: Corea del Norte ---
+
+[[places]]
+name = "Pyongyang"
+country = "KP"
+region = "Pyongyang"
+aliases = []
+lat = 39.0392
+lon = 125.7625
+metonym = true
+
+[[places]]
+name = "Yongbyon"
+country = "KP"
+region = "North Pyongan"
+aliases = []
+lat = 39.7970
+lon = 125.7550
+
+[[places]]
+name = "Punggye-ri"
+country = "KP"
+region = "North Hamgyong"
+aliases = ["punggye"]
+lat = 41.2800
+lon = 129.0900
+
+[[places]]
+name = "Sohae"
+country = "KP"
+region = "North Pyongan"
+aliases = ["tongchang-ri"]
+lat = 39.6600
+lon = 124.7050
+
+[[places]]
+name = "Sinuiju"
+country = "KP"
+region = "North Pyongan"
+aliases = []
+lat = 40.1000
+lon = 124.4000
+
+[[places]]
+name = "Wonsan"
+country = "KP"
+region = "Kangwon"
+aliases = []
+lat = 39.1530
+lon = 127.4460
+
+[[places]]
+name = "Kaesong"
+country = "KP"
+region = "North Hwanghae"
+aliases = []
+lat = 37.9700
+lon = 126.5500
+
+[[places]]
+name = "Nampo"
+country = "KP"
+region = "Nampo"
+aliases = []
+lat = 38.7300
+lon = 125.4100
+
+[[places]]
+name = "Hamhung"
+country = "KP"
+region = "South Hamgyong"
+aliases = []
+lat = 39.9180
+lon = 127.5360
+
+# --- Gazetteer: Corea del Sur ---
+
+[[places]]
+name = "Seoul"
+country = "KR"
+region = "Seoul"
+aliases = []
+lat = 37.5665
+lon = 126.9780
+metonym = true
+
+[[places]]
+name = "Incheon"
+country = "KR"
+region = "Incheon"
+aliases = []
+lat = 37.4563
+lon = 126.7052
+
+[[places]]
+name = "Yeonpyeong"
+country = "KR"
+region = "Incheon"
+aliases = []
+lat = 37.6600
+lon = 125.7000
+
+[[places]]
+name = "Baengnyeong"
+country = "KR"
+region = "Incheon"
+aliases = ["baengnyeongdo"]
+lat = 37.9600
+lon = 124.6300
+
+[[places]]
+name = "Paju"
+country = "KR"
+region = "Gyeonggi"
+aliases = []
+lat = 37.7600
+lon = 126.7800
+
+[[places]]
+name = "Pyeongtaek"
+country = "KR"
+region = "Gyeonggi"
+aliases = ["camp humphreys"]
+lat = 36.9600
+lon = 127.0300
+
+[[places]]
+name = "Seongju"
+country = "KR"
+region = "North Gyeongsang"
+aliases = ["thaad"]
+lat = 35.9200
+lon = 128.2800
+
+[[places]]
+name = "Busan"
+country = "KR"
+region = "Busan"
+aliases = []
+lat = 35.1796
+lon = 129.0756
+
+# --- Teatro sin región (la frontera misma) ---
+
+[[places]]
+name = "Panmunjom"
+aliases = ["joint security area"]
+lat = 37.9558
+lon = 126.6770
+
+[[places]]
+name = "DMZ"
+aliases = ["demilitarized zone"]
+lat = 38.0500
+lon = 127.2000
+
+[[places]]
+name = "Northern Limit Line"
+aliases = ["nll"]
+lat = 37.7000
+lon = 125.5000
+
+# -----------------------------------------------------------------------------
+#  PESTAÑA ECONÓMICA
+#  Corea del Norte no tiene mercados abiertos: el pulso se mide en el won
+#  surcoreano, el KOSPI, el yen (refugio regional) y el oro (miedo global).
+# -----------------------------------------------------------------------------
+
+[economy]
+baseline_label = "pre-crisis"
+note = "El won y el KOSPI absorben cada lanzamiento y cada amenaza; el yen actúa de refugio regional cuando la península se tensa; el oro mide el miedo global. La economía norcoreana es opaca: no hay mercado que la cotice. Línea base: doctrina de los 'dos Estados hostiles' de Kim (ene 2024)."
+
+[[economy.markets]]
+id = "usdkrw"
+name = "USD/KRW (won surcoreano)"
+unit = "₩ por USD"
+group = "fx"
+symbol = "KRW=X"
+
+[[economy.markets]]
+id = "kospi"
+name = "KOSPI (Bolsa de Seúl)"
+unit = "puntos"
+group = "equity"
+symbol = "^KS11"
+
+[[economy.markets]]
+id = "usdjpy"
+name = "USD/JPY (yen japonés)"
+unit = "¥ por USD"
+group = "fx"
+symbol = "JPY=X"
+
+[[economy.markets]]
+id = "gold"
+name = "Oro"
+unit = "USD/onza troy"
+group = "commodity"
+symbol = "GC=F"
+
+# -----------------------------------------------------------------------------
+#  PESTAÑA INFLUENCIA
+# -----------------------------------------------------------------------------
+
+[influence]
+as_of = "2026-01"
+reference = "Armisticio de 1953 (nunca hubo tratado de paz), Estados del Comando de las Naciones Unidas y el eje Pyongyang–Moscú–Pekín"
+note = "Desde 2024 Pyongyang ya no habla de reunificación: el Sur es un 'Estado enemigo'. La novedad estratégica es el eje con Moscú — municiones y tropas norcoreanas a cambio de tecnología y comida. Enfrente, el Comando de la ONU que combatió en 1950-53 sigue formalmente vigente."
+
+[[influence.kpis]]
+label = "Estados del Comando ONU"
+value = "17"
+
+[[influence.kpis]]
+label = "Respaldan a Pyongyang"
+value = "7"
+
+[[influence.kpis]]
+label = "Ojivas norcoreanas (est.)"
+value = "~50"
+
+[[influence.kpis]]
+label = "Tropas de EE.UU. en el Sur"
+value = "28.500"
+
+[[influence.categories]]
+id = "unc"
+label = "Comando ONU / aliados de Seúl"
+color = "cyan"
+countries = [
+  "KOR", "USA", "GBR", "AUS", "CAN", "FRA", "NLD", "NZL", "PHL", "THA",
+  "TUR", "COL", "BEL", "GRC", "DNK", "ITA", "NOR",
+]
+
+[[influence.categories]]
+id = "pro_pyongyang"
+label = "Respalda a Pyongyang"
+color = "red"
+countries = ["PRK", "CHN", "RUS", "BLR", "IRN", "CUB", "NIC"]
+
+[[influence.categories]]
+id = "both"
+label = "Relaciones con ambas Coreas"
+color = "amber"
+rest = true
+
+[[influence.categories]]
+id = "nodata"
+label = "Sin datos"
+color = "gray"
+nodata = true
+countries = ["KOS", "PSE", "ESH", "SOL", "CYN", "GRL", "NCL", "PRI", "FLK", "ATF"]
+
+# --- Medio -> país sede ---
+
+[[influence.media_origins]]
+match = "kcna"
+country = "Corea del Norte (estatal)"
+
+[[influence.media_origins]]
+match = "yonhap"
+country = "Corea del Sur"
+
+[[influence.media_origins]]
+match = "korea herald"
+country = "Corea del Sur"
+
+[[influence.media_origins]]
+match = "korea times"
+country = "Corea del Sur"
+
+[[influence.media_origins]]
+match = "chosun"
+country = "Corea del Sur"
+
+[[influence.media_origins]]
+match = "joongang"
+country = "Corea del Sur"
+
+[[influence.media_origins]]
+match = "hankyoreh"
+country = "Corea del Sur"
+
+[[influence.media_origins]]
+match = "nk news"
+country = "Corea del Sur (especializado)"
+
+[[influence.media_origins]]
+match = "daily nk"
+country = "Corea del Sur (especializado)"
+
+[[influence.media_origins]]
+match = "38 north"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "kyodo"
+country = "Japón"
+
+[[influence.media_origins]]
+match = "nikkei"
+country = "Japón"
+
+[[influence.media_origins]]
+match = "japan times"
+country = "Japón"
+
+[[influence.media_origins]]
+match = "asahi"
+country = "Japón"
+
+[[influence.media_origins]]
+match = "mainichi"
+country = "Japón"
+
+[[influence.media_origins]]
+match = "xinhua"
+country = "China (estatal)"
+
+[[influence.media_origins]]
+match = "global times"
+country = "China (estatal)"
+
+[[influence.media_origins]]
+match = "south china morning post"
+country = "Hong Kong"
+
+[[influence.media_origins]]
+match = "scmp"
+country = "Hong Kong"
+
+[[influence.media_origins]]
+match = "tass"
+country = "Rusia (estatal)"
+
+[[influence.media_origins]]
+match = "moscow times"
+country = "Rusia (exilio)"
+
+[[influence.media_origins]]
+match = "guardian"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "bbc"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "sky news"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "independent"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "reuters"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "telegraph"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "economist"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "financial times"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "al jazeera"
+country = "Qatar"
+
+[[influence.media_origins]]
+match = "euronews"
+country = "Francia"
+
+[[influence.media_origins]]
+match = "france 24"
+country = "Francia"
+
+[[influence.media_origins]]
+match = "deutsche welle"
+country = "Alemania"
+
+[[influence.media_origins]]
+match = "new york times"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "wall street journal"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "wsj"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "cnn"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "cbs"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "nbc"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "abc news"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "washington post"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "politico"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "the hill"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "forbes"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "cnbc"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "ap news"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "associated press"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "npr"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "atlantic"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "bloomberg"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "newsweek"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "fox news"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "csis"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "axios"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "time"
+country = "Estados Unidos"

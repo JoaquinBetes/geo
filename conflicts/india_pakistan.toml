@@ -1,0 +1,679 @@
+# =============================================================================
+#  CONFLICTO: INDIA – PAKISTÁN
+#  Dos potencias nucleares con Cachemira como teatro permanente. Ciclo actual:
+#  atentado de Pahalgam y Operación Sindoor (2025), Tratado del Indo suspendido.
+# =============================================================================
+
+id = "india_pakistan"
+name = "India–Pakistán"
+description = "Cobertura mediática del conflicto entre India y Pakistán"
+start_date = "2025-04-22"   # atentado de Pahalgam: inicio del ciclo actual
+order = 4
+
+[[countries]]
+code = "IN"
+name = "India"
+iso3 = "IND"
+geo = "geo/in_adm1.json"
+
+[[countries]]
+code = "PK"
+name = "Pakistán"
+iso3 = "PAK"
+geo = "geo/pk_adm1.json"
+
+# Eje del conflicto: Cachemira y términos del enfrentamiento. Sin "india" a
+# secas (traería toda la actualidad india no relacionada).
+keywords = [
+  "pakistan", "pakistani", "kashmir", "kashmiri", "line of control",
+  "pahalgam", "sindoor", "indo-pak", "indus water", "rawalpindi",
+  "wagah", "siachen",
+]
+
+# -----------------------------------------------------------------------------
+#  FEEDS RSS (verificados 2026-07; los medios paquistaníes llegan vía Google
+#  News con la query ya acotada al eje, para no arrastrar su agenda doméstica)
+# -----------------------------------------------------------------------------
+
+[[feeds]]
+source = "Google News"
+aggregator = true
+url = "https://news.google.com/rss/search?q=india%20pakistan&hl=en-US&gl=US&ceid=US:en"
+
+[[feeds]]
+source = "The Guardian"
+url = "https://www.theguardian.com/world/pakistan/rss"
+
+[[feeds]]
+source = "Al Jazeera"
+url = "https://www.aljazeera.com/xml/rss/all.xml"
+
+[[feeds]]
+source = "BBC"
+url = "https://feeds.bbci.co.uk/news/world/rss.xml"
+
+[[feeds]]
+source = "NPR"
+url = "https://feeds.npr.org/1004/rss.xml"
+
+# -----------------------------------------------------------------------------
+#  ENTIDADES
+# -----------------------------------------------------------------------------
+
+[[entities]]
+name = "Narendra Modi"
+type = "PERSON"
+aliases = ["modi"]
+
+[[entities]]
+name = "Shehbaz Sharif"
+type = "PERSON"
+aliases = ["shehbaz"]
+
+[[entities]]
+name = "Asim Munir"
+type = "PERSON"
+aliases = ["munir"]
+
+[[entities]]
+name = "Donald Trump"
+type = "PERSON"
+aliases = ["trump"]
+
+[[entities]]
+name = "Indian Army"
+type = "ORG"
+aliases = ["indian air force"]
+
+[[entities]]
+name = "Pakistan Army"
+type = "ORG"
+aliases = ["ispr"]
+
+[[entities]]
+name = "Jaish-e-Mohammed"
+type = "ORG"
+aliases = ["jaish"]
+
+[[entities]]
+name = "Lashkar-e-Taiba"
+type = "ORG"
+aliases = ["lashkar"]
+
+[[entities]]
+name = "India"
+type = "LOCATION"
+aliases = ["indian"]
+
+[[entities]]
+name = "Pakistan"
+type = "LOCATION"
+aliases = ["pakistani"]
+
+[[entities]]
+name = "Kashmir"
+type = "LOCATION"
+aliases = ["kashmiri"]
+
+[[entities]]
+name = "United States"
+type = "LOCATION"
+aliases = ["washington", "white house", "pentagon"]
+
+[[entities]]
+name = "China"
+type = "LOCATION"
+aliases = ["chinese", "beijing"]
+
+[[entities]]
+name = "Indus Waters Treaty"
+type = "ORG"
+aliases = ["indus water"]
+
+[[entities]]
+name = "Siachen"
+type = "LOCATION"
+aliases = []
+
+# -----------------------------------------------------------------------------
+#  PESTAÑA MILITAR (sin dataset de pérdidas)
+# -----------------------------------------------------------------------------
+
+[military]
+events_caveat = "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona."
+losses_caveat = ""
+
+# --- Gazetteer: India (nombres de región EXACTOS de geoBoundaries) ---
+
+[[places]]
+name = "New Delhi"
+country = "IN"
+region = "Delhi"
+aliases = ["delhi"]
+lat = 28.6139
+lon = 77.2090
+metonym = true
+
+[[places]]
+name = "Srinagar"
+country = "IN"
+region = "Jammu and Kashmīr"
+aliases = []
+lat = 34.0837
+lon = 74.7973
+
+[[places]]
+name = "Jammu"
+country = "IN"
+region = "Jammu and Kashmīr"
+aliases = []
+lat = 32.7266
+lon = 74.8570
+
+[[places]]
+name = "Rajouri"
+country = "IN"
+region = "Jammu and Kashmīr"
+aliases = []
+lat = 33.3716
+lon = 74.3152
+
+[[places]]
+name = "Poonch"
+country = "IN"
+region = "Jammu and Kashmīr"
+aliases = []
+lat = 33.7703
+lon = 74.0925
+
+[[places]]
+name = "Pahalgam"
+country = "IN"
+region = "Jammu and Kashmīr"
+aliases = []
+lat = 34.0161
+lon = 75.3150
+
+[[places]]
+name = "Leh"
+country = "IN"
+region = "Ladākh"
+aliases = ["ladakh"]
+lat = 34.1526
+lon = 77.5771
+
+[[places]]
+name = "Amritsar"
+country = "IN"
+region = "Punjab"
+aliases = []
+lat = 31.6340
+lon = 74.8723
+
+[[places]]
+name = "Pathankot"
+country = "IN"
+region = "Punjab"
+aliases = []
+lat = 32.2643
+lon = 75.6421
+
+[[places]]
+name = "Ambala"
+country = "IN"
+region = "Haryāna"
+aliases = []
+lat = 30.3782
+lon = 76.7767
+
+[[places]]
+name = "Jaisalmer"
+country = "IN"
+region = "Rājasthān"
+aliases = []
+lat = 26.9157
+lon = 70.9083
+
+[[places]]
+name = "Mumbai"
+country = "IN"
+region = "Mahārāshtra"
+aliases = []
+lat = 19.0760
+lon = 72.8777
+
+# --- Gazetteer: Pakistán ---
+
+[[places]]
+name = "Islamabad"
+country = "PK"
+region = "Islamabad Capital Territory"
+aliases = []
+lat = 33.6844
+lon = 73.0479
+metonym = true
+
+[[places]]
+name = "Rawalpindi"
+country = "PK"
+region = "Punjab"
+aliases = []
+lat = 33.5651
+lon = 73.0169
+
+[[places]]
+name = "Lahore"
+country = "PK"
+region = "Punjab"
+aliases = []
+lat = 31.5204
+lon = 74.3587
+
+[[places]]
+name = "Karachi"
+country = "PK"
+region = "Sindh"
+aliases = []
+lat = 24.8607
+lon = 67.0011
+
+[[places]]
+name = "Muzaffarabad"
+country = "PK"
+region = "Azad Kashmir"
+aliases = []
+lat = 34.3700
+lon = 73.4711
+
+[[places]]
+name = "Bahawalpur"
+country = "PK"
+region = "Punjab"
+aliases = []
+lat = 29.3956
+lon = 71.6836
+
+[[places]]
+name = "Sialkot"
+country = "PK"
+region = "Punjab"
+aliases = []
+lat = 32.4945
+lon = 74.5229
+
+[[places]]
+name = "Muridke"
+country = "PK"
+region = "Punjab"
+aliases = []
+lat = 31.8020
+lon = 74.2550
+
+[[places]]
+name = "Peshawar"
+country = "PK"
+region = "Khyber Pakhtunkhwa"
+aliases = []
+lat = 34.0151
+lon = 71.5249
+
+[[places]]
+name = "Quetta"
+country = "PK"
+region = "Balochistan"
+aliases = []
+lat = 30.1798
+lon = 66.9750
+
+[[places]]
+name = "Gwadar"
+country = "PK"
+region = "Balochistan"
+aliases = []
+lat = 25.1264
+lon = 62.3225
+
+[[places]]
+name = "Skardu"
+country = "PK"
+region = "Gilgit-Baltistan"
+aliases = []
+lat = 35.2971
+lon = 75.6333
+
+# --- Teatro sin región (línea divisoria y glaciar) ---
+
+[[places]]
+name = "Line of Control"
+aliases = ["loc in kashmir"]
+lat = 34.1000
+lon = 74.3000
+
+[[places]]
+name = "Siachen"
+aliases = ["siachen glacier"]
+lat = 35.4200
+lon = 77.1000
+
+[[places]]
+name = "Wagah"
+aliases = ["attari"]
+lat = 31.6047
+lon = 74.5730
+
+# -----------------------------------------------------------------------------
+#  PESTAÑA ECONÓMICA
+# -----------------------------------------------------------------------------
+
+[economy]
+baseline_label = "pre-crisis"
+note = "Las dos rupias miden la presión sobre cada economía (la paquistaní, crónicamente frágil y dependiente del FMI); el Sensex refleja cuánto castiga el mercado la escalada; el Brent pega en ambos, grandes importadores de energía. Línea base: atentado de Pahalgam (abr 2025)."
+
+[[economy.markets]]
+id = "usdinr"
+name = "USD/INR (rupia india)"
+unit = "₹ por USD"
+group = "fx"
+symbol = "INR=X"
+
+[[economy.markets]]
+id = "usdpkr"
+name = "USD/PKR (rupia paquistaní)"
+unit = "PKR por USD"
+group = "fx"
+symbol = "PKR=X"
+
+[[economy.markets]]
+id = "sensex"
+name = "Sensex (Bolsa de Bombay)"
+unit = "puntos"
+group = "equity"
+symbol = "^BSESN"
+
+[[economy.markets]]
+id = "brent"
+name = "Petróleo Brent"
+unit = "USD/barril"
+group = "commodity"
+symbol = "BZ=F"
+
+# -----------------------------------------------------------------------------
+#  PESTAÑA INFLUENCIA
+# -----------------------------------------------------------------------------
+
+[influence]
+as_of = "2026-01"
+reference = "Ejes de suministro militar y respaldo diplomático; dos potencias nucleares fuera del TNP (ojivas: estimaciones SIPRI)"
+note = "India compra armas a Rusia, Francia, EE.UU. e Israel a la vez — el no alineamiento hecho doctrina. Pakistán depende de China (su 'aliado de todo clima') y de Turquía. Casi nadie más quiere elegir bando entre 1.600 millones de personas: el Golfo financia a ambos y Occidente corteja a India sin soltar a Islamabad."
+
+[[influence.kpis]]
+label = "Socios estratégicos de India"
+value = "7"
+
+[[influence.kpis]]
+label = "Socios estratégicos de Pakistán"
+value = "3"
+
+[[influence.kpis]]
+label = "Ojivas nucleares de India"
+value = "~172"
+
+[[influence.kpis]]
+label = "Ojivas nucleares de Pakistán"
+value = "~170"
+
+[[influence.categories]]
+id = "india_partners"
+label = "Socio estratégico de India"
+color = "cyan"
+countries = ["IND", "USA", "FRA", "RUS", "ISR", "GBR", "JPN", "AUS"]
+
+[[influence.categories]]
+id = "pak_partners"
+label = "Socio estratégico de Pakistán"
+color = "red"
+countries = ["PAK", "CHN", "TUR", "AZE"]
+
+[[influence.categories]]
+id = "neutral"
+label = "No alineado / equilibrista"
+color = "amber"
+rest = true
+
+[[influence.categories]]
+id = "nodata"
+label = "Sin datos"
+color = "gray"
+nodata = true
+countries = ["KOS", "PSE", "ESH", "SOL", "CYN", "GRL", "NCL", "PRI", "FLK", "ATF"]
+
+# --- Medio -> país sede ---
+# El orden importa: "hindustan" antes que "the hindu" (es substring).
+
+[[influence.media_origins]]
+match = "dawn"
+country = "Pakistán"
+
+[[influence.media_origins]]
+match = "express tribune"
+country = "Pakistán"
+
+[[influence.media_origins]]
+match = "geo news"
+country = "Pakistán"
+
+[[influence.media_origins]]
+match = "samaa"
+country = "Pakistán"
+
+[[influence.media_origins]]
+match = "hindustan"
+country = "India"
+
+[[influence.media_origins]]
+match = "the hindu"
+country = "India"
+
+[[influence.media_origins]]
+match = "india today"
+country = "India"
+
+[[influence.media_origins]]
+match = "indian express"
+country = "India"
+
+[[influence.media_origins]]
+match = "times of india"
+country = "India"
+
+[[influence.media_origins]]
+match = "economic times"
+country = "India"
+
+[[influence.media_origins]]
+match = "ndtv"
+country = "India"
+
+[[influence.media_origins]]
+match = "firstpost"
+country = "India"
+
+[[influence.media_origins]]
+match = "wion"
+country = "India"
+
+[[influence.media_origins]]
+match = "deccan"
+country = "India"
+
+[[influence.media_origins]]
+match = "the print"
+country = "India"
+
+[[influence.media_origins]]
+match = "the wire"
+country = "India"
+
+[[influence.media_origins]]
+match = "livemint"
+country = "India"
+
+[[influence.media_origins]]
+match = "telegraph india"
+country = "India"
+
+[[influence.media_origins]]
+match = "guardian"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "bbc"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "sky news"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "independent"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "reuters"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "telegraph"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "economist"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "financial times"
+country = "Reino Unido"
+
+[[influence.media_origins]]
+match = "al jazeera"
+country = "Qatar"
+
+[[influence.media_origins]]
+match = "euronews"
+country = "Francia"
+
+[[influence.media_origins]]
+match = "france 24"
+country = "Francia"
+
+[[influence.media_origins]]
+match = "deutsche welle"
+country = "Alemania"
+
+[[influence.media_origins]]
+match = "anadolu"
+country = "Turquía"
+
+[[influence.media_origins]]
+match = "xinhua"
+country = "China (estatal)"
+
+[[influence.media_origins]]
+match = "global times"
+country = "China (estatal)"
+
+[[influence.media_origins]]
+match = "south china morning post"
+country = "Hong Kong"
+
+[[influence.media_origins]]
+match = "scmp"
+country = "Hong Kong"
+
+[[influence.media_origins]]
+match = "new york times"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "wall street journal"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "wsj"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "cnn"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "cbs"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "nbc"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "abc news"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "washington post"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "politico"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "the hill"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "forbes"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "cnbc"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "ap news"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "associated press"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "npr"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "atlantic"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "bloomberg"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "newsweek"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "fox news"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "csis"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "axios"
+country = "Estados Unidos"
+
+[[influence.media_origins]]
+match = "time"
+country = "Estados Unidos"

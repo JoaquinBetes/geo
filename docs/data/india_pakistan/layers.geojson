@@ -1,0 +1,67 @@
+{
+  "type": "FeatureCollection",
+  "note": "Capa CURADA A MANO (no la genera el pipeline). layer: 'infra' -> mapa militar; 'route'/'chokepoint' -> mapa económico. Trazados ESQUEMÁTICOS. Actualizar 'status' cuando cambie la realidad.",
+  "as_of": "2026-07",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "military", "name": "Glaciar de Siachen", "desc": "El campo de batalla más alto del mundo (5.400 m), disputado desde 1984. Ambos ejércitos pierden más soldados por el clima que por el fuego enemigo." },
+      "geometry": { "type": "Point", "coordinates": [77.10, 35.42] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "logistics", "name": "Cruce de Wagah-Attari", "desc": "El único cruce terrestre formal entre ambos países. Su ceremonia diaria de banderas es el barómetro público de la relación: cerrado en cada crisis." },
+      "geometry": { "type": "Point", "coordinates": [74.573, 31.605] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "military", "name": "Base aérea de Ambala", "desc": "Hogar de los Rafale indios, protagonistas de los duelos aéreos de mayo de 2025." },
+      "geometry": { "type": "Point", "coordinates": [76.777, 30.378] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "military", "name": "Bahawalpur", "desc": "Sede histórica de Jaish-e-Mohammed, el grupo señalado por Pahalgam; blanco de la Operación Sindoor (mayo 2025)." },
+      "geometry": { "type": "Point", "coordinates": [71.684, 29.396] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "energy", "name": "Presa de Baglihar", "desc": "Hidroeléctrica india sobre el río Chenab. Tras la suspensión del Tratado del Indo (2025), cada presa india aguas arriba es un punto de fricción existencial para Pakistán." },
+      "geometry": { "type": "Point", "coordinates": [75.32, 33.16] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "port", "name": "Puerto de Karachi", "desc": "La salida comercial de Pakistán: bloqueable por la armada india en un conflicto mayor, como ensayó en 1971." },
+      "geometry": { "type": "Point", "coordinates": [66.977, 24.792] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "port", "name": "Puerto de Gwadar", "desc": "El corazón del CPEC: la apuesta china a un corredor al Índico que esquive el estrecho de Malaca. Deuda, insurgencia baluchi y geopolítica en un solo puerto." },
+      "geometry": { "type": "Point", "coordinates": [62.323, 25.126] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "route", "kind": "chain", "name": "Línea de Control (LoC)", "status": "Alto el fuego frágil", "desc": "La frontera de facto en Cachemira desde 1972, nunca reconocida como internacional. Cada crisis empieza o termina acá." },
+      "geometry": { "type": "LineString", "coordinates": [[73.75, 34.55], [74.10, 34.35], [74.85, 34.00], [75.60, 34.20], [76.90, 34.85], [77.05, 35.35]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "route", "kind": "water", "name": "Río Indo", "status": "Tratado de Aguas del Indo suspendido por India (2025)", "desc": "La yugular agrícola de Pakistán nace en territorio controlado por India. El tratado de 1960 sobrevivió tres guerras; su suspensión convirtió el agua en arma." },
+      "geometry": { "type": "LineString", "coordinates": [[77.50, 34.90], [74.80, 35.90], [72.90, 33.90], [70.90, 31.00], [68.30, 27.50], [67.40, 24.80]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "route", "kind": "shipping", "name": "Corredor CPEC (Gwadar–Khunjerab)", "status": "Activo", "desc": "El Corredor Económico China-Pakistán: 60.000 millones de dólares en rutas, energía y el puerto de Gwadar. La hipoteca china sobre Pakistán, y su seguro de vida." },
+      "geometry": { "type": "LineString", "coordinates": [[62.32, 25.13], [66.00, 27.00], [68.50, 29.50], [71.50, 31.50], [73.05, 33.65], [74.50, 35.50], [75.42, 36.85]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "chokepoint", "kind": "strait", "name": "Paso de Khunjerab", "desc": "La puerta del CPEC entre Pakistán y China, a 4.700 metros: el único enlace terrestre entre los dos aliados." },
+      "geometry": { "type": "Point", "coordinates": [75.42, 36.85] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "chokepoint", "kind": "strait", "name": "Sir Creek", "desc": "Estuario disputado entre Sindh y Gujarat: pesca, hidrocarburos y una frontera marítima sin demarcar que cada tanto vuelve a la agenda." },
+      "geometry": { "type": "Point", "coordinates": [68.78, 23.97] }
+    }
+  ]
+}

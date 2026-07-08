@@ -1,0 +1,67 @@
+{
+  "type": "FeatureCollection",
+  "note": "Capa CURADA A MANO (no la genera el pipeline). layer: 'infra' -> mapa militar; 'route'/'chokepoint' -> mapa económico. Trazados ESQUEMÁTICOS. Actualizar 'status' cuando cambie la realidad.",
+  "as_of": "2026-07",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "nuclear", "name": "Complejo nuclear de Yongbyon", "desc": "El corazón del programa de plutonio norcoreano: reactor, reprocesamiento y enriquecimiento. Moneda de cambio de todas las negociaciones fallidas." },
+      "geometry": { "type": "Point", "coordinates": [125.755, 39.797] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "nuclear", "name": "Sitio de pruebas de Punggye-ri", "desc": "Seis ensayos nucleares (2006-2017) bajo el monte Mantap. 'Cerrado' con ceremonia en 2018; reacondicionado después." },
+      "geometry": { "type": "Point", "coordinates": [129.09, 41.28] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "military", "name": "Estación de lanzamiento de Sohae", "desc": "Plataforma de satélites y banco de pruebas de motores: cada lanzamiento es un ensayo balístico con otro nombre." },
+      "geometry": { "type": "Point", "coordinates": [124.705, 39.66] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "military", "name": "Panmunjom (Área Conjunta de Seguridad)", "desc": "El único punto donde soldados de ambos lados se miran a metros. Escenario de las cumbres de 2018-19 y del apretón de manos Trump-Kim." },
+      "geometry": { "type": "Point", "coordinates": [126.677, 37.956] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "industry", "name": "Complejo industrial de Kaesong", "desc": "La zona industrial conjunta que simbolizó la cooperación. Pyongyang voló la oficina de enlace en 2020: hoy es un monumento a la desconfianza." },
+      "geometry": { "type": "Point", "coordinates": [126.55, 37.97] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "military", "name": "Camp Humphreys (Pyeongtaek)", "desc": "La mayor base estadounidense en el exterior: núcleo de los 28.500 efectivos de EE.UU. en Corea." },
+      "geometry": { "type": "Point", "coordinates": [127.03, 36.96] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "military", "name": "Batería THAAD de Seongju", "desc": "El escudo antimisiles estadounidense en el Sur; su radar irrita a China tanto como a Pyongyang." },
+      "geometry": { "type": "Point", "coordinates": [128.28, 35.92] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "infra", "kind": "port", "name": "Puerto de Busan", "desc": "Uno de los mayores puertos de contenedores del mundo y talón logístico surcoreano: todo refuerzo estadounidense desembarca acá." },
+      "geometry": { "type": "Point", "coordinates": [129.04, 35.10] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "route", "kind": "chain", "name": "Zona Desmilitarizada (DMZ)", "status": "Armisticio de 1953 (sin tratado de paz)", "desc": "250 km del área más militarizada del planeta: dos millones de soldados a tiro de artillería de Seúl." },
+      "geometry": { "type": "LineString", "coordinates": [[126.68, 37.95], [127.00, 38.30], [127.50, 38.32], [128.20, 38.35], [128.60, 38.62]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "route", "kind": "chain", "name": "Línea Límite Norte (NLL)", "status": "Disputada", "desc": "La frontera marítima occidental que Pyongyang nunca aceptó. Yeonpyeong y Baengnyeong viven bajo su sombra: acá se dispararon los últimos cañonazos." },
+      "geometry": { "type": "LineString", "coordinates": [[124.50, 37.65], [125.50, 37.70], [126.20, 37.80]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "route", "kind": "shipping", "name": "Corredor ferroviario Tumangang–Khasan", "status": "Activo (transferencias reportadas)", "desc": "El puente ferroviario a Rusia: municiones y tropas norcoreanas hacia la guerra de Ucrania a cambio de tecnología, petróleo y comida, según inteligencia occidental." },
+      "geometry": { "type": "LineString", "coordinates": [[130.64, 42.42], [130.85, 42.85], [131.30, 43.40]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "layer": "chokepoint", "kind": "strait", "name": "Estrecho de Corea", "desc": "El paso entre la península y Japón: ruta de todo el comercio surcoreano y de cualquier refuerzo naval en una contingencia." },
+      "geometry": { "type": "Point", "coordinates": [129.00, 34.00] }
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "korea_peninsula",
+  "updated": "2026-07-08T18:14:43+00:00",
+  "as_of": "2026-01",
+  "reference": "Armisticio de 1953 (nunca hubo tratado de paz), Estados del Comando de las Naciones Unidas y el eje Pyongyang–Moscú–Pekín",
+  "note": "Desde 2024 Pyongyang ya no habla de reunificación: el Sur es un 'Estado enemigo'. La novedad estratégica es el eje con Moscú — municiones y tropas norcoreanas a cambio de tecnología y comida. Enfrente, el Comando de la ONU que combatió en 1950-53 sigue formalmente vigente.",
+  "kpis": [
+    {
+      "label": "Estados del Comando ONU",
+      "value": "17"
+    },
+    {
+      "label": "Respaldan a Pyongyang",
+      "value": "7"
+    },
+    {
+      "label": "Ojivas norcoreanas (est.)",
+      "value": "~50"
+    },
+    {
+      "label": "Tropas de EE.UU. en el Sur",
+      "value": "28.500"
+    }
+  ],
+  "categories": [
+    {
+      "id": "unc",
+      "label": "Comando ONU / aliados de Seúl",
+      "color": "cyan",
+      "countries": [
+        "KOR",
+        "USA",
+        "GBR",
+        "AUS",
+        "CAN",
+        "FRA",
+        "NLD",
+        "NZL",
+        "PHL",
+        "THA",
+        "TUR",
+        "COL",
+        "BEL",
+        "GRC",
+        "DNK",
+        "ITA",
+        "NOR"
+      ],
+      "rest": false,
+      "nodata": false
+    },
+    {
+      "id": "pro_pyongyang",
+      "label": "Respalda a Pyongyang",
+      "color": "red",
+      "countries": [
+        "PRK",
+        "CHN",
+        "RUS",
+        "BLR",
+        "IRN",
+        "CUB",
+        "NIC"
+      ],
+      "rest": false,
+      "nodata": false
+    },
+    {
+      "id": "both",
+      "label": "Relaciones con ambas Coreas",
+      "color": "amber",
+      "countries": [],
+      "rest": true,
+      "nodata": false
+    },
+    {
+      "id": "nodata",
+      "label": "Sin datos",
+      "color": "gray",
+      "countries": [
+        "KOS",
+        "PSE",
+        "ESH",
+        "SOL",
+        "CYN",
+        "GRL",
+        "NCL",
+        "PRI",
+        "FLK",
+        "ATF"
+      ],
+      "rest": false,
+      "nodata": true
+    }
+  ],
+  "narrators": [
+    {
+      "country": "Reino Unido",
+      "articles": 55,
+      "tone_avg": -0.1863
+    },
+    {
+      "country": "Otros / sin clasificar",
+      "articles": 49,
+      "tone_avg": -0.2538
+    },
+    {
+      "country": "Qatar",
+      "articles": 29,
+      "tone_avg": -0.1745
+    },
+    {
+      "country": "Estados Unidos",
+      "articles": 23,
+      "tone_avg": -0.1913
+    },
+    {
+      "country": "Corea del Sur",
+      "articles": 13,
+      "tone_avg": -0.2788
+    },
+    {
+      "country": "Corea del Sur (especializado)",
+      "articles": 10,
+      "tone_avg": -0.3085
+    },
+    {
+      "country": "Hong Kong",
+      "articles": 1,
+      "tone_avg": -0.7184
+    },
+    {
+      "country": "Francia",
+      "articles": 1,
+      "tone_avg": -0.8126
+    }
+  ]
+}

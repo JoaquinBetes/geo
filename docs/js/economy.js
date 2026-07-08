@@ -23,6 +23,7 @@ const ROUTE_KIND_META = {
   gas: { label: "Gas", color: COLORS.cyan },
   oil: { label: "Petróleo", color: COLORS.amber },
   shipping: { label: "Comercio marítimo", color: COLORS.pos },
+  water: { label: "Recurso hídrico", color: COLORS.cyan },
   chain: { label: "Línea estratégica", color: COLORS.muted },
   strait: { label: "Chokepoint", color: COLORS.neg },
 };

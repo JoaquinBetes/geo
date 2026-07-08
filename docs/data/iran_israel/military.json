@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-07T20:14:23+00:00",
+  "updated": "2026-07-08T03:44:25+00:00",
   "losses_label": "",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
@@ -8,12 +8,12 @@
   },
   "window": {
     "from": "2026-06-08",
-    "to": "2026-07-07"
+    "to": "2026-07-08"
   },
   "kpis": {
-    "events_total": 28,
-    "events_unlocated": 63,
-    "events_7d": 21,
+    "events_total": 41,
+    "events_unlocated": 68,
+    "events_7d": 34,
     "events_prev_7d": 7,
     "hottest_place": "Strait of Hormuz"
   },
@@ -74,10 +74,19 @@
     },
     {
       "date": "2026-07-07",
-      "total": 13,
-      "strike": 11,
+      "total": 17,
+      "strike": 14,
       "ground": 0,
-      "infrastructure": 2,
+      "infrastructure": 3,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-08",
+      "total": 9,
+      "strike": 9,
+      "ground": 0,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -362,16 +371,146 @@
       "title": "Qatar: Iran is legally responsible for hits on three tankers in strait of Hormuz",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/jul/07/qatar-says-iran-fully-responsible-after-tankers-struck-in-strait-of-hormuz"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US launches ​strikes against Iran after attacks on vessels in strait ​of ​Hormuz",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVDNPdTIwTDZReUdXUktsdFZWR1Jhd1BDSm9lVXVqZVN1YTNpSV9xOEZSeEkyRXVSMEkzZ1BLSk83NFNJMV95MlU2WWhtem41UU9nbmJheDkwdVpFUmQ0RVBsSXhLV2ZuLTNXTTlxSGNTNENDTm1NeUNXTURqVDdYNi1wOUY2Y0tyc09zak9HMWFaMjZOSDRiQlJyR1FpQklxX2RQTV9KTU1QM1ZFeGNtV2hVQnZaSFV4dGQzZQ?oc=5"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Hegseth to visit Israel on Wednesday as US strikes Iran after Hormuz tanker attacks",
+      "source": "Ynetnews",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wSTRzaGRoNlBmMi1nS2t2cnBUSFVoamNSbUFxRmE1QVdwZXBkRVpYUi0tYzJZb3BnUEh2SE9BY0hfUVFIalBKdFNYb2ljd1lnQTdfdnBR?oc=5"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "infrastructure",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Israel-Europe pipeline proposed to cut reliance on Strait of Hormuz",
+      "source": "Baird Maritime",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUzM4LV9BLUFnWEVJZC1RZ2l2TjdaUUdMMmxFWURYX0s5ai0zbGtRalRQVGJBaHAwSFY4bVBaaklzaWN1bTA0YXg4M0pwQjJKNy1LMUl4SWJScGtKd1dpbFNrT2FhaGs1dXZtUWlZdUVxSUVILUNwM09BdGcwZWM3dzhjcElhNmlfOFF6UWVCVW8tLURtNjFTWjVycDRoOHRiU3h1RnIxNHpmbVp2NU5fTURTS3lDdWPSAcQBQVVfeXFMUFUxVGpfRzdVWEdpRDk2VzNmSk9ZT28yVEdFMkV4eUNnRlRWX0huNlNJcGtqWFpISnhIanQxajA5MWNBQ3hqNkJqMk1NaVlMSmxtVkpNQzRBVTNmYXRPNE13TnREckRHUktyQUtNOWdWVVItdTg0TTFabXI5S1Nrb3ozeWt0ZFFBcVBpOE9EVTJGNklmcDExLUROYWxIazZJM0ZsOTVRSU9vTGhtbk1TVUdJWXpjbmVBWEJkQ0VTV2xVYlNCVQ?oc=5"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US launches strikes on southern Iran, Tehran vows ‘crushing response’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/7/us-says-strikes-launched-as-explosions-heard-in-southern-iran?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iran accuses US of violating peace agreement after strikes target sites around strait of Hormuz",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONlRxOVFtRHI1U3pmLWdYVHJoR2lMS2xZbFlFMzVjdzZUMXMwdl8ycXhGaTNsSEphNUxjbnZTWS0wNHN5ZjJfMEU0dmZrdEZvYU9TY1NPN0hBeTNWQ2h6Q3BaX18xd1ZRSDR0Q3hXS1NNWkdQc3RwZnYwb1h5bjdiVDBCWVpZSS1peU9zNk9jUnNnVFZNei10Z2hpTEJJb1BDSzNNcTg4S2xtbWNK?oc=5"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "strike",
+      "place": "Kharg Island",
+      "lat": 29.2325,
+      "lon": 50.3299,
+      "title": "Iran War Live Updates: Reports of fresh explosions on Iran's Qeshm island, blasts hear on Kharg island",
+      "source": "The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOUjc0YjdxRUh3N0RJSThucmdMNjF1dWhMQ3VfMnR6Q0o2NWtCZzMzU2loY1M0V3RxZ2FMUDdxeFQ5RmpwUDdhWDJHR1BsbWZ3WjRORGdTNWI1Q2RPcUZWNnN2eE11NXZ3aDdUMzQ5VlRsUHRxTEozX3d4M2xkOHAtdDdmWXVVZ1JzSDQwMC1hQmJyYmdWcVNNZndLYjdldTVMOTRpSWptci04WktQTkx5Z190dHRjenQyeno5dWNKY2ZEWUJWclBWblloSEZVbjEzSy02TkM4N0o3TjRaR2FUWFBmb0FfeUZtdFh1bWxVY2pzZ1liOThzVEVUdnh6VDNNVVlTR3hrMjQ5My15S0tFdXJ5dmhaZjVIaFBB0gGgAkFVX3lxTE5HSE05LUN5akJGelZub2hiWVVteHhpbUpYWUV2WDRPZnhROXFwMWgzWFJ5UDNSSXZuTHhvM2MxOTRiX2tmaHhXc1lYSnl5VUs0NXdMaXlZMUVQU3FkeV9TOFRyY1JtZWpVdXRrQ25OU3V2WTlwTXdZTWFGQnlWMjRQbGFpbkhyRmIyZWZHOV9zOVVMS3RzNUVJM04zbDgyLXlPeG93T1pMUmpOZzJ5YXZ4ZExkRVlWR2dYOGZMVGxvZGFyNmRycURnakdydm9MOGdaQTVaM3c5SHQwNFg0MWl0U2dKcTdLUGctcUF4ZndWS3hvQ3VZZ1ZiREpGdlhPcE84UjdyZ1BNU1VyajRJWkZRUlhXSFNuUF9JQVJfRl9GMw?oc=5"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "US launches strikes on southern Iran, Tehran vows ‘crushing response’",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPa1hvbWRYQ2V0aGJILWJ3Skd3MlV2aU1lSmVjNXlEbGR2NF82TU1MTkJELUd2cEdOZHNwelBfdFo5RV9JZ1pfZnRydTBOUUdZRnE5dVRaZFRvNVpWNGpnZldndk1tdFFBaFJnZGFjOWw1S0hWRTVRamhhdHdXN3JySktHbWxkVGxRM2lnMGVHWXU2cXpGdkZpb0ZzWTczV2tkVUZF0gGoAUFVX3lxTE5EbUZ0TjNIVXJEQk9VdjlNaXMxVHZSSng1S19OM2hhMV8xSHVuLVk1bTBINjE1OFJpTGhoel9jN3BKa1o5T1p0Q3ZyMmZUVGsyb3ZqN2RvYkI1N2dTSy1JaTlnZXhXQ0M4WUdaQVp1bVoxV2NOVk0xd295V3gySGtFTWJTbjZ2VGIzRkJzcE5PcHFYSXI5QlllbGhNY3VIMndXUzZSWHh4OA?oc=5"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US Strikes 80 Targets In Iran Overnight In Retaliation For Disrupting Hormuz Traffic | LIVE BLOG",
+      "source": "i24NEWS",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQdkI2bjBpdUlVUVdHSXJBX3Bxc3hUTnE2OENsQ1QtbVBvTWZJUU9HUmlFNU1BV3VQLU11OHU3enpvNFY2MDFLMXl1YVVCVUpZZDRWT2p0eHRYd3FZN01JWjQxTUM3MVpjV2VZbEdGMDctdzVvVVJ4ampkelNOOUpFTEE0R2tPbVNKeEVQWnlvbjlLSW53WnBOUFRubjJVbHh1QWgybVplUHFjUUNxcWx1T2JIMG44bFF1dVc0YlNNWWdMbWplb3FGaEs3TlVKVDVpZDNweFp2bUZwSm9ZU2c?oc=5"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Middle East crisis live: Kuwait confronts ‘hostile’ missile, drone attacks after US launches fresh strikes on Iran",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/live/2026/jul/07/us-military-strikes-iran-war-latest-news-updates"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iran accuses US of violating peace agreement after strikes target sites around strait of Hormuz",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/08/iran-us-war-ceasefire-peace-agreement-strikes-strait-of-hormuz"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US strikes Iran, revokes oil sanctions waiver after attacks on tankers in Hormuz",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/us-strikes-iran-revokes-oil-sanctions-waiver-after-attacks-on-tankers-in-hormuz/"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "strike",
+      "place": "Bandar Abbas",
+      "lat": 27.1832,
+      "lon": 56.2666,
+      "title": "Iran war live: US bombs Sirik, Qeshm, Bandar Abbas over Hormuz attacks",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/7/8/iran-war-live-us-bombs-sirik-qeshm-bandar-abbas-over-hormuz-attacks?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US launches strikes on Iran after tankers hit in Strait of Hormuz",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cwykq59jwpvo?at_medium=RSS&at_campaign=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 13
+      "count": 23
     },
     {
       "place": "Tehran",
-      "count": 6
+      "count": 7
     },
     {
       "place": "Damascus",
@@ -387,6 +526,14 @@
     },
     {
       "place": "Bushehr",
+      "count": 1
+    },
+    {
+      "place": "Kharg Island",
+      "count": 1
+    },
+    {
+      "place": "Bandar Abbas",
       "count": 1
     }
   ],

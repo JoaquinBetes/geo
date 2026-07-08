@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-07-07T20:14:13+00:00",
+  "updated": "2026-07-08T03:44:23+00:00",
   "losses_label": "Bajas rusas (reclamo ucr.)",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
@@ -8,22 +8,22 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-07-07"
+    "to": "2026-07-08"
   },
   "kpis": {
-    "events_total": 99,
-    "events_unlocated": 166,
-    "events_7d": 87,
-    "events_prev_7d": 6,
+    "events_total": 104,
+    "events_unlocated": 171,
+    "events_7d": 86,
+    "events_prev_7d": 11,
     "hottest_place": "Kyiv"
   },
   "daily": [
     {
       "date": "2026-05-18",
-      "total": 1,
+      "total": 2,
       "strike": 1,
       "ground": 0,
-      "infrastructure": 0,
+      "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
     },
@@ -173,11 +173,20 @@
     },
     {
       "date": "2026-07-07",
-      "total": 10,
-      "strike": 7,
+      "total": 11,
+      "strike": 8,
       "ground": 1,
       "infrastructure": 1,
       "air_defense": 1,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-08",
+      "total": 3,
+      "strike": 2,
+      "ground": 0,
+      "infrastructure": 1,
+      "air_defense": 0,
       "anomaly": false
     }
   ],
@@ -191,6 +200,16 @@
       "title": "Ukraine war latest: Russian satellite site hit by strike, Zelenskyy says, as baby killed by drone in Moscow region",
       "source": "Sky News",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPc1ltWGtkNXllSnpJUFY1LUltYU5FeFZWUHo3UldIS3hqZmZ0aDl1bWwzdHRMczlTeFUteTVab2VBeGZQME1fYWJSWlJ0cDBRcUFNRUdHR2Z2SzNuNjNrT21yWVRfbW4wdV92Y19iWmlSZldhN0tRbVEtUERiRlljZmpETExNOTZzUmYzOTNsLUZMbWk4MlhCd3BKR193YnRmNVhxNS02OUdwWlliZi1sanljSWxvLU81LXg5TS1Taw?oc=5"
+    },
+    {
+      "date": "2026-05-18",
+      "type": "infrastructure",
+      "place": "Odesa",
+      "lat": 46.4825,
+      "lon": 30.7233,
+      "title": "Ukraine war briefing: Chinese ship hit on way in to Odesa port, says Zelenskyy",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQmJBZGlzcXYtRVhzX0hzOUxoempYMUhOc21UYWRHUkJrMjN2dWpNaktSWmRxN1FSbjRaUTZYaDRzS01zdjNpVHU0OTFoZGk1MTBibTBYVC1ZRldkSlpwai1OR1BiN3piSWlxdDRUeXpXNjZpVkJhZEFfeFFJbERLVUNfOXZJQW5QbWFwUWphZWhZZEZxSXM2Ny1mVDJlUnR4bks4dGdTdw?oc=5"
     },
     {
       "date": "2026-05-26",
@@ -1171,12 +1190,52 @@
       "title": "IOC moves to allow more Russian athletes back into the Olympic games",
       "source": "NPR",
       "url": "https://www.npr.org/2026/07/07/nx-s1-5884882/ioc-moves-to-allow-more-russian-athletes-back-into-the-olympic-games"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russian missiles strike Ukraine’s capital, Kyiv, for third time in a week",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/7/russian-missile-strikes-hit-ukraines-capital-kyiv-for-third-time-in-a-week?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: Kyiv targets Kremlin ‘shadow’ tankers as Russian strikes continue in capital",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdUVvMDNNUHI2Sm9BNEJDbEZ1YUVjMVBka1IzM1FZTUl5dlZOaFZmWW8zWnlUMDJZQjUtNHFQWGFqRTVDazZsYzlPdGIyVGxYUUM1R18tZXAybnN6R1Q3Yzhkb3BjNVh4aXpnelNMWWxSZTJKelNmWTRNdTEtdENRNWdlRGFheUhpcmFiQWlzOW9GeGhPQUw4UUJGRUxVc1hBeDdSSGJTYTZzWTVnbkNPTngzdkM5aTBrY1hHVFluMTZYSTFueWItQVhISENsaTVxVWhIalQyQWs?oc=5"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russian missiles strike Ukraine’s capital, Kyiv, for third time in a week",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcGtseHpXNmFIb05XUkRjSmtFR3NRUHEwLXlQdGlmRkFtcDhYZ01Denp4UktncFVJaHJBaGN3UzFLUTBpR3c1QmxQQU1tbkVGUWd6VEh2eGZvN1doSnFObnJqalBtNHZDV2gyX2RtbFl1QThFSWk4UE52SlRRTm5tNG0ycjZRVWZ4SC1JSWduQmFYc3pPOHd3Nk5lTnlLbUZQRHI4TVozMG1mRFYzdkFTZ0duQVrSAboBQVVfeXFMTmlvajV0bTRQR29ieEx3R0ZhWHp0MDdTTlFZV0JYZUx4UDhncWFBdkZjSlNnSUtHZE1hTXNBdTF2REpjTGtDcDloTGVJWGVjZUtpSTJxZUJ4THpXX25CUURIOW5wbXVtcnJYZXExd2JudkhjcnRnbWhpQ0NGWDNrajlvN2tJTjdCWUVZQWJPX0lIbW1JanNVa2M0U0VfWmFkeFNfd1BfOTJoZnU1VGFFeS1RcEI1QmQ1YldB?oc=5"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "infrastructure",
+      "place": "Odesa",
+      "lat": 46.4825,
+      "lon": 30.7233,
+      "title": "Ukraine war briefing: Kyiv targets Kremlin ‘shadow’ tankers as Russian strikes continue in capital",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/08/ukraine-war-briefing-kyiv-targets-kremlin-shadow-tankers-as-russian-strikes-continue-in-capital"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 65
+      "count": 68
     },
     {
       "place": "Moscow",

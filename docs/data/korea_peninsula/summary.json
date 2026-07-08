@@ -2,13 +2,13 @@
   "id": "korea_peninsula",
   "name": "Corea del Norte–Corea del Sur",
   "description": "Cobertura mediática de la tensión en la península coreana",
-  "updated": "2026-07-08T18:16:15+00:00",
-  "total_articles": 181,
+  "updated": "2026-07-08T18:16:52+00:00",
+  "total_articles": 184,
   "overall_avg": -0.2231,
   "distribution": {
     "pos": 40,
-    "neu": 48,
-    "neg": 93
+    "neu": 50,
+    "neg": 94
   },
   "sources": [
     "Al Jazeera",
@@ -26,6 +26,7 @@
     "upi.com",
     "Anadolu Ajansı",
     "19FortyFive",
+    "South China Morning Post",
     "Yonhap News Agency",
     "38 North",
     "The Times",
@@ -40,7 +41,6 @@
     "SecurityWeek",
     "stripes.com",
     "The Hacker News",
-    "South China Morning Post",
     "Latest news from Azerbaijan",
     "gCaptain",
     "Business Insider",
@@ -325,26 +325,26 @@
     },
     {
       "date": "2026-07-07",
-      "count": 19,
-      "avg": -0.2649,
+      "count": 20,
+      "avg": -0.2517,
       "pos": 2,
-      "neu": 9,
+      "neu": 10,
       "neg": 8
     },
     {
       "date": "2026-07-08",
-      "count": 91,
-      "avg": -0.2024,
+      "count": 93,
+      "avg": -0.2052,
       "pos": 22,
-      "neu": 22,
-      "neg": 47
+      "neu": 23,
+      "neg": 48
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 29,
-      "avg": -0.1745
+      "count": 31,
+      "avg": -0.1845
     },
     {
       "source": "BBC",
@@ -417,6 +417,11 @@
       "avg": -0.8022
     },
     {
+      "source": "South China Morning Post",
+      "count": 2,
+      "avg": -0.3592
+    },
+    {
       "source": "Yonhap News Agency",
       "count": 2,
       "avg": -0.8316
@@ -485,11 +490,6 @@
       "source": "The Hacker News",
       "count": 1,
       "avg": -0.7506
-    },
-    {
-      "source": "South China Morning Post",
-      "count": 1,
-      "avg": -0.7184
     },
     {
       "source": "Latest news from Azerbaijan",
@@ -656,26 +656,26 @@
     {
       "name": "North Korea",
       "type": "LOCATION",
-      "count": 99,
-      "avg": -0.2476
+      "count": 100,
+      "avg": -0.2451
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 22,
-      "avg": -0.1986
+      "count": 23,
+      "avg": -0.2186
     },
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 18,
-      "avg": -0.4197
+      "count": 19,
+      "avg": -0.3976
     },
     {
       "name": "China",
       "type": "LOCATION",
-      "count": 16,
-      "avg": -0.0712
+      "count": 17,
+      "avg": -0.0671
     },
     {
       "name": "Kim Jong-un",
@@ -1234,6 +1234,26 @@
       "entities": []
     },
     {
+      "title": "FIFA World Cup 2026: Biggest takeaways from the round of 16",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/8/fifa-world-cup-2026-biggest-takeaways-from-the-round-of-16-quarterfinals?traffic_source=rss",
+      "published": "2026-07-08T12:51:39+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Trump says MoU ‘over’ after latest US and Iranian attacks",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/8/trump-says-mou-over-after-latest-us-and-iranian-attacks?traffic_source=rss",
+      "published": "2026-07-08T12:48:57+00:00",
+      "compound": -0.6597,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
       "title": "U.S., S. Korea, Japan reaffirm N. Korea denuclearization, target cyber threats",
       "source": "upi.com",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNRG1pU01iakRPeHdmTkY3c01rb0N2N0FjYVQ0ei1oR3Q4b2VFay0yblFmaENjOUNsZ1N5MzZJTE5RX210eWhudExDc2hwVlhvZk1pcjZfTkFHeGhXOGl0NVFtNHluU1k0UHBPM2JGZEhFUnQtTkU3NVJuWHh3WVMtdUNHc3RjWjVtbmJzRF9PZ3RvTDFfZ09rQzRIdTh5RGFjeTY5RGR2TlROTGxLUjRGWC1FWWg1S0x3b3BNWnNMQzJUNlNUSk1NaEZIUGt3d0RyLWNxUks1V3JjRFBHTFRUY1ROONIB6AFBVV95cUxONE9jRHF3dHVvaWFKbVVyc0Z5c1I3NU8wMGZPYzd3WEtpUUtnclFubDhfY3hSeGlSM2VyZEdtajhMUjRveV9kQnIwVWV6cmRBVVkwbDE3OUtYdnZiNGJnMFg0RlBjY1djQU12WkdOVEtGS045YXU0aUFMbzkwS2hQRV9RT3ljdHZMY3M0cmp6TXhsVzlmQVo3X3gyUUNhc1FlVWR1QXZhemhIWjFaRnlzYXZETHhBRUdzY0swNExpS3B5cXZhaVl1bVhwWDVSbElzVXEzby1zb3hDXzhkSnFmdTk2eHdPWjZX?oc=5",
@@ -1296,28 +1316,6 @@
       "label": "neutral",
       "entities": [
         "North Korea"
-      ]
-    },
-    {
-      "title": "Trump says ceasefire between the U.S. and Iran is over",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/08/nx-s1-5884779/trump-says-ceasefire-between-the-u-s-and-iran-is-over",
-      "published": "2026-07-08T11:52:37+00:00",
-      "compound": -0.7469,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "The state of the NATO alliance amid Trump's second term",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/08/nx-s1-5884818/the-state-of-the-nato-alliance-amid-trumps-second-term",
-      "published": "2026-07-08T11:52:32+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Donald Trump"
       ]
     }
   ]

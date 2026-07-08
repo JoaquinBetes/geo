@@ -2,20 +2,20 @@
   "id": "iran_israel",
   "name": "Irán–Israel/EE.UU.",
   "description": "Cobertura mediática del conflicto entre Irán, Israel y Estados Unidos",
-  "updated": "2026-07-08T18:16:00+00:00",
-  "total_articles": 1072,
-  "overall_avg": -0.2822,
+  "updated": "2026-07-08T18:16:44+00:00",
+  "total_articles": 1076,
+  "overall_avg": -0.2837,
   "distribution": {
     "pos": 261,
     "neu": 170,
-    "neg": 641
+    "neg": 645
   },
   "sources": [
     "Al Jazeera",
     "Times of Israel",
     "BBC",
-    "NPR",
     "The Times of Israel",
+    "NPR",
     "The Guardian",
     "The Jerusalem Post",
     "Reuters",
@@ -52,6 +52,7 @@
     "CBS News",
     "The Christian Science Monitor",
     "The New Arab",
+    "Council on Foreign Relations",
     "Asharq Al-Awsat English",
     "www.israelhayom.com",
     "اسلام تايمز",
@@ -74,7 +75,6 @@
     "Euronews",
     "Encyclopedia Britannica",
     "France 24",
-    "Council on Foreign Relations",
     "National Desk",
     "Mother Jones",
     "Boston Herald",
@@ -163,7 +163,9 @@
     "Baird Maritime",
     "Military Watch Magazine",
     "Benzinga",
-    "The Media Line"
+    "The Media Line",
+    "Brookings",
+    "Small Wars Journal"
   ],
   "daily": [
     {
@@ -240,11 +242,19 @@
     },
     {
       "date": "2026-06-22",
-      "count": 1,
-      "avg": 0.802,
+      "count": 2,
+      "avg": 0.0119,
       "pos": 1,
       "neu": 0,
-      "neg": 0
+      "neg": 1
+    },
+    {
+      "date": "2026-06-24",
+      "count": 2,
+      "avg": -0.8945,
+      "pos": 0,
+      "neu": 0,
+      "neg": 2
     },
     {
       "date": "2026-06-25",
@@ -352,11 +362,11 @@
     },
     {
       "date": "2026-07-08",
-      "count": 215,
-      "avg": -0.3482,
+      "count": 216,
+      "avg": -0.3475,
       "pos": 44,
       "neu": 31,
-      "neg": 140
+      "neg": 141
     }
   ],
   "by_source": [
@@ -376,14 +386,14 @@
       "avg": -0.2237
     },
     {
+      "source": "The Times of Israel",
+      "count": 47,
+      "avg": -0.3476
+    },
+    {
       "source": "NPR",
       "count": 47,
       "avg": -0.2641
-    },
-    {
-      "source": "The Times of Israel",
-      "count": 46,
-      "avg": -0.3508
     },
     {
       "source": "The Guardian",
@@ -566,6 +576,11 @@
       "avg": -0.2955
     },
     {
+      "source": "Council on Foreign Relations",
+      "count": 2,
+      "avg": -0.3891
+    },
+    {
       "source": "Asharq Al-Awsat English",
       "count": 2,
       "avg": -0.247
@@ -674,11 +689,6 @@
       "source": "France 24",
       "count": 1,
       "avg": -0.891
-    },
-    {
-      "source": "Council on Foreign Relations",
-      "count": 1,
-      "avg": 0.0
     },
     {
       "source": "National Desk",
@@ -1124,26 +1134,36 @@
       "source": "The Media Line",
       "count": 1,
       "avg": -0.7783
+    },
+    {
+      "source": "Brookings",
+      "count": 1,
+      "avg": -0.8481
+    },
+    {
+      "source": "Small Wars Journal",
+      "count": 1,
+      "avg": -0.941
     }
   ],
   "top_entities": [
     {
       "name": "Israel",
       "type": "LOCATION",
-      "count": 465,
-      "avg": -0.3603
+      "count": 469,
+      "avg": -0.3631
     },
     {
       "name": "Iran",
       "type": "LOCATION",
-      "count": 444,
-      "avg": -0.4091
+      "count": 448,
+      "avg": -0.4117
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 166,
-      "avg": -0.2576
+      "count": 167,
+      "avg": -0.2572
     },
     {
       "name": "Khamenei",
@@ -1154,8 +1174,8 @@
     {
       "name": "Tehran",
       "type": "LOCATION",
-      "count": 72,
-      "avg": -0.4851
+      "count": 73,
+      "avg": -0.4812
     },
     {
       "name": "Strait of Hormuz",
@@ -1172,8 +1192,8 @@
     {
       "name": "United States",
       "type": "LOCATION",
-      "count": 38,
-      "avg": -0.1902
+      "count": 39,
+      "avg": -0.2053
     },
     {
       "name": "Jerusalem",

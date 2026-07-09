@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-09T15:33:54+00:00",
+  "updated": "2026-07-09T20:04:12+00:00",
   "losses_label": "",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
@@ -11,9 +11,9 @@
     "to": "2026-07-09"
   },
   "kpis": {
-    "events_total": 67,
-    "events_unlocated": 152,
-    "events_7d": 60,
+    "events_total": 72,
+    "events_unlocated": 162,
+    "events_7d": 65,
     "events_prev_7d": 7,
     "hottest_place": "Strait of Hormuz"
   },
@@ -92,10 +92,10 @@
     },
     {
       "date": "2026-07-09",
-      "total": 11,
-      "strike": 6,
-      "ground": 0,
-      "infrastructure": 5,
+      "total": 16,
+      "strike": 7,
+      "ground": 3,
+      "infrastructure": 6,
       "air_defense": 0,
       "anomaly": false
     }
@@ -770,16 +770,66 @@
       "title": "Steep fall in Hormuz ship crossings after new US-Iran strikes",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/articles/c621k5r8764o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "ground",
+      "place": "Jerusalem",
+      "lat": 31.7683,
+      "lon": 35.2137,
+      "title": "Israel not expected to get involved in new round of US-Iran fighting, officials tell 'Post'",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9GQmJ3a0dKWXREWmcwZDF0elBVOERXR2RHUWVVYVZ2YkRmcWw4NWpvU0pKZFQ5c0RMX0FMYzdKdUdXNVZRc2ZSVDZGUFRMbUc1aTJRbUh5b3VJWHVuNUJwVDk0S01jamtBdTlHOFlB?oc=5"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "ground",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Ready to attack Iran for 'third time if necessary', says Israel amid new fighting between US and Tehran",
+      "source": "WION",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNNldPNGgtNjlDUWdiZEZ3dWRuemY3Z3VpQXpHSHI1d0lmcU9zb1VjdjI1al8zdUh0UjB2TjRId3VNUGVQY0FXX195dEpJVTNqV2JQa3hmRmhLdG5mY1hHWHYwR2dWT2VYTmIyVlpUeGRJbVlFVlRtV25wdkRCUTdzSmN0S1hBZndOTmcyeURRX0hrTjRvWDBueGhORnhZMWJCZHdJZzBrazhESzloTWFVSVNQTW9uY1BKbDZFdElMWmVyOGJQc3RKVmI1TlEwenkwLTI2MWpfcFpaUlYz0gHiAUFVX3lxTE9lLVlzMjRpTFpVenRRaXV1X2xMTVVzUjNtTnJQZU9JWjdQclJiVTRMRE9Kam9abWF4Q1dzMHhYV0VWVDIzOHRfR2pCUkFoOEtBand2T0JUSzlXbms1TzdsWGVfRFFjWVhFWlhZWHFPZDZhc2p4eVcwNTZQRkRCblVnSWhuckRTdkxLamNOU3Z4eDc3WHdaaVdQcG9CTEdrV2NKWVZIUEdNN2pwcExDOFhRQTlYY0xiTUM4SHJBTXBoZkt5NGZsTDlrWnBpS0dPQ1VKb2ItS05HcmE0NkVCTWcyRXc?oc=5"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US and Iran exchange strikes: is Trump’s peace deal over? - The Latest",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/news/audio/2026/jul/09/us-iran-strikes-trump-peace-deal-over-the-latest"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "infrastructure",
+      "place": "Bushehr",
+      "lat": 28.9684,
+      "lon": 50.8385,
+      "title": "US expands Iran strikes Iran hitting fishing piers near nuclear plant",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/9/us-expands-iran-strikes-iran-hitting-fishing-piers-near-nuclear-plant?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "ground",
+      "place": "Beirut",
+      "lat": 33.8938,
+      "lon": 35.5018,
+      "title": "Lebanon Latest: concerns about latest escalation in regional fighting",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/9/lebanon-latest-concerns-about-latest-escalation-in-regional-fighting-2?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 36
+      "count": 37
     },
     {
       "place": "Tehran",
-      "count": 11
+      "count": 12
     },
     {
       "place": "Damascus",
@@ -787,14 +837,18 @@
     },
     {
       "place": "Jerusalem",
-      "count": 3
+      "count": 4
     },
     {
       "place": "Bushehr",
-      "count": 3
+      "count": 4
     },
     {
       "place": "Bandar Abbas",
+      "count": 2
+    },
+    {
+      "place": "Beirut",
       "count": 2
     },
     {
@@ -807,10 +861,6 @@
     },
     {
       "place": "Eilat",
-      "count": 1
-    },
-    {
-      "place": "Beirut",
       "count": 1
     }
   ],

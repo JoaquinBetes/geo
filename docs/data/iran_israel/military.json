@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-08T19:55:31+00:00",
+  "updated": "2026-07-09T04:13:48+00:00",
   "losses_label": "",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
@@ -8,12 +8,12 @@
   },
   "window": {
     "from": "2026-06-08",
-    "to": "2026-07-08"
+    "to": "2026-07-09"
   },
   "kpis": {
-    "events_total": 52,
-    "events_unlocated": 111,
-    "events_7d": 45,
+    "events_total": 57,
+    "events_unlocated": 128,
+    "events_7d": 50,
     "events_prev_7d": 7,
     "hottest_place": "Strait of Hormuz"
   },
@@ -83,12 +83,21 @@
     },
     {
       "date": "2026-07-08",
-      "total": 20,
-      "strike": 19,
-      "ground": 1,
+      "total": 23,
+      "strike": 20,
+      "ground": 3,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": true
+    },
+    {
+      "date": "2026-07-09",
+      "total": 2,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
     }
   ],
   "events": [
@@ -611,27 +620,77 @@
       "title": "Oil surges as US strikes Iran, reversing return to pre-war prices",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/7/8/oil-prices-surge-as-us-strikes-iran-reversing-fall-to-pre-war-levels?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "ground",
+      "place": "Jerusalem",
+      "lat": 31.7683,
+      "lon": 35.2137,
+      "title": "Iran war could go 'from zero to one hundred,' Israel is prepared for renewed fighting - analysis",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5PSXdVT2loWS1tQ204M1JkQnVQS1hwcDk5eW9xMld0U1JTSnp0T2Y4d20zaXR1eFlydU1fajkzNkl4V25aSzFHaWpKSnlkbDFabTBYdUF4anRkTVlmYTBUXzA0SjJuWjlnSnc?oc=5"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "ground",
+      "place": "Beirut",
+      "lat": 33.8938,
+      "lon": 35.5018,
+      "title": "Lebanon demanding Israel fulfill pledge for pullout pilot or it will skip Rome talks",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/lebanon-demanding-israel-fulfill-pledge-for-pullout-pilot-or-it-will-skip-rome-talks/"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "US expands military strikes on Iran after Trump says he’ll ‘hit them hard’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/8/aje-onl-nf_us-expands-military-strike-on-iran-080726?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Ceasefire plunged into greater uncertainty amid fresh US strikes in Iran – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/live/2026/jul/08/us-iran-strikes-trump-nato-summit-live-updates"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "infrastructure",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US launches strikes on Iran for a second day after Trump says agreement to end the war is ‘over’",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/08/us-carries-out-another-wave-of-strikes-on-iran"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 30
+      "count": 32
     },
     {
       "place": "Tehran",
-      "count": 9
+      "count": 10
     },
     {
       "place": "Damascus",
       "count": 7
     },
     {
-      "place": "Doha",
-      "count": 1
+      "place": "Jerusalem",
+      "count": 2
     },
     {
-      "place": "Jerusalem",
+      "place": "Doha",
       "count": 1
     },
     {
@@ -648,6 +707,10 @@
     },
     {
       "place": "Eilat",
+      "count": 1
+    },
+    {
+      "place": "Beirut",
       "count": 1
     }
   ],

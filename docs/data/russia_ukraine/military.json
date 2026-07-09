@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-07-09T10:02:43+00:00",
+  "updated": "2026-07-09T15:33:52+00:00",
   "losses_label": "Bajas rusas (reclamo ucr.)",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
@@ -11,9 +11,9 @@
     "to": "2026-07-09"
   },
   "kpis": {
-    "events_total": 114,
-    "events_unlocated": 222,
-    "events_7d": 83,
+    "events_total": 115,
+    "events_unlocated": 239,
+    "events_7d": 84,
     "events_prev_7d": 19,
     "hottest_place": "Kyiv"
   },
@@ -218,10 +218,10 @@
     },
     {
       "date": "2026-07-09",
-      "total": 2,
+      "total": 3,
       "strike": 1,
       "ground": 0,
-      "infrastructure": 1,
+      "infrastructure": 2,
       "air_defense": 0,
       "anomaly": false
     }
@@ -1366,12 +1366,22 @@
       "title": "Ukraine war live: Trump permits Kyiv to make Patriot missiles as Moscow fumes at Nato",
       "source": "The Independent",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOS083el9mZlRKUlYyNjVvTGVMaThQSXN6QVVCblNUZVg1Rm9weHJRM25qUVhpVDBlQ1JVTFVUU3FUZHFFb2NrSXM5Y1NlMXNyOC03czFsSTVVQ0h2cXVwWkgtZENlQXdVSEtPQWsyZHpuT0hUYWhWLXBYM2I1Z1JDWFB2dFNPdzBRN25QSDFqZ2hpSUFYZHBXa1ljRUNTOVp4NjM2cjNkeG1oeUt3ejhEdGl0bDI2VzdMQ0ZVTw?oc=5"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Kremlin Pushes Back on Trump Over Claims Ukrainian Refinery Strikes Help End Russia’s War",
+      "source": "Kyiv Post",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5SVk9MeU5teEgydUdQS1VnY0JyS1JVdW5BYlZnQmxzdmN0aTVpSldRU0Z5QVBYSk84bTA0UFZFZHJYZUF6enR6Zm9xOA?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 71
+      "count": 72
     },
     {
       "place": "Moscow",

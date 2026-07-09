@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-09T10:02:46+00:00",
+  "updated": "2026-07-09T15:33:54+00:00",
   "losses_label": "",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
@@ -11,9 +11,9 @@
     "to": "2026-07-09"
   },
   "kpis": {
-    "events_total": 59,
-    "events_unlocated": 136,
-    "events_7d": 52,
+    "events_total": 67,
+    "events_unlocated": 152,
+    "events_7d": 60,
     "events_prev_7d": 7,
     "hottest_place": "Strait of Hormuz"
   },
@@ -92,10 +92,10 @@
     },
     {
       "date": "2026-07-09",
-      "total": 3,
-      "strike": 2,
+      "total": 11,
+      "strike": 6,
       "ground": 0,
-      "infrastructure": 1,
+      "infrastructure": 5,
       "air_defense": 0,
       "anomaly": false
     }
@@ -690,16 +690,96 @@
       "title": "Trump says Iran truce is ‘over’ as US hits 170 targets over two nights – Middle East crisis live",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/live/2026/jul/09/iran-us-middle-east-strikes-centcom-bahrain-kuwait-qatar-strait-of-hormuz-latest-news-updates"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "strike",
+      "place": "Jerusalem",
+      "lat": 31.7683,
+      "lon": 35.2137,
+      "title": "US military has finished striking Iran, CENTCOM says, after explosions heard",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9fdUdCVFNPdDNBWTVKMlNaYkoyMEpsbUVreUpvUlZka3pPZVVRbGFUOFAtcVhQSmdZcEF4cFpfV2tmMXFCUmhaNXltSWkzVFR2ZWZJQTl1blNXLVpNWHc0cXcxVk9xNnNPNkE?oc=5"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "infrastructure",
+      "place": "Bushehr",
+      "lat": 28.9684,
+      "lon": 50.8385,
+      "title": "US projectile hit perimeter area of Bushehr nuclear plant, Iran says",
+      "source": "The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTlJ1LVdaM2NxRVY1M3BVRl9waDZTYnN4eHRZQWZCRjRHaS01Slhvc0c1OU1qb21tWlJKeDBLaThkWVh2RUZESlo5Y29VbDRISm03blV4Z0VHT0tKZS1ZT0c4RnVQazRKT2M5YWZVQTgwMVNnY2xMV0JQWnJDN1pEOVFPV0oxYTNBTlVNUC1mVkJQX1FkMHhwSUZBVFlfbk9PUncwMW1DSGxLYm5IeUpEQVdpMA?oc=5"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "infrastructure",
+      "place": "Mashhad",
+      "lat": 36.2605,
+      "lon": 59.6168,
+      "title": "Iran says Tehran-Mashhad railway suspended after US strikes, hours before Khamenei burial in Mashhad",
+      "source": "The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQczRWQzFNcTVSZUFFZ0ZYZk5UYTdKemdQN1VVX3U3d0l3Mzh0WFBfV3hRSC1Zc1VNYWUwdGIxVVJlQWRWTVYyZGtRb2U1WGl1LTBzOFpZTUVVR2dFeGFMNm9HTTF3ZUREOFpWOUxqYm8yc3BtWExUQklnWmN3dkhBa2Rla2hWSlY5LWwxY2pDQ24zYmNGdDBqbFdLc0ZFbk5yQl9XTHQ2bklGTS1xdnQ0d09aX3ZwVWs1YUZqY1R2SFF2cEpjUHl5YlJYbkRsX3dWUU83WlVaOGlyUWY0LUE?oc=5"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US and Iran exchange strikes: is Trump’s peace deal over? | The Latest",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/news/video/2026/jul/09/us-and-iran-exchange-strikes-is-trumps-peace-deal-over-the-latest"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "infrastructure",
+      "place": "Bandar Abbas",
+      "lat": 27.1832,
+      "lon": 56.2666,
+      "title": "‘It was back-to-back explosions’: Iranians recall 48 hours of terror after US attack on port cities",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/09/iran-residents-terror-us-fresh-strikes-port-cities"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "US and Iran trade most intense strikes since ceasefire extended",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/09/iran-trade-strikes-ceasefire-extended-donald-trump"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "infrastructure",
+      "place": "Bushehr",
+      "lat": 28.9684,
+      "lon": 50.8385,
+      "title": "Iran fires 10 missiles at Jordan after US strikes reported near Bushehr nuclear plant",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/iran-fires-10-missiles-at-jordan-after-us-strikes-reported-near-bushehr-nuclear-plant/"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Steep fall in Hormuz ship crossings after new US-Iran strikes",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c621k5r8764o?at_medium=RSS&at_campaign=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 34
+      "count": 36
     },
     {
       "place": "Tehran",
-      "count": 10
+      "count": 11
     },
     {
       "place": "Damascus",
@@ -707,6 +787,14 @@
     },
     {
       "place": "Jerusalem",
+      "count": 3
+    },
+    {
+      "place": "Bushehr",
+      "count": 3
+    },
+    {
+      "place": "Bandar Abbas",
       "count": 2
     },
     {
@@ -714,15 +802,7 @@
       "count": 1
     },
     {
-      "place": "Bushehr",
-      "count": 1
-    },
-    {
       "place": "Kharg Island",
-      "count": 1
-    },
-    {
-      "place": "Bandar Abbas",
       "count": 1
     },
     {

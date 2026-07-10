@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-09T20:04:12+00:00",
+  "updated": "2026-07-10T04:14:53+00:00",
   "losses_label": "",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
@@ -8,12 +8,12 @@
   },
   "window": {
     "from": "2026-06-08",
-    "to": "2026-07-09"
+    "to": "2026-07-10"
   },
   "kpis": {
-    "events_total": 72,
-    "events_unlocated": 162,
-    "events_7d": 65,
+    "events_total": 78,
+    "events_unlocated": 178,
+    "events_7d": 71,
     "events_prev_7d": 7,
     "hottest_place": "Strait of Hormuz"
   },
@@ -92,10 +92,19 @@
     },
     {
       "date": "2026-07-09",
-      "total": 16,
-      "strike": 7,
-      "ground": 3,
+      "total": 19,
+      "strike": 8,
+      "ground": 5,
       "infrastructure": 6,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-10",
+      "total": 3,
+      "strike": 2,
+      "ground": 1,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -820,12 +829,72 @@
       "title": "Lebanon Latest: concerns about latest escalation in regional fighting",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/9/lebanon-latest-concerns-about-latest-escalation-in-regional-fighting-2?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "ground",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "How Strait of Hormuz dispute led to latest US-Iran cycle of fighting",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNTNGMWh4a2Vpd3VvX202NjR5NEJNTVZ2ZmR3cTdKVjZFYlFnZWh1MHFvUTdXMzZ4X3NFcXJySi1RTFFUWnNKd2c0QmVObm8zbkJoVzJqeS1YUmdZcDNvUFY3Ml80UFpTb3gtMzBRYTItS3ZnODFsdkJMWENjS29Qdl9UOS1NWDZCUzgxR0prTHQyS2EwMzZVZnZfUWVZcUNlOEFCUGN2dVFPUnpw0gGyAUFVX3lxTE5RWVFYdS1wNkYtYnktZUdxLUk2a3dyZjc0YlVHVWdUZ2RDcVItYlhVelFlVm1kcGtadk5TVUxoamJYekVWQXFJRXpYSHRuSDNWU2VVNjhzaHVCMndTbEJNRGpSVXF2SllYTTc5UnJldkl5RWQyUlV0SGxzem9nTHlYckxRMlZJdlFKQzhLU2RZX2VpbkFyU0xTeGJQczNiQksxeDlIclZ6SXdnVVM0SHBHbHc?oc=5"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "strike",
+      "place": "Damascus",
+      "lat": 33.5138,
+      "lon": 36.2765,
+      "title": "Syria says captured Damascus bombing suspects are affiliated with ISIL",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/9/syria-says-cell-behind-terrorist-bombings-in-damascus-arrested?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "ground",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "How Strait of Hormuz dispute led to latest US-Iran cycle of fighting",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/9/how-strait-of-hormuz-dispute-led-to-latest-us-iran-cycle-of-fighting?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-10",
+      "type": "strike",
+      "place": "Mashhad",
+      "lat": 36.2605,
+      "lon": 59.6168,
+      "title": "Khamenei buried following dayslong funeral procession as successor remains out of sight",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/khamenei-buried-following-dayslong-funeral-procession-as-successor-remains-out-of-sight/"
+    },
+    {
+      "date": "2026-07-10",
+      "type": "strike",
+      "place": "Bushehr",
+      "lat": 28.9684,
+      "lon": 50.8385,
+      "title": "Iran says strikes hit southern areas, but US denies it carried attacks",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/10/iran-says-strikes-hit-southern-areas-but-us-denies-it-carried-attacks?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-10",
+      "type": "ground",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Strait of Hormuz traffic plunges as US, Iran resume fighting",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/7/10/strait-of-hormuz-shipping-grinds-to-halt-as-us-iran-resume-fighting?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 37
+      "count": 40
     },
     {
       "place": "Tehran",
@@ -833,14 +902,14 @@
     },
     {
       "place": "Damascus",
-      "count": 7
-    },
-    {
-      "place": "Jerusalem",
-      "count": 4
+      "count": 8
     },
     {
       "place": "Bushehr",
+      "count": 5
+    },
+    {
+      "place": "Jerusalem",
       "count": 4
     },
     {
@@ -852,15 +921,15 @@
       "count": 2
     },
     {
+      "place": "Mashhad",
+      "count": 2
+    },
+    {
       "place": "Doha",
       "count": 1
     },
     {
       "place": "Kharg Island",
-      "count": 1
-    },
-    {
-      "place": "Eilat",
       "count": 1
     }
   ],

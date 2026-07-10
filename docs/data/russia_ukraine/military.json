@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-07-09T20:04:07+00:00",
+  "updated": "2026-07-10T04:14:50+00:00",
   "losses_label": "Bajas rusas (reclamo ucr.)",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
@@ -8,13 +8,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-07-09"
+    "to": "2026-07-10"
   },
   "kpis": {
-    "events_total": 116,
-    "events_unlocated": 249,
-    "events_7d": 85,
-    "events_prev_7d": 19,
+    "events_total": 119,
+    "events_unlocated": 265,
+    "events_7d": 72,
+    "events_prev_7d": 34,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -222,6 +222,15 @@
       "strike": 2,
       "ground": 0,
       "infrastructure": 2,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-10",
+      "total": 3,
+      "strike": 2,
+      "ground": 1,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -1386,12 +1395,42 @@
       "title": "Russian Strikes Kill 12 Across Ukraine As Kyiv Escalates Attacks On Russia's Oil Industry",
       "source": "i24NEWS",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWC1faS13MGJmcFJvTThBQUJON051bDQ2Y3BGT3NCN2RUZGNXcUxXQVM0dnBZRlpSLUQ4bElyRGd5Mll3ZFhicmh5MWlLaFVhZ0w2b1lLdHh3QlZEcGdRVDg0Qk9UaTMzb3Y3dFJ0ekVhTzJobE1qSWE0Tzh4bWU0VkpfTzJ6czBUQ210bGZqLVFhVlpoRURHMnpYVzZSbDFEbkhiRlBIZDBWWWRyd3FXdjZlSHN3cTk4T1ZFeHR6VFFNMVBBSW90OHZXcU5nZXozQW9ReVNCaXlqZw?oc=5"
+    },
+    {
+      "date": "2026-07-10",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine Condemns IOC Decision on Russian Athletes After Deadly Kyiv Strike",
+      "source": "Kyiv Post",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5UeU5ZN1N1RmgyQVZOVmEzQjBUZ2xURWlQMVdFNWRvNlRRdExnVlR1dmU0SGtQQW9MTTZHemhjMFRVbzhKeXZfY0pFRQ?oc=5"
+    },
+    {
+      "date": "2026-07-10",
+      "type": "ground",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Monaco bomb mystery deepens as Ukraine’s security services are linked to murder of prime suspect",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/10/monaco-bomb-mystery-deepens-as-ukraines-security-services-are-linked-to-of-prime-suspect"
+    },
+    {
+      "date": "2026-07-10",
+      "type": "strike",
+      "place": "Lviv",
+      "lat": 49.8397,
+      "lon": 24.0297,
+      "title": "Ukraine war briefing: Kyiv reaches ‘political’ agreement with US on Patriot interceptor production licences",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/10/ukraine-war-briefing-kyiv-reaches-political-agreement-with-us-on-patriot-interceptor-production-licences"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 73
+      "count": 75
     },
     {
       "place": "Moscow",

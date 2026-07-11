@@ -2,13 +2,13 @@
   "id": "russia_ukraine",
   "name": "Rusia–Ucrania",
   "description": "Cobertura mediática del conflicto entre Rusia y Ucrania",
-  "updated": "2026-07-11T13:54:09+00:00",
-  "total_articles": 1744,
-  "overall_avg": -0.4206,
+  "updated": "2026-07-11T19:31:56+00:00",
+  "total_articles": 1766,
+  "overall_avg": -0.4177,
   "distribution": {
-    "pos": 310,
-    "neu": 221,
-    "neg": 1213
+    "pos": 317,
+    "neu": 224,
+    "neg": 1225
   },
   "sources": [
     "Al Jazeera",
@@ -27,9 +27,9 @@
     "CBS News",
     "AP News",
     "GazetteXtra",
+    "Sky News",
     "PBS",
     "DW.com",
-    "Sky News",
     "Radio Free Europe/Radio Liberty",
     "CNBC",
     "Defense Express",
@@ -639,11 +639,11 @@
     },
     {
       "date": "2026-07-01",
-      "count": 48,
-      "avg": -0.6316,
+      "count": 49,
+      "avg": -0.6352,
       "pos": 3,
       "neu": 5,
-      "neg": 40
+      "neg": 41
     },
     {
       "date": "2026-07-02",
@@ -695,11 +695,11 @@
     },
     {
       "date": "2026-07-08",
-      "count": 222,
-      "avg": -0.3763,
+      "count": 223,
+      "avg": -0.379,
       "pos": 43,
       "neu": 31,
-      "neg": 148
+      "neg": 149
     },
     {
       "date": "2026-07-09",
@@ -719,23 +719,23 @@
     },
     {
       "date": "2026-07-11",
-      "count": 82,
-      "avg": -0.4408,
-      "pos": 10,
-      "neu": 12,
-      "neg": 60
+      "count": 102,
+      "avg": -0.3772,
+      "pos": 17,
+      "neu": 15,
+      "neg": 70
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 620,
-      "avg": -0.2291
+      "count": 634,
+      "avg": -0.2264
     },
     {
       "source": "BBC",
-      "count": 209,
-      "avg": -0.2891
+      "count": 214,
+      "avg": -0.2825
     },
     {
       "source": "The Guardian",
@@ -769,8 +769,8 @@
     },
     {
       "source": "The Independent",
-      "count": 26,
-      "avg": -0.7352
+      "count": 27,
+      "avg": -0.738
     },
     {
       "source": "The New York Times",
@@ -784,8 +784,8 @@
     },
     {
       "source": "Yahoo",
-      "count": 15,
-      "avg": -0.7894
+      "count": 16,
+      "avg": -0.7893
     },
     {
       "source": "The Kyiv Independent",
@@ -808,6 +808,11 @@
       "avg": -0.8316
     },
     {
+      "source": "Sky News",
+      "count": 13,
+      "avg": -0.8371
+    },
+    {
       "source": "PBS",
       "count": 13,
       "avg": -0.4256
@@ -816,11 +821,6 @@
       "source": "DW.com",
       "count": 13,
       "avg": -0.8186
-    },
-    {
-      "source": "Sky News",
-      "count": 12,
-      "avg": -0.8259
     },
     {
       "source": "Radio Free Europe/Radio Liberty",
@@ -1772,32 +1772,32 @@
     {
       "name": "Ukraine",
       "type": "LOCATION",
-      "count": 835,
-      "avg": -0.5984
+      "count": 839,
+      "avg": -0.5997
     },
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 710,
-      "avg": -0.6432
+      "count": 712,
+      "avg": -0.6439
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 254,
-      "avg": -0.3765
+      "count": 257,
+      "avg": -0.3716
     },
     {
       "name": "Vladimir Putin",
       "type": "PERSON",
-      "count": 186,
-      "avg": -0.5968
+      "count": 189,
+      "avg": -0.601
     },
     {
       "name": "Kyiv",
       "type": "LOCATION",
-      "count": 186,
-      "avg": -0.728
+      "count": 188,
+      "avg": -0.7302
     },
     {
       "name": "NATO",
@@ -1826,8 +1826,8 @@
     {
       "name": "United States",
       "type": "LOCATION",
-      "count": 41,
-      "avg": -0.2646
+      "count": 42,
+      "avg": -0.2592
     },
     {
       "name": "Donbas",
@@ -1849,6 +1849,175 @@
     }
   ],
   "recent": [
+    {
+      "title": "Polish PM pledges memorial to victims of WW2 'genocide' by Ukrainian nationalists",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cze94x4361po?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-11T19:26:02+00:00",
+      "compound": -0.8957,
+      "label": "negative",
+      "entities": [
+        "Ukraine",
+        "Kyiv"
+      ]
+    },
+    {
+      "title": "US Rep Ro Khanna speaks out about being harassed by Israeli settlers",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/us-rep-ro-khanna-speaks-out-about-being-harassed-by-israeli-settlers?traffic_source=rss",
+      "published": "2026-07-11T18:59:01+00:00",
+      "compound": -0.7906,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Trump administration subpoenas New York Times reporters over coverage",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/11/trump-administration-subpoenas-new-york-times-reporters-over-coverage?traffic_source=rss",
+      "published": "2026-07-11T18:46:11+00:00",
+      "compound": -0.2732,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "South Africa’s Jayden Adams, 25, dies after playing in FIFA World Cup",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/11/south-africas-jayden-adams-25-dies-after-playing-in-fifa-world-cup?traffic_source=rss",
+      "published": "2026-07-11T18:38:50+00:00",
+      "compound": -0.4215,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "US, Lebanese delegations meet to discuss Israeli ‘pilot zones’ withdrawal",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/11/us-lebanese-delegations-meet-to-discuss-israeli-pilot-zones-withdrawal?traffic_source=rss",
+      "published": "2026-07-11T18:20:24+00:00",
+      "compound": 0.4019,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Evacuations as landslide threatens Indian village, construction firm blamed",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/evacuations-as-landslide-threatens-indian-village-construction-firm-blamed?traffic_source=rss",
+      "published": "2026-07-11T18:16:02+00:00",
+      "compound": -0.6908,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Noskova defeats Muchova in Wimbledon final to record first Grand Slam title",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/11/noskova-defeats-muchova-in-wimbledon-final-to-record-first-grand-slam-title?traffic_source=rss",
+      "published": "2026-07-11T18:10:10+00:00",
+      "compound": 0.4588,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "US Democrat Ro Khanna says he was detained by armed Israeli settlers",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c0qyk9jwq9no?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-11T18:00:09+00:00",
+      "compound": -0.4019,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "England vs Norway LIVE: FIFA World Cup 2026 – quarterfinal",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/liveblog/2026/7/11/england-vs-norway-live-fifa-world-cup-2026-quarterfinal?traffic_source=rss",
+      "published": "2026-07-11T17:31:07+00:00",
+      "compound": 0.34,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "US lawmaker slams Israeli army after settlers detain him on Palestine trip",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/11/us-lawmaker-slams-israeli-army-after-settlers-detain-him-on-palestine-trip?traffic_source=rss",
+      "published": "2026-07-11T17:28:08+00:00",
+      "compound": -0.5859,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "FIFA is not an independent sporting organisation; it is a political tool.",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/opinions/2026/7/11/fifa-is-not-an-independent-sporting-organisation-it-is-a-political-tool?traffic_source=rss",
+      "published": "2026-07-11T17:08:42+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Trump administration subpoenas New York Times journalists over Air Force One reporting",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cpd3g8q51g7o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-11T16:11:33+00:00",
+      "compound": 0.4404,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Hormuz shipping in focus as Iran-US rhetoric heats up",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/11/hormuz-shipping-in-focus-as-iran-us-rhetoric-heats-up?traffic_source=rss",
+      "published": "2026-07-11T16:05:18+00:00",
+      "compound": -0.1012,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Syrians optimistic but cautious as sanctions removal revives economic hopes",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/11/syrians-optimistic-but-cautious-as-sanctions-removal-revives-economic-hopes?traffic_source=rss",
+      "published": "2026-07-11T15:54:25+00:00",
+      "compound": 0.5994,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Moldova’s president nominates businessman Vasile Tofan as prime minister",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/11/moldovas-president-nominates-businessman-vasile-tofan-as-prime-minister?traffic_source=rss",
+      "published": "2026-07-11T15:50:31+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Algeria and Mali restore diplomatic ties following yearlong rift",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/11/algeria-and-mali-restore-diplomatic-ties-following-yearlong-rift?traffic_source=rss",
+      "published": "2026-07-11T15:29:32+00:00",
+      "compound": 0.296,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "UK police free suspect in ex-MP Ann Widdecombe murder investigation",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/11/uk-police-free-suspect-in-ex-mp-ann-widdecombe-murder-investigation?traffic_source=rss",
+      "published": "2026-07-11T14:25:14+00:00",
+      "compound": -0.765,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "More than 40 kidnapped children and teachers freed after Nigerian army operation",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cly9lnjlp1eo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-11T14:19:34+00:00",
+      "compound": 0.8807,
+      "label": "positive",
+      "entities": []
+    },
     {
       "title": "Indian tourists among 15 killed as speedboat capsizes in Vietnam",
       "source": "BBC",
@@ -2058,6 +2227,18 @@
       "title": "Bringing the war to Putin’s front door: Is Ukraine’s energy strike strategy working?",
       "source": "Fox News",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRHJuM2ExZW9NZGlRQW1yOU9oaTlkZkFvTUp4ZGQ0azRYWGNzYWVaNVZxYmQyTzEwUlIzS0pERzd5U3BoWVJHUHVRX1ZfUk5fbGY3NVJHTDhJVnZBWGJ2LVBteFlVN28xT0ZmSzFYMVZhTnFXbzhjajZsU0pPOEZ3dDlVYjhoMEhZNWx2dXpBcmphQ2RVbWpOY2d2WnpRbGYz0gGmAUFVX3lxTE9LRlRrRUFLckpNZFltWWxJaUdmODQwTWNLSC1xdDZzZzdDOFFGM09yc1Q1S1NOQXlZbXNIT01HS2VfcjdfWTROa2hpVWwyQk9kMnZYMkVfZVVIZ0Z2QVp2ZzVWZzNYWENfR3lrQWxRVDdVVGhOUExnQ2VueUJWNENjY0NKZDRlVkFkVWNNM2tQLTNaNDlpclc4QjlRS0R2MkJoZW5KWWc?oc=5",
+      "published": "2026-07-11T11:08:00+00:00",
+      "compound": -0.7882,
+      "label": "negative",
+      "entities": [
+        "Vladimir Putin",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Bringing the war to Putin’s front door: Is Ukraine’s energy strike strategy working?",
+      "source": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOWNFM0RUTEZUejFjWTJobzF6Vmx0cU1jMGk1WWdpTnliRFYwelF0NW1ydzRSam8zclV4ajFnMzd3c29wWlRfVGlISjhaTlJsOVlLLXZpRUEwVEVpMER2Q256YVc5RWtid2tsWlUyT01tRGdKR1dkR0lSZDJqd0g0bHI3d0VJM05yWXZnREVhaw?oc=5",
       "published": "2026-07-11T11:08:00+00:00",
       "compound": -0.7882,
       "label": "negative",
@@ -2289,201 +2470,6 @@
       "entities": [
         "Russia",
         "Kyiv"
-      ]
-    },
-    {
-      "title": "Russia, Ukraine report multiple casualties following overnight strikes",
-      "source": "Anadolu Ajansı",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRzZ6T2Y3dHM5T1ppOGhqTmZoVkxoM1AySzZUMGZWa2ZJd1Y1ZHJpbDZVU0IyYXlMNnNKNF9MSkdIRzBtSmxwSTBSTGQ4RmtrWFB3RWwzUy1CX3ZPYW42ZEt4QmMzeGFDZ3ZWWlhwb0k0c0YwUVpKSWwwWDMxX0ZBRkYwRExTWVptWFBIZ281Y0JnNklraGVGTGJkNkpuNFcwMnVlUlFrRXJqeGE3bTlUR3MxeW1pd3BWT1JzVkJR?oc=5",
-      "published": "2026-07-11T08:24:50+00:00",
-      "compound": -0.6124,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "At least 11 people injured in overnight Russian strikes on Kyiv",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBrdWZuSktIdmNTUmMxVEVkc1k4bXlhRTNvQkNTVTNoVldJQnVKSTFBaFFJX3NMTjlGNE5OMnV2OUxUNUJIaVl1Vk11TFhwWGxOWF9oRl9pMkZyU1dhSlRvVHpuSU1OUk5JN192RWY0akZaX0ZrYUt6dmhR?oc=5",
-      "published": "2026-07-11T08:22:00+00:00",
-      "compound": -0.8555,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Kyiv"
-      ]
-    },
-    {
-      "title": "‘Sealed in blood’: Where does the China-North Korea alliance stand today?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/sealed-in-blood-where-does-the-china-north-korea-alliance-stand-today?traffic_source=rss",
-      "published": "2026-07-11T08:21:20+00:00",
-      "compound": 0.765,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Trump trades threats with Iran’s leader as mediators struggle to save talks",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/trump-threatens-iran-after-chants-for-his-death-erupted-at-khamenei-funeral?traffic_source=rss",
-      "published": "2026-07-11T08:04:57+00:00",
-      "compound": -0.4588,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Australian killer's final police interview footage released",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cvglj4k03w4o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-11T08:00:27+00:00",
-      "compound": -0.5574,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Wembanyama signs contract with Spurs for five years, $252m: Report",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/11/wembanyama-signs-contract-with-spurs-for-five-years-252m-report?traffic_source=rss",
-      "published": "2026-07-11T07:51:49+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Spain battles to contain one of its deadliest wildfires as at least 12 killed",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c1wyv383j2xo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-11T07:46:09+00:00",
-      "compound": -0.891,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "World Cup quarterfinals today: Schedule, predictions, Haaland’s viral rise",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/11/fifa-world-cup-quarterfinals?traffic_source=rss",
-      "published": "2026-07-11T07:37:46+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Argentina vs Switzerland: World Cup quarterfinal – Messi, prediction, news",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/11/argentina-switzerland-fifa-world-cup-quarterfinal-messi-prediction-news?traffic_source=rss",
-      "published": "2026-07-11T06:59:15+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Spain edges Belgium and will face France in World Cup semifinal",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/11/nx-s1-5890030/spain-will-face-france-world-cup-semifinal",
-      "published": "2026-07-11T06:58:56+00:00",
-      "compound": 0.2411,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Russia Ukraine War",
-      "source": "Journal-News.com",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUzFjemUtODlReGhaMXRJSGNuV0tiaGdZNWliNktQMm1paDQzZmFpclBDRm9IOXRacElUNmRFVGdMZUpDZXdzQ3NhakdtTExIMEo2SG5Db3pIc3NqbGJlME9TczM4LXhzOEZ5WnVvalQxei1vUHpyc2dIYkhkY2ZjQVZ6dWtWS1lSMUtsQk9nMVFYRWZsMDVQY2owSmxKOVdZYlAteWpteGU0UFhh?oc=5",
-      "published": "2026-07-11T06:52:13+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Ukraine creates long-range military command to intensify strikes on Russia",
-      "source": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUS1jUGp2Umlkc2t0VTBERzZ5N2JVMS1PbnFaOV93eVNPMVpELVlWRFVQcGdibExmSmtkMnRKeGFORVpJOGMxcFRFZkdGQlNtNFNrSXRZWW41RTkwV1VDSkN0ejFfYjltdndDQ0dIbTF3aVRtd20tOFN3WGJvb3RsZ1R6Rmt2MnVKc29OeVl3cmdwVGpDY2R2anhYX1FvLTVtc3EtVGF0N1NacHpIUUFYMnN2S2xPUjZqQkY2X2ZxcW5uRHM?oc=5",
-      "published": "2026-07-11T06:44:47+00:00",
-      "compound": -0.2023,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Trump threatens Iran after Ayatollah Ali Khamenei's funeral saw calls for his killing",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/11/nx-s1-5890029/trump-threatens-iran",
-      "published": "2026-07-11T06:34:09+00:00",
-      "compound": -0.8442,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "​1599 Days of russia-Ukraine War – russian Casualties in Ukraine",
-      "source": "Defense Express",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOS04WEZVdXJxbjJTR3lRbHBBbGU5VWNMNERiUVJ0UjRXLTNfd2VlREhLd1prSWJyRUJCUWMyd3I0LUIyWklQY19yMGxuSXN4cGUyajhWSUdORVlHQnVzaGhyNkxqWUpFTjhFRS1FM3hPbDF4YVhhaG1mWjVsdlZTa2VwaEhhbmExWnNXSlk0dk83QjRCQ2VXY19rb0wzYlhGSGJycTRR?oc=5",
-      "published": "2026-07-11T06:26:43+00:00",
-      "compound": -0.8074,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Venezuelan doctors convert restaurant into a clinic after earthquake",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/venezuelan-doctors-convert-restaurant-into-a-clinic-after-earthquake?traffic_source=rss",
-      "published": "2026-07-11T05:38:39+00:00",
-      "compound": -0.3818,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Meta backtracks on AI-image feature for Instagram due to privacy backlash",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/meta-backtracks-on-ai-image-feature-for-instagram-due-to-privacy-backlash?traffic_source=rss",
-      "published": "2026-07-11T05:34:53+00:00",
-      "compound": 0.2263,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Scaloni not surprised by Messi’s World Cup form at 39 – ‘He’s a machine’",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/11/argentina-lionel-messi-form-goals-penalty-scaloni-switzerland-world-cup?traffic_source=rss",
-      "published": "2026-07-11T05:30:30+00:00",
-      "compound": 0.5813,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Russian Missile Strikes Wound Six in Kyiv",
-      "source": "The Defense Post",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9qaFgzVEFfeVNsMmZ4dmZaQTQ0T2Y0WjFGYnZaOHRvcmZYM0hldG9qdGwyQm9vSWJveUlxZGdFYWkzMmYtc0JLTWZCbi0yUUUwVlhYaElaY1BLdERCT2ctMEVEZ2lPR1dmYnBtUldBUGF2OGdLMFHSAXtBVV95cUxPWGhmbGVJdk44T3NNN3ZtOWtnVjctT3JuaTNDSWxvYkltZUZTUTBZUTlQbkFvS1pwT3NxaVpsdk5IN3VkOE9OQzFMNWFkTXhteWtwemI3YjFFc2dpRXB0Ty03R0dOWGJTdkgtRkxhdjR0NEUzdXBvRmpSakE?oc=5",
-      "published": "2026-07-11T04:54:45+00:00",
-      "compound": -0.5423,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Kyiv"
-      ]
-    },
-    {
-      "title": "Are the US and Iran at war again?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/are-the-us-and-iran-at-war-again?traffic_source=rss",
-      "published": "2026-07-11T04:51:20+00:00",
-      "compound": -0.5994,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
       ]
     }
   ]

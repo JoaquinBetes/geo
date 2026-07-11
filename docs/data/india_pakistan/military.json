@@ -1,19 +1,19 @@
 {
   "id": "india_pakistan",
-  "updated": "2026-07-11T13:54:17+00:00",
+  "updated": "2026-07-11T19:32:03+00:00",
   "losses_label": "",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
     "losses": ""
   },
   "window": {
-    "from": "2026-01-29",
+    "from": "2025-12-02",
     "to": "2026-07-11"
   },
   "kpis": {
-    "events_total": 2,
-    "events_unlocated": 92,
-    "events_7d": 0,
+    "events_total": 3,
+    "events_unlocated": 94,
+    "events_7d": 1,
     "events_prev_7d": 1,
     "hottest_place": "Karachi"
   },
@@ -29,6 +29,15 @@
     },
     {
       "date": "2026-06-29",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-11",
       "total": 1,
       "strike": 1,
       "ground": 0,
@@ -57,11 +66,25 @@
       "title": "Pakistani airstrikes kill dozens in eastern Afghanistan",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/jun/29/pakistan-deadly-airstrikes-afghanistan-border"
+    },
+    {
+      "date": "2026-07-11",
+      "type": "strike",
+      "place": "Ambala",
+      "lat": 30.3782,
+      "lon": 76.7767,
+      "title": "NIA chargesheets eight, including Pakistan-based ‘terrorist’, in Ambala car blast case",
+      "source": "The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOY1h5ZnBvTXJxLW50eDdYRUhwS0YtVVNVbkVORDJrczdMeTloN0F1OWNWS3J5M085UVhZaUIyckNPT2U4LWdjOXNPZmM5blZoX00wX1dkaUdqdjZxeUNqc2tLMC1uNmlGcjJ6d3JhbDduMWE3TEFrZktXV1B5M21fV1h6T0k4N0hqTjN3cUtBbUV3SUhKdVZsSUlMWG95bUdNXzYtWm9XM1F1ZXI1VXBGVzVmMVFobXdWVHVFbUw1S0JPQlN1d29MY1k5eHhYc1I0U1hMVHJVTW3SAd8BQVVfeXFMTTNZTk9GTDIwVHJnMzlZaFJjR19OMmJ5aVdfWVpDTFNqZHJPN3NreE1WQ1Z2MDc1QzBNQ1JnZDVsdFU5bTEzeDVpYWJSVGFoQTEwbjUzSzBCc3A2S21EaHZ4Zm1DQlJWNS02dGZucGktM3lnYlRHbElLTjM1QUJqVnBhNDRFZGEyTUpqT2k0NEdCX3RRaHN4c0VVcHRkN2w0YjFFY1dnU1pEcWxVLWo2c2JsMTVkMnE3cmFjVUZuZG9CdzIzTWFYQy1rSkgtakdLR1dmV19RSHJocmdLdGR1Yw?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Karachi",
+      "count": 1
+    },
+    {
+      "place": "Ambala",
       "count": 1
     }
   ],

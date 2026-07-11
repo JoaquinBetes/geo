@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-07-10T19:51:32+00:00",
+  "updated": "2026-07-11T03:42:47+00:00",
   "losses_label": "Bajas rusas (reclamo ucr.)",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
@@ -8,13 +8,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-07-10"
+    "to": "2026-07-11"
   },
   "kpis": {
-    "events_total": 122,
-    "events_unlocated": 287,
-    "events_7d": 74,
-    "events_prev_7d": 35,
+    "events_total": 128,
+    "events_unlocated": 290,
+    "events_7d": 70,
+    "events_prev_7d": 45,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -227,8 +227,17 @@
     },
     {
       "date": "2026-07-10",
-      "total": 5,
-      "strike": 4,
+      "total": 7,
+      "strike": 5,
+      "ground": 2,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-11",
+      "total": 4,
+      "strike": 3,
       "ground": 1,
       "infrastructure": 0,
       "air_defense": 0,
@@ -1455,16 +1464,76 @@
       "title": "Russian attacks kill five as Ukraine continues to target oil infrastructure",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/7/10/russian-attacks-kill-four-as-ukraine-continues-to-target-oil-infrastructure?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-10",
+      "type": "ground",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "US Senators, Administration Agree To Advance Russia Sanctions Bill; Kyiv Hails Move",
+      "source": "Radio Free Europe/Radio Liberty",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVHdDUTJ1QW1mMlRfTmp1czNETXhlVXYtRkhPRjF1U1NIaDZTcjFGOWkwUl9tWDJWMFpaclg0czgwckdyaDJ3dmlGQWxGY1IwZWt0S0F2LXd0WHhYLUdCbUNncHdqOWxjR1prZFc1U0ZzbFVhVE13T0puR2xKSGhqWTZWeXE1bEZpTEHSAYwBQVVfeXFMTnB1Qmk3QWJUdTdiNk1EMnV6S2laUmU5NVJ6azNUV1hNSGVmOTBaam9ISXlhNTFIOWdBcTlXaE44bFNQWWN2VktoZ3k4bzlHS1YzTEZqNlJzeUpDYm1vcUpnUjFlS0tqU2o0S2FNMWZEMzNfSUhERDhKb1BhaHdZUHZtRWxWZGVOSXVydlI?oc=5"
+    },
+    {
+      "date": "2026-07-10",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Russia Says It Will Widen ‘Buffer Zone’ in Response to Ukrainian Strikes",
+      "source": "The Moscow Times",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNR05KeFIwX2RWTDRyMzNhbmN1N21RWFBhdGxCa0MzVW5TcFFhd0NhdmhKaXFxaXJRQ0g5a3BoNGZtY2EzVDVtQXYyZnlpZVhnT25Gc2taVTRId2ItOUN0XzljMThBcDY3akRaVEFtYWIyWHBSQVlBaWN4ZGtXbW9lUnFTTE4yNk5nUEllNXgwbVR2UTEzVVJ1eTQ5Qkd1cHZCTHBnX19reElqVnNMblBBVmVnZFZzd3RaMmNB?oc=5"
+    },
+    {
+      "date": "2026-07-11",
+      "type": "ground",
+      "place": "Zaporizhzhia",
+      "lat": 47.8388,
+      "lon": 35.1396,
+      "title": "Zaporizhzhia’s mayor says Russian advance reaches city’s outskirts",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPd08xTk44YjRLY2FXeTZDNERMeW5SY0dyZEgtMGRGaG5raVg0UkU5UGQ1VjZTZzNnaEFpaE1nLUV6Q1Vjelc0dlE1cVByWnJKVndCTS00WmEybTMzQWJHSjBoUzZWanoyazJJUnozMUFVd1pwQTVVUm9Ud0h5cGNiQUlyUGhYS3F0SjNjUWt0Ui1IcjB3R1A2eFFUSWpnRW00VzZIVnRlVF9fMm41UUxlNEd6NlgtQdIBuwFBVV95cUxQa3FoNnI2eEppLWJIVVhrMXA4Vk5ESEFKaGlzRktZZHd2eUswU3J4WlFBOGFBN0ExUlBxT1JHbXBsbVB2Y0dsWU9KanRWZWtqS0xHOEVGVnlZUHhYWHpZcDNYQzNmWWNKUXExRzlUM052UzItaXlUVEFwOXZsOEF5Sm9WdnhvOVNlNmk5bHAzbVpuUGNCNlQ1WmdTVm56V0dzUDJINm9WWmxLNk5IcWhQTFBuUnNSZmNsanBV?oc=5"
+    },
+    {
+      "date": "2026-07-11",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Multiple explosions heard in Kyiv as Russia-Ukraine war rages",
+      "source": "Firstpost",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVHNUZklseTlSVk8xWEl3MDRkZUJfOEZwT2Y1WnJzb3paZFhNdDBOSmFBeVA1NTZkYkhVS1VUWkFEUWdINUpJNm52djM1MlVCRE5adHBNRkd2UFFkcjM1N3JHc0tjTnFucXhKb1Btb0RSUnBGdF9KRnJuckIzd1hNYkp1YWR4Q2FOTTNiamlaYzZxNXdiajBEUGpkRUJsZjh4MldhZlBneWVXQ1XSAbABQVVfeXFMTnhrWGc3U3NUajFyMXFtQTNhUmVKYXFaWklkUTYyUVljWnUxNlFEN3pNNnRlMGdIeTNKdDdsUkQyMWw3MFNuYmJVZWVYN0V5NGVjUWpRUFVJR1NwSEl1akJmajNpaVIxY3hJX3k5SUd5eEJFRG13dGFmVVJocWVxaHhFSDhYREtVcVhxV2E2WFdKdEQyRmRpeU10V0JnYnMxNDc1TzEyNVBIOXRsTjhFMHc?oc=5"
+    },
+    {
+      "date": "2026-07-11",
+      "type": "strike",
+      "place": "Zaporizhzhia",
+      "lat": 47.8388,
+      "lon": 35.1396,
+      "title": "Zaporizhzhia’s mayor says Russian advance reaches city’s outskirts",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/zaporizhzhias-mayor-says-russian-advance-reaches-citys-outskirts?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-11",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Ukraine war briefing: Zelenskyy creates ‘long-range impact’ command to strike Russian energy sector",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/11/ukraine-war-briefing-zelenskyy-long-range-impact-command-russian-energy-strikes"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 76
+      "count": 78
     },
     {
       "place": "Moscow",
-      "count": 21
+      "count": 23
     },
     {
       "place": "Sevastopol",
@@ -1483,6 +1552,10 @@
       "count": 2
     },
     {
+      "place": "Zaporizhzhia",
+      "count": 2
+    },
+    {
       "place": "Bryansk",
       "count": 1
     },
@@ -1492,10 +1565,6 @@
     },
     {
       "place": "Dnipro",
-      "count": 1
-    },
-    {
-      "place": "Lyman",
       "count": 1
     }
   ],

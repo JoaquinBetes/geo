@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-11T03:42:49+00:00",
+  "updated": "2026-07-11T08:14:55+00:00",
   "losses_label": "",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
@@ -11,9 +11,9 @@
     "to": "2026-07-11"
   },
   "kpis": {
-    "events_total": 79,
-    "events_unlocated": 215,
-    "events_7d": 71,
+    "events_total": 82,
+    "events_unlocated": 217,
+    "events_7d": 74,
     "events_prev_7d": 8,
     "hottest_place": "Strait of Hormuz"
   },
@@ -104,6 +104,15 @@
       "total": 3,
       "strike": 2,
       "ground": 1,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-11",
+      "total": 3,
+      "strike": 3,
+      "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -899,6 +908,36 @@
       "title": "Strait of Hormuz traffic plunges as US, Iran resume fighting",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/economy/2026/7/10/strait-of-hormuz-shipping-grinds-to-halt-as-us-iran-resume-fighting?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-11",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Iran state media reports explosion heard in eastern part of Tehran province",
+      "source": "The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNX21aaWNCT3JZN2h5ajJPODZwSUtRRk5FRXpxZXFybWw0OGh1T1JfNjhSYWVVclkzMEdldDJDalQ2SFpIOHdvdVpnZGtVOWt2S3NheWRmTTEzclU2LVBvVm9WVGRkM0F2aVA2VGdvbXRGV3JraG91cVJMSG1XMFBlNFFmd3BTREtKX19kb2RZcWU0MWh3eUVzeFZPY2FmTGVueGFNcGxTWkxrNXVSeEVSc1NFcXZTYlhEM19KMzJB?oc=5"
+    },
+    {
+      "date": "2026-07-11",
+      "type": "strike",
+      "place": "Haifa",
+      "lat": 32.794,
+      "lon": 34.9896,
+      "title": "IRGC-Linked Media Calls For Strikes on Israel's Haifa, UAE's Jebel Ali",
+      "source": "Caspianpost.com",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSFZIQVFRY3hjVGpNYm1PWW1lVE9CNnZpYUU5eG84V3NBdFplMGhqQWpPTFpjZURpRzdvVXd3WFgxZ3pONVplV3Q1YkF4ZFZhVV9ONlRDeG5Kc1Fwc3hGbURDeTBwR25JMzVaOHdYVWhBSmY1TW4yWnJYZnkyS0ZDRGZmMWVNRXV3R0JSeU96MWFJb01wbEZjSnVSVHZoM0U?oc=5"
+    },
+    {
+      "date": "2026-07-11",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Trump says US will ‘completely decimate and destroy’ Iran if it attempts to kill him",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/trump-says-us-will-completely-decimate-and-destroy-iran-if-it-attempts-to-kill-him/"
     }
   ],
   "top_places": [
@@ -908,7 +947,7 @@
     },
     {
       "place": "Tehran",
-      "count": 13
+      "count": 15
     },
     {
       "place": "Damascus",

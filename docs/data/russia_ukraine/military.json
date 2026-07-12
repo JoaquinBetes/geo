@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-07-12T03:57:20+00:00",
+  "updated": "2026-07-12T08:31:25+00:00",
   "losses_label": "Bajas rusas (reclamo ucr.)",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
@@ -11,9 +11,9 @@
     "to": "2026-07-12"
   },
   "kpis": {
-    "events_total": 140,
-    "events_unlocated": 316,
-    "events_7d": 77,
+    "events_total": 141,
+    "events_unlocated": 324,
+    "events_7d": 78,
     "events_prev_7d": 49,
     "hottest_place": "Kyiv"
   },
@@ -245,10 +245,10 @@
     },
     {
       "date": "2026-07-12",
-      "total": 1,
+      "total": 2,
       "strike": 1,
       "ground": 0,
-      "infrastructure": 0,
+      "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
     }
@@ -1653,12 +1653,22 @@
       "title": "Ukraine war briefing: Zelenskyy decries housing of weapons in civilian area after Russian strike kills 10",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/jul/12/ukraine-war-briefing-zelenskyy-decries-housing-of-weapons-in-civilian-area-kyiv-russian-strike-deaths"
+    },
+    {
+      "date": "2026-07-12",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine War, Day 1,600: Kyiv Hits Key Russian Oil Refinery",
+      "source": "EA WorldView",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE00ODloWlQyY0J6aTRaLVBXcHR1SzJHOUxvbmoyTXZOMGFTR1pSdDZuR3F5TlhrZGppRVU3VW13V1NhcEpvRUpJVm1jTUpyQzZicVZ2UHcwQ0JhX3ZxemVyQUNzX1oySFZzMkRyN0cweXE2bDlXUHkxMTRyQmMxRlk?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 89
+      "count": 90
     },
     {
       "place": "Moscow",

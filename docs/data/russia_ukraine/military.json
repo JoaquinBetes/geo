@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-07-11T19:31:56+00:00",
+  "updated": "2026-07-12T03:57:20+00:00",
   "losses_label": "Bajas rusas (reclamo ucr.)",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
@@ -8,13 +8,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-07-11"
+    "to": "2026-07-12"
   },
   "kpis": {
-    "events_total": 139,
-    "events_unlocated": 310,
-    "events_7d": 81,
-    "events_prev_7d": 45,
+    "events_total": 140,
+    "events_unlocated": 316,
+    "events_7d": 77,
+    "events_prev_7d": 49,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -240,6 +240,15 @@
       "strike": 11,
       "ground": 1,
       "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-12",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -1634,12 +1643,22 @@
       "title": "Russian overnight strikes on Kyiv injure ten",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/russian-overnight-strikes-on-kyiv-injure-ten?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-12",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: Zelenskyy decries housing of weapons in civilian area after Russian strike kills 10",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/12/ukraine-war-briefing-zelenskyy-decries-housing-of-weapons-in-civilian-area-kyiv-russian-strike-deaths"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 88
+      "count": 89
     },
     {
       "place": "Moscow",

@@ -2,13 +2,13 @@
   "id": "korea_peninsula",
   "name": "Corea del Norte–Corea del Sur",
   "description": "Cobertura mediática de la tensión en la península coreana",
-  "updated": "2026-07-11T19:32:05+00:00",
-  "total_articles": 751,
-  "overall_avg": -0.1168,
+  "updated": "2026-07-12T03:57:28+00:00",
+  "total_articles": 780,
+  "overall_avg": -0.1167,
   "distribution": {
-    "pos": 215,
-    "neu": 207,
-    "neg": 329
+    "pos": 225,
+    "neu": 215,
+    "neg": 340
   },
   "sources": [
     "Al Jazeera",
@@ -17,8 +17,8 @@
     "NK News",
     "Yonhap News Agency",
     "The Guardian",
-    "DailyNK",
     "조선일보",
+    "DailyNK",
     "Reuters",
     "The Korea Herald",
     "Korea JoongAng Daily",
@@ -149,7 +149,10 @@
     "Taipei Times",
     "Politico",
     "deccanchronicle.com",
-    "Saudi Gazette"
+    "Saudi Gazette",
+    "nhk.or.jp",
+    "Seoul Economic Daily",
+    "WPTA | 21Alive | Fort Wayne, IN"
   ],
   "daily": [
     {
@@ -426,10 +429,10 @@
     },
     {
       "date": "2026-06-30",
-      "count": 2,
-      "avg": 0.3276,
+      "count": 3,
+      "avg": 0.2184,
       "pos": 1,
-      "neu": 1,
+      "neu": 2,
       "neg": 0
     },
     {
@@ -514,28 +517,36 @@
     },
     {
       "date": "2026-07-11",
-      "count": 99,
-      "avg": -0.1727,
-      "pos": 24,
-      "neu": 23,
-      "neg": 52
+      "count": 116,
+      "avg": -0.1488,
+      "pos": 33,
+      "neu": 25,
+      "neg": 58
+    },
+    {
+      "date": "2026-07-12",
+      "count": 11,
+      "avg": -0.2826,
+      "pos": 1,
+      "neu": 5,
+      "neg": 5
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 275,
-      "avg": -0.2068
+      "count": 288,
+      "avg": -0.2042
     },
     {
       "source": "BBC",
-      "count": 96,
-      "avg": -0.1991
+      "count": 103,
+      "avg": -0.191
     },
     {
       "source": "NPR",
-      "count": 30,
-      "avg": -0.328
+      "count": 33,
+      "avg": -0.3645
     },
     {
       "source": "NK News",
@@ -544,8 +555,8 @@
     },
     {
       "source": "Yonhap News Agency",
-      "count": 21,
-      "avg": -0.087
+      "count": 22,
+      "avg": -0.0512
     },
     {
       "source": "The Guardian",
@@ -553,14 +564,14 @@
       "avg": -0.0977
     },
     {
+      "source": "조선일보",
+      "count": 18,
+      "avg": 0.2723
+    },
+    {
       "source": "DailyNK",
       "count": 17,
       "avg": -0.068
-    },
-    {
-      "source": "조선일보",
-      "count": 16,
-      "avg": 0.3063
     },
     {
       "source": "Reuters",
@@ -1216,26 +1227,41 @@
       "source": "Saudi Gazette",
       "count": 1,
       "avg": 0.6369
+    },
+    {
+      "source": "nhk.or.jp",
+      "count": 1,
+      "avg": 0.7003
+    },
+    {
+      "source": "Seoul Economic Daily",
+      "count": 1,
+      "avg": 0.0
+    },
+    {
+      "source": "WPTA | 21Alive | Fort Wayne, IN",
+      "count": 1,
+      "avg": 0.0
     }
   ],
   "top_entities": [
     {
       "name": "North Korea",
       "type": "LOCATION",
-      "count": 276,
-      "avg": -0.0395
+      "count": 281,
+      "avg": -0.0363
     },
     {
       "name": "China",
       "type": "LOCATION",
-      "count": 93,
-      "avg": 0.0884
+      "count": 98,
+      "avg": 0.0982
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 64,
-      "avg": -0.1787
+      "count": 67,
+      "avg": -0.1589
     },
     {
       "name": "Russia",
@@ -1264,8 +1290,8 @@
     {
       "name": "United States",
       "type": "LOCATION",
-      "count": 13,
-      "avg": 0.1075
+      "count": 14,
+      "avg": 0.0491
     },
     {
       "name": "DMZ",
@@ -1282,12 +1308,284 @@
   ],
   "recent": [
     {
+      "title": "At least two killed in Toronto street festival shooting",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/ce3e66e1x3go?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-12T03:56:02+00:00",
+      "compound": 0.2263,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "US launches fresh strikes as Iran closes Strait of Hormuz",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-12T03:50:04+00:00",
+      "compound": -0.7964,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "DPRK Premier Hails New Height in DPRK-China Ties",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYnRrY3QzWF9JcmViWFV3S3EzYktNSHRHTjBXUlg4YzdmbHYxWk8yRFRFekxnWHVDekc4OVdfNU1PeXVNMS1wSldYaDhEYm12Sm1rR0NJWU9wY3NZQjNHNVgydURnWFRpVENoVlY3V3JvZGZlcC1XZTNqYVdvNTlJTXVpb1ZVdk5JdWVlaw?oc=5",
+      "published": "2026-07-12T02:32:27+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "North Korea",
+        "China"
+      ]
+    },
+    {
+      "title": "Nigeria rescues dozens of abducted school children in Oyo state",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/nigeria-rescues-dozens-of-abducted-school-children-in-oyo-state?traffic_source=rss",
+      "published": "2026-07-12T01:56:01+00:00",
+      "compound": -0.0258,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "North Korea's Pak Thae-song, China's Li Qiang Discuss Expanding Cooperation",
+      "source": "Seoul Economic Daily",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQb3V3Rm8waFAyeWo5Umo0VllyZ0VzRk5TdG9PeVhHZW5WM0hKQjlOZ0hRQWJNRmlEakJnVnVKZ3NpOWRIZHBla094YllieHVzR2JsYXFJM2xFWG10QkJackN4bGhFd1pJM0NXVjNFY3FuQXJtamh1WFdmeFh2YUlLdE43dU1NVy1fR2lOU1BNbjdrbTN0d3lzeA?oc=5",
+      "published": "2026-07-12T01:42:34+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "North Korea",
+        "China"
+      ]
+    },
+    {
+      "title": "US attacks Iran over ship being hit in Strait of Hormuz; Tehran lashes out again at Gulf Arab states",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/11/g-s1-133212/us-iran-vessel-attack-strait-hormuz-gulf",
+      "published": "2026-07-12T01:32:36+00:00",
+      "compound": -0.7096,
+      "label": "negative",
+      "entities": [
+        "United States"
+      ]
+    },
+    {
+      "title": "Chinese 5th-Ranked Official Cai Qi Commemorates North Korea-China Treaty",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNY2JGMURWLVN4Z0xCSGpuQ2FiUkxTWTdsY1VnczdUYTZoYzRFZERkcmg1WmNUaUx1Q3BCWUt4N0NkdlI0dUFObWIycG1yUkZneHFYUmtWemk0Y0h0MXRRRGNzbkJZVGpCX0VUSkdJZUV5amN5ZTZnS0JtV002bGlCN0tTRGo?oc=5",
+      "published": "2026-07-12T01:23:25+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "North Korea",
+        "China"
+      ]
+    },
+    {
+      "title": "Muslim judge in India faces death threats after convicting 'cow vigilantes'",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cd6e9zq87xvo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-12T00:49:24+00:00",
+      "compound": -0.8979,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Mediators push US-Iran talks in Qatar and Oman to avert escalation",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/mediators-push-us-iran-talks-in-qatar-and-oman-to-avert-escalation?traffic_source=rss",
+      "published": "2026-07-12T00:22:21+00:00",
+      "compound": -0.1531,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Bellingham scores twice as England beat Norway 2-1 to reach World Cup semis",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/12/bellingham-scores-twice-as-england-beat-norway-2-1-to-reach-world-cup-semis?traffic_source=rss",
+      "published": "2026-07-12T00:11:57+00:00",
+      "compound": 0.0258,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Iran war live: US bombs Iranian port cities as IRGC closes Strait of Hormuz",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/7/12/iran-war-live-irgc-declares-strait-of-hormuz-closed-over-us-interference?traffic_source=rss",
+      "published": "2026-07-12T00:00:00+00:00",
+      "compound": -0.7783,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "T. rex could become most expensive fossil ever - but it's a ​problem for scientists",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c4gykgyn1r4o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-11T23:58:40+00:00",
+      "compound": 0.4767,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Indian tourists killed after speedboat capsizes in Vietnam",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/indian-tourists-killed-after-speedboat-capsizes-in-vietnam?traffic_source=rss",
+      "published": "2026-07-11T23:35:23+00:00",
+      "compound": -0.8442,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Whistleblower claims Kennedy Center ‘rushed’ renovations to please Trump",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/11/whistleblower-claims-kennedy-center-rushed-renovations-to-please-trump?traffic_source=rss",
+      "published": "2026-07-11T23:31:23+00:00",
+      "compound": 0.3182,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "How men with female surnames are standing up to ridicule in Kenya",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c75ygy71wdgo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-11T23:27:45+00:00",
+      "compound": -0.6597,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Ice on testicles and donating blood - the myths sold to men trying to boost their sperm",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c8921982pgzo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-11T23:27:31+00:00",
+      "compound": 0.6705,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "FIFA to sell pieces of World Cup final stadium pitch, could earn millions",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/11/fifa-to-sell-pieces-of-world-cup-final-stadium-pitch-could-earn-millions?traffic_source=rss",
+      "published": "2026-07-11T22:58:10+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "N. Korean, Chinese premiers discuss expanding exchanges, cooperation on 65th anniv. of friendship treaty",
+      "source": "Yonhap News Agency",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9UTFh0LU92MV9fb2tWYlFsVkdjV2VKazQ1VE91SFZWcHRxek9EcGF4SElydF9rSWZVODdRMHoxenpRU2pweXVLTGdzUm4tNjV3U2dMQ3dDbzRadw?oc=5",
+      "published": "2026-07-11T22:52:14+00:00",
+      "compound": 0.7003,
+      "label": "positive",
+      "entities": [
+        "China"
+      ]
+    },
+    {
+      "title": "US judge dismisses January 6 case against Proud Boys after Trump order",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/11/us-judge-dismisses-january-6-case-against-proud-boys-after-trump-order?traffic_source=rss",
+      "published": "2026-07-11T21:53:40+00:00",
+      "compound": 0.4767,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Argentina vs Switzerland LIVE: FIFA World Cup 2026",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/liveblog/2026/7/11/argentina-vs-switzerland-live-fifa-world-cup-2026?traffic_source=rss",
+      "published": "2026-07-11T21:31:40+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "How a viral seal called Neil caused mayhem in Australia",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/videos/c05yr465yyro?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-11T21:19:05+00:00",
+      "compound": 0.4215,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Palestinian aid worker who organized World Cup screenings killed in Israeli strike",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/11/nx-s1-5890044/palestinian-aid-worker-who-organized-world-cup-screenings-killed-in-israeli-strike",
+      "published": "2026-07-11T21:09:56+00:00",
+      "compound": -0.8779,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "A veteran foreign correspondent looks back on a career covering conflicts",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/11/nx-s1-5866592/a-veteran-foreign-correspondent-looks-back-on-a-career-covering-conflicts",
+      "published": "2026-07-11T21:08:23+00:00",
+      "compound": -0.5994,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "China, North Korea reaffirm ties on friendship treaty's 65th anniversary",
+      "source": "nhk.or.jp",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5zUXFNb3k1dHUwX2hqWlNTLTk4RC01REdpdHIxOXNwSS1sWFM0UWo4V2RPWXpLUnhLYWRiYlE1X0NjTUMwUEdCZHE1WlNiX3dRNy1MZUl1blVCRENERHdqaDRR?oc=5",
+      "published": "2026-07-11T20:33:29+00:00",
+      "compound": 0.7003,
+      "label": "positive",
+      "entities": [
+        "North Korea",
+        "China"
+      ]
+    },
+    {
+      "title": "UK police investigate murder of politician Ann Widdecombe",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/uk-police-investigate-murder-of-politician-ann-widdecombe?traffic_source=rss",
+      "published": "2026-07-11T20:29:40+00:00",
+      "compound": -0.9432,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "What’s behind Pakistan’s mass deportation of Afghans?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/7/11/whats-behind-pakistans-mass-deportation-of-afghans?traffic_source=rss",
+      "published": "2026-07-11T20:11:55+00:00",
+      "compound": 0.34,
+      "label": "positive",
+      "entities": []
+    },
+    {
       "title": "Polish PM pledges memorial to victims of WW2 'genocide' by Ukrainian nationalists",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/articles/cze94x4361po?at_medium=RSS&at_campaign=rss",
       "published": "2026-07-11T19:26:02+00:00",
       "compound": -0.8957,
       "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Thousands gather in Srebrenica to mark 31 years since genocide",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/11/thousands-gather-in-srebrenica-to-mark-31-years-since-genocide?traffic_source=rss",
+      "published": "2026-07-11T19:25:59+00:00",
+      "compound": -0.7783,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "‘All we see is decay’: Covering the human toll of Venezuela’s earthquakes",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/11/all-we-see-is-decay-covering-the-human-toll-of-venezuelas-earthquakes?traffic_source=rss",
+      "published": "2026-07-11T19:15:10+00:00",
+      "compound": 0.4404,
+      "label": "positive",
       "entities": []
     },
     {
@@ -1591,291 +1889,6 @@
       "entities": [
         "China"
       ]
-    },
-    {
-      "title": "China braced for second typhoon in a week as Bavi approaches landfall",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cdxd3wkp2rzo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-11T12:06:47+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "China"
-      ]
-    },
-    {
-      "title": "Most people who need glasses don't have them. Can the post office change that?",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/11/nx-s1-5887653/reading-glasses-post-office-india",
-      "published": "2026-07-11T11:49:47+00:00",
-      "compound": 0.3527,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Zimbabweans return home amid xenophobic violence in South Africa",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/zimbabweans-return-home-amid-xenophobic-violence-in-south-africa?traffic_source=rss",
-      "published": "2026-07-11T11:47:54+00:00",
-      "compound": -0.8481,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "'We escaped Spanish wildfire, but our friends lost their lives'",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/videos/c07y357zvl1o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-11T11:45:55+00:00",
-      "compound": -0.1154,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Sheinbaum takes on cartels, Trump and the legacy of 1968",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/longform/2026/7/11/sheinbaum-takes-on-cartels-trump-and-the-legacy-of-1968?traffic_source=rss",
-      "published": "2026-07-11T11:38:06+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Speedboat accident in southern Vietnam kills 15 Indian tourists",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/speedboat-accident-in-southern-vietnam-kills-15-indian-tourists?traffic_source=rss",
-      "published": "2026-07-11T11:34:45+00:00",
-      "compound": -0.836,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "China North Korea",
-      "source": "Jonesboro Sun",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPS0J1dlJ0Y1JCUlJLYXVQWTFjSHNFNWozc0hiZjJTcWJpRnhQZnBmMEFlNjJDVWczaExtTjd5dGtwUUxyQzVFbDR2V1l6VmIydmt4bTNWRnJDVXpuc0VTR0w3ZnZ6U2EwdXoxUXdMcTZILVN6LTNsUDN4RE9ZLUEwZGotTHFtMjE4UlVJNnpoNFp6andWdkIyNk9OM2lSLWJ4clpvZ2RuNWs?oc=5",
-      "published": "2026-07-11T10:52:29+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "North Korea",
-        "China"
-      ]
-    },
-    {
-      "title": "China North Korea",
-      "source": "guardonline.com",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOHlycUhfaW5oVmlpdXBkS1dmSFJrSGdVTnNCRUx4TUI1VWtZYlB5R29DX2czanNtT1dUZEFRMmpYSndKc25aNTFyVFByMTk2NlZBeUltSFZKR1BaaFdTVjZ1X1ZqOW5YSzZSS1ZqcTFaQ2g1ZUJxWHd6V3JXRVprLUVDT2Exay1kUnpJd1o2ak1HVl9fU29jQ29Db21vUmtNd05PdGZvMA?oc=5",
-      "published": "2026-07-11T10:44:37+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "North Korea",
-        "China"
-      ]
-    },
-    {
-      "title": "Land sold for Kushner-backed Albania resort suspected of forged deeds",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/land-sold-for-kushner-backed-albania-resort-suspected-of-forged-deeds?traffic_source=rss",
-      "published": "2026-07-11T10:14:39+00:00",
-      "compound": -0.4215,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "North Korea Hits Back at NATO, Says Denuclearisation Begins With US Allies",
-      "source": "deccanchronicle.com",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQ3JBOUExSm12eFdlN2UyeDliN2V1Rm9Ma1lGdWZaaHZ2Tm1oSW9ZVzVYTWFDeU9LWHZYWHlVQ3ZFT1A1RGJpSUVNSGZBMXdnZzc0TTJOMm1ZQlhCcjd3VnA2ZmlKcmUtWWpkNV9jc2NpRnhLVUNyZFhQajE4b3hTTDdsbkJ6Y1ZPMWs1MDV0MnM5bmxiV2JEQUoycTktRWVvWXl6MlVVQTlBVkpIaFByU3YxSjVHZ2hZTlNvWUhSaDDSAcYBQVVfeXFMTUpzTURjUDZRNHVWOVhobWhkaHdhY09WZGFMMXRMV1RFNXhtd1BNaGdIWC1BdllQY0hPRDBYekNiNUZ4dTFYU21DWll1YkpMeW9vUWZCbFVFRURvQzZGcENfTjMyTlUxUjJRYWQxRzFfQzBnSzV3SmNjcDRmWjdYWVNza0NBNWdxQlEzcURiZU5YZkpWS1ZBLXNsXzZaQldod1BzZjNkeGxoUlgxNlZVMmduTzFSOGx0TXJYMEtDVTFpanB6M01B?oc=5",
-      "published": "2026-07-11T10:09:53+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "China celebrates 65th anniversary of treaty with N. Korea",
-      "source": "Yonhap News Agency",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QTzJxX0ZUQ0tyUWl1VmdDUEIxVVI1M2YzalRrazNOWlpBbTFlaUhYd09ZcEp5b1czNzRZMmQzdkFCVmxmc1VRR1ZQaTVuWTFBdWNSX09zdkMyQQ?oc=5",
-      "published": "2026-07-11T10:01:13+00:00",
-      "compound": 0.8126,
-      "label": "positive",
-      "entities": [
-        "China"
-      ]
-    },
-    {
-      "title": "World cup wrap day 30",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/world-cup-wrap-day-30?traffic_source=rss",
-      "published": "2026-07-11T09:47:33+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Hundreds of thousands evacuated as Typhoon Bavi barrels towards China",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/hundreds-of-thousands-evacuated-as-typhoon-bavi-barrels-towards-china?traffic_source=rss",
-      "published": "2026-07-11T09:32:57+00:00",
-      "compound": -0.4019,
-      "label": "negative",
-      "entities": [
-        "China"
-      ]
-    },
-    {
-      "title": "Cuba suffers second nationwide blackout in five days",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/cuba-suffers-second-nationwide-blackout-in-five-days?traffic_source=rss",
-      "published": "2026-07-11T09:00:23+00:00",
-      "compound": -0.7351,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Russian missile and drone barrage kills two and wounds 19 in Ukraine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/russian-missile-attacks-wound-11-in-kyiv?traffic_source=rss",
-      "published": "2026-07-11T08:53:23+00:00",
-      "compound": -0.5423,
-      "label": "negative",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "Indonesia’s anti-graft prosecutor quits after police seize gold and cash",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/indonesias-anti-graft-prosecutor-quits-after-police-seize-gold-and-cash?traffic_source=rss",
-      "published": "2026-07-11T08:43:10+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Newly-released video shows Peter Falconio's killer questioned",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/videos/c0rylp72p9ro?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-11T08:35:33+00:00",
-      "compound": -0.886,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Watch World Cup: Merino, Spain beats Belgium, move on to semifinals",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/2026/7/11/video-world-cup-2026-highlights?traffic_source=rss",
-      "published": "2026-07-11T08:30:41+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "‘Sealed in blood’: Where does the China-North Korea alliance stand today?",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdFEwa1JHV1gwZUFBaWdXM1N1SEJQSUl4QjNyY205bGk0THl2RE1UcExzTzZpT3FCVkpxZlFnQ3ltNnRFRFpKRExEZGRYY3gyZ05kZUw0NlJnN1Q4WWNvVTJLclVNTFA2d0o2VUZpR296aF9ZVmdLUzV1bE5wcWNzQjBaYi1LSmZzV1dSQUt1UzZFQjF1MWhRSGtaQkxtZnM2MmJWYllwd1NoZGZCcWtz0gG0AUFVX3lxTE1DWUI3cVc5SWo1NU9OZFh2Mko4Ny0yMnBad0h1NzNWZDJQN2dRTm1TMjVOTGNteG1SbnFaUjgyS2lEVVZCakRMX1JhNElUcnJqTHRINFppXzJpb01yZG9XYzd0eVo1OXRzQU1xRjAxUTFzbUVXS2xVaklJQTIzSktKTkR1dHMwWWVfWHQ2a1dhQmxXcmpMdjljWTE3RjV2Z0FlTnZiQXZXMW9wR0RQejkwaXNuUw?oc=5",
-      "published": "2026-07-11T08:25:22+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "North Korea",
-        "China"
-      ]
-    },
-    {
-      "title": "Russian overnight strikes on Kyiv injure ten",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/russian-overnight-strikes-on-kyiv-injure-ten?traffic_source=rss",
-      "published": "2026-07-11T08:25:11+00:00",
-      "compound": -0.6124,
-      "label": "negative",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "‘Sealed in blood’: Where does the China-North Korea alliance stand today?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/sealed-in-blood-where-does-the-china-north-korea-alliance-stand-today?traffic_source=rss",
-      "published": "2026-07-11T08:21:20+00:00",
-      "compound": 0.765,
-      "label": "positive",
-      "entities": [
-        "North Korea",
-        "China"
-      ]
-    },
-    {
-      "title": "'Intensify' education, control to prevent corruption in army, North Korean leader says",
-      "source": "Anadolu Ajansı",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQalRyRGNMbW9ZS0JtUy1fV0xnMFI0WjFxZXF4S1FGcVo0MHJWOU1sdk5JcHkwaFhYcDBhS2Flbk5SWnFvaUNlTTZLQ2tKTVRYUEdUM2FRcC16VmZJaDZCT3ZUT2llaEthdkRYMmU4OV9hOHMyam5tb0NRZnNyd0JLOXFxdXNzLXAzSVMxcFROSVVLZDNNcHFCb1BUeHB5TEdadXBaNjNvcUd0SHdhYzc2RXVBY05jU3RzS2xxS2VZN1hNd0djeVRV?oc=5",
-      "published": "2026-07-11T08:14:50+00:00",
-      "compound": 0.0516,
-      "label": "positive",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "Trump trades threats with Iran’s leader as mediators struggle to save talks",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/trump-threatens-iran-after-chants-for-his-death-erupted-at-khamenei-funeral?traffic_source=rss",
-      "published": "2026-07-11T08:04:57+00:00",
-      "compound": -0.4588,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Australian killer's final police interview footage released",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cvglj4k03w4o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-11T08:00:27+00:00",
-      "compound": -0.5574,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Wembanyama signs contract with Spurs for five years, $252m: Report",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/11/wembanyama-signs-contract-with-spurs-for-five-years-252m-report?traffic_source=rss",
-      "published": "2026-07-11T07:51:49+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Spain battles to contain one of its deadliest wildfires as at least 12 killed",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c1wyv383j2xo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-11T07:46:09+00:00",
-      "compound": -0.891,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Will Trump Accounts deliver for American children?",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/ckg55v9e2y9o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-11T07:41:18+00:00",
-      "compound": -0.0387,
-      "label": "neutral",
-      "entities": [
-        "Donald Trump",
-        "United States"
-      ]
-    },
-    {
-      "title": "World Cup quarterfinals today: Schedule, predictions, Haaland’s viral rise",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/11/fifa-world-cup-quarterfinals?traffic_source=rss",
-      "published": "2026-07-11T07:37:46+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
     }
   ]
 }

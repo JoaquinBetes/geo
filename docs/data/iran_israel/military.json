@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-11T19:31:59+00:00",
+  "updated": "2026-07-12T03:57:23+00:00",
   "losses_label": "",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
@@ -8,13 +8,13 @@
   },
   "window": {
     "from": "2026-06-08",
-    "to": "2026-07-11"
+    "to": "2026-07-12"
   },
   "kpis": {
-    "events_total": 82,
-    "events_unlocated": 224,
-    "events_7d": 74,
-    "events_prev_7d": 8,
+    "events_total": 89,
+    "events_unlocated": 226,
+    "events_7d": 78,
+    "events_prev_7d": 9,
     "hottest_place": "Strait of Hormuz"
   },
   "daily": [
@@ -110,10 +110,19 @@
     },
     {
       "date": "2026-07-11",
-      "total": 3,
-      "strike": 3,
+      "total": 4,
+      "strike": 4,
       "ground": 0,
       "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-12",
+      "total": 6,
+      "strike": 4,
+      "ground": 0,
+      "infrastructure": 2,
       "air_defense": 0,
       "anomaly": false
     }
@@ -938,12 +947,82 @@
       "title": "Trump says US will ‘completely decimate and destroy’ Iran if it attempts to kill him",
       "source": "Times of Israel",
       "url": "https://www.timesofisrael.com/trump-says-us-will-completely-decimate-and-destroy-iran-if-it-attempts-to-kill-him/"
+    },
+    {
+      "date": "2026-07-11",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US launches more strikes on Iran after commercial ship struck in Strait of Hormuz",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaWNfWDBGeUlZdnVYdk9zTTBTa05FcHZQZ2NTaE14ZU9SUFRKcDgyamdEaUFjVi1ycHRuaEdaV2cwU3FSWjZqb3BzNXBvMmdobFNvejdtRGo0QUk3emV4alhETFNOcWgyQUg0MnFDVF9mSHRuM3R0Zng3ZnNWUDlqajlyWndRaHk2dkdycXVNdFA0S21RYk5YRElCTVBQZjloVEF2bU5ZTEl6bDFabTdCWWVSdw?oc=5"
+    },
+    {
+      "date": "2026-07-12",
+      "type": "infrastructure",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iran war live: US bombs Iranian port cities as IRGC closes Strait of Hormuz",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNUQ3WUlhM20yeHk1R3dza2tqeEh3bFZxc0NoZV9EalJtbXN5eENla21JTGEteThpUmlSSDh3S0dENmRoY3FBcjhLWkZyN2VuRjIyV0xkZzhRcVk3ZHNIT3NtdHlqdTBVYl8zOWFVWHoxWTFleFFJTDV0V3pkSXdwVE0yMlZLSE13V2lnTkhneGlZQ2pDMzl0cTJ3VnFCeW03YkNGSHNrM2d5Slo3N0JGRm5BVFV3WjJrUFhQbmVRUdIBxAFBVV95cUxPaXllUUVXQ1hGUDNITDk2RF9GVjlpOEM1ODlTLW1UTlNkVHVQY3pKSmxvOWVwaV94LUhWa1VUUFRPMUttdlJVclRWTkZ3RllFZFVSMnNtckVoOWp6ZlJ5UzNsTndjTnd0YjJjNjhiXzhzWlNOX0NtMXZ0bVQ1MWhDaF83cEU3TEpKYTdXZVNEN2JuUkg2SWZmcDgzWWNXR3pCTjZIUjY1V1lxc3VaSXBlOE5DN01VSzd3SUJERFVuc09IcjJn?oc=5"
+    },
+    {
+      "date": "2026-07-12",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US strikes Iran after Strait of Hormuz attack, Israel confirms assassination plot",
+      "source": "Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZzEyMGRtdG1YU0dBTl81Z3U4b0hJNVZ1a01vdUREb3hKTHMxLWJRLXhaUmZ4a0dUM3V3TjJWZ29DMTA5Qk11Y0UzNjQ0NEo4TktfTFhhZlYwVFR6a3hiRVFRUVl2bGJ4amh5U0Nmbk1aQ09hTmE2MG1QZ2czd08xbUsxdGszNmZlSDhxV0lkNzI1eThjZU9qY2lPdFVqY3psX3Y1cUxIOWNDRy1X?oc=5"
+    },
+    {
+      "date": "2026-07-12",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US and Iran exchange strikes as Tehran again says strait of Hormuz is closed",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/12/us-and-iran-exchange-strikes-as-tehran-again-says-strait-of-hormuz-is-closed"
+    },
+    {
+      "date": "2026-07-12",
+      "type": "infrastructure",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iran war live: US bombs Iranian port cities as IRGC closes Strait of Hormuz",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/7/12/iran-war-live-irgc-declares-strait-of-hormuz-closed-over-us-interference?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-12",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US launches fresh strikes as Iran closes Strait of Hormuz",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "date": "2026-07-12",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US attacks Iran over ship being hit in Strait of Hormuz; Tehran lashes out again at Gulf Arab states",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/11/g-s1-133212/us-iran-vessel-attack-strait-hormuz-gulf"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 40
+      "count": 47
     },
     {
       "place": "Tehran",

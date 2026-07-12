@@ -2,25 +2,25 @@
   "id": "india_pakistan",
   "name": "India–Pakistán",
   "description": "Cobertura mediática del conflicto entre India y Pakistán",
-  "updated": "2026-07-11T19:32:03+00:00",
-  "total_articles": 719,
-  "overall_avg": -0.2379,
+  "updated": "2026-07-12T03:57:26+00:00",
+  "total_articles": 753,
+  "overall_avg": -0.2368,
   "distribution": {
-    "pos": 158,
-    "neu": 166,
-    "neg": 395
+    "pos": 168,
+    "neu": 174,
+    "neg": 411
   },
   "sources": [
     "Al Jazeera",
     "BBC",
     "NPR",
-    "India Today",
     "The Tribune",
+    "India Today",
     "The Guardian",
     "The Times of India",
+    "The Indian Express",
     "NDTV",
     "Firstpost",
-    "The Indian Express",
     "The Hindu",
     "Moneycontrol.com",
     "The Economic Times",
@@ -31,7 +31,9 @@
     "organiser.org",
     "The Diplomat – Asia-Pacific",
     "Eurasia Review",
+    "The Express Tribune",
     "India.Com",
+    "Yahoo Sports",
     "War on the Rocks",
     "Yahoo",
     "News18",
@@ -43,8 +45,6 @@
     "Raksha Anirveda",
     "Modern Ghana",
     "افغانستان اینترنشنال",
-    "The Express Tribune",
-    "Yahoo Sports",
     "dw.com",
     "The Independent",
     "ANI News",
@@ -135,7 +135,12 @@
     "INSIGHTS IAS",
     "olympics.com",
     "Lowy Institute",
-    "NASA Science (.gov)"
+    "NASA Science (.gov)",
+    "Cricinfo",
+    "Resonant News",
+    "Daily Sabah",
+    "Inshorts",
+    "Business Recorder"
   ],
   "daily": [
     {
@@ -508,11 +513,11 @@
     },
     {
       "date": "2026-06-17",
-      "count": 1,
-      "avg": -0.4215,
+      "count": 2,
+      "avg": -0.5292,
       "pos": 0,
       "neu": 0,
-      "neg": 1
+      "neg": 2
     },
     {
       "date": "2026-06-18",
@@ -596,11 +601,11 @@
     },
     {
       "date": "2026-06-29",
-      "count": 2,
-      "avg": -0.7879,
+      "count": 3,
+      "avg": -0.7452,
       "pos": 0,
       "neu": 0,
-      "neg": 2
+      "neg": 3
     },
     {
       "date": "2026-06-30",
@@ -668,10 +673,10 @@
     },
     {
       "date": "2026-07-09",
-      "count": 171,
-      "avg": -0.2332,
+      "count": 172,
+      "avg": -0.2319,
       "pos": 44,
-      "neu": 30,
+      "neu": 31,
       "neg": 97
     },
     {
@@ -684,38 +689,46 @@
     },
     {
       "date": "2026-07-11",
-      "count": 102,
-      "avg": -0.228,
-      "pos": 24,
-      "neu": 22,
-      "neg": 56
+      "count": 125,
+      "avg": -0.2089,
+      "pos": 33,
+      "neu": 27,
+      "neg": 65
+    },
+    {
+      "date": "2026-07-12",
+      "count": 8,
+      "avg": -0.3886,
+      "pos": 1,
+      "neu": 2,
+      "neg": 5
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 279,
-      "avg": -0.2176
+      "count": 292,
+      "avg": -0.2145
     },
     {
       "source": "BBC",
-      "count": 98,
-      "avg": -0.2014
+      "count": 105,
+      "avg": -0.1933
     },
     {
       "source": "NPR",
-      "count": 29,
-      "avg": -0.3394
-    },
-    {
-      "source": "India Today",
-      "count": 26,
-      "avg": -0.1353
+      "count": 32,
+      "avg": -0.3759
     },
     {
       "source": "The Tribune",
-      "count": 26,
-      "avg": -0.5206
+      "count": 28,
+      "avg": -0.4947
+    },
+    {
+      "source": "India Today",
+      "count": 27,
+      "avg": -0.1303
     },
     {
       "source": "The Guardian",
@@ -728,6 +741,11 @@
       "avg": -0.4229
     },
     {
+      "source": "The Indian Express",
+      "count": 11,
+      "avg": -0.4358
+    },
+    {
       "source": "NDTV",
       "count": 10,
       "avg": -0.6804
@@ -736,11 +754,6 @@
       "source": "Firstpost",
       "count": 10,
       "avg": -0.3327
-    },
-    {
-      "source": "The Indian Express",
-      "count": 10,
-      "avg": -0.4794
     },
     {
       "source": "The Hindu",
@@ -793,9 +806,19 @@
       "avg": -0.0899
     },
     {
+      "source": "The Express Tribune",
+      "count": 3,
+      "avg": -0.5739
+    },
+    {
       "source": "India.Com",
       "count": 3,
       "avg": 0.0483
+    },
+    {
+      "source": "Yahoo Sports",
+      "count": 3,
+      "avg": -0.2123
     },
     {
       "source": "War on the Rocks",
@@ -851,16 +874,6 @@
       "source": "افغانستان اینترنشنال",
       "count": 2,
       "avg": 0.2084
-    },
-    {
-      "source": "The Express Tribune",
-      "count": 2,
-      "avg": -0.4158
-    },
-    {
-      "source": "Yahoo Sports",
-      "count": 2,
-      "avg": 0.0
     },
     {
       "source": "dw.com",
@@ -1316,38 +1329,63 @@
       "source": "NASA Science (.gov)",
       "count": 1,
       "avg": 0.0
+    },
+    {
+      "source": "Cricinfo",
+      "count": 1,
+      "avg": 0.0
+    },
+    {
+      "source": "Resonant News",
+      "count": 1,
+      "avg": -0.7351
+    },
+    {
+      "source": "Daily Sabah",
+      "count": 1,
+      "avg": -0.6597
+    },
+    {
+      "source": "Inshorts",
+      "count": 1,
+      "avg": 0.6369
+    },
+    {
+      "source": "Business Recorder",
+      "count": 1,
+      "avg": 0.0
     }
   ],
   "top_entities": [
     {
       "name": "Pakistan",
       "type": "LOCATION",
-      "count": 258,
-      "avg": -0.2882
+      "count": 268,
+      "avg": -0.2826
     },
     {
       "name": "India",
       "type": "LOCATION",
-      "count": 242,
-      "avg": -0.2381
+      "count": 251,
+      "avg": -0.2482
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 89,
-      "avg": -0.1972
+      "count": 92,
+      "avg": -0.1821
     },
     {
       "name": "China",
       "type": "LOCATION",
-      "count": 36,
-      "avg": -0.0759
+      "count": 37,
+      "avg": -0.0937
     },
     {
       "name": "United States",
       "type": "LOCATION",
-      "count": 15,
-      "avg": -0.0177
+      "count": 16,
+      "avg": -0.061
     },
     {
       "name": "Indus Waters Treaty",
@@ -1364,8 +1402,8 @@
     {
       "name": "Asim Munir",
       "type": "PERSON",
-      "count": 9,
-      "avg": -0.3469
+      "count": 10,
+      "avg": -0.2485
     },
     {
       "name": "Narendra Modi",
@@ -1394,12 +1432,299 @@
   ],
   "recent": [
     {
+      "title": "At least two killed in Toronto street festival shooting",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/ce3e66e1x3go?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-12T03:56:02+00:00",
+      "compound": 0.2263,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "US launches fresh strikes as Iran closes Strait of Hormuz",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-12T03:50:04+00:00",
+      "compound": -0.7964,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Nigeria rescues dozens of abducted school children in Oyo state",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/nigeria-rescues-dozens-of-abducted-school-children-in-oyo-state?traffic_source=rss",
+      "published": "2026-07-12T01:56:01+00:00",
+      "compound": -0.0258,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "US attacks Iran over ship being hit in Strait of Hormuz; Tehran lashes out again at Gulf Arab states",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/11/g-s1-133212/us-iran-vessel-attack-strait-hormuz-gulf",
+      "published": "2026-07-12T01:32:36+00:00",
+      "compound": -0.7096,
+      "label": "negative",
+      "entities": [
+        "United States"
+      ]
+    },
+    {
+      "title": "Muslim judge in India faces death threats after convicting 'cow vigilantes'",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cd6e9zq87xvo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-12T00:49:24+00:00",
+      "compound": -0.8979,
+      "label": "negative",
+      "entities": [
+        "India"
+      ]
+    },
+    {
+      "title": "Mediators push US-Iran talks in Qatar and Oman to avert escalation",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/mediators-push-us-iran-talks-in-qatar-and-oman-to-avert-escalation?traffic_source=rss",
+      "published": "2026-07-12T00:22:21+00:00",
+      "compound": -0.1531,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Bellingham scores twice as England beat Norway 2-1 to reach World Cup semis",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/12/bellingham-scores-twice-as-england-beat-norway-2-1-to-reach-world-cup-semis?traffic_source=rss",
+      "published": "2026-07-12T00:11:57+00:00",
+      "compound": 0.0258,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Iran war live: US bombs Iranian port cities as IRGC closes Strait of Hormuz",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/7/12/iran-war-live-irgc-declares-strait-of-hormuz-closed-over-us-interference?traffic_source=rss",
+      "published": "2026-07-12T00:00:00+00:00",
+      "compound": -0.7783,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "T. rex could become most expensive fossil ever - but it's a ​problem for scientists",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c4gykgyn1r4o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-11T23:58:40+00:00",
+      "compound": 0.4767,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Cricket Photos - PAK vs IND, 2nd ODI Pictures",
+      "source": "Cricinfo",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNR0hvLWJrb1FRbHhVRm5JZWc1NjYxWnZZSWFfZHJJUTZIQWZrbkl5X3dmdlNxeVozMjBOTHRDa215XzRta2N1bzhWWkZCSktaMVg1cjRDLVBjVGc1T1NLOXI4WG1sejRESEJ5bzZ4SnhfTDdHZkNJcjZudEhjN3V2NU54ZTQxNmhwZzRBQ0RsdWkxVlpCcnFkdzdlRkdZSTVBMzQ1MjJ3WHBuNHVFMWw1eDlBTDQ?oc=5",
+      "published": "2026-07-11T23:57:33+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Pakistan: Air fares likely to increase after government raises jet fuel prices",
+      "source": "The Tribune",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYS1wMm1oUjh0MjJzUlJUcWJXdTdkT1BuS1VRTXVYX1pTYVhSTDA2RTRuS0JHd0ZLR3ZDOHFNNVNHMjhBU25kTGljSTlkOE1pM1FjekxTS3NFcllWNnhnTG1Zdzd1dUxCQUVVTV9UNTI2djNkSEFkcHRxVmQ5Z0FhTktPakZiNTMtdkg3blhiVVVuMTNqUzYtUVlMNWNLSnprM3NlTXlNQzZSazI0WjZLQ2JXbWdyX1JqQmfSAb4BQVVfeXFMUHJidHJUd0JQdTItWF9BZ0JoQU5sdG1TZnVYcWppR0EzVHB4LUxOMmJkanc3eXNrZ25uSDltWDRjdDlkUDg0YzFoRFBOQUctQWZ4TTJVY0lrMTQwcndvT2Fkb2NlMFU0ajdHRFBEMzh4R05EVGtFbVhHa09jWkVMcVNfd1ktcmxNa01qdW0yS29TUFdjNTA5b0hvZG14WEpIQzhUYnc2V0hUdUI5N3ZtaFRvRVZ6RzE1azQtWk9wQQ?oc=5",
+      "published": "2026-07-11T23:48:18+00:00",
+      "compound": 0.5574,
+      "label": "positive",
+      "entities": [
+        "Pakistan"
+      ]
+    },
+    {
+      "title": "Indian tourists killed after speedboat capsizes in Vietnam",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/indian-tourists-killed-after-speedboat-capsizes-in-vietnam?traffic_source=rss",
+      "published": "2026-07-11T23:35:23+00:00",
+      "compound": -0.8442,
+      "label": "negative",
+      "entities": [
+        "India"
+      ]
+    },
+    {
+      "title": "Whistleblower claims Kennedy Center ‘rushed’ renovations to please Trump",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/11/whistleblower-claims-kennedy-center-rushed-renovations-to-please-trump?traffic_source=rss",
+      "published": "2026-07-11T23:31:23+00:00",
+      "compound": 0.3182,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "How men with female surnames are standing up to ridicule in Kenya",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c75ygy71wdgo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-11T23:27:45+00:00",
+      "compound": -0.6597,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Ice on testicles and donating blood - the myths sold to men trying to boost their sperm",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c8921982pgzo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-11T23:27:31+00:00",
+      "compound": 0.6705,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Asim Munir gets new role in Pakistan to manage population growth | 'Govt treating this issue with highest priority' | Inshorts",
+      "source": "Inshorts",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOalU0LV9kSU1WdHpuYUx1UHI5WTdsaDZ6T2h2RUFsdGRjMjlJS25Uc3JwZVBWUUhvcW9HX2ZUMDJIVVZVV0xjY2VQR0VVajRRRWlYMmg3QmpNQ3ItS1BZRFMtTU9yTGoxRjNNM2RfcGlZcVA2QTI2YkU5SnRscHJlaUljeE83c3dEelBzMXdfSFpORnkxTUlMQ2dGc3hidlJuZnFCVDZXZlhCZk3SAbABQVVfeXFMTjNxVmJQd1p0YXJEalRDUV9KN3F2OHJkaUxCUkh4V2dxaDlVTEg4Z0hOZ09RbHBhX3dvU2w0TG5BT3NycTFJbHZMcEFuZ2g5ZkJrcVFWWTRCNC1GcnNBRU1uYVFKTG9Wd1Jkc2VyWEZneG51RmlaaUVOa2pfREVvRTdkUDlTUG43ZkFYazNQc1g2S2lLV19vbVVPQmVtQTZMX2kwNDhEMWc3NTBiYmlLQnY?oc=5",
+      "published": "2026-07-11T23:06:06+00:00",
+      "compound": 0.6369,
+      "label": "positive",
+      "entities": [
+        "Asim Munir",
+        "Pakistan"
+      ]
+    },
+    {
+      "title": "‘Satluj’ row: Government panel raises UAPA spectre, ‘misuse’ by Pakistan",
+      "source": "The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYnJIRGdxZmt5cWEwd0RpYzZjdGNmZjdoRFZYTHZiOTlGSE1QSlZDQ2dLMm8xY0F4Y0YyYURnbVc0c1JGSm5DVHo4ZTZqSFdyVk93aHpCYjBkVU5rZUZJZWVEb2c2ZjVMRFIxajZZYkNYd2pIclVDNUVWRGxrSWk1S1dRRjNmNmJybmdILWdVUWo2WUxHaWFyS0dMNjNLMmQ1QUpLNVcwVmVwWVF1YVVYVEVQRXlrdEHSAb4BQVVfeXFMTzN6cjRMeS1UOUpVeDVVNlYtRjRLVC1RencxY2hvdU9HRHhKTm9rZGJiU28xVFkzLVdPTmJHYWM3aEN0RGUwUW1FZzZyU0p6SmM3MV9RaUpMM1JSenhyT0ZUaTMzRXF1LUxfTmE1Mlg0MmRPR1BKRTc4ZUFOWUNhWklvUjFmc25NVlVMcHlGbnZoWnlQY0hqNUg0UjU1WmZDQS1hTGItYWZWRzJ6QU9heU5zazV4M241YjdPYThoUQ?oc=5",
+      "published": "2026-07-11T23:03:37+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "India",
+        "Pakistan"
+      ]
+    },
+    {
+      "title": "FIFA to sell pieces of World Cup final stadium pitch, could earn millions",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/11/fifa-to-sell-pieces-of-world-cup-final-stadium-pitch-could-earn-millions?traffic_source=rss",
+      "published": "2026-07-11T22:58:10+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "US Residency Programme: Pakistan’s doctors outshine India’s",
+      "source": "Business Recorder",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZlFuTFZBR1ppc0FTbUx2Zkw1Ul9RSUQzOTVucm9uMS12UUdxdjhoR3RqQzFUUjA4OXdUSWpXMnByTWhiYzFBZ3plWnhycndEREZrWHJ2NEpodEcyWFNtOGtPNnVHMWVpVS1SUXp1NGNQM2dEYUlRdjdTd19SRF9iMmdkQktGRi1nSWJBSV9SMlhaU3AtYWVvS1dZYlHSAVZBVV95cUxPNHJ5bUtCOVpMenBjYzYtMmNJZDhsU2hreWJJTTJvQVZwd0l0U1MzZVJmNWFBdTRiTHBPY2F4N1BmWUszejN2SUwxQlltdVFhSWt4ZU0xQQ?oc=5",
+      "published": "2026-07-11T22:02:56+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "India",
+        "Pakistan"
+      ]
+    },
+    {
+      "title": "US judge dismisses January 6 case against Proud Boys after Trump order",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/11/us-judge-dismisses-january-6-case-against-proud-boys-after-trump-order?traffic_source=rss",
+      "published": "2026-07-11T21:53:40+00:00",
+      "compound": 0.4767,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Argentina vs Switzerland LIVE: FIFA World Cup 2026",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/liveblog/2026/7/11/argentina-vs-switzerland-live-fifa-world-cup-2026?traffic_source=rss",
+      "published": "2026-07-11T21:31:40+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "How a viral seal called Neil caused mayhem in Australia",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/videos/c05yr465yyro?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-11T21:19:05+00:00",
+      "compound": 0.4215,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Palestinian aid worker who organized World Cup screenings killed in Israeli strike",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/11/nx-s1-5890044/palestinian-aid-worker-who-organized-world-cup-screenings-killed-in-israeli-strike",
+      "published": "2026-07-11T21:09:56+00:00",
+      "compound": -0.8779,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "A veteran foreign correspondent looks back on a career covering conflicts",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/11/nx-s1-5866592/a-veteran-foreign-correspondent-looks-back-on-a-career-covering-conflicts",
+      "published": "2026-07-11T21:08:23+00:00",
+      "compound": -0.5994,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "UK police investigate murder of politician Ann Widdecombe",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/uk-police-investigate-murder-of-politician-ann-widdecombe?traffic_source=rss",
+      "published": "2026-07-11T20:29:40+00:00",
+      "compound": -0.9432,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "What’s behind Pakistan’s mass deportation of Afghans?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/7/11/whats-behind-pakistans-mass-deportation-of-afghans?traffic_source=rss",
+      "published": "2026-07-11T20:11:55+00:00",
+      "compound": 0.34,
+      "label": "positive",
+      "entities": [
+        "Pakistan"
+      ]
+    },
+    {
+      "title": "How should Pakistan respond to Indian terrorism? There's a way",
+      "source": "The Express Tribune",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTWhNX1BLSWhsckVMS2h2SmxHemtVbHpsQ1Jha0RYQ1l2cWpKalhLSG4zczhyQkNrWXdQVjZqdnFHOHZvY1UwZDlKWDZ3R29zZ1A3OTB4QjM0eHF3YTQxQmthbTFVZ0J4WmotN2NteXk0Y1RWUXQwT01BXzFtMXFUUlV5U2wzQWJhVndoVV9YenBGVHlpd0w4LWM4Zm9Bd9IBpgFBVV95cUxQVjJWRFpwaEl0NE16aExfTFNPcnVIUERCampTMy1icHI0THFzSDd5UUdlbmpUSVd6aXFGMDdGTlc0OVVwRE1yQ2JUdjRWangtUUhnc1NDUFdIakhkSGdKZWhPQm4wQ3VQbFpCZmpUYlNhREExc255c21PSjVCazVnVDZ4Yjc5WlpCM1Z2UFdJZE9hd3h3UnMxQ2JacDNYMklQVlZqOVR3?oc=5",
+      "published": "2026-07-11T19:57:48+00:00",
+      "compound": -0.89,
+      "label": "negative",
+      "entities": [
+        "India",
+        "Pakistan"
+      ]
+    },
+    {
       "title": "Polish PM pledges memorial to victims of WW2 'genocide' by Ukrainian nationalists",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/articles/cze94x4361po?at_medium=RSS&at_campaign=rss",
       "published": "2026-07-11T19:26:02+00:00",
       "compound": -0.8957,
       "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Thousands gather in Srebrenica to mark 31 years since genocide",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/11/thousands-gather-in-srebrenica-to-mark-31-years-since-genocide?traffic_source=rss",
+      "published": "2026-07-11T19:25:59+00:00",
+      "compound": -0.7783,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "‘All we see is decay’: Covering the human toll of Venezuela’s earthquakes",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/11/all-we-see-is-decay-covering-the-human-toll-of-venezuelas-earthquakes?traffic_source=rss",
+      "published": "2026-07-11T19:15:10+00:00",
+      "compound": 0.4404,
+      "label": "positive",
       "entities": []
     },
     {
@@ -1628,6 +1953,15 @@
       "entities": []
     },
     {
+      "title": "Pakistans groundwater crisis deepens as experts warn of gallons of water wastage",
+      "source": "The Tribune",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOalBJM3NSekM1dVNTQ0o3elFoRTFKSVBhZTU4MGYzNmloc1l6Q3c4X09ESF9zbldzWGR5YUV5TXF6Q254bEgzaGNlWm5qRmY0bDVoRmdTT2VidE8xSFFxc0t2WkhobjB1RDhLaHh0OG5VaDNuLUFxdnh5UDVESVVUNk00RjFneHN1SFlIdkhyR1k0dFNDancwUXJidElrMXdnMFFkeWhjRWxuLUs3eVBycjgxZTZjQlFFZU8zaEhn0gHCAUFVX3lxTE8yVlFqSkJpdl9FcHZtNVRRT19VNngtYnpEVlBsNU84VXFqZGdXTmVLbElMU2FKNnFQU1kyeUU0SWZISExEaHV1M1pGSHlKeXE0X25CdlRaUUs1dkZJRkxJX3VQTjdSM1hsU21qNXVXcnRoVkdLalAzNzhpdURBenBETDBzTktpQmt3V2U3LUFkZVJXRHVuYzBNY08ycjJvcWNtN3pRbUVUSWgwUXNQMk10U0sxb1pWTkRQUVZnU3NRLWFR?oc=5",
+      "published": "2026-07-11T13:53:01+00:00",
+      "compound": -0.875,
+      "label": "negative",
+      "entities": []
+    },
+    {
       "title": "Pakistan turns to army chief Asim Munir in battle against population growth",
       "source": "The Times of India",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNQThzMEdOT2FUSnZVRnBuSXZCZ2NYNnNDZjNoblhLY2pXQlpLVDBEb3ctMmpUWTdUdUhNNEN2Z3NLWHNmYzg3QklnYktWSVdUMkpHQjZyUFlrMFAzMlVYVlY4UTJOaWE0UkZDMnU4WnlTTDR3TVQzbjlRY0xLWllSVE9xVXE5NS05OWdLaGpNajRMS21HRGx6aldDS2ptRkktazlUaWt4dkhPb0wwT0UtT0NNcHRPNnpweWh4RlNJbTR2RjQwOS15YzA1ZXZCR05vRUZjajZIV1kzNHp5VjgxNC1OMlBlQjTSAewBQVVfeXFMUHZpdTJSQlRzcXdfam1heUZjWnpqWGwyeFl0QjE5N2kyRWI1by1HTTlYbW43NnhKQmdSSlNaZ3dtNkw1Tm03eDhCS01uZTJtSmtFRnBkWDZjLVRPVVgzaGx3MWwySzA1SGtBbzVvdmtmZjB5U0laUEFMbHhod0I1NzNtZzZvNHpTWnRwZ0lWQTJrYlVJM2FjVlpFRjlHUnpGQ29iMTlRTmM4SVlmeHNaNEdac2t2LUpsdDgxREJxY0xNd1VDNXpFeUxRdTRVNnBwZUs3bVJpa09EYUl1NWxlT1RNQnRUQ1pnYzFKSWw?oc=5",
@@ -1687,326 +2021,6 @@
       "published": "2026-07-11T13:11:52+00:00",
       "compound": -0.6124,
       "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "India-Pakistan Track 2 Dialogue: A propaganda playbook pushed by Islamabad & fuelled by Western think tanks",
-      "source": "organiser.org",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNX3hKd0hSUFhxVHdfakJQeHl0akdHcGwzX0RKTUZPdTFselFoemcwS1RvVFpmVVM1SkgxdC1STFp0NWVxN2IxSGVnQkpUakVaZktWV25fOGw5WUVJVk1lVXhzTDg3aTBOQVJESS1iMkE2Yi1tQWNzVnJRNENKOVpkWlpLMXIxZlZqUV9EQ0hrYXp6QmJEVFBLU2czLU9lSWxXZGZHUHB4cnpIMkIySkFEX212bExPRkM0eUQzemwtbEFKU1MtSWJDeW9zdFhueHF3TXFyY3JoYmRtdUNERHBnanhWVmNwQdIB6wFBVV95cUxPaXlpSDYybENLeFNlMk8xYU1aSWpCc0xoTS1sQ0l2d1hweXdOS09Ya0dtVEdtYlhrOHJmazVwdmdhS0tOdnV6MGljck9pbUZzTVV6d1JkR0c5Ym8zaUpJekgyUERWdU56OE91TElVZFNHbWpVMHFwcjhIcVIzaTVOdUVoZVNiUWFIN3JtNlotb3JwT1gxcFZvT01fQ2p2bkxnZnc2WDU5X3lCXzU1U1p4M2Y3UjV3Q3RDd2ZJUml4UGF4YlhJZjV5R05QOURRbU9xYS1TSUlaWmc3LThWTFZoVW16Um9PNkJldlVr?oc=5",
-      "published": "2026-07-11T13:02:41+00:00",
-      "compound": -0.4588,
-      "label": "negative",
-      "entities": [
-        "India",
-        "Pakistan"
-      ]
-    },
-    {
-      "title": "India-Pakistan Track 2 Dialogue: A propaganda playbook pushed by Islamabad & fuelled by Western think tanks",
-      "source": "organiser.org",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNX3hKd0hSUFhxVHdfakJQeHl0akdHcGwzX0RKTUZPdTFselFoemcwS1RvVFpmVVM1SkgxdC1STFp0NWVxN2IxSGVnQkpUakVaZktWV25fOGw5WUVJVk1lVXhzTDg3aTBOQVJESS1iMkE2Yi1tQWNzVnJRNENKOVpkWlpLMXIxZlZqUV9EQ0hrYXp6QmJEVFBLU2czLU9lSWxXZGZHUHB4cnpIMkIySkFEX212bExPRkM0eUQzemwtbEFKU1MtSWJDeW9zdFhueHF3TXFyY3JoYmRtdUNERHBnanhWVmNwQQ?oc=5",
-      "published": "2026-07-11T13:02:41+00:00",
-      "compound": -0.4588,
-      "label": "negative",
-      "entities": [
-        "India",
-        "Pakistan"
-      ]
-    },
-    {
-      "title": "Pakistan claims 88 militants killed in ongoing Balochistan crackdown",
-      "source": "inkl",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOXzhXMVY2eUp5V2FTaG1LOXV2RG9EZDRjQzhLajZrNzAyVTR1SGNGT0ZqY3VYeFFmbEMwYl9SQUtMelczS0NXQ3lVUnlZZDdtSElRaHNuTVZ0elJvMnRxZHF6Ql9ITU96TGhzd0Rfb1k0bkQ4UFJoWVpGLVJOQWpyLVVld1lQbUxpd3hXdVJOSTZCbzd4ZEtSaVpNOFdzMXQzYWlr?oc=5",
-      "published": "2026-07-11T12:54:00+00:00",
-      "compound": -0.875,
-      "label": "negative",
-      "entities": [
-        "Pakistan"
-      ]
-    },
-    {
-      "title": "Pakistan claims 88 militants killed in ongoing Balochistan crackdown",
-      "source": "The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNOG5jeVROTEUxTWtOeFdYd3VFZUZBRG1uMGs2eU1kZGtqSUQ1NERUMnVTQkl0M01sSE9xWDNzQmtqVmdYb3NNd3Ntc2VaOGp1NDVzNXpmXzRCZmZQTlBTZVI5UTFMbDNnc1IwWk9zZkF4UVV2QXU1WldZbTE5TmI2blFiX2UwcGZHcnVQY1prSm1wMkgxT2JKVGJsYXFuZk82di1ENE1zZjEyVE9vSUg2RVEyeE1lQzlwWWpCNjFiem1qNEp6NkZ0Tlhoa2czTHNVanNBYWpGY3Y3RjlPYVHSAeMBQVVfeXFMT2ZSMzlqMk1pZEhPWGpfcjBNaTYtNFp0Rmh0dDNVc21icTh5cjk2MDF0TEE5ZzBVS09xbEh1S3RMb1lUSmJ1czdTUXlFRk52MHFEajRxYWRHRy1fbjc4ZHFReTI0U0I5cDNGQVNxRS1fb1hnUnZsaUIyMUVNUm9JTElQcUJpZEtxYk1OWkgzWGRaOU55Z3hub05zajhCVFRkc3RFWG5NV3lELWZVaEZfMzdPUlRkQW9DOTNUX21SRmthbG05OVZxbEdIeU1OQTB0V095RTFxN0xDUWk3em52UUNRY00?oc=5",
-      "published": "2026-07-11T12:54:00+00:00",
-      "compound": -0.875,
-      "label": "negative",
-      "entities": [
-        "India",
-        "Pakistan"
-      ]
-    },
-    {
-      "title": "What is going on in Yemen?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/2026/7/11/what-is-going-on-in-yemen?traffic_source=rss",
-      "published": "2026-07-11T12:53:27+00:00",
-      "compound": -0.7882,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Ramiz Raja defends Shan Masood: Can't expect miracles from ordinary players",
-      "source": "India Today",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNFlfTmxhbWFyaGsxMW9WdFFZMkwzanNmbXZtMnBkdHExVnlBQWpQTERQWWxJRXVQd3NhdVd5RHhTR2Y2SmY5ZGpLaER4bUhXalZmRTRteTRFc3ZKZnZ3Sjh3TnNCTmVtQlJ5UVV4S3ZDLWI1c0ljZ3d0WmhkQTB4VWZQVHFBMGxkMlpEUnA0Um90cHgydzNzTFVDU2lsQzlObTZ1ZDZvOHI1dzNuSHhiOUEyNXZjT0lCM18tcU1TbFExanNWdFZ6UHF30gHPAUFVX3lxTE1kU21QNU5MV0VfNUFubmoyel81Qi0yT2JZbUdHM3pYcDM1RmszMHFDd1hMWXRjR3lNNzFtYld2QnlTWmZHZ3l3Qy1Sc21GXzNxb3NLdmRZTVRpY0ZCT2ZzVS1VZ0JqNDNEQVNZV3VfeWl4cEVSa3BLNm1kb1lmYkMxZ2djZGF3dVFCSFBKUzFRbndNT2VXOU81a1hJcmNFMF81UEo2S2x5NmN1M3k3dU53VkZDcnlpa3gzNGl0VHVJTXhaMVdpQktSN3BGLTNpVQ?oc=5",
-      "published": "2026-07-11T12:49:47+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "India"
-      ]
-    },
-    {
-      "title": "Army chief Asim Munir has new job in Pakistan",
-      "source": "India Today",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPd2Q5V2FGanNrRVdMZG1YMUV1Mkh2aTA1SUFBd3d5eDg1aldzMEtoem9vbUo2b2RoZDkxU04yMEVOT1lsMWNsUnl2QzcwTkxrS1pjRU9aZFRCczVEdm1HZVI1b3REMHZxMHhDbXV0U0kwMEhfdERrdVd1aGxqcE5qRGFvQzA3aUJQSWFYWFo5YmRwR3pBWC1zT0xVUkJVSFF6aGFCVTdXUWc2NldYZDJQSkNqONIBuAFBVV95cUxQQTlDZXFQZmZYMldvWG9qSTFRbEhwOU8yWi05TUNMLUdpUC16UHVLbWdpT2JTUXcxTERPLUVRSDhMcmNSZ0czVWpaWE84c2xHc2RPb3dqWm5ZZ3U1UGF2RDM1TFBmVVpHamp3cGpQcnRTeERzM25qZkFBeVJWZG5DNkVrMk5WSDhxaDVfUk1FdGJlZGVTNGVOSG1DVWZEclRJYzZ3X0ZXTm9yTUhRaFc4Vi1vT0YtT3cx?oc=5",
-      "published": "2026-07-11T12:24:18+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Asim Munir",
-        "India",
-        "Pakistan"
-      ]
-    },
-    {
-      "title": "China prepares as Typhoon Bavi leaves Taiwan",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/china-prepares-as-typhoon-bavi-leaves-taiwan?traffic_source=rss",
-      "published": "2026-07-11T12:17:45+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "China"
-      ]
-    },
-    {
-      "title": "Pakistan, India, and Israel’s expanding eastern front",
-      "source": "JNS.org",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTmJqYUc3ZFdUMWc5R1dKZW1NZXBaM0Q1Y3dqNU5lMFRtWFRYOGdTZGoxcXlOTElrT243c01DS3diam50UGlYVnJpblFFUTF5cmV4cXFfcjhDaDRTalZaYTFGclBtdGJOaWFvbE95VTVoeTExQ1BjRU5MRmlTdmt5bmVkSzJUQQ?oc=5",
-      "published": "2026-07-11T12:15:50+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "India",
-        "Pakistan"
-      ]
-    },
-    {
-      "title": "Pakistan cleric declares crypto haram as government pushes regulation",
-      "source": "India Today",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQl93MVVyRjI3ZENqb3lHR0VOMGlVUF9tMEpCWENRNzJEbDRDR0I1dEo3U3IwamNacTE2OWlDeU1kb3ZWV0JmY24wWHBjVTY1WVJXakJvdlNhaEtZQlhsX1RYV1dGbkZ5T0hUY3BGeDg1QXV4VWJORjZzOF9qZFRXR29GMzg4b3lYLTRjOVF0ZXlXOEYzbkhPakpYOEdWcm9CcVU1VGRhWGY4aWIySXpLSUdQRHVheVlvS1lkbmlhb3I3Ry1WdXMtQTREcE51V3ZhSzBV0gHYAUFVX3lxTFAzN2xHMno3eGJGVjRqMlF5amYydFNBbzlBaWlONDFmNmFPM0ZUT3JDbl9IOGpWOU16RWlEalBfdzg3MkNPaE5IWEpsamJzXzRlVHRFQk1zY1dienBocElNSWZFT0RQclZKbzBXcHdTTWlSVXJsZG9adzhxS0VnZ1J6N3NqUTVDXzBIT0F3SnVWX0p0NGtIMlBlOHlUaW5odzhDQWFzYm9pMkNNUmYxeUlpU1g5Zk5ZX2twd2lrUjItUC1NU2RPMEdGTTl2MTAwZ0lFVHd2Wkp0Vw?oc=5",
-      "published": "2026-07-11T12:10:18+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "India",
-        "Pakistan"
-      ]
-    },
-    {
-      "title": "China braced for second typhoon in a week as Bavi approaches landfall",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cdxd3wkp2rzo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-11T12:06:47+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "China"
-      ]
-    },
-    {
-      "title": "88 terrorists killed in ongoing anti-terror operation in Pakistan’s Balochistan",
-      "source": "The Tribune",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdUFEU1RjcTVJeXM2YnZydlBhVk1LZEhucy1zWUg0dUxOR0VIR2hzTU5CeVRWc29kWEp0Z000VEpreFpQdl9pRXdYWlFQRUhsNjRDaHA4SmQ3N2NJN18wX1pGZ1RaZkRTNUVSRjdxSWl6Tm1DMU5XOFdrbmNrV1lVbjZwMUZsUHRqTUhnUVVGRlNLdzdMX2VybVVUU2ctV0w3N0FlZDlKbldDbDFibnR6dktwQnh4RzhPSHlzYlhoY9IBwwFBVV95cUxQUzZoOGVLMnJPbDdLQnpNeW5fM2J5dlloOGQ0U3BlbFpDek9KS0Ywb0tIRUoyeG9paHVITmUycGxGZ1hNVmZfd2xNMFZ0UlFLTFVLWkhwcnlteFpMWXpDelFPRjh3MHpRTmF5Q1JPTzRjZ3NNVE10QWRsWHNrZHp1VWd3MTNnOV8zczVZUjVhek40Z2Ftb3Z5Q3FJSHJDSGltREtreWxGYjI1eHpkZTdxWnVfSkhJY21TZlhkS2oyTjk3RWs?oc=5",
-      "published": "2026-07-11T12:05:06+00:00",
-      "compound": -0.9595,
-      "label": "negative",
-      "entities": [
-        "Pakistan"
-      ]
-    },
-    {
-      "title": "Most people who need glasses don't have them. Can the post office change that?",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/11/nx-s1-5887653/reading-glasses-post-office-india",
-      "published": "2026-07-11T11:49:47+00:00",
-      "compound": 0.3527,
-      "label": "positive",
-      "entities": [
-        "India"
-      ]
-    },
-    {
-      "title": "Zimbabweans return home amid xenophobic violence in South Africa",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/zimbabweans-return-home-amid-xenophobic-violence-in-south-africa?traffic_source=rss",
-      "published": "2026-07-11T11:47:54+00:00",
-      "compound": -0.8481,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "'We escaped Spanish wildfire, but our friends lost their lives'",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/videos/c07y357zvl1o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-11T11:45:55+00:00",
-      "compound": -0.1154,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Pakistan says Operation Shaban killed 88 terrorists in Balochistan",
-      "source": "India Today",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMW8tLWlFR01xdE9ab3dQS2toc3J1X3NVTW5zRDdCcVFOeDhsN3puUlRGNGU0VGczN0ZQendJS0lBMmx2MXQ4eGZqN3B0bUVRT01VTl9NYU53VkUyX3N2M01tczctc2pDWUR2TW5FUVItRW9RVlpURnRxa2ZWejRuZ3dsaGRmMkIxSF9DTjEweHZTRm04Tmp3Rm0tdVZsQnpiQ3h2QUNQdFNfbVBDMXU0NWZxTGxmQUZzQnlNbWFLSkJsX0RQX0liVnRmcG1RbXpF0gHWAUFVX3lxTE5BOXZScTRIUDFxaHNrNVJJYjJBQ2NhZHJhWFA2d29YTG5lWlRmVXZMZnJrLXAyNnBTckdkQXZSeWJGQ3FtS1hLdlVkN1pJUnVETnB4SjJVVUR5dy1LN3pxeDlFZ19ScjNKMERsVjFjMzJlNFktWFI3WlM4amdwMFNvUmkzeDItSThlM2xuNl9NS3pOVTJjYzc0QTVFOGx5T1ZLS3FLUHc1dm85bEpzdjJJelVfUVUzMFBHSGhHVXlVV1hyOWxhVjBMcHVjc1dRdTN4c09BYnc?oc=5",
-      "published": "2026-07-11T11:42:27+00:00",
-      "compound": -0.9595,
-      "label": "negative",
-      "entities": [
-        "India",
-        "Pakistan"
-      ]
-    },
-    {
-      "title": "Sheinbaum takes on cartels, Trump and the legacy of 1968",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/longform/2026/7/11/sheinbaum-takes-on-cartels-trump-and-the-legacy-of-1968?traffic_source=rss",
-      "published": "2026-07-11T11:38:06+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Pak woman, son arrested for visa overstay; their Aadhaar, voter IDs under probe",
-      "source": "India Today",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOaGVVU3pnaGdKWC1MOV9XV2xXVkIySU4wNFRaRXQxUGZkc3BEcFVzMGNKaXVyUk5YVmxZN1ktRmlBQkhZMzlqNjBXcGpoRkdUYllQbWliRHljOUpWanZ3ZHFULVBneWtybkNCZ3duWXd0XzNqb2o3bkhlaXpYaURIdy10MktBX3RvTGZCUXBfYVVraGVCWUJZc3NLcmhIY21zQ0J5SWJmNEprVllqaEhXMFdmSGhTbE41cXA5cGZPRERDM3p1eU9QbzZXOGJ2QjFFTHRsdm5rNmFNSU9LQ0ZLTVlLNEhJVmJCZE1XcnEtRkZUZUY3d3pybzZRcHY3Z9IBgwJBVV95cUxNSWRpWVNzandZVlRNQ21oRE11NGgxMHlJWnQyY1IzZHJWaldkckRnZjAzdFRSVU0wMDlGV3Njc0tXWUdrRmdyS09JNE9IeFhSMEw2YngxRFprVG41TURvMWVKNjdUcWtYbk9ET2lzYW9vTzdrVVBfZnZyRkZMRlNtdHhoQTdkZFhlUnVFUUlHeXp1eERsS0FqV29zUVJLWmdqTDJrT1V5cV9wb21mZkdGX1ZYYWpRT3gzQjVPWENoU19KWlpoQlpjZmZJMFozcmVVYmI3ZC1za2pjUjZBSWZ1amQwNlB0aUpoRHM3RkpKS3pfSHdhTlFVWkZNMGVsMVNlbHBZ?oc=5",
-      "published": "2026-07-11T11:36:52+00:00",
-      "compound": -0.7351,
-      "label": "negative",
-      "entities": [
-        "India"
-      ]
-    },
-    {
-      "title": "Speedboat accident in southern Vietnam kills 15 Indian tourists",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/speedboat-accident-in-southern-vietnam-kills-15-indian-tourists?traffic_source=rss",
-      "published": "2026-07-11T11:34:45+00:00",
-      "compound": -0.836,
-      "label": "negative",
-      "entities": [
-        "India"
-      ]
-    },
-    {
-      "title": "Land sold for Kushner-backed Albania resort suspected of forged deeds",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/land-sold-for-kushner-backed-albania-resort-suspected-of-forged-deeds?traffic_source=rss",
-      "published": "2026-07-11T10:14:39+00:00",
-      "compound": -0.4215,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Should India Restart Dialogue with Pakistan? Arguments, Challenges & Way Forward",
-      "source": "INSIGHTS IAS",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbndNNUVYSEFkU0VEcUtuR1djaV92dm5mZHVZVmc1YlRpVG1WdHpqQ3MxbHNwUzBRLVV4NHZ4Sk1CdDVSTXN5RnAtY0tPMC1xYnpYdVFJN0MzWk9Xa3huSGhTR1lnVmJ0Y2ZsYnRnai1sWE1iSEZ0V0hsY3hBMnN3aXdCMGQtd3d5TzItNng3am0?oc=5",
-      "published": "2026-07-11T09:59:17+00:00",
-      "compound": -0.6322,
-      "label": "negative",
-      "entities": [
-        "India",
-        "Pakistan"
-      ]
-    },
-    {
-      "title": "World cup wrap day 30",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/world-cup-wrap-day-30?traffic_source=rss",
-      "published": "2026-07-11T09:47:33+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Pakistan: HRCP urges Punjab to withdraw Habitual Offenders Bill amid civil liberties concerns",
-      "source": "The Tribune",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTkZaNkxoSm1UZlVxbXdVQjFaS3lTWlo4M1pfNFdsdzAwcHVMdzJyWFI3bzBxWFdTSVJSZ2dhMVpDZkJQeXYzTndNTnRvUE0wdm5uczVBMmx3RWRRa21mMXE2UlFKWTFMS0dkbFI4SnRUODlTY0paWnlia1JlNUQyRXZvZnpicTNSdUluSHpwTzRpNUlfNjRwMWl1U3BjSENwZXdYR1Q2cnpyc0Y5WGF0WWFjaUFnM29SSS1iZ2VHNERmajR0NFZEQlhzaGJIUdIB0gFBVV95cUxORWVLSHBWT1dnZHAtcl9vYUVLVU9pNzNYQ2Y2emVkank0YktWdHptVFZDNkpWT0pxWWM0VmdyZG9Pc1pHRzBxNWs4b1VWTTlUTVVEMlptRXNicWEta25VYW5EbTZaaDY3VHB0V3RCZEdGX2lfRWdRemhzMk13MTVDSmxJeEZRY0p2b1NfWGNHd2ZMUTVQWDgybFRIMW03dkczbnFfaEVlTTM1RmxEUG9YWS1xalhtajhVU0tuc3RTZHNSV2ZkbzRkcWE0WEx0a24ycVE?oc=5",
-      "published": "2026-07-11T09:43:20+00:00",
-      "compound": 0.3818,
-      "label": "positive",
-      "entities": [
-        "Pakistan"
-      ]
-    },
-    {
-      "title": "Hundreds of thousands evacuated as Typhoon Bavi barrels towards China",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/hundreds-of-thousands-evacuated-as-typhoon-bavi-barrels-towards-china?traffic_source=rss",
-      "published": "2026-07-11T09:32:57+00:00",
-      "compound": -0.4019,
-      "label": "negative",
-      "entities": [
-        "China"
-      ]
-    },
-    {
-      "title": "India vs. Pakistan: Why Islamabad’s Nuclear Posturing Perils the World",
-      "source": "Fair Observer",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRExrWnF0SjNjV1VDcTAtRzZhU3VreF9JOE56bVZfbWVWbVpBbUhDQk44N1NqM2lfSUZPYWxvVVB6LXZxLVdMcURJOFItSzFDcWRmam05eEpveGJpOHVLYW0tbWRWc0hyem5ieFNIemtZVngwMFYyeFcwNG4ybWVuRXJwWnVONzBTRUM1VlpOa0JWLUVLMFRMdUhCS2tTMC1LaHZvWkZOaVVJaEUwanlQc2NxU1FJMkw4Mnc3Q010UkM?oc=5",
-      "published": "2026-07-11T09:12:00+00:00",
-      "compound": 0.3182,
-      "label": "positive",
-      "entities": [
-        "India",
-        "Pakistan"
-      ]
-    },
-    {
-      "title": "Cuba suffers second nationwide blackout in five days",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/cuba-suffers-second-nationwide-blackout-in-five-days?traffic_source=rss",
-      "published": "2026-07-11T09:00:23+00:00",
-      "compound": -0.7351,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Russian missile and drone barrage kills two and wounds 19 in Ukraine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/russian-missile-attacks-wound-11-in-kyiv?traffic_source=rss",
-      "published": "2026-07-11T08:53:23+00:00",
-      "compound": -0.5423,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Indonesia’s anti-graft prosecutor quits after police seize gold and cash",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/indonesias-anti-graft-prosecutor-quits-after-police-seize-gold-and-cash?traffic_source=rss",
-      "published": "2026-07-11T08:43:10+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Newly-released video shows Peter Falconio's killer questioned",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/videos/c0rylp72p9ro?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-11T08:35:33+00:00",
-      "compound": -0.886,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Watch World Cup: Merino, Spain beats Belgium, move on to semifinals",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/2026/7/11/video-world-cup-2026-highlights?traffic_source=rss",
-      "published": "2026-07-11T08:30:41+00:00",
-      "compound": 0.0,
-      "label": "neutral",
       "entities": []
     }
   ]

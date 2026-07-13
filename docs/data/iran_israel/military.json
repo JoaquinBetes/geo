@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-12T19:31:20+00:00",
+  "updated": "2026-07-13T04:00:01+00:00",
   "losses_label": "",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
@@ -8,13 +8,13 @@
   },
   "window": {
     "from": "2026-05-18",
-    "to": "2026-07-12"
+    "to": "2026-07-13"
   },
   "kpis": {
-    "events_total": 99,
-    "events_unlocated": 256,
-    "events_7d": 88,
-    "events_prev_7d": 9,
+    "events_total": 108,
+    "events_unlocated": 267,
+    "events_7d": 97,
+    "events_prev_7d": 6,
     "hottest_place": "Strait of Hormuz"
   },
   "daily": [
@@ -119,10 +119,19 @@
     },
     {
       "date": "2026-07-12",
-      "total": 15,
-      "strike": 13,
+      "total": 18,
+      "strike": 16,
       "ground": 0,
       "infrastructure": 2,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-13",
+      "total": 6,
+      "strike": 5,
+      "ground": 0,
+      "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
     }
@@ -1117,32 +1126,122 @@
       "title": "The Guardian view on Trump and Tehran: everyone loses when the US and Iran overplay their hands | Editorial",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/commentisfree/2026/jul/12/the-guardian-view-on-trump-and-tehran-everyone-loses-when-the-us-and-iran-overplay-their-hands"
+    },
+    {
+      "date": "2026-07-12",
+      "type": "strike",
+      "place": "Bushehr",
+      "lat": 28.9684,
+      "lon": 50.8385,
+      "title": "Explosions reported in Iran’s Bushehr amid US-Israel tensions",
+      "source": "Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX3phRDRMNFpQYVpsZUpxTlNFb1NRTDI4QmJ2RDR0YmtEeVpabjhfYVFnVHFRYlFfczBCRDBNSFRIbWducFZQTW0zbzBvYkhncXdfZHpuZEFRcjVZUG93d3RlanFiZGxGSFRkU19vSmtuOUl3UzYtOXlhU3VDSXRnTl94NHNVVnRLcVhtWEt4SGRKUQ?oc=5"
+    },
+    {
+      "date": "2026-07-12",
+      "type": "strike",
+      "place": "Arak",
+      "lat": 34.0917,
+      "lon": 49.6893,
+      "title": "Explosions reported near Khondab nuclear site amid US-Israel conflict",
+      "source": "Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdzJ4SkxXT093TTVxNHA4UVdPcHQ4ZUxTZmdiYzY5Y20tRFY1NFNpSzc1S1JJYmRocWhuNlJ3ODJsUkN3VmpyVDk3dS0wSmNySUk0WThLcVVHdGlmYWVlQlNMQVJ3akNaRVdVbmhBYk1NU09qRmdtOXpUNXVKVlVsYndLeXNKakkxOFBTZ3hDY1cwaG9icWJmYUllNTFldw?oc=5"
+    },
+    {
+      "date": "2026-07-12",
+      "type": "strike",
+      "place": "Bandar Abbas",
+      "lat": 27.1832,
+      "lon": 56.2666,
+      "title": "Iran says almost a dozen ‘enemy projectiles’ targeted Qeshm Island",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/iran-says-almost-a-dozen-enemy-projectiles-targeted-qeshm-island?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "US launches new wave of strikes against Iran as Tehran says diplomacy has proven ‘futile’",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNWFGOFJuSzNYX1FIdUwzUlh3R3hEVDYxc2w5WmhaMWxfSFV0Q3lwU0poZXNfTzRzWmNwWjVULURYQzMyUHdlYV8yQUctLWQ1ZXdqalpuODBkd3FEWko2dFRjZGxaeTlwX3owSC1BVEpYRTZqUnNkaGpyMjhDeW03N3FOSFpsYUdmUEo4TUtzUDBEbVBGOUJrdmY0eFlIRi03UzNiVXpn?oc=5"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Middle East crisis live: Iran says launching retaliatory actions after fresh wave of US strikes",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/live/2026/jul/13/middle-east-crisis-live-us-launches-new-wave-of-strikes-on-iran-tehran-says-attacks-render-diplomacy-futile"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US launches new wave of strikes against Iran as Tehran says diplomacy has proven ‘futile’",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/13/us-iran-war-missile-strikes-news-attacks-strait-of-hormuz"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "US carries out fresh wave of strikes on Iran, insists Tehran doesn’t control Strait",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/us-carries-out-fresh-wave-of-strikes-on-iran-insists-tehran-doesnt-control-strait/"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US launches more strikes on Iran as Strait of Hormuz standoff deepens",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/aje-onl-nf_us-launches-more-strikes-on-iran-120726?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "infrastructure",
+      "place": "Bandar Abbas",
+      "lat": 27.1832,
+      "lon": 56.2666,
+      "title": "Iran war live: Tehran attacks Bahrain, Kuwait, Jordan after US bombings",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/7/13/iran-war-live-us-bombs-iranian-cities-again-as-hormuz-standoff-intensifies?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 55
+      "count": 58
     },
     {
       "place": "Tehran",
-      "count": 15
+      "count": 17
     },
     {
       "place": "Damascus",
       "count": 8
     },
     {
+      "place": "Bushehr",
+      "count": 6
+    },
+    {
       "place": "Jerusalem",
       "count": 5
     },
     {
-      "place": "Bushehr",
-      "count": 5
-    },
-    {
       "place": "Bandar Abbas",
-      "count": 3
+      "count": 5
     },
     {
       "place": "Beirut",

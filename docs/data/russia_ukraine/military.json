@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-07-13T03:59:59+00:00",
+  "updated": "2026-07-13T09:47:33+00:00",
   "losses_label": "Bajas rusas (reclamo ucr.)",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
@@ -11,9 +11,9 @@
     "to": "2026-07-13"
   },
   "kpis": {
-    "events_total": 150,
-    "events_unlocated": 348,
-    "events_7d": 79,
+    "events_total": 154,
+    "events_unlocated": 362,
+    "events_7d": 83,
     "events_prev_7d": 53,
     "hottest_place": "Kyiv"
   },
@@ -254,10 +254,19 @@
     },
     {
       "date": "2026-07-12",
-      "total": 7,
-      "strike": 6,
+      "total": 8,
+      "strike": 7,
       "ground": 0,
       "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-13",
+      "total": 3,
+      "strike": 3,
+      "ground": 0,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -1762,16 +1771,56 @@
       "title": "Nine Dead as Russia, Ukraine Exchange Strikes",
       "source": "The Moscow Times",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOejZXUmlXUjZEN0dYNy13MWdhUGY2LVBPWlFHcTJpM1RCNExyN0dxQWVQZ2FGVlJESUNJRlludE9uVDE0cHpGSFVKTlZ0RHBSX2hMV2dHbEJoNi1wc3FDdTktRmp2OFpnT0ZtMGRTZjczRVN1ZmxhdUVEZmxtVlkyMTcybWR4R010YVBNMjZDRXV3TkJVLWVCNQ?oc=5"
+    },
+    {
+      "date": "2026-07-12",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "9 Dead as Russia, Ukraine Exchange Strikes",
+      "source": "The Moscow Times",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaHpaekdlNlg2cnB6ZTlwT01PRXlHMW9jVUVQY056aWhKWTN4d0UxYTAwd194YnV4cGVIUTl6U0xNYUU4WnhjZGxfTnZSUVZYbXctVGNWWHNZSlFDejlla3Y3bWR4ck9pRkpCbjBsNkFMLU9nWWZDamdlMmlXUXo4aW5qaXRmNG5FMldxTzFpMmRoT3Zs?oc=5"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war latest: Three killed in Kyiv drone attack on Moscow",
+      "source": "The Independent",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOY3pkMkpSUUVwajNuWlUtZS1PZW9XWG5kOWpTdUdrSlNkMTFkZk9vSXZvNHBpcWhvcXE0LXZxYV9jOXNhWXotV3RSMnlOY0laaTNLak12MDV3ZFFGYjg5TDgyOU81amVGaHlmYkdwYm15ZEwzYXZtajVjZkttT1RKdDRlTXhJNHNNUldBRXRqdVg3TWUyZEtwOFNpaHdRRm5Ua25ZejNzc01RcExuTmxBQ0pQcVg5Z2JpZlFVcQ?oc=5"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Ukrainian drone strikes kill at least 3, wound 5 in Moscow region",
+      "source": "France 24",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUG1yS3NJbzdERXpNSlBvcHNmUnpoNmg0NWRKaHVsYW0tQUxOTndfRU4zcHBqbGQ2UVdabXh5WjJoQWk4bGs3UGxrTXZEbzJFQ2V4aUpxcUlOZDJZTlJqcjdfbUM2c2JUSVhuMUJtWUpyanp6ajFwWFl1M2lDZHVHY3lNX0k3Q3J3azhCM3c3TGJyR1gtMlBLaUZQNV93cEs1c1hPUDlvMlk?oc=5"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine Allies Gather in Paris to Bolster Kyiv as Drone Strikes Hit Russia",
+      "source": "Kurdistan24",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMklRc1c4YkF5X3VscURnYTB2d2ZyZTUtdnVMeExJUWJ4cmMwRG5jaDRpWHNOVVRxeU5IVXQ2YTFuVVJKaEV1TW9kZnBqWnZRN0FKRnk2a0lLR1Fmc2JpaDgzUmpBcjZ2MnhwSnpsRHJnVVg3dERncE4wSzlNa0VudXJXNGRPYTdNbE9GVXJ3QnBVUDZvU0JQVU52N09qdkJycmJqdkJha3E2WTdRa2ZCRXpXS2FvNlp1dWc?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 91
+      "count": 93
     },
     {
       "place": "Moscow",
-      "count": 25
+      "count": 27
     },
     {
       "place": "Donetsk",

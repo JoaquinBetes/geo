@@ -1,19 +1,19 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-13T04:00:01+00:00",
+  "updated": "2026-07-13T09:47:36+00:00",
   "losses_label": "",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
     "losses": ""
   },
   "window": {
-    "from": "2026-05-18",
+    "from": "2026-05-15",
     "to": "2026-07-13"
   },
   "kpis": {
-    "events_total": 108,
-    "events_unlocated": 267,
-    "events_7d": 97,
+    "events_total": 111,
+    "events_unlocated": 273,
+    "events_7d": 100,
     "events_prev_7d": 6,
     "hottest_place": "Strait of Hormuz"
   },
@@ -128,9 +128,9 @@
     },
     {
       "date": "2026-07-13",
-      "total": 6,
-      "strike": 5,
-      "ground": 0,
+      "total": 9,
+      "strike": 7,
+      "ground": 1,
       "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
@@ -1216,12 +1216,42 @@
       "title": "Iran war live: Tehran attacks Bahrain, Kuwait, Jordan after US bombings",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/liveblog/2026/7/13/iran-war-live-us-bombs-iranian-cities-again-as-hormuz-standoff-intensifies?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US launches more strikes on Iran as Strait of Hormuz standoff deepens",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUERoNERlUmhmZkFzZnVDVkpiakF6NnNXQ2MwMDlfN21MUkYzMWlNenZ0OExOVFlOOHBQZzRjNVR3NFFUREFXV2R5NWs2aVNXQVdBWFFITUdibnJFYUhzc2pFZDJucG9rbHROVk84NnJCRlFkNjRQbjlEdjY4UktZSzhtd0hlYndzQjVKTG1GRjdmdDRLZkZXazEtbDU3TFZLNVk40gGoAUFVX3lxTE02OUxnejNEUVMwVWlhVUdYY3o4c0lOZmtCUTZxNDB2TlRHUkRWREs3aUtBcGRkMF9NcE16QnhreVk2aW5hYlpEVEIwQmZqWWwxaHdwdnFScTFFYXdtcUV4SmRpRk9WQ0I3c2N2dE9NNF9nRjNNYkcwbXBiSnYxU0FDdFFtYkhWOUdhd09rLUtmd1REM2daQnRFY2htS0hjNjN1dXJCWGpqNg?oc=5"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iran launches attacks on American military facilities in Bahrain and Kuwait after fresh US strikes – Middle East crisis live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/live/2026/jul/13/us-iran-strikes-middle-east-strait-of-hormuz-military-latest-news-updates"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "ground",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Kimmit: Renewed US-Iran fighting could reignite wider regional conflict",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/kimmit-renewed-us-iran-fighting-could-reignite-wider-regional-conflict-2?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 58
+      "count": 61
     },
     {
       "place": "Tehran",

@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-07-13T15:11:31+00:00",
+  "updated": "2026-07-13T19:49:11+00:00",
   "losses_label": "Bajas rusas (reclamo ucr.)",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
@@ -11,9 +11,9 @@
     "to": "2026-07-13"
   },
   "kpis": {
-    "events_total": 156,
-    "events_unlocated": 372,
-    "events_7d": 85,
+    "events_total": 158,
+    "events_unlocated": 378,
+    "events_7d": 87,
     "events_prev_7d": 53,
     "hottest_place": "Kyiv"
   },
@@ -263,8 +263,8 @@
     },
     {
       "date": "2026-07-13",
-      "total": 4,
-      "strike": 3,
+      "total": 6,
+      "strike": 5,
       "ground": 0,
       "infrastructure": 1,
       "air_defense": 0,
@@ -1831,16 +1831,36 @@
       "title": "Ukraine Strikes 105 Russian Shadow Fleet Ships in 8 Days, Hits Crimea Power Grid Again",
       "source": "Kyiv Post",
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5HTFpfUFYxb19PQ2hJLTFZWGw4QWJVSi00RlJTaFY2cVVNWVNwbU5VdnJuVWhMUWc5a0VSRk5YWHJubjBLREQyRzVONA?oc=5"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Ukraine war briefing: Three killed in Ukrainian drone attack on Moscow",
+      "source": "The Independent",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORVdYVkJjUEMzdVg4RUdFeXRjZm5TVkg2eXJ6cTlVekZIcVNKZ1dsSW1CbmpLaC04ajMtMTNrSWFTRFRnSDFBRGxIRjl6ZkF1R0k3SkNTMW1PR3ZXSWxyWWZ0WEQ2TGkxSzFPOU9BeTlvRDVvNU5zZTI0NjJMdW5aSmZRbm9TcTRPenh5U3V3SVRsQ25uNUUxcUN4dG8?oc=5"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "‘Coalition of the willing’ to build shared European anti-ballistic programme",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/13/coalition-of-the-willing-build-shared-european-anti-ballistic-programme"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 94
+      "count": 95
     },
     {
       "place": "Moscow",
-      "count": 28
+      "count": 29
     },
     {
       "place": "Donetsk",

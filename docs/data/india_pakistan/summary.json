@@ -2,13 +2,13 @@
   "id": "india_pakistan",
   "name": "India–Pakistán",
   "description": "Cobertura mediática del conflicto entre India y Pakistán",
-  "updated": "2026-07-13T09:47:40+00:00",
-  "total_articles": 920,
-  "overall_avg": -0.2326,
+  "updated": "2026-07-13T15:11:40+00:00",
+  "total_articles": 960,
+  "overall_avg": -0.238,
   "distribution": {
-    "pos": 210,
-    "neu": 215,
-    "neg": 495
+    "pos": 215,
+    "neu": 225,
+    "neg": 520
   },
   "sources": [
     "Al Jazeera",
@@ -151,7 +151,11 @@
     "Yahoo News Singapore",
     "dailyasianage.com",
     "Khaama Press",
-    "Defence.in"
+    "Defence.in",
+    "The Jakarta Post",
+    "Infosecurity Magazine",
+    "Telegraph India",
+    "The New York Times"
   ],
   "daily": [
     {
@@ -166,6 +170,14 @@
       "date": "2026-01-29",
       "count": 1,
       "avg": -0.5574,
+      "pos": 0,
+      "neu": 0,
+      "neg": 1
+    },
+    {
+      "date": "2026-02-08",
+      "count": 1,
+      "avg": -0.8555,
       "pos": 0,
       "neu": 0,
       "neg": 1
@@ -684,10 +696,10 @@
     },
     {
       "date": "2026-07-09",
-      "count": 174,
-      "avg": -0.2374,
+      "count": 175,
+      "avg": -0.2361,
       "pos": 44,
-      "neu": 31,
+      "neu": 32,
       "neg": 99
     },
     {
@@ -708,51 +720,51 @@
     },
     {
       "date": "2026-07-12",
-      "count": 120,
-      "avg": -0.2039,
+      "count": 121,
+      "avg": -0.2022,
       "pos": 29,
-      "neu": 32,
+      "neu": 33,
       "neg": 59
     },
     {
       "date": "2026-07-13",
-      "count": 47,
-      "avg": -0.257,
-      "pos": 13,
-      "neu": 8,
-      "neg": 26
+      "count": 84,
+      "avg": -0.3061,
+      "pos": 18,
+      "neu": 16,
+      "neg": 50
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 387,
-      "avg": -0.2074
+      "count": 409,
+      "avg": -0.2127
     },
     {
       "source": "BBC",
-      "count": 125,
-      "avg": -0.1714
+      "count": 134,
+      "avg": -0.1851
     },
     {
       "source": "The Tribune",
-      "count": 37,
-      "avg": -0.513
+      "count": 39,
+      "avg": -0.5091
     },
     {
       "source": "NPR",
-      "count": 37,
-      "avg": -0.3278
+      "count": 38,
+      "avg": -0.3356
     },
     {
       "source": "India Today",
-      "count": 31,
-      "avg": -0.1782
+      "count": 32,
+      "avg": -0.1986
     },
     {
       "source": "The Times of India",
-      "count": 23,
-      "avg": -0.4399
+      "count": 24,
+      "avg": -0.4448
     },
     {
       "source": "The Guardian",
@@ -1428,32 +1440,52 @@
       "source": "Defence.in",
       "count": 1,
       "avg": -0.9217
+    },
+    {
+      "source": "The Jakarta Post",
+      "count": 1,
+      "avg": -0.6072
+    },
+    {
+      "source": "Infosecurity Magazine",
+      "count": 1,
+      "avg": 0.0
+    },
+    {
+      "source": "Telegraph India",
+      "count": 1,
+      "avg": 0.0
+    },
+    {
+      "source": "The New York Times",
+      "count": 1,
+      "avg": -0.8555
     }
   ],
   "top_entities": [
     {
       "name": "Pakistan",
       "type": "LOCATION",
-      "count": 309,
-      "avg": -0.2983
+      "count": 315,
+      "avg": -0.3
     },
     {
       "name": "India",
       "type": "LOCATION",
-      "count": 283,
-      "avg": -0.2482
+      "count": 289,
+      "avg": -0.2529
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 100,
-      "avg": -0.177
+      "count": 104,
+      "avg": -0.1926
     },
     {
       "name": "China",
       "type": "LOCATION",
-      "count": 43,
-      "avg": -0.1028
+      "count": 44,
+      "avg": -0.1005
     },
     {
       "name": "United States",
@@ -1506,6 +1538,330 @@
   ],
   "recent": [
     {
+      "title": "28-year-old Hindu doctor killed during robbery in Pakistan",
+      "source": "The Tribune",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaXVZNmxsUGtoX3V3NU5aVUZBc2JkbEpvcFY5R0E1UEgzU1p4N1pnVEZpTWxhX2twMHBGUllPbVNkbHlrVXNNZGVXTHp2cEdzX1VyYTZJaFE2dEl6ZUhodDNqdExRcDBQYklFZXctRjQ1QVNSWFZkcFRWQlRmamFYaHYtVDBpR1VseDM5WjExNE9od2RFMW9ueG5BY2NmTVhW0gGkAUFVX3lxTE03eWNfTFdlbkd6bkhraGdJZ0FmSHhvMlJTRUEydWw1cEhUMS1sYkc4dkROQXo0T25nbXh6YlQxZmxSMEEyUmZ6eWRkSXo5TDBzT09kbGtiRlRjeXVhWTdTTzFkay1MQV9aMjl4Sk8yWXU0SzhjR2phR0s4RnhpREFFLW9abEtxdE1qTWNrOHo0dUNJWGZvS1lDaFpsejh6LUMyQlRo?oc=5",
+      "published": "2026-07-13T15:00:18+00:00",
+      "compound": -0.875,
+      "label": "negative",
+      "entities": [
+        "Pakistan"
+      ]
+    },
+    {
+      "title": "Pakistani Police Systems Hit by Chinese and Indian Espionage",
+      "source": "Infosecurity Magazine",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMFpqR19TVGpVb0hGam5zTmYwZkxtSkhUTUFfdU1mMEJjQ0h2blpNZ2lfQzVtQ3JaOFRESVVUbXVkREJCVmNHdC11ZjBUX1hNQU5UUGVCSGstRUJZbHRVZzBuWlV2TVplTmJIamtuUDk0cDNxaFRQTXYxY3Iwbm1JMFpqcF8?oc=5",
+      "published": "2026-07-13T14:45:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "India",
+        "Pakistan",
+        "China"
+      ]
+    },
+    {
+      "title": "Trump says US will become ‘guardian’ of Strait of Hormuz and collect tolls",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/13/trump-says-us-will-become-guardian-of-strait-of-hormuz-and-collect-tolls?traffic_source=rss",
+      "published": "2026-07-13T14:43:01+00:00",
+      "compound": -0.9286,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "What is the EU’s plan to cut trade with illegal Israeli settlements?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/13/what-is-the-eus-plan-to-cut-trade-with-illegal-israeli-settlements?traffic_source=rss",
+      "published": "2026-07-13T14:33:14+00:00",
+      "compound": -0.7184,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "How Sheikh Hamad revolutionised Arab media through Al Jazeera",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/13/how-sheikh-hamad-revolutionised-arab-media-through-al-jazeera?traffic_source=rss",
+      "published": "2026-07-13T14:24:29+00:00",
+      "compound": -0.4939,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Yemeni government forces strike Sanaa airport",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/yemeni-government-forces-strike-sanaa-airport?traffic_source=rss",
+      "published": "2026-07-13T14:03:44+00:00",
+      "compound": -0.25,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "EU sanctions nine people over alleged Russian cyber-spying campaign",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/13/eu-sanctions-nine-people-over-alleged-russian-cyber-spying-campaign?traffic_source=rss",
+      "published": "2026-07-13T13:59:54+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Hamas denies UN accusations over Gaza aid distribution interference",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/13/hamas-denies-un-accusations-over-gaza-aid-distribution-interference?traffic_source=rss",
+      "published": "2026-07-13T13:59:43+00:00",
+      "compound": -0.7717,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "FIFA World Cup England vs Argentina: What to know ahead of second semifinal",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/13/argentina-england-fifa-world-cup-semifinal-prediction-messi-kane-venue?traffic_source=rss",
+      "published": "2026-07-13T13:21:48+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "What is Japan’s new intelligence agency, and why is Tokyo building it?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/13/what-is-japans-new-intelligence-agency-and-why-is-tokyo-building-it?traffic_source=rss",
+      "published": "2026-07-13T13:07:15+00:00",
+      "compound": 0.836,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "What will happen to Trump’s agenda after Lindsey Graham’s death?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/13/what-will-happen-to-trumps-agenda-after-lindsey-grahams-death?traffic_source=rss",
+      "published": "2026-07-13T12:41:22+00:00",
+      "compound": -0.5994,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "The late Sheikh Hamad bin Khalifa Al Thani’s legacy on women’s reform",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/the-late-sheikh-hamad-bin-khalifa-al-thanis-legacy-on-womens-reform?traffic_source=rss",
+      "published": "2026-07-13T12:36:41+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Irish police to engage with Jordanian force in murder investigation",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c621p1zne6qo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-13T12:32:45+00:00",
+      "compound": -0.5106,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Street in Illinois named after murdered Palestinian boy",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/street-in-illinois-named-after-murdered-palestinian-boy?traffic_source=rss",
+      "published": "2026-07-13T12:31:36+00:00",
+      "compound": -0.872,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "March to July: What’s different as US-Iran fighting escalates again?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/13/march-to-july-whats-different-as-us-iran-fighting-escalates-again?traffic_source=rss",
+      "published": "2026-07-13T12:12:46+00:00",
+      "compound": -0.8645,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "A versatile actor whose roles went far beyond Jurassic Park - Sam Neill dies aged 78",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cx2wrvqq9rlo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-13T12:10:38+00:00",
+      "compound": -0.2732,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "The U.S.-Iran ceasefire grows more distant. And, Congress faces a consequential week",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/13/g-s1-133269/up-first-newsletter-us-iran-war-congress-lindsey-graham-gaza-israel-hussam-abu-safiya",
+      "published": "2026-07-13T12:02:33+00:00",
+      "compound": -0.6249,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "'Hero, legend, sweetheart': Tributes to Jurassic Park actor Sam Neill, who has died aged 78",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cy06e5e1lygo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-13T11:52:55+00:00",
+      "compound": 0.5423,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "South Korea rolls out plan to tackle youth suicide crisis",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/south-korea-rolls-out-plan-to-tackle-youth-suicide-crisis?traffic_source=rss",
+      "published": "2026-07-13T11:48:52+00:00",
+      "compound": -0.9595,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Al Jazeera bids farewell to founder Sheikh Hamad",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/al-jazeera-bids-farewell-to-founder-sheikh-hamad?traffic_source=rss",
+      "published": "2026-07-13T11:38:09+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Yemen government says its forces attacked Sanaa airport",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/13/yemen-govt-says-its-forces-attacked-sanaa-airport?traffic_source=rss",
+      "published": "2026-07-13T11:38:03+00:00",
+      "compound": -0.5994,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "German court convicts Iraqi couple of enslaving Yazidi girls",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cg53rp4e2j4o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-13T11:36:18+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Will the 2030 World Cup expand to 64 teams? What FIFA’s Infantino says",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/13/gianni-infantino-64-teams-expansion-comments-fifa-2030-world-cup?traffic_source=rss",
+      "published": "2026-07-13T11:29:20+00:00",
+      "compound": 0.3182,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "EU countries consider sanctions on trade from illegal Israeli settlements",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/13/eu-countries-consider-sanctions-on-trade-from-illegal-israeli-settlements?traffic_source=rss",
+      "published": "2026-07-13T10:32:25+00:00",
+      "compound": -0.875,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Men disguised as police kill Ecuadorean drug lord's brother",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c20yx84g103o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-13T10:30:51+00:00",
+      "compound": -0.836,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "People flee Bangkok bar as huge flames shoot out from doorway",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/videos/cy5vx2e45xdo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-13T10:17:13+00:00",
+      "compound": -0.7184,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Senator Lindsey Graham died of aortic tear, examiner says",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cn75083d472o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-13T10:14:01+00:00",
+      "compound": -0.802,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "How a war turned Argentina vs England football into India-Pak-like showdown",
+      "source": "India Today",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPQTdjdy1rT1IwTExOX0YyVU5Lb2hEYUZEbzhlYnRUUHYteV9nbzBWc29TWWE0Nk5zSXk5blJNVFBYdkdTYU5mZU1QTnBWOHptZUljWHJ3dXBxam5pSWdMOV9wSWhrbWk4b2dIanBTVXE5MEdOUEd4V2RuQVZKMUp4SjhocWN6MEtMMHNNcUlSZDZDaV9TX2JOU2ZWU2RDM3pzdy1Fc1kwOS10TFpLcEo5M2c4ZzE1VlpTcmFlYU1GVDRrWkpFX25kY0ZnVFZveDRvUnFWTEdVek9RNnFqZ0lEN3Q4NXBLb2I2VzkwaDdDZ0NpS3BkYXNObVRnQ3p5VXdm0gGGAkFVX3lxTFB6Q05mYVZtdElFZFN1TjJ4Z0FpZ0lCTmlFLUtVMGY4dTk1eUJ6NVpUSUpHUUltdk4xeDJnSzhXMV9tYml3Sm5Tekd0SUlkemVOYjByTWpEYmVVeUlVcDFfN3ZwUUVaVnZYYTVrU2VmU0RjaVRoaGd4TlM2ZlAzXy1ZNGNNMkxiamczc3hhZHVfY2xjTGVRRFBwSElWc3hCM2FRZGxpRlhGY1hRSFRNWWN4YmV1MkZIUWZaZVd6SGdnQTFTQ1dhcTVVd00yQTdDRlhyUXBJMEFVeXd3Yk5aeXdJNDRDcmNtNXhkWnhySmRsV20wMXNQQ09FbS1kaVZYR0s1cnFYSWc?oc=5",
+      "published": "2026-07-13T10:05:14+00:00",
+      "compound": -0.8316,
+      "label": "negative",
+      "entities": [
+        "India"
+      ]
+    },
+    {
+      "title": "Pakistan deports over 2.6 million Afghan nationals in 3 years amid crackdown",
+      "source": "The Tribune",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUHdPSF9yb0x5UzJPcDN6NkFIc05wdjJsUnNUTVdIQ01tc1pFZS1mVmpLZEtvY0xlaDZCaGgxTDZkeFpvSzNWcWVpNVFCRVkxd0FKMzVaNnpZUnAtTnNpYkNFckJIRUREYW5BQUw3U0UzRTFBUi1NTzBrNDBZZHlTcjdmbDFVSmFnYmlaRUhfaUswdks5Q3o0cEpCel9lY3puMkNLWExtVGVwRFZzVXFGNGgyRjU0T3NIRy1r0gHAAUFVX3lxTE1vQ1pMS1daUDM1TU5TZUZLbW9EYWZ0cWRwcWlDS01ISkVzLTdHdFpsV1NzdDFLOC1ERThYS0oxQUlIU3MxMmctU29XTm5Wby1jRlh6cm53UkVSNk9HWmVGVE9Zb2hRbmhJZnZubWxJRWs0NDlHdDRCaFIzNVRIVjN0eTlZSnVXX25EQV90UHdtTVJQc21ubXp5QzR0eTBmcVJPSFYwQTdiV1lDcXoxY05ZNUNKaGtnRmZTQV9iUERPcQ?oc=5",
+      "published": "2026-07-13T10:03:39+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Pakistan"
+      ]
+    },
+    {
+      "title": "France vs Spain: World Cup semifinal – Mbappe, Yamal, predictions, kickoff",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/13/france-spain-world-cup-semifinal-mbappe-yamal-predictions-kickoff?traffic_source=rss",
+      "published": "2026-07-13T09:52:37+00:00",
+      "compound": 0.5994,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Wildfires near Paris force evacuations, disrupt train lines and motorway",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/13/wildfires-near-paris-force-evacuations-disrupt-train-lines-and-motorway?traffic_source=rss",
+      "published": "2026-07-13T09:46:08+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "BrahMos at 25: How India is taking a critical missile technology into the future",
+      "source": "The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNNmthOEVoc09GUTdlUXFaUWZVU0k1S2l1c3pudEJEZHNfVG5BeTVVaFRsRktHdGZxeEhfbGhIQVMxWkQzOHItVmdlbzdLbVN6V19XMG9tSk5jR1ZDdzYtRl8yZGNYX2ZwNVV2XzNiaDVNN3BBbHhwZjJtQTNxT2pDWVBmMGtkd2I5b3VMWXNSLVlqSmZEN05Tb1VpZ0dBd05qdTRtb2ZBcnFuMGtndmFkZkRNS3B5NWp5cDdVYWp2Z2tWRkxneTZtVzdzR1ZaRnFxQ3REazFXdFo1REowdTZGYlU1Rmlsbm15SVHSAe8BQVVfeXFMUG5Gb2hxRkdDTjd0bTJoN2o0ZThOVHJHVkpRTmYyYnRFci14WHZNVDhnMGIxaG4yTlV3NGJWZGlTOFprWWpTMk9HdkUzUkgxcUdPTjVZRzN5ZWtHa2dhNlU4azMycnNrVXg5SFh3cHgzMzFjY3MzMHBGZ1lSSDdLLS1Qa0VabEZmWXpEWVlGNmE3andySXpIdWhRWDZJSWNJZ3BFRWpMbWY2Tk8wVzBxXzgydjZBeUpXc2pRcnZXNGVJYk5PZldIbG1RNGdmSnMxTzFSX0s2SUt1b2RkREllWFFCR3ZyZFdNZktKa0FkdjA?oc=5",
+      "published": "2026-07-13T09:36:00+00:00",
+      "compound": -0.5574,
+      "label": "negative",
+      "entities": [
+        "India"
+      ]
+    },
+    {
+      "title": "‘It’s expensive’: Syria’s electricity has improved, but challenges remain",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/2026/7/13/its-expensive-syrias-electricity-has-improved-but-challenges-remain?traffic_source=rss",
+      "published": "2026-07-13T09:34:50+00:00",
+      "compound": 0.7227,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Explosions and large fires following Ukrainian attacks on Russia",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/explosions-and-large-fires-following-ukrainian-attacks-on-russia?traffic_source=rss",
+      "published": "2026-07-13T09:32:05+00:00",
+      "compound": -0.7003,
+      "label": "negative",
+      "entities": []
+    },
+    {
       "title": "New Iran strikes on Gulf as US attacks escalate: What we know",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/7/13/new-iran-strikes-on-gulf-as-us-attacks-escalate-what-we-know?traffic_source=rss",
@@ -1535,6 +1891,15 @@
       "entities": [
         "Pakistan"
       ]
+    },
+    {
+      "title": "In Wales, an artist sews names of Gaza’s infant victims on christening gown",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/13/i-have-to-do-something-a-welsh-artist-honours-gazas-child-victims?traffic_source=rss",
+      "published": "2026-07-13T09:05:54+00:00",
+      "compound": -0.5994,
+      "label": "negative",
+      "entities": []
     },
     {
       "title": "US and Iran trade strikes as ceasefire comes under growing strain",
@@ -1656,6 +2021,18 @@
       ]
     },
     {
+      "title": "How do Pakistan and India go from conflict to dialogue?",
+      "source": "The Jakarta Post",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUkFqbXBoZUQxWDl5bjRod2k4dlRlQmtmSUY1Y1RLSTA1am55REh6SWZXRWZiTkx5dS1LVzBZbWt1cFpERkx2WXhld3g1ZTRqZEJaQ2hqaEhWd1c1OW9lcDVxQ0xYYmFHZnZfVWdHbXZ2WG1RZTJaRTY5WndhMmVDek1hRXZYQmpOa0tnTzU1RkNtSWpid29qUmhjZXgzMnZsVkhvcFNSWQ?oc=5",
+      "published": "2026-07-13T07:07:30+00:00",
+      "compound": -0.6072,
+      "label": "negative",
+      "entities": [
+        "India",
+        "Pakistan"
+      ]
+    },
+    {
       "title": "AI-Generated Image Shared To Show an India-Pakistan 'Partition Agreement'",
       "source": "The Quint",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMzl2QTVkRktVVUlZYTM3dVVDdFEtamNtcTBrZ09aVUZjMnpFUUFRUlhra3hmQVlkSlFkNGJXcy1UcE1MYUdxTFU0b1BTOEFxSktYVmxDY01Md09ZYlBSVHU3VE5lRS1PaWROM0NzUE84am1ITXUtdFZGeXIwYU92S2V6SFFmOUpDSFVzWVdrUElSWlB0RW12U2RObThyaDhMTDNxM2xRLUlXVnVRbkY5V2RBa1RCSWZ6Smd2SGN6TlZvdURfSXV4TdIB1gFBVV95cUxNY0J0QlA2bjNCZ1dDMEc4N2oxRFBDdlJaQnJIYmlvZFk3QjlfaWRNN0ZpTTRWd0YzRUJad2RUa29CRVhGZlhEejVBcVd5NFVzS0RnRk13LUM0WUMzT3RNekJMMC1JUVAwaFM1RTVWM0puX3FteHgtTklHZEFkVHFHeDh3YXNSeEo4X0dITEhJMm5PVVB1QWlSb01SVTMwZFBEOHh0VjJpUDlDREdaMnVpbDZUdENmRVQwLTFJLXdaRGxDVmJkQ0xTTXdHeDFvblJuT1Q2dG9R?oc=5",
@@ -1684,6 +2061,15 @@
       "url": "https://www.aljazeera.com/news/2026/7/13/jurassic-park-actor-sam-neill-dies-aged-78?traffic_source=rss",
       "published": "2026-07-13T06:27:42+00:00",
       "compound": -0.5994,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Heavy rains and flash floods in Bangladesh leave 51 dead",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/ce8k7e75k7go?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-13T06:19:49+00:00",
+      "compound": -0.7783,
       "label": "negative",
       "entities": []
     },
@@ -1737,365 +2123,6 @@
       "compound": -0.6249,
       "label": "negative",
       "entities": []
-    },
-    {
-      "title": "Elderly Palestinian describes being beaten up by Israeli settlers",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/aje-onl-nf_elderly-palestinian-beaten-up-by-israeli-settlers-130726?traffic_source=rss",
-      "published": "2026-07-13T05:06:03+00:00",
-      "compound": -0.7351,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "‘If a woman is killed, they say she fell, she took poison’: Pakistan’s devastating rise in ‘hidden’ sexual violence",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/global-development/2026/jul/13/if-a-woman-is-killed-they-say-she-fell-she-took-poison-pakistans-devastating-rise-in-hidden-sexual-violence",
-      "published": "2026-07-13T05:00:38+00:00",
-      "compound": -0.9853,
-      "label": "negative",
-      "entities": [
-        "Pakistan"
-      ]
-    },
-    {
-      "title": "Watch: At the scene where Bangkok's deadly bar fire unfolded",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/videos/clyrd9nwn9wo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-13T04:58:01+00:00",
-      "compound": -0.8519,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "FIFA World Cup: Are Messi, Mbappe, Yamal, Kane in the best semifinals yet?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/13/are-messi-mbappe-yamal-and-kane-part-of-the-best-world-cup-semifinal-yet?traffic_source=rss",
-      "published": "2026-07-13T04:56:18+00:00",
-      "compound": 0.4515,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Take off your uniform: Pak leader slams army, dares leadership to contest polls",
-      "source": "India Today",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSE04TFNQcDJMZzFDd19yeHJZazJoM1Q1clhNNmNLaTUydUUzWWZjQUphenZnNzNSNGt6d1cwQnRaaVpTXzRiVmFRaEt6NUdjM1dCbmF6WEM0WWFubGRKbzJ3S3lWeE9iU3ZBSnlNVUp1MDVmR3hDb0pKbDlTNWo2d3dmVHFSUFJsemZWXzhEUjNSS2JBTlhfV012MnQ1V0pzcGtGb0xSd3FmaFpMYVA2NGMxYXhIWFNoeFZxczVhUFVOQdIBxwFBVV95cUxPaFhVbElfOGRCRGJVa2haUGdxRFpzMGNoY3lEUGRfQmRnN2NLS0NZa3BMdDJnYnVvM3NhcXUwQnBjN0VvZnViLUQtbkNLb0RlMm9reE9oS0tSd2xzS2V1bWRkdXg1UXFQNGo1bE9DOHhmVWJLRWkwOGlWR1NhMy1kbV9IcWhuR2UtMU43a09sblVjRDRRV3d3ZWlOVEJya3NNOUhqMm9mUWNOdHZNX05NUnRwcVFLRWphbjFmMW9icExJZzFIYXBN?oc=5",
-      "published": "2026-07-13T04:22:22+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "India"
-      ]
-    },
-    {
-      "title": "How Pakistan's NFU Rejection, Tactical Nuclear Weapons, and Proliferation Legacy Fuel Severe Global Security Concerns",
-      "source": "Defence.in",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNel9JZlE0azYxOGZqbklFdnJ6RzlJWGxhUC11X3FZY2FOZ0I2NHdtbTRlcjUyaXlDZjdkODZFQlZkVzJqVGlRX3JtMWt3bUV2THl6b3VNb3g1SGhSTWpHdlA0MURRYWVYWlNIZ3Z2MThjYk9pSWJXTWFlaG9EZV9haDdoS0YwY1lSSEpGaFJvNUJSNGhQSVllWERNaVcyUFE1VTE2QjktSXdVN2JhQXRZdlI3aVUtNnloVlNGN01odWhVdlE1bFdLUXg3ZEFYN3AxNXIzOUZhY1hsMTZ3UVJiWlVB?oc=5",
-      "published": "2026-07-13T04:13:18+00:00",
-      "compound": -0.9217,
-      "label": "negative",
-      "entities": [
-        "Pakistan"
-      ]
-    },
-    {
-      "title": "Bombs, blood, ambushes - football coaching with the army",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cd7we8we4xgo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-13T03:56:53+00:00",
-      "compound": 0.3612,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Planes sent to tackle wildfires of 'exceptional scale' near Paris",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/clye4z168edo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-13T03:36:09+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Unfinished battles that Pakistan must fight",
-      "source": "The Statesman",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNVgtRTFzZWpTU2hZQUhlSEJ6a1ByY3hGLWNXVmU2X1JkSEVZay01UGJHNndXSkxOMnhaUFF0WXlaN29ubm9fbnNiNGV2cnJtQ194ek1XQll3M0M2dEtWeElOaFEzd3J0NVZnWWJueTM0eTdJOW85X1ZSaGVES0hlRGV4Z092TXp0ZzlXRzVZaTFCMmFhX3p6bGVwbTjSAaIBQVVfeXFMUElmczc2TXBna3dFclE0RWFneUFGc0c4eFpjWDFOalRqc3B2VEhjUTRBdmZNQjN1Vkc3UEhpRjNCZG95b18tX1FJc2dPRldoVnJ5dnRfd0d3NVcyRzlUMVpNSWF4eEtEY0pBYlpicHpHeXBkTS1pUjk5T0R6VFRuQWNPYURoZFpvUVl5bXRIMXZ1TVVSN2FmSTJheU1DNjZ0WWpn?oc=5",
-      "published": "2026-07-13T03:25:00+00:00",
-      "compound": -0.8555,
-      "label": "negative",
-      "entities": [
-        "Pakistan"
-      ]
-    },
-    {
-      "title": "Deadly Bangkok pub blaze revives concerns over fire safety lapses",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/deadly-bangkok-pub-blaze-revives-concerns-over-fire-safety-lapses?traffic_source=rss",
-      "published": "2026-07-13T03:24:24+00:00",
-      "compound": 0.1531,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Oil prices jump as US and Iran trade attacks over Strait of Hormuz",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/7/13/oil-prices-jump-as-us-and-iran-trade-attacks-over-strait-of-hormuz?traffic_source=rss",
-      "published": "2026-07-13T02:58:05+00:00",
-      "compound": -0.836,
-      "label": "negative",
-      "entities": [
-        "United States"
-      ]
-    },
-    {
-      "title": "At least 27 killed, eight critically injured in Bangkok bar fire",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c24yev53q06o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-13T02:28:35+00:00",
-      "compound": -0.836,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Israel releases video of hidden tunnels below Lebanon’s Beaufort Castle",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/israel-releases-video-of-hidden-tunnels-below-lebanons-beaufort-castle?traffic_source=rss",
-      "published": "2026-07-13T02:10:10+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "At least 27 dead as fire engulfs popular Bangkok pub near Chatuchak market",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/at-least-27-dead-as-fire-engulfs-popular-bangkok-pub-near-chatuchak-market?traffic_source=rss",
-      "published": "2026-07-13T01:27:30+00:00",
-      "compound": -0.8934,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Japan’s pet care industry booms as ‘fur babies’ outnumber infants",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/7/13/japans-pet-care-industry-booms-as-fur-babies-outnumber-infants?traffic_source=rss",
-      "published": "2026-07-13T01:20:33+00:00",
-      "compound": 0.25,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "'We will not give up Indus': Pakistan People's Party holds Sindh-wide rallies condemning India's threats to country’s water share",
-      "source": "Asia News Network",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxONmJPdXVuV0VpTmtWM1lXQWh2OTVLY3RwRnZJOU1YWVViS05ROTIxbXZ5c1ZtZEFiMFBla0ZiQmVOWUVhNkQ0ZkxDWTBYbERWUWs0N204cTVmeWJ2ejBaY3pqV3VmbDN1d2NLd1FhQnNxSXdsaTZXdWctZVhpRE52Z3BPUWNWTDJId2dhYU9kRGg4YzA5cExwNVZPdjBLdFlpbWJKOWh1cDhadktCejNVRk9mWEpuRUFTTWIyVzl3ZFpKNm9ZVW4wbE1GdTR1VVRSM0FfUU5rV0dvRS0zWGIxZzlONA?oc=5",
-      "published": "2026-07-13T01:18:36+00:00",
-      "compound": 0.4939,
-      "label": "positive",
-      "entities": [
-        "India",
-        "Pakistan"
-      ]
-    },
-    {
-      "title": "Can Nigeria’s drone industry deliver Africa’s defence sovereignty",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/13/can-nigerias-drone-industry-deliver-africas-defence-sovereignty?traffic_source=rss",
-      "published": "2026-07-13T00:54:53+00:00",
-      "compound": 0.2846,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Fuel price hike triggers surge in public transport fares across Pakistan",
-      "source": "The Tribune",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWFF6RkV6YlRNb2c4RWFNaC1JY0NHYWV0U0dZMEc1YnBBdDBBbjhKTjJGX3cxamRVTml1Z3hEY1lCc0VmMFBaWHZvUXd2d3I5ZndfNFFGZUROeUhGNnVOM3lwQjFTYjZNTjlRaHkydk9QYy0wT1g0M3NfVnA2OWJlUG5kbW5rTmdmSGFhMEpWNGwyY0VSYWV6NjR4MllTR25aczYtbFZlU1loVXk5cS03WDFGTdIBtwFBVV95cUxPalYzenQtUFlqS3R0RllKeEhhR2E1WFcxWk9DbU9PUkJLeEMwdllPNktzaUtaa1pQZl9SZGpsOFQ3Q2w2ZzNOVGZjSGxBcVFjMGpZdWdSdkwxTERjV3BjUF9JT2JOV3NaYkNMTlRaRGNLMkNndzd0VGhhaFQ2SHB4eGNNUkhRREVmb3VSMHI1d0dxdmtFcWtRSmM0ZEp6WkhidWV0cTk5Z0VLVXNFWVcwX29yX0lhNUU?oc=5",
-      "published": "2026-07-13T00:38:13+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Pakistan"
-      ]
-    },
-    {
-      "title": "British couple return to village at heart of deadly Spanish wildfire",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cx24e09x79no?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-13T00:29:21+00:00",
-      "compound": -0.0772,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "US launches more strikes on Iran as Strait of Hormuz standoff deepens",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/aje-onl-nf_us-launches-more-strikes-on-iran-120726?traffic_source=rss",
-      "published": "2026-07-13T00:22:10+00:00",
-      "compound": -0.624,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "How Indian scientists are mapping the brain's last frontier",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cg53l737v1qo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-13T00:08:11+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "India"
-      ]
-    },
-    {
-      "title": "10 years of Pokémon Go and the millions still trying to catch 'em all",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cevlwk4nrm7o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-13T00:07:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "The Chinese graduate accused of being Mexico's 'fentanyl king'",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c39ymggglxeo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-13T00:05:46+00:00",
-      "compound": -0.296,
-      "label": "negative",
-      "entities": [
-        "China"
-      ]
-    },
-    {
-      "title": "Iran war live: Tehran attacks Bahrain, Kuwait, Jordan after US bombings",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/7/13/iran-war-live-us-bombs-iranian-cities-again-as-hormuz-standoff-intensifies?traffic_source=rss",
-      "published": "2026-07-13T00:00:00+00:00",
-      "compound": -0.6908,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "US Senator Mitch McConnell says absence due to fall and pneumonia",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cvge2nd611zo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-12T23:41:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Mitch McConnell releases health update, says he is ‘regaining’ strength",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/12/mitch-mcconnell-releases-health-update-says-he-is-regaining-strength?traffic_source=rss",
-      "published": "2026-07-12T23:29:33+00:00",
-      "compound": 0.7096,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "New era for Gibraltar with removal of 118-year-old border controls with Spain",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cwydz60j3eno?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-12T23:29:06+00:00",
-      "compound": 0.8225,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "US launches new wave of strikes against Iran, aimed at ‘degrading’ military",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/12/us-launches-new-wave-of-strikes-against-iran-aimed-at-degrading-military?traffic_source=rss",
-      "published": "2026-07-12T23:03:32+00:00",
-      "compound": -0.7845,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Detained by settlers, US Democrat Ro Khanna now faces pro-Israel attacks",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/12/detained-by-settlers-us-democrat-ro-khanna-now-faces-pro-israel-attacks?traffic_source=rss",
-      "published": "2026-07-12T21:59:36+00:00",
-      "compound": -0.886,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Israel releases video of huge detonations in Lebanon",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/israel-releases-video-of-huge-detonations-in-lebanon?traffic_source=rss",
-      "published": "2026-07-12T21:50:28+00:00",
-      "compound": 0.5574,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Deadly Israeli strikes pound Gaza",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/deadly-israeli-strikes-pound-gaza?traffic_source=rss",
-      "published": "2026-07-12T21:33:10+00:00",
-      "compound": -0.6705,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Israel to hold national elections on October 27, parliament says",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/12/israel-to-hold-national-elections-on-october-27-parliament-says?traffic_source=rss",
-      "published": "2026-07-12T21:26:28+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Protest on London’s Tower Bridge demands release of Dr Hussam Abu Safia",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/protest-on-londons-tower-bridge-demands-release-of-dr-hussam-abu-safia?traffic_source=rss",
-      "published": "2026-07-12T21:21:27+00:00",
-      "compound": -0.25,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Lindsey Graham, hardline backer of US-Israeli wars, dies aged 71",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/lindsey-graham-hardline-backer-of-us-israeli-wars-dies-aged-71?traffic_source=rss",
-      "published": "2026-07-12T21:12:54+00:00",
-      "compound": -0.6815,
-      "label": "negative",
-      "entities": [
-        "United States"
-      ]
-    },
-    {
-      "title": "The man who changed the Arab world",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/the-man-who-changed-the-arab-world?traffic_source=rss",
-      "published": "2026-07-12T21:09:03+00:00",
-      "compound": -0.5574,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "What would it mean for Ukraine if it actually starts producing Patriot missiles?",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/12/nx-s1-5887435/what-would-it-mean-for-ukraine-if-it-actually-starts-producing-patriot-missiles",
-      "published": "2026-07-12T21:08:18+00:00",
-      "compound": 0.3182,
-      "label": "positive",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Dancing Girl of Mohenjo-daro: The India-Pakistan Dispute",
-      "source": "History Reclaimed",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5vZHdLU09aLXNaTTNLczR4M2o5SnJCdFRRY3R3Vjd2Q29UM0hncXB1WFVTYTBPZWZYVHNlWnBTTFZ4UzdLejB6TGh3WGI4eVl3NGdCRzFBakFvSXZ3aFFhS01YR05JWjdFeDBveDZYb3l5YXhGX2lXdw?oc=5",
-      "published": "2026-07-12T20:52:43+00:00",
-      "compound": -0.6597,
-      "label": "negative",
-      "entities": [
-        "India",
-        "Pakistan"
-      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-13T09:47:36+00:00",
+  "updated": "2026-07-13T15:11:35+00:00",
   "losses_label": "",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
@@ -11,13 +11,22 @@
     "to": "2026-07-13"
   },
   "kpis": {
-    "events_total": 111,
-    "events_unlocated": 273,
-    "events_7d": 100,
+    "events_total": 116,
+    "events_unlocated": 276,
+    "events_7d": 104,
     "events_prev_7d": 6,
     "hottest_place": "Strait of Hormuz"
   },
   "daily": [
+    {
+      "date": "2026-06-01",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
     {
       "date": "2026-06-27",
       "total": 2,
@@ -79,7 +88,7 @@
       "ground": 0,
       "infrastructure": 3,
       "air_defense": 0,
-      "anomaly": false
+      "anomaly": true
     },
     {
       "date": "2026-07-08",
@@ -128,8 +137,8 @@
     },
     {
       "date": "2026-07-13",
-      "total": 9,
-      "strike": 7,
+      "total": 13,
+      "strike": 11,
       "ground": 1,
       "infrastructure": 1,
       "air_defense": 0,
@@ -137,6 +146,16 @@
     }
   ],
   "events": [
+    {
+      "date": "2026-06-01",
+      "type": "strike",
+      "place": "Beirut",
+      "lat": 33.8938,
+      "lon": 35.5018,
+      "title": "Iran threatens retaliation over US blockade as Israel warns of Beirut strikes",
+      "source": "Fox News",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNjdkREVZd21GTGQzRTVZWDNITzNGa0ZEN0xhZVN0NExHNEp4YTAxd1Fia3FiTjVyX2lHZUl0dzJQQmg4VFpjbzVaS3BNOEl5dkp4aEpHM2NTdmhwY0wxT3NQaHVEZWxEMmNwRTdLYmFQMnNwZU92MTk1WEl3czQwRWtn0gGHAUFVX3lxTFBfbXc5dzhwVTBKbjNJOE1TOV9nVmhuX0VxcmxoTHQ5UWVvMHVhNjJ4Y1Rtci04Qm5UZGZOaDhyUVczZE10MElyOGpxUlBnQzJINDk4S1BvWUlEWlBNNmdrcGdDTEJuLTk5bVlmNlpfeXNYRmhUS3RiZWdhMGtZVmZ2VmZ5V0VBSQ?oc=5"
+    },
     {
       "date": "2026-06-27",
       "type": "strike",
@@ -1246,12 +1265,52 @@
       "title": "Kimmit: Renewed US-Iran fighting could reignite wider regional conflict",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/kimmit-renewed-us-iran-fighting-could-reignite-wider-regional-conflict-2?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iran-US war latest: Trump launches more strikes ‘to hold Iran accountable’ as Strait of Hormuz standoff escalates",
+      "source": "the-independent.com",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRlhTYU5lVkh0RWVlcjVCb0czVndJNWQ0cGJodnJmLXh5Nmg5QS1kOWIwZEJaaWZqRURoeEtpeC1jblFMekpLQ0Q2SXpQckVwRVFzUG96WFZTX21GdjFzSjNqU255MHZwaE5tdE82NUxuQjc0SXVaS0F1aEd4VFRqNTJSWktOVXJ5U2pzNEJTenV6aFh6UElNeHpmdks4WnZDdVZhTUtyTzhTMVF3ZkNxQ1IzR2RGbktsYVZ5NzJ0emJvZWdXNFNlS3NR?oc=5"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iran fires warning shots at 2 ships in Strait of Hormuz as clashes with US intensify",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/iran-fires-warning-shots-at-2-ships-in-strait-of-hormuz-as-clashes-with-us-intensify/"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Sanaa",
+      "lat": 15.3694,
+      "lon": 44.191,
+      "title": "Yemeni government forces strike Sanaa airport",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/yemeni-government-forces-strike-sanaa-airport?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Sanaa",
+      "lat": 15.3694,
+      "lon": 44.191,
+      "title": "Yemen government says its forces attacked Sanaa airport",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/13/yemen-govt-says-its-forces-attacked-sanaa-airport?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 61
+      "count": 63
     },
     {
       "place": "Tehran",
@@ -1282,11 +1341,11 @@
       "count": 2
     },
     {
-      "place": "Doha",
-      "count": 1
+      "place": "Sanaa",
+      "count": 2
     },
     {
-      "place": "Kharg Island",
+      "place": "Doha",
       "count": 1
     }
   ],

@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-14T03:33:52+00:00",
+  "updated": "2026-07-14T08:28:00+00:00",
   "losses_label": "",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
@@ -11,9 +11,9 @@
     "to": "2026-07-14"
   },
   "kpis": {
-    "events_total": 124,
-    "events_unlocated": 286,
-    "events_7d": 108,
+    "events_total": 128,
+    "events_unlocated": 294,
+    "events_7d": 112,
     "events_prev_7d": 8,
     "hottest_place": "Strait of Hormuz"
   },
@@ -137,17 +137,17 @@
     },
     {
       "date": "2026-07-13",
-      "total": 19,
-      "strike": 15,
+      "total": 22,
+      "strike": 17,
       "ground": 3,
-      "infrastructure": 1,
+      "infrastructure": 2,
       "air_defense": 0,
       "anomaly": false
     },
     {
       "date": "2026-07-14",
-      "total": 2,
-      "strike": 1,
+      "total": 3,
+      "strike": 2,
       "ground": 0,
       "infrastructure": 1,
       "air_defense": 0,
@@ -1376,6 +1376,36 @@
       "url": "https://www.aljazeera.com/news/2026/7/13/missile-strikes-and-attacks-on-ships-reported-around-strait-of-hormuz?traffic_source=rss"
     },
     {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US launches third night of strikes on Iran as Trump announces Hormuz blockade",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTzk5TkVyaXI1Tl9tMUgxc20zOHBTTVk5M1NyX1lJd3MtYnFfVW9xV2dJR1p2Q1RVb3ZqRkRFRXBCM1N0VVdJTlRLT0R6Z0w0U1FLYlhfMXpFWGxFZ2htTmk1UGlmWEJ5THUwVzAwRWU4NUdxVnQzN2pUOENDbTVOekNfcld6R3RWN1h5US1vVkk1QzgtQUlhWXdaYnNvV3VyOFZuODJLcjAwbl94U2Y1cGN6VEJiM1BDTngwQXdoMzQ?oc=5"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "UAE says crew member killed, 8 others hurt in Iran missile attacks on tankers in Hormuz",
+      "source": "The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZmJ5ZDFmVFRVbHQxblpNU2N2dHVPbnZVNzBkbTVOWjdOS0RLRGNwdWdQS2w0Uk11OE1LVE00WEpSN2tlRzI4aHloLWxRSngtbVVEb0lTcnJHV0phU3FWMW85Q3dJMWc0cUhueVZoWWhMNUtlYWYtYjNNZktRVmhKSEVuU1NZQzhEUFdEbmxNcVBtUTQzb0g5bVZuajZvZktqMmdYT0d6ZUVKWDF5WElVdXVoWHQyTVRmd1UzbkhPMjQyUDVuMVBTbVFibzc?oc=5"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "infrastructure",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "DP World plans UAE east coast port to bypass Strait of Hormuz, FT reports",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQY2lKRXN0dUJoQnF6T1JPQkZhVDFQejBKNGpoeVJmcXdFeFZfX21ZRXlJOERMTDNaQWo0NFJoYUd4WHptM2Z6TzBOUXNVUDJWcmJJM2ZnQV8wUEJrZUZuSE5ibkVKN2xrZnpUMFFyOWtKTDNtOVp1aXlsSXh4NlhpZU1UeXFJbXl4NURQMllNWHcwc2V5aXdLU2x6VE42aHkwTExscXBhS2oteXY1T1QtZXMzd2UwS2hwNzVZQQ?oc=5"
+    },
+    {
       "date": "2026-07-14",
       "type": "infrastructure",
       "place": "Strait of Hormuz",
@@ -1394,12 +1424,22 @@
       "title": "Iran war live: US launches more attacks; UAE says 1 killed in tanker strike",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/liveblog/2026/7/14/iran-war-live-us-launches-more-attacks-trump-orders-blockade-in-hormuz?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "strike",
+      "place": "Sanaa",
+      "lat": 15.3694,
+      "lon": 44.191,
+      "title": "Houthis: Saudi airport targeted in retaliation for strikes on Sanaa airport",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/aje-onl-nf_houthis-target-saudi-for-strikes-on-sanaa-130726?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 68
+      "count": 71
     },
     {
       "place": "Tehran",
@@ -1423,7 +1463,7 @@
     },
     {
       "place": "Sanaa",
-      "count": 3
+      "count": 4
     },
     {
       "place": "Beirut",

@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-14T14:13:39+00:00",
+  "updated": "2026-07-14T19:42:41+00:00",
   "losses_label": "",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
@@ -11,9 +11,9 @@
     "to": "2026-07-14"
   },
   "kpis": {
-    "events_total": 136,
-    "events_unlocated": 307,
-    "events_7d": 120,
+    "events_total": 139,
+    "events_unlocated": 312,
+    "events_7d": 123,
     "events_prev_7d": 8,
     "hottest_place": "Strait of Hormuz"
   },
@@ -146,10 +146,10 @@
     },
     {
       "date": "2026-07-14",
-      "total": 10,
-      "strike": 8,
-      "ground": 0,
-      "infrastructure": 2,
+      "total": 13,
+      "strike": 9,
+      "ground": 1,
+      "infrastructure": 3,
       "air_defense": 0,
       "anomaly": false
     }
@@ -1514,12 +1514,42 @@
       "title": "Yemen's Houthis launch missiles at Saudi Arabia after strikes on Sanaa airport",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/articles/cp9ldle3d3xo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "infrastructure",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "We’d like to speak to maritime, port workers, their friends and family about how the Middle East conflict is affecting them",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/04/maritime-and-port-workers-how-is-the-middle-east-conflict-affecting-you"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "India summons Iranian diplomat over missile killing of seafarer",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/india-summons-iranian-diplomat-over-missile-killing-of-seafarer?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "ground",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Trump scraps threat of 20% fee on Hormuz cargo as US prepares to resume blockade of Iran ports",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cy0608wy8pro?at_medium=RSS&at_campaign=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 73
+      "count": 76
     },
     {
       "place": "Tehran",

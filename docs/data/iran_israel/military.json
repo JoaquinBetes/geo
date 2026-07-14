@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-14T08:28:00+00:00",
+  "updated": "2026-07-14T14:13:39+00:00",
   "losses_label": "",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
@@ -11,9 +11,9 @@
     "to": "2026-07-14"
   },
   "kpis": {
-    "events_total": 128,
-    "events_unlocated": 294,
-    "events_7d": 112,
+    "events_total": 136,
+    "events_unlocated": 307,
+    "events_7d": 120,
     "events_prev_7d": 8,
     "hottest_place": "Strait of Hormuz"
   },
@@ -137,8 +137,8 @@
     },
     {
       "date": "2026-07-13",
-      "total": 22,
-      "strike": 17,
+      "total": 23,
+      "strike": 18,
       "ground": 3,
       "infrastructure": 2,
       "air_defense": 0,
@@ -146,10 +146,10 @@
     },
     {
       "date": "2026-07-14",
-      "total": 3,
-      "strike": 2,
+      "total": 10,
+      "strike": 8,
       "ground": 0,
-      "infrastructure": 1,
+      "infrastructure": 2,
       "air_defense": 0,
       "anomaly": false
     }
@@ -1406,6 +1406,16 @@
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQY2lKRXN0dUJoQnF6T1JPQkZhVDFQejBKNGpoeVJmcXdFeFZfX21ZRXlJOERMTDNaQWo0NFJoYUd4WHptM2Z6TzBOUXNVUDJWcmJJM2ZnQV8wUEJrZUZuSE5ibkVKN2xrZnpUMFFyOWtKTDNtOVp1aXlsSXh4NlhpZU1UeXFJbXl4NURQMllNWHcwc2V5aXdLU2x6VE42aHkwTExscXBhS2oteXY1T1QtZXMzd2UwS2hwNzVZQQ?oc=5"
     },
     {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iran war latest: US 'launches daytime strikes' on Iranian city - after Tehran's deadly tanker attack in Strait of Hormuz",
+      "source": "Sky News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQmUtWWhWQk54ZnA2Q1ZEOUZGcEllVXNRSU53YlBKLW9RVkNxcG1IUC1Xa3lfazdTQXJxVjlqX1JHenlpa0xwRjF1TFpMbWFtbGtBOWdvdjFXVnhGWG9aUE1XUnUtUFBFakM0SWVXYncxSWtmc0dHWk1MLUNuMmx6Rk14dk5KeS1mekhibnR5MVNWbGw2QVE?oc=5"
+    },
+    {
       "date": "2026-07-14",
       "type": "infrastructure",
       "place": "Strait of Hormuz",
@@ -1434,16 +1444,86 @@
       "title": "Houthis: Saudi airport targeted in retaliation for strikes on Sanaa airport",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/aje-onl-nf_houthis-target-saudi-for-strikes-on-sanaa-130726?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iran war live: Tehran launches missiles on tankers in Strait of Hormuz",
+      "source": "The Independent",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSzY1MU9sbHl3ajVsaWduRmJsMWdQRnRJZVZ1ZkZSaDJuemhYSUJiV0NUbS0zTmpLdjl4R1c2eTVTa280d1JqWG42aEZTcWQtRVJPMjk1SWVhU2lUUVp2NUY2elRPeUpvZVg2Y0xCZ2kySFVvZE9seFgyYlRiQklLMU9LcGpxZWhBaGtNZVpaLUQ4QTlDUEZENFQ4M1NWQ1k0c09wdjg2NTBRX01IZmxhQ19yUkdndw?oc=5"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "US bombs Iran again, Tehran strikes Gulf, tankers: What’s the latest?",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMUZjVUNKbnJIVnVlYmpqT0Jka3k5NDBWMFdYYnJURGJleGl0T2pGRTE2M084eGVJdi1IRjVoTXNiQlgzQ296aU1GUjdpTHlxZlNteG1kcUt3eHFsTEZlaTduX3F4WmlEaUdrMnYxWW9HZXVNYjhQMndQUklBemFoTmtDNV9KeDZGbVdFbEpwY3BRT0VXRV9IUUFsakZ6YmZXaUlJUlB0ODjSAa4BQVVfeXFMUEZZWmNjb3NSLV9kejR2bzVocklHWjUwOXdUYTZ6NzRZUlFQYmtjenA5TzVIYXRUZTU2NnN3UDNXWDBhaVNOV29TSEhSbktDc2IxS0JnZUdDX09BSXRGOTJqSUpYRmFxWjdvLUliR2VKbVZOSEJkUHpHTmpWTUdQTXBFN2Z4eVJLanlPS1hRMnpmeG9WTnFVYm1WaldNUzUwbllIWXl3UHJaZkRqYVhn?oc=5"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "infrastructure",
+      "place": "Bushehr",
+      "lat": 28.9684,
+      "lon": 50.8385,
+      "title": "Iran targets Bahrain and Jordan in retaliation as US strikes continue",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/14/us-strikes-iran-bahrain-jordan-uae-tankers"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Iranian flights to Yemen are violation of sovereignty, says Yemeni official",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/14/iran-flight-sanaa-yemen-houthis-saudi"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "strike",
+      "place": "Bandar Abbas",
+      "lat": 27.1832,
+      "lon": 56.2666,
+      "title": "US military footage shows its first-ever suicide boat drone strike on Iran",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/us-military-footage-shows-its-first-ever-suicide-boat-drone-strike-on-iran/"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "strike",
+      "place": "Sanaa",
+      "lat": 15.3694,
+      "lon": 44.191,
+      "title": "What’s behind the Sanaa Airport attack and latest Yemen tensions?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/whats-behind-the-sanaa-airport-attack-and-latest-yemen-tensions?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "strike",
+      "place": "Sanaa",
+      "lat": 15.3694,
+      "lon": 44.191,
+      "title": "Yemen's Houthis launch missiles at Saudi Arabia after strikes on Sanaa airport",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cp9ldle3d3xo?at_medium=RSS&at_campaign=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 71
+      "count": 73
     },
     {
       "place": "Tehran",
-      "count": 18
+      "count": 20
     },
     {
       "place": "Damascus",
@@ -1451,19 +1531,19 @@
     },
     {
       "place": "Bushehr",
-      "count": 6
+      "count": 7
     },
     {
       "place": "Bandar Abbas",
+      "count": 7
+    },
+    {
+      "place": "Sanaa",
       "count": 6
     },
     {
       "place": "Jerusalem",
       "count": 5
-    },
-    {
-      "place": "Sanaa",
-      "count": 4
     },
     {
       "place": "Beirut",

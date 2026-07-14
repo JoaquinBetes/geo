@@ -2,13 +2,13 @@
   "id": "russia_ukraine",
   "name": "Rusia–Ucrania",
   "description": "Cobertura mediática del conflicto entre Rusia y Ucrania",
-  "updated": "2026-07-13T19:49:10+00:00",
-  "total_articles": 2116,
-  "overall_avg": -0.4055,
+  "updated": "2026-07-14T03:33:48+00:00",
+  "total_articles": 2160,
+  "overall_avg": -0.4051,
   "distribution": {
-    "pos": 386,
-    "neu": 287,
-    "neg": 1443
+    "pos": 397,
+    "neu": 291,
+    "neg": 1472
   },
   "sources": [
     "Al Jazeera",
@@ -70,6 +70,7 @@
     "The Times",
     "U.S. News & World Report",
     "The Telegraph",
+    "politico.eu",
     "Bloomberg.com",
     "Mediazona",
     "ABC News & Headlines – Australian Broadcasting Corporation",
@@ -85,7 +86,6 @@
     "the-independent.com",
     "The Tribune-Democrat",
     "Center for European Policy Analysis (CEPA)",
-    "politico.eu",
     "CSIS | Center for Strategic and International Studies",
     "Politico",
     "consilium.europa.eu",
@@ -232,7 +232,8 @@
     "ndtv.com",
     "WWAYTV3",
     "NRC - Nieuws, achtergronden en onderzoeksjournalistiek",
-    "Responsible Statecraft"
+    "Responsible Statecraft",
+    "University of California, Riverside"
   ],
   "daily": [
     {
@@ -461,11 +462,11 @@
     },
     {
       "date": "2026-06-05",
-      "count": 7,
-      "avg": -0.4199,
+      "count": 8,
+      "avg": -0.4851,
       "pos": 1,
       "neu": 2,
-      "neg": 4
+      "neg": 5
     },
     {
       "date": "2026-06-07",
@@ -757,38 +758,46 @@
     },
     {
       "date": "2026-07-13",
-      "count": 150,
-      "avg": -0.4129,
-      "pos": 25,
-      "neu": 20,
-      "neg": 105
+      "count": 180,
+      "avg": -0.4061,
+      "pos": 33,
+      "neu": 22,
+      "neg": 125
+    },
+    {
+      "date": "2026-07-14",
+      "count": 13,
+      "avg": -0.3846,
+      "pos": 3,
+      "neu": 2,
+      "neg": 8
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 792,
-      "avg": -0.2254
+      "count": 818,
+      "avg": -0.2297
     },
     {
       "source": "BBC",
-      "count": 259,
-      "avg": -0.2659
+      "count": 267,
+      "avg": -0.2716
     },
     {
       "source": "The Guardian",
-      "count": 117,
-      "avg": -0.686
+      "count": 121,
+      "avg": -0.6788
     },
     {
       "source": "NPR",
-      "count": 83,
-      "avg": -0.3272
+      "count": 85,
+      "avg": -0.3284
     },
     {
       "source": "Institute for the Study of War",
-      "count": 43,
-      "avg": -0.8406
+      "count": 44,
+      "avg": -0.8413
     },
     {
       "source": "UNITED24 Media",
@@ -832,8 +841,8 @@
     },
     {
       "source": "AP News",
-      "count": 16,
-      "avg": -0.5244
+      "count": 17,
+      "avg": -0.4561
     },
     {
       "source": "DW.com",
@@ -1061,6 +1070,11 @@
       "avg": -0.3152
     },
     {
+      "source": "politico.eu",
+      "count": 4,
+      "avg": -0.1583
+    },
+    {
       "source": "Bloomberg.com",
       "count": 3,
       "avg": -0.1962
@@ -1134,11 +1148,6 @@
       "source": "Center for European Policy Analysis (CEPA)",
       "count": 3,
       "avg": 0.0279
-    },
-    {
-      "source": "politico.eu",
-      "count": 3,
-      "avg": -0.1436
     },
     {
       "source": "CSIS | Center for Strategic and International Studies",
@@ -1874,44 +1883,49 @@
       "source": "Responsible Statecraft",
       "count": 1,
       "avg": -0.8934
+    },
+    {
+      "source": "University of California, Riverside",
+      "count": 1,
+      "avg": -0.9371
     }
   ],
   "top_entities": [
     {
       "name": "Ukraine",
       "type": "LOCATION",
-      "count": 968,
-      "avg": -0.5909
+      "count": 975,
+      "avg": -0.5895
     },
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 816,
-      "avg": -0.6385
+      "count": 823,
+      "avg": -0.6375
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 286,
-      "avg": -0.3555
+      "count": 291,
+      "avg": -0.3562
     },
     {
       "name": "Kyiv",
       "type": "LOCATION",
-      "count": 207,
-      "avg": -0.7199
+      "count": 210,
+      "avg": -0.7215
     },
     {
       "name": "Vladimir Putin",
       "type": "PERSON",
-      "count": 205,
-      "avg": -0.5942
+      "count": 207,
+      "avg": -0.5888
     },
     {
       "name": "Volodymyr Zelensky",
       "type": "PERSON",
-      "count": 141,
-      "avg": -0.5487
+      "count": 143,
+      "avg": -0.5536
     },
     {
       "name": "NATO",
@@ -1922,20 +1936,20 @@
     {
       "name": "Moscow",
       "type": "LOCATION",
-      "count": 73,
-      "avg": -0.7601
+      "count": 75,
+      "avg": -0.7412
     },
     {
       "name": "United States",
       "type": "LOCATION",
-      "count": 52,
-      "avg": -0.2521
+      "count": 54,
+      "avg": -0.2674
     },
     {
       "name": "Crimea",
       "type": "LOCATION",
-      "count": 50,
-      "avg": -0.6876
+      "count": 51,
+      "avg": -0.6781
     },
     {
       "name": "Donbas",
@@ -1958,6 +1972,399 @@
   ],
   "recent": [
     {
+      "title": "ICE officer kills motorist in Maine; the second fatality in a week",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/ice-officer-kills-motorist-in-maine-the-second-fatality-in-a-week-2?traffic_source=rss",
+      "published": "2026-07-14T02:59:18+00:00",
+      "compound": -0.9217,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Crimea was Russia’s stronghold. Now it’s a vulnerability.",
+      "source": "politico.eu",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNd2w5OW5WSTA5T0hBWm94STZ5WG9KY0JGVy1Jc213RDBWMXdDcXRZYnRmUE1PLVBaNUw1VEU5S0lvcTVzOHVFTUFRZGVRYUQzTEFjLURSVkE3c1p0dlkwYW03eFlWN3REXzQ0S2h5bWZ3ZEJfT1c4dHp1V2lRRVpQMGRrMXdPWU1JYU0wRXJldGM3LTNySFpUTFo1REVhSTA?oc=5",
+      "published": "2026-07-14T02:07:17+00:00",
+      "compound": -0.2023,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Crimea"
+      ]
+    },
+    {
+      "title": "Hungary’s parliament votes to oust president in latest anti-Orban move",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/14/hungarys-parliament-votes-to-oust-president-in-latest-anti-orban-move?traffic_source=rss",
+      "published": "2026-07-14T02:03:38+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Colombian national killed by ICE agent during operation in Maine",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c2ly580kxnko?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-14T01:50:48+00:00",
+      "compound": -0.8658,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Identity of Sydney daycare worker facing 329 child abuse offences revealed",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c5yzy0lpello?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-14T01:43:57+00:00",
+      "compound": -0.8957,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Trump demands payment to protect Gulf nations from Iranian attacks",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/trump-demands-payment-to-protect-gulf-nations-from-iranian-attacks?traffic_source=rss",
+      "published": "2026-07-14T01:37:48+00:00",
+      "compound": 0.2732,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Record El Niño threatens to unleash floods across East Africa and Asia",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/14/record-el-nino-threatens-to-unleash-floods-across-east-africa-and-asia?traffic_source=rss",
+      "published": "2026-07-14T01:27:57+00:00",
+      "compound": -0.6124,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Japan admits growing need to counter espionage after Russian ‘den of spies’ report",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/14/japan-espionage-russia-den-of-spies",
+      "published": "2026-07-14T01:10:26+00:00",
+      "compound": 0.8625,
+      "label": "positive",
+      "entities": [
+        "Vladimir Putin",
+        "Russia",
+        "Ukraine",
+        "Moscow"
+      ]
+    },
+    {
+      "title": "Ukraine war briefing: Zelenskyy seeks 300 Patriots to get through winter",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/14/ukraine-war-briefing-zelenskyy-seeks-300-patriots-to-get-through-winter",
+      "published": "2026-07-14T01:00:22+00:00",
+      "compound": -0.9622,
+      "label": "negative",
+      "entities": [
+        "Volodymyr Zelensky",
+        "Donald Trump",
+        "Russia",
+        "Ukraine",
+        "Kyiv",
+        "Moscow"
+      ]
+    },
+    {
+      "title": "Ukraine war briefing: Zelenskyy seeks 300 Patriots to get through winter",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPY0dkSGJXY1laMXJsYzZKZ1JoWHZoUFNlZUZ4di1uN3BHUk90LUs4MnNBZ0JMR0dWV21UdkJiNldqdUh1TWJOSDhaMXdOUGxLcFZsdnJucTZwdDB0ZzJKTDkyQnRvbGxTOER0eEdZZzdxdWx5Rkw5UFNLMGFUMFJSbWxPbHZMblM0NDBacTF1UlZpMi1rWS03UVlWbTc1dF9UWnFld1k1X1p5dU8wRlBnanpTbFBRUWxC?oc=5",
+      "published": "2026-07-14T01:00:00+00:00",
+      "compound": -0.8316,
+      "label": "negative",
+      "entities": [
+        "Volodymyr Zelensky",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Indonesia’s jailing of Gojek founder raises fears for investor confidence",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/7/14/indonesias-jailing-of-gojek-founder-raises-fears-for-investor-confidence?traffic_source=rss",
+      "published": "2026-07-14T00:53:51+00:00",
+      "compound": 0.1027,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "How Kenyan volunteers hunt polio’s hidden trail",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/14/how-kenyan-volunteers-hunt-polios-hidden-trail?traffic_source=rss",
+      "published": "2026-07-14T00:35:07+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Iran war live: US launches more attacks; UAE says 1 killed in tanker strike",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/7/14/iran-war-live-us-launches-more-attacks-trump-orders-blockade-in-hormuz?traffic_source=rss",
+      "published": "2026-07-14T00:00:00+00:00",
+      "compound": -0.9459,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Hundreds of experts warn the world must prepare now for AI’s impact",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/7/13/hundreds-of-experts-warn-the-world-must-prepare-now-for-ais-impact?traffic_source=rss",
+      "published": "2026-07-13T23:54:32+00:00",
+      "compound": -0.4404,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Russian Offensive Campaign Assessment, July 13, 2026",
+      "source": "Institute for the Study of War",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObDRQcGU3dTFwcElXRnNCWDRlRk9samQ5VkZ4Mk5qdEcxVmJkRDdWeXRWNjVvMkJuSnJ1Z1NVSGE4R1RWQW1EU1NoZkNlV1JmaFlLUFE2RW1PeUJkaVlWM1h6c1ZSOG9RajhwS2tOWEpEMzBzWkY5anN4VFF0Ym1xZmdwX0RmWmRISUdvUWpZR09haFlKSHZBemZ0dzhSU1BubnRpS1VpSQ?oc=5",
+      "published": "2026-07-13T23:51:25+00:00",
+      "compound": -0.872,
+      "label": "negative",
+      "entities": [
+        "Russia"
+      ]
+    },
+    {
+      "title": "Three Palestinians killed, 15 wounded in Israeli attacks across Gaza",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/13/three-palestinians-killed-15-wounded-in-israeli-attacks-across-gaza?traffic_source=rss",
+      "published": "2026-07-13T23:41:32+00:00",
+      "compound": -0.9477,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Norway ‘rows’ at the royal palace to welcome back World Cup heroes",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/aje-onl-nf_norway-rows-at-the-royal-palace-world-cup-heroes-130726?traffic_source=rss",
+      "published": "2026-07-13T23:25:49+00:00",
+      "compound": 0.875,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Expert: When assessing war, consider Putin's pain threshold",
+      "source": "University of California, Riverside",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPb2daM1NRdldoLXQxMDhFcmNGd3M2SzdxUmQ4cks3alRfMXJUV2ZuUXZ5OW54dUVvMHN2eG54U2taVXhndVdxS09uQTZHUXlPUE9LOHI2TDBjclNnRzhkYzYxWjdybU5xWFl1ZXlJLW5xYkMzNXQ0ZDlfVlM0a0d2eGs4azRtWnlqOUNWUmY3UW5IX05Bd0RFcE1jYVdUZw?oc=5",
+      "published": "2026-07-13T23:18:14+00:00",
+      "compound": -0.9371,
+      "label": "negative",
+      "entities": [
+        "Vladimir Putin"
+      ]
+    },
+    {
+      "title": "Backed by Trump, Lindsey Graham’s sister Darline will replace him in Senate",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/13/backed-by-trump-lindsey-grahams-sister-darline-will-replace-him-in-senate?traffic_source=rss",
+      "published": "2026-07-13T22:33:08+00:00",
+      "compound": 0.0258,
+      "label": "neutral",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Nine deaths tied to Trump’s immigration enforcement operations in US",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/13/nine-deaths-tied-to-trumps-immigration-enforcement-operations-in-us?traffic_source=rss",
+      "published": "2026-07-13T22:31:36+00:00",
+      "compound": -0.5423,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Indian activist on hunger strike at 'cockroach' protest loses 8.2kg",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cvgm2rz5d7lo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-13T22:03:16+00:00",
+      "compound": -0.8807,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Kyiv attacked after Ukraine launches coalition to tackle Russia missiles",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZDdPMDIyS29Db1dtbkRuejN0RGJuelZFU3NDY0szbmQtajJZR3BRQTVPU2dzSmctOHVkdjVYdUgyc25JNEhBOGVIZ1B3LW5sUGZ0em5xVTNPVnRPNUV3U0ZfN3kxeVRucGdJaDRtSm9UbDZpSjByTGFONU5HMXV4WVNDUU55UGRFNi1DZGJUQ3BsbXZtV0ptT0xMUDd3WkduSXlMczgyS0ZjS0Rub2laZ0w4QdIBuAFBVV95cUxNOGxXbjhvOWpYX1Mwd3pBZHpkSjJ4emlsT1oxSG1uenlaTExNUV9xb3RCT0xZR2E0djdjM1JZRnVtSkl3WXQzbGpEb2FjR3JUVG9QSzEycjAwUjFWQnVxTFMyd0d1MkdrRVROdG14T1l1NU12UVdIZi1Mb2ZwOHVLN21TNWx2Zjg3ZGEtUVZabDEwNVJmRk41SjlnYzVqYTQyeUpZNUFuMURHOG44UC1LNEJjQ0RjOFlm?oc=5",
+      "published": "2026-07-13T21:43:03+00:00",
+      "compound": -0.7184,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine",
+        "Kyiv"
+      ]
+    },
+    {
+      "title": "Haaland’s Norway receive heroes’ welcome in Oslo after World Cup exit",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/13/haalands-norway-receive-heroes-welcome-in-oslo-after-world-cup-exit?traffic_source=rss",
+      "published": "2026-07-13T21:38:51+00:00",
+      "compound": 0.6597,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Lindsey Graham's sister chosen as replacement after senator's death",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c05y3rlvp20o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-13T21:37:02+00:00",
+      "compound": -0.8316,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Police in South Africa open probe into post-World Cup death of Jayden Adams",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/13/police-in-south-africa-open-probe-into-post-world-cup-death-of-jayden-adams?traffic_source=rss",
+      "published": "2026-07-13T21:27:52+00:00",
+      "compound": -0.5994,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "US, Iran exchange attacks around Strait of Hormuz",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/13/missile-strikes-and-attacks-on-ships-reported-around-strait-of-hormuz?traffic_source=rss",
+      "published": "2026-07-13T21:19:28+00:00",
+      "compound": -0.6597,
+      "label": "negative",
+      "entities": [
+        "United States"
+      ]
+    },
+    {
+      "title": "Lindsey Graham’s legacy: Israel advocate, Trump ally, Iran war supporter",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/13/lindsey-grahams-legacy-israel-advocate-trump-ally-iran-war-supporter?traffic_source=rss",
+      "published": "2026-07-13T21:04:56+00:00",
+      "compound": -0.765,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "How is the US tech industry regulated?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/7/13/how-is-the-us-tech-industry-regulated?traffic_source=rss",
+      "published": "2026-07-13T21:03:57+00:00",
+      "compound": -0.743,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Andy Burnham in line to become British PM after securing party support",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/13/andy-burnham-in-line-to-become-british-pm-after-securing-party-support?traffic_source=rss",
+      "published": "2026-07-13T20:57:21+00:00",
+      "compound": 0.908,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Pakistan urges restraint as its Mideast deal unravels",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/13/nx-s1-5891718/pakistan-urges-restraint-as-its-mideast-deal-unravels",
+      "published": "2026-07-13T20:55:21+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Argentina vs England World Cup tickets more expensive than France vs Spain",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/13/argentina-vs-england-world-cup-tickets-more-expensive-than-france-vs-spain?traffic_source=rss",
+      "published": "2026-07-13T20:51:33+00:00",
+      "compound": 0.3182,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "US strikes Iranian ship with drone boats in first-of-its-kind attack",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/us-strikes-iranian-ship-with-drone-boats-in-first-of-its-kind-attack?traffic_source=rss",
+      "published": "2026-07-13T20:48:18+00:00",
+      "compound": -0.6808,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Kyiv attacked after Ukraine launches coalition to tackle Russia missiles",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/13/ukraine-and-allies-launch-coalition-to-tackle-russias-ballistic-missiles?traffic_source=rss",
+      "published": "2026-07-13T20:41:27+00:00",
+      "compound": -0.8126,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine",
+        "Kyiv"
+      ]
+    },
+    {
+      "title": "Iran military warns US against Strait of Hormuz ‘interference’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/iran-military-warns-us-against-strait-of-hormuz?traffic_source=rss",
+      "published": "2026-07-13T20:40:07+00:00",
+      "compound": -0.6703,
+      "label": "negative",
+      "entities": [
+        "United States"
+      ]
+    },
+    {
+      "title": "Hungary parliament votes to remove president from office",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cp8r002gdevo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-13T20:39:14+00:00",
+      "compound": 0.0516,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Artist sews names of Gaza children killed by Israel into gown",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/artist-sews-names-of-gaza-children-killed-by-israel-into-gown?traffic_source=rss",
+      "published": "2026-07-13T20:35:50+00:00",
+      "compound": -0.9313,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "What do Israeli settler attacks on Americans reveal?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/what-do-israeli-settler-attacks-on-americans-reveal?traffic_source=rss",
+      "published": "2026-07-13T20:35:01+00:00",
+      "compound": -0.872,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Gaza man builds roadside library from books buried in rubble",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/gaza-man-builds-roadside-library-from-books-buried-in-rubble?traffic_source=rss",
+      "published": "2026-07-13T20:26:38+00:00",
+      "compound": -0.7351,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "People watching the World Cup during work hours is leading to a drop in productivity",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/13/nx-s1-5884861/people-watching-the-world-cup-during-work-hours-is-leading-to-a-drop-in-productivity",
+      "published": "2026-07-13T20:02:44+00:00",
+      "compound": -0.7579,
+      "label": "negative",
+      "entities": []
+    },
+    {
       "title": "Spanish PM visits site of deadly wildfire",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/spanish-pm-visits-site-of-deadly-wildfire?traffic_source=rss",
@@ -1976,6 +2383,17 @@
       "entities": [
         "Donald Trump",
         "United States"
+      ]
+    },
+    {
+      "title": "Ukraine and 9 other countries announce a coalition to protect Europe from ballistic missiles",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMkkwY2FkVlNuY2pSdjdKVlk4SHZLOFN6V0xqbFdSVzBseHBjRFlkZk1LX1VpcEtWaGtEMGNhU1FnUEZkZ2NlTHdrUU5jd2ZBUlpKOV9neDlybnlybEZWSTluY0I0R0xZQlUyQXVRSXY1YW91SnRaamVlZzM0MmF5Um5MTzVUXzZFbUZEUEZjMEUzcWtHLWlPVXRuR0VwNVFtaUVR?oc=5",
+      "published": "2026-07-13T19:17:00+00:00",
+      "compound": 0.6369,
+      "label": "positive",
+      "entities": [
+        "Ukraine"
       ]
     },
     {
@@ -2115,6 +2533,15 @@
       "entities": []
     },
     {
+      "title": "Bison rams grandfather in Yellowstone Park, knocking him metres into the air",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c2dy9krpydlo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-13T17:21:21+00:00",
+      "compound": 0.4404,
+      "label": "positive",
+      "entities": []
+    },
+    {
       "title": "Trump says the U.S. is back to blockading Iran and will charge ships a toll in Hormuz",
       "source": "NPR",
       "url": "https://www.npr.org/2026/07/13/nx-s1-5891746/us-iran-strait-of-hormuz-updates",
@@ -2151,428 +2578,6 @@
       "compound": -0.7184,
       "label": "negative",
       "entities": []
-    },
-    {
-      "title": "Person killed in shooting involving ICE agents in US state of Maine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/13/person-killed-in-shooting-involving-ice-agents-in-us-state-of-maine?traffic_source=rss",
-      "published": "2026-07-13T16:11:38+00:00",
-      "compound": -0.875,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "US imposes new sanctions on Cuba tourism ministry, state-owned companies",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/7/13/us-imposes-new-sanctions-on-cuba-tourism-ministry-state-owned-companies?traffic_source=rss",
-      "published": "2026-07-13T16:10:55+00:00",
-      "compound": 0.1027,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "A Robot Army Remakes Ground Warfare in Ukraine",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE51Y2ZVZklHUy1NWE9BNzk1bXUya2JPaEhzMWZpWE1wS01aQVhpVmdRbm9EbTZGdDUzb0VyRk1uS2d2R3VlcjNrVGF1UXk1UV9QYTJUODJXaU11YUlMVGhMbEx1ODVEWFhMSXZhMk9EMnR2T0tvbmNMWXpOeEowUE0?oc=5",
-      "published": "2026-07-13T16:09:36+00:00",
-      "compound": -0.5267,
-      "label": "negative",
-      "entities": [
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "UK-Switzerland deal to scrap roaming charges and allow Britons to use e-gates",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c621p9yjz1zo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-13T16:05:13+00:00",
-      "compound": 0.2732,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Anti-terror police take over probe into death of UK politician Widdecombe",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/13/anti-terror-police-take-over-probe-into-death-of-uk-politician-widdecombe?traffic_source=rss",
-      "published": "2026-07-13T16:02:39+00:00",
-      "compound": -0.9022,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "India thrash England in historic first women’s cricket Test match at Lord’s",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/13/india-thrash-england-in-historic-first-womens-cricket-test-match-at-lords?traffic_source=rss",
-      "published": "2026-07-13T15:44:45+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Trump: US will ‘take over’ Strait of Hormuz",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/trump-us-will-take-over-strait-of-hormuz?traffic_source=rss",
-      "published": "2026-07-13T15:41:07+00:00",
-      "compound": -0.1779,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Iraqi PM arrives in US seeking balance between security and economy",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/13/iraqi-pm-heads-to-us-seeking-balance-between-security-and-economy?traffic_source=rss",
-      "published": "2026-07-13T15:25:56+00:00",
-      "compound": 0.4588,
-      "label": "positive",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Iraq seizes 375kg of gold in sweeping anti-corruption crackdown",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/13/iraq-seizes-375kg-of-gold-in-sweeping-anti-corruption-crackdown?traffic_source=rss",
-      "published": "2026-07-13T15:04:06+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "FIFA World Cup: Key players to watch as France play Spain in semifinal",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/13/fifa-world-cup-key-players-to-watch-as-france-take-on-spain-in-2026-semifinal?traffic_source=rss",
-      "published": "2026-07-13T14:50:01+00:00",
-      "compound": 0.5994,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Trump says US will become ‘guardian’ of Strait of Hormuz and collect tolls",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/13/trump-says-us-will-become-guardian-of-strait-of-hormuz-and-collect-tolls?traffic_source=rss",
-      "published": "2026-07-13T14:43:01+00:00",
-      "compound": -0.9286,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "What is the EU’s plan to cut trade with illegal Israeli settlements?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/13/what-is-the-eus-plan-to-cut-trade-with-illegal-israeli-settlements?traffic_source=rss",
-      "published": "2026-07-13T14:33:14+00:00",
-      "compound": -0.7184,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "How Sheikh Hamad revolutionised Arab media through Al Jazeera",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/13/how-sheikh-hamad-revolutionised-arab-media-through-al-jazeera?traffic_source=rss",
-      "published": "2026-07-13T14:24:29+00:00",
-      "compound": -0.4939,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "EU sanctions nine people over alleged Russian cyber-spying campaign",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRkJwS0FmUmlOcm5wU0xMOHNJRlJSM2pfTjNzRy1pTU9fZEswQjNwREtIc0xVSFNzYnJpOHdXQWZxdEVLM05HSWQ3RlBYSjRWcnZLNlowY1JTTTJyekVZRFNtSjBvdzhjc0ZXTjE0OEZWeFJMS2x4VXZmOFpvaWRqSEJEMm1OTEhlTGNtNV9JSnZuWEUyQ2tJdXo2RlpEVDVuWjRWWktjQS1ZeEpH0gGyAUFVX3lxTFBDbkpJbHpxZk5yYjZNUVoyZDktaFZDNURqSDRmV1FmU29oaVF5eEpNUGJ0NEZRdG0za0xIdlpJYlFpbUJMUDNlZFpZQUh0aV9VTkRtU2xleTEzWWJwOGxFMjlDX1U2TWJHR194b2FrazJDTm51eTdoc0VZRmFlUFQ5MDJQcGV4M0p6RlFuZ2RveXpuWU9PZVRWTnJHWHpQRk5GUE5RdGxVMjdITHRaVjA0UFE?oc=5",
-      "published": "2026-07-13T14:12:52+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "Yemeni government forces strike Sanaa airport",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/yemeni-government-forces-strike-sanaa-airport?traffic_source=rss",
-      "published": "2026-07-13T14:03:44+00:00",
-      "compound": -0.25,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "EU sanctions nine people over alleged Russian cyber-spying campaign",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/13/eu-sanctions-nine-people-over-alleged-russian-cyber-spying-campaign?traffic_source=rss",
-      "published": "2026-07-13T13:59:54+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "Hamas denies UN accusations over Gaza aid distribution interference",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/13/hamas-denies-un-accusations-over-gaza-aid-distribution-interference?traffic_source=rss",
-      "published": "2026-07-13T13:59:43+00:00",
-      "compound": -0.7717,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Ukraine fears that with Sen. Lindsey Graham’s sudden death, it will have a weaker link to Trump",
-      "source": "WWAYTV3",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWm5zdmRlRW5fQTdjdmtmWUxRWWlxbGNCT1d4cWVacnB6TFVlYnlBVTllV0RGR1ZfSFF5cnRIZU9DaTBFbzRRRUFXN3Z3bDJ0WENsTEs2dzNWQUlGLUowUG9kOTVzZzFyVkg1SkJSTWVMR0E0X3B2UDJvRFFXTUZPRTNNNk05WXpiaUhqbWtpLWw4YmEwN3A5WWxweU51UFV1MUMxOGNfOVlzbFRKd0dTTUpyamZDMklv?oc=5",
-      "published": "2026-07-13T13:31:46+00:00",
-      "compound": -0.9595,
-      "label": "negative",
-      "entities": [
-        "Donald Trump",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "FIFA World Cup England vs Argentina: What to know ahead of second semifinal",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/13/argentina-england-fifa-world-cup-semifinal-prediction-messi-kane-venue?traffic_source=rss",
-      "published": "2026-07-13T13:21:48+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Russia-Ukraine war: Nine dead as Russia, Ukraine trade strikes",
-      "source": "WION",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbXdkWDU1VzV6WmtuMkJzWGFnSXNaUjNLRm10UzR4YXBOVnJ5U1VXaHRQYWNEdHNkMHB2WXdUX1oxdFJFWW5lNjBuQkdmRHZQVmFIYUhkUXQ0QTlwSDZOa3VMZkI4NlpxOUVaTUFDSVFvR2I3MENLWWxHQkdIWWNkZzY2b0RxbDA4ZnphV1hYVjNxeDg2U21vM2NPMm1aVlIwamcwSTZsRkrSAa4BQVVfeXFMT2dfZG1tWXJZcUdrbEFWN0YtN3J4RlZtbVJpN1ZYck01NzBZY3JvRjZxSW5qQW9rMEVaZUhpNVVCcFBsZGFPU0MtUDh3cnNVY1B4N0liWU5vbHNOQVFXd3RXNDJ1SXFZX054N2gxaHBSRDdSS1NIbDVLS3gyaUF4cDI4SXpMX0xadkZEejJDS1ZwQUduUEVTRnVmQVNPaXJQY0NNWXA1clZZLVgwbll3?oc=5",
-      "published": "2026-07-13T13:12:00+00:00",
-      "compound": -0.9698,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Russian anti-war opposition politician Boris Nadezhdin detained by police",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1nLWZ3YzE3bG1uRGRLclVuVmJ0eWtqX244ZXR2SkM5aEZ4LV9FZElDZUUzaGNyZTFjSk5KbGhna3ZILVNNaFp2dERCSkxfYllsaW9peVkwTjMydw?oc=5",
-      "published": "2026-07-13T13:10:51+00:00",
-      "compound": -0.6597,
-      "label": "negative",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "What is Japan’s new intelligence agency, and why is Tokyo building it?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/13/what-is-japans-new-intelligence-agency-and-why-is-tokyo-building-it?traffic_source=rss",
-      "published": "2026-07-13T13:07:15+00:00",
-      "compound": 0.836,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Zelenskyy seeks more European air defense support for Ukraine at Paris meeting",
-      "source": "KTVN",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQa0F4WFFWeTMzQi13cGRpN1BNRGZoLTBvTV90bkNnTTJlT1Bna1JidzNqeWVpVzJ3Zm52Zi1wQl83VmRnWEpkNS05NVRmWm5sZFhZSHVaSzR3cmlMUURRc1ZvTVVRc091VkJWd1ZHeUxjeUpfa0hhRzgtZW5xWWhZNlVMZ3YxVTh5UWRFNFcwQTVGVF93a0hERTlGemZ6eEVoenRkX2hMVTh3UVpRckgzenpkRVUzX01DcGU4YWZnaTIwQ2U2cnFyZ0p3OUh5QVlCLXFuam1DellyNU04RENmRExBM1p5d2h0SmRsRWg1ZEs4WHc1eGdN?oc=5",
-      "published": "2026-07-13T13:01:28+00:00",
-      "compound": 0.7862,
-      "label": "positive",
-      "entities": [
-        "Volodymyr Zelensky",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Despite Exit Pledges, Some Companies Remain In Russia Amid Ukraine War",
-      "source": "Forbes",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORG1BdG5CUHRBdkZXNmU0bHhQSEhRc0VkdWpmSDdYTW5QQi1hVmh4QTFoQUh0S2o5eEtIelpEY0t0ZUt6aWZwUlc4SEIzUW1NTllXVHJtbE1EUkhqczdlTDFTQUNlVjhFWVZxV0doZnVmYjRMdjF3aFRlNy1pY3FReVljVFV0cFJKbjhIb0FUN3pwMndrX0x2SmtrZUNUT01FeTZ4VDQySEpkalRpeEMtU2Z5dGdFbGJXVHM1b0ZIWnM?oc=5",
-      "published": "2026-07-13T13:00:53+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Ukraine’s Drone Campaign Is Making the Sea of Azov Too Dangerous for Russia",
-      "source": "UNITED24 Media",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTGcwTWJGLXFUVVVBWGJZeTNDd1ZXNnZlOF9EMXVlZHROTW52Q0lyYWJ5UHRwcmZ1bm43ODBYMkcxaWxjd0plelc0aXhNN21ta3hHeGpCM294N1RYZGZwRmpqc0wwZEViS0ZFbGZRM29JUHlGUVF2SEdQai1iUl9KWFkxQnFQM3liY0JLSU1ta2diTFp6RThBaDdIaDhhbjVfcW5HMHMzckxsX1NWT0VZQ2NHbVJHbWRoOEc0THVR?oc=5",
-      "published": "2026-07-13T12:59:33+00:00",
-      "compound": -0.7351,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Russian soldiers in ‘close call’ as machinegun plan backfires",
-      "source": "The Times",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPR2QwUDh1N3NjRnUyeHRLZ0NzekZzeXY2bUdQZUlocUZGazM4UVhIb1libGIxQzBfWXVvNVdFRjJPc3F0YnBkS2c1V0ZxRnI5aWVvQnIxd2NYRWFMZ3V1T05Ia1VHRU43eGFzUjdmRGhtT056bXpIeEdzdzhOOHBtZjBZNGU4WEhlNFhLWllMeUZBQ0FBSmg2dFpxYUdyVTF2RkN3QVkwQQ?oc=5",
-      "published": "2026-07-13T12:50:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "Joint statement by the High Representative on behalf of the European Union and by Ukraine on civilian detainees and the humanitarian consequences of Russia’s war of aggression",
-      "source": "consilium.europa.eu",
-      "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxNR0pzOXo5NmlHZU5uUE1TRW1zTkVFX2NXdS1mWXJ2VjJ2bWFCOXF0c3otUlg5V19xemVwblJKaXMxM3loWkQyQ0JOME1rLTJMRnNWX1Zod19OMmszNk0xekw2SG5QYmF6bU9VSF91UGJwMzlVLXIxMC1Nd0pLUFRHMUlZbWRkWk90RU5rMWxkX3phN3NUR1dad3BhOFUzbHFieDFQZk1fRWVuZUo2TkVscVRMNFdiaDhxY3JwNTA3bG41bXVtWnNXXzdfeUQ1T2d3TkhxVkJJR2Z0NDJvSE1INXVlMEhUR0lNY1FaM3FOWHZNQkRFMW5vZUhxU2dkMzhZOFMwaHdJblFhSl9UcS1EdDNRWW9MWkdqWDRlTXhPYVBBb3NXTFVDVHJHWjFiVEJPelVIdWJ4M09QcVJMNG1rZFRhQUdESHEyRENMLVdaU1pLQ25jVWJZd0lqUDM2bUZl?oc=5",
-      "published": "2026-07-13T12:41:57+00:00",
-      "compound": -0.9042,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine",
-        "European Union"
-      ]
-    },
-    {
-      "title": "What will happen to Trump’s agenda after Lindsey Graham’s death?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/13/what-will-happen-to-trumps-agenda-after-lindsey-grahams-death?traffic_source=rss",
-      "published": "2026-07-13T12:41:22+00:00",
-      "compound": -0.5994,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "The late Sheikh Hamad bin Khalifa Al Thani’s legacy on women’s reform",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/the-late-sheikh-hamad-bin-khalifa-al-thanis-legacy-on-womens-reform?traffic_source=rss",
-      "published": "2026-07-13T12:36:41+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Irish police to engage with Jordanian force in murder investigation",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c621p1zne6qo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-13T12:32:45+00:00",
-      "compound": -0.5106,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Street in Illinois named after murdered Palestinian boy",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/street-in-illinois-named-after-murdered-palestinian-boy?traffic_source=rss",
-      "published": "2026-07-13T12:31:36+00:00",
-      "compound": -0.872,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Ukraine Hits Secret Underground Russian Military Hub Near Occupied Crimea",
-      "source": "UNITED24 Media",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeUVmSVNHeWZCTklaMHhZNFRLeWdjdXlobmRKV01ORHY1Qks1UFFVaF8xTVpBZjlBb1BFNzQyTVFzSXhRZmgxMndnQkt4LUQ5UjlmdDAzaG83UXZPUVduRk9XQXgzcVc2S1VqQk1xUTdNMjdiOTRmQld4NC02N2huQzZoRnlBb3FKUmhIc090OXUyMm1fTVRCVW5nMVB3NXg5NWNYTUd1YURvOVh6cnl4WjVWbmNhc21HVUI1Zg?oc=5",
-      "published": "2026-07-13T12:22:17+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Russia",
-        "Ukraine",
-        "Crimea"
-      ]
-    },
-    {
-      "title": "March to July: What’s different as US-Iran fighting escalates again?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/13/march-to-july-whats-different-as-us-iran-fighting-escalates-again?traffic_source=rss",
-      "published": "2026-07-13T12:12:46+00:00",
-      "compound": -0.8645,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Ukraine’s secret service is teaching a master class in covert strike operations",
-      "source": "The Telegraph",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUDRfdUh4cjhoVnN3eHl2WDVmcllnVUpRM3lzajFfdmxhbGxwamJCRkN4ODVwdHVuWUhZdnhhYkhiTkU2cEJ5SmZVOXVDLTJ1UFRaWnlWZ2p3UG1zSmRNaDF2VTY1czBmZGE0bVBMNFNoMEF0ZklHWTQzYUdvLVIyTXFybGcycTdWM1hUWmJCNjZBbzBQaVdTbnRfczc?oc=5",
-      "published": "2026-07-13T12:11:00+00:00",
-      "compound": -0.25,
-      "label": "negative",
-      "entities": [
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "A versatile actor whose roles went far beyond Jurassic Park - Sam Neill dies aged 78",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cx2wrvqq9rlo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-13T12:10:38+00:00",
-      "compound": -0.2732,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "The U.S.-Iran ceasefire grows more distant. And, Congress faces a consequential week",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/13/g-s1-133269/up-first-newsletter-us-iran-war-congress-lindsey-graham-gaza-israel-hussam-abu-safiya",
-      "published": "2026-07-13T12:02:33+00:00",
-      "compound": -0.6249,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Sudan's paramilitary RSF chief sentenced to death over war crimes",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cn4dk3kl0l4o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-13T12:02:19+00:00",
-      "compound": -0.836,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "100,000 dolphins killed in the Black Sea because of Russia’s war, Ukrainian scientist warns: “We may lose a unique ecosystem”",
-      "source": "Euromaidan Press",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUGZDOERwUUYtb1VncHViME52cVpoa0M2djZpczJRbDdRTE1mS2w3eEIwdGdrT2lCMXpGSzhud3dOWVVfN284WkVXQ3B0eWJqLTBLcFNfNlNVRWViQWJuTHlNQWFuOWtyYmxabGhqTlV3UkUyMG5DaDlPYjZ4aHk0NmpkRjF4TzBsSzJncHZDOC1KSndkcURDU0pCOU9hVF9tcWc?oc=5",
-      "published": "2026-07-13T11:57:52+00:00",
-      "compound": -0.975,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "'Hero, legend, sweetheart': Tributes to Jurassic Park actor Sam Neill, who has died aged 78",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cy06e5e1lygo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-13T11:52:55+00:00",
-      "compound": 0.5423,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "\"Russian disinformation is effective primarily because it exploits pre-existing divisions rather than creating them from scratch\"",
-      "source": "New Eastern Europe",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPNUVzSHRobjROR0Y0aU5mbzc0bjRaYUZub2ZLUDBRYVNkV3pQV1hFWVpZcDI2enRLQTNyNTM2YUJmNVBDaVdyZUN4NlBoVjdDSGdQMF9XWmhLRDFwek5fUVo0U2hBSWc2MTlOb19IZGxYNENvSV9LR3RaUXNZY0JmOG5Oa2dkVXA3ZjhMRDdINVJqWHpxc0Q1c21iVjdjUW5BSFpKc2Ewa3lxR0Z5bkhZOEJpa1VfeThYOVdWbEJOUUFKSEVqWExNaXJ6dTY3ZG04VVN1NjhkWEx6bGlIbWszQnVrS1Z0dFJCbnpBcXNKVlpJUzZvM2lidnNJRQ?oc=5",
-      "published": "2026-07-13T11:50:28+00:00",
-      "compound": 0.7003,
-      "label": "positive",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "Ukraine Strikes 105 Russian Shadow Fleet Ships in 8 Days, Hits Crimea Power Grid Again",
-      "source": "Kyiv Post",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5HTFpfUFYxb19PQ2hJLTFZWGw4QWJVSi00RlJTaFY2cVVNWVNwbU5VdnJuVWhMUWc5a0VSRk5YWHJubjBLREQyRzVONA?oc=5",
-      "published": "2026-07-13T11:50:28+00:00",
-      "compound": -0.6124,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine",
-        "Kyiv",
-        "Crimea"
-      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-13T19:49:14+00:00",
+  "updated": "2026-07-14T03:33:52+00:00",
   "losses_label": "",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
@@ -8,13 +8,13 @@
   },
   "window": {
     "from": "2026-05-15",
-    "to": "2026-07-13"
+    "to": "2026-07-14"
   },
   "kpis": {
-    "events_total": 119,
-    "events_unlocated": 277,
-    "events_7d": 107,
-    "events_prev_7d": 6,
+    "events_total": 124,
+    "events_unlocated": 286,
+    "events_7d": 108,
+    "events_prev_7d": 8,
     "hottest_place": "Strait of Hormuz"
   },
   "daily": [
@@ -137,9 +137,18 @@
     },
     {
       "date": "2026-07-13",
-      "total": 16,
-      "strike": 13,
-      "ground": 2,
+      "total": 19,
+      "strike": 15,
+      "ground": 3,
+      "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-14",
+      "total": 2,
+      "strike": 1,
+      "ground": 0,
       "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
@@ -1335,12 +1344,62 @@
       "title": "Trump says the U.S. is back to blockading Iran and will charge ships a toll in Hormuz",
       "source": "NPR",
       "url": "https://www.npr.org/2026/07/13/nx-s1-5891746/us-iran-strait-of-hormuz-updates"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US launches third night of strikes on Iran as Trump announces Hormuz blockade",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/13/us-launches-third-night-of-strikes-on-iran-as-trump-announces-hormuz-blockade"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Sanaa",
+      "lat": 15.3694,
+      "lon": 44.191,
+      "title": "In major escalation, Yemen’s Houthis target Saudi Arabia’s Abha airport",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/in-major-escalation-yemens-houthis-target-saudi-arabias-abha-airport/"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "ground",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US, Iran exchange attacks around Strait of Hormuz",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/13/missile-strikes-and-attacks-on-ships-reported-around-strait-of-hormuz?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "infrastructure",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Middle East crisis live: US strikes Iran for third consecutive night; UAE says Tehran has hit tankers in strait of Hormuz",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/live/2026/jul/14/us-iran-war-live-updates-strikes-strait-of-hormuz-middle-east-crisis-trump-latest-news"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "strike",
+      "place": "Bandar Abbas",
+      "lat": 27.1832,
+      "lon": 56.2666,
+      "title": "Iran war live: US launches more attacks; UAE says 1 killed in tanker strike",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/7/14/iran-war-live-us-launches-more-attacks-trump-orders-blockade-in-hormuz?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 65
+      "count": 68
     },
     {
       "place": "Tehran",
@@ -1355,12 +1414,16 @@
       "count": 6
     },
     {
+      "place": "Bandar Abbas",
+      "count": 6
+    },
+    {
       "place": "Jerusalem",
       "count": 5
     },
     {
-      "place": "Bandar Abbas",
-      "count": 5
+      "place": "Sanaa",
+      "count": 3
     },
     {
       "place": "Beirut",
@@ -1368,10 +1431,6 @@
     },
     {
       "place": "Mashhad",
-      "count": 2
-    },
-    {
-      "place": "Sanaa",
       "count": 2
     },
     {

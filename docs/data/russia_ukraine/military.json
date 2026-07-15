@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-07-15T13:25:56+00:00",
+  "updated": "2026-07-15T13:27:07+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -48,10 +48,10 @@
     "to": "2026-07-15"
   },
   "kpis": {
-    "events_total": 119,
-    "events_unlocated": 231,
-    "events_7d": 15,
-    "events_prev_7d": 83,
+    "events_total": 169,
+    "events_unlocated": 435,
+    "events_7d": 60,
+    "events_prev_7d": 84,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -74,9 +74,18 @@
       "anomaly": false
     },
     {
-      "date": "2026-05-25",
+      "date": "2026-05-23",
       "total": 1,
       "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-05-25",
+      "total": 2,
+      "strike": 2,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -88,6 +97,15 @@
       "strike": 1,
       "ground": 0,
       "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-05-31",
+      "total": 1,
+      "strike": 0,
+      "ground": 0,
+      "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
     },
@@ -156,8 +174,8 @@
     },
     {
       "date": "2026-06-29",
-      "total": 1,
-      "strike": 0,
+      "total": 2,
+      "strike": 1,
       "ground": 0,
       "infrastructure": 1,
       "air_defense": 0,
@@ -210,10 +228,10 @@
     },
     {
       "date": "2026-07-05",
-      "total": 5,
+      "total": 6,
       "strike": 3,
       "ground": 0,
-      "infrastructure": 2,
+      "infrastructure": 3,
       "air_defense": 0,
       "anomaly": false
     },
@@ -237,56 +255,65 @@
     },
     {
       "date": "2026-07-08",
-      "total": 6,
-      "strike": 4,
+      "total": 7,
+      "strike": 5,
       "ground": 1,
       "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
     },
     {
+      "date": "2026-07-09",
+      "total": 4,
+      "strike": 2,
+      "ground": 0,
+      "infrastructure": 2,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
       "date": "2026-07-10",
-      "total": 2,
-      "strike": 1,
-      "ground": 1,
+      "total": 9,
+      "strike": 5,
+      "ground": 4,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     },
     {
       "date": "2026-07-11",
-      "total": 1,
-      "strike": 1,
-      "ground": 0,
-      "infrastructure": 0,
+      "total": 14,
+      "strike": 12,
+      "ground": 1,
+      "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
     },
     {
       "date": "2026-07-12",
-      "total": 1,
-      "strike": 1,
+      "total": 9,
+      "strike": 7,
       "ground": 0,
-      "infrastructure": 0,
+      "infrastructure": 2,
       "air_defense": 0,
       "anomaly": false
     },
     {
       "date": "2026-07-13",
-      "total": 2,
-      "strike": 2,
+      "total": 9,
+      "strike": 8,
       "ground": 0,
-      "infrastructure": 0,
+      "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
     },
     {
       "date": "2026-07-14",
-      "total": 1,
-      "strike": 0,
+      "total": 6,
+      "strike": 3,
       "ground": 0,
-      "infrastructure": 1,
-      "air_defense": 0,
+      "infrastructure": 2,
+      "air_defense": 1,
       "anomaly": false
     },
     {
@@ -331,6 +358,16 @@
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQmJBZGlzcXYtRVhzX0hzOUxoempYMUhOc21UYWRHUkJrMjN2dWpNaktSWmRxN1FSbjRaUTZYaDRzS01zdjNpVHU0OTFoZGk1MTBibTBYVC1ZRldkSlpwai1OR1BiN3piSWlxdDRUeXpXNjZpVkJhZEFfeFFJbERLVUNfOXZJQW5QbWFwUWphZWhZZEZxSXM2Ny1mVDJlUnR4bks4dGdTdw?oc=5"
     },
     {
+      "date": "2026-05-23",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: Zelenskyy sounds warning on Oreshnik missiles as Russia strikes Kyiv",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPbDF1bGxDaEU1TWsxWld5b090NmZSbms2Z3pxNXVTZHhtTktNV3drenY5QjBtTWFwNlQ3Z0F5Z1NPY1Q5WGQ3REk3ZHNIUDZudFc5YnpDV0JxOTZ0RC1BZE55WUtubEljZnlXSFI3Ty1TMXotdzJtaDZJb1JfdVZCdDY5SkVjYVhudEdaeldKZ3I0dDdwZUVSZmhWemQyOFF6U0RKbDBxZGlpc1JhVzEzVm5hdm43aUJEQlRzcGIxVXo3UlhoY214cFllU2Rnc180R1cyLXJR?oc=5"
+    },
+    {
       "date": "2026-05-25",
       "type": "strike",
       "place": "Kyiv",
@@ -341,6 +378,16 @@
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZTF3TzRleUdUZEptV2xCbjAyVWRISkNuTTBEM1hTWXZtZk9fT25jV0M3X0x5NlJWN2FxeUtqMjRMWWhac1RSX1U1MHl4dFJJSkZPZWE2M3lsNlJkTUtTZ3BvSkRmWXdBOHRTbG1FSDdiSUpGN0p1THdLaE1mUFBGM2FEY19wLXZEcjA4V0doX1BCUmlINUkzYU0zQTZ6djYyY0V4NTZNOEpEZw?oc=5"
     },
     {
+      "date": "2026-05-25",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: Putin accused of ‘reckless nuclear brinkmanship’ in Oreshnik missile strike on Kyiv",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY3p0TUctSjhrdEFQTnVkOFBpd21iVVhyUXlFZ2dhMEhBbGgwbjU3QmNPZUNMdzJOaEJsT3hac0hteGVxSV9zSDVTcm40OHA1ckdRSldwalBabkUwY3pVa1JIOHdqc1JqRlZsekRNM3VnYU4zeE1PRXNqdVlSWlAwWld2UkhnX3htMGFYUFhaQjJGS1hvdjc3OFBpREw3ZHpsd0NLZVpaNFZWeVZWc0JmNDE1dGVOUmxNaUJiX0JUT2cxaVNGOHNLaXpOeV9PajFW?oc=5"
+    },
+    {
       "date": "2026-05-26",
       "type": "strike",
       "place": "Kyiv",
@@ -349,6 +396,16 @@
       "title": "Russia tells Marco Rubio U.S. citizens should leave Kyiv ahead of 'systematic' strikes on Ukrainian capital",
       "source": "CNBC",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNlRvMlFKbWZJclBrLTVfRnVRVmg3NHVZdkNtek9IZkZNbERhZkZkNTFtUEU4eGdrc0x5bjRyeUlvTDd1Y1F5TmwweW85bG5UVkcwQzRsbVd0NjE2MzQ2SktwazZPZWNUVFpYcUlwT2NlcU53RDkzZFhoVnZmeHMwNTNJQ244d9IBiwFBVV95cUxPX2F5MV9uc3pJcG5GVXhEbkc4endvVnF4NG1LZnFWaDlVdHJqZFRJNEhyOElZaG9qdE9taUYxaldFR2E3UGU5aUJYeDR4ck9EaEp6VDRaMlViYld2RW9FV2xNUF8xWHJMQ2lmSW5QZ3BkR0NuSjB1eFJPR2VLQ3RXbDR6akd3VzNfc2NN?oc=5"
+    },
+    {
+      "date": "2026-05-31",
+      "type": "infrastructure",
+      "place": "Zaporizhzhia",
+      "lat": 47.8388,
+      "lon": 35.1396,
+      "title": "Ukraine war briefing: Kyiv denies its drone hit Zaporizhzhia nuclear plant",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNS3VLV1JKVF9XSlFYaUJ3SUpPSFc1bnd3bEJQclhGNE5DVGtXczBQRkpRdUEyT1EzNUxfU1JYeENvQTNScFhZeURJOVd6OGdTNDRBQXJBLUhnVjBaM0tpNTVUUnhyVzNYSngtcGVxMm1iUkF3SnVZa2Y4RHZNcmMyZ3FLYnVJaWRvNHZyX0tCOGV2Um0tLXRBV3Y5US1uUF9KVXJ5RTdhSmZmTWZlTDloSklXaHdQRHdZWXo2UkRZWUExVml2Y0pzX2dsRng?oc=5"
     },
     {
       "date": "2026-06-15",
@@ -459,6 +516,16 @@
       "title": "Ukraine war briefing: Putin expects US negotiators in Moscow; fuel rationing in Siberia as crisis bites",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/jun/29/ukraine-war-briefing-putin-expects-us-negotiators-moscow-fuel-rationing-siberia"
+    },
+    {
+      "date": "2026-06-29",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: Kyiv hit with ballistic missiles, as civilians killed by drone strikes in Russia",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNc0NJNU9hY1phSEMzNEdQX2dOMGpQLTliaFJzcVdDNXhqcHZ3YTd4RlFnTkt0dW9ycWp2VTdMcDZrY0VTM0hNYkFLMGhibG96RGdZQjBVYjByOThfME5HcExjeGtCMllZV1RGR3A5bDF4TkpvR0lhWFpiOVlHWFdlcjJxNjNBaGFoTVBUYkd2ZlFpWUxqdFcxS2FMRUdsSkJTZnJMaGR5TV9KeW1VS29WZWFBRTRHMWJ0d1g3RXNvTi14QUNuM0VOeURB?oc=5"
     },
     {
       "date": "2026-06-30",
@@ -961,6 +1028,16 @@
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1qa3hMcDFlQ3pPa0YyNllFUjFqZFdyNUNra3pnLVhGc3VsWWh0dDhuLUEyS3lCbXhfcGItZ0I3TGl3ZEo2YVR0cno1dXVoM2tWSzVPaXhHUTc5NHNPYWV1MGZuTXlVWVNOMXlrSjJGSnZvTDhOUC1B?oc=5"
     },
     {
+      "date": "2026-07-05",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine-Russia war live: Trump offers ‘solution’ to Putin in phone call as Kyiv hits St Petersburg oil port",
+      "source": "The Independent",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPaE1HWWJ3M3h2d284WHFIQ1NzZkg1OTN4c3I4Q3MzbUhmaHpkWS1Iam9MTGt0OUVwV2pUWTZJYTRIZXVVd2tzYjNuVk9JR1k3S0dSMkVBOGFsWUdZLVRUUjZDU1phcnRMR3ZacDdLVXhnV1B2MHg4ZzM5SHl2T0h3V25ieFBfWGFHRUNNSFcwMDVXY1gzbjVSQVQxSERKeGxFZXh3TUF5VXlGZmVRcTlONzVOYld4alR0Q3J1V3MyMGc1SzFPU2I3TTFfUFJ3WXM0OTdxUHhqSzI1ZDJLbWlTM3lJVE1aTVNlS0pLT1lFeWR1TFFReEo4T05R?oc=5"
+    },
+    {
       "date": "2026-07-06",
       "type": "strike",
       "place": "Kyiv",
@@ -1401,6 +1478,56 @@
       "url": "https://www.theguardian.com/world/2026/jul/08/ukraine-war-briefing-kyiv-targets-kremlin-shadow-tankers-as-russian-strikes-continue-in-capital"
     },
     {
+      "date": "2026-07-08",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war latest: 'Make them yourself': Trump gives Zelensky green light to produce Patriot missiles",
+      "source": "The Kyiv Independent",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMVdKVlVMdE12WFhWaDV6VEhJNEc0VmNXWVdBd3VXaGphTVhaZTNyV1FiQ0ZqdHk0MXllZktUZW45a1Y2azd1Y19BQlRCbWQ3SVNOd2hNdF9RWF9yNkFDTEJBdDZpbVF3bmpTdTdKTFFFLS1rc0dRU09jSFdvTHVjX3Z2Y1o0X1YyMU0yNXNnWjNrbXRpdFpZaTJsLTl1TU44REtYejJ6aGhYelVGUTItRzd0bDdueTJMZkMteVhtZW1DUjAtLXc?oc=5"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "infrastructure",
+      "place": "Odesa",
+      "lat": 46.4825,
+      "lon": 30.7233,
+      "title": "Ukraine war briefing: Russia bans diesel exports as refinery attacks ⁠trigger gas shortages and price spikes",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/09/ukraine-war-briefing-russia-bans-diesel-exports-as-refinery-attacks-trigger-gas-shortages-and-price-spikes"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war live: Trump permits Kyiv to make Patriot missiles as Moscow fumes at Nato",
+      "source": "The Independent",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOS083el9mZlRKUlYyNjVvTGVMaThQSXN6QVVCblNUZVg1Rm9weHJRM25qUVhpVDBlQ1JVTFVUU3FUZHFFb2NrSXM5Y1NlMXNyOC03czFsSTVVQ0h2cXVwWkgtZENlQXdVSEtPQWsyZHpuT0hUYWhWLXBYM2I1Z1JDWFB2dFNPdzBRN25QSDFqZ2hpSUFYZHBXa1ljRUNTOVp4NjM2cjNkeG1oeUt3ejhEdGl0bDI2VzdMQ0ZVTw?oc=5"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Kremlin Pushes Back on Trump Over Claims Ukrainian Refinery Strikes Help End Russia’s War",
+      "source": "Kyiv Post",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5SVk9MeU5teEgydUdQS1VnY0JyS1JVdW5BYlZnQmxzdmN0aTVpSldRU0Z5QVBYSk84bTA0UFZFZHJYZUF6enR6Zm9xOA?oc=5"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russian Strikes Kill 12 Across Ukraine As Kyiv Escalates Attacks On Russia's Oil Industry",
+      "source": "i24NEWS",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWC1faS13MGJmcFJvTThBQUJON051bDQ2Y3BGT3NCN2RUZGNXcUxXQVM0dnBZRlpSLUQ4bElyRGd5Mll3ZFhicmh5MWlLaFVhZ0w2b1lLdHh3QlZEcGdRVDg0Qk9UaTMzb3Y3dFJ0ekVhTzJobE1qSWE0Tzh4bWU0VkpfTzJ6czBUQ210bGZqLVFhVlpoRURHMnpYVzZSbDFEbkhiRlBIZDBWWWRyd3FXdjZlSHN3cTk4T1ZFeHR6VFFNMVBBSW90OHZXcU5nZXozQW9ReVNCaXlqZw?oc=5"
+    },
+    {
       "date": "2026-07-10",
       "type": "ground",
       "place": "Kyiv",
@@ -1421,6 +1548,76 @@
       "url": "https://www.theguardian.com/world/2026/jul/10/ukraine-war-briefing-kyiv-reaches-political-agreement-with-us-on-patriot-interceptor-production-licences"
     },
     {
+      "date": "2026-07-10",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine Condemns IOC Decision on Russian Athletes After Deadly Kyiv Strike",
+      "source": "Kyiv Post",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5UeU5ZN1N1RmgyQVZOVmEzQjBUZ2xURWlQMVdFNWRvNlRRdExnVlR1dmU0SGtQQW9MTTZHemhjMFRVbzhKeXZfY0pFRQ?oc=5"
+    },
+    {
+      "date": "2026-07-10",
+      "type": "strike",
+      "place": "Kherson",
+      "lat": 46.6354,
+      "lon": 32.6169,
+      "title": "Russian Forces Face Boat Shortage in Kherson After Ukrainian Drone Strikes, ATESH Says",
+      "source": "UNITED24 Media",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRDV3T0NIZTgxTm9aNndkUEcwaUdCNW1MWjFOODFyeEdKS0tScDVwRGxhVW5jVWlVaFhhb01vYTJRYWxGRktpemRyUDRXX01vMkgyUlNXYjZmSzBVa1o2Q2pSWXJ0VjdLVmF3S3JNdHZYZXljcDNYN3I3b0c1SWVNU1pldmI5QTZoaHdFTzU4dE5aZ0tVX0U3SmgzM2RkbXZBRFNjWTNvV2tKaFU3Ym9nUXdTWXd3SUlIN3dMYlF5RWFQY1FzUFBzUXlwY2I?oc=5"
+    },
+    {
+      "date": "2026-07-10",
+      "type": "strike",
+      "place": "Kramatorsk",
+      "lat": 48.7389,
+      "lon": 37.5848,
+      "title": "Russian attacks kill five as Ukraine continues to target oil infrastructure",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/10/russian-attacks-kill-four-as-ukraine-continues-to-target-oil-infrastructure?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-10",
+      "type": "ground",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "US Senators, Administration Agree To Advance Russia Sanctions Bill; Kyiv Hails Move",
+      "source": "Radio Free Europe/Radio Liberty",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVHdDUTJ1QW1mMlRfTmp1czNETXhlVXYtRkhPRjF1U1NIaDZTcjFGOWkwUl9tWDJWMFpaclg0czgwckdyaDJ3dmlGQWxGY1IwZWt0S0F2LXd0WHhYLUdCbUNncHdqOWxjR1prZFc1U0ZzbFVhVE13T0puR2xKSGhqWTZWeXE1bEZpTEHSAYwBQVVfeXFMTnB1Qmk3QWJUdTdiNk1EMnV6S2laUmU5NVJ6azNUV1hNSGVmOTBaam9ISXlhNTFIOWdBcTlXaE44bFNQWWN2VktoZ3k4bzlHS1YzTEZqNlJzeUpDYm1vcUpnUjFlS0tqU2o0S2FNMWZEMzNfSUhERDhKb1BhaHdZUHZtRWxWZGVOSXVydlI?oc=5"
+    },
+    {
+      "date": "2026-07-10",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Russia Says It Will Widen ‘Buffer Zone’ in Response to Ukrainian Strikes",
+      "source": "The Moscow Times",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNR05KeFIwX2RWTDRyMzNhbmN1N21RWFBhdGxCa0MzVW5TcFFhd0NhdmhKaXFxaXJRQ0g5a3BoNGZtY2EzVDVtQXYyZnlpZVhnT25Gc2taVTRId2ItOUN0XzljMThBcDY3akRaVEFtYWIyWHBSQVlBaWN4ZGtXbW9lUnFTTE4yNk5nUEllNXgwbVR2UTEzVVJ1eTQ5Qkd1cHZCTHBnX19reElqVnNMblBBVmVnZFZzd3RaMmNB?oc=5"
+    },
+    {
+      "date": "2026-07-10",
+      "type": "ground",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war latest: Russian territorial advances slowed by more than half in 2026, Syrskyi says",
+      "source": "The Kyiv Independent",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSjRsdDl4a0FvM3N4Z2I1RHNzN1hrNUFIRFhJWjg2QTk3R1ZCTzdaSXFfLW51bVlpVkZkYURFeWZkTzZYRWFUZjZYazRMZmppUmIzRE1mUzRSRTVxVmM3UFFJYVp4NXpSQjh6SVBzMWNId25aMzJlOXZsVkdacmtaV18tV2syNm0wc2w4MXBiaDVVRnJLRml4VS1FMEJLQW5US0psMlVoblVYaUdLZVRrTVFZUWdrNzluOC05aWFkNA?oc=5"
+    },
+    {
+      "date": "2026-07-10",
+      "type": "ground",
+      "place": "Zaporizhzhia",
+      "lat": 47.8388,
+      "lon": 35.1396,
+      "title": "Russia trains sights on schools, offices and buses in busy Ukrainian city",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c3dyyln23v8o?at_medium=RSS&at_campaign=rss"
+    },
+    {
       "date": "2026-07-11",
       "type": "strike",
       "place": "Moscow",
@@ -1431,6 +1628,136 @@
       "url": "https://www.theguardian.com/world/2026/jul/11/ukraine-war-briefing-zelenskyy-long-range-impact-command-russian-energy-strikes"
     },
     {
+      "date": "2026-07-11",
+      "type": "ground",
+      "place": "Zaporizhzhia",
+      "lat": 47.8388,
+      "lon": 35.1396,
+      "title": "Zaporizhzhia’s mayor says Russian advance reaches city’s outskirts",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPd08xTk44YjRLY2FXeTZDNERMeW5SY0dyZEgtMGRGaG5raVg0UkU5UGQ1VjZTZzNnaEFpaE1nLUV6Q1Vjelc0dlE1cVByWnJKVndCTS00WmEybTMzQWJHSjBoUzZWanoyazJJUnozMUFVd1pwQTVVUm9Ud0h5cGNiQUlyUGhYS3F0SjNjUWt0Ui1IcjB3R1A2eFFUSWpnRW00VzZIVnRlVF9fMm41UUxlNEd6NlgtQdIBuwFBVV95cUxQa3FoNnI2eEppLWJIVVhrMXA4Vk5ESEFKaGlzRktZZHd2eUswU3J4WlFBOGFBN0ExUlBxT1JHbXBsbVB2Y0dsWU9KanRWZWtqS0xHOEVGVnlZUHhYWHpZcDNYQzNmWWNKUXExRzlUM052UzItaXlUVEFwOXZsOEF5Sm9WdnhvOVNlNmk5bHAzbVpuUGNCNlQ1WmdTVm56V0dzUDJINm9WWmxLNk5IcWhQTFBuUnNSZmNsanBV?oc=5"
+    },
+    {
+      "date": "2026-07-11",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Multiple explosions heard in Kyiv as Russia-Ukraine war rages",
+      "source": "Firstpost",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVHNUZklseTlSVk8xWEl3MDRkZUJfOEZwT2Y1WnJzb3paZFhNdDBOSmFBeVA1NTZkYkhVS1VUWkFEUWdINUpJNm52djM1MlVCRE5adHBNRkd2UFFkcjM1N3JHc0tjTnFucXhKb1Btb0RSUnBGdF9KRnJuckIzd1hNYkp1YWR4Q2FOTTNiamlaYzZxNXdiajBEUGpkRUJsZjh4MldhZlBneWVXQ1XSAbABQVVfeXFMTnhrWGc3U3NUajFyMXFtQTNhUmVKYXFaWklkUTYyUVljWnUxNlFEN3pNNnRlMGdIeTNKdDdsUkQyMWw3MFNuYmJVZWVYN0V5NGVjUWpRUFVJR1NwSEl1akJmajNpaVIxY3hJX3k5SUd5eEJFRG13dGFmVVJocWVxaHhFSDhYREtVcVhxV2E2WFdKdEQyRmRpeU10V0JnYnMxNDc1TzEyNVBIOXRsTjhFMHc?oc=5"
+    },
+    {
+      "date": "2026-07-11",
+      "type": "strike",
+      "place": "Zaporizhzhia",
+      "lat": 47.8388,
+      "lon": 35.1396,
+      "title": "Zaporizhzhia’s mayor says Russian advance reaches city’s outskirts",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/zaporizhzhias-mayor-says-russian-advance-reaches-citys-outskirts?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-11",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russian overnight strikes on Kyiv injure ten",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPc0VPWWVGVlZZU2o4ZFBNS1R0dF9mZ0hJMkpLUGRpbEN1cFo4Q0dRVGMtTVMzazJoOGpoTGVaYnJwbURhdnprWUhIOW93dlZvUjVhWENaNlRER3NVV2hiLVpSQ1ljVkctSi0wVXkza29hQ2dSQW9HNTVGVXlmZlY4cjVncmxhRUZPajJHdUhCc25WRllHVEF0QTU3d9IBoAFBVV95cUxOSEtZSE1oQkt2RUtqbEtPZVZyalNLOHRUNU9pUmVodVo1LWpKbWFmcUpUUDA0VUgtVkhBQzlzZFVEMkdEQ2l1N1YwVU5wOG91MlNsOEFpQl9neXZJSml4eUpMdHREZkllNDJycU1XUkRDS0swLTZBWmk4V0trQnVMUVQxQXNpcXZjNmNadFBJSks1T1BVVlRSSDViRE1fWjBY?oc=5"
+    },
+    {
+      "date": "2026-07-11",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Is Ukraine About to Cut Off Russia’s Land Bridge Between Crimea and the Mainland?",
+      "source": "Kyiv Post",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE83SnJuWno0SGFhclBaRW5XNW0wX0dtbmNzRENjcmQxVmlDQjNVLUFQbzItVVAySzhpME0tWXU2VnVrQUROZnkxU29obVkwejg?oc=5"
+    },
+    {
+      "date": "2026-07-11",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "At least 11 people injured in overnight Russian strikes on Kyiv",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBrdWZuSktIdmNTUmMxVEVkc1k4bXlhRTNvQkNTVTNoVldJQnVKSTFBaFFJX3NMTjlGNE5OMnV2OUxUNUJIaVl1Vk11TFhwWGxOWF9oRl9pMkZyU1dhSlRvVHpuSU1OUk5JN192RWY0akZaX0ZrYUt6dmhR?oc=5"
+    },
+    {
+      "date": "2026-07-11",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "10 injured in overnight Russian missile and drone strikes on Kyiv",
+      "source": "Audacy",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ0p6VjlYM1hhWXFiU2VxQzdTUHc0N0E5NmF4VDVkb2VOV0t1M01mMjFQOUtmUHRZUmxvRncwMWxrRE9NM2Z5M1JiTy1tMXlnd19vVUlhQUZaeThYdEczZTR1SENBMENKdUhBNldhdFRzTDY2QlQ5Nk5xOGRrQUJjZ0p6RUZXSGF5aXphaHZzQWVUUEhYNW9mOXBfOVFYbktiN3ZYRzhoSzVEMTRVYkZCd01ON0N6Rlk?oc=5"
+    },
+    {
+      "date": "2026-07-11",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Video. War in Ukraine: Kyiv hit by Russian ballistic missiles and drone swarm, 10 injured",
+      "source": "Euronews",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNekpjVzhrczNvYUZZZGFpREFQVXVmQ2NvYTF5UlhWWW1ib0NkczVfTk13QjlRckF2eFhWTkE4SEpDdTJpVWxxLTBkMmIxMmk5ZUhpR1RNQkFlbDZSSFFzWThZT2NCbUZoV2s1VHR1Ni04dndNM1hLd0llNU0zNkZXZkVFM0w3SE93UmNxVnozWDJ1TGJPMEx2UW9POU11Mktxd1hkZzVwNHRKQ1ZCeDFjTjNaVnFkWk10dW9RQ3d0RQ?oc=5"
+    },
+    {
+      "date": "2026-07-11",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "11 wounded in overnight Russian missile and drone strikes on Kyiv; Ukraine attacks Russian vessels",
+      "source": "The Tribune-Democrat",
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQN1ZxVHIzWU9ZZmVsV0o4czFBTVRieTVSMHg5RjBkY3FyMXNBbUR2MlBjay05ZjUyVGdtSllYejhjWWxySHJVWUxkZml4Tmd5U1Y1Z0ZRT3VRTzVHSnN6N3U2NmtBTjQzN0p6RzR1MVIzRGZvNmFGVmVnM0VJUktWREtaSHM4OU5JNVVFTnpfOGRObXRSNWJlQ2RYMkNyQmFyT1o0ZGdZbE55QklJYXZtdGpmSnV2R2hnd1h2SVBuWDFod0F5Z3pnS0lYQW8xem4tM2hWeVZPTS10a1FtOTJuNTFoUmE3a19XQ0tEZ2RDTmxSWmJnM0o5NDhzMTBYOGJCeXNjTzM5MXlGbFFmMEZzbHpCMGdiRVU?oc=5"
+    },
+    {
+      "date": "2026-07-11",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russian Missile Strikes Wound Six in Kyiv",
+      "source": "The Defense Post",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9qaFgzVEFfeVNsMmZ4dmZaQTQ0T2Y0WjFGYnZaOHRvcmZYM0hldG9qdGwyQm9vSWJveUlxZGdFYWkzMmYtc0JLTWZCbi0yUUUwVlhYaElaY1BLdERCT2ctMEVEZ2lPR1dmYnBtUldBUGF2OGdLMFHSAXtBVV95cUxPWGhmbGVJdk44T3NNN3ZtOWtnVjctT3JuaTNDSWxvYkltZUZTUTBZUTlQbkFvS1pwT3NxaVpsdk5IN3VkOE9OQzFMNWFkTXhteWtwemI3YjFFc2dpRXB0Ty03R0dOWGJTdkgtRkxhdjR0NEUzdXBvRmpSakE?oc=5"
+    },
+    {
+      "date": "2026-07-11",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russian missile and drone barrage kills two and wounds 19 in Ukraine",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/11/russian-missile-attacks-wound-11-in-kyiv?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-11",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russian overnight strikes on Kyiv injure ten",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/russian-overnight-strikes-on-kyiv-injure-ten?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-11",
+      "type": "strike",
+      "place": "Kerch",
+      "lat": 45.3531,
+      "lon": 36.4545,
+      "title": "Russia Halts Shipping Through Kerch Strait After Ukrainian Drone Strikes on Vessels",
+      "source": "UNITED24 Media",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbWNaaWhhRlh1SXp1U3NKZG5sMVRMT1NHSXNvakRvSFlIekUwSDJUdzhMdURZNjh6VnJJUXdQZ2hEdU1EOU9EOHdkazN2NUZnbzM4RVFhT2FoWTJUZUhHVEVldTJvRzlZYmhlZjBBbENQSk1ua3JiVE9SZnRSSHBJVFZJa1ByejFUdUs0RGFzZWk4OURGNzhtYmFJOFpkOVBiZ3N1RHlDSWRFUUxfZzB1ZEpMYXF6VEI1OEhxelBGQ3BrNV9WUl9oQnVR?oc=5"
+    },
+    {
       "date": "2026-07-12",
       "type": "strike",
       "place": "Kyiv",
@@ -1439,6 +1766,86 @@
       "title": "Ukraine war briefing: Zelenskyy decries housing of weapons in civilian area after Russian strike kills 10",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/jul/12/ukraine-war-briefing-zelenskyy-decries-housing-of-weapons-in-civilian-area-kyiv-russian-strike-deaths"
+    },
+    {
+      "date": "2026-07-12",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine War, Day 1,600: Kyiv Hits Key Russian Oil Refinery",
+      "source": "EA WorldView",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE00ODloWlQyY0J6aTRaLVBXcHR1SzJHOUxvbmoyTXZOMGFTR1pSdDZuR3F5TlhrZGppRVU3VW13V1NhcEpvRUpJVm1jTUpyQzZicVZ2UHcwQ0JhX3ZxemVyQUNzX1oySFZzMkRyN0cweXE2bDlXUHkxMTRyQmMxRlk?oc=5"
+    },
+    {
+      "date": "2026-07-12",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Russia Says Ukraine Struck Tanker in Sea of Azov",
+      "source": "The Moscow Times",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbVFDd21ZLUFoVmd4dWVjUmFaSGZ0eFc2QVRxMVNreWNoS2NLNjhYcWRpWmlBMlRrVl9nWXJkQ1FaZnlBbHRJRk9KTkNERjZSOW9ZUkNkbFl3VzJONkhjbm5NVU92WkUzM3VKQWVkT2dkTWVXRVd5NnRKUFVFZEdORGxwNzd4QzZrSXJTb1k1NG1rUDB2dW5rRUpSWGNfUQ?oc=5"
+    },
+    {
+      "date": "2026-07-12",
+      "type": "strike",
+      "place": "Sumy",
+      "lat": 50.9077,
+      "lon": 34.7981,
+      "title": "Video | Russia Ukraine War | Russia Launches Fresh Missile & Drone Strikes Across Ukraine, Kyiv And Sumy Hit",
+      "source": "NDTV",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdVVadkRxNDhyd05KWGhDYWtOcUNVV3pkMzRFZHl2Rmo2VnBqTlNvWnhOM2N6cmNpN3Bjc0RIb0NoUUg3SlBYNWZUY09UM2hfd19ad1diLWRpdkVPWUllU0s5SXlQWGpjWF9nMFdzUm8tb0NBOEp2aXdkS0tXXzJTU2U2TDdyQnNjdFRTZWg2anc0NGFlSnhMNWdHMkY2QW5GZl9YM3BVRFkzdHpsQ1BwOWZkMlhGdmlrdVAzQU45NDZxRllOeGluMHJB?oc=5"
+    },
+    {
+      "date": "2026-07-12",
+      "type": "strike",
+      "place": "Donetsk",
+      "lat": 48.0159,
+      "lon": 37.8029,
+      "title": "Ukraine Strikes Secret Russian Fuel Base Hidden Inside Cement Plant in Occupied Donetsk",
+      "source": "UNITED24 Media",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxONXZjWGNLZmwyQzVjSm50bmU1cXFOZ1o4eDVzR19qSlRTMUhPZm4xbVNseklNZFR4aWdiUnd2RDh2WFhpVjlmZW9Sc3RqbmJxMnhXU21iNDF3amRfejFyaWx1T05vcldBelMxT05rRU9JSnp4NWxIYzdOaTMxS25NZ3RsQk1RNnBJWjNYZEZHa3hsblYwQTk3X0oyME8wa3NYeVB2V1I5SjM5UFItV293bEJQMmZJZnJQdmh5dXBNX0JwM1RGWTY0OGhyYXVnb1k?oc=5"
+    },
+    {
+      "date": "2026-07-12",
+      "type": "strike",
+      "place": "Sumy",
+      "lat": 50.9077,
+      "lon": 34.7981,
+      "title": "People flee as Russian strike hits near Ukraine coffee shop",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/videos/c8r27drk1nxo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "date": "2026-07-12",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Nine Dead as Russia, Ukraine Exchange Strikes",
+      "source": "The Moscow Times",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOejZXUmlXUjZEN0dYNy13MWdhUGY2LVBPWlFHcTJpM1RCNExyN0dxQWVQZ2FGVlJESUNJRlludE9uVDE0cHpGSFVKTlZ0RHBSX2hMV2dHbEJoNi1wc3FDdTktRmp2OFpnT0ZtMGRTZjczRVN1ZmxhdUVEZmxtVlkyMTcybWR4R010YVBNMjZDRXV3TkJVLWVCNQ?oc=5"
+    },
+    {
+      "date": "2026-07-12",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "9 Dead as Russia, Ukraine Exchange Strikes",
+      "source": "The Moscow Times",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaHpaekdlNlg2cnB6ZTlwT01PRXlHMW9jVUVQY056aWhKWTN4d0UxYTAwd194YnV4cGVIUTl6U0xNYUU4WnhjZGxfTnZSUVZYbXctVGNWWHNZSlFDejlla3Y3bWR4ck9pRkpCbjBsNkFMLU9nWWZDamdlMmlXUXo4aW5qaXRmNG5FMldxTzFpMmRoT3Zs?oc=5"
+    },
+    {
+      "date": "2026-07-12",
+      "type": "infrastructure",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Ukraine reportedly strikes Russian oil depot in Stavropol Krai, explosions reported in Moscow Oblast",
+      "source": "The Kyiv Independent",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMXluUGJmaU5pR1NSWlpCdzhDSmd1d0FVWmFxWVBDdFVsOWRnbWNsMTdvRUxwNjVCWDI0SVlldldwNjUyR2ZESE5fM19JdFpHQjRxQVpFYWt6VWxZX0FmRTRzNC10RnZMQmVyeFR2WllGQ1Ztck9aWWIwNFd2NFpTd1BDZkFQU21adUVCemRReEhlQkFpMVptUmdLaw?oc=5"
     },
     {
       "date": "2026-07-13",
@@ -1461,6 +1868,76 @@
       "url": "https://www.theguardian.com/world/2026/jul/13/coalition-of-the-willing-build-shared-european-anti-ballistic-programme"
     },
     {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war latest: Three killed in Kyiv drone attack on Moscow",
+      "source": "The Independent",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOY3pkMkpSUUVwajNuWlUtZS1PZW9XWG5kOWpTdUdrSlNkMTFkZk9vSXZvNHBpcWhvcXE0LXZxYV9jOXNhWXotV3RSMnlOY0laaTNLak12MDV3ZFFGYjg5TDgyOU81amVGaHlmYkdwYm15ZEwzYXZtajVjZkttT1RKdDRlTXhJNHNNUldBRXRqdVg3TWUyZEtwOFNpaHdRRm5Ua25ZejNzc01RcExuTmxBQ0pQcVg5Z2JpZlFVcQ?oc=5"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Ukrainian drone strikes kill at least 3, wound 5 in Moscow region",
+      "source": "France 24",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUG1yS3NJbzdERXpNSlBvcHNmUnpoNmg0NWRKaHVsYW0tQUxOTndfRU4zcHBqbGQ2UVdabXh5WjJoQWk4bGs3UGxrTXZEbzJFQ2V4aUpxcUlOZDJZTlJqcjdfbUM2c2JUSVhuMUJtWUpyanp6ajFwWFl1M2lDZHVHY3lNX0k3Q3J3azhCM3c3TGJyR1gtMlBLaUZQNV93cEs1c1hPUDlvMlk?oc=5"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine Allies Gather in Paris to Bolster Kyiv as Drone Strikes Hit Russia",
+      "source": "Kurdistan24",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMklRc1c4YkF5X3VscURnYTB2d2ZyZTUtdnVMeExJUWJ4cmMwRG5jaDRpWHNOVVRxeU5IVXQ2YTFuVVJKaEV1TW9kZnBqWnZRN0FKRnk2a0lLR1Fmc2JpaDgzUmpBcjZ2MnhwSnpsRHJnVVg3dERncE4wSzlNa0VudXJXNGRPYTdNbE9GVXJ3QnBVUDZvU0JQVU52N09qdkJycmJqdkJha3E2WTdRa2ZCRXpXS2FvNlp1dWc?oc=5"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine Strikes 105 Russian Shadow Fleet Ships in 8 Days, Hits Crimea Power Grid Again",
+      "source": "Kyiv Post",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5HTFpfUFYxb19PQ2hJLTFZWGw4QWJVSi00RlJTaFY2cVVNWVNwbU5VdnJuVWhMUWc5a0VSRk5YWHJubjBLREQyRzVONA?oc=5"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Ukraine war briefing: Three killed in Ukrainian drone attack on Moscow",
+      "source": "The Independent",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORVdYVkJjUEMzdVg4RUdFeXRjZm5TVkg2eXJ6cTlVekZIcVNKZ1dsSW1CbmpLaC04ajMtMTNrSWFTRFRnSDFBRGxIRjl6ZkF1R0k3SkNTMW1PR3ZXSWxyWWZ0WEQ2TGkxSzFPOU9BeTlvRDVvNU5zZTI0NjJMdW5aSmZRbm9TcTRPenh5U3V3SVRsQ25uNUUxcUN4dG8?oc=5"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Kyiv attacked after Ukraine launches coalition to tackle Russia missiles",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZDdPMDIyS29Db1dtbkRuejN0RGJuelZFU3NDY0szbmQtajJZR3BRQTVPU2dzSmctOHVkdjVYdUgyc25JNEhBOGVIZ1B3LW5sUGZ0em5xVTNPVnRPNUV3U0ZfN3kxeVRucGdJaDRtSm9UbDZpSjByTGFONU5HMXV4WVNDUU55UGRFNi1DZGJUQ3BsbXZtV0ptT0xMUDd3WkduSXlMczgyS0ZjS0Rub2laZ0w4QdIBuAFBVV95cUxNOGxXbjhvOWpYX1Mwd3pBZHpkSjJ4emlsT1oxSG1uenlaTExNUV9xb3RCT0xZR2E0djdjM1JZRnVtSkl3WXQzbGpEb2FjR3JUVG9QSzEycjAwUjFWQnVxTFMyd0d1MkdrRVROdG14T1l1NU12UVdIZi1Mb2ZwOHVLN21TNWx2Zjg3ZGEtUVZabDEwNVJmRk41SjlnYzVqYTQyeUpZNUFuMURHOG44UC1LNEJjQ0RjOFlm?oc=5"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Kyiv attacked after Ukraine launches coalition to tackle Russia missiles",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/13/ukraine-and-allies-launch-coalition-to-tackle-russias-ballistic-missiles?traffic_source=rss"
+    },
+    {
       "date": "2026-07-14",
       "type": "infrastructure",
       "place": "Zaporizhzhia",
@@ -1469,6 +1946,56 @@
       "title": "Ukraine war briefing: Zelenskyy seeks 300 Patriots to get through winter",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/jul/14/ukraine-war-briefing-zelenskyy-seeks-300-patriots-to-get-through-winter"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine War, Day 1,602: Kyiv and Europe Launch Anti-Ballistic Missile Project",
+      "source": "EA WorldView",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbXdlTzlKZ3NWZ1BWZU1KSXpmNnp6WXR1SGNuSGVzLVY3d2tRUXA5SF9fWVJKRTFQTDRnN3pzSHNiUy1nTDZjTEhaZlFuRjlaNDFVTDlfNEdvRnNlMkc5dnY0QlpqTTFiUjd1UkQySkpWbkRLLVE0Vm9GTzZ6Yk56WWhSaFVNRDY3NktJdnFBVURJTFVXdXFTOGtuRDZIajg?oc=5"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine downs 5 Russian ballistic missiles as Kyiv looks to harden air defenses",
+      "source": "Audacy",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQb2tGRjNJWHpXX2lFb0dCLUdNdzlRRkV0aWNSbURPdGwwUjBrZHpkSEhpZ2lCcGRzcENVT2NNZC1HemwxcHZ6bTc0QUI0VUhjc05QZ2xhLUtBTi1qbzBoUHJPUm1VQ2NrcUVmQlo3bU5wTGlGWXB3ZFRzRHgybmQ0NFJ3aDRJYWItRzA5Nk1HNDU0NDhvbTlWTGE2RE5vSndEZEhzLTJZS2Y4SEpveXlYMFNtWmc0TGNXUEwtb0Q4dm1LUUhkd2hRTHFiOA?oc=5"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine downs 5 Russian ballistic missiles as Kyiv looks to harden its air defenses",
+      "source": "The Tribune-Democrat",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOSWVOREQ5a0xxY09Hd2RRYjF1Wm84WTYwbmVfWmp0Mld5Z09XSHZRMmpOeUQyMjgtS2k2QzkyWTFkT2RPSzdBT1JrajN6UmdhWFk2WFNxdFNHZFVNWFJQUG5ra0l5d0JvTUlEa1lINXJEaUkxaTBBd3JmdHpyWGl6MnNINEpQTEVsdC1mbkpaYUlOS29DV3A4LWZJQVJXNi1BOXN6OXk3R3ktMkNVQlFGSk54UEl1WWMyUllLLUpwWndDRlQxVmV2RjNRTEotSEFNQ25XZXZLWkJObXNzTjZmb2JnQU9iZW1XemJnSXBKVzdjWGtGTURjMW1jOTl5SWllRWpQUw?oc=5"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine Drones Blast Power Plant, Effectively ‘Shooting Out the Lights’ in Russian-Occupied Crimea",
+      "source": "Kyiv Post",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAzYUxRdFJ3RGEwaWtwOUhnQWJONHpCZURCeC1MTE5nNTB1YzFiM3ZrQVd3THREU2pNeTYyYVE2bEN4RDdRcnY1LWtEbw?oc=5"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "air_defense",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russo-Ukrainian war, day 1602: Allies rally around Kyiv, but air defense still lags behind war's pace",
+      "source": "Euromaidan Press",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNU2F4N29TT04xdnQ1WmZVaHNxQ184VTRNbmJKTVdENDBDRHh2eThIaFY1M1JlU0pTZnl4cUxENVJ5bUl0Y01vRFZZTEJGamd6RGozTmZ3UHhXR1BiNmg5SHVmM0E3b0NkU3djaU5NMHR0OFoxMFFFRDBITnlZUkxGT2pJOHRnSWFFaDl6UXRZM1MyZlVTTkMwTzVfOEc3M3VoVDRuaUFQZWJndlZQcTloVlJKdkY1TzJlV3JOa2JfaFgyRWtIcEItcWVrZWlCcTZpQ3Bn?oc=5"
     },
     {
       "date": "2026-07-15",
@@ -1494,11 +2021,11 @@
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 73
+      "count": 103
     },
     {
       "place": "Moscow",
-      "count": 22
+      "count": 29
     },
     {
       "place": "Sevastopol",
@@ -1506,10 +2033,22 @@
     },
     {
       "place": "Donetsk",
-      "count": 3
+      "count": 4
+    },
+    {
+      "place": "Zaporizhzhia",
+      "count": 4
     },
     {
       "place": "Odesa",
+      "count": 3
+    },
+    {
+      "place": "Kherson",
+      "count": 2
+    },
+    {
+      "place": "Sumy",
       "count": 2
     },
     {
@@ -1518,18 +2057,6 @@
     },
     {
       "place": "Sloviansk",
-      "count": 1
-    },
-    {
-      "place": "Dnipro",
-      "count": 1
-    },
-    {
-      "place": "Lyman",
-      "count": 1
-    },
-    {
-      "place": "Poltava",
       "count": 1
     }
   ],

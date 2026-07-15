@@ -13,7 +13,41 @@ function renderMilitary(data) {
   renderMilitaryGeo(data.regions, m);
   renderMilDaily(m);
   renderMilCorrelation(summary, m);
+  renderBalance(m);
   renderLosses(m);
+}
+
+// --- Balance de fuerzas curado (estimaciones abiertas, comparable entre
+// conflictos; las pérdidas reales dependen de que exista un dataset público) ---
+function renderBalance(m) {
+  const card = document.getElementById("mil-balance-card");
+  const b = m.balance;
+  if (!b?.items?.length) { card.hidden = true; return; }
+  card.hidden = false;
+
+  document.getElementById("mil-balance-hint").textContent =
+    `${b.source} · datos a ${b.as_of}. Magnitudes declaradas, no capacidad real.`;
+
+  const wrap = document.getElementById("mil-balance");
+  wrap.innerHTML =
+    `<div class="balance-heads"><span class="n-a">${b.sides[0]}</span>` +
+    `<span class="n-b">${b.sides[1]}</span></div>`;
+
+  for (const item of b.items) {
+    const total = (item.a ?? 0) + (item.b ?? 0);
+    const pa = total ? ((item.a ?? 0) / total) * 100 : 50;
+    const row = document.createElement("div");
+    row.className = "balance-row";
+    row.innerHTML =
+      `<span class="balance-label">${item.label}</span>` +
+      `<div class="balance-bar">` +
+      `<div class="side-a" style="width:${pa.toFixed(1)}%"></div>` +
+      `<div class="side-b" style="width:${(100 - pa).toFixed(1)}%"></div>` +
+      `</div>` +
+      `<div class="balance-nums"><span class="n-a">${fmtNum(item.a)}</span>` +
+      `<span class="n-b">${fmtNum(item.b)}</span></div>`;
+    wrap.appendChild(row);
+  }
 }
 
 // --- KPIs --------------------------------------------------------------------

@@ -1,6 +1,36 @@
 {
   "id": "india_pakistan",
-  "updated": "2026-07-08T18:16:10+00:00",
+  "updated": "2026-07-15T13:26:10+00:00",
+  "balance": {
+    "as_of": "2025",
+    "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
+    "sides": [
+      "India",
+      "Pakistán"
+    ],
+    "items": [
+      {
+        "label": "Tropas activas",
+        "a": 1460000,
+        "b": 660000
+      },
+      {
+        "label": "Tanques de batalla",
+        "a": 3740,
+        "b": 2500
+      },
+      {
+        "label": "Aviones de combate",
+        "a": 600,
+        "b": 450
+      },
+      {
+        "label": "Ojivas nucleares (est.)",
+        "a": 172,
+        "b": 170
+      }
+    ]
+  },
   "losses_label": "",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
@@ -8,13 +38,13 @@
   },
   "window": {
     "from": "2026-05-04",
-    "to": "2026-07-08"
+    "to": "2026-07-15"
   },
   "kpis": {
     "events_total": 2,
-    "events_unlocated": 21,
+    "events_unlocated": 34,
     "events_7d": 0,
-    "events_prev_7d": 1,
+    "events_prev_7d": 0,
     "hottest_place": "Karachi"
   },
   "daily": [

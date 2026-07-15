@@ -1,20 +1,57 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-07-08T18:15:53+00:00",
+  "updated": "2026-07-15T13:25:56+00:00",
+  "balance": {
+    "as_of": "2025",
+    "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
+    "sides": [
+      "Ucrania",
+      "Rusia"
+    ],
+    "items": [
+      {
+        "label": "Tropas activas",
+        "a": 880000,
+        "b": 1320000
+      },
+      {
+        "label": "Tanques de batalla (activos)",
+        "a": 1000,
+        "b": 3000
+      },
+      {
+        "label": "Aviones de combate",
+        "a": 130,
+        "b": 1200
+      },
+      {
+        "label": "Buques de guerra principales",
+        "a": 10,
+        "b": 220
+      },
+      {
+        "label": "Ojivas nucleares",
+        "a": 0,
+        "b": 5580,
+        "losses_caveat": "Pérdidas rusas según el Estado Mayor de Ucrania: estimación de una de las partes, no verificada de forma independiente.",
+        "events_caveat": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona."
+      }
+    ]
+  },
   "losses_label": "Bajas rusas (reclamo ucr.)",
   "caveats": {
-    "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
-    "losses": "Pérdidas rusas según el Estado Mayor de Ucrania: estimación de una de las partes, no verificada de forma independiente."
+    "events": "",
+    "losses": ""
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-07-08"
+    "to": "2026-07-15"
   },
   "kpis": {
-    "events_total": 110,
-    "events_unlocated": 205,
-    "events_7d": 89,
-    "events_prev_7d": 11,
+    "events_total": 119,
+    "events_unlocated": 231,
+    "events_7d": 15,
+    "events_prev_7d": 83,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -203,6 +240,60 @@
       "total": 6,
       "strike": 4,
       "ground": 1,
+      "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-10",
+      "total": 2,
+      "strike": 1,
+      "ground": 1,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-11",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-12",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-13",
+      "total": 2,
+      "strike": 2,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-14",
+      "total": 1,
+      "strike": 0,
+      "ground": 0,
+      "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-15",
+      "total": 2,
+      "strike": 1,
+      "ground": 0,
       "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
@@ -1308,24 +1399,118 @@
       "title": "Ukraine war briefing: Kyiv targets Kremlin ‘shadow’ tankers as Russian strikes continue in capital",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/jul/08/ukraine-war-briefing-kyiv-targets-kremlin-shadow-tankers-as-russian-strikes-continue-in-capital"
+    },
+    {
+      "date": "2026-07-10",
+      "type": "ground",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Monaco bomb mystery deepens as Ukraine’s security services are linked to murder of prime suspect",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/10/monaco-bomb-mystery-deepens-as-ukraines-security-services-are-linked-to-of-prime-suspect"
+    },
+    {
+      "date": "2026-07-10",
+      "type": "strike",
+      "place": "Lviv",
+      "lat": 49.8397,
+      "lon": 24.0297,
+      "title": "Ukraine war briefing: Kyiv reaches ‘political’ agreement with US on Patriot interceptor production licences",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/10/ukraine-war-briefing-kyiv-reaches-political-agreement-with-us-on-patriot-interceptor-production-licences"
+    },
+    {
+      "date": "2026-07-11",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Ukraine war briefing: Zelenskyy creates ‘long-range impact’ command to strike Russian energy sector",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/11/ukraine-war-briefing-zelenskyy-long-range-impact-command-russian-energy-strikes"
+    },
+    {
+      "date": "2026-07-12",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: Zelenskyy decries housing of weapons in civilian area after Russian strike kills 10",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/12/ukraine-war-briefing-zelenskyy-decries-housing-of-weapons-in-civilian-area-kyiv-russian-strike-deaths"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Leaders give press conference after ‘coalition of the willing’ meeting in Paris – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/live/2026/jul/13/emmanuel-macron-keir-starmer-friedrich-merz-volodymyr-zelenskyy-coalition-of-the-willing-ukraine-russia-latest-news-updates"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "‘Coalition of the willing’ to build shared European anti-ballistic programme",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/13/coalition-of-the-willing-build-shared-european-anti-ballistic-programme"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "infrastructure",
+      "place": "Zaporizhzhia",
+      "lat": 47.8388,
+      "lon": 35.1396,
+      "title": "Ukraine war briefing: Zelenskyy seeks 300 Patriots to get through winter",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/14/ukraine-war-briefing-zelenskyy-seeks-300-patriots-to-get-through-winter"
+    },
+    {
+      "date": "2026-07-15",
+      "type": "strike",
+      "place": "Odesa",
+      "lat": 46.4825,
+      "lon": 30.7233,
+      "title": "Russian attack on Odesa kills three as Ukraine targets vessels in Black Sea",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/15/russian-attack-on-odesa-kills-three-as-ukraine-targets-vessels-in-black-sea?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-15",
+      "type": "infrastructure",
+      "place": "Sevastopol",
+      "lat": 44.6166,
+      "lon": 33.5254,
+      "title": "Ukraine war briefing: Spotlight on ‘hundreds’ of alleged PoW executions by Russia",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/15/ukraine-war-briefing-spotlight-on-hundreds-of-alleged-pow-executions-by-russia"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 69
+      "count": 73
     },
     {
       "place": "Moscow",
-      "count": 21
+      "count": 22
     },
     {
       "place": "Sevastopol",
-      "count": 3
+      "count": 4
     },
     {
       "place": "Donetsk",
       "count": 3
+    },
+    {
+      "place": "Odesa",
+      "count": 2
     },
     {
       "place": "Bryansk",
@@ -1346,17 +1531,13 @@
     {
       "place": "Poltava",
       "count": 1
-    },
-    {
-      "place": "Belgorod",
-      "count": 1
     }
   ],
   "losses": {
-    "as_of": "2026-07-08",
+    "as_of": "2026-07-15",
     "personnel": {
-      "total": 1413510,
-      "delta_7d": 8750,
+      "total": 1423280,
+      "delta_7d": 9770,
       "series": [
         {
           "date": "2022-03-02",
@@ -2269,6 +2450,10 @@
         {
           "date": "2026-07-08",
           "total": 1413510
+        },
+        {
+          "date": "2026-07-15",
+          "total": 1423280
         }
       ]
     },
@@ -2277,32 +2462,32 @@
         {
           "key": "tank",
           "name": "Tanques",
-          "total": 12100,
-          "delta_30d": 103
+          "total": 12141,
+          "delta_30d": 116
         },
         {
           "key": "APC",
           "name": "Blindados (APC)",
-          "total": 24903,
-          "delta_30d": 198
+          "total": 24938,
+          "delta_30d": 175
         },
         {
           "key": "field artillery",
           "name": "Artillería",
-          "total": 45569,
-          "delta_30d": 2005
+          "total": 45953,
+          "delta_30d": 1871
         },
         {
           "key": "drone",
           "name": "Drones",
-          "total": 396920,
-          "delta_30d": 60696
+          "total": 409204,
+          "delta_30d": 57725
         },
         {
           "key": "aircraft",
           "name": "Aviones",
-          "total": 436,
-          "delta_30d": 0
+          "total": 437,
+          "delta_30d": 1
         },
         {
           "key": "helicopter",
@@ -2313,14 +2498,14 @@
         {
           "key": "naval ship",
           "name": "Buques",
-          "total": 33,
-          "delta_30d": 0
+          "total": 34,
+          "delta_30d": 1
         },
         {
           "key": "cruise missiles",
           "name": "Misiles crucero",
-          "total": 4887,
-          "delta_30d": 154
+          "total": 4906,
+          "delta_30d": 173
         }
       ],
       "series": [
@@ -4831,6 +5016,17 @@
           "helicopter": 353,
           "naval ship": 33,
           "cruise missiles": 4887
+        },
+        {
+          "date": "2026-07-15",
+          "tank": 12141,
+          "APC": 24938,
+          "field artillery": 45953,
+          "drone": 409204,
+          "aircraft": 437,
+          "helicopter": 353,
+          "naval ship": 34,
+          "cruise missiles": 4906
         }
       ]
     }

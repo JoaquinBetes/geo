@@ -300,6 +300,81 @@ main { padding: clamp(16px, 4vw, 48px); }
   vertical-align: middle;
 }
 
+/* --- Glosario bajo cada mapa/gráfico --- */
+.glossary {
+  list-style: none;
+  margin: 14px 0 0;
+  padding: 10px 0 0;
+  border-top: 1px dashed var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.glossary li {
+  color: var(--muted);
+  font-size: 0.74rem;
+  line-height: 1.45;
+  padding-left: 12px;
+  position: relative;
+}
+.glossary li::before {
+  content: "▪";
+  position: absolute;
+  left: 0;
+  color: var(--amber);
+  opacity: 0.6;
+  font-size: 0.6rem;
+  top: 3px;
+}
+.glossary b {
+  color: var(--text);
+  font-family: var(--mono);
+  font-weight: 600;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-right: 2px;
+}
+
+/* --- Balance de fuerzas comparado --- */
+.balance { display: flex; flex-direction: column; gap: 12px; margin: 8px 0 4px; }
+.balance-row { display: flex; flex-direction: column; gap: 4px; }
+.balance-label {
+  font-family: var(--mono);
+  font-size: 0.66rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+}
+.balance-bar {
+  display: flex;
+  height: 16px;
+  border-radius: 3px;
+  overflow: hidden;
+  background: var(--panel-2);
+}
+.balance-bar .side-a { background: var(--cyan); opacity: 0.75; }
+.balance-bar .side-b { background: var(--neg); opacity: 0.75; }
+.balance-nums {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+}
+.balance-nums .n-a { color: var(--cyan); }
+.balance-nums .n-b { color: var(--neg); }
+.balance-heads {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.balance-heads .n-a { color: var(--cyan); }
+.balance-heads .n-b { color: var(--neg); }
+
 .legend {
   display: flex;
   gap: 18px;
@@ -457,67 +532,47 @@ main { padding: clamp(16px, 4vw, 48px); }
 }
 #world-svg svg { width: 100%; height: auto; display: block; }
 
+/* cartografía sobria: trazo fino, relleno tenue, precisión sin efectos */
+.graticule {
+  fill: none;
+  stroke: #1a2534;
+  stroke-width: 0.6;
+  stroke-dasharray: 1 6;
+}
+#world-svg svg { animation: fadeUp 0.6s ease-out both; }
 .country {
-  fill: #151d29;
-  stroke: #26364a;
+  fill: #141b26;
+  stroke: #2b3850;
   stroke-width: 0.5;
-  opacity: 0;
-  animation: reveal 0.55s ease-out forwards;
 }
 .country.war {
-  cursor: pointer;
-  fill-opacity: 0.42;
+  fill: currentColor;
+  fill-opacity: 0.28;
   stroke: currentColor;
   stroke-width: 1;
-  stroke-opacity: 0.95;
-  /* borde "en movimiento" (marching ants): tensión sin blur */
-  stroke-dasharray: 5 3;
-  transition: fill-opacity 0.18s, stroke-width 0.18s;
-  animation: reveal 0.55s ease-out forwards, march 26s linear infinite;
+  stroke-opacity: 0.9;
+  cursor: pointer;
+  transition: fill-opacity 0.15s, stroke-width 0.15s;
 }
 .country.war:hover,
 .country.war.hot {
-  fill-opacity: 0.85;
-  stroke-width: 1.6;
-  stroke-dasharray: none;   /* al apuntar, el borde se "fija" (lock-on) */
+  fill-opacity: 0.55;
+  stroke-width: 1.4;
 }
-@keyframes reveal { to { opacity: 1; } }
-@keyframes march { to { stroke-dashoffset: -160; } }
 
-/* pings de radar sobre cada teatro */
+/* marcador de teatro: punto fijo + un anillo lento y discreto */
 .ping, .core-dot { transform-box: fill-box; transform-origin: center; }
 .ping {
   fill: none;
   stroke: currentColor;
-  stroke-width: 1.3;
-  animation: ping 2.8s ease-out infinite;
+  stroke-width: 1;
+  animation: ping 5s ease-out infinite;
   pointer-events: none;
 }
-.ping.d2 { animation-delay: 1.4s; }
-.core-dot { fill: currentColor; cursor: pointer; animation: coreBlink 2.8s ease-in-out infinite; }
+.core-dot { fill: currentColor; cursor: pointer; }
 @keyframes ping {
-  0% { transform: scale(0.25); opacity: 1; }
-  70% { opacity: 0.35; }
-  100% { transform: scale(3.2); opacity: 0; }
-}
-@keyframes coreBlink { 50% { opacity: 0.55; } }
-
-/* barrido de radar al cargar */
-.sweep {
-  position: absolute;
-  top: 0; bottom: 0;
-  width: 90px;
-  left: -12%;
-  background: linear-gradient(90deg, transparent, rgba(229, 165, 61, 0.14), rgba(229, 165, 61, 0.42), transparent);
-  border-right: 1px solid rgba(229, 165, 61, 0.55);
-  pointer-events: none;
-  animation: sweep 2s ease-in-out 0.15s forwards;
-  opacity: 0;
-}
-@keyframes sweep {
-  0% { left: -12%; opacity: 1; }
-  92% { opacity: 1; }
-  100% { left: 108%; opacity: 0; }
+  0% { transform: scale(0.3); opacity: 0.9; }
+  100% { transform: scale(2.1); opacity: 0; }
 }
 
 /* tooltip flotante del mapa */
@@ -614,13 +669,13 @@ main { padding: clamp(16px, 4vw, 48px); }
 
 /* accesibilidad: sin animaciones si el sistema lo pide */
 @media (prefers-reduced-motion: reduce) {
-  .country, .country.war, .ping, .core-dot, .sweep, .hero-title .type,
+  #world-svg svg, .ping, .core-dot, .hero-title .type,
   .hero-sub, .hero-meta, .c-card {
     animation: none !important;
     opacity: 1;
     clip-path: none;
   }
-  .sweep { display: none; }
+  .ping { display: none; }
 }
 
 /* --- Móvil: pestañas compactas y mapas más bajos --- */

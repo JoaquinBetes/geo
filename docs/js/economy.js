@@ -71,15 +71,31 @@ function renderEcoMap(layers) {
 
   map.fitBounds(layer.getBounds().pad(0.08));
 
-  // Leyenda: sólo los tipos presentes en la capa de este conflicto.
+  // Leyenda + glosario: sólo los tipos presentes en la capa de este conflicto.
+  const KIND_GLOSSARY = {
+    grain: "rutas de exportación de cereales; de su apertura depende el precio global de los alimentos.",
+    gas: "gasoductos: infraestructura fija — no se puede redirigir si se corta.",
+    oil: "rutas y oleoductos de crudo, la principal fuente de divisas de varios de los actores.",
+    shipping: "corredores de comercio marítimo general (contenedores, mercancías).",
+    water: "ríos y recursos hídricos estratégicos: el agua como palanca de presión.",
+    chain: "líneas conceptuales militares (frentes, fronteras de facto, cadenas defensivas), no rutas físicas.",
+    strait: "chokepoints: pasos angostos cuyo bloqueo alteraría el comercio o la logística global.",
+  };
   const kinds = [...new Set(features.map((f) => f.properties.kind))];
   const legend = document.getElementById("eco-map-legend");
+  const glossary = document.getElementById("eco-map-glossary");
   legend.innerHTML = "";
+  glossary.innerHTML = "";
   for (const kind of Object.keys(ROUTE_KIND_META).filter((k) => kinds.includes(k))) {
     const meta = ROUTE_KIND_META[kind];
     const span = document.createElement("span");
     span.innerHTML = `<span class="dot" style="background:${meta.color}"></span>${meta.label}`;
     legend.appendChild(span);
+    if (KIND_GLOSSARY[kind]) {
+      const li = document.createElement("li");
+      li.innerHTML = `<b>${meta.label}</b> ${KIND_GLOSSARY[kind]}`;
+      glossary.appendChild(li);
+    }
   }
 }
 
@@ -118,7 +134,8 @@ function renderEcoMarkets(e) {
     card.innerHTML =
       `<h2>${mk.name}</h2>` +
       `<p class="hint">${mk.unit}${mk.baseline != null ? ` · línea punteada = nivel ${e.baseline_label} (${mk.baseline_date})` : ""}</p>` +
-      `<div class="chart-box"><canvas id="${canvasId}"></canvas></div>`;
+      `<div class="chart-box"><canvas id="${canvasId}"></canvas></div>` +
+      (mk.desc ? `<ul class="glossary"><li><b>Qué mide</b> ${mk.desc}</li></ul>` : "");
     grid.appendChild(card);
 
     const labels = mk.points.map((p) => p[0]);

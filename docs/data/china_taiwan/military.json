@@ -1,6 +1,41 @@
 {
   "id": "china_taiwan",
-  "updated": "2026-07-08T18:16:05+00:00",
+  "updated": "2026-07-15T13:26:06+00:00",
+  "balance": {
+    "as_of": "2025",
+    "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
+    "sides": [
+      "China",
+      "Taiwán"
+    ],
+    "items": [
+      {
+        "label": "Tropas activas",
+        "a": 2035000,
+        "b": 169000
+      },
+      {
+        "label": "Tanques de batalla",
+        "a": 4800,
+        "b": 950
+      },
+      {
+        "label": "Aviones de combate",
+        "a": 1900,
+        "b": 300
+      },
+      {
+        "label": "Buques de guerra principales",
+        "a": 370,
+        "b": 90
+      },
+      {
+        "label": "Ojivas nucleares (est.)",
+        "a": 500,
+        "b": 0
+      }
+    ]
+  },
   "losses_label": "",
   "caveats": {
     "events": "Maniobras, patrullas e incidentes detectados automáticamente en titulares de prensa; no están verificados de forma independiente. La ubicación es aproximada, a nivel ciudad o zona.",
@@ -8,13 +43,13 @@
   },
   "window": {
     "from": "2026-05-04",
-    "to": "2026-07-09"
+    "to": "2026-07-15"
   },
   "kpis": {
     "events_total": 7,
-    "events_unlocated": 101,
-    "events_7d": 2,
-    "events_prev_7d": 0,
+    "events_unlocated": 119,
+    "events_7d": 0,
+    "events_prev_7d": 2,
     "hottest_place": "Taipei"
   },
   "daily": [

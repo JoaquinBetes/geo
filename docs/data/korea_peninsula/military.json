@@ -1,6 +1,41 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-07-08T18:16:15+00:00",
+  "updated": "2026-07-15T13:26:13+00:00",
+  "balance": {
+    "as_of": "2025",
+    "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
+    "sides": [
+      "Corea del Norte",
+      "Corea del Sur"
+    ],
+    "items": [
+      {
+        "label": "Tropas activas",
+        "a": 1280000,
+        "b": 500000
+      },
+      {
+        "label": "Reservistas",
+        "a": 600000,
+        "b": 3100000
+      },
+      {
+        "label": "Tanques de batalla",
+        "a": 3500,
+        "b": 2200
+      },
+      {
+        "label": "Aviones de combate",
+        "a": 550,
+        "b": 600
+      },
+      {
+        "label": "Ojivas nucleares (est.)",
+        "a": 50,
+        "b": 0
+      }
+    ]
+  },
   "losses_label": "",
   "caveats": {
     "events": "Lanzamientos, maniobras e incidentes detectados automáticamente en titulares de prensa; no están verificados de forma independiente. La ubicación es aproximada, a nivel ciudad o zona.",
@@ -8,13 +43,13 @@
   },
   "window": {
     "from": "2026-04-07",
-    "to": "2026-07-08"
+    "to": "2026-07-15"
   },
   "kpis": {
     "events_total": 5,
-    "events_unlocated": 26,
+    "events_unlocated": 37,
     "events_7d": 0,
-    "events_prev_7d": 1,
+    "events_prev_7d": 0,
     "hottest_place": "Pyongyang"
   },
   "daily": [

@@ -181,6 +181,31 @@ aliases = ["saudi"]
 events_caveat = "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona."
 losses_caveat = ""
 
+# Balance de fuerzas (a = Irán, b = Israel, según orden de [[countries]])
+[military.balance]
+as_of = "2025"
+source = "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)"
+
+[[military.balance.items]]
+label = "Tropas activas"
+a = 610000
+b = 170000
+
+[[military.balance.items]]
+label = "Reservistas"
+a = 350000
+b = 465000
+
+[[military.balance.items]]
+label = "Aviones de combate"
+a = 330
+b = 340
+
+[[military.balance.items]]
+label = "Ojivas nucleares (est.)"
+a = 0
+b = 90
+
 # --- Gazetteer: Irán ---
 
 [[places]]
@@ -466,6 +491,7 @@ name = "Petróleo Brent"
 unit = "USD/barril"
 group = "commodity"
 symbol = "BZ=F"
+desc = "El crudo de referencia mundial (Mar del Norte), la vara con la que se cotiza el petróleo de Europa, África y Medio Oriente. Cualquier amenaza sobre el estrecho de Ormuz (una quinta parte del crudo global) lo dispara: es el termómetro del riesgo de guerra mayor."
 
 [[economy.markets]]
 id = "wti"
@@ -473,6 +499,7 @@ name = "Petróleo WTI"
 unit = "USD/barril"
 group = "commodity"
 symbol = "CL=F"
+desc = "West Texas Intermediate, el crudo de referencia de EE.UU. (entrega en Cushing, Oklahoma). Suele valer unos dólares menos que el Brent por costos logísticos; si la brecha entre ambos se agranda, el shock golpea sobre todo fuera de América."
 
 [[economy.markets]]
 id = "gold"
@@ -480,6 +507,7 @@ name = "Oro"
 unit = "USD/onza troy"
 group = "commodity"
 symbol = "GC=F"
+desc = "El refugio clásico: cuando los mercados temen una guerra o inflación, compran oro. Una suba fuerte y sostenida significa que el mundo está nervioso — no importa dónde viva el inversor."
 
 [[economy.markets]]
 id = "usdils"
@@ -487,6 +515,7 @@ name = "USD/ILS (shekel israelí)"
 unit = "₪ por USD"
 group = "fx"
 symbol = "ILS=X"
+desc = "Cuántos shekels por dólar. Si sube, el mercado castiga a la economía israelí (riesgo bélico, salida de capitales, encarecimiento de importaciones); si baja, señal de confianza en que la crisis está contenida."
 
 # -----------------------------------------------------------------------------
 #  PESTAÑA INFLUENCIA

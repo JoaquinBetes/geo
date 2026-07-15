@@ -271,9 +271,23 @@ def build_military(conflict: dict, articles: list[dict]) -> dict | None:
     map_events = map_events[-MAP_EVENT_CAP:]
 
     mil = conflict.get("military", {})
+    # Balance de fuerzas curado (estimaciones abiertas): comparable entre
+    # conflictos, a diferencia de las pérdidas (que dependen de que exista un
+    # dataset público, hoy sólo el ucraniano).
+    balance = mil.get("balance")
+    if balance:
+        sides = [c.get("name", "") for c in conflict.get("countries", [])[:2]]
+        balance = {
+            "as_of": balance.get("as_of", ""),
+            "source": balance.get("source", ""),
+            "sides": sides,
+            "items": balance.get("items", []),
+        }
+
     out = {
         "id": conflict["id"],
         "updated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "balance": balance,
         "losses_label": mil.get("losses_label", ""),
         "caveats": {
             "events": mil.get("events_caveat", ""),

@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-07-08T18:15:58+00:00",
+  "updated": "2026-07-15T13:25:59+00:00",
   "start_date": "2022-02-24",
   "note": "El petróleo financia el presupuesto ruso; el trigo mide el impacto en seguridad alimentaria global; el rublo y la grivna son el pulso financiero de cada bando.",
   "baseline_label": "pre-guerra",
@@ -10,11 +10,8 @@
       "name": "Petróleo Brent",
       "unit": "USD/barril",
       "group": "commodity",
+      "desc": "El crudo de referencia mundial (Mar del Norte). El petróleo es la principal fuente de financiamiento del presupuesto ruso: si sube, Moscú recauda más pese a las sanciones; si baja, se estrecha su margen para sostener la guerra.",
       "points": [
-        [
-          "2021-07-05",
-          75.55
-        ],
         [
           "2021-07-12",
           73.59
@@ -1057,29 +1054,30 @@
         ],
         [
           "2026-07-06",
-          74.16
+          76.01
         ],
         [
-          "2026-07-08",
-          78.18
+          "2026-07-13",
+          84.73
+        ],
+        [
+          "2026-07-15",
+          85.42
         ]
       ],
-      "latest": 78.18,
-      "latest_date": "2026-07-08",
+      "latest": 85.42,
+      "latest_date": "2026-07-15",
       "baseline": 97.93,
       "baseline_date": "2022-02-21",
-      "change_pct": -20.2
+      "change_pct": -12.8
     },
     {
       "id": "wheat",
       "name": "Trigo (Chicago)",
       "unit": "¢/bushel",
       "group": "commodity",
+      "desc": "Futuros de trigo (centavos de dólar por bushel, ~27 kg). Rusia y Ucrania están entre los mayores exportadores mundiales: si una escalada bloquea el Mar Negro, el trigo sube y el pan se encarece en Medio Oriente y África.",
       "points": [
-        [
-          "2021-07-05",
-          608.5
-        ],
         [
           "2021-07-12",
           692.5
@@ -2122,29 +2120,30 @@
         ],
         [
           "2026-07-06",
-          609.25
+          632.0
         ],
         [
-          "2026-07-08",
-          608.5
+          "2026-07-13",
+          631.25
+        ],
+        [
+          "2026-07-15",
+          665.5
         ]
       ],
-      "latest": 608.5,
-      "latest_date": "2026-07-08",
+      "latest": 665.5,
+      "latest_date": "2026-07-15",
       "baseline": 843.0,
       "baseline_date": "2022-02-21",
-      "change_pct": -27.8
+      "change_pct": -21.1
     },
     {
       "id": "natgas",
       "name": "Gas natural (Henry Hub)",
       "unit": "USD/MMBtu",
       "group": "commodity",
+      "desc": "Precio de referencia del gas en EE.UU. Refleja el costo del gas licuado con el que Occidente reemplazó al gas ruso: si sube, la factura energética europea se encarece.",
       "points": [
-        [
-          "2021-07-05",
-          3.674
-        ],
         [
           "2021-07-12",
           3.674
@@ -3187,29 +3186,30 @@
         ],
         [
           "2026-07-06",
-          3.265
+          2.94
         ],
         [
-          "2026-07-08",
-          3.21
+          "2026-07-13",
+          2.904
+        ],
+        [
+          "2026-07-15",
+          2.876
         ]
       ],
-      "latest": 3.21,
-      "latest_date": "2026-07-08",
+      "latest": 2.876,
+      "latest_date": "2026-07-15",
       "baseline": 4.47,
       "baseline_date": "2022-02-21",
-      "change_pct": -28.2
+      "change_pct": -35.7
     },
     {
       "id": "usdrub",
       "name": "USD/RUB (rublo ruso)",
       "unit": "₽ por USD",
       "group": "fx",
+      "desc": "Cuántos rublos hacen falta para comprar un dólar. Si SUBE, el rublo se deprecia — estrés financiero ruso (sanciones, fuga de capitales, importaciones más caras). Si baja, el Kremlin respira.",
       "points": [
-        [
-          "2021-07-04",
-          74.7117
-        ],
         [
           "2021-07-11",
           74.3687
@@ -4252,29 +4252,30 @@
         ],
         [
           "2026-07-05",
-          76.9971
+          75.7606
         ],
         [
-          "2026-07-08",
-          76.836
+          "2026-07-12",
+          76.647
+        ],
+        [
+          "2026-07-15",
+          77.961
         ]
       ],
-      "latest": 76.836,
-      "latest_date": "2026-07-08",
+      "latest": 77.961,
+      "latest_date": "2026-07-15",
       "baseline": 84.915,
       "baseline_date": "2022-02-21",
-      "change_pct": -9.5
+      "change_pct": -8.2
     },
     {
       "id": "usduah",
       "name": "USD/UAH (grivna ucraniana)",
       "unit": "₴ por USD",
       "group": "fx",
+      "desc": "Cuántas grivnas por dólar. Si sube, la moneda ucraniana pierde valor: inflación para la población y más dependencia de la ayuda externa para sostener la economía de guerra.",
       "points": [
-        [
-          "2021-07-04",
-          27.0741
-        ],
         [
           "2021-07-11",
           26.9721
@@ -5317,18 +5318,22 @@
         ],
         [
           "2026-07-05",
-          43.162
+          43.1955
         ],
         [
-          "2026-07-08",
-          44.5098
+          "2026-07-12",
+          43.4188
+        ],
+        [
+          "2026-07-15",
+          44.8833
         ]
       ],
-      "latest": 44.5098,
-      "latest_date": "2026-07-08",
+      "latest": 44.8833,
+      "latest_date": "2026-07-15",
       "baseline": 29.5626,
       "baseline_date": "2022-02-21",
-      "change_pct": 50.6
+      "change_pct": 51.8
     }
   ],
   "aid": {

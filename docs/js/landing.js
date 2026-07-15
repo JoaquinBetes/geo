@@ -56,6 +56,23 @@ function featureBbox(geom) {
 }
 
 // --- Construcción de la portada ------------------------------------------------
+// Cartografía sobria: polígonos con trazo fino, relleno tenue del color del
+// conflicto y retícula de coordenadas. Sin barridos ni parpadeos: la precisión
+// es la estética. El único movimiento es un anillo lento sobre cada teatro.
+
+function graticulePath() {
+  let d = "";
+  for (let lon = -150; lon <= 150; lon += 30) {
+    const [x] = project(lon, 0);
+    d += `M${x.toFixed(1)},0V${MAP_H}`;
+  }
+  for (const lat of [60, 40, 20, 0, -20, -40]) {
+    const [, y] = project(0, lat);
+    d += `M0,${y.toFixed(1)}H${MAP_W}`;
+  }
+  return d;
+}
+
 async function renderLanding(index) {
   const conflicts = index.conflicts ?? [];
   const geo = await loadGeoFile("geo/world.json");
@@ -70,47 +87,42 @@ async function renderLanding(index) {
     }
   });
 
-  // --- Países como paths SVG ---
+  // --- Países: los neutrales apenas delineados, los del conflicto en su color ---
   const paths = [];
-  const focus = new Map(); // conflicto -> {x, y} (centro del país MÁS CHICO = el teatro)
+  const focus = new Map(); // conflicto -> centro del país MÁS CHICO (el teatro)
   for (const f of geo.features) {
     const code = f.properties.code;
     const d = featurePath(f.geometry);
     const war = byIso.get(code);
-    const { bbox, area } = featureBbox(f.geometry);
-    const [cx, cy] = project((bbox[0] + bbox[2]) / 2, (bbox[1] + bbox[3]) / 2);
-    // el barrido revela de izquierda a derecha: delay proporcional a x
-    const delay = ((cx / MAP_W) * 1.6).toFixed(2);
-
     if (war) {
       const cid = war.conflict.id;
+      const { bbox, area } = featureBbox(f.geometry);
+      const [cx, cy] = project((bbox[0] + bbox[2]) / 2, (bbox[1] + bbox[3]) / 2);
       if (!focus.has(cid) || area < focus.get(cid).area) {
         focus.set(cid, { x: cx, y: cy, area, color: war.color });
       }
       paths.push(
         `<path class="country war" d="${d}" data-conflict="${cid}" ` +
-        `style="animation-delay:${delay}s; fill:${war.color}; color:${war.color}">` +
-        `<title>${f.properties.name}</title></path>`
+        `style="color:${war.color}"><title>${f.properties.name}</title></path>`
       );
     } else {
-      paths.push(`<path class="country" d="${d}" style="animation-delay:${delay}s"></path>`);
+      paths.push(`<path class="country" d="${d}"></path>`);
     }
   }
 
-  // --- Pings de radar sobre cada teatro ---
-  const pings = [...focus.entries()].map(([cid, p]) =>
+  // --- Marcador de teatro: punto fijo + un anillo lento y discreto ---
+  const markers = [...focus.entries()].map(([cid, p]) =>
     `<g class="ping-group" data-conflict="${cid}" style="color:${p.color}">` +
-    `<circle class="ping" cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="7"/>` +
-    `<circle class="ping d2" cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="7"/>` +
-    `<circle class="core-dot" cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="3.2"/>` +
+    `<circle class="ping" cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="6"/>` +
+    `<circle class="core-dot" cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="2.6"/>` +
     `</g>`
   ).join("");
 
   document.getElementById("world-svg").innerHTML =
     `<svg viewBox="0 0 ${MAP_W} ${MAP_H}" xmlns="http://www.w3.org/2000/svg" role="img" ` +
     `aria-label="Mapa mundial con los conflictos monitoreados">` +
-    `<g>${paths.join("")}</g>${pings}</svg>` +
-    `<div class="sweep" aria-hidden="true"></div>`;
+    `<path class="graticule" d="${graticulePath()}"></path>` +
+    `<g>${paths.join("")}</g>${markers}</svg>`;
 
   renderLandingMeta(index);
   renderLandingCards(conflicts);

@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-07-08T18:16:18+00:00",
+  "updated": "2026-07-15T13:26:16+00:00",
   "start_date": "2024-01-15",
   "note": "El won y el KOSPI absorben cada lanzamiento y cada amenaza; el yen actúa de refugio regional cuando la península se tensa; el oro mide el miedo global. La economía norcoreana es opaca: no hay mercado que la cotice. Línea base: doctrina de los 'dos Estados hostiles' de Kim (ene 2024).",
   "baseline_label": "pre-crisis",
@@ -10,11 +10,8 @@
       "name": "USD/KRW (won surcoreano)",
       "unit": "₩ por USD",
       "group": "fx",
+      "desc": "Cuántos wones por dólar. Si sube, los inversores se cubren ante el riesgo coreano: es el primer lugar donde se ve el miedo cuando Pyongyang escala.",
       "points": [
-        [
-          "2021-07-04",
-          1143.8101
-        ],
         [
           "2021-07-11",
           1141.0
@@ -1057,29 +1054,30 @@
         ],
         [
           "2026-07-05",
-          1528.76
+          1497.15
         ],
         [
-          "2026-07-08",
-          1505.58
+          "2026-07-12",
+          1497.7
+        ],
+        [
+          "2026-07-15",
+          1490.21
         ]
       ],
-      "latest": 1505.58,
-      "latest_date": "2026-07-08",
+      "latest": 1490.21,
+      "latest_date": "2026-07-15",
       "baseline": 1312.85,
       "baseline_date": "2024-01-08",
-      "change_pct": 14.7
+      "change_pct": 13.5
     },
     {
       "id": "kospi",
       "name": "KOSPI (Bolsa de Seúl)",
       "unit": "puntos",
       "group": "equity",
+      "desc": "El índice bursátil de Seúl (Samsung, Hyundai, SK...). Históricamente resistente a las provocaciones del Norte — cuando cae por geopolítica y no por economía, la cosa es seria.",
       "points": [
-        [
-          "2021-07-04",
-          3217.95
-        ],
         [
           "2021-07-11",
           3276.9099
@@ -2122,29 +2120,30 @@
         ],
         [
           "2026-07-05",
-          7656.3101
+          7475.9399
         ],
         [
-          "2026-07-08",
-          7246.79
+          "2026-07-12",
+          6806.9302
+        ],
+        [
+          "2026-07-15",
+          7284.4102
         ]
       ],
-      "latest": 7246.79,
-      "latest_date": "2026-07-08",
+      "latest": 7284.4102,
+      "latest_date": "2026-07-15",
       "baseline": 2472.74,
       "baseline_date": "2024-01-14",
-      "change_pct": 193.1
+      "change_pct": 194.6
     },
     {
       "id": "usdjpy",
       "name": "USD/JPY (yen japonés)",
       "unit": "¥ por USD",
       "group": "fx",
+      "desc": "Cuántos yenes por dólar. El yen es el refugio regional de Asia: en una crisis coreana tiende a FORTALECERSE (el USD/JPY baja) porque el capital busca resguardo en Japón.",
       "points": [
-        [
-          "2021-07-04",
-          110.09
-        ],
         [
           "2021-07-11",
           110.03
@@ -3187,29 +3186,30 @@
         ],
         [
           "2026-07-05",
-          162.088
+          161.65
         ],
         [
-          "2026-07-08",
-          162.467
+          "2026-07-12",
+          162.429
+        ],
+        [
+          "2026-07-15",
+          162.254
         ]
       ],
-      "latest": 162.467,
-      "latest_date": "2026-07-08",
+      "latest": 162.254,
+      "latest_date": "2026-07-15",
       "baseline": 144.86,
       "baseline_date": "2024-01-08",
-      "change_pct": 12.2
+      "change_pct": 12.0
     },
     {
       "id": "gold",
       "name": "Oro",
       "unit": "USD/onza troy",
       "group": "commodity",
+      "desc": "El refugio global: sube cuando el mundo teme una guerra, en cualquier parte. Complementa al yen como medidor del miedo — uno regional, el otro planetario.",
       "points": [
-        [
-          "2021-07-05",
-          1810.0
-        ],
         [
           "2021-07-12",
           1814.5
@@ -4252,18 +4252,22 @@
         ],
         [
           "2026-07-06",
-          4145.2998
+          4104.1001
         ],
         [
-          "2026-07-08",
-          4079.8
+          "2026-07-13",
+          4061.1001
+        ],
+        [
+          "2026-07-15",
+          4068.0
         ]
       ],
-      "latest": 4079.8,
-      "latest_date": "2026-07-08",
+      "latest": 4068.0,
+      "latest_date": "2026-07-15",
       "baseline": 2046.7,
       "baseline_date": "2024-01-08",
-      "change_pct": 99.3
+      "change_pct": 98.8
     }
   ],
   "aid": null

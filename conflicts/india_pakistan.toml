@@ -143,6 +143,31 @@ aliases = []
 events_caveat = "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona."
 losses_caveat = ""
 
+# Balance de fuerzas (a = India, b = Pakistán, según orden de [[countries]])
+[military.balance]
+as_of = "2025"
+source = "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)"
+
+[[military.balance.items]]
+label = "Tropas activas"
+a = 1460000
+b = 660000
+
+[[military.balance.items]]
+label = "Tanques de batalla"
+a = 3740
+b = 2500
+
+[[military.balance.items]]
+label = "Aviones de combate"
+a = 600
+b = 450
+
+[[military.balance.items]]
+label = "Ojivas nucleares (est.)"
+a = 172
+b = 170
+
 # --- Gazetteer: India (nombres de región EXACTOS de geoBoundaries) ---
 
 [[places]]
@@ -375,6 +400,7 @@ name = "USD/INR (rupia india)"
 unit = "₹ por USD"
 group = "fx"
 symbol = "INR=X"
+desc = "Cuántas rupias indias por dólar. Si sube, la rupia se deprecia: los inversores sacan capital de India cuando la crisis escala, y las importaciones (sobre todo energía) se encarecen."
 
 [[economy.markets]]
 id = "usdpkr"
@@ -382,6 +408,7 @@ name = "USD/PKR (rupia paquistaní)"
 unit = "PKR por USD"
 group = "fx"
 symbol = "PKR=X"
+desc = "Cuántas rupias paquistaníes por dólar. La economía de Pakistán es crónicamente frágil (reservas escasas, programas del FMI): su rupia es de las primeras víctimas de cada escalada."
 
 [[economy.markets]]
 id = "sensex"
@@ -389,6 +416,7 @@ name = "Sensex (Bolsa de Bombay)"
 unit = "puntos"
 group = "equity"
 symbol = "^BSESN"
+desc = "El índice de la Bolsa de Bombay: la confianza en la economía india. Las escaladas lo golpean; la velocidad de su recuperación mide cuán creíble le parece al mercado la desescalada."
 
 [[economy.markets]]
 id = "brent"
@@ -396,6 +424,7 @@ name = "Petróleo Brent"
 unit = "USD/barril"
 group = "commodity"
 symbol = "BZ=F"
+desc = "El crudo de referencia mundial. India y Pakistán importan casi toda su energía: un Brent caro castiga a ambas economías, sin importar quién gane el round diplomático."
 
 # -----------------------------------------------------------------------------
 #  PESTAÑA INFLUENCIA

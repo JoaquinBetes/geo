@@ -133,6 +133,36 @@ aliases = ["united nations command"]
 events_caveat = "Lanzamientos, maniobras e incidentes detectados automáticamente en titulares de prensa; no están verificados de forma independiente. La ubicación es aproximada, a nivel ciudad o zona."
 losses_caveat = ""
 
+# Balance de fuerzas (a = Corea del Norte, b = Corea del Sur)
+[military.balance]
+as_of = "2025"
+source = "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)"
+
+[[military.balance.items]]
+label = "Tropas activas"
+a = 1280000
+b = 500000
+
+[[military.balance.items]]
+label = "Reservistas"
+a = 600000
+b = 3100000
+
+[[military.balance.items]]
+label = "Tanques de batalla"
+a = 3500
+b = 2200
+
+[[military.balance.items]]
+label = "Aviones de combate"
+a = 550
+b = 600
+
+[[military.balance.items]]
+label = "Ojivas nucleares (est.)"
+a = 50
+b = 0
+
 # --- Gazetteer: Corea del Norte ---
 
 [[places]]
@@ -311,6 +341,7 @@ name = "USD/KRW (won surcoreano)"
 unit = "₩ por USD"
 group = "fx"
 symbol = "KRW=X"
+desc = "Cuántos wones por dólar. Si sube, los inversores se cubren ante el riesgo coreano: es el primer lugar donde se ve el miedo cuando Pyongyang escala."
 
 [[economy.markets]]
 id = "kospi"
@@ -318,6 +349,7 @@ name = "KOSPI (Bolsa de Seúl)"
 unit = "puntos"
 group = "equity"
 symbol = "^KS11"
+desc = "El índice bursátil de Seúl (Samsung, Hyundai, SK...). Históricamente resistente a las provocaciones del Norte — cuando cae por geopolítica y no por economía, la cosa es seria."
 
 [[economy.markets]]
 id = "usdjpy"
@@ -325,6 +357,7 @@ name = "USD/JPY (yen japonés)"
 unit = "¥ por USD"
 group = "fx"
 symbol = "JPY=X"
+desc = "Cuántos yenes por dólar. El yen es el refugio regional de Asia: en una crisis coreana tiende a FORTALECERSE (el USD/JPY baja) porque el capital busca resguardo en Japón."
 
 [[economy.markets]]
 id = "gold"
@@ -332,6 +365,7 @@ name = "Oro"
 unit = "USD/onza troy"
 group = "commodity"
 symbol = "GC=F"
+desc = "El refugio global: sube cuando el mundo teme una guerra, en cualquier parte. Complementa al yen como medidor del miedo — uno regional, el otro planetario."
 
 # -----------------------------------------------------------------------------
 #  PESTAÑA INFLUENCIA

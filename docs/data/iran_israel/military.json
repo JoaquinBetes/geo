@@ -1,23 +1,71 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-08T18:16:00+00:00",
+  "updated": "2026-07-15T13:26:01+00:00",
+  "balance": {
+    "as_of": "2025",
+    "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
+    "sides": [
+      "Irán",
+      "Israel"
+    ],
+    "items": [
+      {
+        "label": "Tropas activas",
+        "a": 610000,
+        "b": 170000
+      },
+      {
+        "label": "Reservistas",
+        "a": 350000,
+        "b": 465000
+      },
+      {
+        "label": "Aviones de combate",
+        "a": 330,
+        "b": 340
+      },
+      {
+        "label": "Ojivas nucleares (est.)",
+        "a": 0,
+        "b": 90
+      }
+    ]
+  },
   "losses_label": "",
   "caveats": {
     "events": "Eventos detectados automáticamente en titulares de prensa; no están verificados sobre el terreno. La ubicación es aproximada, a nivel ciudad o zona.",
     "losses": ""
   },
   "window": {
-    "from": "2026-06-08",
-    "to": "2026-07-08"
+    "from": "2026-05-24",
+    "to": "2026-07-15"
   },
   "kpis": {
-    "events_total": 51,
-    "events_unlocated": 108,
-    "events_7d": 44,
-    "events_prev_7d": 7,
+    "events_total": 78,
+    "events_unlocated": 145,
+    "events_7d": 42,
+    "events_prev_7d": 24,
     "hottest_place": "Strait of Hormuz"
   },
   "daily": [
+    {
+      "date": "2026-06-07",
+      "total": 3,
+      "strike": 3,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-06-08",
+      "total": 2,
+      "strike": 2,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
     {
       "date": "2026-06-27",
       "total": 2,
@@ -79,7 +127,7 @@
       "ground": 0,
       "infrastructure": 3,
       "air_defense": 0,
-      "anomaly": false
+      "anomaly": true
     },
     {
       "date": "2026-07-08",
@@ -89,9 +137,113 @@
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": true
+    },
+    {
+      "date": "2026-07-09",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-10",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-12",
+      "total": 3,
+      "strike": 3,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-13",
+      "total": 3,
+      "strike": 3,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-14",
+      "total": 7,
+      "strike": 5,
+      "ground": 0,
+      "infrastructure": 2,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-15",
+      "total": 7,
+      "strike": 5,
+      "ground": 1,
+      "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
     }
   ],
   "events": [
+    {
+      "date": "2026-06-07",
+      "type": "strike",
+      "place": "Beirut",
+      "lat": 33.8938,
+      "lon": 35.5018,
+      "title": "Iran launches missiles at Israel in response to strikes on Beirut",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOc1dGNHYyeVVUSktNdXdvWjg1ZWg5WjBDMXFMXzVOLWN2Q0o3YXVaQ0NwS0dDa1FlMUdTWUptekkxdDYyai1ZYjR0ai1jNjRTdE41YURBamNXXzRtRElGT0lCSVFCaUF1ajlTbXl0dElEb05IM0Z3Q0NzVzJmR2VobGlFc3ZxdE5kQ2poM2w0UXUyRHdONENGX1BB?oc=5"
+    },
+    {
+      "date": "2026-06-07",
+      "type": "strike",
+      "place": "Beirut",
+      "lat": 33.8938,
+      "lon": 35.5018,
+      "title": "Israel strikes Beirut after Hezbollah attack, risking Iran response",
+      "source": "Axios",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPamtFLVM2ZEVsR3UxUS12X2VGclNOVzJWdllVejhUOFdKZWt0THJJVGxsZ0EwZXRJU0tRUGJlbG42UWx5al9XN0VXMG5UN0laS2t6S0RiYmRIME51bk5IWF80T1h0emNneEx5c0p0NE94QUFRelZIOEhwTWtBUTI1Ym05OU9tYkUwX0E?oc=5"
+    },
+    {
+      "date": "2026-06-07",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Israel launches strikes on Iran after Tehran fires barrage of missiles",
+      "source": "The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMVFqaTlpQkZ5Z1lyZ3dSTHNEcGdqeExaOTlmSHZpeHhzZzhMcUJzVW8xRkQwV0s4T3lPRGpfTVlxMkk4LUQ3MW9LSWVseW83a1dfbHdBUG96dlNFWE9LRVRvWnJmcVJuWDNKVGFiZUdlUzhZSVZzZ0MwS2J1ek1tWnBOWlVaREU2bTk1S3pzcUhndTRqUGdaVllfSmkybmV3VzNyZmxUM2lVNTUxN0NuZnpBU2ZrZjgzb2xkdjZueEtveEZ2ZGc?oc=5"
+    },
+    {
+      "date": "2026-06-08",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Tehran launches ballistic missile assault on Israel; IDF confirms strikes in central Iran",
+      "source": "Fox News",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeG4xT1BkNTdjMEYzZG8xTlFNVWFZUWtSUjk5MEFHcEkxWGc5cWdYdTRyWmQ2SlpaOElEQ3pQNkxlSVhNS1pFbWc0bGZIclRCRVFlcmFvWlhqVUVKREVlTDlPR2g0Uk5zbzlnTVZJelNrUnVvTGoyc3h2V0l3UVJ4UUZRNmTSAYoBQVVfeXFMTXl4ZUF5dlhQR29wRTVDZlZrZjJHTHNqQXkxWC0tS1dZaVd3ODhnMTFhblo0Y3JnalZiTFdGdnFiWFVyTXFWQWI0bHZEZzRmNVE3RDVUTXdQNFdzdWNyMUtoanFhckZkdjZwcmJ0LVdiLTFnZG5xc0NNU0UwamZXTWk4dV93dTRRVTJR?oc=5"
+    },
+    {
+      "date": "2026-06-08",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Israeli military launches strikes on Iran after Tehran fired missiles",
+      "source": "USA Today",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQaFFadF9zQXQ0c0pUeGkybXRqeEFYUExIOEVmU294dU9mYnZsX1JmQnJ0N1ZvQ3J2UnV1ZWxjTFZzNGZ6RDV5X3otV1RCX1h4V3cxcWV5T09od0h5eGZiUWlPdU13aDNsQWsxSVMzM2lJb0duUVYxQnNuSDMwOHB6R1BWcTA1eGdXclMyVkFnejR2a0txY3hvNkUteFJhdk9aODhpVzhvQVZ1anBMU1hEQktjTzBQZ2hfdGRoN3kxUXljTFQ1UUJTUkdObWNHUQ?oc=5"
+    },
     {
       "date": "2026-06-27",
       "type": "strike",
@@ -601,27 +753,247 @@
       "title": "Oil surges as US strikes Iran, reversing return to pre-war prices",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/7/8/oil-prices-surge-as-us-strikes-iran-reversing-fall-to-pre-war-levels?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Tehran launches more strikes as Israel warns it is ready to strike Iran again ‘with even greater force’ – as it happened",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNSzZmYVBxWmdLdUp5NUhCSXZrMnpVeG5lUWJSRTFMMDBuRUpfbHBJYlU3S0R4S1FwblBZZUhuUVZiODJ6OXRkUmhhRktaVXNIdUIweWdBZ1FWckZVTWxWV1FoOGpVbldETUk0cFRONXVXazJhaEh5aHRQQVYyell0amFnNVRZZ1JLZnZZX2hOT25WYkdsUEJoLWZ4NGVaSEF5SGlCel85c21HMENZc1M3RWltRG94Zkp0a1p1Z1FaM1hWR1ZaN0hNdVdJSmQ5c21GdVRjMTA4TmtuMU54?oc=5"
+    },
+    {
+      "date": "2026-07-10",
+      "type": "strike",
+      "place": "Jerusalem",
+      "lat": 31.7683,
+      "lon": 35.2137,
+      "title": "Israel willing to assist US with Iran strikes if Donald Trump requests",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WcWctSXdUTkhhU3p1cEV0REFseHZpTGVyOTBRQUxFM005WkcxV0c3cEU3R1pQb3VkT0ZqeHdwY0wtSG45b21sbm5RM0FRODV4dHFCTUNGdUh5dkI0eEtTTkU5WVMwTm1jT0E?oc=5"
+    },
+    {
+      "date": "2026-07-12",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Trump rejects Iran’s strait of Hormuz closure claim as fight for control goes on",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/12/us-and-iran-exchange-strikes-as-tehran-again-says-strait-of-hormuz-is-closed"
+    },
+    {
+      "date": "2026-07-12",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "The Guardian view on Trump and Tehran: everyone loses when the US and Iran overplay their hands | Editorial",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/commentisfree/2026/jul/12/the-guardian-view-on-trump-and-tehran-everyone-loses-when-the-us-and-iran-overplay-their-hands"
+    },
+    {
+      "date": "2026-07-12",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Trump claims strait of Hormuz open to commercial traffic despite Iran earlier announcing closure – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/live/2026/jul/12/iran-gulf-us-strikes-jordan-qatar-uae-strait-hormuz-latest-news-updates-live"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iran-US war latest: Trump launches more strikes ‘to hold Iran accountable’ as Strait of Hormuz standoff escalates",
+      "source": "the-independent.com",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRlhTYU5lVkh0RWVlcjVCb0czVndJNWQ0cGJodnJmLXh5Nmg5QS1kOWIwZEJaaWZqRURoeEtpeC1jblFMekpLQ0Q2SXpQckVwRVFzUG96WFZTX21GdjFzSjNqU255MHZwaE5tdE82NUxuQjc0SXVaS0F1aEd4VFRqNTJSWktOVXJ5U2pzNEJTenV6aFh6UElNeHpmdks4WnZDdVZhTUtyTzhTMVF3ZkNxQ1IzR2RGbktsYVZ5NzJ0emJvZWdXNFNlS3NR?oc=5"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Trump renews Iran blockade and again threatens to take control of strait of Hormuz",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/13/us-iran-war-missile-strikes-news-attacks-strait-of-hormuz"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Oil prices leap and stocks fall as Trump reinstates Hormuz blockade on Iranian shipping",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jul/13/oil-prices-leap-stocks-fall-us-iran-strait-of-hormuz-brent-crude-markets"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "US bombs Iran again, Tehran strikes Gulf, tankers: What’s the latest?",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMUZjVUNKbnJIVnVlYmpqT0Jka3k5NDBWMFdYYnJURGJleGl0T2pGRTE2M084eGVJdi1IRjVoTXNiQlgzQ296aU1GUjdpTHlxZlNteG1kcUt3eHFsTEZlaTduX3F4WmlEaUdrMnYxWW9HZXVNYjhQMndQUklBemFoTmtDNV9KeDZGbVdFbEpwY3BRT0VXRV9IUUFsakZ6YmZXaUlJUlB0ODjSAa4BQVVfeXFMUEZZWmNjb3NSLV9kejR2bzVocklHWjUwOXdUYTZ6NzRZUlFQYmtjenA5TzVIYXRUZTU2NnN3UDNXWDBhaVNOV29TSEhSbktDc2IxS0JnZUdDX09BSXRGOTJqSUpYRmFxWjdvLUliR2VKbVZOSEJkUHpHTmpWTUdQTXBFN2Z4eVJLanlPS1hRMnpmeG9WTnFVYm1WaldNUzUwbllIWXl3UHJaZkRqYVhn?oc=5"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US launches third night of strikes on Iran as Trump announces Hormuz blockade",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTzk5TkVyaXI1Tl9tMUgxc20zOHBTTVk5M1NyX1lJd3MtYnFfVW9xV2dJR1p2Q1RVb3ZqRkRFRXBCM1N0VVdJTlRLT0R6Z0w0U1FLYlhfMXpFWGxFZ2htTmk1UGlmWEJ5THUwVzAwRWU4NUdxVnQzN2pUOENDbTVOekNfcld6R3RWN1h5US1vVkk1QzgtQUlhWXdaYnNvV3VyOFZuODJLcjAwbl94U2Y1cGN6VEJiM1BDTngwQXdoMzQ?oc=5"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "infrastructure",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Trump withdraws Hormuz tolls threat but says US will continue to blockade Iran",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/14/us-strikes-iran-bahrain-jordan-uae-tankers"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "infrastructure",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "We’d like to speak to maritime, port workers, their friends and family about how the Middle East conflict is affecting them",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/04/maritime-and-port-workers-how-is-the-middle-east-conflict-affecting-you"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Iranian flights to Yemen are violation of sovereignty, says Yemeni official",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/14/iran-flight-sanaa-yemen-houthis-saudi"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Trump says US reinstating blockade on Iranian ports – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/live/2026/jul/13/us-iran-strikes-middle-east-strait-of-hormuz-military-latest-news-updates"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US launches third night of strikes on Iran as Trump announces Hormuz blockade",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/13/us-launches-third-night-of-strikes-on-iran-as-trump-announces-hormuz-blockade"
+    },
+    {
+      "date": "2026-07-15",
+      "type": "ground",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iran war live: Trump ‘discussing massive offensive’ to force reopening of Hormuz",
+      "source": "The Independent",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaGRfZ0c4aUFxbDYzUmlxNXpKcUFzWWdZejU3NU8wZ1ZfdGlPM0FLa1F4RnlOeGJ5ek50S001bFJxYU4wdnZjazl2T3RzNmdSYlczYkVkRHlhVFFZYmktb3ozeHFGU2ZqdHBBYUdYdHduekNYZkJKVUlxbHp4X1p2YnBnTEhvZmZjOHFnRzVIaWhKQm0xS3ktNnJJNXdJMGpLZWtsQzN5SGVDbFRYLVRYUi1rZzBjdFFja2dKdQ?oc=5"
+    },
+    {
+      "date": "2026-07-15",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Iran, US-Israel War Live Updates | US launches new 'wave of strikes' against Iran, did it to 'degrade Tehran's military capabilities'",
+      "source": "Deccan Herald",
+      "url": "https://news.google.com/rss/articles/CBMi2wNBVV95cUxNRjNsZGw0eUtMYlhnVTV3X0wtX2xaQ1BkT2dDS1lfbVIwMHBrRGxReG5uTGxBdHM3bXllSzJ0MF9jOWpyVGtaVTlGQnRSQVlSWXdrZUxqbHBuUjRPWGtWbTBuaVhxckFsdE5DVmVjcVBWd2ZWemRIMmo5ZEJwcWQ3MzA2cHBHbHhxWXpJd2dadGhoYmVaNlVuRUF6ZG5yMVV2ODRDOVlwZWhXNm1XMHZvbzdSNkRla1F0SDN3ZHRsZUp5YVlDdTN1V0xYTkJ0OWN2b0dwWERMSXhnSEQwQjB1X18ySGZwV3QybEoxNTJ6OTZ5eWdEdndIU3JWWGNDa19mME1BazFibjBPRUpDOTM4TEVDb2dtRUxyWVhEemFMMlh0VWVnUGswcDhlci1jUHdLMFFPSzhnSUZRcnZTbUNFQlNRMXVHVFZodDVJX1ROLUhvTTZBc3luOGZZd0ZUQjdLa18tM1JYUTE1OE1BNDNJSkFRUDRWWmZuZjZiSmpVd2w0SkhOVlQ4T25oa1RTTWljZmF0U3Z3ZVB6YTdWdExyWElPbGFzV3E3MVhyYXlKOFo1VVBDenhIc09DTVc4azdrclg0SFptdVUwRzFfQ2lJOG1KY0FCNkxkVEdn?oc=5"
+    },
+    {
+      "date": "2026-07-15",
+      "type": "infrastructure",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US launches ‘wave of strikes’ on Iran after Trump tells Iran that power plants, bridges will be targeted if no deal is made – Middle East crisis live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/live/2026/jul/15/us-iran-war-live-updates-strikes-trump-power-plants-bridges-middle-east-crisis-latest-news"
+    },
+    {
+      "date": "2026-07-15",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iran threatens to halt all Middle East energy exports amid renewed US blockade",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/15/trump-iran-power-plants-strike-threat-strait-of-hormuz"
+    },
+    {
+      "date": "2026-07-15",
+      "type": "strike",
+      "place": "Haifa",
+      "lat": 32.794,
+      "lon": 34.9896,
+      "title": "82-year-old man dies of wounds sustained in Iranian missile attack on Haifa in April",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/82-year-old-man-dies-of-wounds-sustained-in-iranian-missile-attack-on-haifa-in-april/"
+    },
+    {
+      "date": "2026-07-15",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "High Court freezes implementation of contentious law banning arrests of Haredi draft-dodgers",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/liveblog-july-15-2026/"
+    },
+    {
+      "date": "2026-07-15",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "U.S. blockades Iranian ports, launches dozens of strikes as Trump seeks control of Strait of Hormuz",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMVVHeHVNWkg5bTZGeW83dlJ0LVdxTW4wMGZVWktZTkpscWZYOWVmRVpFb3RGb2hsd2l3MV9aN244X3BfTGdtMnMzQXhnUHVNRHNDZU1HcldZVFpkWHgtMWh0a2lMRk9kVEVld3k3a0pyM3RhUzVHckdmWlFaQkpfQ29LWlZzRkxiaEQ5dWMyZzFTNklk?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 29
+      "count": 43
     },
     {
       "place": "Tehran",
-      "count": 9
+      "count": 15
     },
     {
       "place": "Damascus",
       "count": 7
     },
     {
-      "place": "Doha",
-      "count": 1
+      "place": "Jerusalem",
+      "count": 2
     },
     {
-      "place": "Jerusalem",
+      "place": "Doha",
       "count": 1
     },
     {
@@ -638,6 +1010,10 @@
     },
     {
       "place": "Eilat",
+      "count": 1
+    },
+    {
+      "place": "Haifa",
       "count": 1
     }
   ],

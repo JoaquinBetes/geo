@@ -145,6 +145,36 @@ aliases = []
 events_caveat = "Maniobras, patrullas e incidentes detectados automáticamente en titulares de prensa; no están verificados de forma independiente. La ubicación es aproximada, a nivel ciudad o zona."
 losses_caveat = ""
 
+# Balance de fuerzas (a = China, b = Taiwán, según orden de [[countries]])
+[military.balance]
+as_of = "2025"
+source = "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)"
+
+[[military.balance.items]]
+label = "Tropas activas"
+a = 2035000
+b = 169000
+
+[[military.balance.items]]
+label = "Tanques de batalla"
+a = 4800
+b = 950
+
+[[military.balance.items]]
+label = "Aviones de combate"
+a = 1900
+b = 300
+
+[[military.balance.items]]
+label = "Buques de guerra principales"
+a = 370
+b = 90
+
+[[military.balance.items]]
+label = "Ojivas nucleares (est.)"
+a = 500
+b = 0
+
 # --- Gazetteer: Taiwán ---
 
 [[places]]
@@ -379,6 +409,7 @@ name = "TSMC (ADR, NYSE)"
 unit = "USD"
 group = "equity"
 symbol = "TSM"
+desc = "La acción de Taiwan Semiconductor en Nueva York: el fabricante de ~90% de los chips avanzados del planeta. Si cae con fuerza, el mercado está poniendo precio al riesgo de bloqueo o invasión de la isla."
 
 [[economy.markets]]
 id = "twii"
@@ -386,6 +417,7 @@ name = "Índice bursátil de Taipéi"
 unit = "puntos"
 group = "equity"
 symbol = "^TWII"
+desc = "El índice de la bolsa taiwanesa: mide la confianza de los inversores en que la isla sigue siendo un lugar seguro para hacer negocios. Cae cuando las maniobras chinas asustan al capital."
 
 [[economy.markets]]
 id = "usdtwd"
@@ -393,6 +425,7 @@ name = "USD/TWD (dólar taiwanés)"
 unit = "NT$ por USD"
 group = "fx"
 symbol = "TWD=X"
+desc = "Cuántos dólares taiwaneses por dólar de EE.UU. Si sube, hay salida de capitales de la isla (miedo a la escalada); si baja, el dinero vuelve."
 
 [[economy.markets]]
 id = "usdcny"
@@ -400,6 +433,7 @@ name = "USD/CNY (yuan chino)"
 unit = "¥ por USD"
 group = "fx"
 symbol = "CNY=X"
+desc = "Cuántos yuanes por dólar. Pekín administra su cotización: una depreciación puede ser síntoma de presión económica (sanciones, salida de capitales) o un arma comercial deliberada — leerlo requiere contexto."
 
 # -----------------------------------------------------------------------------
 #  PESTAÑA INFLUENCIA

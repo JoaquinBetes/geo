@@ -71,16 +71,28 @@
         <h2>Tono a lo largo del tiempo</h2>
         <p class="hint">Línea = tono promedio diario (−1 a 1) · Barras = cantidad de artículos</p>
         <div class="chart-box tall"><canvas id="chart-timeline"></canvas></div>
+        <ul class="glossary">
+          <li><b>Tono</b> índice de sentimiento del texto (algoritmo VADER) que va de −1 (muy negativo: muertes, ataques, crisis) a +1 (muy positivo: acuerdos, treguas). Se calcula sobre el titular y el resumen de cada artículo.</li>
+          <li><b>Artículos</b> cantidad de notas publicadas ese día en las fuentes monitoreadas: mide cuánta atención mediática recibe el conflicto.</li>
+        </ul>
       </section>
 
       <div class="grid-2">
         <section class="card">
           <h2>Distribución de sentimiento</h2>
           <div class="chart-box"><canvas id="chart-dist"></canvas></div>
+          <ul class="glossary">
+            <li><b>Positivo / Negativo</b> artículos con tono ≥ +0,05 / ≤ −0,05.</li>
+            <li><b>Neutral</b> tono entre ambos umbrales: notas informativas sin carga emocional detectable.</li>
+          </ul>
         </section>
         <section class="card">
           <h2>Medios con más cobertura</h2>
           <div class="chart-box"><canvas id="chart-sources"></canvas></div>
+          <ul class="glossary">
+            <li><b>Largo de la barra</b> artículos aportados por ese medio.</li>
+            <li><b>Color</b> tono promedio con el que ese medio cubre el conflicto (verde positivo · gris neutral · rojo negativo).</li>
+          </ul>
         </section>
       </div>
 
@@ -88,6 +100,10 @@
         <h2>Entidades más mencionadas</h2>
         <p class="hint">Largo = menciones · Color = tono promedio con el que aparecen</p>
         <div class="chart-box tall"><canvas id="chart-entities"></canvas></div>
+        <ul class="glossary">
+          <li><b>Menciones</b> cantidad de artículos que nombran a esa persona, organización o lugar.</li>
+          <li><b>Color</b> tono promedio de los artículos donde aparece: estar muy mencionado y muy en rojo significa protagonizar las peores noticias.</li>
+        </ul>
       </section>
 
       <section class="card wide" id="nar-geo-card" hidden>
@@ -106,6 +122,11 @@
           <div><h3 class="map-title" id="nar-geo-title-1">–</h3><div id="map-nar-1" class="mini-map"></div></div>
         </div>
         <div class="legend" id="nar-geo-legend"></div>
+        <ul class="glossary">
+          <li><b>Atención</b> cantidad de artículos que mencionan lugares de esa región: dónde mira la prensa.</li>
+          <li><b>Tono</b> sentimiento promedio de esos artículos: de qué regiones se habla con más dureza.</li>
+          <li><b>Región sin color</b> ninguna noticia analizada menciona lugares de esa región.</li>
+        </ul>
       </section>
 
       <section class="card wide">
@@ -136,6 +157,14 @@
         </div>
         <div id="map"></div>
         <div class="legend" id="map-legend"></div>
+        <ul class="glossary">
+          <li><b>Ataque / bombardeo</b> misiles, drones, artillería o explosiones reportados en ese lugar.</li>
+          <li><b>Combate terrestre</b> ofensivas, asaltos, avances o choques entre tropas.</li>
+          <li><b>Infraestructura</b> ataques a energía, puertos, puentes, refinerías o plantas nucleares.</li>
+          <li><b>Defensa aérea</b> intercepciones y derribos de misiles o drones.</li>
+          <li><b>◈ Infraestructura estratégica</b> sitios clave curados manualmente (bases, centrales, puertos); clic para ver por qué importan.</li>
+          <li><b>Mapa de calor</b> concentración de eventos: cuanto más intenso, más actividad reportada en la zona.</li>
+        </ul>
       </section>
 
       <section class="card wide" id="mil-geo-card" hidden>
@@ -146,18 +175,40 @@
           <div><h3 class="map-title" id="mil-geo-title-1">–</h3><div id="map-mil-1" class="mini-map"></div></div>
         </div>
         <div class="legend" id="mil-geo-legend"></div>
+        <ul class="glossary">
+          <li><b>Intensidad</b> cantidad de eventos reportados por la prensa dentro de cada región administrativa (más oscuro = más eventos).</li>
+          <li><b>Región sin color</b> ningún evento geolocalizado en esa región dentro de la ventana de datos.</li>
+        </ul>
       </section>
 
       <section class="card wide">
         <h2>Actividad diaria por tipo de evento</h2>
         <p class="hint">▲ = pico de actividad inusual: muy por encima del promedio de los 30 días previos</p>
         <div class="chart-box tall"><canvas id="chart-mil-daily"></canvas></div>
+        <ul class="glossary">
+          <li><b>Barras apiladas</b> eventos reportados cada día, divididos por tipo (mismos colores que el mapa).</li>
+          <li><b>▲ Pico anómalo</b> día cuya actividad supera con creces el promedio de los 30 días previos: posible escalada u ofensiva.</li>
+        </ul>
       </section>
 
       <section class="card wide">
         <h2>Cruce: narrativa vs. actividad militar</h2>
         <p class="hint">¿El tono de los medios reacciona a los picos de eventos en el terreno?</p>
         <div class="chart-box"><canvas id="chart-mil-corr"></canvas></div>
+        <ul class="glossary">
+          <li><b>Barras rojas</b> eventos militares reportados por día (eje derecho).</li>
+          <li><b>Línea celeste</b> tono promedio de la cobertura ese día (eje izquierdo, −1 a +1). Si la línea cae cuando las barras suben, la prensa reacciona al terreno.</li>
+        </ul>
+      </section>
+
+      <section class="card wide" id="mil-balance-card" hidden>
+        <h2>Balance de fuerzas comparado</h2>
+        <p class="hint" id="mil-balance-hint"></p>
+        <div id="mil-balance" class="balance"></div>
+        <ul class="glossary">
+          <li><b>Cada barra</b> reparte el total del indicador entre ambos bandos: no mide calidad ni disponibilidad real, sólo magnitud declarada.</li>
+          <li><b>Estimaciones</b> cifras aproximadas de fuentes abiertas (IISS Military Balance, SIPRI); los inventarios reales son secreto militar.</li>
+        </ul>
       </section>
 
       <section class="card wide" id="mil-equip-card">
@@ -165,11 +216,20 @@
         <p class="hint" id="mil-losses-caveat"></p>
         <div class="counter-grid" id="equip-counters"></div>
         <div class="chart-box tall"><canvas id="chart-mil-equip"></canvas></div>
+        <ul class="glossary">
+          <li><b>Contadores</b> total acumulado desde el inicio de la guerra y suba de los últimos 30 días.</li>
+          <li><b>APC</b> vehículos blindados de transporte de personal. <b>Artillería</b> piezas de campo. <b>Misiles crucero</b> derribados o gastados.</li>
+          <li><b>Líneas</b> evolución del acumulado: cuanto más empinada, más rápido el desgaste. Los drones no se grafican (su volumen aplastaría al resto de las curvas).</li>
+        </ul>
       </section>
 
       <section class="card wide" id="mil-personnel-card">
         <h2>Bajas de personal (acumulado y ritmo semanal)</h2>
         <div class="chart-box tall"><canvas id="chart-mil-personnel"></canvas></div>
+        <ul class="glossary">
+          <li><b>Línea roja</b> bajas acumuladas (muertos y heridos, sin distinguir) según el parte diario ucraniano.</li>
+          <li><b>Barras</b> ritmo semanal: cuántas bajas se sumaron cada semana — el pulso del desgaste humano.</li>
+        </ul>
       </section>
     </section>
 
@@ -187,6 +247,7 @@
         <p class="hint" id="eco-map-hint">Trazados esquemáticos (no cartografía de precisión). Línea punteada = ruta cortada o fuera de servicio. Clic en cada elemento para el detalle.</p>
         <div id="map-eco" class="eco-map"></div>
         <div class="legend" id="eco-map-legend"></div>
+        <ul class="glossary" id="eco-map-glossary"></ul>
       </section>
 
       <div class="grid-2" id="eco-markets"></div>
@@ -195,6 +256,11 @@
         <h2>Ayuda internacional por donante</h2>
         <p class="hint" id="eco-aid-caveat"></p>
         <div class="chart-box tall"><canvas id="chart-eco-aid"></canvas></div>
+        <ul class="glossary">
+          <li><b>Militar</b> armamento, munición y equipamiento entregado o comprometido.</li>
+          <li><b>Financiera</b> préstamos y transferencias para sostener el Estado (salarios, pensiones, déficit).</li>
+          <li><b>Humanitaria</b> comida, medicinas, refugio. El desglose revela la naturaleza del apoyo de cada donante.</li>
+        </ul>
       </section>
     </section>
 
@@ -214,11 +280,18 @@
           <h2>El mundo por bloques</h2>
           <p class="hint">Cantidad de países en cada categoría de alineamiento.</p>
           <div class="chart-box"><canvas id="chart-inf-blocs"></canvas></div>
+          <ul class="glossary">
+            <li><b>Categorías</b> las mismas del mapamundi de arriba (definidas para cada conflicto); acá se cuenta cuántos países caen en cada una.</li>
+          </ul>
         </section>
         <section class="card">
           <h2>Soft power narrativo: quién cuenta la guerra</h2>
           <p class="hint">Artículos por país sede del medio · color = tono promedio. Se actualiza automáticamente con las noticias.</p>
           <div class="chart-box"><canvas id="chart-inf-narrators"></canvas></div>
+          <ul class="glossary">
+            <li><b>País narrador</b> dónde tiene su sede el medio que publicó cada artículo: mide desde qué capitales se escribe el relato del conflicto.</li>
+            <li><b>Color</b> tono promedio de la cobertura de ese país (verde positivo · gris neutral · rojo negativo).</li>
+          </ul>
         </section>
       </div>
 

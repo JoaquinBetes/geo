@@ -1,6 +1,6 @@
 {
   "id": "china_taiwan",
-  "updated": "2026-07-08T18:16:09+00:00",
+  "updated": "2026-07-15T13:26:08+00:00",
   "start_date": "2024-05-20",
   "note": "TSMC fabrica ~90% de los chips más avanzados del mundo: su cotización es el termómetro del riesgo de bloqueo. El dólar taiwanés y el yuan miden la presión financiera sobre cada orilla; por el estrecho pasa cerca de la mitad del tráfico mundial de contenedores. Línea base: asunción de Lai Ching-te (may 2024).",
   "baseline_label": "pre-crisis",
@@ -10,11 +10,8 @@
       "name": "TSMC (ADR, NYSE)",
       "unit": "USD",
       "group": "equity",
+      "desc": "La acción de Taiwan Semiconductor en Nueva York: el fabricante de ~90% de los chips avanzados del planeta. Si cae con fuerza, el mercado está poniendo precio al riesgo de bloqueo o invasión de la isla.",
       "points": [
-        [
-          "2021-07-05",
-          120.56
-        ],
         [
           "2021-07-12",
           115.74
@@ -1057,29 +1054,30 @@
         ],
         [
           "2026-07-06",
-          432.57
+          434.11
         ],
         [
-          "2026-07-08",
-          436.72
+          "2026-07-13",
+          421.58
+        ],
+        [
+          "2026-07-14",
+          420.39
         ]
       ],
-      "latest": 436.72,
-      "latest_date": "2026-07-08",
+      "latest": 420.39,
+      "latest_date": "2026-07-14",
       "baseline": 151.68,
       "baseline_date": "2024-05-13",
-      "change_pct": 187.9
+      "change_pct": 177.2
     },
     {
       "id": "twii",
       "name": "Índice bursátil de Taipéi",
       "unit": "puntos",
       "group": "equity",
+      "desc": "El índice de la bolsa taiwanesa: mide la confianza de los inversores en que la isla sigue siendo un lugar seguro para hacer negocios. Cae cuando las maniobras chinas asustan al capital.",
       "points": [
-        [
-          "2021-07-04",
-          17661.4805
-        ],
         [
           "2021-07-11",
           17895.25
@@ -2106,29 +2104,30 @@
         ],
         [
           "2026-07-05",
-          45479.1094
+          45354.6094
         ],
         [
-          "2026-07-08",
-          45734.4102
+          "2026-07-12",
+          45380.5195
+        ],
+        [
+          "2026-07-15",
+          45631.5898
         ]
       ],
-      "latest": 45734.4102,
-      "latest_date": "2026-07-08",
+      "latest": 45631.5898,
+      "latest_date": "2026-07-15",
       "baseline": 21565.3398,
       "baseline_date": "2024-05-19",
-      "change_pct": 112.1
+      "change_pct": 111.6
     },
     {
       "id": "usdtwd",
       "name": "USD/TWD (dólar taiwanés)",
       "unit": "NT$ por USD",
       "group": "fx",
+      "desc": "Cuántos dólares taiwaneses por dólar de EE.UU. Si sube, hay salida de capitales de la isla (miedo a la escalada); si baja, el dinero vuelve.",
       "points": [
-        [
-          "2021-07-04",
-          27.9508
-        ],
         [
           "2021-07-11",
           27.9729
@@ -3171,29 +3170,30 @@
         ],
         [
           "2026-07-05",
-          32.0549
+          32.0985
         ],
         [
-          "2026-07-08",
-          32.054
+          "2026-07-12",
+          32.162
+        ],
+        [
+          "2026-07-15",
+          32.175
         ]
       ],
-      "latest": 32.054,
-      "latest_date": "2026-07-08",
+      "latest": 32.175,
+      "latest_date": "2026-07-15",
       "baseline": 32.2315,
       "baseline_date": "2024-05-19",
-      "change_pct": -0.6
+      "change_pct": -0.2
     },
     {
       "id": "usdcny",
       "name": "USD/CNY (yuan chino)",
       "unit": "¥ por USD",
       "group": "fx",
+      "desc": "Cuántos yuanes por dólar. Pekín administra su cotización: una depreciación puede ser síntoma de presión económica (sanciones, salida de capitales) o un arma comercial deliberada — leerlo requiere contexto.",
       "points": [
-        [
-          "2021-07-04",
-          6.4778
-        ],
         [
           "2021-07-11",
           6.4777
@@ -4236,18 +4236,22 @@
         ],
         [
           "2026-07-05",
-          6.7958
+          6.7921
         ],
         [
-          "2026-07-08",
-          6.794
+          "2026-07-12",
+          6.7795
+        ],
+        [
+          "2026-07-15",
+          6.7575
         ]
       ],
-      "latest": 6.794,
-      "latest_date": "2026-07-08",
+      "latest": 6.7575,
+      "latest_date": "2026-07-15",
       "baseline": 7.2415,
       "baseline_date": "2024-05-19",
-      "change_pct": -6.2
+      "change_pct": -6.7
     }
   ],
   "aid": null

@@ -37,6 +37,9 @@ def fetch_market(market: dict) -> dict:
         "name": market["name"],
         "unit": market.get("unit", ""),
         "group": market.get("group", "other"),
+        # Explicación para el visitante: qué es la serie y qué implica que
+        # suba o baje (vive en el TOML de cada conflicto).
+        "desc": market.get("desc", ""),
         "points": points,
     }
 

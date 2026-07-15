@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-08T18:16:03+00:00",
+  "updated": "2026-07-15T13:26:03+00:00",
   "start_date": "2025-06-13",
   "note": "El petróleo es el termómetro del estrecho de Ormuz (por ahí pasa una quinta parte del crudo mundial); el oro mide el miedo global a la escalada; el shekel, la presión sobre la economía israelí. El rial iraní no cotiza en mercados abiertos.",
   "baseline_label": "pre-guerra",
@@ -10,11 +10,8 @@
       "name": "Petróleo Brent",
       "unit": "USD/barril",
       "group": "commodity",
+      "desc": "El crudo de referencia mundial (Mar del Norte), la vara con la que se cotiza el petróleo de Europa, África y Medio Oriente. Cualquier amenaza sobre el estrecho de Ormuz (una quinta parte del crudo global) lo dispara: es el termómetro del riesgo de guerra mayor.",
       "points": [
-        [
-          "2021-07-05",
-          75.55
-        ],
         [
           "2021-07-12",
           73.59
@@ -1057,29 +1054,30 @@
         ],
         [
           "2026-07-06",
-          74.16
+          76.01
         ],
         [
-          "2026-07-08",
-          78.18
+          "2026-07-13",
+          84.73
+        ],
+        [
+          "2026-07-15",
+          85.42
         ]
       ],
-      "latest": 78.18,
-      "latest_date": "2026-07-08",
+      "latest": 85.42,
+      "latest_date": "2026-07-15",
       "baseline": 74.23,
       "baseline_date": "2025-06-09",
-      "change_pct": 5.3
+      "change_pct": 15.1
     },
     {
       "id": "wti",
       "name": "Petróleo WTI",
       "unit": "USD/barril",
       "group": "commodity",
+      "desc": "West Texas Intermediate, el crudo de referencia de EE.UU. (entrega en Cushing, Oklahoma). Suele valer unos dólares menos que el Brent por costos logísticos; si la brecha entre ambos se agranda, el shock golpea sobre todo fuera de América.",
       "points": [
-        [
-          "2021-07-05",
-          74.56
-        ],
         [
           "2021-07-12",
           71.81
@@ -2122,29 +2120,30 @@
         ],
         [
           "2026-07-06",
-          70.44
+          71.41
         ],
         [
-          "2026-07-08",
-          73.66
+          "2026-07-13",
+          79.34
+        ],
+        [
+          "2026-07-15",
+          80.28
         ]
       ],
-      "latest": 73.66,
-      "latest_date": "2026-07-08",
+      "latest": 80.28,
+      "latest_date": "2026-07-15",
       "baseline": 72.98,
       "baseline_date": "2025-06-09",
-      "change_pct": 0.9
+      "change_pct": 10.0
     },
     {
       "id": "gold",
       "name": "Oro",
       "unit": "USD/onza troy",
       "group": "commodity",
+      "desc": "El refugio clásico: cuando los mercados temen una guerra o inflación, compran oro. Una suba fuerte y sostenida significa que el mundo está nervioso — no importa dónde viva el inversor.",
       "points": [
-        [
-          "2021-07-05",
-          1810.0
-        ],
         [
           "2021-07-12",
           1814.5
@@ -3187,29 +3186,30 @@
         ],
         [
           "2026-07-06",
-          4145.2998
+          4104.1001
         ],
         [
-          "2026-07-08",
-          4080.7
+          "2026-07-13",
+          4061.1001
+        ],
+        [
+          "2026-07-15",
+          4069.0
         ]
       ],
-      "latest": 4080.7,
-      "latest_date": "2026-07-08",
+      "latest": 4069.0,
+      "latest_date": "2026-07-15",
       "baseline": 3431.2,
       "baseline_date": "2025-06-09",
-      "change_pct": 18.9
+      "change_pct": 18.6
     },
     {
       "id": "usdils",
       "name": "USD/ILS (shekel israelí)",
       "unit": "₪ por USD",
       "group": "fx",
+      "desc": "Cuántos shekels por dólar. Si sube, el mercado castiga a la economía israelí (riesgo bélico, salida de capitales, encarecimiento de importaciones); si baja, señal de confianza en que la crisis está contenida.",
       "points": [
-        [
-          "2021-07-04",
-          3.2794
-        ],
         [
           "2021-07-11",
           3.2878
@@ -4252,18 +4252,22 @@
         ],
         [
           "2026-07-05",
-          2.9967
+          3.0141
         ],
         [
-          "2026-07-08",
-          3.0389
+          "2026-07-12",
+          3.0234
+        ],
+        [
+          "2026-07-15",
+          2.9971
         ]
       ],
-      "latest": 3.0389,
-      "latest_date": "2026-07-08",
+      "latest": 2.9971,
+      "latest_date": "2026-07-15",
       "baseline": 3.5964,
       "baseline_date": "2025-06-08",
-      "change_pct": -15.5
+      "change_pct": -16.7
     }
   ],
   "aid": null

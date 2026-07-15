@@ -1,6 +1,6 @@
 {
   "id": "india_pakistan",
-  "updated": "2026-07-08T18:16:13+00:00",
+  "updated": "2026-07-15T13:26:12+00:00",
   "start_date": "2025-04-22",
   "note": "Las dos rupias miden la presión sobre cada economía (la paquistaní, crónicamente frágil y dependiente del FMI); el Sensex refleja cuánto castiga el mercado la escalada; el Brent pega en ambos, grandes importadores de energía. Línea base: atentado de Pahalgam (abr 2025).",
   "baseline_label": "pre-crisis",
@@ -10,11 +10,8 @@
       "name": "USD/INR (rupia india)",
       "unit": "₹ por USD",
       "group": "fx",
+      "desc": "Cuántas rupias indias por dólar. Si sube, la rupia se deprecia: los inversores sacan capital de India cuando la crisis escala, y las importaciones (sobre todo energía) se encarecen.",
       "points": [
-        [
-          "2021-07-04",
-          74.487
-        ],
         [
           "2021-07-11",
           74.9013
@@ -1057,29 +1054,30 @@
         ],
         [
           "2026-07-05",
-          95.6035
+          95.323
         ],
         [
-          "2026-07-08",
-          95.55
+          "2026-07-12",
+          96.2989
+        ],
+        [
+          "2026-07-15",
+          96.245
         ]
       ],
-      "latest": 95.55,
-      "latest_date": "2026-07-08",
+      "latest": 96.245,
+      "latest_date": "2026-07-15",
       "baseline": 85.3846,
       "baseline_date": "2025-04-20",
-      "change_pct": 11.9
+      "change_pct": 12.7
     },
     {
       "id": "usdpkr",
       "name": "USD/PKR (rupia paquistaní)",
       "unit": "PKR por USD",
       "group": "fx",
+      "desc": "Cuántas rupias paquistaníes por dólar. La economía de Pakistán es crónicamente frágil (reservas escasas, programas del FMI): su rupia es de las primeras víctimas de cada escalada.",
       "points": [
-        [
-          "2021-07-04",
-          159.0
-        ],
         [
           "2021-07-11",
           158.1591
@@ -2122,15 +2120,19 @@
         ],
         [
           "2026-07-05",
-          276.0443
+          276.8631
         ],
         [
-          "2026-07-08",
-          277.82
+          "2026-07-12",
+          277.7
+        ],
+        [
+          "2026-07-15",
+          277.72
         ]
       ],
-      "latest": 277.82,
-      "latest_date": "2026-07-08",
+      "latest": 277.72,
+      "latest_date": "2026-07-15",
       "baseline": 279.4688,
       "baseline_date": "2025-04-20",
       "change_pct": -0.6
@@ -2140,11 +2142,8 @@
       "name": "Sensex (Bolsa de Bombay)",
       "unit": "puntos",
       "group": "equity",
+      "desc": "El índice de la Bolsa de Bombay: la confianza en la economía india. Las escaladas lo golpean; la velocidad de su recuperación mide cuán creíble le parece al mercado la desescalada.",
       "points": [
-        [
-          "2021-07-04",
-          52386.1914
-        ],
         [
           "2021-07-11",
           53140.0586
@@ -3187,29 +3186,30 @@
         ],
         [
           "2026-07-05",
-          78180.7188
+          77569.3906
         ],
         [
-          "2026-07-08",
-          76503.6016
+          "2026-07-12",
+          77616.3984
+        ],
+        [
+          "2026-07-15",
+          77185.4297
         ]
       ],
-      "latest": 76503.6016,
-      "latest_date": "2026-07-08",
+      "latest": 77185.4297,
+      "latest_date": "2026-07-15",
       "baseline": 79212.5312,
       "baseline_date": "2025-04-20",
-      "change_pct": -3.4
+      "change_pct": -2.6
     },
     {
       "id": "brent",
       "name": "Petróleo Brent",
       "unit": "USD/barril",
       "group": "commodity",
+      "desc": "El crudo de referencia mundial. India y Pakistán importan casi toda su energía: un Brent caro castiga a ambas economías, sin importar quién gane el round diplomático.",
       "points": [
-        [
-          "2021-07-05",
-          75.55
-        ],
         [
           "2021-07-12",
           73.59
@@ -4252,18 +4252,22 @@
         ],
         [
           "2026-07-06",
-          74.16
+          76.01
         ],
         [
-          "2026-07-08",
-          78.18
+          "2026-07-13",
+          84.73
+        ],
+        [
+          "2026-07-15",
+          85.46
         ]
       ],
-      "latest": 78.18,
-      "latest_date": "2026-07-08",
+      "latest": 85.46,
+      "latest_date": "2026-07-15",
       "baseline": 66.87,
       "baseline_date": "2025-04-21",
-      "change_pct": 16.9
+      "change_pct": 27.8
     }
   ],
   "aid": null

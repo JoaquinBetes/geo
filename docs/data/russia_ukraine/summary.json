@@ -2,13 +2,13 @@
   "id": "russia_ukraine",
   "name": "Rusia–Ucrania",
   "description": "Cobertura mediática del conflicto entre Rusia y Ucrania",
-  "updated": "2026-07-16T11:46:51+00:00",
-  "total_articles": 2659,
-  "overall_avg": -0.3926,
+  "updated": "2026-07-16T11:48:22+00:00",
+  "total_articles": 2661,
+  "overall_avg": -0.3924,
   "distribution": {
-    "pos": 514,
+    "pos": 515,
     "neu": 355,
-    "neg": 1790
+    "neg": 1791
   },
   "sources": [
     "Al Jazeera",
@@ -47,13 +47,13 @@
     "Financial Times",
     "Ukrinform - Ukrainian National News Agency",
     "TVP World",
+    "The Hill",
     "Russia Matters",
     "The Jerusalem Post",
     "Springfield News-Sun",
     "The Herald Journal",
     "Audacy",
     "Forbes",
-    "The Hill",
     "Українська правда",
     "The Washington Post",
     "France 24",
@@ -135,6 +135,7 @@
     "New Eastern Europe",
     "Crypto Briefing",
     "ukranews.com",
+    "Idaho State Journal",
     "Telegraph India",
     "The Detroit News",
     "New York Magazine",
@@ -262,7 +263,6 @@
     "Channel 4 News | Substack",
     "Time Magazine",
     "Montgomery Community Media",
-    "Idaho State Journal",
     "Human Rights Watch",
     "Baird Maritime",
     "Alton Telegraph",
@@ -825,11 +825,11 @@
     },
     {
       "date": "2026-07-16",
-      "count": 111,
-      "avg": -0.3009,
-      "pos": 30,
+      "count": 113,
+      "avg": -0.2989,
+      "pos": 31,
       "neu": 14,
-      "neg": 67
+      "neg": 68
     }
   ],
   "by_source": [
@@ -1014,6 +1014,11 @@
       "avg": -0.4192
     },
     {
+      "source": "The Hill",
+      "count": 8,
+      "avg": -0.6091
+    },
+    {
       "source": "Russia Matters",
       "count": 8,
       "avg": -0.7729
@@ -1042,11 +1047,6 @@
       "source": "Forbes",
       "count": 7,
       "avg": -0.6692
-    },
-    {
-      "source": "The Hill",
-      "count": 7,
-      "avg": -0.7616
     },
     {
       "source": "Українська правда",
@@ -1452,6 +1452,11 @@
       "source": "ukranews.com",
       "count": 2,
       "avg": -0.2051
+    },
+    {
+      "source": "Idaho State Journal",
+      "count": 2,
+      "avg": -0.8316
     },
     {
       "source": "Telegraph India",
@@ -2089,11 +2094,6 @@
       "avg": -0.8825
     },
     {
-      "source": "Idaho State Journal",
-      "count": 1,
-      "avg": -0.8316
-    },
-    {
       "source": "Human Rights Watch",
       "count": 1,
       "avg": -0.7506
@@ -2168,14 +2168,14 @@
     {
       "name": "Ukraine",
       "type": "LOCATION",
-      "count": 1175,
-      "avg": -0.5733
+      "count": 1177,
+      "avg": -0.5726
     },
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 988,
-      "avg": -0.618
+      "count": 989,
+      "avg": -0.6182
     },
     {
       "name": "Donald Trump",
@@ -2192,8 +2192,8 @@
     {
       "name": "Vladimir Putin",
       "type": "PERSON",
-      "count": 231,
-      "avg": -0.583
+      "count": 232,
+      "avg": -0.5785
     },
     {
       "name": "Volodymyr Zelensky",
@@ -2861,6 +2861,18 @@
       ]
     },
     {
+      "title": "As Putin loses confidence in his military, Ukraine presses harder",
+      "source": "The Hill",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTV9mWXhiTXdJaUlXczhDRE1HOVJab0p6VXdlck1RUkFzdTFQaEItSTNEcFAyLUdrSFNlUHl2NzVsUEMyMVhfblNFbUVIVldiWDdNZlRqSHBfSkhYZEdsVkY2VzJOR2NrTWk2YThadnV1TGlhNU5zMmxFbV9lQUlPX0FUTEtvQmYzbVhxVTBoa21tX1pKOFBuUnBGONIBoAFBVV95cUxPd2xqcDV6RzdHQkdXTVVpRGxBVnJCSGV2TmhHQTNzV0hmbEJndnZySzc5ckxIMFNpQjFrczB3S0pWN1FUT0ttazhHeGYxa0o1ai1SSFhMRDMxa3F3OEJWMjNuZHpxOExXSnlMYTNiQllGRFQtNWlzZU5qQ0s4eE5na1BWWll6NWx2REg4WjJKQTdvbUNwSjVwRnRwaHAyUTN5?oc=5",
+      "published": "2026-07-16T11:00:00+00:00",
+      "compound": 0.4588,
+      "label": "positive",
+      "entities": [
+        "Vladimir Putin",
+        "Ukraine"
+      ]
+    },
+    {
       "title": "Pete Hegseth says US military to start testosterone screening for over 30s",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/7/16/pete-hegseth-says-us-military-to-start-testosterone-screening-for-over-30s?traffic_source=rss",
@@ -2868,17 +2880,6 @@
       "compound": 0.7845,
       "label": "positive",
       "entities": []
-    },
-    {
-      "title": "Ukrainians take to the streets after Zelenskyy ousts defense minister in surprise shake-up",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBGY2E5NGFsMjVxYWRoTEcyZ0NWcGNFbzl0bXBmdnZpcjFUY0podnREVEdTckd4aEs0OGxta005N1p0cjRLdzFWT2VrQjRucHRWMFNBRUZHWG5TbEtpa19RVU1tNHZRM2Z1YXN4d3ktU3lhWGgzRzF6OGhudDlVdjDSAYQBQVVfeXFMTmdscTlHUjc2MHgwbmhKVHJtYWxoUkhrWE1WWFJMTTV6bFAzZ1VfSDV4dlNCV3V3ekNOeVVZX21rOGtkWUpMUGg5V3NvWW9HbzRGRkNzY0tfSFEwb0JaaE8ybktOLTVqY0VfMXkwSnAtd3FRd1hBbDdsWkc0ME9jZ2cwd3J5?oc=5",
-      "published": "2026-07-16T10:45:59+00:00",
-      "compound": 0.6369,
-      "label": "positive",
-      "entities": [
-        "Volodymyr Zelensky"
-      ]
     }
   ]
 }

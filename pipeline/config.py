@@ -22,6 +22,10 @@ def load_conflicts() -> list[dict]:
     for path in sorted(CONFLICTS_DIR.glob("*.toml")):
         with path.open("rb") as f:
             data = tomllib.load(f)
+        # Un conflicto se define por tener feeds: los TOML auxiliares de la
+        # carpeta (p. ej. media_registry.toml) no lo son.
+        if not data.get("feeds"):
+            continue
         # Si el TOML no define 'id', usamos el nombre del archivo.
         data.setdefault("id", path.stem)
         data.setdefault("name", data["id"])

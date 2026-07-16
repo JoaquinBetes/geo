@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-07-16T11:41:27+00:00",
+  "updated": "2026-07-16T11:47:45+00:00",
   "overall_tone": -0.1373,
   "rsf_as_of": "2025 (aprox.)",
   "outlets": [
@@ -15,9 +15,9 @@
       "lat": 25.2867,
       "lon": 51.5333,
       "rsf": 84,
-      "articles": 597,
-      "tone_avg": -0.2282,
-      "tone_delta": -0.0909
+      "articles": 650,
+      "tone_avg": -0.2244,
+      "tone_delta": -0.0871
     },
     {
       "name": "BBC",
@@ -30,9 +30,9 @@
       "lat": 51.5188,
       "lon": -0.144,
       "rsf": 20,
-      "articles": 207,
-      "tone_avg": -0.2188,
-      "tone_delta": -0.0815
+      "articles": 208,
+      "tone_avg": -0.2162,
+      "tone_delta": -0.0789
     },
     {
       "name": "NPR",
@@ -45,9 +45,9 @@
       "lat": 38.899,
       "lon": -77.008,
       "rsf": 57,
-      "articles": 61,
-      "tone_avg": -0.3205,
-      "tone_delta": -0.1832
+      "articles": 64,
+      "tone_avg": -0.2891,
+      "tone_delta": -0.1518
     },
     {
       "name": "NK News",
@@ -75,9 +75,9 @@
       "lat": 40.757,
       "lon": -74.0,
       "rsf": 57,
-      "articles": 46,
-      "tone_avg": 0.0747,
-      "tone_delta": 0.212
+      "articles": 49,
+      "tone_avg": 0.0863,
+      "tone_delta": 0.2236
     },
     {
       "name": "The Korea Herald",
@@ -90,9 +90,9 @@
       "lat": 37.56,
       "lon": 126.99,
       "rsf": 61,
-      "articles": 24,
-      "tone_avg": 0.0269,
-      "tone_delta": 0.1642
+      "articles": 25,
+      "tone_avg": 0.0075,
+      "tone_delta": 0.1448
     },
     {
       "name": "The Guardian",
@@ -150,9 +150,9 @@
       "lat": 40.748,
       "lon": -73.983,
       "rsf": 57,
-      "articles": 12,
-      "tone_avg": 0.001,
-      "tone_delta": 0.1383
+      "articles": 13,
+      "tone_avg": -0.0668,
+      "tone_delta": 0.0705
     },
     {
       "name": "Anadolu Agency",
@@ -170,6 +170,21 @@
       "tone_delta": 0.0572
     },
     {
+      "name": "The Chosun Ilbo",
+      "url": "https://www.chosun.com/english/",
+      "city": "Seúl",
+      "country": "Corea del Sur",
+      "iso3": "KOR",
+      "type": "privado",
+      "desc": "El diario de mayor circulación surcoreano, línea conservadora y dura con Pyongyang.",
+      "lat": 37.571,
+      "lon": 126.977,
+      "rsf": 61,
+      "articles": 10,
+      "tone_avg": 0.088,
+      "tone_delta": 0.2253
+    },
+    {
       "name": "South China Morning Post",
       "url": "https://www.scmp.com",
       "city": "Hong Kong",
@@ -183,21 +198,6 @@
       "articles": 9,
       "tone_avg": -0.1445,
       "tone_delta": -0.0072
-    },
-    {
-      "name": "The Chosun Ilbo",
-      "url": "https://www.chosun.com/english/",
-      "city": "Seúl",
-      "country": "Corea del Sur",
-      "iso3": "KOR",
-      "type": "privado",
-      "desc": "El diario de mayor circulación surcoreano, línea conservadora y dura con Pyongyang.",
-      "lat": 37.571,
-      "lon": 126.977,
-      "rsf": 61,
-      "articles": 9,
-      "tone_avg": 0.0359,
-      "tone_delta": 0.1732
     },
     {
       "name": "Firstpost",
@@ -638,19 +638,19 @@
   "by_country": {
     "QAT": {
       "outlets": 1,
-      "articles": 597
+      "articles": 650
     },
     "GBR": {
       "outlets": 7,
-      "articles": 253
+      "articles": 254
     },
     "USA": {
       "outlets": 14,
-      "articles": 142
+      "articles": 149
     },
     "KOR": {
       "outlets": 4,
-      "articles": 102
+      "articles": 104
     },
     "TUR": {
       "outlets": 1,
@@ -696,7 +696,7 @@
   "others": [
     {
       "source": "조선일보",
-      "articles": 58
+      "articles": 66
     },
     {
       "source": "DailyNK",
@@ -704,7 +704,7 @@
     },
     {
       "source": "Korea JoongAng Daily",
-      "articles": 22
+      "articles": 23
     },
     {
       "source": "upi.com",
@@ -716,19 +716,19 @@
     },
     {
       "source": "Yahoo",
-      "articles": 8
+      "articles": 9
     },
     {
       "source": "CNA",
       "articles": 7
     },
     {
-      "source": "매일경제",
+      "source": "The Herald Journal",
       "articles": 6
     },
     {
-      "source": "The Herald Journal",
-      "articles": 5
+      "source": "매일경제",
+      "articles": 6
     },
     {
       "source": "Council on Foreign Relations",
@@ -747,15 +747,15 @@
       "articles": 4
     },
     {
-      "source": "19FortyFive",
-      "articles": 3
+      "source": "아시아경제",
+      "articles": 4
     },
     {
-      "source": "gCaptain",
-      "articles": 3
+      "source": "한겨레",
+      "articles": 4
     }
   ],
-  "others_total": 360,
-  "matched_articles": 1142,
-  "total_articles": 1502
+  "others_total": 378,
+  "matched_articles": 1205,
+  "total_articles": 1583
 }

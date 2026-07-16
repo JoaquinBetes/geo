@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-15T19:36:46+00:00",
+  "updated": "2026-07-16T03:37:02+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -38,13 +38,13 @@
   },
   "window": {
     "from": "2026-05-15",
-    "to": "2026-07-15"
+    "to": "2026-07-16"
   },
   "kpis": {
-    "events_total": 153,
-    "events_unlocated": 357,
-    "events_7d": 114,
-    "events_prev_7d": 25,
+    "events_total": 158,
+    "events_unlocated": 368,
+    "events_7d": 94,
+    "events_prev_7d": 49,
     "hottest_place": "Strait of Hormuz"
   },
   "daily": [
@@ -68,8 +68,8 @@
     },
     {
       "date": "2026-06-08",
-      "total": 2,
-      "strike": 2,
+      "total": 3,
+      "strike": 3,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -194,8 +194,8 @@
     },
     {
       "date": "2026-07-14",
-      "total": 19,
-      "strike": 15,
+      "total": 20,
+      "strike": 16,
       "ground": 1,
       "infrastructure": 3,
       "air_defense": 0,
@@ -203,10 +203,19 @@
     },
     {
       "date": "2026-07-15",
-      "total": 7,
-      "strike": 5,
+      "total": 8,
+      "strike": 6,
       "ground": 1,
       "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-16",
+      "total": 2,
+      "strike": 2,
+      "ground": 0,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -281,6 +290,16 @@
       "title": "Israeli military launches strikes on Iran after Tehran fired missiles",
       "source": "USA Today",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQaFFadF9zQXQ0c0pUeGkybXRqeEFYUExIOEVmU294dU9mYnZsX1JmQnJ0N1ZvQ3J2UnV1ZWxjTFZzNGZ6RDV5X3otV1RCX1h4V3cxcWV5T09od0h5eGZiUWlPdU13aDNsQWsxSVMzM2lJb0duUVYxQnNuSDMwOHB6R1BWcTA1eGdXclMyVkFnejR2a0txY3hvNkUteFJhdk9aODhpVzhvQVZ1anBMU1hEQktjTzBQZ2hfdGRoN3kxUXljTFQ1UUJTUkdObWNHUQ?oc=5"
+    },
+    {
+      "date": "2026-06-08",
+      "type": "strike",
+      "place": "Jerusalem",
+      "lat": 31.7683,
+      "lon": 35.2137,
+      "title": "Iran launches missiles at Israel in first since ceasefire",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9YT2UtZjd6MnNURHRfOWRSZDhURVhvMXJKb1BEemtzaVJlelhOZ3hBRnE3MFlsZnNvc01iVEdBUE4zMFRzdXhkd0h3NldFN19UXzkxdldFb1BQeUdmRzZPdGlIRzlYTlFlU1lTeGVn?oc=5"
     },
     {
       "date": "2026-06-27",
@@ -1673,6 +1692,16 @@
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8xU2ZjbEpHbE5lMW10Q1NpbDk0a0YtdVhTNjFQNzEyYjc1aGNIS0NlQzNfaG1ScVB2STVld2hJYVh6SlRiRzBTWGZTTzhBWi1kVkU5WFItOFpGQQ?oc=5"
     },
     {
+      "date": "2026-07-14",
+      "type": "strike",
+      "place": "Bushehr",
+      "lat": 28.9684,
+      "lon": 50.8385,
+      "title": "Iran war latest: Explosions reported in southern Iran as official says four sites in Bushehr struck",
+      "source": "thenationalnews.com",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQd29HSlgzcmRpQnE2WFJtVW9HTENRNlFLSTNkRl9nYUxFNWZiR1FpOTdMZ2w4bW9Jal9GY3FfRWh5dnM0Wmt6TmNxb2tpVl9HZmJBMkktcDNkMEZvYWJYUGxGOEg3aUFpNmZKdUFNdnBHWVp3T0djeTBobHZHY1ZnNWdEWFo?oc=5"
+    },
+    {
       "date": "2026-07-15",
       "type": "ground",
       "place": "Strait of Hormuz",
@@ -1741,16 +1770,50 @@
       "title": "U.S. blockades Iranian ports, launches dozens of strikes as Trump seeks control of Strait of Hormuz",
       "source": "CBS News",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMVVHeHVNWkg5bTZGeW83dlJ0LVdxTW4wMGZVWktZTkpscWZYOWVmRVpFb3RGb2hsd2l3MV9aN244X3BfTGdtMnMzQXhnUHVNRHNDZU1HcldZVFpkWHgtMWh0a2lMRk9kVEVld3k3a0pyM3RhUzVHckdmWlFaQkpfQ29LWlZzRkxiaEQ5dWMyZzFTNklk?oc=5"
+    },
+    {
+      "date": "2026-07-15",
+      "type": "strike",
+      "place": "Bandar Abbas",
+      "lat": 27.1832,
+      "lon": 56.2666,
+      "title": "Iran says peace deal voided, fighting ‘existential war’ after US attacks",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/15/iran-says-peace-deal-voided-fighting-existential-war-after-us-attacks?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-16",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US attacks oil tanker in strait of Hormuz as strikes reported in Tehran",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/16/us-attacks-oil-tanker-strait-of-hormuz-iran-tehran-strikes"
+    },
+    {
+      "date": "2026-07-16",
+      "type": "strike",
+      "place": "Bandar Abbas",
+      "lat": 27.1832,
+      "lon": 56.2666,
+      "title": "Iran war live: US hits Iranian oil tanker; Tehran attacks Kuwait, Jordan",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/7/16/iran-war-live-sirens-in-bahrain-kuwait-us-disables-iranian-oil-tanker?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 76
+      "count": 77
     },
     {
       "place": "Tehran",
       "count": 26
+    },
+    {
+      "place": "Bandar Abbas",
+      "count": 9
     },
     {
       "place": "Damascus",
@@ -1758,11 +1821,7 @@
     },
     {
       "place": "Bushehr",
-      "count": 7
-    },
-    {
-      "place": "Bandar Abbas",
-      "count": 7
+      "count": 8
     },
     {
       "place": "Jerusalem",

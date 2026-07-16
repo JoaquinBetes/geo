@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-16T11:53:22+00:00",
+  "updated": "2026-07-16T14:22:59+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-07-16"
   },
   "kpis": {
-    "events_total": 168,
-    "events_unlocated": 391,
-    "events_7d": 103,
+    "events_total": 170,
+    "events_unlocated": 395,
+    "events_7d": 105,
     "events_prev_7d": 49,
     "hottest_place": "Strait of Hormuz"
   },
@@ -212,10 +212,10 @@
     },
     {
       "date": "2026-07-16",
-      "total": 11,
-      "strike": 9,
+      "total": 13,
+      "strike": 10,
       "ground": 2,
-      "infrastructure": 0,
+      "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
     }
@@ -1900,6 +1900,26 @@
       "title": "US intensifies attacks on Iran as Tehran hits back at Gulf states",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/jul/16/us-intensifies-attacks-on-iran-as-tehran-hits-back-at-gulf-states"
+    },
+    {
+      "date": "2026-07-16",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "US expands strikes into Tehran area as Iran threatens to ‘resist until the end’",
+      "source": "The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOM0E3bFZKM3BUQldSeGY3RGNwYkJfRmVsRF9mY3RaVnVOcG5rMkVLUzdnTExwLUR4ZzdNYVNjUW90M0EtZm02S21UQm5aak1pd1F0dUZVa3hSeVp5Y3FmTE9sbGNXVndQTGtDd2dJMDR6RUFGSGVPM0FIRTZudzN2QkN4ek1aUHVPSkRUOFFQRWJ1X2p6LWg0R0VlRkNIZkR5WG1ZdTlzZUE0Vmpq0gGyAUFVX3lxTE5uWXJLZk1iV3RUbHNkWXp0dkUtbmd3ZndWUHBpQWE0R1lYNmlHck9tOEVjZUZtM3Nxa3YxM09RYjlzMUktM1lBejJBNFJ0X1dtTVd6LVBOT2NfaWtWZ1F2bEx6WnM0UFhmVFc1c2d4ZG56Rm5HNjdaR0ZqbEpxd1VXLWRyenZwMGJsbDAtek9TaUxXMFZHNlNVSnRCUHdRTlhZZEt2UDFtLVMwVXc0ZjZnOGc?oc=5"
+    },
+    {
+      "date": "2026-07-16",
+      "type": "infrastructure",
+      "place": "Kharg Island",
+      "lat": 29.2325,
+      "lon": 50.3299,
+      "title": "US strikes first tanker with missiles as it enforces new blockade",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/clyqwkegqk0o?at_medium=RSS&at_campaign=rss"
     }
   ],
   "top_places": [
@@ -1909,7 +1929,7 @@
     },
     {
       "place": "Tehran",
-      "count": 29
+      "count": 30
     },
     {
       "place": "Bandar Abbas",
@@ -1933,7 +1953,7 @@
     },
     {
       "place": "Kharg Island",
-      "count": 2
+      "count": 3
     },
     {
       "place": "Haifa",

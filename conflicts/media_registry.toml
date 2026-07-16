@@ -1,0 +1,1222 @@
+# =============================================================================
+#  REGISTRO GLOBAL DE MEDIOS (compartido por todos los conflictos)
+#  El pipeline cruza las fuentes reales de cada conflicto contra este registro
+#  (match por substring, EL ORDEN IMPORTA: el primero que coincide gana).
+#  iso3 = país de la SEDE (para el mapa y RSF); country = etiqueta visible.
+#  type: estatal | público | privado | agencia | exilio | think tank | especializado
+#  Curado a mano: revisar de tanto en tanto. Coordenadas a nivel ciudad.
+# =============================================================================
+
+rsf_as_of = "2025 (aprox.)"
+
+# Ranking de libertad de prensa de Reporteros Sin Fronteras por país sede
+# (1 = más libre, 180 = menos libre). Valores aproximados.
+[rsf]
+GBR = 20
+USA = 57
+QAT = 84
+UKR = 62
+RUS = 171
+NLD = 4
+LVA = 12
+FRA = 25
+DEU = 11
+CZE = 10
+TUR = 159
+ISR = 112
+IRN = 176
+SAU = 165
+ARE = 164
+IND = 151
+PAK = 158
+TWN = 24
+CHN = 178
+HKG = 135
+KOR = 61
+PRK = 177
+JPN = 66
+CAN = 21
+
+# --- Reino Unido -------------------------------------------------------------
+
+[[outlets]]
+match = "telegraph india"
+name = "The Telegraph (India)"
+url = "https://www.telegraphindia.com"
+city = "Calcuta"
+iso3 = "IND"
+country = "India"
+type = "privado"
+lat = 22.5726
+lon = 88.3639
+desc = "Diario indio del grupo ABP, con fuerte tradición en Bengala."
+
+[[outlets]]
+match = "the guardian"
+name = "The Guardian"
+url = "https://www.theguardian.com"
+city = "Londres"
+iso3 = "GBR"
+country = "Reino Unido"
+type = "privado"
+lat = 51.5346
+lon = -0.1219
+desc = "Diario británico propiedad del Scott Trust (sin accionistas), línea editorial progresista; referencia en cobertura internacional."
+
+[[outlets]]
+match = "guardian"
+name = "The Guardian"
+url = "https://www.theguardian.com"
+city = "Londres"
+iso3 = "GBR"
+country = "Reino Unido"
+type = "privado"
+lat = 51.5346
+lon = -0.1219
+desc = "Diario británico propiedad del Scott Trust (sin accionistas), línea editorial progresista; referencia en cobertura internacional."
+
+[[outlets]]
+match = "bbc"
+name = "BBC"
+url = "https://www.bbc.com/news"
+city = "Londres"
+iso3 = "GBR"
+country = "Reino Unido"
+type = "público"
+lat = 51.5188
+lon = -0.1440
+desc = "Corporación pública británica financiada por canon; mandato formal de imparcialidad y la mayor red mundial de corresponsales."
+
+[[outlets]]
+match = "sky news"
+name = "Sky News"
+url = "https://news.sky.com"
+city = "Londres"
+iso3 = "GBR"
+country = "Reino Unido"
+type = "privado"
+lat = 51.4934
+lon = -0.2098
+desc = "Canal de noticias británico propiedad de Comcast (EE.UU.); cobertura continua de conflictos."
+
+[[outlets]]
+match = "reuters"
+name = "Reuters"
+url = "https://www.reuters.com"
+city = "Londres"
+iso3 = "GBR"
+country = "Reino Unido"
+type = "agencia"
+lat = 51.5033
+lon = -0.0195
+desc = "Agencia global de Thomson Reuters (Canadá); estándar estricto de neutralidad — provee la materia prima de buena parte de la prensa mundial."
+
+[[outlets]]
+match = "the independent"
+name = "The Independent"
+url = "https://www.independent.co.uk"
+city = "Londres"
+iso3 = "GBR"
+country = "Reino Unido"
+type = "privado"
+lat = 51.5074
+lon = -0.1278
+desc = "Diario digital británico; su principal accionista es la familia Lebedev, de origen ruso — dato que sus críticos suelen señalar."
+
+[[outlets]]
+match = "independent"
+name = "The Independent"
+url = "https://www.independent.co.uk"
+city = "Londres"
+iso3 = "GBR"
+country = "Reino Unido"
+type = "privado"
+lat = 51.5074
+lon = -0.1278
+desc = "Diario digital británico; su principal accionista es la familia Lebedev, de origen ruso — dato que sus críticos suelen señalar."
+
+[[outlets]]
+match = "telegraph"
+name = "The Telegraph"
+url = "https://www.telegraph.co.uk"
+city = "Londres"
+iso3 = "GBR"
+country = "Reino Unido"
+type = "privado"
+lat = 51.5142
+lon = -0.1120
+desc = "Diario británico conservador (hermanos Barclay/fondo RedBird IMI); muy leído en defensa y seguridad."
+
+[[outlets]]
+match = "economist"
+name = "The Economist"
+url = "https://www.economist.com"
+city = "Londres"
+iso3 = "GBR"
+country = "Reino Unido"
+type = "privado"
+lat = 51.5101
+lon = -0.1340
+desc = "Semanario liberal-económico británico (familias Agnelli y Rothschild entre sus accionistas); análisis más que noticia."
+
+[[outlets]]
+match = "financial times"
+name = "Financial Times"
+url = "https://www.ft.com"
+city = "Londres"
+iso3 = "GBR"
+country = "Reino Unido"
+type = "privado"
+lat = 51.5115
+lon = -0.0980
+desc = "Diario financiero global, propiedad del grupo japonés Nikkei; referencia en economía y sanciones."
+
+[[outlets]]
+match = "middle east eye"
+name = "Middle East Eye"
+url = "https://www.middleeasteye.net"
+city = "Londres"
+iso3 = "GBR"
+country = "Reino Unido"
+type = "privado"
+lat = 51.5205
+lon = -0.0857
+desc = "Portal especializado en Medio Oriente con sede en Londres; sus críticos le atribuyen cercanía a Qatar, que el medio niega."
+
+# --- Estados Unidos ----------------------------------------------------------
+
+[[outlets]]
+match = "new york times"
+name = "The New York Times"
+url = "https://www.nytimes.com"
+city = "Nueva York"
+iso3 = "USA"
+country = "Estados Unidos"
+type = "privado"
+lat = 40.7561
+lon = -73.9903
+desc = "El diario estadounidense de referencia (familia Ochs-Sulzberger); gran despliegue de corresponsales de guerra."
+
+[[outlets]]
+match = "wall street journal"
+name = "The Wall Street Journal"
+url = "https://www.wsj.com"
+city = "Nueva York"
+iso3 = "USA"
+country = "Estados Unidos"
+type = "privado"
+lat = 40.7075
+lon = -74.0113
+desc = "Diario financiero de News Corp (Murdoch); redacción rigurosa, página editorial conservadora."
+
+[[outlets]]
+match = "wsj"
+name = "The Wall Street Journal"
+url = "https://www.wsj.com"
+city = "Nueva York"
+iso3 = "USA"
+country = "Estados Unidos"
+type = "privado"
+lat = 40.7075
+lon = -74.0113
+desc = "Diario financiero de News Corp (Murdoch); redacción rigurosa, página editorial conservadora."
+
+[[outlets]]
+match = "washington post"
+name = "The Washington Post"
+url = "https://www.washingtonpost.com"
+city = "Washington D.C."
+iso3 = "USA"
+country = "Estados Unidos"
+type = "privado"
+lat = 38.9047
+lon = -77.0318
+desc = "Diario capitalino propiedad de Jeff Bezos; fuerte en seguridad nacional y fuentes de inteligencia."
+
+[[outlets]]
+match = "cnn"
+name = "CNN"
+url = "https://www.cnn.com"
+city = "Atlanta"
+iso3 = "USA"
+country = "Estados Unidos"
+type = "privado"
+lat = 33.7580
+lon = -84.3947
+desc = "Cadena de noticias de Warner Bros. Discovery; pionera de la cobertura de guerra en vivo."
+
+[[outlets]]
+match = "fox news"
+name = "Fox News"
+url = "https://www.foxnews.com"
+city = "Nueva York"
+iso3 = "USA"
+country = "Estados Unidos"
+type = "privado"
+lat = 40.7587
+lon = -73.9787
+desc = "Cadena de News Corp (Murdoch), línea editorial conservadora y cercana al trumpismo."
+
+[[outlets]]
+match = "nbc"
+name = "NBC News"
+url = "https://www.nbcnews.com"
+city = "Nueva York"
+iso3 = "USA"
+country = "Estados Unidos"
+type = "privado"
+lat = 40.7590
+lon = -73.9790
+desc = "División de noticias de NBCUniversal (Comcast)."
+
+[[outlets]]
+match = "cbs"
+name = "CBS News"
+url = "https://www.cbsnews.com"
+city = "Nueva York"
+iso3 = "USA"
+country = "Estados Unidos"
+type = "privado"
+lat = 40.7654
+lon = -73.9832
+desc = "División de noticias de Paramount; una de las tres grandes cadenas históricas."
+
+[[outlets]]
+match = "abc news"
+name = "ABC News"
+url = "https://abcnews.go.com"
+city = "Nueva York"
+iso3 = "USA"
+country = "Estados Unidos"
+type = "privado"
+lat = 40.7700
+lon = -73.9820
+desc = "División de noticias de Disney."
+
+[[outlets]]
+match = "associated press"
+name = "Associated Press"
+url = "https://apnews.com"
+city = "Nueva York"
+iso3 = "USA"
+country = "Estados Unidos"
+type = "agencia"
+lat = 40.7570
+lon = -74.0000
+desc = "Cooperativa de medios sin fines de lucro; junto a Reuters y AFP, columna vertebral informativa mundial."
+
+[[outlets]]
+match = "ap news"
+name = "Associated Press"
+url = "https://apnews.com"
+city = "Nueva York"
+iso3 = "USA"
+country = "Estados Unidos"
+type = "agencia"
+lat = 40.7570
+lon = -74.0000
+desc = "Cooperativa de medios sin fines de lucro; junto a Reuters y AFP, columna vertebral informativa mundial."
+
+[[outlets]]
+match = "npr"
+name = "NPR"
+url = "https://www.npr.org"
+city = "Washington D.C."
+iso3 = "USA"
+country = "Estados Unidos"
+type = "público"
+lat = 38.8990
+lon = -77.0080
+desc = "Radio pública estadounidense financiada por donaciones y fondos públicos."
+
+[[outlets]]
+match = "politico"
+name = "Politico"
+url = "https://www.politico.com"
+city = "Arlington"
+iso3 = "USA"
+country = "Estados Unidos"
+type = "privado"
+lat = 38.8830
+lon = -77.1030
+desc = "Medio político de Axel Springer (Alemania); fuerte en la trastienda de Washington y Bruselas."
+
+[[outlets]]
+match = "the hill"
+name = "The Hill"
+url = "https://thehill.com"
+city = "Washington D.C."
+iso3 = "USA"
+country = "Estados Unidos"
+type = "privado"
+lat = 38.8977
+lon = -77.0100
+desc = "Medio especializado en el Congreso de EE.UU. (grupo Nexstar)."
+
+[[outlets]]
+match = "bloomberg"
+name = "Bloomberg"
+url = "https://www.bloomberg.com"
+city = "Nueva York"
+iso3 = "USA"
+country = "Estados Unidos"
+type = "privado"
+lat = 40.7614
+lon = -73.9690
+desc = "Grupo financiero de Michael Bloomberg; el mercado como lente de la geopolítica."
+
+[[outlets]]
+match = "cnbc"
+name = "CNBC"
+url = "https://www.cnbc.com"
+city = "Englewood Cliffs"
+iso3 = "USA"
+country = "Estados Unidos"
+type = "privado"
+lat = 40.8850
+lon = -73.9500
+desc = "Canal financiero de Comcast."
+
+[[outlets]]
+match = "forbes"
+name = "Forbes"
+url = "https://www.forbes.com"
+city = "Jersey City"
+iso3 = "USA"
+country = "Estados Unidos"
+type = "privado"
+lat = 40.7178
+lon = -74.0431
+desc = "Revista de negocios (capital mayoritario de Integrated Whale Media, Hong Kong); mucha firma invitada."
+
+[[outlets]]
+match = "newsweek"
+name = "Newsweek"
+url = "https://www.newsweek.com"
+city = "Nueva York"
+iso3 = "USA"
+country = "Estados Unidos"
+type = "privado"
+lat = 40.7128
+lon = -74.0060
+desc = "Semanario digital de alto volumen; agregación veloz — verificar contra fuentes primarias."
+
+[[outlets]]
+match = "the atlantic"
+name = "The Atlantic"
+url = "https://www.theatlantic.com"
+city = "Washington D.C."
+iso3 = "USA"
+country = "Estados Unidos"
+type = "privado"
+lat = 38.9010
+lon = -77.0250
+desc = "Revista de ensayo y análisis (mayoría de Laurene Powell Jobs); piezas largas influyentes."
+
+[[outlets]]
+match = "atlantic council"
+name = "Atlantic Council"
+url = "https://www.atlanticcouncil.org"
+city = "Washington D.C."
+iso3 = "USA"
+country = "Estados Unidos"
+type = "think tank"
+lat = 38.9055
+lon = -77.0390
+desc = "Think tank atlantista financiado por gobiernos occidentales y corporaciones; posición pro-OTAN explícita."
+
+[[outlets]]
+match = "atlantic"
+name = "The Atlantic"
+url = "https://www.theatlantic.com"
+city = "Washington D.C."
+iso3 = "USA"
+country = "Estados Unidos"
+type = "privado"
+lat = 38.9010
+lon = -77.0250
+desc = "Revista de ensayo y análisis (mayoría de Laurene Powell Jobs); piezas largas influyentes."
+
+[[outlets]]
+match = "institute for the study of war"
+name = "Institute for the Study of War"
+url = "https://www.understandingwar.org"
+city = "Washington D.C."
+iso3 = "USA"
+country = "Estados Unidos"
+type = "think tank"
+lat = 38.9040
+lon = -77.0430
+desc = "Think tank militar (financiado por contratistas de defensa); sus mapas diarios del frente son referencia — con esa lente."
+
+[[outlets]]
+match = "csis"
+name = "CSIS"
+url = "https://www.csis.org"
+city = "Washington D.C."
+iso3 = "USA"
+country = "Estados Unidos"
+type = "think tank"
+lat = 38.9080
+lon = -77.0430
+desc = "Center for Strategic and International Studies; think tank bipartidista de seguridad, financiamiento corporativo y estatal."
+
+[[outlets]]
+match = "radio free europe"
+name = "RFE/RL"
+url = "https://www.rferl.org"
+city = "Praga"
+iso3 = "USA"
+country = "Estados Unidos (sede en Praga)"
+type = "estatal"
+lat = 50.0880
+lon = 14.4573
+desc = "Radio Free Europe/Radio Liberty: financiada por el Congreso de EE.UU., heredera de la radiodifusión de la Guerra Fría; opera desde Praga."
+
+[[outlets]]
+match = "voice of america"
+name = "Voice of America"
+url = "https://www.voanews.com"
+city = "Washington D.C."
+iso3 = "USA"
+country = "Estados Unidos"
+type = "estatal"
+lat = 38.8870
+lon = -77.0140
+desc = "El servicio exterior de radiodifusión del gobierno estadounidense."
+
+[[outlets]]
+match = "axios"
+name = "Axios"
+url = "https://www.axios.com"
+city = "Arlington"
+iso3 = "USA"
+country = "Estados Unidos"
+type = "privado"
+lat = 38.8900
+lon = -77.0840
+desc = "Medio digital de formato breve (grupo Cox); buenas fuentes en la Casa Blanca."
+
+[[outlets]]
+match = "time"
+name = "TIME"
+url = "https://time.com"
+city = "Nueva York"
+iso3 = "USA"
+country = "Estados Unidos"
+type = "privado"
+lat = 40.7480
+lon = -73.9830
+desc = "Revista histórica estadounidense, hoy de la familia Benioff."
+
+# --- Qatar / Golfo -----------------------------------------------------------
+
+[[outlets]]
+match = "al jazeera"
+name = "Al Jazeera"
+url = "https://www.aljazeera.com"
+city = "Doha"
+iso3 = "QAT"
+country = "Qatar"
+type = "estatal"
+lat = 25.2867
+lon = 51.5333
+desc = "Cadena financiada por el Estado de Qatar; amplió la mirada no-occidental, aunque su cobertura del Golfo refleja los intereses de Doha."
+
+[[outlets]]
+match = "al arabiya"
+name = "Al Arabiya"
+url = "https://www.alarabiya.net"
+city = "Dubái"
+iso3 = "ARE"
+country = "Arabia Saudita (sede en Dubái)"
+type = "estatal"
+lat = 25.0980
+lon = 55.1620
+desc = "Cadena de capital saudí creada como contrapeso de Al Jazeera; refleja la línea de Riad."
+
+[[outlets]]
+match = "arab news"
+name = "Arab News"
+url = "https://www.arabnews.com"
+city = "Riad"
+iso3 = "SAU"
+country = "Arabia Saudita"
+type = "privado"
+lat = 24.7136
+lon = 46.6753
+desc = "Diario saudí en inglés (grupo SRMG, vinculado a la corte real)."
+
+[[outlets]]
+match = "the national"
+name = "The National"
+url = "https://www.thenationalnews.com"
+city = "Abu Dabi"
+iso3 = "ARE"
+country = "Emiratos Árabes Unidos"
+type = "privado"
+lat = 24.4539
+lon = 54.3773
+desc = "Diario emiratí en inglés (International Media Investments, Abu Dabi)."
+
+[[outlets]]
+match = "gulf news"
+name = "Gulf News"
+url = "https://gulfnews.com"
+city = "Dubái"
+iso3 = "ARE"
+country = "Emiratos Árabes Unidos"
+type = "privado"
+lat = 25.2048
+lon = 55.2708
+desc = "Diario de Dubái en inglés, el de mayor circulación del Golfo."
+
+# --- Ucrania / Rusia ---------------------------------------------------------
+
+[[outlets]]
+match = "kyiv independent"
+name = "The Kyiv Independent"
+url = "https://kyivindependent.com"
+city = "Kyiv"
+iso3 = "UKR"
+country = "Ucrania"
+type = "privado"
+lat = 50.4501
+lon = 30.5234
+desc = "Medio ucraniano en inglés fundado en 2021 por periodistas despedidos del Kyiv Post; financiado por membresías."
+
+[[outlets]]
+match = "kyiv post"
+name = "Kyiv Post"
+url = "https://www.kyivpost.com"
+city = "Kyiv"
+iso3 = "UKR"
+country = "Ucrania"
+type = "privado"
+lat = 50.4470
+lon = 30.5200
+desc = "El decano de la prensa ucraniana en inglés."
+
+[[outlets]]
+match = "ukrinform"
+name = "Ukrinform"
+url = "https://www.ukrinform.net"
+city = "Kyiv"
+iso3 = "UKR"
+country = "Ucrania"
+type = "estatal"
+lat = 50.4440
+lon = 30.5100
+desc = "La agencia estatal de noticias de Ucrania."
+
+[[outlets]]
+match = "moscow times"
+name = "The Moscow Times"
+url = "https://www.themoscowtimes.com"
+city = "Ámsterdam"
+iso3 = "NLD"
+country = "Rusia (exilio, Ámsterdam)"
+type = "exilio"
+lat = 52.3676
+lon = 4.9041
+desc = "Diario independiente ruso en inglés; exiliado en Ámsterdam tras la invasión y declarado 'organización indeseable' por Moscú."
+
+[[outlets]]
+match = "meduza"
+name = "Meduza"
+url = "https://meduza.io/en"
+city = "Riga"
+iso3 = "LVA"
+country = "Rusia (exilio, Riga)"
+type = "exilio"
+lat = 56.9496
+lon = 24.1052
+desc = "El mayor medio independiente ruso, operando desde Letonia; prohibido en Rusia."
+
+[[outlets]]
+match = "mediazona"
+name = "Mediazona"
+url = "https://en.zona.media"
+city = "exilio"
+iso3 = "LVA"
+country = "Rusia (exilio)"
+type = "exilio"
+lat = 56.9600
+lon = 24.1200
+desc = "Medio ruso independiente fundado por integrantes de Pussy Riot; referencia en el conteo verificado de bajas rusas."
+
+[[outlets]]
+match = "tass"
+name = "TASS"
+url = "https://tass.com"
+city = "Moscú"
+iso3 = "RUS"
+country = "Rusia"
+type = "estatal"
+lat = 55.7649
+lon = 37.6050
+desc = "La agencia estatal rusa: útil para conocer la posición oficial del Kremlin, no como fuente neutral."
+
+# --- Europa ------------------------------------------------------------------
+
+[[outlets]]
+match = "euronews"
+name = "Euronews"
+url = "https://www.euronews.com"
+city = "Lyon"
+iso3 = "FRA"
+country = "Francia"
+type = "privado"
+lat = 45.7640
+lon = 4.8357
+desc = "Canal paneuropeo multilingüe (capital del grupo portugués Alpac; recibe fondos de la UE)."
+
+[[outlets]]
+match = "france 24"
+name = "France 24"
+url = "https://www.france24.com/en/"
+city = "París"
+iso3 = "FRA"
+country = "Francia"
+type = "estatal"
+lat = 48.8410
+lon = 2.2680
+desc = "El canal internacional del Estado francés (France Médias Monde)."
+
+[[outlets]]
+match = "le monde"
+name = "Le Monde"
+url = "https://www.lemonde.fr/en/"
+city = "París"
+iso3 = "FRA"
+country = "Francia"
+type = "privado"
+lat = 48.8330
+lon = 2.3730
+desc = "El diario francés de referencia; edición en inglés desde 2022."
+
+[[outlets]]
+match = "deutsche welle"
+name = "Deutsche Welle"
+url = "https://www.dw.com/en/"
+city = "Bonn"
+iso3 = "DEU"
+country = "Alemania"
+type = "público"
+lat = 50.7374
+lon = 7.0982
+desc = "El servicio exterior público alemán, financiado por el presupuesto federal con independencia editorial legal."
+
+[[outlets]]
+match = "spiegel"
+name = "Der Spiegel"
+url = "https://www.spiegel.de/international/"
+city = "Hamburgo"
+iso3 = "DEU"
+country = "Alemania"
+type = "privado"
+lat = 53.5511
+lon = 9.9937
+desc = "El semanario investigativo alemán; mayoría accionaria en manos de sus empleados."
+
+# --- Turquía -----------------------------------------------------------------
+
+[[outlets]]
+match = "anadolu"
+name = "Anadolu Agency"
+url = "https://www.aa.com.tr/en"
+city = "Ankara"
+iso3 = "TUR"
+country = "Turquía"
+type = "estatal"
+lat = 39.9334
+lon = 32.8597
+desc = "La agencia estatal turca; refleja la posición de Ankara, que juega a dos bandas en varios de estos conflictos."
+
+[[outlets]]
+match = "daily sabah"
+name = "Daily Sabah"
+url = "https://www.dailysabah.com"
+city = "Estambul"
+iso3 = "TUR"
+country = "Turquía"
+type = "privado"
+lat = 41.0082
+lon = 28.9784
+desc = "Diario turco en inglés cercano al gobierno de Erdoğan."
+
+# --- Israel / Irán -----------------------------------------------------------
+
+[[outlets]]
+match = "times of israel"
+name = "The Times of Israel"
+url = "https://www.timesofisrael.com"
+city = "Jerusalén"
+iso3 = "ISR"
+country = "Israel"
+type = "privado"
+lat = 31.7683
+lon = 35.2137
+desc = "Portal israelí en inglés fundado en 2012; independiente, de línea centrista."
+
+[[outlets]]
+match = "jerusalem post"
+name = "The Jerusalem Post"
+url = "https://www.jpost.com"
+city = "Jerusalén"
+iso3 = "ISR"
+country = "Israel"
+type = "privado"
+lat = 31.7800
+lon = 35.2200
+desc = "Diario israelí en inglés de larga trayectoria, línea centroderecha."
+
+[[outlets]]
+match = "haaretz"
+name = "Haaretz"
+url = "https://www.haaretz.com"
+city = "Tel Aviv"
+iso3 = "ISR"
+country = "Israel"
+type = "privado"
+lat = 32.0603
+lon = 34.7770
+desc = "El diario liberal israelí (familia Schocken), muy crítico del gobierno; referencia de la izquierda israelí."
+
+[[outlets]]
+match = "ynet"
+name = "Ynet"
+url = "https://www.ynetnews.com"
+city = "Tel Aviv"
+iso3 = "ISR"
+country = "Israel"
+type = "privado"
+lat = 32.0700
+lon = 34.7800
+desc = "El portal del grupo Yedioth Ahronoth, el de mayor audiencia de Israel."
+
+[[outlets]]
+match = "press tv"
+name = "Press TV"
+url = "https://www.presstv.ir"
+city = "Teherán"
+iso3 = "IRN"
+country = "Irán"
+type = "estatal"
+lat = 35.6892
+lon = 51.3890
+desc = "El canal exterior en inglés de la radiotelevisión estatal iraní (IRIB): la voz oficial de Teherán."
+
+[[outlets]]
+match = "tehran times"
+name = "Tehran Times"
+url = "https://www.tehrantimes.com"
+city = "Teherán"
+iso3 = "IRN"
+country = "Irán"
+type = "estatal"
+lat = 35.7000
+lon = 51.4000
+desc = "Diario iraní en inglés vinculado a la Organización de Propaganda Islámica."
+
+[[outlets]]
+match = "tasnim"
+name = "Tasnim News"
+url = "https://www.tasnimnews.com/en"
+city = "Teherán"
+iso3 = "IRN"
+country = "Irán"
+type = "estatal"
+lat = 35.7100
+lon = 51.4100
+desc = "Agencia iraní considerada cercana a la Guardia Revolucionaria (IRGC)."
+
+# --- Asia meridional ---------------------------------------------------------
+
+[[outlets]]
+match = "hindustan"
+name = "Hindustan Times"
+url = "https://www.hindustantimes.com"
+city = "Nueva Delhi"
+iso3 = "IND"
+country = "India"
+type = "privado"
+lat = 28.6139
+lon = 77.2090
+desc = "Gran diario indio en inglés (grupo HT Media, familia Birla)."
+
+[[outlets]]
+match = "times of india"
+name = "The Times of India"
+url = "https://timesofindia.indiatimes.com"
+city = "Bombay"
+iso3 = "IND"
+country = "India"
+type = "privado"
+lat = 19.0760
+lon = 72.8777
+desc = "El diario en inglés más leído del mundo (grupo Bennett Coleman)."
+
+[[outlets]]
+match = "the hindu"
+name = "The Hindu"
+url = "https://www.thehindu.com"
+city = "Chennai"
+iso3 = "IND"
+country = "India"
+type = "privado"
+lat = 13.0827
+lon = 80.2707
+desc = "Diario indio de tradición sobria y verificación fuerte; referencia del sur del país."
+
+[[outlets]]
+match = "india today"
+name = "India Today"
+url = "https://www.indiatoday.in"
+city = "Noida"
+iso3 = "IND"
+country = "India"
+type = "privado"
+lat = 28.5355
+lon = 77.3910
+desc = "Grupo multimedia indio de gran alcance; televisión de ritmo intenso."
+
+[[outlets]]
+match = "indian express"
+name = "The Indian Express"
+url = "https://indianexpress.com"
+city = "Nueva Delhi"
+iso3 = "IND"
+country = "India"
+type = "privado"
+lat = 28.6200
+lon = 77.2100
+desc = "Diario indio con tradición investigativa e independencia editorial reconocida."
+
+[[outlets]]
+match = "ndtv"
+name = "NDTV"
+url = "https://www.ndtv.com"
+city = "Nueva Delhi"
+iso3 = "IND"
+country = "India"
+type = "privado"
+lat = 28.5490
+lon = 77.2470
+desc = "Cadena india adquirida en 2022 por el grupo Adani (cercano al gobierno de Modi): su independencia es objeto de debate."
+
+[[outlets]]
+match = "firstpost"
+name = "Firstpost"
+url = "https://www.firstpost.com"
+city = "Bombay"
+iso3 = "IND"
+country = "India"
+type = "privado"
+lat = 19.0800
+lon = 72.8800
+desc = "Portal del grupo Network18 (Reliance/Ambani); línea favorable al oficialismo indio."
+
+[[outlets]]
+match = "wion"
+name = "WION"
+url = "https://www.wionews.com"
+city = "Nueva Delhi"
+iso3 = "IND"
+country = "India"
+type = "privado"
+lat = 28.5500
+lon = 77.2500
+desc = "Canal internacional del grupo Zee; mirada india del mundo."
+
+[[outlets]]
+match = "dawn"
+name = "Dawn"
+url = "https://www.dawn.com"
+city = "Karachi"
+iso3 = "PAK"
+country = "Pakistán"
+type = "privado"
+lat = 24.8607
+lon = 67.0011
+desc = "El diario en inglés más antiguo y prestigioso de Pakistán (fundado por Jinnah); frecuentemente en tensión con los militares."
+
+[[outlets]]
+match = "express tribune"
+name = "The Express Tribune"
+url = "https://tribune.com.pk"
+city = "Karachi"
+iso3 = "PAK"
+country = "Pakistán"
+type = "privado"
+lat = 24.8700
+lon = 67.0300
+desc = "Diario paquistaní en inglés, socio histórico del International New York Times."
+
+[[outlets]]
+match = "geo news"
+name = "Geo News"
+url = "https://www.geo.tv"
+city = "Karachi"
+iso3 = "PAK"
+country = "Pakistán"
+type = "privado"
+lat = 24.8500
+lon = 67.0200
+desc = "La mayor cadena televisiva paquistaní (grupo Jang); ha sufrido censuras y presiones militares."
+
+# --- Asia oriental -----------------------------------------------------------
+
+[[outlets]]
+match = "taipei times"
+name = "Taipei Times"
+url = "https://www.taipeitimes.com"
+city = "Taipéi"
+iso3 = "TWN"
+country = "Taiwán"
+type = "privado"
+lat = 25.0330
+lon = 121.5654
+desc = "Diario taiwanés en inglés (grupo Liberty Times), línea favorable a la soberanía taiwanesa."
+
+[[outlets]]
+match = "focus taiwan"
+name = "Focus Taiwan (CNA)"
+url = "https://focustaiwan.tw"
+city = "Taipéi"
+iso3 = "TWN"
+country = "Taiwán"
+type = "agencia"
+lat = 25.0400
+lon = 121.5600
+desc = "El servicio en inglés de la agencia central de noticias taiwanesa (CNA)."
+
+[[outlets]]
+match = "xinhua"
+name = "Xinhua"
+url = "https://english.news.cn"
+city = "Pekín"
+iso3 = "CHN"
+country = "China"
+type = "estatal"
+lat = 39.9042
+lon = 116.4074
+desc = "La agencia oficial del Estado chino y órgano del Partido: posición oficial de Pekín."
+
+[[outlets]]
+match = "global times"
+name = "Global Times"
+url = "https://www.globaltimes.cn"
+city = "Pekín"
+iso3 = "CHN"
+country = "China"
+type = "estatal"
+lat = 39.9100
+lon = 116.4100
+desc = "Tabloide del Diario del Pueblo (PCCh), conocido por su nacionalismo beligerante; útil como termómetro del ala dura china."
+
+[[outlets]]
+match = "cgtn"
+name = "CGTN"
+url = "https://www.cgtn.com"
+city = "Pekín"
+iso3 = "CHN"
+country = "China"
+type = "estatal"
+lat = 39.9150
+lon = 116.4200
+desc = "La cadena exterior de la televisión estatal china."
+
+[[outlets]]
+match = "south china morning post"
+name = "South China Morning Post"
+url = "https://www.scmp.com"
+city = "Hong Kong"
+iso3 = "HKG"
+country = "Hong Kong"
+type = "privado"
+lat = 22.3193
+lon = 114.1694
+desc = "Histórico diario hongkonés en inglés, propiedad de Alibaba desde 2016 — su margen frente a Pekín es objeto de escrutinio."
+
+[[outlets]]
+match = "scmp"
+name = "South China Morning Post"
+url = "https://www.scmp.com"
+city = "Hong Kong"
+iso3 = "HKG"
+country = "Hong Kong"
+type = "privado"
+lat = 22.3193
+lon = 114.1694
+desc = "Histórico diario hongkonés en inglés, propiedad de Alibaba desde 2016 — su margen frente a Pekín es objeto de escrutinio."
+
+[[outlets]]
+match = "yonhap"
+name = "Yonhap"
+url = "https://en.yna.co.kr"
+city = "Seúl"
+iso3 = "KOR"
+country = "Corea del Sur"
+type = "agencia"
+lat = 37.5665
+lon = 126.9780
+desc = "La agencia surcoreana de noticias, de estatuto semipúblico; la fuente primaria sobre la península."
+
+[[outlets]]
+match = "korea herald"
+name = "The Korea Herald"
+url = "https://www.koreaherald.com"
+city = "Seúl"
+iso3 = "KOR"
+country = "Corea del Sur"
+type = "privado"
+lat = 37.5600
+lon = 126.9900
+desc = "Diario surcoreano en inglés (grupo Herald)."
+
+[[outlets]]
+match = "korea times"
+name = "The Korea Times"
+url = "https://www.koreatimes.co.kr"
+city = "Seúl"
+iso3 = "KOR"
+country = "Corea del Sur"
+type = "privado"
+lat = 37.5700
+lon = 126.9850
+desc = "El diario en inglés más antiguo de Corea del Sur (grupo Hankook Ilbo)."
+
+[[outlets]]
+match = "chosun"
+name = "The Chosun Ilbo"
+url = "https://www.chosun.com/english/"
+city = "Seúl"
+iso3 = "KOR"
+country = "Corea del Sur"
+type = "privado"
+lat = 37.5710
+lon = 126.9770
+desc = "El diario de mayor circulación surcoreano, línea conservadora y dura con Pyongyang."
+
+[[outlets]]
+match = "nk news"
+name = "NK News"
+url = "https://www.nknews.org"
+city = "Seúl"
+iso3 = "KOR"
+country = "Corea del Sur (especializado)"
+type = "especializado"
+lat = 37.5750
+lon = 126.9700
+desc = "Medio privado especializado exclusivamente en Corea del Norte; por suscripción, muy usado por analistas."
+
+[[outlets]]
+match = "kcna"
+name = "KCNA"
+url = "http://kcna.kp"
+city = "Pyongyang"
+iso3 = "PRK"
+country = "Corea del Norte"
+type = "estatal"
+lat = 39.0392
+lon = 125.7625
+desc = "La agencia estatal norcoreana: propaganda oficial del régimen — valiosa justamente por eso."
+
+[[outlets]]
+match = "nikkei"
+name = "Nikkei Asia"
+url = "https://asia.nikkei.com"
+city = "Tokio"
+iso3 = "JPN"
+country = "Japón"
+type = "privado"
+lat = 35.6762
+lon = 139.7650
+desc = "El grupo financiero japonés (dueño del Financial Times); la mejor cobertura económica de Asia."
+
+[[outlets]]
+match = "kyodo"
+name = "Kyodo News"
+url = "https://english.kyodonews.net"
+city = "Tokio"
+iso3 = "JPN"
+country = "Japón"
+type = "agencia"
+lat = 35.6600
+lon = 139.7500
+desc = "La agencia cooperativa japonesa de noticias."
+
+[[outlets]]
+match = "japan times"
+name = "The Japan Times"
+url = "https://www.japantimes.co.jp"
+city = "Tokio"
+iso3 = "JPN"
+country = "Japón"
+type = "privado"
+lat = 35.6500
+lon = 139.7450
+desc = "El diario japonés en inglés más antiguo."
+
+[[outlets]]
+match = "dw.com"
+name = "Deutsche Welle"
+url = "https://www.dw.com/en/"
+city = "Bonn"
+iso3 = "DEU"
+country = "Alemania"
+type = "público"
+lat = 50.7374
+lon = 7.0982
+desc = "El servicio exterior público alemán, financiado por el presupuesto federal con independencia editorial legal."
+
+[[outlets]]
+match = "united24"
+name = "UNITED24 Media"
+url = "https://united24media.com"
+city = "Kyiv"
+iso3 = "UKR"
+country = "Ucrania"
+type = "estatal"
+lat = 50.4520
+lon = 30.5300
+desc = "Medio de la plataforma oficial de recaudación del gobierno ucraniano: comunicación estatal de guerra, abierta sobre su propósito."
+
+[[outlets]]
+match = "defense express"
+name = "Defense Express"
+url = "https://en.defence-ua.com"
+city = "Kyiv"
+iso3 = "UKR"
+country = "Ucrania"
+type = "especializado"
+lat = 50.4400
+lon = 30.5150
+desc = "Portal ucraniano especializado en industria y tecnología militar."
+
+[[outlets]]
+match = "pbs"
+name = "PBS"
+url = "https://www.pbs.org/newshour/"
+city = "Arlington"
+iso3 = "USA"
+country = "Estados Unidos"
+type = "público"
+lat = 38.8730
+lon = -77.1070
+desc = "La televisión pública estadounidense; su NewsHour es referencia de cobertura sobria."
+
+# --- Otros -------------------------------------------------------------------
+
+[[outlets]]
+match = "cbc"
+name = "CBC News"
+url = "https://www.cbc.ca/news"
+city = "Toronto"
+iso3 = "CAN"
+country = "Canadá"
+type = "público"
+lat = 43.6450
+lon = -79.3890
+desc = "La radiotelevisión pública canadiense."

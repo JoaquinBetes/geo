@@ -180,15 +180,16 @@ async function loadConflict(entry, preferredTab = "narrative") {
   state.maps = {};
 
   const base = `data/${entry.id}`;
-  const [summary, military, economy, influence, regions, layers] = await Promise.all([
+  const [summary, military, economy, influence, regions, layers, media] = await Promise.all([
     fetchJson(`${base}/summary.json`),
     state.tabs.includes("military") ? fetchJson(`${base}/military.json`).catch(() => null) : null,
     state.tabs.includes("economy") ? fetchJson(`${base}/economy.json`).catch(() => null) : null,
     state.tabs.includes("influence") ? fetchJson(`${base}/influence.json`).catch(() => null) : null,
     fetchJson(`${base}/regions.json`).catch(() => null),
     fetchJson(`${base}/layers.geojson`).catch(() => null),
+    fetchJson(`${base}/media.json`).catch(() => null),
   ]);
-  state.data = { summary, military, economy, influence, regions, layers };
+  state.data = { summary, military, economy, influence, regions, layers, media };
 
   document.getElementById("hdr-updated").textContent = fmtDate(summary.updated);
   document.getElementById("empty").hidden = true;

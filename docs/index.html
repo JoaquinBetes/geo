@@ -96,6 +96,31 @@
         </section>
       </div>
 
+      <section class="card wide" id="nar-media-card" hidden>
+        <h2>Mapa de medios: quién informa este conflicto</h2>
+        <p class="hint" id="nar-media-hint"></p>
+        <div id="map-media" class="eco-map"></div>
+        <div class="legend" id="nar-media-legend"></div>
+        <ul class="glossary">
+          <li><b>País sombreado</b> intensidad según la cantidad de medios monitoreados con sede en ese país.</li>
+          <li><b>Círculo</b> un medio, ubicado en la ciudad de su sede; tamaño = artículos que aporta a este conflicto; color = tono promedio de su cobertura. Pasá el mouse para ver su ficha y hacé clic para abrir el sitio en otra pestaña.</li>
+          <li><b>Medios en el exilio</b> se ubican donde operan hoy (p. ej. redacciones rusas en Ámsterdam o Riga).</li>
+        </ul>
+      </section>
+
+      <section class="card wide" id="nar-mediatable-card" hidden>
+        <h2>Radiografía de medios: señales de parcialidad</h2>
+        <p class="hint" id="nar-mediatable-hint"></p>
+        <div class="table-wrap"><table class="media-table" id="media-table"></table></div>
+        <ul class="glossary">
+          <li><b>Tipo</b> quién controla el medio: estatal (gobierno), público (financiación pública con independencia editorial formal), privado, agencia, exilio, think tank, especializado.</li>
+          <li><b>Alineamiento sede</b> la categoría del mapamundi de Influencia aplicada al país donde opera el medio. Es contexto, no sentencia: un medio puede ser muy crítico de su propio gobierno.</li>
+          <li><b>RSF</b> puesto del país sede en el ranking de libertad de prensa de Reporteros Sin Fronteras (1 = más libre, 180 = menos libre): cuanto peor el puesto, más probable que la cobertura local esté condicionada.</li>
+          <li><b>Tono / desvío</b> sentimiento promedio del medio en ESTE conflicto y su diferencia con el promedio de todos los medios: cubrir más negativo puede reflejar foco en lo bélico, no necesariamente sesgo editorial.</li>
+          <li>Ninguno de estos parámetros es un veredicto: son señales objetivables para leer la cobertura con criterio.</li>
+        </ul>
+      </section>
+
       <section class="card wide">
         <h2>Entidades más mencionadas</h2>
         <p class="hint">Largo = menciones · Color = tono promedio con el que aparecen</p>

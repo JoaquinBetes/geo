@@ -16,6 +16,7 @@ from .config import load_conflicts
 from .econ import build_economy
 from .fetch import fetch_conflict
 from .influence import build_influence
+from .media import build_media
 from .military import build_military
 from .regions import build_regions
 from .store import (
@@ -61,6 +62,19 @@ def run(conflict_ids: list[str] | None = None) -> None:
 
         summary = build_summary(conflict, all_articles)
         write_summary(cid, summary)
+
+        # --- Capa 1b: mapa de medios (registro global cruzado con las fuentes) ---
+        try:
+            media = build_media(conflict, all_articles)
+        except Exception as exc:
+            print(f"[{cid}] medios: ERROR ({exc}); conservo versión anterior")
+            media = read_json(cid, "media.json")
+        if media:
+            write_json(cid, "media.json", media)
+            print(
+                f"[{cid}] medios: {len(media['outlets'])} con ficha | "
+                f"{media['others_total']} artículos de fuentes sin ficha"
+            )
 
         # --- Capa 2: militar (eventos desde noticias + pérdidas) ---
         try:

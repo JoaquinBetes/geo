@@ -196,6 +196,9 @@ main { padding: clamp(16px, 4vw, 48px); }
 
 .chart-box { position: relative; height: 280px; }
 .chart-box.tall { height: 380px; }
+/* Chart.js fija ancho en px al renderizar: si el viewport se achica después
+   (rotación de celular), el canvas no debe desbordar la página. */
+.chart-box canvas { max-width: 100% !important; }
 
 /* --- Mapa --- */
 #map {
@@ -334,6 +337,81 @@ main { padding: clamp(16px, 4vw, 48px); }
   text-transform: uppercase;
   letter-spacing: 0.04em;
   margin-right: 2px;
+}
+
+/* --- Mapa y radiografía de medios --- */
+.table-wrap { overflow-x: auto; }
+.media-table {
+  width: 100%;
+  min-width: 880px;
+  border-collapse: collapse;
+  font-size: 0.78rem;
+}
+.media-table th {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+.media-table td {
+  padding: 7px 10px;
+  border-bottom: 1px solid rgba(34, 48, 65, 0.55);
+  vertical-align: middle;
+}
+.media-table a { color: var(--text); font-weight: 600; text-decoration: none; }
+.media-table a:hover { color: var(--cyan); text-decoration: underline; }
+
+.chip {
+  display: inline-block;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 1px 8px;
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  white-space: nowrap;
+}
+.chip-estatal { border-color: var(--neg); color: var(--neg); }
+.chip-publico { border-color: var(--cyan); color: var(--cyan); }
+.chip-exilio { border-color: var(--amber); color: var(--amber); }
+.chip-agencia { border-color: var(--pos); color: var(--pos); }
+.chip-think { border-color: #b07ce8; color: #b07ce8; }
+.chip-especializado { border-color: var(--cyan); color: var(--cyan); }
+
+/* ficha flotante de un medio en el mapa */
+.leaflet-tooltip.media-tip {
+  background: var(--panel-2);
+  border: 1px solid var(--amber);
+  color: var(--text);
+  border-radius: 4px;
+  padding: 9px 11px;
+  max-width: 270px;
+  white-space: normal;
+  font-size: 0.8rem;
+  box-shadow: 0 8px 26px -8px rgba(0, 0, 0, 0.85);
+}
+.leaflet-tooltip.media-tip::before { display: none; }
+.media-tip .tip-desc { color: var(--muted); font-size: 0.72rem; }
+.media-tip .tip-meta {
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.64rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.media-tip .tip-cta {
+  color: var(--amber);
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 /* --- Balance de fuerzas comparado --- */

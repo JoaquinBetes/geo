@@ -55,12 +55,7 @@ async function renderWorldMap(inf, categoryOf) {
     `${inf.reference}. Datos a ${inf.as_of}. Límites: Natural Earth (dominio público).`;
 
   const geo = await loadGeoFile("geo/world.json");
-  const map = newMap("influence:world", "map-world", {
-    zoomControl: false,
-    attributionControl: false,
-    maxBounds: [[-62, -180], [84, 180]],
-    maxBoundsViscosity: 0.8,
-  });
+  const map = newMap("influence:world", "map-world", worldMapOpts());
 
   const layer = L.geoJSON(geo, {
     style: (f) => {

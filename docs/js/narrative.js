@@ -226,12 +226,7 @@ async function renderMediaMap(data) {
     " Ubicación a nivel ciudad de la sede.";
 
   const geo = await loadGeoFile("geo/world.json");
-  const map = newMap("narrative:media", "map-media", {
-    zoomControl: false,
-    attributionControl: false,
-    maxBounds: [[-62, -180], [84, 180]],
-    maxBoundsViscosity: 0.8,
-  });
+  const map = newMap("narrative:media", "map-media", worldMapOpts());
 
   // Coropleta: intensidad por cantidad de medios con sede en cada país.
   const maxOutlets = Math.max(1, ...Object.values(md.by_country).map((c) => c.outlets));

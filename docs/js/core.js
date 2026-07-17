@@ -89,16 +89,34 @@ function loadGeoFile(path) {
 }
 
 // Crea (o recrea) un mapa registrado en state.maps con los tiles oscuros.
+// opts.tile se pasa a la capa de tiles (p. ej. {noWrap:true} para mapamundis).
 function newMap(key, elId, opts = {}) {
   if (state.maps[key]) { state.maps[key].remove(); delete state.maps[key]; }
-  const map = L.map(elId, { scrollWheelZoom: false, ...opts });
+  const { tile, ...mapOpts } = opts;
+  const map = L.map(elId, { scrollWheelZoom: false, ...mapOpts });
   L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
     subdomains: "abcd",
     maxZoom: 12,
+    ...(tile ?? {}),
   }).addTo(map);
   state.maps[key] = map;
   return map;
+}
+
+// Opciones estándar para mapamundis: un solo mundo (sin repetir a los lados),
+// zoom con botones/doble clic/pellizco y encuadre que llena el contenedor.
+function worldMapOpts() {
+  return {
+    zoomControl: true,
+    attributionControl: false,
+    maxBounds: [[-62, -185], [84, 185]],
+    maxBoundsViscosity: 1.0,
+    zoomSnap: 0.25,
+    minZoom: 1,
+    worldCopyJump: false,
+    tile: { noWrap: true, bounds: [[-85, -180], [85, 180]] },
+  };
 }
 
 function regionLabel(name) {

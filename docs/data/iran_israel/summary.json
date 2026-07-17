@@ -2,13 +2,13 @@
   "id": "iran_israel",
   "name": "Irán–Israel/EE.UU.",
   "description": "Cobertura mediática del conflicto entre Irán, Israel y Estados Unidos",
-  "updated": "2026-07-17T19:32:52+00:00",
-  "total_articles": 3256,
-  "overall_avg": -0.3227,
+  "updated": "2026-07-17T19:51:39+00:00",
+  "total_articles": 3274,
+  "overall_avg": -0.3247,
   "distribution": {
-    "pos": 695,
+    "pos": 696,
     "neu": 516,
-    "neg": 2045
+    "neg": 2062
   },
   "sources": [
     "Al Jazeera",
@@ -32,8 +32,8 @@
     "Fox News",
     "Yahoo",
     "The Hill",
-    "NDTV",
     "i24NEWS",
+    "NDTV",
     "PBS",
     "AP News",
     "CNN",
@@ -122,6 +122,7 @@
     "IFCJ",
     "South China Morning Post",
     "NewsCord",
+    "India Today",
     "Bloomberg.com",
     "WANA News Agency",
     "The Arab Weekly",
@@ -247,7 +248,6 @@
     "조선일보",
     "Военное дело",
     "dw.com",
-    "India Today",
     "ThePrint",
     "The Singju Post",
     "The Atlantic",
@@ -794,11 +794,11 @@
     },
     {
       "date": "2026-07-17",
-      "count": 148,
-      "avg": -0.3544,
-      "pos": 29,
+      "count": 166,
+      "avg": -0.3904,
+      "pos": 30,
       "neu": 24,
-      "neg": 95
+      "neg": 112
     }
   ],
   "by_source": [
@@ -809,8 +809,8 @@
     },
     {
       "source": "Times of Israel",
-      "count": 357,
-      "avg": -0.2736
+      "count": 371,
+      "avg": -0.2882
     },
     {
       "source": "BBC",
@@ -819,8 +819,8 @@
     },
     {
       "source": "The Times of Israel",
-      "count": 160,
-      "avg": -0.3506
+      "count": 162,
+      "avg": -0.3566
     },
     {
       "source": "The Guardian",
@@ -908,14 +908,14 @@
       "avg": -0.5776
     },
     {
+      "source": "i24NEWS",
+      "count": 13,
+      "avg": -0.5076
+    },
+    {
       "source": "NDTV",
       "count": 12,
       "avg": -0.6755
-    },
-    {
-      "source": "i24NEWS",
-      "count": 12,
-      "avg": -0.4916
     },
     {
       "source": "PBS",
@@ -1356,6 +1356,11 @@
       "source": "NewsCord",
       "count": 2,
       "avg": 0.0106
+    },
+    {
+      "source": "India Today",
+      "count": 2,
+      "avg": -0.6522
     },
     {
       "source": "Bloomberg.com",
@@ -1983,11 +1988,6 @@
       "avg": -0.9349
     },
     {
-      "source": "India Today",
-      "count": 1,
-      "avg": -0.5859
-    },
-    {
       "source": "ThePrint",
       "count": 1,
       "avg": 0.0
@@ -2142,20 +2142,20 @@
     {
       "name": "Iran",
       "type": "LOCATION",
-      "count": 1505,
-      "avg": -0.4854
+      "count": 1511,
+      "avg": -0.4862
     },
     {
       "name": "Israel",
       "type": "LOCATION",
-      "count": 1374,
-      "avg": -0.3872
+      "count": 1391,
+      "avg": -0.3909
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 570,
-      "avg": -0.3422
+      "count": 571,
+      "avg": -0.3429
     },
     {
       "name": "Strait of Hormuz",
@@ -2196,20 +2196,20 @@
     {
       "name": "IDF",
       "type": "ORG",
-      "count": 61,
-      "avg": -0.5071
+      "count": 62,
+      "avg": -0.5058
     },
     {
       "name": "IRGC",
       "type": "ORG",
-      "count": 39,
-      "avg": -0.6929
+      "count": 41,
+      "avg": -0.7034
     },
     {
       "name": "Hezbollah",
       "type": "ORG",
-      "count": 36,
-      "avg": -0.4766
+      "count": 37,
+      "avg": -0.4895
     },
     {
       "name": "Saudi Arabia",
@@ -2256,6 +2256,76 @@
   ],
   "recent": [
     {
+      "title": "Just before disbanding, Knesset passes long-awaited construction waste law",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/just-before-disbanding-knesset-passes-long-awaited-construction-waste-law/",
+      "published": "2026-07-17T21:48:17+00:00",
+      "compound": -0.926,
+      "label": "negative",
+      "entities": [
+        "Israel"
+      ]
+    },
+    {
+      "title": "Settlers raid West Bank village in PA-run area; IDF, arriving on scene, lets them flee",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/settlers-raid-west-bank-village-in-pa-run-area-idf-arriving-on-scene-lets-them-flee/",
+      "published": "2026-07-17T21:26:32+00:00",
+      "compound": -0.4268,
+      "label": "negative",
+      "entities": [
+        "IDF",
+        "Israel"
+      ]
+    },
+    {
+      "title": "US weighs wider offensive against Iran, Trump seeks more refuelling jets in Israel",
+      "source": "India Today",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcUxZLWZoYXlhekxMejBDTjZmcE95TWhqbVp0b0FndnRKU1dHcTc0aDdFQV9lY0pHY3A2eldvSGRZV1FLaVFlTE9wcVRGMlFfOHJrMm9Yb2VrNFFlSlB4WlBFNTJrUWU4M2s3SkRzbl85RXY3bU9heGFaSmgxZE5NN2V3cExIclEyOGd5bUVNak1KLW1rWV9nUndFVkFINUhFWW9pX0pKYndmQkQxejhKRUVCaUhINmVaTkUxTTREQ1JvNV9JLXJv0gHMAUFVX3lxTFBSc0xsdVlnS1ROdlpRWVhMQ255eVVqQ0t3eERWTXpWX0hyNWg0T1BtWlhYNVdoU1Y0d3duMjNNQ0lBTm9tSVU0QnZLWFFoc09sVFhsMWkyS0xTWVUwNGZ3U3hocndJTjk4dndzYkY0eDdkVVpObXluS3RxZkZZN19UQmoyZ0FmQ3ptemhVNFVzWlBGTktMbHJhZ0ZmUklJNk9lVFAtRG1zZmY5Mm9TNzJnU0prRFBraUFEM2VtRlNBQXFSdzVwY2M0MGIySQ?oc=5",
+      "published": "2026-07-17T21:19:02+00:00",
+      "compound": -0.7184,
+      "label": "negative",
+      "entities": [
+        "Donald Trump",
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Shin Bet chief reportedly seeks okay to question Channel 12 journalists over Iran leak",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/shin-bet-chief-reportedly-seeks-okay-to-question-channel-12-journalists-over-iran-leak/",
+      "published": "2026-07-17T20:39:55+00:00",
+      "compound": -0.2023,
+      "label": "negative",
+      "entities": [
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Francesca Hong, running for governor of Wisconsin, focuses campaign on affordability — and Israel",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/francesca-hong-running-for-governor-of-wisconsin-focuses-campaign-on-affordability-israel/",
+      "published": "2026-07-17T20:23:32+00:00",
+      "compound": -0.296,
+      "label": "negative",
+      "entities": [
+        "Israel"
+      ]
+    },
+    {
+      "title": "Tax Authority freezes war compensation claims in Bnei Brak after attacks on staff",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/tax-authority-freezes-war-compensation-claims-in-bnei-brak-after-attacks-on-staff/",
+      "published": "2026-07-17T19:45:29+00:00",
+      "compound": -0.9451,
+      "label": "negative",
+      "entities": [
+        "Israel"
+      ]
+    },
+    {
       "title": "China signals possible return of U.S. trade privileges for Hong Kong",
       "source": "NPR",
       "url": "https://www.npr.org/2026/07/17/g-s1-134269/china-signals-possible-return-of-u-s-trade-privileges-for-hong-kong",
@@ -2264,6 +2334,17 @@
       "label": "positive",
       "entities": [
         "Donald Trump"
+      ]
+    },
+    {
+      "title": "Top Hamas aide who held hostages during war killed in strike on Khan Younis",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/top-hamas-aide-who-held-hostages-during-war-killed-in-strike-on-khan-younis/",
+      "published": "2026-07-17T18:59:30+00:00",
+      "compound": -0.9531,
+      "label": "negative",
+      "entities": [
+        "Israel"
       ]
     },
     {
@@ -2284,6 +2365,17 @@
       "label": "negative",
       "entities": [
         "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Democratic congressman who voted to cut off Israel aid decries far-left harassment campaign",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/us-congressman-who-voted-to-cut-off-israel-aid-decries-far-left-harassment-campaign/",
+      "published": "2026-07-17T18:47:01+00:00",
+      "compound": -0.8979,
+      "label": "negative",
+      "entities": [
         "Israel"
       ]
     },
@@ -2363,6 +2455,20 @@
       "label": "negative",
       "entities": [
         "Iran"
+      ]
+    },
+    {
+      "title": "Iran said to tell Hezbollah, allies to prepare for wider conflict, which could rope in Israel",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/iran-said-to-tell-hezbollah-allies-to-prepare-for-wider-conflict-which-could-rope-in-israel/",
+      "published": "2026-07-17T18:07:20+00:00",
+      "compound": -0.9509,
+      "label": "negative",
+      "entities": [
+        "IRGC",
+        "Hezbollah",
+        "Iran",
+        "Israel"
       ]
     },
     {
@@ -2464,6 +2570,17 @@
       "entities": []
     },
     {
+      "title": "Andy Burnham poised to become UK’s next prime minister after winning Labour vote",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/andy-burnham-poised-to-become-uks-next-prime-minister-after-winning-labour-vote/",
+      "published": "2026-07-17T17:15:05+00:00",
+      "compound": 0.719,
+      "label": "positive",
+      "entities": [
+        "Israel"
+      ]
+    },
+    {
       "title": "Second tanker in three months hijacked off Yemen by suspected Somali pirates",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/articles/c7vg6dml34vo?at_medium=RSS&at_campaign=rss",
@@ -2496,6 +2613,19 @@
       ]
     },
     {
+      "title": "UK police charge man over suspected collaborating with Iranian intelligence",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/uk-police-charge-man-over-suspected-collaborating-with-iranian-intelligence/",
+      "published": "2026-07-17T16:50:55+00:00",
+      "compound": -0.8658,
+      "label": "negative",
+      "entities": [
+        "IRGC",
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
       "title": "The U.S.-Iran battle over the Strait of Hormuz raises risks for global waterways",
       "source": "NPR",
       "url": "https://www.npr.org/2026/07/17/nx-s1-5884849/us-iran-strait-hormuz-global-shipping-risk",
@@ -2515,6 +2645,17 @@
       "compound": 0.7425,
       "label": "positive",
       "entities": []
+    },
+    {
+      "title": "First US prison synagogue stages new exhibit with story of Jewish inmates who built it",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/first-us-prison-synagogue-stages-new-exhibit-with-story-of-jewish-inmates-who-built-it/",
+      "published": "2026-07-17T16:44:58+00:00",
+      "compound": -0.6705,
+      "label": "negative",
+      "entities": [
+        "Israel"
+      ]
     },
     {
       "title": "Amazon’s Zoox recalls self-driving vehicles amid emergency response issues",
@@ -2641,6 +2782,17 @@
       "entities": []
     },
     {
+      "title": "Iranians beset by uncertainty, financial woes amid stepped-up hostilities with US",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/iranians-beset-by-uncertainty-financial-woes-amid-stepped-up-hostilities-with-us/",
+      "published": "2026-07-17T15:17:39+00:00",
+      "compound": -0.9294,
+      "label": "negative",
+      "entities": [
+        "Israel"
+      ]
+    },
+    {
       "title": "Iran said to tell Hezbollah, allies to prepare for wider conflict, which could rope in Israel",
       "source": "The Times of Israel",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRXBsVjMxOWtPTnVMLThiZWZ3VmY1ZmZySXpPN3BkZGp5c1RoNWxMMzNPTEpwUmtBSUljN3FBM2tEblc3cUFxU0hTS3BOMFBQTUZVUDBOaDQxUll2MnFNODVRcngtVkhlZjd4cEpVVGoycTY3ZDdWZTZOSUx3c3BaN1hfUGpQV2JmTVNxUENGRUFGSkVKUjBRZHF6dDQ1WXF5RlRDSnp3RXdlM2RPQ2NyYmZsZEJMUGR6WGUydFREa9IBxAFBVV95cUxPVWE3ak9DRkM3LXltUFpOeHdjV1JoZWZRUnI0cUhlbFVhdDdLcTduQmxSczQ5cVk3T2VMRlpRb1RoajNyM1hRb2RZMzdISFZFYjFNSGdURU1ncjNvQVo3TWxldmotRmRLUE5fMjJ6SFQzZWpvVm5WczZDY2lhZWp3NExoXzA3OW5QVURVR19iQUYzNXdjR3p3bjJOU0p5YzlUdEwtZzh3c011UmRJbFBCS2N5QWlJUE0xMnV4MFE4RVBDV0Fr?oc=5",
@@ -2680,6 +2832,17 @@
       ]
     },
     {
+      "title": "They fought for us. Don’t let them battle trauma alone. - Sponsored Content",
+      "source": "Times of Israel",
+      "url": "https://toi.li/KLf5mV",
+      "published": "2026-07-17T14:47:35+00:00",
+      "compound": -0.9349,
+      "label": "negative",
+      "entities": [
+        "Israel"
+      ]
+    },
+    {
       "title": "France vs England – World Cup third-place playoff: Prediction, kickoff",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/sports/2026/7/17/france-england-fifa-world-cup-third-place-playoff-predictions-kickoff?traffic_source=rss",
@@ -2713,6 +2876,17 @@
       ]
     },
     {
+      "title": "Palestinian terrorist indicted over 2007 West Bank murder of Israeli civilian",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/palestinian-terrorist-indicted-over-2007-west-bank-murder-of-israeli-civilian/",
+      "published": "2026-07-17T14:14:47+00:00",
+      "compound": -0.9854,
+      "label": "negative",
+      "entities": [
+        "Israel"
+      ]
+    },
+    {
       "title": "Uganda school bus crash kills 20 children and 1 adult",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/7/17/uganda-school-bus-crash-kills-20-children-and-1-adult?traffic_source=rss",
@@ -2728,159 +2902,6 @@
       "published": "2026-07-17T13:51:18+00:00",
       "compound": -0.882,
       "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "China’s Xi Jinping launches new AI alliance: What is it?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/17/chinas-xi-jinping-launches-new-ai-alliance-what-is-it?traffic_source=rss",
-      "published": "2026-07-17T13:47:38+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Kuwait army says Iran drone attack wounded several personnel",
-      "source": "The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOC1UTmZJVERnOENMWURkZTBraHJXYWZGTThwcEZ0a3FoNEppMGdfLXFURGI5THVOWEZQemJNNWRCSWtzXzZydUNBNzlhNF9rNktpSnZHUFNQT1REX3Y1MDA1UHV5QjY5YkhGYlg0VkRDcllraTFUakFhMW1sZURfNzBqazgxMWhLX21DSURfLXNSS3pmM2w2T1JndnJCemNkaXZwbENKaHdhdw?oc=5",
-      "published": "2026-07-17T13:30:51+00:00",
-      "compound": -0.7351,
-      "label": "negative",
-      "entities": [
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "EXCLUSIVE: Pakistan and Kuwait discuss expanded defence pact, sources say",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONHZvMDI1eHV5d0EwekZYSTVrdmU0VDVpR1o0V2hqUlFkcXBxR0xUSFEtak9UdVdVNEtmenkxYVFfeXNtQlc0TGVHSXZZd2gwNlEtRkNya0JuclAwV2llWS1jVjRnUldaWWF5WEZhcFJzal8yV3M5MUhKMldHa2lGNjNTS2c2OGxCTjN0YzVSejVrdy1jTUx1LVUzVmRMeVdnX3NYWUQ4SXhYSjNvM2J4NDBB?oc=5",
-      "published": "2026-07-17T13:30:13+00:00",
-      "compound": 0.6447,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "UN urges probe into deaths in Pakistani-administered Kashmir unrest",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/17/un-urges-probe-into-deaths-in-pakistani-administered-kashmir-unrest?traffic_source=rss",
-      "published": "2026-07-17T13:16:57+00:00",
-      "compound": -0.4939,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Satellite images show damage inside Iran’s Bushehr nuclear power plant",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWDJHRmloc0pKZTRLSWoxTUI3ekNwQkZ4RjBqNHdVWmdUMDNOYUkxN05pZW5kTVI4dVlramx5XzdGRTIzUER2WmVKTEI1RU9ncEx2ejlBc1FVRU1zOThKc0FnZ1RiUzhHbzRfcGp4bVBFSUFHb3pUaTFhU2lpRzZRSDRXYjlCSFhNUTRLSFlIT2Y2eU5od0VhTlN0REVMRkk2NGk0UGREanFMZWhaYk930gG0AUFVX3lxTE9GZTlyaU1VR2ppWF9xLVJDa2p3UWpqeXZrTnQ3YjloczJFejdqaEozcGJDaWVudnlhSXFTYzh1QjM2NDdZdjA3RGY4cVFlY3VFd0JDRDUwaDF2bFFrRVdGcTltRlg2TmpkR0NvelJfZHZoTnRDOHc4a2l0SEYzb1RCOThUaFJiek5BZ1EtaWhacXBwU2lpb29nRllfcFUtUkQwQkpmaFNaSUN2elpWZ3QtR3FWUg?oc=5",
-      "published": "2026-07-17T13:16:07+00:00",
-      "compound": -0.7506,
-      "label": "negative",
-      "entities": [
-        "Iran"
-      ]
-    },
-    {
-      "title": "Pakistani forces kill 24 militants in border raids near Afghanistan",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/17/g-s1-134175/pakistani-forces-kill-24-militants-in-border-raids-near-afghanistan",
-      "published": "2026-07-17T13:15:49+00:00",
-      "compound": -0.6705,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Kurdish PM: Iran must stop ‘unjustified’ attacks on autonomous region",
-      "source": "The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWEg4UGV0dlFlekpINTVjaXU2bHRfdDdXTmNSR2k2V1QzVHdQdjI2Nmp0V3NCODAxVG4xaW5aZ21GOWs4c2kxTDhNTGhYZVkyWXpZZHJJeGh0bkRuMlFEWklYODhhMW9BYU5nMUdwbVpSblR2MzdTV285M2NhTUoza05kODZfSEVXQkZFYThWak14Y21RSFNMNUw3QUpMVi14NlFYYWxUSGYxcGxTeE9LMmRR?oc=5",
-      "published": "2026-07-17T13:10:51+00:00",
-      "compound": -0.8481,
-      "label": "negative",
-      "entities": [
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Satellite images show damage inside Iran’s Bushehr nuclear power plant",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/17/satellite-images-show-damage-inside-irans-bushehr-nuclear-power-plant?traffic_source=rss",
-      "published": "2026-07-17T13:10:50+00:00",
-      "compound": -0.6908,
-      "label": "negative",
-      "entities": [
-        "Iran"
-      ]
-    },
-    {
-      "title": "Ukraine ‘cuts off’ Crimea from Russia, plunging it into an energy crisis",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/17/ukraine-cuts-off-crimea-from-russia-plunging-it-into-an-energy-crisis?traffic_source=rss",
-      "published": "2026-07-17T13:10:00+00:00",
-      "compound": -0.7845,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "‘Offer he can’t refuse’: Is Italy’s mafia law breaking crime or families?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/17/offer-he-cant-refuse-is-italys-mafia-law-breaking-crime-or-families?traffic_source=rss",
-      "published": "2026-07-17T13:09:18+00:00",
-      "compound": -0.5423,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Deadly storm leaves half a million without power in Chile",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/17/deadly-storm-leaves-half-a-million-without-power-in-chile?traffic_source=rss",
-      "published": "2026-07-17T13:04:42+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "IRGC commander: Iran will continue attacks until US strikes stop",
-      "source": "The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUWlyM3B3LUhULTRHeGtNZXBuUHBGWHdObTRxQl9Ya3ZQampWTmp2cjZCTXp6RG4zcTBRNXJYM2pZaVNUWjZxRnQ3YXM5cUJSYlU2SE9Lcl9EU3gxVWVkVk9NdjVBaDVDOXBjRlZjdDNKd0FSbUJhN3Z6Y2g2Wl9SdHJzR2V5U0RXMXcxa3JxZWhDeXphTlV1TVQzTTRsNTh2ZnpuRXVPVHI1M1FpT2c?oc=5",
-      "published": "2026-07-17T13:00:51+00:00",
-      "compound": -0.9217,
-      "label": "negative",
-      "entities": [
-        "IRGC",
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "US seeks extradition of wealthy pro-Palestine donor from Spain",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/17/us-seeks-extradition-of-wealthy-pro-palestine-donor-from-spain?traffic_source=rss",
-      "published": "2026-07-17T12:58:52+00:00",
-      "compound": -0.1027,
-      "label": "negative",
-      "entities": [
-        "United States"
-      ]
-    },
-    {
-      "title": "Iran war live: Tanker seized off Yemen in ‘pirate hijacking’",
-      "source": "The Independent",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOWppaEg4TDYwaElrMjFRcWJPc0xfVmU2Um9iV2tfVTNtemFCSjVMa0dQTXh0S0UyZ3Y2eFBmX1lGMTg3bXNXakE1NkFtYkxKZTh4Z3NHclV1akN2X24yUjNoUVhmQldiZzIyTzVTdVhOa2hpMlQ0QVlCbkk0RlROblRQNENzZHVKSjlVajd3OWVSX2NjdTdScDMwd01WYXN4SmtsckRNdHlrUU5FdGJ1a0J2YXVGR0tZMHJvemtwNA?oc=5",
-      "published": "2026-07-17T12:44:21+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Iran"
-      ]
-    },
-    {
-      "title": "US marines board commercial tanker in Gulf of Oman",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/17/us-marines-board-commercial-tanker-in-gulf-of-oman?traffic_source=rss",
-      "published": "2026-07-17T12:17:08+00:00",
-      "compound": 0.0,
-      "label": "neutral",
       "entities": []
     }
   ]

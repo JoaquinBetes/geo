@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-17T08:28:15+00:00",
+  "updated": "2026-07-17T14:03:26+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-07-17"
   },
   "kpis": {
-    "events_total": 177,
-    "events_unlocated": 429,
-    "events_7d": 89,
+    "events_total": 180,
+    "events_unlocated": 433,
+    "events_7d": 92,
     "events_prev_7d": 69,
     "hottest_place": "Strait of Hormuz"
   },
@@ -221,10 +221,10 @@
     },
     {
       "date": "2026-07-17",
-      "total": 2,
-      "strike": 2,
+      "total": 5,
+      "strike": 3,
       "ground": 0,
-      "infrastructure": 0,
+      "infrastructure": 2,
       "air_defense": 0,
       "anomaly": false
     }
@@ -1999,16 +1999,50 @@
       "title": "US attacks southern Iran, as Tehran hits Gulf countries: What’s the latest?",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/7/17/us-attacks-southern-iran-as-tehran-hits-gulf-countries-whats-the-latest?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-17",
+      "type": "infrastructure",
+      "place": "Bushehr",
+      "lat": 28.9684,
+      "lon": 50.8385,
+      "title": "Satellite images show damage inside Iran’s Bushehr nuclear power plant",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWDJHRmloc0pKZTRLSWoxTUI3ekNwQkZ4RjBqNHdVWmdUMDNOYUkxN05pZW5kTVI4dVlramx5XzdGRTIzUER2WmVKTEI1RU9ncEx2ejlBc1FVRU1zOThKc0FnZ1RiUzhHbzRfcGp4bVBFSUFHb3pUaTFhU2lpRzZRSDRXYjlCSFhNUTRLSFlIT2Y2eU5od0VhTlN0REVMRkk2NGk0UGREanFMZWhaYk930gG0AUFVX3lxTE9GZTlyaU1VR2ppWF9xLVJDa2p3UWpqeXZrTnQ3YjloczJFejdqaEozcGJDaWVudnlhSXFTYzh1QjM2NDdZdjA3RGY4cVFlY3VFd0JDRDUwaDF2bFFrRVdGcTltRlg2TmpkR0NvelJfZHZoTnRDOHc4a2l0SEYzb1RCOThUaFJiek5BZ1EtaWhacXBwU2lpb29nRllfcFUtUkQwQkpmaFNaSUN2elpWZ3QtR3FWUg?oc=5"
+    },
+    {
+      "date": "2026-07-17",
+      "type": "infrastructure",
+      "place": "Bushehr",
+      "lat": 28.9684,
+      "lon": 50.8385,
+      "title": "Satellite images show damage inside Iran’s Bushehr nuclear power plant",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/17/satellite-images-show-damage-inside-irans-bushehr-nuclear-power-plant?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-17",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "U.S. strikes bridges in Iran, Tehran targets U.S. bases in the Gulf",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/17/g-s1-134158/us-iran-war-updates"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 83
+      "count": 84
     },
     {
       "place": "Tehran",
       "count": 31
+    },
+    {
+      "place": "Bushehr",
+      "count": 10
     },
     {
       "place": "Bandar Abbas",
@@ -2016,10 +2050,6 @@
     },
     {
       "place": "Damascus",
-      "count": 8
-    },
-    {
-      "place": "Bushehr",
       "count": 8
     },
     {

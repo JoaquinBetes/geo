@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-07-17T19:51:33+00:00",
+  "updated": "2026-07-18T03:31:55+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-07-17"
+    "to": "2026-07-18"
   },
   "kpis": {
-    "events_total": 184,
-    "events_unlocated": 507,
-    "events_7d": 63,
-    "events_prev_7d": 70,
+    "events_total": 185,
+    "events_unlocated": 513,
+    "events_7d": 55,
+    "events_prev_7d": 69,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -349,6 +349,15 @@
       "strike": 1,
       "ground": 0,
       "infrastructure": 2,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-18",
+      "total": 1,
+      "strike": 0,
+      "ground": 0,
+      "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
     }
@@ -2193,6 +2202,16 @@
       "title": "Ukraine suffers port attacks as protests persist over defence shake-up",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/7/17/ukraine-suffers-port-attacks-as-protests-persist-over-defence-shake-up?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-18",
+      "type": "infrastructure",
+      "place": "Mykolaiv",
+      "lat": 46.975,
+      "lon": 31.9946,
+      "title": "Ukraine war briefing: Protests of Fedorov’s dismissal continue as Zelenskyy tries to repair rift with Poland",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/18/ukraine-war-briefing-protests-of-fedorovs-dismissal-continue-as-zelenskyy-tries-to-repair-rift-with-poland"
     }
   ],
   "top_places": [
@@ -2217,16 +2236,16 @@
       "count": 4
     },
     {
+      "place": "Mykolaiv",
+      "count": 3
+    },
+    {
       "place": "Odesa",
       "count": 3
     },
     {
       "place": "Sumy",
       "count": 3
-    },
-    {
-      "place": "Mykolaiv",
-      "count": 2
     },
     {
       "place": "Kherson",

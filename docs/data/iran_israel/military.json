@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-18T13:49:14+00:00",
+  "updated": "2026-07-18T19:31:24+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-07-18"
   },
   "kpis": {
-    "events_total": 191,
-    "events_unlocated": 499,
-    "events_7d": 98,
+    "events_total": 193,
+    "events_unlocated": 509,
+    "events_7d": 100,
     "events_prev_7d": 72,
     "hottest_place": "Strait of Hormuz"
   },
@@ -239,10 +239,10 @@
     },
     {
       "date": "2026-07-18",
-      "total": 2,
-      "strike": 2,
+      "total": 4,
+      "strike": 3,
       "ground": 0,
-      "infrastructure": 0,
+      "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
     }
@@ -2157,12 +2157,32 @@
       "title": "U.S. and Iran escalate strikes across Mideast",
       "source": "NPR",
       "url": "https://www.npr.org/2026/07/18/nx-s1-5898916/us-iran-escalate-strikes"
+    },
+    {
+      "date": "2026-07-18",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iran attacks US allies in Middle East as renewed conflict enters second week",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/18/iran-attacks-us-allies-in-middle-east-in-second-week-of-renewed-conflict"
+    },
+    {
+      "date": "2026-07-18",
+      "type": "infrastructure",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iraq signs 48 deals with US companies during PM’s visit to Washington",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/18/iraq-signs-48-deals-with-us-companies-during-pms-visit-to-washington?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 90
+      "count": 92
     },
     {
       "place": "Tehran",

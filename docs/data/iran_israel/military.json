@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-18T08:09:00+00:00",
+  "updated": "2026-07-18T13:49:14+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,13 +41,22 @@
     "to": "2026-07-18"
   },
   "kpis": {
-    "events_total": 190,
-    "events_unlocated": 486,
+    "events_total": 191,
+    "events_unlocated": 499,
     "events_7d": 98,
     "events_prev_7d": 72,
     "hottest_place": "Strait of Hormuz"
   },
   "daily": [
+    {
+      "date": "2026-03-03",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
     {
       "date": "2026-06-01",
       "total": 1,
@@ -154,7 +163,7 @@
       "ground": 5,
       "infrastructure": 6,
       "air_defense": 0,
-      "anomaly": false
+      "anomaly": true
     },
     {
       "date": "2026-07-10",
@@ -239,6 +248,16 @@
     }
   ],
   "events": [
+    {
+      "date": "2026-03-03",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Iran updates: US bases, embassies attacked as Tehran steps up Gulf strikes",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcEhnOWtGZC1LYWMxWFdNOFdlVmliTlNrNjZybGxNUTVyTDVlc3pxSmxmTE13X29DS1p4SnoxZTBUczlDUGp4Y01XUUtYMTMxT0NJS3JpckpuN2lpVnNNN1RzM3dxN2pzaUJydWZWUUpSRFhlelN2TXVFemVRNWRNeDJIX0otTnM5UlFVYzVtVDNsaXhraGZUcG1pdUpkLU5TZGNwVGtKWk5yWkJlR2hOckRUR3RPaEtnSTJWUWJB0gHDAUFVX3lxTE91Y01JYnJ6ZG9uNVpLeHVudFYzVC1vcmNPeUxvbkRQUm5FX0F1VTVYMW5sdTZjT1otRkI1X2UzUVRwYnJheWhjY0NZSURWblRMcFNtSzZYQXBBeXJsU0tMNlFsLWhiWm1YX0ExOUdNcG1MZXNJMHl4U3p0MWN5ZWhFb09xZ0JnMjB0OWVUNTVmanlwXzhNbk02X0VFcHpZU2dKRkVfUXpWanJwVnlxZjJfY1lMNjAteE94bkVkZkxpcmtjTQ?oc=5"
+    },
     {
       "date": "2026-06-01",
       "type": "strike",

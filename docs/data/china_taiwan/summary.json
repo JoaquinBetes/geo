@@ -2,13 +2,13 @@
   "id": "china_taiwan",
   "name": "China–Taiwán",
   "description": "Cobertura mediática de la tensión entre China y Taiwán",
-  "updated": "2026-07-18T08:09:03+00:00",
-  "total_articles": 3180,
-  "overall_avg": -0.1424,
+  "updated": "2026-07-18T13:49:16+00:00",
+  "total_articles": 3202,
+  "overall_avg": -0.1417,
   "distribution": {
-    "pos": 764,
-    "neu": 1034,
-    "neg": 1382
+    "pos": 774,
+    "neu": 1035,
+    "neg": 1393
   },
   "sources": [
     "Al Jazeera",
@@ -23,8 +23,8 @@
     "Institute for the Study of War",
     "Travel And Tour World",
     "Idaho State Journal",
-    "China Daily",
     "Global Times",
+    "China Daily",
     "Nikkei Asia",
     "The Diplomat – Asia-Pacific",
     "Yahoo",
@@ -293,7 +293,9 @@
     "TRT World",
     "CryptoSlate",
     "St Vincent Times",
-    "Monocle"
+    "Monocle",
+    "Cambodianess",
+    "ET Telecom"
   ],
   "daily": [
     {
@@ -370,11 +372,11 @@
     },
     {
       "date": "2026-04-10",
-      "count": 1,
-      "avg": 0.0,
+      "count": 2,
+      "avg": -0.2997,
       "pos": 0,
       "neu": 1,
-      "neg": 0
+      "neg": 1
     },
     {
       "date": "2026-04-17",
@@ -866,18 +868,18 @@
     },
     {
       "date": "2026-07-18",
-      "count": 90,
-      "avg": -0.1113,
-      "pos": 26,
-      "neu": 28,
-      "neg": 36
+      "count": 111,
+      "avg": -0.0955,
+      "pos": 36,
+      "neu": 29,
+      "neg": 46
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 1093,
-      "avg": -0.2172
+      "count": 1105,
+      "avg": -0.2147
     },
     {
       "source": "Taipei Times",
@@ -886,18 +888,18 @@
     },
     {
       "source": "BBC",
-      "count": 343,
-      "avg": -0.2346
+      "count": 345,
+      "avg": -0.2364
     },
     {
       "source": "NPR",
-      "count": 113,
-      "avg": -0.3031
+      "count": 115,
+      "avg": -0.3121
     },
     {
       "source": "Taiwan News",
-      "count": 66,
-      "avg": -0.1415
+      "count": 68,
+      "avg": -0.1321
     },
     {
       "source": "Reuters",
@@ -921,7 +923,7 @@
     },
     {
       "source": "Institute for the Study of War",
-      "count": 19,
+      "count": 20,
       "avg": -0.5994
     },
     {
@@ -935,14 +937,14 @@
       "avg": 0.0
     },
     {
+      "source": "Global Times",
+      "count": 15,
+      "avg": 0.152
+    },
+    {
       "source": "China Daily",
       "count": 15,
       "avg": 0.0691
-    },
-    {
-      "source": "Global Times",
-      "count": 14,
-      "avg": 0.105
     },
     {
       "source": "Nikkei Asia",
@@ -2288,26 +2290,36 @@
       "source": "Monocle",
       "count": 1,
       "avg": -0.5574
+    },
+    {
+      "source": "Cambodianess",
+      "count": 1,
+      "avg": 0.5574
+    },
+    {
+      "source": "ET Telecom",
+      "count": 1,
+      "avg": 0.25
     }
   ],
   "top_entities": [
     {
       "name": "China",
       "type": "LOCATION",
-      "count": 919,
-      "avg": -0.1166
+      "count": 922,
+      "avg": -0.1165
     },
     {
       "name": "Taiwan",
       "type": "LOCATION",
-      "count": 910,
-      "avg": -0.0755
+      "count": 916,
+      "avg": -0.0735
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 225,
-      "avg": -0.1738
+      "count": 226,
+      "avg": -0.1763
     },
     {
       "name": "Japan",
@@ -2384,6 +2396,186 @@
   ],
   "recent": [
     {
+      "title": "Death toll from Uganda school bus crash rises to 24",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/18/death-toll-from-uganda-school-bus-crash-rises-to-24?traffic_source=rss",
+      "published": "2026-07-18T13:07:39+00:00",
+      "compound": -0.9522,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Russian online retail warehouses hit by deadly Ukrainian strikes",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/clyxlm877p2o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-18T13:06:25+00:00",
+      "compound": -0.3612,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Iran accuses US of striking critical infrastructure as war intensifies",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/18/iran-accuses-us-of-striking-critical-infrastructure-as-war-intensifies?traffic_source=rss",
+      "published": "2026-07-18T12:59:26+00:00",
+      "compound": -0.7506,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Ukrainian strikes hit Russian logistics center",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/18/ukrainian-strikes-hit-russian-logistics-center?traffic_source=rss",
+      "published": "2026-07-18T12:57:21+00:00",
+      "compound": -0.6124,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Why is it so hard for the U.S. to win wars?",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/18/g-s1-134037/why-is-it-so-hard-for-the-u-s-to-win-wars",
+      "published": "2026-07-18T12:45:13+00:00",
+      "compound": -0.7318,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Europe should look to Africa for heatwave solutions",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/opinions/2026/7/18/europe-should-look-to-africa-for-heatwave-solutions?traffic_source=rss",
+      "published": "2026-07-18T12:19:35+00:00",
+      "compound": 0.1779,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "India achieves milestone with launch of first private-sector orbital rocket",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/18/india-achieves-milestone-with-launch-of-first-private-sector-orbital-rocket?traffic_source=rss",
+      "published": "2026-07-18T11:50:36+00:00",
+      "compound": 0.9246,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "What role should Taiwan play in ensuring AI remains under human control?",
+      "source": "Global Times",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE00RVJHcTRUbVBQX3hTOG5saDJ3RGtIcWVBRlpsX1l5SGhhb2pMZkFwT3ZRWjVRTWtWMVd0dFZ0cXJla21yX3FqSE1tX040ZXI0dEpvRTIxZ1YxX3JKZzk1cGNn?oc=5",
+      "published": "2026-07-18T11:48:00+00:00",
+      "compound": 0.8105,
+      "label": "positive",
+      "entities": [
+        "Taiwan"
+      ]
+    },
+    {
+      "title": "India’s salt workers: The human cost of the world’s most popular seasoning",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/101-east/2026/7/18/indias-salt-workers-the-human-cost-of-the-worlds-most-popular-seasoning?traffic_source=rss",
+      "published": "2026-07-18T11:30:00+00:00",
+      "compound": 0.4754,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Laos says it can't determine cause of tourist deaths linked to methanol",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cdx8rj99endo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-18T11:10:20+00:00",
+      "compound": -0.7184,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Ukrainian drone attacks on Russia kill at least 8, wound dozens",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/18/ukrainian-drone-attacks-on-russia-kill-at-least-8-wound-dozens?traffic_source=rss",
+      "published": "2026-07-18T11:10:09+00:00",
+      "compound": -0.8779,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Indian police forcibly hospitalise activist after 20-day hunger strike",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/18/indian-police-forcibly-hospitalise-activist-after-20-day-hunger-strike?traffic_source=rss",
+      "published": "2026-07-18T10:48:09+00:00",
+      "compound": -0.6808,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "8 killed and more than 60 wounded in Ukrainian drone attack on Russian regions",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/18/nx-s1-5898963/8-killed-and-more-than-60-wounded-in-ukrainian-drone-attack-on-russian-regions",
+      "published": "2026-07-18T10:45:43+00:00",
+      "compound": -0.9118,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Taiwan says China questioned police officers for 6 hours",
+      "source": "Taiwan News",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1zaXV5T2FnSHp4UUJjM0ZLUklrTlNVcjJkNlFkX09BcERhY2NRclhuUHduQ0tJVmFnY2M1UGlrdEZhNThDNnVDZ0VIRk9jQkl5Uk8tRjdibGY?oc=5",
+      "published": "2026-07-18T09:52:00+00:00",
+      "compound": -0.2023,
+      "label": "negative",
+      "entities": [
+        "China",
+        "Taiwan"
+      ]
+    },
+    {
+      "title": "Argentina’s New York fans share hopes before 2026 World Cup final",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/18/argentinas-new-york-fans-share-hopes-ahead-of-2026-world-cup-final?traffic_source=rss",
+      "published": "2026-07-18T09:29:20+00:00",
+      "compound": 0.7717,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Watch FIFA World Cup: Messi, Rodri comment ahead of Argentina-Spain final",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/2026/7/18/video-world-cup-2026-highlights?traffic_source=rss",
+      "published": "2026-07-18T08:20:41+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Taiwan plans 27 maritime drones to strengthen Coast Guard",
+      "source": "Taiwan News",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBud21lYkRFb0lTQzd2RTlrY1RuaW9DTUl4MTExaDh0RkV3RU5qQ3NxVjg3RTBjQkl4SUxtaHA3eHRrN0xVcjdsLVVteUM5bng4S3ZnMG92QU8?oc=5",
+      "published": "2026-07-18T08:11:13+00:00",
+      "compound": 0.5574,
+      "label": "positive",
+      "entities": [
+        "Taiwan"
+      ]
+    },
+    {
+      "title": "World Cup final: Spain vs Argentina – Which team has best chance to win?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/18/world-cup-final-spain-and-argentina-whose-form-guide-points-to-victory?traffic_source=rss",
+      "published": "2026-07-18T08:10:20+00:00",
+      "compound": 0.8807,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Palestine football fans honour Egyptian coach Hossam Hassan",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/18/palestine-football-fans-honour-egyptian-coach-hossam-hassan?traffic_source=rss",
+      "published": "2026-07-18T07:45:46+00:00",
+      "compound": 0.8126,
+      "label": "positive",
+      "entities": []
+    },
+    {
       "title": "World Cup final weekend: France vs England prediction, schedule, news",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/sports/2026/7/18/world-cup-final-weekend-france-vs-england-prediction-schedule-news?traffic_source=rss",
@@ -2409,6 +2601,18 @@
       "compound": 0.5719,
       "label": "positive",
       "entities": []
+    },
+    {
+      "title": "Taiwan Drops Cambodia from Visa-Free Privilege after Hun Manet Backs China",
+      "source": "Cambodianess",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRk1CNzhURlphRWNQRnE4VnpoWDBtbDVEamVXQ0NVeDRVMThtY2h2SmVvaUlvamxaQzlyRFktNnVjY2VGMDV2b3B0SWcwSnhfRVVTX0tPTmxBSW9IYWpfNzg1SlFYcDZiZm5xQTVMUUlILVQzSFpJc0tPRXAzX1gzVDlEdlFxb3NVY0wydWZKbGRDR3BLODZtYmFNOU56YkN5bzZVQ05obDhzdW8?oc=5",
+      "published": "2026-07-18T07:02:26+00:00",
+      "compound": 0.5574,
+      "label": "positive",
+      "entities": [
+        "China",
+        "Taiwan"
+      ]
     },
     {
       "title": "Kolkata sings for Messi as World Cup fever takes hold",
@@ -2647,6 +2851,17 @@
       "entities": []
     },
     {
+      "title": "Taiwan lawmakers to remove legal hurdles for Starlink to operate",
+      "source": "ET Telecom",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOWG0zcDRXcVFPYS1Ld0JPNXpLOWYxS1lvTEpGYW1QWk90X0ppYXZIbW1KQVltWXo4TS1SN2pmX0dNWFo3LU5ncHIwRkdubUZvYVpHNW9QcVVYNktfeHM1eFNIYWZaR1RRLU9KdUpjeEpkUWJ0SDJpTlg3aWRXM01XZlNnbG5RSjZ4M3k2VHExTThwRHVScEY4NTdkVC1IZG10Qng1SEVjamwwMC14al9FVWgwT25LMlIyUmtqbHZRSjhoXzFSczhYczNHMl9KRFpQa3RqWVFrNzRXZ2hvd1dFaWVDNA?oc=5",
+      "published": "2026-07-18T02:05:05+00:00",
+      "compound": 0.25,
+      "label": "positive",
+      "entities": [
+        "Taiwan"
+      ]
+    },
+    {
       "title": "Targets of latest US strikes on Iran signal strategic shift",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/18/targets-of-latest-us-strikes-on-iran-signal-strategic-shift?traffic_source=rss",
@@ -2772,208 +2987,6 @@
       "entities": [
         "Donald Trump"
       ]
-    },
-    {
-      "title": "Lai urges quick drone budget approval",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/front/archives/2026/07/18/2003860941",
-      "published": "2026-07-18T00:00:00+00:00",
-      "compound": 0.4767,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "TAIEX tumbles 2,953.71 points amid tech selloff",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/front/archives/2026/07/18/2003860942",
-      "published": "2026-07-18T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "US’ Trump doubles down on election interference claims",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/front/archives/2026/07/18/2003860943",
-      "published": "2026-07-18T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Ministry touts its fraud prevention achievements",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/front/archives/2026/07/18/2003860944",
-      "published": "2026-07-18T00:00:00+00:00",
-      "compound": -0.5994,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Hualien remains on red alert as barrier lake holds",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/front/archives/2026/07/18/2003860945",
-      "published": "2026-07-18T00:00:00+00:00",
-      "compound": 0.1779,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Premier apologizes, vows action on tainted oil cases",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/18/2003860951",
-      "published": "2026-07-18T00:00:00+00:00",
-      "compound": 0.3612,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Chiang rallies local governments, KMT over oil scare",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/18/2003860952",
-      "published": "2026-07-18T00:00:00+00:00",
-      "compound": -0.4939,
-      "label": "negative",
-      "entities": [
-        "KMT"
-      ]
-    },
-    {
-      "title": "Taiwan to keep best TSMC tech despite US push",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/18/2003860953",
-      "published": "2026-07-18T00:00:00+00:00",
-      "compound": 0.6369,
-      "label": "positive",
-      "entities": [
-        "TSMC",
-        "Taiwan"
-      ]
-    },
-    {
-      "title": "Hsiao slams suppression by China",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/18/2003860954",
-      "published": "2026-07-18T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "China"
-      ]
-    },
-    {
-      "title": "PNG’s Taiwan shift raises questions",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/18/2003860955",
-      "published": "2026-07-18T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Taiwan"
-      ]
-    },
-    {
-      "title": "Taipei councilor indicted over assistant subsidy fraud",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/18/2003860956",
-      "published": "2026-07-18T00:00:00+00:00",
-      "compound": -0.5859,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Military completes five days of joint defense exercises",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/18/2003860957",
-      "published": "2026-07-18T00:00:00+00:00",
-      "compound": 0.128,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Taiwan drops Cambodia from visa facilitation programs, extends others",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/18/2003860958",
-      "published": "2026-07-18T00:00:00+00:00",
-      "compound": 0.128,
-      "label": "positive",
-      "entities": [
-        "Taiwan"
-      ]
-    },
-    {
-      "title": "Lai urges vigilance after positive swine fever test",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/18/2003860959",
-      "published": "2026-07-18T00:00:00+00:00",
-      "compound": 0.5574,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Microplastics found in the majority of baby food products",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/18/2003860960",
-      "published": "2026-07-18T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Honey awards hail 80 beekeepers",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/18/2003860961",
-      "published": "2026-07-18T00:00:00+00:00",
-      "compound": 0.5106,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Too much shouting poses health risk, doctors warn",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/18/2003860962",
-      "published": "2026-07-18T00:00:00+00:00",
-      "compound": -0.3612,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Breakthrough made in gut health with new database",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/18/2003860963",
-      "published": "2026-07-18T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Summer deals",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/18/2003860964",
-      "published": "2026-07-18T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Musical exchange",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/18/2003860965",
-      "published": "2026-07-18T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Stopping discrimination",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/18/2003860966",
-      "published": "2026-07-18T00:00:00+00:00",
-      "compound": -0.1531,
-      "label": "negative",
-      "entities": []
     }
   ]
 }

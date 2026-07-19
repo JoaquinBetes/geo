@@ -1,7 +1,7 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-07-19T13:53:35+00:00",
-  "overall_tone": -0.1514,
+  "updated": "2026-07-19T19:32:25+00:00",
+  "overall_tone": -0.15,
   "rsf_as_of": "2025 (aprox.)",
   "outlets": [
     {
@@ -15,9 +15,9 @@
       "lat": 25.2867,
       "lon": 51.5333,
       "rsf": 84,
-      "articles": 886,
-      "tone_avg": -0.2284,
-      "tone_delta": -0.077
+      "articles": 909,
+      "tone_avg": -0.226,
+      "tone_delta": -0.076
     },
     {
       "name": "BBC",
@@ -30,9 +30,9 @@
       "lat": 51.5188,
       "lon": -0.144,
       "rsf": 20,
-      "articles": 276,
-      "tone_avg": -0.2448,
-      "tone_delta": -0.0934
+      "articles": 280,
+      "tone_avg": -0.2408,
+      "tone_delta": -0.0908
     },
     {
       "name": "NPR",
@@ -45,9 +45,9 @@
       "lat": 38.899,
       "lon": -77.008,
       "rsf": 57,
-      "articles": 84,
-      "tone_avg": -0.3262,
-      "tone_delta": -0.1748
+      "articles": 85,
+      "tone_avg": -0.3139,
+      "tone_delta": -0.1639
     },
     {
       "name": "NK News",
@@ -62,7 +62,7 @@
       "rsf": 61,
       "articles": 65,
       "tone_avg": 0.0535,
-      "tone_delta": 0.2049
+      "tone_delta": 0.2035
     },
     {
       "name": "Associated Press",
@@ -77,7 +77,7 @@
       "rsf": 57,
       "articles": 55,
       "tone_avg": 0.0532,
-      "tone_delta": 0.2046
+      "tone_delta": 0.2032
     },
     {
       "name": "The Korea Herald",
@@ -92,7 +92,7 @@
       "rsf": 61,
       "articles": 30,
       "tone_avg": -0.0389,
-      "tone_delta": 0.1125
+      "tone_delta": 0.1111
     },
     {
       "name": "The Guardian",
@@ -107,7 +107,22 @@
       "rsf": 20,
       "articles": 21,
       "tone_avg": -0.0977,
-      "tone_delta": 0.0537
+      "tone_delta": 0.0523
+    },
+    {
+      "name": "TIME",
+      "url": "https://time.com",
+      "city": "Nueva York",
+      "country": "Estados Unidos",
+      "iso3": "USA",
+      "type": "privado",
+      "desc": "Revista histórica estadounidense, hoy de la familia Benioff.",
+      "lat": 40.748,
+      "lon": -73.983,
+      "rsf": 57,
+      "articles": 20,
+      "tone_avg": -0.0192,
+      "tone_delta": 0.1308
     },
     {
       "name": "Reuters",
@@ -122,22 +137,7 @@
       "rsf": 20,
       "articles": 20,
       "tone_avg": -0.1083,
-      "tone_delta": 0.0431
-    },
-    {
-      "name": "TIME",
-      "url": "https://time.com",
-      "city": "Nueva York",
-      "country": "Estados Unidos",
-      "iso3": "USA",
-      "type": "privado",
-      "desc": "Revista histórica estadounidense, hoy de la familia Benioff.",
-      "lat": 40.748,
-      "lon": -73.983,
-      "rsf": 57,
-      "articles": 19,
-      "tone_avg": -0.0549,
-      "tone_delta": 0.0965
+      "tone_delta": 0.0417
     },
     {
       "name": "The Korea Times",
@@ -152,7 +152,7 @@
       "rsf": 61,
       "articles": 19,
       "tone_avg": 0.1973,
-      "tone_delta": 0.3487
+      "tone_delta": 0.3473
     },
     {
       "name": "The Chosun Ilbo",
@@ -165,9 +165,9 @@
       "lat": 37.571,
       "lon": 126.977,
       "rsf": 61,
-      "articles": 15,
-      "tone_avg": 0.0163,
-      "tone_delta": 0.1677
+      "articles": 16,
+      "tone_avg": 0.0712,
+      "tone_delta": 0.2212
     },
     {
       "name": "Anadolu Agency",
@@ -180,9 +180,9 @@
       "lat": 39.9334,
       "lon": 32.8597,
       "rsf": 159,
-      "articles": 13,
-      "tone_avg": 0.0012,
-      "tone_delta": 0.1526
+      "articles": 14,
+      "tone_avg": 0.0011,
+      "tone_delta": 0.1511
     },
     {
       "name": "South China Morning Post",
@@ -197,7 +197,7 @@
       "rsf": 135,
       "articles": 9,
       "tone_avg": -0.1445,
-      "tone_delta": 0.0069
+      "tone_delta": 0.0055
     },
     {
       "name": "Firstpost",
@@ -212,7 +212,7 @@
       "rsf": 151,
       "articles": 6,
       "tone_avg": -0.1402,
-      "tone_delta": 0.0112
+      "tone_delta": 0.0098
     },
     {
       "name": "The Times of India",
@@ -227,7 +227,22 @@
       "rsf": 151,
       "articles": 5,
       "tone_avg": -0.4069,
-      "tone_delta": -0.2555
+      "tone_delta": -0.2569
+    },
+    {
+      "name": "The Telegraph",
+      "url": "https://www.telegraph.co.uk",
+      "city": "Londres",
+      "country": "Reino Unido",
+      "iso3": "GBR",
+      "type": "privado",
+      "desc": "Diario británico conservador (hermanos Barclay/fondo RedBird IMI); muy leído en defensa y seguridad.",
+      "lat": 51.5142,
+      "lon": -0.112,
+      "rsf": 20,
+      "articles": 4,
+      "tone_avg": -0.1147,
+      "tone_delta": 0.0353
     },
     {
       "name": "The Wall Street Journal",
@@ -242,22 +257,7 @@
       "rsf": 57,
       "articles": 4,
       "tone_avg": 0.19,
-      "tone_delta": 0.3414
-    },
-    {
-      "name": "The Telegraph",
-      "url": "https://www.telegraph.co.uk",
-      "city": "Londres",
-      "country": "Reino Unido",
-      "iso3": "GBR",
-      "type": "privado",
-      "desc": "Diario británico conservador (hermanos Barclay/fondo RedBird IMI); muy leído en defensa y seguridad.",
-      "lat": 51.5142,
-      "lon": -0.112,
-      "rsf": 20,
-      "articles": 3,
-      "tone_avg": -0.1529,
-      "tone_delta": -0.0015
+      "tone_delta": 0.34
     },
     {
       "name": "Euronews",
@@ -272,7 +272,7 @@
       "rsf": 25,
       "articles": 3,
       "tone_avg": 0.0422,
-      "tone_delta": 0.1936
+      "tone_delta": 0.1922
     },
     {
       "name": "The New York Times",
@@ -287,7 +287,7 @@
       "rsf": 57,
       "articles": 3,
       "tone_avg": -0.0748,
-      "tone_delta": 0.0766
+      "tone_delta": 0.0752
     },
     {
       "name": "Deutsche Welle",
@@ -302,7 +302,7 @@
       "rsf": 11,
       "articles": 3,
       "tone_avg": 0.1646,
-      "tone_delta": 0.316
+      "tone_delta": 0.3146
     },
     {
       "name": "ABC News",
@@ -317,7 +317,7 @@
       "rsf": 57,
       "articles": 3,
       "tone_avg": -0.4844,
-      "tone_delta": -0.333
+      "tone_delta": -0.3344
     },
     {
       "name": "The Japan Times",
@@ -332,7 +332,7 @@
       "rsf": 66,
       "articles": 3,
       "tone_avg": -0.1501,
-      "tone_delta": 0.0013
+      "tone_delta": -0.0001
     },
     {
       "name": "Kyodo News",
@@ -347,7 +347,7 @@
       "rsf": 66,
       "articles": 3,
       "tone_avg": 0.4985,
-      "tone_delta": 0.6499
+      "tone_delta": 0.6485
     },
     {
       "name": "France 24",
@@ -362,7 +362,7 @@
       "rsf": 25,
       "articles": 3,
       "tone_avg": 0.6474,
-      "tone_delta": 0.7988
+      "tone_delta": 0.7974
     },
     {
       "name": "The Independent",
@@ -377,7 +377,7 @@
       "rsf": 20,
       "articles": 3,
       "tone_avg": 0.0,
-      "tone_delta": 0.1514
+      "tone_delta": 0.15
     },
     {
       "name": "CSIS",
@@ -392,7 +392,7 @@
       "rsf": 57,
       "articles": 3,
       "tone_avg": 0.1245,
-      "tone_delta": 0.2759
+      "tone_delta": 0.2745
     },
     {
       "name": "CBS News",
@@ -407,7 +407,7 @@
       "rsf": 57,
       "articles": 2,
       "tone_avg": -0.3825,
-      "tone_delta": -0.2311
+      "tone_delta": -0.2325
     },
     {
       "name": "The Hill",
@@ -422,7 +422,7 @@
       "rsf": 57,
       "articles": 2,
       "tone_avg": -0.6938,
-      "tone_delta": -0.5424
+      "tone_delta": -0.5438
     },
     {
       "name": "CNN",
@@ -437,7 +437,7 @@
       "rsf": 57,
       "articles": 2,
       "tone_avg": -0.5858,
-      "tone_delta": -0.4344
+      "tone_delta": -0.4358
     },
     {
       "name": "WION",
@@ -452,7 +452,7 @@
       "rsf": 151,
       "articles": 2,
       "tone_avg": 0.3878,
-      "tone_delta": 0.5392
+      "tone_delta": 0.5378
     },
     {
       "name": "Bloomberg",
@@ -467,7 +467,7 @@
       "rsf": 57,
       "articles": 2,
       "tone_avg": 0.3556,
-      "tone_delta": 0.507
+      "tone_delta": 0.5056
     },
     {
       "name": "Financial Times",
@@ -482,7 +482,7 @@
       "rsf": 20,
       "articles": 2,
       "tone_avg": -0.3675,
-      "tone_delta": -0.2161
+      "tone_delta": -0.2175
     },
     {
       "name": "India Today",
@@ -497,7 +497,7 @@
       "rsf": 151,
       "articles": 2,
       "tone_avg": -0.3675,
-      "tone_delta": -0.2161
+      "tone_delta": -0.2175
     },
     {
       "name": "Kyiv Post",
@@ -512,7 +512,7 @@
       "rsf": 62,
       "articles": 1,
       "tone_avg": 0.0,
-      "tone_delta": 0.1514
+      "tone_delta": 0.15
     },
     {
       "name": "Le Monde",
@@ -527,7 +527,7 @@
       "rsf": 25,
       "articles": 1,
       "tone_avg": -0.7003,
-      "tone_delta": -0.5489
+      "tone_delta": -0.5503
     },
     {
       "name": "NBC News",
@@ -542,7 +542,7 @@
       "rsf": 57,
       "articles": 1,
       "tone_avg": 0.0,
-      "tone_delta": 0.1514
+      "tone_delta": 0.15
     },
     {
       "name": "Meduza",
@@ -557,7 +557,7 @@
       "rsf": 12,
       "articles": 1,
       "tone_avg": 0.0,
-      "tone_delta": 0.1514
+      "tone_delta": 0.15
     },
     {
       "name": "Politico",
@@ -572,7 +572,7 @@
       "rsf": 57,
       "articles": 1,
       "tone_avg": -0.7003,
-      "tone_delta": -0.5489
+      "tone_delta": -0.5503
     },
     {
       "name": "The Jerusalem Post",
@@ -587,7 +587,7 @@
       "rsf": 112,
       "articles": 1,
       "tone_avg": -0.5267,
-      "tone_delta": -0.3753
+      "tone_delta": -0.3767
     },
     {
       "name": "The Economist",
@@ -602,7 +602,7 @@
       "rsf": 20,
       "articles": 1,
       "tone_avg": 0.0,
-      "tone_delta": 0.1514
+      "tone_delta": 0.15
     },
     {
       "name": "Taipei Times",
@@ -617,7 +617,7 @@
       "rsf": 24,
       "articles": 1,
       "tone_avg": -0.0516,
-      "tone_delta": 0.0998
+      "tone_delta": 0.0984
     },
     {
       "name": "Newsweek",
@@ -632,7 +632,7 @@
       "rsf": 57,
       "articles": 1,
       "tone_avg": 0.0,
-      "tone_delta": 0.1514
+      "tone_delta": 0.15
     },
     {
       "name": "Institute for the Study of War",
@@ -647,29 +647,29 @@
       "rsf": 57,
       "articles": 1,
       "tone_avg": -0.5994,
-      "tone_delta": -0.448
+      "tone_delta": -0.4494
     }
   ],
   "by_country": {
     "QAT": {
       "outlets": 1,
-      "articles": 886
+      "articles": 909
     },
     "GBR": {
       "outlets": 7,
-      "articles": 326
+      "articles": 331
     },
     "USA": {
       "outlets": 15,
-      "articles": 183
+      "articles": 185
     },
     "KOR": {
       "outlets": 4,
-      "articles": 129
+      "articles": 130
     },
     "TUR": {
       "outlets": 1,
-      "articles": 13
+      "articles": 14
     },
     "HKG": {
       "outlets": 1,
@@ -711,7 +711,7 @@
   "others": [
     {
       "source": "조선일보",
-      "articles": 92
+      "articles": 99
     },
     {
       "source": "DailyNK",
@@ -742,20 +742,20 @@
       "articles": 8
     },
     {
+      "source": "Seoul Economic Daily",
+      "articles": 7
+    },
+    {
       "source": "The Herald Journal",
+      "articles": 6
+    },
+    {
+      "source": "A News",
       "articles": 6
     },
     {
       "source": "Internazionale",
       "articles": 6
-    },
-    {
-      "source": "Seoul Economic Daily",
-      "articles": 6
-    },
-    {
-      "source": "A News",
-      "articles": 5
     },
     {
       "source": "아시아경제",
@@ -770,7 +770,7 @@
       "articles": 4
     }
   ],
-  "others_total": 490,
-  "matched_articles": 1581,
-  "total_articles": 2071
+  "others_total": 505,
+  "matched_articles": 1613,
+  "total_articles": 2118
 }

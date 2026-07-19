@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-07-18T19:31:20+00:00",
+  "updated": "2026-07-19T03:54:36+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-07-18"
+    "to": "2026-07-19"
   },
   "kpis": {
-    "events_total": 188,
-    "events_unlocated": 533,
-    "events_7d": 58,
-    "events_prev_7d": 69,
+    "events_total": 189,
+    "events_unlocated": 538,
+    "events_7d": 45,
+    "events_prev_7d": 78,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -358,6 +358,15 @@
       "strike": 2,
       "ground": 0,
       "infrastructure": 2,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-19",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -2242,6 +2251,16 @@
       "title": "8 killed and more than 60 wounded in Ukrainian drone attack on Russian regions",
       "source": "NPR",
       "url": "https://www.npr.org/2026/07/18/nx-s1-5898963/8-killed-and-more-than-60-wounded-in-ukrainian-drone-attack-on-russian-regions"
+    },
+    {
+      "date": "2026-07-19",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Ukraine war briefing: Strikes devastate Russian warehouses ‘used for drones’",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/19/ukraine-war-briefing-strikes-devastate-russian-warehouses-used-for-drones"
     }
   ],
   "top_places": [
@@ -2251,7 +2270,7 @@
     },
     {
       "place": "Moscow",
-      "count": 31
+      "count": 30
     },
     {
       "place": "Zaporizhzhia",

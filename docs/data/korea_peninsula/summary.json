@@ -2,13 +2,13 @@
   "id": "korea_peninsula",
   "name": "Corea del Norte–Corea del Sur",
   "description": "Cobertura mediática de la tensión en la península coreana",
-  "updated": "2026-07-18T19:31:32+00:00",
-  "total_articles": 1964,
-  "overall_avg": -0.1504,
+  "updated": "2026-07-19T03:54:44+00:00",
+  "total_articles": 2007,
+  "overall_avg": -0.1501,
   "distribution": {
-    "pos": 554,
-    "neu": 501,
-    "neg": 909
+    "pos": 564,
+    "neu": 516,
+    "neg": 927
   },
   "sources": [
     "Al Jazeera",
@@ -30,26 +30,29 @@
     "Yahoo",
     "South China Morning Post",
     "CNA",
-    "The Herald Journal",
     "The Straits Times",
+    "The Herald Journal",
     "매일경제",
     "Internazionale",
+    "Firstpost",
     "Seoul Economic Daily",
     "A News",
     "아시아경제",
     "Council on Foreign Relations",
-    "Firstpost",
     "The Times of India",
     "Latest news from Azerbaijan",
     "WSJ",
     "Korea Economic Institute of America -",
     "TradingView",
+    "Breakingthenews.net",
     "Devdiscourse",
     "한겨레",
+    "The Hacker News",
     "19FortyFive",
     "gCaptain",
     "The New York Times",
     "ABC News - Breaking News, Latest News and Videos",
+    "AP News",
     "Inquirer.net",
     "Idaho State Journal",
     "East Asia Forum",
@@ -61,7 +64,6 @@
     "U.S. News & World Report",
     "Malay Mail",
     "Caliber.Az",
-    "Breakingthenews.net",
     "The Diplomat – Asia-Pacific",
     "Encyclopedia Britannica",
     "Hankyoreh : English Edition",
@@ -71,13 +73,11 @@
     "CBS News",
     "American Enterprise Institute - AEI",
     "stripes.com",
-    "The Hacker News",
     "The Defense Post",
     "Euronews.com",
     "dw.com",
     "RealClearDefense",
     "The Hill",
-    "AP News",
     "CNN",
     "Military Watch Magazine",
     "Brookings",
@@ -235,7 +235,11 @@
     "BuzzFeed",
     "the-sun.com",
     "crossroadstoday.com",
-    "Yellow.com"
+    "Yellow.com",
+    "Tech Times",
+    "스포츠조선",
+    "Truthout",
+    "ForkLog"
   ],
   "daily": [
     {
@@ -616,11 +620,11 @@
     },
     {
       "date": "2026-07-04",
-      "count": 2,
-      "avg": -0.8957,
+      "count": 4,
+      "avg": -0.6718,
       "pos": 0,
-      "neu": 0,
-      "neg": 2
+      "neu": 1,
+      "neg": 3
     },
     {
       "date": "2026-07-05",
@@ -728,33 +732,41 @@
     },
     {
       "date": "2026-07-18",
-      "count": 92,
-      "avg": -0.223,
-      "pos": 30,
-      "neu": 13,
-      "neg": 49
+      "count": 112,
+      "avg": -0.1992,
+      "pos": 35,
+      "neu": 21,
+      "neg": 56
+    },
+    {
+      "date": "2026-07-19",
+      "count": 21,
+      "avg": -0.1538,
+      "pos": 5,
+      "neu": 6,
+      "neg": 10
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 836,
-      "avg": -0.2309
+      "count": 859,
+      "avg": -0.2286
     },
     {
       "source": "BBC",
-      "count": 265,
-      "avg": -0.2445
+      "count": 270,
+      "avg": -0.2432
     },
     {
       "source": "조선일보",
-      "count": 82,
-      "avg": -0.0537
+      "count": 84,
+      "avg": -0.0524
     },
     {
       "source": "NPR",
-      "count": 79,
-      "avg": -0.3262
+      "count": 80,
+      "avg": -0.3221
     },
     {
       "source": "NK News",
@@ -763,8 +775,8 @@
     },
     {
       "source": "Yonhap News Agency",
-      "count": 51,
-      "avg": 0.0523
+      "count": 52,
+      "avg": 0.0513
     },
     {
       "source": "DailyNK",
@@ -798,8 +810,8 @@
     },
     {
       "source": "The Korea Times",
-      "count": 17,
-      "avg": 0.2205
+      "count": 18,
+      "avg": 0.2083
     },
     {
       "source": "Chosunbiz",
@@ -828,18 +840,18 @@
     },
     {
       "source": "CNA",
+      "count": 8,
+      "avg": 0.0768
+    },
+    {
+      "source": "The Straits Times",
       "count": 7,
-      "avg": 0.0878
+      "avg": -0.1959
     },
     {
       "source": "The Herald Journal",
       "count": 6,
       "avg": 0.0
-    },
-    {
-      "source": "The Straits Times",
-      "count": 6,
-      "avg": -0.2286
     },
     {
       "source": "매일경제",
@@ -850,6 +862,11 @@
       "source": "Internazionale",
       "count": 6,
       "avg": -0.0567
+    },
+    {
+      "source": "Firstpost",
+      "count": 6,
+      "avg": -0.1402
     },
     {
       "source": "Seoul Economic Daily",
@@ -870,11 +887,6 @@
       "source": "Council on Foreign Relations",
       "count": 5,
       "avg": -0.3387
-    },
-    {
-      "source": "Firstpost",
-      "count": 5,
-      "avg": -0.1682
     },
     {
       "source": "The Times of India",
@@ -902,6 +914,11 @@
       "avg": 0.1465
     },
     {
+      "source": "Breakingthenews.net",
+      "count": 4,
+      "avg": -0.0506
+    },
+    {
       "source": "Devdiscourse",
       "count": 4,
       "avg": -0.0775
@@ -910,6 +927,11 @@
       "source": "한겨레",
       "count": 4,
       "avg": 0.0008
+    },
+    {
+      "source": "The Hacker News",
+      "count": 3,
+      "avg": -0.4952
     },
     {
       "source": "19FortyFive",
@@ -930,6 +952,11 @@
       "source": "ABC News - Breaking News, Latest News and Videos",
       "count": 3,
       "avg": -0.4844
+    },
+    {
+      "source": "AP News",
+      "count": 3,
+      "avg": 0.086
     },
     {
       "source": "Inquirer.net",
@@ -987,11 +1014,6 @@
       "avg": 0.0921
     },
     {
-      "source": "Breakingthenews.net",
-      "count": 3,
-      "avg": -0.0674
-    },
-    {
       "source": "The Diplomat – Asia-Pacific",
       "count": 3,
       "avg": 0.2875
@@ -1037,11 +1059,6 @@
       "avg": -0.0216
     },
     {
-      "source": "The Hacker News",
-      "count": 2,
-      "avg": -0.7429
-    },
-    {
       "source": "The Defense Post",
       "count": 2,
       "avg": 0.2006
@@ -1065,11 +1082,6 @@
       "source": "The Hill",
       "count": 2,
       "avg": -0.6938
-    },
-    {
-      "source": "AP News",
-      "count": 2,
-      "avg": 0.5768
     },
     {
       "source": "CNN",
@@ -1860,14 +1872,34 @@
       "source": "Yellow.com",
       "count": 1,
       "avg": 0.0
+    },
+    {
+      "source": "Tech Times",
+      "count": 1,
+      "avg": 0.0
+    },
+    {
+      "source": "스포츠조선",
+      "count": 1,
+      "avg": -0.8841
+    },
+    {
+      "source": "Truthout",
+      "count": 1,
+      "avg": 0.0516
+    },
+    {
+      "source": "ForkLog",
+      "count": 1,
+      "avg": 0.0
     }
   ],
   "top_entities": [
     {
       "name": "North Korea",
       "type": "LOCATION",
-      "count": 550,
-      "avg": -0.0403
+      "count": 558,
+      "avg": -0.0429
     },
     {
       "name": "China",
@@ -1878,20 +1910,20 @@
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 156,
-      "avg": -0.1897
+      "count": 157,
+      "avg": -0.1947
     },
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 94,
-      "avg": -0.3272
+      "count": 100,
+      "avg": -0.3076
     },
     {
       "name": "South Korea",
       "type": "LOCATION",
-      "count": 91,
-      "avg": -0.0189
+      "count": 94,
+      "avg": -0.0177
     },
     {
       "name": "Kim Jong-un",
@@ -1902,8 +1934,8 @@
     {
       "name": "Japan",
       "type": "LOCATION",
-      "count": 46,
-      "avg": 0.0706
+      "count": 47,
+      "avg": 0.0691
     },
     {
       "name": "United States",
@@ -1931,6 +1963,372 @@
     }
   ],
   "recent": [
+    {
+      "title": "Somalia races to save Radio Mogadishu’s fading archive",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/19/somalia-races-to-save-radio-mogadishus-fading-archive?traffic_source=rss",
+      "published": "2026-07-19T03:38:03+00:00",
+      "compound": 0.4939,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Tate brothers arrested in Miami on rape and sex trafficking charges",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/19/tate-brothers-arrested-in-miami-on-rape-and-sex-trafficking-charges-2?traffic_source=rss",
+      "published": "2026-07-19T03:36:44+00:00",
+      "compound": -0.9423,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "FIFA World Cup 2026 sees major increase in goals from outside the box",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/19/fifa-world-cup-2026-sees-major-increase-in-goals-from-outside-the-box?traffic_source=rss",
+      "published": "2026-07-19T03:34:40+00:00",
+      "compound": -0.1045,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "‘Spanish style’ wins over New York’s die-hard World Cup fans ahead of final",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/19/spanish-style-wins-over-new-yorks-die-hard-world-cup-fans-ahead-of-final?traffic_source=rss",
+      "published": "2026-07-19T03:02:22+00:00",
+      "compound": 0.8885,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Palestinian teenage footballer dies after Israeli settler attack",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/19/palestinian-teenage-footballer-dies-after-israeli-settler-attack?traffic_source=rss",
+      "published": "2026-07-19T02:57:31+00:00",
+      "compound": -0.7717,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Andrew Tate and brother arrested in US after more charges laid against them in UK",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cwymly9yd33o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-19T02:17:07+00:00",
+      "compound": -0.7425,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "South Korea's Per Capita GDP Nears $40,000",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOV3pyQmE2OHU2ODFjSjcza2NTamJFMlBORDhyQWVSaGR2T0h4VXRMbGQ2Mm1qc3JrVDhhaEV2RG5YRnluRXg4QXpBQmlyQTJsZHBBdUZEV0hDVVBxbWRWSEMwMzc2WVhKRmd2RlNCaFpabUhCLWItOFgtdnAyalJETE56enVqT1EyUGV6THV3?oc=5",
+      "published": "2026-07-19T02:10:40+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "South Korea"
+      ]
+    },
+    {
+      "title": "Tate brothers arrested in Miami as UK adds rape, trafficking charges",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/19/tate-brothers-arrested-in-miami-as-uk-adds-rape-trafficking-charges?traffic_source=rss",
+      "published": "2026-07-19T02:05:41+00:00",
+      "compound": -0.9186,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "WNBA coach Brondello suspended over inappropriate comment at Angel Reese",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/19/wnba-coach-brondello-suspended-over-inappropriate-comment-at-angel-reese?traffic_source=rss",
+      "published": "2026-07-19T01:57:39+00:00",
+      "compound": -0.3182,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "North Korean foreign minister on official visit to Russia, state media say",
+      "source": "CNA",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUGE1NlhxdDBHZExweVp3eFR3NTN6WlR1TmhyQW0yd09CTUlMbUppeVJ2NHN2ZVpHU1NwX3RhcFV4V05tbmJNaEFmeV9QX3JMZEtCUlNocGRMenlGU2l6eGNDcWk2NzRRdGZ5UmUxUDRGQldOemY1ZE9XTmNVM2ZlbGhsNjZvc1ZpSU53ZnBEekFvck5FdnNsZEVsTEtoUGQtNFRrOU8yeW1qWEVzQ2ZTV1hiUDBjcUt2NU92YVk1YnI?oc=5",
+      "published": "2026-07-19T01:49:16+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "North Korea",
+        "Russia"
+      ]
+    },
+    {
+      "title": "New EU border system tripling time at passport control, airport boss says",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/ckg5gg6n9x3o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-19T01:47:59+00:00",
+      "compound": -0.2732,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "FIFA admits hydration breaks may not continue after World Cup criticism",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/19/fifa-admits-hydration-breaks-may-not-continue-after-world-cup-criticism?traffic_source=rss",
+      "published": "2026-07-19T01:40:12+00:00",
+      "compound": -0.1779,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Argentina fans flood NYC’s Times Square before World Cup final",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/19/argentina-fans-flood-nycs-times-square-before-world-cup-final?traffic_source=rss",
+      "published": "2026-07-19T01:20:48+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "North Korean foreign minister on official visit to Russia: State media",
+      "source": "The Straits Times",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNc2FkMGp0UHQ3NUtGS2Z5RU1SSlUtSmtReWtHWUxSTXFJaUNja0tvRGR1UDcyaEQ5Umh5clRDd0c0WWl6bWtjVE9FN0pycVZuYWVJbUNGeEVRZlVwT09tNEU4bmVsdVBBVktnN3RUR0pMbE03VmxBdFlEVVEzV0tpSnVTVHhkbV9vMTNNZzNqT2U3WkpfeDJac3IwWHlzcjU2NURWbDVB?oc=5",
+      "published": "2026-07-19T01:16:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "North Korea",
+        "Russia"
+      ]
+    },
+    {
+      "title": "Why the World Cup half-time show may be a taste of things to come",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cwyr498vqqpo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-19T01:11:23+00:00",
+      "compound": 0.296,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Exiled Cuban artist Otero Alcantara has arrived in US, Rubio confirms",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/19/exiled-cuban-artist-otero-alcantara-has-arrived-in-us-rubio-confirms?traffic_source=rss",
+      "published": "2026-07-19T00:52:18+00:00",
+      "compound": -0.3818,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "A giant cake for Venezuelan quake child survivors as death toll passes 5000",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/19/a-giant-cake-for-venezuelan-quake-child-survivors-as-death-toll-passes-5000?traffic_source=rss",
+      "published": "2026-07-19T00:39:42+00:00",
+      "compound": 0.296,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Netanyahu declares support for Argentina ahead of World Cup final",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/19/netanyahu-declares-support-for-argentina-ahead-of-world-cup-final?traffic_source=rss",
+      "published": "2026-07-19T00:33:31+00:00",
+      "compound": 0.4019,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "N. Korea confirms FM Choe's Russia visit",
+      "source": "Breakingthenews.net",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQb0k5eko2R2tpaWhRcG9LQUZRNlg4TEdnd3ZiOG53SmpNaTlDRGNVTGhnRUNpQ2NvWF8zTllzVEl3aXZKbm14REQybzVxcXhTU3lQUXRMdWlhNTZrNElKZVo0T25YLVNyWlBzOS10bkZZTzUzcWVFSjFDRy02aVFrUXlNSGdzWnYyQmhfZTdR?oc=5",
+      "published": "2026-07-19T00:31:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Russia"
+      ]
+    },
+    {
+      "title": "North Korean foreign minister arrives in Russia for high-level talks with Lavrov",
+      "source": "Firstpost",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVm9mNGMxMUZaTDgwTnlJRFdJczl1VUdadHVveEhwMWR0emhlV3NTN2d0blhLcEFDbW1Iek9nUXZvLXI5OHJ6bXBTVENQdEp3VzA5THdJZGctNXcwTzlVTmQzYXAzOVEtNE41Mld1SzQ5cXdoZ3AydDZ3UXNaZmh3bU9VTldZMjN1Z0dtcjNCNmE0a2diaTJEOVNNczR3dnVUVjl1dmo3ejI5ZHZfQ2dmSGFzM1BrQWhJM2ZpWEllbTlCdi0x0gHKAUFVX3lxTE40dFgwRnNJbEI4RHdINHRhR19qNUZtOXY1akt4LW5JOEtsWms3ZE9FbHpkVnFhYXRIMEdCay04ak4xRFdmUjNwLW5EaGt0SWgyeTM5TVMycW5scDBmSmJqY3Rnc3hFY24wNGZTanhkaUozUGRKNjhZRGYyUGtuM0QxS3JMVlUtMVBtTWRPeUQ2am9adEdKM0laSm84ekp4MEtaak9rdXFpSjJjLTVhRFQyenJkM0RBVEVkZ2RFSVI1dXdvM2syTWZfeHc?oc=5",
+      "published": "2026-07-19T00:08:39+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "North Korea",
+        "Russia"
+      ]
+    },
+    {
+      "title": "Iran war live: US launches new strikes; Trump mourns killed soldiers",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/7/19/iran-war-live-us-launches-new-strikes-trump-mourns-killed-soldiers?traffic_source=rss",
+      "published": "2026-07-19T00:00:00+00:00",
+      "compound": -0.9761,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Russians turn to cash, putting more strain on slowing wartime economy",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cglj255jk8ko?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-18T23:59:26+00:00",
+      "compound": -0.659,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "'Mission Failed' So Ji-sub Faces Risk of Being Sent Back to North Korea... 'Mr. Kim' Hits a Peak Rating of 26.2%",
+      "source": "스포츠조선",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPYjFYMlNfMzVnWTVMYjhZQzJia0ZXbDZVbE1ZbXZfRzBDS1hkbmlZbmtIeWZfOWVyQjhCY2otOEstTEQ0OGw5YkFfVEprbldzYUdYdF9HYWhYNkxwZjA4QWNhaERvd2RubzRlcWlKdF9XV2U2S2dJd3ZZV21ZcjI2MjZvQQ?oc=5",
+      "published": "2026-07-18T23:48:29+00:00",
+      "compound": -0.8841,
+      "label": "negative",
+      "entities": [
+        "North Korea"
+      ]
+    },
+    {
+      "title": "Private jets flock to Montana - but locals can't afford the trailer park",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/ckg92d8d40yo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-18T23:44:04+00:00",
+      "compound": 0.5023,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Saka hat-trick helps England down France to win World Cup 2026 Bronze Final",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/18/saka-hat-trick-helps-england-down-france-to-win-world-cup-2026-bronze-final?traffic_source=rss",
+      "published": "2026-07-18T23:22:12+00:00",
+      "compound": 0.8555,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Kylian Mbappe breaks all-time World Cup scoring record with 22nd goal",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/18/kylian-mbappe-breaks-all-time-world-cup-scoring-record-with-22nd-goal?traffic_source=rss",
+      "published": "2026-07-18T23:20:31+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "N. Korean state media confirms FM Choe's Russia visit",
+      "source": "The Korea Times",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPd05xTjZVUnd2bjh2d3ZNNHVIZVVJMDgwVkY1blFVZmF6SlJiVVBTQUtWS2FUY1o3WU1DY1h2R1Z6RDVGY25rRG5RSlhEZ0ptTlhRYk5CUVA2T2xFeTh6VFBPaXJFLWtEaHY2cWs2T2dMcFlTQmpfc3NZM2xjblJQTVdMZUdFNFhxT25yM0JJUXNqT0t1VlBOcUtubUpMaWxaSklFZ3lpYzFPQlVFbEJNRlBEM0xVQdIBuwFBVV95cUxPTkdlUXZRUlBBMGUtRElTNkwtYk5EcHV4eW9QVUZ0bWZSZG82RDBHd2Z1VXZIbzc3Q2M1SF9xcGpWcEVhaHZNdzZBUDhBM1FiYkFnSWxHejFvbDZRUDJJNVFhTTBPbnlUdkpqUkhsT3BKQ3BkQllrNEFHc1NQWXhyQkdqRk1NQ0ZJbVZSZUpqYXMyQURmQ1lQU1ZGNlVnR095Wk9VUWtaaG5qQ2RIZHhZbXJ1T2VsbXRhdWVR?oc=5",
+      "published": "2026-07-18T22:49:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Russia"
+      ]
+    },
+    {
+      "title": "World Cup final tickets near $2.3m mark on FIFA’s resale platform",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/18/world-cup-final-tickets-near-2-3m-mark-on-fifas-resale-platform?traffic_source=rss",
+      "published": "2026-07-18T22:41:47+00:00",
+      "compound": -0.296,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Cockroach Party protest intensifies after Wangchuk forcibly hospitalised",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/18/cockroach-party-protest-intensifies-after-wangchuk-forcibly-hospitalised?traffic_source=rss",
+      "published": "2026-07-18T21:03:34+00:00",
+      "compound": 0.34,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Latin America unites to cheer against Argentina in FIFA World Cup final",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/18/latin-america-unites-to-cheer-against-argentina-in-fifa-world-cup-final?traffic_source=rss",
+      "published": "2026-07-18T21:02:44+00:00",
+      "compound": 0.765,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "South Korea Urged to Learn from Japan's Space Strategy",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWnJNdXpiY0ZXM1NRbnlHWGV0WjBsakVvVGdYa1NZTVktcGpFTDVEZE5MdXlPTnNLOVRraTFfeC0wd1lPWDVIODA5ZkRHR3kwZXlweHVrSkVzVHFlRVB6cEg5Tk9RRUJCWWg0bng4Y2JRY1o4a25LaE1BeDBfb1NsVjNpN29CRHZm?oc=5",
+      "published": "2026-07-18T20:34:07+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "South Korea",
+        "Japan"
+      ]
+    },
+    {
+      "title": "Palestinian teenage footballer dies a week after Israeli settler attack",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/18/palestinian-teenage-footballer-dies-a-week-after-israeli-settler-attack?traffic_source=rss",
+      "published": "2026-07-18T20:24:51+00:00",
+      "compound": -0.9022,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Drone video shows scale of major wildfire in northern Spain",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/18/drone-video-shows-scale-of-major-wildfire-in-northern-spain?traffic_source=rss",
+      "published": "2026-07-18T20:18:46+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Josh Kerr of Britain breaks 27-year-old world record in the mile",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/18/nx-s1-5899057/josh-kerr-mile-world-record-time",
+      "published": "2026-07-18T20:06:35+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Why has the ‘ceasefire’ in Gaza failed to stop Israel’s attacks?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/7/18/why-has-the-ceasefire-in-gaza-failed-to-stop-israels-attacks?traffic_source=rss",
+      "published": "2026-07-18T19:55:16+00:00",
+      "compound": -0.9062,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "All to know about Canadian wildfire smoke, air quality and World Cup final",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/18/all-to-know-about-canadian-wildfire-smoke-air-quality-and-world-cup-final?traffic_source=rss",
+      "published": "2026-07-18T19:42:27+00:00",
+      "compound": -0.3612,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Thousands rally in London in support of Gaza, demand new PM take action",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/18/thousands-rally-in-london-in-support-of-gaza-demand-new-pm-take-action?traffic_source=rss",
+      "published": "2026-07-18T19:30:30+00:00",
+      "compound": -0.296,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "North Korea Buried Four-Stage Malware in Flag Images: Zero Antivirus Detections",
+      "source": "Tech Times",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZXF3UmRDYWpiUG1Yd0RlelpNS2ljV2VhZEZJLUZ3Y1l5OGNMd0hncWJuNFlfNVlQNmM4Nmh4Qjl5WW00bDRuOXRrcUwwZEh4Y09ZdzJ0LTlPNHpwRFFtcUhvZUlYYkxkS0xqM3ZKVl9TM3JPcU81MUZZMm1GVzV5NndTN3h3NjN0WlVWaXNseTFNS1Z1eE5iZm9XbzBkUVZIVWhhVXd2aWdrUTVNaDNZbXkydUxYZUU3WDgzNDZyRDRNOWM4WlgxOVNR?oc=5",
+      "published": "2026-07-18T19:24:10+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "North Korea"
+      ]
+    },
     {
       "title": "Two US troops killed and one missing after Iranian attack in Jordan",
       "source": "BBC",
@@ -2141,387 +2539,6 @@
       "entities": [
         "China"
       ]
-    },
-    {
-      "title": "Top German conservative quits after surrogacy sparks backlash within party",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/18/top-german-conservative-quits-after-surrogacy-sparks-backlash-within-party?traffic_source=rss",
-      "published": "2026-07-18T13:54:21+00:00",
-      "compound": 0.1531,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "FIFA World Cup: Spain vs Argentina – What to know ahead of the final",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/18/spain-argentina-fifa-world-cup-final-prediction-head-to-head-messi-yamal-prediction-venue?traffic_source=rss",
-      "published": "2026-07-18T13:46:26+00:00",
-      "compound": 0.5994,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Death toll from Uganda school bus crash rises to 24",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/18/death-toll-from-uganda-school-bus-crash-rises-to-24?traffic_source=rss",
-      "published": "2026-07-18T13:07:39+00:00",
-      "compound": -0.9522,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Russian online retail warehouses hit by deadly Ukrainian strikes",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/clyxlm877p2o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-18T13:06:25+00:00",
-      "compound": -0.3612,
-      "label": "negative",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "Iran accuses US of striking critical infrastructure as war intensifies",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/18/iran-accuses-us-of-striking-critical-infrastructure-as-war-intensifies?traffic_source=rss",
-      "published": "2026-07-18T12:59:26+00:00",
-      "compound": -0.7506,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Ukrainian strikes hit Russian logistics center",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/18/ukrainian-strikes-hit-russian-logistics-center?traffic_source=rss",
-      "published": "2026-07-18T12:57:21+00:00",
-      "compound": -0.6124,
-      "label": "negative",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "Why is it so hard for the U.S. to win wars?",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/18/g-s1-134037/why-is-it-so-hard-for-the-u-s-to-win-wars",
-      "published": "2026-07-18T12:45:13+00:00",
-      "compound": -0.7318,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Europe should look to Africa for heatwave solutions",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/opinions/2026/7/18/europe-should-look-to-africa-for-heatwave-solutions?traffic_source=rss",
-      "published": "2026-07-18T12:19:35+00:00",
-      "compound": 0.1779,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "South Korea upgrades F-15K fighter jets as North Korea threat grows",
-      "source": "The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQZVdScHBncTMyaE1HUzk5N3hWZ09zNUwxOTI4bGxVRFN2Nm9NdGVwSHhmNmQ5SnQ1ZkdyWHZvYTNJR05UbnpoRGVUOGRNLW9XMVNBWmQ3VjVNQXRhR1RVVWxpdUxjR3lNN1h2aGdWa2d5MDgzOWZMNlVjWmhSYm15Z2hnTzdvM1Z6LURNZ2RyM2FHckV1TGRwLU5kWDZ6MEl0WVNpRlA5VUt2VDRaSjMxUkNpMXpHbWdmbEhGdEhmRXVtbE55Qm5IbDltU29RQTdZRnhIRExQS0tLbnVialRreFp5NWRkQdIB6wFBVV95cUxPalFZSUhCY0p4N2gyN1EyQWlpaGd6Xy1hQjg3Q3lUUk1BUklaZm85OTh3Tm10VXZHVEEydmc3NVJ1ZXlQMm5JOFA3S0E3QmRjdFZ3X2t6b0djY2hLRnBmdld1RFVHaWhwUkxqY1VIN3dqU3M1WHMxZzFLQW1lSW80LXdRODg0UEcyOWFHVmxBSENzaEdTM1Zra3B2bjZpeDdsWFVyMXBkcFdqWXcyRXp2R0VHTjNYY2hld2Itc3RGMW40cUlzS2VKS2M1TUNreWdpY000TUpvd0ZiaGtxeFQzMVN4NjdlYWJPM3hz?oc=5",
-      "published": "2026-07-18T11:55:00+00:00",
-      "compound": -0.6808,
-      "label": "negative",
-      "entities": [
-        "North Korea",
-        "South Korea"
-      ]
-    },
-    {
-      "title": "India achieves milestone with launch of first private-sector orbital rocket",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/18/india-achieves-milestone-with-launch-of-first-private-sector-orbital-rocket?traffic_source=rss",
-      "published": "2026-07-18T11:50:36+00:00",
-      "compound": 0.9246,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "India’s salt workers: The human cost of the world’s most popular seasoning",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/101-east/2026/7/18/indias-salt-workers-the-human-cost-of-the-worlds-most-popular-seasoning?traffic_source=rss",
-      "published": "2026-07-18T11:30:00+00:00",
-      "compound": 0.4754,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Miarigoe Pass: Echoes of Sorrow, Unresolved Korean War Trauma",
-      "source": "조선일보",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQX2tnMzd5ZnZQXzNoQk5iSEE1cUZwZzlPeHBPQ2txYlNpTUZlUVJ6RXpYTTFRbEI4eVJvdDRCa0RFR1JETkd6UWF0M1hnX2ZQNDNCNXZ3MjQxTWpNTHVLbm03a0NGYkJfMmJIc0FFVTBOYzNwOF9HLWs1djl5TFNZcDZiV3JZaDBLZnZGRw?oc=5",
-      "published": "2026-07-18T11:14:22+00:00",
-      "compound": -0.9648,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Laos says it can't determine cause of tourist deaths linked to methanol",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cdx8rj99endo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-18T11:10:20+00:00",
-      "compound": -0.7184,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Ukrainian drone attacks on Russia kill at least 8, wound dozens",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/18/ukrainian-drone-attacks-on-russia-kill-at-least-8-wound-dozens?traffic_source=rss",
-      "published": "2026-07-18T11:10:09+00:00",
-      "compound": -0.8779,
-      "label": "negative",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "Indian police forcibly hospitalise activist after 20-day hunger strike",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/18/indian-police-forcibly-hospitalise-activist-after-20-day-hunger-strike?traffic_source=rss",
-      "published": "2026-07-18T10:48:09+00:00",
-      "compound": -0.6808,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "8 killed and more than 60 wounded in Ukrainian drone attack on Russian regions",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/18/nx-s1-5898963/8-killed-and-more-than-60-wounded-in-ukrainian-drone-attack-on-russian-regions",
-      "published": "2026-07-18T10:45:43+00:00",
-      "compound": -0.9118,
-      "label": "negative",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "Consensys Hired Developer With North Korea Links, Granted Internal System Access for a Month",
-      "source": "bloomingbit",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBvTnlKRkx3dUh2VThWUFFyTVF6TmU4UzJ4bEpFVEg3bnd6VVdMRlM4cWczVTNiOEt5eFlSdklDT2phT0tQS01QM05XaFJ6cXdzYThYbA?oc=5",
-      "published": "2026-07-18T10:20:47+00:00",
-      "compound": 0.4588,
-      "label": "positive",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "Argentina’s New York fans share hopes before 2026 World Cup final",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/18/argentinas-new-york-fans-share-hopes-ahead-of-2026-world-cup-final?traffic_source=rss",
-      "published": "2026-07-18T09:29:20+00:00",
-      "compound": 0.7717,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "I fled North Korea TWICE after watching execution - but I still love country",
-      "source": "the-sun.com",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOS200amM1SWEzQ2ZoWm84UFhJYWNnczJibW56bHc0OTN4MEVCcVBTLXluZFhOVVBHMEZxUUpBWHN6QjVEQmJtemcyTDRQTDRQNGhNRzRpOHcwZ19Rb1RIY3AzZEpFUXRWY0RvZklzckNvTTBDNGZvZ0ZIaGRvdXphM2NwM056UDQ?oc=5",
-      "published": "2026-07-18T09:21:47+00:00",
-      "compound": 0.9274,
-      "label": "positive",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "North Korea Denounces Trilateral Drill 'Root of Destruction'",
-      "source": "조선일보",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUWVsUFVMMERkSFBOcUtMTlExblc0NnVLMnM4eWZocTh2Q2d4VEZwYm8zTlNDYlh1dHhILXdkeWQzdXlGUFowbWRqS2hHdURfbW1ER1JOMlRYWDF3aXVkNlpFOHF4clVqVTJlNWJ1RU5OQk9FTUZyU2dWV0M5WHMxUlJBVXZBdms0VFZZcg?oc=5",
-      "published": "2026-07-18T09:00:15+00:00",
-      "compound": -0.9217,
-      "label": "negative",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "Watch FIFA World Cup: Messi, Rodri comment ahead of Argentina-Spain final",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/2026/7/18/video-world-cup-2026-highlights?traffic_source=rss",
-      "published": "2026-07-18T08:20:41+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "World Cup final: Spain vs Argentina – Which team has best chance to win?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/18/world-cup-final-spain-and-argentina-whose-form-guide-points-to-victory?traffic_source=rss",
-      "published": "2026-07-18T08:10:20+00:00",
-      "compound": 0.8807,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Palestine football fans honour Egyptian coach Hossam Hassan",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/18/palestine-football-fans-honour-egyptian-coach-hossam-hassan?traffic_source=rss",
-      "published": "2026-07-18T07:45:46+00:00",
-      "compound": 0.8126,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "North Korea Protests South Korea-U.S.-Japan Military Cooperation: \"Cannot Tolerate Regional Security Imbalance\"",
-      "source": "아시아경제",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE00enUweGhZdWtaX0lXOWZQbFdZWnlGNS05LWh3TmlQbFVzV0ctSHBZZng5QmZvWFhnN1FrSEFkVHNkTXUyQ09NLVl6M0tqc1hFcmlodnVCRDJiZ3R4MGRFUUlyemk?oc=5",
-      "published": "2026-07-18T07:23:21+00:00",
-      "compound": -0.707,
-      "label": "negative",
-      "entities": [
-        "North Korea",
-        "South Korea",
-        "Japan"
-      ]
-    },
-    {
-      "title": "World Cup final weekend: France vs England prediction, schedule, news",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/18/world-cup-final-weekend-france-vs-england-prediction-schedule-news?traffic_source=rss",
-      "published": "2026-07-18T07:23:04+00:00",
-      "compound": -0.3818,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Helicopters dump water as huge Norway fire destroys homes",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/videos/c4gj5944n4ko?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-18T07:13:07+00:00",
-      "compound": -0.8591,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "North Korean Developer Worked On MetaMask Code For 1 Month Undetected",
-      "source": "Yellow.com",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9DcjR6VVp2bGpMeUc5NnFMYXBYVFVrcnFfNlRMMkc2LW4wZ2RDbktBUldvYUJueUplLWxSOTc5NUZlX1U1OUdBTnNZSEtqcmpxWHJrQ2dzWWJwVDdCam96bXlRODFoSUtqRHhZXw?oc=5",
-      "published": "2026-07-18T07:07:32+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "Space start-up launches India’s first commercial rocket designed for orbit",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/clyekv7rld3o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-18T07:05:19+00:00",
-      "compound": 0.5719,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Kim Jong Un was meant to be their only idol - then North Koreans discovered K-pop",
-      "source": "The Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeXd4TnludXlacXlfOXhuYVNDb1hGTlpJNUtZZGlSZFItWTFpSDVxcVJfOWo2V3RBZ2F5SUUtLUdMSEM1T0Y5N1FZeWdDLXZBXzdoNmpmRHpuWHRYWXNINDZGTm0zTHRMb0ZTVUZtWUJ2YkJKSFQwSkxDWGh0UlBjMW1aVmNtMXU0NlUzdFEydXpVVXdMOU5ENUVmVUlvZnB1M3Q3XzVNejEtS3BtN0VPSUJhb1gxdlJwSFFwSkpoQdIBxAFBVV95cUxQdUFDSjQ1OGVEbG9weGhqQm5EM0FzaVF0c010c3ZXN1V0UFNodjlTT2dxWWJYNVkzbHVqM0xTMHZoYmZDV3RKQVVOVUlwTFYwaXl0RVo5bUpWUEJzdUxVbUN5YmxuRmtyVXo5VWpMTk1BQ0tlX3k4dVBFRlVlbFpqb3FlbERidUxuZ0tSVjFmcHktbDE0ajZVSGRtOE92RVM1NERpR09PblYzV0ZzTHRKZkVyUTMzeUMzaXBnVk1fRm1haDg5?oc=5",
-      "published": "2026-07-18T06:50:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Kim Jong-un"
-      ]
-    },
-    {
-      "title": "N. Korean FM to visit Moscow, says Russian foreign ministry",
-      "source": "The Korea Times",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPd2Z6bzg5MGtUbzQyQ1NTbXpGdmVnbC1ia2tlQUJVRW5wLW9UTE96cWVEaExKVE5QNFAtYWpFak1oTjFnZmlOVEsyV3VnMHZxVHp0NHFUZ1lJZWNSZXVUQ29OUEd1djNKNWRmZ0NLeEIxckxVNEcxWFFlcjBLZVhXVEdOeTE0SFRUTmVYUWFTV2tIQmxEMFVwSERHejNWc21nNVhWSDg4LWdhOVVxRjFxUmJ2SXQ5bzJfN3lENzFB0gHDAUFVX3lxTE0tSUNKM0d5Q0RKbDMydlR0YkFXRzVNdjhEMGJSLVpVZWowMklFc3hsa0wyamlKYkRBaU41X2tubzNUdGhuWXpMU2F2UjVVQ3ZDTnFSOU9BMG5FSkw1elc3RkQ4YkxBLVMwZUlSLVhNSjE0SUd4bWVrQzJta0dsU2hZaDVMOGpxX2NFMmFTVm03ZWxRLWo3WWxoZXhZT2hLREhHSEVHQUNlRkJWMzY1RFgyTGdydFlPek50Z2FmVjh3eEtVYw?oc=5",
-      "published": "2026-07-18T06:23:03+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "Consensys halts releases after North Korea-linked developer gains access",
-      "source": "Crypto News",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBYT1NXcEVBOEZvckljWTNfMi1xcWF1RjhGMnFNYTV3dkUzUlZENUxDcWc1V1BRbXphZ09GMVF3YVBpSHJVYXJFTlZpakRzVXhJTVphQzNtUjZrYkNWX05hOXRzRjI3dTlXSldXZ1Fhbmp4OTFLdUIxM2RtWmduQXM?oc=5",
-      "published": "2026-07-18T06:07:00+00:00",
-      "compound": 0.5859,
-      "label": "positive",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "Kolkata sings for Messi as World Cup fever takes hold",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/longform/2026/7/18/kolkata-sings-for-messi-as-world-cup-fever-takes-hold-2?traffic_source=rss",
-      "published": "2026-07-18T06:04:14+00:00",
-      "compound": 0.7906,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Choe Son Hui visits Moscow as Russia deepens ties with North Korea - CHOSUNBIZ",
-      "source": "Chosunbiz",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5SaTF0V3dLTkU1TjZiNnAtLXJLWV9VQ0NubEJFcWMtV2I3ZWh5V0RkYWhxXzZyRnFZaFRUZ0JvVVlPQVFHM2p0LW00UUt1dFpHWHFPQWl0ZHJpR25MYm1ERHE2VHYyeFZaQjNKTFVHMUpENzctMzNQVS00S2xvR03SAZMBQVVfeXFMUDBwZXlUcjlMRHg3SzRMNncwOEhzTno3aTVUc0hQSTBmLWxSN1ZuX3l6NUhzZmU0Uk4tZTRvV1JZZHhRcFRqZUhJMVJEcUxqdVN0clNBcUJlQlFHQ09MbWRRSEdDSXdBSVJrV2g0eW9IeUdQWlFLMlF5SkFSYW1YVUVxSlhoUFFDalhNMVo3bEM2ZmFF?oc=5",
-      "published": "2026-07-18T06:04:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "North Korea",
-        "Russia"
-      ]
-    },
-    {
-      "title": "France vs England: Deschamps set for final World Cup match as Zidane waits",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/18/world-cup-france-england-third-place-playoff-deschamps-zidane-coach?traffic_source=rss",
-      "published": "2026-07-18T06:01:26+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "U.S. and Iran escalate strikes across Mideast",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/18/nx-s1-5898916/us-iran-escalate-strikes",
-      "published": "2026-07-18T06:01:20+00:00",
-      "compound": -0.5859,
-      "label": "negative",
-      "entities": [
-        "United States"
-      ]
-    },
-    {
-      "title": "Indian activist on hunger strike for 20 days forcibly taken to hospital",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cjej3dxxg2do?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-18T05:58:48+00:00",
-      "compound": 0.0516,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Breaking News: North Korea's Choe Son-hui Arrives in Moscow for Official Visit",
-      "source": "Seoul Economic Daily",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTjBid0otZUhPd3JpdXFvaWZ3SmUxSmc5ZG5rLWxvZ3VZR25BX3J3TG9HVVliSmh4NUVfR09PUkp0VkExVzdha005SDFFOFozWmpBbXRvM0NHV2pVbTA5cXBVUG5JTF9hUjNqOVFLQ2dGUFdiVHZvQ240UXZEWXlLTDJxQ1FraDAtSWZmdVB2Q1dDMFZCUVptalIwTFBLOS14b0E?oc=5",
-      "published": "2026-07-18T05:39:56+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "North Korea",
-        "Russia"
-      ]
-    },
-    {
-      "title": "Israel’s ‘Crimson Thread’ military barrier is strangling the West Bank",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/2026/7/18/israels-crimson-thread-military-barrier-is-strangling-the-west-bank?traffic_source=rss",
-      "published": "2026-07-18T05:15:11+00:00",
-      "compound": -0.3612,
-      "label": "negative",
-      "entities": []
     }
   ]
 }

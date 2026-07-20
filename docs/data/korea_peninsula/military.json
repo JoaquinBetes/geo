@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-07-17T19:51:58+00:00",
+  "updated": "2026-07-20T14:33:39+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -43,13 +43,13 @@
   },
   "window": {
     "from": "2026-01-12",
-    "to": "2026-07-17"
+    "to": "2026-07-20"
   },
   "kpis": {
-    "events_total": 11,
-    "events_unlocated": 218,
-    "events_7d": 6,
-    "events_prev_7d": 0,
+    "events_total": 13,
+    "events_unlocated": 275,
+    "events_7d": 7,
+    "events_prev_7d": 1,
     "hottest_place": "DMZ"
   },
   "daily": [
@@ -118,8 +118,17 @@
     },
     {
       "date": "2026-07-17",
-      "total": 3,
-      "strike": 3,
+      "total": 4,
+      "strike": 4,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-18",
+      "total": 1,
+      "strike": 1,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -236,12 +245,32 @@
       "title": "North Korea Constructs 21 Suspected Rocket Artillery Sites Near DMZ",
       "source": "조선일보",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNHJ5bzNnNU9hcmVPM3VZNmY5RXctel93OHU2Wm55Skd2cjdEMlJncnlPS2JiOFBlLWJqNktYSnZmMWxTY0t0Mm1qY1BkNFhoX1ExY2NsSlluelFwbHk1ejhZRFE1MnJ1MFJoOXpnM3dtUEFtT2QtRmRuRXVKNnBfTXlpY1lWaXRROXMySw?oc=5"
+    },
+    {
+      "date": "2026-07-17",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "North Korean Buildings Near DMZ Suspected To Be Rocket Infrastructure – Analysis",
+      "source": "Eurasia Review",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWjBuRUNkb0R0UmlzVFkxTU1hODFWRy1WQlhrUDVwUS1pdEx3WjdzMmU1RzYxMXpIeFRDMkFZSGFkWmxyanZlMlVwVjlDeng2VGJwUUppU0JvNzNyclhibnFOcmwwQjVocW5GWk1Ta0hfMUJDOVJTc1pUVUFhOEI2dUNubi1hMklpOHo4Z3RNWmJkX0dyR1kzOXFWbmlrMXJOWVZOY1lJcmhyNU9VOE1WUGpPV0pMTDQ4WEE?oc=5"
+    },
+    {
+      "date": "2026-07-18",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "North Korea appears to have built rocket launcher facilities near DMZ",
+      "source": "The Star",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOU3RPVXN6TWlWdnE0b2J3X3N0MEZobHhWdkstelRPR0VhVFl4QzZSZ0k1Y1YwaGV6X25UVDNTald4ZmE0NjV6NkhueTN1TlVBS3d4NUpIYV84b3Bpa1ZBNE9jU05QX0xaZHFGUzBjNlktTS1FRVl2TVBpdzRCeTlKZHRfYjlrWkJVVExjX1pKbFMteXRfendTcEdpd0ZsUS1BaU5GV05OaFR0cUNSdWpKUjY4UlVUSmxjZE5PaC12cF94dkRISWtrQlhvVWM?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "DMZ",
-      "count": 5
+      "count": 7
     },
     {
       "place": "Pyongyang",

@@ -2,13 +2,13 @@
   "id": "korea_peninsula",
   "name": "Corea del Norte–Corea del Sur",
   "description": "Cobertura mediática de la tensión en la península coreana",
-  "updated": "2026-07-20T19:29:50+00:00",
-  "total_articles": 2327,
-  "overall_avg": -0.14,
+  "updated": "2026-07-20T19:56:11+00:00",
+  "total_articles": 2333,
+  "overall_avg": -0.1395,
   "distribution": {
-    "pos": 667,
-    "neu": 605,
-    "neg": 1055
+    "pos": 671,
+    "neu": 606,
+    "neg": 1056
   },
   "sources": [
     "Al Jazeera",
@@ -20,8 +20,8 @@
     "DailyNK",
     "The Korea Herald",
     "Korea JoongAng Daily",
-    "The Korea Times",
     "upi.com",
+    "The Korea Times",
     "The Guardian",
     "Reuters",
     "Anadolu Ajansı",
@@ -782,18 +782,18 @@
     },
     {
       "date": "2026-07-20",
-      "count": 175,
-      "avg": -0.0522,
-      "pos": 63,
-      "neu": 41,
-      "neg": 71
+      "count": 181,
+      "avg": -0.0481,
+      "pos": 67,
+      "neu": 42,
+      "neg": 72
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 996,
-      "avg": -0.2167
+      "count": 1000,
+      "avg": -0.2158
     },
     {
       "source": "BBC",
@@ -836,14 +836,14 @@
       "avg": 0.0121
     },
     {
+      "source": "upi.com",
+      "count": 23,
+      "avg": 0.1734
+    },
+    {
       "source": "The Korea Times",
       "count": 23,
       "avg": 0.2051
-    },
-    {
-      "source": "upi.com",
-      "count": 22,
-      "avg": 0.1658
     },
     {
       "source": "The Guardian",
@@ -867,8 +867,8 @@
     },
     {
       "source": "38 North",
-      "count": 12,
-      "avg": 0.1789
+      "count": 13,
+      "avg": 0.1651
     },
     {
       "source": "Yahoo",
@@ -2070,14 +2070,14 @@
     {
       "name": "North Korea",
       "type": "LOCATION",
-      "count": 643,
-      "avg": -0.0258
+      "count": 645,
+      "avg": -0.0252
     },
     {
       "name": "China",
       "type": "LOCATION",
-      "count": 285,
-      "avg": 0.0868
+      "count": 286,
+      "avg": 0.0865
     },
     {
       "name": "Donald Trump",
@@ -2260,6 +2260,18 @@
       "entities": []
     },
     {
+      "title": "North Korea’s Subdued Signaling Toward China During Treaty Anniversary",
+      "source": "38 North",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ3liSWt3X2tET25lNjFKLU5HQzZZdlItWFBVNlFOVFNXZzR5Z0ZESjJCdFdpeXhFWUczR2JWQlpWR3REUHFsTmZreHRxblRqLVliWkhydUQwWG40eU5lNk5TQ2FGVlBNX0RRelRZVUt6WDltLUZoUGgweEE5UTlzcXNfLUVEdXdGWFZwb1cxTkhiZEVOSFF1Y2Fsemh2Vm5ocS1idg?oc=5",
+      "published": "2026-07-20T19:49:45+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "North Korea",
+        "China"
+      ]
+    },
+    {
       "title": "Spain team arrives home after winning the World Cup",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/20/spain-team-arrives-home-after-winning-the-world-cup?traffic_source=rss",
@@ -2274,6 +2286,15 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/20/israeli-air-strike-injures-14-in-gaza-city?traffic_source=rss",
       "published": "2026-07-20T19:45:23+00:00",
       "compound": -0.5719,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Yemeni women support families through enterprise as economic crisis bites",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/7/20/yemeni-women-support-families-through-enterprise-as-economic-crisis-bites?traffic_source=rss",
+      "published": "2026-07-20T19:36:37+00:00",
+      "compound": -0.8625,
       "label": "negative",
       "entities": []
     },
@@ -2298,12 +2319,39 @@
       ]
     },
     {
+      "title": "EU pauses methane penalties amid energy crisis, US pressure",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/20/eu-pauses-methane-penalties-amid-energy-crisis-us-pressure?traffic_source=rss",
+      "published": "2026-07-20T19:29:37+00:00",
+      "compound": 0.2263,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "US judge orders pause on Paramount–Warner Bros merger",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/7/20/us-judge-orders-pause-on-paramount-warner-bros?traffic_source=rss",
+      "published": "2026-07-20T19:20:31+00:00",
+      "compound": 0.4215,
+      "label": "positive",
+      "entities": []
+    },
+    {
       "title": "At least 25 killed as floods and landslides hit northern India",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/7/20/at-least-25-killed-as-floods-and-landslides-hit-northern-india?traffic_source=rss",
       "published": "2026-07-20T19:17:12+00:00",
       "compound": -0.7964,
       "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "A tournament of contradictions: What did we learn at World Cup 2026?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/20/a-tournament-of-contradictions-what-did-we-learn-at-world-cup-2026?traffic_source=rss",
+      "published": "2026-07-20T19:15:38+00:00",
+      "compound": 0.296,
+      "label": "positive",
       "entities": []
     },
     {
@@ -2660,51 +2708,6 @@
       "url": "https://www.bbc.co.uk/news/articles/cedj9j911p8o?at_medium=RSS&at_campaign=rss",
       "published": "2026-07-20T12:33:01+00:00",
       "compound": -0.5106,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Police block thousands of 'cockroach' protesters marching on India's parliament",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cvg9w9dxd7lo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-20T12:31:10+00:00",
-      "compound": -0.9062,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "India’s Rohit Sharma ends retirement talk as World Cup 2027 still in sight",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/20/indias-rohit-sharma-ends-retirement-talk-as-world-cup-2027-still-in-sight?traffic_source=rss",
-      "published": "2026-07-20T12:30:15+00:00",
-      "compound": -0.6124,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Argentina fans throw stones at police after World Cup defeat",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/20/argentina-fans-throw-stones-at-police-after-world-cup-defeat?traffic_source=rss",
-      "published": "2026-07-20T12:20:49+00:00",
-      "compound": -0.7184,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Don’t believe Andy Burnham’s PR machine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/opinions/2026/7/20/dont-believe-andy-burnhams-pr-machine?traffic_source=rss",
-      "published": "2026-07-20T12:15:05+00:00",
-      "compound": 0.2732,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Utah firefighter and four family members killed in flash flooding",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c9d8l88jnwvo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-20T12:13:58+00:00",
-      "compound": -0.812,
       "label": "negative",
       "entities": []
     }

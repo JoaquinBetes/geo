@@ -73,9 +73,9 @@ async function renderWorldMap(inf, categoryOf) {
     },
   }).addTo(map);
 
-  // fitBounds (y no un zoom fijo): el mapamundi se adapta al ancho del
-  // contenedor, clave en móviles.
-  map.fitBounds(layer.getBounds(), { padding: [4, 4] });
+  // Encuadre por ancho: el mundo llena el contenedor una sola vez; el resto
+  // se explora con paneo/zoom.
+  fitWorldWidth(map, 24);
 
   const legend = document.getElementById("inf-map-legend");
   legend.innerHTML = "";

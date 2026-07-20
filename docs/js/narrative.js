@@ -250,7 +250,7 @@ async function renderMediaMap(data) {
       }
     },
   }).addTo(map);
-  map.fitBounds(layer.getBounds(), { padding: [4, 4] });
+  fitWorldWidth(map, 33);   // centra la franja donde vive la mayoría de los medios
 
   // Marcadores por medio, con desplazamiento leve cuando comparten ciudad.
   const seen = new Map();

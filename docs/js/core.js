@@ -113,10 +113,19 @@ function worldMapOpts() {
     maxBounds: [[-62, -185], [84, 185]],
     maxBoundsViscosity: 1.0,
     zoomSnap: 0.25,
-    minZoom: 1,
     worldCopyJump: false,
     tile: { noWrap: true, bounds: [[-85, -180], [85, 180]] },
   };
+}
+
+// Encuadra el mundo por ANCHO del contenedor: la Tierra ocupa toda la ventana
+// (una sola vez) y el recorte vertical se recorre con paneo/zoom. El zoom
+// mínimo queda clavado ahí, así nunca aparecen bandas ni mundos repetidos.
+function fitWorldWidth(map, centerLat = 33) {
+  const width = map.getSize().x || map.getContainer().clientWidth;
+  const zoom = Math.max(0.5, Math.round(Math.log2(width / 256) * 4) / 4);
+  map.setMinZoom(zoom);
+  map.setView([centerLat, 12], zoom, { animate: false });
 }
 
 function regionLabel(name) {

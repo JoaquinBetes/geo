@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-19T19:32:16+00:00",
+  "updated": "2026-07-20T04:04:26+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -38,13 +38,13 @@
   },
   "window": {
     "from": "2026-02-27",
-    "to": "2026-07-19"
+    "to": "2026-07-20"
   },
   "kpis": {
-    "events_total": 206,
-    "events_unlocated": 552,
-    "events_7d": 108,
-    "events_prev_7d": 73,
+    "events_total": 213,
+    "events_unlocated": 566,
+    "events_7d": 98,
+    "events_prev_7d": 90,
     "hottest_place": "Strait of Hormuz"
   },
   "daily": [
@@ -248,8 +248,17 @@
     },
     {
       "date": "2026-07-19",
-      "total": 11,
-      "strike": 10,
+      "total": 14,
+      "strike": 13,
+      "ground": 1,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-20",
+      "total": 4,
+      "strike": 3,
       "ground": 1,
       "infrastructure": 0,
       "air_defense": 0,
@@ -2316,16 +2325,86 @@
       "title": "Lebanon’s President Joseph Aoun meets Rubio ahead of Trump talks",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/7/19/lebanons-president-joseph-aoun-meets-rubio-ahead-of-trump-talks?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-19",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US wraps up ninth night of strikes as IRGC attacks oil tankers in Hormuz",
+      "source": "Israel National News",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBaM0pxd3hnY0FxanZVTGFUQWJpRmlNWkowX2xvbVMwOWRlXzYxYTZJZUJJcVNBeEJNZjhMemt0OEMxaFB4R2R5akFFcHhWZ3hZUkd1TE5CTXJ1Zw?oc=5"
+    },
+    {
+      "date": "2026-07-19",
+      "type": "strike",
+      "place": "Eilat",
+      "lat": 29.5577,
+      "lon": 34.9519,
+      "title": "IDF fires interceptors over Eilat as Iranian missiles target nearby Aqaba in Jordan",
+      "source": "The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcmhaZEtkNl8wYk5JU3AtcVdUWnkxV1FwT3lRMmV5a3lTUGVVbHdGMTl4X3o0MnN2cHlwZE9DOWdXeFlLWnFKQUFSQ0EtVVF3SDc4SVBsVzRfVnVQMW0zc2xzTTVMZ0RzcnowMFlqUlV3d09HSWRyMUZnU0tYRldub25LZTgtUzNlVmdWZU1fdU9JRHFsWUhvVHMzQnlKMDJ3T0MzRjdZR05kTDkxU2NaQldXX23SAboBQVVfeXFMTlA0Q1lrM1dPbTVnUndVLVk0Zzg4c3lPMldaM0EwWFowRkJyaF9pWFlpTFV6cXl4bEVnRTZiVDhUdVhjVTUtNktuTlB6UzZTVEJIbS15U191MzFmVDZBbmNGTmZPUHBPd2s1Z1c2T1ZWVnNZTU56d01ZWlBnd3hidzdjb25WTGhObm1GNXBKWUx6bV93dW1sZDJsWWZQejBRTEZmd01IMGZPMjk0TTBlb3VKRTZGeGRrNFR3?oc=5"
+    },
+    {
+      "date": "2026-07-19",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "US says another troop killed as Israel warns Tehran’s attacks coming close",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/jul/19/military-service-member-death-iran-airstrikes"
+    },
+    {
+      "date": "2026-07-20",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US launches ninth night of Iran strikes as strait of Hormuz standoff sees oil price pass $90 a barrel",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNR2lqYURIaDAySDVzVnJYZ2kzMVN5WjJLeUNxc3NKZmNRWS1NZGZ2RVp3Vkt3VWxBMFpDb1RoV1YzTWxsQ2RoVWN0UUhfQ09oQkM0T00zbElUV0tWbVNQVDVoNGo4TGZCeEt4Y1c5T2pwcFFKcEJUeVA3eGJNRnNLMDJqLW8xR1ZwcGV4dXdWSExpa3M?oc=5"
+    },
+    {
+      "date": "2026-07-20",
+      "type": "ground",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "All maritime traffic banned in Strait of Hormuz, Iran says, as Israel readies to resume fighting",
+      "source": "news.cgtn.com",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQTJUMDVqeWZSd1M0b3U3RTJtbk5NdC1PUklnQUw3MjF3T1VuZXEtRUkxSXUyd3RuZnM1Y1YtbWVERGxDWHJubWFBSkVZZzN3cjQ4QW9CLWFKbGtfWlVmZHNGa1k3cnhJdkM1U3BlcmRmUzExNWRWRkdLY2hWTENac011cFJsbzFvRjl0NWhZdkhMblowb3RkZGVpaVJvQmhtUkk0S09ianBfSGZhVndTMnZCQ2lLRE55aEVtNg?oc=5"
+    },
+    {
+      "date": "2026-07-20",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iran vows not a ‘single drop’ of oil or gas will pass strait of Hormuz as US carries out ninth night of strikes – Middle East crisis live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/live/2026/jul/20/us-iran-war-live-updates-strikes-strait-of-hormuz-middle-east-crisis-latest-news"
+    },
+    {
+      "date": "2026-07-20",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US launches ninth night of Iran strikes as strait of Hormuz standoff sees oil price pass $90 a barrel",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/20/us-strikes-iran-strait-of-hormuz-oil-prices"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 92
+      "count": 97
     },
     {
       "place": "Tehran",
-      "count": 40
+      "count": 41
     },
     {
       "place": "Bandar Abbas",
@@ -2348,11 +2427,11 @@
       "count": 6
     },
     {
-      "place": "Kharg Island",
-      "count": 3
+      "place": "Eilat",
+      "count": 4
     },
     {
-      "place": "Eilat",
+      "place": "Kharg Island",
       "count": 3
     },
     {

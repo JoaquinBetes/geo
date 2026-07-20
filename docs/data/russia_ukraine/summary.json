@@ -2,13 +2,13 @@
   "id": "russia_ukraine",
   "name": "Rusia–Ucrania",
   "description": "Cobertura mediática del conflicto entre Rusia y Ucrania",
-  "updated": "2026-07-19T19:32:10+00:00",
-  "total_articles": 3201,
-  "overall_avg": -0.3883,
+  "updated": "2026-07-20T04:04:22+00:00",
+  "total_articles": 3238,
+  "overall_avg": -0.3859,
   "distribution": {
-    "pos": 635,
-    "neu": 416,
-    "neg": 2150
+    "pos": 648,
+    "neu": 422,
+    "neg": 2168
   },
   "sources": [
     "Al Jazeera",
@@ -81,6 +81,7 @@
     "The Japan Times",
     "Mediazona",
     "Euronews",
+    "ABC News & Headlines – Australian Broadcasting Corporation",
     "Firstpost",
     "CBC",
     "i24NEWS",
@@ -92,7 +93,6 @@
     "The Defense Post",
     "Idaho State Journal",
     "Politico",
-    "ABC News & Headlines – Australian Broadcasting Corporation",
     "Fortune",
     "New York Post",
     "Religion News Service",
@@ -290,7 +290,8 @@
     "THIRTEEN - New York Public Media",
     "Straight Arrow",
     "WISN",
-    "Hartford Courant"
+    "Hartford Courant",
+    "Channel 3000"
   ],
   "daily": [
     {
@@ -511,11 +512,11 @@
     },
     {
       "date": "2026-06-04",
-      "count": 8,
-      "avg": -0.8066,
+      "count": 9,
+      "avg": -0.819,
       "pos": 0,
       "neu": 0,
-      "neg": 8
+      "neg": 9
     },
     {
       "date": "2026-06-05",
@@ -863,28 +864,36 @@
     },
     {
       "date": "2026-07-19",
-      "count": 139,
-      "avg": -0.388,
-      "pos": 31,
-      "neu": 15,
-      "neg": 93
+      "count": 161,
+      "avg": -0.342,
+      "pos": 40,
+      "neu": 20,
+      "neg": 101
+    },
+    {
+      "date": "2026-07-20",
+      "count": 14,
+      "avg": -0.334,
+      "pos": 4,
+      "neu": 1,
+      "neg": 9
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 1290,
-      "avg": -0.2361
+      "count": 1313,
+      "avg": -0.2312
     },
     {
       "source": "BBC",
-      "count": 408,
-      "avg": -0.2828
+      "count": 414,
+      "avg": -0.2835
     },
     {
       "source": "The Guardian",
-      "count": 159,
-      "avg": -0.644
+      "count": 162,
+      "avg": -0.6476
     },
     {
       "source": "NPR",
@@ -893,8 +902,8 @@
     },
     {
       "source": "Institute for the Study of War",
-      "count": 54,
-      "avg": -0.8049
+      "count": 55,
+      "avg": -0.7879
     },
     {
       "source": "UNITED24 Media",
@@ -913,8 +922,8 @@
     },
     {
       "source": "The New York Times",
-      "count": 39,
-      "avg": -0.5746
+      "count": 41,
+      "avg": -0.5888
     },
     {
       "source": "Kyiv Post",
@@ -1222,6 +1231,11 @@
       "avg": -0.6648
     },
     {
+      "source": "ABC News & Headlines – Australian Broadcasting Corporation",
+      "count": 4,
+      "avg": -0.75
+    },
+    {
       "source": "Firstpost",
       "count": 4,
       "avg": -0.9148
@@ -1275,11 +1289,6 @@
       "source": "Politico",
       "count": 3,
       "avg": -0.2502
-    },
-    {
-      "source": "ABC News & Headlines – Australian Broadcasting Corporation",
-      "count": 3,
-      "avg": -0.7421
     },
     {
       "source": "Fortune",
@@ -2270,44 +2279,49 @@
       "source": "Hartford Courant",
       "count": 1,
       "avg": 0.8225
+    },
+    {
+      "source": "Channel 3000",
+      "count": 1,
+      "avg": -0.9274
     }
   ],
   "top_entities": [
     {
       "name": "Ukraine",
       "type": "LOCATION",
-      "count": 1345,
-      "avg": -0.5752
+      "count": 1352,
+      "avg": -0.5764
     },
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 1145,
-      "avg": -0.6234
+      "count": 1151,
+      "avg": -0.6246
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 364,
-      "avg": -0.332
+      "count": 365,
+      "avg": -0.331
     },
     {
       "name": "Kyiv",
       "type": "LOCATION",
-      "count": 284,
-      "avg": -0.68
+      "count": 289,
+      "avg": -0.6836
     },
     {
       "name": "Vladimir Putin",
       "type": "PERSON",
-      "count": 247,
-      "avg": -0.5893
+      "count": 249,
+      "avg": -0.591
     },
     {
       "name": "Volodymyr Zelensky",
       "type": "PERSON",
-      "count": 187,
-      "avg": -0.4817
+      "count": 188,
+      "avg": -0.4845
     },
     {
       "name": "NATO",
@@ -2318,8 +2332,8 @@
     {
       "name": "Moscow",
       "type": "LOCATION",
-      "count": 89,
-      "avg": -0.7126
+      "count": 90,
+      "avg": -0.7157
     },
     {
       "name": "United States",
@@ -2350,9 +2364,323 @@
       "type": "ORG",
       "count": 2,
       "avg": -0.3514
+    },
+    {
+      "name": "Sergei Lavrov",
+      "type": "PERSON",
+      "count": 1,
+      "avg": -0.9966
     }
   ],
   "recent": [
+    {
+      "title": "Andy Burnham to become UK’s PM on Monday: What happens next?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/20/andy-burnham-to-become-uks-pm-on-monday-what-happens-next?traffic_source=rss",
+      "published": "2026-07-20T03:20:48+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Ukraine war briefing: Russia behind deadly strike on cargo ship, says Ukraine, as Putin thanks North Korea",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaFpwajVQU3FodFlYbnB4Y3dOTmVEalpRdkJQX1ZOa2x5amdqaTFTRlpGOTQ3cXBDLXJ4d1F5YnVYbFZKS1RmYVFaQktRcldxN0N5N0I0TUUtWnowZ1FjZlZnYTREanl3bXZ6S3Z2QTFfX1l4cXp5ellwMlhEUmpHcG1VOHhPb1REX1RfMXhyellUNld1dkhJa1FhSHF3VDE3TmhGOUJ2LVdndThWYnBzcThPOUt6MXRjbXhVb2VVYnZ2aExkUFR0V2RmWWNPNlhlWDRYUmlJa3pYZVIybmRpWXNoOA?oc=5",
+      "published": "2026-07-20T03:19:00+00:00",
+      "compound": -0.6124,
+      "label": "negative",
+      "entities": [
+        "Vladimir Putin",
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Africa Shield: Why securing development is becoming a new security priority",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/20/africa-shield-why-securing-development-is-becoming-a-new-security-priority?traffic_source=rss",
+      "published": "2026-07-20T02:39:17+00:00",
+      "compound": 0.1531,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Palestinians celebrate Spain’s World Cup victory",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/20/palestinians-celebrate-spains-world-cup-victory?traffic_source=rss",
+      "published": "2026-07-20T02:23:45+00:00",
+      "compound": 0.8126,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "US service member killed during detonation of Iranian drone in Iraq",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/20/aje-onl-nf_us-soldier-killed-detonation-of-iranian-drone-iraq-190726?traffic_source=rss",
+      "published": "2026-07-20T02:11:53+00:00",
+      "compound": -0.875,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Mbappe takes home second Golden Boot, Spain sweeps World Cup awards",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/20/mbappe-takes-home-second-golden-boot-spain-sweeps-world-cup-awards?traffic_source=rss",
+      "published": "2026-07-20T02:09:53+00:00",
+      "compound": 0.9136,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Spain fans hail new generation, as Argentina says goodbye to an icon",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/20/spain-fans-hail-new-generation-as-argentina-says-goodbye-to-an-icon?traffic_source=rss",
+      "published": "2026-07-20T02:03:48+00:00",
+      "compound": -0.4019,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "US bombs Iran for ninth consecutive night as Hormuz tensions escalate",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/20/us-bombs-iran-for-ninth-consecutive-night-as-hormuz-tensions-escalate?traffic_source=rss",
+      "published": "2026-07-20T01:48:59+00:00",
+      "compound": -0.4019,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Norway opens new memorial for victims of 2011 massacre",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c07r9m22gyyo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-20T01:11:08+00:00",
+      "compound": -0.6597,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Ukraine war briefing: Russia behind deadly strike on cargo ship, says Ukraine, as Putin thanks North Korea",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/20/ukraine-war-briefing-russia-behind-deadly-strike-on-cargo-ship-says-ukraine-as-putin-thanks-north-korea",
+      "published": "2026-07-20T00:29:50+00:00",
+      "compound": -0.9966,
+      "label": "negative",
+      "entities": [
+        "Vladimir Putin",
+        "Volodymyr Zelensky",
+        "Sergei Lavrov",
+        "Russia",
+        "Ukraine",
+        "Kyiv",
+        "Moscow"
+      ]
+    },
+    {
+      "title": "Iran Update Special Report, July 19, 2026",
+      "source": "Institute for the Study of War",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRmZUMlM1Yi1BT29vSVFQcWVGeFpCdmNKMk9SazN1UE1QeDc1amtWc2k2NlY5M2xzcldObW00ODV4dDQ2RzlYdmRTWFJEMTRadl9FRGxlSnZPOE9odlBEYnJEUlVXeDlJazZMdllGUkJmaXBiM0FDU2Y4dDB2SVNNcUdXb1NtcFJadlR3eUk1ZFpyLURC?oc=5",
+      "published": "2026-07-20T00:23:44+00:00",
+      "compound": 0.128,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "‘Everyone's afraid to die’: Struggle to recruit soldiers in Ukraine turns violent",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5KN05jR1FmY0VCaXUydGgybGxSNS1CbW9Gc0s2THhrRm1mWUFVVXdEaHFPZFlJc2FpT1I2eFo2bHNHaDd5WG0wMWRFdWh2aXRiczBYZTN2R3Fxdw?oc=5",
+      "published": "2026-07-20T00:19:12+00:00",
+      "compound": -0.9081,
+      "label": "negative",
+      "entities": [
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "‘Everyone's afraid to die’: Struggle to recruit soldiers in Ukraine turns violent",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cr7k5ngde3vo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-20T00:19:12+00:00",
+      "compound": -0.8957,
+      "label": "negative",
+      "entities": [
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Iran war live: US military completes ninth night of strikes on Iran",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/7/20/iran-war-live-us-military-carries-out-another-wave-of-strikes-on-iran?traffic_source=rss",
+      "published": "2026-07-20T00:00:00+00:00",
+      "compound": -0.9325,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "US soldier killed in Iraq during ‘controlled detonation’ of Iranian drone",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/19/us-soldier-killed-in-iraq-during-controlled-detonation-of-iranian-drone?traffic_source=rss",
+      "published": "2026-07-19T23:49:30+00:00",
+      "compound": -0.9552,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "US Vice President JD Vance and his wife announce birth of fourth child",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/19/us-vice-president-jd-vance-and-his-wife-announce-birth-of-fourth-child?traffic_source=rss",
+      "published": "2026-07-19T23:35:06+00:00",
+      "compound": 0.4588,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "This farmer wanted to quit the cocaine industry - he couldn't",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c0kyml1zxz4o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-19T23:18:03+00:00",
+      "compound": 0.4767,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "A bird’s-eye view as Donald Trump arrives for the World Cup final",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/19/aje-onl-nf_trump-arrives-in-helicopter-for-the-world-cup-final-190726?traffic_source=rss",
+      "published": "2026-07-19T23:11:39+00:00",
+      "compound": 0.0258,
+      "label": "neutral",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Fans in Madrid go wild as Spain beat Argentina to win second World Cup",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/19/fans-in-madrid-go-wild-as-spain-beat-argentina-to-win-second-world-cup?traffic_source=rss",
+      "published": "2026-07-19T23:05:40+00:00",
+      "compound": 0.5859,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "When is the next FIFA World Cup? 2030 hosts, dates and format",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/19/when-is-the-next-fifa-world-cup-2030-hosts-dates-and-format?traffic_source=rss",
+      "published": "2026-07-19T22:51:01+00:00",
+      "compound": 0.5719,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Spain battle past 10-man Argentina 1-0 in extra time to win 2026 World Cup",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/19/spain-battle-past-10-man-argentina-1-0-in-extra-time-to-win-2026-world-cup?traffic_source=rss",
+      "published": "2026-07-19T22:32:30+00:00",
+      "compound": 0.7184,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "When, where, and how Spain won the World Cup final against Argentina",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/19/when-where-and-how-spain-won-the-world-cup-final-against-argentina?traffic_source=rss",
+      "published": "2026-07-19T22:24:07+00:00",
+      "compound": 0.8979,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Shakira, Madonna, Justin Bieber and BTS perform at colourful World Cup half-time show",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/clyxjl0wkl7o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-19T22:16:39+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Watch: Torrential rain hits New York and New Jersey triggering flash floods",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/videos/cq89veggnvqo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-19T21:43:54+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Israeli ministers join march to Gaza to demand return of settlements",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/19/israeli-ministers-join-march-to-gaza-to-demand-return-of-settlements?traffic_source=rss",
+      "published": "2026-07-19T20:55:11+00:00",
+      "compound": 0.1779,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "World Cup 2026: What are the extra time and penalty shootout rules?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/19/world-cup-2026-what-are-the-extra-time-and-penalty-shootout-rules?traffic_source=rss",
+      "published": "2026-07-19T20:22:38+00:00",
+      "compound": -0.7184,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "What happened in the first half of the Spain vs Argentina World Cup final?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/19/what-happened-in-the-first-half-of-the-spain-vs-argentina-world-cup-final?traffic_source=rss",
+      "published": "2026-07-19T20:19:26+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Andy Burnham’s in-tray: The challenges facing the new UK PM",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/7/19/andy-burnhams-in-tray-the-challenges-facing-the-new-uk-pm?traffic_source=rss",
+      "published": "2026-07-19T20:12:26+00:00",
+      "compound": 0.6705,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Twin earthquakes strike Peru killing at least five",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/19/twin-earthquakes-strike-peru-killing-at-least-five?traffic_source=rss",
+      "published": "2026-07-19T20:11:51+00:00",
+      "compound": -0.7096,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "The UK gets its seventh prime minister in 10 years",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/7/19/the-uk-gets-its-seventh-prime-minister-in-10-years?traffic_source=rss",
+      "published": "2026-07-19T20:05:31+00:00",
+      "compound": -0.3182,
+      "label": "negative",
+      "entities": [
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Five passengers found drifting days after boat sinks in Indonesia",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/19/five-passengers-found-drifting-days-after-boat-sinks-in-indonesia?traffic_source=rss",
+      "published": "2026-07-19T19:49:43+00:00",
+      "compound": 0.4215,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Fans light up NYC’s Little Argentina ahead of Spain World Cup final clash",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/19/fans-light-up-nycs-little-argentina-ahead-of-spain-world-cup-final-clash?traffic_source=rss",
+      "published": "2026-07-19T19:18:59+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
     {
       "title": "Trump visit causes logistical delays at World Cup final",
       "source": "Al Jazeera",
@@ -2383,6 +2711,18 @@
       "entities": []
     },
     {
+      "title": "Video: Russia Bombards Kyiv in One of the War’s Largest Missile Assaults",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZWs3SUFCb3hYY3F0OFRabnJoRGJ4V2J4QTlVMk5rMWY0WVVKUkFRcW1oWF9mdVN2eHZwbThOU01CQmVqd25WekNZbWcyYjIwd2d3OS1EbkY5XzVrZVV4cXpzNnZzZ2p3dHZ5SHhFZFczQWw3UHppajNTb3Ayc0Q4c0VSdTVMZXQ3LTc4dFFPR1RhNV8xaXhvRGhlVQ?oc=5",
+      "published": "2026-07-19T18:37:47+00:00",
+      "compound": -0.7906,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Kyiv"
+      ]
+    },
+    {
       "title": "‘Sacred unity’: Iran’s supreme leader calls for calm amid political divides",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/7/19/sacred-unity-irans-supreme-leader-calls-for-calm-amid-political-divides?traffic_source=rss",
@@ -2400,6 +2740,18 @@
       "label": "negative",
       "entities": [
         "Russia"
+      ]
+    },
+    {
+      "title": "Russia Batters Kyiv in One of the Largest Missile Assaults of the War",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQaDBwRXVJQjdGMk15eWtwa29xRmQxaWNia1ZTcXh6cFE3T3pJZ0x5TUhIQWRlZENUSmhGTjlYX3JfM29tdE5ycWIzQi1jWGlfT2Y3Mldiall6V2hwTVZJME9rZGp3ekFzM0s0cTQzZktmNDN1U1NkczRxT0VwTkJ2Vg?oc=5",
+      "published": "2026-07-19T18:26:41+00:00",
+      "compound": -0.9413,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Kyiv"
       ]
     },
     {
@@ -2632,357 +2984,6 @@
       "entities": [
         "Russia",
         "Ukraine"
-      ]
-    },
-    {
-      "title": "Russia Ukraine War",
-      "source": "Idaho State Journal",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVUl5eVBORkhwcnpuelRKOWg4X00zSHZQN2FVRTh5QjFXNjRKZ3JpOW1TcUZWX0RDNHVsV29zWmpULTNUZmNqVW03bHBKcUtjVVBGb3JobHJhbkh5ek1IRlRuYjF2SThwSHdVanluRTFXSVZuN0IwaW91MFZaaGU0bXQ2WUJjMENmVmhvWFFqZEJSaWk0cmRpOWtVbjZuODhXWHUxQkY2WGZ2cG43SlhFTA?oc=5",
-      "published": "2026-07-19T15:50:42+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Russia Ukraine War",
-      "source": "GazetteXtra",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNS2R1SDd1REpSMS1nWmxzSURJangxWThtZ2VYV0dGRlJteE1IZU42TUNHRFpEeXpjeG5WYXZybm1LZ19TdkZJdU9DN0JNeTI1Wjh4eTd6WGNzSlNlWHNhV3daTUlrbW1seWhqVUtxcFlFMm91SHNCRzA0SHNIb2duTkplalh4M2hNWmFoem1YS05Iek82N1dJb0JobWx4UUxkSGZHNjdGS1RwdXhHZDBMYTZn?oc=5",
-      "published": "2026-07-19T15:50:42+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Andy Burnham must raise the spirits of a disillusioned public | Letters",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/politics/2026/jul/19/andy-burnham-must-raise-the-spirits-of-a-disillusioned-public",
-      "published": "2026-07-19T15:46:29+00:00",
-      "compound": 0.34,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Israel uses law to destroy Palestinian education in East Jerusalem",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/opinions/2026/7/19/israel-uses-law-to-destroy-palestinian-education-in-east-jerusalem?traffic_source=rss",
-      "published": "2026-07-19T15:46:23+00:00",
-      "compound": -0.5423,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Kimi Antonelli wins Belgian Grand Prix to extend F1 championship lead",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/19/kimi-antonelli-wins-belgian-grand-prix-to-extend-f1-championship-lead?traffic_source=rss",
-      "published": "2026-07-19T15:26:45+00:00",
-      "compound": 0.9509,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Designing cities for a hotter future",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/7/19/designing-cities-for-a-hotter-future?traffic_source=rss",
-      "published": "2026-07-19T15:25:01+00:00",
-      "compound": 0.7184,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Tate brothers arrested in the US",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/19/tate-brothers-arrested-in-the-us?traffic_source=rss",
-      "published": "2026-07-19T15:23:49+00:00",
-      "compound": -0.7906,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Russian attacks kill 6 in Kyiv and other cities and expose gaps in Ukraine's air defenses",
-      "source": "Union-Bulletin",
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOOExXRXNEeUNTRTlxaFFUZ1dWZHp5Nk9DNGdSYkFfSXpqcHRZTUJWUmt4alVpMFJpVVVad1dCOHROZ1d5NDNYYlRmVzFVVF82SjFfQWNfWktNNmFRYlVmQUphYjlNWUh6NDJsc0FXaFp4ZWRBbmJfZkpiNDU0VW52YTNnbWZhV2tCREdXcjBsR2lNSExGXzJxMXM5UFZfM1lfWUxMVFdSXzh5VDE5ckxlRERTaWFwMDIxQVBvMzNfcFU5RnhFRTNlSVhnSjI2Y2Q1LWhsMlluYy1JckxoSnZPWTZSd0lzWWQ1NFE4b01adk9ZVUFYSk0ta3dTVjdRVjFi?oc=5",
-      "published": "2026-07-19T15:19:47+00:00",
-      "compound": -0.9432,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine",
-        "Kyiv"
-      ]
-    },
-    {
-      "title": "Health officials identify source of US explosive diarrhoea outbreak",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c4gw9n1kx9do?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-19T15:17:23+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Russia Burned Through Two-Thirds of Its Annual Zircon Missile Output in Just 19 Days",
-      "source": "UNITED24 Media",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMHVVMnlYODVZT3l5WkY5MjRrcVowV3JlQkVPdmtPem1yRnBnNEw3RElVb2JBVnFvaVFFNE1GWGlWRVVtVlVGOGg3a1ZQdEttcUdSaXVZZkFfc2Y5SXA0WjhidkRPU0NkUTlfQURDRVc5NVlPMHRHWVRnVzY1NG9yc1FONXhPRWhBZ1ZacDJCbl8zZ2d5Ulc5X1VTeHZtei1FXzV4WC1IdV9ZZThzSFEtcTlGbWg3c3duc2dlSWFJWUw3UkYyRzFTYTl0VQ?oc=5",
-      "published": "2026-07-19T15:02:47+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "Spain vs Argentina LIVE: FIFA World Cup 2026 final",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/liveblog/2026/7/19/spain-vs-argentina-live-2026-fifa-world-cup-final?traffic_source=rss",
-      "published": "2026-07-19T15:00:00+00:00",
-      "compound": 0.34,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "The 1975's Matty Healy marries model Gabbriette Bechtel in Los Angeles",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c5ywxp2d826o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-19T14:50:11+00:00",
-      "compound": 0.2023,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Why is Argentina’s football team so white?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/19/why-is-argentinas-football-team-so-white?traffic_source=rss",
-      "published": "2026-07-19T14:34:15+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Iran attacks US Gulf allies, causing a fire at Kuwait power plant",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/19/kuwaiti-power-plant-ablaze-as-iran-hits-us-gulf-allies?traffic_source=rss",
-      "published": "2026-07-19T14:27:53+00:00",
-      "compound": -0.802,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Who controls football in Palestine?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/19/who-controls-football-in-palestine?traffic_source=rss",
-      "published": "2026-07-19T14:27:02+00:00",
-      "compound": -0.3612,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "The story behind football stars Messi and Yamal’s viral photo",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/19/the-story-behind-football-stars-messi-and-yamals-viral-photo?traffic_source=rss",
-      "published": "2026-07-19T14:17:39+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Why is China protesting about the nationalisation of British Steel?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/19/why-is-a-chinese-company-protesting-over-uk-nationalising-a-steel-plant?traffic_source=rss",
-      "published": "2026-07-19T14:12:10+00:00",
-      "compound": -0.6705,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Lebanon convicts influencer of smuggling drugs in biscuits",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/19/lebanon-convicts-influencer-of-smuggling-drugs-in-biscuits?traffic_source=rss",
-      "published": "2026-07-19T13:56:18+00:00",
-      "compound": -0.5574,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Russia Is Placing Its Wagers on Ballistic Missiles, and It Is Because of Them That Putin Still Believes in His War – Address by the President — Official website of the President of Ukraine",
-      "source": "Офіційне інтернет-представництво Президента України",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWnB6d3JYOEw4UXltNHdNUVNsRWhPeURZVDkzU2wtUHdpczl4d2JUM3RZSmh1c2tTM2d5UnZFcDJ3VnRYa2FGZFAwMzc4b1A2RDFnc1VFcF9GSnpxSG9WMzBGQnVkQXVoNnJUREZEUnAtZnBvZ09KaGdhSURoSzYyN2NjZEhLQXJKaEhDT1NYa1BJMGpQTDVBU0pmWE5mOEtZMTVIQnVmWQ?oc=5",
-      "published": "2026-07-19T13:45:00+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Vladimir Putin",
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Marathon runners compete on drifting sea ice at North Pole",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/videos/c9q9lw5rql4o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-19T13:32:30+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Why were Andrew and Tristan Tate arrested? Will they be extradited to UK?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/19/why-were-andrew-and-tristan-tate-arrested-will-they-be-extradited-to-uk?traffic_source=rss",
-      "published": "2026-07-19T13:12:50+00:00",
-      "compound": -0.9528,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Why have India’s Gen Z protesters called for a march to parliament?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/2026/7/19/why-have-indias-gen-z-protesters-called-for-a-march-to-parliament?traffic_source=rss",
-      "published": "2026-07-19T12:45:07+00:00",
-      "compound": -0.2732,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Ukrainian officials claim Russian strike on Kharkiv suburb kills 4, injures 20",
-      "source": "Anadolu Ajansı",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMFhQYjZNWnJQUWNfN09PQTNfNy1tekI3ODRhd2Vfc015OFJrcldnMnZLZ2ViNDFsS0FOU2ZESmNRTFN0WUNtal9UU0c5UjRteGFtQnNaYjh4TUVINFVwWVlEaVpZTS1oeElwZDFZZllDWExKWjVucWpMMklrNks5d1pTMklmUW5lQlFaR290SDRFRU5iaXl6V3VYbzBweEJDbVU2SmI4YlNSOE9yc0h1RDA2cXV5S2s5aDUza3k4M3BVaDUtdWJEdQ?oc=5",
-      "published": "2026-07-19T12:41:20+00:00",
-      "compound": -0.8402,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Russia claims capture of another settlement in Ukraine’s Dnipropetrovsk region",
-      "source": "Anadolu Ajansı",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQeldTMkxuZkNNRmNSTlI3OHZsa2tWaHhvOWxTSEFsTkJla1F3NThtUWNZZDRYV2NBN2l1eEhXbURKYUxNaDV3cy1FcWNMOVBtNTZldjBzbExQdXZIZzNpS2I0MThZU0liQTBHWEhtMTRNWXJXQ3MzYnhZYWNzSlUzaWdCNHVOUnVVZ25DWGZMOE1WSGdYUndlQm5BYjNPRm9feFRrUUVkUlJWUDM1elNWZE5GenBHMEdBOHptdjVsUVgzVVNNS0poWTZB?oc=5",
-      "published": "2026-07-19T12:41:20+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Russia claims capture of another settlement in Ukraine’s Dnipropetrovsk region",
-      "source": "Anadolu Ajansı",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWUQtdGdzMWRVdHM2TmM3QUN6QTF2QnE2QVFoNlN2NElac2FQcU9YeF81S01TX01VRGpPRmhLeEJEdFJNWEU3NHVROWhZZ0FFWUN6TUVoNXlkR3JCSEtkdENFeV9VNHhXbHNrUy1MbEFqbUt5YXhBaE9hRDN6c2ZzNkM0ZkZjMW9QS0d2X3lDZk5jb1pGRXo1NDllbDJVZkRjbHdGZTZnNG5EODVWODFGSHR5ZV9TV0w2NzFGQUU0b2JsT2Vm?oc=5",
-      "published": "2026-07-19T12:41:20+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Indian court rejects bid to release hunger-striking activist from hospital",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/19/indian-court-rejects-bid-to-release-hunger-striking-activist-from-hospital?traffic_source=rss",
-      "published": "2026-07-19T12:38:24+00:00",
-      "compound": -0.8519,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Spain or Argentina, who will win the FIFA World Cup? Ex-player predictions",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/19/spain-argentina-fifa-world-cup-who-will-win-prediction-ex-players?traffic_source=rss",
-      "published": "2026-07-19T12:29:57+00:00",
-      "compound": 0.802,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Zelenskyy says Ukraine struck 3 oil depots, fuel facility in Russia’s Stavropol region",
-      "source": "Anadolu Ajansı",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQ1hkSExOOGR3cWZoN0pOOWU5ejNkRGFoX19uZ1VtLTdMM0FhS2VaUVp4UVU2Y0p5TndxaC1qYVhhYjBGSTl1SVEzQXhpbGZ0WjJDX1dXWU1IME0yQm9Da2xjUDBVNGJjeUFPNzgtMUdUQ3ZhWHlhMEZOSnVYaE1nbFo1a1pUNTZ1UGc0UkNacTI1bTUwOW9veW9ZdksxSy1yTGI1M3Y2U2V5clVYNDY5ckVyUWU5bmgwV1JzNVV0RGx5R1dEWHpZVXhCUl8tRldITlNJ?oc=5",
-      "published": "2026-07-19T12:29:15+00:00",
-      "compound": -0.4588,
-      "label": "negative",
-      "entities": [
-        "Volodymyr Zelensky",
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Russia unleashes largest ballistic missile attack of the war",
-      "source": "The Telegraph",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTE5iUWV3XzNCdWNkWUtQQUNadkk4WjhXcTBFNE12WnVKOS1ZQTY1V0h5UHdCODJUcTFBTlpEYTZETWZtYXhKbm54MFRqMmJfeUpYd0RCS2N2dGxEYW05RVhBY3psN01GQmRfZEJoTFZ2THZJaGhmemNUNTdiTFJMd2lGc21nbE9qYm85YnNPazBSRWV2T2Zma1dGMlZnNkh1aGp3QmN2Sm1oaGJL?oc=5",
-      "published": "2026-07-19T12:21:00+00:00",
-      "compound": -0.9325,
-      "label": "negative",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "How Russia downed a passenger plane and escaped justice | Ukraine This Week",
-      "source": "The Kyiv Independent",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQemxRYld5WGlQY2FIOWE5S1U4OE5vcEplV3RQWWdDQWZudWdYR3BkaTVxR0JOLURxOWtvRTc0bndKNktKTkNCdzhuNGVuMlFKMzM1RV9fRjAzR202X3FTaFpodldiSjVBVENta0ZLZFM4bzdUYTJWX29MamwxOGdtdHFkNWFaLXlQZ1FhcktkdkdGbC1EeXBNcmZhRzJMaEJndDB4Ug?oc=5",
-      "published": "2026-07-19T12:07:58+00:00",
-      "compound": 0.7783,
-      "label": "positive",
-      "entities": [
-        "Russia",
-        "Ukraine",
-        "Kyiv"
-      ]
-    },
-    {
-      "title": "India’s cockroach politics is no joke",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/opinions/2026/7/19/indias-cockroach-politics-is-no-joke?traffic_source=rss",
-      "published": "2026-07-19T11:57:47+00:00",
-      "compound": -0.2472,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Every Russian Orthodox Priest Abroad Is Linked to Russian Intelligence, Former HUR Official Says",
-      "source": "UNITED24 Media",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOOE9pTGg0bUkyTGZySUZLcE5uS0gwcXpVZ1AxWEFjMXdnMl9JZEE1NHFsNEZ2cmpyN09Mem9fOS1hR3ZwclJLVC15dVFGanp1OXVDVDUxNHBadmEtREdrcnFuX1F6SV8ycWNadWd2eTYwRnJRMTZLbTlRVG16M2Z3ZnF5LVpLdHI4SzNUX2RXbnFqRXZ0RV84MHoydGY1Sy1XakhVUlZRalUtV1FZQnlVemE4Q2RIcXptaGxDdGxyMXp6cnNldjJYU2pWdnVoZDVCYUQ3X3FIck4zUQ?oc=5",
-      "published": "2026-07-19T11:54:21+00:00",
-      "compound": 0.7351,
-      "label": "positive",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "Russia hits Ukraine with one of the largest ballistic barrages of the war",
-      "source": "politico.eu",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbWsxaUFwRkNoeFZkY0VJNmVnR3J0eF9oenFSMXpORzFCV090dUZQZU1VTjduZVh6TnNZbkJQdU0yVFFEY0xCSXc4TFBzclMxVEJycHJJaDdWNS1Xc1ZfTEdRVUMzeXJGNGtTWE5yQjJpWFpHbzd2RC1lUzBFR2NjM3BHWEVOVzI2R2VEUWVFQQ?oc=5",
-      "published": "2026-07-19T11:36:29+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Ukraine War, Day 1,607: Russia Strikes Kyiv as Zelensky Reconsiders Firing of Defense Minister Fedorov",
-      "source": "EA WorldView",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQjU3bTVCMHNjZ0tIc1djNHgtcVpocGowYllGNTJyQU5USlotbmFJXy1BOF8zRXo4ZHdxaGZldmxPdGp2Nlo4UnowUGFTU2Y0d0ZSd3N2RnYwZGkwWkszYWliV2JseDJyRUtqbE5qV19naHE2a1ZZTWpNeTFyc041ZGFYTmk1aElZR0pLaU9wWEFmU29iX0VUb05COUd6Ykd2V0tvVWhYbnk5dXk0WFJkM2cwV1dGeHJmR1hMcw?oc=5",
-      "published": "2026-07-19T11:30:14+00:00",
-      "compound": -0.9393,
-      "label": "negative",
-      "entities": [
-        "Volodymyr Zelensky",
-        "Russia",
-        "Ukraine",
-        "Kyiv"
       ]
     }
   ]

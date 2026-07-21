@@ -1,7 +1,7 @@
 {
   "id": "china_taiwan",
-  "updated": "2026-07-21T08:44:32+00:00",
-  "overall_tone": -0.1423,
+  "updated": "2026-07-21T14:21:59+00:00",
+  "overall_tone": -0.1441,
   "rsf_as_of": "2025 (aprox.)",
   "outlets": [
     {
@@ -15,9 +15,9 @@
       "lat": 25.2867,
       "lon": 51.5333,
       "rsf": 84,
-      "articles": 1320,
-      "tone_avg": -0.2088,
-      "tone_delta": -0.0665
+      "articles": 1345,
+      "tone_avg": -0.2125,
+      "tone_delta": -0.0684
     },
     {
       "name": "Taipei Times",
@@ -30,9 +30,9 @@
       "lat": 25.033,
       "lon": 121.5654,
       "rsf": 24,
-      "articles": 963,
+      "articles": 964,
       "tone_avg": -0.0427,
-      "tone_delta": 0.0996
+      "tone_delta": 0.1014
     },
     {
       "name": "BBC",
@@ -45,9 +45,9 @@
       "lat": 51.5188,
       "lon": -0.144,
       "rsf": 20,
-      "articles": 394,
-      "tone_avg": -0.239,
-      "tone_delta": -0.0967
+      "articles": 402,
+      "tone_avg": -0.2431,
+      "tone_delta": -0.099
     },
     {
       "name": "NPR",
@@ -60,9 +60,9 @@
       "lat": 38.899,
       "lon": -77.008,
       "rsf": 57,
-      "articles": 133,
-      "tone_avg": -0.3014,
-      "tone_delta": -0.1591
+      "articles": 136,
+      "tone_avg": -0.3037,
+      "tone_delta": -0.1596
     },
     {
       "name": "TIME",
@@ -75,9 +75,24 @@
       "lat": 40.748,
       "lon": -73.983,
       "rsf": 57,
-      "articles": 57,
-      "tone_avg": -0.1277,
-      "tone_delta": 0.0146
+      "articles": 58,
+      "tone_avg": -0.1255,
+      "tone_delta": 0.0186
+    },
+    {
+      "name": "Focus Taiwan (CNA)",
+      "url": "https://focustaiwan.tw",
+      "city": "Taipéi",
+      "country": "Taiwán",
+      "iso3": "TWN",
+      "type": "agencia",
+      "desc": "El servicio en inglés de la agencia central de noticias taiwanesa (CNA).",
+      "lat": 25.04,
+      "lon": 121.56,
+      "rsf": 24,
+      "articles": 50,
+      "tone_avg": -0.0655,
+      "tone_delta": 0.0786
     },
     {
       "name": "Reuters",
@@ -92,22 +107,7 @@
       "rsf": 20,
       "articles": 45,
       "tone_avg": -0.207,
-      "tone_delta": -0.0647
-    },
-    {
-      "name": "Focus Taiwan (CNA)",
-      "url": "https://focustaiwan.tw",
-      "city": "Taipéi",
-      "country": "Taiwán",
-      "iso3": "TWN",
-      "type": "agencia",
-      "desc": "El servicio en inglés de la agencia central de noticias taiwanesa (CNA).",
-      "lat": 25.04,
-      "lon": 121.56,
-      "rsf": 24,
-      "articles": 44,
-      "tone_avg": -0.0858,
-      "tone_delta": 0.0565
+      "tone_delta": -0.0629
     },
     {
       "name": "South China Morning Post",
@@ -120,9 +120,9 @@
       "lat": 22.3193,
       "lon": 114.1694,
       "rsf": 135,
-      "articles": 27,
-      "tone_avg": -0.0745,
-      "tone_delta": 0.0678
+      "articles": 29,
+      "tone_avg": -0.0683,
+      "tone_delta": 0.0758
     },
     {
       "name": "The Guardian",
@@ -137,7 +137,7 @@
       "rsf": 20,
       "articles": 23,
       "tone_avg": 0.0997,
-      "tone_delta": 0.242
+      "tone_delta": 0.2438
     },
     {
       "name": "Institute for the Study of War",
@@ -152,7 +152,7 @@
       "rsf": 57,
       "articles": 20,
       "tone_avg": -0.5994,
-      "tone_delta": -0.4571
+      "tone_delta": -0.4553
     },
     {
       "name": "Global Times",
@@ -165,9 +165,9 @@
       "lat": 39.91,
       "lon": 116.41,
       "rsf": 178,
-      "articles": 18,
-      "tone_avg": 0.0862,
-      "tone_delta": 0.2285
+      "articles": 20,
+      "tone_avg": 0.0677,
+      "tone_delta": 0.2118
     },
     {
       "name": "Nikkei Asia",
@@ -182,7 +182,22 @@
       "rsf": 66,
       "articles": 14,
       "tone_avg": 0.1578,
-      "tone_delta": 0.3001
+      "tone_delta": 0.3019
+    },
+    {
+      "name": "Bloomberg",
+      "url": "https://www.bloomberg.com",
+      "city": "Nueva York",
+      "country": "Estados Unidos",
+      "iso3": "USA",
+      "type": "privado",
+      "desc": "Grupo financiero de Michael Bloomberg; el mercado como lente de la geopolítica.",
+      "lat": 40.7614,
+      "lon": -73.969,
+      "rsf": 57,
+      "articles": 12,
+      "tone_avg": -0.2707,
+      "tone_delta": -0.1266
     },
     {
       "name": "The Times of India",
@@ -197,22 +212,7 @@
       "rsf": 151,
       "articles": 11,
       "tone_avg": -0.0083,
-      "tone_delta": 0.134
-    },
-    {
-      "name": "Bloomberg",
-      "url": "https://www.bloomberg.com",
-      "city": "Nueva York",
-      "country": "Estados Unidos",
-      "iso3": "USA",
-      "type": "privado",
-      "desc": "Grupo financiero de Michael Bloomberg; el mercado como lente de la geopolítica.",
-      "lat": 40.7614,
-      "lon": -73.969,
-      "rsf": 57,
-      "articles": 11,
-      "tone_avg": -0.2954,
-      "tone_delta": -0.1531
+      "tone_delta": 0.1358
     },
     {
       "name": "Hindustan Times",
@@ -227,7 +227,7 @@
       "rsf": 151,
       "articles": 10,
       "tone_avg": -0.7346,
-      "tone_delta": -0.5923
+      "tone_delta": -0.5905
     },
     {
       "name": "CGTN",
@@ -242,7 +242,7 @@
       "rsf": 178,
       "articles": 9,
       "tone_avg": 0.3099,
-      "tone_delta": 0.4522
+      "tone_delta": 0.454
     },
     {
       "name": "Associated Press",
@@ -257,7 +257,7 @@
       "rsf": 57,
       "articles": 9,
       "tone_avg": -0.0027,
-      "tone_delta": 0.1396
+      "tone_delta": 0.1414
     },
     {
       "name": "The Japan Times",
@@ -272,7 +272,7 @@
       "rsf": 66,
       "articles": 7,
       "tone_avg": -0.2112,
-      "tone_delta": -0.0689
+      "tone_delta": -0.0671
     },
     {
       "name": "The Independent",
@@ -287,7 +287,7 @@
       "rsf": 20,
       "articles": 7,
       "tone_avg": -0.137,
-      "tone_delta": 0.0053
+      "tone_delta": 0.0071
     },
     {
       "name": "Xinhua",
@@ -302,7 +302,7 @@
       "rsf": 178,
       "articles": 6,
       "tone_avg": -0.0779,
-      "tone_delta": 0.0644
+      "tone_delta": 0.0662
     },
     {
       "name": "WION",
@@ -317,7 +317,7 @@
       "rsf": 151,
       "articles": 5,
       "tone_avg": -0.362,
-      "tone_delta": -0.2197
+      "tone_delta": -0.2179
     },
     {
       "name": "Firstpost",
@@ -332,7 +332,7 @@
       "rsf": 151,
       "articles": 5,
       "tone_avg": -0.0264,
-      "tone_delta": 0.1159
+      "tone_delta": 0.1177
     },
     {
       "name": "The Wall Street Journal",
@@ -347,7 +347,7 @@
       "rsf": 57,
       "articles": 4,
       "tone_avg": 0.0383,
-      "tone_delta": 0.1806
+      "tone_delta": 0.1824
     },
     {
       "name": "CNN",
@@ -362,7 +362,7 @@
       "rsf": 57,
       "articles": 4,
       "tone_avg": 0.0212,
-      "tone_delta": 0.1635
+      "tone_delta": 0.1653
     },
     {
       "name": "The Telegraph",
@@ -377,7 +377,7 @@
       "rsf": 20,
       "articles": 4,
       "tone_avg": -0.4777,
-      "tone_delta": -0.3354
+      "tone_delta": -0.3336
     },
     {
       "name": "ABC News",
@@ -392,7 +392,7 @@
       "rsf": 57,
       "articles": 4,
       "tone_avg": -0.1394,
-      "tone_delta": 0.0029
+      "tone_delta": 0.0047
     },
     {
       "name": "The Hindu",
@@ -407,7 +407,7 @@
       "rsf": 151,
       "articles": 4,
       "tone_avg": 0.3262,
-      "tone_delta": 0.4685
+      "tone_delta": 0.4703
     },
     {
       "name": "The New York Times",
@@ -422,7 +422,7 @@
       "rsf": 57,
       "articles": 3,
       "tone_avg": -0.4025,
-      "tone_delta": -0.2602
+      "tone_delta": -0.2584
     },
     {
       "name": "The National",
@@ -437,7 +437,7 @@
       "rsf": 164,
       "articles": 3,
       "tone_avg": -0.6326,
-      "tone_delta": -0.4903
+      "tone_delta": -0.4885
     },
     {
       "name": "The Chosun Ilbo",
@@ -452,7 +452,7 @@
       "rsf": 61,
       "articles": 3,
       "tone_avg": -0.3402,
-      "tone_delta": -0.1979
+      "tone_delta": -0.1961
     },
     {
       "name": "NBC News",
@@ -467,7 +467,7 @@
       "rsf": 57,
       "articles": 3,
       "tone_avg": -0.1858,
-      "tone_delta": -0.0435
+      "tone_delta": -0.0417
     },
     {
       "name": "The Washington Post",
@@ -482,7 +482,7 @@
       "rsf": 57,
       "articles": 3,
       "tone_avg": -0.0145,
-      "tone_delta": 0.1278
+      "tone_delta": 0.1296
     },
     {
       "name": "Deutsche Welle",
@@ -497,7 +497,7 @@
       "rsf": 11,
       "articles": 3,
       "tone_avg": 0.2199,
-      "tone_delta": 0.3622
+      "tone_delta": 0.364
     },
     {
       "name": "CNBC",
@@ -512,7 +512,7 @@
       "rsf": 57,
       "articles": 3,
       "tone_avg": 0.051,
-      "tone_delta": 0.1933
+      "tone_delta": 0.1951
     },
     {
       "name": "The Jerusalem Post",
@@ -527,7 +527,7 @@
       "rsf": 112,
       "articles": 2,
       "tone_avg": 0.0455,
-      "tone_delta": 0.1878
+      "tone_delta": 0.1896
     },
     {
       "name": "France 24",
@@ -542,7 +542,7 @@
       "rsf": 25,
       "articles": 2,
       "tone_avg": 0.0,
-      "tone_delta": 0.1423
+      "tone_delta": 0.1441
     },
     {
       "name": "Arab News",
@@ -557,7 +557,7 @@
       "rsf": 165,
       "articles": 2,
       "tone_avg": 0.0,
-      "tone_delta": 0.1423
+      "tone_delta": 0.1441
     },
     {
       "name": "CBC News",
@@ -572,7 +572,7 @@
       "rsf": 21,
       "articles": 2,
       "tone_avg": -0.3502,
-      "tone_delta": -0.2079
+      "tone_delta": -0.2061
     },
     {
       "name": "India Today",
@@ -587,7 +587,7 @@
       "rsf": 151,
       "articles": 2,
       "tone_avg": -0.0052,
-      "tone_delta": 0.1371
+      "tone_delta": 0.1389
     },
     {
       "name": "Fox News",
@@ -602,7 +602,7 @@
       "rsf": 57,
       "articles": 2,
       "tone_avg": 0.2929,
-      "tone_delta": 0.4352
+      "tone_delta": 0.437
     },
     {
       "name": "CSIS",
@@ -617,7 +617,7 @@
       "rsf": 57,
       "articles": 1,
       "tone_avg": -0.7184,
-      "tone_delta": -0.5761
+      "tone_delta": -0.5743
     },
     {
       "name": "Financial Times",
@@ -632,7 +632,7 @@
       "rsf": 20,
       "articles": 1,
       "tone_avg": 0.0,
-      "tone_delta": 0.1423
+      "tone_delta": 0.1441
     },
     {
       "name": "Euronews",
@@ -647,7 +647,7 @@
       "rsf": 25,
       "articles": 1,
       "tone_avg": -0.8316,
-      "tone_delta": -0.6893
+      "tone_delta": -0.6875
     },
     {
       "name": "Forbes",
@@ -662,7 +662,7 @@
       "rsf": 57,
       "articles": 1,
       "tone_avg": 0.7506,
-      "tone_delta": 0.8929
+      "tone_delta": 0.8947
     },
     {
       "name": "Kyodo News",
@@ -677,7 +677,7 @@
       "rsf": 66,
       "articles": 1,
       "tone_avg": -0.4215,
-      "tone_delta": -0.2792
+      "tone_delta": -0.2774
     },
     {
       "name": "The Hill",
@@ -692,7 +692,7 @@
       "rsf": 57,
       "articles": 1,
       "tone_avg": 0.0,
-      "tone_delta": 0.1423
+      "tone_delta": 0.1441
     },
     {
       "name": "NDTV",
@@ -707,7 +707,7 @@
       "rsf": 151,
       "articles": 1,
       "tone_avg": 0.0,
-      "tone_delta": 0.1423
+      "tone_delta": 0.1441
     },
     {
       "name": "Anadolu Agency",
@@ -722,7 +722,7 @@
       "rsf": 159,
       "articles": 1,
       "tone_avg": 0.0,
-      "tone_delta": 0.1423
+      "tone_delta": 0.1441
     },
     {
       "name": "NK News",
@@ -737,7 +737,7 @@
       "rsf": 61,
       "articles": 1,
       "tone_avg": -0.6597,
-      "tone_delta": -0.5174
+      "tone_delta": -0.5156
     },
     {
       "name": "CBS News",
@@ -752,7 +752,7 @@
       "rsf": 57,
       "articles": 1,
       "tone_avg": 0.9118,
-      "tone_delta": 1.0541
+      "tone_delta": 1.0559
     },
     {
       "name": "The Times of Israel",
@@ -767,33 +767,33 @@
       "rsf": 112,
       "articles": 1,
       "tone_avg": 0.0,
-      "tone_delta": 0.1423
+      "tone_delta": 0.1441
     }
   ],
   "by_country": {
     "QAT": {
       "outlets": 1,
-      "articles": 1320
+      "articles": 1345
     },
     "TWN": {
       "outlets": 2,
-      "articles": 1007
+      "articles": 1014
     },
     "GBR": {
       "outlets": 6,
-      "articles": 474
+      "articles": 482
     },
     "USA": {
       "outlets": 17,
-      "articles": 260
+      "articles": 265
     },
     "HKG": {
       "outlets": 1,
-      "articles": 27
+      "articles": 29
     },
     "CHN": {
       "outlets": 3,
-      "articles": 33
+      "articles": 35
     },
     "JPN": {
       "outlets": 3,
@@ -839,7 +839,7 @@
   "others": [
     {
       "source": "Taiwan News",
-      "articles": 79
+      "articles": 83
     },
     {
       "source": "Travel And Tour World",
@@ -898,7 +898,7 @@
       "articles": 6
     }
   ],
-  "others_total": 627,
-  "matched_articles": 3202,
-  "total_articles": 3829
+  "others_total": 636,
+  "matched_articles": 3251,
+  "total_articles": 3887
 }

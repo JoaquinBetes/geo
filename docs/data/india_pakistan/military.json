@@ -1,6 +1,6 @@
 {
   "id": "india_pakistan",
-  "updated": "2026-07-21T08:44:35+00:00",
+  "updated": "2026-07-21T14:22:02+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,11 +41,11 @@
     "to": "2026-07-21"
   },
   "kpis": {
-    "events_total": 6,
-    "events_unlocated": 304,
-    "events_7d": 2,
+    "events_total": 7,
+    "events_unlocated": 308,
+    "events_7d": 3,
     "events_prev_7d": 2,
-    "hottest_place": "Karachi"
+    "hottest_place": "Islamabad"
   },
   "daily": [
     {
@@ -89,6 +89,15 @@
       "total": 2,
       "strike": 1,
       "ground": 1,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-21",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -154,19 +163,29 @@
       "title": "Punjab Police seize Pakistan-linked weapons cache in Amritsar, three held",
       "source": "The Statesman",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNkVWX0FTODEtTW9UeHJmeWxDam9NUXUxSUZ6cDZ6UjAyTUVSUkNTN3FyNmFkR0JwbE9aRlp1eGxXbHdUVGJBZEdOWm8wYzdNaFZCRnJHLWptWFNzazF4Ni1JbXdYbFo4RV8tQldYY1hSYmVxajdvS2ZQTGFEYXlNQWJZckhLX3lYTmZ6VWs3QVlyVktJS09UVGhYcEJCSnJNai1CN0w1c1hlMS1INFAybDJCeWhhRWRLOXRRRWRNZlrSAcYBQVVfeXFMTXQ3ZkNlanlURnNpMDRKSG1IT2p0eUZlUVFlN1ZpeElfQVZUUEw2ZXNRa3Y3WDN5eHlQNThReTVZaEZEcUEtbHNTZU42WXpsdFpXbVE4RjZaeGNJU3hONi1ndldVbGNsdVVhRTJ5SkxRTUYtM09jMnNsa1BVbFFkZER1aE1zU2JiRWJ0SmFtSkxqa3p1Z2I3bU9KYk1IUmRVUFMyWWFEb3NCZmI4UzZGSHRyaWN1cXBnYk41M21Zc3J3VDhDNUR3?oc=5"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "strike",
+      "place": "Islamabad",
+      "lat": 33.6844,
+      "lon": 73.0479,
+      "title": "Iran envoy in Pakistan as Islamabad pushes US talks amid fresh strikes",
+      "source": "India Today",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVFJsejBEemJCNHlDRERFRTlxcDRJVmpiUV90b0tqUW83UlVodlAwQ3BBdGxKR1owa3hKSkZBbE0ybHZGNDhWdnUxS3BEcmJPbGx3Q0U2SXo5N04xbFMwbGlyOW9NZEdWbFFscHU4T2E3NHV1V1dCUWR4SFM5MGtiU09GS0V0UWp0UkxNelFHUGN3YmZOdlZvckZjcXlyMVRObWhMdXFlYWZRandnUmgzUVhSenA2TE9TZEh1UV9PSEjSAcYBQVVfeXFMTnRqR2JMQzlsU0tPV0UtbDM2ZnVFSFhQbXotMS0xaEdCa2Zob0RhMlJCQUc3TmdEcDRTQWliVkdSbEhhcU5OZ0oyb05Da0VQVXVqcVRZQ19SVVdHd2tUZE1XN3E5YWlNalNLbG1OYWdWdEc4S2N6OWpIbTc2Q2JzZmhaS2xoblZCVUxkRTk4a3gteVJIUDZoMkxoemlWa05BaFZhSExFeXM2QVZlek5YVmN3YnFFVGtQajZZWGIxRnVNTm8ySDF3?oc=5"
     }
   ],
   "top_places": [
+    {
+      "place": "Islamabad",
+      "count": 2
+    },
     {
       "place": "Karachi",
       "count": 1
     },
     {
       "place": "Ambala",
-      "count": 1
-    },
-    {
-      "place": "Islamabad",
       "count": 1
     },
     {

@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-07-20T19:56:01+00:00",
+  "updated": "2026-07-21T03:45:06+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-07-20"
+    "to": "2026-07-21"
   },
   "kpis": {
-    "events_total": 237,
-    "events_unlocated": 581,
-    "events_7d": 84,
-    "events_prev_7d": 81,
+    "events_total": 244,
+    "events_unlocated": 593,
+    "events_7d": 82,
+    "events_prev_7d": 63,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -363,8 +363,8 @@
     },
     {
       "date": "2026-07-19",
-      "total": 30,
-      "strike": 26,
+      "total": 31,
+      "strike": 27,
       "ground": 3,
       "infrastructure": 0,
       "air_defense": 1,
@@ -372,10 +372,19 @@
     },
     {
       "date": "2026-07-20",
-      "total": 16,
-      "strike": 13,
+      "total": 21,
+      "strike": 17,
       "ground": 0,
-      "infrastructure": 3,
+      "infrastructure": 4,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-21",
+      "total": 1,
+      "strike": 0,
+      "ground": 0,
+      "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
     }
@@ -2592,6 +2601,16 @@
       "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNQ2dxUUpDS0hGUUJuSjU0d01KQ081T0R2aEJHVmlZdEZ5SWxhNUtESlp2OTBnNENUc0lsOWNUYWxpWi15UXZza1RNT2hseHUzR1d3OTdBVkRCY01KbzAyYUg3UXlRdlhXV18zRFNDeWpiYnBtNEROMElYd2toTlZmT2VLMFpucFM1R0NWc2cwbm9pZFRTRGZvV1BTeU9UdENfUUNmNG5MY1BsbVVMa0o3bjFTQ3h2Q3dRWlAwQV9PNXIxZkdXcXFsZUlMd256dVpvMlEtbS15YUhYeng4Qlh1Y2RGZVpYVHdtd3c1UWo1cHh6YzhYSEdYbDdYT240UQ?oc=5"
     },
     {
+      "date": "2026-07-19",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine-Russia war: Deadly Kyiv ballistic missile attack",
+      "source": "LiveNOW from FOX",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1fOXBXTUloVHV2bXdJeXBBaDM2Q21zV05CN3AyNlJNaGw5NmU1R0NxNlNPSHg0dHZVOTBjQ0NVNi1ocG9DdlkzTFAzWVJBcjZSMjBQTGNrYS1UZnctemVGdWlnMNIBaEFVX3lxTE53Yk5tbXRRWERPNUdPempyVjNIZGNZR1M4S002ZHZWd054dFZmRDloZ3ViZ0wwVmJWejJjenpNeGJLbVpXYng2anlEMXlCNUpMZngxUGRhN1pNRW02X1RJUE9kX1VWLU1C?oc=5"
+    },
+    {
       "date": "2026-07-20",
       "type": "infrastructure",
       "place": "Odesa",
@@ -2750,20 +2769,80 @@
       "title": "Ten killed as Russian attacks on merchant ships in Black Sea intensify",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/articles/c4gvpv3ewv2o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "date": "2026-07-20",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Ukraine fires 400 drones toward Moscow as Zelenskyy grapples with protests",
+      "source": "PBS",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZVBZS0Y4NXZnZkU1c1oxeVhiNEJZWUt6ZXcxeHVfQjVSRDd4WHc5U2dkMHBuUUlucmZUZ1FxLUdqVFRHME5sUXpsWXpZVUVXQjA1VWQtVW5NbGE5UEJjMUtpd0F1N1dWa2NuLXhOaVBrYXdmNWNIc1E5Nm5fY2tuUTBBaERlaVFrWVJHTmJIS1IyTHV5ajZvc3F0NHBrMFNLUUd0R19lbkloQlAwalHSAbMBQVVfeXFMT2JTTFd3NWhEdWg2dHZ4MUVubl9qc1FheGExQzU2eGFxTkVlMFFGcmVOajJ4QTl2aTlJU0N3aDc1SGM4SjFQWUVOdFYyZUhZUG1tYno2eFpnRDNva2l2bDNqTl9BT21GOEx2aWFsZGd3Zmk2NzMyOG1wYjNTcFBkTnd5YUZDX2ZqM3dvRS1XM2ZfbU01X3lOTVBsdnpFUlhqV183RkVIb21mbVp4OUdWVWktWmc?oc=5"
+    },
+    {
+      "date": "2026-07-20",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Ukraine unleashes more than 400 drones near Moscow in one of war's biggest attacks",
+      "source": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOc3E4RzdPd0VtNXVwSnZncldieV9xS0xLdHJITnVZVUF2OUlFbGZsNkdETnluWGh0VnJ0cGRWQVBpS190UktCcGFvUm80amQ3WnMtVEJtR3IwYnNYd0dEemJ4cC1STV80Rm1hQmVCQUVBWW9iOHFLRVZYRHR1SlpoSTM5djZIQjd4S2NGOC1faFhJZ2NR?oc=5"
+    },
+    {
+      "date": "2026-07-20",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Ukraine fired 400 drones toward Moscow, city's mayor says",
+      "source": "CBC",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1GTEdQa0gtWmp5MDQtWU5ycXhGUENiQTY0R3NBRnhMWGIyTXpHTjQyU3VGTndQNU80X3kyYXp2RXdidmR5QzN4VE84aDBXSm5BTW03czNPdGJpanFMOWdfbzlqcGtwUG94ckhpT08yM293N0J3UlE?oc=5"
+    },
+    {
+      "date": "2026-07-20",
+      "type": "infrastructure",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Ukraine war latest: Zelensky confirms Ukrainian strikes on Russian oil depot, Moscow Oblast logistics facilities, 6 Black Sea vessels",
+      "source": "The Kyiv Independent",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBFWUM4WUtSWjd1NFAxLXZzaWY3eDVUTW51WURwOW9tTV9BRkpnMEdkai1HakRlUjZMajNCWFBZY0FUenlnN1F2T3RGRExNWjlHUzNFM3R4ZmxINlc0WUZSczNQaGxEdnJ2ZkNERQ?oc=5"
+    },
+    {
+      "date": "2026-07-20",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Ten Wounded as Ukrainian Drones Strike Moscow Region",
+      "source": "U.S. News & World Report",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTTdXWEdKWkVWOWk0Qm9PLUxEQy1PVm43NHAxenBBZi10TW1VZ0tLYjZCemlEWnJSZ19fX1FUT25IZk1COF9JMXczeFVCVFppVmZRcVdkMng2djVqZDVpMDVZWHBSN3hLaWFCSVB4Zm1CYXRfWlU3WV9VMnVxV2VJSV84YUtiNTQybnNHcmJRWS05T0RraUs2Q1BQMEJWNkMtQ2xkSGFhRm84bHFMSEpDMUJ4ek9GNkxlTFFKcENubnZqSDRWeHBVSjRVNGVVdVhMaW5UZkNkM3R6TmM?oc=5"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "infrastructure",
+      "place": "Odesa",
+      "lat": 46.4825,
+      "lon": 30.7233,
+      "title": "Ukraine war briefing: Moscow targeted as Wildberries warehouse attacks continue",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/21/ukraine-war-briefing-moscow-targeted-as-wildberries-warehouse-attacks-continue"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 143
+      "count": 144
     },
     {
       "place": "Moscow",
-      "count": 38
+      "count": 41
     },
     {
       "place": "Odesa",
-      "count": 7
+      "count": 8
     },
     {
       "place": "Zaporizhzhia",

@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-22T03:46:06+00:00",
+  "updated": "2026-07-22T08:44:27+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-07-22"
   },
   "kpis": {
-    "events_total": 232,
-    "events_unlocated": 606,
-    "events_7d": 77,
+    "events_total": 236,
+    "events_unlocated": 613,
+    "events_7d": 81,
     "events_prev_7d": 108,
     "hottest_place": "Strait of Hormuz"
   },
@@ -284,10 +284,10 @@
     },
     {
       "date": "2026-07-22",
-      "total": 1,
-      "strike": 1,
+      "total": 5,
+      "strike": 4,
       "ground": 0,
-      "infrastructure": 0,
+      "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
     }
@@ -2612,20 +2612,60 @@
       "title": "What is Pickaxe Mountain, Iran’s underground nuclear facility Trump is threatening to attack?",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/jul/22/pickaxe-mountain-iran-nuclear-site-trump"
+    },
+    {
+      "date": "2026-07-22",
+      "type": "infrastructure",
+      "place": "Bandar Abbas",
+      "lat": 27.1832,
+      "lon": 56.2666,
+      "title": "‘It’s truly hell here’: airstrikes, repression and water shortages become ‘new normal’ for Iranians",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/22/its-truly-hell-here-airstrikes-repression-and-water-shortages-become-new-normal-for-iranians"
+    },
+    {
+      "date": "2026-07-22",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Wednesday briefing: How Trump’s Iran gamble has produced a crisis reshaping the global order",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/22/wednesday-briefing-how-trumps-iran-gamble-has-produced-a-crisis-reshaping-the-global-order"
+    },
+    {
+      "date": "2026-07-22",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Iran’s foreign minister describes moment of attack that killed Khamenei",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/22/iran-foreign-minister-abbas-aragchi-attack-killed-khamenei"
+    },
+    {
+      "date": "2026-07-22",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Air defences activate in Iran and flames rise from US attacks",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/22/air-defences-activate-in-iran-and-flames-rise-from-us-attacks?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 103
+      "count": 104
     },
     {
       "place": "Tehran",
-      "count": 45
+      "count": 47
     },
     {
       "place": "Bandar Abbas",
-      "count": 11
+      "count": 12
     },
     {
       "place": "Jerusalem",

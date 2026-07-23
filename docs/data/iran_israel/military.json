@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-22T19:43:09+00:00",
+  "updated": "2026-07-23T03:44:43+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -38,13 +38,13 @@
   },
   "window": {
     "from": "2026-02-27",
-    "to": "2026-07-22"
+    "to": "2026-07-23"
   },
   "kpis": {
-    "events_total": 240,
-    "events_unlocated": 624,
-    "events_7d": 85,
-    "events_prev_7d": 108,
+    "events_total": 244,
+    "events_unlocated": 643,
+    "events_7d": 81,
+    "events_prev_7d": 92,
     "hottest_place": "Strait of Hormuz"
   },
   "daily": [
@@ -284,10 +284,19 @@
     },
     {
       "date": "2026-07-22",
-      "total": 9,
-      "strike": 6,
+      "total": 11,
+      "strike": 8,
       "ground": 0,
       "infrastructure": 3,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-23",
+      "total": 2,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
     }
@@ -2692,16 +2701,56 @@
       "title": "War on Iran: Hegseth wants $70B more to keep fighting",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/22/war-on-iran-hegseth-wants-70b-more-to-keep-fighting?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-22",
+      "type": "strike",
+      "place": "Eilat",
+      "lat": 29.5577,
+      "lon": 34.9519,
+      "title": "Iranian missiles attack Jordan, explosions heard in Eilat",
+      "source": "The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPd3JfNXgyNV9ud1pSY1Fyb1hRQllrMG9pQUlEbm9xVzNWbnMzNndEUzJzVkFzdUVFLWJCTWZCS3RMYXp3TVR2eDJWUzJXZVNwNkRqOFhBT3luTHdFVmtLQXl5VXp2aklVMWpadFBHd3dlTEFic1hRaF95VFRpR3VhU2J3SXAxVkdqQmU2YmI0VTcxX2t2ZmR0N2ZYU2p1Zzh2RFpfVA?oc=5"
+    },
+    {
+      "date": "2026-07-22",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "US launches new strikes as Iran warns of regional turmoil",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/22/iran-warns-of-regional-turmoil-if-us-threats-and-attacks-do-not?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-23",
+      "type": "infrastructure",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Yemen’s Houthis claim attacks on Red Sea tankers as US launches 12th night of strikes on Iran – Middle East crisis live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/live/2026/jul/23/us-iran-war-live-updates-strikes-houthis-red-sea-saudi-nuclear-deal-middle-east-crisis-latest-news"
+    },
+    {
+      "date": "2026-07-23",
+      "type": "strike",
+      "place": "Ahvaz",
+      "lat": 31.3183,
+      "lon": 48.6706,
+      "title": "Iran war live: US kills 2, wounds 11; Houthis attack 2 Saudi oil tankers",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/7/23/iran-war-live-us-launches-new-attacks-houthis-attack-2-saudi-oil-tankers?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 106
+      "count": 107
     },
     {
       "place": "Tehran",
-      "count": 48
+      "count": 49
     },
     {
       "place": "Bandar Abbas",
@@ -2725,7 +2774,7 @@
     },
     {
       "place": "Eilat",
-      "count": 4
+      "count": 5
     },
     {
       "place": "Beirut",

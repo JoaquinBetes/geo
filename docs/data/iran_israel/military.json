@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-23T08:44:33+00:00",
+  "updated": "2026-07-23T14:32:05+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-07-23"
   },
   "kpis": {
-    "events_total": 244,
-    "events_unlocated": 650,
-    "events_7d": 81,
+    "events_total": 248,
+    "events_unlocated": 656,
+    "events_7d": 85,
     "events_prev_7d": 92,
     "hottest_place": "Strait of Hormuz"
   },
@@ -293,9 +293,9 @@
     },
     {
       "date": "2026-07-23",
-      "total": 2,
-      "strike": 1,
-      "ground": 0,
+      "total": 6,
+      "strike": 4,
+      "ground": 1,
       "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
@@ -2741,24 +2741,64 @@
       "title": "Iran war live: US kills 2, wounds 11; Houthis attack 2 Saudi oil tankers",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/liveblog/2026/7/23/iran-war-live-us-launches-new-attacks-houthis-attack-2-saudi-oil-tankers?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-23",
+      "type": "strike",
+      "place": "Jerusalem",
+      "lat": 31.7683,
+      "lon": 35.2137,
+      "title": "Iran fears collapse of Hezbollah in Lebanon, avoiding strikes on Israel",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBsRlZTdVM1VGpEUnF1RHlfLVJrT3Iwb0tJZXg3RURiMTZldzMyRnBTYlJ5cERyZ1AxNWdqNjhha1VnUDcyQzhGN3p0LVd0RGQ2T2taNEVWcVhVSHh0?oc=5"
+    },
+    {
+      "date": "2026-07-23",
+      "type": "strike",
+      "place": "Jerusalem",
+      "lat": 31.7683,
+      "lon": 35.2137,
+      "title": "Israel weighs total ban on drones as US-Iran conflict intensifies",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9iTVY1VVVETkNUNXpjZTNTNUExLWpzemg4dElCODdXdGNUcDlfMTRiRFUyQmN0T3NlZVlBbE8ybVdwdk1oNktsZzRRMERqYUIwZXRGYzZkcC1JZGU5?oc=5"
+    },
+    {
+      "date": "2026-07-23",
+      "type": "ground",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Oil price passes $100 a barrel again as Middle East conflict escalates",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jul/23/oil-price-passes-100-a-barrel-again-as-middle-east-conflict-escalates"
+    },
+    {
+      "date": "2026-07-23",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iran, Houthis strike tankers as US bombing continues: What’s the latest?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/23/iran-houthis-strike-tankers-as-us-bombing-continues-whats-the-latest?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 107
+      "count": 109
     },
     {
       "place": "Tehran",
       "count": 49
     },
     {
-      "place": "Bandar Abbas",
-      "count": 12
+      "place": "Jerusalem",
+      "count": 13
     },
     {
-      "place": "Jerusalem",
-      "count": 11
+      "place": "Bandar Abbas",
+      "count": 12
     },
     {
       "place": "Bushehr",

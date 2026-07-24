@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-23T19:45:59+00:00",
+  "updated": "2026-07-24T03:44:12+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -38,13 +38,13 @@
   },
   "window": {
     "from": "2026-02-27",
-    "to": "2026-07-23"
+    "to": "2026-07-24"
   },
   "kpis": {
-    "events_total": 251,
-    "events_unlocated": 663,
-    "events_7d": 88,
-    "events_prev_7d": 92,
+    "events_total": 252,
+    "events_unlocated": 677,
+    "events_7d": 73,
+    "events_prev_7d": 88,
     "hottest_place": "Strait of Hormuz"
   },
   "daily": [
@@ -297,6 +297,15 @@
       "strike": 6,
       "ground": 1,
       "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-24",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -2811,6 +2820,16 @@
       "title": "Donald Trump says decision on ‘massive attack’ against Iran is close",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/jul/23/trump-says-he-is-close-to-decision-on-largest-yet-attack-on-iran"
+    },
+    {
+      "date": "2026-07-24",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "US launches 13th night of strikes as Iran warns of escalation in the Gulf",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/24/us-launches-13th-night-of-strikes-as-iran-warns-of-escalation-in-the-gulf?traffic_source=rss"
     }
   ],
   "top_places": [
@@ -2820,7 +2839,7 @@
     },
     {
       "place": "Tehran",
-      "count": 50
+      "count": 51
     },
     {
       "place": "Jerusalem",

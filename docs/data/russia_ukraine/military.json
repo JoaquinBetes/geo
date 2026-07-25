@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-07-24T19:46:24+00:00",
+  "updated": "2026-07-25T03:36:44+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-07-24"
+    "to": "2026-07-25"
   },
   "kpis": {
-    "events_total": 260,
-    "events_unlocated": 680,
-    "events_7d": 77,
-    "events_prev_7d": 61,
+    "events_total": 263,
+    "events_unlocated": 689,
+    "events_7d": 75,
+    "events_prev_7d": 57,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -417,8 +417,17 @@
     },
     {
       "date": "2026-07-24",
-      "total": 5,
-      "strike": 5,
+      "total": 7,
+      "strike": 7,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-25",
+      "total": 1,
+      "strike": 1,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -3025,12 +3034,42 @@
       "title": "Ten killed in Russian attack on drone exhibition near Kyiv",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/articles/cj637zd1k1ko?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "date": "2026-07-24",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "10 Killed, Around 100 Injured In Russian Strike In Ukraine's Kyiv",
+      "source": "NDTV",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSkprVmVDd0N2TnRXcGNpYk1sWXlCU3Zybk5XT0ltbjg4VVZyYk9MOFBTeThUNmZOUE9FbzNDcjdwNTQzWUdub0loXzJVLVZ1d3JTWExFcGREM094NWhoeVVHbTRXTER2b0hrQ1pmS01mQ0swLVNJNkNxVlNfb2lQam5JY1doU2Q2Nk1GX1pLT0hHV1RoRW9lM2t3b3hGZGkwUWJ3ZWhtdjkzZEl4UVlWWnkzenh5TFpJbUJlbmJoamzSAcgBQVVfeXFMUG9OQlpxSHk1YkpQMWtLdHNlaEdwUXhiVE5xUVBJRmhCRHBiNkFaaFQzaS1LajQtVkM5S0dhM0s5MXNUakdBQXBGd21FRG0yeWpQTlhPV1lmYWZrdzU1bWtBV0ZxQXZ0MS10TUNqaU1taE5kc19XYjBIS1lvTHZkZE1fMlhsdDR1ZGIxZXctN2QtWDdYdV9ITlR2aWQyWkNPYUtQQ0puRnZjczZsYjRKMjRZXzI2N0lsWDc1OGZmQlJLSVBuZXpJNV8?oc=5"
+    },
+    {
+      "date": "2026-07-24",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war latest: Russian ballistic missile strikes Kyiv arms exhibition, killing at least 10, injuring 100",
+      "source": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWTFISFFaQ280d0EySEhCMUdVVUM5YVZCZ2FzMmxRSTRUNTlGSWZiUms1dG41ajBBNWd5R1pDb2c2ZTZ3ZjZ2VHVZdzQ5ZU93WFhrNC1uZ1ByVTFlMWx0OXBaRElkT0wyVXNUbGZFajNZVzF1M1Zrc3ZCdmk5LXY0RXZ0ZklpTy1LRV9FOG1wRjdJZlhicUpTbw?oc=5"
+    },
+    {
+      "date": "2026-07-25",
+      "type": "strike",
+      "place": "Sloviansk",
+      "lat": 48.8532,
+      "lon": 37.6045,
+      "title": "Ukraine war briefing: Russia launches deadly attack on weapons exhibition near Kyiv",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/25/ukraine-war-briefing-ten-killed-russian-attack-weapons-exhibition-near-kyiv"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 150
+      "count": 152
     },
     {
       "place": "Moscow",
@@ -3043,10 +3082,6 @@
     {
       "place": "Zaporizhzhia",
       "count": 6
-    },
-    {
-      "place": "Sevastopol",
-      "count": 4
     },
     {
       "place": "Donetsk",
@@ -3062,6 +3097,10 @@
     },
     {
       "place": "Dnipro",
+      "count": 3
+    },
+    {
+      "place": "Sevastopol",
       "count": 3
     },
     {

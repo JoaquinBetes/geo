@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-07-25T14:02:08+00:00",
+  "updated": "2026-07-25T19:34:32+00:00",
   "overall_tone": -0.1614,
   "rsf_as_of": "2025 (aprox.)",
   "outlets": [
@@ -15,9 +15,9 @@
       "lat": 25.2867,
       "lon": 51.5333,
       "rsf": 84,
-      "articles": 1384,
-      "tone_avg": -0.2503,
-      "tone_delta": -0.0889
+      "articles": 1396,
+      "tone_avg": -0.2498,
+      "tone_delta": -0.0884
     },
     {
       "name": "BBC",
@@ -30,9 +30,9 @@
       "lat": 51.5188,
       "lon": -0.144,
       "rsf": 20,
-      "articles": 409,
-      "tone_avg": -0.2777,
-      "tone_delta": -0.1163
+      "articles": 411,
+      "tone_avg": -0.2784,
+      "tone_delta": -0.117
     },
     {
       "name": "NPR",
@@ -45,9 +45,9 @@
       "lat": 38.899,
       "lon": -77.008,
       "rsf": 57,
-      "articles": 130,
-      "tone_avg": -0.2839,
-      "tone_delta": -0.1225
+      "articles": 131,
+      "tone_avg": -0.2777,
+      "tone_delta": -0.1163
     },
     {
       "name": "NK News",
@@ -120,9 +120,9 @@
       "lat": 40.748,
       "lon": -73.983,
       "rsf": 57,
-      "articles": 31,
-      "tone_avg": -0.0383,
-      "tone_delta": 0.1231
+      "articles": 32,
+      "tone_avg": -0.0503,
+      "tone_delta": 0.1111
     },
     {
       "name": "Reuters",
@@ -135,9 +135,9 @@
       "lat": 51.5033,
       "lon": -0.0195,
       "rsf": 20,
-      "articles": 24,
-      "tone_avg": -0.0743,
-      "tone_delta": 0.0871
+      "articles": 25,
+      "tone_avg": -0.0936,
+      "tone_delta": 0.0678
     },
     {
       "name": "The Guardian",
@@ -260,6 +260,21 @@
       "tone_delta": 0.2166
     },
     {
+      "name": "The Wall Street Journal",
+      "url": "https://www.wsj.com",
+      "city": "Nueva York",
+      "country": "Estados Unidos",
+      "iso3": "USA",
+      "type": "privado",
+      "desc": "Diario financiero de News Corp (Murdoch); redacción rigurosa, página editorial conservadora.",
+      "lat": 40.7075,
+      "lon": -74.0113,
+      "rsf": 57,
+      "articles": 5,
+      "tone_avg": 0.152,
+      "tone_delta": 0.3134
+    },
+    {
       "name": "The Times of India",
       "url": "https://timesofindia.indiatimes.com",
       "city": "Bombay",
@@ -273,21 +288,6 @@
       "articles": 5,
       "tone_avg": -0.4069,
       "tone_delta": -0.2455
-    },
-    {
-      "name": "The Wall Street Journal",
-      "url": "https://www.wsj.com",
-      "city": "Nueva York",
-      "country": "Estados Unidos",
-      "iso3": "USA",
-      "type": "privado",
-      "desc": "Diario financiero de News Corp (Murdoch); redacción rigurosa, página editorial conservadora.",
-      "lat": 40.7075,
-      "lon": -74.0113,
-      "rsf": 57,
-      "articles": 4,
-      "tone_avg": 0.19,
-      "tone_delta": 0.3514
     },
     {
       "name": "CNN",
@@ -773,15 +773,15 @@
   "by_country": {
     "QAT": {
       "outlets": 1,
-      "articles": 1384
+      "articles": 1396
     },
     "GBR": {
       "outlets": 7,
-      "articles": 469
+      "articles": 472
     },
     "USA": {
       "outlets": 18,
-      "articles": 277
+      "articles": 280
     },
     "KOR": {
       "outlets": 4,
@@ -831,7 +831,7 @@
   "others": [
     {
       "source": "조선일보",
-      "articles": 163
+      "articles": 164
     },
     {
       "source": "DailyNK",
@@ -851,7 +851,7 @@
     },
     {
       "source": "Yahoo",
-      "articles": 12
+      "articles": 13
     },
     {
       "source": "CNA",
@@ -890,7 +890,7 @@
       "articles": 6
     }
   ],
-  "others_total": 760,
-  "matched_articles": 2415,
-  "total_articles": 3175
+  "others_total": 770,
+  "matched_articles": 2433,
+  "total_articles": 3203
 }

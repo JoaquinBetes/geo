@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-25T08:23:44+00:00",
+  "updated": "2026-07-25T14:02:01+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-07-25"
   },
   "kpis": {
-    "events_total": 260,
-    "events_unlocated": 704,
-    "events_7d": 69,
+    "events_total": 261,
+    "events_unlocated": 711,
+    "events_7d": 70,
     "events_prev_7d": 96,
     "hottest_place": "Strait of Hormuz"
   },
@@ -304,6 +304,15 @@
       "date": "2026-07-24",
       "total": 9,
       "strike": 9,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-25",
+      "total": 1,
+      "strike": 1,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -2910,12 +2919,22 @@
       "title": "US expands Iran attacks as Trump warns Tehran and Houthis over Red Sea strikes",
       "source": "The Guardian",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdDhfQzhEVFVaYzlrRmoyc3lUMXlTS1pLNXc1RVNxc3lFNU9CclhqMEs2Q3BBSFI1VW5CRFRMVC1WclEydlc3WFBDa1J2RTBkcEg4MGpTYms0Q0FxZ0oyaG5hRDNsRkg0V3RaN3k5OHVMYXYyZlNydm9EVjRMN1hTYThmbDVzUzAxRml2c2F1X0ZNcW1HRVdFMERnclYwNDc5bFZsX1BNdDFoU0NoTzQyNFExWFZ5TGMycThsQ0JpSUhsUQ?oc=5"
+    },
+    {
+      "date": "2026-07-25",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iran blames US for Hormuz dispute as both sides confirm ongoing talks",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/25/iran-blames-us-for-hormuz-dispute-as-both-sides-confirm-ongoing-talks?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 111
+      "count": 112
     },
     {
       "place": "Tehran",

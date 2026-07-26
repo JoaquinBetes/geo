@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-07-26T03:55:20+00:00",
+  "updated": "2026-07-26T08:39:39+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -46,9 +46,9 @@
     "to": "2026-07-26"
   },
   "kpis": {
-    "events_total": 15,
-    "events_unlocated": 390,
-    "events_7d": 2,
+    "events_total": 16,
+    "events_unlocated": 392,
+    "events_7d": 3,
     "events_prev_7d": 8,
     "hottest_place": "DMZ"
   },
@@ -145,6 +145,15 @@
     },
     {
       "date": "2026-07-24",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-26",
       "total": 1,
       "strike": 1,
       "ground": 0,
@@ -303,6 +312,16 @@
       "title": "North Korean buildings near DMZ could be rocket infrastructure, experts say",
       "source": "Radio Free Asia",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOX1B3MkdoMDR3aGpFTzJVeThOUGI5bnJjMFozU3NUTERfY2hINC1RN29qVHRxSjNTNXhUejlLSXFqMUhjNm9uUmNvUE01Tm56aUI4U3hZSEptMWxHenptLUVqZjlHUnhvci04VTVSb3N3R2U0X1ozYUtCR3NUVVd5emhidG1vZUNQRnh0emE1VS1USHNnNXBlcWdkYkwzcFloejdVNEN4ZHAzajQ3enc?oc=5"
+    },
+    {
+      "date": "2026-07-26",
+      "type": "strike",
+      "place": "Pyongyang",
+      "lat": 39.0392,
+      "lon": 125.7625,
+      "title": "Zelensky warns Russia is recruiting 30,000 North Korean soldiers as Pyongyang plans missile launcher transfers",
+      "source": "Межа. Новини України.",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9YbTdmWmtfQ3N3SkZFdUJ4cUp2ZjU1dEd2R1pxeDB3TlNPcEVkZnd1SmZmaGRoQWlsLVZPSHUxNkxSUmhYdnVEMDU1ZjFqSFQzUndnTG1ZWC1TQldxZWdsMEkzdjRiVzM3VTg4bGpFOA?oc=5"
     }
   ],
   "top_places": [
@@ -313,6 +332,10 @@
     {
       "place": "Seoul",
       "count": 2
+    },
+    {
+      "place": "Pyongyang",
+      "count": 1
     }
   ],
   "losses": null

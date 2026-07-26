@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-25T19:34:25+00:00",
+  "updated": "2026-07-26T03:55:11+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -38,13 +38,13 @@
   },
   "window": {
     "from": "2026-02-27",
-    "to": "2026-07-25"
+    "to": "2026-07-26"
   },
   "kpis": {
-    "events_total": 262,
-    "events_unlocated": 716,
-    "events_7d": 70,
-    "events_prev_7d": 96,
+    "events_total": 264,
+    "events_unlocated": 723,
+    "events_7d": 67,
+    "events_prev_7d": 97,
     "hottest_place": "Strait of Hormuz"
   },
   "daily": [
@@ -324,6 +324,15 @@
       "strike": 1,
       "ground": 0,
       "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-26",
+      "total": 2,
+      "strike": 0,
+      "ground": 1,
+      "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
     }
@@ -2948,6 +2957,26 @@
       "title": "Iran blames US for Hormuz dispute as both sides confirm ongoing talks",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/7/25/iran-blames-us-for-hormuz-dispute-as-both-sides-confirm-ongoing-talks?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-26",
+      "type": "ground",
+      "place": "Jerusalem",
+      "lat": 31.7683,
+      "lon": 35.2137,
+      "title": "Israel, US must seize the opportunity to build regional alliance against Iran",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9LUEU0ZU9HR045SGdLQ1dCZUtXWTVxc3p3WFE4WVhsalVPLWVvbGhDRi0ybXV4S1VuNXN4MEZUeU93eW0zSGxsbUZrZmVMM1NTaE9oWWRGaw?oc=5"
+    },
+    {
+      "date": "2026-07-26",
+      "type": "infrastructure",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Ukraine war briefing: Iran accuses Kyiv of deadly attack on Iranian vessel in Caspian Sea",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/26/ukraine-war-briefing-iran-accuses-kyiv-vessel-caspian-sea"
     }
   ],
   "top_places": [
@@ -2957,11 +2986,11 @@
     },
     {
       "place": "Tehran",
-      "count": 54
+      "count": 55
     },
     {
       "place": "Jerusalem",
-      "count": 15
+      "count": 16
     },
     {
       "place": "Bandar Abbas",

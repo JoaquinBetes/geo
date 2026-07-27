@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-27T04:01:55+00:00",
+  "updated": "2026-07-27T10:09:29+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-07-27"
   },
   "kpis": {
-    "events_total": 273,
-    "events_unlocated": 747,
-    "events_7d": 62,
+    "events_total": 274,
+    "events_unlocated": 757,
+    "events_7d": 63,
     "events_prev_7d": 94,
     "hottest_place": "Strait of Hormuz"
   },
@@ -338,11 +338,11 @@
     },
     {
       "date": "2026-07-27",
-      "total": 3,
+      "total": 4,
       "strike": 3,
       "ground": 0,
       "infrastructure": 0,
-      "air_defense": 0,
+      "air_defense": 1,
       "anomaly": false
     }
   ],
@@ -3076,12 +3076,22 @@
       "title": "Iran war live: Tehran halts retaliatory strikes after pause in US attacks",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/liveblog/2026/7/27/iran-war-live-iran-halts-retaliatory-strikes-after-pause-in-us-attacks?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-27",
+      "type": "air_defense",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Day 149 of US-Israel War Against Iran: Six Ships Intercepted In Strait of Hormuz, Says Iran",
+      "source": "TheWire.in",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPd0pKWmx2Q0gtNklmLUphbjVnbmRpOTFFXzZJeWo1dU9WRUI2bjB1NTBsdVhXdFl4UlN0UnhJZmpxVHptbzdsVmQxTVBqYzgwV1hQWGdSUGVkNmJlNDllaEtROXFZVGM0bFF6Z3lRR1RiMWo5OFlvRHpLZFFQRHg4cUFPamZRaGF4Z0VYSWh0NXJsXzRzeEt3elByWnhJZnFpZUZfdndlTDVQRlJ1YVE5N2laOFhwSlloVzd3X2pwMXAyQdIBxwFBVV95cUxQWUM3RTdRRlpNU3pzLTg1dkphVS1RR1RmbnZldGJFSXp3VXN6Wk5IVnBLckZENmZBNmJjWEcyY05aNFMxRmNGa1VNXzZSaWNMemVhaHptdjMwZEtFdk5ndkJNQ2lBREEzNjBCUzBiUGlGVTZqcU5xSkYtTmhuVVpJczM2b3RiZl9Bc2dMeWJlVWQ2RFQyaUp4cTRoaDRqcWlmclZpUmFvZ0RUQlk2bWJ2VGE0LU02YVV0OGd6MWJNMDBHcGZSQTNj?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 113
+      "count": 114
     },
     {
       "place": "Tehran",

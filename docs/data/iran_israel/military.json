@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-26T19:34:50+00:00",
+  "updated": "2026-07-27T04:01:55+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -38,13 +38,13 @@
   },
   "window": {
     "from": "2026-02-27",
-    "to": "2026-07-26"
+    "to": "2026-07-27"
   },
   "kpis": {
-    "events_total": 269,
-    "events_unlocated": 735,
-    "events_7d": 72,
-    "events_prev_7d": 97,
+    "events_total": 273,
+    "events_unlocated": 747,
+    "events_7d": 62,
+    "events_prev_7d": 94,
     "hottest_place": "Strait of Hormuz"
   },
   "daily": [
@@ -329,10 +329,19 @@
     },
     {
       "date": "2026-07-26",
-      "total": 6,
-      "strike": 4,
+      "total": 7,
+      "strike": 5,
       "ground": 1,
       "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-27",
+      "total": 3,
+      "strike": 3,
+      "ground": 0,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -3027,20 +3036,60 @@
       "title": "Iranian ship struck by Ukraine contained drone, missile components, Kyiv's Israel envoy reveals",
       "source": "The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5MazBMWTNEQ0s3YWxtQms1WE1YZVU1bkVIVGNrT3JibG54RE9zeUFkNG5pckpBaGF6YzlYMUZfa0d5Z2R0UzRDUXlyVkN3YlVrLVg0MW9iMUtaNGJtT3QwaHV0ckd5Z2U3TFE?oc=5"
+    },
+    {
+      "date": "2026-07-26",
+      "type": "strike",
+      "place": "Jerusalem",
+      "lat": 31.7683,
+      "lon": 35.2137,
+      "title": "Volodymyr Zelensky after strike on Iranian ship: Russia assisting Islamic regime",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0tQlZ6NjZKbWdZOGlwZ0ZEclhSXzYzYUNfYzZmNUZOTmpHVHBTaGZkd3VRRWc4RnM3Ny1ULXI2MklIeWJCQlplS0RXRHY2Vnd2a19Tem0ybnEzLXEydjFMUjlwSnctV0Y1Q0E?oc=5"
+    },
+    {
+      "date": "2026-07-27",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Iran war live: Tehran halts retaliatory strikes after pause in US attacks",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdENxTVZ4dF90R0xReVUzUlh1dG1JeEd5ZGdPRFRlTlltYjZWcWhQcWlmcDhGMzhrTlgxVThFSk1xR3BMOU1lU1AwSGJZV1Q4eXNRcWhWQVNzelEtSTVTRlhZWXYyOEFrU25NdFdpN2duQmh6YUcwWklXTllJZnduMzllUndPMjdpcWM5cG15NjdqZ1ZlZTB3a3NxZjJIeGJMMGR0UjhaWHRzeUsyTVRDUnJfQVc3UFdYWWl2S9IBwgFBVV95cUxPY0NMOHJKUmVxVG9IU3ZhNjZFd0FLZTBYNWFjdmQxYUFYS3phTE9rRjExVm9ibHY3TTNxZEZMUnc0UnZQeFktbl9YZWlhNjh0SDhISV9OX3JEaW85QVM4blZwYkZuaUNTX0xUVW5MdE5xcEVPYjkyTWJoMkhiNlc2Q3VKUFdDZkpmbVZSRmRoSkNlWU5aN0FVa1JBUnQ5dENFYmJaOERPdUpUQkZWYTl5N1BaWjc5SWtNSFR0NkNNXzR0dw?oc=5"
+    },
+    {
+      "date": "2026-07-27",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "He’s commander-in-chief of chaos. Now we’re all victims of Trump’s wars | Nesrine Malik",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/commentisfree/2026/jul/27/commander-in-chief-of-chaos-victims-trump-wars"
+    },
+    {
+      "date": "2026-07-27",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Iran war live: Tehran halts retaliatory strikes after pause in US attacks",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/7/27/iran-war-live-iran-halts-retaliatory-strikes-after-pause-in-us-attacks?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 112
+      "count": 113
     },
     {
       "place": "Tehran",
-      "count": 56
+      "count": 58
     },
     {
       "place": "Jerusalem",
-      "count": 20
+      "count": 21
     },
     {
       "place": "Bandar Abbas",

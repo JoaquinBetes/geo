@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-07-28T14:37:09+00:00",
+  "updated": "2026-07-28T19:53:00+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -48,9 +48,9 @@
     "to": "2026-07-28"
   },
   "kpis": {
-    "events_total": 282,
-    "events_unlocated": 780,
-    "events_7d": 37,
+    "events_total": 284,
+    "events_unlocated": 786,
+    "events_7d": 39,
     "events_prev_7d": 82,
     "hottest_place": "Kyiv"
   },
@@ -453,10 +453,10 @@
     },
     {
       "date": "2026-07-28",
-      "total": 1,
-      "strike": 1,
+      "total": 3,
+      "strike": 2,
       "ground": 0,
-      "infrastructure": 0,
+      "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
     }
@@ -3281,12 +3281,32 @@
       "title": "No Official Evidence Iran Is Preparing Attack Against Ukraine Amid Strikes",
       "source": "Kyiv Post",
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9tSUVGaDBoSnh2b1dLcXNxX2ZrZmx5WllfY3hrRUgzX0QwU2tUS0pucHYxRU9wNUwxM2RwbjNJZmotbEJ4N3lYam1ZZw?oc=5"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war latest: Russian fuel storage facility of 'national importance' struck in Udmurt Republic, General Staff says",
+      "source": "The Kyiv Independent",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQSTFoY1J5V3RQYUNDVGVwaG5qUzZQMUtwQkszS0NseEt5ZWFwcFJxRWFXeThJM2tJMjRkWTVUN2xwTDhZbGtmQlZYMlNBUmxDRUdOMVNkMm5QTEgtbDZOZFdNTDV0dFFDNng0d0R6SzN6Wmo3MWtKX3RVbHFicWlaQjl3MXl0cU9OMW12YkUxODlGWHowWEUyMzJLQUZhbkN1amxmV0VBOVJJd0Q3WWF2eHY5dklWVGJZV3o3TmI1VTVlbkJjeGRjWjU4dVo1dFFHQ1lTMDA2bHBkSS1GTlZwSzJKa1FDTndGZWc?oc=5"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "infrastructure",
+      "place": "Zaporizhzhia",
+      "lat": 47.8388,
+      "lon": 35.1396,
+      "title": "Six Russian Commanders Convicted in Absentia Over Attack on Zaporizhzhia Nuclear Plant",
+      "source": "UNITED24 Media",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNaXFKT2JHcUozNS1PejY0dW9TdkxfNW54REo5OUY3ejdhMmhsUUtxWnVYNVl5aWVfbm5oOGtQSzJvQUp2WW1WM2g4dVp4TTZTLVlyVUtDbThzRlZpMU82Q1Q4ZURYbTNTOWFrV1VKTFFQVVl6UTUtVGV2ekhpVnFSZy1ia09FN0ZiR043dTR2ZGs1T0ZmM24tbC0tVzhNTG9YOHRXWnRURlJUdmFPQ0JzOFh1aDJ3N0EtWE5KUm82VlBuOVBHVWplQ0dnSHlsUQ?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 166
+      "count": 167
     },
     {
       "place": "Moscow",
@@ -3298,7 +3318,7 @@
     },
     {
       "place": "Zaporizhzhia",
-      "count": 6
+      "count": 7
     },
     {
       "place": "Donetsk",

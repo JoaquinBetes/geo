@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-28T09:04:21+00:00",
+  "updated": "2026-07-28T14:37:13+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-07-28"
   },
   "kpis": {
-    "events_total": 276,
-    "events_unlocated": 782,
-    "events_7d": 55,
+    "events_total": 278,
+    "events_unlocated": 785,
+    "events_7d": 57,
     "events_prev_7d": 85,
     "hottest_place": "Strait of Hormuz"
   },
@@ -343,6 +343,15 @@
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 1,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-28",
+      "total": 2,
+      "strike": 2,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
       "anomaly": false
     }
   ],
@@ -3106,6 +3115,26 @@
       "title": "Ukraine dismisses Iranian threats as Caspian Sea strike directly links wars",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/articles/cwyj7yl0xndo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "strike",
+      "place": "Jerusalem",
+      "lat": 31.7683,
+      "lon": 35.2137,
+      "title": "US Air Force took off from Israel to strike Iran, Defense Minister Katz says",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB0d2NnZ3NWUmhHQmV6X1p1M0JLSm92SUlDWnJSYjV0LW9sQnNsZjNfbHdlTUUtclBONFNwamlUWWJjckRmMGxwYnYtZElhZTdHR2VudDJWR2x4Y1VDd2JETk96a2RfZXhzRTV0YmRB?oc=5"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Prisoners at Iran’s largest jail sew lips shut in hunger strike as executions soar",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/28/prisoners-iran-largest-jail-sew-lips-shut-hunger-strike-executions-soar"
     }
   ],
   "top_places": [
@@ -3115,11 +3144,11 @@
     },
     {
       "place": "Tehran",
-      "count": 59
+      "count": 60
     },
     {
       "place": "Jerusalem",
-      "count": 22
+      "count": 23
     },
     {
       "place": "Bandar Abbas",

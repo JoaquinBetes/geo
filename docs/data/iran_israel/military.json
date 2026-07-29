@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-28T19:53:04+00:00",
+  "updated": "2026-07-29T03:39:42+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -38,13 +38,13 @@
   },
   "window": {
     "from": "2026-02-27",
-    "to": "2026-07-28"
+    "to": "2026-07-29"
   },
   "kpis": {
-    "events_total": 280,
-    "events_unlocated": 794,
-    "events_7d": 59,
-    "events_prev_7d": 85,
+    "events_total": 283,
+    "events_unlocated": 806,
+    "events_7d": 51,
+    "events_prev_7d": 76,
     "hottest_place": "Strait of Hormuz"
   },
   "daily": [
@@ -347,8 +347,17 @@
     },
     {
       "date": "2026-07-28",
-      "total": 4,
-      "strike": 4,
+      "total": 5,
+      "strike": 5,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-29",
+      "total": 2,
+      "strike": 2,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -3155,16 +3164,46 @@
       "title": "Iran-backed Iraqi militias likely behind drones intercepted near Israel",
       "source": "The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBzdzFpYXNFempWUzh5V25OdW4xUVJYYmNNUUl0V0VwU05qQ05UNU82cS1ROVhwYkZJSXRrYzliTFJwRDVNUFAtR0haeTVLQjZ0UXFiUUNPT3FEU2dk?oc=5"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Trump pausing Iran attacks shows US military power is not enough on its own",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/29/trump-iran-attacks-us-military-power"
+    },
+    {
+      "date": "2026-07-29",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US and Saudis hit Iranian targets in Iraq after thwarting ‘surprise’ missile attack",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/29/iran-missile-attack-us-base-forces"
+    },
+    {
+      "date": "2026-07-29",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iran war live: US, Saudi forces attack Tehran-aligned groups in Iraq",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/7/29/iran-war-live-us-accuses-irgc-of-surprise-ballistic-missile-attacks?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 112
+      "count": 111
     },
     {
       "place": "Tehran",
-      "count": 60
+      "count": 61
     },
     {
       "place": "Jerusalem",

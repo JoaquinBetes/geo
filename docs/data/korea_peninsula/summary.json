@@ -2,13 +2,13 @@
   "id": "korea_peninsula",
   "name": "Corea del Norte–Corea del Sur",
   "description": "Cobertura mediática de la tensión en la península coreana",
-  "updated": "2026-07-29T09:08:37+00:00",
-  "total_articles": 3888,
-  "overall_avg": -0.1811,
+  "updated": "2026-07-29T14:31:21+00:00",
+  "total_articles": 3931,
+  "overall_avg": -0.1824,
   "distribution": {
-    "pos": 1013,
-    "neu": 971,
-    "neg": 1904
+    "pos": 1023,
+    "neu": 980,
+    "neg": 1928
   },
   "sources": [
     "Al Jazeera",
@@ -68,6 +68,7 @@
     "The Times of India",
     "AsiaNews",
     "Radio Free Asia",
+    "Tech Times",
     "Межа. Новини України.",
     "The Times",
     "AP News",
@@ -88,6 +89,7 @@
     "nippon.com",
     "ABC News - Breaking News, Latest News and Videos",
     "RealClearDefense",
+    "The Hill",
     "NBC News",
     "Dayton Daily News",
     "Idaho State Journal",
@@ -108,15 +110,14 @@
     "Newsweek",
     "StratNews Global",
     "Caspian Post",
-    "Tech Times",
     "TRT World",
     "ThinkChina",
     "UNITED24 Media",
+    "Fox News",
     "CBS News",
     "CoinGeek",
     "Euronews.com",
     "dw.com",
-    "The Hill",
     "Brookings",
     "Hudson Institute",
     "Substack",
@@ -372,9 +373,11 @@
     "The New Voice of Ukraine",
     "USA Today",
     "theins.press",
-    "Fox News",
     "Sentinel Colorado",
-    "Pindrop"
+    "Pindrop",
+    "Geopolitical Futures",
+    "WFIN",
+    "DredgeWire"
   ],
   "daily": [
     {
@@ -955,31 +958,31 @@
     },
     {
       "date": "2026-07-28",
-      "count": 177,
-      "avg": -0.2519,
+      "count": 178,
+      "avg": -0.2504,
       "pos": 39,
-      "neu": 44,
+      "neu": 45,
       "neg": 94
     },
     {
       "date": "2026-07-29",
-      "count": 55,
-      "avg": -0.2555,
-      "pos": 11,
-      "neu": 15,
-      "neg": 29
+      "count": 97,
+      "avg": -0.2766,
+      "pos": 21,
+      "neu": 23,
+      "neg": 53
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 1667,
-      "avg": -0.2651
+      "count": 1686,
+      "avg": -0.266
     },
     {
       "source": "BBC",
-      "count": 496,
-      "avg": -0.2777
+      "count": 506,
+      "avg": -0.2791
     },
     {
       "source": "조선일보",
@@ -988,13 +991,13 @@
     },
     {
       "source": "NPR",
-      "count": 156,
-      "avg": -0.28
+      "count": 159,
+      "avg": -0.284
     },
     {
       "source": "NK News",
-      "count": 129,
-      "avg": -0.0639
+      "count": 130,
+      "avg": -0.0649
     },
     {
       "source": "Yonhap News Agency",
@@ -1018,8 +1021,8 @@
     },
     {
       "source": "upi.com",
-      "count": 50,
-      "avg": 0.1396
+      "count": 51,
+      "avg": 0.1435
     },
     {
       "source": "The Korea Times",
@@ -1083,8 +1086,8 @@
     },
     {
       "source": "Inquirer.net",
-      "count": 10,
-      "avg": -0.1677
+      "count": 11,
+      "avg": -0.228
     },
     {
       "source": "아시아경제",
@@ -1257,6 +1260,11 @@
       "avg": 0.5106
     },
     {
+      "source": "Tech Times",
+      "count": 5,
+      "avg": -0.0405
+    },
+    {
       "source": "Межа. Новини України.",
       "count": 5,
       "avg": 0.1553
@@ -1355,6 +1363,11 @@
       "source": "RealClearDefense",
       "count": 3,
       "avg": -0.3072
+    },
+    {
+      "source": "The Hill",
+      "count": 3,
+      "avg": -0.4625
     },
     {
       "source": "NBC News",
@@ -1457,11 +1470,6 @@
       "avg": -0.3039
     },
     {
-      "source": "Tech Times",
-      "count": 3,
-      "avg": -0.0674
-    },
-    {
       "source": "TRT World",
       "count": 3,
       "avg": -0.2432
@@ -1475,6 +1483,11 @@
       "source": "UNITED24 Media",
       "count": 3,
       "avg": -0.147
+    },
+    {
+      "source": "Fox News",
+      "count": 3,
+      "avg": -0.2395
     },
     {
       "source": "CBS News",
@@ -1495,11 +1508,6 @@
       "source": "dw.com",
       "count": 2,
       "avg": 0.0
-    },
-    {
-      "source": "The Hill",
-      "count": 2,
-      "avg": -0.6938
     },
     {
       "source": "Brookings",
@@ -2777,11 +2785,6 @@
       "avg": 0.0
     },
     {
-      "source": "Fox News",
-      "count": 1,
-      "avg": 0.0
-    },
-    {
       "source": "Sentinel Colorado",
       "count": 1,
       "avg": -0.8316
@@ -2790,44 +2793,59 @@
       "source": "Pindrop",
       "count": 1,
       "avg": 0.5859
+    },
+    {
+      "source": "Geopolitical Futures",
+      "count": 1,
+      "avg": 0.6808
+    },
+    {
+      "source": "WFIN",
+      "count": 1,
+      "avg": -0.4939
+    },
+    {
+      "source": "DredgeWire",
+      "count": 1,
+      "avg": 0.0
     }
   ],
   "top_entities": [
     {
       "name": "North Korea",
       "type": "LOCATION",
-      "count": 1028,
-      "avg": -0.0659
+      "count": 1034,
+      "avg": -0.0663
     },
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 368,
-      "avg": -0.1742
+      "count": 372,
+      "avg": -0.1799
     },
     {
       "name": "China",
       "type": "LOCATION",
-      "count": 354,
-      "avg": 0.07
+      "count": 359,
+      "avg": 0.0685
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 292,
-      "avg": -0.2223
+      "count": 294,
+      "avg": -0.2232
     },
     {
       "name": "South Korea",
       "type": "LOCATION",
-      "count": 190,
-      "avg": -0.068
+      "count": 191,
+      "avg": -0.0677
     },
     {
       "name": "Japan",
       "type": "LOCATION",
-      "count": 89,
-      "avg": -0.0066
+      "count": 90,
+      "avg": -0.0057
     },
     {
       "name": "United States",
@@ -2838,8 +2856,8 @@
     {
       "name": "Kim Jong-un",
       "type": "PERSON",
-      "count": 79,
-      "avg": -0.0784
+      "count": 80,
+      "avg": -0.0878
     },
     {
       "name": "DMZ",
@@ -2867,6 +2885,394 @@
     }
   ],
   "recent": [
+    {
+      "title": "Anthony Fauci refuses to answer questions during US Senate hearing about Covid origins",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cdx85vkk0gko?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-29T14:29:34+00:00",
+      "compound": -0.7906,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "US and Israeli leaders expected ‘swift outcome’ in Iran",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/us-and-israeli-leaders-expected-swift-outcome-in-iran?traffic_source=rss",
+      "published": "2026-07-29T14:27:45+00:00",
+      "compound": -0.5994,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Thousands in Spain return home but new heatwave raises wildfire fears",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-29T14:27:13+00:00",
+      "compound": -0.5719,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Oscar-winning songwriter Glen Hansard killed in crash",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c3ekn9d37qvo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-29T14:26:56+00:00",
+      "compound": 0.1779,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Greetings from an isolated region in northern Pakistan's Hindu Kush mountains",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/29/g-s1-135641/pakistan-chitral-hindu-kush-mountains",
+      "published": "2026-07-29T14:21:07+00:00",
+      "compound": 0.2547,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "‘There is no ceasefire’ say Palestinians in Gaza after new Israeli strikes",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/there-is-no-ceasefire-say-palestinians-in-gaza-after-new-israeli-strikes?traffic_source=rss",
+      "published": "2026-07-29T14:09:09+00:00",
+      "compound": -0.8126,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "How a seaweed bloom is affecting tourism in Mexico",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/how-a-seaweed-bloom-is-affecting-tourism-in-mexico?traffic_source=rss",
+      "published": "2026-07-29T14:04:42+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Fragile peace in Syria’s Set Zaynab as sectarian challenges persist",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/2026/7/29/fragile-peace-in-syrias-set-zaynab-as-sectarian-challenges-persist?traffic_source=rss",
+      "published": "2026-07-29T13:58:28+00:00",
+      "compound": -0.1531,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "China, Russia, Iran and North Korea form ‘axis of aggressors’ that could overwhelm US, book warns",
+      "source": "WFIN",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOeExQdGtkbm9ZR0tDNTRGUDdEYUNxekd0cGlCcHA0U2ViUFRpOXl4ZkRrZVhsdlB2RldPVEVXQ2l0SkNwNTBFTEZvZnFBQzdBcjdoY1hMMjNSZllHRVFzSmNTWXljNWNqT0NwbTBNYmpwdzZsLXNRX1p3R0pQUUlEdmtzaEVLOUJGMGJDakpySXZrNmE5Sk1fQUR6SVZrY1o1WTJhbThkU3RjRXp0OVpoOTlMaFlzNTkwMEgxR1hhVkE0emM?oc=5",
+      "published": "2026-07-29T13:40:32+00:00",
+      "compound": -0.4939,
+      "label": "negative",
+      "entities": [
+        "North Korea",
+        "China",
+        "Russia"
+      ]
+    },
+    {
+      "title": "Team Spirit for the 21st century",
+      "source": "upi.com",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUzYzV0NuVXEtaTBNRFFlcGdvSG54U2toQ3VRWGRLUFRoaWJ6UzNNb2tZNTVQS005T2xWMUNfZEhfd01KMU9hb1k5Y21VaWd1RVhGanNpTGRYSUs3VllJdXBtVmp4WDR1em1uYXFnZXdydE9hanRFSE5ranZoZnBlT19wRUVZSVJvcGNCanFpZ1NLeldzc3J5S9IBngFBVV95cUxQNFB2WS0yQ1VncVJ3ZWxFUkRPMnhkSFVJVEpWVEg3NGFYUm5yWVhhS1pVc3NFNEliRC1MekdKOGZIeUhXa3Z4U210WlR0ZjB5ZmxpQUVSTmo0U3loTWJYUWxQbm9xaU1uSHFzUjE0RHdMMzlfdDdjYTVBOHluM1M1VEtWNVZacXpZWGxyTDJqLUtRMHY4RkRwTjN5VE42QQ?oc=5",
+      "published": "2026-07-29T13:36:33+00:00",
+      "compound": 0.34,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "How are AI models able to autonomously hack others?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/29/how-are-ai-models-able-to-autonomously-hack-others?traffic_source=rss",
+      "published": "2026-07-29T13:19:04+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Infantino sets deadline for FIFA offer in Kushner-backed World Cup plan",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/29/infantino-sets-deadline-for-fifa-offer-in-kushner-backed-world-cup-plan?traffic_source=rss",
+      "published": "2026-07-29T13:15:22+00:00",
+      "compound": -0.4404,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "US bans imports of new Chinese robots over security concerns",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/7/29/us-bans-imports-of-new-chinese-robots-over-security-concerns?traffic_source=rss",
+      "published": "2026-07-29T13:12:43+00:00",
+      "compound": 0.34,
+      "label": "positive",
+      "entities": [
+        "China"
+      ]
+    },
+    {
+      "title": "BJP politician’s daughter explains why she supports India’s youth protests",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/bjp-politicians-daughter-explains-why-she-supports-indias-youth-protests?traffic_source=rss",
+      "published": "2026-07-29T12:50:52+00:00",
+      "compound": 0.296,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Tunisia’s body politic is in crisis",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/opinions/2026/7/29/tunisias-body-politic-is-in-crisis?traffic_source=rss",
+      "published": "2026-07-29T12:38:14+00:00",
+      "compound": -0.8591,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Nicaragua’s dictatorship defies the Donroe Doctrine",
+      "source": "The Hill",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNREcwWm5nOE1zLTVaNVR0RXMwVDd1S09YT3RyalFPNUdzd2FxOGtWYTMtSGNTNFRWSnIwT19VcGJDMHJlQkFKS3pzV2NyTFFWNFh2VnU2R195V2VXS1huekUyanpEX3cyd0gtZXpFWXNkd2pfVGN6X2lNN1c4T2c4dnJqU1hwTHZkZTBObEZR0gGTAUFVX3lxTFB4c2NlT01YeHVnLWxNWThZTHFvVDBVTm5PZzl0MXpOR3ZxNml3M0prVnZoNndGMG8xLV9vQnJ2NS10dVdhMU1Xd194VDN2MkxHV0E0TzZQbDU5UEU4V0dZcWZfVXdWSXdPZXFJc1AwYXhMbVJkbWM3cG9ITGd0cHk5c003WE9oOHRvZHZmd3NqTGZHOA?oc=5",
+      "published": "2026-07-29T12:30:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "F1 season to end in Europe if Qatar, Abu Dhabi unable to host due to war",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/29/f1-season-to-end-in-europe-if-qatar-abu-dhabi-unable-to-host-due-to-us-iran-war?traffic_source=rss",
+      "published": "2026-07-29T12:27:19+00:00",
+      "compound": -0.8316,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Ghana hit by nationwide blackout as power plants fail",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/crmrkgr4z0jo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-29T12:10:40+00:00",
+      "compound": -0.7579,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "South Korea's Mir Rocket Rescheduled: Second Try Thursday to Close 30-Minute North Korea Watch Gap",
+      "source": "Tech Times",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQeVNncHpkNlJkT0lQazNaWlJIYUJONHI4VTVUZXlTTWpmMlp0Tm1WaU55S3J4TXdycHFTZlp5T2E5aDJqSzBFMm9vNmZzSXQ0ckZIRWNCRV81ZWU3a2NxRWxpR19hV09rZE0ybTJuWGUxLU1BampaNXNZQ0hnWFNYcWFnWVM0NG1LQy1ZWTNlMWJSeTlWaU1iZHZHNHlna2VZM09fblh6NndwRTVjQmpVd255Qy14YUZzelBEdkdWSTZaRWVFT0ptT2FOcWxMUl9FWTdmYktTb0h4T3JVU196NndB?oc=5",
+      "published": "2026-07-29T11:57:58+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "North Korea",
+        "South Korea"
+      ]
+    },
+    {
+      "title": "More than 100 aftershocks hit Japan after powerful quake that killed 13",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cgk43y21j0do?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-29T11:47:05+00:00",
+      "compound": 0.0772,
+      "label": "positive",
+      "entities": [
+        "Japan"
+      ]
+    },
+    {
+      "title": "American, Asian confederations blindsided by FIFA’s World Cup plan",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/29/american-asian-confederations-blindsided-by-fifas-world-cup-plan?traffic_source=rss",
+      "published": "2026-07-29T11:41:58+00:00",
+      "compound": -0.6872,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Iran hits US in Jordan, US-Saudi strikes on Iraq: Is war spreading?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/29/iran-hits-us-in-jordan-us-saudi-strikes-on-iraq-is-war-spreading?traffic_source=rss",
+      "published": "2026-07-29T11:34:58+00:00",
+      "compound": -0.9337,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Infantino and FIFA want to sell off stakes in the World Cup: What we know",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/29/infantinos-fifa-world-cup-stakes-plan-would-uefa-boycott-would-it-work?traffic_source=rss",
+      "published": "2026-07-29T11:19:58+00:00",
+      "compound": 0.0516,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "‘Iran attacks now to send message as US assets build up in Israel’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/iran-attacks-now-to-send-message-as-us-assets-build-up-in?traffic_source=rss",
+      "published": "2026-07-29T11:19:46+00:00",
+      "compound": -0.5267,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "U.S. and Iran resume attacks. And, Fauci to face Senate questions on COVID pandemic",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/29/g-s1-136076/up-first-newsletter-iran-benjamin-netanyahu-trump-iowa-water-anthony-fauci-fed-rates",
+      "published": "2026-07-29T11:00:47+00:00",
+      "compound": -0.8126,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Married couple deported by ICE killed in Guatemala",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/29-07-sv-guatemala-couple-ice-gl?traffic_source=rss",
+      "published": "2026-07-29T10:55:38+00:00",
+      "compound": -0.8689,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Satellite images show N. Korea dredging rivers on a massive scale",
+      "source": "DredgeWire",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdVVSWTJnUWs1SXRXQm5iRUVVdUZUUzUyLVRYM1ptall0RmZ5cURvOTRUYnVPNlg4Ml9lNXJiMzhRUkpIRGlRNkJNUkMtOXFPSUpzMjdZRGxOOGN6dVhZajdIZkpkV25PQlBJX3NnaVUyWW5IR2lvWlFfOXpzWGxnQUdYZDRSQ0JlVFFZbXVneE5Bdw?oc=5",
+      "published": "2026-07-29T10:45:19+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Crypto Hacks Hit All-Time High as North Korea Drains Over $600M and AI Agents Become New Target",
+      "source": "Tech Times",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVGoxUGM3S3NJVFh5dzVEaTZlWXhOeGRLX0tBVHp1Y2NPYWdHbnBLSzBxTGthMEdLcVlVX0xxOThMSlUxaDZ6N1hKSThQZW1ZS3BUZ0dfRnF3bGRTaFVldlZfTjJqT1htZjRxTDV0NlBnWGNZMGVfeGNRWGpXVV9oYTM0amtpN181cS04M2dIRmx1ekhZTDl6Z3JnbnhYUkY4SW50V2hCVWpTbUFUcmtWQ202YWp0Vmt4MG1UZ1Bnb1dNazFLd1RkTFUxTlRrTUJaQzZHamtxR0hyZw?oc=5",
+      "published": "2026-07-29T10:38:32+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "North Korea"
+      ]
+    },
+    {
+      "title": "French DJ ​and electronic ‌musician Kavinsky dies aged 50",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c204n74xyv3o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-29T10:35:13+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Russia charges Telegram founder Durov with facilitating terrorism",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cj4kexqkpzno?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-29T10:23:29+00:00",
+      "compound": -0.8402,
+      "label": "negative",
+      "entities": [
+        "Russia"
+      ]
+    },
+    {
+      "title": "EU crisis chief urges tougher climate action amid France, Spain wildfires",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/29/eu-crisis-chief-urges-tougher-climate-action-amid-france-spain-wildfires?traffic_source=rss",
+      "published": "2026-07-29T10:19:28+00:00",
+      "compound": -0.8126,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Russia charges Telegram founder Pavel Durov with ‘aiding terrorism’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/29/russia-charges-telegram-founder-pavel-durov-with-aiding-terrorism?traffic_source=rss",
+      "published": "2026-07-29T10:18:49+00:00",
+      "compound": -0.765,
+      "label": "negative",
+      "entities": [
+        "Russia"
+      ]
+    },
+    {
+      "title": "China’s Opportunity in North Korea",
+      "source": "Geopolitical Futures",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBqQkd4eEdqMXUzZ0EtTEFsaDBhSncxZUtoMm5qSVZIYmxtejJTbTRpLUcwSlB3alBrMkVnencxMUVvZ01QX09uVmJEc0dUaWtTdDM4MFY3bVZwUXVWdDR0b1JEUklnOGcyZlh2VFlNU2FOYjJj?oc=5",
+      "published": "2026-07-29T10:00:40+00:00",
+      "compound": 0.6808,
+      "label": "positive",
+      "entities": [
+        "North Korea",
+        "China"
+      ]
+    },
+    {
+      "title": "China, Russia, Iran and North Korea form 'axis of aggressors' that could overwhelm US, book warns",
+      "source": "Fox News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWFJEOWRjckp5RmR0U1FiYmNvbUZnLU1KMzRiUU1jX0MwT0FLYXV2OVJrYTRlQkJtU29HYndrTmc1SzNsYW0zM3pOLVFGTkh1enhybHR3LWhmYmxCdExmQUJDZTlNOUVlX3hndUtqRUF6My1zRS1acGl3MlJuUS0wSThjTkt4Z0FhOGROZVl5SmFzcE5xTTNoMmRFUl85ZzRjcFk1QVJuONIBrAFBVV95cUxPTXBaZThSRlRmQ3VFNHdmdzZrNFRZMFdqdGNCVmVqcHB2Yk4wX05NSGc5Q3psaV9JREYwM2dwZ3hfZzNxWWhMXzRDZzNWSS1udDlfZWRrdGw4eV9FOE1HU2k5Z2p0U0tMMzhlNlpROU1uZzZ0R2VDeUN0b2hYTHdfVm9LRWdTOWZ1dlVKa2VKamhHQjc0YmdLWWxpTlRFMkdlMkJUS0dTNXZ3SXA3?oc=5",
+      "published": "2026-07-29T10:00:16+00:00",
+      "compound": -0.7184,
+      "label": "negative",
+      "entities": [
+        "North Korea",
+        "China",
+        "Russia"
+      ]
+    },
+    {
+      "title": "China, Rusia, Irán y Corea del Norte forman un «eje de agresores» que podría arrollar a EE. UU., advierte un libro",
+      "source": "Fox News",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNzdFTHJ0M3pwQ2I0NEhYUFd1V0JwMVFBa1Z6NGxPeHZSN0FSX2lzTUdMRzVPSGxFV0xZYW9HZExIZmppS01TS1BiaDJzclVWX0I5bGNtVjI4aDVzdzhNeDljR2taVWhzdFV1NmZoRGEzc2tBeW5FLUwzMlZxaWJqZjNGMlUweDNDZDFhd1dhQlpyaTZfalIzYko2RlQtTzRyRTRIZVRwQnlZT25iZHc?oc=5",
+      "published": "2026-07-29T10:00:16+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "China"
+      ]
+    },
+    {
+      "title": "How has the Indian government responded to ‘Cockroach’ protests?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/29/how-has-the-indian-government-responded-to-cockroach-protests?traffic_source=rss",
+      "published": "2026-07-29T09:52:16+00:00",
+      "compound": 0.296,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "A safe space for Gaza women: A sanctuary to speak, heal and share amid war",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/29/a-safe-space-for-gaza-women-a-sanctuary-to-speak-heal-and-share-amid-war?traffic_source=rss",
+      "published": "2026-07-29T09:51:52+00:00",
+      "compound": 0.7003,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Trump's new spy chief Jay Clayton confirmed by US Senate",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c0rd1kl1825o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-29T09:07:40+00:00",
+      "compound": -0.5106,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Iran resumes missile attacks as U.S. and Saudis strike Tehran-backed militias in Iraq",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/29/g-s1-136063/us-saudi-arabia-iran-iraq",
+      "published": "2026-07-29T09:07:03+00:00",
+      "compound": -0.9201,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "'Delulu', 'Clock it': 'Cockroach' protest brings Gen Z slang to India's parliament",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c9q90qvwe14o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-29T09:02:48+00:00",
+      "compound": -0.25,
+      "label": "negative",
+      "entities": []
+    },
     {
       "title": "North Korea arrests state-trained hackers over bank attacks",
       "source": "CoinGeek",
@@ -3026,6 +3432,18 @@
       ]
     },
     {
+      "title": "Trump warns ideology behind North Korea’s 1950 invasion is heading West",
+      "source": "NK News",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE0zRHlKcWhyblAtNHQtdTRpUnVIWWxVcW9LYVRPMW8tMHpqVjNBLU9PZ0FuV3pXZG9YWkMzNGVIM25YdWxTOW5v?oc=5",
+      "published": "2026-07-29T06:45:36+00:00",
+      "compound": -0.2023,
+      "label": "negative",
+      "entities": [
+        "Donald Trump",
+        "North Korea"
+      ]
+    },
+    {
       "title": "Why Netanyahu didn’t want a Zelenskyy moment with Trump",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/why-netanyahu-didnt-want-a-zelenskyy-moment-with-trump?traffic_source=rss",
@@ -3058,423 +3476,6 @@
       "entities": [
         "Japan"
       ]
-    },
-    {
-      "title": "'I thought I would die': Survivors describe the shock and horror of powerful Japan earthquake",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cvgw52l5kyyo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-29T06:07:26+00:00",
-      "compound": -0.7717,
-      "label": "negative",
-      "entities": [
-        "Japan"
-      ]
-    },
-    {
-      "title": "Iran attacks US bases in Middle East as Trump meets Netanyahu",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/29/iran-attacks-us-bases-in-middle-east-as-trump-meets-netanyahu?traffic_source=rss",
-      "published": "2026-07-29T05:43:03+00:00",
-      "compound": -0.802,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Rescuers search for the missing after Japan earthquake as death toll rises to 13",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/29/nx-s1-5911613/japan-earthquake-updates",
-      "published": "2026-07-29T05:34:42+00:00",
-      "compound": -0.9678,
-      "label": "negative",
-      "entities": [
-        "Japan"
-      ]
-    },
-    {
-      "title": "Army faces criticism over unloaded machine guns at frontline posts",
-      "source": "The Korea Herald",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1kTGFVdlJLUW9MSzFTWVBaQWc2SGY3VW90dDdORXdhZE0zV0FZRkdrZEdSQWs2UDVDbDVVeGd2ZDdHbHRrci1GTUNXbW14aGlCYzk2MGJuUQ?oc=5",
-      "published": "2026-07-29T05:22:38+00:00",
-      "compound": -0.7003,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "China puts the ‘squeeze’ on Taiwan with new maritime patrols",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/29/china-puts-squeeze-on-taiwan-with-new-maritime-patrols?traffic_source=rss",
-      "published": "2026-07-29T05:22:18+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "China"
-      ]
-    },
-    {
-      "title": "Latest images of damage as death toll from Japan’s Kyushu quake rises",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/latest-images-of-damage-as-death-toll-from-japans-kyushu-quake-rises?traffic_source=rss",
-      "published": "2026-07-29T05:18:36+00:00",
-      "compound": -0.9001,
-      "label": "negative",
-      "entities": [
-        "Japan"
-      ]
-    },
-    {
-      "title": "Protesters storm hotel, heckle Netanyahu in Washington DC",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/protesters-storm-hotel-heckle-netanyahu-in-washington-dc?traffic_source=rss",
-      "published": "2026-07-29T05:07:33+00:00",
-      "compound": -0.34,
-      "label": "negative",
-      "entities": [
-        "United States"
-      ]
-    },
-    {
-      "title": "Chinese foreign minister likely to visit South to discuss North, bilateral issues",
-      "source": "Korea JoongAng Daily",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTnNaQVRHZWNvMVdQNjRxbDRYSDlRbjFZdFVOSnZLSGZkdm9NcDVKODNpNHdrRWhVREZVWm5aOFFLZGdrM21mcm1Xc2l4dlpPci10SERMY3UzQnpiYUVwWmJlY0NmWjlIWDZSb2ZmWmVfZnNiM09ZS3pxekE4Z2wxS2xDMzZyeUhha04xLUtRVWRyVnAwSUhyLXRpekRVblNIVTJLMlN6dDVtaWkzNFZXRV9ZNldHWTJTT0lMRUdCLWZYWXpsVWo4T1R3?oc=5",
-      "published": "2026-07-29T05:07:18+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "China"
-      ]
-    },
-    {
-      "title": "'No safe options' for thousands sheltering in key Sudan city as RSF fighters advance",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c4gx399l0wyo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-29T05:01:46+00:00",
-      "compound": -0.5106,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "'Israeli settlers laid siege to our home': Inside a Palestinian village under weekly attack",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/clyxgn37lg5o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-29T05:01:12+00:00",
-      "compound": -0.6908,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Four women accuse Jared Leto of criminal sexual conduct",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cd7lg2nz2x2o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-29T05:00:07+00:00",
-      "compound": -0.6369,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Trump meets Netanyahu for a record seventh White House visit",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/trump-meets-netanyahu-for-a-record-seventh-white-house-visit?traffic_source=rss",
-      "published": "2026-07-29T04:47:25+00:00",
-      "compound": -0.5994,
-      "label": "negative",
-      "entities": [
-        "Donald Trump",
-        "United States"
-      ]
-    },
-    {
-      "title": "Haitians living in fear as Temporary Protected Status ends in the US",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/haitians-living-in-fear-as-temporary-protected-status-ends-in-the-us?traffic_source=rss",
-      "published": "2026-07-29T03:09:15+00:00",
-      "compound": -0.1531,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "N. Korea, China pledge closer ties at banquet marking Chinese military anniv.",
-      "source": "Yonhap News Agency",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9zOVl6WG9ZN003bjZDNGRJZWpXdW9IVE9NTXp3QnhYZFpvQ1RWVm53VFIzWU91YkZ3M0pRQW9sTDB3U3E0ZTAtYmRob2ZTOFo2c2tWcnJ5VVRXdw?oc=5",
-      "published": "2026-07-29T03:04:20+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "China"
-      ]
-    },
-    {
-      "title": "Iran missiles target US forces in Jordan after a five-day pause in war",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/iran-missiles-target-us-forces-in-jordan-after-a-five-day-pause-in-war?traffic_source=rss",
-      "published": "2026-07-29T02:54:45+00:00",
-      "compound": -0.6486,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Iran and US trade strikes, shattering brief lull in fighting",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-29T02:47:28+00:00",
-      "compound": -0.8225,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Israel kills Palestinian, destroys mosque in Gaza",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/29/israel-kills-palestinian-destroys-mosque-in-gaza?traffic_source=rss",
-      "published": "2026-07-29T02:45:59+00:00",
-      "compound": -0.8807,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Why DPRK IT Workers Are Forcing Security Teams to Rethink Identity Verification",
-      "source": "Pindrop",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9od29NMXV0aWdZT2lyOU1ZSE5SU1lKRVJPemxMdmZrZUJqSXpmZXc2RVZGUkJNY1NrX1cxZFloNE1nZTdPbnNsRW1rMF9ybHhMVWRsOHhlY292R0VuaGNfcTcyTC1pclk1Si1KckpZMW0xcVhLV1BWV0U2OA?oc=5",
-      "published": "2026-07-29T02:44:54+00:00",
-      "compound": 0.5859,
-      "label": "positive",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "Chinese FM Wang likely to visit S. Korea next month for talks on N. Korea, bilateral issues",
-      "source": "Yonhap News Agency",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3XzNaY095WWZYbVk1aEFHU2wtLVhmZTFFeTR4OHlRYVJCZTNHZVd6RGFQaUhVdVdLY3pldjFnYmU2WmpIS2xqYUp1YWxndU5IcHAya0MweGlNdw?oc=5",
-      "published": "2026-07-29T02:40:34+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "China"
-      ]
-    },
-    {
-      "title": "Trump administration bans new Chinese humanoid robots",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cp9e2ex3ekyo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-29T02:30:50+00:00",
-      "compound": 0.4767,
-      "label": "positive",
-      "entities": [
-        "Donald Trump",
-        "China"
-      ]
-    },
-    {
-      "title": "Zelensky and Netanyahu meet Trump as wars in Ukraine and Iran drag on",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cj4k2z8z45ro?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-29T02:24:03+00:00",
-      "compound": -0.4588,
-      "label": "negative",
-      "entities": [
-        "Donald Trump",
-        "United States"
-      ]
-    },
-    {
-      "title": "OpenAI’s rogue agent hacked an account at a second technology firm: Report",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/29/openais-rogue-agent-hacked-an-account-at-a-second-technology-firm-report?traffic_source=rss",
-      "published": "2026-07-29T02:05:41+00:00",
-      "compound": 0.0258,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Zelensky Warns Trump Russia Is Preparing 30,000 More North Korean Troops for War Against Ukraine",
-      "source": "Kyiv Post",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA1bFotQ3g0RXNUUlg2V2kxVGtsTThtNHk1UlZLbFIydDNDOTRyaEEzb3JkTzJyRjVDbnZZNks0WGd2WFNwXzAxbDFiaw?oc=5",
-      "published": "2026-07-29T01:56:37+00:00",
-      "compound": -0.8625,
-      "label": "negative",
-      "entities": [
-        "Donald Trump",
-        "North Korea",
-        "Russia"
-      ]
-    },
-    {
-      "title": "Mass rally in Pyongyang",
-      "source": "Yonhap News Agency",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5oalEwMmlHT1dLWG9XcjR0WGpEcUdIS0xMQTd1ZVlOQldWb3RDb2tJdVo5YjV4aUhia0E2aUJaSWMyOUtTeVVPMVZGSmlWajhpaUsxWDZFUnY3Yll0TjlzR0hzamt2cU5DRXpNLVJaLTA?oc=5",
-      "published": "2026-07-29T01:56:25+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Mass rally in Pyongyang",
-      "source": "Yonhap News Agency",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1KSmQxUmRfRWhrVHREc2VLVUJXSF9GUWR4cHhUNTg4dk1pNlJZMGQ2MkxqLUtsVDlORmhnNVFiWm5yN2Npc0NDMXVpcGF4TXhaVjkwVms5N0Zsdw?oc=5",
-      "published": "2026-07-29T01:56:12+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Exclusive: 1st Corps' Unloaded K6s Raise Readiness Concerns",
-      "source": "조선일보",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNakl2VWpwT3p1aFJQRW5jdnBKMVR5ZktBRllDUkZ5MWczYlBYSklCQnJudmFtMDRRdi1iWGh5bXJsUzZTMkpnb3phTDR4OUtuVWtBcmxDbFZ0bGNCX3pxdTRnQWJOb2RSVkJxa1QyWTBCcW9BaVZnQXA2YUxwX3JsdS1Ea0liTWd1?oc=5",
-      "published": "2026-07-29T01:50:03+00:00",
-      "compound": 0.6124,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "[Editorial] The alarming prospect of more North Korean troops for Russia",
-      "source": "Hankyoreh : English Edition",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZlhBWjZwYUZyd1MyS2ZpT2lYSEYtRGIyOVlIZXY1QXhaN1ZaTVgxc1pDWWl6b1RFUENBNTFYelFIR3hRQjQ4R3dnWV9ocDRxaWF3MUc5M2phdVJWRFQzbEI0azJ6VDZjNkJtT3ZOSHU5MEhpM1o1Z3JwYlRBT0NlRWxxWTdpUQ?oc=5",
-      "published": "2026-07-29T01:44:00+00:00",
-      "compound": 0.34,
-      "label": "positive",
-      "entities": [
-        "North Korea",
-        "Russia"
-      ]
-    },
-    {
-      "title": "Saudi Arabia, US carry out strikes on Iran-backed groups in Iraq",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/29/saudi-arabia-us-carry-out-strikes-on-iran-backed-groups-in-iraq?traffic_source=rss",
-      "published": "2026-07-29T01:37:23+00:00",
-      "compound": -0.6597,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "After fleeing Sudan’s war, refugees battle thirst in Chad’s camps",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/29/after-fleeing-sudans-war-refugees-battle-thirst-in-chads-camps?traffic_source=rss",
-      "published": "2026-07-29T01:30:14+00:00",
-      "compound": -0.891,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Media not invited as Trump, Netanyahu hold talks at the White House",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/media-not-invited-as-trump-netanyahu-hold-talks-at-the-white-house?traffic_source=rss",
-      "published": "2026-07-29T01:19:55+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Donald Trump",
-        "United States"
-      ]
-    },
-    {
-      "title": "Korean Peninsula Update, July 28, 2026",
-      "source": "American Enterprise Institute - AEI",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1DRlZZdzN4TjFUXzBjN3kyWjVXem1uNGc1SFFON0lRUXpuNmVxRGpZYVAtSy1CYWtxeFJlQ09EOVBudDlNUlc2YVAxdDBhdEVlT2RsaXRJVW9VcGlVeHNZaV9IZGREekpuVlBwN1VTOC1tOEh6NVRF?oc=5",
-      "published": "2026-07-29T01:18:45+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Turkiye takes ‘historic step’ on energy alliance with Iraq",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/29/turkiye-takes-historic-step-on-energy-alliance-with-iraq?traffic_source=rss",
-      "published": "2026-07-29T01:07:09+00:00",
-      "compound": 0.2732,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Protests in Lima as Keiko Fujimori sworn in as Peru president",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/protests-in-lima-as-keiko-fujimori-sworn-in-as-peru-president?traffic_source=rss",
-      "published": "2026-07-29T01:03:49+00:00",
-      "compound": -0.5719,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "US faces ‘simultaneity problem’ from China, Russia, Iran and North Korea",
-      "source": "Fox News",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1yR19xMVpFYU11QjMySkM2UVVNVWhrTDdOdjZMOXVSeWx5NzZwNFJ4XzJVdTB4SVRGRnVVSFJoNFpSdFZYYmdudzFvejRWQnhaT2piODRn?oc=5",
-      "published": "2026-07-29T00:26:49+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "North Korea",
-        "China",
-        "Russia"
-      ]
-    },
-    {
-      "title": "FIFA proposes plan to sell stakes in the World Cup, angering UEFA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/29/fifa-proposes-plan-to-sell-stakes-in-the-world-cup-angering-uefa?traffic_source=rss",
-      "published": "2026-07-29T00:25:29+00:00",
-      "compound": -0.4939,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Iran war live: US, Saudi forces attack Tehran-aligned groups in Iraq",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/7/29/iran-war-live-us-accuses-irgc-of-surprise-ballistic-missile-attacks?traffic_source=rss",
-      "published": "2026-07-29T00:00:00+00:00",
-      "compound": -0.8834,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Kim Jong-un joins war veterans for 'Victory Day' photos",
-      "source": "The Korea Herald",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE16b2pHbktGYlZWcDRENVp4dlNVS0FrSXRFRE52ZzdrRTNhU2hFLVBhdDAxMGJPa3NFbnVQbGQyQUkxSXZMYnFrSTA2UHNQcVlUNHZxU0o2cw?oc=5",
-      "published": "2026-07-28T23:55:03+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Kim Jong-un"
-      ]
-    },
-    {
-      "title": "Russia and North Korea are completing the construction of the first road bridge between the countries - The Guardian",
-      "source": "Українські Національні Новини (УНН)",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTjJJSWgwck1aaVoxSHhSYmxVLWNxUF9ZakRxSTFxOXptOS1UdGRuMXk5SWJJblFUcnYyU3JySnlsR1RIR1FONWdta0xLeUNLRGI1YWZJV2xHb0t5SHNGTGhwaE9lWXZGM2tHbUphc2twNVRqR2VGUVc5bVhjOFA2cVZmUEFOemtCRlh5WWp1YVpFY1d6aHB4UUpzYmx1Qnc2WFBhZHhvN1pzUnc0RkZONXNLRmdBcGdBT0hhYXBPb3N3X0RWMEdqRFFNbVA1cVB1TFA40gHSAUFVX3lxTE5lZ2p4TV9YQVNGa2V3dWN3R2MtcDRYdTl6RHZlN21oNFJDNWV0RTdFZF9JQ2NsUFppRFg5eHVWY1FBaGtGcHFfYUdhQ0d4cEZZRzQyTVM5dDVZb2stRGdjdW5WdFdXWjQxNm5yb2dULVphVktLVHpnVmRUU0NkWXFHdXh3aXRIU2NRVmRET3JJSGJDcFZsWUhBT0RHZXB3bzRmQUhxZnpUR1JvMTZMN2VRa043TDFuZ3RZcGYteDd0SVVrcV9kNEJwQmdLakg2MWdUUQ?oc=5",
-      "published": "2026-07-28T23:46:32+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "North Korea",
-        "Russia"
-      ]
-    },
-    {
-      "title": "How Mexican drug cartels have outsourced meth labs to Nigeria",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/crmrnxp4nllo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-28T23:25:53+00:00",
-      "compound": 0.4939,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Yemen’s Houthis claim missile attack on Saudi Arabia oil tanker",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/28/yemens-houthis-claim-missile-attack-on-saudi-arabia-oil-tanker?traffic_source=rss",
-      "published": "2026-07-28T23:16:44+00:00",
-      "compound": -0.4767,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "N.K. leader meets war veterans, persons of wartime merits",
-      "source": "Yonhap News Agency",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5OTEFkaUxyb2NTcUJISnlyR2pjc2xJbUpWUkZERTVLTDYyS1hNU1BuTVVJLXFaSmZNblJqSFlaSWZuSmNxVnBaN1lEQXhDaTA2NnVyUk9KVkFFYUo3SzA0b2hrTmx5bmQ2dlExRWZCNVI?oc=5",
-      "published": "2026-07-28T22:47:24+00:00",
-      "compound": -0.5267,
-      "label": "negative",
-      "entities": []
     }
   ]
 }

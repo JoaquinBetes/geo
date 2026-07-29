@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-07-29T09:08:21+00:00",
+  "updated": "2026-07-29T14:31:07+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -48,9 +48,9 @@
     "to": "2026-07-29"
   },
   "kpis": {
-    "events_total": 286,
-    "events_unlocated": 809,
-    "events_7d": 35,
+    "events_total": 287,
+    "events_unlocated": 814,
+    "events_7d": 36,
     "events_prev_7d": 82,
     "hottest_place": "Kyiv"
   },
@@ -457,6 +457,15 @@
       "strike": 4,
       "ground": 0,
       "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-29",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -3321,6 +3330,16 @@
       "title": "Kyiv warns Iran against escalation after Ukraine’s Caspian Sea attack",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/7/28/kyiv-warns-iran-against-escalation-after-ukraines-caspian-sea-attack?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-29",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "At Least 3 Dead in Russia and Crimea After Ukraine Strikes Industrial Sites",
+      "source": "The Moscow Times",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNR2EyZ2FZSjZxS1VYNC0wM09lV3lqXzlxY3FEM2dOWmdSZjJjVXZCZmtMamw4dklqZ2Vpam9jNnBrU2RXaFNrQ2RMZHBlR0YzM01GTkUza0Jrb2p4UVFvMzRXTTI3cElzdTI0WnZwY3JBTUhRQy1FVnRwRmJMVDl3c3g3QkhnYWlQTlVCblpmVUNrVlE0aTZGRXdwU2k3dHV4eUJhNVVZNzhsOWZzLW56ejZ3c2U2X2p3aTlDRlFSYWRPdw?oc=5"
     }
   ],
   "top_places": [
@@ -3330,7 +3349,7 @@
     },
     {
       "place": "Moscow",
-      "count": 40
+      "count": 41
     },
     {
       "place": "Odesa",

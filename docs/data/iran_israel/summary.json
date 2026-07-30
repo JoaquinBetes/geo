@@ -2,13 +2,13 @@
   "id": "iran_israel",
   "name": "Irán–Israel/EE.UU.",
   "description": "Cobertura mediática del conflicto entre Irán, Israel y Estados Unidos",
-  "updated": "2026-07-30T14:31:44+00:00",
-  "total_articles": 5564,
-  "overall_avg": -0.3373,
+  "updated": "2026-07-30T19:52:17+00:00",
+  "total_articles": 5601,
+  "overall_avg": -0.338,
   "distribution": {
-    "pos": 1156,
-    "neu": 842,
-    "neg": 3566
+    "pos": 1163,
+    "neu": 845,
+    "neg": 3593
   },
   "sources": [
     "Al Jazeera",
@@ -30,9 +30,9 @@
     "The Times of India",
     "CBS News",
     "Anadolu Ajansı",
+    "Fox News",
     "The Hill",
     "NBC News",
-    "Fox News",
     "i24NEWS",
     "Yahoo",
     "CNN",
@@ -995,31 +995,31 @@
     },
     {
       "date": "2026-07-29",
-      "count": 151,
-      "avg": -0.3064,
+      "count": 152,
+      "avg": -0.3043,
       "pos": 36,
-      "neu": 24,
+      "neu": 25,
       "neg": 91
     },
     {
       "date": "2026-07-30",
-      "count": 78,
-      "avg": -0.3838,
-      "pos": 16,
-      "neu": 11,
-      "neg": 51
+      "count": 114,
+      "avg": -0.4041,
+      "pos": 23,
+      "neu": 13,
+      "neg": 78
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 2355,
-      "avg": -0.2976
+      "count": 2377,
+      "avg": -0.2988
     },
     {
       "source": "BBC",
-      "count": 640,
-      "avg": -0.2731
+      "count": 647,
+      "avg": -0.2721
     },
     {
       "source": "Times of Israel",
@@ -1033,13 +1033,13 @@
     },
     {
       "source": "NPR",
-      "count": 211,
-      "avg": -0.2933
+      "count": 213,
+      "avg": -0.2975
     },
     {
       "source": "The Guardian",
-      "count": 204,
-      "avg": -0.6252
+      "count": 209,
+      "avg": -0.6332
     },
     {
       "source": "The Jerusalem Post",
@@ -1107,6 +1107,11 @@
       "avg": -0.4437
     },
     {
+      "source": "Fox News",
+      "count": 21,
+      "avg": -0.4133
+    },
+    {
       "source": "The Hill",
       "count": 20,
       "avg": -0.5473
@@ -1115,11 +1120,6 @@
       "source": "NBC News",
       "count": 20,
       "avg": -0.5592
-    },
-    {
-      "source": "Fox News",
-      "count": 20,
-      "avg": -0.4746
     },
     {
       "source": "i24NEWS",
@@ -2796,20 +2796,20 @@
     {
       "name": "Iran",
       "type": "LOCATION",
-      "count": 2513,
-      "avg": -0.4925
+      "count": 2522,
+      "avg": -0.4929
     },
     {
       "name": "Israel",
       "type": "LOCATION",
-      "count": 2111,
-      "avg": -0.3829
+      "count": 2112,
+      "avg": -0.3824
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 943,
-      "avg": -0.3548
+      "count": 950,
+      "avg": -0.3573
     },
     {
       "name": "Strait of Hormuz",
@@ -2826,8 +2826,8 @@
     {
       "name": "Tehran",
       "type": "LOCATION",
-      "count": 259,
-      "avg": -0.6509
+      "count": 262,
+      "avg": -0.6545
     },
     {
       "name": "United States",
@@ -2850,14 +2850,14 @@
     {
       "name": "Saudi Arabia",
       "type": "LOCATION",
-      "count": 135,
-      "avg": -0.3061
+      "count": 136,
+      "avg": -0.3105
     },
     {
       "name": "Houthis",
       "type": "ORG",
-      "count": 87,
-      "avg": -0.5517
+      "count": 88,
+      "avg": -0.5558
     },
     {
       "name": "IDF",
@@ -2868,8 +2868,8 @@
     {
       "name": "IRGC",
       "type": "ORG",
-      "count": 60,
-      "avg": -0.7217
+      "count": 61,
+      "avg": -0.7139
     },
     {
       "name": "Hezbollah",
@@ -2910,12 +2910,349 @@
   ],
   "recent": [
     {
+      "title": "US Senate rejects bid to rein in Trump’s authority over Iran war",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/jul/30/donald-trump-senate-iran-war-power",
+      "published": "2026-07-30T19:29:15+00:00",
+      "compound": -0.9869,
+      "label": "negative",
+      "entities": [
+        "Donald Trump",
+        "Iran"
+      ]
+    },
+    {
+      "title": "Migrants seen swimming around border fence of Spanish enclave Ceuta",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/videos/cnvnml1pen6o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-30T19:16:18+00:00",
+      "compound": 0.0516,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Congo’s Ebola death toll passes 1,500 as it struggles to halt spread",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/30/congos-ebola-death-toll-passes-1500-as-it-struggles-to-halt-spread?traffic_source=rss",
+      "published": "2026-07-30T19:02:57+00:00",
+      "compound": -0.926,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "UN demands end of Ugandan clampdown on dissent",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/30/un-demands-end-of-ugandan-clampdown-on-dissent?traffic_source=rss",
+      "published": "2026-07-30T18:52:34+00:00",
+      "compound": -0.8591,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "ABC News says FCC is carrying out intimidation campaign to shape coverage",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/30/abc-news-says-fcc-is-carrying-out-intimidation-campaign-to-shape-coverage?traffic_source=rss",
+      "published": "2026-07-30T18:51:35+00:00",
+      "compound": -0.743,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Spain’s Ceuta declares emergency over surge in migrant arrivals",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/spains-ceuta-declares-emergency-over-surge-in-migrant-arrivals?traffic_source=rss",
+      "published": "2026-07-30T18:27:54+00:00",
+      "compound": -0.296,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Turtle rescued from rubble a month after Venezuela earthquake",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/turtle-rescued-from-rubble-a-month-after-venezuela-earthquake?traffic_source=rss",
+      "published": "2026-07-30T18:15:11+00:00",
+      "compound": 0.7783,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Viral cricket scandal sees ‘Clicky Ponting’ suspended from UK team",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/amateur-cricketer-accused-of-faking-an-edge-with-a-finger-snap?traffic_source=rss",
+      "published": "2026-07-30T18:12:02+00:00",
+      "compound": -0.9001,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Europe’s heating climate sparks ‘major intensification’ of fires: Report",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/30/europes-heating-climate-sparks-major-intensification-of-fires-report?traffic_source=rss",
+      "published": "2026-07-30T17:58:14+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Danube's record low levels force shutdown of Hungary's only nuclear plant",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cn0nqv05g0do?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-30T17:55:24+00:00",
+      "compound": -0.4939,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Saudi Arabia prepares sea and possible land offensive against Houthis",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/30/saudi-forces-planning-major-offensive-against-houthis-central-yemen",
+      "published": "2026-07-30T17:50:21+00:00",
+      "compound": -0.9132,
+      "label": "negative",
+      "entities": [
+        "Houthis",
+        "Saudi Arabia"
+      ]
+    },
+    {
+      "title": "European soccer leaders to boycott the World Cup in an unprecedented step",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/30/nx-s1-5913664/world-cup-fifa-uefa-gianni-infantino",
+      "published": "2026-07-30T17:38:38+00:00",
+      "compound": -0.6597,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Father of teen school shooter sentenced to 15 years in prison",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c78g4y18rxgo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-30T17:33:41+00:00",
+      "compound": -0.9022,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Why limited war with the US may suit Iran better than peace",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c78gnyq3wvdo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-30T17:26:01+00:00",
+      "compound": -0.8271,
+      "label": "negative",
+      "entities": [
+        "Iran"
+      ]
+    },
+    {
+      "title": "Rights report reconstructs fatal shooting of Palestinian man",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/rights-report-reconstructs-fatal-shooting-of-palestinian-man?traffic_source=rss",
+      "published": "2026-07-30T17:23:21+00:00",
+      "compound": -0.7906,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Hundreds of migrants swim from Morocco to Spanish enclave of Ceuta",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cg4drwzkrkxo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-30T17:19:27+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "‘To play God’: Cuba’s healthcare system collapses under US pressure",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/longform/2026/7/30/to-play-god-cubas-healthcare-system-collapses-under-us-pressure?traffic_source=rss",
+      "published": "2026-07-30T16:34:12+00:00",
+      "compound": -0.6249,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "In Their Own Hands: Ghana’s Drug Vigilantes",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/people-power/2026/7/30/in-their-own-hands-ghanas-drug-vigilantes?traffic_source=rss",
+      "published": "2026-07-30T16:30:00+00:00",
+      "compound": -0.765,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "NATO jets scramble as Russian missile detonates in Poland",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/30/nato-jets-scramble-as-russian-missile-detonates-in-poland?traffic_source=rss",
+      "published": "2026-07-30T16:28:51+00:00",
+      "compound": -0.765,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "IRGC video of retaliatory strikes on US targets in Jordan",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/irgc-video-of-retaliatory-strikes-on-us-targets-in-jordan?traffic_source=rss",
+      "published": "2026-07-30T16:06:08+00:00",
+      "compound": -0.25,
+      "label": "negative",
+      "entities": [
+        "IRGC"
+      ]
+    },
+    {
+      "title": "US GDP growth dips as inflation and trade deficits pressure economy",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/7/30/us-gdp-growth-dips-as-inflation-and-trade-deficits-pressure-economy?traffic_source=rss",
+      "published": "2026-07-30T15:52:47+00:00",
+      "compound": 0.4019,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Man impaled by a hiking pole treks 10 miles down mountain",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/videos/cvg0nlkmzewo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-30T15:47:09+00:00",
+      "compound": 0.5106,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "US-Iran strikes risk regional war in Middle East - The Latest",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/news/audio/2026/jul/30/us-iran-strikes-risk-regional-war-in-middle-east-the-latest",
+      "published": "2026-07-30T15:45:17+00:00",
+      "compound": -0.9648,
+      "label": "negative",
+      "entities": [
+        "Donald Trump",
+        "Iran",
+        "Tehran"
+      ]
+    },
+    {
+      "title": "US-Iran strikes risk regional war in Middle East - The Latest",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/news/video/2026/jul/30/us-iran-strikes-risk-regional-war-in-middle-east-the-latest",
+      "published": "2026-07-30T15:44:34+00:00",
+      "compound": -0.9648,
+      "label": "negative",
+      "entities": [
+        "Donald Trump",
+        "Iran",
+        "Tehran"
+      ]
+    },
+    {
+      "title": "Spain’s enclave Ceuta raises alarm as thousands cross border from Morocco",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/30/spanish-enclave-of-ceuta-raises-alarm-as-thousands-cross-morocco-border?traffic_source=rss",
+      "published": "2026-07-30T15:36:56+00:00",
+      "compound": -0.3182,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Republicans delay vote on Trump’s US attorney general pick amid concerns",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/30/republicans-delay-vote-on-trumps-us-attorney-general-pick-amid-concerns?traffic_source=rss",
+      "published": "2026-07-30T15:36:35+00:00",
+      "compound": -0.5267,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "UEFA members vote to boycott FIFA if Infantino’s World Cup plans pursued",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/30/uefa-members-agree-fifa-boycott-if-world-cup-plans-pursued?traffic_source=rss",
+      "published": "2026-07-30T15:30:40+00:00",
+      "compound": -0.4767,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Iran’s war with the US is not its only conflict as internal crises mount",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/30/iran-war-us-conflict-internal-crises-economy-dissent",
+      "published": "2026-07-30T15:24:31+00:00",
+      "compound": -0.9713,
+      "label": "negative",
+      "entities": [
+        "Iran",
+        "Tehran"
+      ]
+    },
+    {
+      "title": "Is Pakistan ‘using India’s playbook’ in Kashmir?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/is-pakistan-using-indias-playbook-in-kashmir?traffic_source=rss",
+      "published": "2026-07-30T15:08:58+00:00",
+      "compound": -0.8271,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Smoke rises over southern Iran after renewed US attacks",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/smoke-rises-over-southern-iran-after-renewed-us-attacks?traffic_source=rss",
+      "published": "2026-07-30T14:58:41+00:00",
+      "compound": -0.6597,
+      "label": "negative",
+      "entities": [
+        "Iran"
+      ]
+    },
+    {
+      "title": "War on Iran: Phase II: Day 19",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/war-on-iran-phase-ii-day-19?traffic_source=rss",
+      "published": "2026-07-30T14:56:59+00:00",
+      "compound": -0.8555,
+      "label": "negative",
+      "entities": [
+        "Iran"
+      ]
+    },
+    {
+      "title": "Police arrest dozens at London rally supporting Palestine Action",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/30/police-arrest-dozens-at-london-rally-supporting-palestine-action?traffic_source=rss",
+      "published": "2026-07-30T14:22:02+00:00",
+      "compound": 0.7184,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "El Salvador sentences gang members to 1,000 years in prison",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/el-salvador-sentences-gang-members-to-1000-years-in-prison?traffic_source=rss",
+      "published": "2026-07-30T14:07:49+00:00",
+      "compound": -0.7351,
+      "label": "negative",
+      "entities": []
+    },
+    {
       "title": "‘Go back to your own country’: NZ foreign minister faces backlash",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/go-back-to-your-own-country-nz-foreign-minister-faces-backlash?traffic_source=rss",
       "published": "2026-07-30T13:51:52+00:00",
       "compound": 0.0,
       "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Dashcam captures tornado toppling power lines onto car",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/videos/cj631p14gpjo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-30T13:44:23+00:00",
+      "compound": 0.4215,
+      "label": "positive",
       "entities": []
     },
     {
@@ -3021,6 +3358,18 @@
       "compound": -0.802,
       "label": "negative",
       "entities": [
+        "Israel"
+      ]
+    },
+    {
+      "title": "Fetterman unloads on reporter from 'trash' anti-Israel outlet, asks why it loves 'Hamas and Iran'",
+      "source": "Fox News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMDdzbjRYQkd6NnF5S2VJemdTY2RQcHo1TXlobE5oUzY0MnFMWXFrc25DVzJsR3NKRFAyQV9kQ3ZXZmY2YXZUbHE5QVR0N1V4OHBzQnZRRGZRYzVnZ3dKNUNoNDV2b0plQUt3a09tcmNTQ21oRkRBNFAyNDRPTFVaRncwc3hyUGdCbG1tbVpaYmJrajBlR1lFbmhoUmUwRXRtZHpHR2c2NUVCelHSAbABQVVfeXFMTXNaeGlRZVh6UlFObDMtNmRqTE5KUkhhc1J4QU1RS004Ri1XVGptZGhKZ2M1bjlRQ3dWLUw2djdBbUJ0Yy0xdlU2Mk9KVVRkSVpoMVR5RHFvUU5neGdkX0FjblI1VVpKVl9icGttbDVubzl1TVBWaXdxQUpfcElTdmc3Z3h6NVRXTHFZX1RtVVhpTFJvQkpydDR4RXZ2ajIwQk5QU0dMYmJvUEFmN2pMT3c?oc=5",
+      "published": "2026-07-30T11:20:41+00:00",
+      "compound": 0.8126,
+      "label": "positive",
+      "entities": [
+        "Iran",
         "Israel"
       ]
     },
@@ -3150,362 +3499,6 @@
       "published": "2026-07-30T09:24:32+00:00",
       "compound": 0.25,
       "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Three children among eight dead in Russian strikes on Ukraine, officials say",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cy8mk59l5jzo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-30T09:21:55+00:00",
-      "compound": -0.9062,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Man who stabbed author Salman Rushdie convicted of ‘terrorism’ charges",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/30/man-who-stabbed-author-salman-rushdie-convicted-of-terrorism-charges?traffic_source=rss",
-      "published": "2026-07-30T09:17:06+00:00",
-      "compound": -0.9607,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "South Africa’s le Clos breaks Commonwealth Games medal record",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/30/south-africas-le-clos-breaks-commonwealth-games-medal-record?traffic_source=rss",
-      "published": "2026-07-30T09:12:51+00:00",
-      "compound": 0.7351,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Photos: Zelenskyy urges ‘protection of life’ amid deadly Russian attacks",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/gallery/2026/7/30/photos-zelenskyy-urges-protection-of-life-amid-deadly-russian-attacks?traffic_source=rss",
-      "published": "2026-07-30T09:10:07+00:00",
-      "compound": -0.8687,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "The U.S. retaliates against a 'surprise attack' by Iran in Jordan",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/30/nx-s1-5913077/us-iran-updates",
-      "published": "2026-07-30T08:55:53+00:00",
-      "compound": -0.7096,
-      "label": "negative",
-      "entities": [
-        "Iran"
-      ]
-    },
-    {
-      "title": "Protest group says 30 dead in Pakistan-administered Kashmir vote unrest",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/30/protest-group-says-30-dead-in-pakistan-administered-kashmir-vote?traffic_source=rss",
-      "published": "2026-07-30T08:47:36+00:00",
-      "compound": -0.743,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "West Bank faces escalating Israeli settler violence and surge in army checkpoints",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/30/nx-s1-5911953/west-bank-faces-escalating-israeli-settler-violence-and-surge-in-army-checkpoints",
-      "published": "2026-07-30T08:41:26+00:00",
-      "compound": -0.7906,
-      "label": "negative",
-      "entities": [
-        "Israel"
-      ]
-    },
-    {
-      "title": "Saudi Arabia confirmed to host Asian Champions League Elite finals",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/30/saudi-arabia-confirmed-to-host-asian-champions-league-elite-finals?traffic_source=rss",
-      "published": "2026-07-30T08:24:50+00:00",
-      "compound": 0.7783,
-      "label": "positive",
-      "entities": [
-        "Saudi Arabia"
-      ]
-    },
-    {
-      "title": "Iran war live: Jordan downs Iranian missiles as US launches ‘heavy wave’ of strikes",
-      "source": "The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNS0NFQnRKT21LLW5hamdkVzFmdkVibUhOeFB5aXlEYk16T0RZd0F0Mkw1YW5SWmE0elpoSnFyYlk1amg3RU9GYW16OGtLeTBmR2FRV3FEWTQydURkUmRYYU9nQldNbXNYMEpYdVo5UG15cXdBUHNQNnQtTVhBVGxIUjVSUm9kVE8yMldaSFFtRVRYUHJPM05IU0ZWZHFNME42Mm9DRFdiUzFya0xwNXdLTU5WNHJ2azBNUlE?oc=5",
-      "published": "2026-07-30T07:45:15+00:00",
-      "compound": -0.9153,
-      "label": "negative",
-      "entities": [
-        "Iran"
-      ]
-    },
-    {
-      "title": "Infantino insists FIFA’s World Cup plan is proposal and not ‘obligation’",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/30/infantino-insists-fifas-world-cup-plan-is-proposal-and-not-obligation?traffic_source=rss",
-      "published": "2026-07-30T07:37:15+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "US strikes cause extensive damage on Iran’s Qeshm Island",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/us-strikes-cause-extensive-damage-on-irans-qeshm-island?traffic_source=rss",
-      "published": "2026-07-30T07:24:55+00:00",
-      "compound": -0.8957,
-      "label": "negative",
-      "entities": [
-        "Iran"
-      ]
-    },
-    {
-      "title": "Is Israel repeating the Crusaders’ fatal mistake?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/deja-vu-2/2026/7/30/is-israel-repeating-the-crusaders-fatal-mistake?traffic_source=rss",
-      "published": "2026-07-30T07:13:43+00:00",
-      "compound": -0.7399,
-      "label": "negative",
-      "entities": [
-        "Israel"
-      ]
-    },
-    {
-      "title": "India’s arms sale to Israel risks complicity in Gaza genocide, Amnesty says",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/30/indias-arms-sale-to-israel-risks-complicity-in-gaza-genocide-amnesty-says?traffic_source=rss",
-      "published": "2026-07-30T07:13:24+00:00",
-      "compound": 0.1531,
-      "label": "positive",
-      "entities": [
-        "IDF",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Veteran Ugandan opposition leader collapses in court and in ICU, his wife says",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c0m78xl1k2po?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-30T07:12:19+00:00",
-      "compound": -0.8885,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Can the UN’s Refugee Convention survive?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/2026/7/30/can-the-uns-refugee-convention?traffic_source=rss",
-      "published": "2026-07-30T07:06:27+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "In the waters off Malaysia, Iranian oil sales continue despite blockade",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/30/in-the-waters-off-malaysia-iranian-oil-sales-continue-despite-blockade?traffic_source=rss",
-      "published": "2026-07-30T07:02:42+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Iran"
-      ]
-    },
-    {
-      "title": "Live Updates: Latest from Israel, Iran, and Middle East",
-      "source": "The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE02OTZwa0liUUtYVGxkaEF3dlR1bWowSlB3WUlCem02TUl4X1NmWVBBS0ZFTzJWb1dNM0t2NmhKQXB4UjlKbC1lSGc5QzlVOFBDanFqc3IwanJHRnlaYXo4TC05UDI3V05mV0lQcGhEOGFLNHpfTFVlc1RxTmN2M00?oc=5",
-      "published": "2026-07-30T07:00:05+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Iran",
-        "Israel",
-        "Jerusalem"
-      ]
-    },
-    {
-      "title": "US launches ‘heavy wave’ of new strikes on Iran",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZUJwNER6Z1d6T0p5aVBwUnpZM2JUQWFxR2pSdVB4cVhCVGZkRDBvcVV4WDMwS0hEUDhpNTdWaEszeURRc1otQnJ3Z0toUlF3bThfN1Zvam5EYlItMU5JVU0yalYyT0RFS29Ycl9WSXZzUnpkQ004SmRfMFR3SUZRdmg0a3FBckd0LVhFMlNB0gGTAUFVX3lxTE1id1NxcERIelVSWk9aamxvSE1tQ3duZkY5VFRPVm5hQzd4bEp6MENxeXNjRlhIczlvbG1ZQ19HeHJxY2JNOE5LVHVqMGhYeGhGa3Z6QjZnNjhQcjRBcHNXeVRObXN4a2l6WUtxcUpTalNYSEdRR3k5dEJKN3lFZjEwcFFzLVFzZkx1NXJsMFByQnJWZw?oc=5",
-      "published": "2026-07-30T06:52:59+00:00",
-      "compound": -0.6124,
-      "label": "negative",
-      "entities": [
-        "Iran"
-      ]
-    },
-    {
-      "title": "Messi returns to MLS training 10 days after World Cup final heartbreak",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/30/messi-returns-to-mls-training-10-days-after-world-cup-final-heartbreak?traffic_source=rss",
-      "published": "2026-07-30T06:45:43+00:00",
-      "compound": -0.7717,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Report: Hamas nearing agreement on handing its weapons to new postwar Gaza security force",
-      "source": "The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE53Um1WWnRORDR5VExWMDFYaE9GYU43LUFPMG94TURCaGoxdllrY0lyXzVBZEUyWjZQMzY1Wnc3WThXUEZsc09HajZEekc5aGpfTzljbThYMDJUR3BLNTM2djhn0gFnQVVfeXFMTkFPNFNraWFDcnptNkplSTlyUVFpaUR0RFR0WjZIaHdsS0MzNjRSaXFBeGxvRFVOblNmZElWUFFjMGxJa205WWRWMmx2emE2ZUNhMFZMMGF3aG9NTGhldjFoU19UYW82Yw?oc=5",
-      "published": "2026-07-30T06:33:45+00:00",
-      "compound": 0.6597,
-      "label": "positive",
-      "entities": [
-        "Israel"
-      ]
-    },
-    {
-      "title": "Storm apologize after co-owner berates teen girls for support of Cunningham",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/30/storm-apologize-after-co-owner-berates-teen-girls-for-support-of-cunningham?traffic_source=rss",
-      "published": "2026-07-30T06:25:03+00:00",
-      "compound": 0.7184,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "US-Iran War Live Updates: 'Our Time To Respond,' Says Trump As US Launches 'Powerful' Strikes On Iran",
-      "source": "NDTV",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPUE9fNzNrV0FPQkd4VDFtS0RMc211T2dkZTl2TmZ1TUJrUS1YRnJQV3I2UmZnR3pIYklZSGNYYThQNjV3MkZEenRtR2J4c2VxR3pGbmFGNVdqS21sWmlWSlFaS3JtNS1lbU02V1F1MFcwSkU2Tmlrc0tpRHc2RHFMaUtHSUJUVzQ2aDk1T3hEYTJQcEh6MXFGWGhzcTBJZjE4VmFWMHVnMWlYNWJwTEZoRldzYjdmSXYxRHhpakhtdEpxRjVJaFkzMU1pZzNwbzJQM3g2R0dXZUFSWUEtLXBEZnB5dDVkT25xNmFVLUFYajkwajRmcWpV0gH_AUFVX3lxTE5KVE9xaHE2R0wxdTI2eWlIYi1wTTk2MEhsdnJMa0Rody1hYXVLc29TVzlCVms3Vy1RS3p4eHE1NXljaDNRWGRuandyQmtIbFhCcVh2VDB2V19waW5objZxNFJVWFpvY2pLeVM4MEN6V2dGeEtRSVJSU0psbnp4VmhCUlVVa01XUDJVVVF0ZF9hd0JaS00yekdJWms3WmtGUjEweUJONTBJMkFxVGtCM2RDUEpqMFhUNFNPV3BZSVRwaG9jUFc4SkMyZkpLRFZBWGpMTW9BTjhXYU5fNGhScWRUbEVoal9IcUhzX3I2RGhjOHFZNjV0dFZIZ0duazE2OA?oc=5",
-      "published": "2026-07-30T05:47:39+00:00",
-      "compound": -0.802,
-      "label": "negative",
-      "entities": [
-        "Donald Trump",
-        "Iran"
-      ]
-    },
-    {
-      "title": "Viral finger-clicker suspended as cricket storm remains in global spotlight",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/30/viral-finger-clicker-suspended-as-cricket-storm-remains-in-global-spotlight?traffic_source=rss",
-      "published": "2026-07-30T05:41:32+00:00",
-      "compound": -0.8689,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "War and shortages push Gaza hospitals to breaking point",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/2026/7/30/war-and-shortages-push-gaza-hospitals-to-breaking-point?traffic_source=rss",
-      "published": "2026-07-30T05:21:15+00:00",
-      "compound": -0.9188,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Hope dwindles for rescue in southwestern Japan quake as death toll climbs to 25",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/30/nx-s1-5913050/japan-earthquake-updates",
-      "published": "2026-07-30T05:18:58+00:00",
-      "compound": 0.3182,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "US launches ‘powerful’ strikes on Iran after Jordan attack",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORUduYWoyS3lENW9CNzRqN0VKV01PUVdqWktUNTRkY2NMRVk2Ri1qR05pdGRrVTJpLWc0S3l4djRrTUZNYkI3Qm5ESV91MEUwOVVSSnFMU1NjWlJwNkZtYXhnOUZFQmticUpHMmM5OEt1TlI1Y2dtYzY3RG96OWE2UzdhV2lhc0Y5MnF3VXlhMmp1clo4SS13aXdfckhIS19JZFpaRFFqSWE2ZEnSAbABQVVfeXFMTVNVQW43WF9jRFFWSnFnbWJaLXNfazc5S2pyY0Q0VVgtVklZaDQ3YXU1aDk0VXBqamdBMzBSamlGUHRRWkNiRXVMMzk1UnQ2TWV0bkxoWEp1RzlELUlJdmd6aERDTlJFbWg4MXBJSWl0amZRcng2eXN5LWlEWUQ5OWh6NWdnY2VEaWhieWI4aHNpSnp0NG56MWVDSFVXYm15a0xJRk1QUm1NSG9aZ1hxVm4?oc=5",
-      "published": "2026-07-30T05:02:56+00:00",
-      "compound": -0.8807,
-      "label": "negative",
-      "entities": [
-        "Iran"
-      ]
-    },
-    {
-      "title": "US launches ‘powerful’ strikes on Iran after Jordan attack",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/us-launches-powerful-strikes-on-iran-after-jordan-attack?traffic_source=rss",
-      "published": "2026-07-30T04:55:36+00:00",
-      "compound": -0.6808,
-      "label": "negative",
-      "entities": [
-        "Iran"
-      ]
-    },
-    {
-      "title": "Evo Morales defiant after new Bolivia arrest warrant",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/30/evo-morales-defiant-after-new-bolivia-arrest-warrant?traffic_source=rss",
-      "published": "2026-07-30T04:27:22+00:00",
-      "compound": -0.5106,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Rescue operation in Argentina to free more than 100 snow-trapped tourists",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/rescue-operation-in-argentina-to-free-more-than-100-snow-trapped-tourists?traffic_source=rss",
-      "published": "2026-07-30T04:22:17+00:00",
-      "compound": 0.5267,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "US military says latest strikes on Iran last two hours, hitting dozens of targets",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYl9qUHF2eEJlVmxqM2ROX0NFVDE3SHVIeExWXzltdnl5dG1HSmprdzFha3lhWUt4dGRLeWFBSlE0ZlYySkhHdmpLcE51S3c3TV90azg5LTVhWWNNd3IydlAwT1djUmV4Ui1BR3pOUl9PcHBPWllxM1NDSmlnZUQ3RnZSeVd2X3BqSFVBR0U3cE1xaGwxVXpYWmtXanlZVHBNUGc?oc=5",
-      "published": "2026-07-30T04:15:43+00:00",
-      "compound": -0.6124,
-      "label": "negative",
-      "entities": [
-        "Iran"
-      ]
-    },
-    {
-      "title": "US-Iran conflict enters new phase as Saudi Arabia helps hit proxies and diplomacy stalls again",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNejFOUGJhMS1NdDJ2a0FsNUV0T29mUkcwUFI2TzA3anNMZ1NJQWp3eG42TFRIaHcwOUZvQURtSzdvaWZyckZNSm1peU9ZU2lvY3JDa3ZyNUUyb1RkMjh5Q1gwZ0VMUjdLY3R0MlN6V0t2ZFAzc0p0Y0NpZnk1MTBBcGpUSDUyM1pXM0pQVzFNemlLR0lDdGpRSW13?oc=5",
-      "published": "2026-07-30T04:12:00+00:00",
-      "compound": 0.1531,
-      "label": "positive",
-      "entities": [
-        "Iran",
-        "Saudi Arabia"
-      ]
-    },
-    {
-      "title": "‘Like volcanic ash falling’: Inside Aeon mall after Japan’s earthquake",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/30/like-volcanic-ash-falling-inside-aeon-mall-after-japans-earthquake?traffic_source=rss",
-      "published": "2026-07-30T04:00:30+00:00",
-      "compound": -0.1779,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "US launches ‘heavy wave’ of new strikes on Iran",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/30/us-launches-another-round-of-attacks-on-iran?traffic_source=rss",
-      "published": "2026-07-30T03:56:07+00:00",
-      "compound": -0.872,
-      "label": "negative",
-      "entities": [
-        "Iran"
-      ]
-    },
-    {
-      "title": "Israeli strikes leave buildings burning in Gaza City",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/israeli-strikes-leave-buildings-burning-in-gaza-city?traffic_source=rss",
-      "published": "2026-07-30T03:49:25+00:00",
-      "compound": -0.6369,
-      "label": "negative",
-      "entities": [
-        "Israel"
-      ]
-    },
-    {
-      "title": "Dramatic sea rescue as firefighters die on the Greek island of Crete",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/aje-onl-nf_dramatic-sea-rescue-as-firefighters-die-in-greece-290726?traffic_source=rss",
-      "published": "2026-07-30T03:33:34+00:00",
-      "compound": -0.6124,
-      "label": "negative",
       "entities": []
     }
   ]

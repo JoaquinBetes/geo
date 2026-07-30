@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-07-29T19:42:59+00:00",
+  "updated": "2026-07-30T03:28:26+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,12 +45,12 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-07-29"
+    "to": "2026-07-30"
   },
   "kpis": {
-    "events_total": 287,
-    "events_unlocated": 819,
-    "events_7d": 36,
+    "events_total": 292,
+    "events_unlocated": 825,
+    "events_7d": 38,
     "events_prev_7d": 82,
     "hottest_place": "Kyiv"
   },
@@ -462,8 +462,17 @@
     },
     {
       "date": "2026-07-29",
-      "total": 1,
-      "strike": 1,
+      "total": 3,
+      "strike": 3,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-30",
+      "total": 3,
+      "strike": 3,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -3340,16 +3349,66 @@
       "title": "At Least 3 Dead in Russia and Crimea After Ukraine Strikes Industrial Sites",
       "source": "The Moscow Times",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNR2EyZ2FZSjZxS1VYNC0wM09lV3lqXzlxY3FEM2dOWmdSZjJjVXZCZmtMamw4dklqZ2Vpam9jNnBrU2RXaFNrQ2RMZHBlR0YzM01GTkUza0Jrb2p4UVFvMzRXTTI3cElzdTI0WnZwY3JBTUhRQy1FVnRwRmJMVDl3c3g3QkhnYWlQTlVCblpmVUNrVlE0aTZGRXdwU2k3dHV4eUJhNVVZNzhsOWZzLW56ejZ3c2U2X2p3aTlDRlFSYWRPdw?oc=5"
+    },
+    {
+      "date": "2026-07-29",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russia striking Kyiv with ballistic missiles after Zelensky warned of ‘massive attack’",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUnRucjd0azV0V0pXVGZOMzJKY2JITTRZMG9yODhCc2lmdl9vUUV6c01oeTJ5a1VYZzRodlhKZjlMOWdvOExjZ3ZkNF9iNzI3OTEzd0ZXOTFpamhHbWVZdVI4TEFOSTVGYWJzcWVrN2EybU1zSFY0bDFOQ2Z6MUpzcmVB?oc=5"
+    },
+    {
+      "date": "2026-07-29",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Vladimir Putin Just Got Handed a New Ukraine War Reality: Moscow Could Soon Be Within Ballistic Missile Range",
+      "source": "National Security Journal",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYjgwbFQtaVdXYlRzV1dPcTBHaTRwd0N5QmVES01SWDBmdHQ0VkU0QjZNTHlqcEwySUd6QmZDYW53T2JoeGlVUTFTTUZMR29kR1JONm5SOTVDcm9aSGRTY3lPby00V2o2NFM1WEtocXFSeXpzQ0p5REc3VTZ0aGIyd0d6d2RYQ1ozS0plX0x1b2Z3MGhpMVFUWnQyTGJDOUtsRkdfNk9GM2Joa3p3Wm5yUVQyV3QybGRLOVQ3alV0U3hNbjAtcDRWTkFFMVd2eVNDN1hVQnk1LXhXMEZaT2c?oc=5"
+    },
+    {
+      "date": "2026-07-30",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russian ballistic missile strikes on Kyiv come after Zelenskyy’s warning",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTnZOLXFfRGdVeGhoLWtQZHdMZDVwRE9Xb2Rlb2liQ1RQdHUtWEpmczFyN1hjNEZJamFJcmtxNEswNWVrRGRiWmRYSk9KS3lmTHJLeUhydnpLY0g4SVdsQzlWOXBaT3FQMVY1TXFoRTZsczJNUnNjektBVkcyVTZMSmlCeGR4Z0o4bWhrUHdVR0xSWTdUenJHQ1JFN1l5UUJwWHlzTHRLbElpZnhfd2hBMdIBtgFBVV95cUxNTUNxcWtDdUFFdWY1Qm92SGVjNUlPVGpKSFppTUYzN3RPLV9QR1pQcXFjdVFNZ28wQ1dXaVFyNHhSWEY3OXczUmQ0OWRGZENJTlM0eFowRFh0UWFFT1ZHY0tXSXdiQTFNUlplQUhKbXllSTVPcXBQY0lTbzJDanhtSGRRYXlOVjhTOWF3RlZDb0c5Q05iRnpNTFFBUlJSV2FiR0s2SmxuZmlqa2s1eVpMNlV4Mk5NQQ?oc=5"
+    },
+    {
+      "date": "2026-07-30",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "One killed in Russian missile strikes on Kyiv, day after Zelenskyy warning",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/30/russia-ballistic-missile-strikes-on-kyiv-come-after-zelenskyys-warning?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-30",
+      "type": "strike",
+      "place": "Kryvyi Rih",
+      "lat": 47.9105,
+      "lon": 33.3918,
+      "title": "Deadly strikes on Ukrainian cities after Zelenskyy warns of ‘massive’ Russian attack",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/30/ukraine-russia-missile-strikes-attack-kyiv"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 169
+      "count": 171
     },
     {
       "place": "Moscow",
-      "count": 41
+      "count": 42
     },
     {
       "place": "Odesa",

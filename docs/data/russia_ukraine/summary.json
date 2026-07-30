@@ -2,13 +2,13 @@
   "id": "russia_ukraine",
   "name": "Rusia–Ucrania",
   "description": "Cobertura mediática del conflicto entre Rusia y Ucrania",
-  "updated": "2026-07-29T19:42:58+00:00",
-  "total_articles": 4931,
-  "overall_avg": -0.3882,
+  "updated": "2026-07-30T03:28:25+00:00",
+  "total_articles": 4977,
+  "overall_avg": -0.3874,
   "distribution": {
-    "pos": 979,
-    "neu": 595,
-    "neg": 3357
+    "pos": 989,
+    "neu": 603,
+    "neg": 3385
   },
   "sources": [
     "Al Jazeera",
@@ -54,10 +54,10 @@
     "France 24",
     "The New Voice of Ukraine",
     "Atlantic Council",
+    "Russia Matters",
     "The Herald Journal",
     "U.S. News & World Report",
     "Forbes",
-    "Russia Matters",
     "Le Monde.fr",
     "WION",
     "Springfield News-Sun",
@@ -357,7 +357,9 @@
     "KSL.com",
     "www.lvivherald.com",
     "newsweek.com",
-    "Sam Freedman | Substack"
+    "Sam Freedman | Substack",
+    "National Security Journal",
+    "pbs.org"
   ],
   "daily": [
     {
@@ -1018,33 +1020,41 @@
     },
     {
       "date": "2026-07-29",
-      "count": 116,
-      "avg": -0.3524,
-      "pos": 29,
-      "neu": 11,
-      "neg": 76
+      "count": 146,
+      "avg": -0.3204,
+      "pos": 37,
+      "neu": 17,
+      "neg": 92
+    },
+    {
+      "date": "2026-07-30",
+      "count": 16,
+      "avg": -0.5003,
+      "pos": 2,
+      "neu": 2,
+      "neg": 12
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 2115,
-      "avg": -0.268
+      "count": 2141,
+      "avg": -0.2677
     },
     {
       "source": "BBC",
-      "count": 653,
-      "avg": -0.3025
+      "count": 662,
+      "avg": -0.3009
     },
     {
       "source": "The Guardian",
-      "count": 225,
-      "avg": -0.6072
+      "count": 228,
+      "avg": -0.6083
     },
     {
       "source": "NPR",
-      "count": 207,
-      "avg": -0.2839
+      "count": 209,
+      "avg": -0.2812
     },
     {
       "source": "UNITED24 Media",
@@ -1073,13 +1083,13 @@
     },
     {
       "source": "CNN",
-      "count": 46,
-      "avg": -0.6602
+      "count": 47,
+      "avg": -0.6566
     },
     {
       "source": "The Kyiv Independent",
-      "count": 43,
-      "avg": -0.6546
+      "count": 44,
+      "avg": -0.6586
     },
     {
       "source": "Reuters",
@@ -1088,8 +1098,8 @@
     },
     {
       "source": "Yahoo",
-      "count": 36,
-      "avg": -0.8011
+      "count": 37,
+      "avg": -0.8019
     },
     {
       "source": "AP News",
@@ -1242,6 +1252,11 @@
       "avg": -0.0489
     },
     {
+      "source": "Russia Matters",
+      "count": 11,
+      "avg": -0.7948
+    },
+    {
       "source": "The Herald Journal",
       "count": 11,
       "avg": -0.8316
@@ -1255,11 +1270,6 @@
       "source": "Forbes",
       "count": 10,
       "avg": -0.7126
-    },
-    {
-      "source": "Russia Matters",
-      "count": 10,
-      "avg": -0.7916
     },
     {
       "source": "Le Monde.fr",
@@ -2760,44 +2770,54 @@
       "source": "Sam Freedman | Substack",
       "count": 1,
       "avg": -0.644
+    },
+    {
+      "source": "National Security Journal",
+      "count": 1,
+      "avg": -0.7506
+    },
+    {
+      "source": "pbs.org",
+      "count": 1,
+      "avg": 0.0
     }
   ],
   "top_entities": [
     {
       "name": "Ukraine",
       "type": "LOCATION",
-      "count": 1938,
-      "avg": -0.5631
+      "count": 1947,
+      "avg": -0.5635
     },
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 1582,
-      "avg": -0.6048
+      "count": 1590,
+      "avg": -0.6049
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 532,
-      "avg": -0.3258
+      "count": 541,
+      "avg": -0.3205
     },
     {
       "name": "Kyiv",
       "type": "LOCATION",
-      "count": 385,
-      "avg": -0.6751
+      "count": 390,
+      "avg": -0.6763
     },
     {
       "name": "Volodymyr Zelensky",
       "type": "PERSON",
-      "count": 324,
-      "avg": -0.4612
+      "count": 329,
+      "avg": -0.4633
     },
     {
       "name": "Vladimir Putin",
       "type": "PERSON",
-      "count": 313,
-      "avg": -0.5967
+      "count": 314,
+      "avg": -0.5972
     },
     {
       "name": "NATO",
@@ -2814,8 +2834,8 @@
     {
       "name": "Moscow",
       "type": "LOCATION",
-      "count": 130,
-      "avg": -0.7303
+      "count": 132,
+      "avg": -0.7324
     },
     {
       "name": "Crimea",
@@ -2844,11 +2864,462 @@
     {
       "name": "United Nations",
       "type": "ORG",
-      "count": 3,
-      "avg": -0.0535
+      "count": 4,
+      "avg": 0.1575
     }
   ],
   "recent": [
+    {
+      "title": "Deadly strikes on Ukrainian cities after Zelenskyy warns of ‘massive’ Russian attack",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/30/ukraine-russia-missile-strikes-attack-kyiv",
+      "published": "2026-07-30T03:19:54+00:00",
+      "compound": -0.9866,
+      "label": "negative",
+      "entities": [
+        "Volodymyr Zelensky",
+        "Russia",
+        "Ukraine",
+        "Kyiv",
+        "Moscow"
+      ]
+    },
+    {
+      "title": "Why did Anthony Fauci invoke the Fifth Amendment? Senate hearing explained",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/30/why-did-anthony-fauci-invoke-the-fifth-amendment-senate-hearing-explained?traffic_source=rss",
+      "published": "2026-07-30T03:04:18+00:00",
+      "compound": 0.1027,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Australia takes Telegram to court over alleged failure to remove 'pro-terror' material",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/crmrv4pnexmo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-30T03:03:12+00:00",
+      "compound": -0.7579,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Singapore fines French teen $465 for viral straw-licking stunt",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/crrvqjw8epko?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-30T02:54:54+00:00",
+      "compound": -0.0258,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Living with fear: Inside a southern Lebanon village divided by Israel",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/living-with-fear-inside-a-southern-lebanon-village-divided-by-israel?traffic_source=rss",
+      "published": "2026-07-30T02:45:25+00:00",
+      "compound": -0.4939,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "US launches 'powerful' strikes on Iran after attempted attack on American troops",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c74gwdzywmeo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-30T01:58:28+00:00",
+      "compound": -0.5994,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "After a deadly raid, a displaced Nigerian mother finds a lifeline in sewing",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/30/after-a-deadly-raid-a-displaced-nigerian-mother-finds-a-lifeline-in-sewing?traffic_source=rss",
+      "published": "2026-07-30T01:56:57+00:00",
+      "compound": -0.7906,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Japan turns to Canadian crude as Asia feels Hormuz supply pinch",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/30/japan-turns-to-canadian-crude-as-asia-feels-hormuz-supply-pinch?traffic_source=rss",
+      "published": "2026-07-30T01:42:30+00:00",
+      "compound": -0.926,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Trump pushes fighter jet sale to Turkiye despite Israeli opposition",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/trump-pushes-fighter-jet-sale-to-turkiye-despite-israeli-opposition?traffic_source=rss",
+      "published": "2026-07-30T01:04:42+00:00",
+      "compound": 0.5994,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Trump considering AI controls after OpenAI hacking incidents",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c20dppq3y90o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-30T00:41:28+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Russian ballistic missile strikes on Kyiv come after Zelenskyy’s warning",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTnZOLXFfRGdVeGhoLWtQZHdMZDVwRE9Xb2Rlb2liQ1RQdHUtWEpmczFyN1hjNEZJamFJcmtxNEswNWVrRGRiWmRYSk9KS3lmTHJLeUhydnpLY0g4SVdsQzlWOXBaT3FQMVY1TXFoRTZsczJNUnNjektBVkcyVTZMSmlCeGR4Z0o4bWhrUHdVR0xSWTdUenJHQ1JFN1l5UUJwWHlzTHRLbElpZnhfd2hBMdIBtgFBVV95cUxNTUNxcWtDdUFFdWY1Qm92SGVjNUlPVGpKSFppTUYzN3RPLV9QR1pQcXFjdVFNZ28wQ1dXaVFyNHhSWEY3OXczUmQ0OWRGZENJTlM0eFowRFh0UWFFT1ZHY0tXSXdiQTFNUlplQUhKbXllSTVPcXBQY0lTbzJDanhtSGRRYXlOVjhTOWF3RlZDb0c5Q05iRnpNTFFBUlJSV2FiR0s2SmxuZmlqa2s1eVpMNlV4Mk5NQQ?oc=5",
+      "published": "2026-07-30T00:32:30+00:00",
+      "compound": -0.8316,
+      "label": "negative",
+      "entities": [
+        "Volodymyr Zelensky",
+        "Russia",
+        "Kyiv"
+      ]
+    },
+    {
+      "title": "Trump cuts WHO off from Gavi vaccine alliance funding",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/30/trump-cuts-who-off-from-gavi-vaccine-alliance?traffic_source=rss",
+      "published": "2026-07-30T00:26:49+00:00",
+      "compound": -0.5574,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "One killed in Russian missile strikes on Kyiv, day after Zelenskyy warning",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/30/russia-ballistic-missile-strikes-on-kyiv-come-after-zelenskyys-warning?traffic_source=rss",
+      "published": "2026-07-30T00:23:13+00:00",
+      "compound": -0.6908,
+      "label": "negative",
+      "entities": [
+        "Volodymyr Zelensky",
+        "Russia",
+        "Ukraine",
+        "Kyiv"
+      ]
+    },
+    {
+      "title": "Ukraine war briefing: F-16 crashes while chasing Russian air targets",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/30/ukraine-war-briefing-f-16-crashes-while-chasing-russian-air-targets",
+      "published": "2026-07-30T00:17:11+00:00",
+      "compound": -0.25,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Ukraine war briefing: F-16 crashes while chasing Russian air targets",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMXp5ZGxqdHB5V1JvTVZrc29FVnlYc2ptaXNiZHhfcVB1cUlBM2VCLWJMNGtfcTU4bFhrOXVTbm1remFsdjJYUWhxQ2hSNjhpWjEwb2R4aUo1VW5CbzBheUJKeHV4ODBNZXdFOWsxeVhpeVg1WHBrY1kxc2pMOTduUmM0aG1vSkxQeXV0NXppV2RMMm5ONUJvM0w1S2djQl9KU3BRc2N3OUY1eWZFaE01bjZITQ?oc=5",
+      "published": "2026-07-30T00:17:00+00:00",
+      "compound": -0.8316,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Iran war live: US launches ‘powerful’ strikes after IRGC attack on Jordan",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/7/30/iran-war-live-trump-threatens-to-hit-back-hard-over-strikes-on-jordan?traffic_source=rss",
+      "published": "2026-07-30T00:00:00+00:00",
+      "compound": -0.9652,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Saudi Arabia seeks international coalition against Houthis in Red Sea",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/29/saudi-arabia-seeks-international-coalition-against-houthis-in-red-sea?traffic_source=rss",
+      "published": "2026-07-29T23:34:26+00:00",
+      "compound": 0.5423,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Nicaragua’s Daniel Ortega aims to bar ‘traitors’ from future elections",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/29/nicaraguas-daniel-ortega-aims-to-bar-traitors-from-future-elections?traffic_source=rss",
+      "published": "2026-07-29T23:30:22+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Watch: Japanese mall explodes after magnitude 6.8 earthquake",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/videos/c9d8ggpdgqlo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-29T23:29:53+00:00",
+      "compound": -0.2732,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Israel slams Canada for statement opposing West Bank settlement expansion",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/29/israel-slams-canada-for-statement-opposing-west-bank-settlement-expansion?traffic_source=rss",
+      "published": "2026-07-29T23:29:24+00:00",
+      "compound": 0.0258,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Trump appeals $83.3m E Jean Carroll civil verdict to US Supreme Court",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/29/trump-appeals-83-3m-e-jean-carroll-civil-verdict-to-us-supreme-court?traffic_source=rss",
+      "published": "2026-07-29T23:25:37+00:00",
+      "compound": 0.93,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Iraq calls Saudi-US attacks a ‘flagrant violation of sovereignty’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/29/iraq-calls-saudi-us-attacks-flagrant-violation-of-sovereignty?traffic_source=rss",
+      "published": "2026-07-29T23:10:15+00:00",
+      "compound": -0.8402,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "India's CJP protests: Why tech alone won't stop exam paper leaks",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c1m1gz1nx45o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-29T22:50:14+00:00",
+      "compound": -0.4788,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Russia striking Kyiv with ballistic missiles after Zelensky warned of ‘massive attack’",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUnRucjd0azV0V0pXVGZOMzJKY2JITTRZMG9yODhCc2lmdl9vUUV6c01oeTJ5a1VYZzRodlhKZjlMOWdvOExjZ3ZkNF9iNzI3OTEzd0ZXOTFpamhHbWVZdVI4TEFOSTVGYWJzcWVrN2EybU1zSFY0bDFOQ2Z6MUpzcmVB?oc=5",
+      "published": "2026-07-29T22:38:25+00:00",
+      "compound": -0.4939,
+      "label": "negative",
+      "entities": [
+        "Volodymyr Zelensky",
+        "Russia",
+        "Kyiv"
+      ]
+    },
+    {
+      "title": "Sam Altman meets lawmakers on back of OpenAI agents hacking companies",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/7/29/sam-altman-meets-lawmakers-on-back-of-openai-agents-hacking-companies?traffic_source=rss",
+      "published": "2026-07-29T22:27:35+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Salman Rushdie attacker convicted of terror offences",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c86ng1g5wy4o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-29T22:15:33+00:00",
+      "compound": -0.8689,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "The Chinese robot army transforming the UK's retail industry",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c0jl8v23qwgo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-29T22:08:29+00:00",
+      "compound": 0.4767,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Is FIFA selling parts of the World Cup to private investors?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/is-fifa-selling-parts-of-the-world-cup-to-private-investors?traffic_source=rss",
+      "published": "2026-07-29T21:46:22+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Myanmar court sentences activists to 37 years over election protest",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/29/myanmar-court-sentences-activists-to-37-years-over-election-protest?traffic_source=rss",
+      "published": "2026-07-29T21:29:33+00:00",
+      "compound": -0.7845,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "FIFA charges Argentina after World Cup final brawl with Spain",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/29/fifa-charges-argentina-after-world-cup-final-brawl-with-spain?traffic_source=rss",
+      "published": "2026-07-29T21:20:42+00:00",
+      "compound": -0.4939,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Trump threatens Iran strikes after attack on US base in Jordan",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/trump-threatens-iran-strikes-after-attack-on-us-base-in-jordan?traffic_source=rss",
+      "published": "2026-07-29T21:18:24+00:00",
+      "compound": -0.8834,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Ukraine says it hits 2 major Russian oil refineries hours after Zelenskyy's meeting with Trump",
+      "source": "pbs.org",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSUdyZkF0YTlVWlM0U2VyQU9keGxqaVZVV0tNbWYxeVdzSEVfSXgxMktGY0VPOUtDRThtT2VTc0Zad3FUaUxQSzBDa1lHRjhqZGJyYjBnV2ZUOVI1RklUWlNkdXJ4NU9tRFVOWElPMHdySnJBUlVOSnlnbk5sVjVwUmZBVHlYYlpzQkRBWXptR2lZeDhWa3VKMEZ4SE44Q244RDI0MEY1R3dVLTJxRHFnaDNFOXIwdUFhTjVSc085TXNENnlQaEJJ0gHMAUFVX3lxTFBsX1FDcFRXNkNZWFlIaGhGdU5pYnFVSmkwUjlTUEhwSFRseGNqNG5FSjhCRXZ5ZFVualhmc0Z6UGFka250X0I0NzZKbEh0eXoyU0dBNTN1cF8zM3VBQ2VseVNoZ0xvbXFab3pibFhzWktpMW5wQ2MzSDhDcmQ0d1JDMXBZVVkxWW9PTC1fZVhwS2RZcElZaS1BLVJTSVo2NFBaSWptQmlFZERXcmNoOXJwR0VZdkJuVlRVdGR2ZzIxdzBVMS1qZ1E2bTNYTA?oc=5",
+      "published": "2026-07-29T20:59:24+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Volodymyr Zelensky",
+        "Donald Trump",
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Videos show aftermath of US-Saudi strikes on Iraq PMF bases",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/videos-show-aftermath-of-us-saudi-strikes-on-iraq-pmf-bases?traffic_source=rss",
+      "published": "2026-07-29T20:31:10+00:00",
+      "compound": 0.2023,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "The race is on for the next United Nations secretary general",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/29/nx-s1-5909162/the-race-is-on-for-the-next-united-nations-secretary-general",
+      "published": "2026-07-29T20:28:50+00:00",
+      "compound": 0.7906,
+      "label": "positive",
+      "entities": [
+        "United Nations"
+      ]
+    },
+    {
+      "title": "Latest Mideast strikes between U.S. and Iran draw Saudi Arabia into conflict",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/29/nx-s1-5911806/latest-mideast-strikes-between-u-s-and-iran-draw-saudi-arabia-into-conflict",
+      "published": "2026-07-29T20:22:26+00:00",
+      "compound": -0.802,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Zendaya on working with Tom Holland in Spider-Man: ‘When you’re best friends it’s easy’",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c0km3d2j6mko?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-29T20:21:46+00:00",
+      "compound": 0.8074,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Trump’s attorney general pick faces possible Republican roadblock",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/29/trumps-attorney-general-pick-faces-possible-republican-roadblock?traffic_source=rss",
+      "published": "2026-07-29T20:11:54+00:00",
+      "compound": 0.5994,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Algeria elects first-ever woman speaker of parliament",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/algeria-elects-first-ever-woman-speaker-of-parliament?traffic_source=rss",
+      "published": "2026-07-29T20:09:26+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "How is Islamabad handling crisis in Pakistan-administered Kashmir?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/7/29/how-is-islamabad-handling-crisis-in-pakistan-administered-kashmir?traffic_source=rss",
+      "published": "2026-07-29T20:08:09+00:00",
+      "compound": -0.8625,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "James Comey’s lawyers say US government distorted details in seashell case",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/29/james-comeys-lawyers-say-us-government-distorted-details-in-seashell-case?traffic_source=rss",
+      "published": "2026-07-29T20:00:29+00:00",
+      "compound": -0.7964,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "New investigation shows how an Israeli settler escaped justice",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/29/new-investigation-shows-how-an-israeli-settler-escaped-justice?traffic_source=rss",
+      "published": "2026-07-29T19:55:31+00:00",
+      "compound": 0.6542,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Ice cream for education: Gaza cafe raises funds for studies",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/ice-cream-for-education-gaza-cafe-raises-funds-for-studies?traffic_source=rss",
+      "published": "2026-07-29T19:46:57+00:00",
+      "compound": -0.1027,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "The Russia-Ukraine War Report Card, July 29, 2026",
+      "source": "Russia Matters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdEhNT1MzLWpma2NTODdIVVUxUmVDbjZlN2JOckY3V1VVVVRoaDh1SVotaHgya1d5bEFQVG92QWc5U01tRDRHQXYwZ0tud05lZzJ5ZEk5bWNPT2stM3FKc042ZWFCVUZLNzdxaHEyTFhqUmVLcUhCaU4wN3duNUowc0h0b1Y2Zk16WGI1NV9lcWJIXzZ4Wm82UTJvcFoyODE1bWlJcmIzSWZCZGdGTUE?oc=5",
+      "published": "2026-07-29T19:42:08+00:00",
+      "compound": -0.8271,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Vladimir Putin Just Got Handed a New Ukraine War Reality: Moscow Could Soon Be Within Ballistic Missile Range",
+      "source": "National Security Journal",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYjgwbFQtaVdXYlRzV1dPcTBHaTRwd0N5QmVES01SWDBmdHQ0VkU0QjZNTHlqcEwySUd6QmZDYW53T2JoeGlVUTFTTUZMR29kR1JONm5SOTVDcm9aSGRTY3lPby00V2o2NFM1WEtocXFSeXpzQ0p5REc3VTZ0aGIyd0d6d2RYQ1ozS0plX0x1b2Z3MGhpMVFUWnQyTGJDOUtsRkdfNk9GM2Joa3p3Wm5yUVQyV3QybGRLOVQ3alV0U3hNbjAtcDRWTkFFMVd2eVNDN1hVQnk1LXhXMEZaT2c?oc=5",
+      "published": "2026-07-29T19:10:16+00:00",
+      "compound": -0.7506,
+      "label": "negative",
+      "entities": [
+        "Vladimir Putin",
+        "Ukraine",
+        "Moscow"
+      ]
+    },
     {
       "title": "Al-Shabab kills five Kenyan security personnel in ambush",
       "source": "Al Jazeera",
@@ -2866,6 +3337,29 @@
       "compound": 0.4939,
       "label": "positive",
       "entities": []
+    },
+    {
+      "title": "Ukraine war latest: General staff announces manpower allocation audit in first major reform under Drapatyi",
+      "source": "The Kyiv Independent",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdnRHTm5MdmNnc1Z0M0V0SldhalRac3RRaHdoTVdFT05nYm40N2Nha1BBYlFxbFBqU3JLZGFwRzBnb3dkQjJiR1Fjd081NnlBcXhCNldDdzBldEtidkdrYV9pQVdLa3hBWWRuSmo1TjBQWUJ2TDkzWC1feEVfTERiZ0Y5VkFMVGlqRy1uZTBCc0t4eHMwdkE2V09Sdzg3MzhFVmVnN3gwNmNlcFpOcWNXR2lZRFJZbC1rNzJoQXI5UjVjUmsxd0NWdFhOSEtCUjE1?oc=5",
+      "published": "2026-07-29T18:45:16+00:00",
+      "compound": -0.8316,
+      "label": "negative",
+      "entities": [
+        "Ukraine",
+        "Kyiv"
+      ]
+    },
+    {
+      "title": "Ukraine war latest: General staff announces manpower allocation audit in first major reform under Drapatyi",
+      "source": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNy0xMUVueWN2Y3p2QUlTNDNmNk4tOXk4dnNiNzN4eHpnUXFyYTJZQXdLTnBhdDY4RDlGeXlwNk1nOHhIc2VvVGNhbG5PbDdPMHI4SWxZVi1JZGIzQ0FnMWdSTWJNb1gzNXRjTGNuaHJUa0wtZ01MaDAxY002VEZ5dGt6YllyMmNESHh2cGtlOTV6OVk?oc=5",
+      "published": "2026-07-29T18:45:16+00:00",
+      "compound": -0.8316,
+      "label": "negative",
+      "entities": [
+        "Ukraine"
+      ]
     },
     {
       "title": "Bordeaux wildfire battle continues amid extreme heat",
@@ -2985,462 +3479,6 @@
         "Russia",
         "Ukraine"
       ]
-    },
-    {
-      "title": "Fauci invokes Fifth Amendment in heated COVID-19 Senate hearing",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/29/fauci-invokes-fifth-amendment-in-heated-covid-19-senate-hearing?traffic_source=rss",
-      "published": "2026-07-29T17:32:34+00:00",
-      "compound": 0.1779,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Fifa opens disciplinary proceedings against Argentina",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cp3rkwgy6y7o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-29T17:21:57+00:00",
-      "compound": -0.3182,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Fuel prices soar on back of Iran war, leaving Yemeni labourers with no work",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/29/yemen-construction-fuel-iran?traffic_source=rss",
-      "published": "2026-07-29T17:16:39+00:00",
-      "compound": -0.7269,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "'Taiwan Travelogue' rethinks history, colonialism, and identity",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/29/g-s1-136110/taiwan-travelogue-rethinks-history-colonialism-and-identity",
-      "published": "2026-07-29T16:55:54+00:00",
-      "compound": 0.7096,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "France fire crews face searing heat in battle to contain flames",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c62q5we799ro?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-29T16:49:41+00:00",
-      "compound": -0.8779,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Is the world at risk of another energy shock?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/counting-the-cost/2026/7/29/is-the-world-at-risk-of-another-energy-shock?traffic_source=rss",
-      "published": "2026-07-29T16:43:37+00:00",
-      "compound": -0.765,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Russia accuses Telegram founder of aiding terrorism in its latest online crackdown",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/jul/29/russia-accuses-telegram-founder-of-aiding-terrorism-pavel-durov",
-      "published": "2026-07-29T16:36:09+00:00",
-      "compound": -0.9738,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Ex-FIFA chief Blatter blasts plan to sell stake in World Cup to investors",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/29/ex-fifa-chief-blatter-blasts-plan-to-sell-stake-in-world-cup-to-investors?traffic_source=rss",
-      "published": "2026-07-29T15:46:20+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Zelensky Gets Major Boost to Arsenal as Ukraine War Enters New Phase",
-      "source": "Newsweek",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcFlpMVNVd1NSNFgtc1ZBcUNWdUtVUTNSXzlsX0lYZmRieVdpM01kZU5FNW1Pel96V0ttZGVieXItaFhPSk1kRXc2RWVOcTRfMkhLR2JNTDR4M044SGlRenJnbFFzMWFvWDYxMzJ5Q25qSms5bXN1bU5lelF1d3kxWGliRHZIaTk5aUlmZg?oc=5",
-      "published": "2026-07-29T15:45:00+00:00",
-      "compound": -0.4242,
-      "label": "negative",
-      "entities": [
-        "Volodymyr Zelensky",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Trump says US to deliver ‘beating’ to Iran after bases again targeted",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/29/trump-says-us-to-deliver-beating-to-iran-after-bases-again-targeted?traffic_source=rss",
-      "published": "2026-07-29T15:43:05+00:00",
-      "compound": -0.0772,
-      "label": "negative",
-      "entities": [
-        "Donald Trump",
-        "United States"
-      ]
-    },
-    {
-      "title": "Why Saudi Arabia holds the key to Palestinian statehood",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/opinions/2026/7/29/why-saudi-arabia-holds-the-key-to-palestinian-statehood?traffic_source=rss",
-      "published": "2026-07-29T14:39:57+00:00",
-      "compound": 0.4588,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Indian student in Russia says he’s been wrongly charged over Bihar protests",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/29-07-sv-india-student-arrests-in?traffic_source=rss",
-      "published": "2026-07-29T14:33:24+00:00",
-      "compound": -0.6597,
-      "label": "negative",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "Anthony Fauci refuses to answer questions during US Senate hearing about Covid origins",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cdx85vkk0gko?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-29T14:29:34+00:00",
-      "compound": -0.7906,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "US and Israeli leaders expected ‘swift outcome’ in Iran",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/us-and-israeli-leaders-expected-swift-outcome-in-iran?traffic_source=rss",
-      "published": "2026-07-29T14:27:45+00:00",
-      "compound": -0.5994,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Thousands in Spain return home but new heatwave raises wildfire fears",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-29T14:27:13+00:00",
-      "compound": -0.5719,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Oscar-winning songwriter Glen Hansard killed in crash",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c3ekn9d37qvo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-29T14:26:56+00:00",
-      "compound": 0.1779,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Planes dump water on French wildfires as temperatures rise",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/videos/cly8xvvj8yro?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-29T14:25:33+00:00",
-      "compound": -0.3818,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Greetings from an isolated region in northern Pakistan's Hindu Kush mountains",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/29/g-s1-135641/pakistan-chitral-hindu-kush-mountains",
-      "published": "2026-07-29T14:21:07+00:00",
-      "compound": 0.2547,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "‘There is no ceasefire’ say Palestinians in Gaza after new Israeli strikes",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/there-is-no-ceasefire-say-palestinians-in-gaza-after-new-israeli-strikes?traffic_source=rss",
-      "published": "2026-07-29T14:09:09+00:00",
-      "compound": -0.8126,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "How a seaweed bloom is affecting tourism in Mexico",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/how-a-seaweed-bloom-is-affecting-tourism-in-mexico?traffic_source=rss",
-      "published": "2026-07-29T14:04:42+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Fragile peace in Syria’s Set Zaynab as sectarian challenges persist",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/2026/7/29/fragile-peace-in-syrias-set-zaynab-as-sectarian-challenges-persist?traffic_source=rss",
-      "published": "2026-07-29T13:58:28+00:00",
-      "compound": -0.1531,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Trump and Zelenskyy find common ground on Russia-Ukraine war during White House meeting",
-      "source": "Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRnU2UVJSU29MaEdkZDBad1pSbno4QUpQcVJMaWFMQzJCV2k2ZzBUSEh6cmJ5S1dscUNvUkpfN2diNVdkUzNaeW1QRS1oSTdBOVJob19wRFlaX1VZM3VRd3FvUWRlZGt4VGNIcmd4bEtOQ1JHZ0NfeTNPLUpJSE5xS2h1MmU4a3dHbWRUaURR?oc=5",
-      "published": "2026-07-29T13:35:41+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Volodymyr Zelensky",
-        "Donald Trump",
-        "Russia",
-        "Ukraine",
-        "United States"
-      ]
-    },
-    {
-      "title": "How are AI models able to autonomously hack others?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/29/how-are-ai-models-able-to-autonomously-hack-others?traffic_source=rss",
-      "published": "2026-07-29T13:19:04+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Infantino sets deadline for FIFA offer in Kushner-backed World Cup plan",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/29/infantino-sets-deadline-for-fifa-offer-in-kushner-backed-world-cup-plan?traffic_source=rss",
-      "published": "2026-07-29T13:15:22+00:00",
-      "compound": -0.4404,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "US bans imports of new Chinese robots over security concerns",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/7/29/us-bans-imports-of-new-chinese-robots-over-security-concerns?traffic_source=rss",
-      "published": "2026-07-29T13:12:43+00:00",
-      "compound": 0.34,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "BJP politician’s daughter explains why she supports India’s youth protests",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/bjp-politicians-daughter-explains-why-she-supports-indias-youth-protests?traffic_source=rss",
-      "published": "2026-07-29T12:50:52+00:00",
-      "compound": 0.296,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Tunisia’s body politic is in crisis",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/opinions/2026/7/29/tunisias-body-politic-is-in-crisis?traffic_source=rss",
-      "published": "2026-07-29T12:38:14+00:00",
-      "compound": -0.8591,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "F1 season to end in Europe if Qatar, Abu Dhabi unable to host due to war",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/29/f1-season-to-end-in-europe-if-qatar-abu-dhabi-unable-to-host-due-to-us-iran-war?traffic_source=rss",
-      "published": "2026-07-29T12:27:19+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Ghana hit by nationwide blackout as power plants fail",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/crmrkgr4z0jo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-29T12:10:40+00:00",
-      "compound": -0.7579,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "More than 100 aftershocks hit Japan after powerful quake that killed 13",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cgk43y21j0do?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-29T11:47:05+00:00",
-      "compound": 0.0772,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "How 500,000 New Russian Soldiers Could Shape Ukraine War",
-      "source": "newsweek.com",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB4N3QxdG5FcVlzVTV6b214TjZWbTBfOWp6cHhidjU5N0dIMXVJckRkOGcxYUdFZUxJSjVQVlBkZ0tYd3BOX21ONVF3SlJkNVhhWHJKV2RKaTVDalB3cTQ0TktpVlBrM2hkYjBDSURYQklGbjZJOXlMaU9obm8?oc=5",
-      "published": "2026-07-29T11:44:00+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "American, Asian confederations blindsided by FIFA’s World Cup plan",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/29/american-asian-confederations-blindsided-by-fifas-world-cup-plan?traffic_source=rss",
-      "published": "2026-07-29T11:41:58+00:00",
-      "compound": -0.6872,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Iran hits US in Jordan, US-Saudi strikes on Iraq: Is war spreading?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/29/iran-hits-us-in-jordan-us-saudi-strikes-on-iraq-is-war-spreading?traffic_source=rss",
-      "published": "2026-07-29T11:34:58+00:00",
-      "compound": -0.9337,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Infantino and FIFA want to sell off stakes in the World Cup: What we know",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/29/infantinos-fifa-world-cup-stakes-plan-would-uefa-boycott-would-it-work?traffic_source=rss",
-      "published": "2026-07-29T11:19:58+00:00",
-      "compound": 0.0516,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "‘Iran attacks now to send message as US assets build up in Israel’",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/iran-attacks-now-to-send-message-as-us-assets-build-up-in?traffic_source=rss",
-      "published": "2026-07-29T11:19:46+00:00",
-      "compound": -0.5267,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "The Wildberries Theory of Russian Defeat",
-      "source": "Foreign Policy",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPX1RsaWRCNkpTU3ZTa0QtR0xGODVDWFNmSXZKaVFpNE1ZU1o4V01pUUZYOG9jSzBrLWpyNlNLNW1EbUw5QTVEdTRoVXF5NnFrYnd6cHhhUUFpemhrMWh6UlVnSHJNbEw4VktfYXRGUlRianktOGtsbXRfSXhTRnNsNWtFMFdyQk9UU1l3VVVlNG1kYWRJNFVkczhtX0Z1ck4tRUI3WUlXRnFCNWd1TlpYVEZmNGRFX0E?oc=5",
-      "published": "2026-07-29T11:14:58+00:00",
-      "compound": -0.7184,
-      "label": "negative",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "Trump and Zelenskyy find common ground on Russia-Ukraine war during White House meeting",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWTFUTDU1MnRtZXl2RGRBTEFBMEtoMFNyVGdkWHkybE00b1BxbERLX0M4ZHEtRWlnWmQzWnRKVjZZdGdyYzdyWmctRlVYMjhqenhoM1R1Vl82SmU2Y2FmRUFoVTlPdjhTLXJORFh5djdiVW5kZy10djBEWmNGYmRfQ3pqbUNYRUs3NC0zcU1wa1l6eDNwblpKdjFVd2FpLTU4UFQ4?oc=5",
-      "published": "2026-07-29T11:06:00+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Volodymyr Zelensky",
-        "Donald Trump",
-        "Russia",
-        "Ukraine",
-        "United States"
-      ]
-    },
-    {
-      "title": "U.S. and Iran resume attacks. And, Fauci to face Senate questions on COVID pandemic",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/29/g-s1-136076/up-first-newsletter-iran-benjamin-netanyahu-trump-iowa-water-anthony-fauci-fed-rates",
-      "published": "2026-07-29T11:00:47+00:00",
-      "compound": -0.8126,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Russia, losing in Ukraine, abruptly changes its propaganda narrative",
-      "source": "The Hill",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeFZpRlp3aEU1T2xhVUFxdlN2TlpPYmJoeFlxQUhVQW9nS1ctMEpNWTNEQTIwREZYeVQycXlZR0t2X0NSWFh2SlZYREoxd1ZUMmc0czAwSDFSckt2ckNkQk9QYnk4ckNocml0R0FXX3hKV0xaUlpMYmI1dEIxNWFzVWhNOXExZ2dScHN30gGQAUFVX3lxTE5oLXdCNWRGUzJHa1pHMDlaVS1kWFhMajNFalNZT1VuWS1WV3llRF9haVRNWE1VVlU5eUE2MnR0TDd6YzcxS0hnVWthMFFZOXk0aDNLV29ucUx3LXJFWjhiSTJwVWNpSkRieTBLc2ZoWnVfcXBPdUhiZ3FPbk90b2RNSzZmVHVnekEwSl9QT3dKRQ?oc=5",
-      "published": "2026-07-29T11:00:00+00:00",
-      "compound": -0.802,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Married couple deported by ICE killed in Guatemala",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/29-07-sv-guatemala-couple-ice-gl?traffic_source=rss",
-      "published": "2026-07-29T10:55:38+00:00",
-      "compound": -0.8689,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "French DJ ​and electronic ‌musician Kavinsky dies aged 50",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c204n74xyv3o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-29T10:35:13+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Russia charges Telegram founder Durov with facilitating terrorism",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cj4kexqkpzno?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-29T10:23:29+00:00",
-      "compound": -0.8402,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "EU crisis chief urges tougher climate action amid France, Spain wildfires",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/29/eu-crisis-chief-urges-tougher-climate-action-amid-france-spain-wildfires?traffic_source=rss",
-      "published": "2026-07-29T10:19:28+00:00",
-      "compound": -0.8126,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Russia charges Telegram founder Pavel Durov with ‘aiding terrorism’",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/29/russia-charges-telegram-founder-pavel-durov-with-aiding-terrorism?traffic_source=rss",
-      "published": "2026-07-29T10:18:49+00:00",
-      "compound": -0.765,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Ukraine says it hits 2 major Russian oil refineries hours after Zelenskyy's meeting with Trump",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWWpya3lfcVNscmtuYzBsaW5ZNzdBU2R2V0ZPcDRWd3VubmdRdGY0TmRjMEhsZnl3MTlEbHB2MHR2X0lHTU1VVV9Pb1lraEJjOF9lei02aEEwMzdPcU5mR0FjSEwyU0xnTlRYUHlUclBDYWxQUDhwcGVKZWpybWdGc2tjYTBYNVFvZFpnckhzdU96elBKMXdIamNnWGR3WnIwUmRHWENaMNIBrAFBVV95cUxNOFdHZkZDbTNxT1dmRHRDRnFlWmlLa2tpMmtndmczNGxYNzdNakNoOG9lZFJrLV9KeURXVFZIMkd5OEJqY3BaTi1xRVMwdEs5YVNjT2trc0pEVlNWSEJlOEhzcE5wUmh5Unl3QVJXc3BqRmExODg5WXhsVlF1SDkzZDU2RjVhTnhxZGVGOEt4NTMtYjh5OXZJbnV3QjFLSVU3YnFRZEZuVGtBZUha?oc=5",
-      "published": "2026-07-29T10:15:25+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Volodymyr Zelensky",
-        "Donald Trump",
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "What should replace the American-led world order? | Aslı Bâli and Samuel Moyn",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/commentisfree/2026/jul/29/us-decline-world-order-replacement",
-      "published": "2026-07-29T10:00:30+00:00",
-      "compound": 0.6594,
-      "label": "positive",
-      "entities": []
     }
   ]
 }

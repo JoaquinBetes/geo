@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-29T19:43:05+00:00",
+  "updated": "2026-07-30T03:28:31+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -38,13 +38,13 @@
   },
   "window": {
     "from": "2026-02-27",
-    "to": "2026-07-29"
+    "to": "2026-07-30"
   },
   "kpis": {
-    "events_total": 287,
-    "events_unlocated": 828,
-    "events_7d": 55,
-    "events_prev_7d": 76,
+    "events_total": 289,
+    "events_unlocated": 838,
+    "events_7d": 45,
+    "events_prev_7d": 80,
     "hottest_place": "Strait of Hormuz"
   },
   "daily": [
@@ -358,6 +358,15 @@
       "date": "2026-07-29",
       "total": 6,
       "strike": 6,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-30",
+      "total": 2,
+      "strike": 2,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -3234,6 +3243,26 @@
       "title": "Iran pushes back against US as regional attacks heat up",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/7/29/iran-pushes-back-against-us-as-regional-attacks-heat-up?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-30",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Middle East crisis live: US launches ‘heavy waves of strikes’ on Iran after days-long pause in attacks",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/live/2026/jul/30/us-iran-war-live-updates-missile-strikes-attacks-iraq-egypt-middle-east-crisis-latest-news"
+    },
+    {
+      "date": "2026-07-30",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "US launches fresh strikes on Iran after days-long pause, amid fears the war is widening",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/30/us-strikes-iran-war-widening-iraq"
     }
   ],
   "top_places": [
@@ -3243,7 +3272,7 @@
     },
     {
       "place": "Tehran",
-      "count": 63
+      "count": 64
     },
     {
       "place": "Jerusalem",

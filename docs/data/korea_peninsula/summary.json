@@ -2,13 +2,13 @@
   "id": "korea_peninsula",
   "name": "Corea del Norte–Corea del Sur",
   "description": "Cobertura mediática de la tensión en la península coreana",
-  "updated": "2026-07-30T03:28:42+00:00",
-  "total_articles": 4021,
-  "overall_avg": -0.1824,
+  "updated": "2026-07-30T08:49:56+00:00",
+  "total_articles": 4054,
+  "overall_avg": -0.183,
   "distribution": {
-    "pos": 1048,
-    "neu": 1001,
-    "neg": 1972
+    "pos": 1057,
+    "neu": 1006,
+    "neg": 1991
   },
   "sources": [
     "Al Jazeera",
@@ -66,11 +66,13 @@
     "Washington Times",
     "U.S. News & World Report",
     "Malay Mail",
+    "The Diplomat – Asia-Pacific",
     "The Times of India",
     "AsiaNews",
     "Tech Times",
     "Межа. Новини України.",
     "The Times",
+    "The Hacker News",
     "AP News",
     "Military Watch Magazine",
     "East Asia Forum",
@@ -79,13 +81,13 @@
     "Japan Wire by Kyodo News",
     "Caliber.Az",
     "Breakingthenews.net",
-    "The Diplomat – Asia-Pacific",
     "동아일보",
     "nhk.or.jp",
+    "StratNews Global",
     "The Manila Times",
     "Ednews.net",
+    "nknews.org",
     "The Telegraph",
-    "The Hacker News",
     "gCaptain",
     "nippon.com",
     "ABC News - Breaking News, Latest News and Videos",
@@ -111,7 +113,6 @@
     "India Today",
     "Foundation for Defense of Democracies",
     "Newsweek",
-    "StratNews Global",
     "Caspian Post",
     "TRT World",
     "ThinkChina",
@@ -382,7 +383,9 @@
     "The National Bureau of Asian Research (NBR)",
     "New Haven Independent",
     "kotaradio.com",
-    "english.elpais.com"
+    "english.elpais.com",
+    "aws.amazon.com",
+    "Open Source For You"
   ],
   "daily": [
     {
@@ -971,41 +974,41 @@
     },
     {
       "date": "2026-07-29",
-      "count": 168,
-      "avg": -0.2173,
+      "count": 169,
+      "avg": -0.2191,
       "pos": 43,
       "neu": 39,
-      "neg": 86
+      "neg": 87
     },
     {
       "date": "2026-07-30",
-      "count": 18,
-      "avg": -0.3426,
-      "pos": 3,
-      "neu": 5,
-      "neg": 10
+      "count": 50,
+      "avg": -0.2852,
+      "pos": 12,
+      "neu": 10,
+      "neg": 28
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 1729,
-      "avg": -0.2649
+      "count": 1747,
+      "avg": -0.2653
     },
     {
       "source": "BBC",
-      "count": 520,
-      "avg": -0.2787
+      "count": 521,
+      "avg": -0.2799
     },
     {
       "source": "조선일보",
-      "count": 193,
-      "avg": -0.0567
+      "count": 196,
+      "avg": -0.0595
     },
     {
       "source": "NPR",
-      "count": 162,
-      "avg": -0.2744
+      "count": 164,
+      "avg": -0.274
     },
     {
       "source": "NK News",
@@ -1263,6 +1266,11 @@
       "avg": 0.1193
     },
     {
+      "source": "The Diplomat – Asia-Pacific",
+      "count": 5,
+      "avg": 0.1725
+    },
+    {
       "source": "The Times of India",
       "count": 5,
       "avg": -0.4069
@@ -1286,6 +1294,11 @@
       "source": "The Times",
       "count": 4,
       "avg": -0.1054
+    },
+    {
+      "source": "The Hacker News",
+      "count": 4,
+      "avg": -0.2864
     },
     {
       "source": "AP News",
@@ -1328,11 +1341,6 @@
       "avg": -0.0506
     },
     {
-      "source": "The Diplomat – Asia-Pacific",
-      "count": 4,
-      "avg": 0.2156
-    },
-    {
       "source": "동아일보",
       "count": 4,
       "avg": 0.1847
@@ -1341,6 +1349,11 @@
       "source": "nhk.or.jp",
       "count": 4,
       "avg": 0.5374
+    },
+    {
+      "source": "StratNews Global",
+      "count": 4,
+      "avg": 0.0685
     },
     {
       "source": "The Manila Times",
@@ -1353,14 +1366,14 @@
       "avg": -0.1644
     },
     {
+      "source": "nknews.org",
+      "count": 4,
+      "avg": -0.2238
+    },
+    {
       "source": "The Telegraph",
       "count": 3,
       "avg": -0.1529
-    },
-    {
-      "source": "The Hacker News",
-      "count": 3,
-      "avg": -0.4952
     },
     {
       "source": "gCaptain",
@@ -1486,11 +1499,6 @@
       "source": "Newsweek",
       "count": 3,
       "avg": -0.4725
-    },
-    {
-      "source": "StratNews Global",
-      "count": 3,
-      "avg": 0.19
     },
     {
       "source": "Caspian Post",
@@ -2846,20 +2854,30 @@
       "source": "english.elpais.com",
       "count": 1,
       "avg": 0.0
+    },
+    {
+      "source": "aws.amazon.com",
+      "count": 1,
+      "avg": -0.5267
+    },
+    {
+      "source": "Open Source For You",
+      "count": 1,
+      "avg": 0.34
     }
   ],
   "top_entities": [
     {
       "name": "North Korea",
       "type": "LOCATION",
-      "count": 1051,
-      "avg": -0.0658
+      "count": 1059,
+      "avg": -0.0674
     },
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 379,
-      "avg": -0.1804
+      "count": 381,
+      "avg": -0.1817
     },
     {
       "name": "China",
@@ -2876,14 +2894,14 @@
     {
       "name": "South Korea",
       "type": "LOCATION",
-      "count": 196,
-      "avg": -0.0703
+      "count": 200,
+      "avg": -0.073
     },
     {
       "name": "Japan",
       "type": "LOCATION",
-      "count": 94,
-      "avg": -0.0193
+      "count": 96,
+      "avg": -0.0174
     },
     {
       "name": "United States",
@@ -2923,6 +2941,321 @@
     }
   ],
   "recent": [
+    {
+      "title": "West Bank faces escalating Israeli settler violence and surge in army checkpoints",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/30/nx-s1-5911953/west-bank-faces-escalating-israeli-settler-violence-and-surge-in-army-checkpoints",
+      "published": "2026-07-30T08:41:26+00:00",
+      "compound": -0.7906,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Korean War concert in Moscow reveals North Korean labor supply scheme: footage",
+      "source": "nknews.org",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYnh0ckMwOXZ5cGhhNW1KU2lzeG5BYWlOUnJUMXBjUmpFeHJBQXU1SWhsVVByWkVsOEFkQnJHM3lLQXBXUW1fT0UxejJWSjJwWFYzVnNheUJHeUQ4YXh4Zk9JUDRlVWRrVGRTNHl6dHY2WFdRTUF0Z25wSVhqbEd6RWlLYjVYZktlMldYdDhPekJaSlhvaDNFT1Z4S19SdC1HQlk3TWpqUDZBZFFjUWc?oc=5",
+      "published": "2026-07-30T08:34:01+00:00",
+      "compound": -0.8316,
+      "label": "negative",
+      "entities": [
+        "North Korea",
+        "Russia"
+      ]
+    },
+    {
+      "title": "Saudi Arabia confirmed to host Asian Champions League Elite finals",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/30/saudi-arabia-confirmed-to-host-asian-champions-league-elite-finals?traffic_source=rss",
+      "published": "2026-07-30T08:24:50+00:00",
+      "compound": 0.7783,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "South Korean army to conduct mass review of weapons at border with North Korea",
+      "source": "nknews.org",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdGQtaEY3bXBaMldqX09uS0haRkQwb0xxRDAycjlkVW5XWi1NaXM3X2tmQ2lRUzdaWGhYZm03UGMzSU1DZUNDUnd1UHZwN2JVQWsyY1AxVDZGTEQ0WTh3UjY3SC03cTF6OGhMM1E0eVdfRnBRbS1LYTdadWxvY0U2endickpyQzRtM0xueHJIN0JKcWhMb01jdWdFSDZPLURkVlM1RHpRRDR3MmNodFNN?oc=5",
+      "published": "2026-07-30T07:40:08+00:00",
+      "compound": -0.7003,
+      "label": "negative",
+      "entities": [
+        "North Korea",
+        "South Korea"
+      ]
+    },
+    {
+      "title": "Infantino insists FIFA’s World Cup plan is proposal and not ‘obligation’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/30/infantino-insists-fifas-world-cup-plan-is-proposal-and-not-obligation?traffic_source=rss",
+      "published": "2026-07-30T07:37:15+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "US strikes cause extensive damage on Iran’s Qeshm Island",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/us-strikes-cause-extensive-damage-on-irans-qeshm-island?traffic_source=rss",
+      "published": "2026-07-30T07:24:55+00:00",
+      "compound": -0.8957,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "North Korean Defectors Petition UN Against Unilateral Name Change",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOakxPRFRSbUZVdmlMYjh3dlZsdTc0dnBiS3Z3N2t4YVFFVU9SNzd1NFowNVllYVp6VmRIOGs0WmhPQXRWTldBcFF5ZUNPYVJsbVFxTXZNZjF4NmQxS3BUTWVnNHlrSmxMQl81MW9xenhVNjVuZ1FOZ0tJYkZMaldxR2RXUzhEMEFTa2Zzdg?oc=5",
+      "published": "2026-07-30T07:20:38+00:00",
+      "compound": -0.5574,
+      "label": "negative",
+      "entities": [
+        "North Korea"
+      ]
+    },
+    {
+      "title": "Russia seeks to open new car bridge to North Korea in September: official",
+      "source": "nknews.org",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWVM4VWVnc2JZOE5QSlpjTGpQc2JVa3RFSndxVGc1bHVDcEpHZ3hyNTRCcHJWSnFvWndIejBIT0hTdmtrLUpjMDl1STZpSTB0QTZsWVM1UG0ydmVCZGhjVEE4ZmRyeTFEdkNSVk9iMHVVRC11QlpmVy1IQ1NXTzZUN3kzeV9JX3oxUXFCYVdULTB6dms3SWpUMXEwSWU1eGZVODlkZjNCYw?oc=5",
+      "published": "2026-07-30T07:18:40+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "North Korea",
+        "Russia"
+      ]
+    },
+    {
+      "title": "A Stock Market Correction Reveals South Korea’s Economic Dependency on Semiconductors",
+      "source": "The Diplomat – Asia-Pacific",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQ29DUHpKZmZzb29VMUNpeDEzNkF0SDliX25fXzhVdUQxWXQ0SW5UcEhTX3Y1TDd4MzFPWU1oZ2hsLWg0Uk1JdlpnVDlfYzNkdWRnbVM0V0Y0WldvZ1Zsc0E2N096elJhS0I1OVpNVm9PSW1JdWpvQk1PSVYzeTZQTzhJUWpKVzAxNGZTbnVScmtjWFFRTF96MWJaQ2FYdlBwSGctbXYwU21XeGRRQWdTaHVOTWJKWHIy?oc=5",
+      "published": "2026-07-30T07:14:02+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "South Korea"
+      ]
+    },
+    {
+      "title": "Is Israel repeating the Crusaders’ fatal mistake?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/deja-vu-2/2026/7/30/is-israel-repeating-the-crusaders-fatal-mistake?traffic_source=rss",
+      "published": "2026-07-30T07:13:43+00:00",
+      "compound": -0.7399,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "India’s arms sale to Israel risks complicity in Gaza genocide, Amnesty says",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/30/indias-arms-sale-to-israel-risks-complicity-in-gaza-genocide-amnesty-says?traffic_source=rss",
+      "published": "2026-07-30T07:13:24+00:00",
+      "compound": 0.1531,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Veteran Ugandan opposition leader collapses in court and in ICU, his wife says",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c0m78xl1k2po?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-30T07:12:19+00:00",
+      "compound": -0.8885,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Can the UN’s Refugee Convention survive?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/2026/7/30/can-the-uns-refugee-convention?traffic_source=rss",
+      "published": "2026-07-30T07:06:27+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "In the waters off Malaysia, Iranian oil sales continue despite blockade",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/30/in-the-waters-off-malaysia-iranian-oil-sales-continue-despite-blockade?traffic_source=rss",
+      "published": "2026-07-30T07:02:42+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Korea ETF Pioneer Urges Natural Phase-Out of Single-Stock Leveraged ETFs",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZkdXeWZxdkxpSWZLejhZQTlxV3hQRXJieVBDT2w1X1ViRUhsbEFHUmZtRTFQTHJxVDBaQzlXUjNkMG9Wek9BYUs1eU1ueU15SEJ4a05nZWNZRlZabnB2WmgzTVpYbmVpR2d0MXlFZ1hOZUQ3WU5rUDVObXBvajlqWFk4Q1lMRWRDZ0ZvZTJB?oc=5",
+      "published": "2026-07-30T07:00:19+00:00",
+      "compound": 0.6124,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Messi returns to MLS training 10 days after World Cup final heartbreak",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/30/messi-returns-to-mls-training-10-days-after-world-cup-final-heartbreak?traffic_source=rss",
+      "published": "2026-07-30T06:45:43+00:00",
+      "compound": -0.7717,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Wang Yi Eyes Seoul Visit as North Korea Looms Large",
+      "source": "StratNews Global",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORGVLam1XNzl3Yl80V3dBem5Nb3Q4RUdvYUF5VWZ0Z3dQV3lTb1d5WXBNV3NhN0lZZDRuV0prV3piZjROV0Jic2c3Zi12enpwYm5XOVdjRnVVZGtFbmYwZ0s2R19ZV1ota2JIZTFRTkxJeFNFcHJGNGh3Q2FrNHA3RXptMWs2ajlrVWp6UENEQzA3cnBwN0E?oc=5",
+      "published": "2026-07-30T06:43:30+00:00",
+      "compound": -0.296,
+      "label": "negative",
+      "entities": [
+        "North Korea"
+      ]
+    },
+    {
+      "title": "South Korea Warns of Lazarus Group's Phishing, Watering Hole Attacks",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWTlHTnMxbVpfN3o1T01KQVpNUVJFRmZIYlJwMVA3QzJZYjhCbDZrdEZWeVFsVzdDdUpkcUpfOWt1QmVLTUFYcnN1WlA2MEhkWGJFbmY2M3FGTGwtTG45aUt0R1JqOGhiWmNEQkVkWUlfaWVYWEI2Y1IwZXlzQ05tY201M0Jfa2o3?oc=5",
+      "published": "2026-07-30T06:41:59+00:00",
+      "compound": -0.765,
+      "label": "negative",
+      "entities": [
+        "South Korea"
+      ]
+    },
+    {
+      "title": "Storm apologize after co-owner berates teen girls for support of Cunningham",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/30/storm-apologize-after-co-owner-berates-teen-girls-for-support-of-cunningham?traffic_source=rss",
+      "published": "2026-07-30T06:25:03+00:00",
+      "compound": 0.7184,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Amazon Traces NPM Supply-Chain Hacks To North Korean Hacker Group",
+      "source": "Open Source For You",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNzZfbE50S3UwcGZNbFFkZmVJeEJWWERwZ2hXdnd0TjVBcGZ3aUVFT21pOUYwS2pSR01ubHNUNlFFeHdXay05ZW9aaFVYcVN4dTBOQUgtS0ZfY0VKZ2xjeTd2eUhTZzVydlROa0hyT2FlQzBGRlVDdHdGai16NzZBejB3a3ptajQ5NHVFamRBc0E2TW91dHdaVFc4dElIUy1tYlpUSnpCNUk?oc=5",
+      "published": "2026-07-30T06:18:04+00:00",
+      "compound": 0.34,
+      "label": "positive",
+      "entities": [
+        "North Korea"
+      ]
+    },
+    {
+      "title": "Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet",
+      "source": "The Hacker News",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOY2t0V3MzQ241c0gtazlod25yQ0lxYmRsaDM5clY0UnhLd29LczhFU1VISmd4Mi1GS1c1eXNQVzd0NzlDdDJKcXMtT1NIbTEwQjY3Z0JfZG9oX0FxcVB4U3VTQmNTNEhFZllXQ3BNVmxjVnJDN1p3WTczWXcyRkNfLXJvcnc?oc=5",
+      "published": "2026-07-30T06:05:00+00:00",
+      "compound": 0.34,
+      "label": "positive",
+      "entities": [
+        "North Korea"
+      ]
+    },
+    {
+      "title": "Viral finger-clicker suspended as cricket storm remains in global spotlight",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/30/viral-finger-clicker-suspended-as-cricket-storm-remains-in-global-spotlight?traffic_source=rss",
+      "published": "2026-07-30T05:41:32+00:00",
+      "compound": -0.8689,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "South Korea capable of dealing with North’s unexpected water releases: Seoul",
+      "source": "nknews.org",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQ01WWXQ3TUZGMlF0QVNyQ0lnNzJlcnpMWTE3V080eUdnRzgtYmhTb3dpT01RUm43em5mVXJpOEh4ekhKdnN3NjNqQl9haUtGdkpIZEJIS0JNTmR5Q3g2ME9nb055T29uZGxSTldYOC1zenhXdFJZMzBpWEpFcWRSUm1WdzNncTB5ODNqTHdjdlA3YmE3Z2hVc0dtZzROU0ZaUVRiZ19CbnFRdw?oc=5",
+      "published": "2026-07-30T05:39:45+00:00",
+      "compound": 0.6369,
+      "label": "positive",
+      "entities": [
+        "South Korea"
+      ]
+    },
+    {
+      "title": "War and shortages push Gaza hospitals to breaking point",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/2026/7/30/war-and-shortages-push-gaza-hospitals-to-breaking-point?traffic_source=rss",
+      "published": "2026-07-30T05:21:15+00:00",
+      "compound": -0.9188,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Hope dwindles for rescue in southwestern Japan quake as death toll climbs to 25",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/30/nx-s1-5913050/japan-earthquake-updates",
+      "published": "2026-07-30T05:18:58+00:00",
+      "compound": 0.3182,
+      "label": "positive",
+      "entities": [
+        "Japan"
+      ]
+    },
+    {
+      "title": "US launches ‘powerful’ strikes on Iran after Jordan attack",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/us-launches-powerful-strikes-on-iran-after-jordan-attack?traffic_source=rss",
+      "published": "2026-07-30T04:55:36+00:00",
+      "compound": -0.6808,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Evo Morales defiant after new Bolivia arrest warrant",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/30/evo-morales-defiant-after-new-bolivia-arrest-warrant?traffic_source=rss",
+      "published": "2026-07-30T04:27:22+00:00",
+      "compound": -0.5106,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Rescue operation in Argentina to free more than 100 snow-trapped tourists",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/rescue-operation-in-argentina-to-free-more-than-100-snow-trapped-tourists?traffic_source=rss",
+      "published": "2026-07-30T04:22:17+00:00",
+      "compound": 0.5267,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "‘Like volcanic ash falling’: Inside Aeon mall after Japan’s earthquake",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/30/like-volcanic-ash-falling-inside-aeon-mall-after-japans-earthquake?traffic_source=rss",
+      "published": "2026-07-30T04:00:30+00:00",
+      "compound": -0.1779,
+      "label": "negative",
+      "entities": [
+        "Japan"
+      ]
+    },
+    {
+      "title": "US launches ‘heavy wave’ of new strikes on Iran",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/30/us-launches-another-round-of-attacks-on-iran?traffic_source=rss",
+      "published": "2026-07-30T03:56:07+00:00",
+      "compound": -0.872,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Israeli strikes leave buildings burning in Gaza City",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/israeli-strikes-leave-buildings-burning-in-gaza-city?traffic_source=rss",
+      "published": "2026-07-30T03:49:25+00:00",
+      "compound": -0.6369,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Dramatic sea rescue as firefighters die on the Greek island of Crete",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/aje-onl-nf_dramatic-sea-rescue-as-firefighters-die-in-greece-290726?traffic_source=rss",
+      "published": "2026-07-30T03:33:34+00:00",
+      "compound": -0.6124,
+      "label": "negative",
+      "entities": []
+    },
     {
       "title": "Why did Anthony Fauci invoke the Fifth Amendment? Senate hearing explained",
       "source": "Al Jazeera",
@@ -3197,322 +3530,6 @@
       "url": "https://www.bbc.co.uk/news/articles/c86ng1g5wy4o?at_medium=RSS&at_campaign=rss",
       "published": "2026-07-29T22:15:33+00:00",
       "compound": -0.8689,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "The Chinese robot army transforming the UK's retail industry",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c0jl8v23qwgo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-29T22:08:29+00:00",
-      "compound": 0.4767,
-      "label": "positive",
-      "entities": [
-        "China"
-      ]
-    },
-    {
-      "title": "Is FIFA selling parts of the World Cup to private investors?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/is-fifa-selling-parts-of-the-world-cup-to-private-investors?traffic_source=rss",
-      "published": "2026-07-29T21:46:22+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Myanmar court sentences activists to 37 years over election protest",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/29/myanmar-court-sentences-activists-to-37-years-over-election-protest?traffic_source=rss",
-      "published": "2026-07-29T21:29:33+00:00",
-      "compound": -0.7845,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "FIFA charges Argentina after World Cup final brawl with Spain",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/29/fifa-charges-argentina-after-world-cup-final-brawl-with-spain?traffic_source=rss",
-      "published": "2026-07-29T21:20:42+00:00",
-      "compound": -0.4939,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Trump threatens Iran strikes after attack on US base in Jordan",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/trump-threatens-iran-strikes-after-attack-on-us-base-in-jordan?traffic_source=rss",
-      "published": "2026-07-29T21:18:24+00:00",
-      "compound": -0.8834,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "A little-known npm package was North Korea’s warm-up act for the axios hack",
-      "source": "CyberScoop",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE15YmwzRGlVbnhlVlFiUkMzcFZfQnFjNGkyQW1GblVwUU9nY09BRzY2YU5ZUkMxV3Nuakd5Z29ZdGFaalFNdFBMVmdicE4tbTMyZE44Y19zYk5LYlJMX2hCMHVsSlVGR0FjbG1BTVlQUWFTdTF1Zm82UUFrYw?oc=5",
-      "published": "2026-07-29T21:14:29+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "North Korea Behind Slew of JavaScript Supply-Chain Hacks",
-      "source": "BankInfoSecurity",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSlJiZmw3QmRjRHhXLU8yNHdDajJkektNbERpTDV0T2FEYkMxeDBlZlR4MWhzMFdkUGUxVEl0a1d6cWhfWkhfNjJ4UXg3cWNRVmw2QmtKb0tNeFdISDNBSzZqbjdNbVZ2Mkx4VWpNb3FWVlFfZlJIVGxnY252VkdTdFZiZGNFcHhmd3ZKaXR3UGxhV0hRc2tkTFhn?oc=5",
-      "published": "2026-07-29T20:46:06+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "Amazon Ties North Korea to String of Cyberattacks on Open-Source Software",
-      "source": "WSJ",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeXRybnY5Rm9HQ2ZESTV1MmFScTM2TzEwMEwyM1BMWDg2REdfYUJiaTBVcktiWWtUOG16eFpJNWJKNm83eU8tVU5CcXN2cjNxbmp5TjJ0OFJobTEzZzJVN3VqanZucHk0MGJ0UU9Dck13aVAycnRVVUZUenFoMVRJYUVDYmRhQ2N1cUVRUlltaDBHTGtUVC1MQUZDYzFjSnlvYXpVMzhJQjlfcVRSU2RvN0xYM2F2M29CdlRWLQ?oc=5",
-      "published": "2026-07-29T20:43:00+00:00",
-      "compound": 0.34,
-      "label": "positive",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "Videos show aftermath of US-Saudi strikes on Iraq PMF bases",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/videos-show-aftermath-of-us-saudi-strikes-on-iraq-pmf-bases?traffic_source=rss",
-      "published": "2026-07-29T20:31:10+00:00",
-      "compound": 0.2023,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "The race is on for the next United Nations secretary general",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/29/nx-s1-5909162/the-race-is-on-for-the-next-united-nations-secretary-general",
-      "published": "2026-07-29T20:28:50+00:00",
-      "compound": 0.7906,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Latest Mideast strikes between U.S. and Iran draw Saudi Arabia into conflict",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/29/nx-s1-5911806/latest-mideast-strikes-between-u-s-and-iran-draw-saudi-arabia-into-conflict",
-      "published": "2026-07-29T20:22:26+00:00",
-      "compound": -0.802,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Zendaya on working with Tom Holland in Spider-Man: ‘When you’re best friends it’s easy’",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c0km3d2j6mko?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-29T20:21:46+00:00",
-      "compound": 0.8074,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Trump’s attorney general pick faces possible Republican roadblock",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/29/trumps-attorney-general-pick-faces-possible-republican-roadblock?traffic_source=rss",
-      "published": "2026-07-29T20:11:54+00:00",
-      "compound": 0.5994,
-      "label": "positive",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Algeria elects first-ever woman speaker of parliament",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/algeria-elects-first-ever-woman-speaker-of-parliament?traffic_source=rss",
-      "published": "2026-07-29T20:09:26+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "How is Islamabad handling crisis in Pakistan-administered Kashmir?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/7/29/how-is-islamabad-handling-crisis-in-pakistan-administered-kashmir?traffic_source=rss",
-      "published": "2026-07-29T20:08:09+00:00",
-      "compound": -0.8625,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "James Comey’s lawyers say US government distorted details in seashell case",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/29/james-comeys-lawyers-say-us-government-distorted-details-in-seashell-case?traffic_source=rss",
-      "published": "2026-07-29T20:00:29+00:00",
-      "compound": -0.7964,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "North Korea sends 10,000 workers to China in a month",
-      "source": "DailyNK",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBWd0NBMVFUSDFZYmRrWVZERGdwSVdlUjlyQTlwN3JidWlvckpuYVlMSkpsOEYxUU9kMFBaY1JGVnJaUkFSMUxyRkwzeHNnZk9Db1QzMkcxMURRNFBUMkxEMnlWQjlIeDQ1WWt4bkJOLWFmMXI4UnE2RVMtdnBTQQ?oc=5",
-      "published": "2026-07-29T19:59:04+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "North Korea",
-        "China"
-      ]
-    },
-    {
-      "title": "New investigation shows how an Israeli settler escaped justice",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/29/new-investigation-shows-how-an-israeli-settler-escaped-justice?traffic_source=rss",
-      "published": "2026-07-29T19:55:31+00:00",
-      "compound": 0.6542,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Ice cream for education: Gaza cafe raises funds for studies",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/ice-cream-for-education-gaza-cafe-raises-funds-for-studies?traffic_source=rss",
-      "published": "2026-07-29T19:46:57+00:00",
-      "compound": -0.1027,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Information crosses borders, learning changes people",
-      "source": "upi.com",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNld2NjMzM0NNV3kxUVZWdXdHWmc0V1V6VjlLU1oxUjFkb1M2dlZpX1MySXJiMEFEM2pucERzZnlYTUgzY05peWlDX2lMM19PZlBkMWFJWldhN1gwSzR6NGpWcjQ4bl83YXpldExORkpSQXpIanpwbWJERWo4LXotbTRRcklSbTlwcS1uYXBIUHV3TVpxLUYxX1hQcHQwQmRjT09KbWowejl0UdIBrwFBVV95cUxQem1KemVpRlFJc1JqazNEN3ZNelpicjhETjA5S2JwUWE4eFZwbUhCQnVZdG1Wa3I0NElRdzRCLVp1VG4wOExrZkVhWnVrRE1Nd0wzbHZYMWdKSkVZMHpsNWpHTnJnRUVITGdEYnNJRHB1NG1mVS1RVXpXVkV5WVYxSUZRR0hDNEt0NGhoNENXbWZmRVZwRjg3VXF2dTk4Z0N2aGxwbV9kay1ndEtBM0t3?oc=5",
-      "published": "2026-07-29T19:24:25+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "China, Russia, Iran and North Korea form ‘axis of aggressors’ that could overwhelm US, book warns",
-      "source": "kotaradio.com",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMGpjamFOTC1YWlNMcVo0MjNCZWcxV25MMkhKMXVGdkJfU1c4dVFWLVZGcndwdEVMbGpZZDg4VkxMTzZ5YV8xQTFwYzVDaDl0QUFiRjZ5aWpDNS00VnNEeDJJT1owMzB6MVdXMmREZmUyVENKRktoSEN1Q0dGSEdxSE9NUVNab3dUV29uYk1pMUotczBrZUtteDFRUkxrbUxsVnZRaDVDZHVEcmNlYm1HWjd2YlFITHVZZDhhOGVhRWFLMDhyMlhBOHFB?oc=5",
-      "published": "2026-07-29T19:21:50+00:00",
-      "compound": -0.4939,
-      "label": "negative",
-      "entities": [
-        "North Korea",
-        "China",
-        "Russia"
-      ]
-    },
-    {
-      "title": "Al-Shabab kills five Kenyan security personnel in ambush",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/29/al-shabab-kills-five-kenyan-security-personnel-in-ambush?traffic_source=rss",
-      "published": "2026-07-29T19:06:38+00:00",
-      "compound": -0.6124,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Amazon uncovers broad North Korean hacking campaign against open-source software",
-      "source": "Nextgov/FCW",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQSGgwLWkzeDNQb1hvVDZ2cWpWbERhWHl4TnExbzBQb0dXekUyMmlmSGZiQkRxVjRwZmd2UDFOcFA5RTBFaURRdTNNMXZQMU1FcU9LOGpxNEdpZ1J3VzBPdVk2THJQRWg5MzVxbldCVnRaQTZkYUJaZ0dwdy1VVUQ4bzVFQlFRNG5HWTROWmE4bnhNcFlHMUJ5VFVZSWxQOUIxZEpZVGpEM1RWcVM4LW01TFEzUVZiWmdfN09zd0NEdkJ6V1hqekcyRnBEb2s4LTFDdUdmRnlSbWVYVWgwOGN4dmk1THdJM0w1VjNKU1Nn?oc=5",
-      "published": "2026-07-29T18:58:00+00:00",
-      "compound": 0.34,
-      "label": "positive",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "Amazon uncovers broad North Korean hacking campaign against open-source software",
-      "source": "Nextgov/FCW",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQemhENlJ3RVR5aVJ2eUV4TmVtb3RqZWJ2MncxTENXX2taSFdMWGpzdXhOTUtpalRabGU4V2EyNVdBdTIxcG80S3BQTlZuZGVtWWNJYnFwcHJFZEFkX0hOczZ0SGlaSUdIMkkxZXhwU1lRMnhnRlRzZk11S2Zabl9YYjdwcGZLSGxhdC13Zm8zNFZfcnlTX1phQWFxeG51QjRqQmY3TGQ2QXQzU0Q1Ml9UTXhpd1pHbmlFdHlDTjdrRFllUzFtYVhCdEhhckNKWXM?oc=5",
-      "published": "2026-07-29T18:58:00+00:00",
-      "compound": 0.34,
-      "label": "positive",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "Hindus take holy dip in India’s rivers on sacred holiday",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/hindus-take-holy-dip-in-indias-rivers-on-sacred-holiday?traffic_source=rss",
-      "published": "2026-07-29T18:49:33+00:00",
-      "compound": 0.4939,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Bordeaux wildfire battle continues amid extreme heat",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/bordeaux-wildfire-battle-continues-amid-extreme-heat?traffic_source=rss",
-      "published": "2026-07-29T18:42:11+00:00",
-      "compound": -0.4588,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Saudi Arabia's dilemma as it tries to stay out of US-Iran war",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/clyx83l8jv8o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-29T18:41:31+00:00",
-      "compound": -0.6808,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Dr Anthony Fauci pleads the Fifth at Covid hearing",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/dr-anthony-fauci-pleads-the-fifth-at-covid-hearing?traffic_source=rss",
-      "published": "2026-07-29T18:34:09+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "New bridge between North Korea and China could open soon – 12 years after completion",
-      "source": "Radio Free Asia",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZVdvQ0lMUDRrcjBNTU5sNTVYZzRjREd0LTVSVUJ4dEJSTklfYmJJbzduYXA4SmFnSnd4Uk9EMV9ETFl0MVg3R0ZUVVU5V1ViX3V6VldmS3pXX0dESTNZZTh2bTdVakE1MnRGcE9yRTloNHd5ZFZqZ29nVjlSRk9SaWxPQjVUOUN3aUFvSnZUZ3F5ellPYXBnaWdtRXlOeFFrQU9OcFoxWFExai0zT2pFejdrQUJaeXV3?oc=5",
-      "published": "2026-07-29T18:20:04+00:00",
-      "compound": 0.5106,
-      "label": "positive",
-      "entities": [
-        "North Korea",
-        "China"
-      ]
-    },
-    {
-      "title": "US Fed holds interest rates steady citing ‘elevated’ inflation",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/7/29/us-fed-holds-interest-rates-steady-citing-elevated-inflation?traffic_source=rss",
-      "published": "2026-07-29T18:07:55+00:00",
-      "compound": 0.5945,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Libya electricity blackout protests expose country’s failing grid",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/7/29/libya-electricity-blackout-protests-expose-countrys-failing-grid?traffic_source=rss",
-      "published": "2026-07-29T18:07:19+00:00",
-      "compound": -0.9349,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Fire erupts on ships at Egypt’s Damietta port",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/29/fire-erupts-on-ships-at-egypts-damietta-port?traffic_source=rss",
-      "published": "2026-07-29T18:01:57+00:00",
-      "compound": -0.5574,
       "label": "negative",
       "entities": []
     }

@@ -2,13 +2,13 @@
   "id": "korea_peninsula",
   "name": "Corea del Norte–Corea del Sur",
   "description": "Cobertura mediática de la tensión en la península coreana",
-  "updated": "2026-07-30T19:52:30+00:00",
-  "total_articles": 4152,
-  "overall_avg": -0.1874,
+  "updated": "2026-07-31T03:50:07+00:00",
+  "total_articles": 4203,
+  "overall_avg": -0.1855,
   "distribution": {
-    "pos": 1074,
-    "neu": 1018,
-    "neg": 2060
+    "pos": 1094,
+    "neu": 1026,
+    "neg": 2083
   },
   "sources": [
     "Al Jazeera",
@@ -34,28 +34,28 @@
     "CNA",
     "The Straits Times",
     "Inquirer.net",
-    "아시아경제",
     "Internazionale",
+    "아시아경제",
     "Firstpost",
     "Devdiscourse",
     "The Herald Journal",
+    "A News",
     "Hankyoreh : English Edition",
     "American Enterprise Institute - AEI",
-    "A News",
+    "The Japan Times",
+    "TradingView",
     "The Independent",
     "한겨레",
     "Asia News Network",
+    "Eurasia Review",
     "Kyiv Post",
     "stripes.com",
     "WSJ",
     "CNN",
-    "The Japan Times",
     "Korea Economic Institute of America -",
-    "TradingView",
     "UA.NEWS",
     "Türkiye Today",
     "Radio Free Asia",
-    "Eurasia Review",
     "Tech Times",
     "Межа. Новини України.",
     "The Hacker News",
@@ -119,6 +119,7 @@
     "TRT World",
     "ThinkChina",
     "The Record from Recorded Future News",
+    "Ukrinform",
     "Fox News",
     "CBS News",
     "CoinGeek",
@@ -172,7 +173,6 @@
     "Cebu Daily News",
     "The Kyiv Independent",
     "Мілітарний",
-    "Ukrinform",
     "EUalive",
     "Cryptonews.net",
     "Yahoo Finance",
@@ -392,7 +392,13 @@
     "opensourceforu.com",
     "MeriTalk",
     "aa.com.tr",
-    "Computer Weekly"
+    "Computer Weekly",
+    "Bloomberg",
+    "Bitdefender",
+    "Red Lake Nation News",
+    "BleepingComputer",
+    "Офіційне інтернет-представництво Президента України",
+    "Koreabizwire"
   ],
   "daily": [
     {
@@ -989,28 +995,36 @@
     },
     {
       "date": "2026-07-30",
-      "count": 145,
-      "avg": -0.3435,
-      "pos": 29,
-      "neu": 20,
-      "neg": 96
+      "count": 167,
+      "avg": -0.2935,
+      "pos": 38,
+      "neu": 23,
+      "neg": 106
+    },
+    {
+      "date": "2026-07-31",
+      "count": 29,
+      "avg": -0.092,
+      "pos": 11,
+      "neu": 5,
+      "neg": 13
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 1790,
-      "avg": -0.2677
+      "count": 1815,
+      "avg": -0.2637
     },
     {
       "source": "BBC",
-      "count": 535,
-      "avg": -0.2777
+      "count": 539,
+      "avg": -0.277
     },
     {
       "source": "조선일보",
-      "count": 197,
-      "avg": -0.0594
+      "count": 201,
+      "avg": -0.053
     },
     {
       "source": "NPR",
@@ -1024,8 +1038,8 @@
     },
     {
       "source": "Yonhap News Agency",
-      "count": 107,
-      "avg": -0.0851
+      "count": 108,
+      "avg": -0.0843
     },
     {
       "source": "DailyNK",
@@ -1039,8 +1053,8 @@
     },
     {
       "source": "upi.com",
-      "count": 56,
-      "avg": 0.1027
+      "count": 58,
+      "avg": 0.1119
     },
     {
       "source": "The Korea Herald",
@@ -1049,13 +1063,13 @@
     },
     {
       "source": "The Korea Times",
-      "count": 49,
-      "avg": 0.0837
+      "count": 50,
+      "avg": 0.0761
     },
     {
       "source": "Reuters",
-      "count": 27,
-      "avg": -0.1268
+      "count": 29,
+      "avg": -0.1351
     },
     {
       "source": "The Guardian",
@@ -1113,14 +1127,14 @@
       "avg": -0.228
     },
     {
+      "source": "Internazionale",
+      "count": 11,
+      "avg": -0.1674
+    },
+    {
       "source": "아시아경제",
       "count": 10,
       "avg": 0.3728
-    },
-    {
-      "source": "Internazionale",
-      "count": 10,
-      "avg": -0.1347
     },
     {
       "source": "Firstpost",
@@ -1138,6 +1152,11 @@
       "avg": -0.2079
     },
     {
+      "source": "A News",
+      "count": 8,
+      "avg": -0.1498
+    },
+    {
       "source": "Hankyoreh : English Edition",
       "count": 8,
       "avg": 0.044
@@ -1148,9 +1167,14 @@
       "avg": 0.2354
     },
     {
-      "source": "A News",
+      "source": "The Japan Times",
       "count": 7,
-      "avg": -0.1355
+      "avg": -0.3202
+    },
+    {
+      "source": "TradingView",
+      "count": 7,
+      "avg": -0.0163
     },
     {
       "source": "The Independent",
@@ -1166,6 +1190,11 @@
       "source": "Asia News Network",
       "count": 7,
       "avg": 0.3073
+    },
+    {
+      "source": "Eurasia Review",
+      "count": 7,
+      "avg": -0.1919
     },
     {
       "source": "Kyiv Post",
@@ -1188,19 +1217,9 @@
       "avg": 0.0382
     },
     {
-      "source": "The Japan Times",
-      "count": 6,
-      "avg": -0.2137
-    },
-    {
       "source": "Korea Economic Institute of America -",
       "count": 6,
       "avg": -0.0893
-    },
-    {
-      "source": "TradingView",
-      "count": 6,
-      "avg": -0.0191
     },
     {
       "source": "UA.NEWS",
@@ -1216,11 +1235,6 @@
       "source": "Radio Free Asia",
       "count": 6,
       "avg": 0.5106
-    },
-    {
-      "source": "Eurasia Review",
-      "count": 6,
-      "avg": -0.2239
     },
     {
       "source": "Tech Times",
@@ -1538,6 +1552,11 @@
       "avg": 0.0197
     },
     {
+      "source": "Ukrinform",
+      "count": 3,
+      "avg": -0.1667
+    },
+    {
       "source": "Fox News",
       "count": 3,
       "avg": -0.2395
@@ -1801,11 +1820,6 @@
       "source": "Мілітарний",
       "count": 2,
       "avg": 0.0
-    },
-    {
-      "source": "Ukrinform",
-      "count": 2,
-      "avg": -0.125
     },
     {
       "source": "EUalive",
@@ -2906,44 +2920,74 @@
       "source": "Computer Weekly",
       "count": 1,
       "avg": 0.34
+    },
+    {
+      "source": "Bloomberg",
+      "count": 1,
+      "avg": 0.2023
+    },
+    {
+      "source": "Bitdefender",
+      "count": 1,
+      "avg": 0.0
+    },
+    {
+      "source": "Red Lake Nation News",
+      "count": 1,
+      "avg": -0.4939
+    },
+    {
+      "source": "BleepingComputer",
+      "count": 1,
+      "avg": -0.5267
+    },
+    {
+      "source": "Офіційне інтернет-представництво Президента України",
+      "count": 1,
+      "avg": -0.25
+    },
+    {
+      "source": "Koreabizwire",
+      "count": 1,
+      "avg": 0.34
     }
   ],
   "top_entities": [
     {
       "name": "North Korea",
       "type": "LOCATION",
-      "count": 1087,
-      "avg": -0.0763
+      "count": 1105,
+      "avg": -0.0765
     },
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 402,
-      "avg": -0.1983
+      "count": 409,
+      "avg": -0.1994
     },
     {
       "name": "China",
       "type": "LOCATION",
-      "count": 369,
-      "avg": 0.0691
+      "count": 373,
+      "avg": 0.0666
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 309,
-      "avg": -0.2224
+      "count": 315,
+      "avg": -0.2117
     },
     {
       "name": "South Korea",
       "type": "LOCATION",
-      "count": 204,
-      "avg": -0.0711
+      "count": 207,
+      "avg": -0.0653
     },
     {
       "name": "Japan",
       "type": "LOCATION",
-      "count": 96,
-      "avg": -0.0174
+      "count": 101,
+      "avg": -0.0437
     },
     {
       "name": "United States",
@@ -2984,11 +3028,487 @@
   ],
   "recent": [
     {
+      "title": "Israeli blockades seal off village in the occupied West Bank",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/israeli-blockades-seal-off-village-in-the-occupied-west-bank?traffic_source=rss",
+      "published": "2026-07-31T03:35:52+00:00",
+      "compound": -0.2732,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "India to increase penalties for exam leaks after Cockroach party protests",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/31/india-to-increase-penalties-for-exam-leaks-after-cockroach-party-protests?traffic_source=rss",
+      "published": "2026-07-31T03:27:44+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Hamas says it has agreed to disarm after Trump announces Board of Peace plan",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cj03m512r4go?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-31T03:24:14+00:00",
+      "compound": 0.7717,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Why a MAGA influencer’s shift to support Ukraine war is good for Trump",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/why-a-maga-influencers-shift-to-support-ukraine-war-is-good-for-trump?traffic_source=rss",
+      "published": "2026-07-31T03:08:59+00:00",
+      "compound": 0.5095,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "North Korea's Economy Surpasses 3% Growth for Third Year",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOXVGb0dwV3FSUzFQY3NwUUpLd3BmWkd6V3A4eWdEaHBFcENwSDNwblBxZ3VnOE9pZkNZRnRtRUFNTy0zRGdrM2dONUY2UzE0b0FFMTR6VW9YYUxCUXBQbW5SSTh2bDBuRVV5SjFyY1E3TldqVXJ5ZWZwWVdFbVRoY3EtU2JDeDRIeUdEeldB?oc=5",
+      "published": "2026-07-31T03:04:38+00:00",
+      "compound": 0.6369,
+      "label": "positive",
+      "entities": [
+        "North Korea"
+      ]
+    },
+    {
+      "title": "North Korea's economy grew 3.5% last year on deeper ties with Russia and China, Seoul says",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOVGMyMGZFeEtYaWlCQjRHaG5nWGpVTHR0RTkzZVN4b3BLekFUdzBrT2EtRDVXT3plTWpvTG5LYmhNYTV4RXYtdno3X3hrREVMM3dOYVJvVWtGNTZTZWxnYWxHUVV1UFJ5QVJlYm5SVlR5WEJMQnZHdWRBa2lyS3lLeVdzMnV2d0xKVW12THpsalR1QWJpOWZXLWc4ZzNET1NzRWUxYnJIUmQ0SHFETVU4bWJHa044OU91d3AwSExXX2xmRnNMX1FONl9oQmJVcms?oc=5",
+      "published": "2026-07-31T03:04:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "North Korea",
+        "China",
+        "Russia"
+      ]
+    },
+    {
+      "title": "North Korea’s Economy Expands on Russia Arms Deals, China Trade",
+      "source": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVmZsNVVtOXlUX2NXdlRVZHZoNkJTUy0zY19SckYzaU5TbFpuVWxZdldZUkQwM2xiOGYxSF8tZmNyd29PbGpQWFgxMGRKQkxfaGRrQ0tPbUUyWmlRVWlWUDdld0NGblpNMElCRDlkRzF6Z2d4X1hsNTQ5MGxuQVdudU14YmQ5dVdZXzNnSmYxdzJndnI4ckxneVZ6QWdsU0l1X0R6UW8tSzNrR21vZXdoRlEtUQ?oc=5",
+      "published": "2026-07-31T03:00:00+00:00",
+      "compound": 0.2023,
+      "label": "positive",
+      "entities": [
+        "North Korea",
+        "China",
+        "Russia"
+      ]
+    },
+    {
+      "title": "North Korea's economy grew 3.5% last year on deeper ties with Russia and China, Seoul says",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQVZRRFBqS0FXV2dzSnNQdGdWazc0TFJNZF8wRC1QN1lqOHo2TE1KVGF3SktBVldOMkROYTBIaG5hMFM0WXlyX1otQkJvLVZrNHFhREdkeVJWR2VmNWgzaWVqRVJ6Um9Dcy0xZEphWENoNWFLTF9jMi1RSzVTSFVscmtDTDZOM1VBMGRjS2puSkVHcXBfWGxyeWRpWFY0aksxcG90a19EQ0Nyby1wRXQyUno4bG1uV0lBOXNuQzdRV3pSbDNfc3NiM2d1NFo4UU56MGtUOUROT1N1RU9xc0lIZExoWDR0UE5TSVlvblJhZw?oc=5",
+      "published": "2026-07-31T03:00:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "North Korea",
+        "China",
+        "Russia"
+      ]
+    },
+    {
+      "title": "N. Korean economy grows over 3 pct for 3rd consecutive year in 2025: BOK",
+      "source": "Yonhap News Agency",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBLSnctR0J2azlFeGxUVlQxREFETGRfMFlZWV9kNTFOX0hUdU4wMWM2RWZkZEtaTHVRbENKWXJfQXJYbzE1dFZJY0VpMDBqdzYtMjluSkNfXzZ0Zw?oc=5",
+      "published": "2026-07-31T03:00:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Trump says Morocco named Tiznit-Dakhla highway after him: Why it matters",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/31/morocco-names-tiznit-dakhla-highway-after-trump-why-it-matters?traffic_source=rss",
+      "published": "2026-07-31T02:31:33+00:00",
+      "compound": -0.3182,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Clashes near Morocco’s border with Spain over beefed up migrant security",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/clashes-near-moroccos-border-with-spain-over-beefed-up-migrant-security?traffic_source=rss",
+      "published": "2026-07-31T02:26:21+00:00",
+      "compound": 0.34,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Amazon Links Four Major Open-Source Library Hacks to North Korean Cyber Group",
+      "source": "Koreabizwire",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMVlLOGFxU1pxcnJDVXJUc2F2cEZwTnlEcFdaUFF0NTZlcGJhU1Y2WFdLdzU5R0JtUE8zT2FHSHVzaENYTEs0WWkyWjYzcjk0M2Z2TlZXYVBqcWw2N1duaE5uNDdmX00xRnFVZFFnVUFWLVdsa2w1Y19oYzhDZmVOdFpzR09HaEg1T0s0c2lSU0JhbkF3WFg0Ymx3ODlGemRZWXRZREZ2R1VRTWtS?oc=5",
+      "published": "2026-07-31T02:21:55+00:00",
+      "compound": 0.34,
+      "label": "positive",
+      "entities": [
+        "North Korea"
+      ]
+    },
+    {
+      "title": "Pacific island nation Nauru officially changes name to ‘Naoero’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/31/pacific-island-nation-nauru-officially-changes-name-to-naoero?traffic_source=rss",
+      "published": "2026-07-31T02:12:16+00:00",
+      "compound": 0.2263,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "‘They got trapped:’ Race to save miners after deadly blast in Pakistan",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/they-got-trapped-race-to-save-miners-after-deadly-blast-in-pakistan?traffic_source=rss",
+      "published": "2026-07-31T01:59:34+00:00",
+      "compound": 0.1531,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Israeli soldiers mutiny at notorious Sde Teiman base",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/israeli-soldiers-mutiny-at-notorious-sde-teiman-base?traffic_source=rss",
+      "published": "2026-07-31T01:43:51+00:00",
+      "compound": -0.8316,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Russia likely fired North Korean missile in Ukraine strike that killed family, sources say",
+      "source": "The Japan Times",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbmtlVDA4ZHg2SjRGNWpCZUJEMFY3MHdQWDFDLXBLeE50LWozRFhBWVhTYl83NUZKemYyWVRld2liT0RFbmRzYm82MUdiUzI0ampDNzUwTkY2THFKZG02UUpkejQ5UXg0ZE93QU05WFZGUm9UTGp1d1pPaXd1QVlnV3lzLVFxMUQ0WlE?oc=5",
+      "published": "2026-07-31T01:37:00+00:00",
+      "compound": -0.9595,
+      "label": "negative",
+      "entities": [
+        "North Korea",
+        "Japan",
+        "Russia"
+      ]
+    },
+    {
+      "title": "Anthropic says Claude AI hacked three firms during cyber tests",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cz7dl7w8y7po?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-31T01:31:14+00:00",
+      "compound": -0.4019,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Spain deploys military to Ceuta after deadly migrant surge",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/spain-deploys-military-to-ceuta-after-deadly-migrant-surge?traffic_source=rss",
+      "published": "2026-07-31T01:29:12+00:00",
+      "compound": 0.0516,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "North Korea state media says US Forces' Japan expansion raises risk of Korean peninsula clash",
+      "source": "Red Lake Nation News",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPbHVMLTc2TDFvelhFbGFma2o1WWhSTWRTYlF4ZjhNVVIwR24zY3JoQ0VTX2U5ejE1bG0wNVFYUlN1elBtRHVMV0lhTWR3clZZLVFEVGpVS0FiTGZnUWNyNnJzX045STNOYmNUVkl2OVROMkpFNU9PaE1EamVoQm9iOFA4eWZkQ2lnYmJWWVlvbUdTcjc3NWRiMUlsYTlGQnktVndkRUt3M015UlRrLUJnZUk1SE1hUUlZZ3pBWjRyVXlTS1Q1QmlDN014MFJ3X0c5a1VZVnBxa2oxVXR3MTdObUNUYkR3V0lRSHdaRUpYN29KZw?oc=5",
+      "published": "2026-07-31T01:24:04+00:00",
+      "compound": -0.4939,
+      "label": "negative",
+      "entities": [
+        "North Korea",
+        "Japan"
+      ]
+    },
+    {
+      "title": "N. Korea denounces move by US military in Japan to increase troop numbers",
+      "source": "The Korea Times",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdTVaRWN3Qk1QXzc1S09tLUQxVzczMzBVVmdSdE5DbEd3ZUtudnR1a0w5VHVKSms3QVdaMkIzdDEwR3g1Q3FxRW5fbjRGUXVIczRuTDlnNmY2R01tZ0RhdnNBTWFUdk9aMGM0RjFCQVNxQjZzdmdOajUyVE1DOEhfdHNDUnVVa0pqSWFTZFVqNmRQeW9OYk1MWG81UGlCc1lhVGVCT1pGdnhsNmJmaUFzVW4taExSOW_SAbwBQVVfeXFMUGhsSl9uTloydXQ1ZTFWVGhVMDhUSVlmTENpX0o4LUVGaENsUnV4NDZDdVZfWE4wYWFoamthenN3S2VvTXFVV09nVGllMUVNbFhKNktVbkthTUJYemoxWS1rU1N6YzUxb0dMdG9mRjg0dk1RLUFNZEVhTVlzRzQwUENxZ2hBWVZJU2xCMDEwbndHeHYtSVBxYzN6ZnJZS0NHSGRjb0NkZ2gzaHdVZlViRHVnV05sbV90aTJpNUU?oc=5",
+      "published": "2026-07-31T01:15:07+00:00",
+      "compound": -0.296,
+      "label": "negative",
+      "entities": [
+        "Japan"
+      ]
+    },
+    {
+      "title": "Nepal’s PM urges calm as three people killed after Hindu-Muslim unrest",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/31/nepals-pm-urges-calm-as-three-people-killed-after-hindu-muslim-unrest?traffic_source=rss",
+      "published": "2026-07-31T01:13:31+00:00",
+      "compound": -0.7845,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "London protesters march through streets in solidarity with Azad Kashmir",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/london-protesters-march-through-streets-in-solidarity-with-azad-kashmir?traffic_source=rss",
+      "published": "2026-07-31T01:05:18+00:00",
+      "compound": -0.1531,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "North Korea state media says US Forces’ Japan expansion raises risk of Korean peninsula clash",
+      "source": "Internazionale",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOa1hEUkdBTFB6RmVLYW5Nb3NVVlJpY2JUTGE5NTFjYzRCa3dFUl9Sc1p0YXE0WVJGcG9Yam9Lci1qdG0xdWk5eG55UW1HRGIxWW9fWUM0a3FJSHRZdFJpYjd5NElWa29MTTVnbFFJTENKZk9qeWIyY1dXUWRjc3FDS0xaVjFzR0tGMkJjZnRLdHpOb29NVjR5YzRrVEJ2MkFWLW9hM1BFemJodFNDZWVGQzFsdmpibEFIam9GYUZZUENQRExFZ1dWdnFUYmtpODY0SGdZdEZsMU16enhHTWRoS2hKWW1VMHNlSzluZA?oc=5",
+      "published": "2026-07-31T01:01:22+00:00",
+      "compound": -0.4939,
+      "label": "negative",
+      "entities": [
+        "North Korea",
+        "Japan"
+      ]
+    },
+    {
+      "title": "North Korea state media says US Forces' Japan expansion raises risk of Korean peninsula clash",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRkdSaUdjNFA3SUQ4S2NuazNyWU9lOTlXX1Viclc0a096YjJHY1lTbmFNOU5LU3h6OWlBV3B3cGM4dGhfajE1aWE1UnJqWkZoWC1Fb3VCTUdWLXJPSnJFRmJVa0NBMzJGSy10cHpqYWZnY1M4eDlBaWdqWmhaSVNKWWJZUWRpVGVwUVlzUnl4QWp5QlpUZXQ1M3Q4WER0TWo1Tm5zdW5LaVpRMUgwMnZwZ2dBSnpIQ2kwZHpzVmpB?oc=5",
+      "published": "2026-07-31T01:01:00+00:00",
+      "compound": -0.4939,
+      "label": "negative",
+      "entities": [
+        "North Korea",
+        "Japan"
+      ]
+    },
+    {
+      "title": "Nirmal Purja among 10 climbers feared missing after avalanche",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cddjz1r01l8o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-31T00:52:54+00:00",
+      "compound": -0.8689,
+      "label": "negative",
+      "entities": [
+        "China"
+      ]
+    },
+    {
+      "title": "U.S. drone triggers evacuation near South Korean border",
+      "source": "upi.com",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWE9FakRhcDlmZmpFTG5QX3dEeUVwRWZBYnB3cDlFSUJyRjBRZTdoZFM5d2R5WFJUdDc3ZnoyTHZZWTM2UkpUN1Y2TzBXdHE2M21zZHpqYzNnbjZJc1VVb2Y1Q2dOaHRUMTQ5bXJsTUFfbm5QQzlXTkJRUFhrbkh2eDZXMTUyVHZVU3BmeDc4amxfUUVkMFRORk5Od1R1Y3JzQ1hrSdIBqgFBVV95cUxPT0ZsZzExdVFxalY5TnBIZmlKOHdjenRCMGpsWVRBWXBvR0tGVUktaTFncU04cXcwekVvb1NUblIwQ3hlQjI3Nm1ZUlJWUHVmZlB3aDJtMk1QcUF0c201ZlJMWVJ5d2E3SXRMODVsWFRYb0pvZFkxNWFNc1o0UkFuaFJMU082a3RfUTR3RUxwc1htcWhRTld3eDFRNUs3R05zRlBCakZTTjFEUQ?oc=5",
+      "published": "2026-07-31T00:41:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "South Korea"
+      ]
+    },
+    {
+      "title": "Exclusive: South Korean Military Nearly Shoots Down U.S. Drone in Joint Exercise",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZ21OaGZMVFFEdnpzcVNNV2tjYk1TZU9MM013RGNHUE1MYlJfdnU1cENEajZQMlRENzRqM3QtNGpabU9XaWExZ1lrekdGRm0wbWRsaFVobTVheTRtS3o0OHh5TE5JNzA3NVc4NzZ1b0ZnUjdFb3pIOTJKU1N2Q2dDSGFqZkJPWDY1?oc=5",
+      "published": "2026-07-31T00:25:20+00:00",
+      "compound": 0.25,
+      "label": "positive",
+      "entities": [
+        "South Korea"
+      ]
+    },
+    {
+      "title": "US Escalation with Iran is ‘pointless’, warns former US diplomat",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/us-escalation-with-iran-is-pointless-warns-former-us-diplomat?traffic_source=rss",
+      "published": "2026-07-31T00:08:12+00:00",
+      "compound": -0.2023,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Iran war live: Gaza Board of Peace lauds ‘historic’ disarmament agreement",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/7/31/iran-war-live-trump-says-hamas-to-disarm-israel-to-leave-gaza-gradually?traffic_source=rss",
+      "published": "2026-07-31T00:03:58+00:00",
+      "compound": 0.4215,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Zelenskyy Accuses Russia of Using North Korean Missiles in Ukraine",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQamtUbTN2RFhFRTI0TV9BQ2hyZ0ktdGhKbjBmcEt3ZTV5VEloc0x6bkcwVHQ4QjI0ZExfcGJHRkItSmdnWExadU91bjhJZjBjUk9uZUtJT000WDFVVUI4YUpWWHR3c2ZCZDlPa3VBMm5lUVlHUXpRc01QMGxocXJNSXNtV1Q?oc=5",
+      "published": "2026-07-30T23:53:40+00:00",
+      "compound": -0.5859,
+      "label": "negative",
+      "entities": [
+        "North Korea",
+        "Russia"
+      ]
+    },
+    {
+      "title": "Trump announces Hamas to disarm paving way for Israel to withdraw from Gaza",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/trump-announces-hamas-to-disarm-paving-way-for-israel-to-withdraw-from-gaza?traffic_source=rss",
+      "published": "2026-07-30T23:51:40+00:00",
+      "compound": 0.5574,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "UK left-wing MP Diane Abbott reinstated by Labour Party after suspension",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/30/uk-left-wing-mp-diane-abbott-reinstated-by-labour-party-after-suspension?traffic_source=rss",
+      "published": "2026-07-30T23:29:09+00:00",
+      "compound": -0.34,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Pathirage challenges Chopra-Nadeem javelin rivalry in Commonwealth final",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/30/pathirage-challenges-chopra-nadeem-javelin-rivalry-in-commonwealth-final?traffic_source=rss",
+      "published": "2026-07-30T23:25:48+00:00",
+      "compound": 0.0772,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "US appeals court rejects Trump expansion of mandatory migrant detention",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/30/us-appeals-court-rejects-trump-expansion-of-mandatory-migrant-detention?traffic_source=rss",
+      "published": "2026-07-30T23:24:10+00:00",
+      "compound": -0.0274,
+      "label": "neutral",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Ukraine Keeps Captured North Korean Soldiers In Custody As Questions Remain Over Their Future - OpEd",
+      "source": "Eurasia Review",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcjExT0ZnU0sxa0NMZkx0UHNNWTY2cllOeC1IYTFyUzIzRUliUnd2ZHpuZFMybVUxTDJfUlh2ZHFJa2hNSE1lQnRGVmxXLXVuTGNvVEpIYm0xTHg5NjhkZFdqMTkySDRoblZuMWVzdEhFMDlUUERIRVNWeDRzaDVuazR3b01JU1ZGTDFnbEtoWG02NnZIUm5ibUdSVnVKMjljbkVITVAtTENfVDFyQW10OVdocjRxZzJqX0N2YnZ0VVR2S2hvc3JEUDdkWUd1SVVjQm55Tw?oc=5",
+      "published": "2026-07-30T23:22:37+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "North Korea"
+      ]
+    },
+    {
+      "title": "Trump administration appeals to never-before-used court for deportation",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/30/trump-administration-appeals-to-never-before-used-court-for-deportation?traffic_source=rss",
+      "published": "2026-07-30T23:14:28+00:00",
+      "compound": 0.5559,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "South Korea urges respect for North Korean sovereignty",
+      "source": "upi.com",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZ3NuTG9oQ2dyVXpHYXB1SmNyNlFTMEtlQ0dsbUFfY291a1lScE4xRVdBcHBlM1h5d0pzUGEtS1NCN3lMN0FYR0xRZkhxYkVXUy03Xy1EZTJJejhGRUJDQmRDZUVsR2JiODJmOTVVVHZWQUduTkpfSVJuMDMxY2R6eDBWdFpRMldRSmJyVEJGTFZhR3N4N09Od3AwRkFrQldPY3BxNnRycVJmQzZHVmV5VVBxaWdRdVdCT0hPLTRubmZqNEtYR1laMUFoVUY1WUJudjNPWldFdDRaRDVZ0gHiAUFVX3lxTE44U3o5OV9icWctck5INkU3ZGViRlpHVTFJM2t2RmpxRUtyMkV0cnhlQ29hNFAzZkthd2VKckVSaElnbFdTQXhHTk8zcUNQcFFkRlpCMlJuVDF3NFNMZGRPS2dpQ0FSSmliTG1kdzVtSjZsN0FiblBpNXdlcjdCdEJaTEhxVUVkSEx0V3RMcS1ha1JnLTZrUFVqTWJ6cXdGNHdGbF9nR2UzWVBxRFZfVnJhTUxRdkZTTWtQTW9uUjRIUTVsZzZCVWtvUGItSDlLbzREcFlobndZVWl3QkV3Mm5NcFE?oc=5",
+      "published": "2026-07-30T22:41:09+00:00",
+      "compound": 0.7351,
+      "label": "positive",
+      "entities": [
+        "North Korea",
+        "South Korea"
+      ]
+    },
+    {
+      "title": "Hamas reaches Gaza disarmament agreement with Board of Peace",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/30/trump-says-board-of-peace-reaches-agreement-on-disarmament-of-hamas-in-gaza?traffic_source=rss",
+      "published": "2026-07-30T22:34:19+00:00",
+      "compound": 0.7845,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Amazon’s Zoox secures US federal approval for steering-wheel-free robotaxis",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/7/30/amazons-zoox-secures-us-federal-approval-for-steering-wheel-free-robotaxis?traffic_source=rss",
+      "published": "2026-07-30T22:14:12+00:00",
+      "compound": 0.6597,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Why is US GDP growth slowing, and how can it be reversed?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/7/30/why-is-us-gdp-growth-slowing-and-how-can-it-be-reversed?traffic_source=rss",
+      "published": "2026-07-30T21:39:37+00:00",
+      "compound": 0.5719,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "French teen fined in Singapore over ‘straw licking’ stunt",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/french-teen-fined-in-singapore-over-straw-licking-stunt?traffic_source=rss",
+      "published": "2026-07-30T21:34:39+00:00",
+      "compound": -0.4215,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Argentina’s Milei seeks to deport foreigners that spread ‘hate’ of country",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/30/argentinas-milei-seeks-to-deport-foreigners-that-spread-hate-of-country?traffic_source=rss",
+      "published": "2026-07-30T21:34:11+00:00",
+      "compound": -0.8225,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Will Saudi Arabia be dragged further into the war in Iran?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/7/30/will-saudi-arabia-be-dragged-further-into-the-war-in-iran?traffic_source=rss",
+      "published": "2026-07-30T21:00:28+00:00",
+      "compound": -0.8834,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Prague Zoo keeps polar bears cool with ice amid heatwave",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/prague-zoo-keeps-polar-bears-cool-with-ice-amid-heatwave?traffic_source=rss",
+      "published": "2026-07-30T21:00:11+00:00",
+      "compound": 0.6597,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "U.S. Under Secretary Testifies on Free Information's Power in North Korea",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWNMVUdJZDQ4Q2t4WjJFdXdHZWhxMU90cGJreW5OUWx1YmtveUVNOFlOc2dLUVB1Wm9ycnNUb1ZKcWVFNy0xS0hFSEVRakNpZ2FqX3ZyS3B3aHN6Ym54aUtyXzNNLWJpUWM2VTRxY01hbmpBc2FPbVRWT1R0cklDM1V1Vm8?oc=5",
+      "published": "2026-07-30T20:36:26+00:00",
+      "compound": 0.765,
+      "label": "positive",
+      "entities": [
+        "North Korea"
+      ]
+    },
+    {
       "title": "Zelensky says Russia likely used a North Korean missile in an attack near Kryvyi Rih that killed four children and their parents",
       "source": "Meduza",
       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxObDBxUUlTT0RsdHNfTFBTU01RMllVT2U0UXp4YWJxalIyNFNUU3BnZjJ6THpjem5TcDQ0ZjNxNzF6emRvUHBFanJGX2FSYjUxUmdCRXp6UmJpWTB2RUxnaENFd2NLTWRJalRFYkQ1OU9HcUdUak0waG1oZUQtdW9ZdTFIMXU4WDVuZEM5V3hPUmVBLUFzb1hLRktTNzYzZTRsc0VXT0NYRmkydURIWGFkcUxfR29ZUWxHd3ZaVTB5bm55Vy1SNnMwajJMSW1sdGNxU2dhODBJcG1jY20yTG9iY2NKOGQ5SEhVc2ZhVHBheTdDX1hsTzN1YtIB_gFBVV95cUxPbm5lbC1CZ1QxQ1Z4R3dmRFVoa1c0ajRlZThmOW5TaU5YWnQxdkhDeVR3SktVcU5mYkZkSDdRVHp4LW1ybEtzOWlzWXUwVzFhYW5rbTI5RHlMYlp4N1ZrSGJsZUJfZW8zSFZxRnNWRzhmQXN6MTF6SHl3M3F5WEtXajJnUmZrT0draXpEcWxPSGtodWVISEd3Y0tiLUxmalhNM0ZVRnNHWjR2TWY2UWtMZEo2SEs0bE5fcjBKLTN5T3BRdF9IbXBsYVQyMmhtelVOUEJQTVhXZFNtckp5N2x0d1pzN2ZiWm5yNVlQcE9EcV9qY3p5MjViSWR6bzJsUQ?oc=5",
       "published": "2026-07-30T19:41:00+00:00",
       "compound": -0.9451,
+      "label": "negative",
+      "entities": [
+        "North Korea",
+        "Russia"
+      ]
+    },
+    {
+      "title": "Zelensky claims preliminary data indicates Russia used North Korean ballistic missile to strike Ukraine",
+      "source": "A News",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPU3lZMDhhZTJuTGI1LWZsS2s0eHRlUFlVZlJsRnY5NUtocU9UeWQzU1RYS1JtSV9QTWJlY3FSNlUyTDFZT1MzdDRJYlJIRWdObE1WU0hxc1dxWjdlRmloMHpVZTBVVFlKM2kxOFhRdlc2eUgyX25Ic1ZiclRUWVlTT2xQTnpfV0IweU1vajJWYnctTDZYNF9nZTU3enpHa195el9SS2g0Q2F3RkF3YlBhQTE5WHppNTFxVkE0ZUZIWEgxaGt5Q3pCZ2dVcnFnOVp2cXdKSVJVSDBHT25NVnfSAeMBQVVfeXFMTWVPNFJGd002aTVzbzFwYmFXM0ZfRGhWMkJzOUdGQ085bXVmNjJMY1JNRU82ZmxXUTJJTzc0LTg1OGVUN0M2akZNRnQyVGJycFdvb3NxOThHMW1ib1JxNl9TZnpSZ1czcGVFb0tyY0Q1NHQwbUdDVHpmOTZTaWl0TXFjVnViWUZqVUt3ZEM5Z1kyd093dHZPbVJCNGc0YU9nQ0ZuLVUyRHRHNlV2bUN6UW9NZFZlaF9ZOUViUlgzNUFyRV9VVTdKbWlvWkhhSVdIcmRvS3dNY1ItTXNBZmIxeVBIbGs?oc=5",
+      "published": "2026-07-30T19:17:00+00:00",
+      "compound": -0.25,
       "label": "negative",
       "entities": [
         "North Korea",
@@ -3101,6 +3621,18 @@
       ]
     },
     {
+      "title": "Zelensky: Preliminary data indicate Russia used North Korean ballistic missile in strike on Radushne",
+      "source": "Ukrinform",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOTzdpSUdtTjRaRWttMUNQd0oxazBpN3BfX1FEaUl6V1d1TXVNM0pqSG9QSm02dFR6TXZieExkZXB0Z2xkUnc0UDNHaEh2bjZ1TW83b3JSRkd1dE1CNUFZbG41UjB1Z01fLWpvaURBV2k1OFdIbm9RTFNPemZjeklCbWtqckdJLVlpWkJ1V19iOWx5aGp6MGtxUkFaQVFkbTA4UE94MGZRUVR1MFdrS0VaNlVjaENfQ0hsSGtsWUtjd3RHdEJPVWdxN3J1TmJaNGVHajVqcXFUQTRFZzRaYlloUWhpUQ?oc=5",
+      "published": "2026-07-30T18:41:00+00:00",
+      "compound": -0.25,
+      "label": "negative",
+      "entities": [
+        "North Korea",
+        "Russia"
+      ]
+    },
+    {
       "title": "Spain’s Ceuta declares emergency over surge in migrant arrivals",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/spains-ceuta-declares-emergency-over-surge-in-migrant-arrivals?traffic_source=rss",
@@ -3115,484 +3647,6 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUTNKRmJybGROdXpaNVJfUi1XdFVtVGsxWGZfanI1Y2VmTmJmUV9wNDNWSHZVLUtoX2VzYjFKU1RhdGU5QVZjdUhlTHlnWUJMSEtLV0FINUphUGh1UnFiT0lBU3J0Rm1LRG1vV1dOTUhMaWx2aTFHVHF3Z2lDU1Q4b29JVTZ6RVpVUndHeTJNdlgySkFQZ3kyUw?oc=5",
       "published": "2026-07-30T18:21:11+00:00",
       "compound": -0.5859,
-      "label": "negative",
-      "entities": [
-        "North Korea",
-        "Russia"
-      ]
-    },
-    {
-      "title": "Russia Uses North Korean Ballistic Missiles in Deadly Strike near Kryvyi Rih",
-      "source": "Межа. Новини України.",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9SR3VkV2tBTWVhSzNJTllSNUc1VmlfV180SWVCVHRaSGJpNktIeEVXa29LaUFvVXY4ejUyZmNuTFFxYXZfNnRsdlFvbks3aU1MTXZoaWxiM3BIMDBQdmtVNE5IejNZUQ?oc=5",
-      "published": "2026-07-30T18:18:08+00:00",
-      "compound": -0.25,
-      "label": "negative",
-      "entities": [
-        "North Korea",
-        "Russia"
-      ]
-    },
-    {
-      "title": "DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware",
-      "source": "The Hacker News",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1PeXZYVVp2ZERfYm5wWmFxSjhJOWQ2RnZmMFRIeHhVSWVWTG5uSkd3UWlKVzR1dE9GcU1uUmhEZjFHMjBkZVUtZXNSOFQ0bndIajktUzVXMTNTd3BEeGpnSmJ5SW5PMUJPOVFFQ0t4cTB4bks0b0x6NVBLVEdRQ00?oc=5",
-      "published": "2026-07-30T18:18:00+00:00",
-      "compound": -0.7351,
-      "label": "negative",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "Turtle rescued from rubble a month after Venezuela earthquake",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/turtle-rescued-from-rubble-a-month-after-venezuela-earthquake?traffic_source=rss",
-      "published": "2026-07-30T18:15:11+00:00",
-      "compound": 0.7783,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Viral cricket scandal sees ‘Clicky Ponting’ suspended from UK team",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/amateur-cricketer-accused-of-faking-an-edge-with-a-finger-snap?traffic_source=rss",
-      "published": "2026-07-30T18:12:02+00:00",
-      "compound": -0.9001,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Europe’s heating climate sparks ‘major intensification’ of fires: Report",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/30/europes-heating-climate-sparks-major-intensification-of-fires-report?traffic_source=rss",
-      "published": "2026-07-30T17:58:14+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Danube's record low levels force shutdown of Hungary's only nuclear plant",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cn0nqv05g0do?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-30T17:55:24+00:00",
-      "compound": -0.4939,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "European soccer leaders to boycott the World Cup in an unprecedented step",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/30/nx-s1-5913664/world-cup-fifa-uefa-gianni-infantino",
-      "published": "2026-07-30T17:38:38+00:00",
-      "compound": -0.6597,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Father of teen school shooter sentenced to 15 years in prison",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c78g4y18rxgo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-30T17:33:41+00:00",
-      "compound": -0.9022,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Zelenskyy claims preliminary data indicates Russia used North Korean ballistic missile to strike Ukraine",
-      "source": "aa.com.tr",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOTXBlZTVjWE8wQVRyMGZhTEN0QVB0Q2NWWW9pbGlJSURWWnlNNEdMb3ZPcmNSU1ppUmhydjFld05sblJKZDkxeWZLVVZvV2czcmFiMF9CeHNJV2ptLXpmS1JKcUZMNHZIY2tFVTZNNnJ4d2l2UmNVM3d3Z2c4M2pVTWNLQjR3Zk1ET3FLeWpxWG96VVoxY3JfQlVlOEZVSURzRmVXZmkzdFJPVFVBU1hwX2hROHVQNXFLS0pnNmQ1T0F2bm9xMTJVRjcwc0pOaGFuM29rR0R1cmw1SDRLM2taT2tTSFpXbkNLNnlDMw?oc=5",
-      "published": "2026-07-30T17:32:38+00:00",
-      "compound": -0.25,
-      "label": "negative",
-      "entities": [
-        "North Korea",
-        "Russia"
-      ]
-    },
-    {
-      "title": "Why limited war with the US may suit Iran better than peace",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c78gnyq3wvdo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-30T17:26:01+00:00",
-      "compound": -0.8271,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Amazon pins multiple open source compromises on North Korea",
-      "source": "Computer Weekly",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTnhqZUh1aExTOE9vNjJsWkpXb3ZHclZLbnVER0ZvNmRrd3Fqa0o1M0toQmVNOTh6VG43NmZyQUNZRXJCLTZhZmNDNDlzMzlCSEZyX0hTOWR4SjYtX2hNcVF3aWVaWkJKYTFxM290QU9jeHhZc3JVUVV0OWNGS0I5OGd0OFBUMjFoT1Jqa3Zvc1duRHlodEt5UnFzRnBuUXZmczF5SWFMcWU?oc=5",
-      "published": "2026-07-30T17:25:26+00:00",
-      "compound": 0.34,
-      "label": "positive",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "Rights report reconstructs fatal shooting of Palestinian man",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/rights-report-reconstructs-fatal-shooting-of-palestinian-man?traffic_source=rss",
-      "published": "2026-07-30T17:23:21+00:00",
-      "compound": -0.7906,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Hundreds of migrants swim from Morocco to Spanish enclave of Ceuta",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cg4drwzkrkxo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-30T17:19:27+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Russia may have new batch of North Korean missiles",
-      "source": "The New Voice of Ukraine",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNalBFVTJ2bW5GY0ZCQU5WaVZobVVaWFd1MUpfb1NzVFVKODZlX3ZOV3RUM2otYjlCUTVmWnRKalJvTXVTdlF2X3IzdzJ6N2VZQTFpeU1WamUzanBHenRWR2ZoTkJiOUNhekItcnAyMGVUVlcyTDRRU28xNUN5cHlkT0g3VjA3Z0RmN3pfdlRtZzNTSGfSAYgBQVVfeXFMUGhaWTJteTREWGVRVFhjNWk4REJTYVlnUUN1SWFnUkdDem5BYW54SzZ4OGtuMXppUDRwVFhMV1BEdUxzX3BfMldtLXMwOXFMdXhoUXR6Rm1KV0tyX3JDZnJOVC1yM2gyNTdkbzhNZDNuZjY2MndOVklBejJWNU9BY2dpOHJHR2xzbw?oc=5",
-      "published": "2026-07-30T16:56:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "North Korea",
-        "Russia"
-      ]
-    },
-    {
-      "title": "‘To play God’: Cuba’s healthcare system collapses under US pressure",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/longform/2026/7/30/to-play-god-cubas-healthcare-system-collapses-under-us-pressure?traffic_source=rss",
-      "published": "2026-07-30T16:34:12+00:00",
-      "compound": -0.6249,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "In Their Own Hands: Ghana’s Drug Vigilantes",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/people-power/2026/7/30/in-their-own-hands-ghanas-drug-vigilantes?traffic_source=rss",
-      "published": "2026-07-30T16:30:00+00:00",
-      "compound": -0.765,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "NATO jets scramble as Russian missile detonates in Poland",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/30/nato-jets-scramble-as-russian-missile-detonates-in-poland?traffic_source=rss",
-      "published": "2026-07-30T16:28:51+00:00",
-      "compound": -0.765,
-      "label": "negative",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "IRGC video of retaliatory strikes on US targets in Jordan",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/irgc-video-of-retaliatory-strikes-on-us-targets-in-jordan?traffic_source=rss",
-      "published": "2026-07-30T16:06:08+00:00",
-      "compound": -0.25,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Russia Used North Korean Missile for First Time in Nearly a Year, Killing Family Near Kryvyi Rih",
-      "source": "UNITED24 Media",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNemoxSXQ1aUQ3dnhGWVpsMWNGVnU0bGF5ek4yZDk4NTdUMVpxRVlPOE5sRGdzUTNTUWx5QXptd2d0a1pEV0hGYnBSOTJCdTNEYUZUbEY3S0poNjJsc3g3UTlvSHhYNDRsWGpial9JZnhEVGtGcm9ZZjdjdlBtbGgxdmM1TDNUV0JITzVLdGRqSF9zLWUyZUt3Tm1YdW5xNGpka25wZlJBSnJnUVIxOUtld1E1cWUxdHJTeU9JdXJBOFp3dFMzeEQ1andSWWRsSFZ3RDJXbXNWN053d1lnZ1J0S0xaZw?oc=5",
-      "published": "2026-07-30T16:03:19+00:00",
-      "compound": -0.8689,
-      "label": "negative",
-      "entities": [
-        "North Korea",
-        "Russia"
-      ]
-    },
-    {
-      "title": "US GDP growth dips as inflation and trade deficits pressure economy",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/7/30/us-gdp-growth-dips-as-inflation-and-trade-deficits-pressure-economy?traffic_source=rss",
-      "published": "2026-07-30T15:52:47+00:00",
-      "compound": 0.4019,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Amazon Links North Korea to Open-Source Software Attacks",
-      "source": "MeriTalk",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTng2ODF1RFlHZHZzb3ZzRmp1eUhha2JEXzY0OWN4Wnk3aldabldzT0t2Z2pRcy0zSC1OYkh2VFRiN2QxZlRpVVM4UkFyYVpzX1NhTXpYUHpicDIteVhQSlZyekJRYW9PdFZVUWZTVktWelRDSFFnS2NxUVpydHBjZUFxYUVCVFZRdlU3dm1SOFNUU29Gd3c?oc=5",
-      "published": "2026-07-30T15:48:24+00:00",
-      "compound": -0.5267,
-      "label": "negative",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "Man impaled by a hiking pole treks 10 miles down mountain",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/videos/cvg0nlkmzewo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-30T15:47:09+00:00",
-      "compound": 0.5106,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Spain’s enclave Ceuta raises alarm as thousands cross border from Morocco",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/30/spanish-enclave-of-ceuta-raises-alarm-as-thousands-cross-morocco-border?traffic_source=rss",
-      "published": "2026-07-30T15:36:56+00:00",
-      "compound": -0.3182,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Republicans delay vote on Trump’s US attorney general pick amid concerns",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/30/republicans-delay-vote-on-trumps-us-attorney-general-pick-amid-concerns?traffic_source=rss",
-      "published": "2026-07-30T15:36:35+00:00",
-      "compound": -0.5267,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "UEFA members vote to boycott FIFA if Infantino’s World Cup plans pursued",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/30/uefa-members-agree-fifa-boycott-if-world-cup-plans-pursued?traffic_source=rss",
-      "published": "2026-07-30T15:30:40+00:00",
-      "compound": -0.4767,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Russia may have replenished its stockpile of ballistic missiles with missiles from North Korea",
-      "source": "UA.NEWS",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQnF0U0wxbFFieFJCX1g2ZnhOaGhnaWZVUXM5UGFNYkVud3ZuYVRkeUlCb0J4aGc5ZHpoUFEyUzZFTXJRWWRUclNNdmpoVEJ6MXU1UjhxTjhYTlprcHp3N1dpbDR2MFVGRlV0cmd3X25WS3JydGVRWm9kb1FZVi14ZEdoRDdmdmNOYjFIdw?oc=5",
-      "published": "2026-07-30T15:14:41+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "North Korea",
-        "Russia"
-      ]
-    },
-    {
-      "title": "Is Pakistan ‘using India’s playbook’ in Kashmir?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/is-pakistan-using-indias-playbook-in-kashmir?traffic_source=rss",
-      "published": "2026-07-30T15:08:58+00:00",
-      "compound": -0.8271,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Smoke rises over southern Iran after renewed US attacks",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/smoke-rises-over-southern-iran-after-renewed-us-attacks?traffic_source=rss",
-      "published": "2026-07-30T14:58:41+00:00",
-      "compound": -0.6597,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "War on Iran: Phase II: Day 19",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/war-on-iran-phase-ii-day-19?traffic_source=rss",
-      "published": "2026-07-30T14:56:59+00:00",
-      "compound": -0.8555,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Russia likely used North Korean missile in deadly Ukraine strike for first time this year",
-      "source": "Deccan Herald",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUlViVC1CaUFqQ1NoV3pfM2lwTFNPZ19qYkYxRGY5SG5UcnNLSDFhV2N0LXdKaEF6VVhkb1BCd1czQ2xRS0UtYVpIY19rMWJCbW9VLTVRdlQxRWxWMmdLWGZIVXU5WktLWWVXaUdqUjZrdGsyMmdVWUJEUWNTOFprYmFybTNra1I3RU9tMF9Vc3FoQ19BRUNFcFZWeWs2S0doMXd2WHVsa2tURmFIYmRsSE5lZEpJb0g3OXFCandKZy1nRks5MjNZUXgtZjhvNmNiVUFuYU5n?oc=5",
-      "published": "2026-07-30T14:41:15+00:00",
-      "compound": -0.25,
-      "label": "negative",
-      "entities": [
-        "North Korea",
-        "Russia"
-      ]
-    },
-    {
-      "title": "North Korean missile likely used in Russian strike that killed five family members",
-      "source": "The Independent",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPY3VuSkJYQzI2b0NvWHZtNllhcjY3UWhqejdHZHQ2WDhlN2xFSnliZUJEejFJWlBjaV9IZm5sangwd1hsTTUzd0lFM3R0WHZuSmNlb3lqSGN2cThIbmpodkg4eDgyaEk1aDdudUZlSWVoZ2JfVjBrQ0VabnlYcDY1R01FSDEwc1VPQm9QMjIybG5WZjZvZHZQaWpUWWpqOUFWMkJqbXZR?oc=5",
-      "published": "2026-07-30T14:41:00+00:00",
-      "compound": -0.9001,
-      "label": "negative",
-      "entities": [
-        "North Korea",
-        "Russia"
-      ]
-    },
-    {
-      "title": "Police arrest dozens at London rally supporting Palestine Action",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/30/police-arrest-dozens-at-london-rally-supporting-palestine-action?traffic_source=rss",
-      "published": "2026-07-30T14:22:02+00:00",
-      "compound": 0.7184,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "North Korea’s Lazarus Group sharing tools with ransomware hackers, South Korean agencies warn",
-      "source": "The Record from Recorded Future News",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xRjFmWGJYeG5uY3NiOEExM3pvZjVwSEZ0WDBxbVE0QVJ1N3hjRHR1V3daa1dMcXJ5blc5N0hRS2pRejBoMEpQUS1RWF83QjJtOTlRcXdJWnFuYVhQWDViMVFFTFc?oc=5",
-      "published": "2026-07-30T14:17:25+00:00",
-      "compound": 0.5859,
-      "label": "positive",
-      "entities": [
-        "North Korea",
-        "South Korea"
-      ]
-    },
-    {
-      "title": "El Salvador sentences gang members to 1,000 years in prison",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/el-salvador-sentences-gang-members-to-1000-years-in-prison?traffic_source=rss",
-      "published": "2026-07-30T14:07:49+00:00",
-      "compound": -0.7351,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "‘Go back to your own country’: NZ foreign minister faces backlash",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/go-back-to-your-own-country-nz-foreign-minister-faces-backlash?traffic_source=rss",
-      "published": "2026-07-30T13:51:52+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "China"
-      ]
-    },
-    {
-      "title": "Russia likely used N.Korean missile in deadly Ukraine strike for first time this year, sources say",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYWM5NFpLa3p4OE1XZUMybkU4TDdyeWxjbTlEaXpUaUtJR1JUNngzd3AxNmgydElQNUc4aVBFS3V6N0FCcXZOTVV0a0tYQjl1dTVRTnZrNXdRaTh4aGVOR25hM0xvQ3hEWElrWWtjWGI0aWhwb28wbjJLMklKZEFQb1dzWVktU2YteVN3dW84MmpzdnRkUXlzZWxWam9COVVHZ1h5NkhFcXRvZi12SUx1S2hGcm93U1lkdmJNVXRDbUpYSjRIemlpX1NqaDk?oc=5",
-      "published": "2026-07-30T13:48:42+00:00",
-      "compound": -0.25,
-      "label": "negative",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "Dashcam captures tornado toppling power lines onto car",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/videos/cj631p14gpjo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-30T13:44:23+00:00",
-      "compound": 0.4215,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Missile that left crater deep inside Poland was probably Russian - Polish PM",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cwymkgenv2ro?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-30T13:38:50+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "Islamabad residents rally in solidarity with Kashmir protests",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/islamabad-residents-rally-in-solidarity-with-kashmir-protests?traffic_source=rss",
-      "published": "2026-07-30T13:35:29+00:00",
-      "compound": 0.2732,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Sudan’s RSF vows to return to Khartoum",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/sudans-rsf-vows-to-return-to-khartoum?traffic_source=rss",
-      "published": "2026-07-30T13:26:26+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "World Cup: What has FIFA charged Argentina with, what could punishment be?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/30/world-cup-what-have-fifa-charged-argentina-with-what-could-punishment-be?traffic_source=rss",
-      "published": "2026-07-30T13:15:23+00:00",
-      "compound": -0.755,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Amazon links four poisoned npm packages to one North Korean crew",
-      "source": "The Register",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZy1XYTh5RWxyWHIwUEdGUXVhQ3V1N0QtZXNMNDZmRHh2U0FTWkhJV3NHelVLLW04QS1qTjFidWt0VXVRV2ljNUZtNUtnUEpBUmEwU2RhVTJFdHhEMi1DRDVsSFdrc29reWowV05ScVZtdHdERWJTV1hVQnNHaVdkOUhNa1loN0x2WURDRFgwcmxLREpVY0ZhS3lJaUxwMFdnV1B3djRwWkdDakt3Tjk1c2dtMkdaSmVWaE5hMk9vd24?oc=5",
-      "published": "2026-07-30T13:13:00+00:00",
-      "compound": -0.6124,
-      "label": "negative",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "North Korean hackers behind major open-source supply chain attacks, Amazon says",
-      "source": "The Record from Recorded Future News",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4taDhwbnJnOURaMS1qSl96QlQzN0lPUTI2WEJCcFdOQU1PTTFpY2dlOHc5WXFaR2lRby1SMFpObTRzWmhYY1hlSXBmaXRUVXRaTjBZclQtdndWMUt6ZFdTbTgyeGJKaS1nRlE?oc=5",
-      "published": "2026-07-30T13:07:25+00:00",
-      "compound": -0.5267,
-      "label": "negative",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "Chinese Spy Sentenced to Five Years for Military, THAAD Espionage",
-      "source": "조선일보",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWkZkOGhHSFFMaUh1TTlEMkRIaGFhTXJMbUdJNlBGN2NKdGJzMFdlYTZIWUEybDRmLTl6TktjSFVrZkdLMmRfVWFlZHdudWp2Zk1XOEU0XzU5cFZtQUEwVGtZOThMR3ZQRXphUGFvSVpwdHE1OUpsNjJMSVFyeFIxcUVoSDFNTkU1?oc=5",
-      "published": "2026-07-30T13:06:38+00:00",
-      "compound": -0.0516,
-      "label": "negative",
-      "entities": [
-        "China"
-      ]
-    },
-    {
-      "title": "Posts claim Kim Jong Un demanded firing squad for Epstein associates. There's no proof",
-      "source": "Snopes",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBKN0pFR2RHUU1VQmkydGdSM2ZtbFJBSkktc3NrTnMtcjlEaUN1WEdIN053SHU1a3pGdTZpQ2RqWlAwZW1HTVVlUmFXMnlUSVQySDZFM29pUEVUX2NsZXZFdkU5MVlZZjFrV01WWEx3cHdvTWdCOXc?oc=5",
-      "published": "2026-07-30T13:02:55+00:00",
-      "compound": -0.875,
-      "label": "negative",
-      "entities": [
-        "Kim Jong-un"
-      ]
-    },
-    {
-      "title": "Fact Check: Posts claim Kim Jong Un demanded firing squad for Epstein associates. There's no proof",
-      "source": "Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYlBOVk4wcmFHZ3VHenVqZm1Nd2tsRWRSZmRGRGlHcUlPNE92d0lnamw4NjBrcE9ubFEwMVVSX193azZWc0h3S0ExWmNjOEQxVk9EaTl3VTRFYXppWEpJcG5maUdjcW1JRnBWOG9ueDl1NDliVDQ1NFZHaDZHTlNrV0plTlpTOHpqREg4?oc=5",
-      "published": "2026-07-30T13:00:00+00:00",
-      "compound": -0.875,
-      "label": "negative",
-      "entities": [
-        "Kim Jong-un"
-      ]
-    },
-    {
-      "title": "Russia Likely Used North Korean Missile In Deadly Ukraine Strike: Report",
-      "source": "NDTV",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNEdyeVlucG9ybUFQeUV0WlFNZFBac1lqMmh4SkttNnB5bjFhZWNhYnpjWmhrRVF6X01QTllNNERLQVlrdE51dVdfZFVNcVRuVzh1VHJrT1NrWW96bVdqbXVRVFdNUWFXdGN0RDAtbVcxcFpyQnphT0prS0lVM2tkZzBTMVd2dHpia3NZeTRnY1l5RmNhcnFJVzRqSFF5cWNpUVRoeFppY0lqdlBFZ1A5Q3lR0gG6AUFVX3lxTE02dEJZRlNOeUVmdERtcFg3Z3RmSEt4TExEdHlDeGdtOFlIRzZXQXJfM2FpU1Brak5uUkxXc3lweXZFNVplZExLWFY4dVpfb0NMS3M5a3RKaVIyNEhCUnpMWnl1T1hDbFd5dDc0OE1sUDJHZlE0M2RTSFVkbHJiR2dBc1dvb2RQY1MwX0ExZGtSVVVjYVN6SUNRVlNldkNHejhsZEMzc0dWZTBCb1Y1VWRnWjQtRUp2amtVQQ?oc=5",
-      "published": "2026-07-30T12:59:38+00:00",
-      "compound": -0.25,
       "label": "negative",
       "entities": [
         "North Korea",

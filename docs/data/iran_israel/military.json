@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-07-31T09:16:43+00:00",
+  "updated": "2026-07-31T14:34:54+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-07-31"
   },
   "kpis": {
-    "events_total": 296,
-    "events_unlocated": 883,
-    "events_7d": 44,
+    "events_total": 298,
+    "events_unlocated": 891,
+    "events_7d": 46,
     "events_prev_7d": 72,
     "hottest_place": "Strait of Hormuz"
   },
@@ -368,6 +368,15 @@
       "total": 9,
       "strike": 8,
       "ground": 1,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-07-31",
+      "total": 2,
+      "strike": 2,
+      "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -3333,12 +3342,32 @@
       "title": "Will Saudi Arabia be dragged further into the war in Iran?",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/inside-story/2026/7/30/will-saudi-arabia-be-dragged-further-into-the-war-in-iran?traffic_source=rss"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iran strikes tankers under US escort in Hormuz strait as Trump gathers cabinet to discuss war",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa0Nlc3FFeTZIM0dHUG8wYm9yaXhpOFBRSzJNQ09nZW9aUHlCWU5hU1ZZOE1XVXdhcXVmZnJiZzgtaGdSbkU2Y2FsZXlWOXp1LXdGT2t3MHhGZGlwS095dURvODFaSUlSRER3aHl1Z3ZMbVlPWThNUExqTnZuZ2ZwZmxOUmJ2bXo4d1RwX3VILXpiLW1fTEgxMm5NQ0RrZjQ3cUlGZG5DY2FGRmQwdHkwcjJn?oc=5"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iran strikes tankers under US escort in Hormuz strait as Trump gathers cabinet to discuss war",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/31/iran-strikes-tankers-us-escort-hormuz-strait-trump-gathers-cabinet"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 113
+      "count": 115
     },
     {
       "place": "Tehran",

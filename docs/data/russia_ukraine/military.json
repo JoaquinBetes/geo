@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-07-31T19:52:19+00:00",
+  "updated": "2026-08-01T03:50:02+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-07-31"
+    "to": "2026-08-01"
   },
   "kpis": {
-    "events_total": 304,
-    "events_unlocated": 901,
-    "events_7d": 48,
-    "events_prev_7d": 72,
+    "events_total": 310,
+    "events_unlocated": 912,
+    "events_7d": 46,
+    "events_prev_7d": 75,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -484,6 +484,15 @@
       "strike": 5,
       "ground": 0,
       "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-08-01",
+      "total": 6,
+      "strike": 6,
+      "ground": 0,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -3528,16 +3537,76 @@
       "title": "Russia and Ukraine report casualties as they continue to trade attacks",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/7/31/russia-and-ukraine-report-casualties-as-they-continue-to-trade-attacks?traffic_source=rss"
+    },
+    {
+      "date": "2026-08-01",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: Missile attack on Kyiv kills at least four as Zelenskyy pushes to use Starlink for attacks in Russia",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPNUg0Y1BnVm9iZmtSRVVNelQxUmxLSVg4WG56dWNQYXoxd1ZXdVlEc1pTNENtZHdkRl96UGhiaTlVSDh5MWNhb1FrYXY0WldPR3hsVFJTNnpwTGhJUlpMWVgycmpFT3RuUl9nTHNGanJBOGZUNTRLbUFIaHlyWE0xQWtOWnRfOTRfbWIyLTRQMkRtZG93cUFnQUFDRVZXakZTanNrakhRSzhzVk1ZbmhHVHNadnlVNGpfLU9QUnZwOEwzdnNDOEtKSjE1VkRsRm1OX3RJNU4ySWRfNlNSZXBYcGJFb2FDSGFKVkp2OUx6VTVVeUN3dHgwcVJVSTY?oc=5"
+    },
+    {
+      "date": "2026-08-01",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russian strikes on Kyiv kill 4, injure at least 15, officials say",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRnV1UUdqaUVGdDE0MjdMaVdJYkl6N2oyUWFZU21WNlpjc1drVTJXeUhmYXZSTWpKa3k1TDZhekZDVVVGZ213TmNpVEdkWmlQR2NyZzA2Z0ZyQkZhY1pVd0FDM3lkUEVlWm9ock0xdnFXd2p2bW9MbkVleGgyRnFTaHpZUGE?oc=5"
+    },
+    {
+      "date": "2026-08-01",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russian missile attack kills three in Ukraine’s Kyiv",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORXV2dkxDX25CSFZ4RVpvYVdYWXIzOTJmNnBNVlNteTV4dTd3akFzLTUzek9Hdm5FSDdYRjNnSDM3eTFnSDNaX2oyMFdGRTgzZnZ5XzRVVzBKbGNaQkVxOHZPUFZSNFVoVmphdkVYeEtGTTFKME51dlRsRUJ4YkZJbXVKU1d5bFoyUng3WHNGMHVYVXdFdkHSAZsBQVVfeXFMUDZ0SF9oTDlZaHdWci1Ya0M1d04yelNJZ2U2NXlEaVVpSXF4TDRVU0JRTUFHVUNFS2syRENvQWdfWXdJckdPNEFpNmx6R2dSWUN2QjltLTViVllnMWNPQVAzbGRTZmhMY2xBNmpJa0U0NmJXSkY3M01ZdnFMYkhvWnhzNTFsaHRCRVpRZmR3YzZyV0JJTkxBbTNRSW8?oc=5"
+    },
+    {
+      "date": "2026-08-01",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine: Russia hits Kyiv with deadly missile strikes",
+      "source": "DW.com",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZlFlanJYTzZsWmFWcHZkTzAtamI1U0treDkxUzhfdVJ6bEJaOUhxOTlSUVFOUm1UdWJmb0RFYlJ1SVBlckhneWRVSDNlelJaQ2pHbEJTM2ExbUhjUHVBd21qUHJMY0JEV1gxbGU1eENTNTNoTHFOTEtRQjF4LWJIdk94a0VwVmFWQzdyZlhR0gGOAUFVX3lxTE5ITnliMEpaMUhSenZub0lRY19yUlB4alJDaG9nZ0FNWU9GQ3FaR0NzdEZ1QlFET2IyTFRBTzMxbWVZU1htb1JjWmRKbjAwZ3plYV9lRTdBODFRdWNDTkhsTE5hdmZuelRmWjNQWmNBTGlIdjlMSTFGcmsyaGRVa3ZjTmIzcWdrLU9MZFdmSUE?oc=5"
+    },
+    {
+      "date": "2026-08-01",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russian missile attack kills three in Ukraine’s Kyiv",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/1/russian-missile-attack-kills-three-in-ukraines-kyiv?traffic_source=rss"
+    },
+    {
+      "date": "2026-08-01",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: Missile attack on Kyiv kills at least four as Zelenskyy pushes to use Starlink for attacks in Russia",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/aug/01/ukraine-war-briefing-missile-attack-on-kyiv-kills-at-least-three-as-zelenskyy-pushes-to-use-starlink-for-attacks-in-russia"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 177
+      "count": 176
     },
     {
       "place": "Moscow",
-      "count": 41
+      "count": 40
     },
     {
       "place": "Odesa",

@@ -2,13 +2,13 @@
   "id": "iran_israel",
   "name": "Irán–Israel/EE.UU.",
   "description": "Cobertura mediática del conflicto entre Irán, Israel y Estados Unidos",
-  "updated": "2026-07-31T19:52:24+00:00",
-  "total_articles": 5815,
-  "overall_avg": -0.335,
+  "updated": "2026-08-01T03:50:06+00:00",
+  "total_articles": 5865,
+  "overall_avg": -0.334,
   "distribution": {
-    "pos": 1211,
-    "neu": 888,
-    "neg": 3716
+    "pos": 1223,
+    "neu": 893,
+    "neg": 3749
   },
   "sources": [
     "Al Jazeera",
@@ -24,15 +24,15 @@
     "Israel National News",
     "The New York Times",
     "JNS.org",
+    "CBS News",
     "Crypto Briefing",
     "The Independent",
-    "The Times of India",
     "www.israelhayom.com",
-    "CBS News",
+    "The Times of India",
     "Anadolu Ajansı",
     "i24NEWS",
-    "NBC News",
     "Fox News",
+    "NBC News",
     "CNN",
     "The Hill",
     "Yahoo",
@@ -67,6 +67,7 @@
     "Muslim Network TV",
     "Politico",
     "Defense Priorities",
+    "News18",
     "cbn.com",
     "MS NOW",
     "Asharq Al-Awsat English",
@@ -74,7 +75,6 @@
     "middle-east-online.com",
     "The Media Line",
     "Firstpost",
-    "News18",
     "Washington Examiner",
     "IFCJ",
     "WANA News Agency",
@@ -117,6 +117,7 @@
     "AOL.com",
     "The Express Tribune",
     "AzerNews",
+    "India Today",
     "Bloomberg.com",
     "Mehr News Agency",
     "Washington Report on Middle East Affairs",
@@ -124,6 +125,7 @@
     "upi.com",
     "صوت الإمارات",
     "Radio Free Europe/Radio Liberty",
+    "NewsNation",
     "Boston Herald",
     "vox.com",
     "CTech",
@@ -160,7 +162,6 @@
     "NewsCord",
     "Tehran Times",
     "ABC7 Chicago",
-    "India Today",
     "The Arab Weekly",
     "freebeacon.com",
     "Palestine Chronicle",
@@ -175,7 +176,6 @@
     "Fox Business",
     "goSkagit",
     "Dayton Daily News",
-    "NewsNation",
     "+972 Magazine",
     "Euronews",
     "Encyclopedia Britannica",
@@ -380,7 +380,8 @@
     "wanaen.com",
     "RBC-Ukraine",
     "Seoul Economic Daily",
-    "caspianpost.com"
+    "caspianpost.com",
+    "Forex Factory"
   ],
   "daily": [
     {
@@ -645,6 +646,14 @@
       "avg": 0.0404,
       "pos": 1,
       "neu": 1,
+      "neg": 1
+    },
+    {
+      "date": "2026-06-13",
+      "count": 1,
+      "avg": -0.6124,
+      "pos": 0,
+      "neu": 0,
       "neg": 1
     },
     {
@@ -1025,23 +1034,31 @@
     },
     {
       "date": "2026-07-31",
-      "count": 145,
-      "avg": -0.2347,
-      "pos": 33,
-      "neu": 33,
-      "neg": 79
+      "count": 181,
+      "avg": -0.2256,
+      "pos": 41,
+      "neu": 37,
+      "neg": 103
+    },
+    {
+      "date": "2026-08-01",
+      "count": 13,
+      "avg": -0.2439,
+      "pos": 4,
+      "neu": 1,
+      "neg": 8
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 2470,
-      "avg": -0.2944
+      "count": 2495,
+      "avg": -0.2941
     },
     {
       "source": "BBC",
-      "count": 663,
-      "avg": -0.2678
+      "count": 664,
+      "avg": -0.2683
     },
     {
       "source": "Times of Israel",
@@ -1050,13 +1067,13 @@
     },
     {
       "source": "The Times of Israel",
-      "count": 312,
-      "avg": -0.3488
+      "count": 315,
+      "avg": -0.3484
     },
     {
       "source": "NPR",
-      "count": 218,
-      "avg": -0.302
+      "count": 220,
+      "avg": -0.2991
     },
     {
       "source": "The Guardian",
@@ -1065,8 +1082,8 @@
     },
     {
       "source": "The Jerusalem Post",
-      "count": 146,
-      "avg": -0.2882
+      "count": 148,
+      "avg": -0.287
     },
     {
       "source": "Reuters",
@@ -1075,8 +1092,8 @@
     },
     {
       "source": "Ynetnews",
-      "count": 53,
-      "avg": -0.4918
+      "count": 54,
+      "avg": -0.4873
     },
     {
       "source": "Haaretz",
@@ -1085,8 +1102,8 @@
     },
     {
       "source": "Israel National News",
-      "count": 38,
-      "avg": -0.353
+      "count": 40,
+      "avg": -0.343
     },
     {
       "source": "The New York Times",
@@ -1099,6 +1116,11 @@
       "avg": -0.2364
     },
     {
+      "source": "CBS News",
+      "count": 31,
+      "avg": -0.402
+    },
+    {
       "source": "Crypto Briefing",
       "count": 30,
       "avg": -0.5023
@@ -1109,24 +1131,19 @@
       "avg": -0.6969
     },
     {
+      "source": "www.israelhayom.com",
+      "count": 27,
+      "avg": -0.2496
+    },
+    {
       "source": "The Times of India",
       "count": 27,
       "avg": -0.4274
     },
     {
-      "source": "www.israelhayom.com",
-      "count": 26,
-      "avg": -0.2496
-    },
-    {
-      "source": "CBS News",
-      "count": 25,
-      "avg": -0.4741
-    },
-    {
       "source": "Anadolu Ajansı",
-      "count": 23,
-      "avg": -0.4661
+      "count": 24,
+      "avg": -0.4607
     },
     {
       "source": "i24NEWS",
@@ -1134,14 +1151,14 @@
       "avg": -0.2644
     },
     {
+      "source": "Fox News",
+      "count": 22,
+      "avg": -0.3945
+    },
+    {
       "source": "NBC News",
       "count": 21,
       "avg": -0.5676
-    },
-    {
-      "source": "Fox News",
-      "count": 21,
-      "avg": -0.4133
     },
     {
       "source": "CNN",
@@ -1165,8 +1182,8 @@
     },
     {
       "source": "NDTV",
-      "count": 16,
-      "avg": -0.5568
+      "count": 17,
+      "avg": -0.524
     },
     {
       "source": "PBS",
@@ -1314,6 +1331,11 @@
       "avg": -0.4795
     },
     {
+      "source": "News18",
+      "count": 6,
+      "avg": -0.4267
+    },
+    {
       "source": "cbn.com",
       "count": 6,
       "avg": -0.5018
@@ -1347,11 +1369,6 @@
       "source": "Firstpost",
       "count": 5,
       "avg": -0.8083
-    },
-    {
-      "source": "News18",
-      "count": 5,
-      "avg": -0.5884
     },
     {
       "source": "Washington Examiner",
@@ -1564,6 +1581,11 @@
       "avg": -0.1689
     },
     {
+      "source": "India Today",
+      "count": 3,
+      "avg": -0.5022
+    },
+    {
       "source": "Bloomberg.com",
       "count": 3,
       "avg": -0.3122
@@ -1597,6 +1619,11 @@
       "source": "Radio Free Europe/Radio Liberty",
       "count": 2,
       "avg": 0.2424
+    },
+    {
+      "source": "NewsNation",
+      "count": 2,
+      "avg": -0.5411
     },
     {
       "source": "Boston Herald",
@@ -1779,11 +1806,6 @@
       "avg": -0.7496
     },
     {
-      "source": "India Today",
-      "count": 2,
-      "avg": -0.6522
-    },
-    {
       "source": "The Arab Weekly",
       "count": 2,
       "avg": 0.0
@@ -1852,11 +1874,6 @@
       "source": "Dayton Daily News",
       "count": 2,
       "avg": -0.8316
-    },
-    {
-      "source": "NewsNation",
-      "count": 1,
-      "avg": -0.3818
     },
     {
       "source": "+972 Magazine",
@@ -2882,26 +2899,31 @@
       "source": "caspianpost.com",
       "count": 1,
       "avg": -0.8225
+    },
+    {
+      "source": "Forex Factory",
+      "count": 1,
+      "avg": 0.0
     }
   ],
   "top_entities": [
     {
       "name": "Iran",
       "type": "LOCATION",
-      "count": 2614,
-      "avg": -0.4904
+      "count": 2640,
+      "avg": -0.4879
     },
     {
       "name": "Israel",
       "type": "LOCATION",
-      "count": 2202,
-      "avg": -0.3757
+      "count": 2228,
+      "avg": -0.3735
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 988,
-      "avg": -0.3496
+      "count": 999,
+      "avg": -0.3471
     },
     {
       "name": "Strait of Hormuz",
@@ -2912,8 +2934,8 @@
     {
       "name": "Benjamin Netanyahu",
       "type": "PERSON",
-      "count": 283,
-      "avg": -0.2839
+      "count": 284,
+      "avg": -0.2825
     },
     {
       "name": "Tehran",
@@ -2924,8 +2946,8 @@
     {
       "name": "United States",
       "type": "LOCATION",
-      "count": 210,
-      "avg": -0.3204
+      "count": 212,
+      "avg": -0.3195
     },
     {
       "name": "Khamenei",
@@ -2936,8 +2958,8 @@
     {
       "name": "Jerusalem",
       "type": "LOCATION",
-      "count": 181,
-      "avg": -0.2239
+      "count": 183,
+      "avg": -0.2237
     },
     {
       "name": "Saudi Arabia",
@@ -2948,8 +2970,8 @@
     {
       "name": "Houthis",
       "type": "ORG",
-      "count": 90,
-      "avg": -0.5344
+      "count": 91,
+      "avg": -0.526
     },
     {
       "name": "IDF",
@@ -3001,6 +3023,521 @@
     }
   ],
   "recent": [
+    {
+      "title": "Yemen’s Houthis deny plan to charge ships transiting Red Sea",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/1/yemens-houthis-deny-plan-to-charge-ships-transiting-red-sea?traffic_source=rss",
+      "published": "2026-08-01T03:33:38+00:00",
+      "compound": 0.2263,
+      "label": "positive",
+      "entities": [
+        "Houthis"
+      ]
+    },
+    {
+      "title": "Is Israel really ready to withdraw from Gaza?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/1/is-israel-really-ready-to-withdraw-from-gaza?traffic_source=rss",
+      "published": "2026-08-01T03:21:52+00:00",
+      "compound": 0.101,
+      "label": "positive",
+      "entities": [
+        "Benjamin Netanyahu",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Liberia’s kush crisis: The hidden trade behind a generation at risk",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/1/liberias-kush-crisis-the-hidden-trade-behind-a-generation-at-risk?traffic_source=rss",
+      "published": "2026-08-01T03:18:29+00:00",
+      "compound": -0.7269,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Report: US, Israel weigh Iran land blockade",
+      "source": "Fox News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9IOXZvdWF4cjY2VGdDaDFqZ3YzNU5BTl95eTcxXzZDZk9QX3lKSUo4ajVoMUt4bXY3d3dNRXZTU2pjUjhlQjE1SEowMVNwQTduSENvYV9n?oc=5",
+      "published": "2026-08-01T03:08:16+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Iran war live: Trump threatens strikes, Iran says it has a plan to respond",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdFZfbjV6VmtqVkVPRlJlRVg3ZkxjQmNZNlN4ak9qX0NsSnc1QmZYajVfUnJjbUdiZzd1aUZYSWVVcGxIanN1cURTOHdhLUUzQXN4Z1RuVjh1S3JsMEItSXpLN3AzSUwzRU5aOW94VDR2ZUVIS0hWSlNDQUtsdXZmTmlHdGhhRVBHc1ZPNWhwcTNDSDhQNzJZaTdKdjdzTlg1alprdXdwczU3VERIaV9RYjdVWkI2WUnSAbwBQVVfeXFMT0VBcVFNMTd2SURuWFBfMGxSNEtfZkhaX3haWGhaSndyMzZubWtMRGE0dmhSX0RZd19yRlM2MjFSM0JYRG5Rb1VHTXEtU0pfSURBTURNRVJLVlFHeVAxZ1pwWFpzdjlKTHozWnZ1aFpCZE0zeVdSYjhEaEpiejQ0WG5RR2NoSElSVzFYSWZYYnhvcXFwWm5Kc0pIVllHaVB4bXA4UWxvcmFNRHZqNnFTM2dDTzhvbVdyVERDOVU?oc=5",
+      "published": "2026-08-01T02:16:19+00:00",
+      "compound": -0.9517,
+      "label": "negative",
+      "entities": [
+        "Donald Trump",
+        "Iran"
+      ]
+    },
+    {
+      "title": "Live Updates: U.S. preparing new Iran strikes with Israel as Trump says, \"We've done an amazing job\"",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTExVbGpfeGpwRzZoYzd1SlBvaWhnZVJoUXc3ekdDWWZ6alQ2ckh2dzhSV3B5VWVJLWZlSkp4bDltM3pQaXN1MHJBUWQ2NnV1UnFQeG05SWQ3akZJczRxd0lmaDVvd2R4R2VXQWZ2T2pLWXQydGowVDMtUWhYUTBNMzd0emxJUldOcHJ3SVF6UjcxUU5Tdm9SdDNkUQ?oc=5",
+      "published": "2026-08-01T02:15:00+00:00",
+      "compound": 0.5574,
+      "label": "positive",
+      "entities": [
+        "Donald Trump",
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Russian missile attack kills three in Ukraine’s Kyiv",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/1/russian-missile-attack-kills-three-in-ukraines-kyiv?traffic_source=rss",
+      "published": "2026-08-01T02:06:00+00:00",
+      "compound": -0.9325,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "US military says F-35B jet fighter crashes in California, pilot safe",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/1/us-military-says-f-35b-jet-fighter-crashes-in-california-pilot-safe?traffic_source=rss",
+      "published": "2026-08-01T01:55:27+00:00",
+      "compound": 0.5423,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Why has Infantino scrapped FIFA’s World Cup investment plan? What to know",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/8/1/why-has-infantino-scrapped-fifas-world-cup-investment-plan-what-to-know?traffic_source=rss",
+      "published": "2026-08-01T01:10:58+00:00",
+      "compound": -0.7096,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "US and Israel said planning joint strikes on energy sites in Iran, bombing could continue throughout weekend",
+      "source": "The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBxallOc2RjZFVpVnZjQkNzVENaejB6QnY4Z1B6SUpadGdhQlE3TXpPekJmOGJTdXlhWmwxRjY5bjJDT1YyclBFNWZxTlRVamYzU3daUnBsQ1NqRHpkMURIb0dDTkXSAWpBVV95cUxQX0VnSXNZSzk2TmtfMVpKUF8zeEpYZ05WSnJ2d0lmN1E2QlBuS0phaUVRRWswMUZrYjhKWHRkVENTNy1UTThGYnJqOVJLdXQ0NDFfb0syMGlzRHJiUmZwNmIzVVR1RkgtUE1n?oc=5",
+      "published": "2026-08-01T00:52:53+00:00",
+      "compound": -0.2023,
+      "label": "negative",
+      "entities": [
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Israel launches attacks across Gaza one day after Hamas agrees to disarm",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/1/israel-launches-attacks-across-gaza-one-day-after-hamas-agrees-to-disarm?traffic_source=rss",
+      "published": "2026-08-01T00:48:37+00:00",
+      "compound": -0.5994,
+      "label": "negative",
+      "entities": [
+        "Israel"
+      ]
+    },
+    {
+      "title": "US, Israel weigh strikes on Iran energy sites as Trump withholds final order",
+      "source": "India Today",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeHRPbldqZ3h0UURBNXJLaEtMbnVfck01T0NYeUF5azIwVjExcnlkZE9qWGZjdHpjYlEydWVPSXdjOXFrdVV1UnB6aTNES2tfekw0QWJjTl9rTnlTMkdaalRvdUdKb2ROOEVfQ3BPakd5MTAyRGtPYzFua3BDbGJtaEVvMWIwZlNpRWsyNGVxYlppMXMwd1k1WHdrR003dTZqTXRkWmF0dG0zRzdzb0hVaTFhMFZYRW4xaGNJYdIBwgFBVV95cUxQTzBUUDRCOE1udXk4U1pJQTZiOTRPTXhBdTBVdkpJNzIyaFJwU1Y4NkFQUFpsTzNJTUdWb0JvUll5VUJVQjZFV2RidXV0bmE2b2ZJa1hrc0pLUVdBeHA0aUpyUXk3U1NSQVJNVWVfVGJyek5ZSlVEbWgxSFp5X2FXTmxPUzZpamZjVW0ybVpqZ0s0dFhLeGpZSURhZWcwNzUxZHhFTGVRRnlVc0UtdlNudlhwR3ZraElBNDFEdzVGN0FUQQ?oc=5",
+      "published": "2026-08-01T00:26:08+00:00",
+      "compound": -0.2023,
+      "label": "negative",
+      "entities": [
+        "Donald Trump",
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Trump administration to dismiss Reflecting Pool charges against David Hearn",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/1/trump-administration-to-dismiss-reflecting-pool-charges-against-david-hearn?traffic_source=rss",
+      "published": "2026-08-01T00:02:37+00:00",
+      "compound": -0.2732,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Iran war live: Trump threatens strikes, Iran says it has a plan to respond",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/7/31/iran-war-live-iran-says-it-has-a-plan-to-respond-to-any-us-attacks?traffic_source=rss",
+      "published": "2026-07-31T23:59:40+00:00",
+      "compound": -0.9136,
+      "label": "negative",
+      "entities": [
+        "Donald Trump",
+        "Iran"
+      ]
+    },
+    {
+      "title": "Israel, US consider land blockade against Iran to increase economic isolation - report",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SUHBuTUpzSTc3bnVoYUFNYjdBbjJoNGE0c3M5RVk2TGR3QXpqQjZPM2k5TGV0S3M1UHFwTkxSSlNHM3JjSFBNRkQ0MlVneHhEVE1rZmV0SVpJdEVnbmd1SjR6QXY2TnFoS3c?oc=5",
+      "published": "2026-07-31T23:48:20+00:00",
+      "compound": -0.2023,
+      "label": "negative",
+      "entities": [
+        "Iran",
+        "Israel",
+        "Jerusalem"
+      ]
+    },
+    {
+      "title": "FIFA’s Infantino scraps controversial World Cup private investment plan",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/31/fifa-forced-to-scrap-world-cup-private-investment-plan-after-backlash?traffic_source=rss",
+      "published": "2026-07-31T23:47:35+00:00",
+      "compound": -0.2023,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Analyst: the US faces a strategic ‘dead end’ in Iran",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/analyst-the-us-faces-a-strategic-dead-end-in-iran?traffic_source=rss",
+      "published": "2026-07-31T23:30:54+00:00",
+      "compound": 0.1027,
+      "label": "positive",
+      "entities": [
+        "Iran",
+        "United States"
+      ]
+    },
+    {
+      "title": "US proposes cuts to Colorado River use for Arizona, California and Nevada",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/31/us-proposes-cuts-to-colorado-river-use-for-arizona-california-and-nevada?traffic_source=rss",
+      "published": "2026-07-31T23:26:26+00:00",
+      "compound": -0.34,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "U.S, Israel planning harshest attacks yet on energy-related sites in Iran, sources say",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQalVWbE11YUgxN2JOb0NwbXlFOHJiSHltWHhSUU1aeXdaYklhZ2ZEd2Y4Zm9QLXlhR0g5UlZ0QURxZ3NqWUNTNU5qUWJtNlpLbmlBNzR6bHF5MFdZbzE5bktSQ1RaWmRqRm5LVzktUmNlXzRMMENVaXF4U3NCb2d0OXUxaEREenI2RGJaZFJ3Zk95c2JXbEVSMnVyczA5MVRyR0dFR3RxNHF3cjlE?oc=5",
+      "published": "2026-07-31T23:24:00+00:00",
+      "compound": -0.9274,
+      "label": "negative",
+      "entities": [
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Trump Weighs Strikes On Iran's Energy Infrastructure Within Days, Israel May Join: Report",
+      "source": "News18",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOblk0bEdZWTlQekpHTFJYSy05dngzczU3M0E5Zi1sMVhhclJqY3NGS2UwQmctc1hYWkRkVVBuYkltUk9Sb1dqajRielRib2R3azFETU84bzV0NkNMTnpWNkNhc0dubVZscGVkUkZNTjhzR1pFTGpPQ0dSRExtS1Eya0ZlQkZMRFlqdFRNTjB4N013SEFPLTVLMnZ2QnRqTEJ1UVByRVZXRVlKVTVvaVc5YWFWNEgzVFhKQV93TExsSE9rZ3FLVnBZMmt2S3dZY3PSAdQBQVVfeXFMT3puaUF5TjBjZWFOaWFuZTBQdnZEM3hIX2VCcEk5MnYycWdaSXlmUTRwanVYRWNENFoxRXZrU3lWT1ZyenFWVFR5LU9zN1U2QkJ2Nl9aZDdLUkdEM1UtZ2tkX0REWVJOM0NaWEdpYkZmdnlsRFg5dGJXaE5weTJYR2d6SmpxOFUzamhtRkw0RnA2RGxzWFlPbktySXhzS2tfLVl3QlhZMjEzVkF3Q3ZVc1o3dmNLblNJS3pBekdYTWU2VUFLT2RWZ3h5bHVWQkhPd0tJYms?oc=5",
+      "published": "2026-07-31T23:15:50+00:00",
+      "compound": 0.3818,
+      "label": "positive",
+      "entities": [
+        "Donald Trump",
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "US, Israel preparing major strikes on Iran's energy infrastructure: Reports",
+      "source": "Anadolu Ajansı",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdm9yYS13cVFNSWpEYWdENFlXSVU4TnYzQ2FMdC1qQjN5SDl5NXVGTy0ybURlZ2hRQU1MbmprVG16ZWtqNmkwOFlHaHY3WGNIQXJldnJOcmxYVUUyVng3amJmZW1Sbk1DMVdiQTBCNlUtOXNtOXVHVGtCMXVwUzZERUtrdlRfU3FyOGZ0dEh4UGY5bGtQeDNDWmRxWnFSbFdfYWVxTXg4RjZ6WWhXMDhsZg?oc=5",
+      "published": "2026-07-31T22:13:03+00:00",
+      "compound": -0.3369,
+      "label": "negative",
+      "entities": [
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Israeli settlers vandalise Palestinian cemetery in West Bank",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/israeli-settlers-vandalise-palestinian-cemetery-in-west-bank?traffic_source=rss",
+      "published": "2026-07-31T22:12:48+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Israel"
+      ]
+    },
+    {
+      "title": "US Senate’s Fauci hearing renews COVID origin debate but reveals little",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/31/us-senates-fauci-hearing-renews-covid-origin-debate-but-reveals-little?traffic_source=rss",
+      "published": "2026-07-31T22:10:10+00:00",
+      "compound": -0.5499,
+      "label": "negative",
+      "entities": [
+        "United States"
+      ]
+    },
+    {
+      "title": "Trump orders fresh strikes with aim of forcing Iran to surrender — WSJ",
+      "source": "The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcE5MdGxDcWtuaEVFWi0tdWhIWVhsOHV1OE5zV2tWNkhqLTJfeGlwRmc0MjNvdWxlSWFXTUdkekI1TUtjRXg1N1ZscWtTeTAycFVRQk1iUHlDSkI5T09jQkQ5bERzTGh5UXpUbkMtVkp3TzEyaF9EWE5QSW01NThpS1dFWDhTdHhtOHF0RzE4Rm5EWWRqQWo0akdxc3pWZTRjcXUzWTJlQ2ZWM1hDcVBuQnJhQ1g?oc=5",
+      "published": "2026-07-31T22:01:24+00:00",
+      "compound": -0.1027,
+      "label": "negative",
+      "entities": [
+        "Donald Trump",
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "U.S. and Israel preparing to bomb Iran's energy infrastructure, sources say",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMUthSVBwVDdkdDBWeFRsZjBGZ0YwR2dBbFlqLUQwWXlpMENZcVNHc08yaFJkVWZONTBCeldsd1h0aF9OWWRxZmVvN3dyMWg1Sm5YdlFhUW1VcjZzT0R3a1hGOWZ3TmQyY3I2MzFYMUZkWDUxenlLeGxVbTJQS0ZJQnQzOEdUWWlkQW4yMmVsOVlpVDBhTDlsRnkzdHNmV2dlRmotSQ?oc=5",
+      "published": "2026-07-31T22:01:00+00:00",
+      "compound": -0.4939,
+      "label": "negative",
+      "entities": [
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Pathirage beats Chopra and Nadeem to win Commonwealth gold in javelin",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/31/pathirage-wins-sri-lankas-first-athletics-gold-in-commonwealth-javelin?traffic_source=rss",
+      "published": "2026-07-31T21:49:49+00:00",
+      "compound": 0.5789,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Report: US and Israel weighing attacks on Iran infrastructure",
+      "source": "NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSW1LMk9fS3YxQnM4RlJiTmgzcDJ4ajVOV2pZZkhlS2RPeWFNZ0Q1WmhFd0l3bjJHWUFiejRZUS1lQU5vZExxUHRYN0ZsazRrenVNWHVFd0VmUHpxeVpHbmNVXzRLVWFmVGlLU2trdk14Nm5rRTluR0JZLTFVcy1weThSeVdjTlZLaVRV0gGQAUFVX3lxTE1GS2dwZ0JLbFVyZGcybjlxWkx4bWwwSlVrdVhHM2h1bTBkZldPTWhUQndtbnhFQ3NRcWRJZndvTEZVR2pjTzdwdjNFbTlvb0NIc0tZWHNhVFh2STBfRmsyYkZ0OUJ1bHRqWkFfank1c25IN0ltNmR4NFhGUHFVbG5qU0tMS0RxakNaZHdqengybw?oc=5",
+      "published": "2026-07-31T21:44:04+00:00",
+      "compound": -0.7003,
+      "label": "negative",
+      "entities": [
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Trump slams ‘dishonorable’ and ‘dishonest’ Iran, hints additional strikes possible",
+      "source": "The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNV0lRN2tubDdmd2phQjAzTW14bmdxekwwQ0VmaDVtMU1GTkVOOTc3eHRKa2Uxc2lJT3RTSWRkZ0FHa2NJWGRRZ29Fa2lweFlLSFBPcUN3U1VJMXRfOVlLYXJEQmloSFo4eUU2Z0p4Q1d2ZEpoUUhWd1NrekNCaFQ1ekxPRF9GRGNyd25DUmtfMEpPN1A0eTAtdXdwbnFMdVkyRWIzZ212WVp3NE1Q0gGyAUFVX3lxTFB1bHlHbXkzcTY1VjJDNVFqS1VNanNSM3pJNVk3QlpBT0dNbk90c0U4eVJpWEhMLUlPRVJqbmRkamNSNjU4cURSR3gxZnBIMF9Vak9WR2RFbjA2NTE2S3lldk5lTUdhNk1PT3JHTDdqS1JPdnVZUnBaMHc2cG9iSi1oV3pQc0lIS2RJUTJSWXkwWndKREZpUW5ZTEJ4QWlsQVV2dkZWVnRRLURCTFFad01hUEE?oc=5",
+      "published": "2026-07-31T21:42:22+00:00",
+      "compound": -0.6124,
+      "label": "negative",
+      "entities": [
+        "Donald Trump",
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Israel, US weighing wave of strikes on Iranian energy infrastructure - report",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4tWGtwb2Vucm4wVDVqSHUwS2FkaGRPdURjRS1PUEdfUmJQdkhpZTI4TGgwSVdESVhfdWw4U1NpNWk1dGltUzhnenIxeUVhQnBxa2lLWGZxaDFfcFdFY2NyajFfRVQtZ3ZsN1E?oc=5",
+      "published": "2026-07-31T21:27:57+00:00",
+      "compound": -0.2023,
+      "label": "negative",
+      "entities": [
+        "Iran",
+        "Israel",
+        "Jerusalem"
+      ]
+    },
+    {
+      "title": "US, Israel Planning To Bombard Energy-Related Targets In Iran: Report",
+      "source": "NDTV",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVm9mMHVkUGhtTnNXRUFOSVZydll1NVR0TF84TDlza1JCaFplZW4tOFRsSl9FTEpjci1KbFVldGlreVE5ZkZPcXRqbzNjeUc0SWRDZzNaMm1hNnNzbWdrVS1BUFlFQXNZaGNmaFpaX3BybDFmb0VOUHhWcjRkczVraE1jbXEwc2hsdFFIS29RNExBY2JiRzF4TWJsRkhMY2hlUzlEWFFSNHpGcHgy0gG0AUFVX3lxTE5lUkhBRE1rSjhjMGVCZHpreHMwQlVMZDg3MFc4ZG9hUC1ZaVJyTy12dURreTZkSVhsZ2J0TWhBTTh0bWJkVGZjc3pieTZXLWVxSGd3czRfWldZM21YYzhzU1NUdFJRWkxuSVEwT3FEM0ZpQ2xnUmhOUGZZMmZ5WDl6eC1LY2RjakIxV0tPTjdPdFhQcDBwZjEwZWlIQWdick5vakZzNjlWYmhiQzdranRyaHp4TA?oc=5",
+      "published": "2026-07-31T21:25:20+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "U.S. preparing new Iran strikes with Israel as Trump says \"We've done an amazing job\"",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdkZNemtpV2hJSFVxcmxvU09FN3JfaFZpZUtKZ3FyeVFZWDZncEozWjlpeG01TEdXM1dPT0ZmY1B0M2pweFBEWkNPMUNTVURERW1xZ1h4YngyYklyX0tYcEpUajVGcS1wUVZLTUhxb01jaGNVSTVLUUNBMzctLXV2V0o0NlItSzFqVXI3WFlTNWcxeXhkc3hFTjB4aDBIZktZS2RLZGV0dmpqWUU4TENFdXA3Tm03SWp4S2dGSmhoOA?oc=5",
+      "published": "2026-07-31T21:23:00+00:00",
+      "compound": 0.5574,
+      "label": "positive",
+      "entities": [
+        "Donald Trump",
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Report: US, Israel preparing joint strike on Iran as early as this weekend",
+      "source": "www.israelhayom.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNYWZNTEFIWVdyMUZqa0FBVlRDdVA2VUYzSjJseXlyM0lYbGZjOTNKZTdMRjdVVnEzYkR3RkxiaWRJaUdub0JMaU96VlhPMThyLXJfQXY1RllNdlQ0NDhleEpEMVVNem8xT2VWcGo0QmpGc2Zzdmt5T2tnVm0zajFzNy05YmptZUVDSXl3bW5OZVYyWWEzY3JHa1F0RjVCVUtKTlk5M09DS1plSWlMUEVIUUZR?oc=5",
+      "published": "2026-07-31T21:15:40+00:00",
+      "compound": -0.25,
+      "label": "negative",
+      "entities": [
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Children face higher threat of US deportation as legal support deal expires",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/31/children-face-higher-threat-of-us-deportation-as-legal-support-deal-expires?traffic_source=rss",
+      "published": "2026-07-31T21:11:57+00:00",
+      "compound": -0.5057,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "CBS report: US and Israel discussed joint strike on Iran as early as this weekend",
+      "source": "Ynetnews",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBxTVlpMTFkRHM1MUxvaUlLcnNkOHhQeGpjaEY1dWlOY0lmZy1HSF8zS2R6S21oYTlQQ0xhYlJ6cEJtdTItWXBuWERWQlR3aHNpZHhRV0Jn?oc=5",
+      "published": "2026-07-31T21:07:00+00:00",
+      "compound": -0.25,
+      "label": "negative",
+      "entities": [
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "U.S. and Israel preparing to strike energy-related targets in Iran, sources say",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdS0xT1poVjR5aV9YTnFOV1VURWRFa1ZOX19ycHpHTy05YXlxVWV1S1BxRVZ4RjdaRGZiSDJrWHRfZk5fUGRIai1qY3hvWGlfSlpUWDFKTTFiY2JmZlRFOVh2cS01MXNNS0pfY3Y3R3VzMDNsdURlUHR2MzlTUHQxRWFzMlk3bU5WcTVBajJjTERoYzEtVnhjaA?oc=5",
+      "published": "2026-07-31T21:00:00+00:00",
+      "compound": -0.25,
+      "label": "negative",
+      "entities": [
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Cambridge students on why they protested at graduation ceremony",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/cambridge-students-on-why-they-protested-at-graduation-ceremony?traffic_source=rss",
+      "published": "2026-07-31T20:58:14+00:00",
+      "compound": -0.25,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "US, Israel Preparing To Bombard Energy-related Targets In Iran, Sources Say - CBS",
+      "source": "Forex Factory",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMnZ6OHRyVzVCOUtRSVhRYzY5U05MRkNuMnhndXNwYlhwRUlpeHQxWVdVRWRmNWZ5Z3FWbGNkS2ppellGVFk5WDRLeTVhZU9yOHdsM3JUWWFsT2V0VDVoeDFxNmpDRkpuTGlmTFE2Q091Um5tOXVWcmFTTlhIVGJScVN4elBpZkRNYnNScDBkNTFuNTg4Y0VIWmYtNlppOGfSAaQBQVVfeXFMT1JGTEZtS08yLWJYQU1zRzBrLVRKQncxRWFETVZHWjh6a1lmV25xU1FURzVRRTg5WDliWnR0VWJnREVpRlU0Z2xKaHBQcW5EUzlkQ1pBZU8xQWdSWDFPY0EzLVhzT2podkNob3pvMlg0UUJqemtVYy1GZ09Ld0YtNWNaUndfXzBwOTV1OURkXzJncjRHbVhXUXctcENVNERhbXBLaDE?oc=5",
+      "published": "2026-07-31T20:53:20+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "U.S., Israel preparing to bombard energy-related targets in Iran, sources say",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWlZrblhRajBMcWNtSEd2ZmhsUmN0ZmFpTVFoZWlsS2Q4c0VQbWhlUV92YU1vdTNoVEMyd0t4bjJWaERIQ2VKeWdYUnVxQ2JlUTQ1dkRLY3Z2ZlpOM0hHMkVfdXd5alpUMWk5R1ZGUjN3V240dXQzTnk2Yjk0b1QwYVBjSQ?oc=5",
+      "published": "2026-07-31T20:52:00+00:00",
+      "compound": -0.0516,
+      "label": "negative",
+      "entities": [
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Powerful El Nino to intensify heat on ‘a planet already on fire’: UN",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/31/powerful-el-nino-to-intensify-heat-on-a-planet-already-on-fire-un?traffic_source=rss",
+      "published": "2026-07-31T20:38:56+00:00",
+      "compound": 0.4215,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Drone delivery helps in Rwanda, but only so much",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/31/nx-s1-5867626/drone-delivery-helps-in-rwanda-but-only-so-much",
+      "published": "2026-07-31T20:28:41+00:00",
+      "compound": 0.8485,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Venezuela government and opposition to hold talks aimed at path to election",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/31/venezuela-govt-and-opposition-to-hold-talks-aimed-at-path-to-elections?traffic_source=rss",
+      "published": "2026-07-31T20:28:39+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Tens of thousands of migrants crossed into Spanish territory from Morocco this week",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/07/31/nx-s1-5914657/tens-of-thousands-of-migrants-crossed-into-spanish-territory-from-morocco-this-week",
+      "published": "2026-07-31T20:22:54+00:00",
+      "compound": -0.8176,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "At least 25 people killed, dozens injured in Algeria bus crash",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/at-least-25-people-killed-dozens-injured-in-algeria-bus-crash?traffic_source=rss",
+      "published": "2026-07-31T20:12:32+00:00",
+      "compound": -0.9628,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Does FIFA need private investment?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/7/31/does-fifa-need-private-investment?traffic_source=rss",
+      "published": "2026-07-31T20:07:00+00:00",
+      "compound": 0.3612,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Algerian bus plunges into ravine killing at least 27",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/31/algerian-bus-plunges-into-ravine-killing-at-least-27?traffic_source=rss",
+      "published": "2026-07-31T20:06:26+00:00",
+      "compound": -0.8807,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "‘Strategic partner’: Peru’s Fujimori plans to intensify ties with the US",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/31/strategic-partner-perus-fujimori-plans-to-intensify-ties-with-the-us?traffic_source=rss",
+      "published": "2026-07-31T19:55:59+00:00",
+      "compound": 0.296,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Poland protests to Russian ambassador over missile incursion",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/31/poland-protests-to-russian-ambassador-over-missile-incursion?traffic_source=rss",
+      "published": "2026-07-31T19:48:17+00:00",
+      "compound": -0.25,
+      "label": "negative",
+      "entities": []
+    },
     {
       "title": "Hamas says a deal has been reached in Gaza, and other developments in the Middle East",
       "source": "The Washington Post",
@@ -3143,494 +3680,6 @@
       "url": "https://www.aljazeera.com/sports/2026/7/31/fifas-lamour-says-staff-deceived-over-infantinos-world-cup-sell-off-plan?traffic_source=rss",
       "published": "2026-07-31T17:38:04+00:00",
       "compound": -0.7003,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Pro-Israel Democrat helps block US-Iran war resolution",
-      "source": "The New Arab",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdDNWdXVtMndudHRWMkZWVUJxcE5waVZVVnQyX3UxcjJJTjItd3owaktZdExaR0RfUU9JdlFlcWFuMlEybXg5TTJyU2pGb285cmdyMkpvc3hFX1JJUXl6VG1MblRYZ003alF6UFZBMjh5QnZXM0dkdzZvOHpicFc5b1kzcE1oZUkxMVZF0gGQAUFVX3lxTE9QZllYdm1XTWdUV3p4OGtEbnhwOEJqVm8tb3RMZ3h1Zkt2VUpJUGwxTXBMRzRoeVNjc1NrRFBaOFAxSXRCWk9qZzJrNnlyOGw4V0gzSkNGS1pOR1pvV3RZZHJqeDd2U282eVhoWEdPblJuMTZVdDh6Y1JaOXdxcnlraTBBR0lHSkVEYVZWd3EzNQ?oc=5",
-      "published": "2026-07-31T17:17:06+00:00",
-      "compound": -0.8555,
-      "label": "negative",
-      "entities": [
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Western allies warn North Korean IT workers funding nuclear arsenal",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/31/western-allies-warn-north-korean-it-workers-funding-nuclear-arsenal?traffic_source=rss",
-      "published": "2026-07-31T17:06:52+00:00",
-      "compound": -0.4588,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "DR Congo Ebola epidemic becomes world’s second largest outbreak",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/31/dr-congo-ebola-epidemic-becomes-worlds-second-largest-outbreak?traffic_source=rss",
-      "published": "2026-07-31T16:52:04+00:00",
-      "compound": -0.4215,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Iran war live: Tehran strikes Kuwait; Hamas agree draft peace plan on Gaza",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMnozb3A4QTd5YjUzMXNBWmF1NmFuWTFFcHlIR1VDT2tEaHdjMUM2NjA5dW5TOG1JSEF1TlF6aXcwTGg2YnlNSEc3MGJ1ekFhZ0t1LWpDSlJock0xRXd3SkFpMmxEOXFSZzhhYndFNTl2cUMyTE9JLS15Z1VGcGJlRHpCaXNoaElFZDlrM1pwS0VFTzdPR1E1TVg0SEo2ZE1zWW0tSXFhc9IBrAFBVV95cUxQWlN0LWdCVkZUaXVOSUpMeEkwdTY0QklrOFR1dmQ3OXZyR3JJMkdkWEdYYUtUaGx3eUd0ZzM2R1JoSkJELW11Wmp0LTAyMVFnNVhUdFBiMlQ5UTkzejBhUHg1MlBsUTlrVGJKdlBBT0R1ZzgzeDNoRE1XSG15NjN4MGpfWkYxMjl2SHdkekRBR1A4b0RuS1l5U0RiRE9pWVBZbHBLOXc3cFQyVWtX?oc=5",
-      "published": "2026-07-31T16:47:01+00:00",
-      "compound": -0.2023,
-      "label": "negative",
-      "entities": [
-        "Iran",
-        "Tehran"
-      ]
-    },
-    {
-      "title": "Three-year roadmap proposed for Hamas disarmament in Gaza",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/three-year-roadmap-proposed-for-hamas-disarmament-in-gaza?traffic_source=rss",
-      "published": "2026-07-31T16:35:17+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Israel"
-      ]
-    },
-    {
-      "title": "LIVE: Chopra, Nadeem and Pathirage meet in Commonwealth Games javelin final",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/liveblog/2026/7/31/live-chopra-nadeem-and-patharige-in-commonwealth-games-javelin-final?traffic_source=rss",
-      "published": "2026-07-31T16:18:42+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Spain PM: Ceuta migrant surge a ‘violation of territorial integrity’",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/spain-pm-ceuta-migrant-surge-a-violation-of-territorial?traffic_source=rss",
-      "published": "2026-07-31T16:17:59+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Tunisian wildfires expose failing infrastructure, community vulnerabilities",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/2026/7/31/tunisian-wildfires-expose-failing-infrastructure-community-vulnerabilities?traffic_source=rss",
-      "published": "2026-07-31T16:06:05+00:00",
-      "compound": -0.7783,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "What's in the Gaza peace deal roadmap?",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c20e94k2ex5o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-31T16:00:56+00:00",
-      "compound": 0.6808,
-      "label": "positive",
-      "entities": [
-        "Israel"
-      ]
-    },
-    {
-      "title": "Trump says Israel backs Gaza deal, Iran hit hard | Live from cabinet meeting at Camp David",
-      "source": "Ynetnews",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1JRUJlazg4YUJfeF9keDhmTXNqNHZjSlFwQVlLdFhfR21Ca1VhaDd4ZEdBUXBEVjBTR1Rpb3JVZnRoYTZ0YTZmNjUwdDF5a2N0ZVBQQVBn?oc=5",
-      "published": "2026-07-31T16:00:00+00:00",
-      "compound": -0.296,
-      "label": "negative",
-      "entities": [
-        "Donald Trump",
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Ceuta Migrant Invasion: Payback for Sánchez Defying Trump and Israel?",
-      "source": "Hungarian Conservative",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNS0tJN19qd1I0RXJSdV9UcHlKZEZhdWp6ck1TVE40SU5OVFZZVnExYzNqbjFSakktQ1U0LXBBbW83RHlaV1JCN3lIQk5aN2RvRmdmTWpsX0psVDVvUHVTNXdhU1ZUajZQNWtBZkRzRVg1alNPVkpOWmRkRjJHYk5iVmdRdmN6LUJWcHp1ZmJvLUVNSFpfcnlYVXFqU1Zsd3RqWlJCdzRKN3pWUWs4SVFoNUpiN05oWlNuc2RJRGVONG9lX3Q2YWJz?oc=5",
-      "published": "2026-07-31T15:47:17+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Donald Trump",
-        "Israel"
-      ]
-    },
-    {
-      "title": "The promise I made to Ismail al-Ghoul",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/opinions/2026/7/31/the-promise-i-made-to-ismail-al-ghoul?traffic_source=rss",
-      "published": "2026-07-31T15:30:15+00:00",
-      "compound": -0.3682,
-      "label": "negative",
-      "entities": [
-        "Israel"
-      ]
-    },
-    {
-      "title": "Bowen: Plan for Hamas to disarm faces big obstacles, yet it offers rare hope for Gaza",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c2dkje4p4klo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-31T15:18:31+00:00",
-      "compound": -0.2023,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "World Cup: FIFA studying impact of expanding to 64 teams for 2030 edition",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/31/world-cup-fifa-studying-impact-of-expanding-to-64-teams-for-2030-edition?traffic_source=rss",
-      "published": "2026-07-31T15:05:55+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "US and Israel are considering land blockade of Iran, The Telegraph reports",
-      "source": "RBC-Ukraine",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNGdvbW52NmtoVjA4TmhVbVFHcHI2LTlEM014X251M29BZ0ZGYjk0amNKZWR0aUc5MkE1SlFSVk50QlZkclNQQVVreElCc2VqcUZUb2hDbW1RWnV5ZGd3TDZZUFMxOHlvRURJNHZCN3RwZzhtd25HZzZCeF9ZY3cyeE12eEdHeklPYkJRdGo4MmxSaGQxUkE?oc=5",
-      "published": "2026-07-31T15:00:36+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Aoun warns Israeli demolitions in south Lebanon ‘threaten’ framework agreement; Israel says it will not withdraw from Gaza until Hamas is ‘truly disarmed’",
-      "source": "L'Orient Today",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNeVFRdnhKdlZSQ2hUUi10UDB2RlRJM09JRXZnMXRCbEJ4WHNTMlpkcFU1OUEwTnZXbXZQd0Z1dURZcV80Sm1LNnJmcF9UYy1yTUFjVzNwZWZZM0MtZzFMT3RzVFVaUUdTYUsybDNoZHRXNXowT3dBeGk3RWlFS1M3QzlsdXNCR21aTEJqSGF2YllsZnN0M0UyRzV3OWJLMmtLbm55U3hMWHptTjk3MzRBMndJZWdOUUtuTnpYd3JkbXR4eVlmY2hpemowY3lpSmFndS1MbEMtSDFZd252TFU3MXNOSQ?oc=5",
-      "published": "2026-07-31T15:00:11+00:00",
-      "compound": 0.6808,
-      "label": "positive",
-      "entities": [
-        "Israel"
-      ]
-    },
-    {
-      "title": "Why is the Attack on Egypt’s Damietta Port Israel’s Doing?",
-      "source": "wanaen.com",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWEZZY0dfa0VZeGtvT3R3SVRCZExxZmhxd05oeDg1ZWJKMmNQVmduMEctUmxzUFBSaGFPWTFyYzZIQU85bEdTMU9OQ2tSQVRtSTRvQm9pUmV6QmRfdzR3SDgxS1k0YVYxalRnMmhHOHUwbDZjRFNHTk52SmtZc2lFOA?oc=5",
-      "published": "2026-07-31T14:56:16+00:00",
-      "compound": -0.7622,
-      "label": "negative",
-      "entities": [
-        "Israel"
-      ]
-    },
-    {
-      "title": "Police chief resigns days after deadly shooting in US city of Seattle",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/31/police-chief-resigns-days-after-deadly-shooting-in-us-city-of-seattle?traffic_source=rss",
-      "published": "2026-07-31T14:46:09+00:00",
-      "compound": 0.5719,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "The West Bank, Bibi, Iran, and Vance",
-      "source": "National Review",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQc3RtYlktN3JUVVJaak5tYkxhZW5fZl9pV2ZraE1UVXMtRW5BaE01QTY1bllaUWhFWTlJcTNmdjhsV1BPR1o3VEY3a1JMZ3FVaXEwU0ZKREVDTlJON04yNFZMdDNXRndZS2dNV0FQTk5fd0xvcTRxN0hGemROQzk1bVVFZzhhOWs5UEHSAY8BQVVfeXFMUEdlLVhqVXJxeU1oTUhha2czbWJwVS1OWkdFRHREcFlOd0V1Rm1WdEFpdU02eFhEbVJkaVlCcHFWRzFPOW1ZWEF5V3VUc0UyY0RiRG5KazBEdlY2NlhoY1k2VjN5VlNwQ1hORldUdVBMWVkzOTBfaFdMVXVMSEp6YklIbnIxR3pDR0tkV3RNbFk?oc=5",
-      "published": "2026-07-31T14:39:23+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Iran"
-      ]
-    },
-    {
-      "title": "Chelsea fined $13.5m for FA breaches, avoid Premier League points deduction",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/31/chelsea-fined-13-5m-for-fa-breaches-avoid-premier-league-points-deduction?traffic_source=rss",
-      "published": "2026-07-31T14:36:49+00:00",
-      "compound": -0.296,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Hundreds escape Greek wildfire by sea as blazes continue across Europe",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c0kmzx8vpv4o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-31T14:26:07+00:00",
-      "compound": -0.4019,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Russia and Ukraine report casualties as they continue to trade attacks",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/31/russia-and-ukraine-report-casualties-as-they-continue-to-trade-attacks?traffic_source=rss",
-      "published": "2026-07-31T14:22:51+00:00",
-      "compound": -0.5994,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Iran strikes tankers under US escort in Hormuz strait as Trump gathers cabinet to discuss war",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa0Nlc3FFeTZIM0dHUG8wYm9yaXhpOFBRSzJNQ09nZW9aUHlCWU5hU1ZZOE1XVXdhcXVmZnJiZzgtaGdSbkU2Y2FsZXlWOXp1LXdGT2t3MHhGZGlwS095dURvODFaSUlSRER3aHl1Z3ZMbVlPWThNUExqTnZuZ2ZwZmxOUmJ2bXo4d1RwX3VILXpiLW1fTEgxMm5NQ0RrZjQ3cUlGZG5DY2FGRmQwdHkwcjJn?oc=5",
-      "published": "2026-07-31T14:13:00+00:00",
-      "compound": -0.9153,
-      "label": "negative",
-      "entities": [
-        "Donald Trump",
-        "Iran",
-        "Strait of Hormuz"
-      ]
-    },
-    {
-      "title": "Iran strikes tankers under US escort in Hormuz strait as Trump gathers cabinet to discuss war",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/jul/31/iran-strikes-tankers-us-escort-hormuz-strait-trump-gathers-cabinet",
-      "published": "2026-07-31T14:11:31+00:00",
-      "compound": -0.9674,
-      "label": "negative",
-      "entities": [
-        "Donald Trump",
-        "IRGC",
-        "Iran",
-        "Strait of Hormuz"
-      ]
-    },
-    {
-      "title": "Middle East: Germany welcomes Hamas disarmament plan",
-      "source": "DW.com",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWU4tYTFFLTNHT05sQUVFcndEVENpVWpMMk1kQmwxaEtZd3NyYm1Wa01jazJtMlVoMmNFanNnNkxMVkZvQ0pZckNzbmE0a0tzajRaWDBMWUI2TzkxMXhhaW5rMXNXVkViVUpCeFBJZjN4X1lIM2pKQUUxQlhDQU9aRTdqVnhnenNqOWQwakNlSnVlRGZyN2ZvVDc5eVZDaGREbThQRTRxZlhUeEZSRllhSGdsRWt1djd6RW5WMg?oc=5",
-      "published": "2026-07-31T14:08:10+00:00",
-      "compound": 0.6597,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Turkiye’s Davutoglu steps back from politics: A timeline of his career",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/31/turkiyes-davutoglu-steps-back-from-politics-a-timeline-of-his-career?traffic_source=rss",
-      "published": "2026-07-31T14:07:27+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Israeli detonations near Crusader castle rock southern Lebanon",
-      "source": "The New Arab",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWUN2bmJSWWtVUENsSW9tZndqUXhfSVgwdzc1eHVJOVNsQlFPeHpuaEZEeXZ2ejVuc0Q0NmEzZ19QUV93SVZZdE9IOU0zUGJIWGdsWEJSVzZqdmhWSDJPQ1IyREk0RUw1YkZCMEZnTmxPWFJLc20xZXdVN2h0Uy0yOXl4ZnpCUzVBY2hxQW8tcnk5M3dad3fSAZsBQVVfeXFMUFFqMHNXcmtJeVJlZ0lWdk4xSFVIUWM1YW9VM1NNZlk0VjQ3dm5xUjdwc1NnNk1mQ2R4OFBTU2dRWWw2bmZrYlNRWXBRaDFkX2JTQ1F6NExaM0xwWHZkRjRlV2s3dS1DT2xxMjZzQ1o1WFFxREFXWmF0YkZiRGlpcklBTFpfbEY2UlB5RlpjSG5xX0hETzQ5ZWlaWlk?oc=5",
-      "published": "2026-07-31T13:59:09+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Israel"
-      ]
-    },
-    {
-      "title": "Spain deploys military to Ceuta after migrant surge: What we know",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/2026/7/31/spain-deploys-military-to-ceuta-after-migrant-surge-what-we-know?traffic_source=rss",
-      "published": "2026-07-31T13:52:05+00:00",
-      "compound": -0.6705,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Iran Warns Of Possible False-Flag Operation By Israel After Drone Strikes US Tanker In Egypt",
-      "source": "The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQME9FcUxPLUt6M2Z6ZlZYeS1Yempma0V5VGMzSDBmYzdTMVRhZU9qWmxVRG95QTBrbzF6Z055YnhNYkowdUZGaFA4VEVCdm5fZG9qaWlKU0RJTnFOaklUd2NjZF9md2lNWlUxZjgxRUVMSWU0UmVydHRlNkJrRDRqQWNEQl9GTk5RMXNZczdBcF9obXJzS0thU2VJS2dDS3hDVlJBaU9UeWNLNHMwSnhUM0p4di1XbGVkNlRJaU5wa05aemhtM0o4YkVGZ2FLaGNZVWFQNGVNMTNxajRVbUVjSXFtQWFCQ2RKN3ZpS29IOWVJRzV5NU1sei1WaDhYTkdaMmxj0gGIAkFVX3lxTE16M2VvR2dEdzRoNnJzbkNRcU56QXZSd0k5b0ZWeG5hYVdMRUpMLVBDY1JVY282UXRJREtzRGIxRXN4QUZSUFVhWXZ4R1d2UHIxSzllLWFPVW5rX0Q0SXVRVkxnTGZkTDBIRmhFOFlpU3pRVFJHM0I3ekZJNFFMZmpEUHBfckszRklMQ21PcjZHM05uMUlxN0ZHNWp0RGV3YzQ5bmNUaGVhNmczOXB0bFNwdGZ0WVlVRFV4bnNUMXdhVHA5bVh0dUh1WFg1cWVlT2s2OW5VYzl1VE0wdHo0XzlyRXgyNnA1ZlhlczdReTdDeHZlWkNWT0JzMUlzaFdsNFQtVEpPejBuMg?oc=5",
-      "published": "2026-07-31T13:50:44+00:00",
-      "compound": -0.7003,
-      "label": "negative",
-      "entities": [
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Baghaei urges UN chief to name US, Israel over law violations",
-      "source": "muslimnetwork.tv",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNY1NSQUFJNEZkdVIwNWVoakRRTGRENF9zTVE3REx2bVNZb09ONFFOMXZudnRUVlBTc3lWT2czSGVRZ0NaSkJwaUEtMjdfQmNqX05PT19fZ1pPXzhBbWxCTXBoM2lPWU5LZTF1TWpCTnNLOTI5Nkg3WHZZdVdiS0pzRVRwMzNVcTkyMm1pczR4REs0QmhU?oc=5",
-      "published": "2026-07-31T13:30:00+00:00",
-      "compound": -0.7783,
-      "label": "negative",
-      "entities": [
-        "Israel"
-      ]
-    },
-    {
-      "title": "'Understand your history': Israelis worry about weakening connection with younger Jewish Americans",
-      "source": "The Tribune-Democrat",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPa09qdV9mTlJrZUJvUjhpWFBaaGV2dUVvekNFTzBOLTAyMUdHTzVCRFNrNzN1TUk1am9KeVJFZDVqX0xkM1YtamNhOE95aVgyc2J1emVmYVo0VjNYVkNrdC1TdTFMT1V6VkNwQVE1d0Q1b2lqYmR4bVBaVDB1UFFSSVFHOXpsMVpoUHNxMUhBa2VRVW5ITGVwSEE1Y2lRLWVHWjNBYnF5QTFCd1FQTzgtaEJVRnczeWJ3a3czWUZ4MjctOVpmcDBmS2hHMHRGdkRSd3pCVGF5d1VDR0JHTmxmcC1CZEloVUhSY2owTXN5SzEyUldReEJ5ZmZzcEtlbUdVNmtrcw?oc=5",
-      "published": "2026-07-31T13:30:00+00:00",
-      "compound": -0.8555,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Middle East latest: Hamas for first time agrees to give up arms but only when Israel upholds Gaza truce",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9iVnVVVTJXMFNiMEdId3ZvWWhnYVNhUHZTOU0xc2VfQ3ZCZUhfVzlCaldRWFJCXzJzOUQ0SUh3b0tpVUtmNzZwbEphNVpPVkh1eWRfd21rdGhScEFvUmVrUGFSbWZOMTdIX2Y3bGh3?oc=5",
-      "published": "2026-07-31T13:21:00+00:00",
-      "compound": 0.3818,
-      "label": "positive",
-      "entities": [
-        "Israel"
-      ]
-    },
-    {
-      "title": "How Iran Brought Israel Closer to Middle East Nations",
-      "source": "The Media Line",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUXlFci13eUtUOTlKdTVhZ2RJSHlBdnRZN1ZxUG5HLWlUakxETjhmaEVyZ1ZsMGR1M3g2bDZ0cUVjQ2ZaNFZYZ29xTnV1WnlobmQ4UDczb0hELXl5U1FFS01UVFhBM2tzZFpLb1lScHVsanl0YlhVOVVsbmNEWnR4bDd1OWhwaDdTOTJRZ042Nml6aVdHSVE?oc=5",
-      "published": "2026-07-31T13:20:55+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Russia appears to infiltrate first ‘fortress city’ as Ukraine changes guard",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/2026/7/31/russia-appears-to-infiltrate-first-fortress-city-as-ukraine-changes-guard?traffic_source=rss",
-      "published": "2026-07-31T13:14:29+00:00",
-      "compound": -0.4588,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "FIFA World Cup plan: Infantino tackles UEFA and global game – all to know",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/31/fifas-infantino-and-uefa-divided-on-world-cup-investment-plan-what-next?traffic_source=rss",
-      "published": "2026-07-31T13:06:07+00:00",
-      "compound": 0.1779,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Palestinians in Gaza react to latest ceasefire deal",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/31-07-sv-gazans-react-to-latest-deal-ps?traffic_source=rss",
-      "published": "2026-07-31T12:59:48+00:00",
-      "compound": -0.3167,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "The waiting game: Gaza’s CT scan shortage causing worries and worse",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/2026/7/31/the-waiting-game-gazas-shortage-in-ct-scans-causing-worries-and-worse?traffic_source=rss",
-      "published": "2026-07-31T12:55:32+00:00",
-      "compound": -0.959,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "US, Israel discuss land blockade on Iran",
-      "source": "AzerNews",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE95Mnktb0lha0dxZnlhV0FrWVp2Z3dmbDNTdXRqSkNQSG9wbzJqMFBLM2FtRWpUUGpYNGxjM3U1YmhSR2M0WGltWXNnLXNLeXVtVm5nYw?oc=5",
-      "published": "2026-07-31T12:55:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Approval for China’s mega embassy in London was lawful, UK court rules",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/31/approval-for-chinas-mega-embassy-in-london-was-lawful-uk-court-rules?traffic_source=rss",
-      "published": "2026-07-31T12:38:15+00:00",
-      "compound": 0.4767,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Inside Barcelona’s most sweltering neighbourhood: El Raval",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/2026/7/31/inside-barcelonas-most-sweltering-neighbourhood-el-raval?traffic_source=rss",
-      "published": "2026-07-31T12:24:09+00:00",
-      "compound": -0.5267,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "US, Israel considering land blockade to cripple Iran's economy: Report",
-      "source": "The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMG0tajdrU3RhSGhQMHhjWmppazIwWVFhNDM2WmU3Nm1pNExxTDdUV2c4U0JSQVJkS09sTV9DajY2cjVQTTZIVUJXVDVtaGNRUTlsZGlIX3FfWDVIU0p6azhBWUlMOWcwSldtVlRpc2xpNGxVRlhrMUlNMFBxREs4SDdSX1EwdEkxM2JjQ3RoVzNZT0s5Vmg2RTE2Zm5NYW45MTBPek1OUldKRDNreVV2VVEyeDl2ZFZOaVFhbTVrai1LWHBWekhWcG1sV2dqa2lYSzR5ZtIB2gFBVV95cUxONWFFM1dMZnJaT2lSaFlsOTVYenZHM0Z4V0FNcjgtUk1LUVlOMGtQbWhEakdSMEdXdXZXS3YtZllpXzFJei1zUzNSUU84M1k4QkppSEJQeW1jSWl3WWoxOXN3d0xvMHNpdjdYSWZpdXJqOHE5dTYteElWNTV5NU9wdnQzdV8wRXRzaXJpWmx6OEZVZGlJSnZaTjU2MmNjcko4QUxDb3ZsTFdMWkwyS2JuLVlCRVc1VEZfRUNBaWRwSHZJdUQyZzJ0UklOY1ZsTmplRWd6c3N3VkJ0dw?oc=5",
-      "published": "2026-07-31T12:22:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Report: $4B crypto scheme helped Iran evade sanctions",
-      "source": "Israel National News",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBoVFVTRkZuYlRxNnRLU2Z2U0cteEJ6WE5KRUNtWUR0dXQ4VXQxNUNUT2U0M2Q4SWhJN2JpRmN3Tl9EUHJYNDIwZlpLLU5CZ0trdzdqUmJJcTlDUQ?oc=5",
-      "published": "2026-07-31T12:19:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Destruction of Iran's cultural sites by Israel, US tantamount to destroying a civilization",
-      "source": "Tehran Times",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbUxReFAteHVSNVRNdHJ4blJGTUhOYlNTNm1MYklwV0dnRVhFYnUzLVNwaFJnM0ozanpqU1R0QzBicllmdVRKcXprcWtOT09nbmZZa1RpQjJMRmdUQXJNaDhGSHBNNlA1X1dpNHhkZnUxbS11ekZwSXpIRlBsWTUyVkFydE9KUTE5WGF0ZjBnLTBUWlZNNjFwMGhBeGZuWXdvYWc?oc=5",
-      "published": "2026-07-31T12:17:52+00:00",
-      "compound": -0.9393,
-      "label": "negative",
-      "entities": [
-        "Iran",
-        "Israel",
-        "Tehran"
-      ]
-    },
-    {
-      "title": "Second day of Spain – Morocco border clashes amid mass migrant influx",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/second-day-of-spain-morocco-border-clashes-amid-mass-migrant-influx?traffic_source=rss",
-      "published": "2026-07-31T12:11:08+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "The U.S. and Israel Are Discussing the Possibility of Blocking Iran's Land Borders — The Telegraph",
-      "source": "UA.NEWS",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTmE1eHAyRnlwTGlreU55NGs3blNxSXRWM3hnUFhRemlDMW1UWDRZNmhwVGhBWDh5UFc0ZFhWSC1DVGdSU2hSeDlBb3dONHJpMW55RzFaR3dTTXZsUXlwVjVsaHdvckhURkdJalRLNkxuZHpNV3lUSGlZc3hKMi1sUko0ZHVHOFllTXB4cTdTRVdxWjAwSkZUcnZ2dy1mZ0VyOUFwTm1CV1pRZFB2eVhlbFkzWTY?oc=5",
-      "published": "2026-07-31T12:02:26+00:00",
-      "compound": -0.6369,
-      "label": "negative",
-      "entities": [
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "‘Migrant tsunami’: Second day of Spain – Morocco border clashes",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/migrant-tsunami-second-day-of-spain-morocco-border-clashes?traffic_source=rss",
-      "published": "2026-07-31T11:45:42+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Russia’s Africa Corps killed Mali civilians in air strike: HRW",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/31/russias-africa-corps-killed-mali-civilians-in-air-strike-hrw?traffic_source=rss",
-      "published": "2026-07-31T11:41:32+00:00",
-      "compound": -0.8658,
       "label": "negative",
       "entities": []
     }

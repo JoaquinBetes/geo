@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-08-01T03:50:07+00:00",
+  "updated": "2026-08-01T08:33:57+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-08-01"
   },
   "kpis": {
-    "events_total": 301,
-    "events_unlocated": 914,
-    "events_7d": 39,
+    "events_total": 303,
+    "events_unlocated": 933,
+    "events_7d": 41,
     "events_prev_7d": 70,
     "hottest_place": "Strait of Hormuz"
   },
@@ -374,10 +374,19 @@
     },
     {
       "date": "2026-07-31",
-      "total": 5,
-      "strike": 3,
+      "total": 6,
+      "strike": 4,
       "ground": 1,
       "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-08-01",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -3392,16 +3401,36 @@
       "title": "Israel, US weighing wave of strikes on Iranian energy infrastructure - report",
       "source": "The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4tWGtwb2Vucm4wVDVqSHUwS2FkaGRPdURjRS1PUEdfUmJQdkhpZTI4TGgwSVdESVhfdWw4U1NpNWk1dGltUzhnenIxeUVhQnBxa2lLWGZxaDFfcFdFY2NyajFfRVQtZ3ZsN1E?oc=5"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iran claims to strike two tankers under US ‘air escort’ trying to pass Hormuz",
+      "source": "The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPemM1X05NeVJKOEFpYWs5UDVtQW9IeHZXZnlqZ0VrWW03OFllRG5CT3E5dWg2UmJwT1FMTVFqclZBblRpdzE2RmlXRnoweEpveFhOSHNGMGl1VXd5bFNtTnVoQUdlWDJ0MXhCYTczM01OSUstTktacmctMU5FVTBwcTB2S2VGa1FvZTBaV0hqWm9LSzBQNmJZbG5WUDBKUGR5MU9ha0VjQ1hnXzl4Wlo4SHJ4U2xjTGVzRzN0SkFB?oc=5"
+    },
+    {
+      "date": "2026-08-01",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Latest war news. US and Israel ready to strike again. Tehran: ‘Madmen, we’ve already won’",
+      "source": "Il Sole 24 ORE",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORlQxRXJIR3FqQU0xSlRGMUUtLXpIOGYzWndKenh5YVJTWE1peXRMdFQ2dEFGYTc1WGxxbFZ0ZEZLalg3XzdYSFVtSXlENGNzNUhHRktaUXI3RXQxRFNLUVlxXzBVQkE5Rk5lU2E5WmlMVE9Pc000bEVyeUN6VE9GemZhWFZOMDMyRUxpaVZ6WFFvR1pmWmhfMzNsOEpOeXdPd0gxNkJKQ0psbEtFMzJzaksyeVlsZThmNm1PUTMwQzRBX25xdVY3d3NhT0tMdw?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 116
+      "count": 117
     },
     {
       "place": "Tehran",
-      "count": 68
+      "count": 69
     },
     {
       "place": "Jerusalem",

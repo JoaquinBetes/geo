@@ -2,13 +2,13 @@
   "id": "korea_peninsula",
   "name": "Corea del Norte–Corea del Sur",
   "description": "Cobertura mediática de la tensión en la península coreana",
-  "updated": "2026-08-02T08:36:53+00:00",
-  "total_articles": 4519,
-  "overall_avg": -0.193,
+  "updated": "2026-08-02T13:54:38+00:00",
+  "total_articles": 4548,
+  "overall_avg": -0.1934,
   "distribution": {
-    "pos": 1158,
-    "neu": 1081,
-    "neg": 2280
+    "pos": 1164,
+    "neu": 1086,
+    "neg": 2298
   },
   "sources": [
     "Al Jazeera",
@@ -180,6 +180,7 @@
     "Cryptonews.net",
     "Yahoo Finance",
     "The New Voice of Ukraine",
+    "USA Today",
     "Pindrop",
     "Nextgov/FCW",
     "koreajoongangdaily.com",
@@ -375,7 +376,6 @@
     "seMissourian",
     "Legis1",
     "Modern Ghana",
-    "USA Today",
     "theins.press",
     "Sentinel Colorado",
     "Geopolitical Futures",
@@ -434,7 +434,9 @@
     "nypost.com",
     "The Express Tribune",
     "The Spectator Australia",
-    "London Free Press"
+    "London Free Press",
+    "13wham.com",
+    "Judo Inside"
   ],
   "daily": [
     {
@@ -1031,62 +1033,62 @@
     },
     {
       "date": "2026-07-30",
-      "count": 169,
-      "avg": -0.2891,
+      "count": 170,
+      "avg": -0.2874,
       "pos": 39,
-      "neu": 24,
+      "neu": 25,
       "neg": 106
     },
     {
       "date": "2026-07-31",
-      "count": 204,
-      "avg": -0.2108,
+      "count": 205,
+      "avg": -0.2114,
       "pos": 49,
       "neu": 42,
-      "neg": 113
+      "neg": 114
     },
     {
       "date": "2026-08-01",
-      "count": 114,
-      "avg": -0.395,
-      "pos": 20,
+      "count": 115,
+      "avg": -0.3873,
+      "pos": 21,
       "neu": 14,
       "neg": 80
     },
     {
       "date": "2026-08-02",
-      "count": 24,
-      "avg": -0.3034,
-      "pos": 5,
-      "neu": 2,
-      "neg": 17
+      "count": 50,
+      "avg": -0.296,
+      "pos": 10,
+      "neu": 6,
+      "neg": 34
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 1960,
-      "avg": -0.2701
+      "count": 1980,
+      "avg": -0.2707
     },
     {
       "source": "BBC",
-      "count": 581,
-      "avg": -0.2815
+      "count": 584,
+      "avg": -0.2816
     },
     {
       "source": "조선일보",
-      "count": 208,
-      "avg": -0.0566
+      "count": 209,
+      "avg": -0.0589
     },
     {
       "source": "NPR",
-      "count": 183,
+      "count": 184,
       "avg": -0.2959
     },
     {
       "source": "NK News",
-      "count": 144,
-      "avg": -0.0717
+      "count": 145,
+      "avg": -0.0712
     },
     {
       "source": "Yonhap News Agency",
@@ -1907,6 +1909,11 @@
       "source": "The New Voice of Ukraine",
       "count": 2,
       "avg": 0.3298
+    },
+    {
+      "source": "USA Today",
+      "count": 2,
+      "avg": -0.046
     },
     {
       "source": "Pindrop",
@@ -2884,11 +2891,6 @@
       "avg": 0.0
     },
     {
-      "source": "USA Today",
-      "count": 1,
-      "avg": -0.5859
-    },
-    {
       "source": "theins.press",
       "count": 1,
       "avg": 0.0
@@ -3182,20 +3184,30 @@
       "source": "London Free Press",
       "count": 1,
       "avg": -0.8074
+    },
+    {
+      "source": "13wham.com",
+      "count": 1,
+      "avg": -0.34
+    },
+    {
+      "source": "Judo Inside",
+      "count": 1,
+      "avg": 0.7906
     }
   ],
   "top_entities": [
     {
       "name": "North Korea",
       "type": "LOCATION",
-      "count": 1201,
-      "avg": -0.0888
+      "count": 1204,
+      "avg": -0.0882
     },
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 441,
-      "avg": -0.2078
+      "count": 442,
+      "avg": -0.2073
     },
     {
       "name": "China",
@@ -3206,14 +3218,14 @@
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 341,
-      "avg": -0.2136
+      "count": 343,
+      "avg": -0.2156
     },
     {
       "name": "South Korea",
       "type": "LOCATION",
-      "count": 223,
-      "avg": -0.0599
+      "count": 224,
+      "avg": -0.0625
     },
     {
       "name": "Japan",
@@ -3224,8 +3236,8 @@
     {
       "name": "United States",
       "type": "LOCATION",
-      "count": 89,
-      "avg": -0.1928
+      "count": 90,
+      "avg": -0.1906
     },
     {
       "name": "Kim Jong-un",
@@ -3242,8 +3254,8 @@
     {
       "name": "Lee Jae-myung",
       "type": "PERSON",
-      "count": 6,
-      "avg": -0.2075
+      "count": 7,
+      "avg": -0.2531
     },
     {
       "name": "Kim Yo-jong",
@@ -3259,6 +3271,252 @@
     }
   ],
   "recent": [
+    {
+      "title": "Pakistan-administered Kashmir election boycott follows deadly crackdown",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/02-08-reported-kamal-hyder-pak-pk?traffic_source=rss",
+      "published": "2026-08-02T13:40:55+00:00",
+      "compound": -0.6705,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "President Lee Jae Myung Meets Frankfurt Korean Residents During Refueling Stop",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRjZNZVkyNEFCRXl3Y1A5RWhYbFdWRHVRTEp4QnZHVkRDS2VJOVVrSFhrRlJXWXJGVnlQcDd4X1NzWWxKX1pTdVhOZDdOSUQyVXVGTDA1QlBlemVPUXB1c2pqLWZpVlVMRUR6VWJxZkFiaFFPVFJWbzZjMmMtcXc0SXM5bmhGd3k2?oc=5",
+      "published": "2026-08-02T13:39:32+00:00",
+      "compound": -0.5267,
+      "label": "negative",
+      "entities": [
+        "Lee Jae-myung"
+      ]
+    },
+    {
+      "title": "Yemen’s crumbling roads mean an arduous quest for water for Taiz villagers",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/2026/8/2/yemens-crumbling-roads-means-an-arduous-quest-for-water-for-taiz-villagers?traffic_source=rss",
+      "published": "2026-08-02T13:08:25+00:00",
+      "compound": -0.802,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "South Korea has hottest day on record amid extreme weather globally",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/2/south-korea-has-hottest-day-on-record-amid-extreme-weather-globally?traffic_source=rss",
+      "published": "2026-08-02T12:34:35+00:00",
+      "compound": -0.6249,
+      "label": "negative",
+      "entities": [
+        "South Korea"
+      ]
+    },
+    {
+      "title": "At least five dead, 41 missing after ferry catches fire off Indonesia",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/2/at-least-five-dead-41-missing-after-ferry-catches-fire-off-indonesia?traffic_source=rss",
+      "published": "2026-08-02T12:33:29+00:00",
+      "compound": -0.8934,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Why has EU called an emergency meeting on Spain migrant surge?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/2/why-has-the-eu-called-an-emergency-meeting-on-spain-migrants-surge?traffic_source=rss",
+      "published": "2026-08-02T12:32:51+00:00",
+      "compound": 0.1531,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Breakfasts around the world: In Australia, being denied vegemite is grounds for suing",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/08/02/nx-s1-5896064/breakfasts-around-the-world-in-australia-being-denied-vegemite-is-grounds-for-suing",
+      "published": "2026-08-02T12:08:07+00:00",
+      "compound": -0.296,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Spanish Ceuta witnesses a deadly ‘game’ for Moroccan migrants",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/2026/8/2/spanish-ceuta-witnesses-a-deadly-game-for-moroccan-migrants?traffic_source=rss",
+      "published": "2026-08-02T12:07:11+00:00",
+      "compound": 0.0258,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "The Board of Peace is a failed body and should be abandoned",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/opinions/2026/8/2/the-board-of-peace-is-a-failed-body-and-should-be-abandoned?traffic_source=rss",
+      "published": "2026-08-02T12:06:31+00:00",
+      "compound": -0.4215,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Israel’s influence industry in the US",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/the-listening-post/2026/8/2/israels-influence-industry-in-the-us?traffic_source=rss",
+      "published": "2026-08-02T12:02:04+00:00",
+      "compound": 0.296,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Five dead, 41 missing, after Indonesia ferry catches fire",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c74g0wjvlrxo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-02T11:49:40+00:00",
+      "compound": -0.8834,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Sun Hui Kye at 47: The North Korean champion who stunned the world",
+      "source": "Judo Inside",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNanFSTG1ka1o1Q0xJOVN1VDFJTXdqelkza181aHRUX2oyeWdzY0xUWF9id04yX2J3dlREakthMzZweXNvU0FQbENNT0VGN1J5cEdMMXdLZXJ3UjlwRXBOZjN2Vk82X2VYZmhHQnlpZ0FvNFRNbTlRbEtCMUVDcUlMUlVfNDRVWE1SNTlHdFlrM0RNc1hVOGQxaFYtS2hCSjlES1dtdQ?oc=5",
+      "published": "2026-08-02T11:23:21+00:00",
+      "compound": 0.7906,
+      "label": "positive",
+      "entities": [
+        "North Korea"
+      ]
+    },
+    {
+      "title": "Indigenous groups oppose Milei plan to open Argentina to foreign buyers",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/08-02-argentina-indigenous-protest-sv?traffic_source=rss",
+      "published": "2026-08-02T11:09:25+00:00",
+      "compound": -0.128,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Ben-Gvir mocks Palestinian detainee over prison conditions",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/ben-gvir-mocks-palestinian-detainee-over-prison-conditions?traffic_source=rss",
+      "published": "2026-08-02T11:09:03+00:00",
+      "compound": -0.9118,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "From Sudan to Spain: Between war and home | Al Jazeera Originals",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/al-jazeera-documentaries/2026/8/2/aje-onl-aj_or_sdn_war-020826?traffic_source=rss",
+      "published": "2026-08-02T11:07:13+00:00",
+      "compound": -0.8316,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Fastest runner to cross the Alps says it was an incredible experience",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/videos/crk5j6g8lmko?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-02T10:59:55+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Israeli soldiers jailed over Sde Teiman walkout",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/israeli-soldiers-jailed-over-sde-teiman-walkout?traffic_source=rss",
+      "published": "2026-08-02T10:31:32+00:00",
+      "compound": -0.8807,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "FIFA boss Infantino’s position looks unacceptable: European Leagues head",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/8/2/fifa-boss-infantinos-position-looks-unacceptable-head-of-european-league?traffic_source=rss",
+      "published": "2026-08-02T10:31:25+00:00",
+      "compound": -0.4588,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Washington state wildfires trigger evacuations",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/videos/cpd7912xyq4o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-02T10:20:10+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "United States"
+      ]
+    },
+    {
+      "title": "Residents of Spain’s Ceuta shut down far-right anti-migrant rally",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/2-08-sv-ceuta-cancel-farright-protests-es?traffic_source=rss",
+      "published": "2026-08-02T09:55:06+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "A quiet day in Harare after Zimbabwe’s shutdown call",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/2/a-quiet-day-in-harare-after-zimbabwes-shutdown-call?traffic_source=rss",
+      "published": "2026-08-02T09:50:48+00:00",
+      "compound": -0.1779,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Why has Trump halted Iran attacks, and what is the deal he is hinting at?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/2/why-has-trump-halted-iran-attacks-and-what-is-the-deal-he-is-hinting-at?traffic_source=rss",
+      "published": "2026-08-02T09:43:10+00:00",
+      "compound": -0.4039,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "How Davutoglu helped shape Erdogan’s Turkiye but failed to challenge it",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/2026/8/2/how-davutoglu-helped-shape-erdogans-turkiye-but-failed-to-challenge-it?traffic_source=rss",
+      "published": "2026-08-02T09:07:20+00:00",
+      "compound": -0.1154,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Trump ‘cancels attack on Iran’ saying deal is near",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/trump-cancels-attack-on-iran-saying-deal-is-near?traffic_source=rss",
+      "published": "2026-08-02T08:43:15+00:00",
+      "compound": -0.7096,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Petro urges global support to stop possible US invasion of Cuba",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/petro-urges-global-support-to-stop-possible-us-invasion-of-cuba?traffic_source=rss",
+      "published": "2026-08-02T08:23:32+00:00",
+      "compound": 0.25,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Lionel Messi returns for Inter Miami after extended post-World Cup break",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/8/2/lionel-messi-returns-for-inter-miami-after-extended-post-world-cup-break?traffic_source=rss",
+      "published": "2026-08-02T08:20:43+00:00",
+      "compound": 0.7003,
+      "label": "positive",
+      "entities": []
+    },
     {
       "title": "Tarik Skubal acquired by LA Dodgers at the MLB trade deadline",
       "source": "Al Jazeera",
@@ -3600,259 +3858,6 @@
       "entities": [
         "South Korea"
       ]
-    },
-    {
-      "title": "Michigan joins Minnesota in reporting cyberattacks, with FBI investigating",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/1/michigan-joins-minnesota-in-reporting-cyber-attacks-with-fbi-investigating?traffic_source=rss",
-      "published": "2026-08-01T22:34:36+00:00",
-      "compound": -0.7351,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "US Arabs eye ‘historic’ Senate win for Abdul El-Sayed despite AIPAC attacks",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/1/us-arabs-eye-historic-senate-win-for-abdul-el-sayed-despite-aipac-attacks?traffic_source=rss",
-      "published": "2026-08-01T22:31:52+00:00",
-      "compound": 0.7356,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Avalanche in Pakistan kills famed mountaineer Nirmal Purja and his fellow climbers",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/08/01/nx-s1-5916368/nirmal-purja-climbers-dead-avalanche",
-      "published": "2026-08-01T22:23:39+00:00",
-      "compound": -0.5423,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "A bruising 24 hours - what next for Fifa and under-pressure Infantino?",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9w0djx2g92o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-01T22:23:20+00:00",
-      "compound": -0.5204,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Ginger hair portraits show unexpected 'golden thread' connecting Americans",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/ce97nyz4rvmo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-01T22:06:18+00:00",
-      "compound": -0.34,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Why did Ceuta migrant mayhem chill already frosty Israel-Spain relations?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/1/why-did-ceuta-migrant-mayhem-chill-already-frosty-israel-spain-relations?traffic_source=rss",
-      "published": "2026-08-01T21:42:26+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Al Jazeera reports from Ceuta as migrants leave the enclave",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/1/al-jazeera-reports-from-ceuta-as-migrants-leave-the-enclave?traffic_source=rss",
-      "published": "2026-08-01T21:15:50+00:00",
-      "compound": -0.0516,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "How Australia combines modern tech and Indigenous knowledge to fight fire",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/czdmvr984yyo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-01T21:03:42+00:00",
-      "compound": -0.9217,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Peruvian plane crash kills 13, including European tourists",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/1/police-say-13-killed-as-small-plane-viewing-nazca-lines-in-peru-crashes?traffic_source=rss",
-      "published": "2026-08-01T20:57:04+00:00",
-      "compound": -0.8934,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Fighting breaks out in western Tigray as Ethiopia and TPLF trade blame",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/1/fighting-breaks-out-in-western-tigray-as-ethiopia-and-tplf-trade-blame?traffic_source=rss",
-      "published": "2026-08-01T20:38:41+00:00",
-      "compound": -0.6214,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Overnight Russian barrage kills nine in Kyiv, as air defense struggle with U.S. continues",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/08/01/nx-s1-5916393/overnight-russia-kyiv-ukraine-strikes",
-      "published": "2026-08-01T20:27:32+00:00",
-      "compound": 0.1027,
-      "label": "positive",
-      "entities": [
-        "Donald Trump",
-        "Russia"
-      ]
-    },
-    {
-      "title": "Greece battles raging wildfires as flames appear to ease in France",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/1/greece-battles-raging-wildfires-as-flames-appear-to-ease-in-france?traffic_source=rss",
-      "published": "2026-08-01T20:24:19+00:00",
-      "compound": -0.7579,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Record-breaking climber Nirmal Purja among those killed in avalanche",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/1/record-record-breaking-climber-nirmal-purja-among-those-killed-in-avalanche?traffic_source=rss",
-      "published": "2026-08-01T20:10:01+00:00",
-      "compound": -0.8442,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "EU calls emergency meeting to discuss Ceuta migrant crossings",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cz7d17r455go?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-01T20:09:27+00:00",
-      "compound": -0.6124,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Freelance New York Times reporter subpoenaed over reporting on failed US mission in North Korea",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcGwwc2VpLTExYzlvcFV6bTVrbTJwMFdNdkI3Ym42UXZVcXBwRVFvS3FPaEsxUk5mb2pONUdMOERldVlKeklBUnRKRmFaZUtBVzJVbElpQ3drOHJQdHp4bm5Sb2E3Y1Vrbi1PaEliakZ3NV8yd1RtdUotYlB1UXJkbTFoSThwN3NnSnAtd1FQVlVSQQ?oc=5",
-      "published": "2026-08-01T19:50:00+00:00",
-      "compound": -0.4939,
-      "label": "negative",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "Crowds line Amsterdam's canals for Pride boat parade",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/videos/cp3rqd9kp91o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-01T19:39:48+00:00",
-      "compound": 0.34,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "US Justice Department subpoenas New York Times freelancer over North Korea story, paper says By Reuters",
-      "source": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPbFl5RTVTYkU4blRqT09aWU5fNm1nY3k0U0R0RkF1M0g5RFNGZ3ZaNUd6QjgtTVktMGZYaFVUTEZlSHVtTEhjYlFIV19rckdRV2I2VDNkQ00ySURkY01zVHpQaFFocUdYQllyV0NKMndqQmYwX0NsSjRQd21UREJKSVRpTGkzZnpZWFM3MGlnRW05ZGFVd2NjSEtkYW12Q0gzSk1JS3BJYUpIb1RHREUwREpYZ2MzMVFpZDNvWVg4SDEzRVNUeU0yUHpZeF9Qd0lXbWk4dHJ2WkNiZENVTjhTX0tB?oc=5",
-      "published": "2026-08-01T19:38:53+00:00",
-      "compound": 0.875,
-      "label": "positive",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "US Justice Department subpoenas New York Times freelancer over North Korea story, paper says",
-      "source": "KELO-AM",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdlJjQmtSdVpCdnBFQm0zanFwYTljeS1tWWtkbVY4Tk40YVgtYnI3dWpOVEZWY0J4SWItSnZuTXlQWUpKSU1aaG1EUm1aVHlBRmdrWFQtS3NhZV9KZWt2LVdDSHpxR2wwWV9ScDMtdm5HMXN1eUp3YTBvT0szU1ZRSVBVU3ZoanBCZHlEbVJqbEFaWFRZLU5oVzZQWkt0Y3VKdnhLMjdpVTRwaTNNMy1iYjJRY2hmenJzVm5kcA?oc=5",
-      "published": "2026-08-01T19:29:39+00:00",
-      "compound": 0.875,
-      "label": "positive",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "US Justice Department subpoenas New York Times freelancer over North Korea story, paper says",
-      "source": "The Straits Times",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdEFqOHU5M2lYeGRRRkJsaHFZYkdOSGhDaDNSZHRDSnA3UE1uWVRYa3VseXpfcF9iUFVldkxhZHllLS04VHl3ZHpYTThxTWxHR0V2clpCX0pkOE1xY2pDaS1OTzZfRDZXX0ZEeUlKNDFVMzdTTThIdERvTGRSZnJOVVczVldza1BDRXpNUUFHV0xMSDZmem14S19hQ1RqR1BzNXBKVTdqS1FwcUhjVzFSSWIySThhMUdZNWw3RWJxRWxQVHNTVEdKaXVORjlicTU2R2UxVm9Jaw?oc=5",
-      "published": "2026-08-01T19:11:49+00:00",
-      "compound": 0.875,
-      "label": "positive",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "US Justice Department subpoenas New York Times freelancer over North Korea story, paper says",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZUlFSGZMX01QYlFDclh0cnJFeWx4RC1kdU40aUFyLTVUcHhXY0pSY1I0VUNlaXZOOWc2eFBXY014bmhnWGlYXy1lN3hBMGhYMVpEQ3haZnQ2LURWdnlocFlmTjhVdjJQdkhNbWdrakQxN2dGWUhkdTlmcFc0WkQzNkNTbl9EcU1yVEJzY1N4dmZCQmJwRkRoT2ZyUXdqOWtxWDZSMzlFTkJOcmVrTi1tRGlBRDFtRGdjQkF1TF9wN3c0VW9tZDlEUzVsaS11QQ?oc=5",
-      "published": "2026-08-01T19:11:43+00:00",
-      "compound": 0.875,
-      "label": "positive",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "US Justice Department subpoenas New York Times freelancer over North Korea story, paper says",
-      "source": "Internazionale",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNNkJXaW8ycGtJZDRCMFQ1QUZEdG8wUkEzVlBXZHZNenFza0Y3YkYyVnJ1anBHeXBWYmJTSVlNVnhCalVvdE5jMklncUNiNVdkTmVNMlRGWDQ2aE50UXcwcnpJdk9xSnYzYUhLN1Jkb3FGZmZDbEppbWR4UHYtNFhJNVhIMlJ3c196R1N6Y3FKU2dhTXJiV1BfY09pdEhxZHN6WmpPVkhHbk96Y1FWTTdUYXhyZE5acHozSU05dWxVU09mX29pODZGUXQ1c2s5UlF2NW8xczhFdzRETTFSSXJpUXJ0WEFRcC1YXzc0?oc=5",
-      "published": "2026-08-01T19:10:21+00:00",
-      "compound": 0.875,
-      "label": "positive",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "Trump denounces Justice Department decision to drop Reflecting Pool charges",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/1/trump-denounces-justice-department-decision-to-drop-reflecting-pool-charges?traffic_source=rss",
-      "published": "2026-08-01T19:08:12+00:00",
-      "compound": -0.7096,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Palestinian children among those detained in Israeli West Bank raids",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/1/palestinian-children-among-those-detained-in-israeli-west-bank-raids?traffic_source=rss",
-      "published": "2026-08-01T18:51:14+00:00",
-      "compound": -0.9231,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Spain's Pedro Sánchez was a hero of migrants. After Ceuta, he faces his biggest challenge",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/08/01/nx-s1-5916330/spain-sanchez-ceuta-migrants",
-      "published": "2026-08-01T18:33:27+00:00",
-      "compound": 0.5994,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "At least three killed in explosion near cafe in Russia’s Moscow",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/1/russia-says-explosion-near-cafe-in-moscow-kills-three?traffic_source=rss",
-      "published": "2026-08-01T18:22:35+00:00",
-      "compound": -0.6705,
-      "label": "negative",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "‘Marathon’ shines light on Gaza’s orphaned children and humanitarian crisis",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/1/marathon-shines-light-on-gazas-orphaned-children-and-humanitarian-crisis?traffic_source=rss",
-      "published": "2026-08-01T17:57:18+00:00",
-      "compound": -0.8481,
-      "label": "negative",
-      "entities": []
     }
   ]
 }

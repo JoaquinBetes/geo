@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-08-01T19:33:40+00:00",
+  "updated": "2026-08-02T03:52:38+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-08-01"
+    "to": "2026-08-02"
   },
   "kpis": {
-    "events_total": 324,
-    "events_unlocated": 928,
-    "events_7d": 58,
-    "events_prev_7d": 75,
+    "events_total": 326,
+    "events_unlocated": 934,
+    "events_7d": 53,
+    "events_prev_7d": 78,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -489,8 +489,17 @@
     },
     {
       "date": "2026-08-01",
-      "total": 18,
-      "strike": 17,
+      "total": 19,
+      "strike": 18,
+      "ground": 0,
+      "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-08-02",
+      "total": 1,
+      "strike": 0,
       "ground": 0,
       "infrastructure": 1,
       "air_defense": 0,
@@ -3737,12 +3746,32 @@
       "title": "At least 9 people killed in Russian missile attacks on Kyiv",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/8/1/at-least-9-people-killed-in-russian-missile-attacks-on-kyiv?traffic_source=rss"
+    },
+    {
+      "date": "2026-08-01",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Overnight Russian barrage kills nine in Kyiv, as air defense struggle with U.S. continues",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/08/01/nx-s1-5916393/overnight-russia-kyiv-ukraine-strikes"
+    },
+    {
+      "date": "2026-08-02",
+      "type": "infrastructure",
+      "place": "Zaporizhzhia",
+      "lat": 47.8388,
+      "lon": 35.1396,
+      "title": "Ukraine war briefing: Strikes on three Russian oil refineries and sanctioned ship",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/aug/02/ukraine-war-briefing-strikes-on-three-russian-oil-refineries-and-sanctioned-ship"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 185
+      "count": 171
     },
     {
       "place": "Moscow",
@@ -3754,7 +3783,7 @@
     },
     {
       "place": "Zaporizhzhia",
-      "count": 7
+      "count": 8
     },
     {
       "place": "Belgorod",

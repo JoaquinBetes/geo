@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-08-02T13:54:29+00:00",
+  "updated": "2026-08-02T19:34:33+00:00",
   "overall_tone": -0.3377,
   "rsf_as_of": "2025 (aprox.)",
   "outlets": [
@@ -15,9 +15,9 @@
       "lat": 25.2867,
       "lon": 51.5333,
       "rsf": 84,
-      "articles": 2584,
-      "tone_avg": -0.2996,
-      "tone_delta": 0.0381
+      "articles": 2612,
+      "tone_avg": -0.301,
+      "tone_delta": 0.0367
     },
     {
       "name": "The Times of Israel",
@@ -30,9 +30,9 @@
       "lat": 31.7683,
       "lon": 35.2137,
       "rsf": 112,
-      "articles": 719,
-      "tone_avg": -0.3172,
-      "tone_delta": 0.0205
+      "articles": 729,
+      "tone_avg": -0.3123,
+      "tone_delta": 0.0254
     },
     {
       "name": "BBC",
@@ -45,9 +45,9 @@
       "lat": 51.5188,
       "lon": -0.144,
       "rsf": 20,
-      "articles": 699,
-      "tone_avg": -0.2757,
-      "tone_delta": 0.062
+      "articles": 704,
+      "tone_avg": -0.2782,
+      "tone_delta": 0.0595
     },
     {
       "name": "NPR",
@@ -120,9 +120,9 @@
       "lat": 32.07,
       "lon": 34.78,
       "rsf": 112,
-      "articles": 59,
-      "tone_avg": -0.4709,
-      "tone_delta": -0.1332
+      "articles": 60,
+      "tone_avg": -0.4631,
+      "tone_delta": -0.1254
     },
     {
       "name": "Haaretz",
@@ -150,9 +150,9 @@
       "lat": 40.7561,
       "lon": -73.9903,
       "rsf": 57,
-      "articles": 40,
-      "tone_avg": -0.491,
-      "tone_delta": -0.1533
+      "articles": 41,
+      "tone_avg": -0.4753,
+      "tone_delta": -0.1376
     },
     {
       "name": "CBS News",
@@ -195,9 +195,9 @@
       "lat": 19.076,
       "lon": 72.8777,
       "rsf": 151,
-      "articles": 29,
-      "tone_avg": -0.3989,
-      "tone_delta": -0.0612
+      "articles": 30,
+      "tone_avg": -0.406,
+      "tone_delta": -0.0683
     },
     {
       "name": "Anadolu Agency",
@@ -350,6 +350,21 @@
       "tone_delta": 0.0239
     },
     {
+      "name": "ABC News",
+      "url": "https://abcnews.go.com",
+      "city": "Nueva York",
+      "country": "Estados Unidos",
+      "iso3": "USA",
+      "type": "privado",
+      "desc": "División de noticias de Disney.",
+      "lat": 40.77,
+      "lon": -73.982,
+      "rsf": 57,
+      "articles": 17,
+      "tone_avg": -0.4505,
+      "tone_delta": -0.1128
+    },
+    {
       "name": "The Washington Post",
       "url": "https://www.washingtonpost.com",
       "city": "Washington D.C.",
@@ -365,19 +380,19 @@
       "tone_delta": 0.0247
     },
     {
-      "name": "ABC News",
-      "url": "https://abcnews.go.com",
-      "city": "Nueva York",
-      "country": "Estados Unidos",
-      "iso3": "USA",
-      "type": "privado",
-      "desc": "División de noticias de Disney.",
-      "lat": 40.77,
-      "lon": -73.982,
-      "rsf": 57,
-      "articles": 16,
-      "tone_avg": -0.4266,
-      "tone_delta": -0.0889
+      "name": "France 24",
+      "url": "https://www.france24.com/en/",
+      "city": "París",
+      "country": "Francia",
+      "iso3": "FRA",
+      "type": "estatal",
+      "desc": "El canal internacional del Estado francés (France Médias Monde).",
+      "lat": 48.841,
+      "lon": 2.268,
+      "rsf": 25,
+      "articles": 14,
+      "tone_avg": -0.2921,
+      "tone_delta": 0.0456
     },
     {
       "name": "The Telegraph",
@@ -393,21 +408,6 @@
       "articles": 14,
       "tone_avg": -0.3484,
       "tone_delta": -0.0107
-    },
-    {
-      "name": "France 24",
-      "url": "https://www.france24.com/en/",
-      "city": "París",
-      "country": "Francia",
-      "iso3": "FRA",
-      "type": "estatal",
-      "desc": "El canal internacional del Estado francés (France Médias Monde).",
-      "lat": 48.841,
-      "lon": 2.268,
-      "rsf": 25,
-      "articles": 13,
-      "tone_avg": -0.2674,
-      "tone_delta": 0.0703
     },
     {
       "name": "Deutsche Welle",
@@ -515,6 +515,21 @@
       "tone_delta": 0.0167
     },
     {
+      "name": "Firstpost",
+      "url": "https://www.firstpost.com",
+      "city": "Bombay",
+      "country": "India",
+      "iso3": "IND",
+      "type": "privado",
+      "desc": "Portal del grupo Network18 (Reliance/Ambani); línea favorable al oficialismo indio.",
+      "lat": 19.08,
+      "lon": 72.88,
+      "rsf": 151,
+      "articles": 7,
+      "tone_avg": -0.6229,
+      "tone_delta": -0.2852
+    },
+    {
       "name": "CBC News",
       "url": "https://www.cbc.ca/news",
       "city": "Toronto",
@@ -528,21 +543,6 @@
       "articles": 6,
       "tone_avg": -0.3302,
       "tone_delta": 0.0075
-    },
-    {
-      "name": "Firstpost",
-      "url": "https://www.firstpost.com",
-      "city": "Bombay",
-      "country": "India",
-      "iso3": "IND",
-      "type": "privado",
-      "desc": "Portal del grupo Network18 (Reliance/Ambani); línea favorable al oficialismo indio.",
-      "lat": 19.08,
-      "lon": 72.88,
-      "rsf": 151,
-      "articles": 6,
-      "tone_avg": -0.7903,
-      "tone_delta": -0.4526
     },
     {
       "name": "Arab News",
@@ -998,23 +998,23 @@
   "by_country": {
     "QAT": {
       "outlets": 1,
-      "articles": 2584
+      "articles": 2612
     },
     "ISR": {
       "outlets": 4,
-      "articles": 991
+      "articles": 1002
     },
     "GBR": {
       "outlets": 9,
-      "articles": 1072
+      "articles": 1077
     },
     "USA": {
       "outlets": 23,
-      "articles": 541
+      "articles": 543
     },
     "IND": {
       "outlets": 8,
-      "articles": 75
+      "articles": 77
     },
     "TUR": {
       "outlets": 2,
@@ -1022,7 +1022,7 @@
     },
     "FRA": {
       "outlets": 3,
-      "articles": 19
+      "articles": 20
     },
     "DEU": {
       "outlets": 1,
@@ -1076,11 +1076,11 @@
     },
     {
       "source": "JNS.org",
-      "articles": 38
+      "articles": 39
     },
     {
       "source": "www.israelhayom.com",
-      "articles": 30
+      "articles": 31
     },
     {
       "source": "Crypto Briefing",
@@ -1119,19 +1119,19 @@
       "articles": 10
     },
     {
+      "source": "Iran International",
+      "articles": 9
+    },
+    {
       "source": "ایران اینترنشنال",
       "articles": 8
     },
     {
       "source": "TV7 Israel News",
       "articles": 8
-    },
-    {
-      "source": "Iran International",
-      "articles": 8
     }
   ],
-  "others_total": 785,
-  "matched_articles": 5359,
-  "total_articles": 6144
+  "others_total": 791,
+  "matched_articles": 5408,
+  "total_articles": 6199
 }

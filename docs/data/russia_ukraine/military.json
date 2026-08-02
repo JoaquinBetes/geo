@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-08-02T13:54:27+00:00",
+  "updated": "2026-08-02T19:34:30+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -48,9 +48,9 @@
     "to": "2026-08-02"
   },
   "kpis": {
-    "events_total": 330,
-    "events_unlocated": 942,
-    "events_7d": 57,
+    "events_total": 335,
+    "events_unlocated": 959,
+    "events_7d": 62,
     "events_prev_7d": 78,
     "hottest_place": "Kyiv"
   },
@@ -498,10 +498,10 @@
     },
     {
       "date": "2026-08-02",
-      "total": 4,
-      "strike": 3,
+      "total": 9,
+      "strike": 6,
       "ground": 0,
-      "infrastructure": 1,
+      "infrastructure": 3,
       "air_defense": 0,
       "anomaly": false
     }
@@ -3806,16 +3806,66 @@
       "title": "Ukrainian Drones Kill 3 in Russia, Strike Wildberries Warehouse",
       "source": "The Moscow Times",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVUFOSUhMZFlqeU12cm5zZUN0VXBQUmp6QmhydjFlQmpDSmhaUklMRUFlYVliT3BrX3hfSkh5TFpSSGxjb3d5UlNITTFDcF93d0w0TjlIdnRzako2Tm5xN3BkUUFrWElWTm1aaXlTb0VvN0hhYm1rQ1pKajM0ZTA0a3ZmR2ZERDFjY25mNVVuNUZmLXhlYzJHVTQ1MEhZa1NUaDBQVlBFV0tldVRZZDE4VA?oc=5"
+    },
+    {
+      "date": "2026-08-02",
+      "type": "infrastructure",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1oYUZ6VWhYbnNlNndSMVlVdmtXeU0wWEFJek51QUtTNm1Taks0ODMwTzdhV3hnbkQtVUc0Sy01S1p1akNpY2lqeTl2RkRyTWhJMTlNdEMxQ2lXQQ?oc=5"
+    },
+    {
+      "date": "2026-08-02",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war latest: Russia rains ballistic missiles on Kyiv as Ukrainian drones hit refineries, warehouses, airfields, ships",
+      "source": "The Kyiv Independent",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQc21Ydm54T1RhVzc5X05xcFpmS0szU25BRGJ5SmhyS1dvX0FUMkpMejhBcDAzX3JRNVBVbnZzalkyZUZGWWkyX01vYi1zcE5FZ1FDZV9NOHFGSmhtZlJEWGY2N3VhMlJnR3Y1bE0zMFdNSjRjdTY4QWxUYlFsaGUweGdrVWtUME1sMHFhM2NoLUxkTEF1T3o1Q2F2Nm1PWS1QYWhROXo0N1JLbXg5SW54U1FlWHA5UFYyYWIzNHNPVUx1UkdPckRXYnhfMVhXMndBV1UwNlhWaVoxVjYwVk16OU90SQ?oc=5"
+    },
+    {
+      "date": "2026-08-02",
+      "type": "strike",
+      "place": "Zaporizhzhia",
+      "lat": 47.8388,
+      "lon": 35.1396,
+      "title": "Ukraine attempted to strike Zaporizhzhia spent fuel storage, says Russia's Rosatom",
+      "source": "aa.com.tr",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNYk5ST0hsRWk5dnZ2UWZ5djdHM0dJZ0xXT2MwQkhQQUZ1Nkt0enRiZEptUGpjek9WS1VsN3FSTXM1MkhDM2FLU1JqUFlraVpvUHdBZWJPMldZRnF4UUczb2diMHFnYzlmWWVqVkFWWlQ5S2E5bl81a1ItaGNmZ3hMeHg1ZDlkX3dITkh1REdLMUxOZWl0MTVTUmZzaUE3c2RPSjJ0RndOaV9iMlZhNnlxS0N0SWxzdm1zSnF6ajg5dDk1djZFTDZ3Q2tuQmQ?oc=5"
+    },
+    {
+      "date": "2026-08-02",
+      "type": "infrastructure",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c998gg5pe09o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "date": "2026-08-02",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "At the scene of deadly Moscow bomb blast",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/videos/c1719pk0xq8o?at_medium=RSS&at_campaign=rss"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 173
+      "count": 174
     },
     {
       "place": "Moscow",
-      "count": 45
+      "count": 48
     },
     {
       "place": "Odesa",
@@ -3823,7 +3873,7 @@
     },
     {
       "place": "Zaporizhzhia",
-      "count": 8
+      "count": 9
     },
     {
       "place": "Belgorod",

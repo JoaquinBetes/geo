@@ -2,13 +2,13 @@
   "id": "korea_peninsula",
   "name": "Corea del Norte–Corea del Sur",
   "description": "Cobertura mediática de la tensión en la península coreana",
-  "updated": "2026-08-02T13:54:38+00:00",
-  "total_articles": 4548,
-  "overall_avg": -0.1934,
+  "updated": "2026-08-02T19:34:42+00:00",
+  "total_articles": 4582,
+  "overall_avg": -0.1949,
   "distribution": {
-    "pos": 1164,
-    "neu": 1086,
-    "neg": 2298
+    "pos": 1169,
+    "neu": 1089,
+    "neg": 2324
   },
   "sources": [
     "Al Jazeera",
@@ -52,6 +52,7 @@
     "한겨레",
     "Asia News Network",
     "Eurasia Review",
+    "Tech Times",
     "Kyiv Post",
     "stripes.com",
     "Latest news from Azerbaijan",
@@ -61,8 +62,8 @@
     "Korea Economic Institute of America -",
     "Bloomberg.com",
     "Radio Free Asia",
-    "Tech Times",
     "Межа. Новини України.",
+    "The Times",
     "The Hacker News",
     "19FortyFive",
     "The Defense Post",
@@ -75,7 +76,6 @@
     "AsiaNews",
     "StratNews Global",
     "Ednews.net",
-    "The Times",
     "AP News",
     "Military Watch Magazine",
     "East Asia Forum",
@@ -85,6 +85,7 @@
     "Caliber.Az",
     "Breakingthenews.net",
     "동아일보",
+    "AnewZ",
     "nhk.or.jp",
     "Yeni Safak English",
     "Українські Національні Новини (УНН)",
@@ -113,7 +114,6 @@
     "Financial Times",
     "The Business Standard",
     "Encyclopedia Britannica",
-    "AnewZ",
     "Arise News",
     "India Today",
     "Newsweek",
@@ -436,7 +436,8 @@
     "The Spectator Australia",
     "London Free Press",
     "13wham.com",
-    "Judo Inside"
+    "Judo Inside",
+    "khmertimeskh.com"
   ],
   "daily": [
     {
@@ -1057,28 +1058,28 @@
     },
     {
       "date": "2026-08-02",
-      "count": 50,
-      "avg": -0.296,
-      "pos": 10,
-      "neu": 6,
-      "neg": 34
+      "count": 84,
+      "avg": -0.338,
+      "pos": 15,
+      "neu": 9,
+      "neg": 60
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 1980,
-      "avg": -0.2707
+      "count": 2004,
+      "avg": -0.2729
     },
     {
       "source": "BBC",
-      "count": 584,
-      "avg": -0.2816
+      "count": 589,
+      "avg": -0.2844
     },
     {
       "source": "조선일보",
-      "count": 209,
-      "avg": -0.0589
+      "count": 210,
+      "avg": -0.0545
     },
     {
       "source": "NPR",
@@ -1271,6 +1272,11 @@
       "avg": -0.1919
     },
     {
+      "source": "Tech Times",
+      "count": 7,
+      "avg": -0.118
+    },
+    {
       "source": "Kyiv Post",
       "count": 6,
       "avg": -0.4484
@@ -1316,14 +1322,14 @@
       "avg": 0.5106
     },
     {
-      "source": "Tech Times",
-      "count": 6,
-      "avg": -0.104
-    },
-    {
       "source": "Межа. Новини України.",
       "count": 6,
       "avg": 0.0878
+    },
+    {
+      "source": "The Times",
+      "count": 5,
+      "avg": -0.2554
     },
     {
       "source": "The Hacker News",
@@ -1386,11 +1392,6 @@
       "avg": -0.2996
     },
     {
-      "source": "The Times",
-      "count": 4,
-      "avg": -0.1054
-    },
-    {
       "source": "AP News",
       "count": 4,
       "avg": 0.0645
@@ -1434,6 +1435,11 @@
       "source": "동아일보",
       "count": 4,
       "avg": 0.1847
+    },
+    {
+      "source": "AnewZ",
+      "count": 4,
+      "avg": -0.2156
     },
     {
       "source": "nhk.or.jp",
@@ -1574,11 +1580,6 @@
       "source": "Encyclopedia Britannica",
       "count": 3,
       "avg": -0.2334
-    },
-    {
-      "source": "AnewZ",
-      "count": 3,
-      "avg": -0.463
     },
     {
       "source": "Arise News",
@@ -3194,20 +3195,25 @@
       "source": "Judo Inside",
       "count": 1,
       "avg": 0.7906
+    },
+    {
+      "source": "khmertimeskh.com",
+      "count": 1,
+      "avg": 0.0
     }
   ],
   "top_entities": [
     {
       "name": "North Korea",
       "type": "LOCATION",
-      "count": 1204,
-      "avg": -0.0882
+      "count": 1206,
+      "avg": -0.0878
     },
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 442,
-      "avg": -0.2073
+      "count": 446,
+      "avg": -0.2108
     },
     {
       "name": "China",
@@ -3218,8 +3224,8 @@
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 343,
-      "avg": -0.2156
+      "count": 348,
+      "avg": -0.2203
     },
     {
       "name": "South Korea",
@@ -3236,14 +3242,14 @@
     {
       "name": "United States",
       "type": "LOCATION",
-      "count": 90,
-      "avg": -0.1906
+      "count": 91,
+      "avg": -0.1894
     },
     {
       "name": "Kim Jong-un",
       "type": "PERSON",
-      "count": 82,
-      "avg": -0.107
+      "count": 83,
+      "avg": -0.116
     },
     {
       "name": "DMZ",
@@ -3271,6 +3277,316 @@
     }
   ],
   "recent": [
+    {
+      "title": "Two crew killed as British pilot survives after firefighting helicopters collide in Greece",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c1417713ve6o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-02T19:15:57+00:00",
+      "compound": -0.7269,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Iran says negotiations with Oman over Strait of Hormuz in final stages",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/2/iran-says-negotiations-with-oman-over-strait-of-hormuz-in-final-stages?traffic_source=rss",
+      "published": "2026-08-02T19:08:06+00:00",
+      "compound": -0.0516,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Two helicopters collide mid-air while tackling wildfires in Greece",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/aje-onl-nf_two-helicopters-crash-mid-air-wildfires-in-greece-020826?traffic_source=rss",
+      "published": "2026-08-02T18:38:47+00:00",
+      "compound": -0.4215,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Ukrainian drone attacks kill eight in response to Russian missiles",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/2/ukrainian-drone-attacks-kill-eight-in-response-to-russian-missiles?traffic_source=rss",
+      "published": "2026-08-02T18:37:23+00:00",
+      "compound": -0.9246,
+      "label": "negative",
+      "entities": [
+        "Russia"
+      ]
+    },
+    {
+      "title": "‘Iron fist’ doesn’t work with Iran: Former US hostage in Tehran",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/the-bottom-line/2026/8/2/iron-fist-doesnt-work-with-iran-former-us-hostage-in-tehran?traffic_source=rss",
+      "published": "2026-08-02T18:28:13+00:00",
+      "compound": -0.0772,
+      "label": "negative",
+      "entities": [
+        "United States"
+      ]
+    },
+    {
+      "title": "Republican senator says former son-in-law should resign from US Congress",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/2/republican-senator-says-former-son-in-law-should-resign-from-us-congress?traffic_source=rss",
+      "published": "2026-08-02T18:27:41+00:00",
+      "compound": -0.8658,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Kim Jong-un’s shadow looms as missile destroys family in Ukraine",
+      "source": "The Times",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQeE05dURpMWpnajRhNm1EM2dJTmE1RWNLdkE3Z3huZm83QUJIMUpPQ2szWENlM2ZValdYNDRGbElqempaenJXaEVmSlhCU1VhbVJzUlRYR00wNWZXVmcxSi1OMmI0ZTFoRXdpWDNXbXpiOWFCRlhlQS1oeVdCLU5QODBpSFJYeUxnMVcyTlp5YVVqSER4UTNpR1ZkdWZma0FOR0RJTWdrenEwMmRzNWZ5Rko0THhJWFhsSTRNY215Q1V3MHc?oc=5",
+      "published": "2026-08-02T18:20:02+00:00",
+      "compound": -0.8555,
+      "label": "negative",
+      "entities": [
+        "Kim Jong-un"
+      ]
+    },
+    {
+      "title": "Fetus found among the ruins of a deadly Israeli strike on Gaza",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/fetus-found-among-the-ruins-of-a-deadly-israeli-strike-on-gaza?traffic_source=rss",
+      "published": "2026-08-02T17:57:01+00:00",
+      "compound": -0.5994,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Migrant deaths in Ceuta rise to 72 after border surge from Morocco",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/2/migrant-deaths-in-ceuta-rise-to-72-after-border-surge-from-morocco?traffic_source=rss",
+      "published": "2026-08-02T17:15:56+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Lee asks Prabowo to open dialogue with N Korea",
+      "source": "khmertimeskh.com",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONVVlWVBZbkhaczhXcVRkcHkwRjlETTNTd1NNYXJBdExPUXZkaG56Y21QTmUyd1cxazB4di1zSm1TS3lpdFRYbHdrcVlQUHMzc2JONjlZT2FnZlEzQzB1bkV3c2JDYkJnSWdBZmU0aFd4dEE2WExSd05rWkpNYlZiM2laOEVKUnlLb3dNbGVuZw?oc=5",
+      "published": "2026-08-02T17:12:03+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "‘Iran war participation trophy’ mocking Trump appears in New York",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/iran-war-participation-trophy-mocking-trump-appears-in-new-york?traffic_source=rss",
+      "published": "2026-08-02T17:06:30+00:00",
+      "compound": -0.9217,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Deadly floods and landslide hit India’s Kerala",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/deadly-floods-and-landslide-hit-indias-kerala?traffic_source=rss",
+      "published": "2026-08-02T16:55:39+00:00",
+      "compound": -0.802,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "At the scene of deadly Moscow bomb blast",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/videos/c1719pk0xq8o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-02T16:52:35+00:00",
+      "compound": -0.886,
+      "label": "negative",
+      "entities": [
+        "Russia"
+      ]
+    },
+    {
+      "title": "Suicide bomber kills 14 outside police station in Pakistan’s Swat",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/2/suicide-bomber-kills-14-outside-police-station-in-pakistans-swat?traffic_source=rss",
+      "published": "2026-08-02T16:40:44+00:00",
+      "compound": -0.9201,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Uganda unveils statue of Israel PM's brother who died in Entebbe rescue mission",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c9v471x89m3o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-02T16:37:02+00:00",
+      "compound": -0.2263,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Capital One cites anti-money laundering concerns in Trump Organization case",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/8/2/capital-one-cites-anti-money-laundering-concerns-in-trump-organization-case?traffic_source=rss",
+      "published": "2026-08-02T16:27:58+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Saudi Crown Prince MBS urges Trump to ‘prioritise dialogue’ in US-Iran war",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/2/saudi-crown-prince-mbs-urges-trump-to-prioritise-dialogue-in-us-iran-war?traffic_source=rss",
+      "published": "2026-08-02T16:10:32+00:00",
+      "compound": -0.8689,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/czjlvvkzj20o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-02T15:50:59+00:00",
+      "compound": -0.7906,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c998gg5pe09o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-02T15:48:00+00:00",
+      "compound": -0.4588,
+      "label": "negative",
+      "entities": [
+        "Russia"
+      ]
+    },
+    {
+      "title": "Israeli settlers shoot Palestinian child during farm raid",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/israeli-settlers-shoot-palestinian-child-during-farm-raid?traffic_source=rss",
+      "published": "2026-08-02T15:36:28+00:00",
+      "compound": -0.34,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "How to end the ‘Hormuz war’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/opinions/2026/8/2/how-to-end-the-hormuz?traffic_source=rss",
+      "published": "2026-08-02T15:33:20+00:00",
+      "compound": 0.6428,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Ukrainian farmers use temporary storage to revive grain exports",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/ukrainian-farmers-use-temporary-storage-to-revive-grain-exports?traffic_source=rss",
+      "published": "2026-08-02T15:14:26+00:00",
+      "compound": -0.128,
+      "label": "negative",
+      "entities": [
+        "Russia"
+      ]
+    },
+    {
+      "title": "Gangwon FC CEO Touts 70 Billion Won Promotional Value, Avoids Cancun Controversy",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQTdkNjNTRmcxZnJ2d21rTEQwejk2OW9Dai1GNzVycmVhay1QZjFOZ0hiV2otZ0tjT3gtZUZTQUtDc1UxQ0YzZVk4N2w5eHZHTWJUUkJ1Tjc4SEFSWDZURUV3dDViNENFWElMT1lXcWZ5TWs2VlhmU0gyQjB4UkR4Z0xMTGZEQQ?oc=5",
+      "published": "2026-08-02T15:09:07+00:00",
+      "compound": 0.8625,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Heatwave forces nuclear shutdown in Hungary",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/08-02-2026-hungary-nuclear-plant-sv?traffic_source=rss",
+      "published": "2026-08-02T14:44:34+00:00",
+      "compound": -0.6249,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Tanks, troops and space",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/8/2/tanks-troops-and-space?traffic_source=rss",
+      "published": "2026-08-02T14:34:21+00:00",
+      "compound": 0.34,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "CIA whistleblower John Kiriakou on accountability and CIA’s history",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/upfront/2026/8/2/cia-whistleblower-john-kiriakou-on-accountability-and-cias-history?traffic_source=rss",
+      "published": "2026-08-02T14:20:36+00:00",
+      "compound": 0.4767,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Firefighting helicopters collide, killing two, as Greece battles wildfires",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/2/firefighting-helicopters-collide-near-athens-as-greece-battles-wildfires?traffic_source=rss",
+      "published": "2026-08-02T14:15:34+00:00",
+      "compound": -0.8689,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Deadly ferry fire leaves dozens missing in Indonesia’s Java Sea",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/deadly-ferry-fire-leaves-dozens-missing-in-indonesias-java-sea?traffic_source=rss",
+      "published": "2026-08-02T14:14:25+00:00",
+      "compound": -0.802,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "No breakthrough on Strait of Hormuz as Trump halts attack on Iran",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/2/no-breakthrough-on-strait-of-hormuz-as-trump-halts-attack-on-iran?traffic_source=rss",
+      "published": "2026-08-02T14:11:54+00:00",
+      "compound": -0.8689,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Rubio’s bypass plan: Can the world escape the Strait of Hormuz chokepoint?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/8/2/rubios-bypass-plan-can-the-world-escape-the-strait-of-hormuz-chokepoint?traffic_source=rss",
+      "published": "2026-08-02T13:59:49+00:00",
+      "compound": -0.6249,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Communal violence between Hindus and Muslims grips southern Nepal",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/communal-violence-between-hindus-and-muslims-grips-southern-nepal?traffic_source=rss",
+      "published": "2026-08-02T13:55:07+00:00",
+      "compound": -0.8481,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Hundreds mourn Moroccan footballer who died trying to reach Ceuta",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/hundreds-mourn-moroccan-footballer-who-died-trying-to-reach-ceuta?traffic_source=rss",
+      "published": "2026-08-02T13:46:23+00:00",
+      "compound": -0.7351,
+      "label": "negative",
+      "entities": []
+    },
     {
       "title": "Pakistan-administered Kashmir election boycott follows deadly crackdown",
       "source": "Al Jazeera",
@@ -3413,6 +3729,17 @@
       "entities": []
     },
     {
+      "title": "North Korean IT Workers Use Real-Time Deepfakes to Beat Hiring Checks, Eleven Nations Warn",
+      "source": "Tech Times",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOOUctQWxQVGIydWNBbGNVV09ZX1A3bXEwX1ZDZURoYVhtT28zR1ZHRG1qVHYtTndFeGIwRXZWelhmYWlmZ0tBNlE2cVp1S0FmOW9CbHotZnJxY1FfMERlT3hBM3RsSjBmc0VUYXZwc09ESDVnTHhVdWRsSUlhS21uNEFyelFhaXRYVDA1ZlQ1VF85T2tPMUN4US1BVWx5by05eEhQemlFdE96RWdaa05jQlJrcDJRYXFHMllkcUdUV1c5YkRQYkd5TmRIZHVMRU0zc09JZU1zUGQ?oc=5",
+      "published": "2026-08-02T11:01:52+00:00",
+      "compound": -0.2023,
+      "label": "negative",
+      "entities": [
+        "North Korea"
+      ]
+    },
+    {
       "title": "Fastest runner to cross the Alps says it was an incredible experience",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/videos/crk5j6g8lmko?at_medium=RSS&at_campaign=rss",
@@ -3525,339 +3852,6 @@
       "compound": 0.5267,
       "label": "positive",
       "entities": []
-    },
-    {
-      "title": "Arsenal’s Arteta expects more signings as Tzolis scores against Girona",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/8/2/arsenals-arteta-expects-more-signings-as-tzolis-scores-against-girona?traffic_source=rss",
-      "published": "2026-08-02T08:08:19+00:00",
-      "compound": 0.5267,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Why Putin is using North Korean soldiers as Ukraine cannon fodder",
-      "source": "The Spectator Australia",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONTJ0U1UyNEtaR3hHbzRyZGRlYk5hajNhd3ZOX1VsR2s2Y3A0eWNzbWdOVVFrN243TFpLMENsR2tMd0VCbWJNcEI0LXhGaWNTUWYyZzVUdkJiMkhPVHhXV3dIOTNoenloSmJMM3R2M243aVJDVXRTZVR0eXZaYTVjQWp6QTBfM2s4c1JUQXVoaUIydUxmdEQ0cGt1WE4yUXNjQXliak1B?oc=5",
-      "published": "2026-08-02T07:43:31+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "Trump says he's cancelling Iran strikes, deal pending",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/08/02/nx-s1-5917113/trump-says-hes-cancelling-iran-strikes-deal-pending",
-      "published": "2026-08-02T07:34:27+00:00",
-      "compound": -0.6486,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Trump Justice Department Subpoenas NYT Journalist Over North Korea Report",
-      "source": "조선일보",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOHdUM000WXdIWm4xaE10UzhWRHJtYlhFa3hNV29NQU9zTXNjcXZrZFpYbl9KMUxmZ2VvNXdEOFpvNXZnbFRvVllvVFgwT0NMV1BvZzFMaXpJR1VNbE10dUdjYXl6bGgxNVRNT1NoN1c5ejZqVGVOTlJ5amgtellEOXZweUc?oc=5",
-      "published": "2026-08-02T05:37:10+00:00",
-      "compound": 0.7783,
-      "label": "positive",
-      "entities": [
-        "Donald Trump",
-        "North Korea"
-      ]
-    },
-    {
-      "title": "At least three dead in Idaho shopping mall mass shooting",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/at-least-three-dead-in-idaho-shopping-mall-mass-shooting?traffic_source=rss",
-      "published": "2026-08-02T05:29:36+00:00",
-      "compound": -0.8689,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Gaza students overcome Israel’s genocide to mark Tawjihi results",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/2026/8/2/gaza-students-overcome-israels-genocide-to-celebrate-tawjihi-results?traffic_source=rss",
-      "published": "2026-08-02T05:27:04+00:00",
-      "compound": -0.4019,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Three dead including female bomber in Moscow restaurant attack",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/three-dead-including-female-bomber-in-moscow-restaurant-attack?traffic_source=rss",
-      "published": "2026-08-02T04:44:55+00:00",
-      "compound": -0.9575,
-      "label": "negative",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "Why isn’t anyone challenging Infantino for FIFA’s top job?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/why-isnt-anyone-challenging-infantino-for-fifas-top-job?traffic_source=rss",
-      "published": "2026-08-02T04:34:19+00:00",
-      "compound": -0.4019,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Dyer: To avoid tiresome wars, let's speculate on dictator's heiress",
-      "source": "London Free Press",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRTdBSEQ2S2FIQm5NaGNsOHhHQzJZQmpuazBvLU96bk5lc0FiSmcyaG5LWDBTODhvSy1FSnp6aDAzNV81alNObEF0dWZZQXhYUVEyZlJIRkVmSk5DV010ajIwSGpRN19DRmEwVG01NF8yX2huZlBxVU04dWNRZEl4TGd1Szc1cFhTdUVKdWZDVjc2VjczNGNyQU9SUmVKdTFzTmFYcQ?oc=5",
-      "published": "2026-08-02T04:08:20+00:00",
-      "compound": -0.8074,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "How Virunga Park protects people and gorillas from Ebola in eastern DRC",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/2/how-virunga-park-protects-people-and-gorillas-from-ebola-in-eastern-drc?traffic_source=rss",
-      "published": "2026-08-02T03:46:27+00:00",
-      "compound": 0.5994,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Trump cancels Iran strike, says ‘deal perimeters’ reached",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/2/trump-cancels-iran-strike-says-deal-perimeters-reached?traffic_source=rss",
-      "published": "2026-08-02T03:36:43+00:00",
-      "compound": -0.1779,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Trump says he is cancelling strikes on Iran subject to 'rapidly' making deal",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-02T03:05:16+00:00",
-      "compound": -0.6705,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Israel kills five in Gaza despite Trump’s Hamas disarmament plan",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/2/israel-kills-five-in-gaza-despite-trumps-hamas-disarmament-plan?traffic_source=rss",
-      "published": "2026-08-02T02:58:51+00:00",
-      "compound": -0.7096,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Is criticism of Spain on border management legitimate or politics?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/8/2/is-criticism-of-spain-on-border-management-legitimate-or-politics?traffic_source=rss",
-      "published": "2026-08-02T02:55:31+00:00",
-      "compound": -0.4404,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "US embassies issue alerts after Trump vows to hit Iran ‘hard’",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/us-embassies-issue-alerts-after-trump-vows-to-hit-iran?traffic_source=rss",
-      "published": "2026-08-02T02:24:11+00:00",
-      "compound": -0.1027,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Thirteen dead in Peruvian tourist plane crash over Nazca Lines",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/thirteen-dead-in-peruvian-tourist-plane-crash-over-nazca-lines?traffic_source=rss",
-      "published": "2026-08-02T01:46:22+00:00",
-      "compound": -0.7906,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "U.S. Justice Department subpoenas New York Times journalist in North Korea leak probe",
-      "source": "The Hindu",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZ3hSbFN6WGptNkhQc1dYci1tQVlMbC1UNjQ4QXZzYUptZE9yUlQ4VXJJSkM3bk1IdTRITjhGMDFURHNULWpuNlFqd3dwYXBCQTZrUl8zbTJGd0l1STdfNktLd2VtVTVlcTZNX0JQXzZfRXVaOWw1T3FmRUNFbzRsV3VfbUpSY1RCank0VHE5YXA4azNkeEExTlEyeExwS3BSaDBRZ1YxcXNQeWNWUFgySTJ0WUI0c3lmUGRnYkdCNFJabWR6V1Q4cVBFbGdoMENwdGNTY0pVb3N2cmhEVXNWT9IB5wFBVV95cUxNSWtlU20xMjZrLTl3Ml9rRWZWQ2lfTkxnUWx4Nmp4am1rb090c3RVUXdQaUlMdllGZ0pHbWVBdGxQQkFRVk5GMi1tN0k2d0lLQWdYaC1jb3ZsOUpNbHkzaWRZQk52Ti1TcHBqdXVOUlFGNHpLbTJKWVM5WWE2bnBGTE5CbHFhVkNabE1HMGZDOC0xTkpoTXNPSGpkODd3QmhMY2VTc3lhbHRHVFZvdEZ2ajRlSzF0RjBfMmVXaHUzZVV3RXk5dm5aaHRhWU5TQXJqZXU4UzJpekFFOWxfRVR5ZDNTTWduUDg?oc=5",
-      "published": "2026-08-02T01:45:34+00:00",
-      "compound": 0.4588,
-      "label": "positive",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "Gunman kills several at Idaho fast-food restaurant",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/2/gunman-kills-several-at-idaho-fast-food-restaurant?traffic_source=rss",
-      "published": "2026-08-02T01:26:44+00:00",
-      "compound": -0.7096,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "How Spain's migrant crisis created a political storm - whipped up by social media",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c62vl925dqdo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-02T00:55:16+00:00",
-      "compound": -0.6705,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Hungary plans to shut down only nuclear power plant amid drought",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/2/hungary-plans-to-shut-down-only-nuclear-power-plant-amid-drought?traffic_source=rss",
-      "published": "2026-08-02T00:49:25+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Tourist plane crashes in Peru, killing 13",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c70g132erlko?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-02T00:29:55+00:00",
-      "compound": -0.6597,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Three killed after bomb detonated at Moscow restaurant, state media say",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c86n4ljxp63o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-02T00:02:18+00:00",
-      "compound": -0.34,
-      "label": "negative",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "Iran war live: Trump cancels attack, says ‘perimeters of a deal’ agreed",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/8/2/iran-war-live-tehran-warns-of-decisive-response-to-any-us-aggression?traffic_source=rss",
-      "published": "2026-08-02T00:00:00+00:00",
-      "compound": -0.8126,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Singapore bans UK band Massive Attack over Palestinian flag",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/1/singapore-bans-uk-band-massive-attack-over-palestinian-flag?traffic_source=rss",
-      "published": "2026-08-01T23:57:30+00:00",
-      "compound": -0.7351,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Solitude as a new aspirational lifestyle: 'We are not lonely'",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c5y63dw2x3wo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-01T23:56:19+00:00",
-      "compound": -0.5365,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "New York Times reveals Trump administration subpoena over North Korea story",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPS3RXci0zRFI0ZFNWaEx5ajhYUUN3aGFMd2RsYnpnbmZkR29NYTdQUktQbkFIcmRabmJuaUtEdkhoblhPSUtlWnc1QXd0WUlqRmNWR0h0M2tTT3l6Yy0xdm1rcFV3WHp6QmtZSmZUUUk5UlhxWDFJUkx6M0J1NFhmbXFodHM0cFdGTDRtcXQ0bFFvQ1ZUdUJEQUtGd1pVMVFmYVJfeGowcTBRNHhWa2tEakVXY1N6UdIBuwFBVV95cUxPYlZBZERZQmFPRExYejdPenAta3dKU09DV0JuSHVoT0k0QkRlczFJMEI1ZjE2NWJ3NkxiMTRWeE5DOV9rbGIySG5NaG41UDFWVVE4aTNUYTFVS1p0TTgyQnJBbkg4Q0lVTnNDbGlyS1h3UGw4M19tN3BraW1qUFRwVkt0NzB3UlBIMmtDU0d5Y0sxWFdrVWtOODN6SVRKVXgxVDRBak9XUFA4UlE2Rm1KdWd6MnJON1RiNGZv?oc=5",
-      "published": "2026-08-01T23:54:40+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Donald Trump",
-        "North Korea"
-      ]
-    },
-    {
-      "title": "New York Times reveals Trump administration subpoena over North Korea story",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/1/new-york-times-reveals-trump-administration-subpoena-over-north-korea-story?traffic_source=rss",
-      "published": "2026-08-01T23:42:44+00:00",
-      "compound": 0.128,
-      "label": "positive",
-      "entities": [
-        "Donald Trump",
-        "North Korea"
-      ]
-    },
-    {
-      "title": "Growing like ‘gangbusters’: Can Taiwan maintain its economic momentum?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/8/1/growing-like-gangbusters-can-taiwan-maintain-its-economic-momentum?traffic_source=rss",
-      "published": "2026-08-01T23:15:40+00:00",
-      "compound": -0.4678,
-      "label": "negative",
-      "entities": [
-        "Donald Trump",
-        "China"
-      ]
-    },
-    {
-      "title": "Young guns for hire - the teenage hitmen recruited to kill across Europe",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/czrjyevmv61o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-01T23:03:35+00:00",
-      "compound": -0.8126,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Russian ship defies sanctions to send military vehicles to Mali",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cgk4rdley0ko?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-01T23:03:23+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "Why Uganda seems to be winning the battle against Ebola as virus spreads in DR Congo",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/clyemjn44qqo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-01T23:03:15+00:00",
-      "compound": 0.2023,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "The Sopranos star Vincent Pastore dies aged 80",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cm2gz0epljgo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-01T22:57:55+00:00",
-      "compound": 0.34,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Steel Should Heed Hubbard's South Korea Lessons",
-      "source": "조선일보",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRGNnRDBWeWNuSWIya19jSzI5c2VpT0ZWSERnRllTRDVFQk5hdktrRTgtZVBrUm92UzVGMmJReWZZZTFpZ2NFWU1UNmZlMTBJNXJIWHVYTGU2Wm56TkxYb2JWeHZFWmFIWjJOb1o2amk3QjJZc1AwanA1RDRBTkM2bEdRTkNZNEtt?oc=5",
-      "published": "2026-08-01T22:35:39+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "South Korea"
-      ]
     }
   ]
 }

@@ -2,13 +2,13 @@
   "id": "russia_ukraine",
   "name": "Rusia–Ucrania",
   "description": "Cobertura mediática del conflicto entre Rusia y Ucrania",
-  "updated": "2026-08-02T19:34:29+00:00",
-  "total_articles": 5572,
-  "overall_avg": -0.3937,
+  "updated": "2026-08-03T03:54:19+00:00",
+  "total_articles": 5600,
+  "overall_avg": -0.3931,
   "distribution": {
-    "pos": 1081,
-    "neu": 667,
-    "neg": 3824
+    "pos": 1090,
+    "neu": 671,
+    "neg": 3839
   },
   "sources": [
     "Al Jazeera",
@@ -32,8 +32,8 @@
     "Українська правда",
     "Radio Free Europe/Radio Liberty",
     "PBS",
-    "CBS News",
     "Euromaidan Press",
+    "CBS News",
     "The Moscow Times",
     "EA WorldView",
     "NBC News",
@@ -405,7 +405,8 @@
     "Foreign Policy Research Institute",
     "The i Paper",
     "gazettextra.com",
-    "aa.com.tr"
+    "aa.com.tr",
+    "HuffPost UK"
   ],
   "daily": [
     {
@@ -1074,11 +1075,11 @@
     },
     {
       "date": "2026-07-30",
-      "count": 167,
-      "avg": -0.3917,
+      "count": 168,
+      "avg": -0.3946,
       "pos": 32,
       "neu": 18,
-      "neg": 117
+      "neg": 118
     },
     {
       "date": "2026-07-31",
@@ -1098,18 +1099,26 @@
     },
     {
       "date": "2026-08-02",
-      "count": 101,
-      "avg": -0.4793,
-      "pos": 11,
-      "neu": 11,
-      "neg": 79
+      "count": 118,
+      "avg": -0.4429,
+      "pos": 16,
+      "neu": 14,
+      "neg": 88
+    },
+    {
+      "date": "2026-08-03",
+      "count": 10,
+      "avg": -0.2393,
+      "pos": 4,
+      "neu": 1,
+      "neg": 5
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 2427,
-      "avg": -0.2748
+      "count": 2446,
+      "avg": -0.2731
     },
     {
       "source": "BBC",
@@ -1118,13 +1127,13 @@
     },
     {
       "source": "The Guardian",
-      "count": 246,
-      "avg": -0.6173
+      "count": 248,
+      "avg": -0.62
     },
     {
       "source": "NPR",
-      "count": 232,
-      "avg": -0.3004
+      "count": 233,
+      "avg": -0.2991
     },
     {
       "source": "UNITED24 Media",
@@ -1133,18 +1142,18 @@
     },
     {
       "source": "Institute for the Study of War",
-      "count": 75,
-      "avg": -0.7764
+      "count": 77,
+      "avg": -0.7659
     },
     {
       "source": "Kyiv Post",
-      "count": 64,
-      "avg": -0.396
+      "count": 65,
+      "avg": -0.4009
     },
     {
       "source": "The Independent",
-      "count": 62,
-      "avg": -0.8175
+      "count": 63,
+      "avg": -0.8194
     },
     {
       "source": "The New York Times",
@@ -1212,14 +1221,14 @@
       "avg": -0.6027
     },
     {
+      "source": "Euromaidan Press",
+      "count": 25,
+      "avg": -0.8488
+    },
+    {
       "source": "CBS News",
       "count": 24,
       "avg": -0.5352
-    },
-    {
-      "source": "Euromaidan Press",
-      "count": 24,
-      "avg": -0.8461
     },
     {
       "source": "The Moscow Times",
@@ -3080,38 +3089,43 @@
       "source": "aa.com.tr",
       "count": 1,
       "avg": -0.25
+    },
+    {
+      "source": "HuffPost UK",
+      "count": 1,
+      "avg": -0.9118
     }
   ],
   "top_entities": [
     {
       "name": "Ukraine",
       "type": "LOCATION",
-      "count": 2156,
-      "avg": -0.5696
+      "count": 2161,
+      "avg": -0.5705
     },
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 1792,
-      "avg": -0.6098
+      "count": 1798,
+      "avg": -0.6107
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 614,
-      "avg": -0.3267
+      "count": 620,
+      "avg": -0.323
     },
     {
       "name": "Kyiv",
       "type": "LOCATION",
-      "count": 433,
-      "avg": -0.6834
+      "count": 437,
+      "avg": -0.6853
     },
     {
       "name": "Volodymyr Zelensky",
       "type": "PERSON",
-      "count": 357,
-      "avg": -0.4813
+      "count": 358,
+      "avg": -0.4826
     },
     {
       "name": "Vladimir Putin",
@@ -3120,22 +3134,22 @@
       "avg": -0.6036
     },
     {
-      "name": "Moscow",
-      "type": "LOCATION",
-      "count": 153,
-      "avg": -0.7223
-    },
-    {
       "name": "NATO",
       "type": "ORG",
-      "count": 153,
-      "avg": -0.4276
+      "count": 155,
+      "avg": -0.4338
+    },
+    {
+      "name": "Moscow",
+      "type": "LOCATION",
+      "count": 154,
+      "avg": -0.724
     },
     {
       "name": "United States",
       "type": "LOCATION",
-      "count": 149,
-      "avg": -0.2893
+      "count": 152,
+      "avg": -0.2834
     },
     {
       "name": "Crimea",
@@ -3169,6 +3183,257 @@
     }
   ],
   "recent": [
+    {
+      "title": "Ukraine war live: Kyiv hits Wildberries again as Zelensky launches mass drone attack",
+      "source": "The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUG9XdVJadzNoVVFjdkRGX3NnNEEtY1F4VkVaNEZCVmJtbUlMcS1OV2dBMDB3MVVRZDJaQm1QNDIwOGpWcmhuNW5pX3B1dEtycktjMy12VmFYM2xVQUJNRTkwUUE5dnBOaGNfNDNKT3Vza2FWbDZlQjhfWDU0U0NDUGVxNkhKT3Z1YlozVlBlSHZmZGZKN3lVN1YxY1N0d1RxYnpHMDU4Tl9OYWhpaUVZQV9mTVVPUjlybGpLS3llcW1MOEU?oc=5",
+      "published": "2026-08-03T03:49:00+00:00",
+      "compound": -0.9325,
+      "label": "negative",
+      "entities": [
+        "Volodymyr Zelensky",
+        "Ukraine",
+        "Kyiv"
+      ]
+    },
+    {
+      "title": "Fires in Spokane, Washington, burn 600 structures, force 60,000 evacuations",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/3/fires-in-spokane-washington-burn-600-structures-force-60000-evacuations?traffic_source=rss",
+      "published": "2026-08-03T03:26:08+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "United States"
+      ]
+    },
+    {
+      "title": "Trump pauses ‘massive attack’ on Iran, says new talks to begin",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/3/trump-pauses-massive-attack-on-iran-says-new-talks-to-begin?traffic_source=rss",
+      "published": "2026-08-03T03:17:33+00:00",
+      "compound": -0.4767,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Brazil’s Lula launches reelection bid amid foreign interference concerns",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/3/brazils-lula-launches-reelection-bid-amid-foreign-interference-concerns?traffic_source=rss",
+      "published": "2026-08-03T02:54:25+00:00",
+      "compound": 0.128,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "The battle for the Maasai Mara: Can Kenya’s most iconic ecosystem be saved?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/2026/8/3/the-battle-for-the-maasai-mara-can-kenyas-most-iconic-ecosystem-be-saved?traffic_source=rss",
+      "published": "2026-08-03T01:57:58+00:00",
+      "compound": 0.6597,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Japan and US confirm rare joint intervention to prop up yen",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/8/3/japan-and-us-confirm-rare-joint-intervention-to-prop-up-yen?traffic_source=rss",
+      "published": "2026-08-03T01:34:19+00:00",
+      "compound": 0.6249,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Ukraine war briefing: Kyiv’s forces hit Wildberries again amid deadly trade of strikes with Russia",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZ3hVa0UtRHZwSHJzZG9MdGNQZjU1b21Dc0tDSG9wemdkZ2lLcENJOTBiNjdPN25xZGZVVjEzeWJRckJLSkZVLUtPaV9kWnJmOE1UcUU3TzhPelBXZHAyMUV3cTdqbHBURm41cmdlRXJkUmx5MEVPRWNCVkdZcXBIS0liVHVUY1JZcGlOc0pHa3RzdkxTcER1cg?oc=5",
+      "published": "2026-08-03T01:24:00+00:00",
+      "compound": -0.9153,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine",
+        "Kyiv"
+      ]
+    },
+    {
+      "title": "Ukraine war briefing: Kyiv’s forces hit Wildberries again amid deadly trade of strikes with Russia",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/aug/03/ukraine-war-briefing-kyiv-hit-wildberries-again",
+      "published": "2026-08-03T01:01:52+00:00",
+      "compound": -0.9982,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine",
+        "Kyiv",
+        "Moscow"
+      ]
+    },
+    {
+      "title": "Suicide bombing kills at least 14 people in Pakistan’s Swat Valley",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/3/suicide-bombing-kills-at-least-14-people-in-pakistans-swat-valley?traffic_source=rss",
+      "published": "2026-08-03T00:18:50+00:00",
+      "compound": -0.9413,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Iran war live: Trump says talks to resume; Tehran urges US to honour MoU",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/8/3/iran-war-live-trump-says-talks-set-to-begin-tehran-urges-us-to-honour-mou?traffic_source=rss",
+      "published": "2026-08-03T00:00:15+00:00",
+      "compound": 0.4588,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Trump says new round of Iran talks will begin Monday",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/2/trump-says-new-round-of-iran-talks-will-begin-monday?traffic_source=rss",
+      "published": "2026-08-02T23:48:08+00:00",
+      "compound": -0.5859,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Brazil’s Lula launches fourth-term bid, focuses on national sovereignty",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/2/brazils-lula-launches-fourth-term-bid-focuses-on-national-sovereignty?traffic_source=rss",
+      "published": "2026-08-02T23:37:16+00:00",
+      "compound": -0.1531,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Sudan army drone attack on Darfur kills 35, rights group says",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/2/sudan-army-drone-attack-on-darfur-kills-35-rights-group-says?traffic_source=rss",
+      "published": "2026-08-02T22:51:09+00:00",
+      "compound": -0.9432,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Wildfires force mass evacuations across the Pacific Northwest",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/aje-onl-nf_wildfires-force-evacuations-acrosspacific-northwest-020826?traffic_source=rss",
+      "published": "2026-08-02T21:47:18+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "United States"
+      ]
+    },
+    {
+      "title": "Local volunteers help rebuild destroyed Christian monastery in Lebanon",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/local-volunteers-help-rebuild-destroyed-christian-monastery-in-lebanon?traffic_source=rss",
+      "published": "2026-08-02T21:18:03+00:00",
+      "compound": -0.128,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Russo-Ukrainian war, day 1621: Overnight strikes hit Russian airbase and refinery as a Russian drone crosses into NATO territory",
+      "source": "Euromaidan Press",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1MTjFkNk5kN1NJWDlCSHBSMlBqLWIzTnUzdHpwdWxmUTFvczdoMW1oS3hEOTU2ZFUwX3lrZ3NXODRSR2I4VmhFMmhXMTdmNkVYSG1sZjZwT21BUzItbkUwd09sbzNtZk54WG03T2pQWURSUHhERDlV?oc=5",
+      "published": "2026-08-02T20:54:54+00:00",
+      "compound": -0.9153,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine",
+        "NATO"
+      ]
+    },
+    {
+      "title": "Iran Update Special Report, August 2, 2026",
+      "source": "Institute for the Study of War",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOY01YQjAwWUJGWnhxTmN1TkZzMzlfYTI1YU9ZaEFXTjRuUWVzdEMzazRHN0ROOU9NN29QaXBDT3RaRXVIaEYtT0pnbWw3X21ySkdqci05bTBDZXptNFhwc2FLNnhrWGVIVDhLS0R6VGJGa3NXWHJHRWVsS3V4TzBNelhyaXZOMUJxYmlQaDY2eGtVeXlfM0E?oc=5",
+      "published": "2026-08-02T20:52:56+00:00",
+      "compound": 0.128,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "UK PM Burnham vows to be ‘relentless’ on Channel migrant crossings",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/uk-pm-burnham-vows-to-be-relentless-on-channel-migrant-crossings?traffic_source=rss",
+      "published": "2026-08-02T20:45:01+00:00",
+      "compound": 0.0516,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Venezuela and the Dominican Republic say they will work to restore ties",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/2/venezuela-and-the-dominican-republic-say-they-will-work-to-restore-ties?traffic_source=rss",
+      "published": "2026-08-02T20:29:32+00:00",
+      "compound": 0.5267,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Is Washington dictating the agenda for talks in Venezuela?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/8/2/is-washington-dictating-the-agenda-for-talks-in-venezuela?traffic_source=rss",
+      "published": "2026-08-02T20:01:21+00:00",
+      "compound": 0.0258,
+      "label": "neutral",
+      "entities": [
+        "United States"
+      ]
+    },
+    {
+      "title": "How much has AIPAC spent against Michigan’s Abdul El-Sayed? And why?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/2/how-much-has-aipac-spent-against-michigans-abdul-el-sayed-and-why?traffic_source=rss",
+      "published": "2026-08-02T20:00:45+00:00",
+      "compound": 0.4696,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Israelis attack Armenian monastery in Jerusalem’s Old City",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/israelis-attack-armenian-monastery-in-jerusalems-old-city?traffic_source=rss",
+      "published": "2026-08-02T19:39:32+00:00",
+      "compound": -0.4767,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Body of climber Nirmal Purja, six others recovered after Pakistan avalanche",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/2/body-of-climber-nirmal-purja-six-others-recovered-after-pakistan-avalanche?traffic_source=rss",
+      "published": "2026-08-02T19:30:25+00:00",
+      "compound": -0.6705,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Most Americans say Trump has gone too far on US immigration: Poll",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/2/most-americans-say-trump-has-gone-too-far-on-us-immigration-poll?traffic_source=rss",
+      "published": "2026-08-02T19:26:05+00:00",
+      "compound": 0.4522,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
     {
       "title": "Two crew killed as British pilot survives after firefighting helicopters collide in Greece",
       "source": "BBC",
@@ -3540,242 +3805,6 @@
         "Russia",
         "Ukraine"
       ]
-    },
-    {
-      "title": "Yemen’s crumbling roads mean an arduous quest for water for Taiz villagers",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/2026/8/2/yemens-crumbling-roads-means-an-arduous-quest-for-water-for-taiz-villagers?traffic_source=rss",
-      "published": "2026-08-02T13:08:25+00:00",
-      "compound": -0.802,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Ukraine attempted to strike Zaporizhzhia spent fuel storage, says Russia's Rosatom",
-      "source": "aa.com.tr",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNYk5ST0hsRWk5dnZ2UWZ5djdHM0dJZ0xXT2MwQkhQQUZ1Nkt0enRiZEptUGpjek9WS1VsN3FSTXM1MkhDM2FLU1JqUFlraVpvUHdBZWJPMldZRnF4UUczb2diMHFnYzlmWWVqVkFWWlQ5S2E5bl81a1ItaGNmZ3hMeHg1ZDlkX3dITkh1REdLMUxOZWl0MTVTUmZzaUE3c2RPSjJ0RndOaV9iMlZhNnlxS0N0SWxzdm1zSnF6ajg5dDk1djZFTDZ3Q2tuQmQ?oc=5",
-      "published": "2026-08-02T13:02:01+00:00",
-      "compound": -0.25,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "South Korea has hottest day on record amid extreme weather globally",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/2/south-korea-has-hottest-day-on-record-amid-extreme-weather-globally?traffic_source=rss",
-      "published": "2026-08-02T12:34:35+00:00",
-      "compound": -0.6249,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "At least five dead, 41 missing after ferry catches fire off Indonesia",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/2/at-least-five-dead-41-missing-after-ferry-catches-fire-off-indonesia?traffic_source=rss",
-      "published": "2026-08-02T12:33:29+00:00",
-      "compound": -0.8934,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Why has EU called an emergency meeting on Spain migrant surge?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/2/why-has-the-eu-called-an-emergency-meeting-on-spain-migrants-surge?traffic_source=rss",
-      "published": "2026-08-02T12:32:51+00:00",
-      "compound": 0.1531,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Breakfasts around the world: In Australia, being denied vegemite is grounds for suing",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/08/02/nx-s1-5896064/breakfasts-around-the-world-in-australia-being-denied-vegemite-is-grounds-for-suing",
-      "published": "2026-08-02T12:08:07+00:00",
-      "compound": -0.296,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Spanish Ceuta witnesses a deadly ‘game’ for Moroccan migrants",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/2026/8/2/spanish-ceuta-witnesses-a-deadly-game-for-moroccan-migrants?traffic_source=rss",
-      "published": "2026-08-02T12:07:11+00:00",
-      "compound": 0.0258,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "The Board of Peace is a failed body and should be abandoned",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/opinions/2026/8/2/the-board-of-peace-is-a-failed-body-and-should-be-abandoned?traffic_source=rss",
-      "published": "2026-08-02T12:06:31+00:00",
-      "compound": -0.4215,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Israel’s influence industry in the US",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/the-listening-post/2026/8/2/israels-influence-industry-in-the-us?traffic_source=rss",
-      "published": "2026-08-02T12:02:04+00:00",
-      "compound": 0.296,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Five dead, 41 missing, after Indonesia ferry catches fire",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c74g0wjvlrxo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-02T11:49:40+00:00",
-      "compound": -0.8834,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Indigenous groups oppose Milei plan to open Argentina to foreign buyers",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/08-02-argentina-indigenous-protest-sv?traffic_source=rss",
-      "published": "2026-08-02T11:09:25+00:00",
-      "compound": -0.128,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Ben-Gvir mocks Palestinian detainee over prison conditions",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/ben-gvir-mocks-palestinian-detainee-over-prison-conditions?traffic_source=rss",
-      "published": "2026-08-02T11:09:03+00:00",
-      "compound": -0.9118,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "From Sudan to Spain: Between war and home | Al Jazeera Originals",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/al-jazeera-documentaries/2026/8/2/aje-onl-aj_or_sdn_war-020826?traffic_source=rss",
-      "published": "2026-08-02T11:07:13+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Fastest runner to cross the Alps says it was an incredible experience",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/videos/crk5j6g8lmko?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-02T10:59:55+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Israeli soldiers jailed over Sde Teiman walkout",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/israeli-soldiers-jailed-over-sde-teiman-walkout?traffic_source=rss",
-      "published": "2026-08-02T10:31:32+00:00",
-      "compound": -0.8807,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "FIFA boss Infantino’s position looks unacceptable: European Leagues head",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/8/2/fifa-boss-infantinos-position-looks-unacceptable-head-of-european-league?traffic_source=rss",
-      "published": "2026-08-02T10:31:25+00:00",
-      "compound": -0.4588,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "How drawing Iran into Ukraine war could spell doom for Putin's invasion",
-      "source": "the-sun.com",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcHJLcG5Nam94VWhkdF93Q3h2VWU5Ui10MzBNXzR1MU9GT3lyR3VZLTBWcWdYdU1GeEdzSDFzSlZQaHFqR1JtVGdhRWRxRFJvTE84ZTBLTHp1UnlvUkJtV19pNWxUZVBlVmJQNmtkWEk1UnRDVW1JQjJKQXhsTlVPYUoxcEJTN1Fx?oc=5",
-      "published": "2026-08-02T10:30:58+00:00",
-      "compound": -0.9217,
-      "label": "negative",
-      "entities": [
-        "Vladimir Putin",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Ukraine Blinds Russia’s Air Defenses, Hitting Eight Radar and Missile Systems in One Sweep",
-      "source": "UNITED24 Media",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNcDVZS0NaMGx4dzlCMmg3S3JOb1pxeHN0M1NGWGJrOTZvaHczMHlYVUhjVVZJcmROLUhnaks3RVZIRmdEdUFXNDh4em1UTFhvVmZfbEh2WGh4ZFpjZUdyVDdyZHZ4NWFoc1QzQTducjZVaVJGNWowbFBqSHdUTXE1bVgwNDVBMVIxTnZYbEZRRmY2TzRmeTBjU0thODlGRXBCZkQ4SDVYaDBYLUprdlB5UzFHYmZvc1pReU9haWlneTBNaEVlZUtOd2h6Ui1aanFw?oc=5",
-      "published": "2026-08-02T10:28:03+00:00",
-      "compound": 0.34,
-      "label": "positive",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "How drawing Iran into Ukraine war could spell doom for Putin's invasion",
-      "source": "The Sun",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSVQ0UFhLbEMwaVVnOFNZY0VIRVQwV3MxR0xkT1Mtc3BFUXpWcDF1d1dxNUtIM0V2b0hEbHFtaVJYN1UyVWxYWUc0RnZjTHkzbEFsWHJGYUNYN1pyY25VOVhwSHQ0bVBVbjVjVXBNelFVcndHcThqR0xnZFRuZVUwR2x6OFFqaWREc3c?oc=5",
-      "published": "2026-08-02T10:27:00+00:00",
-      "compound": -0.9217,
-      "label": "negative",
-      "entities": [
-        "Vladimir Putin",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Washington state wildfires trigger evacuations",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/videos/cpd7912xyq4o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-02T10:20:10+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "United States"
-      ]
-    },
-    {
-      "title": "Ukraine News Today: Breaking Updates & Live Coverage - August 2, 2026 from Kyiv Post",
-      "source": "kyivpost.com",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9DOWl0TDA2RkpsZHZtc0hKTG9WVUczOC1nYjA3RDM2SGlfOWpPT2Q5YVNGblNSWDVfRTRiV3lhVi0xMmlJSXE3d2FPeFI4UQ?oc=5",
-      "published": "2026-08-02T10:00:53+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Ukraine",
-        "Kyiv"
-      ]
-    },
-    {
-      "title": "2 killed after Ukrainian drone hits residential building in Russia's Saratov region",
-      "source": "Anadolu Ajansı",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZ1FmZk82VDdCT3NrZ0xDQVpuVU41OVR5TFBsbllXRjFScVZqMDluTnJ1b1ZrVjlRUWtiMDNaWjBORGlydUlyQ1pPMFZfdHpkbnJjWmdLLWtOVEdBeTZVMGxCSXhIM1V1ZzRzMno4dlBCTGV1U0xUVGVLcTA2WGp4OEthT2NVWGRXbjFTb0xrMGpWTkZwX256UDZDek5kNHBIQjdnS1gyVmI5MTBQc2d1ZGZqeXNfVUp1dTl5M3hXQzdnczI0TVVzSUJvWDJ4clE?oc=5",
-      "published": "2026-08-02T09:59:38+00:00",
-      "compound": -0.875,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Residents of Spain’s Ceuta shut down far-right anti-migrant rally",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/2-08-sv-ceuta-cancel-farright-protests-es?traffic_source=rss",
-      "published": "2026-08-02T09:55:06+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "A quiet day in Harare after Zimbabwe’s shutdown call",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/2/a-quiet-day-in-harare-after-zimbabwes-shutdown-call?traffic_source=rss",
-      "published": "2026-08-02T09:50:48+00:00",
-      "compound": -0.1779,
-      "label": "negative",
-      "entities": []
     }
   ]
 }

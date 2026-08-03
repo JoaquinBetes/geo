@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-08-03T10:05:41+00:00",
+  "updated": "2026-08-03T15:16:11+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -46,9 +46,9 @@
     "to": "2026-08-03"
   },
   "kpis": {
-    "events_total": 16,
-    "events_unlocated": 619,
-    "events_7d": 0,
+    "events_total": 17,
+    "events_unlocated": 628,
+    "events_7d": 1,
     "events_prev_7d": 3,
     "hottest_place": "DMZ"
   },
@@ -154,6 +154,15 @@
     },
     {
       "date": "2026-07-26",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-08-03",
       "total": 1,
       "strike": 1,
       "ground": 0,
@@ -322,6 +331,16 @@
       "title": "Zelensky warns Russia is recruiting 30,000 North Korean soldiers as Pyongyang plans missile launcher transfers",
       "source": "Межа. Новини України.",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9YbTdmWmtfQ3N3SkZFdUJ4cUp2ZjU1dEd2R1pxeDB3TlNPcEVkZnd1SmZmaGRoQWlsLVZPSHUxNkxSUmhYdnVEMDU1ZjFqSFQzUndnTG1ZWC1TQldxZWdsMEkzdjRiVzM3VTg4bGpFOA?oc=5"
+    },
+    {
+      "date": "2026-08-03",
+      "type": "strike",
+      "place": "Seongju",
+      "lat": 35.92,
+      "lon": 128.28,
+      "title": "Pentagon boosts Patriot, THAAD interceptor output amid stockpile strain",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/8/3/pentagon-boosts-patriot-thaad-interceptor-output-amid-stockpile-strain?traffic_source=rss"
     }
   ],
   "top_places": [
@@ -335,6 +354,10 @@
     },
     {
       "place": "Pyongyang",
+      "count": 1
+    },
+    {
+      "place": "Seongju",
       "count": 1
     }
   ],

@@ -1,6 +1,6 @@
 {
   "id": "china_taiwan",
-  "updated": "2026-08-03T03:54:31+00:00",
+  "updated": "2026-08-03T10:05:35+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -46,9 +46,9 @@
     "to": "2026-08-03"
   },
   "kpis": {
-    "events_total": 17,
-    "events_unlocated": 655,
-    "events_7d": 3,
+    "events_total": 19,
+    "events_unlocated": 662,
+    "events_7d": 5,
     "events_prev_7d": 6,
     "hottest_place": "Taipei"
   },
@@ -174,6 +174,15 @@
       "date": "2026-08-02",
       "total": 1,
       "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-08-03",
+      "total": 2,
+      "strike": 2,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -350,12 +359,32 @@
       "title": "New missile could begin production next year",
       "source": "Taipei Times",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE90djNwdk5DZDZGRGpTX01iNkdUVHpfY0dTSFBKc3BkbFBjM1JEazB6YVdPWjdSNjExcUhiSnhYSXBPcXNGS1BnUVBqQVZHS3U0cFI2bFZvaGJhdmZxSjFyUW5XeFM2TllwOFN0a1RHTVRiZ1R2QS1PZQ?oc=5"
+    },
+    {
+      "date": "2026-08-03",
+      "type": "strike",
+      "place": "South China Sea",
+      "lat": 15.0,
+      "lon": 115.0,
+      "title": "Are commercial sea drones new headache for PLA in South China Sea and Taiwan?",
+      "source": "South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQnV6QzhhMlFqMzhieU5IODZ6ZDdKM3V0dmUxV0h5Y0h3eVRjSEJpZ2IyVEVnUkpsTl9Mc1ZHcFhIZHByM1dUUjB5ekczcjJBLXZuTUhxSEhRMEFjcWM4a2dOYmNIZHhMdnlhZzBjWG9Sa1RYemN6UG9kTGZmRHMyQlp1ZURlMHZRczJJMDVyckJIOFBlOGZnQjVxV2dXbkRYakh5aHRWVFlyMmxNX2NGajMxM1VBd0trZmlNRWtVaGlKaEEwdUp1cWNlME9vd9IBzgFBVV95cUxNMkdGa2ZmRE80dkZycnNES1hSdzBkQ1FqeDlvenJFazd0WlpPOFh1WC1qOUxLbmF1ZDVDLUUzQms2TEh5LWh6dUpUTl8wUkIwYW9BenhKdnNZN2VmaGFreVFLbFUyMFdaVzN6Zkp2Y3hYVDJvaThNSXlpWXVNRFpwQVBFUWdfZU9pZjAtNndfM09QR056YUY5NldaZHhoSVpHdTAxOFZwTmRKaTdDWXJUekRNcl9NV2NxV2RjRmstNk0xRkp2dERzdkw4Z0NFdw?oc=5"
+    },
+    {
+      "date": "2026-08-03",
+      "type": "strike",
+      "place": "Taipei",
+      "lat": 25.033,
+      "lon": 121.5654,
+      "title": "Surface drones to be in general budget as drone plan remains stalled: Koo",
+      "source": "Taipei Times",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBVbDdNLVlEc2Z2V1BpZlhTU3lNdG9WRnFaQm12NFV2WTg1aDhLUkUxX3g0QkoxTkR0LW5rQTdtTXZiTHNfLXhhNmI2YWVPVXVFX2dQdXFRNTlwUDYtcTRwNlRfeDRoRTJQMnlnQXVTTWdvamJsVFdvTWlR?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Taipei",
-      "count": 10
+      "count": 11
     },
     {
       "place": "Xiamen",
@@ -363,6 +392,10 @@
     },
     {
       "place": "Manila",
+      "count": 1
+    },
+    {
+      "place": "South China Sea",
       "count": 1
     }
   ],

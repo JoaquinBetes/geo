@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-08-04T19:56:00+00:00",
+  "updated": "2026-08-05T03:32:21+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-08-04"
+    "to": "2026-08-05"
   },
   "kpis": {
-    "events_total": 358,
-    "events_unlocated": 1043,
-    "events_7d": 74,
-    "events_prev_7d": 36,
+    "events_total": 362,
+    "events_unlocated": 1051,
+    "events_7d": 73,
+    "events_prev_7d": 35,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -516,9 +516,18 @@
     },
     {
       "date": "2026-08-04",
-      "total": 6,
-      "strike": 5,
+      "total": 7,
+      "strike": 6,
       "ground": 1,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-08-05",
+      "total": 3,
+      "strike": 3,
+      "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -4104,16 +4113,56 @@
       "title": "Ukrainian vegetable seller targeted in 'human safari' drone attack",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/videos/clye173d533o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "One killed, 12 injured in Russian ballistic missile attack on Kyiv",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/4/russia-strikes-ukrainian-capital-kyiv-with-ballistic-missiles?traffic_source=rss"
+    },
+    {
+      "date": "2026-08-05",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "One killed, 12 injured in Russian ballistic missile attack on Kyiv",
+      "source": "aljazeera.com",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQakxadDBaakxEWXBQMjZpMWdLekt6T01HRHVnWkgyVHdPVE1kRU9kRnczLVpNak5jVEZ1bGp4Snd2NWVlaDhGQWEtNUI5bC16SU5sNHJPN2laeHhRckR2VlliQkZJSWNnZGZ6OHJLdFJEVVVRaDM5ZmJrVUZ6emVMM21ualhfU2JlVFVKRE1LZHYtYzA3c2xTOWsxbjlvX2Z3LThJ0gGoAUFVX3lxTFBQZ0JQdGt6V3RQUmVxdGhGMFBmMHlLSHl0WUpCNG1vRlBoMkZGX0s0RFNzZ3Bxam8tcnVYTkN3RU1idk9LLVFJSW84aWZaQ2hRZkhXRnVtbjMxdkI3N3hackhyY2FaZl9zWjBub2FySXo2d3JmRHhCbkprcmwxNEtYVmRSTFpRcFJ3YkNTOGxkeFBCOTJrdDNRcjNVaThLdXhGM3QxRFFSNw?oc=5"
+    },
+    {
+      "date": "2026-08-05",
+      "type": "strike",
+      "place": "Sevastopol",
+      "lat": 44.6166,
+      "lon": 33.5254,
+      "title": "Ukraine war briefing: Russian soldier in Crimea shoots comrades and civilians",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/aug/05/ukraine-war-briefing-russian-soldier-crimea-shoots-comrades-civilians"
+    },
+    {
+      "date": "2026-08-05",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russian ballistic missile strike on Kyiv kills two and injures others, officials say",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c330pxyvzzyo?at_medium=RSS&at_campaign=rss"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 174
+      "count": 173
     },
     {
       "place": "Moscow",
-      "count": 54
+      "count": 53
     },
     {
       "place": "Odesa",
@@ -4144,7 +4193,7 @@
       "count": 4
     },
     {
-      "place": "Mykolaiv",
+      "place": "Sevastopol",
       "count": 3
     }
   ],

@@ -1,6 +1,6 @@
 {
   "id": "china_taiwan",
-  "updated": "2026-08-05T03:32:29+00:00",
+  "updated": "2026-08-05T09:05:14+00:00",
   "overall_tone": -0.1536,
   "rsf_as_of": "2025 (aprox.)",
   "outlets": [
@@ -15,9 +15,9 @@
       "lat": 25.2867,
       "lon": 51.5333,
       "rsf": 84,
-      "articles": 2456,
-      "tone_avg": -0.2581,
-      "tone_delta": -0.1045
+      "articles": 2479,
+      "tone_avg": -0.2582,
+      "tone_delta": -0.1046
     },
     {
       "name": "Taipei Times",
@@ -30,9 +30,9 @@
       "lat": 25.033,
       "lon": 121.5654,
       "rsf": 24,
-      "articles": 1914,
-      "tone_avg": -0.0251,
-      "tone_delta": 0.1285
+      "articles": 1918,
+      "tone_avg": -0.0252,
+      "tone_delta": 0.1284
     },
     {
       "name": "BBC",
@@ -45,9 +45,9 @@
       "lat": 51.5188,
       "lon": -0.144,
       "rsf": 20,
-      "articles": 735,
-      "tone_avg": -0.2799,
-      "tone_delta": -0.1263
+      "articles": 738,
+      "tone_avg": -0.2802,
+      "tone_delta": -0.1266
     },
     {
       "name": "NPR",
@@ -60,9 +60,9 @@
       "lat": 38.899,
       "lon": -77.008,
       "rsf": 57,
-      "articles": 236,
-      "tone_avg": -0.2978,
-      "tone_delta": -0.1442
+      "articles": 239,
+      "tone_avg": -0.2971,
+      "tone_delta": -0.1435
     },
     {
       "name": "Focus Taiwan (CNA)",
@@ -75,9 +75,9 @@
       "lat": 25.04,
       "lon": 121.56,
       "rsf": 24,
-      "articles": 128,
-      "tone_avg": -0.0323,
-      "tone_delta": 0.1213
+      "articles": 131,
+      "tone_avg": -0.0293,
+      "tone_delta": 0.1243
     },
     {
       "name": "TIME",
@@ -215,6 +215,21 @@
       "tone_delta": 0.3535
     },
     {
+      "name": "The Japan Times",
+      "url": "https://www.japantimes.co.jp",
+      "city": "Tokio",
+      "country": "Japón",
+      "iso3": "JPN",
+      "type": "privado",
+      "desc": "El diario japonés en inglés más antiguo.",
+      "lat": 35.65,
+      "lon": 139.745,
+      "rsf": 66,
+      "articles": 13,
+      "tone_avg": -0.0384,
+      "tone_delta": 0.1152
+    },
+    {
       "name": "The Times of India",
       "url": "https://timesofindia.indiatimes.com",
       "city": "Bombay",
@@ -243,21 +258,6 @@
       "articles": 13,
       "tone_avg": 0.0462,
       "tone_delta": 0.1998
-    },
-    {
-      "name": "The Japan Times",
-      "url": "https://www.japantimes.co.jp",
-      "city": "Tokio",
-      "country": "Japón",
-      "iso3": "JPN",
-      "type": "privado",
-      "desc": "El diario japonés en inglés más antiguo.",
-      "lat": 35.65,
-      "lon": 139.745,
-      "rsf": 66,
-      "articles": 11,
-      "tone_avg": -0.0219,
-      "tone_delta": 0.1317
     },
     {
       "name": "Hindustan Times",
@@ -410,6 +410,21 @@
       "tone_delta": 0.1272
     },
     {
+      "name": "France 24",
+      "url": "https://www.france24.com/en/",
+      "city": "París",
+      "country": "Francia",
+      "iso3": "FRA",
+      "type": "estatal",
+      "desc": "El canal internacional del Estado francés (France Médias Monde).",
+      "lat": 48.841,
+      "lon": 2.268,
+      "rsf": 25,
+      "articles": 5,
+      "tone_avg": -0.33,
+      "tone_delta": -0.1764
+    },
+    {
       "name": "The Chosun Ilbo",
       "url": "https://www.chosun.com/english/",
       "city": "Seúl",
@@ -483,21 +498,6 @@
       "articles": 4,
       "tone_avg": -0.2994,
       "tone_delta": -0.1458
-    },
-    {
-      "name": "France 24",
-      "url": "https://www.france24.com/en/",
-      "city": "París",
-      "country": "Francia",
-      "iso3": "FRA",
-      "type": "estatal",
-      "desc": "El canal internacional del Estado francés (France Médias Monde).",
-      "lat": 48.841,
-      "lon": 2.268,
-      "rsf": 25,
-      "articles": 4,
-      "tone_avg": -0.1838,
-      "tone_delta": -0.0302
     },
     {
       "name": "Forbes",
@@ -848,19 +848,19 @@
   "by_country": {
     "QAT": {
       "outlets": 1,
-      "articles": 2456
+      "articles": 2479
     },
     "TWN": {
       "outlets": 2,
-      "articles": 2042
+      "articles": 2049
     },
     "GBR": {
       "outlets": 7,
-      "articles": 835
+      "articles": 838
     },
     "USA": {
       "outlets": 19,
-      "articles": 447
+      "articles": 450
     },
     "CHN": {
       "outlets": 3,
@@ -872,7 +872,7 @@
     },
     "JPN": {
       "outlets": 3,
-      "articles": 41
+      "articles": 43
     },
     "IND": {
       "outlets": 7,
@@ -880,6 +880,10 @@
     },
     "DEU": {
       "outlets": 1,
+      "articles": 6
+    },
+    "FRA": {
+      "outlets": 2,
       "articles": 6
     },
     "KOR": {
@@ -893,10 +897,6 @@
     "ARE": {
       "outlets": 1,
       "articles": 4
-    },
-    "FRA": {
-      "outlets": 2,
-      "articles": 5
     },
     "CAN": {
       "outlets": 1,
@@ -918,11 +918,11 @@
   "others": [
     {
       "source": "Taiwan News",
-      "articles": 143
+      "articles": 145
     },
     {
       "source": "China Daily",
-      "articles": 28
+      "articles": 29
     },
     {
       "source": "American Enterprise Institute - AEI",
@@ -950,23 +950,23 @@
     },
     {
       "source": "Yahoo",
-      "articles": 15
+      "articles": 16
     },
     {
       "source": "Inquirer.net",
       "articles": 14
     },
     {
-      "source": "Internazionale",
-      "articles": 12
-    },
-    {
       "source": "StratNews Global",
-      "articles": 11
+      "articles": 13
     },
     {
       "source": "Taiwan Insight",
-      "articles": 11
+      "articles": 12
+    },
+    {
+      "source": "Internazionale",
+      "articles": 12
     },
     {
       "source": "조선일보",
@@ -977,7 +977,7 @@
       "articles": 11
     }
   ],
-  "others_total": 1050,
-  "matched_articles": 6023,
-  "total_articles": 7073
+  "others_total": 1061,
+  "matched_articles": 6062,
+  "total_articles": 7123
 }

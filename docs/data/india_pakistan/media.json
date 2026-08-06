@@ -1,7 +1,7 @@
 {
   "id": "india_pakistan",
-  "updated": "2026-08-06T03:36:56+00:00",
-  "overall_tone": -0.2718,
+  "updated": "2026-08-06T09:06:08+00:00",
+  "overall_tone": -0.271,
   "rsf_as_of": "2025 (aprox.)",
   "outlets": [
     {
@@ -15,9 +15,9 @@
       "lat": 25.2867,
       "lon": 51.5333,
       "rsf": 84,
-      "articles": 2274,
-      "tone_avg": -0.2695,
-      "tone_delta": 0.0023
+      "articles": 2289,
+      "tone_avg": -0.2698,
+      "tone_delta": 0.0012
     },
     {
       "name": "BBC",
@@ -30,9 +30,9 @@
       "lat": 51.5188,
       "lon": -0.144,
       "rsf": 20,
-      "articles": 680,
-      "tone_avg": -0.2841,
-      "tone_delta": -0.0123
+      "articles": 688,
+      "tone_avg": -0.2839,
+      "tone_delta": -0.0129
     },
     {
       "name": "NPR",
@@ -45,9 +45,24 @@
       "lat": 38.899,
       "lon": -77.008,
       "rsf": 57,
-      "articles": 206,
-      "tone_avg": -0.2938,
-      "tone_delta": -0.022
+      "articles": 208,
+      "tone_avg": -0.2973,
+      "tone_delta": -0.0263
+    },
+    {
+      "name": "India Today",
+      "url": "https://www.indiatoday.in",
+      "city": "Noida",
+      "country": "India",
+      "iso3": "IND",
+      "type": "privado",
+      "desc": "Grupo multimedia indio de gran alcance; televisión de ritmo intenso.",
+      "lat": 28.5355,
+      "lon": 77.391,
+      "rsf": 151,
+      "articles": 191,
+      "tone_avg": -0.2922,
+      "tone_delta": -0.0212
     },
     {
       "name": "The Times of India",
@@ -62,22 +77,7 @@
       "rsf": 151,
       "articles": 187,
       "tone_avg": -0.2776,
-      "tone_delta": -0.0058
-    },
-    {
-      "name": "India Today",
-      "url": "https://www.indiatoday.in",
-      "city": "Noida",
-      "country": "India",
-      "iso3": "IND",
-      "type": "privado",
-      "desc": "Grupo multimedia indio de gran alcance; televisión de ritmo intenso.",
-      "lat": 28.5355,
-      "lon": 77.391,
-      "rsf": 151,
-      "articles": 187,
-      "tone_avg": -0.2909,
-      "tone_delta": -0.0191
+      "tone_delta": -0.0066
     },
     {
       "name": "Firstpost",
@@ -90,9 +90,9 @@
       "lat": 19.08,
       "lon": 72.88,
       "rsf": 151,
-      "articles": 83,
-      "tone_avg": -0.3349,
-      "tone_delta": -0.0631
+      "articles": 85,
+      "tone_avg": -0.3193,
+      "tone_delta": -0.0483
     },
     {
       "name": "TIME",
@@ -107,7 +107,7 @@
       "rsf": 57,
       "articles": 74,
       "tone_avg": -0.262,
-      "tone_delta": 0.0098
+      "tone_delta": 0.009
     },
     {
       "name": "NDTV",
@@ -120,9 +120,9 @@
       "lat": 28.549,
       "lon": 77.247,
       "rsf": 151,
-      "articles": 70,
-      "tone_avg": -0.3482,
-      "tone_delta": -0.0764
+      "articles": 72,
+      "tone_avg": -0.3385,
+      "tone_delta": -0.0675
     },
     {
       "name": "The Indian Express",
@@ -135,9 +135,9 @@
       "lat": 28.62,
       "lon": 77.21,
       "rsf": 151,
-      "articles": 59,
-      "tone_avg": -0.4384,
-      "tone_delta": -0.1666
+      "articles": 61,
+      "tone_avg": -0.4449,
+      "tone_delta": -0.1739
     },
     {
       "name": "Hindustan Times",
@@ -150,9 +150,9 @@
       "lat": 28.6139,
       "lon": 77.209,
       "rsf": 151,
-      "articles": 58,
-      "tone_avg": -0.2815,
-      "tone_delta": -0.0097
+      "articles": 59,
+      "tone_avg": -0.2767,
+      "tone_delta": -0.0057
     },
     {
       "name": "The Guardian",
@@ -167,7 +167,37 @@
       "rsf": 20,
       "articles": 38,
       "tone_avg": -0.3989,
-      "tone_delta": -0.1271
+      "tone_delta": -0.1279
+    },
+    {
+      "name": "Dawn",
+      "url": "https://www.dawn.com",
+      "city": "Karachi",
+      "country": "Pakistán",
+      "iso3": "PAK",
+      "type": "privado",
+      "desc": "El diario en inglés más antiguo y prestigioso de Pakistán (fundado por Jinnah); frecuentemente en tensión con los militares.",
+      "lat": 24.8607,
+      "lon": 67.0011,
+      "rsf": 158,
+      "articles": 35,
+      "tone_avg": -0.0624,
+      "tone_delta": 0.2086
+    },
+    {
+      "name": "WION",
+      "url": "https://www.wionews.com",
+      "city": "Nueva Delhi",
+      "country": "India",
+      "iso3": "IND",
+      "type": "privado",
+      "desc": "Canal internacional del grupo Zee; mirada india del mundo.",
+      "lat": 28.55,
+      "lon": 77.25,
+      "rsf": 151,
+      "articles": 31,
+      "tone_avg": -0.2923,
+      "tone_delta": -0.0213
     },
     {
       "name": "The Hindu",
@@ -182,37 +212,7 @@
       "rsf": 151,
       "articles": 31,
       "tone_avg": -0.1387,
-      "tone_delta": 0.1331
-    },
-    {
-      "name": "Dawn",
-      "url": "https://www.dawn.com",
-      "city": "Karachi",
-      "country": "Pakistán",
-      "iso3": "PAK",
-      "type": "privado",
-      "desc": "El diario en inglés más antiguo y prestigioso de Pakistán (fundado por Jinnah); frecuentemente en tensión con los militares.",
-      "lat": 24.8607,
-      "lon": 67.0011,
-      "rsf": 158,
-      "articles": 31,
-      "tone_avg": -0.0738,
-      "tone_delta": 0.198
-    },
-    {
-      "name": "WION",
-      "url": "https://www.wionews.com",
-      "city": "Nueva Delhi",
-      "country": "India",
-      "iso3": "IND",
-      "type": "privado",
-      "desc": "Canal internacional del grupo Zee; mirada india del mundo.",
-      "lat": 28.55,
-      "lon": 77.25,
-      "rsf": 151,
-      "articles": 29,
-      "tone_avg": -0.2979,
-      "tone_delta": -0.0261
+      "tone_delta": 0.1323
     },
     {
       "name": "The Express Tribune",
@@ -227,7 +227,7 @@
       "rsf": 158,
       "articles": 18,
       "tone_avg": -0.2042,
-      "tone_delta": 0.0676
+      "tone_delta": 0.0668
     },
     {
       "name": "Arab News",
@@ -242,7 +242,7 @@
       "rsf": 165,
       "articles": 13,
       "tone_avg": -0.3397,
-      "tone_delta": -0.0679
+      "tone_delta": -0.0687
     },
     {
       "name": "The Telegraph (India)",
@@ -257,7 +257,7 @@
       "rsf": 151,
       "articles": 13,
       "tone_avg": 0.0091,
-      "tone_delta": 0.2809
+      "tone_delta": 0.2801
     },
     {
       "name": "South China Morning Post",
@@ -272,7 +272,7 @@
       "rsf": 135,
       "articles": 9,
       "tone_avg": -0.1356,
-      "tone_delta": 0.1362
+      "tone_delta": 0.1354
     },
     {
       "name": "Gulf News",
@@ -287,7 +287,7 @@
       "rsf": 164,
       "articles": 8,
       "tone_avg": 0.0129,
-      "tone_delta": 0.2847
+      "tone_delta": 0.2839
     },
     {
       "name": "Deutsche Welle",
@@ -302,7 +302,7 @@
       "rsf": 11,
       "articles": 6,
       "tone_avg": -0.0956,
-      "tone_delta": 0.1762
+      "tone_delta": 0.1754
     },
     {
       "name": "The Independent",
@@ -317,7 +317,22 @@
       "rsf": 20,
       "articles": 5,
       "tone_avg": -0.1355,
-      "tone_delta": 0.1363
+      "tone_delta": 0.1355
+    },
+    {
+      "name": "Associated Press",
+      "url": "https://apnews.com",
+      "city": "Nueva York",
+      "country": "Estados Unidos",
+      "iso3": "USA",
+      "type": "agencia",
+      "desc": "Cooperativa de medios sin fines de lucro; junto a Reuters y AFP, columna vertebral informativa mundial.",
+      "lat": 40.757,
+      "lon": -74.0,
+      "rsf": 57,
+      "articles": 4,
+      "tone_avg": 0.0702,
+      "tone_delta": 0.3412
     },
     {
       "name": "Reuters",
@@ -332,7 +347,7 @@
       "rsf": 20,
       "articles": 4,
       "tone_avg": -0.0037,
-      "tone_delta": 0.2681
+      "tone_delta": 0.2673
     },
     {
       "name": "The National",
@@ -347,7 +362,7 @@
       "rsf": 164,
       "articles": 4,
       "tone_avg": 0.2064,
-      "tone_delta": 0.4782
+      "tone_delta": 0.4774
     },
     {
       "name": "The Washington Post",
@@ -362,7 +377,7 @@
       "rsf": 57,
       "articles": 3,
       "tone_avg": 0.0,
-      "tone_delta": 0.2718
+      "tone_delta": 0.271
     },
     {
       "name": "The New York Times",
@@ -377,7 +392,7 @@
       "rsf": 57,
       "articles": 3,
       "tone_avg": -0.5051,
-      "tone_delta": -0.2333
+      "tone_delta": -0.2341
     },
     {
       "name": "The Jerusalem Post",
@@ -392,22 +407,7 @@
       "rsf": 112,
       "articles": 3,
       "tone_avg": -0.0926,
-      "tone_delta": 0.1792
-    },
-    {
-      "name": "Associated Press",
-      "url": "https://apnews.com",
-      "city": "Nueva York",
-      "country": "Estados Unidos",
-      "iso3": "USA",
-      "type": "agencia",
-      "desc": "Cooperativa de medios sin fines de lucro; junto a Reuters y AFP, columna vertebral informativa mundial.",
-      "lat": 40.757,
-      "lon": -74.0,
-      "rsf": 57,
-      "articles": 2,
-      "tone_avg": -0.1525,
-      "tone_delta": 0.1193
+      "tone_delta": 0.1784
     },
     {
       "name": "CNBC",
@@ -422,7 +422,7 @@
       "rsf": 57,
       "articles": 2,
       "tone_avg": -0.4734,
-      "tone_delta": -0.2016
+      "tone_delta": -0.2024
     },
     {
       "name": "Bloomberg",
@@ -437,7 +437,7 @@
       "rsf": 57,
       "articles": 2,
       "tone_avg": -0.1012,
-      "tone_delta": 0.1706
+      "tone_delta": 0.1698
     },
     {
       "name": "France 24",
@@ -452,7 +452,7 @@
       "rsf": 25,
       "articles": 2,
       "tone_avg": 0.0,
-      "tone_delta": 0.2718
+      "tone_delta": 0.271
     },
     {
       "name": "Anadolu Agency",
@@ -467,7 +467,7 @@
       "rsf": 159,
       "articles": 2,
       "tone_avg": -0.5972,
-      "tone_delta": -0.3254
+      "tone_delta": -0.3262
     },
     {
       "name": "Ynet",
@@ -482,7 +482,7 @@
       "rsf": 112,
       "articles": 2,
       "tone_avg": -0.17,
-      "tone_delta": 0.1018
+      "tone_delta": 0.101
     },
     {
       "name": "RFE/RL",
@@ -497,7 +497,7 @@
       "rsf": 57,
       "articles": 2,
       "tone_avg": 0.7096,
-      "tone_delta": 0.9814
+      "tone_delta": 0.9806
     },
     {
       "name": "The Wall Street Journal",
@@ -512,7 +512,7 @@
       "rsf": 57,
       "articles": 2,
       "tone_avg": -0.6946,
-      "tone_delta": -0.4228
+      "tone_delta": -0.4236
     },
     {
       "name": "Fox News",
@@ -527,7 +527,7 @@
       "rsf": 57,
       "articles": 1,
       "tone_avg": 0.7906,
-      "tone_delta": 1.0624
+      "tone_delta": 1.0616
     },
     {
       "name": "Daily Sabah",
@@ -542,7 +542,7 @@
       "rsf": 159,
       "articles": 1,
       "tone_avg": -0.6597,
-      "tone_delta": -0.3879
+      "tone_delta": -0.3887
     },
     {
       "name": "CGTN",
@@ -557,7 +557,7 @@
       "rsf": 178,
       "articles": 1,
       "tone_avg": 0.25,
-      "tone_delta": 0.5218
+      "tone_delta": 0.521
     },
     {
       "name": "Nikkei Asia",
@@ -572,7 +572,7 @@
       "rsf": 66,
       "articles": 1,
       "tone_avg": -0.9325,
-      "tone_delta": -0.6607
+      "tone_delta": -0.6615
     },
     {
       "name": "The Economist",
@@ -587,7 +587,7 @@
       "rsf": 20,
       "articles": 1,
       "tone_avg": -0.5514,
-      "tone_delta": -0.2796
+      "tone_delta": -0.2804
     },
     {
       "name": "ABC News",
@@ -602,7 +602,7 @@
       "rsf": 57,
       "articles": 1,
       "tone_avg": -0.8316,
-      "tone_delta": -0.5598
+      "tone_delta": -0.5606
     },
     {
       "name": "Defense Express",
@@ -617,7 +617,7 @@
       "rsf": 62,
       "articles": 1,
       "tone_avg": 0.128,
-      "tone_delta": 0.3998
+      "tone_delta": 0.399
     },
     {
       "name": "Newsweek",
@@ -632,7 +632,7 @@
       "rsf": 57,
       "articles": 1,
       "tone_avg": -0.7506,
-      "tone_delta": -0.4788
+      "tone_delta": -0.4796
     },
     {
       "name": "Middle East Eye",
@@ -647,7 +647,7 @@
       "rsf": 20,
       "articles": 1,
       "tone_avg": 0.0,
-      "tone_delta": 0.2718
+      "tone_delta": 0.271
     },
     {
       "name": "The Japan Times",
@@ -662,29 +662,44 @@
       "rsf": 66,
       "articles": 1,
       "tone_avg": -0.4215,
-      "tone_delta": -0.1497
+      "tone_delta": -0.1505
+    },
+    {
+      "name": "Global Times",
+      "url": "https://www.globaltimes.cn",
+      "city": "Pekín",
+      "country": "China",
+      "iso3": "CHN",
+      "type": "estatal",
+      "desc": "Tabloide del Diario del Pueblo (PCCh), conocido por su nacionalismo beligerante; útil como termómetro del ala dura china.",
+      "lat": 39.91,
+      "lon": 116.41,
+      "rsf": 178,
+      "articles": 1,
+      "tone_avg": 0.25,
+      "tone_delta": 0.521
     }
   ],
   "by_country": {
     "QAT": {
       "outlets": 1,
-      "articles": 2274
+      "articles": 2289
     },
     "GBR": {
       "outlets": 6,
-      "articles": 729
+      "articles": 737
     },
     "USA": {
       "outlets": 12,
-      "articles": 299
+      "articles": 303
     },
     "IND": {
       "outlets": 9,
-      "articles": 717
+      "articles": 730
     },
     "PAK": {
       "outlets": 2,
-      "articles": 49
+      "articles": 53
     },
     "SAU": {
       "outlets": 1,
@@ -715,8 +730,8 @@
       "articles": 3
     },
     "CHN": {
-      "outlets": 1,
-      "articles": 1
+      "outlets": 2,
+      "articles": 2
     },
     "JPN": {
       "outlets": 2,
@@ -730,7 +745,7 @@
   "others": [
     {
       "source": "The Tribune",
-      "articles": 161
+      "articles": 163
     },
     {
       "source": "News18",
@@ -738,7 +753,7 @@
     },
     {
       "source": "Moneycontrol.com",
-      "articles": 44
+      "articles": 45
     },
     {
       "source": "ThePrint",
@@ -789,7 +804,7 @@
       "articles": 12
     }
   ],
-  "others_total": 1032,
-  "matched_articles": 4122,
-  "total_articles": 5154
+  "others_total": 1045,
+  "matched_articles": 4167,
+  "total_articles": 5212
 }

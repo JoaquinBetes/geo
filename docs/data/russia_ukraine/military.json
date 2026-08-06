@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-08-05T19:54:29+00:00",
+  "updated": "2026-08-06T03:36:45+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,12 +45,12 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-08-05"
+    "to": "2026-08-06"
   },
   "kpis": {
-    "events_total": 383,
-    "events_unlocated": 1066,
-    "events_7d": 94,
+    "events_total": 388,
+    "events_unlocated": 1075,
+    "events_7d": 96,
     "events_prev_7d": 35,
     "hottest_place": "Kyiv"
   },
@@ -525,12 +525,21 @@
     },
     {
       "date": "2026-08-05",
-      "total": 24,
-      "strike": 23,
+      "total": 27,
+      "strike": 26,
       "ground": 0,
       "infrastructure": 1,
       "air_defense": 0,
       "anomaly": true
+    },
+    {
+      "date": "2026-08-06",
+      "total": 2,
+      "strike": 2,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
     }
   ],
   "events": [
@@ -4363,16 +4372,66 @@
       "title": "Watch: 'Scariest night' as Ukraine fails to intercept Russian attack",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/videos/clyxdgx7m8no?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "date": "2026-08-05",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war latest: At least 17 killed after Russian ballistic missile attack on Kyiv and surrounding area",
+      "source": "The Kyiv Independent",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPZmUzX0dxSldrckdQVGtDenRFNU15cXZqN1B2eXVGVzVLWER5MmgyN3pZam5jOFNJQjdJMGhJUU9vX3Nyak9ManZtbXVmN1pqT1JsaVMzM0hhNUlvN08xa0FfQmllNE5JYWpGZkNFcEhDZ1ZWcE9Iakg1UGM5UWxSdndzZ0REVnBYcE1ENmVrMGEzNjlORzBOazMxcTdVVU40MFlLNmxCeEl1SzczNjk5dW1hYTRYbktLVzZuWjBhZkgtYUFkOHF6dE0wNlVUYjR6X2VQNmlCN01naENyTDZtbjZoSG1GMzhCRHFuTk0tNUpoRDdYVlFHVEZzQTFjaUU?oc=5"
+    },
+    {
+      "date": "2026-08-05",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "After deadly Kyiv strike, Ukraine warns interceptor shortage is costing lives",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1SZmNjZ1BjZExtdVFWTE1qQ1hLZ2NzMlg5Ni1qZV8yNGltTkV4Mi1oTUxCUDMyZmZ1blVKN1NZMDhKVEhtZjlSZWx4dFFzTnM4R2hkdHJsV2haQQ?oc=5"
+    },
+    {
+      "date": "2026-08-05",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Kyiv residents face attacks with fewer defenses overhead",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/08/05/nx-s1-5921395/kyiv-residents-face-attacks-with-fewer-defenses-overhead"
+    },
+    {
+      "date": "2026-08-06",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Nato to ‘urgently’ get air defences for Ukraine, as Zelenskyy warns of surge in Russian missile production",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/aug/06/ukraine-nato-air-defences-missiles-russia-zelenskyy-patriot"
+    },
+    {
+      "date": "2026-08-06",
+      "type": "strike",
+      "place": "Kramatorsk",
+      "lat": 48.7389,
+      "lon": 37.5848,
+      "title": "Ukraine war briefing: Cut-price Patriot among options in desperate search for missile defence",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/aug/06/ukraine-war-briefing-cut-price-patriot-among-options-in-desperate-search-for-missile-defence"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 193
+      "count": 173
     },
     {
       "place": "Moscow",
-      "count": 53
+      "count": 51
     },
     {
       "place": "Odesa",
@@ -4403,7 +4462,7 @@
       "count": 4
     },
     {
-      "place": "Sevastopol",
+      "place": "Mykolaiv",
       "count": 3
     }
   ],

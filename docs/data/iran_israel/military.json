@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-08-06T14:34:39+00:00",
+  "updated": "2026-08-07T00:15:31+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -38,13 +38,13 @@
   },
   "window": {
     "from": "2026-02-27",
-    "to": "2026-08-06"
+    "to": "2026-08-07"
   },
   "kpis": {
-    "events_total": 331,
-    "events_unlocated": 1113,
-    "events_7d": 44,
-    "events_prev_7d": 43,
+    "events_total": 333,
+    "events_unlocated": 1122,
+    "events_7d": 36,
+    "events_prev_7d": 45,
     "hottest_place": "Strait of Hormuz"
   },
   "daily": [
@@ -422,6 +422,15 @@
       "total": 3,
       "strike": 1,
       "ground": 2,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-08-06",
+      "total": 2,
+      "strike": 2,
+      "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -3737,12 +3746,32 @@
       "title": "Iran’s legal battle against the US and Israel",
       "source": "Tehran Times",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNLWVZOUJKYnJNOVFCYzlsdHBfS3RWQm5jN3l5VldyLVY3REw4ZHc2ZUtSMXFBTGtUZGlaR2hpNEdFZVRBd19JOXJweWNXODUzVFJyYkhSSUhMUVVxOWRCaHoxVmd4M001MUEyemViRHRCcHRaQWhZRE8zNHZINml4Zzg1amhoeG5BcHBKVkFSUVpXVGtlR0wtbWtVazZsN1Q1SDVfS05PWQ?oc=5"
+    },
+    {
+      "date": "2026-08-06",
+      "type": "strike",
+      "place": "Damascus",
+      "lat": 33.5138,
+      "lon": 36.2765,
+      "title": "Deadly explosion on minibus near Damascus",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/6/deadly-explosion-on-minibus-near-damascus?traffic_source=rss"
+    },
+    {
+      "date": "2026-08-06",
+      "type": "strike",
+      "place": "Damascus",
+      "lat": 33.5138,
+      "lon": 36.2765,
+      "title": "Two killed, several wounded in minibus blast near Syria’s Damascus",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/6/blast-hits-vehicle-on-outskirts-of-syrias-damascus-state-media?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 132
+      "count": 121
     },
     {
       "place": "Tehran",
@@ -3761,10 +3790,6 @@
       "count": 10
     },
     {
-      "place": "Damascus",
-      "count": 8
-    },
-    {
       "place": "Beirut",
       "count": 7
     },
@@ -3775,6 +3800,10 @@
     {
       "place": "Sanaa",
       "count": 6
+    },
+    {
+      "place": "Damascus",
+      "count": 4
     },
     {
       "place": "Kharg Island",

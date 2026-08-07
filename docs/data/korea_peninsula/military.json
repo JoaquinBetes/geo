@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-08-06T14:34:49+00:00",
+  "updated": "2026-08-07T00:15:40+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -43,12 +43,12 @@
   },
   "window": {
     "from": "2026-01-12",
-    "to": "2026-08-06"
+    "to": "2026-08-07"
   },
   "kpis": {
-    "events_total": 18,
-    "events_unlocated": 746,
-    "events_7d": 2,
+    "events_total": 20,
+    "events_unlocated": 774,
+    "events_7d": 4,
     "events_prev_7d": 2,
     "hottest_place": "DMZ"
   },
@@ -172,9 +172,9 @@
     },
     {
       "date": "2026-08-06",
-      "total": 1,
-      "strike": 1,
-      "ground": 0,
+      "total": 3,
+      "strike": 2,
+      "ground": 1,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -360,16 +360,36 @@
       "title": "Seoul reports short-range missile launch by North Korea",
       "source": "yahoo.com",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOT1VkdEZkb1ozcko3ZlVUS3FUWV9saklsZUV2VU01RG96R1N4bGZmXzQ1aW1pSEtfMHdSdXdvZVdJaUMxZlFGU1NRSmg2bVVHUVg3czlQTENLM3h5MVpGMmxybnFqQ2xyVWxabGtvRnVTQWNjbVhTVElReEttRzQ0X19jUXI4NGdQRjlhWXNqa0kwaXpn?oc=5"
+    },
+    {
+      "date": "2026-08-06",
+      "type": "ground",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "As North Korea fortifies the DMZ, a cease-fire buffer is again becoming a frontline security test",
+      "source": "Korea JoongAng Daily",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWjVjZjBmdmxVTXRMX3M5R3pHZ25hNVBoWmN0NjhWOEFtSkRsV1Z4aW1iRHVjTmN5YmphZ3BjZkhlT0pHWjdwQ0Vtb2twVldGVkhjajlPWklGM3lncnhQNGxkeXJxM09NOTBqOWRLRGhBYlRiXzJiYXlaZjZ5cUdlc0owVV8tZ3pVOGt3M19Zdi1TbUxJM0FHdXUzVThFZDFpbmJMbXZETkx2VFBES192T3lUR1dNeEFzcDZTQktuOGxuR3VaQ1ZzNkNvbXZDc0F6a0JyeTgtT09NZ0hhTXc?oc=5"
+    },
+    {
+      "date": "2026-08-06",
+      "type": "strike",
+      "place": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "title": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cqjxgx5y51lo?at_medium=RSS&at_campaign=rss"
     }
   ],
   "top_places": [
     {
       "place": "DMZ",
-      "count": 8
+      "count": 9
     },
     {
       "place": "Seoul",
-      "count": 3
+      "count": 4
     },
     {
       "place": "Pyongyang",

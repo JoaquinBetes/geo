@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-08-07T00:15:40+00:00",
+  "updated": "2026-08-07T03:18:15+00:00",
   "overall_tone": -0.201,
   "rsf_as_of": "2025 (aprox.)",
   "outlets": [
@@ -15,9 +15,9 @@
       "lat": 25.2867,
       "lon": 51.5333,
       "rsf": 84,
-      "articles": 2328,
-      "tone_avg": -0.2688,
-      "tone_delta": -0.0678
+      "articles": 2338,
+      "tone_avg": -0.2697,
+      "tone_delta": -0.0687
     },
     {
       "name": "BBC",
@@ -30,9 +30,9 @@
       "lat": 51.5188,
       "lon": -0.144,
       "rsf": 20,
-      "articles": 706,
-      "tone_avg": -0.2824,
-      "tone_delta": -0.0814
+      "articles": 710,
+      "tone_avg": -0.2822,
+      "tone_delta": -0.0812
     },
     {
       "name": "NPR",
@@ -75,9 +75,9 @@
       "lat": 40.757,
       "lon": -74.0,
       "rsf": 57,
-      "articles": 136,
-      "tone_avg": -0.1025,
-      "tone_delta": 0.0985
+      "articles": 138,
+      "tone_avg": -0.101,
+      "tone_delta": 0.1
     },
     {
       "name": "TIME",
@@ -90,9 +90,9 @@
       "lat": 40.748,
       "lon": -73.983,
       "rsf": 57,
-      "articles": 65,
-      "tone_avg": -0.1637,
-      "tone_delta": 0.0373
+      "articles": 67,
+      "tone_avg": -0.1588,
+      "tone_delta": 0.0422
     },
     {
       "name": "The Korea Herald",
@@ -275,6 +275,21 @@
       "tone_delta": 0.1064
     },
     {
+      "name": "Kyodo News",
+      "url": "https://english.kyodonews.net",
+      "city": "Tokio",
+      "country": "Japón",
+      "iso3": "JPN",
+      "type": "agencia",
+      "desc": "La agencia cooperativa japonesa de noticias.",
+      "lat": 35.66,
+      "lon": 139.75,
+      "rsf": 66,
+      "articles": 9,
+      "tone_avg": 0.0883,
+      "tone_delta": 0.2893
+    },
+    {
       "name": "The Telegraph",
       "url": "https://www.telegraph.co.uk",
       "city": "Londres",
@@ -303,21 +318,6 @@
       "articles": 8,
       "tone_avg": -0.2634,
       "tone_delta": -0.0624
-    },
-    {
-      "name": "Kyodo News",
-      "url": "https://english.kyodonews.net",
-      "city": "Tokio",
-      "country": "Japón",
-      "iso3": "JPN",
-      "type": "agencia",
-      "desc": "La agencia cooperativa japonesa de noticias.",
-      "lat": 35.66,
-      "lon": 139.75,
-      "rsf": 66,
-      "articles": 8,
-      "tone_avg": 0.0993,
-      "tone_delta": 0.3003
     },
     {
       "name": "UNITED24 Media",
@@ -485,6 +485,21 @@
       "tone_delta": -0.0133
     },
     {
+      "name": "CSIS",
+      "url": "https://www.csis.org",
+      "city": "Washington D.C.",
+      "country": "Estados Unidos",
+      "iso3": "USA",
+      "type": "think tank",
+      "desc": "Center for Strategic and International Studies; think tank bipartidista de seguridad, financiamiento corporativo y estatal.",
+      "lat": 38.908,
+      "lon": -77.043,
+      "rsf": 57,
+      "articles": 4,
+      "tone_avg": 0.2772,
+      "tone_delta": 0.4782
+    },
+    {
       "name": "India Today",
       "url": "https://www.indiatoday.in",
       "city": "Noida",
@@ -573,21 +588,6 @@
       "articles": 3,
       "tone_avg": -0.4528,
       "tone_delta": -0.2518
-    },
-    {
-      "name": "CSIS",
-      "url": "https://www.csis.org",
-      "city": "Washington D.C.",
-      "country": "Estados Unidos",
-      "iso3": "USA",
-      "type": "think tank",
-      "desc": "Center for Strategic and International Studies; think tank bipartidista de seguridad, financiamiento corporativo y estatal.",
-      "lat": 38.908,
-      "lon": -77.043,
-      "rsf": 57,
-      "articles": 3,
-      "tone_avg": 0.1245,
-      "tone_delta": 0.3255
     },
     {
       "name": "Financial Times",
@@ -908,15 +908,15 @@
   "by_country": {
     "QAT": {
       "outlets": 1,
-      "articles": 2328
+      "articles": 2338
     },
     "GBR": {
       "outlets": 7,
-      "articles": 800
+      "articles": 804
     },
     "USA": {
       "outlets": 19,
-      "articles": 489
+      "articles": 494
     },
     "KOR": {
       "outlets": 4,
@@ -932,7 +932,7 @@
     },
     "JPN": {
       "outlets": 3,
-      "articles": 23
+      "articles": 24
     },
     "IND": {
       "outlets": 6,
@@ -982,7 +982,7 @@
   "others": [
     {
       "source": "조선일보",
-      "articles": 254
+      "articles": 256
     },
     {
       "source": "Korea JoongAng Daily",
@@ -998,7 +998,7 @@
     },
     {
       "source": "Yahoo",
-      "articles": 22
+      "articles": 23
     },
     {
       "source": "38 North",
@@ -1041,7 +1041,7 @@
       "articles": 11
     }
   ],
-  "others_total": 1362,
-  "matched_articles": 4094,
-  "total_articles": 5456
+  "others_total": 1367,
+  "matched_articles": 4114,
+  "total_articles": 5481
 }

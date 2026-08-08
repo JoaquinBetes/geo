@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-08-08T07:15:13+00:00",
+  "updated": "2026-08-08T13:12:14+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -48,9 +48,9 @@
     "to": "2026-08-08"
   },
   "kpis": {
-    "events_total": 404,
-    "events_unlocated": 1128,
-    "events_7d": 98,
+    "events_total": 409,
+    "events_unlocated": 1138,
+    "events_7d": 103,
     "events_prev_7d": 40,
     "hottest_place": "Kyiv"
   },
@@ -552,10 +552,10 @@
     },
     {
       "date": "2026-08-08",
-      "total": 5,
-      "strike": 5,
+      "total": 10,
+      "strike": 8,
       "ground": 0,
-      "infrastructure": 0,
+      "infrastructure": 2,
       "air_defense": 0,
       "anomaly": false
     }
@@ -4600,24 +4600,78 @@
       "title": "Child among three killed in Russian missile attacks near Kyiv",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "date": "2026-08-08",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russian strikes in Kyiv region kill 4 people, including a 3-year-old",
+      "source": "CBC",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBXMXZhaS1JWGhqSktWSFlkX2M4cmFxS0h0VWxBSXhKbnE1dTBOc2ViYXZERHRFM04xUDU3Y2ZKSUFmSzFTUnRmcWhVQlhCNFdFMXBQbkdoSU83LUY3b01WZHNoeHJ6X1RjVllialhFNWRickE?oc=5"
+    },
+    {
+      "date": "2026-08-08",
+      "type": "strike",
+      "place": "Mariupol",
+      "lat": 47.0971,
+      "lon": 37.5434,
+      "title": "Mariupol theater strike exposed Russian brutality in Ukraine",
+      "source": "WLIW",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMjNpRlpEdzhUNFNZbThSdWotc2stR2JabVkzS1paMVZINlloNXo0emFjZ3ZNR1RsX1k2bG5jU3hPaFExNkYwd1BFSlN4d0stMlZpd3pNNm1yakFwQlRMNFViYkxrbzhYaTNNOF9jbzlqeXlFQThvMDhCaDVFcnJqWTNzN3ctbXI0N2RkckxleFdnZEYwckxkNkFPLVJlbHl4NWhiNFctaGRSV2x6NHRLZ1dxYU5vcTZYQVJtQURNQXZDR1YxdVE?oc=5"
+    },
+    {
+      "date": "2026-08-08",
+      "type": "infrastructure",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Ukraine Strikes Oil Refinery in Russia's Krasnodar Region in Drone Attack",
+      "source": "The Moscow Times",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTEZ6bmczMUoyRk4wVEw2NENfd0ZNSWZuX0plRXM4cWI0NGRwMlNUN2NQdVZRdkdUR1R2ZzN1dFM5bU5lYTQ1aXkwMVFZeGNyNGlsODktQUgxWHBmbDVJT3lNY2JFckNCX2lfUFMxLXNVNUVBd0FyUEFoemZLTFczVFZ4TVUxelhlX0g2eTZ6OXRmeFBXQmpGV3FCRVlDbWRHUEl6eFktVEdaOGhJbDhEY19WYXk5d1g0dl9PdnhR?oc=5"
+    },
+    {
+      "date": "2026-08-08",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Drones spotted in Bulgaria and Germany raise concerns of Russian escalation",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/8/drones-spotted-in-bulgaria-and-germany-raise-concerns-of-russian-escalation?traffic_source=rss"
+    },
+    {
+      "date": "2026-08-08",
+      "type": "infrastructure",
+      "place": "Odesa",
+      "lat": 46.4825,
+      "lon": 30.7233,
+      "title": "Lion saved as cub from Ukraine war and brought to US battles rare fungal disease",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/aug/08/ukrainian-lion-fights-fungal-disease"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 174
+      "count": 175
     },
     {
       "place": "Moscow",
-      "count": 47
+      "count": 49
     },
     {
       "place": "Odesa",
-      "count": 10
+      "count": 11
     },
     {
       "place": "Zaporizhzhia",
       "count": 9
+    },
+    {
+      "place": "Mariupol",
+      "count": 5
     },
     {
       "place": "Belgorod",
@@ -4625,10 +4679,6 @@
     },
     {
       "place": "Sumy",
-      "count": 4
-    },
-    {
-      "place": "Mariupol",
       "count": 4
     },
     {

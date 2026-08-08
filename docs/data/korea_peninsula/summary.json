@@ -2,13 +2,13 @@
   "id": "korea_peninsula",
   "name": "Corea del Norte–Corea del Sur",
   "description": "Cobertura mediática de la tensión en la península coreana",
-  "updated": "2026-08-08T07:15:27+00:00",
-  "total_articles": 5680,
-  "overall_avg": -0.1999,
+  "updated": "2026-08-08T13:12:28+00:00",
+  "total_articles": 5710,
+  "overall_avg": -0.1996,
   "distribution": {
-    "pos": 1427,
-    "neu": 1353,
-    "neg": 2900
+    "pos": 1437,
+    "neu": 1360,
+    "neg": 2913
   },
   "sources": [
     "Al Jazeera",
@@ -59,6 +59,7 @@
     "Japan Wire by Kyodo News",
     "Radio Free Asia",
     "Eurasia Review",
+    "Kyiv Post",
     "ABC News - Breaking News, Latest News and Videos",
     "WSJ",
     "Korea Economic Institute of America -",
@@ -69,7 +70,6 @@
     "StratNews Global",
     "Asia News Network",
     "nknews.org",
-    "Kyiv Post",
     "The Defense Post",
     "The New York Times",
     "NBC News",
@@ -145,6 +145,7 @@
     "The Washington Post",
     "Radio Free Europe/Radio Liberty",
     "CoinDesk",
+    "TVP World",
     "EUalive",
     "Cryptonews.net",
     "Yahoo Finance",
@@ -205,7 +206,6 @@
     "Deccan Herald",
     "LIGA.net",
     "Kurdistan24",
-    "TVP World",
     "Cebu Daily News",
     "Defense Express",
     "Euromaidan Press",
@@ -538,7 +538,12 @@
     "BitKE",
     "thestar.com.my",
     "KNWA FOX24",
-    "Tech in Asia"
+    "Tech in Asia",
+    "moderndiplomacy.eu",
+    "The ICIR",
+    "Defensemirror.com",
+    "travelerstoday.com",
+    "Buffalo News"
   ],
   "daily": [
     {
@@ -1207,23 +1212,23 @@
     },
     {
       "date": "2026-08-08",
-      "count": 35,
-      "avg": -0.203,
-      "pos": 9,
-      "neu": 6,
-      "neg": 20
+      "count": 65,
+      "avg": -0.1806,
+      "pos": 19,
+      "neu": 13,
+      "neg": 33
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 2416,
-      "avg": -0.2669
+      "count": 2435,
+      "avg": -0.2658
     },
     {
       "source": "BBC",
-      "count": 738,
-      "avg": -0.2894
+      "count": 741,
+      "avg": -0.2898
     },
     {
       "source": "조선일보",
@@ -1232,8 +1237,8 @@
     },
     {
       "source": "NPR",
-      "count": 219,
-      "avg": -0.2866
+      "count": 220,
+      "avg": -0.2896
     },
     {
       "source": "NK News",
@@ -1456,6 +1461,11 @@
       "avg": -0.1679
     },
     {
+      "source": "Kyiv Post",
+      "count": 7,
+      "avg": -0.3843
+    },
+    {
       "source": "ABC News - Breaking News, Latest News and Videos",
       "count": 7,
       "avg": -0.3807
@@ -1504,11 +1514,6 @@
       "source": "nknews.org",
       "count": 7,
       "avg": -0.2724
-    },
-    {
-      "source": "Kyiv Post",
-      "count": 6,
-      "avg": -0.4484
     },
     {
       "source": "The Defense Post",
@@ -1886,6 +1891,11 @@
       "avg": -0.3403
     },
     {
+      "source": "TVP World",
+      "count": 3,
+      "avg": -0.2772
+    },
+    {
       "source": "EUalive",
       "count": 3,
       "avg": -0.4266
@@ -2184,11 +2194,6 @@
       "source": "Kurdistan24",
       "count": 2,
       "avg": -0.4313
-    },
-    {
-      "source": "TVP World",
-      "count": 2,
-      "avg": 0.0
     },
     {
       "source": "Cebu Daily News",
@@ -3854,44 +3859,69 @@
       "source": "Tech in Asia",
       "count": 1,
       "avg": 0.0
+    },
+    {
+      "source": "moderndiplomacy.eu",
+      "count": 1,
+      "avg": 0.4588
+    },
+    {
+      "source": "The ICIR",
+      "count": 1,
+      "avg": 0.0
+    },
+    {
+      "source": "Defensemirror.com",
+      "count": 1,
+      "avg": 0.5553
+    },
+    {
+      "source": "travelerstoday.com",
+      "count": 1,
+      "avg": -0.9246
+    },
+    {
+      "source": "Buffalo News",
+      "count": 1,
+      "avg": 0.5267
     }
   ],
   "top_entities": [
     {
       "name": "North Korea",
       "type": "LOCATION",
-      "count": 1552,
-      "avg": -0.1139
+      "count": 1559,
+      "avg": -0.1135
     },
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 546,
+      "count": 550,
       "avg": -0.2568
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 417,
-      "avg": -0.2108
+      "count": 420,
+      "avg": -0.21
     },
     {
       "name": "China",
       "type": "LOCATION",
-      "count": 409,
-      "avg": 0.0603
+      "count": 411,
+      "avg": 0.0589
     },
     {
       "name": "South Korea",
       "type": "LOCATION",
-      "count": 332,
-      "avg": -0.0415
+      "count": 333,
+      "avg": -0.0402
     },
     {
       "name": "Japan",
       "type": "LOCATION",
-      "count": 198,
-      "avg": -0.1371
+      "count": 200,
+      "avg": -0.1424
     },
     {
       "name": "United States",
@@ -3931,6 +3961,288 @@
     }
   ],
   "recent": [
+    {
+      "title": "US Senate narrowly confirms Todd Blanche as attorney general",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cewr898jy8go?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-08T13:12:07+00:00",
+      "compound": -0.296,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "How North Korea made $22 billion from Russia’s war in Ukraine",
+      "source": "TVP World",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQ1g3Q0hvM3RnQVlrOWpBUGc2Sl95cHQwZGtkMktwOEdQWWRaUVIzUm4zb2VxTWVyTUE3amVJYmU5ZW9XVWw2dVpKR2pGR0lnbTBfSFdvMGIzcWFJcGotLUdNZ2owbUJTZWJTbDMxek1RUFRpQkRETXo2emxrUUdneGNzV0g?oc=5",
+      "published": "2026-08-08T12:35:00+00:00",
+      "compound": -0.8316,
+      "label": "negative",
+      "entities": [
+        "North Korea",
+        "Russia"
+      ]
+    },
+    {
+      "title": "Drones spotted in Bulgaria and Germany raise concerns of Russian escalation",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/8/drones-spotted-in-bulgaria-and-germany-raise-concerns-of-russian-escalation?traffic_source=rss",
+      "published": "2026-08-08T12:30:52+00:00",
+      "compound": -0.7717,
+      "label": "negative",
+      "entities": [
+        "Russia"
+      ]
+    },
+    {
+      "title": "Police bodycam and CCTV catches Idaho mall shooting as it unfolds",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/8/police-bodycam-and-cctv-catches-idaho-mall-shooting-as-it-unfolds?traffic_source=rss",
+      "published": "2026-08-08T12:07:23+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "North Korea Sends its Most Advanced Surface-to-surface Missiles to Russia",
+      "source": "Defensemirror.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQV0VWX1J0SXZEdXpmM2t4YnNSRGMwXzJLdnVpeWdxeHc3YVZ5Z3Zoa0JibWtnc1Y0SUFGbURLNmFEbjV1N3F3cmpxSXhZVkFCOXhZeENtc0NfRktGNEFTMmpVVWtIMkU3RlZQVmIya2VEUXFHUi1iWmd2aW9FTjV0MVRHTFlGNWJPb0JaNXVPSS1FWkhoUjVfdXZUbUp4amJzZ1RIYm0tcEtNYnpsOTdR?oc=5",
+      "published": "2026-08-08T12:06:11+00:00",
+      "compound": 0.5553,
+      "label": "positive",
+      "entities": [
+        "North Korea",
+        "Russia"
+      ]
+    },
+    {
+      "title": "NBA forward Clarke's death due to effects of drugs",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/sport/basketball/articles/czekj4wg41po?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-08T12:05:04+00:00",
+      "compound": -0.8934,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "US pledges $1bn support to Colombia as Trump-backed president sworn in",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cy9wy3y0e5wo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-08T12:01:42+00:00",
+      "compound": 0.0258,
+      "label": "neutral",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Atletico Madrid will not sell Alvarez amid Barcelona interest, says Simeone",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/8/8/atletico-madrid-will-not-sell-alvarez-amid-barcelona-interest-says-simeone?traffic_source=rss",
+      "published": "2026-08-08T12:01:17+00:00",
+      "compound": 0.2023,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Arsenal complete signing of Newcastle midfielder Bruno Guimaraes",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/8/8/arsenal-complete-signing-of-newcastle-midfielder-bruno-guimaraes?traffic_source=rss",
+      "published": "2026-08-08T11:49:27+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "‘Hi friends’: Modi’s curious campaign to win over Gen Z",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/8/hi-friends-modis-curious-campaign-to-win-over-gen-z?traffic_source=rss",
+      "published": "2026-08-08T11:46:53+00:00",
+      "compound": 0.8519,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "The post-American Middle East is beginning to take shape",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/opinions/2026/8/8/the-post-american-middle-east-is-beginning-to-take-shape?traffic_source=rss",
+      "published": "2026-08-08T11:34:38+00:00",
+      "compound": 0.34,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Families retrieve bodies after deadly shooting rampage outside Bangkok",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/8/families-retrieve-bodies-after-deadly-shooting-rampage-outside-bangkok?traffic_source=rss",
+      "published": "2026-08-08T11:31:57+00:00",
+      "compound": -0.34,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Woman screams in fear as Ukraine war recruiters pounce on man",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/8/woman-screams-for-her-man-as-ukraine-war-recruiters-pounce?traffic_source=rss",
+      "published": "2026-08-08T11:29:44+00:00",
+      "compound": -0.926,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Switzerland is a neutral nation but has more nuclear bunkers than any country in the world",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/08/08/g-s1-137635/switzerland-nuclear-bunkers",
+      "published": "2026-08-08T11:01:00+00:00",
+      "compound": -0.9428,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Yemen’s collapsing healthcare forces the sick to seek alternative medicines",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/2026/8/8/yemens-collapsing-healthcare-forces-the-sick-to-seek-alternative-medicines?traffic_source=rss",
+      "published": "2026-08-08T10:58:46+00:00",
+      "compound": -0.6705,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "How Israel’s occupation fuels resistance",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/8/how-israels-occupation-fuels-resistance?traffic_source=rss",
+      "published": "2026-08-08T10:40:11+00:00",
+      "compound": -0.34,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Trump’s former personal lawyer narrowly confirmed as US attorney general",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/8/trumps-former-personal-lawyer-narrowly-confirmed-as-us-attorney-general?traffic_source=rss",
+      "published": "2026-08-08T10:36:10+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Fiji rugby player dies in Japan of suspected heatstroke as high of 35C hit",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/8/8/fiji-rugby-player-dies-in-japan-of-suspected-heatstroke-as-high-of-35c-hit?traffic_source=rss",
+      "published": "2026-08-08T10:13:30+00:00",
+      "compound": -0.7469,
+      "label": "negative",
+      "entities": [
+        "Japan"
+      ]
+    },
+    {
+      "title": "Mount Etna ash suspends arrivals at Italy’s Catania airport",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/8/mount-etna-ash-suspends-arrivals-at-italys-catania-airport?traffic_source=rss",
+      "published": "2026-08-08T10:10:13+00:00",
+      "compound": 0.4754,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Newcastle say they “didn’t want to sell” Guimaraes, as Arsenal move looms",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/8/8/newcastle-say-they-didnt-want-to-sell-guimaraes-as-arsenal-move-looms?traffic_source=rss",
+      "published": "2026-08-08T09:38:58+00:00",
+      "compound": 0.182,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "US announces $400m investment in Australian rare earth mine",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/8/us-announces-400m-investment-in-australian-rare-earth-mine?traffic_source=rss",
+      "published": "2026-08-08T09:30:12+00:00",
+      "compound": 0.128,
+      "label": "positive",
+      "entities": [
+        "China"
+      ]
+    },
+    {
+      "title": "North Korea Earns Up to $22 Billion Through Arms Sales to Russia",
+      "source": "Kyiv Post",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBwSUtLUVphUkI0ZFFRcmdLY2hTUE9oNEw4X05tZ21LTXJqNDM2UklHVVNiOGxhZHFESl9CU0hGbjZnbFpJWTJVUHltTQ?oc=5",
+      "published": "2026-08-08T09:11:04+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "North Korea",
+        "Russia"
+      ]
+    },
+    {
+      "title": "Messi will decide when he retires, says Argentina FA chief",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/8/8/argentina-fa-chief-says-messi-is-the-only-one-to-decide-when-he-retires?traffic_source=rss",
+      "published": "2026-08-08T08:59:28+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Typhoon Dolphin hits Japan, heads towards China",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/8/typhoon-dolphin-hits-japan-heads-towards-china?traffic_source=rss",
+      "published": "2026-08-08T08:50:49+00:00",
+      "compound": -0.5859,
+      "label": "negative",
+      "entities": [
+        "Japan",
+        "China"
+      ]
+    },
+    {
+      "title": "A Nuclear-Armed North Korea as a metaphor for the “Safe State”",
+      "source": "The ICIR",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPV3gzRVdGLVNDV3Y3ckoxUnJ5YUlUOFdWYVJKOFRDaFczbElTUTljUjdGNWJYejlrNmUyTXc0eVg5bEJoTVBnbHNjRllLUEV5aHRRV1paZEVyN1JEaC1kTTdnZmJhUHNwdERPb1pqelg3bG9zQzVsdy1tWmtBenl1Q3VTeDhWUEQ4Y0NEV3ptcnZaREk?oc=5",
+      "published": "2026-08-08T08:10:04+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "North Korea"
+      ]
+    },
+    {
+      "title": "Afghanistan’s Rashid takes six wickets in ODI thrashing of Ireland",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/8/8/afghanistans-rashid-takes-six-wickets-in-odi-thrashing-of-ireland?traffic_source=rss",
+      "published": "2026-08-08T08:06:35+00:00",
+      "compound": -0.4939,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "South Korea FA apologises over ‘sexual services’ allegations",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/8/8/south-korea-football-association-apologises-over-sexual-services-allegations?traffic_source=rss",
+      "published": "2026-08-08T07:49:21+00:00",
+      "compound": 0.3818,
+      "label": "positive",
+      "entities": [
+        "South Korea"
+      ]
+    },
+    {
+      "title": "The End of an 80-Year Dream : North Korea’s New Geopolitical Doctrine",
+      "source": "moderndiplomacy.eu",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOGszT3pSa0NXbjZoVTlOUVVvMmpmVGQyckxBNDFJcE5FVHNoVHFfdkNvSDFkajlEeC1KZ2VoRGsxN0pWdEhSRXBWQzBkdzV1YndDdFU0ZEtKNHl0Qzd5M1ctLWlvZ1Z3ZHFmdEFXeklicHFBYUhYVU5YTy1vVGxPbW9sLXAxZUc2UkppX3VJekRjYlpXRUlrZm44NGI1eXh3NzU1cUtORkM?oc=5",
+      "published": "2026-08-08T07:30:44+00:00",
+      "compound": 0.4588,
+      "label": "positive",
+      "entities": [
+        "North Korea"
+      ]
+    },
     {
       "title": "Child among three killed in Russian missile attacks near Kyiv",
       "source": "BBC",
@@ -4013,6 +4325,17 @@
       "title": "Bybit Sues North Korea and Lazarus Group, Secures Preliminary Injunction Freezing Stolen Assets in Landmark Crypto Asset Recovery Effort",
       "source": "PR Newswire",
       "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPWHU1ZG9haTMycUx3aTBsdy1KX1BUdkhUcDhqR0hkWk00dENLNEs1YkFzWjdQRFM3OUxXT09hYTZKemZHeU5FNEtCb1VCQzFFRGRvb1ZIZUktR2ctMEpvV0RRUXFTUE84VVFZTEFNVjFuVWQyQU1veDJsQlRVQUhCMWpwQ29iM09ya3pqRVkwWVVZYklNTkRBdHFRZnllLTEweEwxS0JUWmRuWmZVVExid190SHBBa0FVUmhCNzh5MkF2eUZmcTVkUnNpUG9QS3c1aVVLWURiMjVLRHk5VHhxdkJNMklMclZPNVBOczRzOTBtc0xIWGZDNHdhV1lQaVF0YnB2Q0R4cGFiRTlkQVMzUWx2UTQtZmVZUkZJ?oc=5",
+      "published": "2026-08-08T05:00:00+00:00",
+      "compound": 0.5267,
+      "label": "positive",
+      "entities": [
+        "North Korea"
+      ]
+    },
+    {
+      "title": "Bybit Sues North Korea and Lazarus Group, Secures Preliminary Injunction Freezing Stolen Assets in Landmark Crypto Asset Recovery Effort",
+      "source": "Buffalo News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVllUT05ZcGNBMC1uQU5kdTB5R3V6QU9qblZ5N2lPeU1TVkN6bEtaUl9MNTFWZy05azU1cTJ0dkxVay1YZmFlMHBpekFzY0xiTWlwaUZmNTJJaVM0VmtvWjBoVlhPbHF4cHFyUHQ2OTUzX0pCRzJDVnhZLWZGeHpOYmRBeVB0V0k3RjN5WnZMaXZsa0pIb2M0TFVWUy1uTE5LbFJmNXBwbw?oc=5",
       "published": "2026-08-08T05:00:00+00:00",
       "compound": 0.5267,
       "label": "positive",
@@ -4147,6 +4470,17 @@
       ]
     },
     {
+      "title": "North Korea Passport Restriction Renewed for a Ninth Year, Felony Charges Still Apply",
+      "source": "travelerstoday.com",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPX2V3Mk9ZOW9wX01JU1NoQXQ0NjY2bEhnRUxQaGJsR2JUZDh3RTRXWVp2LTVtNDlxVzJudXJMQ2U5R3M5ZEZqRWltNjdLcG8zeF8tMW9ObTh0NE1CTmtueldEd1RPNzJXcVc4SDlxanVnQ09vS09ZY0R5UWNWemFOdUhqWmFURWNqejBaVnNYWHBLTGgxRl9TQWZ6Tlc3T3MySXlnZEs2RjFubzZ3M2pkSy1SSUY5bTkwRzBiRGxmUE5SZ3JOZ1pjemtyZDFEeVdJOVRn?oc=5",
+      "published": "2026-08-08T01:29:30+00:00",
+      "compound": -0.9246,
+      "label": "negative",
+      "entities": [
+        "North Korea"
+      ]
+    },
+    {
       "title": "What could the Mecca defence pact mean for the US role in the Middle East?",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/8/8/what-could-the-mecca-defence-pact-mean-for-the-us-role-in-the-middle-east?traffic_source=rss",
@@ -4228,303 +4562,6 @@
       "url": "https://www.aljazeera.com/news/2026/8/8/sudans-war-threatens-an-entire-generations-future-un-warns?traffic_source=rss",
       "published": "2026-08-08T00:24:42+00:00",
       "compound": -0.9081,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Puerto Rico rations water as severe drought leaves reservoirs depleted",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/8/puerto-rico-rations-water-as-severe-drought-leaves-reservoirs-depleted?traffic_source=rss",
-      "published": "2026-08-08T00:13:53+00:00",
-      "compound": -0.6369,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "US Senate passes sweeping Russian energy sanctions bill amid Ukraine war",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/8/8/us-senate-passes-sweeping-russian-energy-sanctions-bill-amid-ukraine-war?traffic_source=rss",
-      "published": "2026-08-08T00:06:22+00:00",
-      "compound": -0.5267,
-      "label": "negative",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "'I ran because I knew I would die': Russian drones target medics in Ukraine",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c3r073eqvrjo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-08T00:02:49+00:00",
-      "compound": -0.8442,
-      "label": "negative",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "The spectre of renewed Iran–North Korea missile cooperation",
-      "source": "East Asia Forum",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZFFFckRSVWxKdWtENWRGLUxjRjVDamNyUy1jUjhxWHBYRnZSR0ZVREVHUkZZUERTYXJwNU9sbjhVQ1pqTE84MGpsNmhiZkYwZHpfeE9fZEtGMlJXRk1RbThSTERUN3UxUkE3OGE5TENYRWt4NHo0Nlk3MGVwT0ZGYXB2ZVQ5bWhGUUJ3U3pqQWNLbXpuTFA0b1E5c2w3dw?oc=5",
-      "published": "2026-08-08T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "Iran war live: Trilateral Mecca defence pact signed, as Hormuz deal looms",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/8/8/iran-war-live-trilateral-mecca-defence-pact-signed-as-hormuz-deal-looms?traffic_source=rss",
-      "published": "2026-08-08T00:00:00+00:00",
-      "compound": -0.128,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "South Korea weighs broader debate on using North Korea's official name",
-      "source": "upi.com",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBMMjJkTEZLeDBlMHV3YXBPd21OUGZXWTBJNXoydjN5SHVVWjJEbzNyX1YxZlJnWV9GVXZQRDREaGJUVjktd2wxV2gzQ0dyaWNXWUxzX2lodnFqLTdZT3U1LW5sQ1BLUzNvTkYzWC1fcHVleGU5bXRDa3l0eHPSAYIBQVVfeXFMTXZwaGRXTWZscnUtUmFSN2hyYnJBcUQwWDVUNW9uMVliUDlOZUpvUk5SSHJ3d01EYTJFVU1ydEw3c3BGMmVqbVNDdlNIOWliYXBCNlpnVDRmaVg3ZndEYU5YSk14NFFVXzRhbG5LMUplMk93ZVNuQTJxY2ZUb3BJYXhVZw?oc=5",
-      "published": "2026-08-07T23:51:59+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "North Korea",
-        "South Korea"
-      ]
-    },
-    {
-      "title": "Donald Trump renews effort to fire Federal Reserve governor Lisa Cook",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/7/donald-trump-renews-effort-to-fire-federal-reserve-governor-lisa-cook?traffic_source=rss",
-      "published": "2026-08-07T23:40:16+00:00",
-      "compound": -0.128,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "ICC body urges Chad and Venezuela to reverse course on withdrawal",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/7/icc-body-urges-chad-and-venezuela-to-reverse-course-on-withdrawal?traffic_source=rss",
-      "published": "2026-08-07T23:34:50+00:00",
-      "compound": 0.128,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "South Korea reviews security posture after North Korea missile launch",
-      "source": "upi.com",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9pdURUUWNMV1AyWVF5dktCbkQyOXQtaElCYkxBWnh1dVFaUkRUeEtjWWNsWUNWcWN6NGJ3MHlONWJKU1lwdndtYkdZLVp6UlAwUHpTbGlMUzh2MmxjejhtX2lIZWVXMVBwNnlzdW1HNVJpT2sxcFdKRmxZSW7SAYIBQVVfeXFMTVBtYVdjcE9UX2t4V181N25hVTk1ZW42WW5kTUFtc0hBQUNNTGh6ZXdKNGoxUHcybkwzN0hWckZuTEQ2eUZnUVEzV245U1dJMEFRZ2JmbEJKNFF4TUUta0R1TmdiNGZfMDlCbUNzZXNyZXFBbXVLMlJ6Ym9BOGhzTW9QQQ?oc=5",
-      "published": "2026-08-07T23:25:55+00:00",
-      "compound": 0.5859,
-      "label": "positive",
-      "entities": [
-        "North Korea",
-        "South Korea"
-      ]
-    },
-    {
-      "title": "The phone book that led us to Assad's spy chief in hiding",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c4gyrzn8p94o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-07T23:23:12+00:00",
-      "compound": -0.296,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Will Pakistan-Saudi-Turkiye alliance actually create a new regional order?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/7/new-regional-order-pakistan-turkiye-saudi-arabia?traffic_source=rss",
-      "published": "2026-08-07T23:18:14+00:00",
-      "compound": 0.7399,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Medics among six Palestinians injured in Israeli attacks across West Bank",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/7/medics-among-six-palestinians-injured-in-israeli-attacks-across-west-bank?traffic_source=rss",
-      "published": "2026-08-07T23:15:01+00:00",
-      "compound": -0.8176,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Bybit takes North Korea and Lazarus Group to court over $1.5 billion hack",
-      "source": "thestreet.com",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWmRUWFVNSFh6UjhoNm02SjdxYzFKdXJTbE1OUFhSTnQxOEIzU1ZXdHVsMnkwc1NHMnR2LVVOei1ZU1J3RlpSYkNyU0pQbklsOUdBNzlMVnFXZ1hCX2wxSi13dXhNbFJmdXljUlRiMU5VZHRCVU8tejE0Q0l5QzEwT2dmYnY5MWNHaGJHTWxXa3hXMFNEdDkwaTFQdnhoT2JBa0xPTFdCOFhJUzdoc1NDSXRZREFsd1FG?oc=5",
-      "published": "2026-08-07T22:17:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "New Seventh Air Force Chief Faces Tough China, North Korea Air Mission",
-      "source": "Air & Space Forces Magazine",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOVZxU0pGSHpveFl2a3VfcVVJTWlhbzE4R0FmTnlhSmdwZWNHdWx0NmNHWWF3bmJpSVRkemNBczNxTGI3MVdxdTE0ZXUwYUdmc1JIUlFvWjNDTHpNLWZNeU5nWkgtWlB3UFpjV2JlM2M3enhGOG9pamxmN2pJdFhLd2dzRzY2dG85MW9JRlI3QloxZ2wtd1Jwci10MF9zZDFBc2NRNDFGaw?oc=5",
-      "published": "2026-08-07T22:11:50+00:00",
-      "compound": -0.25,
-      "label": "negative",
-      "entities": [
-        "North Korea",
-        "China"
-      ]
-    },
-    {
-      "title": "Democrats gain momentum in pivotal US Senate and governor’s races in Texas",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/7/democrats-gain-momentum-in-pivotal-us-senate-and-governors-races-in-texas?traffic_source=rss",
-      "published": "2026-08-07T22:08:49+00:00",
-      "compound": 0.5994,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Hunter Biden tells BBC his pardon was 'not good' for America or his father's legacy",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cy8ey458pv5o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-07T22:07:00+00:00",
-      "compound": -0.6604,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Watch: BBC asks Infantino if he will resign as Fifa president",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/videos/c0ejrdzx98wo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-07T21:24:17+00:00",
-      "compound": -0.34,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Thai PM vows to introduce stricter gun laws after eight killed in shooting",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cdewx6rew04o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-07T21:19:27+00:00",
-      "compound": -0.959,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "US appeals court halts White House ballroom construction",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/7/us-appeals-court-halts-white-house-ballroom-construction?traffic_source=rss",
-      "published": "2026-08-07T21:18:20+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Donald Trump",
-        "United States"
-      ]
-    },
-    {
-      "title": "South Koreans beat the heat with ‘silent disco’ pool party",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/7/south-koreans-beat-the-heat-with-silent-disco-pool-party?traffic_source=rss",
-      "published": "2026-08-07T21:12:45+00:00",
-      "compound": 0.6597,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "What is birthright citizenship and how common is birth tourism in the US?",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cn9nz5qwl8jo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-07T21:09:51+00:00",
-      "compound": -0.3818,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Sophia Laforteza steps away from Katseye, the second member to depart this year",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c4g305dz0y9o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-07T21:05:45+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Lebanon points to ‘positive progress’ on borders, prisoners in Israel talks",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/7/lebanon-points-to-positive-progress-on-borders-prisoners-in-israel-talks?traffic_source=rss",
-      "published": "2026-08-07T21:02:31+00:00",
-      "compound": -0.4019,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Ebola cases top 4,000 in DRC as WHO urges Ervebo vaccine trial",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/7/ebola-cases-top-4000-in-drc-as-who-urges-ervebo-vaccine-trial?traffic_source=rss",
-      "published": "2026-08-07T20:41:46+00:00",
-      "compound": 0.2023,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Kidnapped rare Serbian eagle freed into wild after rescue",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cdewxgw69exo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-07T20:40:56+00:00",
-      "compound": 0.2023,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Can diplomacy end the conflict in Libya?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/8/7/can-diplomacy-end-the-conflict-in-libya?traffic_source=rss",
-      "published": "2026-08-07T20:39:26+00:00",
-      "compound": -0.3182,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "US appeals court upholds injunction pausing Trump’s White House ballroom",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/7/us-appeals-court-upholds-injunction-pausing-trumps-white-house-ballroom?traffic_source=rss",
-      "published": "2026-08-07T20:27:56+00:00",
-      "compound": 0.0772,
-      "label": "positive",
-      "entities": [
-        "Donald Trump",
-        "United States"
-      ]
-    },
-    {
-      "title": "Indonesia’s Korean Diplomatic Bridge – OpEd",
-      "source": "Eurasia Review",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVHRfNXM1MUNweENIaF96eDFsOUhzUm1Vdngya0JBbzQ2cXBGNE9GcWNWYmg4TEtoXzlyczRVZXZuei1wc1hyQV9CdHhtUlZ5Q1cwdUVqcWlHaG00a3RsTVBmNkt6RHdtcklmcTB2Q21nVmV0UWdtNTVlbS11dW9ud0FuaGVpMGs?oc=5",
-      "published": "2026-08-07T20:27:04+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Contaminated water putting Gaza families at risk",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/7/contaminated-water-putting-gaza-families-at-risk?traffic_source=rss",
-      "published": "2026-08-07T19:47:42+00:00",
-      "compound": -0.5994,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "DR Congo releases 15 prisoners to M23 rebels as part of Doha peace process",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/7/dr-congo-releases-15-prisoners-to-m23-rebels-as-part-of-doha-peace-process?traffic_source=rss",
-      "published": "2026-08-07T19:21:01+00:00",
-      "compound": -0.34,
       "label": "negative",
       "entities": []
     }

@@ -2,13 +2,13 @@
   "id": "russia_ukraine",
   "name": "Rusia–Ucrania",
   "description": "Cobertura mediática del conflicto entre Rusia y Ucrania",
-  "updated": "2026-08-10T13:43:32+00:00",
-  "total_articles": 6925,
-  "overall_avg": -0.3961,
+  "updated": "2026-08-10T19:16:19+00:00",
+  "total_articles": 6978,
+  "overall_avg": -0.3952,
   "distribution": {
-    "pos": 1346,
-    "neu": 811,
-    "neg": 4768
+    "pos": 1360,
+    "neu": 819,
+    "neg": 4799
   },
   "sources": [
     "Al Jazeera",
@@ -30,9 +30,9 @@
     "GazetteXtra",
     "Euromaidan Press",
     "Українська правда",
+    "PBS",
     "Radio Free Europe/Radio Liberty",
     "CBS News",
-    "PBS",
     "The Jerusalem Post",
     "The Moscow Times",
     "DW.com",
@@ -42,17 +42,17 @@
     "EA WorldView",
     "CNBC",
     "Foreign Policy",
-    "Journal-News.com",
-    "WSJ",
     "TVP World",
-    "The Herald Journal",
+    "Journal-News.com",
     "ABC News - Breaking News, Latest News and Videos",
+    "WSJ",
+    "The Herald Journal",
     "Financial Times",
     "Dayton Daily News",
     "Bloomberg.com",
+    "NDTV",
     "The Hill",
     "The Washington Post",
-    "NDTV",
     "Audacy",
     "Atlantic Council",
     "France 24",
@@ -80,13 +80,14 @@
     "consilium.europa.eu",
     "New York Post",
     "Firstpost",
+    "CBC",
     "Fox News",
     "The Telegraph",
     "Межа. Новини України.",
     "Center for European Policy Analysis (CEPA)",
-    "CBC",
     "RBC-Ukraine",
     "Global News",
+    "South China Morning Post",
     "The Tribune-Democrat",
     "EUobserver",
     "The Defense Post",
@@ -101,7 +102,6 @@
     "TRT World",
     "The Times of India",
     "SMH.com.au",
-    "South China Morning Post",
     "KTVN",
     "Idaho State Journal",
     "Euronews",
@@ -115,13 +115,14 @@
     "Українські Національні Новини (УНН)",
     "The Jamestown Foundation",
     "TelegraphHerald.com",
+    "Daily Sabah",
     "Defense News",
     "Carnegie Endowment for International Peace",
     "The Globe and Mail",
     "Council on Foreign Relations",
+    "Kurdistan24",
     "The National Interest",
     "New Eastern Europe",
-    "Daily Sabah",
     "Responsible Statecraft",
     "Washington Times",
     "ukranews.com",
@@ -134,7 +135,6 @@
     "The Killeen Daily Herald",
     "Al-Monitor",
     "CNA",
-    "Kurdistan24",
     "Nikkei Asia",
     "Global Banking & Finance Review",
     "GOV.UK",
@@ -209,6 +209,7 @@
     "Small Wars Journal",
     "Rubryka",
     "inkl",
+    "kyivindependent.com",
     "kyivpost.com",
     "aa.com.tr",
     "nytimes.com",
@@ -408,7 +409,6 @@
     "LRT",
     "Critical Threats",
     "KBAK",
-    "kyivindependent.com",
     "apnews.com",
     "cbc.ca",
     "Foreign Policy Research Institute",
@@ -485,7 +485,9 @@
     "IntelliNews",
     "WEMU",
     "detroitnews.com",
-    "SBS"
+    "SBS",
+    "KWCH",
+    "daytondailynews.com"
   ],
   "daily": [
     {
@@ -1242,38 +1244,38 @@
     },
     {
       "date": "2026-08-10",
-      "count": 97,
-      "avg": -0.5196,
-      "pos": 10,
-      "neu": 14,
-      "neg": 73
+      "count": 150,
+      "avg": -0.4321,
+      "pos": 24,
+      "neu": 22,
+      "neg": 104
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 3006,
-      "avg": -0.2695
+      "count": 3032,
+      "avg": -0.2692
     },
     {
       "source": "BBC",
-      "count": 935,
-      "avg": -0.3095
+      "count": 941,
+      "avg": -0.3098
     },
     {
       "source": "The Guardian",
-      "count": 290,
-      "avg": -0.6252
+      "count": 293,
+      "avg": -0.6222
     },
     {
       "source": "NPR",
-      "count": 284,
-      "avg": -0.2973
+      "count": 286,
+      "avg": -0.2923
     },
     {
       "source": "UNITED24 Media",
-      "count": 127,
-      "avg": -0.3365
+      "count": 129,
+      "avg": -0.3364
     },
     {
       "source": "Institute for the Study of War",
@@ -1287,8 +1289,8 @@
     },
     {
       "source": "The Independent",
-      "count": 76,
-      "avg": -0.8273
+      "count": 77,
+      "avg": -0.828
     },
     {
       "source": "The New York Times",
@@ -1307,8 +1309,8 @@
     },
     {
       "source": "Reuters",
-      "count": 48,
-      "avg": -0.4898
+      "count": 49,
+      "avg": -0.4637
     },
     {
       "source": "Anadolu Ajansı",
@@ -1346,6 +1348,11 @@
       "avg": -0.524
     },
     {
+      "source": "PBS",
+      "count": 29,
+      "avg": -0.5738
+    },
+    {
       "source": "Radio Free Europe/Radio Liberty",
       "count": 28,
       "avg": 0.035
@@ -1354,11 +1361,6 @@
       "source": "CBS News",
       "count": 28,
       "avg": -0.5761
-    },
-    {
-      "source": "PBS",
-      "count": 28,
-      "avg": -0.5943
     },
     {
       "source": "The Jerusalem Post",
@@ -1402,8 +1404,13 @@
     },
     {
       "source": "Foreign Policy",
+      "count": 22,
+      "avg": -0.1608
+    },
+    {
+      "source": "TVP World",
       "count": 21,
-      "avg": -0.1685
+      "avg": -0.4795
     },
     {
       "source": "Journal-News.com",
@@ -1411,24 +1418,19 @@
       "avg": -0.8392
     },
     {
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "count": 20,
+      "avg": -0.5421
+    },
+    {
       "source": "WSJ",
       "count": 20,
       "avg": -0.453
     },
     {
-      "source": "TVP World",
-      "count": 20,
-      "avg": -0.5035
-    },
-    {
       "source": "The Herald Journal",
       "count": 20,
       "avg": -0.8358
-    },
-    {
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "count": 19,
-      "avg": -0.5221
     },
     {
       "source": "Financial Times",
@@ -1446,6 +1448,11 @@
       "avg": -0.6484
     },
     {
+      "source": "NDTV",
+      "count": 17,
+      "avg": -0.499
+    },
+    {
       "source": "The Hill",
       "count": 16,
       "avg": -0.4612
@@ -1454,11 +1461,6 @@
       "source": "The Washington Post",
       "count": 16,
       "avg": -0.3474
-    },
-    {
-      "source": "NDTV",
-      "count": 16,
-      "avg": -0.4816
     },
     {
       "source": "Audacy",
@@ -1596,6 +1598,11 @@
       "avg": -0.8887
     },
     {
+      "source": "CBC",
+      "count": 8,
+      "avg": -0.6514
+    },
+    {
       "source": "Fox News",
       "count": 8,
       "avg": -0.742
@@ -1616,11 +1623,6 @@
       "avg": -0.3927
     },
     {
-      "source": "CBC",
-      "count": 7,
-      "avg": -0.6128
-    },
-    {
       "source": "RBC-Ukraine",
       "count": 7,
       "avg": -0.6651
@@ -1629,6 +1631,11 @@
       "source": "Global News",
       "count": 7,
       "avg": -0.7225
+    },
+    {
+      "source": "South China Morning Post",
+      "count": 7,
+      "avg": -0.4701
     },
     {
       "source": "The Tribune-Democrat",
@@ -1701,11 +1708,6 @@
       "avg": -0.7143
     },
     {
-      "source": "South China Morning Post",
-      "count": 6,
-      "avg": -0.6583
-    },
-    {
       "source": "KTVN",
       "count": 6,
       "avg": -0.2198
@@ -1771,6 +1773,11 @@
       "avg": -0.8316
     },
     {
+      "source": "Daily Sabah",
+      "count": 5,
+      "avg": -0.8635
+    },
+    {
       "source": "Defense News",
       "count": 4,
       "avg": -0.5787
@@ -1791,6 +1798,11 @@
       "avg": 0.1707
     },
     {
+      "source": "Kurdistan24",
+      "count": 4,
+      "avg": -0.4671
+    },
+    {
       "source": "The National Interest",
       "count": 4,
       "avg": 0.2052
@@ -1799,11 +1811,6 @@
       "source": "New Eastern Europe",
       "count": 4,
       "avg": -0.2857
-    },
-    {
-      "source": "Daily Sabah",
-      "count": 4,
-      "avg": -0.8468
     },
     {
       "source": "Responsible Statecraft",
@@ -1864,11 +1871,6 @@
       "source": "CNA",
       "count": 3,
       "avg": -0.8627
-    },
-    {
-      "source": "Kurdistan24",
-      "count": 3,
-      "avg": -0.6902
     },
     {
       "source": "Nikkei Asia",
@@ -2239,6 +2241,11 @@
       "source": "inkl",
       "count": 2,
       "avg": -0.9227
+    },
+    {
+      "source": "kyivindependent.com",
+      "count": 2,
+      "avg": -0.8194
     },
     {
       "source": "kyivpost.com",
@@ -3236,11 +3243,6 @@
       "avg": -0.5574
     },
     {
-      "source": "kyivindependent.com",
-      "count": 1,
-      "avg": -0.7906
-    },
-    {
       "source": "apnews.com",
       "count": 1,
       "avg": -0.8689
@@ -3624,32 +3626,42 @@
       "source": "SBS",
       "count": 1,
       "avg": 0.0
+    },
+    {
+      "source": "KWCH",
+      "count": 1,
+      "avg": -0.9081
+    },
+    {
+      "source": "daytondailynews.com",
+      "count": 1,
+      "avg": -0.8316
     }
   ],
   "top_entities": [
     {
       "name": "Ukraine",
       "type": "LOCATION",
-      "count": 2661,
-      "avg": -0.5885
+      "count": 2673,
+      "avg": -0.5891
     },
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 2278,
-      "avg": -0.6227
+      "count": 2297,
+      "avg": -0.6196
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 702,
-      "avg": -0.3123
+      "count": 705,
+      "avg": -0.3129
     },
     {
       "name": "Kyiv",
       "type": "LOCATION",
-      "count": 526,
-      "avg": -0.6887
+      "count": 527,
+      "avg": -0.6892
     },
     {
       "name": "Volodymyr Zelensky",
@@ -3660,14 +3672,14 @@
     {
       "name": "Vladimir Putin",
       "type": "PERSON",
-      "count": 366,
-      "avg": -0.5867
+      "count": 370,
+      "avg": -0.5866
     },
     {
       "name": "Moscow",
       "type": "LOCATION",
-      "count": 192,
-      "avg": -0.7342
+      "count": 195,
+      "avg": -0.7265
     },
     {
       "name": "United States",
@@ -3684,8 +3696,8 @@
     {
       "name": "Crimea",
       "type": "LOCATION",
-      "count": 98,
-      "avg": -0.6233
+      "count": 100,
+      "avg": -0.6088
     },
     {
       "name": "Sergei Lavrov",
@@ -3714,6 +3726,475 @@
   ],
   "recent": [
     {
+      "title": "111 dead after Colombia quakes leave trail of destruction",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/111-dead-after-colombia-quakes-leave-trail-of-destruction?traffic_source=rss",
+      "published": "2026-08-10T18:51:02+00:00",
+      "compound": -0.9552,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Lebanon ‘files new lawsuit against’ ex-central bank chief Riad Salameh",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/10/lebanon-files-new-lawsuit-against-ex-central-bank-chief-riad-salameh?traffic_source=rss",
+      "published": "2026-08-10T18:37:07+00:00",
+      "compound": -0.2263,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Inside Putin’s aggressive army recruitment drive as Russians snatched off streets to feed Ukraine war",
+      "source": "The Independent",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPV3FHdFJlaXhLXzJJUHpuOGRVUEpBU3lBWGQyM011TzRidGhGdmhUcmpma3NrR2RGSU9fRjdYVm1Oc1J2YVhpR1d5LTMzUERQc1FpWHE4QVJYSzNvT2JQdWJkYjk3ZGo3S1hqV3BhcVlvTWZiQy1Ecy1UUF9LSEhFbUNlVDdFRHpUOXhJSnljRmhFZWlxWGRlWkJvblhJMmhqM1RlTG0yMFZCTldRYUE?oc=5",
+      "published": "2026-08-10T18:37:00+00:00",
+      "compound": -0.875,
+      "label": "negative",
+      "entities": [
+        "Vladimir Putin",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Netanyahu’s veto and the limits of American power",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/opinions/2026/8/10/netanyahus-veto-and-the-limits-of-american-power?traffic_source=rss",
+      "published": "2026-08-10T18:35:31+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Iran hierarchy consolidation as IRGC veteran tapped for key security role",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/10/iran-hierarchy-consolidation-as-irgc-veteran-tapped-for-key-security-role?traffic_source=rss",
+      "published": "2026-08-10T18:34:25+00:00",
+      "compound": 0.7506,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "New train service connects Finland and Sweden for first time in decades",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cx2lwpzz6qjo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-10T18:28:11+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Watch: What we know about suspected crime boss Daniel Kinahan",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/videos/cm2g97nnr5go?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-10T18:24:45+00:00",
+      "compound": -0.8689,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Russian court bars only anti-war party from standing in parliamentary elections",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cy9w1l5jr7lo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-10T18:19:41+00:00",
+      "compound": 0.6597,
+      "label": "positive",
+      "entities": [
+        "Russia",
+        "Moscow"
+      ]
+    },
+    {
+      "title": "Ukraine's drone chief says push to cripple Russia in Crimea is just getting started",
+      "source": "PBS",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQd2R6WWt2M2s2NjdfbkJscjllc0dsa0pCbDRFbmZ1a0hqS2NfMC1KWGlpWHNrQkM2dkYtWkI0MUVONy1IYmFNMVdpUjh1aEsyVDA0ZHpMRWYwM3BwLVIxUVJFdHdCS3gwRFNpWFRIQVBXcHJwT2cweUo5OFF0azFpMWUxS3oxT05rS0ZTRW1CLTAzdWFObm00aTBsdWFndE9XbXpXMTQ1Z0ZWWkZVcHFqVzdEazRXcENW0gG-AUFVX3lxTE1xMTdvWU05eVIwdGczbjVTVWtQZnJFMGVyWkM3aFpKMG5QUklod1FPcUVKUVM1N1JCMFR0Vkd3TzNYRk5KU3NPeXJLSWMtRXEwZ3Izc29KSnZkTkFMM21VQXN3RGNKRldKdVExZUpUYnBjYVJWOUtsMkNoOHRlWm9wcUxCQThtVmNjbTg2bjBRc3pTY09ZWjNUbnc5SDF4cVBQRlpUaWpGM2xud0h1M0dNM1FSWThLdjlQSFExUGc?oc=5",
+      "published": "2026-08-10T18:15:37+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Russia",
+        "Ukraine",
+        "Crimea"
+      ]
+    },
+    {
+      "title": "Oman trying to contain extensive oil spill from stricken tanker",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/10/oman-trying-to-contain-extensive-oil-spill-from-stricken-tanker?traffic_source=rss",
+      "published": "2026-08-10T18:15:23+00:00",
+      "compound": -0.5106,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Moscow"
+      ]
+    },
+    {
+      "title": "Russia's top court bars anti-war party from parliamentary vote",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOUFBcmJEaktPRWUyd2VRaFVob05RVXZic2dIMmIyQ2pxcUNrZ2c2ZERNMENsamM3YXdkQkJMbWJncjV1UUdsZmsxZ0h5MGtzczdCc0lhb2F1b1pkdzlvMzBPTE51ZHlTb01JQlNMRFRwMmdKbkZndmZlY24xN0NPYTZHaEJwUVVuNW5Jby1ONUk?oc=5",
+      "published": "2026-08-10T18:00:07+00:00",
+      "compound": 0.7906,
+      "label": "positive",
+      "entities": [
+        "Russia"
+      ]
+    },
+    {
+      "title": "Ukraine war latest: Ukraine continues strikes on Russia's oil industry as Moscow races to expand missile production",
+      "source": "kyivindependent.com",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8tSG9ia2NXS0k5MXpILVlfSlR6US1GWEZoUFRYVlp1MUwxM0o3TlNYemRhZ3h0LXhneVNkMXJuZTY3M090VnN6NllENmliU2RHNHRMbEdFWEE4R3Ywb2NCTg?oc=5",
+      "published": "2026-08-10T17:51:39+00:00",
+      "compound": -0.8481,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine",
+        "Moscow"
+      ]
+    },
+    {
+      "title": "Zuckerberg’s yacht crew did not hear call for help, says spokesperson",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/10/zuckerbergs-yacht-crew-did-not-hear-call-for-help-says-spokesperson?traffic_source=rss",
+      "published": "2026-08-10T17:51:18+00:00",
+      "compound": 0.6597,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "We are chasing Ebola virus - it is ahead of us, WHO warns",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c5ydx7m8gzeo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-10T17:50:29+00:00",
+      "compound": -0.4939,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Ukrainians Are Trying to Help a Traumatized Generation",
+      "source": "Foreign Policy",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1md3ZNRi1PV2xMblc3TkxZS01Wa0oxUVZDbmNMODhvRm9FMHd1cVZxWFhLVlJfazIxUUVSell6MmVmY3ljNE0zanIySjlLR1V0c21nTnZoNEtTNkVIY3FQSXJWTWZydmxpaG52OGVyWnJFc3c?oc=5",
+      "published": "2026-08-10T17:38:52+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Russia bars anti-war party from parliamentary election",
+      "source": "South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYjJvckNoYnZyVUVSSTZrZnhxV2tzUnpjTURITkpST1I2elNpTHdlZW1UMURXMnhmWDJSR0dJQ0FUZkFpb0k1aWx1S3luRkFHaVhPUUNJbHRhd09wZ3puYjQtOUltRzB6RC1Ta00wTGV2SzhWTlNIRXJBREtYOFRYUU5CbEt4NDI2UnpIRGxwVk9HRWVnaWJwdXp1QXk2cTFMOGN1MjVVcjFxZV9uM210MDNIVjBCMlAt0gG4AUFVX3lxTE9rRnR3QkpnYUZVQWlnb3pxTkhxOEVzbG5tNDdTdTZmMUphV01CQzBCQnM5QjFHNkVOLS1kTUxFU2RnOVNvNW1ZaWhycll5V2E4S1J6U1RKTUJxQndMNFFlMmZZcFJlZVVZaE1IelBlUFhSbkdzX1poYzgxTE9GSE50WHF4S2dkNFhXaW9ZSktRa2pNYllJeE54N29yc3BSZUlWM3o5QUFJdUJqNklBNW0tSVlGSEhuVnU?oc=5",
+      "published": "2026-08-10T17:36:07+00:00",
+      "compound": 0.6597,
+      "label": "positive",
+      "entities": [
+        "Russia"
+      ]
+    },
+    {
+      "title": "Palestinian club football to restart in September after Gaza war suspension",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/8/10/palestinian-club-football-to-restart-in-september-after-gaza-war-suspension?traffic_source=rss",
+      "published": "2026-08-10T17:30:36+00:00",
+      "compound": -0.8316,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Iran’s president says Khamenei is in ‘perfect health’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/irans-president-says-khamenei-is-in-perfect?traffic_source=rss",
+      "published": "2026-08-10T17:05:01+00:00",
+      "compound": 0.5574,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Humane society, ‘Baywatch’ star honor Garden City air traffic controller killed in Ukraine-Russia war",
+      "source": "KWCH",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRzJreThWcmtESUowcVZkcDd1bEVhU3N2U19BQVFWd3EzN2VfdUJxeTFnSVN0bk1lc3FJWmVHUXRMdkZGQ2hlYklPa1BHYnhqeVBoOC1xbXgyS1BUUVd1WnRxd1J4X0g0S200Z2Z4cnJQUEJqV2NIRGIyRU9yRXNpdHlNS19qckx2aENpLVpPUHVWc2xreVl3TkFMTFVEdFpEWmxES18tZHduekx1RTJhQXJCeU4xYWdYcTljZHQ1cWZxcXpERVJJ?oc=5",
+      "published": "2026-08-10T17:01:00+00:00",
+      "compound": -0.9081,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Colombia earthquake live: Magnitude 7.4 quake strikes near Bogota; 111 dead",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/8/10/colombia-earthquake-live-magnitude-7-4-quake-strikes-near-bogota-47-dead?traffic_source=rss",
+      "published": "2026-08-10T17:00:41+00:00",
+      "compound": -0.9403,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Photos: 7.4-magnitude earthquake rocks western Colombia",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/gallery/2026/8/10/photos-7-4-magnitude-earthquake-rocks-western-colombia?traffic_source=rss",
+      "published": "2026-08-10T16:48:50+00:00",
+      "compound": -0.1779,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "DRC’s Ebola outbreak began months before it was officially declared, says WHO",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/10/drcs-ebola-outbreak-began-months-before-officially-declared-says-who?traffic_source=rss",
+      "published": "2026-08-10T16:28:34+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Ukraine drone strike on oil refinery deep inside Russia kills at least 13",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/aug/10/ukraine-drone-strike-on-oil-refinery-russia",
+      "published": "2026-08-10T16:25:30+00:00",
+      "compound": -0.9612,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine",
+        "Kyiv"
+      ]
+    },
+    {
+      "title": "‘We have no one’: Palestinians react to Israel’s rejection of Gaza plan",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/2026/8/10/we-have-no-one-palestinians-react-to-israels-rejection-of-gaza-plan?traffic_source=rss",
+      "published": "2026-08-10T16:24:13+00:00",
+      "compound": -0.6882,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Ukrainian drone attack kills 13 in Russian city of Nizhnekamsk",
+      "source": "CBC",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVWZpUmpNbHNUdWRsclBIRTl5OS1aQzFiQUlpTjBfeC1NbEc2U2sxWk9VdlVSOFZIY2h4NVZUWnpKNHMyM2tsU1I2YXhoNF8xaU9uY0hTSVVBeTB2R1hXS21CejVBeGNPenczVVFnWlE1YUlncmlJX1BqMW9Wemx1QVdzOGdTZw?oc=5",
+      "published": "2026-08-10T16:21:48+00:00",
+      "compound": -0.9217,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "'Total incinerated destruction': Canada wildfire evacuees wonder if they still have homes",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cx2lwv032j9o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-10T16:10:56+00:00",
+      "compound": -0.6573,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Despite Mideast wars, 20 million gather in Iraq for Shia pilgrimage",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/08/10/g-s1-137832/iraq-shia-pilgrimage-shia-war",
+      "published": "2026-08-10T16:08:06+00:00",
+      "compound": 0.8421,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Sudan’s army chief holds unannounced talks on national dialogue",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/10/sudans-army-chief-holds-unannounced-talks-on-national-dialogue?traffic_source=rss",
+      "published": "2026-08-10T16:03:43+00:00",
+      "compound": 0.5719,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "‘They need each other’: What’s behind the new Syria-Russia accord?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/10/they-need-each-other-whats-behind-the-new-syria-russia-accord?traffic_source=rss",
+      "published": "2026-08-10T16:01:06+00:00",
+      "compound": 0.4939,
+      "label": "positive",
+      "entities": [
+        "Russia"
+      ]
+    },
+    {
+      "title": "US intelligence ‘believes Russia was behind Leipzig airport drone bomb’",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/aug/10/us-intelligence-russia-leipzig-airport-drone-bomb",
+      "published": "2026-08-10T15:55:26+00:00",
+      "compound": 0.8047,
+      "label": "positive",
+      "entities": [
+        "Russia"
+      ]
+    },
+    {
+      "title": "Anas al-Sharif: One year on from Israel’s killing of Al Jazeera reporter",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/anas-al-sharif-one-year-on-from-israels-killing-of-al-jazeera-reporter?traffic_source=rss",
+      "published": "2026-08-10T15:51:26+00:00",
+      "compound": -0.8689,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Oil prices, stocks surge as Hormuz closure drags on",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/8/10/oil-prices-stocks-surge-as-hormuz-closure-drags-on?traffic_source=rss",
+      "published": "2026-08-10T15:45:39+00:00",
+      "compound": -0.2382,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Ukrainian drone attack on an oil hub deep inside Russia kills 13, officials say",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYVBwWnNUWFcwVWtGR2RnTmNrTTQ5cndQSmZPOHA5dUNaMG9YX3l6bXZsTEhWUmViQXFEaWNEeVRUbUdMU2NNSV8tWDd4aTUydEZ0MWlHLVcyZWRVdVduR0hOMGZVckkxOHp5SGhlbC11dTVQMlRpX1FjdlVrVC14RE92WHpBbW9LYThMcWNxOXVpVWJrSTVYTERzWEJiMmp4a1FFM1R0Qms3cmFHVF9J0gG0AUFVX3lxTFA2TXdDdzhpVVZTQnluRjB5d2h5TE5MZGFENUdncWhneGlWaEZEazRQaHRYZ1lCQmVrbTJuQTlDcGluVVY4NmIwdEg1TmEwcjNwSjJ1TDd1ZDR5UXV6OU13cHlqQVJOcFh0eHJhS3hDZ2NQcXdQRXp6S3JnaVVIZERidnVhcU0yRmIwZWU4Y1BhN21Da2xlMkI4TUpxNklrWTBHYmY1ckdIZk9EbS1WWHhaV2kzYQ?oc=5",
+      "published": "2026-08-10T15:34:16+00:00",
+      "compound": -0.9217,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Ukraine drone strike on oil refinery deep inside Russia kills at least 13",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQN1pOWHMzN3JWVkhlMkVXejRSUmN2SWhBVDBkUWRrZWxoYzJpaUNFZWVJWjRpb1U2Z3dpcFV4VWdwVzdLRlUxaTZlOU5NbjNOakJ4cFpGZEhMMW93aWIweFRaRUdyOFo4VHpnQ0pzZ1hfSlpiX2dIaDVIZFl4NVRGRl9RNGRWSVNNWkhwUEZPTU5PZW8?oc=5",
+      "published": "2026-08-10T15:12:00+00:00",
+      "compound": -0.8402,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Putin’s Next Mobilization Could Trigger Mass Losses and Desertions Across Russia",
+      "source": "UNITED24 Media",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYXZKU2VZcjlnQ3ZRMTUxWTlXMVBIRjFiSmZoeXVGMHcyejFEalRkNFBzWFlwWmJENnIzT0dSVi1IbVVhMG5MdS1XTm8yRG5QR3REMGY4US1URHF0MXdYQjZVenpVcVRLbksyOG5PX0o1UmRqWDl6eVlEbXRiWGdJOUhLX3g3R2Z5cXYwMy1QMjBHZDlMUkFJY1lpUDhpc2U2Q1hfTlMxdi05bkVEX2NKY2JRaGpuM0pxTFB4MU5ST3FrbUpR?oc=5",
+      "published": "2026-08-10T15:03:09+00:00",
+      "compound": -0.6597,
+      "label": "negative",
+      "entities": [
+        "Vladimir Putin",
+        "Russia"
+      ]
+    },
+    {
+      "title": "Earthquake with 7.4 magnitude hits Colombia, killing at least 69",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/10/7-4-magnitude-earthquake-hits-colombia-killing-at-least-20?traffic_source=rss",
+      "published": "2026-08-10T14:57:08+00:00",
+      "compound": -0.7906,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Indian police attack protesters seeking action over ‘exam irregularities’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/indian-police-attack-protesters-seeking-action-over-exam?traffic_source=rss",
+      "published": "2026-08-10T14:52:32+00:00",
+      "compound": -0.8402,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Netanyahu's rejection of Trump's 15-point Gaza plan unlikely to be final word",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/ce3q5282ep3o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-10T14:43:08+00:00",
+      "compound": -0.7906,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Ben-Gvir posts AI video of starving Palestinian ahead of elections",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/ben-gvir-posts-ai-video-of-starving-palestinian-ahead-of-elections?traffic_source=rss",
+      "published": "2026-08-10T14:18:52+00:00",
+      "compound": -0.6808,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "How the US far-right weaponised ‘inshallah’ against Abdul El-Sayed",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/10/how-the-us-far-right-weaponised-inshallah-against-abdul-el-sayed?traffic_source=rss",
+      "published": "2026-08-10T14:13:00+00:00",
+      "compound": 0.3182,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "War on Iran: Phase II: Day 30",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/war-on-iran-phase-ii-day-30?traffic_source=rss",
+      "published": "2026-08-10T14:07:04+00:00",
+      "compound": -0.5994,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Most Ukrainians ‘expect victory’ over Russia",
+      "source": "TVP World",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQa0JCbW16c0RWclpuVG5nRlM5Q1hfT3NYU2tDLUlWVEVYNk9MVnZPVkhSWlp6TnpvSjlXZ2lPcEg3UHZUOHFROEhaYV9USnRzOW9ic3lybldGd1hiM3FhYUVlc2lxekZVNWlidkI1cTJxWEliXzJFd2h1MG9MS1hFaUNOOTZnVDNWS3NtRXNR?oc=5",
+      "published": "2026-08-10T14:06:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Russia"
+      ]
+    },
+    {
+      "title": "Record 230 people reach UK on single boat after crossing English Channel",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/10/record-230-people-reach-uk-on-single-boat-after-crossing-english-channel?traffic_source=rss",
+      "published": "2026-08-10T14:02:38+00:00",
+      "compound": -0.6808,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Iran changed the rules in Hormuz. The Gulf is changing the rules for Iran",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/opinions/2026/8/10/iran-changed-the-rules-in-hormuz-the-gulf-is-changing-the-rules-for-iran?traffic_source=rss",
+      "published": "2026-08-10T14:00:02+00:00",
+      "compound": 0.5994,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Why Netanyahu’s ‘coup’ against Gaza plan risks endless war",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/10/why-netanyahus-coup-against-gaza-plan-risks-endless-war?traffic_source=rss",
+      "published": "2026-08-10T13:59:58+00:00",
+      "compound": -0.9246,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "APTOPIX Russia Ukraine War",
+      "source": "daytondailynews.com",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMHNwcnQyRk00U1BlQXU1SXRNRElGNlZfakNEb0ctN0p5XzRlNEdfSmhSalhKZmI5RUFoaE5YbHFlcGc3N0ZIZFVacXpacDlFR2NkZlhLN0J5bmRROGRDSFdyMG1sTkNENnhtUkhLN1NBcDY5cWZMMGV2LU1zSU1UNHd5NUhOWktUSUt4MWFiRzlFQkZFOUY4ZGV3ekMxVUYzNjRYQnhNOWJ0UWVfdkFpVnRQNGtqNEhBLW5R?oc=5",
+      "published": "2026-08-10T13:56:12+00:00",
+      "compound": -0.8316,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
       "title": "Ukraine confirms strikes on oil refinery in Russia’s Tatarstan – Europe live",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/live/2026/aug/10/ukraine-drones-russia-oil-facilities-europe-heat-drought-latest-updates-news",
@@ -3726,6 +4207,15 @@
         "Ukraine",
         "Moscow"
       ]
+    },
+    {
+      "title": "Gaza honours Al Jazeera’s Anas al-Sharif and Mohammed Qraiqea",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/gaza-honours-al-jazeeras-anas-al-sharif-and-mohammed-qraiqea?traffic_source=rss",
+      "published": "2026-08-10T13:32:05+00:00",
+      "compound": 0.7506,
+      "label": "positive",
+      "entities": []
     },
     {
       "title": "Ukraine's push to cripple Russia in Crimea is just getting started, drone chief tells AP | World News | 2news.com",
@@ -3829,6 +4319,19 @@
       "entities": []
     },
     {
+      "title": "Ukraine Expands Crimea Campaign as Drone Chief Vows to Cripple Russian Military Hub",
+      "source": "Kurdistan24",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRjJsMGZBMEVOVldLWE5TMUN1UmlyTFVETDkxdzhxbk5nVm5vbTFCSkJjdXNqTXprMXE2Y2dxaU0zaEFPcXlXWktjWXdSenM0NTJjbHZ6VjdESUxLSEZQZWZ6dnJQVHNBZG9YcXdLNlNabVNnbGxBSkNtOEhPMVc4Nl9VS2dBZ3JBNnhTdEMyaFJlT3lIMjVpZWVjYTY1ZnlsTGlBb1BuN3JNQnNQOGp6aHVoM0F6Y05BX1lHeXU2bHU1T3VlU3c?oc=5",
+      "published": "2026-08-10T12:41:00+00:00",
+      "compound": 0.2023,
+      "label": "positive",
+      "entities": [
+        "Russia",
+        "Ukraine",
+        "Crimea"
+      ]
+    },
+    {
       "title": "Flood death toll in India's Assam reaches 100 as thousands lose their homes",
       "source": "NPR",
       "url": "https://www.npr.org/2026/08/10/g-s1-138015/flood-death-toll-in-indias-assam-reaches-100-as-thousands-lose-their-homes",
@@ -3848,511 +4351,6 @@
         "Russia",
         "Ukraine"
       ]
-    },
-    {
-      "title": "Russia Ukraine War",
-      "source": "Dayton Daily News",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcWhSYVhrdmdwT3MydTgxd3Nmem5JQm55ZFFlNnNwT2VaaFAtU1czWFhTYk9RaWNYc3NPTW94cmV0aE1TTzJQUDRhZVpsSi1kT2I0Zjh4RlFpX2Q4RUJpcGNGbUNTc24wVnZzN1g2eFhMT3BpUk1yZi1XbGYtNmEyYmZmcWItY0hJZHRBcnVpQ3BNUzZyNzV0Q0Q1Q0hhaGFTRW9SaVBNdmE4VTFxNzhGTw?oc=5",
-      "published": "2026-08-10T12:36:00+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Russia Ukraine War",
-      "source": "Dayton Daily News",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcDNWbHUxLTZBV3pMNlcwWENwTzVoOGR1S0YtTlV0M0NPMDRyV2ZUaHpjOW8tUDRqYk9XVERZOVdramdHcGRPYUxOOHBVVm1jN0NtTnIzQmNyRUZwYXFhcW1NZDZsTHpwdVNuU2NHaVNER3BILWtKZUNoSElFYy1laDdpbk1ES1NPeTViNnhkOVRiU3JpQ3RfV3pUM1ppWmNiOFgxUFJPMkhsM1JsQlN0Vg?oc=5",
-      "published": "2026-08-10T12:36:00+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "New Zealand sanctions Russian hackers, propaganda groups over Ukraine war",
-      "source": "The Record from Recorded Future News",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1rUENpaWZGU2FuYlJsNEZ5YURmQUljUG52a2lpRXM4SG9rTHhLaGF1alprYUpTb1VCLVVTaDhxODVFeE9PYktXRjdSY3I3bkt1ZjM2WHJPSzFidG92Y3FXX0Y1N3pnek1McnJ4Z3N3?oc=5",
-      "published": "2026-08-10T12:34:09+00:00",
-      "compound": -0.8957,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Battle for Mali base has killed dozens of militants, army says",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cly8j7ygwvlo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-10T12:32:26+00:00",
-      "compound": -0.7876,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Russia And Ukraine Fill Sky With Drones, Civilians Paying Price With Blood",
-      "source": "NDTV",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWXpZSU0tOEpFOWxKOTcxTEpCTGdHZy0tRTNEVEZOQWNvRk1qZmFsZUZaOUpkcVQ2VV92WjU1NTVaYmtSZVN3RW9xVFQ2QXRhSWFXVGJuaHVobnRDeVRoUFMyMnBSSXVkU21UX3ZPYzVTcUdRUkJBcFJYMjdyY2FfSm9yQVZqNUJ5NDJ0V09wN0d3LU1jcHdkQUlkTE5YV2FQNkdhdmtTN0dqODNLNkRkbVI0VTVBaUMyN1doX28wcjRCTWUyWmlsVW1rYmxQaWpGdUROOUYybUvSAeABQVVfeXFMUEQ5SEJQWHJfRE1OLVgxMDdubGRtNThOeXM3TFgtUW80VUpmZjUtLV91QUxpclpyNTRFb043ek5VekNLWkphY1BUNndLQUFfbnhvemt4WDdCcXo3X3pZYXlvQnhTWVhWck8xMDJjUHlNRmlFUVlYTlNlVlV3QnMtbzd2X0xsaW5Zc3pGSmh5ZGxVWFRfWGxfVXJZTWFCemNHekRYelhHZnJFZXZOZmwweHJmMG1GWUU3VGF4OFAzSXpqdTlSb21ZYnNWMFNRZXNBVjZDdW9lSW1OT1VPSE1wNkk?oc=5",
-      "published": "2026-08-10T12:32:05+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Ukraine-Russia war: Period of mourning declared in Russian region as Ukrainian drone strike kills 13",
-      "source": "The Independent",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNLWZmZHVJQ05hakM5cFp6UXdDX09rUDJIaG5HelVUS2dYdXFvWUswcHo2ajcyaGFUM3JENFctSHk4VWYzdlJHNUk0YkItWUItM01zRThxVnFTRjZlVjQ5cHktekJhMHluckdrYXlkSmRrUVlUcTAyOEdTc1owMGFtaEhERDA4T1J5TElCWWU4SmRlMUFzc0w4?oc=5",
-      "published": "2026-08-10T12:29:00+00:00",
-      "compound": -0.9705,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Alleged rebel leader killed in Colombia as president targets armed groups",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c5yrljp9x9eo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-10T12:23:21+00:00",
-      "compound": -0.7269,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Ukraine kills 13, including child, in drone attack on Russian city of Nizhnekamsk, officials say",
-      "source": "detroitnews.com",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOMHRlT0lGMk5IRDRVR0FfbkVmSjh5X1Zya3FWaFVNUG5ac0hBTjlVYVc2akw2d3R6LV8wdy00b3lqQ0VFS1dWdWNTVmp6akpRZ0pGNjdiTHhXbVI2WXcxdmYwd2dQeGZocDJJSlpVMjBCNnNKZ1lHSVdGaWF3dWZkZEJMR2thSVBGLWtJalhlaFZHNVJBM0VVbExLNGN0RUNaVUdwZU5qOEd6eUhCY2MwMXBrd0dOWjJhTE1RWmhwcWliRGNteUdmMHhRZTdqeWlQdTMzWkF1LVNrdnVjZHJvZkR5MWZ4Mkll?oc=5",
-      "published": "2026-08-10T12:23:00+00:00",
-      "compound": -0.9217,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Taiwan holds military drills to prepare for invasion by China",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/taiwan-holds-military-drills-to-prepare-for-invasion-by-china?traffic_source=rss",
-      "published": "2026-08-10T12:09:08+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Former MP opens fire in Thailand’s second shooting within days",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/former-mp-opens-fire-in-thailands-second-shooting-within-days?traffic_source=rss",
-      "published": "2026-08-10T12:00:29+00:00",
-      "compound": -0.5859,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "‘Long-range sanctions’: Ukraine hopes strikes cause Russia fear and losses",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTWh0UHBzOVZRUVI4TGpRdnp6Y1FJTkl6Y2VwWVRuWEtydXEtb1lwWjhpVGFDT3FwaDJTTGppQkZ5Uld2Umh0RUFsejlnUVJKbXEyZDRXYVA3THlhQk1EWTRVZ0ljQWE1S3lQS3Z5b0gzNFYtZTJBR3JyMHRXZlZJcnNHNWZEUmFqSWxteHBkMnlCVWFMZUVhZnBEZjl3aVpjV2ZyNl9sQjhVNW9rUGtyeHN30gG3AUFVX3lxTE5TYXJMLTRCRnpZRjUtN29EazN2LXFtajR6YThTZVY1Rm5lLXd5TDV5V3pKRGpYTk5jRFNMM3h2bTlnWFplbnBtUGgyRk1sY29DYVdQZFRRbDNEMkdQUXhDUjdPUWotZnBPMU9oN2lISjFNd3hHZkQyU2k2bE4tZU83QVVhV2tBM3BwLTc1eUx1c0duQnhseEZ2SXBLZEg5aEJfMUJsWTNmYkpZUkVOQ1RKcS1aWjFBOA?oc=5",
-      "published": "2026-08-10T11:57:26+00:00",
-      "compound": -0.8807,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "‘Long-range sanctions’: Ukraine hopes strikes cause Russia fear and losses",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/10/long-range-sanctions-ukraine-hopes-strikes-cause-russia-fear-and-losses?traffic_source=rss",
-      "published": "2026-08-10T11:51:28+00:00",
-      "compound": -0.6808,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "The war in Ukraine: Russia, the EU, and NATO",
-      "source": "WEMU",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWUsxdGdCSVBsSng2ckpFQl9qWXB1SkdrSkFMa2dLTHROQUQzUk9XcUtLRlRKXzdMNUV0M3cxQVc0NGVKV0JleUFfRlpSLWV3RDRuZ3B0WVJJbFpBTkVyNmd0OVU3bDhXM2lGNVVfeWU1eTl6THQ1SnJfRVZLZGgweHo2XzJ3NTFxcDVXX1U3TVZaMWNSanFab3JYbzJTd1JDMzdlRTBCS2lISUU?oc=5",
-      "published": "2026-08-10T11:49:43+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine",
-        "NATO"
-      ]
-    },
-    {
-      "title": "Decades of abuse revealed at Michigan art school. And, the Iran war's impact on midterms",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/08/10/g-s1-138013/up-first-newsletter-epstein-interlochen-center-for-the-arts-trump-iran-midterms-wildfires",
-      "published": "2026-08-10T11:42:58+00:00",
-      "compound": -0.872,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "UEFA Super Cup – PSG vs Aston Villa: Prediction, start time, how to watch",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/8/10/uefa-super-cup-psg-vs-aston-villa-prediction-start-time-how-to-watch?traffic_source=rss",
-      "published": "2026-08-10T11:28:23+00:00",
-      "compound": 0.886,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Protesters rally in India’s Jharkhand over alleged exam irregularities",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/10/protesters-rally-in-indias-jharkhand-over-alleged-exam-irregularities?traffic_source=rss",
-      "published": "2026-08-10T11:23:48+00:00",
-      "compound": -0.34,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Remembering Anas, Mohammed and Gaza’s other slain journalists",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/opinions/2026/8/10/remembering-anas-mohammed-and-gazas-other-slain-journalists?traffic_source=rss",
-      "published": "2026-08-10T11:17:16+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "What’s behind Trump’s shift to economic pressure on Iran? Will it work?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/10/whats-behind-trumps-shift-to-economic-pressure-on-iran-will-it-work?traffic_source=rss",
-      "published": "2026-08-10T11:11:33+00:00",
-      "compound": -0.8577,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Powerful Typhoon Dolphin hits China, prompting flood and landslide warnings",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/gallery/2026/8/10/powerful-typhoon-dolphin-hits-china-prompting-flood-and-landslide-warnings?traffic_source=rss",
-      "published": "2026-08-10T11:06:22+00:00",
-      "compound": 0.4404,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "At least 13 killed in Ukrainian drone attack on Russia’s Nizhnekamsk",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPS2hpbG04YURpX083TjZVR2tZZ1JEM1ZmR1dVeXdaQzBlZllZS2V5VzRwXzBocGRxaTc1QUtwWlJDazhjV3NvLTNjRDAxNXl5WkhxZjEyM29LTDN1cDA3XzNETGhXNnl2NkxuWldkYVJSX1RXclh5UjA0YnBKR1A3RFJzcUhnQUs5MWt0bG9RWDIzdWs1UnBIeXJPUGlwMHBLWFJMZW44V080V2hS0gGyAUFVX3lxTE5uSTlTRnQ4VWE2QkxwajVTaE4tTDVWTnl2UlliM3VIbWVmLWRXZF95UlJVRlFtYjM5bHJsb1prRHBheUZTYmVXdWw1SFlMTXVWVWZ3NDVhNXgyNi1TNVQ0TS1hcXUtTkdIOU9OY0JaYlpQcFJkTDdSUlBJZDJVQWdBN2VwWDVSb0QxYW1RWjdHbjFOblRLNm03TV9ZSHo3VlRJTXhNMHJVRmJlRk03R18yOHc?oc=5",
-      "published": "2026-08-10T11:03:08+00:00",
-      "compound": -0.9451,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "At least 13 killed in Ukrainian drone attack on Russia’s Nizhnekamsk",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/10/at-least-13-killed-in-ukrainian-drone-attack-on-russias-nizhnekamsk?traffic_source=rss",
-      "published": "2026-08-10T10:55:38+00:00",
-      "compound": -0.959,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Ukrainian drone attack on a Russian city kills 13, with a refinery reportedly hit",
-      "source": "NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWDR6Qk9ZTUxna0dFRzBmckM0Vk9uSzc4dUZmWkJhQjZvMk94Tk9aYUZoTmZ1M0lpbnVFOGlYSXhNeUU3TnA0LVZjQ3ZZaFVHM3psbzYycjBzY0ludTRpTW5JY0NlbG51YkZwZ0V0VDc2TVVZVUZzUEYycWljdHhnX2xrVFNrVl9uN3J6Q29TVTAwZmhSbDRxcHJJb2t4NVZqaWprY3JoSmNfWWc?oc=5",
-      "published": "2026-08-10T10:53:05+00:00",
-      "compound": -0.9217,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "India police fire tear gas at protesters seeking exam reforms",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c89nkz4vjyxo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-10T10:41:04+00:00",
-      "compound": -0.6369,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Ukrainian drone strikes 750 miles inside Russia kill at least 13, authorities say",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdkVrQ2Q0MERpaVZuQWJZNXV2SEZPOElTdWVPRXRpMmNmSXQ1VDFyU2tNUDRjTjI5M3NiQ0hYQzVmRmhiVmJzVGlkTVgyWXA0VzFUR19BTFNQMmVIZkZ4ZVJCdF9JOGVpT0xocDZNdWNVRDh2QmcxZV9ReXNwZjlJVg?oc=5",
-      "published": "2026-08-10T10:37:00+00:00",
-      "compound": -0.9371,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "World's oceans hit record-high July temperatures",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cpvw8vmmgrwo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-10T10:24:46+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "June and July hottest on record in Western Europe, monitor says",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/10/june-and-july-hottest-on-record-in-western-europe-monitor-says?traffic_source=rss",
-      "published": "2026-08-10T10:21:08+00:00",
-      "compound": -0.6124,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "UEFA, AFC, CONCACAF hit out at Infantino over World Cup privatisation plan",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/8/10/uefa-afc-concacaf-hit-out-at-infantino-over-world-cup-privatisation-plan?traffic_source=rss",
-      "published": "2026-08-10T10:15:02+00:00",
-      "compound": -0.4019,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "One year on, Gaza mourns journalist Anas al-Sharif’s death",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/gallery/2026/8/10/one-year-on-gaza-mourns-journalist-anas-al-sharifs-death?traffic_source=rss",
-      "published": "2026-08-10T10:13:31+00:00",
-      "compound": -0.9042,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "How significant is Mohsen Rezaei’s appointment as Iran’s security chief?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/10/who-is-mohsen-rezaei-and-how-significant-is-his-appointment?traffic_source=rss",
-      "published": "2026-08-10T10:11:48+00:00",
-      "compound": 0.7506,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "At least 13 killed in Ukrainian strike on Russia's Tatarstan region, officials say",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vTXphN0I5VW9acDQ0UjUyOGprYi1mQkdlcW1hTkVybGYtcTkxSXJMV1M5a2p3LUhYLUFzWHRSSElWMjVDOG9MVU85bkl4aWFGUWZiY20yOWZUUQ?oc=5",
-      "published": "2026-08-10T10:03:58+00:00",
-      "compound": -0.9001,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Ukrainian drone strike on oil-refining city in central Russia kills 13",
-      "source": "Financial Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTFVmQnE1dVA0dy1yVXpZUjROM0dBcndWdnRBMEhMclBBV1YtVVZwR3hLdkFxYXF1WXQ4ZExtbWNDSWV1N0FlY0lDV0FTS094RDctQ3ZxanhmWmV1Ykk0d3hOMU5KbjRQbVhmZVlST25SaVRuRFg5X1UyaXlYVTlYVUVMekk?oc=5",
-      "published": "2026-08-10T09:55:17+00:00",
-      "compound": -0.8402,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Former Thai MP allegedly kills official and confesses on YouTube",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cqx7lje8l79o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-10T09:51:07+00:00",
-      "compound": -0.5423,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Russia Reports 13 Dead After Ukrainian Drones Strike In Tatarstan",
-      "source": "Radio Free Europe/Radio Liberty",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWHhFSG9vRW1zdEgtZmJOYmdISXhGaHNVREcxOVNwSWN0YUVRa2NlbndRMlljYndkMkZWLVFFcFVZbEpuT0g1dmtxMXNVWmphWUM5V0lvVXllZzg1YWJFZVdxeDJLa0ptbmhmZ2hkTERqMmI5RHFaNERVRjYwbDZOetIBgwFBVV95cUxPZUJvY0oxWDdsRGdkOUlFbndoUktSa0EyTnNBbDNkWkZDRDFsX2d0eVJ0alhkaXFfdjQydUVlamRKbHB6M0pHcXk0eVJKdEduZFBJcHJ6VHJXT3RiTmphWGJxd1E4VjRCM0k0cGo5elNXOWlRcm10RjBpTUhydXNza2F3WQ?oc=5",
-      "published": "2026-08-10T09:50:50+00:00",
-      "compound": -0.5994,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Tropical Storm Dolphin batters eastern China with heavy rain, strong winds",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/10/tropical-storm-dolphin-batters-eastern-china-with-heavy-rain-strong-winds?traffic_source=rss",
-      "published": "2026-08-10T09:35:55+00:00",
-      "compound": 0.5106,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Russia-Ukraine war: At least 17 killed in latest wave of drone and artillery strikes",
-      "source": "Firstpost",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOV1BuTi1PU0NRRjVyRkZjQXhybjdfV1VseEg2aldldXdjU1BmLUVTMFo3cEJJdGF6bUVkUzBOVDVBa3hWdWRGSWQzRVRZX1FadzdPbXBsVmpGMkRpNHpxaFVVYV9RRldfdWEzZVc1MC11dm9QMEpLQmxpTEI1WVg5WnhMam5qMktldXdXSzd3d196aTJFR0luZ3VuLUFKVFYxdWwyX280bTJMNjBjVWlOUVNWNEVuUkVmNmszQjBsMXNpbFFnbVE4d9IBzgFBVV95cUxQdXdjLVVSdURwUTVCRmFCQkNXaEFpN3oycG9LTHotM1dfMllpTk5zZHEzRWpucy1YUENha3N2bHBfS0k1akQyRXVUdmFsRnV4b1Z4MU9IVzdtQld1NzlVZzJrOWtKczhqOEZiN0xDMlM5WWJrQ3plazM4SG5oc0Vqc3N6YnU3ams0d0xUdTJ4TXRHX0lib1YxYXZ5bjV5b3BaRFRRc1o2RHYxbTY0QUEwcUlDaElNcmdxVE1RMEZ6d3hfVmE2Z3BZX0ZEMGt6QQ?oc=5",
-      "published": "2026-08-10T09:35:25+00:00",
-      "compound": -0.9712,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Ukrainian Drone Attack Kills 13 Deep Inside Russia",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTHBldlpFNjhwckVhVE5GSmpHUW0xRUYzT3owZC01czJYYXR2aXl5amNYbjR5YWRyU0dxS3RQR2FOdE9sal9oamJfNXVWTGpnV2VOS2FfU1lBY3ZSUThYWm9ZVGt1a2N6djZkMGZRV0I3MjBES2JiTWhRdkc2SnBjbmFzWXJSTE0?oc=5",
-      "published": "2026-08-10T09:26:22+00:00",
-      "compound": -0.9217,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Osaka, Gauff race into Canadian Open quarters as Rybakina survives scare",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/8/10/osaka-gauff-race-into-canadian-open-quarters-as-rybakina-survives-scare?traffic_source=rss",
-      "published": "2026-08-10T09:25:13+00:00",
-      "compound": -0.1027,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Anguished locals watch as Israel demolishes homes in southern Lebanon",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/anguished-locals-watch-as-israel-demolishes-homes-in-southern-lebanon?traffic_source=rss",
-      "published": "2026-08-10T09:20:12+00:00",
-      "compound": -0.6808,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "‘Like the movies’: How Ukraine’s ground robots are changing rules of war",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/10/like-the-movies-how-ukraines-ground-robots-are-changing-rules-of-war?traffic_source=rss",
-      "published": "2026-08-10T09:09:08+00:00",
-      "compound": -0.8126,
-      "label": "negative",
-      "entities": [
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Ukrainian drone attack on the Russian city of Nizhnekamsk kills 12, authorities say",
-      "source": "NPR",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5TTFRic1pDQ190LUw5YUNEaGRTR0VHY3BEb2hrQTVzTkp3UGNyb0licHYwejdkZ3lBaENDS2tZRkU5QTdBSU1KSVgybTVJY3pCZUZ6dTY5bnVrT3RqT2ljX0poMHRZVWdFY1VadmQxSGQ3c3U1b2lKeF9lSkVqaEk?oc=5",
-      "published": "2026-08-10T08:58:22+00:00",
-      "compound": -0.9217,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Ukrainian drone attack on the Russian city of Nizhnekamsk kills 12, authorities say",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/08/10/nx-s1-5927024/ukrainian-drone-attack-russia",
-      "published": "2026-08-10T08:58:22+00:00",
-      "compound": -0.8591,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Putin’s war machine scours the home front for recruits",
-      "source": "Financial Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVmxadlpjMUttTGhBazdyWHQ0XzZ0UWZlemhpTFBiWnc2TzJaZjlnSnotb202WWRVTDlPSGxQaFdibGxLLU11eDBoYzQ4R2FZSm9lOEdlOTA5ejJ0M2F0enhyWDRpWWo2d1M1WUhoX3FESzZpZXZoZVE3MW9qdnRGT0RCQVc?oc=5",
-      "published": "2026-08-10T08:55:45+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Vladimir Putin"
-      ]
-    },
-    {
-      "title": "China evacuates a million from homes as Typhoon Dolphin arrives",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/china-evacuates-a-million-from-homes-as-typhoon-dolphin-arrives?traffic_source=rss",
-      "published": "2026-08-10T08:44:34+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Nigeria eliminated as Cameroon, Malawi reach WAFCON semis and World Cup",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/8/10/nigeria-eliminated-as-cameroon-malawi-reach-wafcon-semis-and-world-cup?traffic_source=rss",
-      "published": "2026-08-10T08:39:25+00:00",
-      "compound": 0.5423,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Ukraine confirms strikes on oil refinery in Russia’s Tatarstan – Europe live",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeFdudUpnVUFzZmhtd1JHSTh1LTR1eGdHWnp0ZnZaX1VXbHZwcXJkNjZXZEM3WGNFM1RWeVlaVS14ZVdHSllkR1NMVDJPWDI0WGZIVW9McmlSUXhJLV9WY0dDaFpZM1FqLW1Fd2lFOTEtMzdFS2l5YzNLcEI3LVZ0d3RuRDFGMG1VV3BLU2kyeW85ZExycEpzc0kzeDBHU1lBRFVjWHREOU1KbVFadEI3MXdHQi1TZ2Vjdm52bWlmSWZOU0dFdGc?oc=5",
-      "published": "2026-08-10T08:08:00+00:00",
-      "compound": -0.6124,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Pakistan-administered Kashmir votes in reduced third phase amid unrest",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/10/pakistan-administered-kashmir-votes-in-reduced-third-phase-amid-unrest?traffic_source=rss",
-      "published": "2026-08-10T08:05:05+00:00",
-      "compound": -0.802,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "North Korea to deploy 50,000 soldiers to support Russia in war against Ukraine",
-      "source": "The Independent",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRFZuT0tRX3ktR3p1ekhnekMyUTFNNjRWVGZjeDNxcjA3bVFuY1dzTGk3VEc4X2ZlYTFaZ29lb3UweVpfdXVyekFxSHgtem5XTmg5cXVMZnJxV0FxeE1KVEVnUXdqbWcyLUtUNWFncXltdm5uckt0ckltTXd4UzZicGRuZGJ6Y2ZBUi1iS0JXQWpCNlJHMHVVaFgxT1hEZw?oc=5",
-      "published": "2026-08-10T08:05:00+00:00",
-      "compound": -0.5267,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "North Korea’s hackers using AI for attacks, cybersecurity firm says",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/8/10/north-koreas-hackers-using-ai-for-attacks-cybersecurity-firm-says?traffic_source=rss",
-      "published": "2026-08-10T07:59:04+00:00",
-      "compound": -0.7003,
-      "label": "negative",
-      "entities": []
     }
   ]
 }

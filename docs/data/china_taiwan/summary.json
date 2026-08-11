@@ -2,21 +2,21 @@
   "id": "china_taiwan",
   "name": "China–Taiwán",
   "description": "Cobertura mediática de la tensión entre China y Taiwán",
-  "updated": "2026-08-11T02:27:41+00:00",
-  "total_articles": 8445,
-  "overall_avg": -0.1579,
+  "updated": "2026-08-11T07:37:22+00:00",
+  "total_articles": 8477,
+  "overall_avg": -0.1587,
   "distribution": {
-    "pos": 2008,
-    "neu": 2614,
-    "neg": 3823
+    "pos": 2014,
+    "neu": 2617,
+    "neg": 3846
   },
   "sources": [
     "Al Jazeera",
     "Taipei Times",
     "BBC",
     "NPR",
-    "Taiwan News",
     "Focus Taiwan",
+    "Taiwan News",
     "Reuters",
     "Global Times",
     "South China Morning Post",
@@ -57,6 +57,7 @@
     "CNN",
     "Latest news from Azerbaijan",
     "Firstpost",
+    "Fox News",
     "Global Taiwan Institute",
     "Office of the President Republic of China(Taiwan)",
     "WSJ",
@@ -76,7 +77,6 @@
     "The Hindu",
     "facebook.com",
     "India Today",
-    "Fox News",
     "Modern Diplomacy",
     "SRN News",
     "AOL.com",
@@ -174,6 +174,7 @@
     "Eurasia Review",
     "Business Insider",
     "Arise News",
+    "Radio Free Asia",
     "CSIS | Center for Strategic and International Studies",
     "Marine Link",
     "Asia News Network",
@@ -240,7 +241,6 @@
     "BioWorld News",
     "The Korea Herald",
     "GuruFocus",
-    "Radio Free Asia",
     "LEDinside",
     "bloomberg.com",
     "台灣光華雜誌 Taiwan Panorama",
@@ -528,7 +528,9 @@
     "oodaloop.com",
     "jamestown.substack.com",
     "anewz.tv",
-    "The Korea Times"
+    "The Korea Times",
+    "daily-sun.com",
+    "The Irish Times"
   ],
   "daily": [
     {
@@ -1285,41 +1287,46 @@
     },
     {
       "date": "2026-08-10",
-      "count": 254,
-      "avg": -0.2155,
-      "pos": 52,
+      "count": 257,
+      "avg": -0.2174,
+      "pos": 53,
       "neu": 79,
-      "neg": 123
+      "neg": 125
     },
     {
       "date": "2026-08-11",
-      "count": 56,
-      "avg": -0.0959,
-      "pos": 9,
-      "neu": 29,
-      "neg": 18
+      "count": 85,
+      "avg": -0.193,
+      "pos": 14,
+      "neu": 32,
+      "neg": 39
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 2899,
-      "avg": -0.2541
+      "count": 2911,
+      "avg": -0.255
     },
     {
       "source": "Taipei Times",
-      "count": 2280,
-      "avg": -0.0277
+      "count": 2284,
+      "avg": -0.0284
     },
     {
       "source": "BBC",
-      "count": 874,
-      "avg": -0.2829
+      "count": 876,
+      "avg": -0.2824
     },
     {
       "source": "NPR",
-      "count": 274,
-      "avg": -0.2843
+      "count": 277,
+      "avg": -0.2838
+    },
+    {
+      "source": "Focus Taiwan",
+      "count": 162,
+      "avg": -0.0388
     },
     {
       "source": "Taiwan News",
@@ -1327,14 +1334,9 @@
       "avg": -0.0846
     },
     {
-      "source": "Focus Taiwan",
-      "count": 159,
-      "avg": -0.0375
-    },
-    {
       "source": "Reuters",
-      "count": 60,
-      "avg": -0.2427
+      "count": 61,
+      "avg": -0.2499
     },
     {
       "source": "Global Times",
@@ -1348,8 +1350,8 @@
     },
     {
       "source": "digitimes",
-      "count": 48,
-      "avg": 0.1468
+      "count": 49,
+      "avg": 0.1387
     },
     {
       "source": "China Daily",
@@ -1368,8 +1370,8 @@
     },
     {
       "source": "The Straits Times",
-      "count": 27,
-      "avg": -0.3526
+      "count": 28,
+      "avg": -0.3472
     },
     {
       "source": "American Enterprise Institute - AEI",
@@ -1532,6 +1534,11 @@
       "avg": -0.1507
     },
     {
+      "source": "Fox News",
+      "count": 9,
+      "avg": -0.6299
+    },
+    {
       "source": "Global Taiwan Institute",
       "count": 9,
       "avg": 0.003
@@ -1625,11 +1632,6 @@
       "source": "India Today",
       "count": 7,
       "avg": -0.3648
-    },
-    {
-      "source": "Fox News",
-      "count": 7,
-      "avg": -0.5539
     },
     {
       "source": "Modern Diplomacy",
@@ -2117,6 +2119,11 @@
       "avg": 0.1122
     },
     {
+      "source": "Radio Free Asia",
+      "count": 3,
+      "avg": 0.5106
+    },
+    {
       "source": "CSIS | Center for Strategic and International Studies",
       "count": 2,
       "avg": -0.3592
@@ -2445,11 +2452,6 @@
       "source": "GuruFocus",
       "count": 2,
       "avg": 0.5859
-    },
-    {
-      "source": "Radio Free Asia",
-      "count": 2,
-      "avg": 0.5106
     },
     {
       "source": "LEDinside",
@@ -3890,26 +3892,36 @@
       "source": "The Korea Times",
       "count": 1,
       "avg": -0.5859
+    },
+    {
+      "source": "daily-sun.com",
+      "count": 1,
+      "avg": -0.2023
+    },
+    {
+      "source": "The Irish Times",
+      "count": 1,
+      "avg": -0.8316
     }
   ],
   "top_entities": [
     {
       "name": "Taiwan",
       "type": "LOCATION",
-      "count": 2279,
-      "avg": -0.0825
+      "count": 2291,
+      "avg": -0.084
     },
     {
       "name": "China",
       "type": "LOCATION",
-      "count": 1770,
-      "avg": -0.1449
+      "count": 1780,
+      "avg": -0.1471
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 527,
-      "avg": -0.2088
+      "count": 531,
+      "avg": -0.2112
     },
     {
       "name": "Japan",
@@ -3926,8 +3938,8 @@
     {
       "name": "Taiwan Strait",
       "type": "LOCATION",
-      "count": 72,
-      "avg": -0.1666
+      "count": 73,
+      "avg": -0.1724
     },
     {
       "name": "Philippines",
@@ -3985,6 +3997,298 @@
     }
   ],
   "recent": [
+    {
+      "title": "China warns Pacific Islands diplomat not to sour ties over Taiwan",
+      "source": "daily-sun.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTExfSFEyWld5WWwyODF0dUNQRzZ2RC1kOENQd1c5bDNNQ0xRU0x5akYtU1RLdmpIdTdNRG10TWo4VXJxMWV6enFGTnBPaHJOTUxrX2VkTEVZVDNVdHZtcFpEZ2ttbFZDQ3plOVllMGVEeTJLTXhrdjlRVU53SlVYNEhQR01wTkQ4cktsRjFOY1JtR1pjX1Zza00wQ2h6Nm5yajBtaFhXRQ?oc=5",
+      "published": "2026-08-11T07:21:45+00:00",
+      "compound": -0.2023,
+      "label": "negative",
+      "entities": [
+        "China",
+        "Taiwan"
+      ]
+    },
+    {
+      "title": "Chinese immigrant Xu sentenced to seven years for infiltration, fraud",
+      "source": "Taipei Times",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9Fbm1sZWQzOXpQRWs3SDJFRk9fZ3lGY3dTa2oyUkZGMk9OMWhLdV9oaEN1NW0tVjhXRTBUcXRhaXZzdUhucGQ2WmgycWJHVU50ZnZwbkktQk4xQXpPTzgzYzlCS0h6WFBwbmFCZWNlcUZZSFZYbk5oZFN3?oc=5",
+      "published": "2026-08-11T07:13:46+00:00",
+      "compound": -0.8316,
+      "label": "negative",
+      "entities": [
+        "China"
+      ]
+    },
+    {
+      "title": "Donald Trump says replacing Gianni Infantino would be a ‘terrible mistake’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/8/11/donald-trump-says-replacing-gianni-infantino-would-be-a-terrible-mistake?traffic_source=rss",
+      "published": "2026-08-11T07:13:29+00:00",
+      "compound": -0.2263,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Military police drill simulates Chinese attack on Songshan airport",
+      "source": "Taipei Times",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9sSkNVNVBNdy1BVVdwVVkxM29UbkRRb3RkMXF5VUFHY2RPSGhTS1RRQ2Z4VEt4NjQ1ak1FVW9FVXZyZUZRNWRmQzlaclEwUmdZdUhvM3Z0VUJCdER2YWFjMUtrNWRxUzlvM1dQS3NhTVpLZGlkREtrZF9R?oc=5",
+      "published": "2026-08-11T07:13:16+00:00",
+      "compound": -0.7351,
+      "label": "negative",
+      "entities": [
+        "China"
+      ]
+    },
+    {
+      "title": "Russian attacks kill six in Ukraine’s Zaporizhzhia",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/11/russian-attacks-kill-six-in-ukraines-zaporizhzhia?traffic_source=rss",
+      "published": "2026-08-11T07:07:51+00:00",
+      "compound": -0.9042,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "U.S. criticizes China's Taiwan Strait traffic controls during typhoon",
+      "source": "Focus Taiwan",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1wNjlQTTdqbUpIeW80eFFZcUpKbTE1OGNUTzc4Y1VyOU5KT3BlUjB4SnZPU2MwN3NCc1RVek5IUWplWlB3M2sta1ZJYWlaZkF6RVBfTUsxWQ?oc=5",
+      "published": "2026-08-11T07:04:00+00:00",
+      "compound": -0.5859,
+      "label": "negative",
+      "entities": [
+        "China",
+        "Taiwan",
+        "Taiwan Strait"
+      ]
+    },
+    {
+      "title": "Two Chinese held on suspicion of entering Taiwan by rubber boat",
+      "source": "Taipei Times",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE94bjNoTzZOZ05BUkVwRHRVQUdnd3JqekxXYXZTYzhnTHg0Q29FbjV2QVowd3NfSXoxRjdEdmFkTEVTbVZ0b3F5aVM1S0ljUlg0Z2FpN0hmTlM4cFFGcVRBZWdGRmhwdzdfMmV0RWswbUI0MlpPOEZIaG1B?oc=5",
+      "published": "2026-08-11T06:52:47+00:00",
+      "compound": -0.6369,
+      "label": "negative",
+      "entities": [
+        "China",
+        "Taiwan"
+      ]
+    },
+    {
+      "title": "Puma Shen unveils ‘HEART’ policy vision for Taipei",
+      "source": "Taipei Times",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5ZaUdZaTRBWVVncDFJclFSdmJSb0R5cTB3aURmdHZLQjI1NEhIcUIxQUY4TDNQbzRIVjhmcXp3cUVxN2dIekxBckM2MzNWSUY0T25NMG9pTmlRQzJmNURELURDN2tQWnB0ZjB5SEU3RWpyLTYyMXNxYVh3?oc=5",
+      "published": "2026-08-11T06:21:15+00:00",
+      "compound": 0.4588,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Taiwan, South Korea drive Asian equity outflows in July as AI worries bite",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcFBsaXd4MlNNN1ZnR0p4WFhfektFSloySmpleDF0VFluYUg0SmgzeXB1alhqZnZYX2o3Vkk1Sjg4T2hkcXhMWjZ2M04yeHpmTllQbTVZTWR3WGk2Z0xMQ2xGYmZOOHFtSmRXZXlSa3BqVGxVeWpxR2FVRjBybzBUbElnVUJUbElQWXJCX093cGtNT2RDbjVmYjdfVVpjRG1PYkhBMmM2b1ZHTU50aEdJVU5xTWxYZw?oc=5",
+      "published": "2026-08-11T06:18:00+00:00",
+      "compound": -0.6808,
+      "label": "negative",
+      "entities": [
+        "Taiwan"
+      ]
+    },
+    {
+      "title": "Yemen’s Houthis launch ballistic missile attacks on al-Makha and Marib",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/11/yemens-houthis-launch-ballistic-missile-attacks-on-al-makha-and-marib?traffic_source=rss",
+      "published": "2026-08-11T06:05:07+00:00",
+      "compound": -0.9001,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Turkey's parliament approves a pardon-like bill for thousands of PKK militants",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/08/11/g-s1-138162/turkey-kurdish-militants",
+      "published": "2026-08-11T06:03:49+00:00",
+      "compound": 0.8834,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Trump pivots back to sanctions for Iran as other strategies to end his war fizzle",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/08/11/g-s1-138160/us-iran-war",
+      "published": "2026-08-11T05:48:27+00:00",
+      "compound": -0.765,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "War games around Taiwan",
+      "source": "The Irish Times",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZ3hoQ0libV8tbG5uOFN1MnpiRnRHNkNaM3VDdk13U0NKTDBFRVFGeVh6M3hsb0N5akQwR1NmX1NJN3Q3TmdCTlpCeWNtNzktZVkwQ05kWE9SV2gxSWFoM0RWZHlyc1pUMnFubm0wbVZMV3hzZUtoVk5hUU1sTGZNWGU4WVFUR0I2TDdWYlA5Z0k0SXNHQ2F2RVE3OEI?oc=5",
+      "published": "2026-08-11T05:37:30+00:00",
+      "compound": -0.8316,
+      "label": "negative",
+      "entities": [
+        "Taiwan"
+      ]
+    },
+    {
+      "title": "China warns Pacific Islands diplomat not to sour ties over Taiwan",
+      "source": "The Straits Times",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMlpDLWJZVk9SbDlLWk96MXh0NEswWTVqdndJSGxlUE1WdkFfVjZfU2pHNlh3QXJMWlFsNmRJcXJ0TV9aTkxkWnhzbENOc2s4aGRmb2w0R0dVZ1BUdGdOR0hnX0pUcnRqNk9WSXdNLUxUa09ITEhiSHgwc3JNTjI4dl9IWkRpcHN3RUFIZFZLd3Frb2pMWEFESlZvYWZHVGR1NEE4QmhpSGhRNFBiQ0E?oc=5",
+      "published": "2026-08-11T05:23:00+00:00",
+      "compound": -0.2023,
+      "label": "negative",
+      "entities": [
+        "China",
+        "Taiwan"
+      ]
+    },
+    {
+      "title": "Somali referee arrives for UEFA Super Cup after World Cup exclusion",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/aje-onl-nf_somali-referee-arrives-for-uefa-super-cup-110826?traffic_source=rss",
+      "published": "2026-08-11T05:12:05+00:00",
+      "compound": 0.765,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Family watches helplessly as Colombia quake destroys home",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/family-watches-helplessly-as-colombia-quake-destroys-home?traffic_source=rss",
+      "published": "2026-08-11T05:02:58+00:00",
+      "compound": -0.8625,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Trump’s media company reports $238m loss",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/11/trumps-media-company-reports-238m-loss?traffic_source=rss",
+      "published": "2026-08-11T04:52:07+00:00",
+      "compound": -0.3182,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Huge fire breaks out at Libya’s Zawiya refinery after drone attack",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/11/huge-fire-breaks-out-at-libyas-zawiya-refinery-after-drone-attack?traffic_source=rss",
+      "published": "2026-08-11T04:37:27+00:00",
+      "compound": -0.7579,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "China’s Long March 7A rocket explodes after lift-off",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/08-11-2026-china-rocket-explodes-clip?traffic_source=rss",
+      "published": "2026-08-11T04:34:50+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "China"
+      ]
+    },
+    {
+      "title": "Fire rages after drone strikes Libya’s largest oil refinery",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/fire-rages-after-drone-strikes-libyas-largest-oil-refinery?traffic_source=rss",
+      "published": "2026-08-11T04:09:10+00:00",
+      "compound": -0.8779,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Magnitude 7.4 quake rocks western Colombia, killing at least 111 people",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/08/10/nx-s1-5927515/earthquake-western-colombia",
+      "published": "2026-08-11T03:39:40+00:00",
+      "compound": -0.8225,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Where did all the money go if the US is running out of weapons?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/where-did-all-the-money-go-if-the-us-is-running-out-of-weapons?traffic_source=rss",
+      "published": "2026-08-11T03:32:57+00:00",
+      "compound": -0.9001,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Nighttime defense drill held around Taipei's Songshan Airport",
+      "source": "Focus Taiwan",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3Vnd6VHYzNEtpN2w1VXpLMzdEb0NOV20wc0lGUFBmejJNNnQ4VXRpTERDOVBwOTdneW5XSG81V2d2RV8yU1VhRFNxc3doT0U?oc=5",
+      "published": "2026-08-11T03:01:39+00:00",
+      "compound": 0.25,
+      "label": "positive",
+      "entities": [
+        "Taiwan"
+      ]
+    },
+    {
+      "title": "Taiwan soft-pedals Scarborough claim as Manila ties take priority",
+      "source": "Radio Free Asia",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONXQ0elVCUFZtRGQ3MmJidzgwTmt4SjFxLUFQY000ZEk4QTBsLXFxUXdLX0VSeHQySjhKYTBVSXFMTkE2Q0FKNEtHUExDb1NHblJQMThSVjRqaGNrdjhrNXJaUDFoRmxmOEhpcmx1TTlfOE5qWFJPRWthNDN0UzZkb1FsTS12ZEc3aHhJWXJkVTB2MXNrRmZlOVZqLXlwUQ?oc=5",
+      "published": "2026-08-11T02:51:07+00:00",
+      "compound": 0.5106,
+      "label": "positive",
+      "entities": [
+        "Taiwan"
+      ]
+    },
+    {
+      "title": "Colombia’s far-right government recognises Israeli claim over Golan Heights",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/11/colombias-far-right-government-recognises-israeli-claim-over-golan-heights?traffic_source=rss",
+      "published": "2026-08-11T02:44:39+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Trump demands compensation from Iran as talks on Strait of Hormuz continue",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/11/trump-demands-compensation-from-iran-as-talks-on-strait-of-hormuz-continue?traffic_source=rss",
+      "published": "2026-08-11T02:32:47+00:00",
+      "compound": -0.7783,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Taiwan and China see more students choose STEM as tech demand rises",
+      "source": "digitimes",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNDh6czVvZ2trSmU3Vl9IOHBDdlJfZHNqTmNKeW1hZVdSeGw0TmI3SXN5czBCTVFHZVZJX3ZSV3pCVDA4dVI5VUxxZG5VeXZST29abkdQZDJCaUh2eTN6Q0hNbUxMdGlyNE5tNV9DMVY2M2RPY2Qzbi1KT3FlbDBjb290cjZYcktsRnRZbm13?oc=5",
+      "published": "2026-08-11T02:23:58+00:00",
+      "compound": -0.25,
+      "label": "negative",
+      "entities": [
+        "China",
+        "Taiwan"
+      ]
+    },
+    {
+      "title": "Taiwan headline news",
+      "source": "Focus Taiwan",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80MUF1SEhxMmxHM0FkUk42NDdzYUpLS3gwRnpJQjZKRGhja0ExT0FXTWJlWnlGNVBnNE9ld2gySGtpWkpseHZyYnprSWFpT2xicnN2QURR?oc=5",
+      "published": "2026-08-11T02:22:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Taiwan"
+      ]
+    },
     {
       "title": "Trump signs order to limit childhood vaccines and split MMR shots",
       "source": "BBC",
@@ -4045,6 +4349,18 @@
       "compound": 0.0,
       "label": "neutral",
       "entities": []
+    },
+    {
+      "title": "Taiwan's annual war games prepare the country for potential Chinese invasion",
+      "source": "Fox News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9xeWh6eklnZ0s3OS1kbmRoUXY1TTF6ZlFtaU13cEx0NVdCY2M5d0dDcW9TYnFsZVJvc0hfWnVVUjFZd1VXdHVlVW9kSDhWOUxxUXZQUmJ3?oc=5",
+      "published": "2026-08-11T01:01:13+00:00",
+      "compound": -0.8316,
+      "label": "negative",
+      "entities": [
+        "China",
+        "Taiwan"
+      ]
     },
     {
       "title": "Turkiye passes law giving thousands of PKK members chance at amnesty",
@@ -4287,284 +4603,6 @@
       "entities": [
         "China"
       ]
-    },
-    {
-      "title": "More workers earn less than average wage",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/biz/archives/2026/08/11/2003862266",
-      "published": "2026-08-11T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Foxtron codevelops battery EV with Mitsubishi Motors",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/biz/archives/2026/08/11/2003862267",
-      "published": "2026-08-11T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Flower girls",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/biz/archives/2026/08/11/2003862268",
-      "published": "2026-08-11T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "EDITORIAL: Economic equality in the AI boom",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/08/11/2003862269",
-      "published": "2026-08-11T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Open-weight AI can improve care",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/08/11/2003862270",
-      "published": "2026-08-11T00:00:00+00:00",
-      "compound": 0.7269,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Fighting transnational repression",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/08/11/2003862271",
-      "published": "2026-08-11T00:00:00+00:00",
-      "compound": -0.6249,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Clarifying who must answer for the oil issue",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/08/11/2003862272",
-      "published": "2026-08-11T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "EDITORIAL CARTOON",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/08/11/2003862273",
-      "published": "2026-08-11T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Democracy is at stake when foolish humans bet on machines being intelligent",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/08/11/2003862274",
-      "published": "2026-08-11T00:00:00+00:00",
-      "compound": 0.2263,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Protectionist solar energy tariffs will hurt US allies, not China",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/08/11/2003862275",
-      "published": "2026-08-11T00:00:00+00:00",
-      "compound": -0.3182,
-      "label": "negative",
-      "entities": [
-        "China"
-      ]
-    },
-    {
-      "title": "Late Lee single drives Tigers to victory",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/sport/archives/2026/08/11/2003862282",
-      "published": "2026-08-11T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Taiwan’s Hsieh advances to Canada semis",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/sport/archives/2026/08/11/2003862283",
-      "published": "2026-08-11T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Taiwan"
-      ]
-    },
-    {
-      "title": "Vollering wins the Tour de France after war of nerves",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/sport/archives/2026/08/11/2003862284",
-      "published": "2026-08-11T00:00:00+00:00",
-      "compound": -0.1531,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Driver who broke sound barrier looks to do it again",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/sport/archives/2026/08/11/2003862285",
-      "published": "2026-08-11T00:00:00+00:00",
-      "compound": -0.5106,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "SPORTS BRIEFS",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/sport/archives/2026/08/11/2003862286",
-      "published": "2026-08-11T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Modi broke promise to protesters: CJP",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/world/archives/2026/08/11/2003862301",
-      "published": "2026-08-11T00:00:00+00:00",
-      "compound": -0.34,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Storm weakens, but disrupts travel in China",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/world/archives/2026/08/11/2003862302",
-      "published": "2026-08-11T00:00:00+00:00",
-      "compound": -0.1655,
-      "label": "negative",
-      "entities": [
-        "China"
-      ]
-    },
-    {
-      "title": "Zuckerberg faces questions for not aiding stranded ship",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/world/archives/2026/08/11/2003862303",
-      "published": "2026-08-11T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "‘Harry Potter’ fans force relocation of undersea cable to avoid Dobby’s grave",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/world/archives/2026/08/11/2003862304",
-      "published": "2026-08-11T00:00:00+00:00",
-      "compound": -0.5859,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Chinese AI drives price competition among US labs",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/world/archives/2026/08/11/2003862305",
-      "published": "2026-08-11T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "China"
-      ]
-    },
-    {
-      "title": "World News Quick Take",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/world/archives/2026/08/11/2003862306",
-      "published": "2026-08-11T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Wednesday night with the old farts",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/feat/archives/2026/08/11/2003862276",
-      "published": "2026-08-11T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "What is AI model distillation and why is it becoming a US-China flashpoint? AI模型蒸餾是什麼？為何成為美中科技角力新戰場？",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/lang/archives/2026/08/11/2003862261",
-      "published": "2026-08-11T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "China"
-      ]
-    },
-    {
-      "title": "輕鬆華語GO: 鬼月特殊習俗 Special Ghost Month Traditions",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/lang/archives/2026/08/11/2003862262",
-      "published": "2026-08-11T00:00:00+00:00",
-      "compound": 0.1027,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Iran war live: Trump claims Hormuz Strait open, seeks Iranian compensation",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/8/11/iran-war-live-trump-claims-the-strait-is-open-seeks-iranian-compensation?traffic_source=rss",
-      "published": "2026-08-11T00:00:00+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Rare US Travel Warning for China; Taiwan Drills for Nuclear, Biological, and Chemical Attacks",
-      "source": "mb.ntd.com",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTnY2VHlaV1FuWXJtSmg2QUNCNkhUNVpjNTczeVRpb1BnU0dTYUE2eTJVTmliMHRuUVlDbng5SHc4WE0xa0x2TlpZVHcwR0xvd3RpRHhXRTJickF1VVN2WVMwSlB3dEF6d1JHR0tEbl9tQlNONHh6eS1na1dBVjl5TEMxNVFLMWxzRkNob1BzRDYwS003dWRKMHVId012UzNmZWRZbXE5RWM0c2NINk5GSlZYVDhTb1UyYjZDZGFDZk1xU1dVMl9hT3dn?oc=5",
-      "published": "2026-08-10T23:58:56+00:00",
-      "compound": -0.8625,
-      "label": "negative",
-      "entities": [
-        "China",
-        "Taiwan"
-      ]
-    },
-    {
-      "title": "UK Semiconductor Center makes Taiwan debut at SEMICON, strengthening strategic ties",
-      "source": "digitimes",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYUtEOGdJNzRIOWZISGZnV1FibDZxVnRpQVc0TWtHejJwOGF4SFFmeGxzZk9mYWJnZnRQa0hmM2ZNWWV3MXg1a1ZOdk1WTU1td2VLcWc3OFdCYW9RQmxNbXItSG5Ed2tEbDIza0NOUDQwR29QQjZ2bXFsUE9UYUpUazBjRkkxUTRrNjZ6dTNuRjhYOGZ0ajN0eC1QS04?oc=5",
-      "published": "2026-08-10T23:24:32+00:00",
-      "compound": 0.7506,
-      "label": "positive",
-      "entities": [
-        "Taiwan"
-      ]
-    },
-    {
-      "title": "Inside a secret launch site for Ukraine’s deep-strike drones",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/aje-onl-nf_secret-launch-site-for-ukraines-deep-strike-drone-100826?traffic_source=rss",
-      "published": "2026-08-10T23:18:53+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Moment of terror as powerful earthquake shakes airport in Colombia",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/moment-of-terror-as-powerful-earthquake-shakes-airport-in-colombia?traffic_source=rss",
-      "published": "2026-08-10T22:46:32+00:00",
-      "compound": -0.7351,
-      "label": "negative",
-      "entities": []
     }
   ]
 }

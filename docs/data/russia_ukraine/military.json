@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-08-11T19:19:55+00:00",
+  "updated": "2026-08-12T02:44:06+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-08-11"
+    "to": "2026-08-12"
   },
   "kpis": {
-    "events_total": 432,
-    "events_unlocated": 1237,
-    "events_7d": 80,
-    "events_prev_7d": 68,
+    "events_total": 435,
+    "events_unlocated": 1240,
+    "events_7d": 76,
+    "events_prev_7d": 70,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -579,10 +579,19 @@
     },
     {
       "date": "2026-08-11",
-      "total": 4,
-      "strike": 4,
+      "total": 5,
+      "strike": 5,
       "ground": 0,
       "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-08-12",
+      "total": 2,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
     }
@@ -4907,16 +4916,46 @@
       "title": "Russian attacks kill 10 in Ukraine as Zelenskyy says Moscow is getting more North Korean missiles",
       "source": "Newsday",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMHZkd0lZa2ZCbEJqVXBZMU9yUjB2VFpRd0V6RS0zYVZCS1dORzZWc1dGV0JseHZ0OG1rOVg3X05lWWIyclRrcDZYaGdxMjBnWEM0cmRPRW0yUmVkYlZwNlpMeEZ4RnNJRVczdjNOaDJPVHo4bG04S3VXZ0hKR0xweENKaHA5UEZlSHhVUG9vMDB1MUE?oc=5"
+    },
+    {
+      "date": "2026-08-11",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Russian attacks kill 10 in Ukraine as Zelenskyy says Moscow is getting more North Korean missiles",
+      "source": "PBS",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWkFWRVNEY1lyS3dfd2VqWnhVUWZLSzZ5WkRQTG9fa0RGT1dmU1lHREFtdGxEempldDM1TTV0VDVVTE1WLVlIaEpjWEpIUlozelFfc24xTWFybDk2Sjl3ZVdlQ3Z6bTFGa2s3UG1ncTQzZW5jZzZpX1ZPSDdJbmdwWml4Z0hfSWJoWEJCbzJjN0xVVkNvVkF2T2ZiWFRNZ05fT1RocmV1Zi1sandmS2hDQU5wZXpxUjBDbmdtVWNGdHdxWmhKLVFHdThpZkPSAdIBQVVfeXFMTUxkZl9DelA4THBoM1FhY3JMQkJDUEcyTnY3cXgzRGI0Wk03ODkxdEQtb1ZrazJWQzRWZ2RQcV9kbFRqSHVwN2Z3dHZMOWVqTDZLREdSSmRXWGZWc1pPSi1pZ0huZXE3V2hOQTgtQXoxMEpDSWdlcllLZ3prY3lOV0dzR2FHc1MwaTFkQ05iZzA0bTRHRnZLUHc1SGYxN1JkbllnWkxBYVVEbUxoaUpUTzVBRjI0UV9xeVAzZ3dsRkE1bmI1ZFU5VENJNE9LNk1NVDRR?oc=5"
+    },
+    {
+      "date": "2026-08-12",
+      "type": "strike",
+      "place": "Zaporizhzhia",
+      "lat": 47.8388,
+      "lon": 35.1396,
+      "title": "Ukraine war briefing: North Korean missiles hit Zaporizhzhia in deadly attack",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaGJ5LUMtXzVZLVByN1VPYzRoc2x4NzFYeFE1MnJyRjkxZnFPX1RodXlqQ3g0UVdKazFnN0NYTmwyR2dSZHlqMDZhbk5lOV9FdHcwb2o1RE1zSV92bTZiSXQ2TDdfcDg5Y21XY3VkUlhLWjdrM1FCUWpHZXlCTkpDb3dJOGk5dHlKVm1kOEtYc2NNeG96cVR4MGhyZDhhR2NYem8yQkVaQkRoUDdm?oc=5"
+    },
+    {
+      "date": "2026-08-12",
+      "type": "infrastructure",
+      "place": "Zaporizhzhia",
+      "lat": 47.8388,
+      "lon": 35.1396,
+      "title": "Ukraine war briefing: North Korean missiles hit Zaporizhzhia in deadly attack",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/aug/12/ukraine-war-briefing-north-korean-missiles-attack-zaporizhzhia"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 165
+      "count": 163
     },
     {
       "place": "Moscow",
-      "count": 53
+      "count": 50
     },
     {
       "place": "Odesa",
@@ -4924,7 +4963,7 @@
     },
     {
       "place": "Zaporizhzhia",
-      "count": 8
+      "count": 10
     },
     {
       "place": "Mariupol",
@@ -4933,10 +4972,6 @@
     {
       "place": "Belgorod",
       "count": 6
-    },
-    {
-      "place": "Sumy",
-      "count": 4
     },
     {
       "place": "Kursk",
@@ -4949,6 +4984,10 @@
     {
       "place": "Dnipro",
       "count": 3
+    },
+    {
+      "place": "Sevastopol",
+      "count": 2
     }
   ],
   "losses": {

@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-08-11T19:20:10+00:00",
+  "updated": "2026-08-12T02:44:22+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -43,12 +43,12 @@
   },
   "window": {
     "from": "2026-01-12",
-    "to": "2026-08-11"
+    "to": "2026-08-12"
   },
   "kpis": {
-    "events_total": 22,
-    "events_unlocated": 918,
-    "events_7d": 5,
+    "events_total": 25,
+    "events_unlocated": 959,
+    "events_7d": 8,
     "events_prev_7d": 1,
     "hottest_place": "DMZ"
   },
@@ -192,6 +192,24 @@
       "date": "2026-08-07",
       "total": 1,
       "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-08-11",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-08-12",
+      "total": 2,
+      "strike": 2,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -418,6 +436,36 @@
       "title": "Pyongyang Missile Test Signals Growing Conflict Between North Korea and U.S. Allies",
       "source": "WSJ",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeXdyNEpHMFNGcXNVdVJ6UHotbDZQQnJ6N0htSmJwSS0tN2dsMDYtaThpLTcyUi05bi1paHVvVUE4cGgwclB6RkdaaVNlZDFUdW9PVE9NNjhLQzFfWGkxSzBYRkVtZkpyekZjaUZGZDY3dTI4d2hjaF93alg4SE9oZGlCTndQdlRGSzR6VG5DV1FwS0ozenp4Zzl0UUJIMi14YUdCM3ZzcTU3bE1xV3lWV0YzQ1hZUUhiM3dmdUhMTQ?oc=5"
+    },
+    {
+      "date": "2026-08-11",
+      "type": "strike",
+      "place": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "title": "Japan slams North Korea’s ballistic missile firing ahead of US-Seoul drills",
+      "source": "South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdkw5TFprSEVac3E5bDB1U1YyajhNY2hIcE5TNmxlQlJjZHFqOV96am5yNEc0NWczbVRfNlhWY19hR29JVXBHTWZVelZBNDc2U2diZjBONVBBejBZQ1ZRbWNHc2Jicl9WTS1aQnJfQno4OFl4NE1ZbWpHQjhHc1hBTDdmWXE2djVBVlk5NDFOVzFnLXpfMXgwd0pvbWloS0xQai16TWprWHQ3RFFvOFpkblBUcnVLY2PSAbcBQVVfeXFMTnFYdGNCcDc1eVRCQm9JeG1GQjJrMUkzc3g4R3FFd1U4cTM3VGlleVNCUW8xYXo2T0dnZWNRZU1TdHNKNGN2amJaUElJWkNuNlVWb2RMY1J5VVFqd196SEtDb1RxRVYwWk9BSkpZM1A4MkdlYV90X0lTTEJPNmhETmpMbGlxbXJaM1ZtTWlpTHdFQzhfSDliUEhHRm5mS0doRGpEbWxTS2VEVFNsNFRLME44VFdkT05N?oc=5"
+    },
+    {
+      "date": "2026-08-12",
+      "type": "strike",
+      "place": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "title": "North Korea fires ballistic missile, Seoul and Tokyo say",
+      "source": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQU1hteTFqSkxkd3gtbldPd05pMGxOcWlOaktnVDByVTluckdCY2JIMUJYOG43N1Y4d2pqeV9GelFRd0pkVE1RVXBPSW1Sc0JnZzUwMjN6X0lXYWl0WF9XMlBSdDdqb01IX2haNWtsRnNXMm1wRXFSVllJQnRKMXoyU3R0TWJoQldwb3ppNDFKTjJGZFByczFn?oc=5"
+    },
+    {
+      "date": "2026-08-12",
+      "type": "strike",
+      "place": "Pyongyang",
+      "lat": 39.0392,
+      "lon": 125.7625,
+      "title": "N Korea launches ballistic missile as S Korea, US plan military drills",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/12/n-korea-launches-ballistic-missile-as-s-korea-us-plan-military-drills?traffic_source=rss"
     }
   ],
   "top_places": [
@@ -427,11 +475,11 @@
     },
     {
       "place": "Seoul",
-      "count": 4
+      "count": 5
     },
     {
       "place": "Pyongyang",
-      "count": 3
+      "count": 4
     },
     {
       "place": "Seongju",

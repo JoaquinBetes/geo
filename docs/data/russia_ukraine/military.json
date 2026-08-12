@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-08-12T13:46:35+00:00",
+  "updated": "2026-08-12T19:20:08+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -48,9 +48,9 @@
     "to": "2026-08-12"
   },
   "kpis": {
-    "events_total": 436,
-    "events_unlocated": 1253,
-    "events_7d": 77,
+    "events_total": 438,
+    "events_unlocated": 1261,
+    "events_7d": 79,
     "events_prev_7d": 70,
     "hottest_place": "Kyiv"
   },
@@ -588,10 +588,10 @@
     },
     {
       "date": "2026-08-12",
-      "total": 3,
-      "strike": 1,
+      "total": 5,
+      "strike": 2,
       "ground": 1,
-      "infrastructure": 1,
+      "infrastructure": 2,
       "air_defense": 0,
       "anomaly": false
     }
@@ -4956,12 +4956,32 @@
       "title": "Putin warns of tit-for-tat seizures of European vessels",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/8/12/putin-warns-of-tit-for-tat-seizures-of-european-vessels?traffic_source=rss"
+    },
+    {
+      "date": "2026-08-12",
+      "type": "infrastructure",
+      "place": "Novorossiysk",
+      "lat": 44.7239,
+      "lon": 37.7708,
+      "title": "Ukraine war latest: 4 Russian warships damaged in strike on Black Sea Fleet port in Novorossiysk",
+      "source": "The Kyiv Independent",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUUdVQXpLR01aemVIUkNNU2xnLXhZMURwUW55SS1oUnZHd0prXzMtZURTUTNOSDVDT2ltMUNaTzRtRDNZTUp5LWNsRFZXU2dNUERsY0Izc1l1UzM0U2ZIZEhUZElmLUxRdjZMdC1tRlkyejAyVXU2Q3pyVDdCcnlhV2F1Ui1ISzZJNVVOVktreFUzT2FRbjlDRnE2WGZpNXcwRHBaUGh2Wkdia3JhQzR5aGJVVllCWXJ4cXRUUjRpekxWUQ?oc=5"
+    },
+    {
+      "date": "2026-08-12",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Kyiv Prepares to Relocate Vulnerable Residents if Russian Strikes Cut Heating",
+      "source": "Kyiv Post",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9BRzh2QlBVVU0wRHM3bi1Od0dpcjJ5U3RNRGtBVk4zN1FnSVhxZWQ4T1BVaTV3WlhXQTRycXN2akhDdFBSSVl5SWtqSQ?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 163
+      "count": 164
     },
     {
       "place": "Moscow",

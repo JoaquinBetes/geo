@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-08-13T02:46:53+00:00",
+  "updated": "2026-08-13T07:52:48+00:00",
   "overall_tone": -0.3249,
   "rsf_as_of": "2025 (aprox.)",
   "outlets": [
@@ -15,9 +15,9 @@
       "lat": 25.2867,
       "lon": 51.5333,
       "rsf": 84,
-      "articles": 3449,
-      "tone_avg": -0.2899,
-      "tone_delta": 0.035
+      "articles": 3466,
+      "tone_avg": -0.2901,
+      "tone_delta": 0.0348
     },
     {
       "name": "BBC",
@@ -30,9 +30,9 @@
       "lat": 51.5188,
       "lon": -0.144,
       "rsf": 20,
-      "articles": 962,
-      "tone_avg": -0.2829,
-      "tone_delta": 0.042
+      "articles": 968,
+      "tone_avg": -0.2825,
+      "tone_delta": 0.0424
     },
     {
       "name": "The Times of Israel",
@@ -45,9 +45,9 @@
       "lat": 31.7683,
       "lon": 35.2137,
       "rsf": 112,
-      "articles": 805,
-      "tone_avg": -0.2857,
-      "tone_delta": 0.0392
+      "articles": 806,
+      "tone_avg": -0.2861,
+      "tone_delta": 0.0388
     },
     {
       "name": "NPR",
@@ -60,9 +60,9 @@
       "lat": 38.899,
       "lon": -77.008,
       "rsf": 57,
-      "articles": 301,
-      "tone_avg": -0.3008,
-      "tone_delta": 0.0241
+      "articles": 302,
+      "tone_avg": -0.2982,
+      "tone_delta": 0.0267
     },
     {
       "name": "The Guardian",
@@ -155,6 +155,21 @@
       "tone_delta": -0.1486
     },
     {
+      "name": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com",
+      "city": "Bombay",
+      "country": "India",
+      "iso3": "IND",
+      "type": "privado",
+      "desc": "El diario en inglés más leído del mundo (grupo Bennett Coleman).",
+      "lat": 19.076,
+      "lon": 72.8777,
+      "rsf": 151,
+      "articles": 46,
+      "tone_avg": -0.4291,
+      "tone_delta": -0.1042
+    },
+    {
       "name": "Anadolu Agency",
       "url": "https://www.aa.com.tr/en",
       "city": "Ankara",
@@ -168,21 +183,6 @@
       "articles": 45,
       "tone_avg": -0.3203,
       "tone_delta": 0.0046
-    },
-    {
-      "name": "The Times of India",
-      "url": "https://timesofindia.indiatimes.com",
-      "city": "Bombay",
-      "country": "India",
-      "iso3": "IND",
-      "type": "privado",
-      "desc": "El diario en inglés más leído del mundo (grupo Bennett Coleman).",
-      "lat": 19.076,
-      "lon": 72.8777,
-      "rsf": 151,
-      "articles": 45,
-      "tone_avg": -0.4182,
-      "tone_delta": -0.0933
     },
     {
       "name": "CBS News",
@@ -255,9 +255,9 @@
       "lat": 40.7587,
       "lon": -73.9787,
       "rsf": 57,
-      "articles": 26,
-      "tone_avg": -0.4412,
-      "tone_delta": -0.1163
+      "articles": 27,
+      "tone_avg": -0.4432,
+      "tone_delta": -0.1183
     },
     {
       "name": "CNN",
@@ -360,9 +360,9 @@
       "lat": 28.549,
       "lon": 77.247,
       "rsf": 151,
-      "articles": 19,
-      "tone_avg": -0.5134,
-      "tone_delta": -0.1885
+      "articles": 20,
+      "tone_avg": -0.5345,
+      "tone_delta": -0.2096
     },
     {
       "name": "Axios",
@@ -815,6 +815,21 @@
       "tone_delta": 0.0427
     },
     {
+      "name": "The Japan Times",
+      "url": "https://www.japantimes.co.jp",
+      "city": "Tokio",
+      "country": "Japón",
+      "iso3": "JPN",
+      "type": "privado",
+      "desc": "El diario japonés en inglés más antiguo.",
+      "lat": 35.65,
+      "lon": 139.745,
+      "rsf": 66,
+      "articles": 3,
+      "tone_avg": 0.384,
+      "tone_delta": 0.7089
+    },
+    {
       "name": "Dawn",
       "url": "https://www.dawn.com",
       "city": "Karachi",
@@ -888,21 +903,6 @@
       "articles": 2,
       "tone_avg": -0.7686,
       "tone_delta": -0.4437
-    },
-    {
-      "name": "The Japan Times",
-      "url": "https://www.japantimes.co.jp",
-      "city": "Tokio",
-      "country": "Japón",
-      "iso3": "JPN",
-      "type": "privado",
-      "desc": "El diario japonés en inglés más antiguo.",
-      "lat": 35.65,
-      "lon": 139.745,
-      "rsf": 66,
-      "articles": 2,
-      "tone_avg": 0.247,
-      "tone_delta": 0.5719
     },
     {
       "name": "CSIS",
@@ -1028,27 +1028,27 @@
   "by_country": {
     "QAT": {
       "outlets": 1,
-      "articles": 3449
+      "articles": 3466
     },
     "GBR": {
       "outlets": 9,
-      "articles": 1400
+      "articles": 1406
     },
     "ISR": {
       "outlets": 4,
-      "articles": 1137
+      "articles": 1138
     },
     "USA": {
       "outlets": 24,
-      "articles": 680
+      "articles": 682
+    },
+    "IND": {
+      "outlets": 9,
+      "articles": 108
     },
     "TUR": {
       "outlets": 2,
       "articles": 48
-    },
-    "IND": {
-      "outlets": 9,
-      "articles": 106
     },
     "FRA": {
       "outlets": 3,
@@ -1086,11 +1086,11 @@
       "outlets": 2,
       "articles": 4
     },
-    "KOR": {
-      "outlets": 2,
-      "articles": 3
-    },
     "JPN": {
+      "outlets": 2,
+      "articles": 4
+    },
+    "KOR": {
       "outlets": 2,
       "articles": 3
     },
@@ -1106,7 +1106,7 @@
     },
     {
       "source": "JNS.org",
-      "articles": 46
+      "articles": 47
     },
     {
       "source": "www.israelhayom.com",
@@ -1161,7 +1161,7 @@
       "articles": 12
     }
   ],
-  "others_total": 1095,
-  "matched_articles": 6916,
-  "total_articles": 8011
+  "others_total": 1101,
+  "matched_articles": 6945,
+  "total_articles": 8046
 }

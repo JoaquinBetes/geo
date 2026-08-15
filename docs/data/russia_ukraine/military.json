@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-08-14T19:13:37+00:00",
+  "updated": "2026-08-15T01:49:28+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-08-14"
+    "to": "2026-08-15"
   },
   "kpis": {
-    "events_total": 454,
-    "events_unlocated": 1322,
-    "events_7d": 58,
-    "events_prev_7d": 95,
+    "events_total": 458,
+    "events_unlocated": 1329,
+    "events_7d": 57,
+    "events_prev_7d": 94,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -606,10 +606,19 @@
     },
     {
       "date": "2026-08-14",
-      "total": 8,
+      "total": 10,
       "strike": 3,
-      "ground": 2,
-      "infrastructure": 3,
+      "ground": 3,
+      "infrastructure": 4,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-08-15",
+      "total": 2,
+      "strike": 2,
+      "ground": 0,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -5154,12 +5163,52 @@
       "title": "Patriot missiles have been a godsend for Ukraine against Putin, but they’re running out. Kyiv needs help and fast | Jack Watling",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/commentisfree/2026/aug/14/patriot-missiles-ukraine-putin-kyiv-running-out-nato-danger"
+    },
+    {
+      "date": "2026-08-14",
+      "type": "ground",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Exclusive: Ukraine whispers to Trump that Russia may not capture Donbas even in 2027",
+      "source": "The Kyiv Independent",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRW5Kc3ZFQ21zTC1UbUVjREdQRy1Ic2p1QVM4UC14QjFyVnpYLXBsTFVvRlRzdlJKQXpVdmp0b3h4N1Jvb3JDQnVFQ1BEczIyN3hiM051R2txYXVnQ2FMRF9qRFl5eWhCdmlGR1BWUEozbW1ncDIyOHpsb2NnQ25tZ3dUQ0VBa01JbzY4cnpBMDcyMndJakZjOFhTd2VCdzBiUWRKTnFCbXdNRnJ3MkVtaC1B?oc=5"
+    },
+    {
+      "date": "2026-08-14",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war latest: Strike on Russia's Ust-Luga port damages 2 processing plants, Ukraine says",
+      "source": "The Kyiv Independent",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTFF2cEJJXzRiSnRzclRlSERQZmp1MDZFRFE3bHBzZ2ZWcjB2Q0pqaVJfSThHcldXN1RHQ0NRdDk2dFl0S1YwVklOX21sY3NfUnNBcFB5S2RlYW5yUl9qeHJnRW9WMm5pbHhTeWhkWUZ5OGNjUGZhMFl2Smg4MGQtSzUzLXhQTFdJVXN1cnVGY3lWTzAyLTkxSFRkUl9tNVNPQmktXzk4ZTR5N2RpVGtGVGFQcHpxNjI0UWN0MA?oc=5"
+    },
+    {
+      "date": "2026-08-15",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Zelensky Signals More Deep Strikes as Ukraine ‘Blocks Off Russia’s South’",
+      "source": "Kyiv Post",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1OUXM3ODZGQTY3QXp4VHFqXzZwc2FzQkZIRXBvY0FFajBxN1BuSHpETjNFX1MxWkFuM290ZFR3RkpBSE1fbThwNE1qQQ?oc=5"
+    },
+    {
+      "date": "2026-08-15",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine reportedly strikes Russian military airbase behind ballistic missile attacks as rockets target Samara",
+      "source": "The Kyiv Independent",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxObG5laHk1MVVzVHFZeUFubFBqRnJlZDlYRmI3NE1MaDFSdncxTHBXOV9tYjRzR0dzdFhxVWk3R0tHZTYtYlVJTTJfOTd4WUtES0hhdlhxbkU3VmlSeGVIdE5xVEdwb2lUeV9oWUN0S2tHVTlfSHJ2YnY4OUV1UjdVSm8zNHIzY21QTjRuSTBFcGJXVjVENnduc0xxRXhQQ2VkbFhYd0dMZnlkaWFXb0hQQkJlZ2oyelo4U2xaaWFDNy1RZjdTbFY0RnBkYW03UHdoWmQ1dEpfOGE3S2c4R3c?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 160
+      "count": 163
     },
     {
       "place": "Moscow",
@@ -5167,7 +5216,7 @@
     },
     {
       "place": "Odesa",
-      "count": 16
+      "count": 15
     },
     {
       "place": "Zaporizhzhia",
@@ -5194,7 +5243,7 @@
       "count": 4
     },
     {
-      "place": "Sevastopol",
+      "place": "Kharkiv",
       "count": 3
     }
   ],

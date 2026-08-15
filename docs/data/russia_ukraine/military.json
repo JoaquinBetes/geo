@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-08-15T12:58:23+00:00",
+  "updated": "2026-08-15T18:47:20+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -48,9 +48,9 @@
     "to": "2026-08-15"
   },
   "kpis": {
-    "events_total": 461,
-    "events_unlocated": 1350,
-    "events_7d": 60,
+    "events_total": 463,
+    "events_unlocated": 1358,
+    "events_7d": 62,
     "events_prev_7d": 94,
     "hottest_place": "Kyiv"
   },
@@ -615,9 +615,9 @@
     },
     {
       "date": "2026-08-15",
-      "total": 5,
-      "strike": 4,
-      "ground": 0,
+      "total": 7,
+      "strike": 5,
+      "ground": 1,
       "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
@@ -5233,16 +5233,36 @@
       "title": "Ukraine attacks Russia’s Samara industrial site as Kyiv ramps up long-range strikes",
       "source": "NBC News",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNmRXUWJUanJ0bkprNkxCOEtWdkVBcWxLWENyMzhDbjdSUEdSVnN1VjZFMGNmX1dfWjNNcTFPWkcwempLc01nWDB5NjB4VmtZUkplUmRBRTFmTmF4WjN1alprbW1SMGdMVHRpT2d3eW80RFpIQTRFX0JnOGJNT3RPNGFXTHloUktyZnlKUkZMVHdDNWZDdWN2VlAxUQ?oc=5"
+    },
+    {
+      "date": "2026-08-15",
+      "type": "ground",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine Claims Heavy Russian Losses, Successful Counteroffensive in South",
+      "source": "Kyiv Post",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9uSFFnZWR6aklpU08xekZrUTlTaWtlTFRLcXg4LU1XZDNYYU5jU0FYajRBSVplZDM0M3NSM1JDaE15Z0xpSWNDME5xWQ?oc=5"
+    },
+    {
+      "date": "2026-08-15",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Ukraine hits Russian Starlink-style network, Moscow tracks arms package",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/15/ukraine-hits-russian-starlink-style-network-moscow-tracks-arms-package?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 166
+      "count": 167
     },
     {
       "place": "Moscow",
-      "count": 50
+      "count": 51
     },
     {
       "place": "Odesa",

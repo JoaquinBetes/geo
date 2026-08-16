@@ -2,13 +2,13 @@
   "id": "china_taiwan",
   "name": "China–Taiwán",
   "description": "Cobertura mediática de la tensión entre China y Taiwán",
-  "updated": "2026-08-15T18:47:30+00:00",
-  "total_articles": 9624,
-  "overall_avg": -0.1613,
+  "updated": "2026-08-16T01:57:10+00:00",
+  "total_articles": 9647,
+  "overall_avg": -0.1618,
   "distribution": {
-    "pos": 2264,
-    "neu": 2980,
-    "neg": 4380
+    "pos": 2269,
+    "neu": 2981,
+    "neg": 4397
   },
   "sources": [
     "Al Jazeera",
@@ -136,6 +136,7 @@
     "Japan Today",
     "Council on Foreign Relations",
     "Ottumwa Courier",
+    "Interesting Engineering",
     "dw.com",
     "RFI",
     "The Standard (HK)",
@@ -178,7 +179,6 @@
     "Macau Business",
     "Peoples Gazette Nigeria",
     "The Jamestown Foundation",
-    "Interesting Engineering",
     "The Vibes",
     "NDTV",
     "CBS News",
@@ -1383,26 +1383,26 @@
     },
     {
       "date": "2026-08-15",
-      "count": 149,
-      "avg": -0.1694,
-      "pos": 35,
-      "neu": 45,
-      "neg": 69
+      "count": 168,
+      "avg": -0.1903,
+      "pos": 39,
+      "neu": 46,
+      "neg": 83
     },
     {
       "date": "2026-08-16",
-      "count": 44,
-      "avg": -0.021,
-      "pos": 7,
+      "count": 48,
+      "avg": -0.0534,
+      "pos": 8,
       "neu": 28,
-      "neg": 9
+      "neg": 12
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 3281,
-      "avg": -0.2563
+      "count": 3296,
+      "avg": -0.2568
     },
     {
       "source": "Taipei Times",
@@ -1411,8 +1411,8 @@
     },
     {
       "source": "BBC",
-      "count": 989,
-      "avg": -0.2818
+      "count": 996,
+      "avg": -0.2823
     },
     {
       "source": "NPR",
@@ -2025,6 +2025,11 @@
       "avg": -0.1838
     },
     {
+      "source": "Interesting Engineering",
+      "count": 4,
+      "avg": -0.196
+    },
+    {
       "source": "dw.com",
       "count": 4,
       "avg": 0.0333
@@ -2233,11 +2238,6 @@
       "source": "The Jamestown Foundation",
       "count": 3,
       "avg": -0.3028
-    },
-    {
-      "source": "Interesting Engineering",
-      "count": 3,
-      "avg": -0.1859
     },
     {
       "source": "The Vibes",
@@ -4284,7 +4284,7 @@
     {
       "name": "Taiwan",
       "type": "LOCATION",
-      "count": 2663,
+      "count": 2664,
       "avg": -0.0932
     },
     {
@@ -4296,8 +4296,8 @@
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 587,
-      "avg": -0.2126
+      "count": 590,
+      "avg": -0.213
     },
     {
       "name": "Japan",
@@ -4373,6 +4373,44 @@
     }
   ],
   "recent": [
+    {
+      "title": "New drone technology exposes weaknesses in Taiwan’s air defenses",
+      "source": "Interesting Engineering",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONk1EbmlVdjJjV3ptTkRrRFAtNm16X0hzWVJWYl9vX3FKMkpnbFZBYzlLb1F5ZUJheHl4bmNRWUw2ZjJCTUNHT0l5YmVXUU5OTDFHdFlMVGg0czdkYm9TOVIwZWxPOXpRSTZEQmNyVU83elJ3cUhPaE5hODdJcW41eGVlMUl4d0FheGJ3Tm8yT1pWdw?oc=5",
+      "published": "2026-08-16T01:42:00+00:00",
+      "compound": -0.2263,
+      "label": "negative",
+      "entities": [
+        "Taiwan"
+      ]
+    },
+    {
+      "title": "Army drops roses on Syrian crowds in a far cry from war",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/08-16-26-damascus-summer-festival-sv?traffic_source=rss",
+      "published": "2026-08-16T00:50:12+00:00",
+      "compound": -0.5859,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Hamas leader heads to Cairo for Gaza talks ahead of Kushner visit",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/16/hamas-leader-heads-to-cairo-for-gaza-talks-ahead-of-kushner-visit?traffic_source=rss",
+      "published": "2026-08-16T00:44:59+00:00",
+      "compound": 0.1027,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Iran war live: Talks on Hormuz Strait continue; Israel kills 11 in Lebanon",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/8/16/iran-war-live-talks-on-hormuz-strait-continue-israel-kills-11-in-lebanon?traffic_source=rss",
+      "published": "2026-08-16T00:00:45+00:00",
+      "compound": -0.93,
+      "label": "negative",
+      "entities": []
+    },
     {
       "title": "Cabinet to restore NT$1.25tn proposal",
       "source": "Taipei Times",
@@ -4793,157 +4831,115 @@
       "entities": []
     },
     {
-      "title": "Families of USS Lincoln crew say Trump should be 'ashamed' of conditions on board",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/08/15/nx-s1-5932539/uss-lincoln-trump-dire-conditions",
-      "published": "2026-08-15T18:21:32+00:00",
-      "compound": -0.743,
+      "title": "Hawaii braces for potential first direct hit by a hurricane in 34 years",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-15T23:34:24+00:00",
+      "compound": -0.3818,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Yemen’s government says Houthi strikes hit residential areas in Marib",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/15/yemens-government-says-houthi-strikes-hit-residential-areas-in-marib?traffic_source=rss",
+      "published": "2026-08-15T23:27:10+00:00",
+      "compound": -0.9186,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "At least five reported dead amid flooding in US state of Indiana",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/15/at-least-five-reported-dead-amid-flooding-in-us-state-of-indiana?traffic_source=rss",
+      "published": "2026-08-15T23:19:34+00:00",
+      "compound": -0.4215,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Colombia asks Trump to suspend tariffs as country reels from earthquake",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/15/colombia-asks-trump-to-suspend-tariffs-as-country-reels-from-earthquake?traffic_source=rss",
+      "published": "2026-08-15T23:04:47+00:00",
+      "compound": -0.1655,
       "label": "negative",
       "entities": [
         "Donald Trump"
       ]
     },
     {
-      "title": "Cleanup underway as Russian oil spill reaches Oman’s coastline",
+      "title": "US Democrats finalise major shakeup to 2028 presidential primary calendar",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/15-08-sv-oil-spill-oman-on?traffic_source=rss",
-      "published": "2026-08-15T18:11:12+00:00",
-      "compound": 0.0516,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "US aircraft carrier expected to relieve USS Lincoln in Middle East",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/15/us-aircraft-carrier-expected-to-relieve-uss-lincoln-in-middle-east?traffic_source=rss",
-      "published": "2026-08-15T17:49:42+00:00",
-      "compound": -0.6597,
-      "label": "negative",
-      "entities": [
-        "United States"
-      ]
-    },
-    {
-      "title": "Inter Milan sign England’s Djed Spence from Tottenham Hotspur",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/8/15/inter-milan-sign-englands-djed-spence-from-tottenham-hotspur?traffic_source=rss",
-      "published": "2026-08-15T17:48:32+00:00",
-      "compound": 0.5267,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Firefighters battle wildfire tearing through Belgian nature reserve",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cp8eex1nmpvo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-15T17:47:42+00:00",
-      "compound": -0.8442,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Multiple suspects at large after five shot at Virginia State University, police say",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c0l5583903yo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-15T17:42:36+00:00",
-      "compound": -0.34,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Tropical Storm Lala expected to strengthen as it nears Hawaii",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/15/tropical-storm-lala-expected-to-strengthen-as-it-nears-hawaii?traffic_source=rss",
-      "published": "2026-08-15T17:27:57+00:00",
-      "compound": 0.6369,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "UK PM Burnham reacts to death of former Cambridge professor",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/15/uk-pm-burnham-reacts-to-death-of-former-cambridge-professor?traffic_source=rss",
-      "published": "2026-08-15T17:19:12+00:00",
-      "compound": -0.8689,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Jason Arday, Cambridge professor accused of plagiarism, is found dead",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/08/15/nx-s1-5932488/jason-arday-dead",
-      "published": "2026-08-15T17:04:43+00:00",
-      "compound": -0.7579,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Erdogan says Egypt could join Turkiye-Saudi-Pakistan defence pact",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/15/erdogan-says-egypt-could-join-turkiye-saudi-pakistan-defence-pact?traffic_source=rss",
-      "published": "2026-08-15T16:39:52+00:00",
-      "compound": 0.8176,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "One killed, dozens injured after wildfire hits Croatian coast",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/one-killed-dozens-injured-after-wildfire-hits-croatian-coast?traffic_source=rss",
-      "published": "2026-08-15T16:33:05+00:00",
-      "compound": -0.9601,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Sudan’s al-Burhan pledges immunity for dialogue, rules out Hemedti return",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/15/sudans-al-burhan-pledges-immunity-for-dialogue-rules-out-hemedti-return?traffic_source=rss",
-      "published": "2026-08-15T16:17:43+00:00",
-      "compound": 0.128,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Scam targeted Taiwanese abroad, police say",
-      "source": "Taipei Times",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBqMXFjYTRPQmVCc0dvbmFjbTBCYjljRmIxWHR4ZC1acVNiNjM3NTVLWGVEOVVneW10QS1CTXd2SUVnYnJFX2FqT3Jib2lwdHZGSnZTaG92Rm56MXh1U3dUUFZaeWIxOExUNWt1aEZTdVVjWXREdmxMTw?oc=5",
-      "published": "2026-08-15T16:00:00+00:00",
-      "compound": -0.8126,
-      "label": "negative",
-      "entities": [
-        "Taiwan"
-      ]
-    },
-    {
-      "title": "Ghostly game",
-      "source": "Taipei Times",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9MSDF4dEEyMklOX1FLM2RELV9WS0RYM1JnazZjZFI1OHFzc1B6U1hyR0hZdU5TcDk3U0VvZW93RmZWWkZqT092QU13RVk4VTMzUjNsWUpXWFRRYWpqLXRtZldjelN0akM4Rl9NdmVEVWRJV25Qc3M2QV9R?oc=5",
-      "published": "2026-08-15T16:00:00+00:00",
-      "compound": 0.0,
+      "url": "https://www.aljazeera.com/news/2026/8/15/us-democrats-finalise-major-shakeup-to-2028-presidential-primary-calendar?traffic_source=rss",
+      "published": "2026-08-15T22:22:46+00:00",
+      "compound": -0.024,
       "label": "neutral",
       "entities": []
     },
     {
-      "title": "Taiwan to host Premier12 group stage",
-      "source": "Taipei Times",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9iQ1JpNkZONkh0dDgxOG80T0hRdElpd3NVMkM1OFJZOVpGVEpCNndaQ20xbDlNUEFaVjhPU29qSUZHbU1JcHF4VkRseDRHS1pUSkdHVHRVYTJwUTJJMDJlSEx1NUtrQkUxV29pUENUNmxuQnFNdVhhMQ?oc=5",
-      "published": "2026-08-15T16:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Taiwan"
-      ]
+      "title": "Why is the latest Ebola outbreak worsening?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/8/15/why-is-the-latest-ebola-outbreak-worsening?traffic_source=rss",
+      "published": "2026-08-15T22:00:42+00:00",
+      "compound": -0.4588,
+      "label": "negative",
+      "entities": []
     },
     {
-      "title": "KMT’s Cheng facing election, party woes",
-      "source": "Taipei Times",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1UblloLUZ2WTdtWjVFaENieklDd2VjOEN6Y20zVFQ1ejI5VWZoeE83YngzV2J6a0R6dV9VcU83cWFYRVRMaDltTmZEeV9GTHNJNDJJa2doRTd5SS01TlIybGZYQXJ4QnRxbnZPU0VtUno3RnVOWWRsQlhR?oc=5",
-      "published": "2026-08-15T16:00:00+00:00",
-      "compound": -0.1027,
+      "title": "Rescuers search for survivors of powerful Indonesia earthquake",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c3v00w5ylw9o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-15T21:49:12+00:00",
+      "compound": -0.7096,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Australian state to launch gun buyback after Bondi Beach attack",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cgjee21eenvo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-15T21:41:43+00:00",
+      "compound": -0.875,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Qatar denies capturing three Iranian pilots after downing fighter jets",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cj4kk8kz271o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-15T21:03:57+00:00",
+      "compound": -0.6705,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Morocco detains dozens of migrants trying to cross into Ceuta, reports say",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/ckg44x2ey1ro?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-15T20:58:31+00:00",
+      "compound": 0.34,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Qatar denies it is detaining three Iranian bomber pilots",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/15/qatar-denies-it-is-detaining-three-iranian-bomber-pilots?traffic_source=rss",
+      "published": "2026-08-15T20:55:29+00:00",
+      "compound": -0.6705,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "California tackles multiple wildfires as firefighter workforce faces strain",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/gallery/2026/8/15/california-tackles-multiple-wildfires-as-firefighter-workforce-faces-strain?traffic_source=rss",
+      "published": "2026-08-15T20:40:48+00:00",
+      "compound": -0.5994,
       "label": "negative",
       "entities": [
-        "KMT"
+        "Donald Trump"
       ]
     }
   ]

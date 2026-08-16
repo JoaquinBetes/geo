@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-08-16T01:57:01+00:00",
+  "updated": "2026-08-16T06:59:01+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -48,9 +48,9 @@
     "to": "2026-08-16"
   },
   "kpis": {
-    "events_total": 463,
-    "events_unlocated": 1364,
-    "events_7d": 48,
+    "events_total": 467,
+    "events_unlocated": 1372,
+    "events_7d": 52,
     "events_prev_7d": 87,
     "hottest_place": "Kyiv"
   },
@@ -615,10 +615,19 @@
     },
     {
       "date": "2026-08-15",
-      "total": 7,
-      "strike": 5,
+      "total": 8,
+      "strike": 6,
       "ground": 1,
       "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-08-16",
+      "total": 3,
+      "strike": 3,
+      "ground": 0,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -5253,16 +5262,56 @@
       "title": "Ukraine hits Russian Starlink-style network, Moscow tracks arms package",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/8/15/ukraine-hits-russian-starlink-style-network-moscow-tracks-arms-package?traffic_source=rss"
+    },
+    {
+      "date": "2026-08-15",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine begins using British drones to strike targets deep within Russia, Times reports",
+      "source": "The Kyiv Independent",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSWJQdXg3bFhqdWlRaUxMYlVKWi1TVFplUFU3TTg3UHVkQmdOZTlHeUpyTU4wNXRpNk4zN3Nsa2NvMkZ0MXo4NlhBNXNCRlA1YnZUTkFiU0NkT3F6MmRnRDE3TWdRWXVtZDI1LTYyZ2plNFJFaGZ0c3VsSVNHR1llU0hWdzJFV1lPTWtxWkczZnFHNmFBeEZBSGQ5WjI0d2JTZlZaeHozdGkyLVhtRGZF?oc=5"
+    },
+    {
+      "date": "2026-08-16",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: Kyiv faces missile barrage after Zelenskyy targets Russian satellite network",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNaXdMN2tQRU5NUmxGNDA3RFYzOXV0SUFoaFRZM2liX05GUThBNHkteXlCeWNNOWRUd0FfaXZrVlVHMHJWNjdfdEphUVBfR2lVOVdZUVJmRVRqak9KRllnLUcxWEFDN1A4NzhWRUJEZkdVY0xXRlE3OTBaT0NlN3R4X3NtREtxOGRuYWE4ZWUxVm9xVUVnMEVrSHBwSm82R1dCRy11YjV6NVpsLXRva2IyVmlOVGUwTzZPd1BqVE1pU3k4OUhid1JnMHFDSEE4bXExM3E3bWxHbW52ZHM?oc=5"
+    },
+    {
+      "date": "2026-08-16",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Russia-Ukraine war: Russian strikes kill one in Ukraine as Moscow faces 130+ drone attack",
+      "source": "Firstpost",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWlZIc0lWTTNaWGVubTJlS3NMRHU0REdIekNiRlZWbFpHTm1oY1o0TXN2NWtNNFU4cjVIdGR0a0VqSlFFZnRlZUJIOFlGYThIcHFiSlFJVE92YTM0R0FRNzJrXzJlLVIwdF92TmdvZExvcEJtMFFNZDF5MEhVWVpwRTEtWGpqUEkyYWZ1TlpWcWJJeXkxam1HS3BGN3poSk9yVDAyYnBWVHgyS0diazhlb0NhTFRUelVTcU5rWnY4aG1DV3pyZmI3X1FwMjhTQdIB0wFBVV95cUxQRE5jWUQ2X0JvaU83NDliRkViSjZiVlBralZ2bzZkV2tjelNSdkNpQTJBWXBMdGRSSmVDejhEWGhvaDc1U1E4Y1NqYkx2WnZseE9rSVFJYTgxRlJXeDgzNkU0RDVuS1FjOTl6bC13Q3d2X3lIRHozOWZkYVlqbnVyZkN3OVctQmx0cGluLUVYbnJWWmNJVjNpQkcxRTdpaGtsNXFUTUpHUWJyZTVoalBZcXhRU1lLUW90bkxidkFpaFVBTWgyM21teFMxd3JwajhmQUVn?oc=5"
+    },
+    {
+      "date": "2026-08-16",
+      "type": "strike",
+      "place": "Dnipro",
+      "lat": 48.4647,
+      "lon": 35.0462,
+      "title": "Ukraine war briefing: Kyiv faces missile barrage after Zelenskyy targets Russian satellite network",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/aug/16/ukraine-war-briefing-kyiv-faces-missile-barrage-after-zelenskyy-targets-russian-satellite-network"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 159
+      "count": 161
     },
     {
       "place": "Moscow",
-      "count": 50
+      "count": 51
     },
     {
       "place": "Odesa",
@@ -5273,15 +5322,15 @@
       "count": 9
     },
     {
+      "place": "Dnipro",
+      "count": 6
+    },
+    {
       "place": "Belgorod",
       "count": 6
     },
     {
       "place": "Mariupol",
-      "count": 5
-    },
-    {
-      "place": "Dnipro",
       "count": 5
     },
     {

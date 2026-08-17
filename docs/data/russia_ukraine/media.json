@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-08-16T18:46:29+00:00",
+  "updated": "2026-08-17T01:55:13+00:00",
   "overall_tone": -0.3978,
   "rsf_as_of": "2025 (aprox.)",
   "outlets": [
@@ -15,9 +15,9 @@
       "lat": 25.2867,
       "lon": 51.5333,
       "rsf": 84,
-      "articles": 3509,
-      "tone_avg": -0.2701,
-      "tone_delta": 0.1277
+      "articles": 3531,
+      "tone_avg": -0.2698,
+      "tone_delta": 0.128
     },
     {
       "name": "BBC",
@@ -30,9 +30,9 @@
       "lat": 51.5188,
       "lon": -0.144,
       "rsf": 20,
-      "articles": 1087,
-      "tone_avg": -0.3109,
-      "tone_delta": 0.0869
+      "articles": 1094,
+      "tone_avg": -0.3108,
+      "tone_delta": 0.087
     },
     {
       "name": "NPR",
@@ -45,9 +45,9 @@
       "lat": 38.899,
       "lon": -77.008,
       "rsf": 57,
-      "articles": 329,
-      "tone_avg": -0.3054,
-      "tone_delta": 0.0924
+      "articles": 330,
+      "tone_avg": -0.3037,
+      "tone_delta": 0.0941
     },
     {
       "name": "The Guardian",
@@ -60,9 +60,9 @@
       "lat": 51.5346,
       "lon": -0.1219,
       "rsf": 20,
-      "articles": 323,
-      "tone_avg": -0.6308,
-      "tone_delta": -0.233
+      "articles": 325,
+      "tone_avg": -0.6325,
+      "tone_delta": -0.2347
     },
     {
       "name": "UNITED24 Media",
@@ -90,9 +90,9 @@
       "lat": 51.5074,
       "lon": -0.1278,
       "rsf": 20,
-      "articles": 96,
-      "tone_avg": -0.8314,
-      "tone_delta": -0.4336
+      "articles": 97,
+      "tone_avg": -0.8325,
+      "tone_delta": -0.4347
     },
     {
       "name": "Kyiv Post",
@@ -270,9 +270,9 @@
       "lat": 38.873,
       "lon": -77.107,
       "rsf": 57,
-      "articles": 37,
-      "tone_avg": -0.5941,
-      "tone_delta": -0.1963
+      "articles": 38,
+      "tone_avg": -0.604,
+      "tone_delta": -0.2062
     },
     {
       "name": "Ukrinform",
@@ -440,6 +440,21 @@
       "tone_delta": -0.1944
     },
     {
+      "name": "France 24",
+      "url": "https://www.france24.com/en/",
+      "city": "París",
+      "country": "Francia",
+      "iso3": "FRA",
+      "type": "estatal",
+      "desc": "El canal internacional del Estado francés (France Médias Monde).",
+      "lat": 48.841,
+      "lon": 2.268,
+      "rsf": 25,
+      "articles": 22,
+      "tone_avg": -0.5008,
+      "tone_delta": -0.103
+    },
+    {
       "name": "Financial Times",
       "url": "https://www.ft.com",
       "city": "Londres",
@@ -453,21 +468,6 @@
       "articles": 20,
       "tone_avg": -0.2984,
       "tone_delta": 0.0994
-    },
-    {
-      "name": "France 24",
-      "url": "https://www.france24.com/en/",
-      "city": "París",
-      "country": "Francia",
-      "iso3": "FRA",
-      "type": "estatal",
-      "desc": "El canal internacional del Estado francés (France Médias Monde).",
-      "lat": 48.841,
-      "lon": 2.268,
-      "rsf": 25,
-      "articles": 20,
-      "tone_avg": -0.4577,
-      "tone_delta": -0.0599
     },
     {
       "name": "Bloomberg",
@@ -500,6 +500,21 @@
       "tone_delta": 0.1749
     },
     {
+      "name": "The Telegraph",
+      "url": "https://www.telegraph.co.uk",
+      "city": "Londres",
+      "country": "Reino Unido",
+      "iso3": "GBR",
+      "type": "privado",
+      "desc": "Diario británico conservador (hermanos Barclay/fondo RedBird IMI); muy leído en defensa y seguridad.",
+      "lat": 51.5142,
+      "lon": -0.112,
+      "rsf": 20,
+      "articles": 18,
+      "tone_avg": -0.6388,
+      "tone_delta": -0.241
+    },
+    {
       "name": "The Japan Times",
       "url": "https://www.japantimes.co.jp",
       "city": "Tokio",
@@ -528,21 +543,6 @@
       "articles": 17,
       "tone_avg": -0.0715,
       "tone_delta": 0.3263
-    },
-    {
-      "name": "The Telegraph",
-      "url": "https://www.telegraph.co.uk",
-      "city": "Londres",
-      "country": "Reino Unido",
-      "iso3": "GBR",
-      "type": "privado",
-      "desc": "Diario británico conservador (hermanos Barclay/fondo RedBird IMI); muy leído en defensa y seguridad.",
-      "lat": 51.5142,
-      "lon": -0.112,
-      "rsf": 20,
-      "articles": 17,
-      "tone_avg": -0.6275,
-      "tone_delta": -0.2297
     },
     {
       "name": "The Hill",
@@ -1058,15 +1058,15 @@
   "by_country": {
     "QAT": {
       "outlets": 1,
-      "articles": 3509
+      "articles": 3531
     },
     "GBR": {
       "outlets": 8,
-      "articles": 1644
+      "articles": 1655
     },
     "USA": {
       "outlets": 24,
-      "articles": 1005
+      "articles": 1007
     },
     "UKR": {
       "outlets": 5,
@@ -1094,7 +1094,7 @@
     },
     "FRA": {
       "outlets": 3,
-      "articles": 45
+      "articles": 47
     },
     "JPN": {
       "outlets": 3,
@@ -1199,7 +1199,7 @@
       "articles": 14
     }
   ],
-  "others_total": 1147,
-  "matched_articles": 6941,
-  "total_articles": 8088
+  "others_total": 1152,
+  "matched_articles": 6978,
+  "total_articles": 8130
 }

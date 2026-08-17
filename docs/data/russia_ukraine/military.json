@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-08-16T18:46:31+00:00",
+  "updated": "2026-08-17T01:55:14+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-08-16"
+    "to": "2026-08-17"
   },
   "kpis": {
-    "events_total": 487,
-    "events_unlocated": 1385,
-    "events_7d": 72,
-    "events_prev_7d": 87,
+    "events_total": 493,
+    "events_unlocated": 1391,
+    "events_7d": 69,
+    "events_prev_7d": 86,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -624,10 +624,19 @@
     },
     {
       "date": "2026-08-16",
-      "total": 23,
-      "strike": 22,
+      "total": 26,
+      "strike": 25,
       "ground": 0,
       "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": true
+    },
+    {
+      "date": "2026-08-17",
+      "total": 3,
+      "strike": 3,
+      "ground": 0,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -5502,6 +5511,66 @@
       "title": "Largest Ukrainian drone attack on Russia, Moscow says 822 drones shot down",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/16-08-sv-ukraine-largest-drone-attack-russia-ua?traffic_source=rss"
+    },
+    {
+      "date": "2026-08-16",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Largest Ukrainian drone attack on Russia, Moscow says 822 drones shot down",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLU9SeUh2T01sWlVtVm5nU1pwMDBvOXpVV2h3cm91ZGp2bGRHcDFMQTdreDR6M3l1RDQyS3lXSnNFRW5FYW1ZMnZyMVdrSk14MGthQnd0QVdNMWVRQVZyMEdMOTVWWnNjWXJRQkdhNEtWVHEyblhZSkJJZi0yeUE2NU44VVE4WDZJeHlsMHNzMVpVU2lNbEprRXd3UjJMZEXSAaQBQVVfeXFMT1ZkNlExcVB1LVBSQjlWQkpkRVQzdDNuaklGWlNkY0E3aTl2NFlFODFIa0hERDNlWXExVGhMVlFiVWdqOERpS0JWX1ItMXlBVy1XQXphZWVQZG05SHNLb0doT2xOWE5MM0JmZnIyUkJaaWxzZTEtd1Y1UWlhTE5mUTUxejdndEVpb0xiaTBKbkdVbzE3Qm90ZzFQOV9qa1M1RmYyWXk?oc=5"
+    },
+    {
+      "date": "2026-08-16",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Ukraine launches 600 drones toward Moscow in major barrage, mayor says",
+      "source": "ABC7 New York",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMV82ejZKZ2g3UXJCV3NhbENwMVV5cHpRNFNjYzVVUmNSblU1djNTbGxvRVlqV3dIWC1QRzdQTVV5MHNsalJNX1JmXzhrQ2hjSHQyQnpPX2hWNlUxdEZmdGZYOVE1OEo4UUJmd0czbmgxTEMxdnZOVFF2ejV0YWo3NVhjQnJxZlh6Nk9mbEQyTjZyM21tLW9VVw?oc=5"
+    },
+    {
+      "date": "2026-08-16",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Ukraine Launches Mass Drone Attack Targeting Moscow as Russia Bombards Kyiv: how 33 outlets framed it",
+      "source": "NewsCord",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPMHJTbWFvMy1sSVF1OFpCWkViZkZBbWpDZlFSMkE2Wmdrbll6VHRYTjBaZDFCUWtRT0MzanY3dXJQUFZQdHM4cHZTbjdMWV9RdURHdXNvNWpzQ0FCQXZ5VVcxSUlNaWRTT2tYZ1A1WTVJcUZzSTZOZUM2TWhQd01zTDdDNktlek1qYzdTQ0dRckJUeXBPMUdkOFRVZkF2dFc1M1RPU3hTNk0tMDdUbVp3UEJzMG5zdU0zcU44YldueG55Y2F2VmFPTWdTa295NnZOcl9aQjFzUUZzZVBQLWNHeTFXdWQ3UkRrRFE?oc=5"
+    },
+    {
+      "date": "2026-08-17",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: Kyiv could hit Russia with domestic ballistic missiles in months, former defence minister says",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVmE3NFdjMENoLTJEOXktZ2hFQUFlcE9MYVNnV0haQmZTcUpnLVJqTnlSSEpINlpNbDFwTnZ1bzJjV21pT3ljNkFYNWdUZnN6djhiTXhmZVJvWVROYW0zVEx6T0RFVnBpeVNoNGJwLXZfTDRaY1RydjVGYVZtRmduVGswdkhwWnBQQWlNaEpoWnZYQTYtNEtLUkRTbjFxelV0VmZzcnVpT0JfSkNXYzBNNEt4d0s4Zw?oc=5"
+    },
+    {
+      "date": "2026-08-17",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine-Russia war latest: Kyiv blows up biggest ‘Russian Amazon’ hub in massive drone attack",
+      "source": "The Independent",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQelRzWHNFMVBHUDZPeGpleHRQa2d4cHBzT01CTlNJNE53YnZkSUNRZ3R2Q05mclVzeVkwcGFyazAzVmwwMk1ORnhCUE4zTTFmdGd5UWloaHU2eGl5eFVkZHZfR1dpcTR4ZmpJTE53R0llaHdtalJNcFlodGtLcjlJWDV5WHg5Njg5b25lZG05MlV1OTg0b0pqRkFKaW1xa2RLOXVieWgzTmZDbVcwclZZ?oc=5"
+    },
+    {
+      "date": "2026-08-17",
+      "type": "strike",
+      "place": "Rostov-on-Don",
+      "lat": 47.2357,
+      "lon": 39.7015,
+      "title": "Ukraine war briefing: Kyiv could hit Russia with domestic ballistic missiles in months, former defence minister says",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/aug/17/ukraine-war-briefing-kyiv-capable-ballistic-missiles-russia-in-months"
     }
   ],
   "top_places": [
@@ -5511,7 +5580,7 @@
     },
     {
       "place": "Moscow",
-      "count": 59
+      "count": 62
     },
     {
       "place": "Odesa",
@@ -5519,7 +5588,7 @@
     },
     {
       "place": "Zaporizhzhia",
-      "count": 10
+      "count": 9
     },
     {
       "place": "Dnipro",
@@ -5530,15 +5599,15 @@
       "count": 6
     },
     {
-      "place": "Mariupol",
-      "count": 5
-    },
-    {
       "place": "Novorossiysk",
       "count": 5
     },
     {
       "place": "Kursk",
+      "count": 4
+    },
+    {
+      "place": "Mariupol",
       "count": 4
     },
     {

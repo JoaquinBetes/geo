@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-08-16T18:46:37+00:00",
+  "updated": "2026-08-17T01:55:20+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -38,13 +38,13 @@
   },
   "window": {
     "from": "2026-02-27",
-    "to": "2026-08-16"
+    "to": "2026-08-17"
   },
   "kpis": {
-    "events_total": 363,
-    "events_unlocated": 1311,
-    "events_7d": 15,
-    "events_prev_7d": 39,
+    "events_total": 365,
+    "events_unlocated": 1316,
+    "events_7d": 13,
+    "events_prev_7d": 34,
     "hottest_place": "Strait of Hormuz"
   },
   "daily": [
@@ -500,9 +500,9 @@
     },
     {
       "date": "2026-08-16",
-      "total": 2,
-      "strike": 1,
-      "ground": 1,
+      "total": 4,
+      "strike": 2,
+      "ground": 2,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -4138,16 +4138,36 @@
       "title": "The post-Hormuz era offers Africa a great opportunity",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/opinions/2026/8/16/the-post-hormuz-era-offers-africa-a-great-opportunity?traffic_source=rss"
+    },
+    {
+      "date": "2026-08-16",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Israel strikes Lebanon again, 11 dead; Iran still defiant on Hormuz control",
+      "source": "Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSWpKMFROM2t6NXQtTjU3cHUydTIyUEdEX1ctS1dZM2g0WmRtZm9VUVdZWVVyMGNnVzNPZ3BSZDNMTDkyWGpETTZTSVdPdUI1b1Azc3FFWkNTM0JLVW1vVFZKNWwxNHpFMmNfR1RBaHB6TWdvSnpNMjJ5Tk51ckF4dWcyX1RqTFZ4VkVJWTlSbnJ5NnZsalFFcGhGQjFjUDJ4NWVFTGh3c3RpUU9wY3NEamZDamsxckhLQWp3SllFeDdCVV9jbUlZQkJGdEJYNDdnYkFDbNIB2gFBVV95cUxQaGk1WnJZeUZqTEVUc1Y2SGh0SGp0SlRkQWt2VzNXVUlTVzN4ejVEbG9Vdkc2NU1udGRmclFEbm16OXJ1bnhpTThqczR3aXVHdmpwSmZjTFNTS25pbXd6ZmhsX2trVzJMZklzTE8xU0NwMEVhcVdfNTZQYWY0alRKdmhfc2o5eUpucmRXMUR1d0F2ZHNXcUNqMnpPV3llLUVDZFpleUw3MlJBemdkX2V5VGRGZ3pmbUY2ZUdkdmk5QkRjS2dUcEVzRjFSLWI0cDhmbktma29iUUFEQQ?oc=5"
+    },
+    {
+      "date": "2026-08-16",
+      "type": "ground",
+      "place": "Baghdad",
+      "lat": 33.3152,
+      "lon": 44.3661,
+      "title": "Anti-corruption raids in Baghdad as dozens of officials arrested",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/anti-corruption-raids-in-baghdad-as-dozens-of-officials-arrested?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 78
+      "count": 74
     },
     {
       "place": "Tehran",
-      "count": 49
+      "count": 46
     },
     {
       "place": "Jerusalem",
@@ -4162,16 +4182,8 @@
       "count": 5
     },
     {
-      "place": "Bushehr",
-      "count": 3
-    },
-    {
       "place": "Tel Aviv",
       "count": 3
-    },
-    {
-      "place": "Bandar Abbas",
-      "count": 2
     },
     {
       "place": "Ahvaz",
@@ -4180,6 +4192,14 @@
     {
       "place": "Damascus",
       "count": 2
+    },
+    {
+      "place": "Shiraz",
+      "count": 1
+    },
+    {
+      "place": "Erbil",
+      "count": 1
     }
   ],
   "losses": null

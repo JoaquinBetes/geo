@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-08-17T07:15:55+00:00",
+  "updated": "2026-08-17T13:05:41+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-08-17"
   },
   "kpis": {
-    "events_total": 365,
-    "events_unlocated": 1325,
-    "events_7d": 13,
+    "events_total": 366,
+    "events_unlocated": 1336,
+    "events_7d": 14,
     "events_prev_7d": 34,
     "hottest_place": "Strait of Hormuz"
   },
@@ -503,6 +503,15 @@
       "total": 4,
       "strike": 2,
       "ground": 2,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-08-17",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -4158,6 +4167,16 @@
       "title": "Anti-corruption raids in Baghdad as dozens of officials arrested",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/anti-corruption-raids-in-baghdad-as-dozens-of-officials-arrested?traffic_source=rss"
+    },
+    {
+      "date": "2026-08-17",
+      "type": "strike",
+      "place": "Jerusalem",
+      "lat": 31.7683,
+      "lon": 35.2137,
+      "title": "Benjamin Netanyahu limits Gaza strikes as Donald Trump pushes Israel toward restraint",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBSYnB6MW52OWVGSnM1d3RPLW1PU3oxYUxIbUFONmFKR001UnI3S2ZxcEhqMkd2QWV3MmhDOXh6MW5YQWZxaExVeEoza3BLRGpUdHc4T2NZYkZPUHNfYkFYUmhvQVBwZUZZT0JoSFFR?oc=5"
     }
   ],
   "top_places": [
@@ -4171,7 +4190,7 @@
     },
     {
       "place": "Jerusalem",
-      "count": 27
+      "count": 28
     },
     {
       "place": "Eilat",

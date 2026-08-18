@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-08-18T01:50:32+00:00",
+  "updated": "2026-08-18T07:04:16+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-08-18"
   },
   "kpis": {
-    "events_total": 367,
-    "events_unlocated": 1349,
-    "events_7d": 15,
+    "events_total": 369,
+    "events_unlocated": 1353,
+    "events_7d": 17,
     "events_prev_7d": 30,
     "hottest_place": "Strait of Hormuz"
   },
@@ -509,9 +509,18 @@
     },
     {
       "date": "2026-08-17",
-      "total": 2,
-      "strike": 1,
+      "total": 3,
+      "strike": 2,
       "ground": 1,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-08-18",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -4187,16 +4196,36 @@
       "title": "Iran signals readiness for ‘US ground operations’ as strategy shifts gear",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/8/17/iran-signals-readiness-for-us-ground-operations-as-mou-expires?traffic_source=rss"
+    },
+    {
+      "date": "2026-08-17",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Trump says no rush to end Iran war, Tehran threatens escalation; Israel strikes Ali Taher hills and Mansouri amid rising tensions in south: Everything you need to know this Tuesday",
+      "source": "L'Orient Today",
+      "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxObXY2Y0x3NWFzWGRuUG5SME5PYU8zakVJYm9peGdMSmJPQ0JFTXVxS0dUM2NPSnl0Z2oteFgwUk5ITkJXeWJLSTlpYnRiZ19sU1VBbUZrRy1JSGJuYTJadzY0b3lLY2tsazFwcUUzcjJLRFQzOFh3SG9iaTZydEZpZU9fa1lvMnIwTWFjaGx1YVVZaGlUZm1qZ2FucDFnU0hOZk9mYjc0d3lJcGE2ZXpXLUpOS1NuSHUtMHRud3F1ZERjck9yVzZIM3p4Y0ctVG5pMEtPdmM5TllHZXhhUFhlWEE2VDZzNkpQZHFpc0hvWUhVWTVMWGF0aTNmRmVDczBxbkZzaVdnVjFwNWxGM1A0STBITWRKdVRoei1nN1dKSllsRjJXSVJHMVdkVQ?oc=5"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Ship struck by projectile in Strait of Hormuz, crew member injured",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeFNEVEs5RGt0eGdpRzhOOTJFeGVVWTgzY0dXcW81aDZRLXM2U2pkUnI3czFzN09peXp3N3NySnRHT0ZDaFZOZ3JtVG4xb1pjeFJpanVpRlJROEgwSEdJNERFdWh2WG5iM09zYWdsV0JQLUdJQTQ4VHJHY1pxUFJSaGU1TkRnNjgwLUcyWFpNYlpMclVqN0xJWHhTLWZPdHE5djRKaF9oWHJhZllHaWJyUEFLQzBUeUxTUmhxSXBZZw?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 71
+      "count": 72
     },
     {
       "place": "Tehran",
-      "count": 45
+      "count": 46
     },
     {
       "place": "Jerusalem",

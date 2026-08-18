@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-08-18T01:50:27+00:00",
+  "updated": "2026-08-18T07:04:10+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -48,9 +48,9 @@
     "to": "2026-08-18"
   },
   "kpis": {
-    "events_total": 501,
-    "events_unlocated": 1427,
-    "events_7d": 72,
+    "events_total": 504,
+    "events_unlocated": 1431,
+    "events_7d": 75,
     "events_prev_7d": 76,
     "hottest_place": "Kyiv"
   },
@@ -635,6 +635,15 @@
       "date": "2026-08-17",
       "total": 8,
       "strike": 8,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-08-18",
+      "total": 3,
+      "strike": 3,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -5651,6 +5660,36 @@
       "title": "Russia Deploys Faster Jet Drones, 3 Key Limits Could Prevent Them from Replacing Shaheds",
       "source": "Kyiv Post",
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5YZjUzZnloUXRUdHFxQURWdUxtelBVb1FLVTdCRm9VQnNnNUFPWmZ2R2paUjlVcjFDcFBiaXVEOG1UemtsNUh3X3gzWQ?oc=5"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Russia says more than 600 drones targeted Moscow region",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaW1wR0ZhajM4bElWb2RxLWRldW43a0VBQWh2ZHBJcFNoT055Nm51b09PbGZ1N1VSWXBoU2ZJdlg3UWkwS2ZMVC15YXBOTkhOMXB6LVQ3aTNwSF83ejU4MUtKNTQ1THNMNnIwVnlwYnVEYzljYktfamF0T01Xb1pPSTdrOXdKc0o4RENyWUgwVjlXWEt6UnNGNm5CZHbSAaIBQVVfeXFMTmZsYlVWVHEzUEQ4bFBxaFFYc2sycnlWZElwbUxWdHFzS2dFSHduY3huaUF0YzVhRHJXRWxZWjJQZlZtSVdjR1hsOG5kblNDUWNyamFOd1hoSW5kNFVFN1RpZFdqV2tOeEZpU3NrUHB2Q2JmMDluOVRIUGc1QTlfVE8yQmtxRDBfaExrV0tMb2VfTk5aakV1MFVyMW5qY3hwR3F3?oc=5"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Moscow warns of 'price' after UK-made drones hit Russia",
+      "source": "Le Monde.fr",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUlVvTG0tRTcwUUg0eEdpNmRUS2xPMHg5dzVOYkZpV3FPUFFuRUNjUy1XcksyTFpuTEdMdEMxRjNXQkFMd1NCNWpwQ1dwU1htZFlZdVVhNnlIbXE3WGVSMmh6WHhKNEh0dGF1bWpCV3NORm9iMTc0djUwZ3U5eUJ5Yk1zM190NE5SLWtVa2x4WXlrOVE1RE4xS1NwZGRmS0JJUFdSTHM1M0k4NUl0UGJSTklnZF8yQ3RzVTY0Y09PdDRva0tkREE?oc=5"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "strike",
+      "place": "Kharkiv",
+      "lat": 49.9935,
+      "lon": 36.2304,
+      "title": "Ukrainian Lessons by Charlotte Higgins review – when art and war collide",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/books/2026/aug/18/ukrainian-lessons-by-charlotte-higgins-review-when-art-and-war-collide"
     }
   ],
   "top_places": [
@@ -5660,7 +5699,7 @@
     },
     {
       "place": "Moscow",
-      "count": 63
+      "count": 65
     },
     {
       "place": "Odesa",
@@ -5683,16 +5722,16 @@
       "count": 5
     },
     {
+      "place": "Kharkiv",
+      "count": 4
+    },
+    {
       "place": "Kursk",
       "count": 4
     },
     {
       "place": "Mariupol",
       "count": 4
-    },
-    {
-      "place": "Kharkiv",
-      "count": 3
     }
   ],
   "losses": {

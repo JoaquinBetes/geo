@@ -1,6 +1,6 @@
 {
   "id": "china_taiwan",
-  "updated": "2026-08-19T13:08:24+00:00",
+  "updated": "2026-08-19T18:53:11+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -43,12 +43,12 @@
   },
   "window": {
     "from": "2026-01-30",
-    "to": "2026-08-19"
+    "to": "2026-08-20"
   },
   "kpis": {
-    "events_total": 31,
-    "events_unlocated": 985,
-    "events_7d": 8,
+    "events_total": 32,
+    "events_unlocated": 994,
+    "events_7d": 9,
     "events_prev_7d": 4,
     "hottest_place": "Taipei"
   },
@@ -244,6 +244,15 @@
     },
     {
       "date": "2026-08-18",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-08-19",
       "total": 1,
       "strike": 1,
       "ground": 0,
@@ -562,12 +571,22 @@
       "title": "China Doesn't Have to Sink a US Navy Nuclear Aircraft Carrier with Missiles To Put It Out Of Action Near Taiwan or the South China Sea",
       "source": "19FortyFive",
       "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQU2FBd01NYmpueFZxS0QwQnRTclAtd2daekR5czZnb05PNXltM2NMVU8zX3FHQk9pVHlwbGt5dUtMNDRjWXlENUhnYlhNWHY3NmJfa1BBRFgzMzdjeUNpNEdVNTd4ckZGdks0dnM0ZERMekF6eGFpcXhHYUFIWTViSFB0N19pbzQtZzFtLUZ0RHcyTlhNa0lpWUkxZk80TkwtcGZxZEwxOEFrZ012VE1WLVFLaVNRcF9ROUQ3QXMxV05zR2Y3TEdlZDdsdndDdVpkbk1nT1A3aWFSUFRwenJ4a3RzVUJibzFWZGlHdXpqZW5NV3l6SXY2QlU2LVNvbm8?oc=5"
+    },
+    {
+      "date": "2026-08-19",
+      "type": "strike",
+      "place": "Taipei",
+      "lat": 25.033,
+      "lon": 121.5654,
+      "title": "No injuries reported from explosion of test rocket",
+      "source": "Taipei Times",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE44UFJIYjUzVkJrbkdpX2xlaUU2dmRQc1JMdUY3dzlXcUQycmdscUlYc1JEQ0tkZmgtWG9xUmRiRllvLVhHdVc0dHJ0bmw2T1NlQVRZOUFFN19rd1doejVsN1FfNVNubGtfbGhUV3ZjTG0xUTNOOTgwNERR?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Taipei",
-      "count": 18
+      "count": 19
     },
     {
       "place": "South China Sea",

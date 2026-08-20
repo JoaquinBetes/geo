@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-08-19T18:53:01+00:00",
+  "updated": "2026-08-20T01:51:25+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-08-19"
+    "to": "2026-08-20"
   },
   "kpis": {
-    "events_total": 517,
-    "events_unlocated": 1479,
-    "events_7d": 83,
-    "events_prev_7d": 74,
+    "events_total": 518,
+    "events_unlocated": 1483,
+    "events_7d": 77,
+    "events_prev_7d": 53,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -646,6 +646,15 @@
       "strike": 13,
       "ground": 0,
       "infrastructure": 3,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-08-20",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -5820,28 +5829,38 @@
       "title": "Russia reports Ukrainian drone strike near Zaporizhzhia nuclear plant",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWU1mTHgzVHRPVzFQRkF6UnBpS0lSbVo2LUZrWFVvYjQ5SDdsVWxoc3BDSVNQdzB1YWI0aGZ6WkRaaW01SWpLX2JCTUpkT0RYOXVielZFTUR4TndVajRBbU13TEJlSnBRMGN6UC0wTVBYYTFvbjRfU2Y3Umd1djRrTjdickVlRFg3SDNiX1g2TU1wbnJ3aUpNVFE1Wl9haW4zRGY0RWlPQ0hDZi1WWWtr?oc=5"
+    },
+    {
+      "date": "2026-08-20",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: Russia running on imported gasoline, government confirms",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/aug/20/ukraine-war-briefing-russia-running-on-imported-gasoline-government-confirms"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 151
+      "count": 148
     },
     {
       "place": "Moscow",
-      "count": 68
-    },
-    {
-      "place": "Odesa",
-      "count": 15
+      "count": 54
     },
     {
       "place": "Zaporizhzhia",
       "count": 12
     },
     {
+      "place": "Odesa",
+      "count": 11
+    },
+    {
       "place": "Belgorod",
-      "count": 8
+      "count": 7
     },
     {
       "place": "Novorossiysk",

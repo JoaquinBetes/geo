@@ -2,13 +2,13 @@
   "id": "russia_ukraine",
   "name": "Rusia–Ucrania",
   "description": "Cobertura mediática del conflicto entre Rusia y Ucrania",
-  "updated": "2026-08-20T01:51:23+00:00",
-  "total_articles": 8710,
-  "overall_avg": -0.3992,
+  "updated": "2026-08-20T07:05:43+00:00",
+  "total_articles": 8732,
+  "overall_avg": -0.3997,
   "distribution": {
-    "pos": 1655,
-    "neu": 1025,
-    "neg": 6030
+    "pos": 1658,
+    "neu": 1026,
+    "neg": 6048
   },
   "sources": [
     "Al Jazeera",
@@ -563,7 +563,8 @@
     "Nordic Monitor",
     "Washington Monthly",
     "rfi.fr",
-    "Daily Star"
+    "Daily Star",
+    "News24"
   ],
   "daily": [
     {
@@ -1392,41 +1393,41 @@
     },
     {
       "date": "2026-08-19",
-      "count": 169,
-      "avg": -0.3349,
+      "count": 170,
+      "avg": -0.3384,
       "pos": 43,
       "neu": 12,
-      "neg": 114
+      "neg": 115
     },
     {
       "date": "2026-08-20",
-      "count": 9,
-      "avg": -0.3929,
-      "pos": 1,
-      "neu": 0,
-      "neg": 8
+      "count": 30,
+      "avg": -0.5322,
+      "pos": 4,
+      "neu": 1,
+      "neg": 25
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 3786,
-      "avg": -0.2705
+      "count": 3796,
+      "avg": -0.2711
     },
     {
       "source": "BBC",
-      "count": 1182,
-      "avg": -0.3116
+      "count": 1189,
+      "avg": -0.3139
     },
     {
       "source": "The Guardian",
-      "count": 353,
-      "avg": -0.6138
+      "count": 354,
+      "avg": -0.6148
     },
     {
       "source": "NPR",
-      "count": 351,
-      "avg": -0.3047
+      "count": 353,
+      "avg": -0.305
     },
     {
       "source": "UNITED24 Media",
@@ -1445,8 +1446,8 @@
     },
     {
       "source": "Institute for the Study of War",
-      "count": 92,
-      "avg": -0.7802
+      "count": 93,
+      "avg": -0.7812
     },
     {
       "source": "The Kyiv Independent",
@@ -4172,38 +4173,43 @@
       "source": "Daily Star",
       "count": 1,
       "avg": -0.9545
+    },
+    {
+      "source": "News24",
+      "count": 1,
+      "avg": -0.9371
     }
   ],
   "top_entities": [
     {
       "name": "Ukraine",
       "type": "LOCATION",
-      "count": 3333,
-      "avg": -0.5988
+      "count": 3340,
+      "avg": -0.5995
     },
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 2927,
-      "avg": -0.6237
+      "count": 2935,
+      "avg": -0.6245
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 856,
-      "avg": -0.3027
+      "count": 858,
+      "avg": -0.3024
     },
     {
       "name": "Kyiv",
       "type": "LOCATION",
-      "count": 626,
-      "avg": -0.6862
+      "count": 631,
+      "avg": -0.6881
     },
     {
       "name": "Volodymyr Zelensky",
       "type": "PERSON",
-      "count": 450,
-      "avg": -0.5171
+      "count": 452,
+      "avg": -0.5189
     },
     {
       "name": "Vladimir Putin",
@@ -4226,8 +4232,8 @@
     {
       "name": "NATO",
       "type": "ORG",
-      "count": 198,
-      "avg": -0.4621
+      "count": 199,
+      "avg": -0.4591
     },
     {
       "name": "Crimea",
@@ -4261,6 +4267,229 @@
     }
   ],
   "recent": [
+    {
+      "title": "Kyiv comes under heavy Russian missile attack, killing at least 13",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/aug/20/ukraine-kyiv-deaths-russian-missile-attack",
+      "published": "2026-08-20T06:46:01+00:00",
+      "compound": -0.981,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine",
+        "Kyiv"
+      ]
+    },
+    {
+      "title": "At least 12 killed in Kyiv as Ukraine grapples with air defence shortages",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-20T06:44:20+00:00",
+      "compound": -0.8658,
+      "label": "negative",
+      "entities": [
+        "Ukraine",
+        "Kyiv"
+      ]
+    },
+    {
+      "title": "Bangladesh holds presidential election in first contested vote in 35 years",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/20/bangladesh-holds-presidential-election-in-first-contested-vote-in-35-years?traffic_source=rss",
+      "published": "2026-08-20T06:38:39+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Prince Harry and Meghan are returning to the U.K. with their children",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/08/20/nx-s1-5939320/harry-meghan-return-uk",
+      "published": "2026-08-20T06:17:42+00:00",
+      "compound": 0.2263,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Founder of collapsed Chinese property giant Evergrande sentenced to life in prison",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cd0x9mjjmgjo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-20T06:08:02+00:00",
+      "compound": -0.8658,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Russian forces kill 9 in Ukraine as Zelenskyy faces pressure over elections",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYTFGMG9FZmw2TlR3MXR5M09NSEVzLXlNMlh2d3VVdzZ6Mk1LcFh0UmlTenJUYk1pVlhfTDFnNVhwckZWemFJVlR2QTN6Y3BuRmFHTDdSTVRUSFNYY2Z2b2ZSTXF3ZElfTkh1cE1Oa2JEdHhEN21xNFF5NXJwYXl6RlZiVnUzNENNSGQ1bUNHSXdXeFNWdE1leGE5Ykx4by1jcjZXYUNqM2NpaVYtWk9j0gG0AUFVX3lxTE9QUUZLUWY5VE9Zbk5iend0eHhmXzFJUW5pWDhjMmF0c2gwVDVNcVM0MDBRV01XQnJBYkwxNUpiOTI5VS1OWG5HMXQtUjBmeWdvRkVXbFZxUjN5NHQ3eTlTZ3BoSUU3NjItLXZsZ0t0VGxvSVV2LTVJVlVGdnlPTVVQUWZKYU5UUWdIMWF1VjNzbGpPLWNVSV9qeXUzLWRxcHFlTFhiQWhaXzBlNTVKYWd3MkpHZg?oc=5",
+      "published": "2026-08-20T06:05:07+00:00",
+      "compound": -0.93,
+      "label": "negative",
+      "entities": [
+        "Volodymyr Zelensky",
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Israeli military launches criminal probes into killings of 5-year-old and paramedics",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/08/20/nx-s1-5939310/israeli-military-criminal-probes",
+      "published": "2026-08-20T05:50:53+00:00",
+      "compound": -0.9501,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Missing teen hiker found dead in Australian bush after eight-day search",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c304e2dlv20o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-20T05:45:53+00:00",
+      "compound": -0.8316,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Australian anger as Israel drops World Central Kitchen deaths case",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/australian-anger-as-israel-drops-world-central-kitchen-deaths-case?traffic_source=rss",
+      "published": "2026-08-20T05:43:01+00:00",
+      "compound": -0.6832,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Russia launches missile strikes on Kyiv and surrounding region, killing at least eight",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1hLTVtSkgzTERYQm9oZ0hJamFzMGNqb3lBdXZmLS1ya2pad3kweExRVi00ekFsMG5zMzNZbC1TWnlJOGRQNmRZd0lBU1lBczU2MXZiMlQzVGdnQQ?oc=5",
+      "published": "2026-08-20T05:12:34+00:00",
+      "compound": -0.93,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Kyiv"
+      ]
+    },
+    {
+      "title": "Exclusive: Pentagon sends ‘political loyalty’ survey to US allies",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/exclusive-pentagon-sends-political-loyalty-survey-to-us-allies?traffic_source=rss",
+      "published": "2026-08-20T05:06:23+00:00",
+      "compound": 0.128,
+      "label": "positive",
+      "entities": [
+        "NATO"
+      ]
+    },
+    {
+      "title": "Captured Ukrainian-born soldiers tell BBC why they fought for Russia",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cn9nr195drzo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-20T05:01:24+00:00",
+      "compound": -0.9366,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "At least 6 killed in multiple Russian missile strikes across Ukraine",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/at-least-6-killed-in-multiple-russian-missile-strikes-across-ukraine?traffic_source=rss",
+      "published": "2026-08-20T04:59:22+00:00",
+      "compound": -0.91,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine",
+        "Kyiv"
+      ]
+    },
+    {
+      "title": "Trump vows ‘economic warfare’ on countries helping Iran",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/trump-vows-economic-warfare-on-countries-helping-iran?traffic_source=rss",
+      "published": "2026-08-20T04:31:10+00:00",
+      "compound": 0.2263,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Former Liberian vice president charged in drug-trafficking probe",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/clyx028ryy6o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-20T03:09:24+00:00",
+      "compound": -0.1027,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Russian forces kill 9 in Ukraine as Zelenskyy faces pressure over elections",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/20/russian-strike-kills-3-in-ukraine-as-zelenskyy-faces-pressure-at-home?traffic_source=rss",
+      "published": "2026-08-20T02:50:17+00:00",
+      "compound": -0.9001,
+      "label": "negative",
+      "entities": [
+        "Volodymyr Zelensky",
+        "Russia",
+        "Ukraine",
+        "Kyiv"
+      ]
+    },
+    {
+      "title": "Fears grow in Amazon village as Brazilian drug gangs push into Bolivia",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/fears-grow-in-amazon-village-as-brazilian-drug-gangs-push-into-bolivia?traffic_source=rss",
+      "published": "2026-08-20T02:16:17+00:00",
+      "compound": -0.7003,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Giant whales move into Greenland waters as ice disappears",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cq6dn9gj7eno?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-20T02:05:20+00:00",
+      "compound": -0.34,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Alarm in South Korea as Iran dispute with Trump shakes a 72-year alliance",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/20/alarm-in-south-korea-as-iran-dispute-with-trump-shakes-a-72-year-alliance?traffic_source=rss",
+      "published": "2026-08-20T01:56:41+00:00",
+      "compound": -0.5994,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Bodycam captures police team falling when deck collapses in Missouri",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/bodycam-captures-police-team-falling-when-deck-collapses-in-missouri?traffic_source=rss",
+      "published": "2026-08-20T01:37:08+00:00",
+      "compound": -0.6124,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Russian Offensive Campaign Assessment, August 19, 2026",
+      "source": "Institute for the Study of War",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQLUNQNVFoWUZiZUo2bjM0cEkzZFFEVlBwTExNZXp5RzBnY084NERuZ2tXd0VHT1JJeTBPVlJXdjloVDVOQ25nNzlpa2k0OUtldW9XQmo1ZWJZY2R6bjZyZFBQUW5UTzRDSGkyQkZyajZFTmFwcUx5U3pvV01LTjd5UHd2clNEdXN2bHVILTRJdjJtSm9lbEFJLU1pd3dTTVBCUVlsa3dHbHlHZw?oc=5",
+      "published": "2026-08-20T01:11:31+00:00",
+      "compound": -0.872,
+      "label": "negative",
+      "entities": [
+        "Russia"
+      ]
+    },
     {
       "title": "Trump threatens 'tremendous economic consequences' on any country helping Iran",
       "source": "BBC",
@@ -4648,215 +4877,6 @@
       "entities": [
         "Donald Trump"
       ]
-    },
-    {
-      "title": "Brazil bus crash kills at least 23 and injures five in Parana state",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/19/brazil-bus-crash-kills-at-least-23-and-injures-five-in-parana-state?traffic_source=rss",
-      "published": "2026-08-19T17:54:37+00:00",
-      "compound": -0.8519,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "NATO ‘prepared’ to defend allies amid report of Iranian strike plans",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/19/nato-prepared-to-defend-allies-amid-report-of-iranian-strike-plans?traffic_source=rss",
-      "published": "2026-08-19T17:50:50+00:00",
-      "compound": -0.4588,
-      "label": "negative",
-      "entities": [
-        "NATO"
-      ]
-    },
-    {
-      "title": "US Department of Justice defends prosecution of Comey over seashell post",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/19/us-department-of-justice-defends-prosecution-of-comey-over-seashell-post?traffic_source=rss",
-      "published": "2026-08-19T17:50:26+00:00",
-      "compound": -0.6705,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Canada and US say they are finalising a trade deal, but details remain murky",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c3ekl74jnk5o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-19T17:47:52+00:00",
-      "compound": 0.8047,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Multiple deadly Israeli strikes in Gaza in under 24 hours",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/videos/cp3rgxzk5x2o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-19T17:46:01+00:00",
-      "compound": -0.6124,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "North Korea leader’s sister denies talks with ‘hostile’ US",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/19/north-korea-leaders-sister-denies-talks-with-hostile-us?traffic_source=rss",
-      "published": "2026-08-19T17:32:36+00:00",
-      "compound": 0.1531,
-      "label": "positive",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Israel opens up bids for highly-sensitive West Bank settlement project",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cly50gn1e54o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-19T17:16:28+00:00",
-      "compound": -0.4404,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Hamas condemns ‘new war crime’ as Israel kills 10 in crowded Gaza hubs",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/19/hamas-condemns-new-war-crime-as-israel-kills-10-in-crowded-gaza-hubs?traffic_source=rss",
-      "published": "2026-08-19T17:14:21+00:00",
-      "compound": -0.9674,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Volodymyr Zelenskyy sacks senior aide amid Ukraine corruption crisis",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/aug/19/volodymyr-zelenskyy-sacks-senior-aide-amid-ukraine-corruption-crisis",
-      "published": "2026-08-19T17:14:02+00:00",
-      "compound": -0.8957,
-      "label": "negative",
-      "entities": [
-        "Volodymyr Zelensky",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "US pressure on Israel needed for peace in Syria",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/2026/8/19/us-pressure-on-israel-needed-for-peace-in-syria?traffic_source=rss",
-      "published": "2026-08-19T17:12:11+00:00",
-      "compound": -0.0516,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Retail giant Target receives $1bn boost from tariff refunds",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c78gp4y8d3eo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-19T17:07:49+00:00",
-      "compound": 0.4019,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "US and Canada reach ‘very fair’ trade agreement, Trump says",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/8/19/us-and-canada-reach-very-fair-trade-agreement-trump-says?traffic_source=rss",
-      "published": "2026-08-19T16:55:57+00:00",
-      "compound": 0.2732,
-      "label": "positive",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Grain prices surge as Ukraine war chokes off Black Sea ports",
-      "source": "Financial Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZmVuY3F4UFJQWWR2dDliZ2JLOGx5bXBQOElFYWNlNWFsX3hYc3lYNHg1NjczY0lJWjBSaWVRY3ltMkxPRGdmX2duYk1lRjhZMlJGX2lUb1VyTV9zcHJUVWtPdVJlUzlrdDdCX2pReVFCWHRFMEkxZXJZZExvWDdJTV9nb2U?oc=5",
-      "published": "2026-08-19T16:55:03+00:00",
-      "compound": -0.93,
-      "label": "negative",
-      "entities": [
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Why extreme heat is much more dangerous for the elderly than we realised",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/19/why-extreme-heat-is-much-more-dangerous-for-the-elderly-than-we-realised?traffic_source=rss",
-      "published": "2026-08-19T16:32:28+00:00",
-      "compound": -0.699,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Ukrainian man arrested in Croatia over Nord Stream pipeline blasts",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAwc056MktRV1RRcnpUWjB3RHRVTlZ3YmlvVlBWYm5VbDQyVGZHRHJzOEFwQy1FREFYeE83SmtIbGpCa2F0MDNGZEtBNDlaVEliekJZN054X21tdw?oc=5",
-      "published": "2026-08-19T16:31:48+00:00",
-      "compound": -0.7351,
-      "label": "negative",
-      "entities": [
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Lindsay Clancy's trial puts postpartum psychosis on the map",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c5yedy98j7po?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-19T16:30:55+00:00",
-      "compound": -0.743,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Why does the U.S. military seem stymied in the war with Iran?",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/08/19/nx-s1-5937516/why-does-the-u-s-military-seem-stymied-in-the-war-with-iran",
-      "published": "2026-08-19T16:18:35+00:00",
-      "compound": -0.7845,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Russia and Ukraine swap 103 prisoners of war each amid war",
-      "source": "The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOR0NxcjVTV2lVUUIxN3JPOUVXSUlmemNrUEY2NVU1Z2dZcjkyd0tIdmxUSzhqbUF1QnhjVEtQZmg3QXRTLVBIc0FGSlVyVmd0eTBKeGgxNDgycXBGZGgzWUp2cDlyejl6dXFiQ0VKeElYTS1XbXVOM3QwSjRtQkktOERjaUp6NDJ3TFE?oc=5",
-      "published": "2026-08-19T16:13:53+00:00",
-      "compound": -0.9726,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Two detained after French influencer's scorched body found in vineyard",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c3r058eeqv2o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-19T16:04:39+00:00",
-      "compound": -0.9313,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Sacking turns former Zelenskyy loyalist into potent political opponent",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/aug/19/mykhailo-fedorov-zelenskyy-loyalist-opponent-ukraine",
-      "published": "2026-08-19T15:52:04+00:00",
-      "compound": 0.9712,
-      "label": "positive",
-      "entities": [
-        "Volodymyr Zelensky",
-        "Ukraine",
-        "Kyiv"
-      ]
-    },
-    {
-      "title": "India rout Pakistan at Hockey World Cup 2026 to qualify for second round",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/8/19/india-rout-pakistan-at-hockey-world-cup-2026-to-qualify-for-second-round?traffic_source=rss",
-      "published": "2026-08-19T15:48:20+00:00",
-      "compound": 0.6705,
-      "label": "positive",
-      "entities": []
     }
   ]
 }

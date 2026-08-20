@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-08-20T01:51:31+00:00",
+  "updated": "2026-08-20T07:05:51+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-08-20"
   },
   "kpis": {
-    "events_total": 373,
-    "events_unlocated": 1401,
-    "events_7d": 20,
+    "events_total": 374,
+    "events_unlocated": 1406,
+    "events_7d": 21,
     "events_prev_7d": 22,
     "hottest_place": "Strait of Hormuz"
   },
@@ -529,6 +529,15 @@
       "date": "2026-08-19",
       "total": 3,
       "strike": 3,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-08-20",
+      "total": 1,
+      "strike": 1,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -4265,6 +4274,16 @@
       "title": "Live updates: UAE halts trade with Iran after accusing Tehran of firing ballistic missiles",
       "source": "cnn.com",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBISmhtaW9HT3BxYllQQmZvYjhwTHBKRG5LSFlBSFFLajl4QTBZVTlheU9uM244UVZ6UDVsTUxSbVdMNmgwSlN1T192UDFhTURxV2Z5ZWhqX1lTSnpuaV96US1IUjdkLUd0TlBNMHdn?oc=5"
+    },
+    {
+      "date": "2026-08-20",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Trump threatens Iran’s trade partners, as military strikes make way for economic pressure",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/aug/20/trump-threatens-crush-iran-economy-war-hormuz"
     }
   ],
   "top_places": [
@@ -4274,7 +4293,7 @@
     },
     {
       "place": "Tehran",
-      "count": 40
+      "count": 41
     },
     {
       "place": "Jerusalem",

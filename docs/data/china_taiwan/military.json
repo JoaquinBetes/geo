@@ -1,6 +1,6 @@
 {
   "id": "china_taiwan",
-  "updated": "2026-08-22T06:59:10+00:00",
+  "updated": "2026-08-22T13:00:46+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -46,9 +46,9 @@
     "to": "2026-08-22"
   },
   "kpis": {
-    "events_total": 35,
-    "events_unlocated": 1029,
-    "events_7d": 7,
+    "events_total": 36,
+    "events_unlocated": 1031,
+    "events_7d": 8,
     "events_prev_7d": 6,
     "hottest_place": "Taipei"
   },
@@ -265,6 +265,15 @@
       "total": 2,
       "strike": 0,
       "ground": 2,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-08-22",
+      "total": 1,
+      "strike": 0,
+      "ground": 1,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -620,6 +629,16 @@
       "title": "A battle for Taipei could hinge on defending this river. Here's how Taiwan's forces are readying for that fight.",
       "source": "Business Insider Africa",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPbU5GdjlQOXZKcXJ6LS1EcW5xLTNSaS1XeW03MEtqVHJpVmFWem4xZnpXNFhuRC1BSWpfSWpIaERiZ2hwR0d1RWZJcV9LVzQyRkxYaXZCempfWThBcDByXy1EYWotaXM5TXZnVUNZOHExRkZvVjFiZUdiQ055LWU4SVgwODFFRGZyX1gwT1dQc19rUWdMdlhYSG1sQnMwSUZ0X0VseUN5dnptTmZ5b2U1NF9pTHB0bllObnkxcTJTd3cwZ1F5Yk1WWTR6U2poWGlDeExLRXhDUkRmZXJ3NTU4M0JB?oc=5"
+    },
+    {
+      "date": "2026-08-22",
+      "type": "ground",
+      "place": "Beijing",
+      "lat": 39.9042,
+      "lon": 116.4074,
+      "title": "Robot horse and rider steal the spotlight at Chinese conference",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/videos/c0qvqzzdd02o?at_medium=RSS&at_campaign=rss"
     }
   ],
   "top_places": [
@@ -641,6 +660,10 @@
     },
     {
       "place": "Penghu",
+      "count": 1
+    },
+    {
+      "place": "Beijing",
       "count": 1
     }
   ],

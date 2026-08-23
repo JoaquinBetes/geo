@@ -2,13 +2,13 @@
   "id": "china_taiwan",
   "name": "China–Taiwán",
   "description": "Cobertura mediática de la tensión entre China y Taiwán",
-  "updated": "2026-08-22T18:48:39+00:00",
-  "total_articles": 11256,
-  "overall_avg": -0.1608,
+  "updated": "2026-08-23T02:00:11+00:00",
+  "total_articles": 11276,
+  "overall_avg": -0.1612,
   "distribution": {
-    "pos": 2643,
-    "neu": 3486,
-    "neg": 5127
+    "pos": 2648,
+    "neu": 3488,
+    "neg": 5140
   },
   "sources": [
     "Al Jazeera",
@@ -245,6 +245,7 @@
     "The Spec",
     "The Hill",
     "CIRS Group",
+    "S. Rajaratnam School of International Studies (RSIS)",
     "Forth.News",
     "Goshen News",
     "CNBC",
@@ -357,7 +358,6 @@
     "Yahoo Finance Singapore",
     "Democracy Now!",
     "upi.com",
-    "S. Rajaratnam School of International Studies (RSIS)",
     "eng.mizzima.com",
     "ABS-CBN",
     "eciks.org",
@@ -1488,26 +1488,26 @@
     },
     {
       "date": "2026-08-22",
-      "count": 159,
-      "avg": -0.1818,
-      "pos": 28,
-      "neu": 66,
-      "neg": 65
+      "count": 177,
+      "avg": -0.1974,
+      "pos": 33,
+      "neu": 68,
+      "neg": 76
     },
     {
       "date": "2026-08-23",
-      "count": 46,
-      "avg": -0.0611,
+      "count": 48,
+      "avg": -0.0966,
       "pos": 6,
       "neu": 29,
-      "neg": 11
+      "neg": 13
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 3823,
-      "avg": -0.2624
+      "count": 3839,
+      "avg": -0.263
     },
     {
       "source": "Taipei Times",
@@ -1516,8 +1516,8 @@
     },
     {
       "source": "BBC",
-      "count": 1168,
-      "avg": -0.2919
+      "count": 1171,
+      "avg": -0.2924
     },
     {
       "source": "NPR",
@@ -2675,6 +2675,11 @@
       "avg": -0.3675
     },
     {
+      "source": "S. Rajaratnam School of International Studies (RSIS)",
+      "count": 2,
+      "avg": 0.0
+    },
+    {
       "source": "Forth.News",
       "count": 2,
       "avg": -0.4662
@@ -3231,11 +3236,6 @@
     },
     {
       "source": "upi.com",
-      "count": 1,
-      "avg": 0.0
-    },
-    {
-      "source": "S. Rajaratnam School of International Studies (RSIS)",
       "count": 1,
       "avg": 0.0
     },
@@ -4634,20 +4634,20 @@
     {
       "name": "Taiwan",
       "type": "LOCATION",
-      "count": 3074,
+      "count": 3075,
       "avg": -0.0837
     },
     {
       "name": "China",
       "type": "LOCATION",
-      "count": 2293,
+      "count": 2294,
       "avg": -0.1598
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 708,
-      "avg": -0.2063
+      "count": 710,
+      "avg": -0.2065
     },
     {
       "name": "Japan",
@@ -4723,6 +4723,15 @@
     }
   ],
   "recent": [
+    {
+      "title": "Swedish sword attack victim was 17-year-old girl, police say",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c8jnjp0lwlwo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-23T01:34:15+00:00",
+      "compound": -0.9313,
+      "label": "negative",
+      "entities": []
+    },
     {
       "title": "Legislature loses ‘friendship’ travel funds",
       "source": "Taipei Times",
@@ -5155,139 +5164,125 @@
       "entities": []
     },
     {
-      "title": "Israel, Turkiye and the new regional reordering",
+      "title": "Iran war live: Tehran warns neighbours against joining US economic war",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/opinions/2026/8/22/israel-turkiye-and-the-new-regional-reordering?traffic_source=rss",
-      "published": "2026-08-22T18:35:48+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Swedish police identify 17-year-old girl as victim in school sword attack",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/22/swedish-police-identify-17-year-old-girl-as-victim-in-school-sword-attack?traffic_source=rss",
-      "published": "2026-08-22T18:29:24+00:00",
-      "compound": -0.8481,
+      "url": "https://www.aljazeera.com/news/liveblog/2026/8/23/iran-war-live-tehran-warns-neighbours-against-joining-us-economic-war?traffic_source=rss",
+      "published": "2026-08-23T00:00:00+00:00",
+      "compound": -0.8934,
       "label": "negative",
       "entities": []
     },
     {
-      "title": "Carney calls Trump's fresh tariffs a 'miscalculation' after trade talks collapse",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-22T18:20:36+00:00",
-      "compound": -0.8126,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Armed men kidnap dozens in attacks on Nigerian villages",
+      "title": "Iran threatens countries that join US ‘economic D-Day’",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/22/armed-men-kidnap-dozens-in-attacks-on-nigerian-villages?traffic_source=rss",
-      "published": "2026-08-22T17:58:15+00:00",
-      "compound": -0.6249,
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/iran-threatens-countries-that-join-us-economic-d?traffic_source=rss",
+      "published": "2026-08-22T23:56:32+00:00",
+      "compound": -0.6908,
       "label": "negative",
       "entities": []
     },
     {
-      "title": "Israel’s Chief Rabbi says Palestinians are not a people and have no rights",
+      "title": "Iran warns nearby nations against joining US ‘economic war’ efforts",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/08-22-26-israel-rabbi-palestinians-clip?traffic_source=rss",
-      "published": "2026-08-22T17:54:52+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Trump seeks to block the BBC’s attempt to subpoena Ivanka Trump, Trump Jr",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/22/trump-seeks-to-block-the-bbcs-attempt-to-subpoena-ivanka-trump-trump-jr?traffic_source=rss",
-      "published": "2026-08-22T17:52:42+00:00",
-      "compound": -0.6369,
+      "url": "https://www.aljazeera.com/news/2026/8/22/iran-warns-nearby-nations-against-joining-us-economic-war-efforts?traffic_source=rss",
+      "published": "2026-08-22T23:26:15+00:00",
+      "compound": -0.8402,
       "label": "negative",
       "entities": [
         "Donald Trump"
       ]
     },
     {
-      "title": "‘Not a small issue’: People deported by US to Liberia face uncertain future",
+      "title": "Tropical Storm Moke advances towards Hawaii with heavy rain, strong winds",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/22/not-a-small-issue-people-deported-by-us-to-liberia-face-uncertain-future?traffic_source=rss",
-      "published": "2026-08-22T17:47:02+00:00",
-      "compound": -0.296,
-      "label": "negative",
+      "url": "https://www.aljazeera.com/news/2026/8/22/tropical-storm-moke-advances-towards-hawaii-with-heavy-rain-strong-winds?traffic_source=rss",
+      "published": "2026-08-22T22:29:07+00:00",
+      "compound": 0.128,
+      "label": "positive",
       "entities": []
     },
     {
-      "title": "Seven killed, including two police officers, in UK ‘wrong-side’ car crash",
+      "title": "Real Madrid beat Espanyol 2-1 in Jose Mourinho’s first game on return",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/22/seven-killed-including-two-police-officers-in-uk-wrong-side-car-crash?traffic_source=rss",
-      "published": "2026-08-22T17:34:28+00:00",
-      "compound": -0.8834,
-      "label": "negative",
+      "url": "https://www.aljazeera.com/sports/2026/8/22/real-madrid-beat-espanyol-2-1-in-jose-mourinhos-first-game-on-return?traffic_source=rss",
+      "published": "2026-08-22T21:55:06+00:00",
+      "compound": 0.5859,
+      "label": "positive",
       "entities": []
     },
     {
-      "title": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
+      "title": "Syria says Israeli strike near Damascus violation of international law",
       "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/videos/cgljl9zp47xo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-22T17:02:06+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "China"
-      ]
-    },
-    {
-      "title": "US military newspaper editor voices censorship fears after being fired",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cm2g23ng8p4o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-22T16:57:19+00:00",
-      "compound": -0.875,
+      "url": "https://www.bbc.co.uk/news/articles/c2dkdegr2xeo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-22T21:42:42+00:00",
+      "compound": -0.6908,
       "label": "negative",
       "entities": []
     },
     {
-      "title": "South Korea sending first container ship through Arctic route",
+      "title": "Open-air cinema brings movie nights back to Khartoum",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/22/south-korea-sending-first-container-ship-through-arctic-route?traffic_source=rss",
-      "published": "2026-08-22T16:46:22+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Sanctioned by EU, Israeli settler steals and kills Palestinian donkey",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/22-08-clip-palestinian-donkey-killed-by-setllers-ps?traffic_source=rss",
-      "published": "2026-08-22T16:41:43+00:00",
-      "compound": -0.9337,
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/08-22-26-sudan-movie-night-sv?traffic_source=rss",
+      "published": "2026-08-22T21:27:22+00:00",
+      "compound": -0.4939,
       "label": "negative",
       "entities": []
     },
     {
-      "title": "LIVE: Espanyol vs Real Madrid: La Liga",
+      "title": "Israeli army and settlers injure several Palestinians across West Bank",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/liveblog/2026/8/22/espanyol-vs-real-madrid-live-la-liga?traffic_source=rss",
-      "published": "2026-08-22T16:30:09+00:00",
-      "compound": 0.0,
-      "label": "neutral",
+      "url": "https://www.aljazeera.com/news/2026/8/22/israeli-army-and-settlers-injure-several-palestinians-across-west-bank?traffic_source=rss",
+      "published": "2026-08-22T21:02:29+00:00",
+      "compound": -0.6705,
+      "label": "negative",
       "entities": []
     },
     {
-      "title": "Carney faces crucial test after walking away from Trump's deal",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c3040pn8lmmo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-22T16:20:51+00:00",
-      "compound": 0.2263,
+      "title": "US Postal Service shares mail-in ballot restrictions despite court ruling",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/22/us-postal-service-shares-mail-in-ballot-restrictions-despite-court-ruling?traffic_source=rss",
+      "published": "2026-08-22T20:49:17+00:00",
+      "compound": 0.296,
       "label": "positive",
       "entities": [
-        "Donald Trump",
-        "United States"
+        "Donald Trump"
       ]
+    },
+    {
+      "title": "Iran grants permission for some Iraqi oil tankers to pass through Hormuz",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/22/iran-grants-permission-for-some-iraqi-oil-tankers-to-pass-through-hormuz?traffic_source=rss",
+      "published": "2026-08-22T20:05:52+00:00",
+      "compound": -0.25,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Why is Israel building new illegal settlements?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/8/22/why-is-israel-building-new-illegal-settlements?traffic_source=rss",
+      "published": "2026-08-22T19:40:58+00:00",
+      "compound": -0.802,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "More than 200,000 newly displaced in Sudan’s Kordofan region",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/more-than-200000-newly-displaced-in-sudans-kordofan-region?traffic_source=rss",
+      "published": "2026-08-22T19:29:08+00:00",
+      "compound": -0.3612,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Israeli strikes kill two and injure others as Gaza attacks continue",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/22/israeli-strikes-kill-two-and-injure-others-as-gaza-attacks-continue?traffic_source=rss",
+      "published": "2026-08-22T19:24:51+00:00",
+      "compound": -0.9559,
+      "label": "negative",
+      "entities": []
     }
   ]
 }

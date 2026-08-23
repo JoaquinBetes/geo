@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-08-22T18:48:35+00:00",
+  "updated": "2026-08-23T02:00:07+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -38,13 +38,13 @@
   },
   "window": {
     "from": "2026-02-27",
-    "to": "2026-08-22"
+    "to": "2026-08-23"
   },
   "kpis": {
-    "events_total": 375,
-    "events_unlocated": 1440,
-    "events_7d": 19,
-    "events_prev_7d": 12,
+    "events_total": 377,
+    "events_unlocated": 1445,
+    "events_7d": 16,
+    "events_prev_7d": 13,
     "hottest_place": "Strait of Hormuz"
   },
   "daily": [
@@ -545,8 +545,8 @@
     },
     {
       "date": "2026-08-22",
-      "total": 1,
-      "strike": 0,
+      "total": 3,
+      "strike": 2,
       "ground": 1,
       "infrastructure": 0,
       "air_defense": 0,
@@ -4303,36 +4303,52 @@
       "title": "Persuasion, denial and bluster: Trump ‘stuck’ on Iran war ahead of elections",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/us-news/ng-interactive/2026/aug/22/trump-iran-war-midterm-elections"
+    },
+    {
+      "date": "2026-08-22",
+      "type": "strike",
+      "place": "Tel Aviv",
+      "lat": 32.0853,
+      "lon": 34.7818,
+      "title": "Envoy says Israel did not give the US notice before strikes on Syrian base",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/22/envoy-says-israel-did-not-give-the-us-notice-before-strikes-on-syrian-base?traffic_source=rss"
+    },
+    {
+      "date": "2026-08-22",
+      "type": "strike",
+      "place": "Damascus",
+      "lat": 33.5138,
+      "lon": 36.2765,
+      "title": "Syria says Israeli strike near Damascus violation of international law",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c2dkdegr2xeo?at_medium=RSS&at_campaign=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 59
+      "count": 56
     },
     {
       "place": "Tehran",
-      "count": 36
+      "count": 35
     },
     {
       "place": "Jerusalem",
-      "count": 23
+      "count": 20
+    },
+    {
+      "place": "Tel Aviv",
+      "count": 3
     },
     {
       "place": "Beirut",
       "count": 3
     },
     {
-      "place": "Ahvaz",
-      "count": 2
-    },
-    {
-      "place": "Tel Aviv",
-      "count": 2
-    },
-    {
       "place": "Damascus",
-      "count": 2
+      "count": 3
     },
     {
       "place": "Bushehr",
@@ -4340,6 +4356,10 @@
     },
     {
       "place": "Bab el-Mandeb",
+      "count": 1
+    },
+    {
+      "place": "Ahvaz",
       "count": 1
     },
     {

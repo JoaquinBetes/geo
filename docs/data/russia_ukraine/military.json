@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-08-22T18:48:29+00:00",
+  "updated": "2026-08-23T02:00:00+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-08-22"
+    "to": "2026-08-23"
   },
   "kpis": {
-    "events_total": 558,
-    "events_unlocated": 1560,
-    "events_7d": 102,
-    "events_prev_7d": 55,
+    "events_total": 561,
+    "events_unlocated": 1568,
+    "events_7d": 97,
+    "events_prev_7d": 49,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -678,8 +678,17 @@
     },
     {
       "date": "2026-08-22",
-      "total": 9,
-      "strike": 9,
+      "total": 10,
+      "strike": 10,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-08-23",
+      "total": 2,
+      "strike": 2,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -6266,12 +6275,42 @@
       "title": "As Russia turns to jet-powered drones, Ukraine scrambles for new interceptor tech",
       "source": "The Kyiv Independent",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNeWJFaUlQbHdkUnRHN0drVzN5Z1V1WEdhS1lRWnFNSElucV9QSFpTYjF2TUhlLThLanlLeVA0ekUwNUU5TzNhWmRQRWtIWVk5d2NQZ3k3S3AyYzYwR3MtNV9LcUFaX1h1bnUtbE1jcHhTWUczVm5FSlRjNVFNdnlFeVpjc05KRVMyN3FUVTFRZ3A?oc=5"
+    },
+    {
+      "date": "2026-08-22",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "As Russian missiles rain down on Kyiv, casualties mount and the mood darkens",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSjhJVnJ6SjhTTUxGYWRSc2RJbHZLYm01dmt3MkNGeWt4bUEyWmxPREludFVQTXVLNTZlTGwzMVIzQzF0OGxQaWVUNFNvTnRfR0xPSGdJTEJZakx5cGw3MHZORXRqc2xxSUt0UDRDZjZFYmZOVkhUZ19mYjB5cEt6MGJMRk1keDYtdXRKYTFBTTRkSm5rWS1ZWmVTYXJ6U3BX?oc=5"
+    },
+    {
+      "date": "2026-08-23",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russo-Ukrainian war, day 1641: Russia strikes Kyiv by ballistic missiles ahead of Independence Day",
+      "source": "Euromaidan Press",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNY1p2OTk5cGtKN0RtWGxsdXkySWtTUDJ3cjlacEFhTnVRQ1NaOVZHVGR1UXI5dHIzakJlcThxUWgtNFItazdCRU85Z3hpTW4yWkVibUVLTG5ZWVZ6UmRXNjJuWUFmLUVNQUdid1ptbi1oa1JtdFREZjdWcS1GMHRlRE11akQ4eG1yc055M0pDMDZaaW05WjljcjYweVVQdWhLd081SEhnREVPU1luMVJqR0NGQUlVZWdtY3N2YjFzR19hRE1ZYWxsUC1IRnNUMUdndEE?oc=5"
+    },
+    {
+      "date": "2026-08-23",
+      "type": "strike",
+      "place": "Kryvyi Rih",
+      "lat": 47.9105,
+      "lon": 33.3918,
+      "title": "Ukraine war briefing: Macron focuses on delivery of missile interceptors as Russian attacks intensify",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/aug/23/ukraine-war-briefing-macron-focuses-on-delivery-of-missile-interceptors-as-russian-attacks-intensify"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 175
+      "count": 177
     },
     {
       "place": "Moscow",
@@ -6287,7 +6326,7 @@
     },
     {
       "place": "Kryvyi Rih",
-      "count": 9
+      "count": 10
     },
     {
       "place": "Belgorod",
@@ -6306,8 +6345,8 @@
       "count": 4
     },
     {
-      "place": "Mariupol",
-      "count": 3
+      "place": "Kherson",
+      "count": 2
     }
   ],
   "losses": {

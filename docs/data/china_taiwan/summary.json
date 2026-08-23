@@ -2,13 +2,13 @@
   "id": "china_taiwan",
   "name": "China–Taiwán",
   "description": "Cobertura mediática de la tensión entre China y Taiwán",
-  "updated": "2026-08-23T13:02:07+00:00",
-  "total_articles": 11340,
-  "overall_avg": -0.1607,
+  "updated": "2026-08-23T18:48:16+00:00",
+  "total_articles": 11437,
+  "overall_avg": -0.1605,
   "distribution": {
-    "pos": 2672,
-    "neu": 3501,
-    "neg": 5167
+    "pos": 2691,
+    "neu": 3533,
+    "neg": 5213
   },
   "sources": [
     "Al Jazeera",
@@ -41,9 +41,9 @@
     "The Diplomat – Asia-Pacific",
     "Hindustan Times",
     "Idaho State Journal",
-    "Xinhua",
     "조선일보",
     "The Japan Times",
+    "Xinhua",
     "StratNews Global",
     "Firstpost",
     "天下雜誌",
@@ -216,6 +216,7 @@
     "Semafor",
     "Legis1",
     "Bozeman Daily Chronicle",
+    "MiGFlug",
     "CSIS | Center for Strategic and International Studies",
     "East Asia Forum",
     "Marine Link",
@@ -299,7 +300,6 @@
     "LinkedIn",
     "Futura Doctrina | Mick Ryan",
     "Honolulu Star-Advertiser",
-    "MiGFlug",
     "UNITED24 Media",
     "ft.com",
     "Marine Insight",
@@ -1492,36 +1492,44 @@
     },
     {
       "date": "2026-08-22",
-      "count": 181,
-      "avg": -0.1877,
+      "count": 184,
+      "avg": -0.1847,
       "pos": 35,
-      "neu": 69,
+      "neu": 72,
       "neg": 77
     },
     {
       "date": "2026-08-23",
-      "count": 107,
-      "avg": -0.0976,
-      "pos": 27,
-      "neu": 41,
-      "neg": 39
+      "count": 155,
+      "avg": -0.133,
+      "pos": 37,
+      "neu": 51,
+      "neg": 67
+    },
+    {
+      "date": "2026-08-24",
+      "count": 46,
+      "avg": -0.0692,
+      "pos": 9,
+      "neu": 19,
+      "neg": 18
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 3872,
-      "avg": -0.2625
+      "count": 3893,
+      "avg": -0.2637
     },
     {
       "source": "Taipei Times",
-      "count": 3088,
+      "count": 3149,
       "avg": -0.0271
     },
     {
       "source": "BBC",
-      "count": 1179,
-      "avg": -0.2887
+      "count": 1189,
+      "avg": -0.2873
     },
     {
       "source": "NPR",
@@ -1535,8 +1543,8 @@
     },
     {
       "source": "Taiwan News",
-      "count": 205,
-      "avg": -0.0994
+      "count": 206,
+      "avg": -0.099
     },
     {
       "source": "Reuters",
@@ -1545,8 +1553,8 @@
     },
     {
       "source": "Global Times",
-      "count": 71,
-      "avg": 0.011
+      "count": 72,
+      "avg": 0.002
     },
     {
       "source": "South China Morning Post",
@@ -1659,19 +1667,19 @@
       "avg": 0.0
     },
     {
-      "source": "Xinhua",
-      "count": 17,
-      "avg": 0.0393
-    },
-    {
       "source": "조선일보",
-      "count": 17,
-      "avg": -0.1386
+      "count": 18,
+      "avg": -0.1663
     },
     {
       "source": "The Japan Times",
-      "count": 16,
-      "avg": -0.0927
+      "count": 17,
+      "avg": -0.0378
+    },
+    {
+      "source": "Xinhua",
+      "count": 17,
+      "avg": 0.0393
     },
     {
       "source": "StratNews Global",
@@ -2534,6 +2542,11 @@
       "avg": 0.0
     },
     {
+      "source": "MiGFlug",
+      "count": 3,
+      "avg": -0.3595
+    },
+    {
       "source": "CSIS | Center for Strategic and International Studies",
       "count": 2,
       "avg": -0.3592
@@ -2947,11 +2960,6 @@
       "source": "Honolulu Star-Advertiser",
       "count": 2,
       "avg": -0.3753
-    },
-    {
-      "source": "MiGFlug",
-      "count": 2,
-      "avg": -0.5202
     },
     {
       "source": "UNITED24 Media",
@@ -4658,32 +4666,32 @@
     {
       "name": "Taiwan",
       "type": "LOCATION",
-      "count": 3099,
-      "avg": -0.0828
+      "count": 3116,
+      "avg": -0.0823
     },
     {
       "name": "China",
       "type": "LOCATION",
-      "count": 2304,
-      "avg": -0.1575
+      "count": 2311,
+      "avg": -0.1566
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 714,
-      "avg": -0.207
+      "count": 717,
+      "avg": -0.2062
     },
     {
       "name": "Japan",
       "type": "LOCATION",
-      "count": 372,
-      "avg": -0.1114
+      "count": 373,
+      "avg": -0.1089
     },
     {
       "name": "United States",
       "type": "LOCATION",
-      "count": 202,
-      "avg": -0.1264
+      "count": 205,
+      "avg": -0.1245
     },
     {
       "name": "Taiwan Strait",
@@ -4700,8 +4708,8 @@
     {
       "name": "KMT",
       "type": "ORG",
-      "count": 65,
-      "avg": -0.1382
+      "count": 67,
+      "avg": -0.1353
     },
     {
       "name": "Philippines",
@@ -4730,8 +4738,8 @@
     {
       "name": "Kinmen",
       "type": "LOCATION",
-      "count": 24,
-      "avg": -0.2694
+      "count": 25,
+      "avg": -0.2841
     },
     {
       "name": "US Navy",
@@ -4742,243 +4750,121 @@
     {
       "name": "Lai Ching-te",
       "type": "PERSON",
-      "count": 6,
-      "avg": 0.1413
+      "count": 7,
+      "avg": 0.0301
     }
   ],
   "recent": [
     {
-      "title": "Zelensky should be asked what he knew about government corruption, sacked minister tells BBC",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cwy4ypzvd7po?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-23T12:56:43+00:00",
-      "compound": 0.1027,
+      "title": "Taiwan must uphold spirit of 823: Lai",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/front/archives/2026/08/24/2003863013",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": 0.1779,
+      "label": "positive",
+      "entities": [
+        "Taiwan"
+      ]
+    },
+    {
+      "title": "Torrential rain floods south, topples trees",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/front/archives/2026/08/24/2003863014",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Defense ministry details measures it is implementing to boost recruitment",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/front/archives/2026/08/24/2003863015",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": 0.4939,
       "label": "positive",
       "entities": []
     },
     {
-      "title": "Robots compete in boxing, football and sprinting at World Humanoid Games",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/videos/c7vgvj6e1emo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-23T12:47:06+00:00",
-      "compound": 0.0,
-      "label": "neutral",
+      "title": "Canada retaliates as trade war with the US escalates",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/front/archives/2026/08/24/2003863016",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": -0.5994,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "US memorandum best path out of stalled war: Iran",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/front/archives/2026/08/24/2003863017",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": -0.128,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Military sweep finds no banned Chinese apps",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/24/2003863025",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": 0.357,
+      "label": "positive",
       "entities": [
         "China"
       ]
     },
     {
-      "title": "DPP pushes Taiwan region defense budget past $35b to record high, squeezing livelihoods",
-      "source": "news.cgtn.com",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZW5VNUY2dFNuQUxacG9CV09oa0ViZ29ZSDQyM1VyckJtclZkSHJDYmZVdmlOVmNMUThFZVR3ankwWHJWbjNfXzVETWttN01NZ1p3aHBaZWgzMll6cm43T2E2WXJ0OG8xNlgxaGl5QkZDa1FpeXN2bER6QkN3OUEzeWFtaGJoVmtGb1N6STZrQnpPMWFDeFRrdXB4TTZLa2VXbWllUXJ5QUVoc19pSElCblZVVGhud2YtcHlaUQ?oc=5",
-      "published": "2026-08-23T12:29:24+00:00",
-      "compound": 0.5859,
-      "label": "positive",
-      "entities": [
-        "DPP",
-        "Taiwan"
-      ]
-    },
-    {
-      "title": "Zelenskyy says wartime elections could ‘destroy’ Ukraine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/23/zelenskyy-says-wartime-elections-could-destroy-ukraine?traffic_source=rss",
-      "published": "2026-08-23T12:19:12+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "DR Congo miners risk Ebola to make a living",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/dr-congo-miners-risk-ebola-to-make-a-living?traffic_source=rss",
-      "published": "2026-08-23T12:13:20+00:00",
-      "compound": -0.4939,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Real Madrid’s Mourinho condemns bullying of Vinicius after La Liga win",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/real-madrids-mourinho-condemns-bullying-of-vinicius-after-la-liga-win?traffic_source=rss",
-      "published": "2026-08-23T12:13:04+00:00",
-      "compound": -0.8779,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "US Senate nominee Abdul El-Sayed rebuts criticism from JD Vance",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/us-senate-nominee-abdul-el-sayed-rebuts-criticism-from-jd-vance?traffic_source=rss",
-      "published": "2026-08-23T12:02:08+00:00",
-      "compound": -0.6808,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Dozens of co-ordinated arson attacks hit southern Thailand",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c8enegx4xy3o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-23T11:50:59+00:00",
-      "compound": -0.7003,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Can Iran retaliate against countries that join US ‘economic war’?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/23/can-iran-retaliate-against-countries-that-join-us-economic-war?traffic_source=rss",
-      "published": "2026-08-23T11:50:22+00:00",
-      "compound": -0.3818,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Sydney Marathon organisers not running away from ‘unfortunate’ medal error",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/8/23/sydney-marathon-organisers-not-running-away-from-unfortunate-medal-error?traffic_source=rss",
-      "published": "2026-08-23T11:44:18+00:00",
-      "compound": 0.5423,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Explosion injures 13 in Taiwan",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/explosion-injures-13-in-taiwan?traffic_source=rss",
-      "published": "2026-08-23T11:06:38+00:00",
-      "compound": 0.0,
+      "title": "KMT head touts rapport at 823 memorial",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/24/2003863026",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": -0.0258,
       "label": "neutral",
       "entities": [
-        "Taiwan"
+        "KMT"
       ]
     },
     {
-      "title": "Israel’s war on Gaza forces Palestinians to rely on ‘Stone Age’ toilets",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/2026/8/23/israels-war-on-gaza-forces-palestinians-to-rely-on-stone-age-toilets?traffic_source=rss",
-      "published": "2026-08-23T11:00:18+00:00",
-      "compound": -0.836,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Mourinho decries alleged bullying of Vinicius in Real’s win at Espanyol",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/8/23/mourinho-decries-alleged-bullying-of-vinicius-in-reals-win-at-espanyol?traffic_source=rss",
-      "published": "2026-08-23T10:56:21+00:00",
-      "compound": -0.1655,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Syria’s foreign minister says door open for diplomacy with Israel",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/23/syria-foreign-minister-says-door-open-for-diplomacy-with-israel?traffic_source=rss",
-      "published": "2026-08-23T10:48:55+00:00",
+      "title": "Ports integrating AI for sea safety, cargo management",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/24/2003863027",
+      "published": "2026-08-24T00:00:00+00:00",
       "compound": 0.4215,
       "label": "positive",
       "entities": []
     },
     {
-      "title": "Far-right provocateur Jake Lang arrested after Minneapolis riot",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/far-right-provocateur-jake-lang-arrested-after-minneapolis-riot?traffic_source=rss",
-      "published": "2026-08-23T10:41:05+00:00",
-      "compound": -0.8689,
+      "title": "Mental health screen for enlistees could leave loopholes",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/24/2003863028",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": -0.0516,
       "label": "negative",
       "entities": []
     },
     {
-      "title": "South Africa’s former boxing champion Tete shot dead outside home",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/south-africas-former-boxing-champion-tete-shot-dead-outside-home?traffic_source=rss",
-      "published": "2026-08-23T10:39:30+00:00",
-      "compound": -0.2023,
+      "title": "Students victim to sex scams: bureau",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/24/2003863029",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": -0.7096,
       "label": "negative",
       "entities": []
     },
     {
-      "title": "How the deadliest Bundibugyo Ebola outbreak can be stopped",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/opinions/2026/8/23/how-the-deadliest-bundibugyo-ebola-outbreak-can-be-stopped?traffic_source=rss",
-      "published": "2026-08-23T10:00:20+00:00",
-      "compound": 0.5106,
+      "title": "Tainan City to offer legal help to blast victims",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/24/2003863030",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": 0.2263,
       "label": "positive",
       "entities": []
     },
     {
-      "title": "APTOPIX Taiwan Kinmen Attack",
-      "source": "Journal-News.com",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdXFHaXJ0Y0g3ZlhfbUZxdFlncFVMWC1GZ3AtNEpLZnlURXI3VHVzY0htR0h4RV85T0ZpdVNHUlMxd2dROWRsRDNVYWdtU3RuT0xCaXNtV1BvWndaMlEtem9GREhBRmVBVGloVlFEVGU4d2VZQWkzZXBCOFA1UGVPWEJBaWNyZGc0RXREX2VueHhKc1BJWlEtMU0xelhVeTgyV1l4QXp6ZFJ6SDEzNEd2SDhxN1l6aXhVbGc?oc=5",
-      "published": "2026-08-23T09:44:45+00:00",
-      "compound": -0.7351,
-      "label": "negative",
-      "entities": [
-        "Taiwan",
-        "Kinmen"
-      ]
-    },
-    {
-      "title": "Israeli air strike near Gaza refugee camp kills one person and injures two",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/23/israeli-air-strike-near-gaza-refugee-camp-kills-one-person-and-injures-two?traffic_source=rss",
-      "published": "2026-08-23T09:43:47+00:00",
-      "compound": -0.891,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "APTOPIX Taiwan Kinmen Attack",
-      "source": "dailyrecordnews.com",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPLWg2NnVWNTlWRWNSQXBZaWJHS3ZLdVFucHZGNV92eTFPcFdqamYyQ0lKQmw5OVkwYTF4WHphS0ZmZGlVWDV5cFBLR2tzUkI1bUlHWVp6SVFzRjlGTmp6NE9jUXE5NUdPaUVZaFlFUnp0Y21kYlJqVzE1N29KazdXdlpCcWVib2tYSF9GR0JkblFjbzMxYnVOcHBCM2RobTJWSURqTjE5QnRHTzJndld0US1BSkVIWW9sWXV6ZEZJRUl2aGZ3YjFzYmdR?oc=5",
-      "published": "2026-08-23T09:38:10+00:00",
-      "compound": -0.7351,
-      "label": "negative",
-      "entities": [
-        "Taiwan",
-        "Kinmen"
-      ]
-    },
-    {
-      "title": "Kinmen defense in 1958 example of 'peace through strength': Lai",
-      "source": "Focus Taiwan",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE44Rk5VYjlRSlNQVlNGRVhfbVQ3VUpwckxBS29wY1h6OTU4d0lZOTRvbUl2cnltTHF6SDdab3NGUGlNVVVHS2RqcEJ5Z2JUdXhKWkNkRHhBNA?oc=5",
-      "published": "2026-08-23T09:37:00+00:00",
-      "compound": 0.9371,
-      "label": "positive",
-      "entities": [
-        "Taiwan",
-        "Kinmen"
-      ]
-    },
-    {
-      "title": "37 injured as magnitude 5.9 earthquake strikes eastern Japan",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/37-injured-as-magnitude-5-9-earthquake-strikes-eastern-japan?traffic_source=rss",
-      "published": "2026-08-23T09:21:12+00:00",
-      "compound": -0.8555,
-      "label": "negative",
-      "entities": [
-        "Japan"
-      ]
-    },
-    {
-      "title": "Where water conflicts pose the biggest threat in 2026",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/23/where-water-conflicts-pose-the-biggest-threat-in-2026?traffic_source=rss",
-      "published": "2026-08-23T09:13:23+00:00",
-      "compound": -0.8225,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Taiwan-born astronaut to appear at Washington Nationals Taiwan day",
-      "source": "Focus Taiwan",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aQTB4Xzd6Q2Y5ZHl1N211cXkwaDVmejE4ZEdWMjlwa09rRFRMdmIzb1d0eGE4VUVwdE0wLVM0ZTRLQjVKY0xkWUJHRlRIeTlFOW5tM3hn?oc=5",
-      "published": "2026-08-23T08:54:00+00:00",
+      "title": "Washington Nationals to hold second Taiwan day",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/24/2003863031",
+      "published": "2026-08-24T00:00:00+00:00",
       "compound": 0.0,
       "label": "neutral",
       "entities": [
@@ -4987,180 +4873,129 @@
       ]
     },
     {
-      "title": "Taiwan president urges support for defense budget at battle commemoration",
-      "source": "Yahoo News Canada",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVVQxNnQ2VWZnZjFIQk5xdHlLandIbXRxT2lTNUlQY0FfMGpiWWd6NUFoR0dwbzFuWHUzanNCLU9YZEtGRUl1cXBpNS15QjhZUmxNSDRGZ1AtaXhJNmlQNE9ONk5BR3h4b3hxTjVXRzVlQ1JBazVOWjRzdEpONUtmd3ZFMGhzUQ?oc=5",
-      "published": "2026-08-23T08:51:57+00:00",
-      "compound": 0.296,
-      "label": "positive",
-      "entities": [
-        "Taiwan"
-      ]
-    },
-    {
-      "title": "China builds 1,500-acre sea fortress: Is Xi preparing new launchpad for Taiwan? | Videos",
-      "source": "Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPaDJGM3YxMkJpNTFDcmtNQ1F1cWg0aVVLeWsxV3NPZmxrbmM4YVpJQVc2ZHRYdnJhMWduYm9SZHlJeUFsSjF6NTZiX0EzVHFnZEJiLTZ1YkxqN094RE45R3BZV0lqdFdvT0cwbWhQaXJWM3VpajlTeTRqWUZjV1BoT0tkWU1SWENwd0Rxb0hEU3JxbF9pVnFzc2VpOHQyczdxX3p6OWNRVmZyZFN1UUdnSEZZT0FQWXY5VlpBU2oyam14QWNUQ2FzQnJrZ3FPdWw3OWfSAdcBQVVfeXFMT1BtR3NCSkJNYTVPcTAwTS1ydXJ1R3ZNamUzYnprdWVxaDlDRUExM29EdHZMY0RNZWtURm1HbzdoY0JhbUI5alVzWERROHVqc3h5UzVscDZIblNjWTlqRnkycU95SllqM2NkZ1J3TmRJdnowU0VCVklvRV95Wmt3Z2xSdFI5RHpDNEs2a2NIbngyODIxSmRrSElfZWZlVjQzYVFpX3BldGx3NXlvTXB1X0gwa0R1NnFxUlB0VXAxRThtZkpyb2VBWEpOaTR3RDNzUlZCS2hTZlU?oc=5",
-      "published": "2026-08-23T08:43:34+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Xi Jinping",
-        "China",
-        "Taiwan"
-      ]
-    },
-    {
-      "title": "Israeli wounded in occupied West Bank stabbing",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/23/israeli-wounded-in-occupied-west-bank-stabbing?traffic_source=rss",
-      "published": "2026-08-23T08:38:01+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Time to retire US outdated Taiwan Straits playbook: Hai Feng",
-      "source": "Global Times",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9OblI1MDhZSzZoUE1zZXdDcDBFdVQ4dDlyVUJDdEhuWUNEa2ppazhnMjVnOWVnanJBcHBOOHFZRV9hN3hKeU5EYmZxY1ZYZXZwWmo0bUIwS0F5U1FCeWw4TEhB?oc=5",
-      "published": "2026-08-23T08:12:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Taiwan"
-      ]
-    },
-    {
-      "title": "Flooding across Caracas, Venezuela, after heavy rains",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/flooding-across-caracas-venezuela-after-heavy-rains?traffic_source=rss",
-      "published": "2026-08-23T08:08:27+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Photos: Russia celebrates National Flag Day amid war and tensions with the West",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/gallery/2026/8/23/photos-russia-celebrates-national-flag-day-amid-war-and-tensions-with-the-west?traffic_source=rss",
-      "published": "2026-08-23T08:07:54+00:00",
-      "compound": 0.2023,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "DR Congo, M23 rebels agree on roadmap for peace talks",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/23/dr-congo-m23-rebels-agree-on-roadmap-for-peace-talks?traffic_source=rss",
-      "published": "2026-08-23T08:03:41+00:00",
-      "compound": -0.4215,
+      "title": "Beware bingeing on snacks during Ghost Month: specialist",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/24/2003863032",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": -0.3182,
       "label": "negative",
       "entities": []
     },
     {
-      "title": "Israeli politicians focus on foreign threats, ignoring spiralling debt",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/23/israeli-politicians-focus-on-foreign-threats-ignoring-spiralling-debt?traffic_source=rss",
-      "published": "2026-08-23T07:46:52+00:00",
-      "compound": -0.9334,
+      "title": "Research center develops new black soybean cultivar",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/24/2003863033",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Doctor warns of poor contact lens care",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/24/2003863034",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": -0.0772,
       "label": "negative",
       "entities": []
     },
     {
-      "title": "Taiwan president vows ‘never yielding an inch’ to China",
-      "source": "Türkiye Today",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWnRyOThhTWg4VXMtNmxDWmxpUVlVR0l1aVFFZW9zLTQ2MUU3dGxZcWFla2U5NW1BeEZieUJkQU9Wd2x4QVV4dG1pVEZtTmFwY0YwTEpraVd6VkJCOHE4cmpha2NQSEduNnpkcVBmak9aa1dqMlZBZHluaXlkNjkteGRmc2R2dGg3aTdvc1BRcUF5STY2VTBISlJJdTE?oc=5",
-      "published": "2026-08-23T07:38:48+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "China",
-        "Taiwan"
-      ]
-    },
-    {
-      "title": "Kazakhstan holds parliamentary election expected to cement president’s grip",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/23/kazakhstan-holds-parliamentary-election-expected-to-cement-presidents-grip?traffic_source=rss",
-      "published": "2026-08-23T07:38:42+00:00",
-      "compound": 0.7003,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Infantino defies FIFA vice president, makes appearance in the Caribbean",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/8/23/infantino-defies-fifa-makes-rare-appearance-at-youth-event-amid-furor?traffic_source=rss",
-      "published": "2026-08-23T07:22:37+00:00",
-      "compound": -0.6249,
+      "title": "Woman detained for alleged vandalism",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/24/2003863035",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": -0.4019,
       "label": "negative",
       "entities": []
     },
     {
-      "title": "Peace through strength, Taiwan president says on China battle anniversary",
-      "source": "NBC News",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcVFSOGtvQUVaUG12NDRxUTMxX0FFYUtSRXhRSDItRUpsYjYtRTBHUkotWjA1LXVkaE52dDBKLUhWUm9xdHNCSGNZT1gwczdaU1BDVEZvSGF1Q1dqV0dGbU0wdFMtdmRrS25WSFBfckVwWG5yemQtSTZtZm91cGV4X2d1Z1BZVWtJN2t1SHZtQVFIZnRocnN3d3JIajIxbENGS0pQQ0Mzaw?oc=5",
-      "published": "2026-08-23T07:05:16+00:00",
-      "compound": 0.8481,
-      "label": "positive",
-      "entities": [
-        "China",
-        "Taiwan"
-      ]
-    },
-    {
-      "title": "Serena Williams teams up with Carlos Alcaraz in US Open mixed doubles",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/8/23/serena-williams-teams-up-with-carlos-alcaraz-in-us-open-mixed-doubles?traffic_source=rss",
-      "published": "2026-08-23T06:59:51+00:00",
-      "compound": 0.33,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Starc takes 10 as Australia hand Bangladesh innings defeat in second Test",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/8/23/starc-takes-10-as-australia-hand-bangladesh-innings-defeat-in-second-test?traffic_source=rss",
-      "published": "2026-08-23T06:48:34+00:00",
-      "compound": 0.34,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Pegula dethrones Swiatek to book Cincinnati final against Gauff",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/8/23/pegula-dethrones-swiatek-to-book-cincinnati-final-against-gauff?traffic_source=rss",
-      "published": "2026-08-23T06:15:50+00:00",
+      "title": "Indonesian migrant fishers launch campaign for workers’ rights",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/24/2003863036",
+      "published": "2026-08-24T00:00:00+00:00",
       "compound": 0.0,
       "label": "neutral",
       "entities": []
     },
     {
-      "title": "Lai Ching-te Says Taiwan Must Rely on Strength to Preserve Peace",
-      "source": "Межа. Новини України.",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1IWVljRF92dDh6QVdfejc5YjJnY0ZEb2RZYmxUY1ZrdGtuWFUxN0UxLTYzUlROUWRvVTRidmQ2UEVEUVZIQVpvNGMteElXN2VLUUNEN3p3d2xENU5Lb2VtVk9UbTBIUQ?oc=5",
-      "published": "2026-08-23T06:08:28+00:00",
-      "compound": 0.9246,
-      "label": "positive",
-      "entities": [
-        "Lai Ching-te",
-        "Taiwan"
-      ]
-    },
-    {
-      "title": "Kazakhstan parliamentary elections begin: What’s at stake?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/23/kazakhstan-parliamentary-elections-begin-whats-at-stake?traffic_source=rss",
-      "published": "2026-08-23T05:55:10+00:00",
+      "title": "Family day",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/24/2003863037",
+      "published": "2026-08-24T00:00:00+00:00",
       "compound": 0.0,
       "label": "neutral",
       "entities": []
     },
     {
-      "title": "Taiwan tracks 14 Chinese ships",
-      "source": "Taiwan News",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5mTjk3el82aG9ueEZYNWNSMS1wNFlIV0NxcXFQdktwNEtRT0ZPckNpOXdGWDNNOU9wcGZsUkxURVlIazlLUUpnT0ZnV1RjOTJQbXk1QVRURW8?oc=5",
-      "published": "2026-08-23T05:43:35+00:00",
+      "title": "Nvidia announces AI-related price hikes",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/08/24/2003862999",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Neousys expecting strong edge AI growth",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/08/24/2003863000",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": 0.7096,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "CPC, Formosa to keep retail fuel prices unchanged",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/08/24/2003863001",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Taiwan needs balanced income distribution: expert",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/08/24/2003863002",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Taiwan"
+      ]
+    },
+    {
+      "title": "Anthropic market debut could break SpaceX IPO record",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/08/24/2003863003",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Tasty reward",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/08/24/2003863004",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": 0.5719,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "EDITORIAL: Weng becomes face of budget cuts",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/08/24/2003863005",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": -0.296,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Brahma Chellaney On Taiwan: Taiwan is becoming a harder target for China",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/08/24/2003863006",
+      "published": "2026-08-24T00:00:00+00:00",
       "compound": 0.0,
       "label": "neutral",
       "entities": [
@@ -5169,200 +5004,326 @@
       ]
     },
     {
-      "title": "Taiwan Kinmen Attack",
-      "source": "The Herald Journal",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQYmEwME1hZ3A2TUt3ZUxWNmI3bzdfbGlsTUhoV0NrY1ZEakE1eWR4QlJtOVhiZGpwUTFiaVBaZzZ1bjJkWkt5RmdBcUpaaFlqV05UdHhGS1lVaFQwSGUwdm95NFcwUVlDSHhQb0hzRFd0TmJKMzdOZnJ6YTVEeE03bkZGMHgwUTUtcFlBRFEtaEFONk1GWGZMSjM5NUZIUQ?oc=5",
-      "published": "2026-08-23T05:41:33+00:00",
-      "compound": -0.7351,
-      "label": "negative",
-      "entities": [
-        "Taiwan",
-        "Kinmen"
-      ]
+      "title": "At 50, we can become ourselves again",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/08/24/2003863007",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
     },
     {
-      "title": "Peace through strength, Taiwan president says on China battle anniversary",
-      "source": "The Straits Times",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOV1ppWGZtQWV2eFlBVlZ6VWpVSHp1ZEtwdlp6NjBGeGJiMzhzZ1FaYWpEV3dTTmViYThPUWxyOFpCdWd0X0wyMmdoVnpFTU9nb0JkR1RSMi1wWFV1N0RGMGtjQnd6MGdhUnFoM2lhU2U1VktEQzJLX0hBRlNLZWRrWXVnQ2tRM010S3NoNzlNN1pQQnpTZWZTekxOelV3YXNnZkN0UjZabmZ4aFhhODZoWkRNaDh3ZGs?oc=5",
-      "published": "2026-08-23T05:38:05+00:00",
-      "compound": 0.8481,
+      "title": "[ LETTER ]",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/08/24/2003863008",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "EDITORIAL CARTOON",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/08/24/2003863009",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "The call for a Ukrainian election is compelling and wrong",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/08/24/2003863010",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": -0.296,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Choking Iran’s economy is the least bad way to end the war",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/08/24/2003863011",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": -0.6187,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Man Utd lose season opener at Hull",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/sport/archives/2026/08/24/2003863018",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": -0.4019,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Lanier wins big as Taiwan clinch two medals",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/sport/archives/2026/08/24/2003863019",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": 0.5719,
       "label": "positive",
       "entities": [
-        "China",
         "Taiwan"
       ]
     },
     {
-      "title": "Taiwan Kinmen Attack",
-      "source": "The Herald Journal",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSE51RnlyTWV1Sy0xbER1aE94UlNKNGVTbEI1UGpsaXBxaEFwcWpYdGViNk5UbUhKRGIxT2t6R3Z1S3hmbjJ1SmFidDZiOWI4V1gxQWJUY2F1Z1RhRnFzR19FaUUycWtwQ2pzZm1sNjdyRDZEODA1N2UxMEgwbXQ0SHhxZlYzVmlJeDVPWkVlQ2JMU0JmdXZHcmI2SVlhdw?oc=5",
-      "published": "2026-08-23T05:34:29+00:00",
-      "compound": -0.7351,
+      "title": "Sydney marathon unveils medal with wrong stadium",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/sport/archives/2026/08/24/2003863020",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Lee nears homer milestone in Tigers’ loss to Royals",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/sport/archives/2026/08/24/2003863021",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": -0.3182,
       "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Real Madrid beat Espanyol as Jose Mourinho returns",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/sport/archives/2026/08/24/2003863022",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Tamberi victorious in Diamond League high jump battle",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/sport/archives/2026/08/24/2003863023",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": -0.0516,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Finding their groove",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/sport/archives/2026/08/24/2003863024",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Zelenskiy rejects wartime elections call",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/world/archives/2026/08/24/2003863038",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": -0.4939,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "China showcases robots at Beijing games",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/world/archives/2026/08/24/2003863039",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
       "entities": [
-        "Taiwan",
-        "Kinmen"
+        "China"
       ]
     },
     {
-      "title": "Peace through strength, Taiwan president says on China battle anniversary",
-      "source": "Internazionale",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPUFFGZE9SNUpEQWZIbm1PWk1maVBqMzlac2VSTEx3TVFmSzhNLWRUMHh3V0puaEN6ZWNwWU1GQ2pmT0haWFJFeS1tWTBneHpVTzVOZU1yRkhETE11emlWZUlFNG92UnlBWjlFbi1xc3doX3hWTnlhcnpnT2FXOVhWZTQ1d2VIcGxZY2xkdkpQaVh6UXp2X0JJR2RzeHA3eDF5dnlISkRDSnRUMlVuenE5RURiUjBfQU1DNDBWMFN6SzQ0MUxOdndHdW80aHhEX3BSWVE?oc=5",
-      "published": "2026-08-23T05:33:15+00:00",
-      "compound": 0.8481,
-      "label": "positive",
+      "title": "Argentina court overturns acquittal in sex abuse case",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/world/archives/2026/08/24/2003863040",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": -0.6369,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Swedish police probe networks after teen killed",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/world/archives/2026/08/24/2003863041",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": -0.6705,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Hong Konger strives to keep marking Tiananmen",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/world/archives/2026/08/24/2003863042",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Australia confirms H5N1 bird flu case in fur seal",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/world/archives/2026/08/24/2003863043",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": -0.3818,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Notes from Central Taiwan: The violent Taiwan we forgot",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/feat/archives/2026/08/24/2003863012",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": -0.5994,
+      "label": "negative",
       "entities": [
-        "China",
         "Taiwan"
       ]
     },
     {
-      "title": "Peace through strength, Taiwan president says on China battle anniversary",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNd29YcXQzMHVTQVR1SFNUb2tUV1AxR18yZFlfYzlZWXNQNVlBQVV5a21raGM0X3dobTU5cVFIZXAzYnIyVURoc0ZWOW45bFd6WWREOXhaazhiSFB4OHBxSWM4cEJhVVB6WHctM0RQOXBjbkJBdnVnZTB5RlhIY2NuUGpielJhVVNfM0lEZHdJNEEzSmVuWFZuNWlidkZMNlRFbE5LRHNXRDF5MEhfVHF3RWJnajFETktY?oc=5",
-      "published": "2026-08-23T05:33:00+00:00",
-      "compound": 0.8481,
-      "label": "positive",
-      "entities": [
-        "China",
-        "Taiwan"
-      ]
-    },
-    {
-      "title": "Taiwan Kinmen Attack",
-      "source": "goSkagit",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQT1YtMWl3bjZTNEdmNU9qUG03VGpmT2QweUdlQXdkbWRMT2JHQlE2RDk4V19CQmU5bmctZUFIRWhTcUxyNkNFZXJrcXBOVjJWSl9MTDMxX0dqY1VRVzdzUEdxWGNQa3ljZXZnd0JLb1VzeGVRNEZxQjVOcTl2dTBBeks0TDUtcV9VSDVDX1g4cUxudl9RTG5FdUZxNWhnOUc3ODk1dHNGYw?oc=5",
-      "published": "2026-08-23T05:26:40+00:00",
-      "compound": -0.7351,
-      "label": "negative",
-      "entities": [
-        "Taiwan",
-        "Kinmen"
-      ]
-    },
-    {
-      "title": "Taiwan Kinmen Attack",
-      "source": "The Herald Journal",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWV9sZ282NEp6a2tqaTVwT2w5NjlLWGZOWEN3bzBreXBUZUhvY3R6OEQ2MGR5cEo0TXJ6aEtaYm4xZVd6UC1Qdnc5Q0lObVZTSmJDNFg2dXRBV0k1T0huUEZJNVFUQ2xtRS1xTGk5dTdSSTB0ZEFiZUk0REd3bzVJYWZUTlJiZGxkMlBoRWtrTkNDb1c4bVBWVjA5clM5Zw?oc=5",
-      "published": "2026-08-23T05:26:40+00:00",
-      "compound": -0.7351,
-      "label": "negative",
-      "entities": [
-        "Taiwan",
-        "Kinmen"
-      ]
-    },
-    {
-      "title": "Taiwan Kinmen Attack",
-      "source": "Dayton Daily News",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSmNtUzZUSWwxTmwzc0l2MTlDby1GeUNxNU9IMzJ3YVoteUUwR01IYmNzRGNUX1ZqcnFYUHh0Mjh5cjMtdWNFdW5wVWU5XzBkVUZhSUJJTXAtbnZuM3k2d0ctNjhkcXNnaFFYVUN0bFg3WUtsVWhEM0JJU2s0RExheVk3a0ExVVp1SWR1aFNabmx4TEw3SFJFeEdfd1ByRERHSnFCa1ZXWVg5aW5jTDhZUjVKRQ?oc=5",
-      "published": "2026-08-23T05:16:40+00:00",
-      "compound": -0.7351,
-      "label": "negative",
-      "entities": [
-        "Taiwan",
-        "Kinmen"
-      ]
-    },
-    {
-      "title": "Taiwan Kinmen Attack",
-      "source": "Dayton Daily News",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPU3ZtRjk0WllwbzdSODRaU2RTVHU3NUdTMzVxNTU2U1gxQnBzd2JDNGhoVUpLRWRlRU5yTVpKU1dUc3NGeXVoQ3JfaHJrNFdiQjlyaThKendLZEpYak1tb05BTXVzWlBnX0RVTmhIT2x0bTBZcWc3U0dKN1RvSHdRUmpGdl9DbktzRHEwYWtjT2E3MUZDeVQ2U25WOW02SkVmVlhocGhwU3psRENjWEthdTdiNA?oc=5",
-      "published": "2026-08-23T05:15:09+00:00",
-      "compound": -0.7351,
-      "label": "negative",
-      "entities": [
-        "Taiwan",
-        "Kinmen"
-      ]
-    },
-    {
-      "title": "Ex-Colombian president: Restoring Israeli ties applauds Gaza genocide",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/ex-colombian-president-restoring-israeli-ties-applauds-gaza-genocide?traffic_source=rss",
-      "published": "2026-08-23T05:10:05+00:00",
-      "compound": 0.836,
+      "title": "BOOKMAN BILINGUAL 雙語書林： Chinglish or Natural English? 中式英語或道地英語？",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/lang/archives/2026/08/24/2003862998",
+      "published": "2026-08-24T00:00:00+00:00",
+      "compound": 0.3612,
       "label": "positive",
       "entities": []
     },
     {
-      "title": "'We're not going to run from it': Sydney Marathon laughs off medal error",
+      "title": "Video: Thousands of families flee fighting in Sudan’s North Kordofan State",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/video-thousands-of-families-flee-fighting-in-sudans-north-kordofan-state?traffic_source=rss",
+      "published": "2026-08-23T18:27:46+00:00",
+      "compound": -0.4019,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Guinea rubbish landfill collapse kills 30",
       "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cn4n4l1yyvro?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-23T03:44:19+00:00",
-      "compound": 0.7717,
-      "label": "positive",
+      "url": "https://www.bbc.co.uk/news/articles/c4g3g36z7p6o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-23T18:17:37+00:00",
+      "compound": -0.8687,
+      "label": "negative",
       "entities": []
     },
     {
-      "title": "‘You just can’t trust Trump’: Canadian premiers fire back in trade war",
+      "title": "Trump waves green flag kicking off high-speed IndyCar race through Washington",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c0qvq24vlj4o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-23T18:17:34+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Donald Trump",
+        "United States"
+      ]
+    },
+    {
+      "title": "Trump has ‘run out of options’ in Iran war: Stephen Walt",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/you-just-cant-trust-trump-canadian-premiers-fire-back-in-trade-war?traffic_source=rss",
-      "published": "2026-08-23T03:42:22+00:00",
-      "compound": -0.6908,
+      "url": "https://www.aljazeera.com/video/the-bottom-line/2026/8/23/trump-has-run-out-of-options-in-iran-war-stephen-walt?traffic_source=rss",
+      "published": "2026-08-23T18:15:22+00:00",
+      "compound": -0.5789,
       "label": "negative",
       "entities": [
         "Donald Trump"
       ]
     },
     {
-      "title": "In rural Chad, solar kiosks bring healthcare closer",
+      "title": "Tunisia sees protests after migrant boat sinking kills eight",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/23/in-rural-chad-solar-kiosks-bring-healthcare-closer?traffic_source=rss",
-      "published": "2026-08-23T03:21:03+00:00",
-      "compound": 0.0772,
-      "label": "positive",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/tunisia-sees-protests-after-migrant-boat-sinking-kills-eight?traffic_source=rss",
+      "published": "2026-08-23T17:57:48+00:00",
+      "compound": -0.8689,
+      "label": "negative",
       "entities": []
     },
     {
-      "title": "Chinese robot beats Usain Bolt’s 100m world record at humanoid games",
+      "title": "Thousands displaced as wildfire threatens homes in US state of Nevada",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/chinese-robot-beats-usain-bolts-100m-world-record-at-humanoid-games?traffic_source=rss",
-      "published": "2026-08-23T03:16:19+00:00",
+      "url": "https://www.aljazeera.com/news/2026/8/23/thousands-displaced-as-wildfire-threatens-homes-in-us-state-of-nevada?traffic_source=rss",
+      "published": "2026-08-23T17:55:52+00:00",
+      "compound": -0.6369,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Iran war: Top US lawmaker says Republicans can ‘absolutely’ win midterms",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/23/iran-war-top-us-lawmaker-says-republicans-can-absolutely-win-midterms?traffic_source=rss",
+      "published": "2026-08-23T17:53:31+00:00",
+      "compound": 0.5267,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "France links sharp rise in drownings to heatwaves",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cqlxlp4lx9yo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-08-23T17:39:33+00:00",
+      "compound": -0.2732,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Landfill collapse in Guinea kills at least 30 people",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/23/landfill-collapse-in-guinea-kills-at-least-22-people-official-says?traffic_source=rss",
+      "published": "2026-08-23T17:35:01+00:00",
+      "compound": -0.7717,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Photos: Ukraine celebrates National Flag Day",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/gallery/2026/8/23/photos-ukraine-observes-national-flag-day?traffic_source=rss",
+      "published": "2026-08-23T17:18:25+00:00",
       "compound": -0.4588,
       "label": "negative",
-      "entities": [
-        "China"
-      ]
+      "entities": []
     },
     {
-      "title": "Taiwan's security council quietly steps up as architect of China strategy",
-      "source": "Nikkei Asia",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQYVJ4Q2FWOWUyRkpkTTY3RHU1R1FhTnRKeC02WFE5ck9peTdyblVrMjhNXzdXenhOWTV3Um9GaF9JLXF0Sk04WXhyV3p2ZEJ6ek81MkdfYmw5eVpoX3U1cVd6dk5RRklUSVdtaWx4QU91ZG8yWm1UUXJEQ2lNZTJLcWhyR3F2M1ktempMdE9NWUgzck5KRzBqWDhPazVxOVJmQ29fNUkzUDNhUGhQanBNWDF4OG9zQzFfTHBad1BqOVotRlRBaFhydDBGbVFHWWVvTWtmUExEYkNOQTFDQlRZ?oc=5",
-      "published": "2026-08-23T03:01:00+00:00",
-      "compound": 0.5859,
-      "label": "positive",
-      "entities": [
-        "China",
-        "Taiwan"
-      ]
-    },
-    {
-      "title": "Canada to hit US with retaliatory tariffs as trade war escalates",
+      "title": "LIVE: Elche vs Barcelona – La Liga",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/23/canada-to-hit-us-with-retaliatory-tariffs-as-trade-war-escalates?traffic_source=rss",
-      "published": "2026-08-23T02:34:49+00:00",
-      "compound": -0.7269,
+      "url": "https://www.aljazeera.com/sports/liveblog/2026/8/23/live-elche-vs-barcelona-la-liga?traffic_source=rss",
+      "published": "2026-08-23T16:50:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "French President Macron to host Saudi Crown Prince MBS in Paris for talks",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/8/23/french-president-macron-to-host-saudi-crown-prince-mbs-in-paris-for-talks?traffic_source=rss",
+      "published": "2026-08-23T16:12:55+00:00",
+      "compound": -0.25,
       "label": "negative",
       "entities": []
     },
     {
-      "title": "Thousands flee Sudan’s Kordofan fighting for relative safety of El Obeid",
+      "title": "Can Nigeria cash in on Iran war?",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/thousands-flee-sudans-kordofan-fighting-for-relative-safety-of-el-obeid?traffic_source=rss",
-      "published": "2026-08-23T01:51:47+00:00",
-      "compound": 0.1531,
-      "label": "positive",
+      "url": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/8/23/can-nigeria-cash-in-on-iran-war?traffic_source=rss",
+      "published": "2026-08-23T16:07:01+00:00",
+      "compound": -0.7579,
+      "label": "negative",
       "entities": []
     },
     {
-      "title": "Swedish sword attack victim was 17-year-old girl, police say",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c8jnjp0lwlwo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-08-23T01:34:15+00:00",
-      "compound": -0.9313,
-      "label": "negative",
-      "entities": []
+      "title": "Washington Nationals to hold second Taiwan day",
+      "source": "Taipei Times",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBGeFBnMDNzaUUwVmlYTEVSYXRSb0t1OFlnbE9lX0tvVEpxWVhOeUxyal92SG9rQnBGYzRWS2M0ajYyM1dYTWpPTnByd0ZQaGlSaGltRlBWVVFFUlZKS29Ha2ltNzBLMG5pdXVjOWZsOTdXdkhSVVVXOUtR?oc=5",
+      "published": "2026-08-23T16:00:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Taiwan",
+        "United States"
+      ]
     }
   ]
 }

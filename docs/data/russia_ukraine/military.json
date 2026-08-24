@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-08-24T01:57:35+00:00",
+  "updated": "2026-08-24T07:20:26+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -48,9 +48,9 @@
     "to": "2026-08-24"
   },
   "kpis": {
-    "events_total": 568,
-    "events_unlocated": 1592,
-    "events_7d": 75,
+    "events_total": 572,
+    "events_unlocated": 1600,
+    "events_7d": 79,
     "events_prev_7d": 69,
     "hottest_place": "Kyiv"
   },
@@ -691,6 +691,15 @@
       "strike": 8,
       "ground": 0,
       "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-08-24",
+      "total": 4,
+      "strike": 4,
+      "ground": 0,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -6375,12 +6384,52 @@
       "title": "Burnham to visit Ukraine with promise of boost for Kyiv’s long-range missiles",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/politics/2026/aug/24/andy-burnham-ukraine-long-range-missile-technology-kyiv-visit"
+    },
+    {
+      "date": "2026-08-24",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war live: Three dead in Russian strikes as Kyiv targets another retailer",
+      "source": "The Independent",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWkdjRzBRQ2ZjR2twd3F4ZjUtV3pnWGl6dXRfenJTUEVxQ0I1RHZJVGZkeGxWZ2hXdjR5MDFGMmx5Zmp3RC1PcmNfeWp3djUxMWtKUHRrZ3hyU3VYZjlaNk9IWXNGX0lxWER3ZXl0aDZ3WkkyS0V4ZEY0QU42Y3V0Ql9xem5nVmw4WHNpeVRzanZiQms2Wmo3U29OSkpONzZraThuNS05TDRUbHE3azgwME9xM1I1RWFsZ09GQ1FYRkphQ3VyUWc?oc=5"
+    },
+    {
+      "date": "2026-08-24",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Burnham to hand long-range missile blueprints to Zelensky as he visits Kyiv",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zT0gwQ084VVNaZ09JZnJrZUhwWUVPSVVtUGpkY0kzYWVyejlNRjh6RVlSZkhMNTRfT3NXNG9feWJEY3c2ZjhCTXRXN3VrS2ZJMGhYcGlibTJFQQ?oc=5"
+    },
+    {
+      "date": "2026-08-24",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Andy Burnham arrives in Ukraine with plans to share UK blueprints for long-range missiles - Europe live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/live/2026/aug/24/europe-ukraine-russia-war-kyiv-andy-burnham-volodymyr-zelenskyy-latest-news-updates"
+    },
+    {
+      "date": "2026-08-24",
+      "type": "strike",
+      "place": "Donetsk",
+      "lat": 48.0159,
+      "lon": 37.8029,
+      "title": "On Donetsk’s ‘life or death’ highway with the Khyzhak brigade – photo essay",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/artanddesign/2026/aug/24/on-donetsks-life-or-death-highway-with-the-khyzhak-brigade-photo-essay"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 173
+      "count": 176
     },
     {
       "place": "Moscow",

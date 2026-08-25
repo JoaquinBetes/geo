@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-08-25T13:11:29+00:00",
+  "updated": "2026-08-25T18:56:45+00:00",
   "overall_tone": -0.2072,
   "rsf_as_of": "2025 (aprox.)",
   "outlets": [
@@ -15,9 +15,9 @@
       "lat": 25.2867,
       "lon": 51.5333,
       "rsf": 84,
-      "articles": 3758,
-      "tone_avg": -0.2712,
-      "tone_delta": -0.064
+      "articles": 3783,
+      "tone_avg": -0.2709,
+      "tone_delta": -0.0637
     },
     {
       "name": "BBC",
@@ -30,9 +30,9 @@
       "lat": 51.5188,
       "lon": -0.144,
       "rsf": 20,
-      "articles": 1153,
-      "tone_avg": -0.2966,
-      "tone_delta": -0.0894
+      "articles": 1159,
+      "tone_avg": -0.2961,
+      "tone_delta": -0.0889
     },
     {
       "name": "NPR",
@@ -45,9 +45,9 @@
       "lat": 38.899,
       "lon": -77.008,
       "rsf": 57,
-      "articles": 326,
-      "tone_avg": -0.2973,
-      "tone_delta": -0.0901
+      "articles": 328,
+      "tone_avg": -0.2989,
+      "tone_delta": -0.0917
     },
     {
       "name": "NK News",
@@ -120,9 +120,9 @@
       "lat": 37.57,
       "lon": 126.985,
       "rsf": 61,
-      "articles": 84,
-      "tone_avg": 0.0339,
-      "tone_delta": 0.2411
+      "articles": 85,
+      "tone_avg": 0.0388,
+      "tone_delta": 0.246
     },
     {
       "name": "Reuters",
@@ -920,6 +920,21 @@
       "tone_delta": -0.2869
     },
     {
+      "name": "Ynet",
+      "url": "https://www.ynetnews.com",
+      "city": "Tel Aviv",
+      "country": "Israel",
+      "iso3": "ISR",
+      "type": "privado",
+      "desc": "El portal del grupo Yedioth Ahronoth, el de mayor audiencia de Israel.",
+      "lat": 32.07,
+      "lon": 34.78,
+      "rsf": 112,
+      "articles": 3,
+      "tone_avg": 0.372,
+      "tone_delta": 0.5792
+    },
+    {
       "name": "Daily Sabah",
       "url": "https://www.dailysabah.com",
       "city": "Estambul",
@@ -1010,21 +1025,6 @@
       "tone_delta": 0.0372
     },
     {
-      "name": "Ynet",
-      "url": "https://www.ynetnews.com",
-      "city": "Tel Aviv",
-      "country": "Israel",
-      "iso3": "ISR",
-      "type": "privado",
-      "desc": "El portal del grupo Yedioth Ahronoth, el de mayor audiencia de Israel.",
-      "lat": 32.07,
-      "lon": 34.78,
-      "rsf": 112,
-      "articles": 2,
-      "tone_avg": 0.1422,
-      "tone_delta": 0.3494
-    },
-    {
       "name": "Global Times",
       "url": "https://www.globaltimes.cn",
       "city": "Pekín",
@@ -1113,24 +1113,39 @@
       "articles": 1,
       "tone_avg": -0.4939,
       "tone_delta": -0.2867
+    },
+    {
+      "name": "Atlantic Council",
+      "url": "https://www.atlanticcouncil.org",
+      "city": "Washington D.C.",
+      "country": "Estados Unidos",
+      "iso3": "USA",
+      "type": "think tank",
+      "desc": "Think tank atlantista financiado por gobiernos occidentales y corporaciones; posición pro-OTAN explícita.",
+      "lat": 38.9055,
+      "lon": -77.039,
+      "rsf": 57,
+      "articles": 1,
+      "tone_avg": 0.0,
+      "tone_delta": 0.2072
     }
   ],
   "by_country": {
     "QAT": {
       "outlets": 1,
-      "articles": 3758
+      "articles": 3783
     },
     "GBR": {
       "outlets": 8,
-      "articles": 1333
+      "articles": 1339
     },
     "USA": {
-      "outlets": 23,
-      "articles": 841
+      "outlets": 24,
+      "articles": 844
     },
     "KOR": {
       "outlets": 4,
-      "articles": 474
+      "articles": 475
     },
     "TUR": {
       "outlets": 2,
@@ -1162,7 +1177,7 @@
     },
     "ISR": {
       "outlets": 4,
-      "articles": 17
+      "articles": 18
     },
     "TWN": {
       "outlets": 1,
@@ -1200,7 +1215,7 @@
   "others": [
     {
       "source": "조선일보",
-      "articles": 298
+      "articles": 301
     },
     {
       "source": "Korea JoongAng Daily",
@@ -1220,7 +1235,7 @@
     },
     {
       "source": "38 North",
-      "articles": 25
+      "articles": 26
     },
     {
       "source": "CNA",
@@ -1259,7 +1274,7 @@
       "articles": 16
     }
   ],
-  "others_total": 2341,
-  "matched_articles": 6783,
-  "total_articles": 9124
+  "others_total": 2349,
+  "matched_articles": 6819,
+  "total_articles": 9168
 }

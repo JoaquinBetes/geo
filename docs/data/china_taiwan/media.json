@@ -1,6 +1,6 @@
 {
   "id": "china_taiwan",
-  "updated": "2026-08-25T18:56:36+00:00",
+  "updated": "2026-08-26T01:58:18+00:00",
   "overall_tone": -0.1616,
   "rsf_as_of": "2025 (aprox.)",
   "outlets": [
@@ -15,9 +15,9 @@
       "lat": 25.2867,
       "lon": 51.5333,
       "rsf": 84,
-      "articles": 4058,
-      "tone_avg": -0.2639,
-      "tone_delta": -0.1023
+      "articles": 4084,
+      "tone_avg": -0.2632,
+      "tone_delta": -0.1016
     },
     {
       "name": "Taipei Times",
@@ -45,9 +45,9 @@
       "lat": 51.5188,
       "lon": -0.144,
       "rsf": 20,
-      "articles": 1234,
-      "tone_avg": -0.2886,
-      "tone_delta": -0.127
+      "articles": 1236,
+      "tone_avg": -0.2888,
+      "tone_delta": -0.1272
     },
     {
       "name": "NPR",
@@ -110,6 +110,21 @@
       "tone_delta": -0.0435
     },
     {
+      "name": "South China Morning Post",
+      "url": "https://www.scmp.com",
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "iso3": "HKG",
+      "type": "privado",
+      "desc": "Histórico diario hongkonés en inglés, propiedad de Alibaba desde 2016 — su margen frente a Pekín es objeto de escrutinio.",
+      "lat": 22.3193,
+      "lon": 114.1694,
+      "rsf": 135,
+      "articles": 73,
+      "tone_avg": -0.0756,
+      "tone_delta": 0.086
+    },
+    {
       "name": "Global Times",
       "url": "https://www.globaltimes.cn",
       "city": "Pekín",
@@ -125,19 +140,19 @@
       "tone_delta": 0.1509
     },
     {
-      "name": "South China Morning Post",
-      "url": "https://www.scmp.com",
-      "city": "Hong Kong",
-      "country": "Hong Kong",
-      "iso3": "HKG",
+      "name": "The Guardian",
+      "url": "https://www.theguardian.com",
+      "city": "Londres",
+      "country": "Reino Unido",
+      "iso3": "GBR",
       "type": "privado",
-      "desc": "Histórico diario hongkonés en inglés, propiedad de Alibaba desde 2016 — su margen frente a Pekín es objeto de escrutinio.",
-      "lat": 22.3193,
-      "lon": 114.1694,
-      "rsf": 135,
-      "articles": 72,
-      "tone_avg": -0.0892,
-      "tone_delta": 0.0724
+      "desc": "Diario británico propiedad del Scott Trust (sin accionistas), línea editorial progresista; referencia en cobertura internacional.",
+      "lat": 51.5346,
+      "lon": -0.1219,
+      "rsf": 20,
+      "articles": 36,
+      "tone_avg": -0.0703,
+      "tone_delta": 0.0913
     },
     {
       "name": "Nikkei Asia",
@@ -155,21 +170,6 @@
       "tone_delta": 0.3592
     },
     {
-      "name": "The Guardian",
-      "url": "https://www.theguardian.com",
-      "city": "Londres",
-      "country": "Reino Unido",
-      "iso3": "GBR",
-      "type": "privado",
-      "desc": "Diario británico propiedad del Scott Trust (sin accionistas), línea editorial progresista; referencia en cobertura internacional.",
-      "lat": 51.5346,
-      "lon": -0.1219,
-      "rsf": 20,
-      "articles": 35,
-      "tone_avg": -0.0592,
-      "tone_delta": 0.1024
-    },
-    {
       "name": "Bloomberg",
       "url": "https://www.bloomberg.com",
       "city": "Nueva York",
@@ -185,6 +185,21 @@
       "tone_delta": -0.0068
     },
     {
+      "name": "Institute for the Study of War",
+      "url": "https://www.understandingwar.org",
+      "city": "Washington D.C.",
+      "country": "Estados Unidos",
+      "iso3": "USA",
+      "type": "think tank",
+      "desc": "Think tank militar (financiado por contratistas de defensa); sus mapas diarios del frente son referencia — con esa lente.",
+      "lat": 38.904,
+      "lon": -77.043,
+      "rsf": 57,
+      "articles": 27,
+      "tone_avg": -0.5994,
+      "tone_delta": -0.4378
+    },
+    {
       "name": "CGTN",
       "url": "https://www.cgtn.com",
       "city": "Pekín",
@@ -198,21 +213,6 @@
       "articles": 27,
       "tone_avg": 0.1419,
       "tone_delta": 0.3035
-    },
-    {
-      "name": "Institute for the Study of War",
-      "url": "https://www.understandingwar.org",
-      "city": "Washington D.C.",
-      "country": "Estados Unidos",
-      "iso3": "USA",
-      "type": "think tank",
-      "desc": "Think tank militar (financiado por contratistas de defensa); sus mapas diarios del frente son referencia — con esa lente.",
-      "lat": 38.904,
-      "lon": -77.043,
-      "rsf": 57,
-      "articles": 26,
-      "tone_avg": -0.5994,
-      "tone_delta": -0.4378
     },
     {
       "name": "The Times of India",
@@ -755,6 +755,21 @@
       "tone_delta": -0.3865
     },
     {
+      "name": "Le Monde",
+      "url": "https://www.lemonde.fr/en/",
+      "city": "París",
+      "country": "Francia",
+      "iso3": "FRA",
+      "type": "privado",
+      "desc": "El diario francés de referencia; edición en inglés desde 2022.",
+      "lat": 48.833,
+      "lon": 2.373,
+      "rsf": 25,
+      "articles": 3,
+      "tone_avg": -0.2953,
+      "tone_delta": -0.1337
+    },
+    {
       "name": "CSIS",
       "url": "https://www.csis.org",
       "city": "Washington D.C.",
@@ -828,21 +843,6 @@
       "articles": 2,
       "tone_avg": -0.2633,
       "tone_delta": -0.1017
-    },
-    {
-      "name": "Le Monde",
-      "url": "https://www.lemonde.fr/en/",
-      "city": "París",
-      "country": "Francia",
-      "iso3": "FRA",
-      "type": "privado",
-      "desc": "El diario francés de referencia; edición en inglés desde 2022.",
-      "lat": 48.833,
-      "lon": 2.373,
-      "rsf": 25,
-      "articles": 2,
-      "tone_avg": -0.1026,
-      "tone_delta": 0.059
     },
     {
       "name": "UNITED24 Media",
@@ -953,7 +953,7 @@
   "by_country": {
     "QAT": {
       "outlets": 1,
-      "articles": 4058
+      "articles": 4084
     },
     "TWN": {
       "outlets": 2,
@@ -961,19 +961,19 @@
     },
     "GBR": {
       "outlets": 7,
-      "articles": 1383
+      "articles": 1386
     },
     "USA": {
       "outlets": 20,
-      "articles": 789
+      "articles": 790
+    },
+    "HKG": {
+      "outlets": 1,
+      "articles": 73
     },
     "CHN": {
       "outlets": 3,
       "articles": 117
-    },
-    "HKG": {
-      "outlets": 1,
-      "articles": 72
     },
     "JPN": {
       "outlets": 3,
@@ -985,7 +985,7 @@
     },
     "FRA": {
       "outlets": 3,
-      "articles": 14
+      "articles": 15
     },
     "KOR": {
       "outlets": 4,
@@ -1074,19 +1074,19 @@
       "articles": 18
     },
     {
+      "source": "天下雜誌",
+      "articles": 17
+    },
+    {
       "source": "StratNews Global",
       "articles": 16
     },
     {
       "source": "RealClearDefense",
       "articles": 16
-    },
-    {
-      "source": "天下雜誌",
-      "articles": 16
     }
   ],
-  "others_total": 1798,
-  "matched_articles": 10147,
-  "total_articles": 11945
+  "others_total": 1804,
+  "matched_articles": 10179,
+  "total_articles": 11983
 }

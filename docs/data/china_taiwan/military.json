@@ -1,6 +1,6 @@
 {
   "id": "china_taiwan",
-  "updated": "2026-08-26T13:16:40+00:00",
+  "updated": "2026-08-26T20:03:08+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -43,12 +43,12 @@
   },
   "window": {
     "from": "2026-01-30",
-    "to": "2026-08-26"
+    "to": "2026-08-27"
   },
   "kpis": {
-    "events_total": 42,
-    "events_unlocated": 1111,
-    "events_7d": 11,
+    "events_total": 43,
+    "events_unlocated": 1116,
+    "events_7d": 12,
     "events_prev_7d": 8,
     "hottest_place": "Taipei"
   },
@@ -292,6 +292,15 @@
       "total": 2,
       "strike": 1,
       "ground": 1,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-08-26",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -717,12 +726,22 @@
       "title": "NT dollar advance loses support as equity inflows fade",
       "source": "Taipei Times",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1lTk1vbzJ6MXFtSlYzUEVXOFdxTWFDeDl5eGt1cnZSSm9RZmJmbS1RX3JCWE5ObXBIRFp4czVsZHVEV2dHU0VNVjNwOGlsWC1hUW9MWmswbVJ5Y3lSWFFWQzVvTEc4bDNSaFhqZ0JveEVBeVNFd2c?oc=5"
+    },
+    {
+      "date": "2026-08-26",
+      "type": "strike",
+      "place": "Taipei",
+      "lat": 25.033,
+      "lon": 121.5654,
+      "title": "Notes from Central Taiwan: Taiwan needs more than a missile shield",
+      "source": "Taipei Times",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0ycGZnVUhqdV9JXzEySkFQYnNrenFmbWducGFQbHNHLWhBSmVMTy1iOGpwYk1HRXEzWUZRc1M1R3RZdURXOUpobzU2Y0pwTkxGeEhVRVRTNzd4Zm9PWHRtZHBSalkxRmcyNWdGLUZ5S1ZyM2t4ZEdR?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Taipei",
-      "count": 21
+      "count": 22
     },
     {
       "place": "South China Sea",

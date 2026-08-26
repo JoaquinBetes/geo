@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-08-26T13:16:13+00:00",
+  "updated": "2026-08-26T20:02:57+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -48,9 +48,9 @@
     "to": "2026-08-26"
   },
   "kpis": {
-    "events_total": 594,
-    "events_unlocated": 1671,
-    "events_7d": 77,
+    "events_total": 599,
+    "events_unlocated": 1677,
+    "events_7d": 82,
     "events_prev_7d": 83,
     "hottest_place": "Kyiv"
   },
@@ -714,10 +714,10 @@
     },
     {
       "date": "2026-08-26",
-      "total": 3,
-      "strike": 1,
+      "total": 8,
+      "strike": 4,
       "ground": 0,
-      "infrastructure": 2,
+      "infrastructure": 4,
       "air_defense": 0,
       "anomaly": false
     }
@@ -6662,16 +6662,66 @@
       "title": "Ukrainian air attacks kill three in Russia as Kyiv steps up drone campaign",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/economy/2026/8/26/ukrainian-drone-attacks-kill-3-as-fire-destroys-wildberries-warehouse?traffic_source=rss"
+    },
+    {
+      "date": "2026-08-26",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russia prepares to intensify strikes on Kyiv and other Ukrainian oblasts – Bloomberg",
+      "source": "Українська правда",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1yYS1Rcm5mTGF3SXNra0pIZk01Y2VvQjhqdUI0VUptQ1VqQ1podXQzcElZcEdGbGxkd3VSN0x4Wnc3am1lUGpCZ0s2bng4T0dTT1NoQkpiZnFPb2xCLWFJNVVmaG7SAXBBVV95cUxPVGlTODBmYVpNT0dDcjQ0RDE2SmVnZDRxWGVjZUpPdExUNzlvYktneU4wcHNySEl3M3NISkFsQ1FVQVRLeXlVS1ZzZ3RQYzZ4d05YUFAtdExCYy1iQW9fUkZyX2lPWlQ5aXowQkE5UEt0?oc=5"
+    },
+    {
+      "date": "2026-08-26",
+      "type": "strike",
+      "place": "Luhansk",
+      "lat": 48.574,
+      "lon": 39.3078,
+      "title": "Ukraine airstrike on bus in Russian-occupied Luhansk kills 9",
+      "source": "DW.com",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUkZDbTBvUUI5dERhdXdIc1BFR0RmYm1tWXJQSXhwM0FHSFVIaEdndlY5TkV2YVF1eXJQaGxqUWVKSWJJS2pMUVdOZGprdHNtb292UTR4djNfUXhoNHA3YVRnUkk3TVJYeGRUdVNLUnJJa3ZXeVR5RnBHUWdfb0xTdTdRWGxubzhyRk5IREozRDZQQXBVY2tCMNIBmAFBVV95cUxPd2YwRXlGcGRkSVh3am00VXlfblJuOW9rU1ZIZ0VGZU5tMXRBWTJuVzdBcU1OaG84OWdWd0tOT18teVNPSW1reFRDYklNN1ZMZ2dtLUtnNFJVNzZuVXJDZlhyUVBHTVEwV2hveTg3QnlGemdzdXdDM0FrV21pcjYtbXMwQVhidFJiQ1FCQlBBblVPZm1yOUdWNw?oc=5"
+    },
+    {
+      "date": "2026-08-26",
+      "type": "strike",
+      "place": "Donetsk",
+      "lat": 48.0159,
+      "lon": 37.8029,
+      "title": "Ukrainian Missiles Strike Two Russian Military Facilities in Temporarily Occupied Donetsk, Video",
+      "source": "UNITED24 Media",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZkRiUGZSYmhmTkQyTzVvMnpXanRKeUpabVFMeVlYcjhQU3ZKRUVqQXZkdVltaWlwRTltQ0lvVVR6WmNRZl85UWRQR2pGcmV4M2FKdmNYQWxObG5RY2UyN1dfYXBjblJNelZJRDlNM0M3MU5ScDZpdlB5d3pEOERhUUpLamFLTmFNSEZjaDBaVWtrOGk1NS0ya0p4MzduS2VQTkk1MXdmRDRQdy1nT0NvUnREbkI2MWVBS3hmNElYM0pSVVE1R21BS0E3Tko4bXhWYjhsaXlnMXBjdw?oc=5"
+    },
+    {
+      "date": "2026-08-26",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war latest: Drone strike sparks fire at major Russian oil refinery, General Staff says",
+      "source": "The Kyiv Independent",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbXhfR1h3elRKTTVsNmkyVHdzZWJBTkN2NFlQeWYxNHNqN25wZ3VPZXFEbmYza01yX0FBbjNOZ1pZR01GZENtZlp6Y1RGMFJXd09EaldITHI4UkZ0U3FYYmM4bTV0RFhpSGJYbUpvY2h0Q0FxUzRMbmtNbHlDa2NBWF9LcXFDOVlHYTZhQU4zaXJiOWhESEtJTUdldy1mWWFTRVVfS1UzNExCaWNwMlV1cnpsbFIwLXB3TmJiM3dR?oc=5"
+    },
+    {
+      "date": "2026-08-26",
+      "type": "infrastructure",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "3 Killed in Russia as Ukraine Sets Wildberries Warehouse and Oil Refinery Ablaze",
+      "source": "The Moscow Times",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdkJHeVpVejdlWU1HdHN2akdQY2ZHejJFaVZ3UzB2WkdXR2ZUTU9LRWxxWGxCMmZjdVUwQjZWQmFIZ3dSTkpQZHAwSThTUDYtZENrbURwd0V1UXR3Nzg1aDVQejhPSl9mZG5UZFVBbG00Y0tyMHcyV25XVV9tVkdxSUNOdldSa1ZYcUNLZ3hMdTU2RmFKX0t4VzM5UC1iWU1oeWZ2N1o1V0YxczdoTVdQZnBZWmpSTXRrMElRTDBjSWl4cjU4YkpSNA?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 182
+      "count": 184
     },
     {
       "place": "Moscow",
-      "count": 65
+      "count": 66
     },
     {
       "place": "Kryvyi Rih",
@@ -6694,15 +6744,15 @@
       "count": 5
     },
     {
+      "place": "Donetsk",
+      "count": 5
+    },
+    {
       "place": "Dnipro",
       "count": 4
     },
     {
       "place": "Kharkiv",
-      "count": 4
-    },
-    {
-      "place": "Donetsk",
       "count": 4
     }
   ],

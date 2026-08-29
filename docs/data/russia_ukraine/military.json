@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-08-28T22:19:53+00:00",
+  "updated": "2026-08-29T07:04:40+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-08-28"
+    "to": "2026-08-29"
   },
   "kpis": {
-    "events_total": 610,
-    "events_unlocated": 1713,
-    "events_7d": 68,
-    "events_prev_7d": 96,
+    "events_total": 614,
+    "events_unlocated": 1718,
+    "events_7d": 65,
+    "events_prev_7d": 93,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -732,10 +732,19 @@
     },
     {
       "date": "2026-08-28",
-      "total": 4,
-      "strike": 4,
+      "total": 5,
+      "strike": 5,
       "ground": 0,
       "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-08-29",
+      "total": 3,
+      "strike": 1,
+      "ground": 1,
+      "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
     }
@@ -6840,16 +6849,56 @@
       "title": "Deadly Russian strikes hit civilian targets in Ukraine",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/8/28/deadly-russian-strikes-hit-civilian-targets-in-ukraine?traffic_source=rss"
+    },
+    {
+      "date": "2026-08-28",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russo-Ukrainian war, day 1647: Kyiv is under nonstop attack for a second day as Russia's strikes wipe out 90% of Ukraine's modern commercial storage",
+      "source": "Euromaidan Press",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9yTlY5aDNLeWpXUlBfX2FiRk9mdGl3M3VKQlUxcWhGV0x0RzdfMmVNVXBEWDFCNHNfSjBvVkJuQWNIMDFQWk13WllDQmRhenhwMTRtUWVjTjRUT0x3VmwzU1ctZkVBVGhLWDRxVldqbXRTLTEwYzUw?oc=5"
+    },
+    {
+      "date": "2026-08-29",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine War, Day 1,648: Kyiv Strikes More Warehouses Inside Russia",
+      "source": "EA WorldView",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRnVfRWFLbUdSRlNXMEdzX3RkNld0SlBIeTFGNU01czFVdFNJRmFoekdrbW1KSWd4a081dDkzaWtRbjJVd2dtdnJUa0xsc3UyZ2JFQWZ5U05YRHdqWFVnb0lyRlluY0lzS3d3SjlmXzFGRGVuUzRpVWRNcjRBUVg3MllTR1hJUVk?oc=5"
+    },
+    {
+      "date": "2026-08-29",
+      "type": "ground",
+      "place": "Kramatorsk",
+      "lat": 48.7389,
+      "lon": 37.5848,
+      "title": "Love under anti-drone nets: Ukrainian couple wed in Kramatorsk combat zone",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/aug/29/ukraine-war-family-wedding-eastern-frontline-russia"
+    },
+    {
+      "date": "2026-08-29",
+      "type": "infrastructure",
+      "place": "Rostov-on-Don",
+      "lat": 47.2357,
+      "lon": 39.7015,
+      "title": "Ukraine war briefing: Zelenskyy orders military to triple daily long-range strikes on Russia",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/aug/29/ukraine-war-briefing-long-range-strikes-on-russia-tripled"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 182
+      "count": 183
     },
     {
       "place": "Moscow",
-      "count": 68
+      "count": 66
     },
     {
       "place": "Kryvyi Rih",

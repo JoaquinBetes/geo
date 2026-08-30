@@ -1,6 +1,6 @@
 {
   "id": "china_taiwan",
-  "updated": "2026-08-30T16:41:21+00:00",
+  "updated": "2026-08-30T21:06:05+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -46,9 +46,9 @@
     "to": "2026-08-31"
   },
   "kpis": {
-    "events_total": 49,
-    "events_unlocated": 1161,
-    "events_7d": 11,
+    "events_total": 51,
+    "events_unlocated": 1165,
+    "events_7d": 13,
     "events_prev_7d": 9,
     "hottest_place": "Taipei"
   },
@@ -325,10 +325,10 @@
     },
     {
       "date": "2026-08-30",
-      "total": 1,
-      "strike": 1,
+      "total": 3,
+      "strike": 2,
       "ground": 0,
-      "infrastructure": 0,
+      "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
     },
@@ -824,6 +824,26 @@
       "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/30/2003863370"
     },
     {
+      "date": "2026-08-30",
+      "type": "strike",
+      "place": "Taipei",
+      "lat": 25.033,
+      "lon": 121.5654,
+      "title": "US testing Harpoon missiles Taiwan purchased",
+      "source": "Taipei Times",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE12cUdJM2xqb2dtTW5PX1dEYTdEdkhDNmNSOHVaV3BEc01WSmpaYTBBanJlWUhIalp2M0NBMkU0U1AyaWZsSDRPeE1EYWJyaEVVTVkycy10UUYtV0UwdThfX0R0NHExSno5dmU3QXFldVVJank5bTV4dg?oc=5"
+    },
+    {
+      "date": "2026-08-30",
+      "type": "infrastructure",
+      "place": "Kaohsiung",
+      "lat": 22.6273,
+      "lon": 120.3014,
+      "title": "TIPC establishes command center at Kaohsiung Port",
+      "source": "Taipei Times",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBONFMtSHRETUlXSEp2c2J2MnpnZk1zTm4xNFlIV2tZMDQ1cGN3M2xrellRMFJMM1NmLUlfQzRtMHBOWVFNRjFIMHFUc2NkenpWRDlpNnRUbTBUVGhCOUwtdmhld3diNi03RUpWSFBuTS1QZnFxRld0a21n?oc=5"
+    },
+    {
       "date": "2026-08-31",
       "type": "infrastructure",
       "place": "Kaohsiung",
@@ -837,7 +857,7 @@
   "top_places": [
     {
       "place": "Taipei",
-      "count": 20
+      "count": 21
     },
     {
       "place": "Penghu",
@@ -852,15 +872,15 @@
       "count": 2
     },
     {
+      "place": "Kaohsiung",
+      "count": 2
+    },
+    {
       "place": "Beijing",
       "count": 1
     },
     {
       "place": "Kinmen",
-      "count": 1
-    },
-    {
-      "place": "Kaohsiung",
       "count": 1
     }
   ],

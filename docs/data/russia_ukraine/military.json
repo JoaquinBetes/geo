@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-08-29T20:55:39+00:00",
+  "updated": "2026-08-30T05:24:31+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-08-29"
+    "to": "2026-08-30"
   },
   "kpis": {
-    "events_total": 623,
-    "events_unlocated": 1726,
-    "events_7d": 74,
-    "events_prev_7d": 93,
+    "events_total": 626,
+    "events_unlocated": 1733,
+    "events_7d": 67,
+    "events_prev_7d": 95,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -741,9 +741,18 @@
     },
     {
       "date": "2026-08-29",
-      "total": 12,
-      "strike": 10,
+      "total": 14,
+      "strike": 11,
       "ground": 1,
+      "infrastructure": 2,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-08-30",
+      "total": 1,
+      "strike": 0,
+      "ground": 0,
       "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
@@ -6979,23 +6988,53 @@
       "title": "Russian strike on a munitions depot triggers deadly blasts near Kyiv",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/8/29/29-08-sv-russia-strikes-arms-depot-kyiv-fm?traffic_source=rss"
+    },
+    {
+      "date": "2026-08-29",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Russia Claims Strike on Ukrainian Shipment Terminal",
+      "source": "The Moscow Times",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOakR5TmlRYVFWRW8zTVphWG9rZ0FXS1I3LUMyODVKR2lNVnlremphNmIyLXl0SGVzRlk2SDFSSEhNc1hwcE9FUklGS0hLU1doRG13ajNvQ2FpQng5V09MSW5aSFJnXzhUVzN4NFhGaHBBSWhsNFdnZk5IVS00dG16ajkwY0ZROFJKX2xQNVRESTM2Y0d4VThBbnh5VUZpQ1ZINUE?oc=5"
+    },
+    {
+      "date": "2026-08-29",
+      "type": "infrastructure",
+      "place": "Zaporizhzhia",
+      "lat": 47.8388,
+      "lon": 35.1396,
+      "title": "Ukrainian nuclear power plant without external power for over a week",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/29/ukrainian-nuclear-power-plant-without-external-power-for-over-a-week?traffic_source=rss"
+    },
+    {
+      "date": "2026-08-30",
+      "type": "infrastructure",
+      "place": "Zaporizhzhia",
+      "lat": 47.8388,
+      "lon": 35.1396,
+      "title": "Ukraine war briefing: Nuclear plant has lost power and running on generators, UN watchdog says",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/aug/30/ukraine-war-briefing-nuclear-plant-lost-power"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 192
+      "count": 187
     },
     {
       "place": "Moscow",
       "count": 66
     },
     {
-      "place": "Kryvyi Rih",
+      "place": "Zaporizhzhia",
       "count": 12
     },
     {
-      "place": "Zaporizhzhia",
+      "place": "Kryvyi Rih",
       "count": 10
     },
     {

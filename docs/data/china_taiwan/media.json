@@ -1,6 +1,6 @@
 {
   "id": "china_taiwan",
-  "updated": "2026-08-30T11:54:42+00:00",
+  "updated": "2026-08-30T16:41:20+00:00",
   "overall_tone": -0.1625,
   "rsf_as_of": "2025 (aprox.)",
   "outlets": [
@@ -15,9 +15,9 @@
       "lat": 25.2867,
       "lon": 51.5333,
       "rsf": 84,
-      "articles": 4353,
-      "tone_avg": -0.2647,
-      "tone_delta": -0.1022
+      "articles": 4378,
+      "tone_avg": -0.2653,
+      "tone_delta": -0.1028
     },
     {
       "name": "Taipei Times",
@@ -30,9 +30,9 @@
       "lat": 25.033,
       "lon": 121.5654,
       "rsf": 24,
-      "articles": 3532,
-      "tone_avg": -0.0264,
-      "tone_delta": 0.1361
+      "articles": 3578,
+      "tone_avg": -0.0263,
+      "tone_delta": 0.1362
     },
     {
       "name": "BBC",
@@ -45,7 +45,7 @@
       "lat": 51.5188,
       "lon": -0.144,
       "rsf": 20,
-      "articles": 1337,
+      "articles": 1338,
       "tone_avg": -0.2903,
       "tone_delta": -0.1278
     },
@@ -60,9 +60,9 @@
       "lat": 38.899,
       "lon": -77.008,
       "rsf": 57,
-      "articles": 393,
-      "tone_avg": -0.3069,
-      "tone_delta": -0.1444
+      "articles": 395,
+      "tone_avg": -0.3071,
+      "tone_delta": -0.1446
     },
     {
       "name": "TIME",
@@ -90,9 +90,9 @@
       "lat": 25.04,
       "lon": 121.56,
       "rsf": 24,
-      "articles": 232,
-      "tone_avg": -0.0293,
-      "tone_delta": 0.1332
+      "articles": 233,
+      "tone_avg": -0.0292,
+      "tone_delta": 0.1333
     },
     {
       "name": "Reuters",
@@ -110,6 +110,21 @@
       "tone_delta": -0.0167
     },
     {
+      "name": "South China Morning Post",
+      "url": "https://www.scmp.com",
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "iso3": "HKG",
+      "type": "privado",
+      "desc": "Histórico diario hongkonés en inglés, propiedad de Alibaba desde 2016 — su margen frente a Pekín es objeto de escrutinio.",
+      "lat": 22.3193,
+      "lon": 114.1694,
+      "rsf": 135,
+      "articles": 78,
+      "tone_avg": -0.111,
+      "tone_delta": 0.0515
+    },
+    {
       "name": "Global Times",
       "url": "https://www.globaltimes.cn",
       "city": "Pekín",
@@ -123,21 +138,6 @@
       "articles": 78,
       "tone_avg": -0.0021,
       "tone_delta": 0.1604
-    },
-    {
-      "name": "South China Morning Post",
-      "url": "https://www.scmp.com",
-      "city": "Hong Kong",
-      "country": "Hong Kong",
-      "iso3": "HKG",
-      "type": "privado",
-      "desc": "Histórico diario hongkonés en inglés, propiedad de Alibaba desde 2016 — su margen frente a Pekín es objeto de escrutinio.",
-      "lat": 22.3193,
-      "lon": 114.1694,
-      "rsf": 135,
-      "articles": 77,
-      "tone_avg": -0.1049,
-      "tone_delta": 0.0576
     },
     {
       "name": "Nikkei Asia",
@@ -285,9 +285,9 @@
       "lat": 19.08,
       "lon": 72.88,
       "rsf": 151,
-      "articles": 20,
-      "tone_avg": -0.3046,
-      "tone_delta": -0.1421
+      "articles": 21,
+      "tone_avg": -0.3297,
+      "tone_delta": -0.1672
     },
     {
       "name": "Xinhua",
@@ -405,9 +405,9 @@
       "lat": 48.841,
       "lon": 2.268,
       "rsf": 25,
-      "articles": 10,
-      "tone_avg": -0.0815,
-      "tone_delta": 0.081
+      "articles": 11,
+      "tone_avg": -0.0741,
+      "tone_delta": 0.0884
     },
     {
       "name": "India Today",
@@ -953,27 +953,27 @@
   "by_country": {
     "QAT": {
       "outlets": 1,
-      "articles": 4353
+      "articles": 4378
     },
     "TWN": {
       "outlets": 2,
-      "articles": 3764
+      "articles": 3811
     },
     "GBR": {
       "outlets": 7,
-      "articles": 1497
+      "articles": 1498
     },
     "USA": {
       "outlets": 20,
-      "articles": 838
+      "articles": 840
+    },
+    "HKG": {
+      "outlets": 1,
+      "articles": 78
     },
     "CHN": {
       "outlets": 3,
       "articles": 128
-    },
-    "HKG": {
-      "outlets": 1,
-      "articles": 77
     },
     "JPN": {
       "outlets": 3,
@@ -981,11 +981,11 @@
     },
     "IND": {
       "outlets": 8,
-      "articles": 103
+      "articles": 104
     },
     "FRA": {
       "outlets": 3,
-      "articles": 15
+      "articles": 16
     },
     "KOR": {
       "outlets": 4,
@@ -1027,7 +1027,7 @@
   "others": [
     {
       "source": "Taiwan News",
-      "articles": 228
+      "articles": 229
     },
     {
       "source": "China Daily",
@@ -1086,7 +1086,7 @@
       "articles": 16
     }
   ],
-  "others_total": 1902,
-  "matched_articles": 10898,
-  "total_articles": 12800
+  "others_total": 1906,
+  "matched_articles": 10976,
+  "total_articles": 12882
 }

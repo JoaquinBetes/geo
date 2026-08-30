@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-08-30T05:24:37+00:00",
+  "updated": "2026-08-30T11:54:39+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-08-30"
   },
   "kpis": {
-    "events_total": 385,
-    "events_unlocated": 1566,
-    "events_7d": 6,
+    "events_total": 388,
+    "events_unlocated": 1570,
+    "events_7d": 9,
     "events_prev_7d": 18,
     "hottest_place": "Strait of Hormuz"
   },
@@ -595,6 +595,15 @@
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-08-30",
+      "total": 3,
+      "strike": 2,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 1,
       "anomaly": false
     }
   ],
@@ -4448,20 +4457,50 @@
       "title": "Iranian missiles become art in Israeli blacksmith's studio",
       "source": "The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE04eFlFWDlyU0xzSVczR2F5MzBJRnRWRlpWeWx2cUgzMEJldzAxYVNCTzFBNlpYTF96SnR4dDB4UFdjU0hqZ3U1R21WNDRxcThuQWhQb2V6WTRQbU1FZElJbTY5N1RTM1E?oc=5"
+    },
+    {
+      "date": "2026-08-30",
+      "type": "air_defense",
+      "place": "Jerusalem",
+      "lat": 31.7683,
+      "lon": 35.2137,
+      "title": "Greece to sign $3.6b. Israeli air defense deal, creating 'Achilles Shield' against Turkey and Iran",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE43V2k2anZ2VEdYWGxldzF5OE5pd3AtcnJEWnowT0JJRTE1ZnFjMV9Rcm1EMGdLMTRhXzdrNEhkb3hjN3VjZEpRTGRCVGdDWlBGcVg3Vkl5VGQ1bzU4NUNTdUFOSVpEbmtnNWt3eFpn?oc=5"
+    },
+    {
+      "date": "2026-08-30",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Israel Threatens to Strike Iran as Tehran Vows to Continue Developing Its Defense Capabilities",
+      "source": "jordannews.jo",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOYmx2anNUWWJ2ZnAzODVzbnI2QXNkZ0l4TW4tb1U4Mms0S0QwUHluaWZ5TE5aSHRCdzNkNlhCZmV3Y29xbmNFdXhSTUFrME5ocldzQ2ZVVXpYcHh5dnp5RnFuZGhnLVpMbHU4d1RyY1RBZklqODBnTU1KNWwwTWRtYTY5RXNkNm1fZDhNMFQ0N3ZaMDl6bWRjSU1GNno0MUxWX3h6WGlCcC0yc3FhMFhha3Vub09BTHNrS3FRaFZXQlRYZklFN0JBeGc5bzgxdFJYZDVSRkUyTTF2SG81S1F4aWR2UQ?oc=5"
+    },
+    {
+      "date": "2026-08-30",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Six months on, what did the strikes on Iran achieve?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/by-the-numbers-3/2026/8/30/six-months-on-what-did-the-strikes-on-iran-achieve?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 47
+      "count": 48
     },
     {
       "place": "Tehran",
-      "count": 22
+      "count": 23
     },
     {
       "place": "Jerusalem",
-      "count": 9
+      "count": 10
     },
     {
       "place": "Damascus",

@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-08-31T05:34:56+00:00",
+  "updated": "2026-08-31T13:50:32+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-08-31"
   },
   "kpis": {
-    "events_total": 393,
-    "events_unlocated": 1585,
-    "events_7d": 13,
+    "events_total": 397,
+    "events_unlocated": 1595,
+    "events_7d": 17,
     "events_prev_7d": 15,
     "hottest_place": "Strait of Hormuz"
   },
@@ -608,10 +608,10 @@
     },
     {
       "date": "2026-08-31",
-      "total": 1,
-      "strike": 1,
+      "total": 5,
+      "strike": 3,
       "ground": 0,
-      "infrastructure": 0,
+      "infrastructure": 2,
       "air_defense": 0,
       "anomaly": false
     }
@@ -4536,16 +4536,56 @@
       "title": "Iran war live: Tehran says it attacked bases in Jordan, UAE after US strike",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/liveblog/2026/8/31/iran-war-live-irgc-attacks-us-bases-in-jordan-after-us-bombs-larak-island?traffic_source=rss"
+    },
+    {
+      "date": "2026-08-31",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Israel Warns Iran: Will Strikes Resume If Tehran Rebuilds Its Nuclear Programme?",
+      "source": "News18",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOWjNQUXU2eGwtbjRHa2dyNHl0bGtLN0F2TUw0RHQ5QzhXeVdicEVPd2g0SzdJN1ZGajNhZ0NSWElOUV9VMGI1WDJBVGxnblFUUlNTQ21DMmRSR2pEaGhpbnVfajZqbkY5UUctV1E0VThXZWgzQk45TEJHaDNNdU8zajl1azFyQjQ5cUszZlo4S0lMRkxCMWtyd1JDbTJ2SUc1YUJTTDNBNkxSRXQ0YmdrS2V3M3lldFRkb1k5RWRfalk4SkFTVnBSM3ZMRnfSAdIBQVVfeXFMTjZZZFlRUHc3LUdOT0FqXzNackI1RzhLclV0b2VpMDU0NGhMYkNocFBQZlp3YVI5S2RQYmZaOXBFeng1c0RRSTBsTkU2TGMydnNlcXM2Rm9QSV93a1dMMnE0YjZMejZoWWxiVzV3RFhXbU5GbDdQa3hBTG55WVJaSFI3NUNXb0VxRlVOb3ZWQ3E0NEJPczd0VVZnSDUzVW45c3V2bWgzQ3Z1VVZubHpYSEZmd1pvUnhhcFNvSUl5ekZUbkpBZExPQUtZZXpaTl9JUWhn?oc=5"
+    },
+    {
+      "date": "2026-08-31",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iranian president says he still wants diplomatic end to war after US strikes on Hormuz – Middle East crisis live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/live/2026/aug/31/us-iran-israel-hormuz-oil-donald-trump-larak-kharg-island-uae-jordan-latest-news-updates"
+    },
+    {
+      "date": "2026-08-31",
+      "type": "infrastructure",
+      "place": "Baghdad",
+      "lat": 33.3152,
+      "lon": 44.3661,
+      "title": "Fire breaks out after unidentified explosions at oil refinery in Baghdad",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/31/fire-breaks-out-after-unidentified-explosions-at-oil-refinery-in-baghdad-2?traffic_source=rss"
+    },
+    {
+      "date": "2026-08-31",
+      "type": "infrastructure",
+      "place": "Baghdad",
+      "lat": 33.3152,
+      "lon": 44.3661,
+      "title": "Fire breaks out after unidentified explosions at oil refinery in Baghdad",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/31/fire-breaks-out-after-unidentified-explosions-at-oil-refinery-in-baghdad?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 48
+      "count": 49
     },
     {
       "place": "Tehran",
-      "count": 23
+      "count": 24
     },
     {
       "place": "Jerusalem",
@@ -4560,11 +4600,11 @@
       "count": 3
     },
     {
-      "place": "Doha",
-      "count": 1
+      "place": "Baghdad",
+      "count": 3
     },
     {
-      "place": "Baghdad",
+      "place": "Doha",
       "count": 1
     },
     {

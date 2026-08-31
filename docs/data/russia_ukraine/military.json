@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-08-30T21:05:50+00:00",
+  "updated": "2026-08-31T05:34:49+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-08-30"
+    "to": "2026-08-31"
   },
   "kpis": {
-    "events_total": 635,
-    "events_unlocated": 1751,
-    "events_7d": 76,
-    "events_prev_7d": 95,
+    "events_total": 637,
+    "events_unlocated": 1757,
+    "events_7d": 69,
+    "events_prev_7d": 75,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -754,6 +754,15 @@
       "strike": 5,
       "ground": 0,
       "infrastructure": 2,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-08-31",
+      "total": 2,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
     }
@@ -7108,16 +7117,36 @@
       "title": "Ukraine war latest: Nearly 2,000 drones fired at Ukraine in one week as Russia draws out attacks",
       "source": "The Kyiv Independent",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRGxlNUo4c1o1VkJTNjl6NVQwTTZuMDJ6cnNYblJZQ2pOOGtXMXpRZjc2UzJySXN0VEFPbzBORTFGajNhVG05dmhvUk5zRGYtcm4tZFVXTkZuclB3N1dUeXBxYmtOanpLaXZIbUd3U1JNZ244WmZiWUxmYVU4bWxCSDNwS1FNR05sNDFCaGowLXhNMWdjeUctVnBlbkF3Z0kwVV9yOW9nLVh5WFRaeHRrZktYYjAxN29hNmVKRGhZNjBLQQ?oc=5"
+    },
+    {
+      "date": "2026-08-31",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russo-Ukrainian war, day 1649: Russia keeps Kyiv under fire for a fourth day as Ukraine tests new interceptors and strikes back at Russian oil",
+      "source": "Euromaidan Press",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE84WERITnVjSHpOelBSb3E3b3h2QnlQaThsV05hQWV0dWdJcVNiTDlGVURzR0o1ZmtUSkZBNmt3YTBHUWM1QWNwRTRrZGtTNFVuVWpfdzFqN3RyUXduRnBvM3NtSTNXblhQRDFNeGl2UzJWU0ZtQ3U4?oc=5"
+    },
+    {
+      "date": "2026-08-31",
+      "type": "infrastructure",
+      "place": "Belgorod",
+      "lat": 50.5977,
+      "lon": 36.5858,
+      "title": "Ukraine war briefing: Russia planning ‘massive strikes’ on power plants days after its deadliest attack of the year",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/aug/31/ukraine-war-briefing-russia-planning-massive-strikes-on-power-plants-days-after-its-deadliest-attack-of-the-year"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 195
+      "count": 192
     },
     {
       "place": "Moscow",
-      "count": 67
+      "count": 66
     },
     {
       "place": "Zaporizhzhia",
@@ -7132,24 +7161,24 @@
       "count": 8
     },
     {
-      "place": "Donetsk",
+      "place": "Belgorod",
       "count": 6
     },
     {
-      "place": "Belgorod",
-      "count": 5
+      "place": "Donetsk",
+      "count": 6
     },
     {
       "place": "Novorossiysk",
       "count": 5
     },
     {
-      "place": "Dnipro",
+      "place": "Kharkiv",
       "count": 4
     },
     {
-      "place": "Kharkiv",
-      "count": 4
+      "place": "Sevastopol",
+      "count": 3
     }
   ],
   "losses": {

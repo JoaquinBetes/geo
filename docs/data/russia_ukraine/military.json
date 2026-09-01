@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-08-31T22:50:48+00:00",
+  "updated": "2026-09-01T05:08:16+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-08-31"
+    "to": "2026-09-01"
   },
   "kpis": {
-    "events_total": 646,
-    "events_unlocated": 1784,
-    "events_7d": 78,
-    "events_prev_7d": 75,
+    "events_total": 647,
+    "events_unlocated": 1787,
+    "events_7d": 65,
+    "events_prev_7d": 81,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -763,6 +763,15 @@
       "strike": 10,
       "ground": 0,
       "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-01",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -7227,16 +7236,26 @@
       "title": "Kyiv suffers hours of daytime air raids as Russia deploys new jet-powered drones",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/aug/31/russia-fires-jet-powered-drones-ukraine"
+    },
+    {
+      "date": "2026-09-01",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Kyiv suffers hours of daytime air raids as Russia deploys new jet-powered drones",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQazZ5ZDRYS3IxMVd4SWE3dU9fdHJ0RG43ZFZiRXlBQ3c4djhHa2psVzdydHRnVUUxRVhDZy1COWItNzREekV6eDVhb3haMEtfUzBEWW5WVlBTRFcySi1HTWMzbkJJdFkwNWJDaEdDMWNac083bm02TGdXRmJzRWVFZzJUZWdidFQyNDRYdEF3?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 200
+      "count": 183
     },
     {
       "place": "Moscow",
-      "count": 66
+      "count": 63
     },
     {
       "place": "Zaporizhzhia",

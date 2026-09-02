@@ -2,13 +2,13 @@
   "id": "korea_peninsula",
   "name": "Corea del Norte–Corea del Sur",
   "description": "Cobertura mediática de la tensión en la península coreana",
-  "updated": "2026-09-02T16:35:08+00:00",
-  "total_articles": 10403,
-  "overall_avg": -0.2057,
+  "updated": "2026-09-02T21:03:53+00:00",
+  "total_articles": 10440,
+  "overall_avg": -0.2066,
   "distribution": {
-    "pos": 2501,
-    "neu": 2550,
-    "neg": 5352
+    "pos": 2508,
+    "neu": 2554,
+    "neg": 5378
   },
   "sources": [
     "Al Jazeera",
@@ -87,13 +87,13 @@
     "Euronews.com",
     "Українська правда",
     "The New Voice of Ukraine",
+    "chosun.com",
     "The Jerusalem Post",
     "AOL.com",
     "동아일보",
     "AnewZ",
     "StratNews Global",
     "The Washington Post",
-    "chosun.com",
     "The Times",
     "19FortyFive",
     "Goshen News",
@@ -891,7 +891,8 @@
     "trendingtopics.eu",
     "Kursiv Media Узбекистан",
     "Security Boulevard",
-    "koreatimes.co.kr"
+    "koreatimes.co.kr",
+    "Bulletin of the Atomic Scientists"
   ],
   "daily": [
     {
@@ -1760,28 +1761,28 @@
     },
     {
       "date": "2026-09-02",
-      "count": 125,
-      "avg": -0.2497,
-      "pos": 23,
-      "neu": 31,
-      "neg": 71
+      "count": 162,
+      "avg": -0.296,
+      "pos": 30,
+      "neu": 35,
+      "neg": 97
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 4346,
-      "avg": -0.2728
+      "count": 4371,
+      "avg": -0.2742
     },
     {
       "source": "BBC",
-      "count": 1344,
-      "avg": -0.3004
+      "count": 1350,
+      "avg": -0.3014
     },
     {
       "source": "NPR",
-      "count": 392,
-      "avg": -0.2919
+      "count": 394,
+      "avg": -0.2923
     },
     {
       "source": "조선일보",
@@ -1805,8 +1806,8 @@
     },
     {
       "source": "The Korea Herald",
-      "count": 117,
-      "avg": -0.0327
+      "count": 118,
+      "avg": -0.0324
     },
     {
       "source": "upi.com",
@@ -1815,8 +1816,8 @@
     },
     {
       "source": "DailyNK",
-      "count": 101,
-      "avg": -0.125
+      "count": 102,
+      "avg": -0.1218
     },
     {
       "source": "The Korea Times",
@@ -2149,6 +2150,11 @@
       "avg": -0.098
     },
     {
+      "source": "chosun.com",
+      "count": 11,
+      "avg": -0.0839
+    },
+    {
       "source": "The Jerusalem Post",
       "count": 10,
       "avg": -0.2962
@@ -2177,11 +2183,6 @@
       "source": "The Washington Post",
       "count": 10,
       "avg": -0.0033
-    },
-    {
-      "source": "chosun.com",
-      "count": 10,
-      "avg": -0.1624
     },
     {
       "source": "The Times",
@@ -6172,20 +6173,25 @@
       "source": "koreatimes.co.kr",
       "count": 1,
       "avg": 0.9042
+    },
+    {
+      "source": "Bulletin of the Atomic Scientists",
+      "count": 1,
+      "avg": -0.7351
     }
   ],
   "top_entities": [
     {
       "name": "North Korea",
       "type": "LOCATION",
-      "count": 3010,
-      "avg": -0.1176
+      "count": 3011,
+      "avg": -0.1175
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 1323,
-      "avg": -0.1265
+      "count": 1327,
+      "avg": -0.128
     },
     {
       "name": "South Korea",
@@ -6196,8 +6202,8 @@
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 1009,
-      "avg": -0.2533
+      "count": 1010,
+      "avg": -0.2539
     },
     {
       "name": "China",
@@ -6212,16 +6218,16 @@
       "avg": -0.213
     },
     {
+      "name": "United States",
+      "type": "LOCATION",
+      "count": 291,
+      "avg": -0.1129
+    },
+    {
       "name": "Kim Jong-un",
       "type": "PERSON",
       "count": 290,
       "avg": -0.0135
-    },
-    {
-      "name": "United States",
-      "type": "LOCATION",
-      "count": 290,
-      "avg": -0.1133
     },
     {
       "name": "DMZ",
@@ -6238,8 +6244,8 @@
     {
       "name": "Lee Jae-myung",
       "type": "PERSON",
-      "count": 19,
-      "avg": -0.2942
+      "count": 20,
+      "avg": -0.2445
     },
     {
       "name": "Yongbyon",
@@ -6249,6 +6255,326 @@
     }
   ],
   "recent": [
+    {
+      "title": "North Korea tightens control over vehicle use, expands road traffic law",
+      "source": "DailyNK",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQczZyNlF0aEFYSVdCZDk3c1g1ejRoODJNY2hjX3dDNEFxek8xdWlWNVhlckhCTTBPQ0RHeHE3aF9LalRqUnF1SHlMOEdWTnF3NkVEYS1qRW0xTDdKeWhITkxkQzdtdVd1Yl9senNLNmRtbEl6dmZIb1luRGtoV0pqNHFzTUlwWnctVXc?oc=5",
+      "published": "2026-09-02T20:48:45+00:00",
+      "compound": 0.2023,
+      "label": "positive",
+      "entities": [
+        "North Korea"
+      ]
+    },
+    {
+      "title": "Nepal families hold symbolic funerals, thousands still missing",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/2/02-09-sv-nepal-a-week-after-symbolic-funerals-wrap-fm?traffic_source=rss",
+      "published": "2026-09-02T20:30:24+00:00",
+      "compound": -0.7506,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "[Wang Son-taek] Why Washington keeps misreading NK",
+      "source": "The Korea Herald",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBvamY4dWlVN1RmbVNHNzNrMHgxaFlZOEdjSnNEQ2l2SEtwZWlzUkZTY21tNEhFakQwT0dPYlVRVUhPYWthdV81Q1I5QXFJT0IwYzZWNnVlOA?oc=5",
+      "published": "2026-09-02T20:30:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "United States"
+      ]
+    },
+    {
+      "title": "Uber shuts operations in Nigeria and Uganda with immediate effect",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c86xpv8l9y9o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-02T20:21:04+00:00",
+      "compound": -0.128,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Watch: Jury still unable to reach unanimous decision in Lindsay Clancy case",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/videos/cy8z32v7130o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-02T20:12:32+00:00",
+      "compound": -0.7278,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Trump suggests renaming Strait of Hormuz as Trump Strait amid Iran war",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/2/trump-suggests-renaming-strait-of-hormuz-as-trump-strait-amid-iran?traffic_source=rss",
+      "published": "2026-09-02T20:12:14+00:00",
+      "compound": -0.6898,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "What you need to know: US launches coin featuring Trump’s face",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/2/what-you-need-to-know-us-launches-coin-featuring-trumps-face?traffic_source=rss",
+      "published": "2026-09-02T20:11:14+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Israeli protesters call for an end to settler violence",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/2/israeli-protesters-call-for-an-end-to-settler-violence?traffic_source=rss",
+      "published": "2026-09-02T20:07:41+00:00",
+      "compound": -0.9274,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "US judge rejects bid to break up Google’s ad business",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/9/2/us-judge-rejects-bid-to-break-up-googles-ad-business?traffic_source=rss",
+      "published": "2026-09-02T20:06:25+00:00",
+      "compound": -0.5932,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Trump says US sees ‘everything’ Iran does, threatens further attacks",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/2/09-02-trump-soundbite-iran-clip?traffic_source=rss",
+      "published": "2026-09-02T20:04:55+00:00",
+      "compound": -0.9274,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Tiger Woods avoids jail time, takes plea deal over Florida crash",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/2/tiger-woods-avoids-jail-time-takes-plea-deal-over-florida-crash?traffic_source=rss",
+      "published": "2026-09-02T20:00:34+00:00",
+      "compound": -0.7269,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "A jury in Malta acquits a businessman in the killing of reporter Daphne Caruana Galizia",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/09/02/nx-s1-5954420/daphne-caruana-galizia-case-yorgen-fenech-acquitted-malta",
+      "published": "2026-09-02T19:48:18+00:00",
+      "compound": -0.9313,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Dreams shattered: Gaza amputees struggle under blockade and rubble",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/2026/9/2/dreams-shattered-gaza-amputees-struggle-under-blockade-and-rubble?traffic_source=rss",
+      "published": "2026-09-02T19:35:36+00:00",
+      "compound": -0.7717,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Saudi Arabia condemns deadly Iranian attack on tanker in Strait of Hormuz",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/2/saudi-arabia-condemns-deadly-iranian-attack-on-tanker-in-strait-of-hormuz?traffic_source=rss",
+      "published": "2026-09-02T19:16:36+00:00",
+      "compound": -0.9485,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "US says it will use regional body to isolate Nicaragua",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/2/us-says-it-will-use-regional-body-to-isolate-nicaragua?traffic_source=rss",
+      "published": "2026-09-02T19:12:47+00:00",
+      "compound": -0.6597,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Malta businessman acquitted of plotting journalist Caruana Galizia murder",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/2/malta-businessman-acquitted-of-plotting-journalist-caruana-galizia-murder?traffic_source=rss",
+      "published": "2026-09-02T19:06:58+00:00",
+      "compound": -0.886,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "EU pursuing more Russia sanctions after failed airport attack: Kallas",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/2/eu-pursuing-more-russia-sanctions-after-failed-airport-attack-kallas?traffic_source=rss",
+      "published": "2026-09-02T19:06:19+00:00",
+      "compound": -0.9336,
+      "label": "negative",
+      "entities": [
+        "Russia"
+      ]
+    },
+    {
+      "title": "Maltese tycoon acquitted of orchestrating murder of renowned journalist",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c5ye295pxgxo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-02T19:05:31+00:00",
+      "compound": -0.9136,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "USS Abraham Lincoln reaches Thailand after 9 months at sea",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/2/uss-abraham-lincoln-reaches-thailand-after-9-months-at-sea?traffic_source=rss",
+      "published": "2026-09-02T18:51:57+00:00",
+      "compound": -0.6249,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Signing ceremony as US to control a fifth of Venezuela’s oil reserves",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/2/signing-ceremony-as-us-to-control-a-fifth-of-venezuelas-oil-reserves?traffic_source=rss",
+      "published": "2026-09-02T18:51:07+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Will the EU take action against Israel?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/9/2/will-the-eu-take-action-against-israel?traffic_source=rss",
+      "published": "2026-09-02T18:46:21+00:00",
+      "compound": -0.4404,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Israel kills or injures 7 children a day in Lebanon invasion, report says",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/2/israel-kills-or-injures-7-children-a-day-in-lebanon-invasion-report-says?traffic_source=rss",
+      "published": "2026-09-02T18:31:22+00:00",
+      "compound": -0.6628,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "UK’s Burnham faces first parliament grilling, vows to ‘bring back hope’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/9/2/uks-burnham-faces-first-parliament-grilling-vows-to-bring-back-hope?traffic_source=rss",
+      "published": "2026-09-02T18:11:48+00:00",
+      "compound": 0.5106,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "EU ministers in Ireland tackle Israeli settlement trade and Ukraine defence",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/2/09-02-26-reported-ireland-talks?traffic_source=rss",
+      "published": "2026-09-02T17:56:18+00:00",
+      "compound": 0.2617,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Gunman in deadly Swiss rave attack ‘lone perpetrator’, police say",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/2/gunman-in-deadly-swiss-rave-attack-lone-perpetrator-police-say?traffic_source=rss",
+      "published": "2026-09-02T17:43:01+00:00",
+      "compound": -0.9169,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Over 500 students hospitalised after eating state-supplied meals in Indones",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/2/over-500-students-hospitalised-after-eating-state-supplied-meals-in-indones?traffic_source=rss",
+      "published": "2026-09-02T17:37:29+00:00",
+      "compound": -0.5859,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "A year into Trump’s boat strike campaign, families search for answers",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/2/a-year-into-trumps-boat-strike-campaign-families-search-for-answers?traffic_source=rss",
+      "published": "2026-09-02T17:35:32+00:00",
+      "compound": -0.8885,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Iranian attack on Saudi tanker killed two Filipino sailors, Saudi Arabia says",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cx2zxgg4mx9o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-02T17:33:45+00:00",
+      "compound": -0.8979,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Netherlands moves billions in gold to London in 'crisis preparedness' move",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cvgy51xlz39o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-02T17:21:00+00:00",
+      "compound": -0.6249,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Brazilian activist demands Tunisia release Sumud Flotilla organisers",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/2/brazilian-activist-demands-tunisia-release-sumud-flotilla-organisers?traffic_source=rss",
+      "published": "2026-09-02T17:10:17+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "South African airline behind daring stadium stunt cancels next flyby, regulator says",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c2e0r4nwg30o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-02T16:58:59+00:00",
+      "compound": 0.2263,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "US oil giant Chevron to expand Venezuela operations",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/9/2/us-oil-giant-chevron-to-expand-venezuela-operations?traffic_source=rss",
+      "published": "2026-09-02T16:57:22+00:00",
+      "compound": 0.3182,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Uber lays off 3,300 employees in largest cuts since the pandemic",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/9/2/uber-lays-off-3300-employees-in-largest-cuts-since-the-pandemic?traffic_source=rss",
+      "published": "2026-09-02T16:55:52+00:00",
+      "compound": -0.296,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Deadly bus crash in Egypt’s Sinai kills 22, injures 28",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/2/deadly-bus-crash-in-egypts-sinai-kills-22-injures-28?traffic_source=rss",
+      "published": "2026-09-02T16:52:52+00:00",
+      "compound": -0.9442,
+      "label": "negative",
+      "entities": []
+    },
     {
       "title": "Woman charged with juror intimidation in Lindsay Clancy trial",
       "source": "BBC",
@@ -6426,6 +6752,15 @@
       "entities": []
     },
     {
+      "title": "Chevron to expand in Venezuela, days after the U.S. and Venezuela strike oil deal",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/09/02/nx-s1-5952190/chevron-venezuela-oil-deal",
+      "published": "2026-09-02T14:08:03+00:00",
+      "compound": 0.1779,
+      "label": "positive",
+      "entities": []
+    },
+    {
       "title": "Summer transfers 2026: All to know as Premier League signings break records",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/sports/2026/9/2/summer-transfers-2026-all-to-know-as-premier-league-signings-break-records?traffic_source=rss",
@@ -6491,346 +6826,6 @@
       "compound": -0.3939,
       "label": "negative",
       "entities": []
-    },
-    {
-      "title": "Putin and Zelenskyy issue threats as strikes rock Ukraine, Russia",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/2/putin-and-zelenskyy-issue-threats-as-strikes-rock-ukraine-russia?traffic_source=rss",
-      "published": "2026-09-02T12:55:42+00:00",
-      "compound": -0.9136,
-      "label": "negative",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "Bodies excavated from worst flood-hit district near Nepal-China border",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/2/bodies-excavated-from-worst-flood-hit-district-near-nepal-china-border?traffic_source=rss",
-      "published": "2026-09-02T12:53:27+00:00",
-      "compound": -0.8442,
-      "label": "negative",
-      "entities": [
-        "China"
-      ]
-    },
-    {
-      "title": "The Ongoing Spread of North Korean Worker Scams",
-      "source": "Security Boulevard",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY2RzRkMzbHgwSmdmMkVjb2lpMHVNSzI0ZHItY0s0UThQN1F1NExDal96cG9rZHE4azhFOEVxaThORUxxYlhqYlJOZVE0MFdkMm96QXVicF9JZ1VaYTI3d0pCc1FacGVadTV3c1BsaldnbVFRVkdIRTNWaGZlSWJHQ0pvNlZycDQwR1c1eEVfYw?oc=5",
-      "published": "2026-09-02T12:48:54+00:00",
-      "compound": -0.7351,
-      "label": "negative",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "What is Iran’s Castle Breaker missile, used against US bases?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/2/what-is-irans-castle-breaker-missile-used-against-us-bases?traffic_source=rss",
-      "published": "2026-09-02T12:38:39+00:00",
-      "compound": -0.0772,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Palestinian landowners confront bulldozers using their hands",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/2/palestinian-landowners-confront-bulldozers-using-their-hands?traffic_source=rss",
-      "published": "2026-09-02T12:14:45+00:00",
-      "compound": -0.34,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Killing at Sea",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/fault-lines/2026/9/2/killing-at-sea?traffic_source=rss",
-      "published": "2026-09-02T12:00:00+00:00",
-      "compound": -0.9274,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "More than 900 killed in Gaza this year despite ceasefire, Hamas-run health ministry says",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c7708dy33pdo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-02T11:51:46+00:00",
-      "compound": -0.8648,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Rosenberg: Putin's veiled threat to UK part of Russia's campaign against West",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c62j50n131mo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-02T11:47:11+00:00",
-      "compound": -0.7096,
-      "label": "negative",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "The US is gobbling up Venezuelan oil, but will it lower fuel prices?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/2/the-us-is-gobbling-up-venezuelan-oil-but-will-it-lower-fuel-prices?traffic_source=rss",
-      "published": "2026-09-02T11:43:31+00:00",
-      "compound": -0.8095,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Madagascar ex-Senate chief sentenced to hard labour over deadly Gen Z protest crackdown",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cz0z3x4n9ypo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-02T11:34:23+00:00",
-      "compound": -0.8739,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "India's prime minister is wooing the GenZ while cracking down on them",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/09/02/g-s1-141512/india-genz-protests",
-      "published": "2026-09-02T11:11:04+00:00",
-      "compound": 0.3818,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "ICE says it now has enough body cameras. And, Congress averts shutdown before midterms",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/09/02/g-s1-141513/up-first-newsletter-iran-war-ice-body-cameras-massachusetts-ed-markey-government-shutdown",
-      "published": "2026-09-02T11:08:04+00:00",
-      "compound": -0.1027,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Nigerian anticorruption agency sacks 40 staff over misconduct allegations",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/2/nigerian-anticorruption-agency-sacks-40-staff-over-misconduct-allegations?traffic_source=rss",
-      "published": "2026-09-02T11:00:57+00:00",
-      "compound": -0.4939,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "What do we know about the fatal US bombing of a wedding in Iran’s Sirik?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/2/what-do-we-know-about-the-fatal-us-bombing-of-a-wedding-in-irans-sirik?traffic_source=rss",
-      "published": "2026-09-02T10:57:16+00:00",
-      "compound": -0.7778,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Messi retirement and FIFA ban leave Paredes uncertain of Argentina future",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/9/2/paredes-says-ban-by-fifa-messi-retirement-make-argentina-future-uncertain?traffic_source=rss",
-      "published": "2026-09-02T10:56:05+00:00",
-      "compound": -0.8689,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Video: Chinese President Xi makes first visit to Egypt in a decade",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/2/video-chinese-president-xi-makes-first-visit-to-egypt-in-a-decade?traffic_source=rss",
-      "published": "2026-09-02T10:54:52+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "China"
-      ]
-    },
-    {
-      "title": "Bus crash on Egypt's Red Sea coast kills 22",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cn8mr1myy2ko?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-02T10:49:22+00:00",
-      "compound": -0.93,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "What we know about reported strike on Iran wedding celebrations",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/videos/c0lr1krdxxwo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-02T10:33:47+00:00",
-      "compound": -0.25,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Guinea-Bissau referendum approves new constitution that expands president's powers",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c93eny4dqp2o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-02T10:32:26+00:00",
-      "compound": 0.4767,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "How indie cinema is beating Hollywood in 2026",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/money-works/2026/9/2/how-indie-cinema-is-beating-hollywood-in-2026?traffic_source=rss",
-      "published": "2026-09-02T10:20:57+00:00",
-      "compound": -0.7184,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "South Korea’s Lee pushes to end 73-year Korean War limbo",
-      "source": "Kursiv Media Узбекистан",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUDlFenhqUVQwTnJMRGdWemxnSk1sX3Y3Qkh6V1Z2U2dHRGtVbW0tcmRVYTBkZkZfM2RRb29JX1ItbjRtbFVQZWhwaGNJRFRPNzZjRDdrR0NvRUhOTVFpUkhvczdTNnpRRXJXRWJzb25vY0pBRmFJS1ROX1VqWlhBb0h3?oc=5",
-      "published": "2026-09-02T10:13:15+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "South Korea"
-      ]
-    },
-    {
-      "title": "5,000 US sailors descend on Thailand as USS Abraham Lincoln docks",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/2/5000-us-sailors-descend-on-thailand-as-uss-abraham-lincoln-docks?traffic_source=rss",
-      "published": "2026-09-02T10:08:44+00:00",
-      "compound": 0.4215,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Thousands still missing as Nepal-Tibet flood relief and recovery intensifies",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c8xk45k9r1go?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-02T10:07:02+00:00",
-      "compound": -0.5994,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "US sailors arrive in Thailand's Pattaya after record 250 days at sea",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cg7k09z4lj9o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-02T10:04:28+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Zelensky says airlines should avoid Russian airspace as Ukraine escalates drone operations",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c9v9yydy2wvo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-02T10:00:08+00:00",
-      "compound": -0.6249,
-      "label": "negative",
-      "entities": [
-        "China",
-        "Russia"
-      ]
-    },
-    {
-      "title": "Don’t Cut Off Friends to Reach Out to North Korea",
-      "source": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMXlZU2pMTzhkM01kYmR2VlQ1ZHpUaTFwZ0NCLVRhZTBnQU9mY3MtT2FWazd5N1NFWkZ2d2JEUlY5VWtUTHBfZTVteEpkWHB2OFdsRW5ya0RESF9mTVlxLUo2RV9DVUFoSHdLcnZrOFVUOHptX0xjU2dWbzVfNTRtZDJBcmdqa1h6MndCUkNMSkROY1VfSHNicXdTY3hlQWQ0LTJKRzVDWmQzRC1iOVB1T2x0T3E4RXdt?oc=5",
-      "published": "2026-09-02T10:00:04+00:00",
-      "compound": 0.4939,
-      "label": "positive",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "North Korea in August 2026: A month in review and what’s ahead",
-      "source": "NK News",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMzA5cXRuNEk0RzRuLU8zMFAyR3pLcDZ6bEZDT1Zxb3J5ZFhCaEpQSzBZTlJNdVEwR0hCcDdaLUc1X1dyd205TjdlRS1FdURfOGFUWkNMdzQyOE50VGVIOFRRNy1pajhPeFpNeWplZ0JmQkRueV9MQXdBNXRnN0dQc2xEM19uQnV0c3o3WWVIUzJlUQ?oc=5",
-      "published": "2026-09-02T09:48:03+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "Nepal search operations continue a week after catastrophic floods",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/2/nepal-search-operations-continue-a-week-after-catastrophic-floods?traffic_source=rss",
-      "published": "2026-09-02T09:45:52+00:00",
-      "compound": -0.8074,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "The Jerusalem of the East: When Billy Graham Visited Pyongyang",
-      "source": "lithub.com",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLTlFOVNXLVpCN1NxM3V4UnNuanNkYmV4TTJnbjZoaVVlZ2lEU3JLbjJNMnJfOE5BVnU0NlQ1OExZRndHOFZhSng1VFpnc0ZsTnRCekRtLXdJeUMweTBOMlBvODJYWkI5RkpJeVR0blBGU1lVZDhGQjVGc3VfS2tOWVJXVGFUVFZu?oc=5",
-      "published": "2026-09-02T09:27:48+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Lee says Trump’s gestures revive hope for Korean peace regime, vows to help resume talks",
-      "source": "koreajoongangdaily.com",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQjI3SjBqQ1Jpb2dDWWNJOVF0NEhxSnRrMkIzbVlwOTNOdV9tVmhqT3g4ZWNpSU1JN0RseXhjdWY5OVZUREpPdkN1UDY0cThYM21LbXM1SjZUdGE5amJhbGxvVUx4cFNuVzhGUW42amE1NDdHZWJKTXd4Y3Y5SnJrYW9RYVp2WE9jQVVPT3ZfdjRxeG94NVZyQmNOZGNqZzVQU1RoQ0tDYmltMGZoc09CVjFubG1iZ2pUbGVkdWEzXy1PUlMwSDJvRFVWd1pHUGNZN2c?oc=5",
-      "published": "2026-09-02T09:25:45+00:00",
-      "compound": 0.9682,
-      "label": "positive",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "What we know about jailed HK activist Joshua Wong’s latest charge",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/2/what-we-know-about-jailed-hk-activist-joshua-wongs-latest-charge?traffic_source=rss",
-      "published": "2026-09-02T09:17:49+00:00",
-      "compound": -0.7506,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Kim Jong-un's Golden Age: Richer, More Armed, and Less Isolated Than Ever",
-      "source": "El Mundo America",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9zRXRQWi1tQ1p2RFVPeHJUZ3l1NFFVMXBaVjJXNkdpcFczaHYyNkZQa0ZPcy1XdnBoZ3EyekZ1cFNmd2VjOTU3WjRhcXFva0tFSS1janY4SHRpYjR4Q2M2SW9hMGZmMFRBQy1VTTNFV2lGVk1zeGVqVG5fVjNtYjg?oc=5",
-      "published": "2026-09-02T09:04:11+00:00",
-      "compound": 0.584,
-      "label": "positive",
-      "entities": [
-        "Kim Jong-un"
-      ]
-    },
-    {
-      "title": "Israel bars U.S. citizens over criticism and ties to Palestinian activists, lawyers say",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/09/02/nx-s1-5950449/israel-bars-americans-over-palestinian-ties",
-      "published": "2026-09-02T09:00:00+00:00",
-      "compound": -0.7003,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Iran, US exchange new attacks: Who was hit in latest strikes?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/2/iran-us-exchange-new-attacks-who-was-hit-in-latest-strikes?traffic_source=rss",
-      "published": "2026-09-02T08:55:20+00:00",
-      "compound": -0.6597,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Lee pledges to build on Trump opening for US-N. Korea dialogue",
-      "source": "The Korea Herald",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBSMGRSQTA3aVdqSElIMnZMV05ReDBicV9mRlRuejhtTHVYQWZ0V0xoRHdnTWh1X3AyUURMaUs4a2RUVFZfMlFXUXo5bWNsS3NSaEgyZ0ZIdw?oc=5",
-      "published": "2026-09-02T08:47:35+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Donald Trump"
-      ]
     }
   ]
 }

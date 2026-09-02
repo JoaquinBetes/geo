@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-09-02T04:34:10+00:00",
+  "updated": "2026-09-02T11:18:49+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-09-02"
   },
   "kpis": {
-    "events_total": 403,
-    "events_unlocated": 1638,
-    "events_7d": 20,
+    "events_total": 407,
+    "events_unlocated": 1644,
+    "events_7d": 24,
     "events_prev_7d": 13,
     "hottest_place": "Strait of Hormuz"
   },
@@ -617,8 +617,17 @@
     },
     {
       "date": "2026-09-01",
-      "total": 4,
-      "strike": 4,
+      "total": 6,
+      "strike": 6,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-02",
+      "total": 2,
+      "strike": 2,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -4645,16 +4654,56 @@
       "title": "Iran says ‘regretful response’ to US attacks has begun after state TV reports four killed at wedding in Sirik region – live",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/live/2026/sep/01/us-iran-military-strikes-live-updates"
+    },
+    {
+      "date": "2026-09-01",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US resumes strikes on Iran as war centers on control of Strait of Hormuz",
+      "source": "KFOX",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNYXBxNW44V0VLQ0ZoSnNyX3hLdFpQbENudndEeFNQUHM4cjMwU282RzBjT2UzVnpOMl9yNHI1V3ZRcklfTmFtZTFIa2xrdHpjVXo2OHNXSU5TWDJ0OFQxOHQ4azJCb01KZE5fdHlfSHNIbmszcUpRaDJyWEM2STh6b3lwV2ZXNk5TM1lmVFlIcUxremRFRjJXWEV6ODNUVjN4RXY4STYycXdQemEwWUNRUG53U0JLbjN5Rk4yQlAwQkZ4RXNqeW9QNkx1d2tsWFVXMGlyYVV6dERteEVsZmJsM2Vn?oc=5"
+    },
+    {
+      "date": "2026-09-01",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US strikes Iranian sites around Hormuz, IRGC says it retaliated against base in Jordan",
+      "source": "timesofisrael.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcTJ2QWdqQUd1dDhPRlVVQ0tPZHNmc1l6V2Z1WmFTTm1QbDhmdlVjWDdlaDZyZTNSaVNXdjN2c0ZmMmZpQmxzNUh6MVpuNUlrTWZwYkoxc0pGd2l0WWhXS0RIYWhVVEgtZ2hKTG1sc1V3SlRXQ1lxaEdOQXlNWW8zWENnN1N4bGxCWlZIajFZSmNPckdFVGVKWnhBOXAzX2J1Tk90eTZsMjhaSy1OUnFXa1RGdDVVcEnSAbwBQVVfeXFMTi1NTkJzRU1kdDB1NUZZaFgwV1hMNVhWTGpUTEVZMDNZLVJldXpSb2xLWEJKOV92bEFHRjlqUVBzbzJ1X3ZMMFhtZXNHNDZxUk1vaU9uTkJlVXNTVjBqNzRiWElhS0tkaHdNdVlLMElTWm8wYlRoNm9LeDJaWXBrNllxN085RVZIN0k2SnJod3RyM1FTR1FUVElBekVZc0l4WUFjeklEOVlDX2c2eFFTNXFXRXE5cy1GeWVpR0Y?oc=5"
+    },
+    {
+      "date": "2026-09-02",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iran, US exchange new attacks: Who was hit in latest strikes?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/2/iran-us-exchange-new-attacks-who-was-hit-in-latest-strikes?traffic_source=rss"
+    },
+    {
+      "date": "2026-09-02",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "U.S. military strikes Iran, while Trump vows more for Tehran's retaliation",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/09/02/g-s1-141500/us-iran-war"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 43
+      "count": 46
     },
     {
       "place": "Tehran",
-      "count": 20
+      "count": 21
     },
     {
       "place": "Jerusalem",

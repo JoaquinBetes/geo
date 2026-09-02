@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-09-01T21:02:08+00:00",
+  "updated": "2026-09-02T04:34:03+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-09-01"
+    "to": "2026-09-02"
   },
   "kpis": {
-    "events_total": 657,
-    "events_unlocated": 1807,
-    "events_7d": 75,
-    "events_prev_7d": 81,
+    "events_total": 658,
+    "events_unlocated": 1822,
+    "events_7d": 67,
+    "events_prev_7d": 74,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -772,6 +772,15 @@
       "strike": 9,
       "ground": 0,
       "infrastructure": 2,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-02",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -7346,20 +7355,30 @@
       "title": "Russia targets Ukraine’s rail network as war enters deadly new phase",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/sep/01/russia-targets-ukraines-rail-network-as-war-enters-deadly-new-phase"
+    },
+    {
+      "date": "2026-09-02",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Putin Claims Ukraine Will ‘Crumble,’ Threatens Massive Energy Strikes and Rules Out Talks With ‘Terrorists’",
+      "source": "Kyiv Post",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0wNzkzVW5nM3NSN29KM3ZCYlJhQ2VubjlRMFV3ZGNFOU1wMGlBaC0wbGJSTFRvMWFsUnVnVnYzZ3ZlWU1ZTnRtcTBCQQ?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 192
+      "count": 190
     },
     {
       "place": "Moscow",
-      "count": 64
+      "count": 59
     },
     {
       "place": "Zaporizhzhia",
-      "count": 12
+      "count": 10
     },
     {
       "place": "Kryvyi Rih",

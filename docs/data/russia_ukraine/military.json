@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-09-03T11:14:35+00:00",
+  "updated": "2026-09-03T16:25:33+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -48,9 +48,9 @@
     "to": "2026-09-03"
   },
   "kpis": {
-    "events_total": 671,
-    "events_unlocated": 1869,
-    "events_7d": 70,
+    "events_total": 676,
+    "events_unlocated": 1876,
+    "events_7d": 75,
     "events_prev_7d": 82,
     "hottest_place": "Kyiv"
   },
@@ -782,6 +782,15 @@
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 1,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-03",
+      "total": 5,
+      "strike": 4,
+      "ground": 0,
+      "infrastructure": 1,
+      "air_defense": 0,
       "anomaly": false
     }
   ],
@@ -7495,20 +7504,70 @@
       "title": "Ukraine Defense Ministry Head Khmara Says Kyiv Most Needs Cash, Air Defense Help",
       "source": "Kyiv Post",
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5EdUlGelBGVkpXal9EVDdldi1XLU9lNVBfUGRucXFfWXBTTGVRb0N1ZWRtMGRxX3h0UjRsb1g5N3lVaWpnMmFtOVF6WQ?oc=5"
+    },
+    {
+      "date": "2026-09-03",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Putin Claims Peace Deal Is Still Possible, After Hinting at Strikes on Ukraine’s Leaders",
+      "source": "Kyiv Post",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8waGFlNWthT24zN2pNZGloV2M1TWNrZGxxQnRLUGNXRmlmNThtcTBwTXRTWmFlMHM0Z3RESVhqQ2NpS2xUUVdRR3FiOA?oc=5"
+    },
+    {
+      "date": "2026-09-03",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "‘We Were Mistaken’: Putin Admits Russia Was Unprepared for Ukrainian Strikes on Oil Refineries",
+      "source": "Kyiv Post",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5CQ3FoT3VVWEhYMVlxWUZtcTN2M3dMam01V0dsT3VRWTYwLUM4M2F2QU5VYmhOMDFDM0g1MTlwRU5CT0EyU1JKZTZMOA?oc=5"
+    },
+    {
+      "date": "2026-09-03",
+      "type": "infrastructure",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Ukraine’s Drones Reach Moscow’s Doorstep, Hit Homes and Sochi Port",
+      "source": "Kyiv Post",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBSWDBtWnZWV25FYTBzWTB6ZlgxQ2lQZHV1ZlpuSm5oUFNuOW1FMTVZUHdqZDFzMTh0ZFlsWllQMGxsckZQd2RDYjhKUQ?oc=5"
+    },
+    {
+      "date": "2026-09-03",
+      "type": "strike",
+      "place": "Zaporizhzhia",
+      "lat": 47.8388,
+      "lon": 35.1396,
+      "title": "Ukrainian Drones Strike Russia’s $60 Million Kasta-2E2 Radar in Zaporizhzhia",
+      "source": "UNITED24 Media",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPb05WbmNxSkFnUTkwZFZJZGJuSEFac19CSEpPYjZjNzFuaGxvOWNfNDZwWVYzYmYyLTQ3VWFyUjQ4UmNhQnp6bU5FMGNtanpXUmdBVHVCSTBodlh0TkFTY0s5WmRoTGxwRmQ3RkN4Z2VFQk9faGFzOHJKc0JfZk9ib0lBRFVHeFpCRi1LV1ZraUQxTWVLUkx4RFk0QWlFQ3hYbWZGcWt0d2FianJPQm5HYlhxRjVOV1hDWHdLbDZn?oc=5"
+    },
+    {
+      "date": "2026-09-03",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Gunman on a motorcycle shoots the Russian air force general Ukraine says ordered the strike on Kyiv's children's hospital",
+      "source": "Euromaidan Press",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPWm5UOFFZOU56bVd6S2NhMThLQ3doa2hQRzluTHVmNzQza1lZaEVZMld4VUpvNXp5ZDlIQ2tYZEdBRFNIOWI1cjdRRzBjeW9wZlZQVnZ4M3dTbkZUb3FHNjhwVHhGRF9seE5ibE5HSVdZUzRwTUhfbWdWMkhETllGVXlzWjJ3Q3FHVTJtSm9IMFhCSjNUYzluVjVRQXFwY2FkSnFPZ05nNzhLNEpMaGRlM1hEUm9CQkdHOWg4TDZXTUwtZG1LbjFnV1JieUJMVkVxZFBIZkU1SDNaMV9fT1k3TG40dUtFSEdMNGxaTDROWHg?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 186
+      "count": 189
     },
     {
       "place": "Moscow",
-      "count": 62
+      "count": 63
     },
     {
       "place": "Zaporizhzhia",
-      "count": 10
+      "count": 11
     },
     {
       "place": "Kryvyi Rih",

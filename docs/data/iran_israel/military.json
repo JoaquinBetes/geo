@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-09-02T21:03:40+00:00",
+  "updated": "2026-09-03T04:33:35+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -38,13 +38,13 @@
   },
   "window": {
     "from": "2026-02-27",
-    "to": "2026-09-02"
+    "to": "2026-09-03"
   },
   "kpis": {
-    "events_total": 411,
-    "events_unlocated": 1665,
-    "events_7d": 28,
-    "events_prev_7d": 13,
+    "events_total": 413,
+    "events_unlocated": 1670,
+    "events_7d": 30,
+    "events_prev_7d": 10,
     "hottest_place": "Strait of Hormuz"
   },
   "daily": [
@@ -629,6 +629,15 @@
       "total": 6,
       "strike": 5,
       "ground": 1,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-03",
+      "total": 2,
+      "strike": 2,
+      "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -4734,16 +4743,36 @@
       "title": "Trump suggests renaming Strait of Hormuz as Trump Strait amid Iran war",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/9/2/trump-suggests-renaming-strait-of-hormuz-as-trump-strait-amid-iran?traffic_source=rss"
+    },
+    {
+      "date": "2026-09-03",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Moscow’s silent gift to Tehran: why Israel’s new submarine is built for the high-speed missile era",
+      "source": "Ynetnews",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1LOFZEZmNiZHAtbnFlamswT2pYYTNuXzlCTXRpb3IyamtPeXFJa1pNLUZzOXJwejkxTERiN190UlVtUDNIZzNUNWp5R3pROTlFTWxUal9oTQ?oc=5"
+    },
+    {
+      "date": "2026-09-03",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Trump threatens more strikes as death toll in Iran rises to 18",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/3/trump-threatens-more-strikes-as-death-toll-in-iran-rises-to-19?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 50
+      "count": 47
     },
     {
       "place": "Tehran",
-      "count": 21
+      "count": 22
     },
     {
       "place": "Jerusalem",

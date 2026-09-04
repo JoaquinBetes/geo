@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-09-04T04:33:21+00:00",
+  "updated": "2026-09-04T11:18:11+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-09-04"
   },
   "kpis": {
-    "events_total": 418,
-    "events_unlocated": 1708,
-    "events_7d": 35,
+    "events_total": 419,
+    "events_unlocated": 1714,
+    "events_7d": 36,
     "events_prev_7d": 9,
     "hottest_place": "Strait of Hormuz"
   },
@@ -637,6 +637,15 @@
       "date": "2026-09-03",
       "total": 7,
       "strike": 7,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-04",
+      "total": 1,
+      "strike": 1,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -4813,12 +4822,22 @@
       "title": "JD Vance reacts to airstrike that killed four at Iran wedding: ‘Things happen’",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/sep/03/iran-strikes-wedding-jd-vance"
+    },
+    {
+      "date": "2026-09-04",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iranian town mourns after deadly strike on wedding",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/sep/04/iranian-town-kuhestak-devastated-strike-wedding"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 48
+      "count": 49
     },
     {
       "place": "Tehran",

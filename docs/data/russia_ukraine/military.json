@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-09-03T21:02:38+00:00",
+  "updated": "2026-09-04T04:33:14+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-09-03"
+    "to": "2026-09-04"
   },
   "kpis": {
-    "events_total": 677,
-    "events_unlocated": 1886,
-    "events_7d": 76,
-    "events_prev_7d": 82,
+    "events_total": 678,
+    "events_unlocated": 1889,
+    "events_7d": 71,
+    "events_prev_7d": 64,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -790,6 +790,15 @@
       "strike": 5,
       "ground": 0,
       "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-04",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -7564,16 +7573,26 @@
       "title": "Ten injured in Ukraine as Kyiv expects talks with US envoys in coming days",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/9/3/ten-injured-in-ukraine-as-kyiv-expects-talks-with-us-envoys-in-coming-days?traffic_source=rss"
+    },
+    {
+      "date": "2026-09-04",
+      "type": "strike",
+      "place": "Belgorod",
+      "lat": 50.5977,
+      "lon": 36.5858,
+      "title": "Ukraine war briefing: US envoy to visit Kyiv in coming days, Zelenskyy says, as Putin signals ‘chance’ of peace",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/sep/04/ukraine-war-briefing-us-envoy-to-visit-kyiv-in-coming-days-zelenskyy-says-as-putin-signals-chance-of-peace"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 190
+      "count": 188
     },
     {
       "place": "Moscow",
-      "count": 63
+      "count": 60
     },
     {
       "place": "Zaporizhzhia",
@@ -7596,11 +7615,11 @@
       "count": 5
     },
     {
-      "place": "Kharkiv",
-      "count": 4
+      "place": "Belgorod",
+      "count": 5
     },
     {
-      "place": "Belgorod",
+      "place": "Kharkiv",
       "count": 4
     },
     {

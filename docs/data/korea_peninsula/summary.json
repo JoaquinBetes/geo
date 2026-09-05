@@ -2,13 +2,13 @@
   "id": "korea_peninsula",
   "name": "Corea del Norte–Corea del Sur",
   "description": "Cobertura mediática de la tensión en la península coreana",
-  "updated": "2026-09-05T10:35:51+00:00",
-  "total_articles": 10888,
-  "overall_avg": -0.205,
+  "updated": "2026-09-05T15:14:26+00:00",
+  "total_articles": 10914,
+  "overall_avg": -0.2052,
   "distribution": {
-    "pos": 2650,
-    "neu": 2628,
-    "neg": 5610
+    "pos": 2655,
+    "neu": 2632,
+    "neg": 5627
   },
   "sources": [
     "Al Jazeera",
@@ -908,7 +908,8 @@
     "Table.Briefings",
     "Air Mail",
     "International Policy Digest",
-    "Diario AS"
+    "Diario AS",
+    "Jacobin"
   ],
   "daily": [
     {
@@ -1809,28 +1810,28 @@
     },
     {
       "date": "2026-09-05",
-      "count": 58,
-      "avg": -0.3455,
-      "pos": 11,
-      "neu": 10,
-      "neg": 37
+      "count": 84,
+      "avg": -0.3374,
+      "pos": 16,
+      "neu": 14,
+      "neg": 54
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 4592,
-      "avg": -0.2721
+      "count": 4610,
+      "avg": -0.2723
     },
     {
       "source": "BBC",
-      "count": 1422,
+      "count": 1425,
       "avg": -0.2984
     },
     {
       "source": "NPR",
-      "count": 412,
-      "avg": -0.2933
+      "count": 415,
+      "avg": -0.2934
     },
     {
       "source": "조선일보",
@@ -1869,8 +1870,8 @@
     },
     {
       "source": "The Korea Times",
-      "count": 102,
-      "avg": 0.02
+      "count": 103,
+      "avg": 0.0198
     },
     {
       "source": "Reuters",
@@ -6306,20 +6307,25 @@
       "source": "Diario AS",
       "count": 1,
       "avg": -0.6597
+    },
+    {
+      "source": "Jacobin",
+      "count": 1,
+      "avg": -0.6369
     }
   ],
   "top_entities": [
     {
       "name": "North Korea",
       "type": "LOCATION",
-      "count": 3088,
+      "count": 3089,
       "avg": -0.1145
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 1376,
-      "avg": -0.1287
+      "count": 1380,
+      "avg": -0.1299
     },
     {
       "name": "South Korea",
@@ -6330,14 +6336,14 @@
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 1035,
-      "avg": -0.2514
+      "count": 1039,
+      "avg": -0.2513
     },
     {
       "name": "China",
       "type": "LOCATION",
-      "count": 613,
-      "avg": -0.0295
+      "count": 614,
+      "avg": -0.031
     },
     {
       "name": "Japan",
@@ -6346,16 +6352,16 @@
       "avg": -0.2146
     },
     {
+      "name": "United States",
+      "type": "LOCATION",
+      "count": 305,
+      "avg": -0.1163
+    },
+    {
       "name": "Kim Jong-un",
       "type": "PERSON",
       "count": 304,
       "avg": 0.0067
-    },
-    {
-      "name": "United States",
-      "type": "LOCATION",
-      "count": 304,
-      "avg": -0.1152
     },
     {
       "name": "DMZ",
@@ -6383,6 +6389,249 @@
     }
   ],
   "recent": [
+    {
+      "title": "US hits three Iranian oil tankers after saying its warships were targeted",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-05T15:07:45+00:00",
+      "compound": -0.5267,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "US envoys arrive in Moscow ahead of Ukraine talks",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cx2zqp46g8eo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-05T15:05:14+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Russia"
+      ]
+    },
+    {
+      "title": "US military hits 3 Iranian oil tankers after saying Navy warships were targeted",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/09/05/nx-s1-5959159/us-iran-warships-targeted",
+      "published": "2026-09-05T15:05:08+00:00",
+      "compound": -0.7845,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Donald Trump’s Korea Diplomacy Is a Distraction Exercise",
+      "source": "Jacobin",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1IcmxPNkNnSEE2QXBoTGpNMGI5NWlBSlBRMEJyRk5kenNRSTdodnNmLXFwaXozMTh2VHRyeGFWdmxRbFBzVXBTNVRNTEQzNUVQQVFyY3VFOGN5THJwMEdZY2VnWV9adw?oc=5",
+      "published": "2026-09-05T14:59:10+00:00",
+      "compound": -0.6369,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Multipolarity gives middle powers more choices, but fewer guarantees",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/opinions/2026/9/5/multipolarity-gives-middle-powers-more-choices-but-fewer-guarantees?traffic_source=rss",
+      "published": "2026-09-05T14:51:08+00:00",
+      "compound": 0.8204,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "US says it hit Iran oil tankers helping finance ‘regional proxies’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/5/us-says-it-hit-iran-oil-tankers-helping-finance-regional-proxies?traffic_source=rss",
+      "published": "2026-09-05T14:49:36+00:00",
+      "compound": -0.0772,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Relatives hold cremations without bodies for Nepal’s missing flood victims",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/2026/9/5/relatives-hold-cremations-without-bodies-for-nepals-missing-flood-victims?traffic_source=rss",
+      "published": "2026-09-05T14:40:38+00:00",
+      "compound": -0.8402,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Coach Luis Enrique unconcerned by PSG’s poor start to French league season",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/9/5/coach-luis-enrique-unconcerned-by-psgs-poor-start-to-french-league-season?traffic_source=rss",
+      "published": "2026-09-05T14:07:52+00:00",
+      "compound": -0.8442,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Why has the Trump administration ordered staff to take polygraph tests?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/5/why-has-the-trump-administration-ordered-staff-to-take-polygraph-tests?traffic_source=rss",
+      "published": "2026-09-05T13:54:33+00:00",
+      "compound": -0.4404,
+      "label": "negative",
+      "entities": [
+        "Donald Trump",
+        "United States"
+      ]
+    },
+    {
+      "title": "UK gov’t condemns masked anti-immigrant protesters blocking Dover port",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/5/uk-govt-condemns-masked-anti-immigrant-protesters-blocking-dover-port?traffic_source=rss",
+      "published": "2026-09-05T13:51:29+00:00",
+      "compound": -0.9001,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "What different world maps get right - and what they get wrong",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cly5r60v4mro?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-05T13:46:02+00:00",
+      "compound": -0.4019,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Arsenal vs Chelsea: Premier League – prediction, teams, lineups",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/9/5/arsenal-vs-chelsea-premier-league-prediction-teams-lineups?traffic_source=rss",
+      "published": "2026-09-05T13:20:42+00:00",
+      "compound": -0.3818,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "‘Stop the boats’ masked protesters block England’s Port of Dover",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/stop-the-boats-masked-protesters-block-englands-port-of-dover?traffic_source=rss",
+      "published": "2026-09-05T13:09:24+00:00",
+      "compound": -0.7783,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Iran President Pezeshkian calls for unity as US ramps up economic pressure",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/9/5/iran-president-pezeshkian-calls-for-unity-as-us-ramps-up-economic-pressure?traffic_source=rss",
+      "published": "2026-09-05T13:07:36+00:00",
+      "compound": 0.4215,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "At least four civilians killed in Houthi missile strike near Yemen’s Taiz",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/5/at-least-four-killed-in-houthi-missile-strike-near-yemens-taiz?traffic_source=rss",
+      "published": "2026-09-05T12:54:15+00:00",
+      "compound": -0.8442,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "How big is Africa really? Why the UN voted to change the world map",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/5/how-big-is-africa-really-why-the-un-voted-to-change-the-world-map?traffic_source=rss",
+      "published": "2026-09-05T12:49:50+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Yemen government launches own air attacks on Houthis: What that means",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/5/yemen-government-launches-own-air-attacks-on-houthis-what-that-means?traffic_source=rss",
+      "published": "2026-09-05T12:43:38+00:00",
+      "compound": -0.9149,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Costa Rica’s president says US ground forces would boost national security",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/costa-ricas-president-says-us-ground-forces-would-boost-national-security?traffic_source=rss",
+      "published": "2026-09-05T12:09:56+00:00",
+      "compound": 0.8481,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Israel must protect West Bank’s Palestinians amid settler pogroms: US envoy",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/5/israel-must-guarantee-safety-of-west-bank-population-ambassador?traffic_source=rss",
+      "published": "2026-09-05T12:04:52+00:00",
+      "compound": -0.743,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Pickleball and dining: Why courts are the new food destinations",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/longform/2026/9/5/pickleball-and-dining-why-courts-are-the-new-food-destinations?traffic_source=rss",
+      "published": "2026-09-05T11:48:16+00:00",
+      "compound": 0.5859,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "How the U.S. focus on Iran is fueling a more aggressive Putin",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/09/05/nx-s1-5955705/how-the-u-s-focus-on-iran-is-fueling-a-more-aggressive-putin",
+      "published": "2026-09-05T11:43:20+00:00",
+      "compound": -0.3597,
+      "label": "negative",
+      "entities": [
+        "Donald Trump",
+        "Russia"
+      ]
+    },
+    {
+      "title": "LIVE: India vs Pakistan – Women’s T20 Asia Cup",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/liveblog/2026/9/5/live-india-vs-pakistan-womens-t20-asia-cup?traffic_source=rss",
+      "published": "2026-09-05T11:32:07+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "U.S. envoys in Moscow in new push for peace between Russia and Ukraine",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/09/05/nx-s1-5959114/us-envoys-in-moscow-in-new-push-for-peace",
+      "published": "2026-09-05T11:08:57+00:00",
+      "compound": 0.25,
+      "label": "positive",
+      "entities": [
+        "Russia"
+      ]
+    },
+    {
+      "title": "Mudslide in eastern China kills one, leaves 11 missing",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/mudslide-in-eastern-china-kills-one-leaves-11-missing?traffic_source=rss",
+      "published": "2026-09-05T10:49:23+00:00",
+      "compound": -0.9081,
+      "label": "negative",
+      "entities": [
+        "China"
+      ]
+    },
+    {
+      "title": "At least 5 killed in Russian attacks on Ukraine as US envoys visit Moscow",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/5/at-least-5-killed-in-russian-attacks-on-ukraine-as-us-envoys-visit-moscow?traffic_source=rss",
+      "published": "2026-09-05T10:27:23+00:00",
+      "compound": -0.8519,
+      "label": "negative",
+      "entities": [
+        "Russia"
+      ]
+    },
     {
       "title": "Lindsay Clancy murder trial has divided US on whether she's victim or criminal",
       "source": "BBC",
@@ -6708,6 +6957,17 @@
       ]
     },
     {
+      "title": "North Korea to send 9 wrestlers to 2026 Aichi-Nagoya Asian Games",
+      "source": "The Korea Times",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPamY3Q1B2dXBPalV6dXJIS1FLN2NaRTM0SEZEOE8tVnNGVTROTGhLdUl3V3pwYzJkcnEtUjdIVURGT1N1WDZ1TDNmVXI2Y1p6X0lVQlJvS2p3VktpQ0JJQmxzWVVMVlpaTlVmekREcFU4Q1VwUHhTaENqaHlzWVJmTUFSM0VXd09UMGlJRlhXdGdBVVRCSldwVC1tSlNiUlhoeDJIWnVVUEN1YzBRVkHSAbMBQVVfeXFMT05xUGlsYmhGclpfeE95bTRiTGc1QW5jMC1PRklYbGttY202M2VNSHZYVmhDeEpadjdfT0V5aFZENjYtNkdpYVRqanBsWDM2ZzdoMVNmS0lLV3lkYnptM2RVY0VHak9JVVZvS1lvaVZMS0hYS0x4SGs1cUswUGJZNnc2Mm1sN25JN2NGSlU5TWZGcjJ1QVBhUlBWbk90NktTM1h3YThVV0xTRlJLSzhlV1BZNDg?oc=5",
+      "published": "2026-09-05T04:05:02+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "North Korea"
+      ]
+    },
+    {
       "title": "Is Russia proving better at protecting friends than fighting enemies in West Africa?",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/articles/cx2z75keq58o?at_medium=RSS&at_campaign=rss",
@@ -6717,259 +6977,6 @@
       "entities": [
         "Russia"
       ]
-    },
-    {
-      "title": "Blasts at Bolivian military base kill at least 10, injure dozens",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/5/blasts-at-bolivian-military-base-kill-at-least-10-injure-dozens?traffic_source=rss",
-      "published": "2026-09-05T03:56:16+00:00",
-      "compound": -0.7845,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Malaysia declares emergency in Sarawak as haze from Indonesia worsens",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/5/malaysia-declares-emergency-in-sarawak-as-haze-from-indonesia-worsens?traffic_source=rss",
-      "published": "2026-09-05T03:48:17+00:00",
-      "compound": -0.7964,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Did Israel’s destruction of Gaza worsen its water crisis?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/did-israels-destruction-of-gaza-worsen-its-water-crisis?traffic_source=rss",
-      "published": "2026-09-05T03:46:20+00:00",
-      "compound": -0.9712,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Trump sends envoys to Russia, Ukraine with new peace plan",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/trump-sends-envoys-to-russia-ukraine-with-new-peace-plan?traffic_source=rss",
-      "published": "2026-09-05T03:25:46+00:00",
-      "compound": 0.5423,
-      "label": "positive",
-      "entities": [
-        "Donald Trump",
-        "Russia"
-      ]
-    },
-    {
-      "title": "After Pretoria peace deal, old enemies in Ethiopia’s Tigray find new ground",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/5/after-pretoria-peace-deal-old-enemies-in-ethiopias-tigray-find-new-ground?traffic_source=rss",
-      "published": "2026-09-05T03:05:28+00:00",
-      "compound": -0.2617,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "South Korean man sentenced to 5 years in prison for spying for North Korea",
-      "source": "Korea JoongAng Daily",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUS1UZE5LSzFmX1dDRl9aVk03TzEwSWFQTWl6bjRmaUYxWmhtR2Jwd2RQQ3pwT201bVRFUmU2LThzSmFTVklfdk55Y0NlcUpnZGRzYnZTVXFnSTZfWVR5MmxLSHNoenZER0VnaTZmWE5TYUdLeHA0andhZ0RGYXY5T1RadzNJVU9PNUk3eUR0Q0NGb0E4V2lvMHNVRFJQSVg3VjhrTzlCR1Z6WHFBcU5tTE9jRXV3Y0s3bzA5ZnJMeTZIUQ?oc=5",
-      "published": "2026-09-05T03:05:03+00:00",
-      "compound": -0.7783,
-      "label": "negative",
-      "entities": [
-        "North Korea",
-        "South Korea"
-      ]
-    },
-    {
-      "title": "At least two dead in blast at Bolivia military barracks",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c3v45xy67g5o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-05T02:59:40+00:00",
-      "compound": -0.9313,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "N. Korea likely to send vice minister to UN General Assembly this month",
-      "source": "The Korea Times",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTG1seWZTVmJJM3cwYmt4MGhQOVpQS2ZiZG9tYTB3NS1ZSWRlNjE0bl9CcVFLME8tQnZEUU10X0F3NVVTSWI2dERHUnQxUzFOZ3h0TktYQkM3dG43YmhmLXllRlNlWTVtTHEtbU9iQ2ducnlUS1ZvWE1OU0wtZVI0aWN0YjJqYjBSR3ZXMHJjSEQyOV8wcGJWWTRuRl93YW1pVV8zNllFQVRsYWg0MmtwanZ4WG5zSGV3d2NfbVpjbTM0ZnBsQTJrRzNhSm9aamvSAdQBQVVfeXFMTlVSQjBsaUcwTzZ2Vk5mTUpvTzFzNDhXeGFlMmJwUEF3bU0xVXFxRDRndmhNdU1CV1RkQ3NsOFFYMTVKRkdVSUxQNkVUZVVBaWduZXg0eG9yYldGeHlTSS04Z3paSTlZdHllUktnVUxpMDVJeG1yUXZjcW16Rkx2R2Z1Y1h3QmJNNWJhT1VRSGthM3RWR1FubV8zeTdHeXNTMm9DejJIUjhYdFNkcTJHRU5vd0lBNUZISFNkTDJJTFk3YVA5YmF5WEVGcDBMXzBfXzZHbWM?oc=5",
-      "published": "2026-09-05T02:53:02+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "North Korea orders sweeping rebuild of northern border blockade",
-      "source": "DailyNK",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQazRZdm1PNWhYMzUtdEo5dXp6Rk9VeHh6ejZ3dF9OWGlTYU1LT05fUHJRS0pJTFFsUy0wNjlsOU1TZ1JjRHNhdGtTZjBKcng4RW5XY2Y4dWVjc1d0bEdPOExmeWxyYlZCS0NsdkM4WUItb3J2a3RzRzRSZm5zaWVJbl9pODA?oc=5",
-      "published": "2026-09-05T02:51:05+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "‘To challenge deadly blockade’: New flotilla mission sets sail for Gaza",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/5/to-challenge-deadly-blockade-new-flotilla-mission-sets-sail-for-gaza?traffic_source=rss",
-      "published": "2026-09-05T02:43:23+00:00",
-      "compound": 0.6249,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "South Korean man sentenced to 5 years in prison for spying for NK",
-      "source": "The Korea Times",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPX3lvd1hpMHd0QldBQTdMY0FtR2Y0QXQ0YW5WMnFRTGxHNV9SLWJpX25HY0llR05XSDlWU1JndlVoOHg0VTR6LThHY1NOZjNVNmktNXptaEtMR2I1U1VsTGpkZWZqMWtLU0FzeG5zM0syWlVTMzhJRGRBalpMeFFyNWg5VDRlUG1uSHFpNXZtT1BjNlI5QXNwbTZXcEhxdUdxeEVfNTZSbk5FTUJYa05wVkJrcHRvajlCV0FhQmg2RGZOUdIBxwFBVV95cUxQbTZtamRncnhBVnE3eDYxb1lKZjZER2lYUngzRGt2RXZLcG5HSWU1aFBmM3lnZlBMeDM4aVZwaG5nSURBQlJlLUlXRkdma0lPSXo4MFhnRU9XNDVqeVg3SkkzLWUyRUplZ1VqQ1VtWVRNU2pIekp3ZzZpT2VCdm5FQ3BJdnVrNENYQmY1YUloX2VPdnJ6V2puQXRvR3ZiNG1uRzhhckQwM1dpdVg5NTlGYnRQem5xSFkwbGh0VVBMcE5KaXZJZXQw?oc=5",
-      "published": "2026-09-05T02:43:03+00:00",
-      "compound": -0.7783,
-      "label": "negative",
-      "entities": [
-        "South Korea"
-      ]
-    },
-    {
-      "title": "South Korean man gets five years for spying for North Korea",
-      "source": "UA.NEWS",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRnBWWmk2U0VqcFFUczVwMVhWdmZDeGRsNk5wdXI0cVJJLXRjV2plVXFBc09FVVE1dVdBQ2VjLVVzSFFyRFlVS0I0TDVLeUgwX1ZVencwbFV4ZWgtWktPSExsODd2NU5RSmpyRFJuNzd1YlFfYWR5M19JVnRJYW4yclJXdm5NY3UtblR5RUlmTEg3TkpYT3FUaGIxSHc3UWFfS3c?oc=5",
-      "published": "2026-09-05T02:32:59+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "North Korea",
-        "South Korea"
-      ]
-    },
-    {
-      "title": "Tate brothers charged with further trafficking and sex crimes in Romania",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c7v4npv1m22o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-05T02:29:21+00:00",
-      "compound": -0.7783,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "How much can Canada fight back in its trade war with the US?",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/videos/c74knp7y04eo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-05T02:13:21+00:00",
-      "compound": -0.7684,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Five-Year Sentence for North Korea Espionage",
-      "source": "chosun.com",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOalA4R012QTNtNElVUXZ6VlJQY0s4ZjdBSldJTzREZlVMME10Q0xpaWNuLXgzTjB4SkhPNWxzOVhFbG9PdlowY2htZk1OejhpU3gzTXYzaEF6MWxZREN5ejNoa2hyOFBzeDdoTTBURU9kTkNmekhwa0QtV25tdndXaUtxSWN5T0NC?oc=5",
-      "published": "2026-09-05T02:05:31+00:00",
-      "compound": 0.1531,
-      "label": "positive",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "N.K leader with teachers",
-      "source": "Yonhap News Agency",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE42bW1pOTRnaG5pMTlMSi01bzJGYW5oVy1CT1V5dkJwS01BU0FNTE80VWVlTWk3ZlFaeXQyRmJRVlFXSFNfZkV3LXJRY08tR2hBQmRNNnl5NWw0RUlMRlJ0T2JVT2dPUUI0VWJ6aU9VNU8?oc=5",
-      "published": "2026-09-05T01:56:17+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Ecuador defends US sinking of vessels as joint anti-drug operation",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/5/ecuador-defends-us-sinking-of-vessels-as-joint-anti-drug-operation?traffic_source=rss",
-      "published": "2026-09-05T01:46:50+00:00",
-      "compound": -0.169,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Why are European countries moving their gold out of North America?",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cvgyn8q8gqxo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-05T01:42:09+00:00",
-      "compound": -0.4515,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Asylum seekers caught in US immigration crackdown",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/asylum-seekers-caught-in-us-immigration-crackdown?traffic_source=rss",
-      "published": "2026-09-05T01:27:31+00:00",
-      "compound": -0.7548,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "How the Lindsay Clancy trial gripped America - and ultimately fell apart",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/videos/cr7dzr2e789o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-05T01:26:29+00:00",
-      "compound": -0.6124,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Flock says its cameras make US safer - so why are they being sabotaged?",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cew9kz1kxpvo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-05T01:16:27+00:00",
-      "compound": 0.5423,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Judge declares mistrial in Lindsay Clancy children’s murder case",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/judge-declares-mistrial-in-lindsay-clancy-childrens-murder-case?traffic_source=rss",
-      "published": "2026-09-05T01:02:18+00:00",
-      "compound": -0.886,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "EU official Marta Kos cancels Serbia trip over planned Mladic tribute",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/5/senior-eu-official-cancels-serbia-trip-over-planned-tribute-to-mladic?traffic_source=rss",
-      "published": "2026-09-05T00:19:17+00:00",
-      "compound": -0.3612,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Iran war live: Trump says US may target Iran’s Pickaxe Mountain ‘very soon’",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/9/5/iran-war-live-trump-says-us-may-target-irans-pickaxe-mountain-very-soon?traffic_source=rss",
-      "published": "2026-09-05T00:00:00+00:00",
-      "compound": -0.8555,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "‘Small potatoes’: US President Trump downplays war on Iran",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/4/small-potatoes-us-president-trump-downplays-war-on-iran?traffic_source=rss",
-      "published": "2026-09-04T23:55:50+00:00",
-      "compound": -0.6358,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Tunisia arrests journalist Mohamed Yousfi amid crackdown on critics",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/4/tunisia-arrests-journalist-amid-crackdown-on-government-critics?traffic_source=rss",
-      "published": "2026-09-04T23:19:43+00:00",
-      "compound": -0.7906,
-      "label": "negative",
-      "entities": []
     }
   ]
 }

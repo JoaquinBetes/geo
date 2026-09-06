@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-09-05T20:20:52+00:00",
+  "updated": "2026-09-06T04:39:02+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -38,13 +38,13 @@
   },
   "window": {
     "from": "2026-02-27",
-    "to": "2026-09-05"
+    "to": "2026-09-06"
   },
   "kpis": {
-    "events_total": 423,
-    "events_unlocated": 1765,
-    "events_7d": 39,
-    "events_prev_7d": 10,
+    "events_total": 425,
+    "events_unlocated": 1768,
+    "events_7d": 40,
+    "events_prev_7d": 6,
     "hottest_place": "Strait of Hormuz"
   },
   "daily": [
@@ -653,8 +653,17 @@
     },
     {
       "date": "2026-09-05",
-      "total": 4,
-      "strike": 4,
+      "total": 5,
+      "strike": 5,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-06",
+      "total": 1,
+      "strike": 1,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -4881,12 +4890,32 @@
       "title": "US says it hit Iran oil tankers helping finance ‘regional proxies’",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/9/5/us-says-it-hit-iran-oil-tankers-helping-finance-regional-proxies?traffic_source=rss"
+    },
+    {
+      "date": "2026-09-05",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "U.S. strikes three Iranian oil tankers in renewal of hostilities",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/09/05/nx-s1-5959181/u-s-strikes-three-iranian-oil-tankers-in-renewal-of-hostilities"
+    },
+    {
+      "date": "2026-09-06",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iran war live: IRGC claims attacks on 3 oil tankers and 3 US-linked ships",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/9/6/iran-war-live-irgc-claims-new-attacks-on-us-warships-over-naval-blockade?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 48
+      "count": 40
     },
     {
       "place": "Tehran",
@@ -4895,10 +4924,6 @@
     {
       "place": "Jerusalem",
       "count": 9
-    },
-    {
-      "place": "Damascus",
-      "count": 4
     },
     {
       "place": "Kharg Island",
@@ -4911,6 +4936,10 @@
     {
       "place": "Tel Aviv",
       "count": 3
+    },
+    {
+      "place": "Damascus",
+      "count": 2
     },
     {
       "place": "Doha",

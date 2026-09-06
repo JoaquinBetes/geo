@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-09-05T20:20:44+00:00",
+  "updated": "2026-09-06T04:38:54+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-09-05"
+    "to": "2026-09-06"
   },
   "kpis": {
-    "events_total": 705,
-    "events_unlocated": 1942,
-    "events_7d": 93,
-    "events_prev_7d": 62,
+    "events_total": 709,
+    "events_unlocated": 1947,
+    "events_7d": 80,
+    "events_prev_7d": 69,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -804,8 +804,17 @@
     },
     {
       "date": "2026-09-05",
-      "total": 14,
-      "strike": 14,
+      "total": 15,
+      "strike": 15,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-06",
+      "total": 3,
+      "strike": 3,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -7862,16 +7871,56 @@
       "title": "Russia’s Putin meets US envoys to discuss Trump proposal to end Ukraine war",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/9/5/russias-putin-meets-us-envoys-to-discuss-trump-proposal-to-end-ukraine-war?traffic_source=rss"
+    },
+    {
+      "date": "2026-09-05",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war latest: Putin meets US envoys after ordering 72-hour pause of strikes on Kyiv",
+      "source": "Sky News",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9PODZNVDhnenZUd210NzdYVnB6ZXVNd3dVQ0Y5Ql9acU9UZzJtUlhZR0dab0ZhRjhTNkJnMXFPOWZvNWQ0YmhiMThaRXZHTkR5ZG5rY0xCMTUteXB3UkxHWUU2dEg2TldRdmRldFQxdzBra25tQ1FXWEZhSkdpUQ?oc=5"
+    },
+    {
+      "date": "2026-09-06",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: Zelenskyy links Russian strikes on Kyiv airports to US envoys’ visit",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPd1hrLWVhbEhPLTkyZ0FjazcwZEVyR2NTRGc1ZW54RkRPVWthNlJvMmp3S0NtRnNXcEN1NDJBRV9TSHJwakxKTFlLa0RJMmhwQlFEOGwxUlhUOXlnWGhNLXZNaTRaUWt6LXVuamtqbk02WDZfN0s4RXY0R3Rva3Q4cWhRSmRJaWQ4NmQ4bXNVd1VCeE53dWtkQlBybkp3dmw5enR2dkZid2FpV0d3UVFCOS1qTUJFZXBSYVpydUlGMWVmbm1SVmFkZl91Slhra1E?oc=5"
+    },
+    {
+      "date": "2026-09-06",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "‘Nobody will win’: Zelenskyy adviser warns of mutual destruction if war with Russia continues",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/sep/06/zelenskyy-advisor-warns-mutual-destruction-war-russia"
+    },
+    {
+      "date": "2026-09-06",
+      "type": "strike",
+      "place": "Dnipro",
+      "lat": 48.4647,
+      "lon": 35.0462,
+      "title": "Ukraine war briefing: Zelenskyy links Russian strikes on Kyiv airports to US envoys’ visit",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/sep/06/ukraine-war-briefing-zelenskyy-links-russian-strikes-on-kyiv-airports-to-us-envoys-visit"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 184
+      "count": 185
     },
     {
       "place": "Moscow",
-      "count": 65
+      "count": 63
     },
     {
       "place": "Zaporizhzhia",
@@ -7883,26 +7932,26 @@
     },
     {
       "place": "Odesa",
-      "count": 9
+      "count": 8
     },
     {
       "place": "Donetsk",
-      "count": 7
+      "count": 6
     },
     {
       "place": "Belgorod",
       "count": 5
     },
     {
-      "place": "Kharkiv",
-      "count": 4
-    },
-    {
       "place": "Novorossiysk",
       "count": 4
     },
     {
-      "place": "Kramatorsk",
+      "place": "Dnipro",
+      "count": 4
+    },
+    {
+      "place": "Rostov-on-Don",
       "count": 3
     }
   ],

@@ -1,6 +1,6 @@
 {
   "id": "china_taiwan",
-  "updated": "2026-09-06T04:39:07+00:00",
+  "updated": "2026-09-06T10:56:38+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -46,9 +46,9 @@
     "to": "2026-09-06"
   },
   "kpis": {
-    "events_total": 55,
-    "events_unlocated": 1318,
-    "events_7d": 8,
+    "events_total": 56,
+    "events_unlocated": 1320,
+    "events_7d": 9,
     "events_prev_7d": 9,
     "hottest_place": "Taipei"
   },
@@ -370,6 +370,15 @@
     },
     {
       "date": "2026-09-04",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-05",
       "total": 1,
       "strike": 1,
       "ground": 0,
@@ -928,12 +937,22 @@
       "title": "Defense budget lifts the veil on missile projects",
       "source": "Taipei Times",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBTUU16dWFrOWotNjRPazJTbHN1UFdnU29tb2F6czhhdEc3TDR0RWdiN0JKM19uTFpZNlpoOF9QNThVaElFVzFCNkl1Y1QxNUw1NWd0RlVKdnF3amFDWjhtcXlPdE96cmRESFRsLVUzZ05HOG5HQnVfbw?oc=5"
+    },
+    {
+      "date": "2026-09-05",
+      "type": "strike",
+      "place": "Taipei",
+      "lat": 25.033,
+      "lon": 121.5654,
+      "title": "MAC details the potential scope of Chinese artillery",
+      "source": "Taipei Times",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA2SHpOSU1wdVdmdHdxZVl0c2p3bXpfRlNReVI3RWVUSk1OeDVlMHdidHhoS2loa0pEOTF2VzU1VkdKdGFLanpMMXVhMkZzdmJ6N0hGcm1GckFyT3lHX2t0Rm11d2Vkbmxjc3hXVXRQTmRmTndubzhSOExB?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Taipei",
-      "count": 22
+      "count": 23
     },
     {
       "place": "Penghu",

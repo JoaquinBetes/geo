@@ -2,13 +2,13 @@
   "id": "korea_peninsula",
   "name": "Corea del Norte–Corea del Sur",
   "description": "Cobertura mediática de la tensión en la península coreana",
-  "updated": "2026-09-06T04:39:15+00:00",
-  "total_articles": 10965,
-  "overall_avg": -0.205,
+  "updated": "2026-09-06T10:56:47+00:00",
+  "total_articles": 10992,
+  "overall_avg": -0.2048,
   "distribution": {
-    "pos": 2673,
-    "neu": 2640,
-    "neg": 5652
+    "pos": 2682,
+    "neu": 2646,
+    "neg": 5664
   },
   "sources": [
     "Al Jazeera",
@@ -170,6 +170,7 @@
     "finance.biggo.com",
     "NewsCord",
     "Daily Sabah",
+    "NewsNation",
     "nippon.com",
     "El Mundo America",
     "Dayton Daily News",
@@ -201,7 +202,6 @@
     "The Killeen Daily Herald",
     "Al Arabiya English",
     "Forbes",
-    "NewsNation",
     "The Telegraph",
     "gCaptain",
     "dailyrecordnews.com",
@@ -262,6 +262,7 @@
     "Los Angeles Times",
     "KRON4",
     "Cato Institute",
+    "Around Prague",
     "The Irish Times",
     "DevOps.com",
     "Law360",
@@ -410,12 +411,12 @@
     "The Tri-City Record",
     "Salon.com",
     "93.3 The Drive",
-    "Around Prague",
     "MiGFlug",
     "News4JAX",
     "RealClearMarkets",
     "Arms Control Association",
     "IPI Global Observatory",
+    "Air Mail",
     "Salish Current",
     "horn review",
     "SecurityWeek",
@@ -906,11 +907,12 @@
     "The Arab Weekly",
     "Monocle",
     "Table.Briefings",
-    "Air Mail",
     "International Policy Digest",
     "Diario AS",
     "Jacobin",
-    "hani.co.kr"
+    "hani.co.kr",
+    "Tampa Bay Times",
+    "en.sedaily.com"
   ],
   "daily": [
     {
@@ -1811,41 +1813,41 @@
     },
     {
       "date": "2026-09-05",
-      "count": 121,
-      "avg": -0.3071,
-      "pos": 27,
+      "count": 122,
+      "avg": -0.2987,
+      "pos": 28,
       "neu": 19,
       "neg": 75
     },
     {
       "date": "2026-09-06",
-      "count": 14,
-      "avg": 0.0598,
-      "pos": 7,
-      "neu": 3,
-      "neg": 4
+      "count": 40,
+      "avg": -0.0825,
+      "pos": 15,
+      "neu": 9,
+      "neg": 16
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 4641,
+      "count": 4657,
       "avg": -0.2722
     },
     {
       "source": "BBC",
-      "count": 1432,
-      "avg": -0.2977
+      "count": 1434,
+      "avg": -0.2976
     },
     {
       "source": "NPR",
-      "count": 418,
-      "avg": -0.2922
+      "count": 419,
+      "avg": -0.2902
     },
     {
       "source": "조선일보",
-      "count": 328,
-      "avg": -0.0612
+      "count": 329,
+      "avg": -0.061
     },
     {
       "source": "NK News",
@@ -1889,8 +1891,8 @@
     },
     {
       "source": "Yahoo",
-      "count": 66,
-      "avg": -0.1842
+      "count": 68,
+      "avg": -0.1711
     },
     {
       "source": "South China Morning Post",
@@ -2623,6 +2625,11 @@
       "avg": -0.0066
     },
     {
+      "source": "NewsNation",
+      "count": 5,
+      "avg": 0.1316
+    },
+    {
       "source": "nippon.com",
       "count": 4,
       "avg": -0.2392
@@ -2776,11 +2783,6 @@
       "source": "Forbes",
       "count": 4,
       "avg": -0.1009
-    },
-    {
-      "source": "NewsNation",
-      "count": 4,
-      "avg": 0.1646
     },
     {
       "source": "The Telegraph",
@@ -3081,6 +3083,11 @@
       "source": "Cato Institute",
       "count": 3,
       "avg": -0.2781
+    },
+    {
+      "source": "Around Prague",
+      "count": 3,
+      "avg": -0.4836
     },
     {
       "source": "The Irish Times",
@@ -3823,11 +3830,6 @@
       "avg": -0.3147
     },
     {
-      "source": "Around Prague",
-      "count": 2,
-      "avg": -0.3502
-    },
-    {
       "source": "MiGFlug",
       "count": 2,
       "avg": 0.0
@@ -3851,6 +3853,11 @@
       "source": "IPI Global Observatory",
       "count": 2,
       "avg": 0.5859
+    },
+    {
+      "source": "Air Mail",
+      "count": 2,
+      "avg": 0.7172
     },
     {
       "source": "Salish Current",
@@ -6303,11 +6310,6 @@
       "avg": 0.2023
     },
     {
-      "source": "Air Mail",
-      "count": 1,
-      "avg": 0.7172
-    },
-    {
       "source": "International Policy Digest",
       "count": 1,
       "avg": -0.9468
@@ -6326,14 +6328,24 @@
       "source": "hani.co.kr",
       "count": 1,
       "avg": 0.0516
+    },
+    {
+      "source": "Tampa Bay Times",
+      "count": 1,
+      "avg": 0.5267
+    },
+    {
+      "source": "en.sedaily.com",
+      "count": 1,
+      "avg": 0.0
     }
   ],
   "top_entities": [
     {
       "name": "North Korea",
       "type": "LOCATION",
-      "count": 3095,
-      "avg": -0.1137
+      "count": 3099,
+      "avg": -0.1138
     },
     {
       "name": "Donald Trump",
@@ -6344,14 +6356,14 @@
     {
       "name": "South Korea",
       "type": "LOCATION",
-      "count": 1088,
-      "avg": -0.1224
+      "count": 1089,
+      "avg": -0.1223
     },
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 1044,
-      "avg": -0.2516
+      "count": 1045,
+      "avg": -0.2509
     },
     {
       "name": "China",
@@ -6404,6 +6416,241 @@
   ],
   "recent": [
     {
+      "title": "Palestinians in Gaza bury remains of 100 people recovered from rubble",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/6/palestinians-in-gaza-bury-remains-of-100-people-recovered-from-rubble?traffic_source=rss",
+      "published": "2026-09-06T10:42:14+00:00",
+      "compound": -0.7269,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Volcano eruption leaves 150,000 passengers stranded in Indonesia",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cvgy5k4n07ko?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-06T09:56:39+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "U.S. envoys Witkoff and Kushner set for talks in Kyiv after meeting Putin in Moscow",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/09/06/nx-s1-5959657/us-envoys-witkoff-kushner-talks-in-kyiv-putin-moscow",
+      "published": "2026-09-06T09:51:04+00:00",
+      "compound": 0.5423,
+      "label": "positive",
+      "entities": [
+        "Russia"
+      ]
+    },
+    {
+      "title": "LIVE: Everton vs Manchester United – Premier League",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/liveblog/2026/9/6/live-everton-vs-manchester-united-premier-league-fernandes-rashford-live-coverage-stream?traffic_source=rss",
+      "published": "2026-09-06T09:47:31+00:00",
+      "compound": 0.1027,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Israeli flags become the latest weapon of settlers in West Bank domination",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/2026/9/6/israeli-flags-become-the-latest-weapon-of-settlers-in-west-bank-domination?traffic_source=rss",
+      "published": "2026-09-06T09:40:06+00:00",
+      "compound": 0.0258,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "A matter of trust: The U.S. should stop pushing away its allies | Column",
+      "source": "Tampa Bay Times",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWk5uSHpybzFJTHFESC1Ia0xFMmRzMnNuOWdyc3Z0UDBHNFZra3FIcFFtZUExQTAxNkt3UEJ3VlRTcm5RTDFCdUw4cjRNOUhFdVRFUFBfOE05N0Vpb3NCWEl3UzItRmZuS2tNdDNmNjJLSG1adnJlaDJ0endjWlFZWWFrNjJPU0tockdiNlk3MWhvbUR3WnRGcl9BU214RGt3VV9kU29n?oc=5",
+      "published": "2026-09-06T09:19:36+00:00",
+      "compound": 0.5267,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Israeli air attacks on Lebanon kill at least four",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/6/israeli-air-attacks-on-lebanon-kill-at-least-four?traffic_source=rss",
+      "published": "2026-09-06T09:15:20+00:00",
+      "compound": -0.969,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "A matter of trust: The U.S. should stop pushing away its allies | Column",
+      "source": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPY0tzNktySGZzbnlmajhOaHdaUnVXMDhBcGpwWlZ2eGtCWkxxdUw0R2JfckdLeWI4MjMyU045SC1MdTljRU5ERUw2eVFLa1U5bkp4WGhEM0dMTWliZHE3VXZfeXBtSVBvdnB3SkpvOGhDaWVaVUh4R0FDM21WWnlMazJES1pwNl9lUTFCdVpudVM?oc=5",
+      "published": "2026-09-06T09:15:00+00:00",
+      "compound": 0.5267,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "North Korea Set to Send Senior Official to U.N. Assembly Again",
+      "source": "en.sedaily.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPN2pSbGdDZEZDbm44cTl0b0kzRW5RWm40ZnhPV0RlUTBaQ2FLWHBsdXJYeDZENlQwRkpjTG43NWc0RjUxaTM1TUFQQ1pramhzN3Byb2RrRV9QeWdLUzRlcVl5eTE3TVVvcjRJbk4xb2JsYUVaUlI4NjBRX3BJdXBuOVY3U0RQcXBuRTRYM0JaaWRwSHdQYUVKY3FNOFNDTlBOTmhzRUtB?oc=5",
+      "published": "2026-09-06T09:11:37+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "North Korea"
+      ]
+    },
+    {
+      "title": "Israel bombards several towns in southern Lebanon",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/6/israel-bombards-several-towns-in-southern-lebanon?traffic_source=rss",
+      "published": "2026-09-06T08:44:03+00:00",
+      "compound": 0.1027,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "South Korean Women's Team Eyes Historic First Final",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZUFidEN6dGxBaEdFRlJ1R2hzOTJWaTRDUlRqQndzUER6XzRER2dvR1pDam93NUs5WDB3cU45ZmU2UlRtRFdmT3hXRjNTbldfQkxEX2tqMmNlcDZjeEhaaEM2WXhVc0ZNVDBfUEdiUHh2UXlTeWlNSG1PR3lLbFlBTVZnZW5SQQ?oc=5",
+      "published": "2026-09-06T08:03:52+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "South Korea"
+      ]
+    },
+    {
+      "title": "Zverev and Gauff ease into US Open last 16 but Alex Eala falls to Jovic",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/9/6/zverev-and-gauff-ease-into-us-open-last-16-but-alex-eala-falls-to-jovic?traffic_source=rss",
+      "published": "2026-09-06T07:59:04+00:00",
+      "compound": 0.4767,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "How do you arrest 50,000 people quietly?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/by-the-numbers-3/2026/9/6/how-do-you-arrest-50000-people-quietly?traffic_source=rss",
+      "published": "2026-09-06T07:45:08+00:00",
+      "compound": -0.6705,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Ireland’s boxing great Katie Taylor bows out as undisputed champion",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/9/6/irelands-boxing-great-katie-taylor-bows-out-as-undisputed-champion?traffic_source=rss",
+      "published": "2026-09-06T07:37:00+00:00",
+      "compound": 0.9186,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Egyptian TV presenter Sarah Khalifa sentenced to death in drugs case",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/6/egyptian-tv-presenter-sentenced-to-death-in-major-drug-case?traffic_source=rss",
+      "published": "2026-09-06T07:20:37+00:00",
+      "compound": -0.8271,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "FIFA’s Infantino avoids questions on his future amid growing uncertainty",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/9/6/fifas-infantino-avoids-questions-on-his-future-amid-growing-uncertainty?traffic_source=rss",
+      "published": "2026-09-06T07:10:33+00:00",
+      "compound": -0.34,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "UK has billions in contracts with firms tied to illegal Israeli settlements",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/6/uk-has-billions-in-contracts-with-firms-tied-to-illegal-israeli-settlements-4?traffic_source=rss",
+      "published": "2026-09-06T06:52:23+00:00",
+      "compound": -0.5574,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Why a famous Montreal sandwich shop has been forced to swap its soda",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/videos/c99dpd083v9o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-06T06:04:51+00:00",
+      "compound": -0.4588,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Flames burst from Qantas plane engine after New Zealand takeoff",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/6/flames-burst-from-qantas-plane-engine-after-new-zealand-takeoff?traffic_source=rss",
+      "published": "2026-09-06T05:02:23+00:00",
+      "compound": -0.5574,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Yemeni forces claim strategic district amid intensified Houthi clashes",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/6/yemeni-forces-claim-strategic-district-amid-intensified-houthi-clashes?traffic_source=rss",
+      "published": "2026-09-06T05:02:17+00:00",
+      "compound": -0.6705,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "North Korea's Biggest Military Corruption Scandal in a Decade Exposed",
+      "source": "Around Prague",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQS29vZXJ4ZE96a0VPZnNkaEV3V2R2X0NBbXF5dWJ3THdMOXVEeDNSNFAwVFFTVjNOX1kxbEhfNmtHZ2oxVGdscWlfNzJVNlVWeTJFd24zSDV0dk1VRm4ySENrRzlWdXFpRk1Rb1p5RXo3ZjBUU0J0SEJidnMteURkR0ItaEhVRGxyVHFPQzFNNUlSTmlYcjB2eWFVbnRRV3UtdXo0?oc=5",
+      "published": "2026-09-06T05:00:10+00:00",
+      "compound": -0.7506,
+      "label": "negative",
+      "entities": [
+        "North Korea"
+      ]
+    },
+    {
+      "title": "Israeli Prime Minister Netanyahu says ‘Qatar is a hostile state’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/6/israeli-prime-minister-netanyahu-says-qatar-is-a-hostile?traffic_source=rss",
+      "published": "2026-09-06T04:59:28+00:00",
+      "compound": -0.5994,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "More than 20 killed in fire at wedding party in DR Congo",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/6/more-than-20-killed-in-fire-at-wedding-party-in-dr-congo?traffic_source=rss",
+      "published": "2026-09-06T04:47:55+00:00",
+      "compound": -0.8467,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "North Korea scheme infiltrated remote IT jobs market for years, FBI says",
+      "source": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQc1dtZEhYaGRLVEtDc3pnay1IeXljbG9wX2pydEF6RGpnbXh3RlhVemlNSFlLR0xhSERhSjd1UXMzRWpBUUw1VDduUUxIb3ZRZ1c0STQ3aHdPNGUxNTBWalFlTk4xMXk0Uk5Ya1VYUHNfTVpaRmhWd0NrTTBDbm01N0podmZTeHhUY1BYanBwNkFUamlpOEE?oc=5",
+      "published": "2026-09-06T04:32:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "North Korea"
+      ]
+    },
+    {
+      "title": "South Africa’s chrome riches fuel a deadly underground economy",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/6/south-africas-chrome-riches-fuel-a-deadly-underground-economy?traffic_source=rss",
+      "published": "2026-09-06T04:31:45+00:00",
+      "compound": 0.6124,
+      "label": "positive",
+      "entities": []
+    },
+    {
       "title": "German voters head to polls as far-right AfD party eyes historic state win",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/9/6/german-voters-head-to-polls-as-far-right-afd-party-eyes-historic-state-win?traffic_source=rss",
@@ -6411,6 +6658,17 @@
       "compound": 0.8481,
       "label": "positive",
       "entities": []
+    },
+    {
+      "title": "North Korea scheme infiltrated remote IT jobs market for years, FBI says",
+      "source": "NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPM3N2ZF81Z1FUdFdIUFZidDR3VlViRkZ4S0xLNFpWRVVoakZ0c3lfN0d1eXI3bXNPS2xxckhFOEVZVVExTjNpckxvazcteDJuSmk0Y3V6N0FYVlBVZ19feU1oWHpaMzF5dUFUVDZlYXZwT3NPSUhRaVdQby1XcmJaRzVCUVRjQjd3NWpqYXROWFBkdjNoa0HSAZsBQVVfeXFMTno1aVp0TGloS2JZaWdLc092NWJQQjlWX085S2g0MDhXWmlramhEV2NqbGUwaFcwVGhPelBYUWpkMFY5U3lCT1FiX25oVWMxMTEyWFlCX2EzbG9HeFkxcmMyMlU5N3lIMnhIMDFEUTN0djlpUFhmTkRSN3VEd3dERkFxdGlUaDNsUDlGR3l6VDFYSWU3ZE9ZREtJLVE?oc=5",
+      "published": "2026-09-06T03:57:09+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "North Korea"
+      ]
     },
     {
       "title": "Indonesia’s main airport suspends flights due to Anak Krakatau eruption",
@@ -6727,256 +6985,6 @@
       "published": "2026-09-05T18:57:56+00:00",
       "compound": 0.0,
       "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Two pilots killed after Greek fighter jet crashes during an air show",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/two-pilots-killed-after-greek-fighter-jet-crashes-during-an-air-show?traffic_source=rss",
-      "published": "2026-09-05T18:44:41+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Thousands protest in Croatia to demand government clean up toxic waste",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/5/thousands-protest-in-croatia-to-demand-government-clean-up-toxic-waste?traffic_source=rss",
-      "published": "2026-09-05T18:42:08+00:00",
-      "compound": -0.8442,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Russia’s Putin meets US envoys to discuss Trump proposal to end Ukraine war",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/5/russias-putin-meets-us-envoys-to-discuss-trump-proposal-to-end-ukraine-war?traffic_source=rss",
-      "published": "2026-09-05T18:12:52+00:00",
-      "compound": -0.5469,
-      "label": "negative",
-      "entities": [
-        "Donald Trump",
-        "Russia"
-      ]
-    },
-    {
-      "title": "India crush Pakistan at T20 Asia Cup with record-breaking bowling display",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/9/5/india-crush-pakistan-at-t20-asia-cup-with-record-breaking-bowling-display?traffic_source=rss",
-      "published": "2026-09-05T18:10:50+00:00",
-      "compound": 0.128,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Germany’s far-right AfD eyes historic first in state election",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/09-05-germany-afd-state-elections-sv?traffic_source=rss",
-      "published": "2026-09-05T18:07:43+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Haaland heads Man City to the top of Premier League with win over Coventry",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/9/5/haaland-head-man-city-to-the-top-of-premier-league-with-win-over-coventry?traffic_source=rss",
-      "published": "2026-09-05T16:47:17+00:00",
-      "compound": 0.9042,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Gaza teams recover remains of 55 people nearly 3 years after Israeli strike",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/5/gaza-teams-recover-remains-of-55-people-nearly-3-years-after-israeli-strike?traffic_source=rss",
-      "published": "2026-09-05T16:17:47+00:00",
-      "compound": -0.4215,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Israel claims control of Lebanon’s key Ali al-Taher ridge: What that means",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/5/israel-claims-control-of-lebanons-key-ali-al-taher-ridge-what-that-means?traffic_source=rss",
-      "published": "2026-09-05T16:04:01+00:00",
-      "compound": 0.1027,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "US says it hit three Iranian oil tankers after attacks on warships",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/us-says-it-hit-three-iranian-oil-tankers-after-attacks-on-warships?traffic_source=rss",
-      "published": "2026-09-05T15:49:44+00:00",
-      "compound": -0.8442,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Israeli campaign of West Bank destruction moves on to region’s food basket",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/2026/9/5/israeli-campaign-of-west-bank-destruction-moves-on-to-regions-food-basket?traffic_source=rss",
-      "published": "2026-09-05T15:37:12+00:00",
-      "compound": -0.8225,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Rescuers pull Chinese worker, Nepali woman from flood wreckage alive",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/5/rescuers-pull-chinese-worker-nepali-woman-from-flood-wreckage-alive?traffic_source=rss",
-      "published": "2026-09-05T15:33:02+00:00",
-      "compound": 0.5106,
-      "label": "positive",
-      "entities": [
-        "China"
-      ]
-    },
-    {
-      "title": "US hits three Iranian oil tankers after saying its warships were targeted",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-05T15:07:45+00:00",
-      "compound": -0.5267,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "US envoys arrive in Moscow ahead of Ukraine talks",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cx2zqp46g8eo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-05T15:05:14+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "US military hits 3 Iranian oil tankers after saying Navy warships were targeted",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/09/05/nx-s1-5959159/us-iran-warships-targeted",
-      "published": "2026-09-05T15:05:08+00:00",
-      "compound": -0.7845,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Donald Trump’s Korea Diplomacy Is a Distraction Exercise",
-      "source": "Jacobin",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1IcmxPNkNnSEE2QXBoTGpNMGI5NWlBSlBRMEJyRk5kenNRSTdodnNmLXFwaXozMTh2VHRyeGFWdmxRbFBzVXBTNVRNTEQzNUVQQVFyY3VFOGN5THJwMEdZY2VnWV9adw?oc=5",
-      "published": "2026-09-05T14:59:10+00:00",
-      "compound": -0.6369,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Multipolarity gives middle powers more choices, but fewer guarantees",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/opinions/2026/9/5/multipolarity-gives-middle-powers-more-choices-but-fewer-guarantees?traffic_source=rss",
-      "published": "2026-09-05T14:51:08+00:00",
-      "compound": 0.8204,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "US says it hit Iran oil tankers helping finance ‘regional proxies’",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/5/us-says-it-hit-iran-oil-tankers-helping-finance-regional-proxies?traffic_source=rss",
-      "published": "2026-09-05T14:49:36+00:00",
-      "compound": -0.0772,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Relatives hold cremations without bodies for Nepal’s missing flood victims",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/2026/9/5/relatives-hold-cremations-without-bodies-for-nepals-missing-flood-victims?traffic_source=rss",
-      "published": "2026-09-05T14:40:38+00:00",
-      "compound": -0.8402,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Coach Luis Enrique unconcerned by PSG’s poor start to French league season",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/9/5/coach-luis-enrique-unconcerned-by-psgs-poor-start-to-french-league-season?traffic_source=rss",
-      "published": "2026-09-05T14:07:52+00:00",
-      "compound": -0.8442,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Why has the Trump administration ordered staff to take polygraph tests?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/5/why-has-the-trump-administration-ordered-staff-to-take-polygraph-tests?traffic_source=rss",
-      "published": "2026-09-05T13:54:33+00:00",
-      "compound": -0.4404,
-      "label": "negative",
-      "entities": [
-        "Donald Trump",
-        "United States"
-      ]
-    },
-    {
-      "title": "UK gov’t condemns masked anti-immigrant protesters blocking Dover port",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/5/uk-govt-condemns-masked-anti-immigrant-protesters-blocking-dover-port?traffic_source=rss",
-      "published": "2026-09-05T13:51:29+00:00",
-      "compound": -0.9001,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "What different world maps get right - and what they get wrong",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cly5r60v4mro?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-05T13:46:02+00:00",
-      "compound": -0.4019,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Why is North Korea so good at women's youth football? | DW News",
-      "source": "Modern Ghana",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA0a0JmS1gta2Z5Q3hIaFZnelJmUzZldldETXVSUE1iWjZuNU1IdXlyY3NlRGNQUzlFYWdrU0NOU2pVM2k5WnI2MFFXZ0huLXQ2UGcwazRfTEdma2RTb3fSAVxBVV95cUxQZjVUTnd0cFdTT3FTVGNkV3ZQTzJsanBlRHR6dzdOTzdtT1V4S1lwWi1mbVNHZnVCMktSdjhSMlp2ZXRDOU9XZ3BIMWczZWN5MGRWYlZIYnRPSGQ2VQ?oc=5",
-      "published": "2026-09-05T13:29:56+00:00",
-      "compound": 0.8335,
-      "label": "positive",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "Arsenal vs Chelsea: Premier League – prediction, teams, lineups",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/9/5/arsenal-vs-chelsea-premier-league-prediction-teams-lineups?traffic_source=rss",
-      "published": "2026-09-05T13:20:42+00:00",
-      "compound": -0.3818,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "‘Stop the boats’ masked protesters block England’s Port of Dover",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/stop-the-boats-masked-protesters-block-englands-port-of-dover?traffic_source=rss",
-      "published": "2026-09-05T13:09:24+00:00",
-      "compound": -0.7783,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Iran President Pezeshkian calls for unity as US ramps up economic pressure",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/9/5/iran-president-pezeshkian-calls-for-unity-as-us-ramps-up-economic-pressure?traffic_source=rss",
-      "published": "2026-09-05T13:07:36+00:00",
-      "compound": 0.4215,
-      "label": "positive",
       "entities": []
     }
   ]

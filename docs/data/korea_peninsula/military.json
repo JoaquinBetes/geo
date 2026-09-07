@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-09-06T20:24:20+00:00",
+  "updated": "2026-09-07T04:42:02+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -43,12 +43,12 @@
   },
   "window": {
     "from": "2026-01-12",
-    "to": "2026-09-06"
+    "to": "2026-09-07"
   },
   "kpis": {
-    "events_total": 50,
-    "events_unlocated": 1546,
-    "events_7d": 0,
+    "events_total": 51,
+    "events_unlocated": 1551,
+    "events_7d": 1,
     "events_prev_7d": 3,
     "hottest_place": "Seoul"
   },
@@ -282,6 +282,15 @@
       "date": "2026-08-27",
       "total": 2,
       "strike": 2,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-07",
+      "total": 1,
+      "strike": 1,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -788,6 +797,16 @@
       "title": "Shafaq News..North Korea decries US-Seoul $125M missile deal",
       "source": "شفق نيوز",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBIcElaSmVmYkxhbXB0R29KeGRpc2dfQ1Jfam82bjdsTzdaS0ozT1djZmQ2T2RvS3RXUlF4emVDYUVUUkFWTTJsMmNzQWh1aFlhX2R3czczenlLS0NxdjBLM19WNGNjUVNnZEgyZVh5cWtEYjhKN01yeVlQcWRKUVk?oc=5"
+    },
+    {
+      "date": "2026-09-07",
+      "type": "strike",
+      "place": "Pyongyang",
+      "lat": 39.0392,
+      "lon": 125.7625,
+      "title": "North Korea deploys warship ‘capable of annihilating retaliatory strikes’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/7/north-korea-deploys-warship-capable-of-annihilating-retaliatory-strikes?traffic_source=rss"
     }
   ],
   "top_places": [

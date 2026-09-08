@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-09-07T21:31:29+00:00",
+  "updated": "2026-09-08T04:36:36+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -43,12 +43,12 @@
   },
   "window": {
     "from": "2026-01-12",
-    "to": "2026-09-07"
+    "to": "2026-09-08"
   },
   "kpis": {
-    "events_total": 51,
-    "events_unlocated": 1605,
-    "events_7d": 1,
+    "events_total": 52,
+    "events_unlocated": 1624,
+    "events_7d": 2,
     "events_prev_7d": 3,
     "hottest_place": "Seoul"
   },
@@ -289,10 +289,10 @@
     },
     {
       "date": "2026-09-07",
-      "total": 1,
+      "total": 2,
       "strike": 1,
       "ground": 0,
-      "infrastructure": 0,
+      "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
     }
@@ -807,6 +807,16 @@
       "title": "North Korea deploys warship ‘capable of annihilating retaliatory strikes’",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/9/7/north-korea-deploys-warship-capable-of-annihilating-retaliatory-strikes?traffic_source=rss"
+    },
+    {
+      "date": "2026-09-07",
+      "type": "infrastructure",
+      "place": "Wonsan",
+      "lat": 39.153,
+      "lon": 127.446,
+      "title": "North Korea Commissions Second Kang Kon-Class Destroyer at Wonsan Port - News and Statistics",
+      "source": "IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWHZvT1UzaGtpcGxCVV9BVmJQM0YzWmlWOGNEZk9XRkxlakdUMHlaQ2RUQkt5UUNnQ18xa2VYeEc0dlNFd1hpU19vVUlYMFkyVFJHXzY5Wi1pSVRMTzA3bF9xR3FURlprYV9fajFYejZlMGliYWZRbEFkUHZhUmFxVXR5MjdveTlaQ19zcm53?oc=5"
     }
   ],
   "top_places": [
@@ -817,6 +827,10 @@
     {
       "place": "Pyongyang",
       "count": 11
+    },
+    {
+      "place": "Wonsan",
+      "count": 1
     }
   ],
   "losses": null

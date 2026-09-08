@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-09-07T21:31:06+00:00",
+  "updated": "2026-09-08T04:36:16+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-09-07"
+    "to": "2026-09-08"
   },
   "kpis": {
-    "events_total": 720,
-    "events_unlocated": 1974,
-    "events_7d": 84,
-    "events_prev_7d": 67,
+    "events_total": 722,
+    "events_unlocated": 1983,
+    "events_7d": 75,
+    "events_prev_7d": 64,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -826,6 +826,15 @@
       "strike": 5,
       "ground": 1,
       "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-08",
+      "total": 2,
+      "strike": 2,
+      "ground": 0,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -8030,16 +8039,36 @@
       "title": "Russia shutters German consulate as diplomatic freeze deepens",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/9/7/russia-shutters-german-consulate-as-diplomatic-freeze-deepens?traffic_source=rss"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russia strikes Kyiv as three-day pause during US envoy visits ends",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaEhXSHNycHhKQldXbnlyVks3dUh0NDZIbHB2YU43MXkxaXdaZVg2NHZIelJ4emhyZk9PVWZiUzRwcUxONDd2VnRwVC00Z0toeXZvNE84aUpxZ2I2MUdVRFhQT0tqUmJkc3NHRHMtVnE1dmk5dlZvQXBlSVQ2V28xM0NZajhDTFpRdEhKYjcxdlQ2ZFNpRFphalBjMDlQQ2ZTemdhR0ZWR2QxZ9IBrwFBVV95cUxPX0VZRUtqcjA2cWRYN19LdEpzRFJTWlRfdHo4c29qSGloM2hoME5KU01Fb1JhNDl0eDhrN1B1WmxBeVFVMkJ6Z0FVTUZkN0lMXzdVb3JTblJpT0Q5SlRoQVJBTmlzMUFBWDJSTFdUendRYnFXV3JjRXVDZEg4cHRCRF9ENW15Z1VjdG5obkdFV2QtcVVEQi1mVWFrSmlmTVNSMXdWaVRhTkEySkNpc3kw?oc=5"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russia launches deadly strikes on Kyiv as pause during US envoy visits ends",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/8/russia-strikes-kyiv-as-three-day-pause-during-us-envoy-visits-ends?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 188
+      "count": 181
     },
     {
       "place": "Moscow",
-      "count": 65
+      "count": 63
     },
     {
       "place": "Zaporizhzhia",
@@ -8051,7 +8080,7 @@
     },
     {
       "place": "Odesa",
-      "count": 8
+      "count": 7
     },
     {
       "place": "Donetsk",

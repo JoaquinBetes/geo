@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-09-08T21:09:26+00:00",
+  "updated": "2026-09-09T04:42:26+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -38,13 +38,13 @@
   },
   "window": {
     "from": "2026-02-27",
-    "to": "2026-09-08"
+    "to": "2026-09-09"
   },
   "kpis": {
-    "events_total": 439,
-    "events_unlocated": 1839,
-    "events_7d": 40,
-    "events_prev_7d": 17,
+    "events_total": 441,
+    "events_unlocated": 1847,
+    "events_7d": 36,
+    "events_prev_7d": 22,
     "hottest_place": "Strait of Hormuz"
   },
   "daily": [
@@ -683,6 +683,15 @@
       "total": 6,
       "strike": 1,
       "ground": 5,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-09",
+      "total": 2,
+      "strike": 2,
+      "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -5068,20 +5077,40 @@
       "title": "Yemen’s war is back: A new battle for Sanaa and the Red Sea",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/features/2026/9/8/yemens-war-is-back-a-new-battle-for-sanaa-and-the-red-sea?traffic_source=rss"
+    },
+    {
+      "date": "2026-09-09",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "US attacks 5 Iranian oil tankers, Tehran retaliates with strikes on Jordan",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSVZkSGpmVEVQUWxwTVJzMktrLWQ1R0RESXZqbktnZlo3SmJGM0prNEs3dVg0UUp3WWlzQVdZaUdONHQwOWFwVFU0R19hbm1zZGIyVVFqWkJ3S2c2dEpQQUJ4SHd4VE52UXBwa2pHSGZjWFd3U0xQeTFLQVIzZFBQdS11Y1VoY3NzVGlsTF9WYTduYVVZaUhlV05ob3c0RWFWY3M2Q19zSnlYdkpOTW13LUZrdFpKclnSAbwBQVVfeXFMT3pFYTcwbEJBMkxXWEEya3hZRFhRbzV0dTg4SkFIay1nWkthZFlEY3pFTUNVMnhuRnpTdTZkSzcwT0tmNjBncmpaNzk1akNsUldnWEZkVXNrejB6UEUtMXRpTXhQbHVQYkRiSDZxclQ0S1BUdVc0d1lUT0FmNGdfdzVLLU80czBXSHIwSXJCT3lqTXBCc29qaE9KZk5xM3JjSXBCSm1XX0JEd0VqNjNnY19DMHo3S2M0aWZQWU8?oc=5"
+    },
+    {
+      "date": "2026-09-09",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "US attacks 5 Iranian oil tankers, Tehran retaliates with strikes on Jordan",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/9/us-destroys-five-iranian-tankers-iran-retaliates-with-attacks-on-jordan-base?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 44
+      "count": 43
     },
     {
       "place": "Tehran",
-      "count": 22
+      "count": 23
     },
     {
       "place": "Jerusalem",
-      "count": 9
+      "count": 7
     },
     {
       "place": "Kharg Island",

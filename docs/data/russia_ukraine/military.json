@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-09-08T21:09:18+00:00",
+  "updated": "2026-09-09T04:42:19+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-09-08"
+    "to": "2026-09-09"
   },
   "kpis": {
-    "events_total": 729,
-    "events_unlocated": 1997,
-    "events_7d": 82,
-    "events_prev_7d": 64,
+    "events_total": 733,
+    "events_unlocated": 2002,
+    "events_7d": 73,
+    "events_prev_7d": 68,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -834,6 +834,15 @@
       "total": 9,
       "strike": 7,
       "ground": 2,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-09",
+      "total": 4,
+      "strike": 4,
+      "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -8129,16 +8138,56 @@
       "title": "Police bodycam captures Russian missile strike on Kyiv",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/9/8/police-bodycam-captures-russian-missile-strike-on-kyiv?traffic_source=rss"
+    },
+    {
+      "date": "2026-09-09",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: Kyiv books in 1,000 Patriots as UK and EU open up missile aid",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORm92N3BtOXN0Yi1BbGNjTFFZMnpfM2NzY3NMZFlqUmVVV3dLU1RnbU1DT0YwLWloWEpCM05CSlNZY3p6R0FOTHdiTVFoU0U5akhHMkpLTnFpX0E2M1QzSXhfRDJNSVh3WGVuUXAwZkRKT3dzLW9LOHFZMm1oQWRhSkZuMFc5bGlESWVBaXkzc2xvZGNJQzRqZ2JuS2lOQVBoc1hMUHVSWVVCWl9ZbHptTDlJcENCMGNkTzlNN1ZVQTR3cmd6T2c?oc=5"
+    },
+    {
+      "date": "2026-09-09",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "‘Miserable and impossible’: food scarce in Kyiv as Russia targets supply chains",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/sep/09/miserable-and-impossible-food-scarce-in-kyiv-ukraine-as-russia-targets-supply-chains"
+    },
+    {
+      "date": "2026-09-09",
+      "type": "strike",
+      "place": "Donetsk",
+      "lat": 48.0159,
+      "lon": 37.8029,
+      "title": "Russia is raining death on Ukraine’s women and children. Our hands shake but we keep going for love | Alina Sarnatska",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/09/russia-raining-death-ukraines-women-children-hands-shake-keep-going-for-love"
+    },
+    {
+      "date": "2026-09-09",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: Kyiv books in 1,000 Patriots as UK and EU open up missile aid",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/sep/09/ukraine-war-briefing-kyiv-books-in-1000-patriots-as-uk-and-eu-open-up-missile-aid"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 186
+      "count": 187
     },
     {
       "place": "Moscow",
-      "count": 65
+      "count": 64
     },
     {
       "place": "Zaporizhzhia",
@@ -8149,12 +8198,8 @@
       "count": 10
     },
     {
-      "place": "Odesa",
-      "count": 7
-    },
-    {
       "place": "Donetsk",
-      "count": 6
+      "count": 7
     },
     {
       "place": "Belgorod",
@@ -8170,6 +8215,10 @@
     },
     {
       "place": "Sevastopol",
+      "count": 3
+    },
+    {
+      "place": "Rostov-on-Don",
       "count": 3
     }
   ],

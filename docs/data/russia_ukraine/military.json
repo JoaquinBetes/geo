@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-09-09T20:55:52+00:00",
+  "updated": "2026-09-10T04:42:50+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-09-09"
+    "to": "2026-09-10"
   },
   "kpis": {
-    "events_total": 734,
-    "events_unlocated": 2022,
-    "events_7d": 74,
-    "events_prev_7d": 68,
+    "events_total": 736,
+    "events_unlocated": 2025,
+    "events_7d": 64,
+    "events_prev_7d": 71,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -842,6 +842,15 @@
       "date": "2026-09-09",
       "total": 5,
       "strike": 5,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-10",
+      "total": 2,
+      "strike": 2,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -8188,16 +8197,36 @@
       "title": "Russian drone attack kills two at Ukraine-Moldova border crossing",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/9/9/russian-drone-attack-kills-two-at-ukraine-moldova-border-crossing?traffic_source=rss"
+    },
+    {
+      "date": "2026-09-10",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: Arctic attack extends Kyiv’s strike reach into Russian gas heartland",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZGZTV0NpMnBYZzF1cW9mY011OTNlS0NkcDRZYW1pQVhuV0tUSzM0V0NYVDJyaTJIYmt6TWhMWS1LQkRmRWVKSkZpVWxaNnRWNWtSdndBSjBWMGtYeVN4c09oQk04YVVrV0R4VmRQZGdZakdpU2ItSnY2M0M0aGlzYzdFX0U0bXZrQ3RsTzVyVzNDNldkZ0F0Z3hTMmNZOWtuZnZaLUpEdko5c2Ju?oc=5"
+    },
+    {
+      "date": "2026-09-10",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: Arctic attack extends Kyiv’s strike reach into Russian gas heartland",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/sep/10/ukraine-war-briefing-arctic-missile-attack-russian-gas-siberia"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 187
+      "count": 188
     },
     {
       "place": "Moscow",
-      "count": 64
+      "count": 61
     },
     {
       "place": "Zaporizhzhia",
@@ -8212,15 +8241,15 @@
       "count": 7
     },
     {
-      "place": "Belgorod",
-      "count": 5
-    },
-    {
       "place": "Novorossiysk",
       "count": 4
     },
     {
       "place": "Dnipro",
+      "count": 4
+    },
+    {
+      "place": "Belgorod",
       "count": 4
     },
     {

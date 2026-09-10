@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-09-10T04:43:00+00:00",
+  "updated": "2026-09-10T11:19:53+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-09-10"
   },
   "kpis": {
-    "events_total": 444,
-    "events_unlocated": 1861,
-    "events_7d": 33,
+    "events_total": 445,
+    "events_unlocated": 1868,
+    "events_7d": 34,
     "events_prev_7d": 28,
     "hottest_place": "Strait of Hormuz"
   },
@@ -691,6 +691,15 @@
       "date": "2026-09-09",
       "total": 5,
       "strike": 5,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-10",
+      "total": 1,
+      "strike": 1,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -5127,12 +5136,22 @@
       "title": "Iran referred to UN Security Council for nuclear non-compliance",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/articles/ckgwj4kl5lno?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "date": "2026-09-10",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Trump’s repeated threats to ‘wipe out’ Iran are normalizing mass violence | Mohamad Bazzi",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/10/trump-iran-violence"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 44
+      "count": 45
     },
     {
       "place": "Tehran",

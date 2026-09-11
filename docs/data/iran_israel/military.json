@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-09-11T11:21:28+00:00",
+  "updated": "2026-09-11T16:28:47+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-09-11"
   },
   "kpis": {
-    "events_total": 457,
-    "events_unlocated": 1894,
-    "events_7d": 39,
+    "events_total": 460,
+    "events_unlocated": 1900,
+    "events_7d": 42,
     "events_prev_7d": 35,
     "hottest_place": "Strait of Hormuz"
   },
@@ -707,10 +707,10 @@
     },
     {
       "date": "2026-09-11",
-      "total": 3,
-      "strike": 1,
-      "ground": 1,
-      "infrastructure": 1,
+      "total": 6,
+      "strike": 2,
+      "ground": 2,
+      "infrastructure": 2,
       "air_defense": 0,
       "anomaly": false
     }
@@ -5275,6 +5275,36 @@
       "title": "Iran-backed Houthi rebels seize strategic Red Sea port in Yemen",
       "source": "NPR",
       "url": "https://www.npr.org/2026/09/11/g-s1-142822/houthis-red-sea-port"
+    },
+    {
+      "date": "2026-09-11",
+      "type": "strike",
+      "place": "Jerusalem",
+      "lat": 31.7683,
+      "lon": 35.2137,
+      "title": "Israel expects fewer than 2,000 Iranian missiles by the end of 2026 — Jerusalem Post",
+      "source": "UA.NEWS",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRm5waFVrQkpza1U5THYtWnV6RmJGWHNsejB3THEtSWpmQzNYNWRqcjN3NDlDN0F2ZnpXTmZLU0s3XzRuaVBzMVpqWjMtTk0xYXp4ZWh4UENIdDdsQTRSSXJNOUpSeVdaQVJRSGpOYnNoanhzeXBxMEVLeEhBVVE5WkN4RENSWXdObnhYaTZUT1Q0bnYtd0RzZnJTcjR1YldURmJuUmE2YUlob1JqOEpFU1pkNS1obkZfTVE?oc=5"
+    },
+    {
+      "date": "2026-09-11",
+      "type": "infrastructure",
+      "place": "Bab el-Mandeb",
+      "lat": 12.5833,
+      "lon": 43.3333,
+      "title": "Iran’s Houthi allies capture strategic island on vital oil shipping route",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/sep/11/iran-houthi-allies-capture-strategic-island-bab-al-mandab-strait"
+    },
+    {
+      "date": "2026-09-11",
+      "type": "ground",
+      "place": "Bab el-Mandeb",
+      "lat": 12.5833,
+      "lon": 43.3333,
+      "title": "How global trade and oil prices could be hit by Houthi advance",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/videos/cy5z02w1zxxo?at_medium=RSS&at_campaign=rss"
     }
   ],
   "top_places": [
@@ -5288,15 +5318,15 @@
     },
     {
       "place": "Jerusalem",
-      "count": 8
+      "count": 9
+    },
+    {
+      "place": "Bab el-Mandeb",
+      "count": 7
     },
     {
       "place": "Kharg Island",
       "count": 6
-    },
-    {
-      "place": "Bab el-Mandeb",
-      "count": 5
     },
     {
       "place": "Baghdad",

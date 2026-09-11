@@ -2,13 +2,13 @@
   "id": "russia_ukraine",
   "name": "Rusia–Ucrania",
   "description": "Cobertura mediática del conflicto entre Rusia y Ucrania",
-  "updated": "2026-09-10T20:52:18+00:00",
-  "total_articles": 12965,
-  "overall_avg": -0.4,
+  "updated": "2026-09-11T04:40:42+00:00",
+  "total_articles": 12996,
+  "overall_avg": -0.3997,
   "distribution": {
-    "pos": 2465,
-    "neu": 1480,
-    "neg": 9020
+    "pos": 2473,
+    "neu": 1483,
+    "neg": 9040
   },
   "sources": [
     "Al Jazeera",
@@ -72,8 +72,8 @@
     "Firstpost",
     "WION",
     "Goshen News",
-    "South China Morning Post",
     "Forbes",
+    "South China Morning Post",
     "Russia Matters",
     "New York Post",
     "CBC",
@@ -232,6 +232,7 @@
     "The New Indian Express",
     "Toronto Star",
     "Barron's",
+    "independent.co.uk",
     "uatv.ua",
     "India Today",
     "Jacobin",
@@ -338,7 +339,6 @@
     "Plataforma Media",
     "EWTN News",
     "Australian Institute of International Affairs",
-    "independent.co.uk",
     "timesofisrael.com",
     "Yahoo News UK",
     "Telegraph India",
@@ -715,7 +715,8 @@
     "YouTube",
     "RaceFans",
     "Amnesty International",
-    "theatlantic.com"
+    "theatlantic.com",
+    "NewsNation"
   ],
   "daily": [
     {
@@ -1728,18 +1729,26 @@
     },
     {
       "date": "2026-09-10",
-      "count": 130,
-      "avg": -0.2582,
-      "pos": 35,
-      "neu": 17,
-      "neg": 78
+      "count": 145,
+      "avg": -0.2563,
+      "pos": 38,
+      "neu": 20,
+      "neg": 87
+    },
+    {
+      "date": "2026-09-11",
+      "count": 16,
+      "avg": -0.2892,
+      "pos": 5,
+      "neu": 0,
+      "neg": 11
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 5551,
-      "avg": -0.277
+      "count": 5576,
+      "avg": -0.2765
     },
     {
       "source": "BBC",
@@ -1753,8 +1762,8 @@
     },
     {
       "source": "The Guardian",
-      "count": 491,
-      "avg": -0.5953
+      "count": 494,
+      "avg": -0.5968
     },
     {
       "source": "UNITED24 Media",
@@ -2042,14 +2051,14 @@
       "avg": -0.8316
     },
     {
+      "source": "Forbes",
+      "count": 17,
+      "avg": -0.6785
+    },
+    {
       "source": "South China Morning Post",
       "count": 17,
       "avg": -0.6948
-    },
-    {
-      "source": "Forbes",
-      "count": 16,
-      "avg": -0.7209
     },
     {
       "source": "Russia Matters",
@@ -2842,6 +2851,11 @@
       "avg": -0.8317
     },
     {
+      "source": "independent.co.uk",
+      "count": 3,
+      "avg": -0.3367
+    },
+    {
       "source": "uatv.ua",
       "count": 3,
       "avg": -0.7489
@@ -3370,11 +3384,6 @@
       "source": "Australian Institute of International Affairs",
       "count": 2,
       "avg": -0.3483
-    },
-    {
-      "source": "independent.co.uk",
-      "count": 2,
-      "avg": -0.0149
     },
     {
       "source": "timesofisrael.com",
@@ -5260,26 +5269,31 @@
       "source": "theatlantic.com",
       "count": 1,
       "avg": 0.0
+    },
+    {
+      "source": "NewsNation",
+      "count": 1,
+      "avg": -0.6369
     }
   ],
   "top_entities": [
     {
       "name": "Ukraine",
       "type": "LOCATION",
-      "count": 5019,
-      "avg": -0.5849
+      "count": 5027,
+      "avg": -0.5851
     },
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 4440,
-      "avg": -0.6113
+      "count": 4447,
+      "avg": -0.6114
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 1199,
-      "avg": -0.2898
+      "count": 1204,
+      "avg": -0.2889
     },
     {
       "name": "Kyiv",
@@ -5290,8 +5304,8 @@
     {
       "name": "Vladimir Putin",
       "type": "PERSON",
-      "count": 770,
-      "avg": -0.5218
+      "count": 774,
+      "avg": -0.5224
     },
     {
       "name": "Volodymyr Zelensky",
@@ -5314,8 +5328,8 @@
     {
       "name": "NATO",
       "type": "ORG",
-      "count": 246,
-      "avg": -0.4624
+      "count": 248,
+      "avg": -0.4661
     },
     {
       "name": "Crimea",
@@ -5349,6 +5363,309 @@
     }
   ],
   "recent": [
+    {
+      "title": "Ukraine-Russia war latest: Children among five killed and 67 injured as Putin strikes shopping centre",
+      "source": "independent.co.uk",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUVkySWxnbUdnS3kyLW1jM01tMGZzbXZ4bFVLX1phSTc2Rk5WOXJ1d0o2MnZrVEJWeFowYzRpMmc4TVk0S3V3b3gyM0UwUzBVbGhJdkx5UG5MS2ZfdXlnSGVuay1xX0c3eFpfcXFMV3doaDhmTHdFVjF4N2NLNHlFSWEwYzc2SGJHMXZ0YnZyU2xjeDAzeml0VHFnRUpLdThkdUIzc3NxLVFmTUQtNFNYYUFVY3FWQmhtT0NDVUVNUTB3cmlaWnc?oc=5",
+      "published": "2026-09-11T04:31:40+00:00",
+      "compound": -0.9803,
+      "label": "negative",
+      "entities": [
+        "Vladimir Putin",
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Republican midterm convention wraps up in Dallas, Texas: Key takeaways",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/11/republican-midterm-convention-wraps-up-in-dallas-texas-key-takeaways?traffic_source=rss",
+      "published": "2026-09-11T03:33:08+00:00",
+      "compound": -0.2263,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Taiwan vice president makes rare Europe visit for conference on democracy",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/11/taiwan-vice-president-makes-rare-europe-visit-for-conference-on-democracy?traffic_source=rss",
+      "published": "2026-09-11T03:15:44+00:00",
+      "compound": 0.3818,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Young republicans break with Trump over Iran war",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/11/young-republicans-break-with-trump-over-iran-war?traffic_source=rss",
+      "published": "2026-09-11T02:45:52+00:00",
+      "compound": -0.3182,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Putin lands in India for BRICs summit, shadowed by Iran and Ukraine wars",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/11/putin-lands-in-india-for-brics-summit-shadowed-by-iran-and-ukraine-wars?traffic_source=rss",
+      "published": "2026-09-11T02:40:19+00:00",
+      "compound": -0.802,
+      "label": "negative",
+      "entities": [
+        "Vladimir Putin",
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Ukraine war briefing: Nato ‘foils Russian undersea cable sabotage drill’",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMWNZTmJyMWFFX05iclJhSXo4clItb2JtdGhReDVOaWtMNjZzYl9uNEFMeDE4N19TNl9jR0hVWExWZXowaUdlSWExYTJ3R1BJS1BKamVZc3NfclZpcnQwRVlOYmNzQnYySWtQWGFMdklqUEtoaUdKeTVsVkd1UUs1cnNmaGM4M2hHNWt5ZlJzdGw3SW9UMldPYlNPVUVramprdWdXNVRhcG1UNmh1Y3k0ajMxOUI3UQ?oc=5",
+      "published": "2026-09-11T02:33:00+00:00",
+      "compound": -0.9393,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine",
+        "NATO"
+      ]
+    },
+    {
+      "title": "Ukraine war briefing: Nato ‘foils Russian undersea cable sabotage drill’",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/sep/11/ukraine-war-briefing-nato-foils-russian-undersea-cable-sabotage-drill",
+      "published": "2026-09-11T02:31:50+00:00",
+      "compound": -0.8934,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine",
+        "NATO"
+      ]
+    },
+    {
+      "title": "Brazil’s Supreme Court shuts down early as political chaos mounts",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/11/brazils-supreme-court-shuts-down-early-as-political-chaos-mounts?traffic_source=rss",
+      "published": "2026-09-11T02:04:50+00:00",
+      "compound": -0.4767,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Unveiling of Charlie Kirk statue sparks chaos in Times Square",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/11/aje-onl-nf_charlie-kirk-statue-sparks-chaos-in-times-square-100926?traffic_source=rss",
+      "published": "2026-09-11T01:24:27+00:00",
+      "compound": 0.1027,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Maduro’s wife seeks home detention as heart condition worsens in US custody",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/11/maduros-wife-seeks-home-detention-as-heart-condition-worsens-in-us-custody?traffic_source=rss",
+      "published": "2026-09-11T01:07:23+00:00",
+      "compound": -0.4404,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Putin arrives in India for Brics summit set to be dominated by Iran and Ukraine wars",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/sep/11/putin-india-visit-brics-summit",
+      "published": "2026-09-11T00:56:00+00:00",
+      "compound": -0.7003,
+      "label": "negative",
+      "entities": [
+        "Vladimir Putin",
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Why is Uber pulling out of some African markets?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/11/why-is-uber-pulling-out-of-some-african-markets?traffic_source=rss",
+      "published": "2026-09-11T00:51:50+00:00",
+      "compound": 0.5267,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Iran claims to have captured a US ‘sail drone’ near Hormuz Strait",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/11/iran-claims-to-have-captured-a-us-sail-drone-near-hormuz-strait?traffic_source=rss",
+      "published": "2026-09-11T00:24:24+00:00",
+      "compound": -0.25,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Will Trump pay all US adults $5,000? Some Trump supporters are sceptical",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/11/will-trump-pay-all-us-adults-5000-some-trump-supporters-are-sceptical?traffic_source=rss",
+      "published": "2026-09-11T00:23:58+00:00",
+      "compound": 0.5574,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Israeli film on Gaza receives 25-minute ovation at Venice premiere",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/11/israeli-film-on-gaza-receives-25-minute-ovation-at-venice-premiere?traffic_source=rss",
+      "published": "2026-09-11T00:14:59+00:00",
+      "compound": 0.7003,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Iran war live: IRGC attacks US unmanned vessel in Hormuz; two ships hit",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/9/11/iran-war-live-irgc-attacks-us-unmanned-vessel-in-hormuz-two-ships-hit?traffic_source=rss",
+      "published": "2026-09-11T00:00:00+00:00",
+      "compound": -0.8689,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "UN envoy warns Security Council Yemen’s war has entered ‘dangerous phase’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/10/un-envoy-warns-security-council-yemens-war-has-entered-dangerous-phase?traffic_source=rss",
+      "published": "2026-09-10T23:46:07+00:00",
+      "compound": 0.128,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Exclusive: Top Ukrainian official gives NewsNation an inside look at the war",
+      "source": "NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYVAwQnpMOVpsS3VRaFg1U29MZVRLY3Q5SmstSllWQm1HWk5zYWJkZ3dOeXJOb0ZRWk9WWHdGY2VQWFgtWm5KUW1sZVdaS19oc3YwdmFwMGVBQm5kdGY4UUItMGdVOU1Ic1BxejQ4ODFVb05CSHRDTzVFUmkxOERwOTJkZlJtLU03S1JENFB0ZFRuTENUdC1nOExNdmhQRXlnc0kybThfZUR6a1dF0gGyAUFVX3lxTE1HT0RfXzQ3LXd2WDR1ZU1XOWtldDlNUnBnRElYRnQ2dG12SWRtVjdEbGV5cHJ3VkxCR2hDcEhEdXJDemVRMGp0cDlXZzRYRWE2SFdMaklzaS14WkpDTXZjcEkzM1k2YlR4N3hDNnhrOHFTOEM5Ny1kcHcxS2xnMy02M2t2aVY0Qmx3Z3dnOFFQUkZ4dHpvZjhsZEVwVmpESVBnbnpaTENDakc5SkZNNUktZ2c?oc=5",
+      "published": "2026-09-10T23:09:37+00:00",
+      "compound": -0.6369,
+      "label": "negative",
+      "entities": [
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "A year after Charlie Kirk’s death, are young voters turning on Trump?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/10/a-year-after-charlie-kirks-death-are-young-voters-turning-on-trump?traffic_source=rss",
+      "published": "2026-09-10T23:08:55+00:00",
+      "compound": -0.5719,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Israel says it destroyed Hezbollah base in Lebanon’s Ali al-Taher ridge",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/10/israel-says-it-destroyed-hezbollah-base-in-lebanons-ali-al-taher-ridge?traffic_source=rss",
+      "published": "2026-09-10T22:33:41+00:00",
+      "compound": -0.7269,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Spain’s Parliament backs citizenship for Western Saharans born before 1977",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/10/spains-parliament-backs-citizenship-for-western-saharans-born-before-1977?traffic_source=rss",
+      "published": "2026-09-10T21:47:14+00:00",
+      "compound": 0.4939,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "LG defends smart-TV features amid audio surveillance allegations",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/10/lg-defends-smart-tv-features-amid-audio-surveillance-allegations?traffic_source=rss",
+      "published": "2026-09-10T21:33:28+00:00",
+      "compound": -0.3182,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Peru joins US-led ‘Shield of the Americas’ security alliance",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/10/peru-joins-us-led-shield-of-the-americas-security-alliance?traffic_source=rss",
+      "published": "2026-09-10T21:31:06+00:00",
+      "compound": -0.2006,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Republican midterm convention updates: Trump says ‘Democrats are nervous’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/9/10/republican-midterm-convention-live-trump-headlines-day-2-of-dallas-rally?traffic_source=rss",
+      "published": "2026-09-10T21:31:03+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Israel says it destroyed key Hezbollah tunnels in southern Lebanon",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/10/israel-says-it-destroyed-key-hezbollah-tunnels-in-southern-lebanon?traffic_source=rss",
+      "published": "2026-09-10T21:19:16+00:00",
+      "compound": -0.7506,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Gaza hospitals ration power as fuel shortages deepen",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/10/gaza-hospitals-ration-power-as-fuel-shortages-deepen?traffic_source=rss",
+      "published": "2026-09-10T21:17:09+00:00",
+      "compound": -0.296,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Russian strike hits shopping centre in central Ukraine",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/10/10-09-clip-russia-strike-pavlohrad-ua?traffic_source=rss",
+      "published": "2026-09-10T21:03:42+00:00",
+      "compound": -0.7579,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Drones recreate Twin Towers in tribute ahead of 9/11 anniversary",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/10/drones-recreate-twin-towers-in-tribute-ahead-of-9-11?traffic_source=rss",
+      "published": "2026-09-10T21:00:18+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Manchester United beat Sabah 4-0 on Champions League return",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/9/10/man-utd-cruise-past-sabah-on-champions-league-return-with-4-0-win?traffic_source=rss",
+      "published": "2026-09-10T20:54:47+00:00",
+      "compound": 0.9081,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Morocco denies involvement in migrant surge into Spain’s Ceuta",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/10/morocco-denies-involvement-in-migrant-surge-into-spains-ceuta?traffic_source=rss",
+      "published": "2026-09-10T20:46:16+00:00",
+      "compound": -0.8625,
+      "label": "negative",
+      "entities": []
+    },
     {
       "title": "Coach crash kills several people in Swiss Alps",
       "source": "BBC",
@@ -5407,6 +5724,20 @@
       "compound": -0.7579,
       "label": "negative",
       "entities": []
+    },
+    {
+      "title": "Trump Says Putin Wants 'To Make A Deal' To End Russia-Ukraine War—Does He? Expert Weighs In",
+      "source": "Forbes",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSXBnWHplZDFRd09LdnlNTWlUczJkOVFWX0lyeUV4bjVfZ1BPZ0l4LU9FZTNxNlprdHEteFpiQXowaEdOSHo5Rlo5NlF3OXM0ZzdUZVdSNkJIUXNscmVYSnVuYXhqNjl1blFvWEJ2eExHYWd0OEZ2aUgzZ3g1UW1EMUc2cldjTndTTS1CbFppWTdtUU1pTzlSV05UWl9ub28zWm1HeHFoYzREZjloUWRCMHVQQVNPRmY3ZDZLTVZISWhpVHJaWndhSks4T0h2Wmk1MVgybA?oc=5",
+      "published": "2026-09-10T19:38:40+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Vladimir Putin",
+        "Donald Trump",
+        "Russia",
+        "Ukraine"
+      ]
     },
     {
       "title": "Orthodox church sends medieval prince’s remains to Russian troops in Ukraine",
@@ -5642,322 +5973,6 @@
       "compound": -0.946,
       "label": "negative",
       "entities": []
-    },
-    {
-      "title": "Oil jumps to $105, pushing up chances of a US interest rate increase",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/9/10/oil-jumps-to-105-pushing-up-chances-of-a-us-interest-rate-increase?traffic_source=rss",
-      "published": "2026-09-10T16:05:06+00:00",
-      "compound": -0.1779,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "LIVE: Manchester United vs Sabah – UEFA Champions League",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/liveblog/2026/9/10/live-manchester-united-vs-sabah-uefa-champions-league?traffic_source=rss",
-      "published": "2026-09-10T16:04:07+00:00",
-      "compound": 0.7351,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Israel's Netanyahu to sue newspaper over claim UAE warned him of 7 October attack",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c1kxwm870g1o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-10T15:54:17+00:00",
-      "compound": -0.6369,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "UN expert Albanese, protesters warn against Italy’s anti-Semitism bill",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/10/un-expert-albanese-protesters-warn-against-italys-anti-semitism-bill?traffic_source=rss",
-      "published": "2026-09-10T15:46:52+00:00",
-      "compound": -0.5859,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "At least 20 killed in school fire in rebel-held DR Congo city",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/10/at-least-20-killed-in-school-fire-in-rebel-held-dr-congo-city?traffic_source=rss",
-      "published": "2026-09-10T15:37:58+00:00",
-      "compound": -0.891,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Global grain prices rise as Russia-Ukraine war escalates in Black Sea",
-      "source": "The Kyiv Independent",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUU52WGF3TVRPWHNUeVRiam5CYU9KdFpHeWhHT3JvcVVSMFFtZVItZXZqeGhYZ2xVRDVNaHBXM0R5Y0xCQnhhcHJGdHdwSWtyVnVlRHltNWhrRzhHbWZFNm9ENEMxWDJGY19URzE1UGYwV0MzSHR2NnlHaFQ4SkpCSnpYbXhiUGR4ODBtRmZn?oc=5",
-      "published": "2026-09-10T15:32:59+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine",
-        "Kyiv"
-      ]
-    },
-    {
-      "title": "Russia tricks 'vulnerable' foreigners to fight in Ukraine war, Amnesty reports",
-      "source": "France 24",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWHgzcjdPQkdXYnpiaDZtOU50dXBfMS1jTlNNLU9FYm1qTTAyX3RqQnhfX2FhZk1HOFIya0FXcXlqTmpYZS14YklQalhBRFBCQnlzS0dOZ2hQeHBxWkt0VmFBcVU1dm0xdjJfT0s3TUtBQ09CRXd2US1pbzhCdjRvaFkzcTNZd2hGdF9hTjg5c0tyWjBvaEY0SVdrUTl3THdncEdzYWJKTjUzUHRXVjItRE9aeWQxV1FGdmFn?oc=5",
-      "published": "2026-09-10T15:20:51+00:00",
-      "compound": -0.9501,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Orthodox church sends medieval prince’s remains to Russian troops in Ukraine",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/sep/10/russia-orthodox-church-dmitry-donskoy-medieval-prince-hand-troops-ukraine",
-      "published": "2026-09-10T15:12:08+00:00",
-      "compound": 0.872,
-      "label": "positive",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "What Russia Is Really Up To in Europe",
-      "source": "theatlantic.com",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQN0JMVTZnWWlSbXVSb3ZGOHdkNzB1MEs1SmF3UzF5V0xGVTJreFE4b3FFTW9ZT19RU3JERnVpXzF4Znc3VE9ZdW53eHFqX1hCNk9vQmFpTlN2dlI4RmdnU242S1FXbDVrUl9YNkF1M001bU9CVVV2TjFSTmRJb20xWk9wSjlBbjhieW41UDhuc2E?oc=5",
-      "published": "2026-09-10T15:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "Houthis capture Yemeni town of Mocha: Why it matters",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/10/houthis-capture-yemeni-town-of-mocha-why-it-matters?traffic_source=rss",
-      "published": "2026-09-10T14:53:11+00:00",
-      "compound": -0.0772,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Ukraine-Russia war threatens global food route",
-      "source": "dw.com",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVDhERUNYamkxVzFZdXVwT01JWGlVMFQyMFhRc3BVYzZvQlJFWVpVTVpQVkxGNXRvTExZdFFMaFNEVHl5cUY2UHN0UFpxTGh1ZG9CcHJmdmVsMUhxcFpVeko1a1puMTFvT1hQSlc5b0JwcW16RXR3OVQ3Q1JVRFRUN01jV3FsVFFmblJn?oc=5",
-      "published": "2026-09-10T14:51:49+00:00",
-      "compound": -0.9186,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Protests outside Israeli embassy in Bangkok over badly behaved tourists",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/10/protests-outside-israeli-embassy-in-bangkok-over-badly-behaved-tourists?traffic_source=rss",
-      "published": "2026-09-10T14:42:38+00:00",
-      "compound": -0.8402,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Who is Trump trying to exclude from 2030 US census and why does it matter?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/10/who-is-trump-trying-to-exclude-from-2030-us-census-and-why-does-it-matter?traffic_source=rss",
-      "published": "2026-09-10T14:37:27+00:00",
-      "compound": -0.6164,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Ukraine war live: Nato foils Russian plot to unleash secret weapon",
-      "source": "the-independent.com",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSS1oSmgyREdqMzJKVUdhMlU2cTdrSVI2ZHBsRkxnTDhYZTRSTzFXOEg1UVBtNEF3ME9IVmlDckhxY2UwbzFRX2JVUDBPQndJU1ZjenRUN2RRV21vYzBpMTZnYnZpVmUtbk10QnE4YXh1S2FQTmVTS3R3dTUzNlVfaUJqV1pYR2NQSC1UMmVJa1U3RFdUOFNKS241ZkcwbER2UmVZSW4yQjJXcXJDSk5uZmxlWFo1NWM5Z3hvQXhrR3RqVDUxbkJEOQ?oc=5",
-      "published": "2026-09-10T14:30:00+00:00",
-      "compound": -0.9042,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine",
-        "NATO"
-      ]
-    },
-    {
-      "title": "Yemen’s Houthis seize strategic Red Sea city of Mocha",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/10/yemens-houthis-seize-strategic-red-sea-city-of-mocha?traffic_source=rss",
-      "published": "2026-09-10T14:16:42+00:00",
-      "compound": 0.4767,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Trump promises $5,000 payouts if GOP wins midterms: Can the US afford it?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/10/trump-promises-5000-payouts-if-gop-wins-midterms-can-the-us-afford-it?traffic_source=rss",
-      "published": "2026-09-10T14:13:03+00:00",
-      "compound": 0.8126,
-      "label": "positive",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "As Russia’s invasion falters, Putin boasts of imaginary victories",
-      "source": "Atlantic Council",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSGJnQlhkMFRWQm1pS0xNd1RRQWNEeUNZY1BMUTJfdDVZeHFDcm1paDU3cjZBNGZNNzZvWWFmOWtaU0xOTkpOZzAzTk1CdE5JaXVuMFpLeGYteEtwS29oTnYxa201QlJXTXhUX0Vjc09uSUZRQ1ZXY1Z5aUhjVWVzY3lPMFQ1bFNTQmFySTZibTNTRnlRUkdfbE5NOFl0MlNsaGdvZkthVVlZbF85UTZwZm9BbTlIUQ?oc=5",
-      "published": "2026-09-10T13:59:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Vladimir Putin",
-        "Russia"
-      ]
-    },
-    {
-      "title": "French Football Federation withdraws support for FIFA President Infantino",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/9/10/french-football-federation-withdraws-support-for-fifa-president-infantino?traffic_source=rss",
-      "published": "2026-09-10T13:38:51+00:00",
-      "compound": 0.4019,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Multicultural Malmo: Swedish city loathed by far right braces for election",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/2026/9/10/from-migration-to-wallet-politics-malmo-votes-in-a-knife-edge-election?traffic_source=rss",
-      "published": "2026-09-10T13:29:20+00:00",
-      "compound": -0.4767,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Pakistan U19 cricketers mistaken for asylum seekers by protesters in UK",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/9/10/pakistan-u19-cricketers-mistaken-for-asylum-seekers-by-protesters-in-uk?traffic_source=rss",
-      "published": "2026-09-10T13:25:06+00:00",
-      "compound": -0.25,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Houthis advance along Yemen’s southern Red Sea coast",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/10/houthis-advance-along-yemens-southern-red-sea-coast?traffic_source=rss",
-      "published": "2026-09-10T13:14:03+00:00",
-      "compound": 0.3818,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Manchester United scouted Mbappe but didn’t sign him, says Ryan Giggs",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/9/10/manchester-united-scouted-mbappe-but-didnt-sign-him-says-ryan-giggs?traffic_source=rss",
-      "published": "2026-09-10T13:13:10+00:00",
-      "compound": 0.6808,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Is Ukraine losing the war with Russia?",
-      "source": "The Week",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ueUEzNUlpcThwTlk2cmpqZTNNaEl1WHlRNW1XdWJKbWpPZTFuX2NCUnUtbjRoSGhtR1JFT0VwV1lRdTBkNDV1NmVUQmNUTWRTWXBicUVuSmtRZ3pRVkNsWUx0Wm1KLU1VMW4wcWtzQzBXRm96TC1Z?oc=5",
-      "published": "2026-09-10T13:11:05+00:00",
-      "compound": -0.924,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "The Trump loyalty test: Will his supporters ever disagree with him?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/10/the-trump-loyalty-test-will-his-supporters-ever-disagree-with-him?traffic_source=rss",
-      "published": "2026-09-10T12:59:25+00:00",
-      "compound": 0.8385,
-      "label": "positive",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Hundreds of thousands lack adequate shelter at Sudan’s Tawila camp",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/2026/9/10/hundreds-of-thousands-lack-adequate-shelter-at-sudans-tawila-camp?traffic_source=rss",
-      "published": "2026-09-10T12:47:35+00:00",
-      "compound": -0.1027,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "At least 25 dead after cargo ship catches fire in China",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/10/at-least-25-dead-after-cargo-ship-catches-fire-in-china?traffic_source=rss",
-      "published": "2026-09-10T12:45:11+00:00",
-      "compound": -0.8442,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Russia sends bones of medieval warrior prince to Ukraine front to boost morale",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTHNrYzNHZmZuSE9lVTJZT1kyRHFpYlVPc3NFUEg3WmNNSkV0eWhMMVVfdG55MlVvRjZ5cGkySjN0V2o2VjBFdTFJcU5xNFBWV3o3QTN5ZkpUU1pHWkNQOGd3WnBxQmxXZTVGNHN1OUU2NWlsQnBVelF6SGlwODMxUlBlcGZZMXFMb2JZMEMxWGI3QXVlNnNJY0w1MEVETnRwT0ZUVXVNY0NrWWZTdC1MNjhDNmhTMVg3REE?oc=5",
-      "published": "2026-09-10T12:26:26+00:00",
-      "compound": 0.6597,
-      "label": "positive",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Algeria says cutting diplomatic ties with UAE",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/10/algeria-says-cutting-diplomatic-ties-with-uae?traffic_source=rss",
-      "published": "2026-09-10T12:26:06+00:00",
-      "compound": -0.4939,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Is Egypt’s Hamza Abdelkarim set to be Barcelona’s next breakout star?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/9/10/is-egypts-hamza-abdelkarim-set-to-be-barcelonas-next-breakout-star?traffic_source=rss",
-      "published": "2026-09-10T12:24:25+00:00",
-      "compound": 0.2023,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Israel will never stop me speaking up for Palestine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/opinions/2026/9/10/israel-will-never-stop-me-speaking-up-for-palestine?traffic_source=rss",
-      "published": "2026-09-10T12:16:47+00:00",
-      "compound": -0.2052,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Russian drone incursion delays Zelensky flight from Moldova",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9GMWdiaDMwcVV2XzdwenVoa19EZWo2LTBDbGt6QW5EZDFzYUtzeEszaTJ0OGFGS1U0OUJLVnVKV2tyWXVTMHRSRi13bXRzMlIwc3Z6SlUxc2gzUQ?oc=5",
-      "published": "2026-09-10T12:15:44+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Volodymyr Zelensky",
-        "Russia"
-      ]
     }
   ]
 }

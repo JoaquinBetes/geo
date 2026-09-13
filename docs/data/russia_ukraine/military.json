@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-09-12T20:33:09+00:00",
+  "updated": "2026-09-13T04:47:57+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-09-12"
+    "to": "2026-09-13"
   },
   "kpis": {
-    "events_total": 751,
-    "events_unlocated": 2105,
-    "events_7d": 60,
-    "events_prev_7d": 79,
+    "events_total": 753,
+    "events_unlocated": 2112,
+    "events_7d": 47,
+    "events_prev_7d": 77,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -869,6 +869,15 @@
       "date": "2026-09-12",
       "total": 4,
       "strike": 4,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-13",
+      "total": 2,
+      "strike": 2,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -8385,12 +8394,32 @@
       "title": "Only Roland Garros towel left, says Ukraine tennis player after Russian strike hits flat",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/articles/c4gr33g3evlo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "date": "2026-09-13",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: Nine killed and dozens wounded in Russian strikes as Kyiv braces for harsh winter",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQSVEwbzB4TVk4NjFjR3dzT3F1Wjl2Um1OQzNGdGtGZzg0WW85RTE2bzJGd0ZUZi1kSVAtOVVBcVJ4cjlKODVHMG53ZWRDbFlvbHFpbzQyeU1WdnNCZnpHTld2S3Z2MHpZM3Z6ZHlaYnNKN1pDNjBxZ2ljZ2RjUEgxZHU0V25fVHBjYnpRTzV6bmVWSmhTWTdUVHRZRW1yYW5iYUhWUmU5d2R3S3ZNejhRbDJHUExPTnRTakRlQ09ka1Q0dHdIVi1Rbm1KWmNHcXk1Z3RuT2EzaFM2UTR2WmtLb29B?oc=5"
+    },
+    {
+      "date": "2026-09-13",
+      "type": "strike",
+      "place": "Kramatorsk",
+      "lat": 48.7389,
+      "lon": 37.5848,
+      "title": "Ukraine war briefing: Nine killed and dozens wounded in Russian strikes as Kyiv braces for harsh winter",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/sep/13/ukraine-war-briefing-nine-killed-and-dozens-wounded-in-russian-strikes-as-kyiv-braces-for-harsh-winter"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 199
+      "count": 197
     },
     {
       "place": "Moscow",
@@ -8425,7 +8454,7 @@
       "count": 3
     },
     {
-      "place": "Rostov-on-Don",
+      "place": "Kramatorsk",
       "count": 3
     }
   ],

@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-09-13T20:50:23+00:00",
+  "updated": "2026-09-14T04:56:49+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,12 +45,12 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-09-13"
+    "to": "2026-09-14"
   },
   "kpis": {
-    "events_total": 762,
-    "events_unlocated": 2135,
-    "events_7d": 56,
+    "events_total": 764,
+    "events_unlocated": 2144,
+    "events_7d": 51,
     "events_prev_7d": 77,
     "hottest_place": "Kyiv"
   },
@@ -880,6 +880,15 @@
       "strike": 7,
       "ground": 0,
       "infrastructure": 3,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-14",
+      "total": 2,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
     }
@@ -8504,16 +8513,36 @@
       "title": "Ukraine war latest: Kyiv-Warsaw train struck by Russian drone near Polish border as mass attack targets western Ukraine",
       "source": "The Kyiv Independent",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMjlhRXhfTEFiSFdWQzZoYnN1T3kyYXR0N2pyb3VrQVc4Q2laZk9xaDlMUllYaU5zdzl2M3FxV2tTZHBGblpYZWpPNlVIY0NyclE3aDlYTHZ5YldVS0ZkYjhISHE1REFXLTgxM24zZ0dUV1EzckFWVGhvajhRZWpRTGpFeFIta19iNkxsU3l6Mkh4Rm5PZmtsT1FtMUR1MmFmSFhneU9BRXRwVzJ3aDhMR19qa0JDSkhBc1Jndy1HZ0pGYjNrX3NrVEw5VGVoMVVYUUZYVVpkU2dJWWZNYnNJTg?oc=5"
+    },
+    {
+      "date": "2026-09-14",
+      "type": "infrastructure",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Ukrainian drones kill 2 in Russia as Moscow hits main port hub in Black Sea",
+      "source": "WTOP News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPY1pqb1BjN2V1Tkl5SFdiUXVSZWRyc3N2TWM4V0d4YTRLRFhKQm4wZWUwbUhLZjBNc0x1RjlCb1REUlJqTmRJUEgtUFlnZnc5WGp1cUF5dEp4NGc0WWN0YzBQX2xYWnRfWGpaNnM3SWZtLUQ5a0xoNFFBR2tSeGdlT09BVFNkbWM0aWxVNUgxZ01UcFdOREdJbEZ4RmFzLU4zZlBuSUx2SDNiVW1fdlJB?oc=5"
+    },
+    {
+      "date": "2026-09-14",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: Poland calls for ‘double’ support to Kyiv after Russian train attack",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/sep/14/ukraine-war-briefing-poland-calls-for-double-support-to-kyiv-after-russian-train-attack-near-border"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 203
+      "count": 198
     },
     {
       "place": "Moscow",
-      "count": 58
+      "count": 59
     },
     {
       "place": "Kryvyi Rih",
@@ -8528,10 +8557,6 @@
       "count": 7
     },
     {
-      "place": "Dnipro",
-      "count": 4
-    },
-    {
       "place": "Belgorod",
       "count": 4
     },
@@ -8540,12 +8565,16 @@
       "count": 4
     },
     {
-      "place": "Sevastopol",
+      "place": "Rostov-on-Don",
       "count": 3
     },
     {
-      "place": "Kramatorsk",
+      "place": "Kharkiv",
       "count": 3
+    },
+    {
+      "place": "Dnipro",
+      "count": 2
     }
   ],
   "losses": {

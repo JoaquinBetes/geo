@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-09-13T20:50:50+00:00",
+  "updated": "2026-09-14T04:57:10+00:00",
   "overall_tone": -0.1992,
   "rsf_as_of": "2025 (aprox.)",
   "outlets": [
@@ -15,9 +15,9 @@
       "lat": 25.2867,
       "lon": 51.5333,
       "rsf": 84,
-      "articles": 5263,
-      "tone_avg": -0.2694,
-      "tone_delta": -0.0702
+      "articles": 5288,
+      "tone_avg": -0.2688,
+      "tone_delta": -0.0696
     },
     {
       "name": "BBC",
@@ -30,9 +30,9 @@
       "lat": 51.5188,
       "lon": -0.144,
       "rsf": 20,
-      "articles": 1604,
-      "tone_avg": -0.2926,
-      "tone_delta": -0.0934
+      "articles": 1606,
+      "tone_avg": -0.2924,
+      "tone_delta": -0.0932
     },
     {
       "name": "NPR",
@@ -45,9 +45,9 @@
       "lat": 38.899,
       "lon": -77.008,
       "rsf": 57,
-      "articles": 466,
-      "tone_avg": -0.29,
-      "tone_delta": -0.0908
+      "articles": 468,
+      "tone_avg": -0.2892,
+      "tone_delta": -0.09
     },
     {
       "name": "NK News",
@@ -60,9 +60,9 @@
       "lat": 37.575,
       "lon": 126.97,
       "rsf": 61,
-      "articles": 349,
-      "tone_avg": -0.1069,
-      "tone_delta": 0.0923
+      "articles": 351,
+      "tone_avg": -0.1082,
+      "tone_delta": 0.091
     },
     {
       "name": "Associated Press",
@@ -75,9 +75,9 @@
       "lat": 40.757,
       "lon": -74.0,
       "rsf": 57,
-      "articles": 210,
-      "tone_avg": -0.0914,
-      "tone_delta": 0.1078
+      "articles": 211,
+      "tone_avg": -0.091,
+      "tone_delta": 0.1082
     },
     {
       "name": "TIME",
@@ -90,9 +90,9 @@
       "lat": 40.748,
       "lon": -73.983,
       "rsf": 57,
-      "articles": 158,
-      "tone_avg": -0.0712,
-      "tone_delta": 0.128
+      "articles": 162,
+      "tone_avg": -0.0735,
+      "tone_delta": 0.1257
     },
     {
       "name": "The Korea Herald",
@@ -105,9 +105,9 @@
       "lat": 37.56,
       "lon": 126.99,
       "rsf": 61,
-      "articles": 134,
-      "tone_avg": -0.0055,
-      "tone_delta": 0.1937
+      "articles": 136,
+      "tone_avg": -0.0091,
+      "tone_delta": 0.1901
     },
     {
       "name": "The Korea Times",
@@ -150,9 +150,9 @@
       "lat": 22.3193,
       "lon": 114.1694,
       "rsf": 135,
-      "articles": 62,
-      "tone_avg": -0.1519,
-      "tone_delta": 0.0473
+      "articles": 63,
+      "tone_avg": -0.1632,
+      "tone_delta": 0.036
     },
     {
       "name": "The Guardian",
@@ -305,6 +305,21 @@
       "tone_delta": 0.3041
     },
     {
+      "name": "Kyodo News",
+      "url": "https://english.kyodonews.net",
+      "city": "Tokio",
+      "country": "Japón",
+      "iso3": "JPN",
+      "type": "agencia",
+      "desc": "La agencia cooperativa japonesa de noticias.",
+      "lat": 35.66,
+      "lon": 139.75,
+      "rsf": 66,
+      "articles": 26,
+      "tone_avg": -0.0301,
+      "tone_delta": 0.1691
+    },
+    {
       "name": "Firstpost",
       "url": "https://www.firstpost.com",
       "city": "Bombay",
@@ -333,21 +348,6 @@
       "articles": 25,
       "tone_avg": -0.1644,
       "tone_delta": 0.0348
-    },
-    {
-      "name": "Kyodo News",
-      "url": "https://english.kyodonews.net",
-      "city": "Tokio",
-      "country": "Japón",
-      "iso3": "JPN",
-      "type": "agencia",
-      "desc": "La agencia cooperativa japonesa de noticias.",
-      "lat": 35.66,
-      "lon": 139.75,
-      "rsf": 66,
-      "articles": 25,
-      "tone_avg": -0.0018,
-      "tone_delta": 0.1974
     },
     {
       "name": "The Times of India",
@@ -485,6 +485,21 @@
       "tone_delta": 0.2672
     },
     {
+      "name": "WION",
+      "url": "https://www.wionews.com",
+      "city": "Nueva Delhi",
+      "country": "India",
+      "iso3": "IND",
+      "type": "privado",
+      "desc": "Canal internacional del grupo Zee; mirada india del mundo.",
+      "lat": 28.55,
+      "lon": 77.25,
+      "rsf": 151,
+      "articles": 17,
+      "tone_avg": -0.0497,
+      "tone_delta": 0.1495
+    },
+    {
       "name": "The Hill",
       "url": "https://thehill.com",
       "city": "Washington D.C.",
@@ -500,19 +515,19 @@
       "tone_delta": 0.1041
     },
     {
-      "name": "WION",
-      "url": "https://www.wionews.com",
-      "city": "Nueva Delhi",
+      "name": "India Today",
+      "url": "https://www.indiatoday.in",
+      "city": "Noida",
       "country": "India",
       "iso3": "IND",
       "type": "privado",
-      "desc": "Canal internacional del grupo Zee; mirada india del mundo.",
-      "lat": 28.55,
-      "lon": 77.25,
+      "desc": "Grupo multimedia indio de gran alcance; televisión de ritmo intenso.",
+      "lat": 28.5355,
+      "lon": 77.391,
       "rsf": 151,
-      "articles": 16,
-      "tone_avg": 0.0037,
-      "tone_delta": 0.2029
+      "articles": 14,
+      "tone_avg": 0.1451,
+      "tone_delta": 0.3443
     },
     {
       "name": "The New York Times",
@@ -528,21 +543,6 @@
       "articles": 13,
       "tone_avg": -0.111,
       "tone_delta": 0.0882
-    },
-    {
-      "name": "India Today",
-      "url": "https://www.indiatoday.in",
-      "city": "Noida",
-      "country": "India",
-      "iso3": "IND",
-      "type": "privado",
-      "desc": "Grupo multimedia indio de gran alcance; televisión de ritmo intenso.",
-      "lat": 28.5355,
-      "lon": 77.391,
-      "rsf": 151,
-      "articles": 13,
-      "tone_avg": 0.1602,
-      "tone_delta": 0.3594
     },
     {
       "name": "The Jerusalem Post",
@@ -1148,23 +1148,23 @@
   "by_country": {
     "QAT": {
       "outlets": 1,
-      "articles": 5263
+      "articles": 5288
     },
     "GBR": {
       "outlets": 9,
-      "articles": 1833
+      "articles": 1835
     },
     "USA": {
       "outlets": 24,
-      "articles": 1108
+      "articles": 1115
     },
     "KOR": {
       "outlets": 4,
-      "articles": 645
+      "articles": 649
     },
     "HKG": {
       "outlets": 1,
-      "articles": 62
+      "articles": 63
     },
     "TUR": {
       "outlets": 2,
@@ -1172,7 +1172,7 @@
     },
     "JPN": {
       "outlets": 3,
-      "articles": 71
+      "articles": 72
     },
     "DEU": {
       "outlets": 1,
@@ -1180,7 +1180,7 @@
     },
     "IND": {
       "outlets": 8,
-      "articles": 109
+      "articles": 111
     },
     "UKR": {
       "outlets": 5,
@@ -1234,11 +1234,11 @@
     },
     {
       "source": "Korea JoongAng Daily",
-      "articles": 172
+      "articles": 174
     },
     {
       "source": "upi.com",
-      "articles": 130
+      "articles": 131
     },
     {
       "source": "DailyNK",
@@ -1258,7 +1258,7 @@
     },
     {
       "source": "CNA",
-      "articles": 30
+      "articles": 31
     },
     {
       "source": "Internazionale",
@@ -1289,7 +1289,7 @@
       "articles": 21
     }
   ],
-  "others_total": 3105,
-  "matched_articles": 9353,
-  "total_articles": 12458
+  "others_total": 3123,
+  "matched_articles": 9395,
+  "total_articles": 12518
 }

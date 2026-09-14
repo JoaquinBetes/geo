@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-09-14T04:57:12+00:00",
+  "updated": "2026-09-14T12:47:37+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -46,9 +46,9 @@
     "to": "2026-09-14"
   },
   "kpis": {
-    "events_total": 59,
-    "events_unlocated": 1854,
-    "events_7d": 9,
+    "events_total": 60,
+    "events_unlocated": 1873,
+    "events_7d": 10,
     "events_prev_7d": 0,
     "hottest_place": "Seoul"
   },
@@ -309,6 +309,15 @@
       "date": "2026-09-12",
       "total": 6,
       "strike": 6,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-14",
+      "total": 1,
+      "strike": 1,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -905,6 +914,16 @@
       "title": "N Korea fires multiple ballistic missiles: Seoul",
       "source": "Taipei Times",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0zdEN2MmR6NGpJU2tMZXlYcFBTd2ZRSUdGMjMxMlZhcTJGRzB4bzV1eXZoQlhvUEFUZUZQLXB3anY4MENpQ3plb0tfT1JhcVJpYkxlOEpBbThiblpXSmlvQ21DZTEzOXQ5Q000TDFjUGlDTVhfLTFZVQ?oc=5"
+    },
+    {
+      "date": "2026-09-14",
+      "type": "strike",
+      "place": "Pyongyang",
+      "lat": 39.0392,
+      "lon": 125.7625,
+      "title": "Pyongyang says latest missile launches part of coordinated firepower strike drill",
+      "source": "Korea JoongAng Daily",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNd0dGekNDTVJpSV9TWS1DVWhLV2ZNTUFub2hxRnFGcUtERl9RN0NsVk1mQWd0cFQ0bjNPUXItSU5TNlhwMDlxMGNoc05FUVpnUkd0akdHOUFzZXZzb3hPaVozRjdETkJhVXFHXzdkTVFROURoNUNBS3BRZkRSWDQwYktmaTNGN3ExRWdmM0NzTF9aZklLX3VOcUQzdXR2bGdyX29Ma3N3QTZ6STkxVE5HZmlUNnVWUzBWNG8wMXpOYUwtLVBkMzFka1ZLYw?oc=5"
     }
   ],
   "top_places": [
@@ -914,7 +933,7 @@
     },
     {
       "place": "Pyongyang",
-      "count": 8
+      "count": 9
     },
     {
       "place": "Wonsan",

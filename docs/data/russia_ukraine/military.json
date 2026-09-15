@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-09-14T21:49:34+00:00",
+  "updated": "2026-09-15T04:55:07+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-09-14"
+    "to": "2026-09-15"
   },
   "kpis": {
-    "events_total": 764,
-    "events_unlocated": 2176,
-    "events_7d": 51,
-    "events_prev_7d": 77,
+    "events_total": 768,
+    "events_unlocated": 2181,
+    "events_7d": 48,
+    "events_prev_7d": 73,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -885,10 +885,19 @@
     },
     {
       "date": "2026-09-14",
-      "total": 2,
-      "strike": 1,
+      "total": 5,
+      "strike": 4,
       "ground": 0,
       "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-15",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -8533,27 +8542,67 @@
       "title": "Ukraine war briefing: Poland calls for ‘double’ support to Kyiv after Russian train attack",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/sep/14/ukraine-war-briefing-poland-calls-for-double-support-to-kyiv-after-russian-train-attack-near-border"
+    },
+    {
+      "date": "2026-09-14",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russian Strike on Train Station Near Ukraine-Poland Border Seen as Warning to Kyiv’s Allies",
+      "source": "nytimes.com",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONE5GRm43eENLSWZIVDVrRm0xbHQzbkQwS05qQ3g0bUxrRmczdUw2ZnpLOUZWVWs3Ul9NTm9SZkdVcUJiazFVYkJXODBZcUdEb2tZdFlkU0Fiem1RQkNRYUNBMmhySkJXaXY2QWFscGxvdG1qMnNvWE9aY3JKZWpKMlpXRndNV2xpNnc?oc=5"
+    },
+    {
+      "date": "2026-09-14",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Trump claims Ukraine, Russia agree to halt strikes on energy targets, Kyiv unaware of deal",
+      "source": "The Kyiv Independent",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQR0dZdnA2bGhrUXZwVk52MDBMUU9HRW9ZX3VVV3JETl9SWVFvWUdrVHoyN2c2Yk4tbGdmc1p3Ynl0cllVdTJXbUFPS3dncmhnSzZEeUY4VTQ3OWR6c3k3QUNlYTl1SFd1bnh4WjRCMmxjTU5VcnNWN1VGVGVPUW9sLURaY0FDaU4xUmVBU2ZNZURHM0RZem51M25LNXdsUWN3Ym03S0VoWVg?oc=5"
+    },
+    {
+      "date": "2026-09-14",
+      "type": "strike",
+      "place": "Donetsk",
+      "lat": 48.0159,
+      "lon": 37.8029,
+      "title": "Ukraine May Have Killed Russia’s General Sergei Milchakov in Strike on Donetsk Headquarters",
+      "source": "UNITED24 Media",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQX1ZiSlQ5VzhkNHZ0V1RldGpfWHJKWmdPdExzbGROcWtrWldoYmdoaXRhdXVJUU9ydlNmQzJFWGx2N2p3ZGwxcUpBN2hFeXNBb2xBRHNFeXMwY0RTWkJWeHFCdnZmeElJUDZpZF85MVFDdUVkTEZZSU1ROXNORGxhZ1NTTFNYZ2phZF9VT0FPbEVLUHlTcWtBYUxzTURiaTRuMmtvZFRGeEtpNFFmczhfblNMc05HTkU4b0ZWa2RBOFdWa1VESm1Gd1E4UHF4WDZWZ0xF?oc=5"
+    },
+    {
+      "date": "2026-09-15",
+      "type": "strike",
+      "place": "Chernihiv",
+      "lat": 51.4982,
+      "lon": 31.2893,
+      "title": "Ukraine war briefing: No energy ceasefire until Russia stops, Zelenskyy confirms after Trump claim",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/sep/15/ukraine-war-briefing-no-energy-ceasefire-until-russia-stops-zelenskyy-confirms-after-trump-claim"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 198
+      "count": 193
     },
     {
       "place": "Moscow",
-      "count": 59
+      "count": 58
     },
     {
       "place": "Kryvyi Rih",
       "count": 10
     },
     {
-      "place": "Zaporizhzhia",
-      "count": 7
+      "place": "Donetsk",
+      "count": 8
     },
     {
-      "place": "Donetsk",
+      "place": "Zaporizhzhia",
       "count": 7
     },
     {

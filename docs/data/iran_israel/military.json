@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-09-16T04:49:30+00:00",
+  "updated": "2026-09-16T11:34:21+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-09-16"
   },
   "kpis": {
-    "events_total": 480,
-    "events_unlocated": 2016,
-    "events_7d": 41,
+    "events_total": 481,
+    "events_unlocated": 2022,
+    "events_7d": 42,
     "events_prev_7d": 34,
     "hottest_place": "Strait of Hormuz"
   },
@@ -747,6 +747,15 @@
       "strike": 4,
       "ground": 0,
       "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-16",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -5541,6 +5550,16 @@
       "title": "Houthis threaten more Saudi strikes as UN warns of humanitarian crisis in Yemen",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/sep/15/houthis-threaten-saudi-arabia-strikes-un-warning-humanitarian-crisis-yemen"
+    },
+    {
+      "date": "2026-09-16",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Iranian football returns in the shadow of war and with row over last league title",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/football/2026/sep/16/iran-football-esteghlal-tractor-sc-afc-champions-league-elite-asia"
     }
   ],
   "top_places": [
@@ -5550,7 +5569,7 @@
     },
     {
       "place": "Tehran",
-      "count": 26
+      "count": 27
     },
     {
       "place": "Bab el-Mandeb",

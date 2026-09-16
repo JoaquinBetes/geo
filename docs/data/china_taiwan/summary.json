@@ -2,13 +2,13 @@
   "id": "china_taiwan",
   "name": "China–Taiwán",
   "description": "Cobertura mediática de la tensión entre China y Taiwán",
-  "updated": "2026-09-16T16:55:46+00:00",
-  "total_articles": 16862,
-  "overall_avg": -0.1572,
+  "updated": "2026-09-16T21:18:45+00:00",
+  "total_articles": 16904,
+  "overall_avg": -0.1571,
   "distribution": {
-    "pos": 4016,
-    "neu": 5147,
-    "neg": 7699
+    "pos": 4027,
+    "neu": 5160,
+    "neg": 7717
   },
   "sources": [
     "Al Jazeera",
@@ -121,6 +121,7 @@
     "DW.com",
     "The Star",
     "Plataforma Media",
+    "mb.ntd.com",
     "ThePrint",
     "Financial Times",
     "Asia Times",
@@ -137,7 +138,6 @@
     "Small Wars Journal",
     "The Economist",
     "scmp.com",
-    "mb.ntd.com",
     "Table.Briefings",
     "The Korea Times",
     "The Diplomat – Asia",
@@ -1909,11 +1909,11 @@
     },
     {
       "date": "2026-09-16",
-      "count": 173,
-      "avg": -0.1635,
-      "pos": 41,
-      "neu": 53,
-      "neg": 79
+      "count": 215,
+      "avg": -0.1527,
+      "pos": 52,
+      "neu": 66,
+      "neg": 97
     },
     {
       "date": "2026-09-17",
@@ -1927,7 +1927,7 @@
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 5740,
+      "count": 5760,
       "avg": -0.2652
     },
     {
@@ -1937,13 +1937,13 @@
     },
     {
       "source": "BBC",
-      "count": 1738,
-      "avg": -0.2861
+      "count": 1744,
+      "avg": -0.2852
     },
     {
       "source": "NPR",
-      "count": 522,
-      "avg": -0.2809
+      "count": 523,
+      "avg": -0.2807
     },
     {
       "source": "Taiwan News",
@@ -1977,8 +1977,8 @@
     },
     {
       "source": "taipeitimes.com",
-      "count": 69,
-      "avg": -0.0238
+      "count": 83,
+      "avg": -0.0078
     },
     {
       "source": "China Daily",
@@ -2476,6 +2476,11 @@
       "avg": -0.0539
     },
     {
+      "source": "mb.ntd.com",
+      "count": 8,
+      "avg": -0.2353
+    },
+    {
       "source": "ThePrint",
       "count": 8,
       "avg": -0.4684
@@ -2554,11 +2559,6 @@
       "source": "scmp.com",
       "count": 7,
       "avg": -0.3156
-    },
-    {
-      "source": "mb.ntd.com",
-      "count": 7,
-      "avg": -0.2689
     },
     {
       "source": "Table.Briefings",
@@ -6160,32 +6160,32 @@
     {
       "name": "Taiwan",
       "type": "LOCATION",
-      "count": 4618,
-      "avg": -0.0758
+      "count": 4623,
+      "avg": -0.0755
     },
     {
       "name": "China",
       "type": "LOCATION",
-      "count": 3402,
-      "avg": -0.1585
+      "count": 3404,
+      "avg": -0.1584
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 996,
-      "avg": -0.2016
+      "count": 1004,
+      "avg": -0.1988
     },
     {
       "name": "Japan",
       "type": "LOCATION",
-      "count": 527,
-      "avg": -0.0779
+      "count": 529,
+      "avg": -0.0776
     },
     {
       "name": "United States",
       "type": "LOCATION",
-      "count": 295,
-      "avg": -0.1256
+      "count": 296,
+      "avg": -0.1238
     },
     {
       "name": "Xi Jinping",
@@ -6220,8 +6220,8 @@
     {
       "name": "DPP",
       "type": "ORG",
-      "count": 72,
-      "avg": -0.1857
+      "count": 73,
+      "avg": -0.1831
     },
     {
       "name": "PLA",
@@ -6741,79 +6741,79 @@
       "entities": []
     },
     {
-      "title": "Malaysia offers to invite Myanmar leader in Rohingya repatriation push",
+      "title": "US removes Venezuela from list of drug transit, production countries",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/16/malaysia-offers-to-invite-myanmar-leader-in-rohingya-repatriation-push?traffic_source=rss",
-      "published": "2026-09-16T16:39:11+00:00",
-      "compound": 0.1531,
+      "url": "https://www.aljazeera.com/news/2026/9/16/us-removes-venezuela-from-list-of-drug-transit-production-countries?traffic_source=rss",
+      "published": "2026-09-16T20:53:02+00:00",
+      "compound": 0.4215,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Displaced Syrians dig through hills of garbage to make a living",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/16/displaced-syrians-dig-through-hills-of-garbage-to-make-a-living?traffic_source=rss",
+      "published": "2026-09-16T20:29:41+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "New video claims to show Saudi fighter jet Houthis say they shot down",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/16/new-video-claims-to-show-saudi-fighter-jet-houthis-say-they-shot-down?traffic_source=rss",
+      "published": "2026-09-16T20:12:25+00:00",
+      "compound": 0.296,
       "label": "positive",
       "entities": []
     },
     {
-      "title": "Angry Dutch farmers blamed for railway sabotage: What happened?",
+      "title": "Syria abolishes al-Assad-era ‘terrorism’ court as Kurdish tensions flare",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/16/angry-farmers-blamed-for-dutch-railways-sabotage-what-happened?traffic_source=rss",
-      "published": "2026-09-16T16:35:28+00:00",
-      "compound": -0.9118,
+      "url": "https://www.aljazeera.com/news/2026/9/16/syria-abolishes-al-assad-era-terrorism-court-as-kurdish-tensions-flare?traffic_source=rss",
+      "published": "2026-09-16T20:08:50+00:00",
+      "compound": -0.4019,
       "label": "negative",
       "entities": []
     },
     {
-      "title": "Ebola fight in DRC ‘far from over,’ warns WHO chief",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/16/ebola-fight-in-drc-far-from-over-warns-who-chief?traffic_source=rss",
-      "published": "2026-09-16T16:23:37+00:00",
-      "compound": -0.7925,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "How Jared Kushner is mixing U.S. diplomacy with his billion-dollar business",
+      "title": "EU rolls out red carpet to Canada to become its first 'associate member'",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/09/16/nx-s1-5971125/how-jared-kushner-is-mixing-u-s-diplomacy-with-his-billion-dollar-business",
-      "published": "2026-09-16T16:14:19+00:00",
-      "compound": 0.7351,
-      "label": "positive",
+      "url": "https://www.npr.org/2026/09/16/nx-s1-5971043/eu-canada-carney-tariffs-trump",
+      "published": "2026-09-16T20:08:27+00:00",
+      "compound": -0.1531,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Efforts underway for Zelenskyy-Trump meeting at UN next week",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/16/efforts-underway-for-zelenskyy-trump-meeting-at-un-next-week?traffic_source=rss",
+      "published": "2026-09-16T20:05:51+00:00",
+      "compound": -0.3818,
+      "label": "negative",
       "entities": [
         "Donald Trump"
       ]
     },
     {
-      "title": "Sweden expels Iran embassy employee, citing security concerns",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/16/sweden-expels-iran-embassy-employee-citing-security-concerns?traffic_source=rss",
-      "published": "2026-09-16T15:53:38+00:00",
-      "compound": 0.2023,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Charlie Kirk's family alleges 'stunning failures' by Utah officials led to his shooting",
+      "title": "US House votes to hold billionaire Epstein associate Leon Black in contempt",
       "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cwzrz4xmknjgo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-16T15:33:19+00:00",
-      "compound": -0.7096,
+      "url": "https://www.bbc.co.uk/news/articles/c62l8g8qlr0ko?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-16T19:59:57+00:00",
+      "compound": -0.743,
       "label": "negative",
       "entities": []
     },
     {
-      "title": "Ex-Trump ally Marjorie Taylor Greene says war on Iran must ‘stop’",
+      "title": "Al-Mughayyir: A village under siege",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/16/ex-trump-ally-marjorie-taylor-greene-says-war-on-iran-must?traffic_source=rss",
-      "published": "2026-09-16T15:23:51+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Djibouti calls for assistance as thousands of Yemenis flee to country",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/16/djibouti-calls-for-assistance-as-thousands-of-yemenis-flee-to-country?traffic_source=rss",
-      "published": "2026-09-16T15:16:07+00:00",
-      "compound": -0.2023,
-      "label": "negative",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/16/al-mughayyir-a-village-under-siege?traffic_source=rss",
+      "published": "2026-09-16T19:48:05+00:00",
+      "compound": 0.0,
+      "label": "neutral",
       "entities": []
     }
   ]

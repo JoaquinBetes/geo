@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-09-16T21:18:32+00:00",
+  "updated": "2026-09-17T04:53:16+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-09-16"
+    "to": "2026-09-17"
   },
   "kpis": {
-    "events_total": 773,
-    "events_unlocated": 2223,
-    "events_7d": 44,
-    "events_prev_7d": 69,
+    "events_total": 775,
+    "events_unlocated": 2233,
+    "events_7d": 41,
+    "events_prev_7d": 62,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -906,6 +906,15 @@
       "total": 1,
       "strike": 1,
       "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-17",
+      "total": 2,
+      "strike": 1,
+      "ground": 1,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -8641,23 +8650,43 @@
       "title": "At least five killed in Russian drone strike near Ukraine front line",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/9/16/at-least-five-killed-in-russian-drone-strike-near-ukraine-front-line?traffic_source=rss"
+    },
+    {
+      "date": "2026-09-17",
+      "type": "strike",
+      "place": "Odesa",
+      "lat": 46.4825,
+      "lon": 30.7233,
+      "title": "Ukraine: Russian strikes injure several in Kyiv, Odesa",
+      "source": "dw.com",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNOGwxQTlQNk93TVdEWDJmTUJBX1lMYmtnNHBZVV8zREdTVG5mYmRMakIyTXBvMmJ0cF9HRndxWS0yN0xUUWcwX0MyQzg3dG9BcjNSV3k2cDBOOU5fWUg5WUlsTWRaVDFISU8zYnhmMHhaMzdxeWFKVTc3VnBYVlN1YktIOHR2QkJvUjBfaDRB0gGOAUFVX3lxTE9WaEE5aV9lclMxaVN1bnZ4UEEtSWVNT1puV082TDRsdWh2RTJqUjFtVUloVWRFQU9mZWFadXJob1gyck1Xa2I0X242SXBhc3VaaFpRdUN3dHVYX20yT2ttVThYTlNmdUNBRVBSNnp6TFNiNTc4OXJQaXVBMWxOU041MmZ0dWF5MXdwODc2QkE?oc=5"
+    },
+    {
+      "date": "2026-09-17",
+      "type": "ground",
+      "place": "Donetsk",
+      "lat": 48.0159,
+      "lon": 37.8029,
+      "title": "Russo-Ukrainian war, day 1666: Ukraine's counteroffensive disrupts Russia's Donetsk encirclement plan",
+      "source": "Euromaidan Press",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONTl4WENIOUNfbGItcE41ZVN3RVZpempQcWMtbmZGZEFERkJMdDRnb3Vza05DaEVMOVlSRHJkck1pamxtOW9OOUlGQUFTSnNFSGVFTHBCUThQZ2xRb0RkQ2h3bkgtT2NBeXJCVWZUZ1RjNHJOTUhuNVo5Sk1mb09wcW9wZVJBRVNnLTA5bHdyWnVNY25ySS1Nd1V4dG1lajJneGZWbHlJQWtXSHV6UG1nZnI2cngtSlhwZlRKdjBiQVZkLVZvQW8wT0RQZy1ZMWNOT3lN?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 184
+      "count": 179
     },
     {
       "place": "Moscow",
       "count": 44
     },
     {
-      "place": "Kryvyi Rih",
-      "count": 9
+      "place": "Donetsk",
+      "count": 10
     },
     {
-      "place": "Donetsk",
+      "place": "Kryvyi Rih",
       "count": 9
     },
     {
@@ -8665,16 +8694,8 @@
       "count": 6
     },
     {
-      "place": "Belgorod",
-      "count": 4
-    },
-    {
       "place": "Odesa",
-      "count": 4
-    },
-    {
-      "place": "Rostov-on-Don",
-      "count": 3
+      "count": 5
     },
     {
       "place": "Kharkiv",
@@ -8682,6 +8703,14 @@
     },
     {
       "place": "Sevastopol",
+      "count": 2
+    },
+    {
+      "place": "Chernihiv",
+      "count": 2
+    },
+    {
+      "place": "Rostov-on-Don",
       "count": 2
     }
   ],

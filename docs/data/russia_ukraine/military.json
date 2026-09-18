@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-09-17T21:22:30+00:00",
+  "updated": "2026-09-18T04:43:51+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-09-17"
+    "to": "2026-09-18"
   },
   "kpis": {
-    "events_total": 782,
-    "events_unlocated": 2256,
-    "events_7d": 48,
-    "events_prev_7d": 62,
+    "events_total": 785,
+    "events_unlocated": 2260,
+    "events_7d": 47,
+    "events_prev_7d": 60,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -912,10 +912,19 @@
     },
     {
       "date": "2026-09-17",
-      "total": 9,
-      "strike": 4,
+      "total": 10,
+      "strike": 5,
       "ground": 1,
       "infrastructure": 4,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-18",
+      "total": 2,
+      "strike": 2,
+      "ground": 0,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -8740,16 +8749,46 @@
       "title": "Russia ‘sabotaging’ power supply lines at Zaporizhzhia plant: Greenpeace",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/9/17/russia-sabotaging-power-supply-lines-at-zaporizhzhia-plant-greenpeace?traffic_source=rss"
+    },
+    {
+      "date": "2026-09-17",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war latest: Russian missile, drone attack on Kyiv injures at least 20",
+      "source": "The Kyiv Independent",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOR29TcXZpaUtvVm1RVjV1dGUxZHFIVmFhQTM3SHZCWE5wMk13THdDTjZGaHVSY3RPeVVEQlBtd19hdUsyWDMtcWJVU19LWHUyV3pfbHE0cUoyOTlTRHc3QUxvejAyQUwza2xldFNWV25JMFAyOGZjWFJNY1JnRF90T3JVYVpjWWVCNlhEQU5rc3lJT3NhcmtraTVjblRkeDFJR1NUeHpVRQ?oc=5"
+    },
+    {
+      "date": "2026-09-18",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: Poland’s Tusk heads to Kyiv after warning of Russian strikes on Ukrainian allies",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVjQ0SERCdkZYYmRfN3lidWdiWkxoQ1ljQkp4R2l1ZTdDNzhCYmFHZjJjaWpNcVRMMjVyOTgtcXFGMmtCRjRHeFd3eEJoUXlXNnhXS0EtZUxxZ2FMeFFwZWdETlAtSmRydHByNGV6dlQ4SjhjcllDaHNZWU9BMG5uSUJYZ3duMlRKM3dDQlJLQjgtYkotUXd0cS1zMThWdHlfMFF4T3BRUnh4bkk?oc=5"
+    },
+    {
+      "date": "2026-09-18",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: Poland’s Tusk heads to Kyiv after warning of Russian strikes on Ukrainian allies",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/sep/18/ukraine-war-briefing-poland-warns-russian-strikes-kyiv-allies"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 182
+      "count": 181
     },
     {
       "place": "Moscow",
-      "count": 46
+      "count": 39
     },
     {
       "place": "Donetsk",
@@ -8761,15 +8800,11 @@
     },
     {
       "place": "Zaporizhzhia",
-      "count": 8
+      "count": 5
     },
     {
       "place": "Odesa",
       "count": 5
-    },
-    {
-      "place": "Kharkiv",
-      "count": 3
     },
     {
       "place": "Sevastopol",
@@ -8781,6 +8816,10 @@
     },
     {
       "place": "Rostov-on-Don",
+      "count": 2
+    },
+    {
+      "place": "Luhansk",
       "count": 2
     }
   ],

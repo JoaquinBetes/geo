@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-09-18T20:54:33+00:00",
+  "updated": "2026-09-19T04:38:00+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -38,13 +38,13 @@
   },
   "window": {
     "from": "2026-02-27",
-    "to": "2026-09-18"
+    "to": "2026-09-19"
   },
   "kpis": {
-    "events_total": 488,
-    "events_unlocated": 2075,
-    "events_7d": 33,
-    "events_prev_7d": 37,
+    "events_total": 489,
+    "events_unlocated": 2080,
+    "events_7d": 26,
+    "events_prev_7d": 44,
     "hottest_place": "Strait of Hormuz"
   },
   "daily": [
@@ -774,6 +774,15 @@
       "strike": 0,
       "ground": 0,
       "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-19",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -5648,16 +5657,26 @@
       "title": "Oman oil escape route: How ship-to-ship transfers work — despite big risks",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/9/18/oman-oil-escape-route-how-ship-to-ship-transfers-work-despite-big?traffic_source=rss"
+    },
+    {
+      "date": "2026-09-19",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iran claims it struck an oil tanker in the Strait of Hormuz, and other Middle East developments",
+      "source": "AsiaOne",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRnk1eDdLLTNuYmRFNnk3djU1MkxKRWNlLWJZMjd1QThRWk5Kb3N2d1dsU0FQNEFLU2ZFbWtwUFEyM255cmwwd3YxcG95Wlc2VnM2SkZVdGNJdnl6TXFXWjNVV2lKZ3k4MV9IZ01tLUZoZmVXZ3ZsZ1VnazdJOVVCNk01TFlrZDFzcVR6bkd3cmFhTkE5ZDVUTThxV2VfRkotcExVWUxrTDdvYWJHVEh2Ug?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 50
+      "count": 51
     },
     {
       "place": "Tehran",
-      "count": 28
+      "count": 25
     },
     {
       "place": "Bab el-Mandeb",

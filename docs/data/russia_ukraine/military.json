@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-09-18T20:54:25+00:00",
+  "updated": "2026-09-19T04:37:52+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-09-18"
+    "to": "2026-09-19"
   },
   "kpis": {
-    "events_total": 790,
-    "events_unlocated": 2278,
-    "events_7d": 52,
-    "events_prev_7d": 60,
+    "events_total": 792,
+    "events_unlocated": 2283,
+    "events_7d": 45,
+    "events_prev_7d": 56,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -921,9 +921,18 @@
     },
     {
       "date": "2026-09-18",
-      "total": 7,
-      "strike": 6,
+      "total": 8,
+      "strike": 7,
       "ground": 1,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-19",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -8829,12 +8838,32 @@
       "title": "Russia’s drones threaten Kyiv-bound Western officials as war effort stalls",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/9/18/russia-targets-ukraines-peaceful-borders?traffic_source=rss"
+    },
+    {
+      "date": "2026-09-18",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "A four-minute warning isn't enough: Russia's new relentless missile tactics exhaust Kyiv residents",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cwp93k9gpnv1o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "date": "2026-09-19",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Trump signs sweeping Russia sanctions over Ukraine war",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZW53Y3d4N25GZjVKRlJ4RkxiRkZ6Y1NKTVJoUGp3bHFzZTk3OGJvdG1qMm9ubDhqQmo0YVYtQnc4aWNRejUwd2VFX1NVRFRMM1h0QXhLX2VwRTlYM2psTFBWeC1BekxaVUFfQm54bXhpOGtUdTU3MkJKUVV5cHpTcFBpRlQyVXFMVFpFcEVoVnN1S1hxQ0VLaTY0a9IBoAFBVV95cUxQOTFZdG83ZU5IOUxvQ2RqMnhzRnZfY2pZOTIyTHF2YUVSR2pCeGJTV25IWTVCU2w3WEg1LWl3SkdvVXVhZGJONEFZTk5VNlh3VFRnaGphSTlmRGtTaDkyNjM4YVlaOW8wOWZmaWxRNHpQVS1KT1ZyaGVUaUNnTzdQX25HODFUN1ZhcmVuNVZRVnFwNmlrbG1OSmRnTzF6MWFI?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 183
+      "count": 184
     },
     {
       "place": "Moscow",

@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-09-19T10:59:16+00:00",
+  "updated": "2026-09-19T15:53:06+00:00",
   "overall_tone": -0.397,
   "rsf_as_of": "2025 (aprox.)",
   "outlets": [
@@ -15,9 +15,9 @@
       "lat": 25.2867,
       "lon": 51.5333,
       "rsf": 84,
-      "articles": 6249,
-      "tone_avg": -0.2716,
-      "tone_delta": 0.1254
+      "articles": 6271,
+      "tone_avg": -0.2718,
+      "tone_delta": 0.1252
     },
     {
       "name": "BBC",
@@ -30,9 +30,9 @@
       "lat": 51.5188,
       "lon": -0.144,
       "rsf": 20,
-      "articles": 1942,
-      "tone_avg": -0.3022,
-      "tone_delta": 0.0948
+      "articles": 1944,
+      "tone_avg": -0.3027,
+      "tone_delta": 0.0943
     },
     {
       "name": "NPR",
@@ -45,9 +45,9 @@
       "lat": 38.899,
       "lon": -77.008,
       "rsf": 57,
-      "articles": 571,
-      "tone_avg": -0.2852,
-      "tone_delta": 0.1118
+      "articles": 574,
+      "tone_avg": -0.2866,
+      "tone_delta": 0.1104
     },
     {
       "name": "The Guardian",
@@ -90,9 +90,9 @@
       "lat": 51.5074,
       "lon": -0.1278,
       "rsf": 20,
-      "articles": 171,
-      "tone_avg": -0.7814,
-      "tone_delta": -0.3844
+      "articles": 172,
+      "tone_avg": -0.7817,
+      "tone_delta": -0.3847
     },
     {
       "name": "Kyiv Post",
@@ -150,9 +150,9 @@
       "lat": 51.5033,
       "lon": -0.0195,
       "rsf": 20,
-      "articles": 118,
-      "tone_avg": -0.418,
-      "tone_delta": -0.021
+      "articles": 119,
+      "tone_avg": -0.4145,
+      "tone_delta": -0.0175
     },
     {
       "name": "The New York Times",
@@ -255,7 +255,7 @@
       "lat": 50.44,
       "lon": 30.515,
       "rsf": 62,
-      "articles": 75,
+      "articles": 76,
       "tone_avg": -0.8085,
       "tone_delta": -0.4115
     },
@@ -270,9 +270,9 @@
       "lat": 40.757,
       "lon": -74.0,
       "rsf": 57,
-      "articles": 73,
-      "tone_avg": -0.6235,
-      "tone_delta": -0.2265
+      "articles": 75,
+      "tone_avg": -0.6195,
+      "tone_delta": -0.2225
     },
     {
       "name": "ABC News",
@@ -320,6 +320,21 @@
       "tone_delta": -0.1636
     },
     {
+      "name": "The Jerusalem Post",
+      "url": "https://www.jpost.com",
+      "city": "Jerusalén",
+      "country": "Israel",
+      "iso3": "ISR",
+      "type": "privado",
+      "desc": "Diario israelí en inglés de larga trayectoria, línea centroderecha.",
+      "lat": 31.78,
+      "lon": 35.22,
+      "rsf": 112,
+      "articles": 56,
+      "tone_avg": -0.3996,
+      "tone_delta": -0.0026
+    },
+    {
       "name": "NBC News",
       "url": "https://www.nbcnews.com",
       "city": "Nueva York",
@@ -333,21 +348,6 @@
       "articles": 55,
       "tone_avg": -0.4415,
       "tone_delta": -0.0445
-    },
-    {
-      "name": "The Jerusalem Post",
-      "url": "https://www.jpost.com",
-      "city": "Jerusalén",
-      "country": "Israel",
-      "iso3": "ISR",
-      "type": "privado",
-      "desc": "Diario israelí en inglés de larga trayectoria, línea centroderecha.",
-      "lat": 31.78,
-      "lon": 35.22,
-      "rsf": 112,
-      "articles": 55,
-      "tone_avg": -0.4068,
-      "tone_delta": -0.0098
     },
     {
       "name": "CNBC",
@@ -395,6 +395,21 @@
       "tone_delta": -0.2923
     },
     {
+      "name": "France 24",
+      "url": "https://www.france24.com/en/",
+      "city": "París",
+      "country": "Francia",
+      "iso3": "FRA",
+      "type": "estatal",
+      "desc": "El canal internacional del Estado francés (France Médias Monde).",
+      "lat": 48.841,
+      "lon": 2.268,
+      "rsf": 25,
+      "articles": 49,
+      "tone_avg": -0.437,
+      "tone_delta": -0.04
+    },
+    {
       "name": "Sky News",
       "url": "https://news.sky.com",
       "city": "Londres",
@@ -408,21 +423,6 @@
       "articles": 48,
       "tone_avg": -0.8816,
       "tone_delta": -0.4846
-    },
-    {
-      "name": "France 24",
-      "url": "https://www.france24.com/en/",
-      "city": "París",
-      "country": "Francia",
-      "iso3": "FRA",
-      "type": "estatal",
-      "desc": "El canal internacional del Estado francés (France Médias Monde).",
-      "lat": 48.841,
-      "lon": 2.268,
-      "rsf": 25,
-      "articles": 48,
-      "tone_avg": -0.4287,
-      "tone_delta": -0.0317
     },
     {
       "name": "Bloomberg",
@@ -605,6 +605,21 @@
       "tone_delta": -0.2146
     },
     {
+      "name": "South China Morning Post",
+      "url": "https://www.scmp.com",
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "iso3": "HKG",
+      "type": "privado",
+      "desc": "Histórico diario hongkonés en inglés, propiedad de Alibaba desde 2016 — su margen frente a Pekín es objeto de escrutinio.",
+      "lat": 22.3193,
+      "lon": 114.1694,
+      "rsf": 135,
+      "articles": 23,
+      "tone_avg": -0.5717,
+      "tone_delta": -0.1747
+    },
+    {
       "name": "Euronews",
       "url": "https://www.euronews.com",
       "city": "Lyon",
@@ -633,21 +648,6 @@
       "articles": 22,
       "tone_avg": -0.5974,
       "tone_delta": -0.2004
-    },
-    {
-      "name": "South China Morning Post",
-      "url": "https://www.scmp.com",
-      "city": "Hong Kong",
-      "country": "Hong Kong",
-      "iso3": "HKG",
-      "type": "privado",
-      "desc": "Histórico diario hongkonés en inglés, propiedad de Alibaba desde 2016 — su margen frente a Pekín es objeto de escrutinio.",
-      "lat": 22.3193,
-      "lon": 114.1694,
-      "rsf": 135,
-      "articles": 22,
-      "tone_avg": -0.6311,
-      "tone_delta": -0.2341
     },
     {
       "name": "Newsweek",
@@ -1088,19 +1088,19 @@
   "by_country": {
     "QAT": {
       "outlets": 1,
-      "articles": 6249
+      "articles": 6271
     },
     "GBR": {
       "outlets": 8,
-      "articles": 2916
+      "articles": 2920
     },
     "USA": {
       "outlets": 24,
-      "articles": 1719
+      "articles": 1724
     },
     "UKR": {
       "outlets": 5,
-      "articles": 752
+      "articles": 753
     },
     "DEU": {
       "outlets": 1,
@@ -1112,11 +1112,11 @@
     },
     "ISR": {
       "outlets": 3,
-      "articles": 63
+      "articles": 64
     },
     "FRA": {
       "outlets": 3,
-      "articles": 93
+      "articles": 94
     },
     "NLD": {
       "outlets": 1,
@@ -1130,11 +1130,11 @@
       "outlets": 3,
       "articles": 34
     },
-    "CAN": {
-      "outlets": 1,
-      "articles": 22
-    },
     "HKG": {
+      "outlets": 1,
+      "articles": 23
+    },
+    "CAN": {
       "outlets": 1,
       "articles": 22
     },
@@ -1229,7 +1229,7 @@
       "articles": 29
     }
   ],
-  "others_total": 2274,
-  "matched_articles": 12285,
-  "total_articles": 14559
+  "others_total": 2277,
+  "matched_articles": 12320,
+  "total_articles": 14597
 }

@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-09-19T15:53:33+00:00",
+  "updated": "2026-09-19T20:40:48+00:00",
   "overall_tone": -0.198,
   "rsf_as_of": "2025 (aprox.)",
   "outlets": [
@@ -15,9 +15,9 @@
       "lat": 25.2867,
       "lon": 51.5333,
       "rsf": 84,
-      "articles": 5726,
-      "tone_avg": -0.265,
-      "tone_delta": -0.067
+      "articles": 5740,
+      "tone_avg": -0.2644,
+      "tone_delta": -0.0664
     },
     {
       "name": "BBC",
@@ -30,9 +30,9 @@
       "lat": 51.5188,
       "lon": -0.144,
       "rsf": 20,
-      "articles": 1731,
-      "tone_avg": -0.2875,
-      "tone_delta": -0.0895
+      "articles": 1734,
+      "tone_avg": -0.288,
+      "tone_delta": -0.09
     },
     {
       "name": "NPR",
@@ -45,9 +45,9 @@
       "lat": 38.899,
       "lon": -77.008,
       "rsf": 57,
-      "articles": 516,
-      "tone_avg": -0.2723,
-      "tone_delta": -0.0743
+      "articles": 517,
+      "tone_avg": -0.2712,
+      "tone_delta": -0.0732
     },
     {
       "name": "NK News",
@@ -165,9 +165,9 @@
       "lat": 51.5074,
       "lon": -0.1278,
       "rsf": 20,
-      "articles": 59,
-      "tone_avg": -0.2921,
-      "tone_delta": -0.0941
+      "articles": 60,
+      "tone_avg": -0.2949,
+      "tone_delta": -0.0969
     },
     {
       "name": "Anadolu Agency",
@@ -725,6 +725,21 @@
       "tone_delta": 0.6182
     },
     {
+      "name": "Forbes",
+      "url": "https://www.forbes.com",
+      "city": "Jersey City",
+      "country": "Estados Unidos",
+      "iso3": "USA",
+      "type": "privado",
+      "desc": "Revista de negocios (capital mayoritario de Integrated Whale Media, Hong Kong); mucha firma invitada.",
+      "lat": 40.7178,
+      "lon": -74.0431,
+      "rsf": 57,
+      "articles": 7,
+      "tone_avg": -0.1984,
+      "tone_delta": -0.0004
+    },
+    {
       "name": "CSIS",
       "url": "https://www.csis.org",
       "city": "Washington D.C.",
@@ -798,21 +813,6 @@
       "articles": 6,
       "tone_avg": -0.1225,
       "tone_delta": 0.0755
-    },
-    {
-      "name": "Forbes",
-      "url": "https://www.forbes.com",
-      "city": "Jersey City",
-      "country": "Estados Unidos",
-      "iso3": "USA",
-      "type": "privado",
-      "desc": "Revista de negocios (capital mayoritario de Integrated Whale Media, Hong Kong); mucha firma invitada.",
-      "lat": 40.7178,
-      "lon": -74.0431,
-      "rsf": 57,
-      "articles": 6,
-      "tone_avg": -0.1089,
-      "tone_delta": 0.0891
     },
     {
       "name": "Daily Sabah",
@@ -965,6 +965,21 @@
       "tone_delta": 0.5065
     },
     {
+      "name": "Ynet",
+      "url": "https://www.ynetnews.com",
+      "city": "Tel Aviv",
+      "country": "Israel",
+      "iso3": "ISR",
+      "type": "privado",
+      "desc": "El portal del grupo Yedioth Ahronoth, el de mayor audiencia de Israel.",
+      "lat": 32.07,
+      "lon": 34.78,
+      "rsf": 112,
+      "articles": 4,
+      "tone_avg": 0.1272,
+      "tone_delta": 0.3252
+    },
+    {
       "name": "The Economist",
       "url": "https://www.economist.com",
       "city": "Londres",
@@ -1023,21 +1038,6 @@
       "articles": 3,
       "tone_avg": -0.2772,
       "tone_delta": -0.0792
-    },
-    {
-      "name": "Ynet",
-      "url": "https://www.ynetnews.com",
-      "city": "Tel Aviv",
-      "country": "Israel",
-      "iso3": "ISR",
-      "type": "privado",
-      "desc": "El portal del grupo Yedioth Ahronoth, el de mayor audiencia de Israel.",
-      "lat": 32.07,
-      "lon": 34.78,
-      "rsf": 112,
-      "articles": 3,
-      "tone_avg": 0.372,
-      "tone_delta": 0.57
     },
     {
       "name": "The Indian Express",
@@ -1148,15 +1148,15 @@
   "by_country": {
     "QAT": {
       "outlets": 1,
-      "articles": 5726
+      "articles": 5740
     },
     "GBR": {
       "outlets": 9,
-      "articles": 1979
+      "articles": 1983
     },
     "USA": {
       "outlets": 24,
-      "articles": 1210
+      "articles": 1212
     },
     "KOR": {
       "outlets": 4,
@@ -1192,7 +1192,7 @@
     },
     "ISR": {
       "outlets": 4,
-      "articles": 23
+      "articles": 24
     },
     "TWN": {
       "outlets": 1,
@@ -1230,7 +1230,7 @@
   "others": [
     {
       "source": "조선일보",
-      "articles": 373
+      "articles": 374
     },
     {
       "source": "Korea JoongAng Daily",
@@ -1289,7 +1289,7 @@
       "articles": 24
     }
   ],
-  "others_total": 3448,
-  "matched_articles": 10197,
-  "total_articles": 13645
+  "others_total": 3450,
+  "matched_articles": 10218,
+  "total_articles": 13668
 }

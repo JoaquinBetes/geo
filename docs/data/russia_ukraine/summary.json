@@ -2,13 +2,13 @@
   "id": "russia_ukraine",
   "name": "Rusia–Ucrania",
   "description": "Cobertura mediática del conflicto entre Rusia y Ucrania",
-  "updated": "2026-09-19T15:53:06+00:00",
-  "total_articles": 14597,
-  "overall_avg": -0.397,
+  "updated": "2026-09-19T20:40:21+00:00",
+  "total_articles": 14621,
+  "overall_avg": -0.3968,
   "distribution": {
-    "pos": 2799,
-    "neu": 1648,
-    "neg": 10150
+    "pos": 2806,
+    "neu": 1650,
+    "neg": 10165
   },
   "sources": [
     "Al Jazeera",
@@ -78,9 +78,9 @@
     "ABC News & Headlines – Australian Broadcasting Corporation",
     "The Conversation",
     "The Telegraph",
+    "Euronews.com",
     "New York Post",
     "the-independent.com",
-    "Euronews.com",
     "Russia Matters",
     "The Economist",
     "Eurasia Review",
@@ -252,10 +252,12 @@
     "cnbc.com",
     "eaworldview.com",
     "Bozeman Daily Chronicle",
+    "Vatican News",
     "IntelliNews",
     "SBS",
     "forbes.com",
     "NewsCord",
+    "dailysabah.com",
     "Toronto Star",
     "Barron's",
     "uatv.ua",
@@ -342,7 +344,6 @@
     "Lee News Central",
     "Chicago Tribune",
     "Variety",
-    "Vatican News",
     "detroitnews.com",
     "KWCH",
     "WSOC TV",
@@ -354,7 +355,6 @@
     "Jefferson City News Tribune",
     "38 North",
     "africanews.com",
-    "dailysabah.com",
     "ABC7 New York",
     "wtop.com",
     "Baltimore Sun",
@@ -1882,28 +1882,28 @@
     },
     {
       "date": "2026-09-19",
-      "count": 90,
-      "avg": -0.3501,
-      "pos": 18,
-      "neu": 14,
-      "neg": 58
+      "count": 114,
+      "avg": -0.3333,
+      "pos": 25,
+      "neu": 16,
+      "neg": 73
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 6271,
-      "avg": -0.2718
+      "count": 6285,
+      "avg": -0.2713
     },
     {
       "source": "BBC",
-      "count": 1936,
-      "avg": -0.3013
+      "count": 1939,
+      "avg": -0.3017
     },
     {
       "source": "NPR",
-      "count": 567,
-      "avg": -0.2837
+      "count": 568,
+      "avg": -0.2827
     },
     {
       "source": "The Guardian",
@@ -1922,8 +1922,8 @@
     },
     {
       "source": "The Kyiv Independent",
-      "count": 152,
-      "avg": -0.6213
+      "count": 153,
+      "avg": -0.6223
     },
     {
       "source": "The Independent",
@@ -1937,8 +1937,8 @@
     },
     {
       "source": "Reuters",
-      "count": 115,
-      "avg": -0.4089
+      "count": 116,
+      "avg": -0.4125
     },
     {
       "source": "The New York Times",
@@ -2072,8 +2072,8 @@
     },
     {
       "source": "TVP World",
-      "count": 43,
-      "avg": -0.4675
+      "count": 44,
+      "avg": -0.4787
     },
     {
       "source": "The Washington Post",
@@ -2226,6 +2226,11 @@
       "avg": -0.4746
     },
     {
+      "source": "Euronews.com",
+      "count": 18,
+      "avg": -0.4444
+    },
+    {
       "source": "New York Post",
       "count": 17,
       "avg": -0.596
@@ -2234,11 +2239,6 @@
       "source": "the-independent.com",
       "count": 17,
       "avg": -0.7151
-    },
-    {
-      "source": "Euronews.com",
-      "count": 17,
-      "avg": -0.4138
     },
     {
       "source": "Russia Matters",
@@ -3096,6 +3096,11 @@
       "avg": -0.9141
     },
     {
+      "source": "Vatican News",
+      "count": 3,
+      "avg": -0.619
+    },
+    {
       "source": "IntelliNews",
       "count": 3,
       "avg": -0.8771
@@ -3114,6 +3119,11 @@
       "source": "NewsCord",
       "count": 3,
       "avg": -0.8223
+    },
+    {
+      "source": "dailysabah.com",
+      "count": 3,
+      "avg": -0.7255
     },
     {
       "source": "Toronto Star",
@@ -3546,11 +3556,6 @@
       "avg": -0.8271
     },
     {
-      "source": "Vatican News",
-      "count": 2,
-      "avg": -0.9284
-    },
-    {
       "source": "detroitnews.com",
       "count": 2,
       "avg": -0.9182
@@ -3604,11 +3609,6 @@
       "source": "africanews.com",
       "count": 2,
       "avg": -0.8931
-    },
-    {
-      "source": "dailysabah.com",
-      "count": 2,
-      "avg": -0.6124
     },
     {
       "source": "ABC7 New York",
@@ -5830,26 +5830,26 @@
     {
       "name": "Ukraine",
       "type": "LOCATION",
-      "count": 5625,
-      "avg": -0.5881
+      "count": 5630,
+      "avg": -0.5882
     },
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 5070,
-      "avg": -0.6061
+      "count": 5075,
+      "avg": -0.6062
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 1425,
-      "avg": -0.3031
+      "count": 1430,
+      "avg": -0.3022
     },
     {
       "name": "Kyiv",
       "type": "LOCATION",
-      "count": 1080,
-      "avg": -0.6011
+      "count": 1081,
+      "avg": -0.6012
     },
     {
       "name": "Vladimir Putin",
@@ -5872,14 +5872,14 @@
     {
       "name": "United States",
       "type": "LOCATION",
-      "count": 351,
-      "avg": -0.2125
+      "count": 355,
+      "avg": -0.208
     },
     {
       "name": "NATO",
       "type": "ORG",
-      "count": 283,
-      "avg": -0.4725
+      "count": 284,
+      "avg": -0.4738
     },
     {
       "name": "Crimea",
@@ -5902,17 +5902,196 @@
     {
       "name": "European Union",
       "type": "ORG",
-      "count": 20,
-      "avg": -0.22
+      "count": 21,
+      "avg": -0.1987
     },
     {
       "name": "United Nations",
       "type": "ORG",
-      "count": 15,
-      "avg": -0.0518
+      "count": 16,
+      "avg": -0.0287
     }
   ],
   "recent": [
+    {
+      "title": "Houthis say they targeted Saudi capital with ballistic missiles",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-19T20:16:07+00:00",
+      "compound": -0.4215,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Denmark says ‘binding’ US deal on Greenland won’t compromise sovereignty",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/19/denmark-says-binding-us-deal-on-greenland-wont-compromise-sovereignty?traffic_source=rss",
+      "published": "2026-09-19T20:03:23+00:00",
+      "compound": -0.2023,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Canadians warm to EU ‘associate membership’ proposal",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/19/canadians-warm-to-eu-associate-membership-proposal?traffic_source=rss",
+      "published": "2026-09-19T19:53:55+00:00",
+      "compound": 0.2263,
+      "label": "positive",
+      "entities": [
+        "European Union"
+      ]
+    },
+    {
+      "title": "Trump says he will create ‘AI Force’ with new ‘AI czar’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/19/trump-says-he-will-create-ai-force-with-new-ai-czar?traffic_source=rss",
+      "published": "2026-09-19T19:50:10+00:00",
+      "compound": 0.5994,
+      "label": "positive",
+      "entities": [
+        "Donald Trump",
+        "United States"
+      ]
+    },
+    {
+      "title": "‘Abhorrent acts’: UN exposes scale of Russian sexual violence in Ukraine war",
+      "source": "TVP World",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcDZOVlpBdE1fTFJKTTVaczNSZWRQa3Yxd3VEcnlKeUxOdU1NSm01Q2FOYV9IRGFLSGRGZnVxU1lDdG9JY2JpNDhCWDhfTlA0MnJKbnYwM2Y2TWs0WFRuUE1IMjA1QkNkR3pEYkRQbU1URkxvN0N2MzFMamVWVHI2eUQxV3dXak9KM0QxSHlidjE?oc=5",
+      "published": "2026-09-19T19:38:00+00:00",
+      "compound": -0.9584,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Journalists denied White House access after Trump banned some media outlets",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cj4gklz9dxplo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-19T19:13:49+00:00",
+      "compound": -0.7096,
+      "label": "negative",
+      "entities": [
+        "Donald Trump",
+        "United States"
+      ]
+    },
+    {
+      "title": "Slovak PM Fico says some in West seek war between Russia and NATO",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRHpGY0o4UF9tTDFQQm5xOGZGdzlRakc2UlNOMVNkbEF1TU1QeHRwREg4ZUNQMGo2M0FnSUlyUm0ycjlOZk41UDV4c3p5cDAxZXBxYTUyNUJUcnYzNVhEcmRBWFdsZ1Z4ZGFIcWNRNHFlUGZkVlVoRnlXTEpPY2J1T2JHTTVaMU0ya1FncEQ3YzJjb016UFBsM3NGZkljZl9SU0E?oc=5",
+      "published": "2026-09-19T19:11:45+00:00",
+      "compound": -0.8316,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "NATO"
+      ]
+    },
+    {
+      "title": "The new lines of southern Lebanon",
+      "source": "NPR",
+      "url": "https://www.npr.org/sections/the-picture-show/2026/09/19/g-s1-139752/the-new-lines-of-southern-lebanon",
+      "published": "2026-09-19T19:00:24+00:00",
+      "compound": 0.3182,
+      "label": "positive",
+      "entities": [
+        "United Nations"
+      ]
+    },
+    {
+      "title": "Iran says conditions to re-engage in talks, end war sent to US via Qatar",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/19/iran-says-conditions-to-re-engage-in-talks-end-war-sent-to-us-via-qatar?traffic_source=rss",
+      "published": "2026-09-19T18:32:30+00:00",
+      "compound": 0.2732,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Israel targets paramedics in southern Lebanon",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/19/israel-targets-paramedics-in-southern-lebanon?traffic_source=rss",
+      "published": "2026-09-19T18:06:52+00:00",
+      "compound": -0.4588,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Cuba works to restore power after another major nationwide blackout",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/19/cuba-works-to-restore-power-after-another-major-nationwide-blackout?traffic_source=rss",
+      "published": "2026-09-19T17:59:57+00:00",
+      "compound": 0.7269,
+      "label": "positive",
+      "entities": [
+        "United States"
+      ]
+    },
+    {
+      "title": "Dutch riot police break up violent far-right protest in The Hague",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/19/dutch-riot-police-break-up-violent-far-right-protest-in-the-hague?traffic_source=rss",
+      "published": "2026-09-19T17:55:45+00:00",
+      "compound": -0.926,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "A ‘ban on the free press’: White House bars journalists from three outlets",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/19/a-ban-on-the-free-press-white-house-bars-journalists-from-three-outlets?traffic_source=rss",
+      "published": "2026-09-19T17:48:18+00:00",
+      "compound": 0.1027,
+      "label": "positive",
+      "entities": [
+        "United States"
+      ]
+    },
+    {
+      "title": "Ed Sheeran concert set to go ahead after outcry over Gaza",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/19/ed-sheeran-concert-set-to-go-ahead-after-outcry-over-gaza?traffic_source=rss",
+      "published": "2026-09-19T17:14:45+00:00",
+      "compound": -0.1027,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Brighton beat Arsenal 3-0 as Man City top Premier League without playing",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/9/19/brighton-beat-arsenal-3-0-as-man-city-top-premier-league-without-playing?traffic_source=rss",
+      "published": "2026-09-19T16:42:26+00:00",
+      "compound": -0.4102,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Demonstrators in US form human chain to protest Kennedy Center closure vote",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/19/demonstrators-in-us-form-human-chain-to-protest-kennedy-center-closure-vote?traffic_source=rss",
+      "published": "2026-09-19T16:21:36+00:00",
+      "compound": -0.25,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Police hiring standards matter. But they alone cannot stop abuse",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/opinions/2026/9/19/police-hiring-standards-matter-but-they-alone-cannot-stop-abuse?traffic_source=rss",
+      "published": "2026-09-19T15:58:55+00:00",
+      "compound": 0.6634,
+      "label": "positive",
+      "entities": []
+    },
     {
       "title": "Ukraine-Russia war latest: Kyiv shoots down Putin’s jet-powered Shaheds with new state-of-the-art interceptor drones",
       "source": "The Independent",
@@ -5926,6 +6105,24 @@
         "Ukraine",
         "Kyiv"
       ]
+    },
+    {
+      "title": "Jerusalem Daily: Gaza’s children return to schools",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/19/jerusalem-daily-gazas-children-return-to-schools?traffic_source=rss",
+      "published": "2026-09-19T15:38:58+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Djibouti refugee crisis worsens as more than 2,700 Yemenis arrive",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/19/djibouti-refugee-crisis-worsens-as-more-than-2700-yemenis-arrive?traffic_source=rss",
+      "published": "2026-09-19T15:31:05+00:00",
+      "compound": -0.8979,
+      "label": "negative",
+      "entities": []
     },
     {
       "title": "Russia reports ‘powerful’ cyberattacks on second day of parliamentary vote",
@@ -5945,6 +6142,18 @@
       "published": "2026-09-19T15:18:00+00:00",
       "compound": -0.296,
       "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "title": "Russia votes in first parliamentary election since Ukraine invasion",
+      "source": "Vatican News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNi1NTmQzNEYxRERNQ2owNFNBaDhuc0lGZDFkWjdRUEV3Mm1GbE8tOWNSY09PWll5Yy1FMFBnR0JrVVMyUWU5QWhuczkxWVJHN0R2blk0bThrWEdFYTB5ZFI2ZHBXVTd0TVh2TWlPZGZYclV3eV9hYV9sN0RORW1yNGR0UTYyczZOVEpwYlZLd3QySGx3d0lv?oc=5",
+      "published": "2026-09-19T15:16:27+00:00",
+      "compound": 0.0,
+      "label": "neutral",
       "entities": [
         "Russia",
         "Ukraine"
@@ -6002,6 +6211,15 @@
       ]
     },
     {
+      "title": "Converse pulls 'deeply upsetting' advert after backlash",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/crwyzj53pl1lo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-19T14:05:01+00:00",
+      "compound": -0.5256,
+      "label": "negative",
+      "entities": []
+    },
+    {
       "title": "Vladimir Putin claims Ukraine meddling in parliamentary elections",
       "source": "The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSmpWNWJuNHRFZ19BUHVvTVpWVHFIWmtxbDVjZExzTHp0TkFoYnhWMFgwd1UxMmJQQ1ZIOGZSaVdKa2R3a0xaYm53ZHdrNTlNMzk5NVp5V1lraDd2NmJ0QUc5OVRLclJsNDZmR1pWbTBsR2l2RnUxZVlDd09KUVNSMDEydnF1U2NQN2c?oc=5",
@@ -6052,6 +6270,19 @@
       ]
     },
     {
+      "title": "Russia plans to recruit Yemenis to fight in the war, Ukraine's intelligence says",
+      "source": "The Kyiv Independent",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdTN2NDd5U3V0UlYtQnRLYW92U0t3djFVUnpzOFNqcWRNVFN1ZlY4VmQyYnhZNDNTZDRIYVZpYi1fLXhDWnFYbmp0UTVqOG93eFZGbklna3F5MDRPY0xJT2hVTnhZOXlHMEhmd1Q2TjRpemRQYnFnSjBpUDhRUmdFQ2xKMUZhWjk3MFdScUh4dHkzVWtpcERjb2pWT0pHQXJpUW9XdmJjNmJnRVU?oc=5",
+      "published": "2026-09-19T13:09:26+00:00",
+      "compound": -0.7783,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine",
+        "Kyiv"
+      ]
+    },
+    {
       "title": "Putin says Europe is 'preparing for war'",
       "source": "France 24",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBFNGl0MWt5bmNKNFBYc2poLUJFY0FJOW84T0lsUWJvdjVKR2xGZ3ltTjJsYzlKNmE3UWtmSklzMHpaMFV3Zi16SkJRR1BXSzFYcWxucmpFb0JxRUo5cl8wLWFNcDlFTVEyWGh1QXJPQTNhVG1I?oc=5",
@@ -6097,6 +6328,18 @@
       "compound": 0.4019,
       "label": "positive",
       "entities": []
+    },
+    {
+      "title": "UN condemns 'shocking pattern' of sexual violence by Russian troops in Ukraine",
+      "source": "Euronews.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNYzkwZVN4WFQyY2VKSVl2RkZUVU1xMTdfYzRkQ2doMHkzQ1h6ZUI0UHpTalBBekxaRHZsMzVGLW5OVHVBazB5cXJuaW1nWjlIaXFqN1NncUxnUjEzWXRPUUk0XzFla05lWkxGODc4eml2UkpGZW1FaEFGdjAxdWRVa2szTnh2eVF0TDRremV4dmEzLVRaTllxajZNZUxpVFhXMGljSzhNTDZUaFNhNjdSd213?oc=5",
+      "published": "2026-09-19T12:33:01+00:00",
+      "compound": -0.9648,
+      "label": "negative",
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ]
     },
     {
       "title": "Funerals held after deadly mosque attack in Pakistan’s Kohat",
@@ -6162,6 +6405,17 @@
       "compound": 0.0,
       "label": "neutral",
       "entities": []
+    },
+    {
+      "title": "UN reports 1,004 verified cases of sexual violence in Ukraine war",
+      "source": "dailysabah.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRXdLbTY4Y083LU96MEtPWlV6MkJLeTU5Q0o1OWZPOUhBV0hDbU5GODJlQ0NDSkwySm83SEYtWC16U3JuSFMyelROY1VsOUdncDB1eEdMeS1BNU0xYWtwTDJ0WUtfQXFvdDhfblMwQ0JJWTRnbEpSU1JGU0FFTkJKb3B2dUJfRnRESEhrUjZGdVJudHktY05LSk1lOWMtSzVuUlpCTlQ3MA?oc=5",
+      "published": "2026-09-19T11:39:00+00:00",
+      "compound": -0.9517,
+      "label": "negative",
+      "entities": [
+        "Ukraine"
+      ]
     },
     {
       "title": "East Asia: How AI is changing the way we bid farewell to loved ones",
@@ -6272,267 +6526,6 @@
       "label": "positive",
       "entities": [
         "Ukraine"
-      ]
-    },
-    {
-      "title": "Trump says US has ‘permanent control’ of Greenland security: Does it?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/19/trump-says-us-has-permanent-control-of-greenland-security-does-it?traffic_source=rss",
-      "published": "2026-09-19T09:50:30+00:00",
-      "compound": 0.6808,
-      "label": "positive",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Ukraine War, Day 1,669: “Abhorrent Acts” — Sexual Violence by Russia’s Invaders",
-      "source": "EA WorldView",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPOVA4SzJXN05uajRQbWZXeTlxS05ZWE5Xc3ZERk5URFNpcFliN2Y4UFdaN2NNcENZY2Y5cGFKczAzQ3BVRFVGcTlwcl9wampsV2dodzFYa1VmRElMUFNFZkhzc0liZ1VVQjlCZGNfWVRXSUJvWkpSVDRMcW1DcXZrLURWQmhvU1dYQUE?oc=5",
-      "published": "2026-09-19T09:42:21+00:00",
-      "compound": -0.9517,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Russia-Ukraine war: Political and military confrontation continues as EU supports Kyiv",
-      "source": "سانا",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9Wa3lVbDU4YV9kQURCNVZMZllrb0c1ZERhbXRSM3diV2NUYTA0bE9sZ0poWVVIc19TZk1UdnFqbEw3Q05TZXhZUGswWVVfZ3ZPSWtj?oc=5",
-      "published": "2026-09-19T09:37:54+00:00",
-      "compound": -0.8126,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine",
-        "Kyiv"
-      ]
-    },
-    {
-      "title": "Africa’s Green Revolution threatens traditional foods",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/opinions/2026/9/19/africas-green-revolution-threatens-traditional-foods?traffic_source=rss",
-      "published": "2026-09-19T09:36:38+00:00",
-      "compound": -0.6486,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "North Korea Sends Women to Russian Factories in Line of Ukrainian Fire",
-      "source": "WSJ",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdFE5bFFuMnZzdXIyLWhqSEN5R0NITy1fSC0zLVRFUWNHUXpoUzM0N2ZBX1I3TGRsejVTVjEwcVBDUDd3VkdNM19VQmMyeURaaDdIdWk2VnNVenVZNS1pTmxaSUJEdTR0Unh0U1N6SFVicVJIUTE2VmItel84RU14a1NzMjNVTTFaXy1tU2M0V2Zad3oyUXRJQ0w2WWpWYXo5YlVpYmRoNV8xdWtzUWRN?oc=5",
-      "published": "2026-09-19T09:31:23+00:00",
-      "compound": -0.5859,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Deadly shark attack prompts rare kill order in Western Australia",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cqwyzdnk442lo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-19T09:19:12+00:00",
-      "compound": -0.8957,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "EU urges US to lift travel ban on Palestinian delegation for UNGA meeting",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/19/eu-urges-us-to-lift-travel-ban-on-palestinian-delegation-for-unga-meeting?traffic_source=rss",
-      "published": "2026-09-19T09:05:13+00:00",
-      "compound": 0.0258,
-      "label": "neutral",
-      "entities": [
-        "United Nations"
-      ]
-    },
-    {
-      "title": "Can Trump ban CNN, news outlets he doesn’t like from the White House?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/19/can-trump-ban-cnn-news-outlets-he-doesnt-like-from-the-white-house?traffic_source=rss",
-      "published": "2026-09-19T08:47:17+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Donald Trump",
-        "United States"
-      ]
-    },
-    {
-      "title": "Russia begins 3 days of voting in a parliamentary election set to cement the Kremlin’s power",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYUFqYVVGeUo1RkFUYXVSZVNtWU5wU0ViN1c3eE90aEJ4dHduTjRhazI0VWpscUJzTXUwQkNzVzl0UC0xMnlVa0c3azRCTmtqbFc3bldOWjQxOWxkbDFMaTUxb1AyTVFRMm9wVGoxcFZ1RVJhSDYxX0FLYzFNNVF6VHY1NkR2WF82QmozeGFXaFh2cjdHSWJaY0tub3lybVJ4c1FfME41ZUdoSUFCeHc?oc=5",
-      "published": "2026-09-19T08:42:23+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "War may be coming. Are we psychologically ready?",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBIMW0xRmdCZ3ZmWjBvZUNWZXNDQUxoTFdUcmhUbE14RjBxUEw4eVlJWmdJSE91RmZ2THRWTk1XczZDb3p6dEtzNGc3M3dOZkZfNlppY3VncWV2bDg?oc=5",
-      "published": "2026-09-19T08:34:00+00:00",
-      "compound": -0.6322,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Turkiye revokes operating licence of Iran’s Bank Mellat in Istanbul",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/9/19/turkiye-revokes-operating-licence-of-irans-bank-mellat?traffic_source=rss",
-      "published": "2026-09-19T08:18:08+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Putin 'preparing to mobilise 300k troops & is set to expand war across Europe'",
-      "source": "the-sun.com",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSWhKQ2FOY3pkeXdieTY3Q1loZlJvZy1VUWtTZXk5M29mUVNvOEltdUVFTFE3eDlKSVhMaWlpajdvSkZGSXZOZ0d6cmg0a3dta2l6dDhoNUJRYllJeEJEcnpQa0E0aExDaDlSTGR1VHlHNHREMzdwVV9XQXZieUs4cUFjQmFpRGxLNWRFWkhuMA?oc=5",
-      "published": "2026-09-19T08:00:22+00:00",
-      "compound": -0.6369,
-      "label": "negative",
-      "entities": [
-        "Vladimir Putin"
-      ]
-    },
-    {
-      "title": "NAZA: Why are old Gaza allegations causing new fury in Israel?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/19/naza-why-are-old-gaza-allegations-causing-new-fury-in-israel?traffic_source=rss",
-      "published": "2026-09-19T07:50:44+00:00",
-      "compound": -0.5719,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Trump ‘settled for less’ with new US-Denmark Greenland security deal",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/19/trump-settled-for-less-with-new-us-denmark-greenland-security-deal?traffic_source=rss",
-      "published": "2026-09-19T07:35:05+00:00",
-      "compound": 0.7906,
-      "label": "positive",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Ugo Ugochukwu: Road to F1",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/19/ugo-ugochukwu-road-to-f1?traffic_source=rss",
-      "published": "2026-09-19T07:18:55+00:00",
-      "compound": 0.7717,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "1669 Days of russia-Ukraine War – russian Casualties In Ukraine",
-      "source": "Defense Express",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVXNkR2lobm1sWlk1M1NxTC1USWpIb2FpckhPSnlIVFk2ZGp6aW01bG5jNmg5YkpULU1zTVRFV3o4cHdLTEtjYUhuMWRGRDVIV2JuMFQ3TlNHQnVsSHVfSmlUc0tVUllSQlF3VGRQUXEycG44ZGFqYVFwTFMwVHVRX01kNGF1ZnF3RjZVZFJJTEJnV3pnYzRSd3BBaVZwM1NTMDFmSmJR?oc=5",
-      "published": "2026-09-19T06:47:41+00:00",
-      "compound": -0.8074,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Russia’s elections are more than political theatre",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/opinions/2026/9/19/russias-elections-are-more-than-political-theatre?traffic_source=rss",
-      "published": "2026-09-19T06:46:17+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "Russia holds parliamentary vote in areas it seized from Ukraine in the war",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/09/19/g-s1-144169/russia-holds-parliamentary-vote-in-areas-it-seized-from-ukraine",
-      "published": "2026-09-19T06:39:57+00:00",
-      "compound": -0.5994,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine",
-        "Moscow"
-      ]
-    },
-    {
-      "title": "Russia holds parliamentary vote in areas it seized from Ukraine in the war",
-      "source": "npr.org",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWEN6dENZWXNKc3hUbHNkam4xZVFXczdUV3dEclJfV0phWXNxS0NVcWl6aEhlM2thb19zdlFtcVhFMmk1Vkk1cF9DLWVpa3EtQ3RNUk84aFpfSjRjNTZURVRwQ0k1SDQxb2otdFlFLVh4YXBnZnN5Y3NKZnJPLWphWkY4TDlRUjVUOWVLU2JRalUxdmYxd3NscEN6V2xzZzQ2UjJkR3pwZHhvZw?oc=5",
-      "published": "2026-09-19T06:39:57+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ]
-    },
-    {
-      "title": "Could US pull one-third of troops from Europe? What that would mean",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/19/could-us-pull-one-third-of-troops-from-europe-what-that-would-mean?traffic_source=rss",
-      "published": "2026-09-19T06:30:24+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Trump signs into law sanctions package targeting Russia's economy",
-      "source": "Euronews.com",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdEpMdnhDNVdRRnZaSFVYNWNrbUVWal9VQTU4T1c1LXRyeFgtMnFfSVg0NENhc3ZXVTI2YVFaRGRtOUlrRmIzaXlUbjlEcDZxWkZEZ2wtcjRTWnFGQnQ0LVBMSUJqWmJnMF9ZVGxhMmE3T0VLOVdtNXgwWFNuQnNub2NDU2VnN0FwLXFDbUFhazVtTWJWeTFrejJfdGYyTTMwMk42RFZRcnVKcWFSZ0cwV1dwMklFWFZNZ2d6WVNUWDZZTFEt?oc=5",
-      "published": "2026-09-19T06:20:40+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Donald Trump",
-        "Russia"
-      ]
-    },
-    {
-      "title": "Brentford beat Chelsea 3-0 to shatter Alonso’s London honeymoon",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/9/19/brentford-beat-chelsea-3-0-to-shatter-alonsos-london-honeymoon?traffic_source=rss",
-      "published": "2026-09-19T06:05:48+00:00",
-      "compound": -0.4588,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Meditating by the Dnipro: I’m an artist in Ukraine, searching for peace and a life between the missiles | Anna Ivanenko",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/commentisfree/ng-interactive/2026/sep/19/ukraine-russia-artist-meditation-peace-between-missiles-dnipro-river",
-      "published": "2026-09-19T06:00:39+00:00",
-      "compound": 0.5574,
-      "label": "positive",
-      "entities": [
-        "Russia",
-        "Ukraine",
-        "Kyiv"
-      ]
-    },
-    {
-      "title": "Trump’s threats to demolish Kennedy Center sparks protest",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/19/trumps-threats-to-demolish-kennedy-center-sparks-protest?traffic_source=rss",
-      "published": "2026-09-19T05:41:36+00:00",
-      "compound": -0.5859,
-      "label": "negative",
-      "entities": [
-        "Donald Trump",
-        "United States"
       ]
     }
   ]

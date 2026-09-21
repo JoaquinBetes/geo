@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-09-20T20:49:41+00:00",
+  "updated": "2026-09-21T04:56:28+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -43,12 +43,12 @@
   },
   "window": {
     "from": "2026-01-12",
-    "to": "2026-09-20"
+    "to": "2026-09-21"
   },
   "kpis": {
-    "events_total": 67,
-    "events_unlocated": 2072,
-    "events_7d": 8,
+    "events_total": 69,
+    "events_unlocated": 2082,
+    "events_7d": 10,
     "events_prev_7d": 9,
     "hottest_place": "Seoul"
   },
@@ -345,6 +345,15 @@
       "date": "2026-09-20",
       "total": 3,
       "strike": 3,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-21",
+      "total": 2,
+      "strike": 2,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -1021,12 +1030,32 @@
       "title": "North Korea fires ballistic missile into East Sea: Seoul",
       "source": "dawn.com",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ydHpLcy1NWkwyencyal93YTV2R3pPSzFNNGh6cGFVMjktODBSWkRtQ2FtRTNLcHBzRWxDNDFveU5PUFk5bjFDQtIBTkFVX3lxTFBuSTFpdUFEWkNkSnNMbXVHWkJGRTNOWHdyRXRqME5CYldUVGl3SEdDUTJlME1KbFdPOFkycFdfYVAxSlhzdWNvZDk5LUIydw?oc=5"
+    },
+    {
+      "date": "2026-09-21",
+      "type": "strike",
+      "place": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "title": "Seoul, Washington and Tokyo hold consultations over Pyongyang’s latest missile tests",
+      "source": "Korea JoongAng Daily",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQ3c3dzY4czVFZkdUOGR4N2hjWkxkdGNELUxNZVZ0MmliSEhNaEd1RUo2ZE1qVTJvTlJ6cVc3aTRmcm5tMGFwR3JCWG9ZTmJ6SXRGUkhvSXNNYTdQdmZ5WWJKbzcwdERLeW5vbk5KUmJEaHh2THlIMmhlN0ZKb2ZRSl9IVmMwUl9lSFFCYnluLTQ2RTFnX1IzSlhfc2NIZjl5cEgwamliUHhFdnRUaWNxMlR1WGlwZVhyazhkckpTQVpiNlF4bHk2RHZhR2s?oc=5"
+    },
+    {
+      "date": "2026-09-21",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "Two South Korean soldiers seriously injured in DMZ explosion",
+      "source": "Korea JoongAng Daily",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZmEyOVBOb1dPbUc4dHZWbXVFV3h2WnpVZEstcVdhcldQb09SMERmb1ZRZUhKVzVxZ01kR1N3dFh3emNNRXZVRndQdXVKbVc0RVBVLVhaZjFjY1pmdlktVmlfcW04WEFKZHF4RjZaaXFBZlFUSGJqamx3WlN3YTJLd3BMYzVNTnZKb3Z5TkxqNEk0c3QzYlhQb2pTUFRmOE1BVUw1MjI0M1dFNGtCRnVn?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Seoul",
-      "count": 16
+      "count": 15
     },
     {
       "place": "Pyongyang",
@@ -1042,6 +1071,10 @@
     },
     {
       "place": "Kaesong",
+      "count": 1
+    },
+    {
+      "place": "DMZ",
       "count": 1
     }
   ],

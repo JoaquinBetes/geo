@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-09-20T20:49:26+00:00",
+  "updated": "2026-09-21T04:56:13+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -38,13 +38,13 @@
   },
   "window": {
     "from": "2026-02-27",
-    "to": "2026-09-20"
+    "to": "2026-09-21"
   },
   "kpis": {
-    "events_total": 492,
-    "events_unlocated": 2131,
-    "events_7d": 24,
-    "events_prev_7d": 44,
+    "events_total": 494,
+    "events_unlocated": 2135,
+    "events_7d": 22,
+    "events_prev_7d": 45,
     "hottest_place": "Strait of Hormuz"
   },
   "daily": [
@@ -781,6 +781,15 @@
       "date": "2026-09-19",
       "total": 3,
       "strike": 3,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-21",
+      "total": 2,
+      "strike": 2,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -5697,6 +5706,26 @@
       "title": "Iran stages show of force during mobilisation campaign in Tehran",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/9/19/09-19-progovrally-tehran-sv-mp4?traffic_source=rss"
+    },
+    {
+      "date": "2026-09-21",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Iran war live: Tehran warns US against new strikes; fighting rages in Yemen",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVzJrZ1NJdmRaZ2drbFBiSlE2WEpQTUtkX1NiVTlRTG5yVE54MXhIWFZKR0thdTF0RzI1NldwRUpFdGZwTjNlLVNMOXA4TEVQV0QxSjFJcURoVG1vWjBkckc0cEFDeG81MnVyOGE5TG1fVlNNOHExNmN4NGpPSzNoUGVmWmxXcUJqQWdteFRyN3JJTVJFalBDY0NKM1BGa0wtb08zWDVLNXlvM2FxdVdKUFI2OWtDMUNfT0JWRVcxcVXSAcYBQVVfeXFMUDJHemVRSDFibC00SUI2OG1xNmVqMzFwWmVEZHJqMU5lUVN5bTZYQnpjLW5nVExXZ08tRDYxbGVRMGYtd2NoZzc3cDZvYW9raE42WkY0ZUdNa0tXSUhETnJ6OUtmUmFFMjl5U2FCcDdEVmdwcUxhQXo4dVplSEJmWjZUQTFsQ05zN3F5THotU2Z5TjF3Q1Y4TGxjLTFmdER5b2hKTk93VHNWOFYzaDhLRXNaVURKT0tSSy1FSWtmOGNDQXZwX29B?oc=5"
+    },
+    {
+      "date": "2026-09-21",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Iran war live: Tehran warns US against new strikes; fighting rages in Yemen",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/9/21/iran-war-live-tehran-warns-us-against-new-strikes-fighting-rages-in-yemen?traffic_source=rss"
     }
   ],
   "top_places": [
@@ -5706,7 +5735,7 @@
     },
     {
       "place": "Tehran",
-      "count": 25
+      "count": 27
     },
     {
       "place": "Bab el-Mandeb",

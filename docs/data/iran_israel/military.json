@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-09-22T11:38:42+00:00",
+  "updated": "2026-09-22T16:57:36+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-09-22"
   },
   "kpis": {
-    "events_total": 499,
-    "events_unlocated": 2151,
-    "events_7d": 24,
+    "events_total": 501,
+    "events_unlocated": 2154,
+    "events_7d": 26,
     "events_prev_7d": 42,
     "hottest_place": "Strait of Hormuz"
   },
@@ -797,11 +797,11 @@
     },
     {
       "date": "2026-09-22",
-      "total": 1,
-      "strike": 0,
+      "total": 3,
+      "strike": 1,
       "ground": 1,
       "infrastructure": 0,
-      "air_defense": 0,
+      "air_defense": 1,
       "anomaly": false
     }
   ],
@@ -5785,6 +5785,26 @@
       "title": "Iran plans sale of US, Israel-linked vessels seized in Hormuz",
       "source": "Latest news from Azerbaijan",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONXpndXpsMnJhMUQ0X1dHdi11MTYxZnVfdWNucEhIV0tDNWhLZkppbC1pcFZQeUdET3BmaktDNDl3V3ltRjVBdTZFazFjX1Q4cGtrYlZRbS01RDMyZHo5cHNwSnRZUjAzVE4tWUhqLXZ4TC1ucldTazBubFN2Qzc3SW1ERVU5YWY2?oc=5"
+    },
+    {
+      "date": "2026-09-22",
+      "type": "strike",
+      "place": "Jerusalem",
+      "lat": 31.7683,
+      "lon": 35.2137,
+      "title": "UN probe finds Iran committed crimes against humanity in crackdown, cites US and Israel for strikes",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBEakRESnFKV1JOcFJOV2F3TDFUZHN3dE5FemJ1RzNzT1BGOHVuYVJoZ094Zkc0R1NqTTdDSzJUb3p2TDhUbTh2aHQxUzlac0ZmbmpYWjZYYUZZaVg0YVFfNUxVVFRRWmt4QWc?oc=5"
+    },
+    {
+      "date": "2026-09-22",
+      "type": "air_defense",
+      "place": "Jerusalem",
+      "lat": 31.7683,
+      "lon": 35.2137,
+      "title": "Arab states, Israel expand regional air defense cooperation under CENTCOM",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA1QW5XUlRRb3V3VFpxODJGUXRzeXNJMUU2OUZLMzQ0bnZ6X2hPcGJHZ1puYm1sa0Y3dHBkeEpSVEdCN0VxZHktamlUcnh2RnJ2eC1jTDNLaVRVLWJhcEVTNDU5djZ0NWJWa2c?oc=5"
     }
   ],
   "top_places": [
@@ -5802,7 +5822,7 @@
     },
     {
       "place": "Jerusalem",
-      "count": 9
+      "count": 11
     },
     {
       "place": "Kharg Island",

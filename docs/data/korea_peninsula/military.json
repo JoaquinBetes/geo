@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-09-21T21:59:10+00:00",
+  "updated": "2026-09-22T04:57:12+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -43,13 +43,13 @@
   },
   "window": {
     "from": "2026-01-12",
-    "to": "2026-09-21"
+    "to": "2026-09-22"
   },
   "kpis": {
-    "events_total": 82,
-    "events_unlocated": 2106,
-    "events_7d": 23,
-    "events_prev_7d": 9,
+    "events_total": 84,
+    "events_unlocated": 2115,
+    "events_7d": 24,
+    "events_prev_7d": 8,
     "hottest_place": "Seoul"
   },
   "daily": [
@@ -352,12 +352,21 @@
     },
     {
       "date": "2026-09-21",
-      "total": 15,
-      "strike": 15,
+      "total": 16,
+      "strike": 16,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": true
+    },
+    {
+      "date": "2026-09-22",
+      "total": 1,
+      "strike": 0,
+      "ground": 1,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
     }
   ],
   "events": [
@@ -1180,16 +1189,36 @@
       "title": "Explosion in the demilitarized zone of Korea, three injured",
       "source": "vreme.com",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1hNFg0eUVrT2ZqLV91VFZyWUxGVkhELVRIbXIyVHVxNU1KR1FEOEVrQmoxOGwxd0x1cUs3Z3JUTktSd3RNY1QyaF9zalhSRUxGbnA5a3hzMWZ6bUJIV3l6R1BBYTl2VHJuZVljZS1PM1NkeUVv?oc=5"
+    },
+    {
+      "date": "2026-09-21",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "Explosion injures 3 South Korean military officers inside DMZ bordering North Korea",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOFhmWUhBTDJYenBSd1lHMVNabkFQVG12Q2lVQ21hNDdKUl9jRE5ZMW5GcXc3UHhobnE4cHdqblpaRjN5d3h1eDFZUktaYmkyNEREMGpkaVZtY2Y0R2lYU1dwZVJxdy1sS1UtaFZGQW0yWDVqa3VsTERsWnRsTWFqNFhhd1NIWlAyZU5qRzc0dmljcGtzLXFR?oc=5"
+    },
+    {
+      "date": "2026-09-22",
+      "type": "ground",
+      "place": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "title": "SEOUL, South Korea — North Korean leader Kim Jong Un oversaw the test of a 'new-type weapon' system, touting it as evidence of the country's advancing military technology, state media reported Tuesday. Full story in the comments.",
+      "source": "LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPR0d6TVZUaW5COUpCeS1kcjZPdVlOQzFDSTRLN2pDM2RaQVdLOTdnSWVUcVBnZGpOalFmdDEyNTVWb3d4QlMyOEpXeThTbjlMMGtjSGp4Z042MEh2eVBoWFNENFkwc3FteDJrMk9TQ3hzZWMwcXd6RTdtallXZ0g0dkE0c1k5QmNJcDBnb25yQmt5RDVNUC12azl3ZDFvOFJHUTFfcWdYdGR2b0RXOTlkaUM3SXZ5STdaQmlz?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Seoul",
-      "count": 15
+      "count": 16
     },
     {
       "place": "DMZ",
-      "count": 13
+      "count": 14
     },
     {
       "place": "Pyongyang",

@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-09-22T16:57:55+00:00",
+  "updated": "2026-09-22T21:19:34+00:00",
   "overall_tone": -0.1989,
   "rsf_as_of": "2025 (aprox.)",
   "outlets": [
@@ -15,7 +15,7 @@
       "lat": 25.2867,
       "lon": 51.5333,
       "rsf": 84,
-      "articles": 5931,
+      "articles": 5955,
       "tone_avg": -0.2649,
       "tone_delta": -0.066
     },
@@ -30,9 +30,9 @@
       "lat": 51.5188,
       "lon": -0.144,
       "rsf": 20,
-      "articles": 1804,
-      "tone_avg": -0.2891,
-      "tone_delta": -0.0902
+      "articles": 1810,
+      "tone_avg": -0.2888,
+      "tone_delta": -0.0899
     },
     {
       "name": "NPR",
@@ -45,9 +45,9 @@
       "lat": 38.899,
       "lon": -77.008,
       "rsf": 57,
-      "articles": 541,
-      "tone_avg": -0.2721,
-      "tone_delta": -0.0732
+      "articles": 542,
+      "tone_avg": -0.2727,
+      "tone_delta": -0.0738
     },
     {
       "name": "NK News",
@@ -75,9 +75,9 @@
       "lat": 40.757,
       "lon": -74.0,
       "rsf": 57,
-      "articles": 239,
-      "tone_avg": -0.0892,
-      "tone_delta": 0.1097
+      "articles": 241,
+      "tone_avg": -0.0872,
+      "tone_delta": 0.1117
     },
     {
       "name": "TIME",
@@ -165,9 +165,9 @@
       "lat": 51.5074,
       "lon": -0.1278,
       "rsf": 20,
-      "articles": 66,
-      "tone_avg": -0.2821,
-      "tone_delta": -0.0832
+      "articles": 67,
+      "tone_avg": -0.2889,
+      "tone_delta": -0.09
     },
     {
       "name": "The Chosun Ilbo",
@@ -225,9 +225,9 @@
       "lat": 35.65,
       "lon": 139.745,
       "rsf": 66,
-      "articles": 47,
-      "tone_avg": -0.0763,
-      "tone_delta": 0.1226
+      "articles": 48,
+      "tone_avg": -0.0747,
+      "tone_delta": 0.1242
     },
     {
       "name": "Bloomberg",
@@ -290,6 +290,21 @@
       "tone_delta": -0.0397
     },
     {
+      "name": "NBC News",
+      "url": "https://www.nbcnews.com",
+      "city": "Nueva York",
+      "country": "Estados Unidos",
+      "iso3": "USA",
+      "type": "privado",
+      "desc": "División de noticias de NBCUniversal (Comcast).",
+      "lat": 40.759,
+      "lon": -73.979,
+      "rsf": 57,
+      "articles": 31,
+      "tone_avg": -0.2289,
+      "tone_delta": -0.03
+    },
+    {
       "name": "Kyodo News",
       "url": "https://english.kyodonews.net",
       "city": "Tokio",
@@ -303,21 +318,6 @@
       "articles": 31,
       "tone_avg": -0.0171,
       "tone_delta": 0.1818
-    },
-    {
-      "name": "NBC News",
-      "url": "https://www.nbcnews.com",
-      "city": "Nueva York",
-      "country": "Estados Unidos",
-      "iso3": "USA",
-      "type": "privado",
-      "desc": "División de noticias de NBCUniversal (Comcast).",
-      "lat": 40.759,
-      "lon": -73.979,
-      "rsf": 57,
-      "articles": 30,
-      "tone_avg": -0.2074,
-      "tone_delta": -0.0085
     },
     {
       "name": "CNN",
@@ -515,6 +515,21 @@
       "tone_delta": 0.1442
     },
     {
+      "name": "The Hill",
+      "url": "https://thehill.com",
+      "city": "Washington D.C.",
+      "country": "Estados Unidos",
+      "iso3": "USA",
+      "type": "privado",
+      "desc": "Medio especializado en el Congreso de EE.UU. (grupo Nexstar).",
+      "lat": 38.8977,
+      "lon": -77.01,
+      "rsf": 57,
+      "articles": 18,
+      "tone_avg": -0.0505,
+      "tone_delta": 0.1484
+    },
+    {
       "name": "India Today",
       "url": "https://www.indiatoday.in",
       "city": "Noida",
@@ -528,21 +543,6 @@
       "articles": 18,
       "tone_avg": 0.0073,
       "tone_delta": 0.2062
-    },
-    {
-      "name": "The Hill",
-      "url": "https://thehill.com",
-      "city": "Washington D.C.",
-      "country": "Estados Unidos",
-      "iso3": "USA",
-      "type": "privado",
-      "desc": "Medio especializado en el Congreso de EE.UU. (grupo Nexstar).",
-      "lat": 38.8977,
-      "lon": -77.01,
-      "rsf": 57,
-      "articles": 17,
-      "tone_avg": -0.0895,
-      "tone_delta": 0.1094
     },
     {
       "name": "The Jerusalem Post",
@@ -1148,15 +1148,15 @@
   "by_country": {
     "QAT": {
       "outlets": 1,
-      "articles": 5931
+      "articles": 5955
     },
     "GBR": {
       "outlets": 9,
-      "articles": 2065
+      "articles": 2072
     },
     "USA": {
       "outlets": 24,
-      "articles": 1265
+      "articles": 1270
     },
     "KOR": {
       "outlets": 4,
@@ -1172,7 +1172,7 @@
     },
     "JPN": {
       "outlets": 3,
-      "articles": 87
+      "articles": 88
     },
     "DEU": {
       "outlets": 1,
@@ -1230,11 +1230,11 @@
   "others": [
     {
       "source": "조선일보",
-      "articles": 395
+      "articles": 396
     },
     {
       "source": "Korea JoongAng Daily",
-      "articles": 213
+      "articles": 214
     },
     {
       "source": "upi.com",
@@ -1289,7 +1289,7 @@
       "articles": 25
     }
   ],
-  "others_total": 3646,
-  "matched_articles": 10620,
-  "total_articles": 14266
+  "others_total": 3652,
+  "matched_articles": 10657,
+  "total_articles": 14309
 }

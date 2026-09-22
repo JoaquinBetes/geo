@@ -2,13 +2,13 @@
   "id": "korea_peninsula",
   "name": "Corea del Norte–Corea del Sur",
   "description": "Cobertura mediática de la tensión en la península coreana",
-  "updated": "2026-09-22T16:57:55+00:00",
-  "total_articles": 14266,
+  "updated": "2026-09-22T21:19:34+00:00",
+  "total_articles": 14309,
   "overall_avg": -0.1989,
   "distribution": {
-    "pos": 3503,
-    "neu": 3475,
-    "neg": 7288
+    "pos": 3516,
+    "neu": 3479,
+    "neg": 7314
   },
   "sources": [
     "Al Jazeera",
@@ -28,8 +28,8 @@
     "Anadolu Ajansı",
     "The Guardian",
     "The Independent",
-    "UA.NEWS",
     "The Japan Times",
+    "UA.NEWS",
     "The Straits Times",
     "38 North",
     "CNA",
@@ -72,11 +72,11 @@
     "NDTV",
     "Fox News",
     "The New York Times",
+    "The Hill",
     "A News",
     "India Today",
     "UNITED24 Media",
     "en.yna.co.kr",
-    "The Hill",
     "동아일보",
     "nhk.or.jp",
     "Modern Diplomacy",
@@ -423,6 +423,7 @@
     "TechRadar",
     "newser.com",
     "internazionale.it",
+    "TWZ",
     "KSAT",
     "Newsday",
     "The Arkansas Democrat-Gazette",
@@ -675,7 +676,6 @@
     "tribune.com.pk",
     "WIRED",
     "lowyinstitute.org",
-    "TWZ",
     "en.yenisafak.com",
     "The Alabama News Wire",
     "eng.mizzima.com",
@@ -1095,7 +1095,10 @@
     "connectedtoindia.com",
     "Serbian News Media",
     "canadianinquirer.net",
-    "cbsnews.com"
+    "cbsnews.com",
+    "ZME Science",
+    "calcalistech.com",
+    "Space"
   ],
   "daily": [
     {
@@ -2132,28 +2135,28 @@
     },
     {
       "date": "2026-09-22",
-      "count": 195,
-      "avg": -0.2587,
-      "pos": 39,
-      "neu": 48,
-      "neg": 108
+      "count": 238,
+      "avg": -0.2511,
+      "pos": 52,
+      "neu": 52,
+      "neg": 134
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 5931,
+      "count": 5955,
       "avg": -0.2649
     },
     {
       "source": "BBC",
-      "count": 1802,
-      "avg": -0.2893
+      "count": 1808,
+      "avg": -0.289
     },
     {
       "source": "NPR",
-      "count": 538,
-      "avg": -0.2747
+      "count": 539,
+      "avg": -0.2753
     },
     {
       "source": "NK News",
@@ -2162,18 +2165,18 @@
     },
     {
       "source": "조선일보",
-      "count": 395,
-      "avg": -0.0468
+      "count": 396,
+      "avg": -0.0445
     },
     {
       "source": "Korea JoongAng Daily",
-      "count": 213,
-      "avg": -0.0951
+      "count": 214,
+      "avg": -0.0925
     },
     {
       "source": "Yonhap News Agency",
-      "count": 208,
-      "avg": -0.0829
+      "count": 210,
+      "avg": -0.0806
     },
     {
       "source": "The Korea Herald",
@@ -2222,18 +2225,18 @@
     },
     {
       "source": "The Independent",
-      "count": 49,
-      "avg": -0.3005
+      "count": 50,
+      "avg": -0.3092
+    },
+    {
+      "source": "The Japan Times",
+      "count": 48,
+      "avg": -0.0747
     },
     {
       "source": "UA.NEWS",
       "count": 48,
       "avg": 0.0661
-    },
-    {
-      "source": "The Japan Times",
-      "count": 47,
-      "avg": -0.0763
     },
     {
       "source": "The Straits Times",
@@ -2312,8 +2315,8 @@
     },
     {
       "source": "NBC News",
-      "count": 26,
-      "avg": -0.2117
+      "count": 27,
+      "avg": -0.2362
     },
     {
       "source": "ABC News - Breaking News, Latest News and Videos",
@@ -2446,6 +2449,11 @@
       "avg": -0.0547
     },
     {
+      "source": "The Hill",
+      "count": 18,
+      "avg": -0.0505
+    },
+    {
       "source": "A News",
       "count": 18,
       "avg": -0.1259
@@ -2464,11 +2472,6 @@
       "source": "en.yna.co.kr",
       "count": 18,
       "avg": 0.026
-    },
-    {
-      "source": "The Hill",
-      "count": 17,
-      "avg": -0.0895
     },
     {
       "source": "동아일보",
@@ -4201,6 +4204,11 @@
       "avg": -0.1229
     },
     {
+      "source": "TWZ",
+      "count": 2,
+      "avg": -0.4726
+    },
+    {
       "source": "KSAT",
       "count": 2,
       "avg": 0.3695
@@ -5459,11 +5467,6 @@
       "source": "lowyinstitute.org",
       "count": 1,
       "avg": 0.0
-    },
-    {
-      "source": "TWZ",
-      "count": 1,
-      "avg": -0.9451
     },
     {
       "source": "en.yenisafak.com",
@@ -7564,32 +7567,47 @@
       "source": "cbsnews.com",
       "count": 1,
       "avg": -0.7184
+    },
+    {
+      "source": "ZME Science",
+      "count": 1,
+      "avg": -0.7351
+    },
+    {
+      "source": "calcalistech.com",
+      "count": 1,
+      "avg": -0.7351
+    },
+    {
+      "source": "Space",
+      "count": 1,
+      "avg": -0.4137
     }
   ],
   "top_entities": [
     {
       "name": "North Korea",
       "type": "LOCATION",
-      "count": 4293,
-      "avg": -0.114
+      "count": 4302,
+      "avg": -0.1143
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 1605,
-      "avg": -0.1254
+      "count": 1614,
+      "avg": -0.1248
     },
     {
       "name": "Russia",
       "type": "LOCATION",
-      "count": 1385,
-      "avg": -0.2066
+      "count": 1387,
+      "avg": -0.2071
     },
     {
       "name": "South Korea",
       "type": "LOCATION",
-      "count": 1371,
-      "avg": -0.0981
+      "count": 1372,
+      "avg": -0.0976
     },
     {
       "name": "China",
@@ -7600,20 +7618,20 @@
     {
       "name": "Japan",
       "type": "LOCATION",
-      "count": 578,
-      "avg": -0.1928
+      "count": 579,
+      "avg": -0.1925
     },
     {
       "name": "Kim Jong-un",
       "type": "PERSON",
-      "count": 412,
-      "avg": -0.007
+      "count": 413,
+      "avg": -0.0091
     },
     {
       "name": "United States",
       "type": "LOCATION",
-      "count": 390,
-      "avg": -0.113
+      "count": 391,
+      "avg": -0.1143
     },
     {
       "name": "DMZ",
@@ -7648,6 +7666,379 @@
   ],
   "recent": [
     {
+      "title": "US signs ‘tremendous’ security deal with Denmark and Greenland",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/us-signs-tremendous-security-deal-with-denmark-and-greenland?traffic_source=rss",
+      "published": "2026-09-22T21:11:47+00:00",
+      "compound": 0.34,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Qatari Emir says country won’t ‘limit’ itself as Gulf ‘mediator’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/qatari-emir-says-country-wont-limit-itself-as-gulf?traffic_source=rss",
+      "published": "2026-09-22T21:09:23+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Macron: France won’t ‘yield an inch’ on Ukraine support",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/macron-france-wont-yield-an-inch-on-ukraine-support?traffic_source=rss",
+      "published": "2026-09-22T21:09:03+00:00",
+      "compound": 0.6597,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "How Ceuta, football and Israel are shaping Morocco's election",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c8r4v7n6py97o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-22T20:59:00+00:00",
+      "compound": 0.3818,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "President Lee Proposes Three Visions for Peace, Nuclear-Free Korea",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNFBPdHJJbldPcFFGN3BDUWZDM1hyelFJX2ZZMF9wUjczNVNhT0wtbWlHZTJLSVdadnV0T3NhNUg0ckhUekxuVHN1cHpfNVZfeFNfWTVWUEhNWTRhWG9Md0VxeGVKTlkyVzRaa1VyaEdnRE9WMUp3MmZjc3JYRlp3WmtDOEhJU0ZM?oc=5",
+      "published": "2026-09-22T20:33:41+00:00",
+      "compound": 0.8689,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Saudi Arabia’s King Salman slams targeting of Mecca by ‘terrorist’ Houthis",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/22/saudi-king-slams-heinous-targeting-of-mecca-by-terrorist-houthis?traffic_source=rss",
+      "published": "2026-09-22T20:27:45+00:00",
+      "compound": -0.7717,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Trump: US-Iran meeting at UN was ‘very good’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/trump-us-iran-meeting-at-un-was-very?traffic_source=rss",
+      "published": "2026-09-22T20:23:48+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "(LEAD) Lee vows efforts to help swiftly resume U.S.-N. Korea dialogue",
+      "source": "Yonhap News Agency",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA3MHh6b1B5NThWNG51cGVncnpPUVVWcm5DMWhpMEtLVnFHdHdVLUZndE5qUXNCcGxvazUzYXZuRzFXLXpmTnB0Vk1XX2hDV1NmamdWTTF0SWU1QQ?oc=5",
+      "published": "2026-09-22T20:21:48+00:00",
+      "compound": 0.8316,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Lee says Trump created ‘opportunity for change,’ calls for speedy resumption of North Korea-U.S. talks at UN",
+      "source": "Korea JoongAng Daily",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNYjFCLUNLRG45MzdKbjVKOGpzdmdlN0Iyd1NBLWkweHhtWXN4MWFYdzB3UjhpeUFjUTB5a2gyZzRSdmpscUlVNllMMjZQbkYwbmtyZ2NHaC0zUnRKZEplcjNfSENDX05OZ2RCOVdkSko3c1ZEVF85Tzh4RVJLSktlNHBUZ01XQkFKbGRZa21wZmw0cXBxeHFpZV9FVlBRaUVZM0dtZmxVbDhSNldFZHFXaU8weDdzYTFnN0tUWHEzZ0Itc0hyRE9XdjA3bUFfOUhubWkzZVhJRl8xd1RreG9NcXhlRGdJWDA?oc=5",
+      "published": "2026-09-22T20:19:52+00:00",
+      "compound": 0.4588,
+      "label": "positive",
+      "entities": [
+        "Donald Trump",
+        "North Korea"
+      ]
+    },
+    {
+      "title": "North Korea infects thousands of devices worldwide through fake job offers",
+      "source": "The Independent",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaTVkVTZRelQ0R2VMLXJ0MHZrSXN5X0RMWk5NYllSS1NSRENvNXdxdmNTaVJTZV9xOGVEai1JQlhfaDBWODd6ZnJSeF90NlhHUUw4SVZBRUtoU2NpRmliV3V2bmdaYkNnS3QzaDhTbHk1SmIzdVVCYWYyUEJGR0pucDBUWGVjUjNLTXlSQ1p0clM2R1pqODJQaC1R?oc=5",
+      "published": "2026-09-22T20:07:00+00:00",
+      "compound": -0.7351,
+      "label": "negative",
+      "entities": [
+        "North Korea"
+      ]
+    },
+    {
+      "title": "NYC Mayor Mamdani reaches record DoorDash settlement for underpaid workers",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/9/22/nyc-mayor-mamdani-reaches-record-doordash-settlement-for-underpaid-workers?traffic_source=rss",
+      "published": "2026-09-22T20:03:50+00:00",
+      "compound": 0.5574,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Brazil’s Lula: Gaza’s ‘pain and trauma’ will last generations",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/brazils-lula-gazas-pain-and-trauma-will-last-generations?traffic_source=rss",
+      "published": "2026-09-22T19:59:36+00:00",
+      "compound": -0.4404,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Djibouti minister appeals for aid for Yemeni refugees",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/djibouti-minister-appeals-for-aid-for-yemeni-refugees?traffic_source=rss",
+      "published": "2026-09-22T19:56:02+00:00",
+      "compound": 0.296,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Trump admin asks top US court to reverse pro-Palestinian scholar’s release",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/22/trump-admin-asks-top-us-court-to-reverse-pro-palestinian-scholars-release?traffic_source=rss",
+      "published": "2026-09-22T19:52:16+00:00",
+      "compound": -0.3818,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "North Korea’s Nuclear Tests May Have Reawakened Ancient Faults Causing More Than 1,400 Earthquakes Since 2017",
+      "source": "ZME Science",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQ1JQVURwM0gxUU13Si1uRmhWMFA5Nm00NWhTT09uMzJHZkhBU1B1SWtxZmt4ZlpFQTVoSEo4VmV6T0hUcnBseUp6MnlNR3ZnY21vM002MkJ6aEVBeXlTYjJoQ0ZiYjBlZzV3UHVGWFk3VjBVcXlCNFh1SHI0bXZ0YndEdndrSGhJZHV4X0cwNndNZFYzb0RaMTh4SmlhZ1NfdjBvM29tSGRhNjg4NzBEaE4zY3FFYWsyTjFIU1ZsSXhoQkZzNDdkQ29LQ3dpTzg5dks0UzFKX2hnZmlMVlZYdkhhVQ?oc=5",
+      "published": "2026-09-22T19:30:09+00:00",
+      "compound": -0.7351,
+      "label": "negative",
+      "entities": [
+        "North Korea"
+      ]
+    },
+    {
+      "title": "Qatar denounces Israeli aggression across the region",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/qatar-denounces-israeli-aggression-across-the-region?traffic_source=rss",
+      "published": "2026-09-22T19:29:03+00:00",
+      "compound": -0.743,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "What led to the 1994 Tutsi Genocide in Rwanda",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/what-led-to-the-1994-tutsi-genocide-in-rwanda?traffic_source=rss",
+      "published": "2026-09-22T19:17:44+00:00",
+      "compound": -0.8126,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Erdogan accuses Israel of ‘genocidal mindset’ at UNGA",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/erdogan-accuses-israel-of-genocidal-mindset-at-unga?traffic_source=rss",
+      "published": "2026-09-22T19:14:41+00:00",
+      "compound": -0.5574,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Ukraine anger as EU removes Russian oligarchs from sanctions list",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c6dj4k98107do?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-22T19:06:06+00:00",
+      "compound": -0.7783,
+      "label": "negative",
+      "entities": [
+        "Russia"
+      ]
+    },
+    {
+      "title": "Is Ethiopia heading towards renewed civil war?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/9/22/is-ethiopia-heading-towards-renewed-civil-war?traffic_source=rss",
+      "published": "2026-09-22T18:51:53+00:00",
+      "compound": -0.5994,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "North Korea showcases attack drones resembling Israel’s Harop",
+      "source": "calcalistech.com",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE10SWRrX19Va0dKMTdpTXdVUVdIaksxUl95ZE1ZMUYzV1pzYy1yenZRakZaNlNLUUx6WTA1czJzdUVXUHY2bWN4TTd0SGJfQWJlaWJ6OHE5RXlSRG1uc2NhWHhxa1RUYkha?oc=5",
+      "published": "2026-09-22T18:50:00+00:00",
+      "compound": -0.7351,
+      "label": "negative",
+      "entities": [
+        "North Korea"
+      ]
+    },
+    {
+      "title": "UN Goodwill Ambassador: Millions of refugee children missing school",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/un-goodwill-ambassador-millions-of-refugee-children-missing-school?traffic_source=rss",
+      "published": "2026-09-22T18:49:36+00:00",
+      "compound": -0.296,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Qatar’s emir urges diplomacy as Gulf at ‘one of the most dangerous phases’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/22/qatars-emir-urges-diplomacy-as-gulf-at-one-of-the-most-dangerous?traffic_source=rss",
+      "published": "2026-09-22T18:48:37+00:00",
+      "compound": -0.8479,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "US signs ‘tremendous’ Arctic security deal with Denmark, Greenland",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/22/us-signs-tremendous-arctic-security-deal-with-denmark-greenland?traffic_source=rss",
+      "published": "2026-09-22T18:46:32+00:00",
+      "compound": 0.34,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "(3rd LD) Trump makes no mention of N. Korea in U.N. address while touching on Iran, Cuba, other issues",
+      "source": "Yonhap News Agency",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBzYmhPU2Mtc3hxNEliZjIwcWdIZE44RHMwdWJ2eXJVWnFGTXVzc2JoRVBYYlIwRHNvRG0yb1F2MzI4M015U2FjTjFQQVNqdFo2WnI0NDNOLXN0UQ?oc=5",
+      "published": "2026-09-22T18:46:22+00:00",
+      "compound": -0.5267,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "North Korea Tests New Hwasong-11Ma Hypersonic Missile",
+      "source": "TWZ",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObEY4aTZUOWpUYjd0dDNPMEZXWHpMRHJtTWJxWHFKREYxb2lXZE5kYzFvc1BqSmhhbC1hc1AxNk5yUGY1TjhiN2RkbndSYzBLSldURHZvWnZPWHllak40N2k1WW1kVXZfc1RFQVVUVG5mOGpkSUFqMVVDWWlrS1J6MlZNVzc?oc=5",
+      "published": "2026-09-22T18:44:14+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "North Korea"
+      ]
+    },
+    {
+      "title": "US to build two military bases in Greenland under new deal with Denmark",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c9dr74g32g8go?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-22T18:43:29+00:00",
+      "compound": 0.1027,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Qatar urges diplomacy, rejects Strait of Hormuz ‘bargaining’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/qatar-urges-diplomacy-rejects-strait-of-hormuz?traffic_source=rss",
+      "published": "2026-09-22T18:27:01+00:00",
+      "compound": -0.4939,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Hypersonic weapon test? North Korea says it just launched a new 'ultra-modern' missile",
+      "source": "Space",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQk41eGF3YTZhSEFmLXNkWVh1cUlVcU5wUkEyVTViYXFwMlRMa2pBUXpLYnNXWHFhTVp5M1BFS1dtZDFyOHBpbEloTkRyMDJVdndWbFFkZ3ZrQkpQZGpONFVpUXBMVFkwYmE4dENzOUZvVU1rcHlNRkZWWFl0aGFwSllrakJDWEttSTRhenNJVFdRc21sTWJId2ExeDBnZFpDMWl5VnRvZERhdGxLaG5ESlpXN2NFTVBWRjBiNS11b05UV2VUYjVfVFUyNnJIU2lUMHU3QWtxSjg1WGM?oc=5",
+      "published": "2026-09-22T18:19:19+00:00",
+      "compound": -0.4137,
+      "label": "negative",
+      "entities": [
+        "North Korea"
+      ]
+    },
+    {
+      "title": "US, Iran hold ‘very good’ talks, Trump says at UN meeting",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/22/trump-says-us-officials-met-with-iranian-delegation-for-three-hours-2?traffic_source=rss",
+      "published": "2026-09-22T18:14:12+00:00",
+      "compound": -0.8147,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Indian MMA fighter refuses handshake after Asian Games ‘defeat’",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/indian-mma-fighter-refuses-handshake-after-asian-games?traffic_source=rss",
+      "published": "2026-09-22T18:01:49+00:00",
+      "compound": 0.5719,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Lula warns against foreign interference in Brazil election at UN",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/22/lula-warns-against-foreign-interference-defends-brazils-sovereignty-at-un?traffic_source=rss",
+      "published": "2026-09-22T17:51:07+00:00",
+      "compound": -0.1027,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Sudan’s historical famine echoes through latest hunger crisis",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/22/sudans-historical-famine-echoes-through-latest-hunger-crisis?traffic_source=rss",
+      "published": "2026-09-22T17:45:55+00:00",
+      "compound": -0.8402,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "ECHR hears how 10 children went missing after Russia annexed Crimea",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/22/echr-hears-how-10-children-went-missing-after-russia-annexed-crimea?traffic_source=rss",
+      "published": "2026-09-22T17:35:01+00:00",
+      "compound": -0.296,
+      "label": "negative",
+      "entities": [
+        "Russia"
+      ]
+    },
+    {
+      "title": "Turkiye school shooting leaves 11 pupils wounded",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/turkiye-school-shooting-leaves-11-pupils-wounded?traffic_source=rss",
+      "published": "2026-09-22T17:02:36+00:00",
+      "compound": -0.34,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Cyclist who dressed as man to avoid Taliban wins silver medal",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/sport/cycling/articles/c63eqyvdndwdo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-22T16:57:55+00:00",
+      "compound": 0.8834,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Erdogan slams Israel’s ‘genocidal mindset’ in blistering UN address",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/22/erdogan-slams-israels-genocidal-mindset-in-blistering-un-address?traffic_source=rss",
+      "published": "2026-09-22T16:55:39+00:00",
+      "compound": -0.7003,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Top South African policeman charged with sexual offences",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cwjdvgx77n0zo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-22T16:54:41+00:00",
+      "compound": -0.8481,
+      "label": "negative",
+      "entities": []
+    },
+    {
       "title": "North Korea Struggles With No Medals as 34 Nations Secure Podium",
       "source": "chosun.com",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQTdkNWJYdWtSdEQwSXJLeHVrOHpsT0tCZFZRZWxSQXgxOU16WGhwY0hVMnZqQnBlb2pUMm1KV1ZPOTVwMjFZdVM5OXZ1SDNOcUFLWldwT3FMQ2dBTXZhR01HUEN6Z1pKcnF5dFc5am95MDgyRUU2UEtIT1pWLTlNWjZmV010Zw?oc=5",
@@ -7668,6 +8059,15 @@
       "entities": []
     },
     {
+      "title": "'I have never felt heat like that' - a survivor on watching 33 cellmates die in Nigeria",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cqm27jen9r23o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-22T16:42:23+00:00",
+      "compound": -0.9261,
+      "label": "negative",
+      "entities": []
+    },
+    {
       "title": "‘War crime’: Jordan’s king slams Israeli West Bank expansion",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/war-crime-jordans-king-slams-israeli-west-bank-expansion?traffic_source=rss",
@@ -7684,6 +8084,19 @@
       "compound": -0.926,
       "label": "negative",
       "entities": []
+    },
+    {
+      "title": "South Korean president says Trump should ease sanctions on North Korea",
+      "source": "The Hill",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONkM2UzRsRlpFVS1NdjhScWlCdmRHVkE5WUh0N3hVUG53Z1V6Q3RaelhhUUw2Q1Buak1HU2NKQkxwclA2Qm5JdjYwU1oyNnJjTDhlcXNYZ3pxTzdsTzRzNW45VXpaenVGdEV4M1A2RTZibmpiZWU5Vkc4RHB3QTRrTWdIcVdreGxybm8wcEVR0gGTAUFVX3lxTFBTVWdHS3pmbXl3NzlJb3ZLVFU0V2E2RkYycWNjR0lLS2pEX3dwN2QtX0pCUHhzc2hLU0RQS1JBRkVieXA1LUVpbFNNTVVRYmlROXdlVFRsa1NhNkNmVnJiemZDeDVkUDhpTndkSW1DcmpwaVhtNDdHUU53WVJ4VVdkVDNRamZ6QTFBeTkzLUlINEFQcw?oc=5",
+      "published": "2026-09-22T16:29:00+00:00",
+      "compound": 0.6124,
+      "label": "positive",
+      "entities": [
+        "Donald Trump",
+        "North Korea",
+        "South Korea"
+      ]
     },
     {
       "title": "North Korea touts new weapons system described as hypersonic",
@@ -7849,397 +8262,6 @@
       "url": "https://www.aljazeera.com/features/2026/9/22/whats-behind-french-protests-against-a-new-police-bill?traffic_source=rss",
       "published": "2026-09-22T15:01:19+00:00",
       "compound": -0.8625,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Call of Duty's Activision to make next Halo game as Xbox cuts more jobs",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cvj64gz74ky4o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-22T14:51:39+00:00",
-      "compound": -0.5994,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Why are the Houthis fighting for Yemen’s Kahboub Mountains?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/22/why-are-the-houthis-fighting-for-yemens-kahboub-mountains?traffic_source=rss",
-      "published": "2026-09-22T14:47:25+00:00",
-      "compound": 0.0516,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "UN Chief condemns Gaza destruction, West Bank settlements",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/un-chief-condemns-gaza-destruction-west-bank-settlements?traffic_source=rss",
-      "published": "2026-09-22T14:37:24+00:00",
-      "compound": -0.936,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Where is the US opening new military bases in Greenland?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/22/where-is-the-us-opening-new-military-bases-in?traffic_source=rss",
-      "published": "2026-09-22T14:31:50+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Jerusalem Daily: Israel besieges Palestinian town",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/jerusalem-daily-israel-besieges-palestinian-town?traffic_source=rss",
-      "published": "2026-09-22T14:30:51+00:00",
-      "compound": 0.4404,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Ex-Rwandan official appears at UK trial over 1994 genocide",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/22/2425?traffic_source=rss",
-      "published": "2026-09-22T14:28:54+00:00",
-      "compound": -0.6249,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Collapse at factory-run coal mine in North Hamgyong province injures worker",
-      "source": "데일리NK",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdDhORzRHblI0elFNMUxWNV84Uno5UkNNX21LQlpWdmRLNVFvazlmNThUSnc0MnFjQWVxYUk3Qms3b0RXa3VCdUNaZHdvakxEcnA0ODF4d1N0RmdPSHRON1cwT3BBUE15LWs0aXJfUmRCZS00b3d1aVFpOEs1S2drRUdlMGM?oc=5",
-      "published": "2026-09-22T14:26:00+00:00",
-      "compound": -0.7506,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Neutral venues and no 'away' fans - how Israel v Republic of Ireland became so contentious",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckz7z5w7ey2jo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-22T14:23:39+00:00",
-      "compound": -0.7761,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Veteran BBC Africa correspondent Mark Doyle dies aged 67",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cq986214den3o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-22T14:16:42+00:00",
-      "compound": 0.3818,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Sri Lanka court convicts 15 men over deadly Easter Sunday bombings",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cqy7z275yx65o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-22T14:03:20+00:00",
-      "compound": -0.8126,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Lindsay Clancy's lawyer asks judge to investigate juror and check his phone",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cm4gvyw80dp2o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-22T13:58:42+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Colombia eases gun restrictions despite fears of more violence",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/colombia-eases-gun-restrictions-despite-fears-of-more-violence?traffic_source=rss",
-      "published": "2026-09-22T13:45:31+00:00",
-      "compound": -0.921,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "'North Korea in the Middle East': Marco Rubio warns of the possibility of nuclear Iran",
-      "source": "The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YUnBUTWRlUklZaXYxbnJ0U1N4X2dMQnIyNm8tc1ZQTE04ZEVxV0xxS2JIUmlPd1lHWER3dE9Ddmc0OGlYaDFyR1JXRE1ZU3hWajl6SUJld0tXRkF5V2pyVkYxcXBFWlBucVE?oc=5",
-      "published": "2026-09-22T13:41:57+00:00",
-      "compound": -0.2023,
-      "label": "negative",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "Sri Lanka court convicts 15 over deadly 2019 Easter bombings",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/09/22/g-s1-144514/sri-lanka-court-convicts-15-over-deadly-2019-easter-bombings",
-      "published": "2026-09-22T13:30:01+00:00",
-      "compound": -0.8074,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Iran delegation to present narrative of resilience, diplomacy at UNGA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/22/iran-delegation-to-present-narrative-of-resilience-diplomacy-at-unga?traffic_source=rss",
-      "published": "2026-09-22T13:29:53+00:00",
-      "compound": -0.2732,
-      "label": "negative",
-      "entities": [
-        "United States"
-      ]
-    },
-    {
-      "title": "Hundreds flee homes in Far North Cameroon after armed group raid kills 15",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/22/hundreds-flee-homes-in-far-north-cameroon-after-armed-group-raid-kills-15?traffic_source=rss",
-      "published": "2026-09-22T13:28:07+00:00",
-      "compound": -0.8074,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "North Korea's Kim Jong Un lauds apparent hypersonic missile test, calls it \"incurable headache\" for foes",
-      "source": "cbsnews.com",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQT2c5NmdYU0hMLS1WMFk4eEQ3Y3ExN2NqMEYxNHhWWmhwNXppZVJqaTJaYWl4by1TZzJTNXBUbU9LNmJLYUw2TmNMNHh3ZW5WYU5aN2lHdEVyOHA4bXU4T0JTZHppdVJlbEdVQXg1RXI5YkpVM0hQdFJoZFUwdVRtUlFxb1l6b0RWLVAwbGUwTmV1Q0h5ZUE?oc=5",
-      "published": "2026-09-22T13:28:05+00:00",
-      "compound": -0.7184,
-      "label": "negative",
-      "entities": [
-        "Kim Jong-un",
-        "North Korea"
-      ]
-    },
-    {
-      "title": "FIFA President Infantino’s letter a ploy for re-election, says German FA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/9/22/fifa-president-infantinos-letter-a-ploy-for-re-election-says-german-fa?traffic_source=rss",
-      "published": "2026-09-22T13:11:01+00:00",
-      "compound": -0.4404,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "‘Disgraceful’: Did India bully umpires to win Japan T20 cricket match?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/9/22/disgraceful-did-india-bully-umpires-to-win-japan-t20-cricket-match?traffic_source=rss",
-      "published": "2026-09-22T13:05:30+00:00",
-      "compound": -0.6808,
-      "label": "negative",
-      "entities": [
-        "Japan"
-      ]
-    },
-    {
-      "title": "UN warns of rising Yemen displacement as thousands flee to Djibouti",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/22/un-warns-of-rising-yemen-displacement-as-thousands-flee-to-djibouti?traffic_source=rss",
-      "published": "2026-09-22T12:58:29+00:00",
-      "compound": -0.4404,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Why is the Bab al-Mandab Strait so important?",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/videos/c6kgw4xklvx3o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-22T12:57:59+00:00",
-      "compound": 0.3327,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "White House launches ‘Trump TV’ after press bans",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/white-house-launches-trump-tv-after-press-bans?traffic_source=rss",
-      "published": "2026-09-22T12:57:24+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Donald Trump",
-        "United States"
-      ]
-    },
-    {
-      "title": "Developing El Niño becomes strongest on record weeks before expected peak",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/weather/articles/cmvgy4nv9d62o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-22T12:54:14+00:00",
-      "compound": 0.7003,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Iran president heads to UNGA, vows to highlight US ‘oppression’",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/iran-president-heads-to-unga-vows-to-highlight-us-oppression?traffic_source=rss",
-      "published": "2026-09-22T12:51:53+00:00",
-      "compound": 0.5859,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Sri Lanka court convicts 15 over deadly Easter Sunday bombings",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/22/sri-lanka-court-convicts-14-over-deadly-easter-bombings?traffic_source=rss",
-      "published": "2026-09-22T12:48:42+00:00",
-      "compound": -0.6597,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "What is the White House pool and why is it in a row with Trump?",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c8dx5dy5rzz2o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-22T12:26:31+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Donald Trump",
-        "United States"
-      ]
-    },
-    {
-      "title": "La Liga President Tebas slams Real Madrid refereeing ‘conspiracy’ claims",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/9/22/la-liga-president-tebas-slams-real-madrid-refereeing-conspiracy-claims?traffic_source=rss",
-      "published": "2026-09-22T12:11:18+00:00",
-      "compound": -0.7003,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Two North Koreans at Asian Games reportedly wish to seek asylum in Japan",
-      "source": "Korea JoongAng Daily",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWkNYeFRFSHo0ekh6aTFhaUtkUEx1dTlIbmJCTlZUMldyLUFPdmpOZ0Q1bmtlaWZsQ0NaVkNDblZtTjh1amNNdzI5NWltX01pWWN3TjktRVFMYXBuTlVmSXluN25LTnFuNW50VFpWa1B1Ty00WlZ0ZWdZVjVQRHM1b0Y0OXdxU09UZmliUUc4d1ZraGQxa0ZTQnRGYVItQ0VxUzBzZDFLaEsxanJQYmlyNnQxTFN0MEJxY3gwNTNnOA?oc=5",
-      "published": "2026-09-22T11:43:45+00:00",
-      "compound": 0.6597,
-      "label": "positive",
-      "entities": [
-        "Japan"
-      ]
-    },
-    {
-      "title": "New defense minister urges N. Korea to halt border-hardening following DMZ explosion",
-      "source": "The Korea Herald",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1rZ25TakRxclBNQ3o5UzZHT2o4SjRJSk9zYnRkTUJsWG5DTGtUeERqbmpwcmFVc3VOWnAwX3ktRjhNdkpieFhYSXYwZENPdHBJd1h6dTl2QQ?oc=5",
-      "published": "2026-09-22T11:27:18+00:00",
-      "compound": 0.25,
-      "label": "positive",
-      "entities": [
-        "DMZ"
-      ]
-    },
-    {
-      "title": "Doctor in court to face Rwanda genocide charges in UK",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c6790y1gj247o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-22T11:25:19+00:00",
-      "compound": -0.8126,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Palestine weekly: Violent disruptions from olive groves to Al-Aqsa Mosque",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/2026/9/22/palestine-weekly-violent-disruptions-from-olive-groves-to-al-aqsa-mosque?traffic_source=rss",
-      "published": "2026-09-22T11:22:51+00:00",
-      "compound": -0.743,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Why the world should care about the far right’s rise in Germany",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/22/why-the-world-should-care-about-the-far-rights-rise-in-germany?traffic_source=rss",
-      "published": "2026-09-22T11:20:38+00:00",
-      "compound": 0.7845,
-      "label": "positive",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "Can the US ban Iranian airlines worldwide – and what would it mean?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/2026/9/22/can-the-us-ban-iranian-airlines-worldwide-and-what-would-it-mean?traffic_source=rss",
-      "published": "2026-09-22T11:19:08+00:00",
-      "compound": -0.8658,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "South Korea’s Lee urges sanctions relief in exchange for North Korean nuclear freeze",
-      "source": "sana.sy",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9KYVRmaWN0dy1NUElXbTUtYTJIVUlXb0Q3THk0U09OR0VVTTNuRFdBeHBIRGNPWXhtYUlRLTF2VnYxTW40SFowSTExYXkyVGIzWjNN?oc=5",
-      "published": "2026-09-22T11:07:05+00:00",
-      "compound": 0.765,
-      "label": "positive",
-      "entities": [
-        "North Korea",
-        "South Korea"
-      ]
-    },
-    {
-      "title": "S. Korean Leader Urges US to Ease N. Korea Sanctions",
-      "source": "newser.com",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSWZ5M1dRREl2aG5DMFJNRjhSZVFWcVB0RmVHSDBBSkhMTnNVTXpFQ3Y2aHJIRkdKNldnMDBZTG5uODRBUVpOaV9jeDdtZndGM0tMMndQQUNoLV9yZm03SWdIeVRMSEZzQjIwc2JPWnRsMFloZGV1SnFSZjBaMEh5QktLRU8wTFhSWTFXUzdRMjl4STZJa2c?oc=5",
-      "published": "2026-09-22T11:05:00+00:00",
-      "compound": 0.6124,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "CNN, MS NOW and Politico sue Trump. And, Paramount settles in massive merger lawsuit",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/09/22/g-s1-144512/up-first-newsletter-press-lawsuit-cnn-msnow-politico-unga-trump-speech-paramount-deal",
-      "published": "2026-09-22T11:01:01+00:00",
-      "compound": -0.5106,
-      "label": "negative",
-      "entities": [
-        "Donald Trump",
-        "United States"
-      ]
-    },
-    {
-      "title": "Houthis try to push deeper into western Yemen, upending life, witnesses tell NPR",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/09/22/g-s1-144261/yemen-houthis-saudi-iran-humanitarian-crisis",
-      "published": "2026-09-22T10:59:37+00:00",
-      "compound": -0.4588,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "'Incurable Headache': North Korea's Kim Unveils New Missile, Spooks West | Firstpost Live | 4K",
-      "source": "Firstpost",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxORTFnT05hRENpaHZQQmxEQkVYdE54MjNEQnZOSTA3dkw2azdCNnEtUTYwMVVQZFlLX1ZDd1EwTF9RRTJpRkczazBZbnFZMGNrY3VzRmxpUHdzVjVhcVhjc1NfS0htLTEyR0dBenNtN05uc0FnVGVfY1E5Njl3NU91Y0NEOFNvZDZUeHNBQnhSWVlPWGlEVkF5elBwV2Z5akhaV3N5dDNBR29IZVRNSWlZUXNBOGRtTmM4Q2cxMVdkcHZXNFhqN1V4Mkh2RU1PVExfempzR2VyRVZOMTJTa2Zz0gHkAUFVX3lxTE4zQTBhaEZ5M1lBcV9pNTFZV0M5d1ZtMFhtcXNpQXpSVDhEaXl0VF92cmtteWp4N0NfREZOXzhJUWxhZi00aGxKZG83SUg0TnR6clRBdmdjNnNMYUJQM3o2RXBYNl9fT0VCRENrcnhFQVpjUHNqR0VRZU40bUdYUkY4aTZKWDlhMXBxVUdZeUVhZTFpb3pVNlRBVzN6SUdHSHpXT3E4d1paZDdxSkdNVWNzNmFTR0RNbXFiV3ZRTVlobjVsbTVlV0tLSHRicTJoN09DU1dYRFJkYlNVZzltZ21zZ180Xw?oc=5",
-      "published": "2026-09-22T10:53:33+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "North Korea"
-      ]
-    },
-    {
-      "title": "Lithuania ready to 'fight back' but has evacuation plans in face of Russia threats, PM tells BBC",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/ck5yw8npxzrlo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-22T10:45:47+00:00",
-      "compound": -0.93,
-      "label": "negative",
-      "entities": [
-        "Russia"
-      ]
-    },
-    {
-      "title": "Eleven injured in shooting outside Turkish school",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c6y0z4gv0le4o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-22T10:42:47+00:00",
-      "compound": -0.7506,
       "label": "negative",
       "entities": []
     }

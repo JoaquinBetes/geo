@@ -1,6 +1,6 @@
 {
   "id": "china_taiwan",
-  "updated": "2026-09-23T16:59:04+00:00",
+  "updated": "2026-09-23T21:30:24+00:00",
   "overall_tone": -0.1525,
   "rsf_as_of": "2025 (aprox.)",
   "outlets": [
@@ -15,9 +15,9 @@
       "lat": 25.2867,
       "lon": 51.5333,
       "rsf": 84,
-      "articles": 6290,
-      "tone_avg": -0.2617,
-      "tone_delta": -0.1092
+      "articles": 6315,
+      "tone_avg": -0.2623,
+      "tone_delta": -0.1098
     },
     {
       "name": "Taipei Times",
@@ -30,9 +30,9 @@
       "lat": 25.033,
       "lon": 121.5654,
       "rsf": 24,
-      "articles": 5103,
-      "tone_avg": -0.0121,
-      "tone_delta": 0.1404
+      "articles": 5115,
+      "tone_avg": -0.0114,
+      "tone_delta": 0.1411
     },
     {
       "name": "BBC",
@@ -45,9 +45,9 @@
       "lat": 51.5188,
       "lon": -0.144,
       "rsf": 20,
-      "articles": 1910,
-      "tone_avg": -0.2844,
-      "tone_delta": -0.1319
+      "articles": 1912,
+      "tone_avg": -0.2843,
+      "tone_delta": -0.1318
     },
     {
       "name": "NPR",
@@ -60,9 +60,9 @@
       "lat": 38.899,
       "lon": -77.008,
       "rsf": 57,
-      "articles": 584,
-      "tone_avg": -0.269,
-      "tone_delta": -0.1165
+      "articles": 587,
+      "tone_avg": -0.2691,
+      "tone_delta": -0.1166
     },
     {
       "name": "TIME",
@@ -105,9 +105,9 @@
       "lat": 22.3193,
       "lon": 114.1694,
       "rsf": 135,
-      "articles": 126,
-      "tone_avg": -0.1105,
-      "tone_delta": 0.042
+      "articles": 127,
+      "tone_avg": -0.1137,
+      "tone_delta": 0.0388
     },
     {
       "name": "Reuters",
@@ -285,9 +285,9 @@
       "lat": 39.9042,
       "lon": 116.4074,
       "rsf": 178,
-      "articles": 28,
-      "tone_avg": 0.0404,
-      "tone_delta": 0.1929
+      "articles": 29,
+      "tone_avg": 0.0617,
+      "tone_delta": 0.2142
     },
     {
       "name": "Firstpost",
@@ -350,6 +350,21 @@
       "tone_delta": -0.0159
     },
     {
+      "name": "WION",
+      "url": "https://www.wionews.com",
+      "city": "Nueva Delhi",
+      "country": "India",
+      "iso3": "IND",
+      "type": "privado",
+      "desc": "Canal internacional del grupo Zee; mirada india del mundo.",
+      "lat": 28.55,
+      "lon": 77.25,
+      "rsf": 151,
+      "articles": 18,
+      "tone_avg": -0.1658,
+      "tone_delta": -0.0133
+    },
+    {
       "name": "CNN",
       "url": "https://www.cnn.com",
       "city": "Atlanta",
@@ -363,21 +378,6 @@
       "articles": 17,
       "tone_avg": -0.2346,
       "tone_delta": -0.0821
-    },
-    {
-      "name": "WION",
-      "url": "https://www.wionews.com",
-      "city": "Nueva Delhi",
-      "country": "India",
-      "iso3": "IND",
-      "type": "privado",
-      "desc": "Canal internacional del grupo Zee; mirada india del mundo.",
-      "lat": 28.55,
-      "lon": 77.25,
-      "rsf": 151,
-      "articles": 17,
-      "tone_avg": -0.1755,
-      "tone_delta": -0.023
     },
     {
       "name": "India Today",
@@ -605,6 +605,21 @@
       "tone_delta": -0.0209
     },
     {
+      "name": "The Hill",
+      "url": "https://thehill.com",
+      "city": "Washington D.C.",
+      "country": "Estados Unidos",
+      "iso3": "USA",
+      "type": "privado",
+      "desc": "Medio especializado en el Congreso de EE.UU. (grupo Nexstar).",
+      "lat": 38.8977,
+      "lon": -77.01,
+      "rsf": 57,
+      "articles": 7,
+      "tone_avg": 0.0659,
+      "tone_delta": 0.2184
+    },
+    {
       "name": "The Economist",
       "url": "https://www.economist.com",
       "city": "Londres",
@@ -633,21 +648,6 @@
       "articles": 7,
       "tone_avg": -0.2252,
       "tone_delta": -0.0727
-    },
-    {
-      "name": "The Hill",
-      "url": "https://thehill.com",
-      "city": "Washington D.C.",
-      "country": "Estados Unidos",
-      "iso3": "USA",
-      "type": "privado",
-      "desc": "Medio especializado en el Congreso de EE.UU. (grupo Nexstar).",
-      "lat": 38.8977,
-      "lon": -77.01,
-      "rsf": 57,
-      "articles": 6,
-      "tone_avg": 0.1105,
-      "tone_delta": 0.263
     },
     {
       "name": "Anadolu Agency",
@@ -1008,32 +1008,47 @@
       "articles": 1,
       "tone_avg": -0.8625,
       "tone_delta": -0.71
+    },
+    {
+      "name": "Atlantic Council",
+      "url": "https://www.atlanticcouncil.org",
+      "city": "Washington D.C.",
+      "country": "Estados Unidos",
+      "iso3": "USA",
+      "type": "think tank",
+      "desc": "Think tank atlantista financiado por gobiernos occidentales y corporaciones; posición pro-OTAN explícita.",
+      "lat": 38.9055,
+      "lon": -77.039,
+      "rsf": 57,
+      "articles": 1,
+      "tone_avg": 0.4939,
+      "tone_delta": 0.6464
     }
   ],
   "by_country": {
     "QAT": {
       "outlets": 1,
-      "articles": 6290
+      "articles": 6315
     },
     "TWN": {
       "outlets": 2,
-      "articles": 5418
+      "articles": 5430
     },
     "GBR": {
       "outlets": 8,
-      "articles": 2128
+      "articles": 2130
     },
     "USA": {
-      "outlets": 21,
-      "articles": 1264
+      "outlets": 22,
+      "articles": 1269
     },
     "HKG": {
       "outlets": 1,
-      "articles": 126
+      "articles": 127
     },
     "CHN": {
       "outlets": 3,
-      "articles": 172
+      "articles": 173
     },
     "JPN": {
       "outlets": 3,
@@ -1041,7 +1056,7 @@
     },
     "IND": {
       "outlets": 8,
-      "articles": 140
+      "articles": 141
     },
     "DEU": {
       "outlets": 1,
@@ -1110,11 +1125,11 @@
       "articles": 35
     },
     {
-      "source": "Devdiscourse",
-      "articles": 32
+      "source": "UA.NEWS",
+      "articles": 33
     },
     {
-      "source": "UA.NEWS",
+      "source": "Devdiscourse",
       "articles": 32
     },
     {
@@ -1127,7 +1142,11 @@
     },
     {
       "source": "조선일보",
-      "articles": 26
+      "articles": 27
+    },
+    {
+      "source": "RealClearDefense",
+      "articles": 27
     },
     {
       "source": "Internazionale",
@@ -1135,10 +1154,6 @@
     },
     {
       "source": "The China-Global South Project",
-      "articles": 26
-    },
-    {
-      "source": "RealClearDefense",
       "articles": 26
     },
     {
@@ -1150,7 +1165,7 @@
       "articles": 24
     }
   ],
-  "others_total": 2715,
-  "matched_articles": 15733,
-  "total_articles": 18448
+  "others_total": 2727,
+  "matched_articles": 15780,
+  "total_articles": 18507
 }

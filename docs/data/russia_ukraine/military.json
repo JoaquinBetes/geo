@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-09-23T21:30:10+00:00",
+  "updated": "2026-09-24T04:51:01+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-09-23"
+    "to": "2026-09-24"
   },
   "kpis": {
-    "events_total": 827,
-    "events_unlocated": 2360,
-    "events_7d": 55,
-    "events_prev_7d": 43,
+    "events_total": 829,
+    "events_unlocated": 2363,
+    "events_7d": 56,
+    "events_prev_7d": 39,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -966,10 +966,19 @@
     },
     {
       "date": "2026-09-23",
-      "total": 5,
-      "strike": 4,
+      "total": 6,
+      "strike": 5,
       "ground": 0,
       "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-24",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -9244,20 +9253,40 @@
       "title": "Footage shows people fleeing as drone strikes business centre in Kyiv – video",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/video/2026/sep/23/drone-strike-business-centre-kyiv-ukraine-footage"
+    },
+    {
+      "date": "2026-09-23",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war latest: Russian drone attacks on Kyiv kill 2, injure over 40 amid day of repeated strikes",
+      "source": "kyivindependent.com",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPR2dtMkVJRnVvUTRQdEs3WUhTT1luSEEtNEZKamdxZWwzZEZvUFBWeS1tRVd4V0Z0RVliYUxkWjJXaDNsbGotSGR3NjlJcVh1d3AyZkcxazdOLWFLSTZqaGtkWjdpREZfdUV6cXdGWV9lcFZTalhjOXpCOEd1Vnc0Y2d0el9LZTRTY3lyb0twVTJPbnlOX3NBSTA3R2NlZjlrSVlubFZlcERuQkNWZTZQanBkZ2RVbDZHcnE1SEsxVHRxakY0Zmww?oc=5"
+    },
+    {
+      "date": "2026-09-24",
+      "type": "strike",
+      "place": "Luhansk",
+      "lat": 48.574,
+      "lon": 39.3078,
+      "title": "The long-range drone war: Ukraine and Russia scramble for supremacy in the skies",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/sep/24/ukraine-russia-war-long-range-air-war-arms-race"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 160
+      "count": 153
     },
     {
       "place": "Moscow",
-      "count": 57
+      "count": 53
     },
     {
       "place": "Donetsk",
-      "count": 10
+      "count": 9
     },
     {
       "place": "Zaporizhzhia",
@@ -9268,15 +9297,11 @@
       "count": 5
     },
     {
-      "place": "Chernihiv",
-      "count": 2
+      "place": "Luhansk",
+      "count": 3
     },
     {
       "place": "Rostov-on-Don",
-      "count": 2
-    },
-    {
-      "place": "Luhansk",
       "count": 2
     },
     {
@@ -9285,6 +9310,10 @@
     },
     {
       "place": "Belgorod",
+      "count": 2
+    },
+    {
+      "place": "Dnipro",
       "count": 2
     }
   ],

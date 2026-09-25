@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-09-24T21:31:05+00:00",
+  "updated": "2026-09-25T04:57:37+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-09-24"
+    "to": "2026-09-25"
   },
   "kpis": {
-    "events_total": 831,
-    "events_unlocated": 2385,
-    "events_7d": 58,
-    "events_prev_7d": 39,
+    "events_total": 832,
+    "events_unlocated": 2389,
+    "events_7d": 49,
+    "events_prev_7d": 45,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -978,6 +978,15 @@
       "total": 3,
       "strike": 2,
       "ground": 1,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-25",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -9293,20 +9302,30 @@
       "title": "Ukrainian Drones Target Two Russian Oil Depots in Rostov and Krasnodar",
       "source": "UNITED24 Media",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRjAyclluX2hpcWNIMkhnenVqSmRGZklBQzU0YVV1VTdKU3pvLVAwR21YX25zWHlvbnFlRkJRemRnM1F1UzJZR3dkeVZDSXYxa29jVk84Ni1Vdm1uZElMeWZlaFRPS0lxbVcwNk9LdUNLU2tOUDc3UlNVSHd5OFRBLUtLbWZfZmNVZjB5VDdhQTZsTDcwbWpQdDZrSzBOa0ZWem9HazhDRzNEOGdGQjhVeDdDaXZRYTJZ?oc=5"
+    },
+    {
+      "date": "2026-09-25",
+      "type": "strike",
+      "place": "Kharkiv",
+      "lat": 49.9935,
+      "lon": 36.2304,
+      "title": "Ukraine war briefing: Finland urges Elon Musk to expand Kyiv’s Starlink coverage over Russia",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/sep/25/ukraine-war-briefing-finland-elon-musk-starlink-coverage-russia"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 153
+      "count": 148
     },
     {
       "place": "Moscow",
-      "count": 53
+      "count": 51
     },
     {
       "place": "Donetsk",
-      "count": 10
+      "count": 9
     },
     {
       "place": "Zaporizhzhia",
@@ -9317,15 +9336,15 @@
       "count": 5
     },
     {
-      "place": "Rostov-on-Don",
-      "count": 3
-    },
-    {
       "place": "Luhansk",
       "count": 3
     },
     {
       "place": "Kramatorsk",
+      "count": 2
+    },
+    {
+      "place": "Rostov-on-Don",
       "count": 2
     },
     {

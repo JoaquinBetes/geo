@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-09-25T04:57:57+00:00",
+  "updated": "2026-09-25T11:51:40+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -46,9 +46,9 @@
     "to": "2026-09-25"
   },
   "kpis": {
-    "events_total": 88,
-    "events_unlocated": 2212,
-    "events_7d": 24,
+    "events_total": 89,
+    "events_unlocated": 2219,
+    "events_7d": 25,
     "events_prev_7d": 11,
     "hottest_place": "DMZ"
   },
@@ -370,6 +370,15 @@
     },
     {
       "date": "2026-09-23",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-25",
       "total": 1,
       "strike": 1,
       "ground": 0,
@@ -1258,12 +1267,22 @@
       "title": "DMZ mine blast probe faces blind spot",
       "source": "Korea JoongAng Daily",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNX1NLQ2pETG9CY0ZuaWxpNGV6ZVg4bEstWU5mQ3dncmVBcEp4V0JnYlJJU0I5MnlISW9vX0xxRE5XUS0xOFZGeFZGdlh1V3lDa0pIQVVEaVg0UjFpMC1hSkQxc0JNTUVxYV9jTm8yM3FzalNObTJ4clY1NUkzd1lXZVlLR19VRm9JcHpGTG5wUzg?oc=5"
+    },
+    {
+      "date": "2026-09-25",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "Presidential official pledges prompt, thorough probe into DMZ explosions",
+      "source": "The Korea Herald",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBkcS1namVIZDczcmpLN2l5ZlQ5YzRWU1paWVkwVTVIZXB4blotYVZUMnZ4Z3g4cVVLZnRMVV85bnpfaEEwNENmNGx6cWFUWnUzREM1NFBPMA?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "DMZ",
-      "count": 18
+      "count": 19
     },
     {
       "place": "Seoul",

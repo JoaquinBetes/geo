@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-09-25T21:35:01+00:00",
+  "updated": "2026-09-26T04:58:08+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-09-25"
+    "to": "2026-09-26"
   },
   "kpis": {
-    "events_total": 837,
-    "events_unlocated": 2411,
-    "events_7d": 54,
-    "events_prev_7d": 45,
+    "events_total": 839,
+    "events_unlocated": 2413,
+    "events_7d": 48,
+    "events_prev_7d": 44,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -984,10 +984,19 @@
     },
     {
       "date": "2026-09-25",
-      "total": 6,
-      "strike": 5,
+      "total": 7,
+      "strike": 6,
       "ground": 0,
       "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-26",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -9362,20 +9371,40 @@
       "title": "The week around the world in 20 pictures",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/artanddesign/gallery/2026/sep/25/the-week-around-the-world-in-20-pictures"
+    },
+    {
+      "date": "2026-09-25",
+      "type": "strike",
+      "place": "Kramatorsk",
+      "lat": 48.7389,
+      "lon": 37.5848,
+      "title": "In the Ukrainian city of Kramatorsk, drones rule the skies and everything below",
+      "source": "The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRnVYRFFMRTRrVm1mdDhrQTRROFlpS25aeUxNRGYwLWZ0dklkZ1F0dnh4UHFnR2p1QkhNUDRFUi1KUFNBenVfT0lKbjViYTF6VW9wQ1I5TkhVNmViejM1c3JEZFMxMEJfVTNJUnRHMkJQYTNiRXd2NkJwQ2czNUMzZUlNWW9XRFlJOE5ENEJWZWNtZVha?oc=5"
+    },
+    {
+      "date": "2026-09-26",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russia strikes at heart of Ukraine’s digital economy with attacks on ISPs and datacentres",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/sep/26/russia-strikes-ukraine-digital-economy-attacks-isps-datacentres"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 153
+      "count": 149
     },
     {
       "place": "Moscow",
-      "count": 51
+      "count": 50
     },
     {
       "place": "Donetsk",
-      "count": 9
+      "count": 8
     },
     {
       "place": "Zaporizhzhia",
@@ -9386,12 +9415,8 @@
       "count": 5
     },
     {
-      "place": "Luhansk",
-      "count": 3
-    },
-    {
       "place": "Kramatorsk",
-      "count": 2
+      "count": 3
     },
     {
       "place": "Rostov-on-Don",
@@ -9403,6 +9428,10 @@
     },
     {
       "place": "Dnipro",
+      "count": 2
+    },
+    {
+      "place": "Luhansk",
       "count": 2
     }
   ],

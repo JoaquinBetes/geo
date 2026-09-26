@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-09-26T04:58:16+00:00",
+  "updated": "2026-09-26T11:25:16+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-09-26"
   },
   "kpis": {
-    "events_total": 504,
-    "events_unlocated": 2209,
-    "events_7d": 14,
+    "events_total": 505,
+    "events_unlocated": 2213,
+    "events_7d": 15,
     "events_prev_7d": 27,
     "hottest_place": "Strait of Hormuz"
   },
@@ -808,6 +808,15 @@
       "date": "2026-09-24",
       "total": 2,
       "strike": 2,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-26",
+      "total": 1,
+      "strike": 1,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -5844,12 +5853,22 @@
       "title": "Israeli official says Israel is ready to resume strikes on Iran — Jerusalem Post",
       "source": "UA.NEWS",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYlBSeVJTQzdxNHNHYW55T0ZjNjVpV0p3X3hveDZmZXlMRTgyTnJJdmhOYURRNHdEdjdzNWVnQlJGWDdoQ014ZkJENURsUnBmYm1UVTVtRWZOUXlmNHcwY3ZlZmZFc0t1V19EMlRsdDR0R08zM0Y0aGJ0NkZwUTJ5bHpHNFBzaE01S014amZiV2QzclZmQTBaaE1HQmd6NTlZQ1ZBbGttOFZJTjRJeEpZ?oc=5"
+    },
+    {
+      "date": "2026-09-26",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Trump reportedly rejects Iran’s seven-day peace deal to reopen strait of Hormuz",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/sep/26/trump-dismiss-iran-seven-day-peace-deal-hormuz"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 53
+      "count": 54
     },
     {
       "place": "Tehran",

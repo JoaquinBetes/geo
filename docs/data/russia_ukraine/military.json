@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-09-27T21:20:48+00:00",
+  "updated": "2026-09-28T05:24:01+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-09-27"
+    "to": "2026-09-28"
   },
   "kpis": {
-    "events_total": 850,
-    "events_unlocated": 2481,
-    "events_7d": 55,
-    "events_prev_7d": 43,
+    "events_total": 852,
+    "events_unlocated": 2485,
+    "events_7d": 36,
+    "events_prev_7d": 54,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -1006,6 +1006,15 @@
       "strike": 7,
       "ground": 0,
       "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-28",
+      "total": 2,
+      "strike": 2,
+      "ground": 0,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -9510,12 +9519,32 @@
       "title": "Strikes kill 6 in Ukraine after Moscow rejects German calls to de-escalate",
       "source": "ABC News - Breaking News, Latest News and Videos",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRmxrM1VmQ3VqZEUwNklJTm5fNTYtaGZpcUpXZlNkUlU2TWw5UWw5a0dzR1daSHN1djEtMFRXeE5jU3BJZTVjWW83eUQwMlo2NzdCb1BCSmNIYTE5ME05N292Y2JXUkt1X2c4UmJ6TVUyZFpqNnYtM1RqTkE0OVl6a21nSkNVSlpEejkzQzdCSDAzM3hYa3FKdmhuMmRIQlAtcmZubGlyQ3TSAa4BQVVfeXFMUF8xUHNtdlFHWThtbUxaREFNOWRVOTV1NEVQeUFkbGl4dlZZWmpwM1NzUzg5NnBBa3RmbmFDdEpKYXJEY0k3bXhmOVFGTXdJZDFsbDBWZWhBS3VqajZQRGR3bWRCX1ZYUkthMUJZRGhHX19hM1RvcXZtZ3Q1M1M1MVhhRHpNVk5uM3VYY2x2elcxZElxLXBaMTdncUJocFhTLWtpODNxeVRPRFlqa2JR?oc=5"
+    },
+    {
+      "date": "2026-09-28",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Ukraine war briefing: Zelenskyy says Moscow terrorising Ukrainians as fresh strikes kill eight",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTnZKVWZZRXlrdlBJbk00ZV9IWGVhcEFKVFl3N1R1N1VoSkR6UVF3TDJhR0FPS3o1TWZOR1p0NUZLYjdIbXZ2eUxSenJlTC1YSzJ4WDBEdkxlQW9Yd1VQajN6SHRXc0xUQVVOSndKMkk5aV9zMHpVbFhWcTBPQWxxUHk2MU5HVkNfM3o4bXJucXN1N3o5aktiQjhBTXhpM1JiMmw4eU54VUVHblhnT3RPTkRuZllEQQ?oc=5"
+    },
+    {
+      "date": "2026-09-28",
+      "type": "strike",
+      "place": "Kharkiv",
+      "lat": 49.9935,
+      "lon": 36.2304,
+      "title": "Ukraine war briefing: Zelenskyy says Moscow terrorising Ukrainians as fresh strikes kill eight",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/sep/28/ukraine-war-briefing-zelenskyy-moscow-terrorising-kyiv-latest-strikes"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 148
+      "count": 144
     },
     {
       "place": "Moscow",
@@ -9538,6 +9567,10 @@
       "count": 3
     },
     {
+      "place": "Kharkiv",
+      "count": 3
+    },
+    {
       "place": "Rostov-on-Don",
       "count": 2
     },
@@ -9547,10 +9580,6 @@
     },
     {
       "place": "Dnipro",
-      "count": 2
-    },
-    {
-      "place": "Luhansk",
       "count": 2
     }
   ],

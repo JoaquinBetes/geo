@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-09-28T23:16:32+00:00",
+  "updated": "2026-09-29T05:44:03+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,11 +45,11 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-09-28"
+    "to": "2026-09-29"
   },
   "kpis": {
-    "events_total": 862,
-    "events_unlocated": 2515,
+    "events_total": 867,
+    "events_unlocated": 2517,
     "events_7d": 46,
     "events_prev_7d": 54,
     "hottest_place": "Kyiv"
@@ -1014,6 +1014,15 @@
       "total": 10,
       "strike": 10,
       "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-29",
+      "total": 5,
+      "strike": 4,
+      "ground": 1,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -9639,40 +9648,82 @@
       "title": "People escape historic Kyiv building hit by Russian drone",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/videos/cqj9xkdyrvgzo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russia pounds Ukraine’s Kyiv after deadly strike on Academy of Sciences",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPanFGUFdfOHZGbDEzWGp5dy14a2x1ZGFDdHpHM244cXRxZGxCa0l4VHo5VmNQNGJWTXZ2MGNGVVdUSzgzVU5WUHRKVHFIY29LSThxYTY2aHlvRjNoWk5sYm9nempQTF9IVEdiU3B6MXREXzNXLWctNnpBZ1dJeThFTmgzZjNiSjFEa3hlZzFhVFIxdWprWFRHVEk1cTlmYnczWVVVMzBRaXdJMjDSAbABQVVfeXFMUHVDUDFrWHlfc0ZJUVh3UkREZjJWNlpleXhKWVItcGRaRUVUeEwzRjN2bzZQTDd2aWlEaDVqVXV6YXBQX3VmZDRVWHZlc2dyLUlNNXZsTzNjbGxuUHBuN25xZGRhU2M0OUl5ZDExc3p0eGtRNDh4bk1GdjluNEZBZnlFZWt5ZXdNUFlPR09YSjdnY2tuRjY2S1ZfWDUwSWRybV9xYnJRX3hjeUM2cUhJSHo?oc=5"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine-Russia war latest: Strikes on Kyiv continue after top science institute set ablaze",
+      "source": "independent.co.uk",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONVBUbWk1a0dSTS00YmN5Q3hVRUtsSEtnVDBpVVBiWWlBaC1Oak12RHhMOEVuM1VsTTlQRU5UU1ZVMzFBQmVOWWcycWk1TTlTdzBaTDV5OXpPVVA2alNiZnpNU2FHc0xrWlktXzVzazNESW9jQmJidmdZbHdYZ18zWjNmMzJmSEJHRGp0S1pFcFppYVF6VU01WERzSGdiamNFbGFGRjdLWGpmUXluRndXVERlZGo1YmZk?oc=5"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russia pounds Ukraine’s Kyiv after deadly strike on Academy of Sciences",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/29/russian-strike-hits-ukraines-academy-of-sciences-in-kyiv-killing-2?traffic_source=rss"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "ground",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Why is South Korea so angry with Ukraine over two North Korean prisoners of war?",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/sep/29/south-korea-ukraine-north-korea-prisoners-of-war-dispute-explainer"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "strike",
+      "place": "Kursk",
+      "lat": 51.7304,
+      "lon": 36.1926,
+      "title": "Ukraine war briefing: Putin orders army expansion as Zelenskyy says more North Koreans to be deployed in Russia",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/sep/29/ukraine-war-briefing-putin-orders-army-expansion-as-zelenskyy-claims-more-north-korean-troops-to-be-deployed-for-moscow"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 153
+      "count": 144
     },
     {
       "place": "Moscow",
-      "count": 58
-    },
-    {
-      "place": "Zaporizhzhia",
-      "count": 7
+      "count": 57
     },
     {
       "place": "Donetsk",
       "count": 7
     },
     {
+      "place": "Zaporizhzhia",
+      "count": 6
+    },
+    {
       "place": "Odesa",
       "count": 5
     },
     {
-      "place": "Kramatorsk",
-      "count": 3
-    },
-    {
       "place": "Kharkiv",
       "count": 3
-    },
-    {
-      "place": "Rostov-on-Don",
-      "count": 2
     },
     {
       "place": "Belgorod",
@@ -9680,6 +9731,14 @@
     },
     {
       "place": "Dnipro",
+      "count": 2
+    },
+    {
+      "place": "Luhansk",
+      "count": 2
+    },
+    {
+      "place": "Kramatorsk",
       "count": 2
     }
   ],

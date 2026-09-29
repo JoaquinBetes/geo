@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-09-28T23:17:00+00:00",
+  "updated": "2026-09-29T05:44:22+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -43,13 +43,13 @@
   },
   "window": {
     "from": "2026-01-12",
-    "to": "2026-09-28"
+    "to": "2026-09-29"
   },
   "kpis": {
-    "events_total": 113,
-    "events_unlocated": 2274,
-    "events_7d": 46,
-    "events_prev_7d": 8,
+    "events_total": 116,
+    "events_unlocated": 2280,
+    "events_7d": 32,
+    "events_prev_7d": 24,
     "hottest_place": "DMZ"
   },
   "daily": [
@@ -403,6 +403,15 @@
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": true
+    },
+    {
+      "date": "2026-09-29",
+      "total": 3,
+      "strike": 3,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
     }
   ],
   "events": [
@@ -1535,12 +1544,42 @@
       "title": "Seoul summons Ukraine envoy over North Korean prisoner-of-war row",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/articles/c8ly40xx0dr0o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "Seoul Says North Korea’s Mines Likely Behind DMZ Explosions",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOW92QTY0TlBSc1FOLVRYU0syUjNQRXJwV1A3TzBfQVd3cXEyQi1uaUUxRHRaRG1YV0I4UklaeExTcmt5NDljWi1PZ1pyUHluY0JiZ2ZsOFVfZEd1bGNVbmRrM2dlcy1NRFUzMUM5eFdxclU4V0RXY2ZicFRrNk5yQkFzeTk2T09JTms1dmpJWkd2RmpWekFzS0pVUGJPTXhqNThodlpWbU8zN0FXazNWLWtIS2ZhNTN3R2dYNE8yWmIyWmc?oc=5"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "Seoul says North Korea’s mines likely behind DMZ explosions",
+      "source": "The Japan Times",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcEkzLW83dUtKUEhIYmZ2dTQ3UG1rdWh4ZVVTYXVJU0FSSjZGeElaMnNjbTlPYldQcElDcUpjeXR0U0N3cHluVTcxSTVjakpVQ3p2UjREa3ZVVEhuMVNGaTVtMy1TR3lYaEZoRXp6R1FpS0U3X3lTaFM0WjVDb3pqTjBKUXpZS3NRczZJaURxMmdOdDNhWVE?oc=5"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "North Korea’s mines likely behind DMZ explosions, says Seoul",
+      "source": "The Straits Times",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbko5WU9ha2pLcUxvYzRTZTlwMGozdW9pY2FFR0p2UkVjNk01aWNabU1zN3pTaDNVUDlaZ3ZDS1VWa3Fhdzc4a0J6SnZaTHY5cjh5ZW5RSWQ3MDV6RHhMNVY5eUg0MTZlRERPbkJqQjU0b1hFcnZLWGVnN2FOQTZRSkhsLWI1SmswczhUaGd3YVdzME5lYXBGMVJsaE1VWHZmLVhvLQ?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "DMZ",
-      "count": 41
+      "count": 44
     },
     {
       "place": "Seoul",

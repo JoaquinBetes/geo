@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-09-30T05:32:45+00:00",
+  "updated": "2026-09-30T12:36:41+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -48,9 +48,9 @@
     "to": "2026-09-30"
   },
   "kpis": {
-    "events_total": 871,
-    "events_unlocated": 2532,
-    "events_7d": 49,
+    "events_total": 877,
+    "events_unlocated": 2546,
+    "events_7d": 55,
     "events_prev_7d": 50,
     "hottest_place": "Kyiv"
   },
@@ -1020,8 +1020,8 @@
     },
     {
       "date": "2026-09-29",
-      "total": 5,
-      "strike": 4,
+      "total": 6,
+      "strike": 5,
       "ground": 1,
       "infrastructure": 0,
       "air_defense": 0,
@@ -1029,10 +1029,10 @@
     },
     {
       "date": "2026-09-30",
-      "total": 3,
-      "strike": 3,
+      "total": 8,
+      "strike": 5,
       "ground": 0,
-      "infrastructure": 0,
+      "infrastructure": 3,
       "air_defense": 0,
       "anomaly": false
     }
@@ -9719,6 +9719,16 @@
       "url": "https://www.theguardian.com/world/2026/sep/29/ukraine-war-briefing-putin-orders-army-expansion-as-zelenskyy-claims-more-north-korean-troops-to-be-deployed-for-moscow"
     },
     {
+      "date": "2026-09-29",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russia’s jet-powered drones are turning Kyiv into a daytime war zone",
+      "source": "The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPc1pHM012dlhfMkpqYks5aC13Rmowc3B2ZzhQMEhVNUxwdTAwbkZETkJLVnNtM2RwVzR3SXJyUGlxMF9UTHAtR2JJRUVJUkRIbjduZE9CVTdHNlJ4SkEwUGh6Q3lMNUlpdkdDNEhIUGVaSk5MRDFNUUhYOGhxY3RZM013aU80eEtteTRZSDc3OFAwcDBVTEJmYVUzRHRfek1jWWRwYUdfR0dmcDNjNUlLdWRVQk8?oc=5"
+    },
+    {
       "date": "2026-09-30",
       "type": "strike",
       "place": "Moscow",
@@ -9747,12 +9757,62 @@
       "title": "Ukraine war briefing: Nato condemns Moscow’s ‘irresponsible nuclear rhetoric’ as strikes on Kyiv intensify",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/sep/30/ukraine-war-briefing-nato-condemns-moscows-irresponsible-nuclear-rhetoric-as-strikes-on-kyiv-intensify"
+    },
+    {
+      "date": "2026-09-30",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russia pounds the Kyiv region, killing 4 and targeting the power grid",
+      "source": "Audacy",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOanBCX3J1UDQ4RkJxMVFWOGNIYWQxWkxmUDd0TGRDcEY2ajYwdHpweVUtQ0s1WjFCaFFTMEFMTGFKT0RCUDdCUEpRcG5Ta0JfS201ZmluMHlaS2xIUjlPRGVWU195dnJnRDFpc3l0d3hqWk1qNFM3bFpmSVRqcnhhU0VseVpscnBMejdTaTJjVVRtSTAzeS1EQnVsSnNROWdpYkxTcHNzY29MTTdMYXJPdEhR?oc=5"
+    },
+    {
+      "date": "2026-09-30",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russia Expands Drone Launch Hub as Geran-5 Drones Dominate Attacks on Kyiv",
+      "source": "UNITED24 Media",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeC1wWEJYcnVKMk1acWJwa2J4UjFKVk00MDJQcUNlSmN6S21vT3F2LWtWeXBWY3VNczdNMFptdXdVZlFEUzlrNElJNld6cl91ZG5tSWQzU2lReUJ3S3h6Y0ZDZk1wSVROR2U1VG5WVFhkR3cwc1Y0UTJDM3hVS2VIOW9lREUxNWFGQXQ3SmNHZWhvWnR5S0xkNjVOUWhYSkpZbWtTRkNBZGV4ZFozZWdRa2JQSkdJV0lUSU9XT3FR?oc=5"
+    },
+    {
+      "date": "2026-09-30",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russia piles billions more into Ukraine war after overnight strikes on Kyiv",
+      "source": "The Independent",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbnF0QVM5elN1TWgzbjQtbHZGaVRKbW1NYVhHOGMxTWhtaUNENWJFMGZzZVRqS2ZhUUdsRkc1UFoyLUxQUDF3Mmt6V1NhV0xUSjk3aUFWOHdCNlNoMERmZ29IZ1ZwMDE5V0N5dkpsYXR4RmZVMEFWMDFRWlhRMVB0emowZlNsS3RBcTFsLUNvNWRiRGl2THROQjlELWxMekdD?oc=5"
+    },
+    {
+      "date": "2026-09-30",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russia pounds the Kyiv region, killing 4 and targeting the power grid",
+      "source": "The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPR1RhS0JvR2lKOXl1eU1VRk9WWUc3dWVRdGFsZlJyeTd1WHhxVGpGNVlFM2tIeWdxSW9oSXVNeHUxQlBIMm82Qi0xOWdHYjhUanc4SDZ3S0EtQ3hXQVhMNXBVUjQyMGlQWW5OVFdUOWJHbHhkS250RkRqYjlfZG01Z29uWTdtN3hxb2c?oc=5"
+    },
+    {
+      "date": "2026-09-30",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russian attacks on Ukraine’s Kyiv region kill four, target power grid",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/30/russian-attacks-on-ukraines-kyiv-region-kill-four-target-power-grid?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 141
+      "count": 147
     },
     {
       "place": "Moscow",

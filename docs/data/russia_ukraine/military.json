@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-09-29T22:15:27+00:00",
+  "updated": "2026-09-30T05:32:45+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
   },
   "kpis": {
-    "events_total": 868,
-    "events_unlocated": 2526,
-    "events_7d": 47,
-    "events_prev_7d": 54,
+    "events_total": 871,
+    "events_unlocated": 2532,
+    "events_7d": 49,
+    "events_prev_7d": 50,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -1023,6 +1023,15 @@
       "total": 5,
       "strike": 4,
       "ground": 1,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-09-30",
+      "total": 3,
+      "strike": 3,
+      "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -9708,27 +9717,57 @@
       "title": "Ukraine war briefing: Putin orders army expansion as Zelenskyy says more North Koreans to be deployed in Russia",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/sep/29/ukraine-war-briefing-putin-orders-army-expansion-as-zelenskyy-claims-more-north-korean-troops-to-be-deployed-for-moscow"
+    },
+    {
+      "date": "2026-09-30",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Ukraine war briefing: Nato condemns Moscow’s ‘irresponsible nuclear rhetoric’ as strikes on Kyiv intensify",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNb3JxUTJOY0lGTUtmcmVuSjl6QzRCZGJIdE9PT2t0OGRlcHhYQTNiRS0zWlplMDJ5Q3EtVFFpN2RVNHF1cUotcXh1bHVyQjFDNURHeDV2blhxbUJzamNuUU5BZ0tWTlFaUWp1SnBKaTJhczh1dUNZNExKUGZvNEZvQUstOGl2WkhFSW5aSkg3SDNPdnBzeG1KUXZwUUZHaTd6ZFdmZzZjY0ljeUdhbnI5YV9MdVhkd2JmTVJTMkFQWTJGLURFamZSREpNc0h6MFk3OFIzdVVkU3ptUUM4R3d1VUxB?oc=5"
+    },
+    {
+      "date": "2026-09-30",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Missile alerts cost Ukraine $45m for every hour they halt businesses",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/sep/30/missile-alerts-cost-ukraine-businesses-halt"
+    },
+    {
+      "date": "2026-09-30",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Ukraine war briefing: Nato condemns Moscow’s ‘irresponsible nuclear rhetoric’ as strikes on Kyiv intensify",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/sep/30/ukraine-war-briefing-nato-condemns-moscows-irresponsible-nuclear-rhetoric-as-strikes-on-kyiv-intensify"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 145
+      "count": 141
     },
     {
       "place": "Moscow",
-      "count": 57
+      "count": 58
     },
     {
       "place": "Donetsk",
       "count": 7
     },
     {
-      "place": "Zaporizhzhia",
-      "count": 6
+      "place": "Odesa",
+      "count": 5
     },
     {
-      "place": "Odesa",
+      "place": "Zaporizhzhia",
       "count": 5
     },
     {

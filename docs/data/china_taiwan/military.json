@@ -1,6 +1,6 @@
 {
   "id": "china_taiwan",
-  "updated": "2026-10-01T13:15:25+00:00",
+  "updated": "2026-10-01T22:41:38+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -43,12 +43,12 @@
   },
   "window": {
     "from": "2026-01-30",
-    "to": "2026-10-01"
+    "to": "2026-10-02"
   },
   "kpis": {
-    "events_total": 69,
-    "events_unlocated": 1722,
-    "events_7d": 1,
+    "events_total": 70,
+    "events_unlocated": 1727,
+    "events_7d": 2,
     "events_prev_7d": 6,
     "hottest_place": "Taipei"
   },
@@ -469,6 +469,15 @@
     },
     {
       "date": "2026-09-29",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-01",
       "total": 1,
       "strike": 1,
       "ground": 0,
@@ -1167,6 +1176,16 @@
       "title": "Public transport drivers strike in Manila over soaring fuel prices",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/9/29/public-transport-drivers-strike-in-manila-over-soaring-fuel-prices?traffic_source=rss"
+    },
+    {
+      "date": "2026-10-01",
+      "type": "strike",
+      "place": "Taiwan Strait",
+      "lat": 24.0,
+      "lon": 119.5,
+      "title": "Why US missile shortfalls raise stakes for a potential Taiwan Strait conflict",
+      "source": "South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdGhHUS1QSTVWMlN5NWdGRXdDTXdSaWlFc0dwcGFYZ3M4VnBJanVlVUxJMTRHdHpaU3VxSUtVcEZ0NXltVG1iLUtVY1pGRXZxclg0QmhPa25hTnBxMERCekdTdVFnQndhMlh4aDBmeXU5eTJIOUhsY0xuYW9CSmhna1VVNm9FSlNvYnVmOHJkaGhISWJaTjl0NGRDcVdXb3lWNGlNYkhDT0ZjTHR5N2JIV3lsN24xcVRySjlybmhKalpHeDh4NzBfNDhtS19ma2l30gHQAUFVX3lxTE5lSDZidmJCVTc3cEptWElaNTRfV2Z0TExRY05wc3IxVDRvT1hHSXktbld6VHcxVmEwLUlTbWZKWU9lVkpjVmxlalIzcm80VzU1MmRvSy1JMm5paUllUG12QjdEejhValJERS0wbnZ3LVhsYmhEV0t0cjRPSlZ6WVhQQTNzNlZqc1o1eVVwS2U3eHIyQ1JGTWdENjN3S1QxbkVPc1RLcndfRHJHSmxoLUNyTTFKSjRsYmprZlhlUmc3Q25PQmNsVDNET2RWTmllcXU?oc=5"
     }
   ],
   "top_places": [
@@ -1188,6 +1207,10 @@
     },
     {
       "place": "Manila",
+      "count": 1
+    },
+    {
+      "place": "Taiwan Strait",
       "count": 1
     }
   ],

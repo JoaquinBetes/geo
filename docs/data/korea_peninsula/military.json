@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-09-30T22:16:47+00:00",
+  "updated": "2026-10-01T05:54:26+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -43,13 +43,13 @@
   },
   "window": {
     "from": "2026-01-12",
-    "to": "2026-09-30"
+    "to": "2026-10-01"
   },
   "kpis": {
-    "events_total": 148,
-    "events_unlocated": 2308,
-    "events_7d": 61,
-    "events_prev_7d": 26,
+    "events_total": 152,
+    "events_unlocated": 2315,
+    "events_7d": 64,
+    "events_prev_7d": 24,
     "hottest_place": "DMZ"
   },
   "daily": [
@@ -415,12 +415,21 @@
     },
     {
       "date": "2026-09-30",
-      "total": 18,
-      "strike": 18,
+      "total": 21,
+      "strike": 21,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": true
+    },
+    {
+      "date": "2026-10-01",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
     }
   ],
   "events": [
@@ -1903,12 +1912,52 @@
       "title": "Seoul seeks apology after North Korea denies involvement in DMZ explosion",
       "source": "Anadolu Ajansı",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdmpvSU90R05BRmxRa0w4bnNEeFhxSEdtRDd6RTh5M2ZWcXR1MEZ0eUJhOG1CMEU5eUJhRy1GUTFKLVhPNHNiM2lXMk1Kbkk3UGVkQUVFR2hBUUFJVmVhZHJmRzFUOXFJaFZ0MlZPWkhfVzNtTDdVQ1hnbnNVVi1oS3BsMndOdERHNGVTMG5NZnQyNnJDV2N2MXFrMXBlRGd3ZHdCU0JfMEhEZ0F5YWpycHVEbFpaSlNKYnJN?oc=5"
+    },
+    {
+      "date": "2026-09-30",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "North Korea threatens retaliation over DMZ mine blast",
+      "source": "동아일보",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9rTGVOdnppR21OSi1NVC1NY2ZIcXBJQ0pwQmJmUW9MaFdJb05IZkxQMGFqaXNLVk9fcC1fTThHM2l6YWtvUzVGUFdiSnV0Nm9NN0prYU1mb2VUajkycUl6ZFU3R0RaQQ?oc=5"
+    },
+    {
+      "date": "2026-09-30",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "North Korea calls DMZ mine blast a 'farce' as U.N. Command says armistice breach occurred",
+      "source": "Japan Today",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTnYzbjY5Z05CaElGbk1LQjRhUVRQYzBXakg3WmJCQVZBM2pKdWhBcHBYODcxNnhWQmZsREVOOEtLYmJSRy1VZHl6X2E1WElhcEhmdUNtTGtKakR6VzNZRWNlX215ZEJwSGIzWFJCMTE0TWtwME5aZDdBYmNGY0cwNGpsYXhMajVndG9wSFN2eUEwWDZJUFV4QUFJZ1F0Z1JCTjFuV1hhTmFvY0tCZHlNd1lfX29BcTF0VHNGalpQeFhrMHM?oc=5"
+    },
+    {
+      "date": "2026-09-30",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "North Korea must answer for DMZ mine blast",
+      "source": "동아일보",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5RWWJoSFh2VmxxT3BFWXdxMUNQeGtzRmRfa0IydGs4eDlZbXBIelNHQTcxSTZnM2NmOUlnTF9zcFp4cnctSjRtUlNCVXhBZHU2Mm02LUJlSTI0Q0ZHTTBQZG5DRXl6dw?oc=5"
+    },
+    {
+      "date": "2026-10-01",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "Unification ministry reaffirms peaceful coexistence policy despite DMZ blast",
+      "source": "Yonhap News Agency",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1JMmlVNDRmWEFjTWJPczh4Sm1MbTExM250VXZST0tJM3pNSFZOUG5QN0dxRnRhSjNTRmF2alJtUVYzUllOSW4xYkZUbHlZRlg4QnNzVmRVQlNwUQ?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "DMZ",
-      "count": 75
+      "count": 79
     },
     {
       "place": "Seoul",

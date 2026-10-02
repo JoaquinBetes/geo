@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-10-01T22:41:21+00:00",
+  "updated": "2026-10-02T05:37:24+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-11-25",
-    "to": "2026-10-01"
+    "to": "2026-10-02"
   },
   "kpis": {
-    "events_total": 891,
-    "events_unlocated": 2570,
-    "events_7d": 63,
-    "events_prev_7d": 55,
+    "events_total": 892,
+    "events_unlocated": 2576,
+    "events_7d": 61,
+    "events_prev_7d": 48,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -1042,6 +1042,15 @@
       "strike": 3,
       "ground": 1,
       "infrastructure": 3,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-02",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -9956,16 +9965,26 @@
       "title": "CCTV captures moment Russian drone hits Kyiv school – video",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/video/2026/oct/01/cctv-captures-moment-russian-drone-hits-kyiv-school-video"
+    },
+    {
+      "date": "2026-10-02",
+      "type": "strike",
+      "place": "Mariupol",
+      "lat": 47.0971,
+      "lon": 37.5434,
+      "title": "I went curtain shopping during a Kyiv air raid. And not because I’m ‘resilient’ | Diana Berg",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/02/kyiv-air-raid-ukraine-shopping-homes"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 152
+      "count": 140
     },
     {
       "place": "Moscow",
-      "count": 58
+      "count": 57
     },
     {
       "place": "Donetsk",

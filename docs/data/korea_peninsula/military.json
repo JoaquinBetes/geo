@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-10-01T22:41:50+00:00",
+  "updated": "2026-10-02T05:37:52+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -43,12 +43,12 @@
   },
   "window": {
     "from": "2026-01-12",
-    "to": "2026-10-01"
+    "to": "2026-10-02"
   },
   "kpis": {
-    "events_total": 156,
-    "events_unlocated": 2323,
-    "events_7d": 68,
+    "events_total": 157,
+    "events_unlocated": 2326,
+    "events_7d": 69,
     "events_prev_7d": 24,
     "hottest_place": "DMZ"
   },
@@ -426,6 +426,15 @@
       "date": "2026-10-01",
       "total": 5,
       "strike": 5,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-02",
+      "total": 1,
+      "strike": 1,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -1992,12 +2001,22 @@
       "title": "DMZ mine blast was a North Korean provocation, not an 'accident'",
       "source": "Korea JoongAng Daily",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObTRCUkczcDJrd2pJbmxqM19mTThfRVVBYVlPc2xoZUIzMFN3dDcxQ0lUVGlreV9RbzhxdEk2VWt0RHNkQlNSSVFZTEUtMjNDenI4eFk3cHBKQktKNUdqUHRjOVFtYktIeVZkVFhHNkREWlN6WHhkbXVxZ3owWDJrb3JvWnJDRXBCV3hUbHNSMkQ0VzdhY3hscTI5S0djTzREbzV5LUFRTm9wUG4zUlFrbFlyUQ?oc=5"
+    },
+    {
+      "date": "2026-10-02",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "Lee stops short of blaming North Korea for DMZ blast",
+      "source": "동아일보",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBSYXNCRjBQRmQ4VW9QdS1LU1h1UDUtbjNoN2ZJa3h4VEdoejdmNk4yZkNxU1ltSkV3eUpQY2FiQVFES19SVno2RDFiaWN0eDRwd2FWdjRQYjV1NkUwVklYQnVWYS1pUQ?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "DMZ",
-      "count": 83
+      "count": 84
     },
     {
       "place": "Seoul",

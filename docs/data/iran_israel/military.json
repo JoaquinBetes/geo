@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-10-01T22:41:31+00:00",
+  "updated": "2026-10-02T05:37:33+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -38,11 +38,11 @@
   },
   "window": {
     "from": "2026-02-27",
-    "to": "2026-10-01"
+    "to": "2026-10-02"
   },
   "kpis": {
-    "events_total": 512,
-    "events_unlocated": 2288,
+    "events_total": 514,
+    "events_unlocated": 2293,
     "events_7d": 10,
     "events_prev_7d": 17,
     "hottest_place": "Strait of Hormuz"
@@ -851,10 +851,19 @@
     },
     {
       "date": "2026-10-01",
-      "total": 2,
-      "strike": 1,
+      "total": 3,
+      "strike": 2,
       "ground": 0,
       "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-02",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -5969,12 +5978,32 @@
       "title": "Crude oil exports from strait of Hormuz largely return to pre-war levels",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/oct/01/crude-oil-exports-strait-of-hormuz-transport-gulf-region-diesel"
+    },
+    {
+      "date": "2026-10-01",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "'Iran Damaged IDF's Main Air Base': BIG Reveal Why Israel Fears A Tehran Strike Right Now? WATCH",
+      "source": "The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPQjBnNFJkMllVaWpMME5jSEQ0ZmdzTy1tR3MxWVZpTS1WNWVIWTdyRUU5SEJzOVZrMTNLZ3R3akh5SGhJZTFjWjNFTm1NYmh2UDRGZWlKNnlnSEJCRlAtS2FDY0Y4TzZNZDRZdkdPQWxVSlpiSHFHeEw4TUVacDd2S0czN0hPbHFZenFZaWZ5WE1Dd1lfQmxhSXhfcG0td3VISlJsNVV5N21JSTZ2SG1SZmVwSXhwN2ZtektTSU51RnFlT0tmTnBOWUxubHlpTmNwUEpsWGo1MkFpaXNIUV8xZG1BamxxZTNjc2NtMUpGMmpydmJzNVItLVpJUk5lYkNpRnfSAYcCQVVfeXFMUGlTY2RyU0dBTllra3dXdjREZWtDdHhTWlNaV1U0MF9MUmh0TzBHejN4cjJaQlZNOFI1LWppX2U2TTNPUnBrS1RrSnpuMlJqdV9VeTN4a2VFaWp6TjNwdEZHVjdRMEluazNUYlhyUEV5bGRQNURTMFdCcG90R3FkdnRBeFViUGJjM1NZOWwtTnl4T3l6WUEzdjhFT01GcXRFbkR5Nk1UNk44c0JETUtJbkZkTjQ2elhRaG9RbkRMa3NMN3lXdjRnMDdsQ0xOVU4wOG4wMTdRUUtoaC0wamdKVW5JTlFMMTMzXzN0ODYwNFFlamhsS2loZzJVOFM2T0FDQ0dmSVJZR0E?oc=5"
+    },
+    {
+      "date": "2026-10-02",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iran war live: US moves 2,000 Marines to Middle East, tanker hit in Hormuz",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/2/iran-war-live-us-moves-2000-marines-to-middle-east-tanker-hit-in-hormuz?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 48
+      "count": 46
     },
     {
       "place": "Tehran",
@@ -5986,7 +6015,7 @@
     },
     {
       "place": "Jerusalem",
-      "count": 11
+      "count": 9
     },
     {
       "place": "Kharg Island",

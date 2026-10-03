@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-10-02T22:14:51+00:00",
+  "updated": "2026-10-03T05:19:19+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -43,13 +43,13 @@
   },
   "window": {
     "from": "2026-01-12",
-    "to": "2026-10-02"
+    "to": "2026-10-03"
   },
   "kpis": {
-    "events_total": 165,
-    "events_unlocated": 2337,
-    "events_7d": 77,
-    "events_prev_7d": 24,
+    "events_total": 176,
+    "events_unlocated": 2360,
+    "events_7d": 87,
+    "events_prev_7d": 25,
     "hottest_place": "DMZ"
   },
   "daily": [
@@ -433,8 +433,17 @@
     },
     {
       "date": "2026-10-02",
-      "total": 9,
-      "strike": 9,
+      "total": 13,
+      "strike": 12,
+      "ground": 0,
+      "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-03",
+      "total": 7,
+      "strike": 7,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -2091,16 +2100,126 @@
       "title": "DMZ land mine explosion should not be politicized: Unification Minister",
       "source": "NK News",
       "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5EMGM4dlpONXdOSHdWYkQ1UzQzQm9lMzNZcVVQdEdzLW5YaWNGNVFORHFEeEhfRFFNdmhCWmNfTl95SmNsT3Mw?oc=5"
+    },
+    {
+      "date": "2026-10-02",
+      "type": "strike",
+      "place": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "title": "North Korea fires ballistic missile into sea, Seoul says",
+      "source": "DW.com",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeV8yR1NiWm11X0pSVjFvdC1BYVhubXRlMnpSODFGTHNvX3lEUjV5UTNhajA1UmkwRjZQTElpcm5QdTJ6MUs0SUxyVVpIR28weFdrdlVsbVpCYzlxRndTZUVHZVI0eHlKTVE1eWMzN2FaaUcyMGdoVUQ0cEppd3NvbUlwWWxzNFdEU0hFU3JNSTRoQdIBkgFBVV95cUxOTzh3clVlM3lmZjl2WHN4dGtBMDNLSWwyM3dDeTVaeHNKQ051ODR2ejN3X0Rac0JGbTN5TzRrd010Ui1OV3poUDJzREFSUTAyNkFDRWctVjgtby1YNTFKYjNPVzVuYXl2b3JaM0Nhc1RjQXItNWhqQS1Sbk1jU00xUlpIMy1LWUpBZ0huejVNRjRHdw?oc=5"
+    },
+    {
+      "date": "2026-10-02",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "(LEAD) N. Korea fires ballistic missile toward East Sea amid tensions over DMZ blast",
+      "source": "en.yna.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBCeU9lQkhBOU1FVTQtYU9DTDljbVNjbDdMOHBIcWpXd0hkWHBwZ1lXWFpOc3U4R2tveUhwM1RCanhFVE4yUTc2d3M1UGVRbVA1RjljZ3VFRzJRUQ?oc=5"
+    },
+    {
+      "date": "2026-10-02",
+      "type": "strike",
+      "place": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "title": "NEWS UPDATE: North Korea fires at least one ballistic missile, Seoul military said. | via Agence France-Presse More details soon on www.gmanetwork.com/news/",
+      "source": "facebook.com",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZW9UbDEwS2stMWJPZTd3d2lxdEZBX291Z2p3SWl2cEpVcmRqaUl2LUZwanViTUJXZ2F3MnRqM1MyTU5uWXNtZW5ieFQ3OV9sZUlpVkJLVTNNdjB1cXFlbFZ5cF9kaUF5d3JvbGVOLV9fVWJRTG4teDdNOG5jMWpqWktJWGJINjFvSE9ObXRVNmxQeldhRnoxNmMtS1NIdTg5NkowdEQ5TTNqVm96WnBDS19xOVVDZUlFS2tiZ1NmcHFsczl5Z18wS0pKeUp4blItQ0Jn?oc=5"
+    },
+    {
+      "date": "2026-10-02",
+      "type": "infrastructure",
+      "place": "Wonsan",
+      "lat": 39.153,
+      "lon": 127.446,
+      "title": "North Korea fires ballistic missile towards the sea, South Korea says",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/2/north-korea-fires-ballistic-missile-towards-the-sea-south-korea-says?traffic_source=rss"
+    },
+    {
+      "date": "2026-10-03",
+      "type": "strike",
+      "place": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "title": "North Korea fires ballistic missile towards the sea, South Korea says",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaFVmemVUU2lMbHoxVS1yNHJGWXFQUExrSWUtb1lxNHUyYkJCWGRSaEdnelZSSGRWdi04TUt0RnQxVEktVEpaUGx3TnBpdGFqeEJTNGlxdm9uV0Z0MnNqZUxNRUR0eWpSMGJpb0t0dlFBOWxyb212OWN5eU9rSnRyUlctYlJERFRDdEdxMXdLLXJNRlZIMXFvbDNvQkwzcGZtdzJtaml2RTkxR0JTemfSAbMBQVVfeXFMUHhtOV9YSWhnZ1dYZmlJTU1qMDRhNXpVQmMxbnM5TTBVU1ZhZWhrdUQySHgyOHE5Qnh1UEllVWNDRzNjbEREbnV5LXFMRllyc1hOb19FYnNpZWZDN0F5NWNJUGZwQWcyM3VyYnllQzhYMGhia0hnQS1SVDQ2Z0VvR0o1SXZoTTdnaHl2RFVYWlB4VnV6blJ6bEJOeDNLOXlXc1NNOGRtNi1rV0drWGFxZUdTQ1k?oc=5"
+    },
+    {
+      "date": "2026-10-03",
+      "type": "strike",
+      "place": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "title": "North Korea fires ballistic missile after Seoul’s apology demand",
+      "source": "Arab News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaEhKUVdqU0xSaDVROGFUWTZXRlFEWEtjUk9aeGgzdktDXy1hQzBxV0pvMUdoNENaSmRXMmR0ZnNjZWhyOXI4N1RPRDBPUzV1SzZKMFA4Ql9lVl91TS1vMkdZenBPYWp0N2wtOGlmZU1DYl9DUjk5MEs4cUJBWHdhd1NwcjVZaktBdTVPRFBoaHhOdUhfcjZfVVZuY0xDY013V0hnbg?oc=5"
+    },
+    {
+      "date": "2026-10-03",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "North Korea fires missile towards South Korea amid DMZ security tensions",
+      "source": "The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQX1RnT0dBWGtvVGo4eV80bGpUQ2ZrQjBoRDBORkJZMENsWGlqZlRkY05VaGFFUjZaY2VqQVdzRFFVSGc3Wml1MF9zZ19rRFVvWlpYbC1uZnVleHlXVEFPSFgzWTI4X2g2Mk9sSXVwa1czbjh5TGVaT2NmLVItTkxPTHUxWk4tUGgteFRTLXBVWU5od2dnR3NLTDBQSk00ZkxEM3M1U1Z0UkFSWjFsSVgzQTZlSXdkcGM1amFteE00blY0djRENDJtQ0VYdkVTYWdsWkVHaW1HaVZCMmFSLXY0a20yWDF5M0RIRXFaX9IB8gFBVV95cUxPOUJNVkQwalliakJxWUVxVFIyLVFBcFkwRFJFNU85MkhtM2RyVERwcDdxWnI0MzBfVE1OclJWdVh5TmpmT0lLX0JmZjczZUhtcXFOOXBDY0ZsMDJCOHFGTE5LdFB3WkRoZzVTY1ZpaXhuZUpYaTM0MWVvX19YaGVMcTAzNEdHU0hoT2Rib1BwVGVSemZVbmtuVWNOckRTbVhGWFFZeXQ1ZEI5STVVTzJET0dwT2ZMUExyUDlHYU9YNVJGN0l2TnMtT2lxTFo1RmllNEVkMnpyNVBCem9Ka2pPVWJWb1B0RjFybnlWMTEzWmhIdw?oc=5"
+    },
+    {
+      "date": "2026-10-03",
+      "type": "strike",
+      "place": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "title": "North Korea fires at least one ballistic missile – Seoul military",
+      "source": "Inquirer.net",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdlVjeGdhREN5aTBXaGYwN1UxVllHei1zMWk3MzA0c1RJeGpQUk9LazFVQUp3X0RUMWJLVXZrODZteF9QaU50bnpTUjRIUl82SlBZUTQ0d0hxSkhkRmpMYzF6LUdpNDNrMFZadTEtbUhya0ZSMHNiSHFWNjhYMHlfQVcySEpBc2tJd2FnaDlPQk9Icno3amNFeVFFN2RPUng1YV84S3djQdIBrAFBVV95cUxQbkNDNWgzeUkxU0pqTmdDXzVSSWFCbEwxWTZ2RFRraTktbklDa252bzRvNXVvWWNuLVhfXzlmM2NYeTItUGhPTUFkMC1lMEFfU0daQkRzSkFXQUJvZnhFalROZUw2MmhGLWl6M29DcTBBdXFEWnNNcEdNVWtSX3gtb2ZhNzlZZExwVk4xNmRKampfWjdlX0hXSHlfampRc0ZwWWJ1aTREa3NjQ25P?oc=5"
+    },
+    {
+      "date": "2026-10-03",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "North Korea launches missile after Seoul blames it for DMZ blast",
+      "source": "Malay Mail",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOelNDT0dTQ1QtTWNMZ0Z0MkJ5X0lrZndIck9qaXo0X0lqaUctaVlXMVNYSTF1MUowd1lQeW5aTDhyXzdaQnJQZmk4eXl0RF9VdWpPZEZDS1J2dmhJZjhEQ1lNT3Z2YWRsaHZQNXNaLU9HNTYzTENDSzZJUDlOOExybWtEZkJNaUJzYzZ1cWU3TkVXYUZSUHhqVjhxWG9kQzlBbUM2UTBnNDV6LXdLRV9GY3BlcFBlcTQ4bVlj0gHAAUFVX3lxTE14VjlodlQ0SFdpaHFaSmhzV0VrT0hjb0xxUWpsQ1NMLVdKQUkxUkl0NlpDVzktMnIweWw2dHZvR2ZkbEhvNEZDZXhUMzlheXpGd3gwb05sMHlDVmhpZkw2RnFVa3RPWTlVV1phdmdlY3EwSmpRcVZIZmc4eEVqamFCTGs2WUFtc1hVd2NsVmlHZVFFdHlKOWxaVkJ6WUM0Tk54aWtTUUdTdEJwNWsxLUZydG4xS0JiMDZhM0lCM1k2eA?oc=5"
+    },
+    {
+      "date": "2026-10-03",
+      "type": "strike",
+      "place": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "title": "North Korea fires ballistic missile, Seoul holds emergency meeting",
+      "source": "Pajhwok Afghan News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcVJ3ZTdPTUEtTDFTZHVkbFFxZ2F2azFWSjhUcGdvTU5NMzkyVjNuYVJsYTFYemUzc1dSR1lvblF2VmNjbWpJVGhCZkNYeGZ6X21xZVRpc0x0azFOOTh0UXpwa1VLbi1RX3JlRjZDRExNQmZvV0NtVF9jbXN1YlZpeks3WXdDbUZRb09aLWRMVWNzOFhuX0lfbnl2Wk1SUQ?oc=5"
+    },
+    {
+      "date": "2026-10-03",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "(2nd LD) N. Korea fires ballistic missile amid tensions over DMZ mine blast",
+      "source": "en.yna.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBiNkZoRDZEV1lCVlczMFZ4eldONWRUaVV6alVCS21LNC1QTXdpZlk0dy0xUGhnSUItZlNNU21mTmd3VlpKZ0RQMEkyUGFmWE1NRnNiZnRFcWNTZw?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "DMZ",
-      "count": 92
+      "count": 96
     },
     {
       "place": "Seoul",
-      "count": 15
+      "count": 21
     },
     {
       "place": "Pyongyang",
@@ -2108,7 +2227,7 @@
     },
     {
       "place": "Wonsan",
-      "count": 1
+      "count": 2
     },
     {
       "place": "Yeonpyeong",

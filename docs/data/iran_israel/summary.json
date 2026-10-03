@@ -2,13 +2,13 @@
   "id": "iran_israel",
   "name": "Irán–Israel/EE.UU.",
   "description": "Cobertura mediática del conflicto entre Irán, Israel y Estados Unidos",
-  "updated": "2026-10-02T22:14:27+00:00",
-  "total_articles": 16959,
-  "overall_avg": -0.3238,
+  "updated": "2026-10-03T05:18:56+00:00",
+  "total_articles": 16991,
+  "overall_avg": -0.3239,
   "distribution": {
-    "pos": 3592,
-    "neu": 2539,
-    "neg": 10828
+    "pos": 3598,
+    "neu": 2543,
+    "neg": 10850
   },
   "sources": [
     "Al Jazeera",
@@ -59,11 +59,11 @@
     "The Herald Journal",
     "The New Arab",
     "ABC News - Breaking News, Latest News and Videos",
+    "jpost.com",
     "WANA News Agency",
+    "Axios",
     "The Hindu",
     "Hindustan Times",
-    "jpost.com",
-    "Axios",
     "NewsCord",
     "Tehran Times",
     "New York Post",
@@ -171,10 +171,12 @@
     "Washington Report on Middle East Affairs",
     "The Arkansas Democrat-Gazette",
     "Rediff",
+    "Los Angeles Times",
     "news.cgtn.com",
     "The Muslim News",
     "Caspian Post",
     "Newsweek",
+    "Daily Sabah",
     "middleeasteye.net",
     "eciks.org",
     "cnn.com",
@@ -203,9 +205,7 @@
     "조선일보",
     "reuters.com",
     "Toronto Star",
-    "Los Angeles Times",
     "WRAL",
-    "Daily Sabah",
     "Fair Observer",
     "Responsible Statecraft",
     "muslimnetwork.tv",
@@ -880,7 +880,9 @@
     "Jewish News",
     "ITVX",
     "globalpost.com",
-    "tribune.com.pk"
+    "tribune.com.pk",
+    "Nacionale News",
+    "thecanadianpressnews.ca"
   ],
   "daily": [
     {
@@ -2053,23 +2055,31 @@
     },
     {
       "date": "2026-10-02",
-      "count": 130,
-      "avg": -0.3864,
-      "pos": 22,
-      "neu": 16,
-      "neg": 92
+      "count": 144,
+      "avg": -0.3754,
+      "pos": 26,
+      "neu": 17,
+      "neg": 101
+    },
+    {
+      "date": "2026-10-03",
+      "count": 18,
+      "avg": -0.4603,
+      "pos": 2,
+      "neu": 3,
+      "neg": 13
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 7699,
-      "avg": -0.2902
+      "count": 7714,
+      "avg": -0.2906
     },
     {
       "source": "BBC",
-      "count": 2202,
-      "avg": -0.2873
+      "count": 2209,
+      "avg": -0.2876
     },
     {
       "source": "The Times of Israel",
@@ -2078,8 +2088,8 @@
     },
     {
       "source": "NPR",
-      "count": 660,
-      "avg": -0.2666
+      "count": 661,
+      "avg": -0.267
     },
     {
       "source": "The Guardian",
@@ -2113,8 +2123,8 @@
     },
     {
       "source": "Ynetnews",
-      "count": 121,
-      "avg": -0.3962
+      "count": 122,
+      "avg": -0.4004
     },
     {
       "source": "Haaretz",
@@ -2302,9 +2312,19 @@
       "avg": -0.2578
     },
     {
+      "source": "jpost.com",
+      "count": 24,
+      "avg": -0.0974
+    },
+    {
       "source": "WANA News Agency",
       "count": 23,
       "avg": -0.4538
+    },
+    {
+      "source": "Axios",
+      "count": 21,
+      "avg": -0.2008
     },
     {
       "source": "The Hindu",
@@ -2315,16 +2335,6 @@
       "source": "Hindustan Times",
       "count": 21,
       "avg": -0.4051
-    },
-    {
-      "source": "jpost.com",
-      "count": 21,
-      "avg": -0.1505
-    },
-    {
-      "source": "Axios",
-      "count": 20,
-      "avg": -0.252
     },
     {
       "source": "NewsCord",
@@ -2862,6 +2872,11 @@
       "avg": 0.1773
     },
     {
+      "source": "Los Angeles Times",
+      "count": 5,
+      "avg": -0.6778
+    },
+    {
       "source": "news.cgtn.com",
       "count": 5,
       "avg": -0.2198
@@ -2880,6 +2895,11 @@
       "source": "Newsweek",
       "count": 5,
       "avg": -0.4509
+    },
+    {
+      "source": "Daily Sabah",
+      "count": 5,
+      "avg": -0.4501
     },
     {
       "source": "middleeasteye.net",
@@ -3022,19 +3042,9 @@
       "avg": -0.5836
     },
     {
-      "source": "Los Angeles Times",
-      "count": 4,
-      "avg": -0.6771
-    },
-    {
       "source": "WRAL",
       "count": 4,
       "avg": -0.6525
-    },
-    {
-      "source": "Daily Sabah",
-      "count": 4,
-      "avg": -0.351
     },
     {
       "source": "Fair Observer",
@@ -6410,26 +6420,36 @@
       "source": "tribune.com.pk",
       "count": 1,
       "avg": -0.8316
+    },
+    {
+      "source": "Nacionale News",
+      "count": 1,
+      "avg": -0.25
+    },
+    {
+      "source": "thecanadianpressnews.ca",
+      "count": 1,
+      "avg": -0.6808
     }
   ],
   "top_entities": [
     {
       "name": "Iran",
       "type": "LOCATION",
-      "count": 6654,
-      "avg": -0.442
+      "count": 6664,
+      "avg": -0.4419
     },
     {
       "name": "Israel",
       "type": "LOCATION",
-      "count": 5605,
-      "avg": -0.3791
+      "count": 5611,
+      "avg": -0.3792
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 2515,
-      "avg": -0.3381
+      "count": 2518,
+      "avg": -0.3374
     },
     {
       "name": "Strait of Hormuz",
@@ -6470,8 +6490,8 @@
     {
       "name": "Houthis",
       "type": "ORG",
-      "count": 389,
-      "avg": -0.4235
+      "count": 390,
+      "avg": -0.4249
     },
     {
       "name": "Khamenei",
@@ -6512,8 +6532,8 @@
     {
       "name": "Tel Aviv",
       "type": "LOCATION",
-      "count": 31,
-      "avg": -0.4001
+      "count": 32,
+      "avg": -0.4127
     },
     {
       "name": "IAEA",
@@ -6535,6 +6555,286 @@
     }
   ],
   "recent": [
+    {
+      "title": "Three years, seven fronts and no end in sight: Israel's war grinds on",
+      "source": "Ynetnews",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE56WkJobFRiYW91dEI4MTBNTjVQbUFYV3hpRU96WlBqT2k0bTVpQ28xMHNEVmtwLWtXLVA5Z0JNX0dXRll6c3B0NjJvVWNkalhaMkRIa0FsMElyX3VJRnlLTjNJcUVBRFVhYmwxa1BB?oc=5",
+      "published": "2026-10-03T04:53:54+00:00",
+      "compound": -0.9042,
+      "label": "negative",
+      "entities": [
+        "Israel"
+      ]
+    },
+    {
+      "title": "Brazil’s Lula and Bolsonaro draw thousands as campaigns near end",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/3/brazils-lula-and-bolsonaro-draw-thousands-as-campaigns-near-end?traffic_source=rss",
+      "published": "2026-10-03T04:43:15+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "India vs Pakistan live: Asian Games cricket final",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/liveblog/2026/10/3/india-vs-pakistan-live-asian-games-cricket-final?traffic_source=rss",
+      "published": "2026-10-03T04:30:31+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "India’s Cockroach Party headlines day of anti-establishment protests",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/3/indias-cockroach-party-headlines-day-of-anti-establishment-protests?traffic_source=rss",
+      "published": "2026-10-03T04:28:03+00:00",
+      "compound": 0.3612,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Two Iranians charged over alleged plot targeting Jewish community in UK",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/3/two-iranians-charged-over-alleged-plot-targeting-jewish-community-in-uk?traffic_source=rss",
+      "published": "2026-10-03T03:56:10+00:00",
+      "compound": -0.7506,
+      "label": "negative",
+      "entities": [
+        "Iran"
+      ]
+    },
+    {
+      "title": "G7 nations bow to US pressure and avoid crippling diesel ban",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/3/g7-nations-bow-to-us-pressure-and-avoid-crippling-diesel-ban?traffic_source=rss",
+      "published": "2026-10-03T03:54:58+00:00",
+      "compound": -0.875,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Scoop: Trump's top national security aides meet secretly at Camp David on Iran, Yemen",
+      "source": "Axios",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQ04yLVlmSXJITnRJSzBjNlRlZExWTnJNN0piSlNCaGQ4b053VjBCa2xTd0lVYVYwT29PRVNIckplVTFWWjVYMXNJdmpJWEozRmkzVlNKTk1vbVVmX1Zvd29KNzNOaFZfQU5zOUxuYmdGZkhBN0JmQmJ4ZndLdHZTQTIzMkFpdWsy?oc=5",
+      "published": "2026-10-03T02:59:05+00:00",
+      "compound": 0.8225,
+      "label": "positive",
+      "entities": [
+        "Donald Trump",
+        "Iran"
+      ]
+    },
+    {
+      "title": "Brazil's big political rematch: What to know",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/02/nx-s1-5989727/brazil-election-lula-bolsonaro-flavio-democracy",
+      "published": "2026-10-03T02:57:07+00:00",
+      "compound": -0.4767,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Dominican Republic bans Haiti from its stadiums after football fans clash",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/10/3/dominican-republic-bans-haiti-from-its-stadiums-after-football-fans-clash?traffic_source=rss",
+      "published": "2026-10-03T02:42:26+00:00",
+      "compound": -0.743,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Iran war live: Fighting intensifies in Yemen, hundreds killed or injured",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQa1VIS3ZuMjVWckRFYnZtcHc3cms4NzJwUGxYTUNfcWFTdDU1V2JBbHBreHcxU3RIWUxzQjBVNEowakotTzhtOF9NMzFFRkIyZUxBYkJTM2F4a1NvbWlHdFVvQ0pwaV9hcUlmRkpIS2Etc1JDRnZzQmJLd1JFVndXY1V0cjJFcUwtMTJ2a1ZuT3pLZ0FmWlp3S29ka3I5RE95VjZJVFpXRmFrOFp0LVBPZGpTZmJ1cGg1WWxKUtIBwgFBVV95cUxObzg1V185MmNCZ3V4QnN6NmZFWFo3N0dMMlFzdEFiOUhldTZEZDh4VFlsZ2NBRTI1Vk1vSnhYcTE5Qkd6ekN0SXRQbFY2MGpXX2pUVWFTWUJ3LWNrbDBUZE9QaC1OSm5NNkRlWXFpWEVrbVZlblItZTYzU29QLXZqQ3pYTDZHbkZSTWFUOVhTR0IxYkJLQUUwdEFOX0MzZi1FNVpkQkk0dDhWekk2LXFzNUZwTmlPQWdEYkFQLWgwRk8tZw?oc=5",
+      "published": "2026-10-03T02:28:59+00:00",
+      "compound": -0.9803,
+      "label": "negative",
+      "entities": [
+        "Iran"
+      ]
+    },
+    {
+      "title": "Israeli air attack on Gaza City apartment kills at least five",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/3/israeli-air-attack-on-gaza-city-apartment-kills-at-least-five?traffic_source=rss",
+      "published": "2026-10-03T02:25:23+00:00",
+      "compound": -0.8255,
+      "label": "negative",
+      "entities": [
+        "Israel"
+      ]
+    },
+    {
+      "title": "Cornell frat house rape accuser 'under siege' online, says lawyer",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c6ly0ljypzrdo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-03T02:23:07+00:00",
+      "compound": -0.7589,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Schools ablaze as student protests spread across France",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/3/schools-ablaze-as-student-protests-spread-across-france?traffic_source=rss",
+      "published": "2026-10-03T01:46:10+00:00",
+      "compound": -0.6369,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Pilot stabbing raises aviation security questions, further unsettles a region shaken by US-Iran war",
+      "source": "thecanadianpressnews.ca",
+      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxPa0xWbC0wME9xemQ5SlVrOG5fX2p4d0JsMUljTVoyeTk1THlFbWJxSlFXSzhYREk3a0tkcWQ5Q1psdlZrQW5DUmpoYkVqY3d4RE9pblR2YTYtTHh3UVNoc3JCQklFR0R1dFg3ZnVRemU3a2xmSVcxQmtIZUtqM0g4d1FaWFBtZlJORVdiZFlkM2hjYlB2bV9mRFBiRE9Ra1dhVTRxRjB3c3VPTmc3YkpnOUJ0eGdtOS1tMTFHeUxoenNRSkFpU0ItZHFSWkFlYjNJc3BQNE16ZmZUbXJGMll1bjZBNUVVZ0FWSFFYOTJNZ19VUWFORGIyZ0Q1MUpueGZWVjg1Q0s5cGg2RVVXR19LajZUV0NFVG5sRmlaWXRR?oc=5",
+      "published": "2026-10-03T01:31:05+00:00",
+      "compound": -0.6808,
+      "label": "negative",
+      "entities": [
+        "Iran"
+      ]
+    },
+    {
+      "title": "US and Australia suspend diplomatic operations in Brazil before election",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/3/us-and-australia-suspend-diplomatic-operations-in-brazil-before-election?traffic_source=rss",
+      "published": "2026-10-03T00:46:10+00:00",
+      "compound": -0.6124,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "China's Role in the Iran-US-Israel Conflict Is Becoming Increasingly Important",
+      "source": "Nacionale News",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTkpiNWRnNWdZVDA0LTNtTHJLc3ZxWWszc01QakJXcXBENlpaWnhUdmxSSjBSaEcwa3JMcDJpX2YycVRJc0dqM0J5X0tvT0lZa2JtME1IUGw4VnJoazViQW53OEYtcmZXbnM1OWhibjBJRjYtSkVUZERjZTU5RzZxMVd3?oc=5",
+      "published": "2026-10-03T00:19:46+00:00",
+      "compound": -0.25,
+      "label": "negative",
+      "entities": [
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Live Updates: Latest from Israel, Iran, and the Middle East",
+      "source": "jpost.com",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aZzdJMm40MkJBSkFqclJLSks5U0VRTkZZcXFvOTF3ZjBBaFRsX0NxWUl1LU43dkZjcTFvS3otSlFpaHYyTzdlMFg1UFlGX05INUJkRFQ0am54S0tiRjlER2hsUXhtZUVjUTBySXNUSUt4LTV4SmNEaElSZzJMZE0?oc=5",
+      "published": "2026-10-03T00:00:05+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Iran war live: Fighting intensifies in Yemen, hundreds killed or injured",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/3/iran-war-live-fighting-intensifies-in-yemen-hundreds-killed-or-injured?traffic_source=rss",
+      "published": "2026-10-03T00:00:00+00:00",
+      "compound": -0.9741,
+      "label": "negative",
+      "entities": [
+        "Houthis",
+        "Iran"
+      ]
+    },
+    {
+      "title": "The South African men trying to end violence against women: 'Every man needs to play a part'",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cm3eqegwpzl4o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-02T23:56:21+00:00",
+      "compound": -0.8591,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "North Korea fires ballistic missile towards the sea, South Korea says",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/2/north-korea-fires-ballistic-missile-towards-the-sea-south-korea-says?traffic_source=rss",
+      "published": "2026-10-02T23:55:24+00:00",
+      "compound": -0.5574,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Dutch royal house helped slave trade to survive, study finds",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/2/dutch-royal-house-helped-slave-trade-to-survive-study-finds?traffic_source=rss",
+      "published": "2026-10-02T23:43:50+00:00",
+      "compound": 0.6369,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Could El Niño mean there are no Atlantic hurricanes this year?",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/weather/articles/cwgkvyyg8115o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-02T23:37:13+00:00",
+      "compound": 0.2006,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Women given shorts at Oktoberfest to prevent upskirting",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cjwyzyqvx1zxo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-02T23:16:03+00:00",
+      "compound": 0.5106,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "US road rage killer's sentence quashed because AI video of victim was shown in court",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cwgkvygg5nzvo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-02T23:06:00+00:00",
+      "compound": -0.8957,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "The vanishing world of India's street magicians",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/ck7v4v8pmzdeo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-02T22:59:05+00:00",
+      "compound": -0.4215,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Flydubai pilot recounts cockpit stabbing in call with Indian PM Modi",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/2/flydubai-pilot-recounts-cockpit-stabbing-in-call-with-indian-pm-modi?traffic_source=rss",
+      "published": "2026-10-02T22:50:23+00:00",
+      "compound": -0.802,
+      "label": "negative",
+      "entities": [
+        "Tel Aviv"
+      ]
+    },
+    {
+      "title": "'Switzerland of the Middle East': What is Oman’s relationship with Israel, if any?",
+      "source": "jpost.com",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBjbkh3TXdNUURhcnJDcEJNUnlhX0pOcjBVU2VEdlM2M2JDUHpyR0tSRTRoOTRvVXBneldNRE5SS1pkeUJuM1F2WkE5bk02S0ZzLXdrd1hTcGhaVVhZ?oc=5",
+      "published": "2026-10-02T22:46:36+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Israel"
+      ]
+    },
+    {
+      "title": "Why Carney’s economic overhaul is clashing with Canada’s unions",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/10/2/why-carneys-economic-overhaul-is-clashing-with-canadas-unions?traffic_source=rss",
+      "published": "2026-10-02T22:14:34+00:00",
+      "compound": -0.5106,
+      "label": "negative",
+      "entities": []
+    },
     {
       "title": "Croatia vs England: UEFA Nations League – Kane, Modric, teams, form",
       "source": "Al Jazeera",
@@ -6613,6 +6913,18 @@
       "entities": []
     },
     {
+      "title": "Where does China stand in Iran-US-Israel war?",
+      "source": "Daily Sabah",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMEpyTW9tTEhNMzM4UUtTU0xjblplUzBacV8wRVgxeVJaZzN5MTdPY0tHTWMybGhNc29qUmduSmRFMHhieDRWekYwemlldjJ1UlZINmZlWWlWTDJqUFVCREFNV0w2SXVvSEtnTGNwOV82bDZhNnE1anR6YnJVWnpmWlEwMVZxRzNBOGVrMXpCNmQ?oc=5",
+      "published": "2026-10-02T21:05:00+00:00",
+      "compound": -0.8466,
+      "label": "negative",
+      "entities": [
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
       "title": "Hawaii's iconic 550-year-old Hōlei Sea Arch collapses",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/articles/crd6dy4xepgyo?at_medium=RSS&at_campaign=rss",
@@ -6656,6 +6968,17 @@
       "compound": 0.5256,
       "label": "positive",
       "entities": []
+    },
+    {
+      "title": "Pilot stabbing raises aviation security questions, further unsettles a region shaken by U.S.-Iran war",
+      "source": "Los Angeles Times",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOb1JyWTFORTdDRmF4cV9XbFUxdkZnRDl0T3MxOVRSVEhjSWFKb1BrT3oyWVoyNnVENkdiTFRERVBnMmhob2NTb1JCamFwZjM2aHJZekpIVGR4cFZ5aVl4bWcwVXphb1pLcEk4WGZuc1NLOU1IMWpSbVdobnktME45YWN3X0Y1eVIyZzY1QkNHb1dVRS10V3poZkNHTXhOdldpY2JWdXJGNHFYQXRBajFfSFlCYUVCN0xENkQtSEhTNFVpM1hFMXRlUENTNG5WbHlFWVE0ekpzZHFsUjNQZExOUQ?oc=5",
+      "published": "2026-10-02T20:37:00+00:00",
+      "compound": -0.6808,
+      "label": "negative",
+      "entities": [
+        "Iran"
+      ]
     },
     {
       "title": "US murderer Christa Pike unconscious and on ventilator after failed execution, lawyers say",
@@ -6783,6 +7106,18 @@
       "entities": []
     },
     {
+      "title": "'This is how we win': US counterterrorism chief on Iran, Hamas and Trump’s 'will to act'",
+      "source": "jpost.com",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9sX0lEN25ON1ZmeE5xVHQwUkxYTzRlUkZWNHBfRWRIVzVjbUpRanE2SlhNWF9KT1h1Sl9FaVZOcjk3NFZDb3UwaFVJdGcwTVo2NmpZS3RSRWFNbUxab3BHN3Flbm9QMjB1OFRXeFZ5OFpBd2xfZXFz?oc=5",
+      "published": "2026-10-02T18:37:55+00:00",
+      "compound": 0.8225,
+      "label": "positive",
+      "entities": [
+        "Donald Trump",
+        "Iran"
+      ]
+    },
+    {
       "title": "Israeli barrier cuts off water to West Bank Palestinians before elections",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/10/2/israeli-barrier-cuts-off-water-to-west-bank-palestinians-before-elections?traffic_source=rss",
@@ -6823,316 +7158,6 @@
       "entities": [
         "Iran"
       ]
-    },
-    {
-      "title": "Trump, China & Iran: Is the Middle East Entering a New Power Struggle?",
-      "source": "TV7 Israel News",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE01UW1NODlBQUltUHlwR0lqY3hOYTc1MWhXRzNRYk5JUTJIM2dBY0pCMTNvXzV1OEcwUnZlWjZKNkMtQ0x2dnhMRGJyRXo3aFZKX3k1NEp3M2NUYVZ3ZUwxT0tSc2NDb2xFU3MzakdldkxsM1ZuRlBn?oc=5",
-      "published": "2026-10-02T18:02:32+00:00",
-      "compound": -0.6072,
-      "label": "negative",
-      "entities": [
-        "Donald Trump",
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Woman at centre of Cornell rape inquiry was 'failed' by officials, says New York governor",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cqvg04718lr9o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-02T17:44:08+00:00",
-      "compound": -0.9274,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "‘I want the truth’: NY governor appoints prosecutor in Cornell rape case",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/2/i-want-the-truth-ny-governor-appoints-prosecutor-in-cornell-rape-case?traffic_source=rss",
-      "published": "2026-10-02T17:43:30+00:00",
-      "compound": -0.8271,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Suicide by plane or terrorism? Speculation over motive in flight 1073 attack",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbklOdFBGbUNHY1M1YWE5Z0ppX1FwdjRJZzJqUUt0UG5wUVNMdE1udmtWc1lQWFpycGxLVmJubjdja3B6V2k5RjFWZlJMSjR4TVA4UExSbFUwc29UanBNb0pWRHl3cWVNTjJQMzUwX3U4eURCU2FVOEZzclBmdC02U1JaZXFmVnhzVzNNdk9Paw?oc=5",
-      "published": "2026-10-02T17:41:00+00:00",
-      "compound": -0.9793,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Pilot stabbing further unsettles region shaken by U.S.-Iran war",
-      "source": "PBS",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMlpEWFg0N2tsR1ROY1duSXdGTTJsdGtVUzVBVC02QzZPYm5vZk02VEFESFp4eVFOcklZb0JTV1lLUm9nZmE1TkNYcjlFbS1xUnZHQUYzMkphS0k2X2t0Q3JleWI1YlVmckhvLVZVc2UwYmNlTUlTMVh2Z3h1bnlnOEVZdHpCYnEtMnNGcVNFamRqb0VOQ3g0RzZPY0hKQdIBowFBVV95cUxNUG9xbHZJN0dzb3lOcUNyaG15M2VWUmxHNkk5OE5md0VudnJUdDNfSW01OXdlcnM3OXB0Q1l6bHh6NE5oS1VyV3hzcUdmWkdCeHhxQmMyMVN6WjZJOEhjM3YxNUY1ZEZMUlFLVEVOVm5DVkZ3ZFNpejQzQ2pIcExrTmgyZTJjbHRNbC1nWWlOZUhxVHNoMzMtejlJNmctOXRKUndB?oc=5",
-      "published": "2026-10-02T17:39:10+00:00",
-      "compound": -0.8555,
-      "label": "negative",
-      "entities": [
-        "Iran"
-      ]
-    },
-    {
-      "title": "Jerusalem Daily: Who gets to run in Israel’s elections?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/jerusalem-daily-who-gets-to-run-in-israels-elections?traffic_source=rss",
-      "published": "2026-10-02T17:30:06+00:00",
-      "compound": 0.3182,
-      "label": "positive",
-      "entities": [
-        "Israel",
-        "Jerusalem"
-      ]
-    },
-    {
-      "title": "How Iran surprised the world?",
-      "source": "Tehran Times",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBnNjBtaTFEQVM5ay1pVDdGbnNVZE9RSm11TWFrUDFuNEQtSzU4X1YzYVpONWktMUk4VTBETVQ3Z3VrNWZLNkNjMXhZYllCZGtjTjN3Y3NvUXhDV2hsMTcxdERXbVllbnBGdUFsTDdIeEZVb2VZenU4?oc=5",
-      "published": "2026-10-02T17:21:11+00:00",
-      "compound": 0.4871,
-      "label": "positive",
-      "entities": [
-        "Iran",
-        "Tehran"
-      ]
-    },
-    {
-      "title": "How the Banco Master scandal injected chaos into Brazil’s presidential race",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/longform/2026/10/2/how-the-banco-master-scandal-injected-chaos-into-brazils-presidential-race?traffic_source=rss",
-      "published": "2026-10-02T16:36:38+00:00",
-      "compound": -0.8591,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Taiwan Coast Guard confronts Chinese fishing boats in Dongsha waters",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/aje-onl-nf_taiwan-coast-guard-fires-water-cannon-on-chinese-021026?traffic_source=rss",
-      "published": "2026-10-02T16:23:02+00:00",
-      "compound": -0.2263,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "US adds just 29,000 jobs as unemployment rises before midterm elections",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/10/2/us-job-growth-slows-as-unemployment-rises-before-midterm-elections?traffic_source=rss",
-      "published": "2026-10-02T16:20:46+00:00",
-      "compound": -0.7003,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Three in four households go hungry in parts of Yemen amid fighting: UN",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/2/three-in-four-households-go-hungry-in-parts-of-yemen-amid-fighting-un?traffic_source=rss",
-      "published": "2026-10-02T16:06:25+00:00",
-      "compound": -0.8934,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Trump to name intelligence chief Jay Clayton as AI tsar: Reports",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/2/reports-trump-to-name-intel-chief-clayton-as-ai-tsar?traffic_source=rss",
-      "published": "2026-10-02T16:06:15+00:00",
-      "compound": 0.4767,
-      "label": "positive",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Does the punishment fit the crime? Controversy erupts around ‘Cornell 7’",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/does-the-punishment-fit-the-crime-controversy-erupts-around-cornell?traffic_source=rss",
-      "published": "2026-10-02T16:02:39+00:00",
-      "compound": -0.8402,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Co-Pilot's Terror Attack on Israel-Bound Flight Probes Iran Ties",
-      "source": "조선일보",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOR0JpaVEzbzItWWZCM2VjcURWQTFFNjY4elFYbDNIR181UE05ZUtDNHZENFUtTktDZERyVFNPQ08xOTFITTZkMmNRd0d4Mlh1a0NuTlQ5MllEd1NUeHpKTndjeWRyQlVVTXdlU2JjQ0xTVVNfTWtCbGZLNjcwMW9pakM4Nmg?oc=5",
-      "published": "2026-10-02T15:46:37+00:00",
-      "compound": -0.9186,
-      "label": "negative",
-      "entities": [
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Spanish PM Sánchez loses key housing crisis vote after eviction of woman, 87",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c623dlk4y75mo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-02T15:30:12+00:00",
-      "compound": -0.9337,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Intensified Russian strikes are tearing Kyiv apart, warns mayor",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c6wyv44y4ywjo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-02T15:26:37+00:00",
-      "compound": -0.6369,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Cloaked in anonymity, Israeli soldiers describe mass civilian killings in 'NAZA'",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/02/nx-s1-5987714/naza-review-israel-palestine",
-      "published": "2026-10-02T14:37:27+00:00",
-      "compound": -0.7269,
-      "label": "negative",
-      "entities": [
-        "IDF",
-        "Israel"
-      ]
-    },
-    {
-      "title": "I've seen nearly 500 executions - but never one like Christa Pike's",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c6d949gq47x9o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-02T14:01:09+00:00",
-      "compound": 0.4186,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Netanyahu warns of 'very heavy price' if any country found to be behind FlyDubai incident",
-      "source": "France 24",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUmFVNzRkZTctei1tdWYtaG54bkd0dVV3VFViRDBmd0FtZEpCaGtxdlJfNkc0RG9pcjV4YnhweDNNQUpBSlRHVFZxS2tzRkFBUVNjOV82Y0NBWlF6QkY5d2tIYmNLanc5SEZ0N0lLYVhkd0VvczgxOUNSOGtCZ3BERFBmYy0yV01pT1RsSGFQWWlYQ1djdGFZNWVKeER4M1hXenIwbUVqdTdCX3Y3THpSV01jekZMOXJoTktNREdrN25aXzJaZDJGZUtOeURXNmpRYUE?oc=5",
-      "published": "2026-10-02T13:55:35+00:00",
-      "compound": -0.2023,
-      "label": "negative",
-      "entities": [
-        "Benjamin Netanyahu"
-      ]
-    },
-    {
-      "title": "Trump says Iran behind failed flydubai hijack attempt ‘based on what I’m hearing’",
-      "source": "New York Post",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQXY0NGdIX2JFX041aHVpQjg2YW5JZDJBWTU1U3dEQ2k5MExqbVk0ajAyUVl2Z21uMncyYmpOZGtkdGtDZUROV2tUdk5scmhIdFU1SUlHMF9TYkVkUFdrRC1mV25OY2NzOTA3SVRxT0ZWeEhSMWpDQ0owV09IVWh4TmJtOGFSdGFXSmJ4NVdfWFNTZnNGMzMybFRlT3NNb3BqbnVNdHluTllab29fUVdFcmczTWR0X3V5eGZsZnJSRGVIellxZTB5ZEFMSU9mVlM4bk13aENn?oc=5",
-      "published": "2026-10-02T13:30:01+00:00",
-      "compound": -0.765,
-      "label": "negative",
-      "entities": [
-        "Donald Trump",
-        "Iran"
-      ]
-    },
-    {
-      "title": "School protests send shivers down French government's spine",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c69wzjjxex8po?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-02T12:43:02+00:00",
-      "compound": -0.5574,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Detained Palestinian-American journalist with NC ties released on bail by Israel",
-      "source": "reflector.com",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNQ1h3LUVoMEYzWUg4b1A4MWRpX040dW5kWUhCQUk3YlE2c05jaG4xeVFONUp3ZDUzbjhVVkVXUUFqQzJpODY4RFBXTUZyNU5QWW1xNnJwMXR4Z3VrcThrLUNJeHg5SnNUQlRzTXJEd2NsOEh2MXgyNWxTc19mWVdoSWFMQ1BBalRxQVBjaWtLWWNtOUp6SFZiV3FkdThrU3g1VjItVTdGRHh2ZG16Y1pVTEZSeUlkNExXUVlxU2FYQndadUE4Z1dvN0MtSjNxUy1nUEZpN1NvRFZNZDZnaXJ2dVlhd3FldDBuSEhIcnFya0hybnFyYWpmYXhkSQ?oc=5",
-      "published": "2026-10-02T12:31:00+00:00",
-      "compound": -0.6597,
-      "label": "negative",
-      "entities": [
-        "Israel"
-      ]
-    },
-    {
-      "title": "Tunisia softens its ‘false news’ penalty. What really changed, and why now?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/2/tunisia-softens-its-false-news-penalty-what-really-changed-and-why-now?traffic_source=rss",
-      "published": "2026-10-02T12:03:20+00:00",
-      "compound": -0.7783,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "What’s behind France’s school protests?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/2-10-reported-natascha-paris-school-fr?traffic_source=rss",
-      "published": "2026-10-02T11:42:52+00:00",
-      "compound": -0.4215,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Washington’s diplomacy in Sudan has backfired",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/opinions/2026/10/2/washingtons-diplomacy-in-sudan-has-backfired?traffic_source=rss",
-      "published": "2026-10-02T11:41:45+00:00",
-      "compound": -0.6369,
-      "label": "negative",
-      "entities": [
-        "United States"
-      ]
-    },
-    {
-      "title": "Support for Merz plunges after CDU’s losses to Germany’s right and left",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/2/just-one-in-10-germans-thinks-merz-is-up-to-the-job-after-election-wipeout?traffic_source=rss",
-      "published": "2026-10-02T11:31:15+00:00",
-      "compound": -0.2023,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "FlyDubai pilot describes opening cockpit door during attack",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/flydubai-pilot-describes-opening-cockpit-door-during-attack?traffic_source=rss",
-      "published": "2026-10-02T11:23:27+00:00",
-      "compound": -0.8442,
-      "label": "negative",
-      "entities": [
-        "Israel"
-      ]
-    },
-    {
-      "title": "‘Containerabad’: Pakistan’s capital and truckers bleed money amid lockdown",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/2026/10/2/containerabad-pakistans-capital-and-truckers-bleed-money-amid-lockdown?traffic_source=rss",
-      "published": "2026-10-02T11:22:57+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Cornell rape case gets special prosecutor. And, Renee Good's family sues the government",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/02/g-s1-146075/up-first-newsletter-cornell-assault-case-christa-pike-jobs-report-renee-good",
-      "published": "2026-10-02T11:22:38+00:00",
-      "compound": -0.7506,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "India vs Pakistan cricket: Asian Games gold medal final – all to know",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/10/2/india-pakistan-cricket-final-asian-games-cricket-gold-medal?traffic_source=rss",
-      "published": "2026-10-02T11:12:31+00:00",
-      "compound": 0.4767,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Explosions reported near military airport in Syria’s Idlib province",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/10-2-syria-explosion-clip?traffic_source=rss",
-      "published": "2026-10-02T11:00:20+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
     }
   ]
 }

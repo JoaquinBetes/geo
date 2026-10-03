@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-10-03T11:40:18+00:00",
+  "updated": "2026-10-03T16:18:22+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -46,9 +46,9 @@
     "to": "2026-10-03"
   },
   "kpis": {
-    "events_total": 184,
-    "events_unlocated": 2372,
-    "events_7d": 95,
+    "events_total": 188,
+    "events_unlocated": 2393,
+    "events_7d": 99,
     "events_prev_7d": 25,
     "hottest_place": "DMZ"
   },
@@ -442,12 +442,12 @@
     },
     {
       "date": "2026-10-03",
-      "total": 14,
-      "strike": 14,
+      "total": 18,
+      "strike": 18,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
-      "anomaly": false
+      "anomaly": true
     }
   ],
   "events": [
@@ -2290,16 +2290,56 @@
       "title": "North Korea launches ballistic missile after Seoul demands apology over wounded soldiers",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/oct/03/north-korea-launches-ballistic-missile-after-seoul-demands-apology-over-wounded-soldiers"
+    },
+    {
+      "date": "2026-10-03",
+      "type": "strike",
+      "place": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "title": "North Korea fires ballistic missile into East Sea, South Korea says",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb1hwSU50eTEyejRKcV93MldTRVF5NHVOY1BBaDVFTVhIZGx6QnRidW9hQllEb29tazBtQ1EyaVBsQXRBT0syN2lyOXVXV1VGc19rbGpvZDNxX0dZSXZ5VHBKU2NYeldpMGlVVDJWSDN3Uk9BSy1sbkNKUzRGLTNIU0JhMjNkVnhpRU1oOFNvc2NIQThxSndfUjF1UlBEVDZ6ajVXWUF30gGrAUFVX3lxTE1Oam81eWlHT1pBT01SOUFBUVVhY1pUUkM1aVNEZWZSWTdJQk96ekcyeENmMC1VOUtJZUQ1MzZ1YTctWGNUalNyblNIaU56bEU2WkdtUF8yWUJoODJTVkJQNHZjYXppalJGYXlOVW8xdHlwV1dIeU1TMUFqb2FPYjk3eUNRSXQyZTIyOGlMdW5rN19NUGQ1dFZXZFowa0lEVnVVTGdOajlrWmRKaw?oc=5"
+    },
+    {
+      "date": "2026-10-03",
+      "type": "strike",
+      "place": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "title": "North Korea mocks Seoul, Tokyo over alleged failure to track missile",
+      "source": "NK News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRWtqMHhuVmQxY25sLTdQNXNOVlRRenpXSloxUWEydnhucHFSeGItd2RsMGxSbk41MmZvcDFaQVRfQ0NpOWRaNUd3OF9tZkcxdUp5S2R2X1k0TkM5cWpzSW5ySG85dllBYW4xQWFqdFZPVzBoZHk5QkZrdGpyQWNCN1U1dEw1R3ZGemozZnNPMks2ZnFubXZkcGZ2U3FPdjJH?oc=5"
+    },
+    {
+      "date": "2026-10-03",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "South Korea: Explosions in the DMZ threaten hopes for renewed dialogue with North Korea",
+      "source": "Le Monde.fr",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQemY2Z2d3Z0pwTl92cXVzdEVGcWpGMnRMdGl1OVpPOHNtcmxnbldKQmZ5MEJWc3NmaTFoYXRDYmhQZ0pKaTBVQTFkSk1VLUgyRURMZDd4dC14Q1RFNFYzU1k2aFQ2LWtRbUxEYWRTZlp0eTRMd2I2ZmFwcko4cGZlYWU2ajdHTHFPdVE4MXZEYUFBcWd0VWF0ZExHMHNxeDZEUTA1enpSaUYyZXpIdDF6RU9LRnktX3hkMTNKUjNFSUhMTDcweTgxWXo0UWxuT3JnX0E5Z1RvMFQwOVVkNE9XSGt1dXNyelZFXzRYSlcwVWVkZw?oc=5"
+    },
+    {
+      "date": "2026-10-03",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "North Korea tests AI-powered strategic missile as Seoul-Pyongyang DMZ tensions escalate",
+      "source": "The News International",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOLTdIVUZ5Sjd2WS1Yc3dJeld0YXNRbU5KZkx5dmF2VWI0RllMaHFrLVhaQjQ2dEQyUDRkSWZjTDBTaEFDd09tLW5uenFXb2Z6VkxUOEpydU40eU1DS1hxQlJRYzhFZTJQSTl1WTNTb1dhTHdCMUEtQ05BLW5ja2xFODl4Y081VmRHSHpjRHVUQjRsek1HSXUwYU82djJNeWNSbW44MVNQZF9XOWJTRDZWaEVIWHc5UFYtb0Q4dG5FRmpxYjl2M3BteNIBxAFBVV95cUxQTXd5MlU3b2RENXY4SVljVnVEajRnWTQxSWh3Vk50ZkFPLXZTWlI1czh4b0ptVk5NQ3dlWTdZYkVUVHNEWGRUR01ISWxPVjh4ZXdNM0lzTEhPdVBGRGoyY0hHOGIwU2Z1d1pUcjdTZHp2REtnR19NRHkwSHNUdnlFcm1vR0x0NXZVc2cwanpDYjdRWFRGVFp4ZlhRQWFrRGE1c0dhOHVUNFN3aHhxMV9kRXA5ODdTbEJfaHA2ZUlDdUdOLTQ2?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "DMZ",
-      "count": 99
+      "count": 101
     },
     {
       "place": "Seoul",
-      "count": 26
+      "count": 28
     },
     {
       "place": "Pyongyang",

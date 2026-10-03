@@ -1,6 +1,6 @@
 {
   "id": "china_taiwan",
-  "updated": "2026-10-03T11:40:06+00:00",
+  "updated": "2026-10-03T16:18:09+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -46,9 +46,9 @@
     "to": "2026-10-03"
   },
   "kpis": {
-    "events_total": 72,
-    "events_unlocated": 1750,
-    "events_7d": 4,
+    "events_total": 73,
+    "events_unlocated": 1755,
+    "events_7d": 5,
     "events_prev_7d": 4,
     "hottest_place": "Taipei"
   },
@@ -489,6 +489,15 @@
       "date": "2026-10-02",
       "total": 2,
       "strike": 2,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-03",
+      "total": 1,
+      "strike": 1,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -1215,12 +1224,22 @@
       "title": "Workers at Taiwan snack maker Kuai Kuai extend strike over relocation",
       "source": "Taipei Times",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBQZzU2SHgzM0FDVHlHUnplMG56OVZod2M1NXl6YlpQT2pIeURFMm9jLVV0X0JKQTlRX3RjVUFRNW5pbno3X2w2dU1wQzJ2RmI4MEFpTjd2b3FqQk1ka3RxYnVqVHN0WWJPZjJxcjVlRHk3cUhUVkdES1ZB?oc=5"
+    },
+    {
+      "date": "2026-10-03",
+      "type": "strike",
+      "place": "Taipei",
+      "lat": 25.033,
+      "lon": 121.5654,
+      "title": "Drones developed by US-Taiwan collaboration unveiled",
+      "source": "Taipei Times",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1TYi1FYzdGNDRUT1pZQnRfQnBJejlLbHpoMnE4U3NpQUxVUUJUWHUwVGdoRk1UWmJTaTQzdG5FaHVJMUw0VDUwMTNtaUZfR3VGQVlBUUMtQjJ3S2xpam9MWTRNVUo5TWpscEJQUGw4N05xbkFpdVVpb3FB?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Taipei",
-      "count": 14
+      "count": 15
     },
     {
       "place": "Beijing",

@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-10-03T21:15:00+00:00",
+  "updated": "2026-10-04T05:53:41+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -38,13 +38,13 @@
   },
   "window": {
     "from": "2026-02-27",
-    "to": "2026-10-03"
+    "to": "2026-10-04"
   },
   "kpis": {
-    "events_total": 514,
-    "events_unlocated": 2313,
+    "events_total": 515,
+    "events_unlocated": 2315,
     "events_7d": 10,
-    "events_prev_7d": 14,
+    "events_prev_7d": 12,
     "hottest_place": "Strait of Hormuz"
   },
   "daily": [
@@ -860,6 +860,15 @@
     },
     {
       "date": "2026-10-02",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-04",
       "total": 1,
       "strike": 1,
       "ground": 0,
@@ -5998,16 +6007,26 @@
       "title": "Iran war live: US moves 2,000 Marines to Middle East, tanker hit in Hormuz",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/liveblog/2026/10/2/iran-war-live-us-moves-2000-marines-to-middle-east-tanker-hit-in-hormuz?traffic_source=rss"
+    },
+    {
+      "date": "2026-10-04",
+      "type": "strike",
+      "place": "Sanaa",
+      "lat": 15.3694,
+      "lon": 44.191,
+      "title": "Iran war live: Yemeni forces strike Sanaa as Trump warns Tehran of hard way",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/4/iran-war-live-yemeni-forces-strike-sanaa-as-trump-warns-tehran-of-hard-way?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 41
+      "count": 39
     },
     {
       "place": "Tehran",
-      "count": 24
+      "count": 21
     },
     {
       "place": "Bab el-Mandeb",
@@ -6023,11 +6042,7 @@
     },
     {
       "place": "Sanaa",
-      "count": 3
-    },
-    {
-      "place": "Tel Aviv",
-      "count": 2
+      "count": 4
     },
     {
       "place": "Baghdad",

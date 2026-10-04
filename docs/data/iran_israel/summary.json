@@ -2,13 +2,13 @@
   "id": "iran_israel",
   "name": "Irán–Israel/EE.UU.",
   "description": "Cobertura mediática del conflicto entre Irán, Israel y Estados Unidos",
-  "updated": "2026-10-03T21:14:57+00:00",
-  "total_articles": 17089,
-  "overall_avg": -0.3248,
+  "updated": "2026-10-04T05:53:38+00:00",
+  "total_articles": 17122,
+  "overall_avg": -0.3246,
   "distribution": {
-    "pos": 3612,
-    "neu": 2550,
-    "neg": 10927
+    "pos": 3622,
+    "neu": 2554,
+    "neg": 10946
   },
   "sources": [
     "Al Jazeera",
@@ -42,8 +42,8 @@
     "The Washington Post",
     "cbn.com",
     "Iran International",
-    "timesofisrael.com",
     "Yahoo",
+    "timesofisrael.com",
     "India Today",
     "Muslim Network TV",
     "aljazeera.com",
@@ -884,7 +884,8 @@
     "Nacionale News",
     "thecanadianpressnews.ca",
     "Foreign Affairs",
-    "wdef.com"
+    "wdef.com",
+    "juancole.com"
   ],
   "daily": [
     {
@@ -2049,9 +2050,9 @@
     },
     {
       "date": "2026-10-01",
-      "count": 196,
-      "avg": -0.3791,
-      "pos": 36,
+      "count": 197,
+      "avg": -0.3745,
+      "pos": 37,
       "neu": 25,
       "neg": 135
     },
@@ -2065,33 +2066,41 @@
     },
     {
       "date": "2026-10-03",
-      "count": 105,
-      "avg": -0.4702,
-      "pos": 15,
-      "neu": 8,
-      "neg": 82
+      "count": 116,
+      "avg": -0.449,
+      "pos": 17,
+      "neu": 10,
+      "neg": 89
+    },
+    {
+      "date": "2026-10-04",
+      "count": 21,
+      "avg": -0.2621,
+      "pos": 7,
+      "neu": 2,
+      "neg": 12
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 7769,
-      "avg": -0.2916
+      "count": 7788,
+      "avg": -0.2912
     },
     {
       "source": "BBC",
-      "count": 2222,
-      "avg": -0.289
+      "count": 2226,
+      "avg": -0.2891
     },
     {
       "source": "The Times of Israel",
-      "count": 697,
-      "avg": -0.2901
+      "count": 699,
+      "avg": -0.2913
     },
     {
       "source": "NPR",
-      "count": 661,
-      "avg": -0.267
+      "count": 665,
+      "avg": -0.2667
     },
     {
       "source": "The Guardian",
@@ -2105,8 +2114,8 @@
     },
     {
       "source": "The Jerusalem Post",
-      "count": 362,
-      "avg": -0.2338
+      "count": 363,
+      "avg": -0.2332
     },
     {
       "source": "Israel National News",
@@ -2195,8 +2204,8 @@
     },
     {
       "source": "Middle East Eye",
-      "count": 44,
-      "avg": -0.4803
+      "count": 45,
+      "avg": -0.4899
     },
     {
       "source": "PressTV",
@@ -2229,14 +2238,14 @@
       "avg": -0.2993
     },
     {
+      "source": "Yahoo",
+      "count": 35,
+      "avg": -0.423
+    },
+    {
       "source": "timesofisrael.com",
       "count": 35,
       "avg": -0.4003
-    },
-    {
-      "source": "Yahoo",
-      "count": 34,
-      "avg": -0.451
     },
     {
       "source": "India Today",
@@ -6442,26 +6451,31 @@
       "source": "wdef.com",
       "count": 1,
       "avg": -0.6597
+    },
+    {
+      "source": "juancole.com",
+      "count": 1,
+      "avg": -0.9042
     }
   ],
   "top_entities": [
     {
       "name": "Iran",
       "type": "LOCATION",
-      "count": 6686,
+      "count": 6692,
       "avg": -0.4423
     },
     {
       "name": "Israel",
       "type": "LOCATION",
-      "count": 5643,
+      "count": 5651,
       "avg": -0.38
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 2525,
-      "avg": -0.3377
+      "count": 2528,
+      "avg": -0.3372
     },
     {
       "name": "Strait of Hormuz",
@@ -6472,8 +6486,14 @@
     {
       "name": "Benjamin Netanyahu",
       "type": "PERSON",
-      "count": 727,
-      "avg": -0.346
+      "count": 728,
+      "avg": -0.3448
+    },
+    {
+      "name": "Tehran",
+      "type": "LOCATION",
+      "count": 580,
+      "avg": -0.5485
     },
     {
       "name": "United States",
@@ -6482,28 +6502,22 @@
       "avg": -0.2395
     },
     {
-      "name": "Tehran",
-      "type": "LOCATION",
-      "count": 579,
-      "avg": -0.548
-    },
-    {
       "name": "Jerusalem",
       "type": "LOCATION",
-      "count": 465,
-      "avg": -0.2268
+      "count": 466,
+      "avg": -0.2264
     },
     {
       "name": "Saudi Arabia",
       "type": "LOCATION",
-      "count": 451,
-      "avg": -0.2929
+      "count": 453,
+      "avg": -0.2946
     },
     {
       "name": "Houthis",
       "type": "ORG",
-      "count": 392,
-      "avg": -0.4239
+      "count": 395,
+      "avg": -0.4234
     },
     {
       "name": "Khamenei",
@@ -6568,6 +6582,306 @@
   ],
   "recent": [
     {
+      "title": "West Indies beat India in record chase as Hope hits 162 in third ODI",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/10/4/west-indies-beat-india-in-record-chase-as-hope-hit-162-in-third-odi?traffic_source=rss",
+      "published": "2026-10-04T05:28:38+00:00",
+      "compound": 0.4404,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Widespread damage after huge hailstones pound Paraguay capital",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/widespread-damage-after-huge-hailstones-pound-paraguay-capital?traffic_source=rss",
+      "published": "2026-10-04T05:14:13+00:00",
+      "compound": -0.2263,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Somalia President: Houthis ‘not in a position’ to bring Yemen peace",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/somalia-president-houthis-not-in-a-position-to-bring-yemen-peace?traffic_source=rss",
+      "published": "2026-10-04T05:00:40+00:00",
+      "compound": 0.2732,
+      "label": "positive",
+      "entities": [
+        "Houthis"
+      ]
+    },
+    {
+      "title": "Live Updates: Latest from Israel, Iran, and the Middle East",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nMi1hbDF1SG9RT0h0M2hPX0lZbnJrdmtzS3czdmVDeVRHYjhsMXpINWlES3pndmxtMUZqZ285M3dJRU9FUXI3VlhrbVFtTjBmNk4wMW1neWhQaWhzdHhrVlZTZGxMZDFDUTBtcThGUV9wZThGZXBCVWllVmVDZFU?oc=5",
+      "published": "2026-10-04T05:00:05+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Iran",
+        "Israel",
+        "Jerusalem"
+      ]
+    },
+    {
+      "title": "Bosnia general election 2026 explained in maps and charts",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/4/bosnia-general-election-2026-explained-in-maps-and-charts?traffic_source=rss",
+      "published": "2026-10-04T04:58:50+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Rare tornado whips through small Australian town",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/videos/c69qzvggzppro?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-04T04:15:36+00:00",
+      "compound": -0.5106,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Trump defiant about midterm chances as he rallies for Republicans in Ohio",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/4/trump-defiant-about-midterm-chances-as-he-rallies-for-republicans-in-ohio?traffic_source=rss",
+      "published": "2026-10-04T04:10:17+00:00",
+      "compound": 0.25,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Saudi-backed Yemeni army says 700 Houthis killed in 24 hours",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/saudi-backed-yemeni-army-says-700-houthis-killed-in-24-hours?traffic_source=rss",
+      "published": "2026-10-04T04:09:13+00:00",
+      "compound": -0.9201,
+      "label": "negative",
+      "entities": [
+        "Houthis",
+        "Saudi Arabia"
+      ]
+    },
+    {
+      "title": "The Iran War can only End if Israel and the US Stop trying to Strangle Iran",
+      "source": "juancole.com",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FWWY1enRsQ3ZCdWZKcGdZOUFlQmVibTdtODJSQVFXY183TWxLR3dkVlpyS3JlSWk3bWRCTzZQYi1yYVdUckJHbHVESEZFSEhKbjNqVXRzWDBRTWlrU1FDU2lZVWEtRUZlREpkZw?oc=5",
+      "published": "2026-10-04T04:06:12+00:00",
+      "compound": -0.9042,
+      "label": "negative",
+      "entities": [
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Pick-up truck overturns trying to carry military chopper in Russia",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/pick-up-truck-overturns-trying-to-carry-military-chopper-in-russia?traffic_source=rss",
+      "published": "2026-10-04T04:06:05+00:00",
+      "compound": -0.5256,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Iran arrests 31 people linked to 'US-Israel sabotage networks', report says",
+      "source": "Middle East Eye",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPS0RpdGUwdFRHM1FmSjFuSFBrWUZGckNvR1Vsci1CUG9XMTVvSlFLOWJmRmh4SjhhdVBxS3JUa1JXbVkwNDRFdVd2cHN2cTB2YWtyUU9Sc0hBcU5VY3praWFNdWtJR1ktcVhxbGhrVXVCOENfODRhTUw2SllEOVgtVjhPY3F3NFVLc2V3Wl9fZXg0WDdIbk5MNUE4X05YdzI3TEM5OG1WZWg3WC1oTmRoblRzWTZ6SGJLZmt5ZjJQLU5DRjZtVTJLTElCWWdNN2N5SEdFRFQxQXNycUNRcHNWNmRWMnR6SExhbGtiZjhhSTZUN2J3RmxvWEV4S3pFQlJLMkl0YQ?oc=5",
+      "published": "2026-10-04T03:41:00+00:00",
+      "compound": -0.9118,
+      "label": "negative",
+      "entities": [
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Houthis claim strike on Aramco site as Yemen fighting intensifies",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/4/houthis-claim-strike-on-saudi-energy-facility-as-yemen-fighting-intensifies?traffic_source=rss",
+      "published": "2026-10-04T03:33:49+00:00",
+      "compound": -0.4215,
+      "label": "negative",
+      "entities": [
+        "Houthis",
+        "Saudi Arabia"
+      ]
+    },
+    {
+      "title": "Ballots reach remote Indigenous Brazilians ahead of presidential election",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/ballots-reach-remote-indigenous-brazilians-ahead-of-presidential-election?traffic_source=rss",
+      "published": "2026-10-04T02:57:48+00:00",
+      "compound": 0.2263,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Zimbabweans struggle to rebuild after fleeing xenophobia in South Africa",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/4/zimbabweans-struggle-to-rebuild-after-fleeing-xenophobia-in-south-africa?traffic_source=rss",
+      "published": "2026-10-04T01:55:46+00:00",
+      "compound": -0.4215,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Ethiopian government troops seize Tigray’s capital Mekelle",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/ethiopian-government-troops-seize-tigrays-capital-mekelle?traffic_source=rss",
+      "published": "2026-10-04T01:41:28+00:00",
+      "compound": -0.3612,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Cornell president vows transparency amid outrage over fraternity rape case",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/4/cornell-president-vows-transparency-amid-outrage-over-fraternity-rape-case?traffic_source=rss",
+      "published": "2026-10-04T01:15:58+00:00",
+      "compound": -0.8887,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Serbian populist leader Vucic launches campaign for prime minister",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/4/serbian-populist-leader-vucic-launches-campaign-for-prime-minister?traffic_source=rss",
+      "published": "2026-10-04T00:26:22+00:00",
+      "compound": 0.1779,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Cornell president says university 'must do better' after frat house rape allegations",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/ckly0leelnz4o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-04T00:11:25+00:00",
+      "compound": -0.8999,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Mamdani, Irish PM play bingo, ‘split the G’ in New York",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/mamdani-irish-pm-play-bingo-split-the-g-in-new-york?traffic_source=rss",
+      "published": "2026-10-04T00:07:25+00:00",
+      "compound": 0.5859,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Brazil’s Lula and Bolsonaro close campaigns ahead of critical election",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/4/brazils-lula-and-bolsonaro-close-campaigns-ahead-of-critical-election?traffic_source=rss",
+      "published": "2026-10-04T00:07:12+00:00",
+      "compound": 0.3612,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Iran war live: Yemeni forces strike Sanaa as Trump warns Tehran of hard way",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/4/iran-war-live-yemeni-forces-strike-sanaa-as-trump-warns-tehran-of-hard-way?traffic_source=rss",
+      "published": "2026-10-04T00:00:29+00:00",
+      "compound": -0.8271,
+      "label": "negative",
+      "entities": [
+        "Donald Trump",
+        "Iran",
+        "Tehran"
+      ]
+    },
+    {
+      "title": "Why pastors may not be seen - or heard - preaching on Ghana's buses for much longer",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cwnvln99v2ygo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-03T23:37:46+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Why Canada is preparing for a (long shot) US invasion",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c9m2mjj3yvg4o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-03T23:30:06+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Debris from missing medical plane found, US coastguard says",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/3/air-ambulance-missing-on-flight-from-bermuda-to-boston?traffic_source=rss",
+      "published": "2026-10-03T23:03:44+00:00",
+      "compound": -0.296,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Pelosi-backed US candidate calls for ‘full arms embargo’ on Israel",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/3/pelosi-backed-us-candidate-calls-for-full-arms-embargo-on-israel?traffic_source=rss",
+      "published": "2026-10-03T22:43:58+00:00",
+      "compound": 0.6369,
+      "label": "positive",
+      "entities": [
+        "Israel"
+      ]
+    },
+    {
+      "title": "For some Brazilians, this election is a vote on Trump",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/03/nx-s1-5989699/for-some-brazilians-this-election-is-a-vote-on-trump",
+      "published": "2026-10-03T21:57:36+00:00",
+      "compound": 0.7964,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "France arrests 5,000 people, mostly teens, as school protests spread",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/03/nx-s1-5989532/france-arrests-5-000-people-mostly-teens-as-school-protests-spread",
+      "published": "2026-10-03T21:57:35+00:00",
+      "compound": -0.875,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "U.S. withdrawal from Iraq is complete",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/03/nx-s1-5987758/u-s-withdrawal-from-iraq-is-complete",
+      "published": "2026-10-03T21:57:33+00:00",
+      "compound": -0.34,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Lula or Bolsonaro? Some Brazilian voters say they don't want either",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/03/nx-s1-5981108/lula-or-bolsonaro-some-brazilian-voters-say-they-dont-want-either",
+      "published": "2026-10-03T21:57:29+00:00",
+      "compound": -0.4628,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Israeli settlers attack Palestinian farmers during olive harvest",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/2026/10/3/israeli-settlers-attack-palestinian-farmers-during-olive-harvest-2?traffic_source=rss",
+      "published": "2026-10-03T21:15:05+00:00",
+      "compound": -0.7351,
+      "label": "negative",
+      "entities": [
+        "Israel"
+      ]
+    },
+    {
       "title": "Fernandes denies Portugal rift, hails Ronaldo after walk out",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/3/fernandes-denies-portugal-rift-hails-ronaldo-after-walk-out?traffic_source=rss",
@@ -6575,6 +6889,18 @@
       "compound": -0.6808,
       "label": "negative",
       "entities": []
+    },
+    {
+      "title": "Iranian rial at new record low, just days after previous nadir",
+      "source": "The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZ193VlVER21GNDRkR1NOSGhTeXZ6WVBsVzQ0NDJIelNHNUpfUTFqLUV2eHgwWENIZkdSSXk4OF9NbVFrRWxITW5udkVQM2R3NExmWEpubk5Ib0t1MDVUdkU1b2w4R3FnZUJhOHNQOHRIS0Z6Q0tTektVbFY0bXNBSEdJdldkNVZXajVRYnVKV21FTmdZeTVn0gGcAUFVX3lxTE4yYlh6Ym1ValBtZ2VwM2hHSzFJejB4cUplelBhUWZtVWpaOW9hQnJSWlBjUDhORUhJbHFQYm9RT3Z6ZmtwUXNIUHlwaXNCRlpTLXRSdjktdlNMcDhnNkVDSFVJNHc0MEdZZ3dPaFdRSnIxNzNmdkxGRW8xNVd5bTJEWnYzX2QwejdKN3Q4VS1XT3FTTEQ3YnJocEtZeA?oc=5",
+      "published": "2026-10-03T20:43:00+00:00",
+      "compound": -0.4939,
+      "label": "negative",
+      "entities": [
+        "Iran",
+        "Israel"
+      ]
     },
     {
       "title": "Trump ramps up pressure on US Republicans to end US clock switching",
@@ -6856,314 +7182,6 @@
       "compound": -0.9269,
       "label": "negative",
       "entities": []
-    },
-    {
-      "title": "What we're learning about the FlyDubai co-pilot who allegedly stabbed the captain and tried to crash the plane",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUEwwMkUwOTNMUEZoSkYwZ3NvV1NxNkhfSVlueXgxNS01blpJazRIa2I4QUdWMkZwcTFOOUZPd0EwQ2ZjZTZHRE5Rb3NEcHBLMjlSeXE3Z1dVSjJ0aTRJTnNmLVNySl9yMVp6SFpWRWxYOWgwekd4XzdEN01CZDNaN2t3ekZ0ZzQ5WmlRTnpmMmI3VWZnU2ItUE5nckY?oc=5",
-      "published": "2026-10-03T13:22:07+00:00",
-      "compound": -0.8807,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Britain’s military in Kenya: Allegations, immunity and a fight for justice",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/longform/2026/10/3/britains-military-in-kenya-allegations-immunity-and-a-fight-for-justice?traffic_source=rss",
-      "published": "2026-10-03T13:18:37+00:00",
-      "compound": -0.296,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Croatia vs England live: UEFA Nations League",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/liveblog/2026/10/3/live-croatia-vs-england-uefa-nations-league?traffic_source=rss",
-      "published": "2026-10-03T13:01:40+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Ethiopian gov’t forces advance in Tigray as rebels retreat: What to know",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/3/ethiopian-govt-forces-advance-in-tigray-as-rebels-retreat-what-to-know?traffic_source=rss",
-      "published": "2026-10-03T13:00:57+00:00",
-      "compound": -0.6808,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "French high school engulfed in flames as student protests continue",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/3/french-high-school-engulfed-in-flames-as-student-protests-continue?traffic_source=rss",
-      "published": "2026-10-03T12:59:27+00:00",
-      "compound": -0.4215,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Five killed as Kyiv and Moscow trade strikes, Russia hits second bridge",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/3/five-killed-as-kyiv-and-moscow-trade-strikes-russia-hits-second-bridge?traffic_source=rss",
-      "published": "2026-10-03T12:55:54+00:00",
-      "compound": -0.8885,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Shafaq News..Iran arrests 31 over alleged links to US and Israel",
-      "source": "شفق نيوز",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeXdsZXROeV9ucmNKN1JtZUEtQ3pkWUtDZHJaQmx3STFUdlptaW0zZFJ6YmxidGlCVEZLbzR3RnlWRUVZTWtsWk8wcnBhU2VjLVgzMG1aSGYyX1ZNV1ZLRFp5aWZLN3lneksyRl96MEl1aEY4NjlzeEFyZ1Z0NGFKSFIxWlFZZ0VtTFpXczVn?oc=5",
-      "published": "2026-10-03T12:44:54+00:00",
-      "compound": -0.7003,
-      "label": "negative",
-      "entities": [
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Defining consent and the psychology behind the ‘Cornell 7’ rape case",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/3/defining-consent-and-the-psychology-behind-the-cornell-7-rape-case?traffic_source=rss",
-      "published": "2026-10-03T12:39:59+00:00",
-      "compound": -0.9136,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Will Spain's housing crisis lead to a snap election?",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/videos/cmgj9vz2zxelo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-03T12:26:30+00:00",
-      "compound": -0.91,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "South Africa’s Pretorius smashes Gayle’s T20 cricket record score",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/10/3/south-africas-pretorius-smashes-gayles-t20-cricket-record-score?traffic_source=rss",
-      "published": "2026-10-03T12:19:29+00:00",
-      "compound": 0.0972,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Israeli settlers attack farmers in West Bank pogrom, soldiers hit reporters",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/3/israeli-settlers-attack-palestinian-olive-pickers-in-the-west-bank?traffic_source=rss",
-      "published": "2026-10-03T12:18:24+00:00",
-      "compound": -0.8658,
-      "label": "negative",
-      "entities": [
-        "Israel"
-      ]
-    },
-    {
-      "title": "World No 1 Sinner withdraws from Shanghai Masters as knee injury lingers",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/10/3/world-no-1-sinner-withdraws-from-shanghai-masters-as-knee-injury-lingers?traffic_source=rss",
-      "published": "2026-10-03T11:51:22+00:00",
-      "compound": -0.5324,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Iran arrests 31 people in Sirjan over alleged US, Israel links",
-      "source": "Moneycontrol.com",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNT0o5b2pFTFdPaEMtcF9faUdQOWtkbzBMaU5zd1V0SkxTNEozaVhwdmhRMVhnUEQ5NHNNem50clpsSU50Y2plT3YzWkVkcXZHZVJSUEpJVnJnWmdNNk54NVlPbzVEV1JzS1lkVk1TaW5hYVlHTDdTX25icG0zM2RXQnBrdEpObmtzeGVvV21RMkYwcGpwRC1aSmlHdWFMak5ITU42bTFlaTB6VmtNa0lUQjcwMS10UE9ZOVHSAb8BQVVfeXFMUEJrYmdRMHcwUWhmaHJqQmJRSGhQdVY4NzczbE81ZUl0bkhyRVRXYXpMVDMzcFJ4cm45U0FJZWRJZDZkYnNwbWlTSTRUT1BSbU1FVGhXQmRScW9PN0JITnZfOU1maFROOFF6VTNNbVdrV3JWa0EybjBTUTJ6NW5zdENrUlpCNUpqRnEtWnhSbVJycURSdjQ0cF81YU94NGstQkNiSktKMF9haFAtdlRrN3dVR0c5UGRGMW5XYm5LV2c?oc=5",
-      "published": "2026-10-03T11:48:42+00:00",
-      "compound": -0.7003,
-      "label": "negative",
-      "entities": [
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "The double standards of a failed execution",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/opinions/2026/10/3/the-double-standards-of-a-failed-execution?traffic_source=rss",
-      "published": "2026-10-03T11:32:42+00:00",
-      "compound": -0.9231,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Flydubai co-pilot attacked captain with axe, UAE official says",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c61wv7lgex13o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-03T11:20:21+00:00",
-      "compound": -0.6808,
-      "label": "negative",
-      "entities": [
-        "Israel"
-      ]
-    },
-    {
-      "title": "Ethiopia’s government forces retake airport from Tigray rebels in Mekelle",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/3/rebels-pulling-back-as-addis-ababas-forces-advance-reports-say?traffic_source=rss",
-      "published": "2026-10-03T11:16:43+00:00",
-      "compound": -0.3818,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Palestinians gather for football amid Gaza’s ruins",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/3/palestinians-gather-for-football-amid-gazas-ruins?traffic_source=rss",
-      "published": "2026-10-03T11:08:17+00:00",
-      "compound": 0.0772,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "UK-Iranian dual national bailed after RAF Fairford incident arrest",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c6d095ygggv1o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-03T10:58:51+00:00",
-      "compound": -0.6705,
-      "label": "negative",
-      "entities": [
-        "Iran"
-      ]
-    },
-    {
-      "title": "How AI is helping Mexico detect breast cancer earlier",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/3/10-3-mexico-ai-breast-cancer-julia-pkg?traffic_source=rss",
-      "published": "2026-10-03T10:55:32+00:00",
-      "compound": -0.8625,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "A Yemeni family spends a week on the road fleeing another Houthi offensive",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/2026/10/3/a-yemeni-family-spend-a-week-on-the-road-fleeing-another-houthi-offensive?traffic_source=rss",
-      "published": "2026-10-03T10:48:28+00:00",
-      "compound": -0.4588,
-      "label": "negative",
-      "entities": [
-        "Houthis"
-      ]
-    },
-    {
-      "title": "Pakistan summons Indian diplomat over border killing of two Pakistanis",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/3/pakistan-summons-indian-diplomat-over-border-killing-of-two-pakistanis?traffic_source=rss",
-      "published": "2026-10-03T10:46:20+00:00",
-      "compound": -0.8176,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Netanyahu says Israel warned UK of alleged Iran-backed plot against RAF Fairford",
-      "source": "Ynetnews",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAxRlZMSG1qaVg2SXd6LXlwaWJkVUczRWktdDBKaFkxQnByT2hCNDdhQ2VtUGhuSmUtbldnS2NYV2J4eHZXcFQ4OUlOb05fclVZb2NDUldB?oc=5",
-      "published": "2026-10-03T10:18:48+00:00",
-      "compound": -0.4939,
-      "label": "negative",
-      "entities": [
-        "Benjamin Netanyahu",
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "What is FC Barcelona’s Negreira case, and what are the charges?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/10/3/what-is-fc-barcelonas-negreira-case-and-what-are-the-charges?traffic_source=rss",
-      "published": "2026-10-03T10:12:14+00:00",
-      "compound": -0.4404,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Red Bull’s Verstappen grabs pole position for Bahrain GP in Malaysia",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/10/3/red-bulls-verstappen-grabs-pole-position-for-bahrain-gp-in-malaysia?traffic_source=rss",
-      "published": "2026-10-03T10:03:40+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Russia strikes second major bridge in Kyiv, mayor says",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-03T09:53:16+00:00",
-      "compound": -0.7096,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Collision course: Are Israel and Turkey headed for confrontation?",
-      "source": "The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9rTU0zM0N0cndIMXlyR2Y4cmIzNjV2NkJFTTdLTEt4YS03VjlfNGxnZEF5aU41YlMyYVB4RHNMUEhIOWtrb3RDRG96NlIxREVxSGpyRU1aWWZ0OVZK?oc=5",
-      "published": "2026-10-03T09:50:34+00:00",
-      "compound": -0.8385,
-      "label": "negative",
-      "entities": [
-        "Israel",
-        "Jerusalem"
-      ]
-    },
-    {
-      "title": "Ex-Israeli PM slams Netanyahu over planning for war to postpone election",
-      "source": "PressTV",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOTnFyRWNDRXgtMmpLWTZGdXBuazJ6cXdkc1JxN1FaV2dPS0N5ZENRclBlY2pudW83VTV2NjNOeWNpSTA3cHF3djNaaVdWYmdILW9veG5ydW9TNWFjd1pzWURFck82dlVtNGVvcW9Ja042QW5KNzdEaWRSMV9Ja2NMR2xONndzVTNaV3k4QXk0Q0F5Q1hqOXR5RDFQcHo4ZzItdHk0TmlFNlo2U3o5OW1pR2F4dWp0SGxNVlVHNW15aExDa1U1eG5LdTg4bmJzQlVvWG5wUDZMMkpEQmJNZFd5TkJjSlZtY1JPcEFMS0l3?oc=5",
-      "published": "2026-10-03T09:49:00+00:00",
-      "compound": -0.891,
-      "label": "negative",
-      "entities": [
-        "Benjamin Netanyahu",
-        "Israel"
-      ]
-    },
-    {
-      "title": "G7 to release 100 million barrels of oil and diesel, will it curb prices?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/3/g7-to-release-100-million-barrels-of-oil-and-diesel-will-it-curb-prices?traffic_source=rss",
-      "published": "2026-10-03T09:27:38+00:00",
-      "compound": -0.7717,
-      "label": "negative",
-      "entities": [
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Who is the mystery co-pilot behind the Flydubai attack?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/3/who-is-the-mystery-co-pilot-behind-the-flydubai-attack?traffic_source=rss",
-      "published": "2026-10-03T09:25:31+00:00",
-      "compound": -0.6486,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Kim wins Asian Games gold to secure military exemption",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/sport/golf/articles/cmy0rn425k4xo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-03T08:51:14+00:00",
-      "compound": 0.91,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Yemen’s army claims over 1,500 Houthi casualties in past 24 hours",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/3/over-1500-houthi-casualties-in-past-24-hours-yemeni-army-says?traffic_source=rss",
-      "published": "2026-10-03T08:36:17+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Houthis"
-      ]
     }
   ]
 }

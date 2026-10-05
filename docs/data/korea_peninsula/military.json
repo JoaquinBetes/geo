@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-10-05T05:40:28+00:00",
+  "updated": "2026-10-05T14:39:29+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -46,9 +46,9 @@
     "to": "2026-10-05"
   },
   "kpis": {
-    "events_total": 196,
-    "events_unlocated": 2471,
-    "events_7d": 101,
+    "events_total": 201,
+    "events_unlocated": 2487,
+    "events_7d": 106,
     "events_prev_7d": 28,
     "hottest_place": "DMZ"
   },
@@ -453,6 +453,15 @@
       "date": "2026-10-04",
       "total": 6,
       "strike": 6,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-05",
+      "total": 5,
+      "strike": 5,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -2419,12 +2428,62 @@
       "title": "North Korea missile could put Guam in range as Kim rebuffs Trump outreach: expert",
       "source": "Fox News",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNU0lkb1JSZURDWEQtb2NvdTdhS3A4UVdUM01aLTNNWkYtWlM0QzR2NkxueWhJeDRMRTFLb295M0J4RVR0VHlUMGZqZVNCNGtmNDhDYU1zMVk0RGpmT1BESGJLN1JHWDR6QmRkbF9RcTZaRlhYSjdRdHNzNVpFcXE3ZVNYSk5tQnI2dl84TXVyYVdBVHRBQ3I3M3pFcnlZcHF3Q0ZnaEhzMNIBrAFBVV95cUxNRUNYcVJmU1FITXZhYmg0eXl3cWRCT2RlaVJZNTUxc0IydFNVSkFfemkyWVR3cGNPVXBOOVFaQWtPMVZaRlF4NC1Fc0h6WUNYSzd5RTQ1NjM2TkFqSDB5WUlOU0dOY2Q3dEF2Y2dmcnRiWm9lTFVkMWF3VDE3SXlwenFVcy1mT1UxeEluSndjYkxNSk00MDJvQ29naTdudkxsX1lCdGdXRXEzdUVQ?oc=5"
+    },
+    {
+      "date": "2026-10-05",
+      "type": "strike",
+      "place": "Pyongyang",
+      "lat": 39.0392,
+      "lon": 125.7625,
+      "title": "Pyongyang's 621-mile hypersonic missile flight claim challenged",
+      "source": "Interesting Engineering",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYlRWaXVyUmVwRWdEeHlTZWE0dWhzVWdiRUR5YVRZeEJtTEwwSWhLdV9RM0VRT2xGdTI3cFBZcEJ6ZGdRMTh4WmxLWTdHekpEdGh0eWp2Y0VzaE5YV2YzSkZZZ3Q2MzR4UEJXWmFLRmxrU2lpRFpPSFZKV0VEMzExSGFsZ21ZQQ?oc=5"
+    },
+    {
+      "date": "2026-10-05",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "Seoul concludes North Korea responsible for DMZ land mine explosions",
+      "source": "The Korea Times",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVWRpUWZKaWRuN3VjNGpveXhINU13OWRjUXppZGtna3BlcDN5WlFPekx4Q2hmekZ5djc2VHhoMUZBOE1OUU81RUdyWWRpTmxpQTd3cjRuWnRFRHRBanFnTVFsRzRmNklSdWVFMEtzVXQ4Rm43Q1ZoX1lFQjZTRW9FVmt6QkU2eHhRVDB2YVByNXNjMThPbVFqUXJGTUFzYlE2RzMxSHkxS1d0ZVA2ekV6WGotT1VQamJqY1ByWnpJcUxzMTjSAcgBQVVfeXFMUDViMjNlNHRIeFpvdm0yY1NHWXRxbVpJOE1vYUV4anJ3UGpycTdhZkZ0c0hhZ04xV0ExTTNVcFAyc3ZQMHpBSzduZ0VfdUU0ZlQzbmJUOWNXNkR0N1VHNjhUZjZNX1NRVURSdGJiNGg3LTJNUkFnRi16bjlLd05oc2dua2VEVFJ6aEhCY3U3TjFDZ01GMk5veUtXOEU2bERIRkEzcFdVVjdOY1MzbjVPenFfQng1UEhTaEczZWlnUWx6YVBHTjY3d0c?oc=5"
+    },
+    {
+      "date": "2026-10-05",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "[BREAKING] Seoul concludes North Korea responsible for DMZ mine explosions",
+      "source": "The Korea Times",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPT1ZKSnNhRGhCcUZlRnJwa1VlMHhWM084TmMtWE5acm9XaERGRGNZNk1QNFVRQlBXYlVPclVzeUUwampvQ1drbk0tUi1tNE1yZlpkZ1BjWVVCUVBwWUs4NnJ0ME9ySEVnWVJ0aGFyRVRfeEJWenBWRzk4REZUc29CS3JLRW16RGNwTE1Dd0RHMTZJUDhaVW1JNGg3V2NoWWhxakJrM2F3MlJsY0d1LVdfTWtPNlpWRHpKckFBZdIBwgFBVV95cUxNLWwyNE93V2I5ZklKQWRXY001Q01DS2o5WlRub1Bxcjc0V2g2aUpwa0RXRExvVTNDWDRVUzVXRXhRZktpbjNpQkNsYVlzSHFsR3JLSmJiS01tcVJNcVZZc2RVbDhHbEQzeG5pTWVnWk5xRGhCaWl0WGZGbnE0empuUTdISjVtZEh4aU9HRzc2SmkzaW1XYTJmTGRlMm1HRFJIUk9xQ0VRWVVnRXZSbkVXQ1c0NE5nT1BfRWFseTd3RU1RQQ?oc=5"
+    },
+    {
+      "date": "2026-10-05",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "DMZ blast caused by North Korean mines 'planted' south of MDL, South's military says",
+      "source": "Korea JoongAng Daily",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNRllfbGNteXRqUjgyUXdMYjRjYThuZzZldC1EMENaaWltdmJPTnRpZHR0ak1YNUJuaTlrQmdia29DQUUtbEpWN2RINnBpTHE4NG1FdU9hOE1BYmVDM2hINml6SFF4Ukg0amR3Y19qODc4WjZ1dVJvb25rWDR2a1A5WG1PMUJkWHZxeGFRZU9VZzlnUE1jb0huWmIxbnhWaE1HZzkyckFzaXNldWtkTjhza3FERWtoamdYR09YN3ZvalJ4eU1hVEQwd3hn?oc=5"
+    },
+    {
+      "date": "2026-10-05",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "S. Korean military launches operation to remove NK mines at recent DMZ blast site",
+      "source": "The Korea Times",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdExVbXg4ek5LVmVaaThmdG50MXdhOFRoU0F0QlVtUjNDLV9UU0FoaGdZLXFkS0ZmaHlQN0Z3MXNXUkpaWG5QeVMwYzM5Z3lISlpCa05wWkp6Nk8xQUdsMW9WZlJNNDVoM3hHM1Z2b2Y0dC1sYm9WekFZeC1YNFpoNWR1WWhyeEdNa1lNYXd0N3NYbFVMOW5JQ3JTRUdMWGxHdDhISlAzQnRGLUZJTC1DYm9UbVhwYkZyOURZV3gtSlk2dDQyTWJqTWZJcEhWOERHUE5v0gHYAUFVX3lxTE4tOVFkbWNJNFpCWjd5SG9pU01LOE1qYm9nSUlpblVkSU5Xb1Q5VVNzM2dtaVF4SllVMUxSVGR2WkppTnAyMDIzVWs4cnBrMHNTU2FrSUpRTzRQN3Y5ZjBEZFVvN3ZfNTFxSkE0RkMycVd2eURzSWVZd3dwRkJ1WjQxUlB3eWpmQ29FZVAwY0k5bXpXUjJQSTN0ajU4MTJoZGRramVqZ2VUeHJueEdSb1ZidGVkLXU1RXpFdUxkUzBsaVRQV3dOVmU0YnZPNjRuU1lHUm84SURtNg?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "DMZ",
-      "count": 103
+      "count": 107
     },
     {
       "place": "Seoul",
@@ -2432,7 +2491,7 @@
     },
     {
       "place": "Pyongyang",
-      "count": 4
+      "count": 5
     },
     {
       "place": "Wonsan",

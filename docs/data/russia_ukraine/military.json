@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-10-05T05:40:07+00:00",
+  "updated": "2026-10-05T14:38:55+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -48,9 +48,9 @@
     "to": "2026-10-05"
   },
   "kpis": {
-    "events_total": 928,
-    "events_unlocated": 2619,
-    "events_7d": 76,
+    "events_total": 930,
+    "events_unlocated": 2627,
+    "events_7d": 78,
     "events_prev_7d": 36,
     "hottest_place": "Kyiv"
   },
@@ -1074,8 +1074,8 @@
     },
     {
       "date": "2026-10-05",
-      "total": 1,
-      "strike": 0,
+      "total": 3,
+      "strike": 2,
       "ground": 0,
       "infrastructure": 1,
       "air_defense": 0,
@@ -1083,26 +1083,6 @@
     }
   ],
   "events": [
-    {
-      "date": "2026-06-30",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Ukraine war latest: Zelensky confirms second strike on Russia's Dubna space Communications Center",
-      "source": "The Kyiv Independent",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVC1iWmdTanZTVDZ3Z0xYU1MzV3ViX2ZGeE13dHhqbFhSRHpWYXlEelZHcHl1QXNTbXVlQjR4RjZrYzQwV1J5RHJVbTBvUXV5RFM2c29HY0RXVXhZbGhMTFRqYXZrd0dZd2k0ZlkxQ3lmbE9GeFFpcTl1Q01DbUxySVRKbDFGeHFUOXVOaWh5QUhxYzhtMC1fUjN1djFKd3MxTVhXeFVQYWVsSGV0RzJ6THZqZ2FaOEk1LXlQM1NFRUhDVHM?oc=5"
-    },
-    {
-      "date": "2026-06-30",
-      "type": "strike",
-      "place": "Donetsk",
-      "lat": 48.0159,
-      "lon": 37.8029,
-      "title": "Ukraine war briefing: Zelenskyy ridicules Russian military drive, saying Putin keeps postponing goal deadlines",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/jun/30/ukraine-war-briefing-zelenskyy-ridicules-russian-military-drive-saying-putin-keeps-postponing-goal-deadlines"
-    },
     {
       "date": "2026-07-01",
       "type": "ground",
@@ -10082,12 +10062,32 @@
       "title": "Ukraine war briefing: Germany’s Merz pledges €1bn in military aid to Kyiv as Russia ramps up attacks",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/oct/05/ukraine-war-briefing-germanys-merz-pledges-1bn-in-military-aid-to-kyiv-as-russia-ramps-up-attacks"
+    },
+    {
+      "date": "2026-10-05",
+      "type": "strike",
+      "place": "Dnipro",
+      "lat": 48.4647,
+      "lon": 35.0462,
+      "title": "Putin's escalating bombing campaign won't break Ukrainians' resolve. History shows that it's doomed to fail | Rajan Menon",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/05/putin-escalating-bombing-campaign-ukrainian-resolve-russia-invasion"
+    },
+    {
+      "date": "2026-10-05",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russia's attacks on Ukraine escalate as its drones target bridges in Kyiv",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/05/nx-s1-5989637/russias-attacks-on-ukraine-escalate-as-its-drones-target-bridges-in-kyiv"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 153
+      "count": 154
     },
     {
       "place": "Moscow",
@@ -10095,7 +10095,7 @@
     },
     {
       "place": "Dnipro",
-      "count": 7
+      "count": 8
     },
     {
       "place": "Donetsk",

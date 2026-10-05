@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-10-04T21:24:52+00:00",
+  "updated": "2026-10-05T05:40:07+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-10-23",
-    "to": "2026-10-04"
+    "to": "2026-10-05"
   },
   "kpis": {
-    "events_total": 926,
-    "events_unlocated": 2612,
-    "events_7d": 84,
-    "events_prev_7d": 47,
+    "events_total": 928,
+    "events_unlocated": 2619,
+    "events_7d": 76,
+    "events_prev_7d": 36,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -1065,35 +1065,24 @@
     },
     {
       "date": "2026-10-04",
-      "total": 14,
+      "total": 15,
       "strike": 4,
       "ground": 0,
-      "infrastructure": 10,
+      "infrastructure": 11,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-05",
+      "total": 1,
+      "strike": 0,
+      "ground": 0,
+      "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-06-30",
-      "type": "strike",
-      "place": "Moscow",
-      "lat": 55.7558,
-      "lon": 37.6173,
-      "title": "Russian satellite communications center hit, Ukraine says as a wave of drones targets Moscow",
-      "source": "NBC News",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdTUtZWliUlZOelllbmRCZ2Z4eDZrWUxnRDF5T09KX054MHhJbnk0QTh2eDFhdFMyOXhpS0VlYVI2WjROQXRSdm5Hc1NGNThxODk0WVlicEdmb1gyYmRSWEpHMkItbE8wVS1GUjRBRWRWQzVpOTFoaXhfV1RkMXNZWDZDbURNUkFPYmw0UUt3czhDbUNyWUppOHdoUmo?oc=5"
-    },
-    {
-      "date": "2026-06-30",
-      "type": "strike",
-      "place": "Moscow",
-      "lat": 55.7558,
-      "lon": 37.6173,
-      "title": "Putin Faces Increased Pressure as Moscow Is Again Attacked by Drones",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcGsxQ0NpQk10a2VoV3hmRFI1WDgteXpUdHo0LWtYaEtObEp0UDdvc2VDSUFUYVFPcHJuZ0pwcUpyUjVKOEJoTlV1UkFDaTRfemtzUjM1T0U5REhOdHJiaF9BZldNTUZ0WlhYc2FsZ09teV9TR0xFdXR4enFtbm9XYWxzT2pVNDlpal9JT2hjZ3JranI4b1E?oc=5"
-    },
     {
       "date": "2026-06-30",
       "type": "strike",
@@ -10073,20 +10062,40 @@
       "title": "Watch: What we know about Russian strikes on Kyiv bridges",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/videos/cmglwkyl9djyo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "date": "2026-10-04",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russia strikes Kyiv bridge as German chancellor visits Ukraine in show of support",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdWNUc1NMSXFramI2NW1DYlBqZWNJMWxwREdWdmFSQV8wVTBJVWI5N2ZMT09QaUpINGk4bV9QZUt1YzVsNHcxUDE5VnNrNDNnYTVoUUJNZFltWk41V0Q0QWNSRWpnb1RHb1VnOWdidjIzbGxZNF8zUjhFc0tSaGk2MVdNZVMwcmF6aWt5dEhKekJWa2wzNFdGUWg0TkVscFpleUdHaHgzNnRkUkY1S3M0?oc=5"
+    },
+    {
+      "date": "2026-10-05",
+      "type": "infrastructure",
+      "place": "Dnipro",
+      "lat": 48.4647,
+      "lon": 35.0462,
+      "title": "Ukraine war briefing: Germany’s Merz pledges €1bn in military aid to Kyiv as Russia ramps up attacks",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/05/ukraine-war-briefing-germanys-merz-pledges-1bn-in-military-aid-to-kyiv-as-russia-ramps-up-attacks"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 161
+      "count": 153
     },
     {
       "place": "Moscow",
-      "count": 50
+      "count": 47
     },
     {
       "place": "Dnipro",
-      "count": 6
+      "count": 7
     },
     {
       "place": "Donetsk",

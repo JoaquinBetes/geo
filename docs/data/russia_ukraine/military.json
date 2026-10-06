@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-10-06T00:03:34+00:00",
+  "updated": "2026-10-06T06:21:03+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,12 +45,12 @@
   },
   "window": {
     "from": "2025-10-23",
-    "to": "2026-10-05"
+    "to": "2026-10-06"
   },
   "kpis": {
-    "events_total": 931,
-    "events_unlocated": 2638,
-    "events_7d": 68,
+    "events_total": 933,
+    "events_unlocated": 2645,
+    "events_7d": 70,
     "events_prev_7d": 42,
     "hottest_place": "Kyiv"
   },
@@ -1080,29 +1080,18 @@
       "infrastructure": 2,
       "air_defense": 0,
       "anomaly": false
+    },
+    {
+      "date": "2026-10-06",
+      "total": 2,
+      "strike": 2,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-07-01",
-      "type": "infrastructure",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Russian attacks kill three in Ukraine as Kyiv hits another oil refinery",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeWxCX0hPOWZ2dmV6eXFneE9qM3VxZVdlTUg1VnRhYTlTSzZSLTRSYU5JM3pURVdXbkQzYk43RlJ4UUI2dWhEek41X3JnWENoLTNVS0d3NWFVZ0ZwVDg2VFZfYkl1RE11dXBJV2VxX0tIVVhsNEptaDgyOWVmcEE5R1BWWndtTTdmVHQyUmhINU96VmhXQ09rZmo2c1NMaGZjSW5aVmxuTnFVb3IzWEQ4eNIBtgFBVV95cUxPUVAxX0syc2VDNjRELVVudTNUdVlXejhDc0xVS3FFS2p0OGFKT21SYVA0d09ldDh6aktFeXlSUExkdFh4MnAtRmVCVk1EOXJQektPTmVYLWNXTjdMQ0YydmJaUUdOaEpZNkVvWlVpVzEyRkwzZ3Y3R2pmaUs4cm5WVXVsX3QyYUNibENZNENpSXNoblB1a3RwSnJBcXNmVDdtaEFRUTctVGR6Y0o1NHI1NEFVdlhWdw?oc=5"
-    },
-    {
-      "date": "2026-07-01",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Ukraine war latest: Kyiv strikes Moscow satellite being used to gather intelligence",
-      "source": "The Independent",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOb2JDYkJfWGVZOXd1ejRpcmsyYzhQbnJsSmcxWnR4ajVITnNfaTlyZWZ0Z2l6YVpETEtkWmtxakJKN0JVWkoweEJEQWNIc20wcjB2LUh5ZEVYM1NvSFk3WmgyVlZEeUNpd2lnblpoZXNPNXZZdkpnUVFvSG15NzlVWmdLYXpjUVBUTnR1VVhIcW91aUNMYTIybFcxYlRwSnNnRFI1RW1JNzBwdkZtTHpoZXR0T1lEUQ?oc=5"
-    },
     {
       "date": "2026-07-01",
       "type": "infrastructure",
@@ -10082,16 +10071,36 @@
       "title": "Oil from South Korea being shipped to Russia as Ukraine war grinds on",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/oct/06/oil-tankers-south-korea-russia-ukraine-war"
+    },
+    {
+      "date": "2026-10-06",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Ukraine-Russia war live: Major oil facility targeted in largest Ukrainian strikes on Moscow in two years",
+      "source": "The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNX0dFWDFUcnYwQWhpWGRoX3hwNWFHYVhsLTZncGRyT2RHZExBaVJMaGJmb2ctQ1ZUWjRyazlNQnlQYy14MjdfSWxPS1J6dDVMY2pPZk84LW9lRFhMRXFGdlhTa3VCb3hIQ2pZSDBjZ3hDMHIxbnY0NW1QTzZnX0NWLWp2aUZqOGFWc0hCeWZ2RzRBblk4d3RwX3l1LWV0d2JVd2hzeXBfQWoyVnM5dnl2VlYwZkRGY0JmUml5VnIzQ1E?oc=5"
+    },
+    {
+      "date": "2026-10-06",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: Kyiv claims half of Russia’s oil refining capacity destroyed",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/06/ukraine-war-briefing-kyiv-claims-half-of-russias-oil-refining-capacity-destroyed"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 141
+      "count": 142
     },
     {
       "place": "Moscow",
-      "count": 46
+      "count": 47
     },
     {
       "place": "Dnipro",

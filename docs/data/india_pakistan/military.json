@@ -1,6 +1,6 @@
 {
   "id": "india_pakistan",
-  "updated": "2026-10-07T13:23:52+00:00",
+  "updated": "2026-10-07T23:05:47+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-10-07"
   },
   "kpis": {
-    "events_total": 38,
-    "events_unlocated": 1757,
-    "events_7d": 1,
+    "events_total": 39,
+    "events_unlocated": 1759,
+    "events_7d": 2,
     "events_prev_7d": 3,
     "hottest_place": "Islamabad"
   },
@@ -296,6 +296,15 @@
       "total": 1,
       "strike": 1,
       "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-07",
+      "total": 1,
+      "strike": 0,
+      "ground": 1,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -681,12 +690,22 @@
       "title": "Jammu arrests show how drones are changing smuggling threat along Pakistan border",
       "source": "Deccan Herald",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQU2NyUUhpeHZ4d0hyT2dKZms3OWRyVjJxY3d3T1czalVQanhrQndVSzFmUlRLdmNVMTY4Vm11SVJsRVY5bXhCMFR3cldWUWNKT204d0xrLUsyN0VxVWI0TTdIMm9lQ21TdzN4R3d3R0F3Zk9maGg1RjA5UFE1R2Zoa0Jhc2ExTWpoVXZHLTdIcFZ5NFBMSXEtUjJOa2l6SklpTExoZmtOcThabjF6WGpYbEhkVG1VT3RPQ3hHMTRsbXZmM1RTRFdEV3BhU0J3b2VJYUZxYkhHMXlJZw?oc=5"
+    },
+    {
+      "date": "2026-10-07",
+      "type": "ground",
+      "place": "Islamabad",
+      "lat": 33.6844,
+      "lon": 73.0479,
+      "title": "Pakistan-Afghanistan conflict: A clash of unequals, but why is Islamabad relying on air power instead of ground offensive",
+      "source": "The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOVVViUGZRMlVSN1R0NGdIZUpSeXpfSTNZZzhTT3JHQXE1am9JOWRVUmRDdU9HT0FxelU5VWFwdnVIMWtjUjVzNTRPbkxYTDhhZnFLeEZaUUV2aVJhRVN6Y3lMR1NUUGJ2WU5GQVdBOHFjZ0hFLXNTa1hELXdJc2owR0VtdWo2WmdJQjdjNS1EbWM0SEdlc3M1eFF2WjJmeklyZGhOSDBuM1o1QUJHckJFM3VXOEF0OFQ2MUlFSUhURTB4S3M3OFh3ZXFJWm55Yk9Pc0xScGVRbjU1d0JhSEdva0pvV2ZnSV9kOTE0SzVEV0VLeTBuRXU2cGZsTVBiYXpHSkxNME8yamZMbTlKRTlpeQ?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Islamabad",
-      "count": 3
+      "count": 4
     },
     {
       "place": "New Delhi",

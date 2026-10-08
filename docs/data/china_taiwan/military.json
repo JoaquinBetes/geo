@@ -1,6 +1,6 @@
 {
   "id": "china_taiwan",
-  "updated": "2026-10-08T13:29:49+00:00",
+  "updated": "2026-10-08T23:21:27+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -43,12 +43,12 @@
   },
   "window": {
     "from": "2026-01-30",
-    "to": "2026-10-08"
+    "to": "2026-10-09"
   },
   "kpis": {
-    "events_total": 74,
-    "events_unlocated": 1840,
-    "events_7d": 5,
+    "events_total": 75,
+    "events_unlocated": 1848,
+    "events_7d": 6,
     "events_prev_7d": 1,
     "hottest_place": "Taipei"
   },
@@ -505,6 +505,15 @@
     },
     {
       "date": "2026-10-07",
+      "total": 1,
+      "strike": 0,
+      "ground": 0,
+      "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-09",
       "total": 1,
       "strike": 0,
       "ground": 0,
@@ -1253,6 +1262,16 @@
       "title": "Taiwan Railway apologizes after train blows past station",
       "source": "Taipei Times",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE54azBTUkNsTmxYVGVlbm5LdkptQ2JLamJZQjFsTUM5Wi1WYkw1WmowVlhSUUc2bkI5T3BmbzJ3eFBhclJseUxmNTBndUdOUzJiNFpob1RvRUptLXZrVDdGbFZsYmhPVGxBNHFRMC03RHdWb1ZsUEtCUmdn?oc=5"
+    },
+    {
+      "date": "2026-10-09",
+      "type": "infrastructure",
+      "place": "Taichung",
+      "lat": 24.1477,
+      "lon": 120.6736,
+      "title": "Court revokes Taichung Power Plant project review",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/09/2003865668"
     }
   ],
   "top_places": [
@@ -1274,6 +1293,10 @@
     },
     {
       "place": "Taiwan Strait",
+      "count": 1
+    },
+    {
+      "place": "Taichung",
       "count": 1
     }
   ],

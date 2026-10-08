@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-10-07T23:05:33+00:00",
+  "updated": "2026-10-08T06:04:25+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -38,13 +38,13 @@
   },
   "window": {
     "from": "2026-02-27",
-    "to": "2026-10-07"
+    "to": "2026-10-08"
   },
   "kpis": {
-    "events_total": 523,
-    "events_unlocated": 2388,
+    "events_total": 524,
+    "events_unlocated": 2394,
     "events_7d": 14,
-    "events_prev_7d": 7,
+    "events_prev_7d": 8,
     "hottest_place": "Strait of Hormuz"
   },
   "daily": [
@@ -898,6 +898,15 @@
       "date": "2026-10-07",
       "total": 3,
       "strike": 3,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-08",
+      "total": 1,
+      "strike": 1,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -6124,12 +6133,22 @@
       "title": "Zelenskyy warns Israeli delegation about Russian and Iranian drones — Jerusalem Post",
       "source": "UA.NEWS",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYU00WFM5S3F6cmlGZERXdFZCNmplNTIteFZzZmh6eTg1bmh2WktxZnZhaElKR3NHNldRM2FKVUNkclZWdVVDaGh3Y0ZMTWZ4VGRwd0ZvTk1mMjVZSFRiQ3FoeHh5dF9NYkZjOWIzVEgwRWo2SnVGSjhVd0NQQlBwMGM3TUpaR0VzTkFYRUJNWnllN0JsMkpMdFllS0RqUThRS2pqTFkxQnVncEprQlE?oc=5"
+    },
+    {
+      "date": "2026-10-08",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Tanker attacked off Qatar as Iran claims route transporting oil through strait of Hormuz will be ‘closed’",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/08/tanker-attacked-qatar-coast-strait-of-hormuz-iran-oil-price"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 38
+      "count": 33
     },
     {
       "place": "Tehran",

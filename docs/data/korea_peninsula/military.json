@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-10-07T23:05:54+00:00",
+  "updated": "2026-10-08T06:04:45+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -43,13 +43,13 @@
   },
   "window": {
     "from": "2026-01-12",
-    "to": "2026-10-07"
+    "to": "2026-10-08"
   },
   "kpis": {
-    "events_total": 217,
-    "events_unlocated": 2540,
-    "events_7d": 87,
-    "events_prev_7d": 43,
+    "events_total": 221,
+    "events_unlocated": 2543,
+    "events_7d": 70,
+    "events_prev_7d": 63,
     "hottest_place": "DMZ"
   },
   "daily": [
@@ -478,8 +478,17 @@
     },
     {
       "date": "2026-10-07",
-      "total": 6,
-      "strike": 6,
+      "total": 8,
+      "strike": 8,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-08",
+      "total": 2,
+      "strike": 2,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -2656,12 +2665,52 @@
       "title": "Why a mine blast in Demilitarized Zone fuels tensions between the Koreas",
       "source": "VOA - Voice of America English News",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQR0M1eUlqX0JuUmtKek1MX1c2RmRwODJFLUVHeUxDel9JY2ltYzJTcTg4alJvWTNaU2ZRLTdjcmFPN290S1VYVWphOE5LdjRzeVhOaEpkSHRCdi0ySmZWTXN5QW1xc3p2cnBvOFBOckxhWU9LOHJNYUJPR1hZRnE5UGR2T0g2MDRmQlZDbzhXd3NOOHdYRm9xZDY5amgtdnpuUEN0djRjalYzalVJbGkzYdIBswFBVV95cUxNR3FjQ21Qc3BNMmhHUnBQZXlVdXZ3Umc4SF9SM0pjV3BpZUdQSGFMZmJZeDFmci1ra3kwZlhLUE1VZHpMaldTTVFLOXM1UXNqdkFzZlUxejJicGljYWczcHNJN2ZielA2M0ZLc3E3cFd4RkR0X09pNUNfdkRhQTl3TlFJU0owSGVhaDFRNml6SnhKZHVXMVpSb1hseXBrWElla3NERVNNMlVxbGVUOWI4czVTdw?oc=5"
+    },
+    {
+      "date": "2026-10-07",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "S. Korean prime minister demands N. Korea apologize for DMZ mine blast",
+      "source": "upi",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOazlVR2ZBY2pOVXF5NEMwdE1kaVZJOHhMMTR2cC1yQzJ5V2pTdEVieTRUN3hPWGl1cjRfUDMtdzNWV2p6NXVGNi1LNjdFc2ZXanptN3djSE1fYmVJYjBCQTdQZExpQ0ZYQWZFOUFqend5QTc3WjJ0UTkwRmZ1d3BuWlQ2RFYzMmo3WE1QVG54S3RaLWthSXg1elhISTNkQlFISGpuZXBOdVc1bFAwcER6eER3dkd4aGRuRzhpYUxWdzFpX1R0aWxDNm1ySVNLVUUx0gHWAUFVX3lxTE1vY2ttR3JLdmdCZzNMNDl3TDl2NDRROUVESUNZZ1VWTGVOQklBYmpMOUhvU1QyYnAwY3J1Qk5uQW1SR000X1gzUUR0VUJwd25XRHZJMU1qZ2NDTkMtQlA3Z2d2ODdfQkhzT3IzVnBwZ1BnOTA4Z2I2bGFnZWZMZkhUSmltRWQtNG54aV9WbV9TM1FWeVBWd3VfcVlUanpZMTdyWGxJX2RkS1RCQWR6eXY3WUpObnE5S2wwejM3NDR3MmtRNnJDRUxoSzlaanFjcHZYeVo0ZUE?oc=5"
+    },
+    {
+      "date": "2026-10-07",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "S. Korean ministers differ over whether DMZ blast was N. Korean provocation",
+      "source": "upi",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUVlzeThhN0R5Q190V1FnQ3VuazR1NVZoYzNxUTcwTVJMY2RpQjZhOGQ0S1lmY2hURTVabHNjaWVEa052MDVvRWZadXJ3dEhld095cG5ZOXFDaWZHbENMV2Y1VE9BWjZET1Q2MEt1R25uN0VaZVRDM0pTTjl6UC01V011Unh6bzVtLWxibUtVampRWWw5Rk5jSVctMG1KRzJpbkhuTzQ2OVIyaUN1OWFRSF9lWVZHQmwwWXE1cDdhUjnSAcYBQVVfeXFMTmk4NThRMGhqUURYcjRaNDZjdlh6bjFIVUQxa003eU9Ld3k3bHl1S1RRQk4xWVg0cl90VlJHWE9Pb2Fra1JOQlJldFkyQ1NwVFItOXdzaXBXTEN6dXNiZDUxTlJVakNYTVh4N1VkcE9ZWVBHbm9kU204bG96ODdhSy11OVczSU1sTWk0ZlNXRTlEWFhZTzRBMWZwc1hTVDBLdUtrTmFUazA2RWFXN2ZCTUstY2FsYkhiNnhyaURraFdobzFNamh3?oc=5"
+    },
+    {
+      "date": "2026-10-08",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "South Korea’s parliamentary audit grills unification, defence ministers over North Korean mine explosions in DMZ",
+      "source": "Asia News Network",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPaHBVaDU1M2VLVVJIbnlhRm9Lek1kUmZRb1BZdDhQNFRKN05aWFV4Y2lnM3JZT01zcU04c2Ftbk1hdVpicFU2VFBxaVZTN1hqM1BydXN6RXRnN1ItZVQ4UGhsT3dNVE94QXFsUnE5UjdXR1BoLUNxZE16Sy1YZUEwME1INDYyV3R0V1FyY2NQY2phekg0MkJFYllxajBNQlBNcS1NR1JTYTZfSUFUTks0cTJxNnJvSEZxek1MdzIySjZRTmp4SXBXaHkxLUEwMmdncVE?oc=5"
+    },
+    {
+      "date": "2026-10-08",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "DMZ blast exposes heightened dangers along North Korea-South Korea border",
+      "source": "The Straits Times",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaS0yNnViS3NwSjF6TnIzc0hrSDQtWVhwdk1LREx5VVhFckR4bjVVeVBUc0lwZzI1V1MzZmhlakZ4ODg0MUphZFdXelpVWWdoR3JtVGFNOUxpQmlzLUtZaW53c1lKTDlKVDhXRHYxaU9Vd19jcVN6OGY3MlVRVHZYTFZjcGJjUTFsVlV3N1JlR004aUtfYzJONWR1NXdMN2t5c3p4OVlEV1JjM1NXN1lCM0RtX01UMDQ5?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "DMZ",
-      "count": 121
+      "count": 125
     },
     {
       "place": "Seoul",
@@ -2669,11 +2718,7 @@
     },
     {
       "place": "Pyongyang",
-      "count": 6
-    },
-    {
-      "place": "Wonsan",
-      "count": 2
+      "count": 5
     },
     {
       "place": "Yeonpyeong",
@@ -2685,6 +2730,10 @@
     },
     {
       "place": "Northern Limit Line",
+      "count": 1
+    },
+    {
+      "place": "Wonsan",
       "count": 1
     }
   ],

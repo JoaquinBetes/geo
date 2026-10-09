@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-10-08T23:21:18+00:00",
+  "updated": "2026-10-09T06:09:03+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -38,13 +38,13 @@
   },
   "window": {
     "from": "2026-02-27",
-    "to": "2026-10-08"
+    "to": "2026-10-09"
   },
   "kpis": {
-    "events_total": 525,
-    "events_unlocated": 2415,
-    "events_7d": 15,
-    "events_prev_7d": 8,
+    "events_total": 526,
+    "events_unlocated": 2418,
+    "events_7d": 13,
+    "events_prev_7d": 9,
     "hottest_place": "Strait of Hormuz"
   },
   "daily": [
@@ -907,6 +907,15 @@
       "date": "2026-10-08",
       "total": 2,
       "strike": 2,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-09",
+      "total": 1,
+      "strike": 1,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -6153,16 +6162,26 @@
       "title": "Trump asks Pentagon for Iran strike options before midterms - report",
       "source": "The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5yNGxnd0tDNGduMk9tSlItSGNfMTlTem8wWlR4cDNaeV9mODBzSkZlc1BucHB3R2JNRV82YjE0RHRkcUo1d3VPb2t2dDE1TTg4RGVJUGhCcERkaU5RY293THE1dW04eWY4VWc?oc=5"
+    },
+    {
+      "date": "2026-10-09",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iran war live: IRGC says it targets ‘violating’ ships nightly in Hormuz",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/9/iran-war-live-iranian-media-reports-massive-explosions-in-hormuz-strait?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 33
+      "count": 32
     },
     {
       "place": "Tehran",
-      "count": 21
+      "count": 20
     },
     {
       "place": "Bab el-Mandeb",
@@ -6173,11 +6192,11 @@
       "count": 12
     },
     {
-      "place": "Sanaa",
-      "count": 5
+      "place": "Kharg Island",
+      "count": 2
     },
     {
-      "place": "Kharg Island",
+      "place": "Sanaa",
       "count": 2
     },
     {

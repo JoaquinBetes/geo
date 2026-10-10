@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-10-10T05:52:53+00:00",
+  "updated": "2026-10-10T12:32:04+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -48,9 +48,9 @@
     "to": "2026-10-10"
   },
   "kpis": {
-    "events_total": 967,
-    "events_unlocated": 2741,
-    "events_7d": 68,
+    "events_total": 970,
+    "events_unlocated": 2742,
+    "events_7d": 71,
     "events_prev_7d": 61,
     "hottest_place": "Kyiv"
   },
@@ -1119,45 +1119,15 @@
     },
     {
       "date": "2026-10-10",
-      "total": 1,
-      "strike": 0,
+      "total": 4,
+      "strike": 2,
       "ground": 0,
-      "infrastructure": 1,
+      "infrastructure": 2,
       "air_defense": 0,
       "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-07-04",
-      "type": "strike",
-      "place": "Donetsk",
-      "lat": 48.0159,
-      "lon": 37.8029,
-      "title": "Ukraine war briefing: Germany calls reports Russian soldiers are being trained in China ‘deeply disturbing’",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/jul/04/ukraine-war-briefing-germany-calls-reports-russian-soldiers-are-being-trained-in-china-deeply-disturbing"
-    },
-    {
-      "date": "2026-07-04",
-      "type": "infrastructure",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Ukraine hits oil and military facilities near Russia’s St Petersburg",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/4/ukraine-hits-oil-and-military-facilities-near-russias-st-petersburg?traffic_source=rss"
-    },
-    {
-      "date": "2026-07-04",
-      "type": "ground",
-      "place": "Moscow",
-      "lat": 55.7558,
-      "lon": 37.6173,
-      "title": "Ukraine Rejects Kremlin Claim It Captured Key City As Moscow Issues \"Humanitarian\" Ultimatum",
-      "source": "Radio Free Europe/Radio Liberty",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBFanpqZk53WkVJd2U2Z3Y4YkZlM2Q2cF9oTU9HNm5YdHBTMmllaGdCWnpWcEE0UzlEdVFZTm9Edk5zV09Ya0o3Q1YwSDFraVktMzg5WVlsX1BSbUR0NElBd25vc1ppbVlHanYyWmhpb05TU18wTWM0MmdZSG5Yd9IBgAFBVV95cUxNdFVzX2hIVi12WHk0SWZVa2o2OEhlaGkzTUxONXgzbjhaSzFkSVUyd0p5M1RLY1RXaWlkZkdxNl96cDhnbDZEYURydzQ3d0l1M2pVNmlmOVRNNlhEd25taTl4dS03MGo4RmJPcF9sRDlZYU5NUS1xLUdXN2ZPTEdGNg?oc=5"
-    },
     {
       "date": "2026-07-05",
       "type": "strike",
@@ -10127,6 +10097,36 @@
       "title": "Ukraine war briefing: Kyiv blasts peace talks as just ‘smokescreen’ for Trump‘s Russian diesel deal",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/oct/10/ukraine-war-briefing-trumps-russian-diesel-deal-derided-as-weak-and-a-betrayal-of-ukraine-and-us-national-security"
+    },
+    {
+      "date": "2026-10-10",
+      "type": "strike",
+      "place": "Zaporizhzhia",
+      "lat": 47.8388,
+      "lon": 35.1396,
+      "title": "Ukraine war: Russian glide bomb attack on Zaporizhzhia kills at least 15 people",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9VaXBla2l6ZlZUVmJqYWFBOUxocXhWUEVRcEkxOG4wZzIxV0l3UF9nMGV3Ri1zcnpkOHB4X2luNUZUZmxGUks0VVhpVDNPNWo1V0JScXBhX2pVMlk?oc=5"
+    },
+    {
+      "date": "2026-10-10",
+      "type": "infrastructure",
+      "place": "Dnipro",
+      "lat": 48.4647,
+      "lon": 35.0462,
+      "title": "Don’t rebuild the dam: Ukrainian experts urge Unesco to protect site uncovered by Russian sabotage",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/10/ukraine-unesco-great-meadow-dnipro-dont-rebuild-dam"
+    },
+    {
+      "date": "2026-10-10",
+      "type": "strike",
+      "place": "Zaporizhzhia",
+      "lat": 47.8388,
+      "lon": 35.1396,
+      "title": "Russian glide bomb attack on Zaporizhzhia kills at least 15 people",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss"
     }
   ],
   "top_places": [
@@ -10144,15 +10144,15 @@
     },
     {
       "place": "Dnipro",
-      "count": 8
+      "count": 9
+    },
+    {
+      "place": "Zaporizhzhia",
+      "count": 7
     },
     {
       "place": "Donetsk",
       "count": 6
-    },
-    {
-      "place": "Zaporizhzhia",
-      "count": 5
     },
     {
       "place": "Odesa",

@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-10-10T21:44:27+00:00",
+  "updated": "2026-10-11T05:47:20+00:00",
   "overall_tone": -0.2062,
   "rsf_as_of": "2025 (aprox.)",
   "outlets": [
@@ -15,9 +15,9 @@
       "lat": 25.2867,
       "lon": 51.5333,
       "rsf": 84,
-      "articles": 7262,
-      "tone_avg": -0.2707,
-      "tone_delta": -0.0645
+      "articles": 7277,
+      "tone_avg": -0.2712,
+      "tone_delta": -0.065
     },
     {
       "name": "BBC",
@@ -30,9 +30,9 @@
       "lat": 51.5188,
       "lon": -0.144,
       "rsf": 20,
-      "articles": 2275,
-      "tone_avg": -0.2954,
-      "tone_delta": -0.0892
+      "articles": 2278,
+      "tone_avg": -0.2955,
+      "tone_delta": -0.0893
     },
     {
       "name": "NPR",
@@ -45,9 +45,9 @@
       "lat": 38.899,
       "lon": -77.008,
       "rsf": 57,
-      "articles": 680,
-      "tone_avg": -0.2665,
-      "tone_delta": -0.0603
+      "articles": 681,
+      "tone_avg": -0.2676,
+      "tone_delta": -0.0614
     },
     {
       "name": "NK News",
@@ -75,9 +75,9 @@
       "lat": 40.757,
       "lon": -74.0,
       "rsf": 57,
-      "articles": 297,
-      "tone_avg": -0.0897,
-      "tone_delta": 0.1165
+      "articles": 298,
+      "tone_avg": -0.0873,
+      "tone_delta": 0.1189
     },
     {
       "name": "TIME",
@@ -260,6 +260,21 @@
       "tone_delta": -0.0312
     },
     {
+      "name": "Kyodo News",
+      "url": "https://english.kyodonews.net",
+      "city": "Tokio",
+      "country": "Japón",
+      "iso3": "JPN",
+      "type": "agencia",
+      "desc": "La agencia cooperativa japonesa de noticias.",
+      "lat": 35.66,
+      "lon": 139.75,
+      "rsf": 66,
+      "articles": 45,
+      "tone_avg": 0.0397,
+      "tone_delta": 0.2459
+    },
+    {
       "name": "Bloomberg",
       "url": "https://www.bloomberg.com",
       "city": "Nueva York",
@@ -288,21 +303,6 @@
       "articles": 44,
       "tone_avg": -0.3557,
       "tone_delta": -0.1495
-    },
-    {
-      "name": "Kyodo News",
-      "url": "https://english.kyodonews.net",
-      "city": "Tokio",
-      "country": "Japón",
-      "iso3": "JPN",
-      "type": "agencia",
-      "desc": "La agencia cooperativa japonesa de noticias.",
-      "lat": 35.66,
-      "lon": 139.75,
-      "rsf": 66,
-      "articles": 44,
-      "tone_avg": 0.0406,
-      "tone_delta": 0.2468
     },
     {
       "name": "CNN",
@@ -1193,15 +1193,15 @@
   "by_country": {
     "QAT": {
       "outlets": 1,
-      "articles": 7262
+      "articles": 7277
     },
     "GBR": {
       "outlets": 9,
-      "articles": 2611
+      "articles": 2614
     },
     "USA": {
       "outlets": 25,
-      "articles": 1558
+      "articles": 1560
     },
     "KOR": {
       "outlets": 4,
@@ -1217,7 +1217,7 @@
     },
     "JPN": {
       "outlets": 3,
-      "articles": 125
+      "articles": 126
     },
     "IND": {
       "outlets": 9,
@@ -1279,11 +1279,11 @@
   "others": [
     {
       "source": "조선일보",
-      "articles": 524
+      "articles": 526
     },
     {
       "source": "Korea JoongAng Daily",
-      "articles": 288
+      "articles": 289
     },
     {
       "source": "upi.com",
@@ -1326,19 +1326,19 @@
       "articles": 36
     },
     {
-      "source": "Asia News Network",
+      "source": "Inquirer.net",
       "articles": 33
     },
     {
-      "source": "Inquirer.net",
-      "articles": 32
+      "source": "Asia News Network",
+      "articles": 33
     },
     {
       "source": "Latest news from Azerbaijan",
       "articles": 31
     }
   ],
-  "others_total": 4580,
-  "matched_articles": 13205,
-  "total_articles": 17785
+  "others_total": 4590,
+  "matched_articles": 13226,
+  "total_articles": 17816
 }

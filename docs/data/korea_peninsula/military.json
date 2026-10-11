@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-10-10T21:44:29+00:00",
+  "updated": "2026-10-11T05:47:22+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -43,13 +43,13 @@
   },
   "window": {
     "from": "2026-01-12",
-    "to": "2026-10-10"
+    "to": "2026-10-11"
   },
   "kpis": {
-    "events_total": 227,
-    "events_unlocated": 2592,
-    "events_7d": 57,
-    "events_prev_7d": 81,
+    "events_total": 228,
+    "events_unlocated": 2600,
+    "events_7d": 38,
+    "events_prev_7d": 101,
     "hottest_place": "DMZ"
   },
   "daily": [
@@ -498,6 +498,15 @@
       "date": "2026-10-09",
       "total": 3,
       "strike": 3,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-11",
+      "total": 1,
+      "strike": 1,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -2774,12 +2783,22 @@
       "title": "Seoul demands North Korean apology for DMZ mine blast",
       "source": "동아일보",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1lR2tqRlhxUGl2R0RlSE5kLXlJaWJGdjJQanYwOWo4aUQyNnpEUjQ2cFBoNG9DelRZNm1YQzNZYmVHS2tUOXdYdVNxMWV0WmFSUXplMklrbmhWN2VtMzRWeHdnNXdQQQ?oc=5"
+    },
+    {
+      "date": "2026-10-11",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "One border, 3 lines: Why another DMZ mine blast could be waiting to happen",
+      "source": "Hankyoreh : English Edition",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1CYk4zQlVnSUhvX01VaEU3RHI1VWlRT1E3MjE2VlkwQUw2VU9JM2pTa2hScW9kejJrTFZ4akVlcUlXWm5GXzRnTTZwT1NCd0UxZ3hEcVJTZ1E2TUpEUHE1Sy1GOU5qc1pVSUxjaEp3QVVlSFhMTkVtWUJEellqZw?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "DMZ",
-      "count": 129
+      "count": 130
     },
     {
       "place": "Seoul",

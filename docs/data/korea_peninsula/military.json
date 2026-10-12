@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-10-11T21:58:58+00:00",
+  "updated": "2026-10-12T05:58:48+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -43,12 +43,12 @@
   },
   "window": {
     "from": "2026-01-12",
-    "to": "2026-10-11"
+    "to": "2026-10-12"
   },
   "kpis": {
-    "events_total": 229,
-    "events_unlocated": 2611,
-    "events_7d": 39,
+    "events_total": 243,
+    "events_unlocated": 2636,
+    "events_7d": 47,
     "events_prev_7d": 101,
     "hottest_place": "DMZ"
   },
@@ -505,8 +505,17 @@
     },
     {
       "date": "2026-10-11",
-      "total": 2,
-      "strike": 2,
+      "total": 3,
+      "strike": 3,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-12",
+      "total": 13,
+      "strike": 13,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -2803,16 +2812,156 @@
       "title": "North Korea Silent Domestically on DMZ Mine Blast: Why the Shift in Response?",
       "source": "SBS 뉴스",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9lYXZHV2pkRkFjQmRON0haZmQxY2s1OUZPWmlFUEhkQUpTQy1fY2ttc1pxdWRNdDN0bzJxVXBXeVdRRmJPLVl6cFQ5cWtmOW9UTlFRcXpHV0tYVjRncWdhUmxhck5vdDRQck5rMVVn0gFmQVVfeXFMT3U3aUVtYlJLclFUY09aZFUzOTBhOG1PQnpvSWtzcWxxSzh4YkIzRmNPMDdza3J2QWpMLW9kaEdyYW1SMmg3QXRZSDFBblJUeXFzTGhXTVNQLXNYSHRIdS0zVDFudEZn?oc=5"
+    },
+    {
+      "date": "2026-10-11",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "South Korea seeks dialogue with North after DMZ land mine blast",
+      "source": "upi",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRnc3UHJyZVNZdGFPLXUxaUNIX0xRMklUNnFvbjBKTmFqWVFISEFMNXNvZXJvZUZ6YWpoTDg0TUhUaFJOeHNxLVlhbDAyZk1WalNjcUI4UXRld2dnNkg4bjN2QTRLR0ZKc1FCdWx4YUVxUU1qaFNpaVRWSG1paDZSSHRKYkRJUi1NeWlyYU9SQzdsaThpa0lQazhZcklxY0N5ME15bTFhbGFLZm92bkpZUHN4Nm1xdUnSAbwBQVVfeXFMTnNjd3ItR0J4UHQ2STYwbWZ5bWNoa3J5Wk9xU3V3LW11ekZGLVo1TjF2MlNXS3FaRHRhT2IwNUpUamZ0bVdFLWhycmdQVlBnZW50eEF6S2JxNkxvOXo3SzY2ZTRrV3F0T0lmRC1JMml0X3lhWXpNREhuNWl6MlltTmJibmlZaFJQTnhJYk16VG5UZ3Nsc3lDQkRYai1wR08ycFlZSFVjeHVMSDZGZnB5eVBfTG5ndlVFMmR4bEg?oc=5"
+    },
+    {
+      "date": "2026-10-12",
+      "type": "strike",
+      "place": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "title": "North Korea fires multiple ballistic missiles, the latest in a streak of weapons tests",
+      "source": "NBC News",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUkhVcFVXZS0weW53VzVQcE5DT2hBdEYxclI3SDRtU3hoWlItbkpUR2NrM3RmVDVGbWl3MjF3enZCQ2JOUmxIMFF3ZmpYZ2tYMlhmUWhtSWI4dmdKVUZyRDk4cGhNeDBZMEk5SWV0ZmNnaUtEU0NxaXZhelZEMzNKcHZ4TXUxcERVcGtzT0RWdnZydGtYSFF6Q1gzN3JJNEw0NWw4RkRIc2VONDEzbjdoLWhqTDlMdFE?oc=5"
+    },
+    {
+      "date": "2026-10-12",
+      "type": "strike",
+      "place": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "title": "North Korea fires multiple ballistic missiles off east coast, Seoul says",
+      "source": "France 24",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeWk1RVo3QnA5WXQzX3FnOHVscFZBUzlzMjVLRkR4YmxCOXJMLV9QZmR6cFVqVkVpeDJwaDZYWGlhdkFMN3RyYUVISGU0dTZ4SXlBMW5uZGtHM0tra2FoTERuTVJUdGVMVE8taFQ2b0Z0bVdGemtPM3o4YUp3clpzbEdZc1NYRkFhZVF1blBrT3pRSm9LZ2ltcTZwQXI?oc=5"
+    },
+    {
+      "date": "2026-10-12",
+      "type": "strike",
+      "place": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "title": "North Korea fires 'several ballistic missiles' into Sea of Japan, Seoul's military says",
+      "source": "Euronews.com",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQeFpVRnFkeWxISDdIMVBVUHlFQzZPZzkyWm5Rb0M1c1E4Z2ZNd1Y2ZTBJZHQyVldFeXpSYnJBdWRFZlBuamRTYXdCQU1KWHVnam5OVE5mdzV5R2d6dTczaWdqLXhMcHBGWldZY3ViS2YxSkZTMFRNVS1SQmJoMnNPRzM4cUgtQmg5SzlLVTA3aTNLOTdrcTdsWGNwY3Z6VHBlcWttWnEzelRTcFFSRVlVVmZjMkdFdnJYNUNZ?oc=5"
+    },
+    {
+      "date": "2026-10-12",
+      "type": "strike",
+      "place": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "title": "North Korea fires missiles towards the sea, Seoul says",
+      "source": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYm41UFo1R0tCcnBVNC1SbW9LZW1jVWZHc2JLTzFBVzY1TlJGaGoyYWpUcTVaLXY2cUxZV2ZsdXB4TWlrcjloT3JlZmtTdTB3a080NjV3SENOXzd1SGliOXB3YjRFLTBiZmRlQ3U1d053WklBRTZWQk42Y1BMcmRpQktqN19QQXA4T3A4NmVjRzQ4Z3hjVWc?oc=5"
+    },
+    {
+      "date": "2026-10-12",
+      "type": "strike",
+      "place": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "title": "North Korea fires multiple ballistic missiles toward East Sea: Seoul",
+      "source": "Anadolu Ajansı",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQk1yN0VGNGJfVDNQYzVNVFBzV251RWFmQmc0UDg5dzdmWXZBR2YxdzB3dnNWUF9uc1Fod0MtN21CMTVLUWk0UnJ2WWVENHJEM3V6SzFKeTJNTVQ1SFZ2c09kTUVkMUpVcDFrQnM4ZTlQd2ZyQU1BUHpqUHlZN2w1QnRtWnk2dnFXaDJmdEhjbVg3TmNxNUptaFdERklRZWoyVUFSY2lDVEtoOXVtZ29UWUxQUQ?oc=5"
+    },
+    {
+      "date": "2026-10-12",
+      "type": "strike",
+      "place": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "title": "North Korea fires several missiles, Seoul says",
+      "source": "Mehr News Agency",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQTZYMUtQd2NVRVpsVFB6dzBtTFlpdjhaLXpGeDFFTGNvMlM3WVltT3puOFhGVmQ5R1BGcGlNbUk2WkEyMkotVHVCaUtkXzlyVWo4M2R4bUpqOFBsclV5dm5PQ0J6a1N1SUpSb1NudlE5dXpISDF4d2xUUWhjblFxdFNvOE5zWkJB?oc=5"
+    },
+    {
+      "date": "2026-10-12",
+      "type": "strike",
+      "place": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "title": "North Korea Fires Several Ballistic Missiles as Tensions With Seoul Mount",
+      "source": "Around Prague",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZFZHbWdUWnhOLTNVM2lBX1JISWRvZWJFZ0RjMk9Bb09HSUlrcXZoMmpXRHhhV3lHUzczek5OQ2ZibGdReVV0bmR1TVg3eEZLWUFTOVEtQ0NxVHhfTVBWMWo5WE1SQWdkLVY0TUNvVmVRUVhPcnAtcU1PY1JyMkNsaFIwUVhyRVAzSHBmN3NKak0xaU5XWEhaMEhFTkNidlk0bTdhQWMzRUhtSWVIZDE3Qg?oc=5"
+    },
+    {
+      "date": "2026-10-12",
+      "type": "strike",
+      "place": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "title": "North Korea fires multiple ballistic missiles off east coast, Seoul says",
+      "source": "Yahoo News Singapore",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbEVMOGF1eTFhaU5BLTVnODd4dDVZY1dGYTBsWVdkMmdsTHh4UE04ckRTS0ZLYmhCMFo3WGI3VlloM3ZKaTlQQWhSUDVwWWNxMnpJcjJ3M0x4aXdSb0FRZzJ2bi1sSUREMVYzbTJKZTQwcWVFaGpMT2RyUGZzSXkxamNMdw?oc=5"
+    },
+    {
+      "date": "2026-10-12",
+      "type": "strike",
+      "place": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "title": "North Korea fires multiple ballistic missiles towards S Korea, Seoul urges Pyongyang to stop ‘UN violatio",
+      "source": "The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQZzd5VkJPbE1HTmN6c3VseWFkVHNHal9tNFRzbmNZZ2RfSEZuWFpPM2tJUGpTbXloV21pUlNEaTJxcVpkOUs4WUVhVzRROWlCbTJ5clVZQkpqUm5zenNLTGZTbVhaUmNYMDNlVnJRUS0wcnRTLVI4cUYyeWx5QTMzRUFTOFpMVmNLNC1wTXZYXzFRbUNjeHYxM1NIbzVTNndTUU5BbE5FZ0dpb3pZTFE3SUt1OVluUU5BYW5fN25UeWRyYTJXYWtDeXR4bUltQjhzTXFvUVh0UEp5OWJma19sWFhWMFlvTEhycXJROGNUUnJwaWJsNHhQQlRRdm13X2x4QjZN0gGIAkFVX3lxTE9GUm9FWGdDVlQxRGw3aFgyeEhoTGI4ZkNVSDB5cFcyZjlTdXh4RVQ1VzhnbFFLMmFMZ2Q2RTY4bktGWDdrZWhFSVh4dl9yeTRYTThtUHl5M1FmellfUklUd01CVmdIZlhRMkdxU0F4SVhwUlM4YTFSMktIOHFZUklxbzNtS0t1LVJwZkI4QWN4VFZYdGEyV2VDMGNYV2VTVUVaZGNQUy1Qb01KTndzSWUzVGpaWE94N0FYcld3V3Q5SEJMekotOFl0RHlkU3B5UzM4TUNwZWt5M1gtTUtEem5lMlZ1LVlrcHBrc2x1aGdLYzkzeGFrZzczWnQ2dG9USVd5dzVBWGpwcw?oc=5"
+    },
+    {
+      "date": "2026-10-12",
+      "type": "strike",
+      "place": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "title": "Seoul says multiple North Korean ballistic missiles were fired",
+      "source": "Gulf News",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSHlPZGtWNnNEUVZ0X2RCalFMVUwxTm5iNHpqbjdzd1BXaTI3MEkzb0lXQzRjdG8xUzktdFVOcGhYbEpxNDdDSlhHb08yZEVmaVU4S0ExTU5CSjNhWEUzc19JWER0YVR0aThxNVgwQ3dMVTJpOTY4cUN2RjA5ZTNHVXJMVE44TDQzeS1EN3hIWExMS1lYRTJvLTFObjBvbldXZFFqQ1plVDZpZ9IBvAFBVV95cUxQVGFTaE96dGs0NUt3aXRYSW1leHQ5a3NSNmVvNnEwTEMzdzhQWGtKM0ZEaG5UMXZ4YzFBdVIxdTRlZjJEdGdPTHl0RElCcnVDOVFYUEs5SmZWOTNRZkJmRmFqQktKdy1DRHNza2VYTmFRNjkwcWFtZHVWc1hIMXE3bVRrWkU0cUwtb1YwOGlYQzZJMlFueDJCY1dPMmcwOGlQTUxJMnI4M0xwdGhyZDBXMUJ4bkFCcTJDUXcyRw?oc=5"
+    },
+    {
+      "date": "2026-10-12",
+      "type": "strike",
+      "place": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "title": "North Korea Fires Missiles After Seoul's Hypersonic Test",
+      "source": "Tempo.co English",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWnRFSWwzSDU1ZmJKUkZhcEV4T1BhSzBNbGhqMHo0VHc4MFpqYzNsR2NCcTRSZ0F2UW0yaXkwZ1dMYXJ4YzlBaXFuQXBYRVJib2ZTUWtmbm1XYW1oTTZDZWh2aHJxbTdrVFQxV3JNbXE2VkxhcU1CS0RtdkhNOExZYnRLUUtCazhzS3ItWklVVWFNQQ?oc=5"
+    },
+    {
+      "date": "2026-10-12",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "Parties Clash Again Over DMZ Mine Blast Resolution Against North Korea",
+      "source": "Seoul Economic Daily",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPU0dZUjhnLXk5MWtCMWRNRXIwOHlGang2cXdCa2t0bW1FUzZLa1NPZThfenlIUjNnS2JpdmI5ZkpmRG5QcTVDNUpjaFZZY3hGWXZTZzRleHZ5LUxhdEZOT2FTUlplV0RUMi1oTlc3Vnl2bWVOTUpPVU9BZnlDT3UxZGlFbHM1WFoxZ0h3cnVxZ2psZUF4MjFNWVdxWW5uNkV1NTRR?oc=5"
+    },
+    {
+      "date": "2026-10-12",
+      "type": "strike",
+      "place": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "title": "North Korea fires multiple ballistic missiles towards the sea",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/12/north-korea-fires-multiple-ballistic-missiles-towards-the-sea?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "DMZ",
-      "count": 131
+      "count": 133
     },
     {
       "place": "Seoul",
-      "count": 37
+      "count": 49
     },
     {
       "place": "Pyongyang",

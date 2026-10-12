@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-10-11T21:58:35+00:00",
+  "updated": "2026-10-12T05:58:27+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -38,13 +38,13 @@
   },
   "window": {
     "from": "2026-02-27",
-    "to": "2026-10-11"
+    "to": "2026-10-12"
   },
   "kpis": {
-    "events_total": 529,
-    "events_unlocated": 2484,
+    "events_total": 530,
+    "events_unlocated": 2494,
     "events_7d": 14,
-    "events_prev_7d": 10,
+    "events_prev_7d": 8,
     "hottest_place": "Strait of Hormuz"
   },
   "daily": [
@@ -923,6 +923,15 @@
     },
     {
       "date": "2026-10-10",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-12",
       "total": 1,
       "strike": 1,
       "ground": 0,
@@ -6211,24 +6220,34 @@
       "title": "Iran can still produce missiles despite US-Israeli strikes",
       "source": "The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBiOU1Ba0c1UjAzLVJqZXYyTC16bDlCMklBNlRhbmhUTnF4TG54ZjJhX3RteC1zNUQ3WWNwRVBxMGs0NjdfbnFtSUF6U0JZQnhyMGhXRXhRSy1kaTl2MWpYcFpKWDJsYy11T2c?oc=5"
+    },
+    {
+      "date": "2026-10-12",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Iran’s FM urges diplomacy in call with Saudi counterpart",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/12/irans-fm-urges-diplomacy-in-call-with-saudi-counterpart?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Strait of Hormuz",
-      "count": 29
+      "count": 27
     },
     {
       "place": "Tehran",
-      "count": 16
-    },
-    {
-      "place": "Bab el-Mandeb",
-      "count": 13
+      "count": 17
     },
     {
       "place": "Jerusalem",
-      "count": 12
+      "count": 11
+    },
+    {
+      "place": "Bab el-Mandeb",
+      "count": 8
     },
     {
       "place": "Sanaa",

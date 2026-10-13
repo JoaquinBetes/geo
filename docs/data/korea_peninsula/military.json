@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-10-12T15:26:01+00:00",
+  "updated": "2026-10-13T00:40:22+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -43,13 +43,13 @@
   },
   "window": {
     "from": "2026-01-12",
-    "to": "2026-10-12"
+    "to": "2026-10-13"
   },
   "kpis": {
-    "events_total": 249,
-    "events_unlocated": 2663,
-    "events_7d": 53,
-    "events_prev_7d": 101,
+    "events_total": 250,
+    "events_unlocated": 2690,
+    "events_7d": 47,
+    "events_prev_7d": 90,
     "hottest_place": "DMZ"
   },
   "daily": [
@@ -514,25 +514,15 @@
     },
     {
       "date": "2026-10-12",
-      "total": 19,
-      "strike": 19,
+      "total": 20,
+      "strike": 20,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
-      "anomaly": false
+      "anomaly": true
     }
   ],
   "events": [
-    {
-      "date": "2026-04-15",
-      "type": "strike",
-      "place": "Pyongyang",
-      "lat": 39.0392,
-      "lon": 125.7625,
-      "title": "North Korea rapidly expanding nuclear weapons capability, UN watchdog warns",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/apr/15/north-korea-nuclear-weapons-capability-un-watchdog-rafael-grossi"
-    },
     {
       "date": "2026-04-26",
       "type": "strike",
@@ -3012,6 +3002,16 @@
       "title": "North Korea fires ballistic missiles toward East Sea: Seoul",
       "source": "Yeni Şafak English",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWVBRUl9EQXZsRFBMcXItcXNIOVhDcXpzcUJsSWcyRnFBdVBlbGRaZWpLdTRrQlloVi1zc0gxVjNrc3hHUU1JTGRrTWsxV2RTS3ZHNC1qYy1jZmVWR2JiVDhYdDBoZUowSnlCQmNXcDd2VE82ZnNISFNxc0hnbnpLR2xNTllFSE9UVW81UlRoMzZNWTVURElCRkduVEhGdw?oc=5"
+    },
+    {
+      "date": "2026-10-12",
+      "type": "strike",
+      "place": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "title": "North Korean missile launches may be response to South's hypersonic test, Seoul says",
+      "source": "TRT World",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ZLUdTUHJEQnNzQTFIRl9Ld3Z1RnJ3c2IxNFVNTFBBamhLbXllRkRXMUF6Q0RRdnQ1Znk4WGJJRjFCakpPMGpuQnFEOTJQRTdaX0l0ZUhHMlg?oc=5"
     }
   ],
   "top_places": [
@@ -3021,7 +3021,7 @@
     },
     {
       "place": "Seoul",
-      "count": 55
+      "count": 50
     },
     {
       "place": "Pyongyang",

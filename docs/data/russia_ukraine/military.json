@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-10-12T15:25:29+00:00",
+  "updated": "2026-10-13T00:39:47+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-10-23",
-    "to": "2026-10-12"
+    "to": "2026-10-13"
   },
   "kpis": {
-    "events_total": 985,
-    "events_unlocated": 2804,
-    "events_7d": 58,
-    "events_prev_7d": 75,
+    "events_total": 988,
+    "events_unlocated": 2810,
+    "events_7d": 56,
+    "events_prev_7d": 69,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -1137,45 +1137,15 @@
     },
     {
       "date": "2026-10-12",
-      "total": 3,
+      "total": 6,
       "strike": 1,
       "ground": 0,
-      "infrastructure": 2,
+      "infrastructure": 5,
       "air_defense": 0,
       "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-07-06",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Zelenskyy calls for ‘strong decisions’ at Nato summit as Russia kills 19 in overnight strikes on Kyiv – Europe live",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/live/2026/jul/06/ukraine-russia-zelenskyy-nato-summit-strikes-kyiv-europe-latest-news-updates"
-    },
-    {
-      "date": "2026-07-06",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Russian drones and missiles pummel Kyiv on eve of Nato summit – video",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/video/2026/jul/06/russian-drones-and-missiles-pummel-kyiv-on-eve-of-nato-summit-video"
-    },
-    {
-      "date": "2026-07-06",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Ukraine hopes to sign ‘drone deals’ with seven Nato countries by end of year",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/jul/06/ukraine-drone-deals-seven-nato-countries-end-of-year"
-    },
     {
       "date": "2026-07-06",
       "type": "infrastructure",
@@ -10145,6 +10115,36 @@
       "title": "Huge explosion captured on CCTV after deadly strike hits grocery store in Kharkiv – video",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/video/2026/oct/12/huge-explosion-captured-on-cctv-after-deadly-strike-hits-grocery-store-in-kharkiv-video"
+    },
+    {
+      "date": "2026-10-12",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Trump rewards Putin and betrays Ukraine with Russia diesel deal - The Latest",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/news/video/2026/oct/12/trump-rewards-putin-and-betrays-ukraine-with-russia-diesel-deal-the-latest"
+    },
+    {
+      "date": "2026-10-12",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Trump rewards Putin and betrays Ukraine with Russia diesel deal - The Latest",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/news/audio/2026/oct/12/trump-rewards-putin-and-betrays-ukraine-with-russia-diesel-deal-the-latest"
+    },
+    {
+      "date": "2026-10-12",
+      "type": "infrastructure",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Why Moscow is staying tight-lipped on Trump's energy ceasefire",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cjx2359qekrdo?at_medium=RSS&at_campaign=rss"
     }
   ],
   "top_places": [
@@ -10154,7 +10154,7 @@
     },
     {
       "place": "Moscow",
-      "count": 48
+      "count": 49
     },
     {
       "place": "Kramatorsk",
@@ -10177,16 +10177,16 @@
       "count": 6
     },
     {
-      "place": "Odesa",
-      "count": 5
-    },
-    {
       "place": "Chernihiv",
       "count": 3
     },
     {
-      "place": "Kursk",
-      "count": 2
+      "place": "Odesa",
+      "count": 3
+    },
+    {
+      "place": "Kerch",
+      "count": 1
     }
   ],
   "losses": {

@@ -2,13 +2,13 @@
   "id": "iran_israel",
   "name": "Irán–Israel/EE.UU.",
   "description": "Cobertura mediática del conflicto entre Irán, Israel y Estados Unidos",
-  "updated": "2026-10-14T17:10:25+00:00",
-  "total_articles": 18725,
+  "updated": "2026-10-14T21:41:30+00:00",
+  "total_articles": 18767,
   "overall_avg": -0.3254,
   "distribution": {
-    "pos": 3947,
-    "neu": 2782,
-    "neg": 11996
+    "pos": 3956,
+    "neu": 2790,
+    "neg": 12021
   },
   "sources": [
     "Al Jazeera",
@@ -444,6 +444,7 @@
     "Apa.az",
     "mei.edu",
     "Council on Foreign Relations (CFR)",
+    "WJTV",
     "Operativ Məlumat Mərkəzi",
     "Bangladesh Sangbad Sangstha (BSS)",
     "Baltimore Sun",
@@ -870,7 +871,6 @@
     "democrata.es",
     "wsj.com",
     "Oz Arab Media",
-    "WJTV",
     "KTVB",
     "Seymour Tribune",
     "AOL.co.uk",
@@ -926,7 +926,9 @@
     "Greenwich Time",
     "CBN.com",
     "Egyptian Gazette",
-    "Middle East Online"
+    "Middle East Online",
+    "Arkansas Advocate",
+    "KOKI FOX 23"
   ],
   "daily": [
     {
@@ -2187,31 +2189,31 @@
     },
     {
       "date": "2026-10-13",
-      "count": 149,
-      "avg": -0.2937,
+      "count": 150,
+      "avg": -0.2918,
       "pos": 36,
-      "neu": 21,
+      "neu": 22,
       "neg": 92
     },
     {
       "date": "2026-10-14",
-      "count": 151,
-      "avg": -0.3547,
-      "pos": 29,
-      "neu": 18,
-      "neg": 104
+      "count": 192,
+      "avg": -0.3495,
+      "pos": 38,
+      "neu": 25,
+      "neg": 129
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 8524,
-      "avg": -0.2916
+      "count": 8549,
+      "avg": -0.2915
     },
     {
       "source": "BBC",
-      "count": 2516,
-      "avg": -0.294
+      "count": 2521,
+      "avg": -0.2936
     },
     {
       "source": "The Times of Israel",
@@ -2220,8 +2222,8 @@
     },
     {
       "source": "NPR",
-      "count": 746,
-      "avg": -0.2767
+      "count": 747,
+      "avg": -0.2763
     },
     {
       "source": "The Guardian",
@@ -2230,8 +2232,8 @@
     },
     {
       "source": "The Jerusalem Post",
-      "count": 417,
-      "avg": -0.2339
+      "count": 419,
+      "avg": -0.2368
     },
     {
       "source": "Times of Israel",
@@ -2240,8 +2242,8 @@
     },
     {
       "source": "Israel National News",
-      "count": 156,
-      "avg": -0.3352
+      "count": 157,
+      "avg": -0.3381
     },
     {
       "source": "www.israelhayom.com",
@@ -2255,8 +2257,8 @@
     },
     {
       "source": "Ynetnews",
-      "count": 134,
-      "avg": -0.3977
+      "count": 135,
+      "avg": -0.4005
     },
     {
       "source": "Haaretz",
@@ -2265,8 +2267,8 @@
     },
     {
       "source": "JNS.org",
-      "count": 110,
-      "avg": -0.2452
+      "count": 111,
+      "avg": -0.243
     },
     {
       "source": "The Times of India",
@@ -2340,13 +2342,13 @@
     },
     {
       "source": "Iran International",
-      "count": 42,
-      "avg": -0.2807
+      "count": 43,
+      "avg": -0.2954
     },
     {
       "source": "NBC News",
-      "count": 39,
-      "avg": -0.5422
+      "count": 40,
+      "avg": -0.5481
     },
     {
       "source": "Yahoo",
@@ -2380,8 +2382,8 @@
     },
     {
       "source": "Al-Monitor",
-      "count": 32,
-      "avg": -0.2592
+      "count": 33,
+      "avg": -0.2697
     },
     {
       "source": "NDTV",
@@ -4367,6 +4369,11 @@
       "source": "Council on Foreign Relations (CFR)",
       "count": 2,
       "avg": -0.3062
+    },
+    {
+      "source": "WJTV",
+      "count": 2,
+      "avg": -0.3185
     },
     {
       "source": "Operativ Məlumat Mərkəzi",
@@ -6499,11 +6506,6 @@
       "avg": 0.0
     },
     {
-      "source": "WJTV",
-      "count": 1,
-      "avg": -0.6369
-    },
-    {
       "source": "KTVB",
       "count": 1,
       "avg": -0.6369
@@ -6782,44 +6784,54 @@
       "source": "Middle East Online",
       "count": 1,
       "avg": -0.7015
+    },
+    {
+      "source": "Arkansas Advocate",
+      "count": 1,
+      "avg": -0.8316
+    },
+    {
+      "source": "KOKI FOX 23",
+      "count": 1,
+      "avg": 0.0
     }
   ],
   "top_entities": [
     {
       "name": "Iran",
       "type": "LOCATION",
-      "count": 7153,
-      "avg": -0.4418
+      "count": 7162,
+      "avg": -0.442
     },
     {
       "name": "Israel",
       "type": "LOCATION",
-      "count": 6107,
-      "avg": -0.3822
+      "count": 6116,
+      "avg": -0.3825
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 2691,
-      "avg": -0.3339
+      "count": 2692,
+      "avg": -0.3341
     },
     {
       "name": "Strait of Hormuz",
       "type": "LOCATION",
-      "count": 852,
-      "avg": -0.4393
+      "count": 853,
+      "avg": -0.4388
     },
     {
       "name": "Benjamin Netanyahu",
       "type": "PERSON",
-      "count": 767,
-      "avg": -0.3436
+      "count": 768,
+      "avg": -0.3439
     },
     {
       "name": "United States",
       "type": "LOCATION",
-      "count": 627,
-      "avg": -0.2516
+      "count": 628,
+      "avg": -0.2512
     },
     {
       "name": "Tehran",
@@ -6830,20 +6842,20 @@
     {
       "name": "Saudi Arabia",
       "type": "LOCATION",
-      "count": 542,
-      "avg": -0.3322
+      "count": 545,
+      "avg": -0.3347
     },
     {
       "name": "Jerusalem",
       "type": "LOCATION",
-      "count": 541,
-      "avg": -0.2265
+      "count": 544,
+      "avg": -0.2297
     },
     {
       "name": "Houthis",
       "type": "ORG",
-      "count": 494,
-      "avg": -0.4384
+      "count": 497,
+      "avg": -0.4405
     },
     {
       "name": "Khamenei",
@@ -6854,8 +6866,8 @@
     {
       "name": "Hezbollah",
       "type": "ORG",
-      "count": 224,
-      "avg": -0.4496
+      "count": 225,
+      "avg": -0.4514
     },
     {
       "name": "IRGC",
@@ -6908,6 +6920,367 @@
   ],
   "recent": [
     {
+      "title": "Watch: US forces destroy Iranian surveillance vessel targeting navy ships",
+      "source": "Israel National News",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1OYkNuSVlQRldRZ1h6Nk9xc2xkbmZkWVp2a2FCYlRERHA0Qm1SQ0tNVkMtWHhXTnRMRWk2ZG5TV0xKVlJ1VV9mOWowTzluWDVWYzZ6VkoxVWcxZw?oc=5",
+      "published": "2026-10-14T21:10:25+00:00",
+      "compound": -0.7906,
+      "label": "negative",
+      "entities": [
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Musk says any limits on Ukraine's Starlink access down to US, not his firm",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-14T20:55:24+00:00",
+      "compound": -0.3291,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Senate Candidate Abdul El-Sayed says Israel and Iran both threat to U.S.",
+      "source": "NBC News",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSHNTdTAyckhZQjNrbmtDc1l2Rnp3ZVBobFFYeG0tdGFCcTBEaVNfbkhrRGxmODBfRWJnR1oxam9xVDlfX3U0cjdGR1FVeXNDcjR1akRndUtVTEN5M2pGaHpUVnFqcElsMGdMeFV6VEc0UG91WW96YWE0YktybElBU3hwOUI2Y3k4SGNPUkNyUlFEV1djZXNaekRPUW5hbGt4Q2ZsaWVzeW1QLVJsRDhZb3lLcXJvN0dnVllEeW9uVmZxVnhoVEE?oc=5",
+      "published": "2026-10-14T20:53:53+00:00",
+      "compound": -0.7783,
+      "label": "negative",
+      "entities": [
+        "Iran",
+        "Israel"
+      ]
+    },
+    {
+      "title": "West Indies beat India to level T20 series as Hope continues record run",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/10/14/west-indies-beat-india-to-level-series-as-hope-continues-record-run?traffic_source=rss",
+      "published": "2026-10-14T20:52:25+00:00",
+      "compound": 0.7717,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Israeli quadcopter drone drops bomb in Lebanon",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/israeli-quadcopter-drone-drops-bomb-in-lebanon?traffic_source=rss",
+      "published": "2026-10-14T20:47:46+00:00",
+      "compound": -0.7506,
+      "label": "negative",
+      "entities": [
+        "Israel"
+      ]
+    },
+    {
+      "title": "Families of Trinidadian men killed in US boat strike demand accountability",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/14/families-of-trinidadian-men-killed-in-us-boat-strike-demand-accountability?traffic_source=rss",
+      "published": "2026-10-14T20:42:59+00:00",
+      "compound": -0.9584,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "East Arkansas congressional race debate highlights divide over Iran war",
+      "source": "Arkansas Advocate",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMmxlR25JSUJrQk15aDJHWjl2d1ltaTBScFJrMzNjOTYyXzMzbWY5SzhmLUo4Qzljdmh2emJBOFFiVmxSVFA4SWVIVTRPVGdJU2tleFhEYl9QMEFpVkM1amVHcHhQcUtWdktLQUFERi1OMEJWRG9fVU1MRlBmaVJ1dmFHRWdQYUFDUWVSa0VmOWdTWWJPR0g1UWoxZmRIODlzTzlxMThMb25XVDdKUzBHQ2lB?oc=5",
+      "published": "2026-10-14T20:41:17+00:00",
+      "compound": -0.8316,
+      "label": "negative",
+      "entities": [
+        "Iran"
+      ]
+    },
+    {
+      "title": "Why Zelensky's meeting with Burnham matters",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/videos/c65yngxdzdd5o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-14T20:41:03+00:00",
+      "compound": -0.34,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Sky turns orange as wildfires rage across Indonesia",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/sky-turns-orange-as-wildfires-rage-across-indonesia?traffic_source=rss",
+      "published": "2026-10-14T20:39:59+00:00",
+      "compound": -0.802,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Houthis turn to China for missile parts as threat to Israel and Saudi Arabia grows",
+      "source": "Ynetnews",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE10WmI0dHJfTDJvZllYeFBpbWtKSi1KTU5ldTREWWxWV1pSNDdJaTl0U0p5NXFqR01PZlhpc0FMbWxHUDJCeGFhRklCRlZrYnNBWXc1UFpn?oc=5",
+      "published": "2026-10-14T20:38:06+00:00",
+      "compound": -0.7783,
+      "label": "negative",
+      "entities": [
+        "Houthis",
+        "Israel",
+        "Saudi Arabia"
+      ]
+    },
+    {
+      "title": "World’s oldest shipwreck found off coast of Turkiye",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/14/worlds-oldest-shipwreck-found-off-coast-of-turkiye?traffic_source=rss",
+      "published": "2026-10-14T20:33:20+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Woman rescued after being swept away by Istanbul flash flood",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/woman-rescued-after-being-swept-away-by-istanbul-flash-flood?traffic_source=rss",
+      "published": "2026-10-14T20:29:50+00:00",
+      "compound": 0.6808,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Student protesters attack government buildings in Tirana",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cq80zk5k2ep4o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-14T20:29:05+00:00",
+      "compound": -0.4678,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Mexico to force Meta, TikTok, and X to better protect minors on platform",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/14/mexico-to-force-meta-tiktok-and-x-to-better-protect-minors-on-platform?traffic_source=rss",
+      "published": "2026-10-14T20:27:41+00:00",
+      "compound": 0.4939,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Infantino faces FIFA rebels in Zurich after failed World Cup stake sale",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/10/14/infantino-faces-fifa-rebels-in-zurich-after-failed-world-cup-stake-sale?traffic_source=rss",
+      "published": "2026-10-14T20:25:30+00:00",
+      "compound": -0.8481,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Houthi attacks disrupt travel plans for Mecca pilgrims",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/houthi-attacks-disrupt-travel-plans-for-mecca-pilgrims?traffic_source=rss",
+      "published": "2026-10-14T20:25:04+00:00",
+      "compound": -0.802,
+      "label": "negative",
+      "entities": [
+        "Houthis",
+        "Saudi Arabia"
+      ]
+    },
+    {
+      "title": "Russia attack hits Kyiv after reported intelligence lapse",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/russia-attack-hits-kyiv-after-reported-intelligence-lapse?traffic_source=rss",
+      "published": "2026-10-14T20:14:57+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Barcola scores hat-trick as Liverpool hit LASK for six",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/10/14/barcola-scores-hat-trick-as-liverpool-hit-lask-for-six?traffic_source=rss",
+      "published": "2026-10-14T20:12:20+00:00",
+      "compound": 0.5267,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Spanish NGO halts Mediterranean rescue operations, citing fuel prices",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/14/spanish-ngo-halts-mediterranean-rescue-operations-citing-fuel-prices?traffic_source=rss",
+      "published": "2026-10-14T20:10:15+00:00",
+      "compound": -0.6515,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Why Israel, Armenia don't benefit from hijab spat between Turkey, Azerbaijan",
+      "source": "Al-Monitor",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPX2xfaWhYdHVsbWhxcEdhdGt5eWZWSkNrY1pnaDVRTG8tejNWeDlsR3ZVWVQxSGYxWkdRNk96U2NSdklKTzRUQm4yUTdDNnQ1X3VMZXlLOEN1Q3lONDdxVjFvTUFQejRkNzNQbmU2cTBEU2RodWlLRWwzWkVCSFRlRU1YcWNFN1NaQ0VkOFhsQVpZU0w0ckNkZU5mR0s4ZmM0WUpBNzVrT3Y3MFdvSDFSRHhyNA?oc=5",
+      "published": "2026-10-14T19:55:38+00:00",
+      "compound": -0.6072,
+      "label": "negative",
+      "entities": [
+        "Israel"
+      ]
+    },
+    {
+      "title": "How will a new alliance affect the conflict in eastern DRC?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/10/14/how-will-a-new-alliance-affect-the-conflict-in-eastern-drc?traffic_source=rss",
+      "published": "2026-10-14T19:54:16+00:00",
+      "compound": -0.3612,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "US lifts sanctions on Venezuela’s top legislator",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/14/us-lifts-sanctions-on-venezuelas-top-legislator?traffic_source=rss",
+      "published": "2026-10-14T19:53:03+00:00",
+      "compound": 0.2023,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Why is Starlink internet so important on the battlefield in Ukraine?",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cqkgk4zg54reo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-14T19:52:04+00:00",
+      "compound": 0.2421,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Aboard an icebreaker, a writer got a closer look at the Arctic's 'Sea Change'",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/14/nx-s1-6001592/arctic-sea-change-rana-foroohar",
+      "published": "2026-10-14T19:42:03+00:00",
+      "compound": 0.0258,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Sally Rooney’s books pulled from UK over Palestine Action support",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/sally-rooneys-books-pulled-from-uk-over-palestine-action-support?traffic_source=rss",
+      "published": "2026-10-14T19:23:27+00:00",
+      "compound": 0.6597,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Defense Minister Katz threatens to seize Lebanese land if Hezbollah, Iran attack",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE43TFd6VmlWR3B2OGZCaXZMbVhxRmZ0YVdMTmxKaWZ0d1psWFRsVGhId3VKVVFFeXBnMzJaM0dPcnlqR3ZSSGlxZjBkV2pjTEI5MDdCU2pRU0dXSHFwMjZTdkhzVi1HcWxpd2tXUDlR?oc=5",
+      "published": "2026-10-14T19:20:21+00:00",
+      "compound": -0.8555,
+      "label": "negative",
+      "entities": [
+        "Hezbollah",
+        "Iran",
+        "Jerusalem"
+      ]
+    },
+    {
+      "title": "World’s oldest known shipwreck found in Turkiye",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/worlds-oldest-known-shipwreck-found-in-turkiye?traffic_source=rss",
+      "published": "2026-10-14T19:17:48+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Bangladesh arrests two for luring locals to fight for Russia in Ukraine",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/14/bangladesh-arrests-two-for-luring-locals-to-fight-for-russia-in-ukraine?traffic_source=rss",
+      "published": "2026-10-14T19:02:51+00:00",
+      "compound": -0.926,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Israel’s former security chief sues Netanyahu for October 7 defamation",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/14/israels-former-security-chief-sues-netanyahu-for-october-7-defamation?traffic_source=rss",
+      "published": "2026-10-14T18:39:03+00:00",
+      "compound": -0.6124,
+      "label": "negative",
+      "entities": [
+        "Benjamin Netanyahu",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Real Madrid’s Vinicius banned for Clasico after hair-pull red card",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/10/14/real-madrids-vinicius-banned-for-clasico-after-hair-pull-red-card?traffic_source=rss",
+      "published": "2026-10-14T18:03:46+00:00",
+      "compound": -0.802,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "What if you could turn off your algorithm? Australia is about to try",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/videos/ck78pj2qy42po?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-14T18:00:54+00:00",
+      "compound": 0.4019,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "How six Ukrainian divers could have blown up Russia’s $20bn pipelines",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/2026/10/14/aje-onl-pp-nord-stream-141125?traffic_source=rss",
+      "published": "2026-10-14T18:00:44+00:00",
+      "compound": -0.5267,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "How war with Iran is influencing Israeli, US elections - analysis",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ta0FBWUpQWWdEM3k4aTBUOXpFc2Vxa0dHZ0pUeTVhM19NS2kzTllIaFdCcllmaU9qdEJnLXZLRnF1N0xVQ3hQQTVOLVhTeVp5SXUyTFd1YmowU0xQaEdPaVZvZTRHMC1B?oc=5",
+      "published": "2026-10-14T17:49:41+00:00",
+      "compound": -0.8316,
+      "label": "negative",
+      "entities": [
+        "Iran",
+        "Israel",
+        "Jerusalem"
+      ]
+    },
+    {
+      "title": "Ex-UK army chef jailed for ‘terror’-related offence",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/14/ex-uk-army-chef-jailed-for-terror-related-offence?traffic_source=rss",
+      "published": "2026-10-14T17:32:09+00:00",
+      "compound": -0.6597,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Saudi tennis ‘slam’ with Alcaraz, Djokovic postponed amid Houthi attacks",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/10/14/saudi-tennis-slam-with-alcaraz-djokovic-postponed-amid-houthi-attacks?traffic_source=rss",
+      "published": "2026-10-14T17:11:57+00:00",
+      "compound": -0.743,
+      "label": "negative",
+      "entities": [
+        "Houthis",
+        "Saudi Arabia"
+      ]
+    },
+    {
+      "title": "Palestinian collective uses art to connect Gaza and the West Bank",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/palestinian-collective-uses-art-to-connect-gaza-and-the-west-bank?traffic_source=rss",
+      "published": "2026-10-14T17:11:20+00:00",
+      "compound": 0.1531,
+      "label": "positive",
+      "entities": [
+        "Israel"
+      ]
+    },
+    {
       "title": "Two container ships sink near strait of Hormuz amid surge in Iranian attacks",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/oct/14/container-ship-sinks-strait-of-hormuz-surge-iranian-attacks-iran-us-midterm-elections",
@@ -6920,6 +7293,26 @@
         "Israel",
         "Strait of Hormuz"
       ]
+    },
+    {
+      "title": "Settlers attack Palestinian mosque near occupied East Jerusalem",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/settlers-attack-palestinian-mosque-near-occupied-east-jerusalem?traffic_source=rss",
+      "published": "2026-10-14T17:05:01+00:00",
+      "compound": -0.7351,
+      "label": "negative",
+      "entities": [
+        "Jerusalem"
+      ]
+    },
+    {
+      "title": "Kenya’s Health Ministry confirms second Ebola case",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/14/kenyas-health-ministry-confirms-second-ebola-case?traffic_source=rss",
+      "published": "2026-10-14T17:03:19+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
     },
     {
       "title": "Suspected Israeli online operations cause alarm in Iran and Lebanon",
@@ -6969,6 +7362,18 @@
       "label": "negative",
       "entities": [
         "Iran"
+      ]
+    },
+    {
+      "title": "Iran says a ship sank after striking a mine in Strait of Hormuz, and other Middle East developments",
+      "source": "WJTV",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObDA1SmRHVUxFLTFmRDBQWnVzX0FyVThmdHlOc1VyWnFZcllaTHp6VUdnd1VXUnNscXVDZGF0TGlhVjJTRkgwOGZ5UVlqdnpYTUlHNjRCZHBibURhV2V3MThrLWFZWUNEYWlrb1dkZW5mQTdaUmtOMjF3MHJkSXdsakMxY2QyU3NhYTlFTmRlX1lKaHJRMWtMd1NEU0hGdDFmNkFTRTg3Y1hseHQtRGhtQWdjN3Zkd9IBuwFBVV95cUxPdHhCT2FJa2xEcUl4X3ZKZW9ITENMYXRuZGNvOGxxblBVTmlDdmc3ZEZuV2tSV0VSY3RERzdER1Q3bnZyZUNFeng3T25YdkdHOUt5SXNXSDRKTkgyZ0FxZS1hVDBWY3JYb0cwLTFJYWM0RFNIU2dkbjNucUI2MkRrSGx0OXBvZGtkWWFGT3R1TlB0S1JXdjFWbHBhakxCUWtBZThLNGFSbXhMV1p1LWpjT2RhZWZMYUpNdzB3?oc=5",
+      "published": "2026-10-14T16:19:16+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Iran",
+        "Strait of Hormuz"
       ]
     },
     {
@@ -7125,430 +7530,6 @@
       "compound": -0.7096,
       "label": "negative",
       "entities": []
-    },
-    {
-      "title": "Israel vs Turkey: Is a Military Confrontation Inevitable?",
-      "source": "TV7 Israel News",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9DTnd5MmVCa2ZCazZ1ZU93UDdwdF9rT01iZFlUeXczZ2c1Y3ZUV19fMmVZZE5uWUxZckp1aEZjNXVPdlQ4NFFUMmg4c1J0aVlnYy1uVnFmLW1BOTk4NzNHMF9oWmlWQUJPZG5wdENPMTBPWTRpWE9N?oc=5",
-      "published": "2026-10-14T15:01:44+00:00",
-      "compound": -0.6072,
-      "label": "negative",
-      "entities": [
-        "Israel"
-      ]
-    },
-    {
-      "title": "Manchester City vs PSG Live: Champions League",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/liveblog/2026/10/14/manchester-city-vs-psg-live-champions-league?traffic_source=rss",
-      "published": "2026-10-14T15:00:00+00:00",
-      "compound": 0.5267,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Saudi national charged with planting a listening device at OpenAI offices",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/14/saudi-national-charged-with-planting-a-listening-device-at-openai-offices?traffic_source=rss",
-      "published": "2026-10-14T14:39:29+00:00",
-      "compound": -0.2023,
-      "label": "negative",
-      "entities": [
-        "Saudi Arabia"
-      ]
-    },
-    {
-      "title": "Law of the Sea comes to life in the hunt for sanctioned Russian oil",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/14/law-of-the-sea-comes-to-life-in-the-hunt-for-sanctioned-russian-oil?traffic_source=rss",
-      "published": "2026-10-14T14:38:09+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "What is potash, and why is the US importing it from Belarus?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/14/what-is-potash-and-why-is-the-us-importing-it-from-belarus?traffic_source=rss",
-      "published": "2026-10-14T14:36:48+00:00",
-      "compound": -0.4019,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Netanyahu says not in favour of pre-emptive strike against Iran before Israel election",
-      "source": "Middle East Online",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcEZVNHVfZ1lEU3R5SGtrOHVVYm5vb3NsWVlOeFMteFo1NWk5M05PTHhzX2NxUXdtaTJYU0hxLXlTbUc3WXprZ3VPTkZ6LXN3MW55T0tmZTdLRjQ1NGU3d1dXZGIyQkwyRjBIZWREbktSZnJJTGNTNUxkTFUyMldaS0p5ZloxWVNlZWFBelNYVWs0R2l0dmpDRlgzVWNIRFIzSFI0dk5QM05zUEU?oc=5",
-      "published": "2026-10-14T14:34:45+00:00",
-      "compound": -0.7015,
-      "label": "negative",
-      "entities": [
-        "Benjamin Netanyahu",
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Hundreds of thousands of workers on strike across Republic of Ireland",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cjn5vxlrgqn4o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-14T14:18:18+00:00",
-      "compound": -0.5574,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Colombia inaugurates embassy to Israel in Jerusalem",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/14/colombia-inaugurates-embassy-to-israel-in-jerusalem?traffic_source=rss",
-      "published": "2026-10-14T14:08:45+00:00",
-      "compound": -0.5719,
-      "label": "negative",
-      "entities": [
-        "Israel",
-        "Jerusalem"
-      ]
-    },
-    {
-      "title": "PM: Attack on Iran ‘not convenient’ now, but signs show Israel’s enemies preparing assault",
-      "source": "The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYkRZQ3dwb3lUQmowQ09wamg1YkJzMnM1SWtVQzJad3dHVUZnZEozZlZLNHFpSWlOcnRaM2NEZXoxNG9BaU9GWVJQc0NrWnRHR1BsVlZqMWVDSFRIM2poUTFNelFXS3pMejRZZWVTekRQdG9UR0dBZzZad053VWZoRy1TNU8ySGhQR2F2SHdXOGg4YzdfdXN4V2lnMXhER2tGQ05UdDJmemMtNW1EVHJESGFlYXNxMW_SAbwBQVVfeXFMUHZkZVNZcXVCWlZtcUZMYXlTZXYxLUkxbHA0RENrWlJ5VzBDRkJ1ZnZ4ZzE3WE5ibU9rd1F2cG1kSHphQjdvZnlJX0Q1RnA5SzExQWpXV3U1NXBCSWxtS2xtOWV5aDdOeHNrS1YxLWtIeFJ0TkZBZzlXVEJGWlBXYmpESllseUtjczctU0UzYTRRNE1PRFhEcGhhLU5OeHd6N3dOSEJvTW9SaHFYV3ctcG5MT3Q1X1hwdUNvc1c?oc=5",
-      "published": "2026-10-14T14:04:50+00:00",
-      "compound": -0.9803,
-      "label": "negative",
-      "entities": [
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "‘I must continue until I die’: inside the fight to bring Iran’s thriving art scene to the world",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/artanddesign/2026/oct/14/iran-art-scene-continuum-dario-duran-interview",
-      "published": "2026-10-14T14:00:05+00:00",
-      "compound": 0.7537,
-      "label": "positive",
-      "entities": [
-        "Iran",
-        "Tehran"
-      ]
-    },
-    {
-      "title": "Iran targets Starlink as ‘tool of war’ with hints of more internet curbs",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVHpmVU5GVW91YnVFQ1J1TEg0N3VaMm1wYjZoZHB1VmJmRmJYNHozSHVzOXloLTRWbFNkSDR1ajZUSFFoTDI5bDZrcy1FTS1pTjZ0QXRnTEI4ZnZVMTJtM1VCZDRkRnZCRUJ4VmUtdlNZanZjSG00bVk3UzBSREhCQXRnZEFWcTFlWHdQcGVCT3I4VFUxS2VrVmNkcXFqLWxGWDBGSlRnVTRHMVBNaUFibjA1RFPSAboBQVVfeXFMT05BUGVtbEpOeVhKQng4YUdERGRleHo4NGxIcFR0V21OSjEzbEJjdUN3UzI3NHNxWEcwdnY1NDhwUzJ2U1Q5QUhDai1OQ1ZNekF2NnhrNDFkWk8wMnBCTVF4Z2VnZ1F6NmU4YkVxYUlqbWl1VUo2RENCdmNBcEx5YldaNUdwRnZ0UVlnWTFndE0ydEFXWUd0RTljb1p6Y0lTbklMMmNfYVBEdWppek96d1BEWHp6QkkzNGRR?oc=5",
-      "published": "2026-10-14T13:50:28+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Iran"
-      ]
-    },
-    {
-      "title": "Two scenarios for the Yemen war",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/opinions/2026/10/14/two-scenarios-for-the-yemen-war?traffic_source=rss",
-      "published": "2026-10-14T13:50:28+00:00",
-      "compound": -0.7906,
-      "label": "negative",
-      "entities": [
-        "Houthis"
-      ]
-    },
-    {
-      "title": "Netanyahu Warns Against Pre-Election Attacks; 50+ Iran-Linked Suspects Arrested in UK",
-      "source": "CBN.com",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQM0FPaTFsanFESlR3bkpUWVpOWVF5b3AyNV9vT1QyYi02NUtBRjMzNWxINFl3STZJVHctMHJ3bjZ4enlyV09OQTIwYTN3OEVlci05eVdCTXkxSjBqUm44aDFSaThHanI1d3JPdzRaMU9EX0lGQ05DWWNkU0VEMWcwQkREY054S3hBVmRta0p4bDhycWpnS1pZc00tNXVqdHVYbmRneWltVE8ycVRr?oc=5",
-      "published": "2026-10-14T13:39:21+00:00",
-      "compound": -0.9485,
-      "label": "negative",
-      "entities": [
-        "Benjamin Netanyahu",
-        "Iran"
-      ]
-    },
-    {
-      "title": "Australia's first-ever Michelin stars go to 11 restaurants in one state",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/crje5we583qwo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-14T13:35:29+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "UK restaurateur claims losses after video calling for Gaza destruction",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/uk-restaurateur-claims-losses-after-video-calling-for-gaza-destruction?traffic_source=rss",
-      "published": "2026-10-14T13:28:21+00:00",
-      "compound": -0.9118,
-      "label": "negative",
-      "entities": [
-        "Israel"
-      ]
-    },
-    {
-      "title": "Are the European Women's World Cup play-offs working?",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq0k0x1l8gndo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-14T13:25:56+00:00",
-      "compound": 0.3612,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "How AI apps are offering free substitutes for Big Tech software",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/14/how-ai-apps-are-offering-free-substitutes-for-big-tech-software?traffic_source=rss",
-      "published": "2026-10-14T13:25:35+00:00",
-      "compound": 0.5994,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Russia arrests Japanese journalist on suspicion of ‘espionage’",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/russia-arrests-japanese-journalist-on-suspicion-of?traffic_source=rss",
-      "published": "2026-10-14T13:22:46+00:00",
-      "compound": -0.7717,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "What we know about OpenAI engineer arrested over office spying",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/what-we-know-about-openai-engineer-arrested-over-office-spying?traffic_source=rss",
-      "published": "2026-10-14T13:18:02+00:00",
-      "compound": -0.7351,
-      "label": "negative",
-      "entities": [
-        "Saudi Arabia"
-      ]
-    },
-    {
-      "title": "Iran targets Starlink as ‘tool of war’ with hints of more internet curbs",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/14/iran-targets-starlink-as-tool-of-war-with-hints-at-internet-restrictions?traffic_source=rss",
-      "published": "2026-10-14T13:17:34+00:00",
-      "compound": -0.5994,
-      "label": "negative",
-      "entities": [
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Netanyahu says he is not seeking to attack Iran again before Israel election",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOLWQySUR2MFRlc1ZmU2lEaFRLU0VVWU14UVZhNm1Jc05obTk2SFV6UzZwLWhySUlaTXJISmdnc00wWnpNZHd0WGlIeC03ZmVnbzJuOUV6Zm96OE9sdTExbU5LdzBoa0U1S2QtMlNoWWQ1VUQtM1FzZHBXTGFxMDczVVRoWjNZbjIzaUpwMGlSS0s0VDAtZ3J5M0laNVlrT09Mc3ZwcjQwbE9YSDN4c2V0UmpWZ1lhanNDdS1hU3BtSUJzQ2tfbXc?oc=5",
-      "published": "2026-10-14T13:05:43+00:00",
-      "compound": 0.6259,
-      "label": "positive",
-      "entities": [
-        "Benjamin Netanyahu",
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Iran says a ship sank after striking a mine in Strait of Hormuz, and other Middle East developments",
-      "source": "Greenwich Time",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbFRxYWlEaVRyZ1ZKWHhyTVFtd2hQYzZUYi1vQ3AtNlo4bm10QXFtYzhFclpwaXJfTHV4S3J0aHZGVzBCVWxaWlN1QmZMUjFrbV9YWUlvdnlpeWdOSVY3dGZrQ01PWGdMNzZQSm5FX1V6ck1IZlI2MGdhNmJzekZyMWluQ1lOeGNESG1MRWlud0p4T0FHM2oybmFfMmhISGJ3ejd2dg?oc=5",
-      "published": "2026-10-14T13:05:19+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Iran",
-        "Strait of Hormuz"
-      ]
-    },
-    {
-      "title": "Netanyahu says he is not seeking to attack Iran again before Israel election",
-      "source": "Internazionale",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTWpLSjNVbHlyWGc5TWZ5dGN1U1JJcklzOGNaR3hDalZWUmV5Nkh1M1hYZDV1Sk5HRFdnWkxHT29Jd2xPZlNqSnJfTWNubzBZbWYyNjVaQUxhc0NEN09NVmN1NUg5OTU3U2dWTUprMTZVUEs1dXV4UlpsVGU3ZG5hd3ZKN3FNWlBKa1pQbGF1YkM4ZlJuejhlUXNYRzNNeXFLQ1E0Z3RwMFM2bmVmM1pQV0pkUlpZWDBfWGpzUFp5ZGhweDVVTGpVSHJaSFg2UWozTjJXRlFFYw?oc=5",
-      "published": "2026-10-14T13:04:55+00:00",
-      "compound": 0.6259,
-      "label": "positive",
-      "entities": [
-        "Benjamin Netanyahu",
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Man City’s appeal over 114 charges to be heard by January, regulator says",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/10/14/manchester-city-appeal-over-charges-to-be-heard-by-january-says-regulator?traffic_source=rss",
-      "published": "2026-10-14T12:52:06+00:00",
-      "compound": -0.5106,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Iraq’s PM tells Saudi crown prince Iraqi territory will not be used for attacks",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/14/iraq-pm-tells-saudi-crown-prince-iraqi-territory-wont-be-used-for-attacks?traffic_source=rss",
-      "published": "2026-10-14T12:50:51+00:00",
-      "compound": -0.7906,
-      "label": "negative",
-      "entities": [
-        "Saudi Arabia"
-      ]
-    },
-    {
-      "title": "What we know about the Pope's lung cancer diagnosis",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/videos/cwyvrmp9qgrgo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-14T12:37:33+00:00",
-      "compound": -0.1531,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Israel's Katz threatens to seize more territory in southern Lebanon",
-      "source": "Latest news from Azerbaijan",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMEdQZkhZWDVzbEo3RnFIMWtfeXNCMmZUdUN4aXRGZzdVeGNJSjdyOHBfTmhqeHZMYlJXTVdBWXlPQjRjWXJod3RDWTN5SGpjWEZmaVZhNUlfaHY5UGRLV3pXeTNTQ2VvR1hYd1EzeWhYY193U3otYngxaW9Dbk8wbko5RXlPVzJRb21hRjBseXZXUQ?oc=5",
-      "published": "2026-10-14T12:37:15+00:00",
-      "compound": -0.6369,
-      "label": "negative",
-      "entities": [
-        "Israel"
-      ]
-    },
-    {
-      "title": "Israel threatens to seize more territory in southern Lebanon if Hezbollah joins Iran war",
-      "source": "Arab News",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOekE3a0lWNGFOWkNBUS1pMDlSUVZyRXJXREZyR1VtSkNja2VMZGs4cnptellKVGtZNnVaTG04S012RURDN2NzY1RTSXVGSjdtZmxzalJpcXotOF8yajBiRXFTQW4wRUZYU3pBaDhJWW5rdk9WbXYtMHV5cDhWVE55TzhPYWlIQkVpY1BiR00zSDBCS1NudGFPWk5JZVVVOHhDeGZPeXA2eGZEZUl2Q29aenQ2WXc1bWFYNEM1ckY0Wkk0Rk1KbEpTb0ctaUlDQQ?oc=5",
-      "published": "2026-10-14T12:35:45+00:00",
-      "compound": -0.9186,
-      "label": "negative",
-      "entities": [
-        "Hezbollah",
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Colombia opens embassy in Jerusalem and restores free trade with Israel",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/colombia-opens-embassy-in-jerusalem-and-restores-free-trade-with-israel?traffic_source=rss",
-      "published": "2026-10-14T12:28:06+00:00",
-      "compound": 0.6705,
-      "label": "positive",
-      "entities": [
-        "Israel",
-        "Jerusalem"
-      ]
-    },
-    {
-      "title": "‘From liabilities to goldmines’: refineries eye record profits from diesel shortage",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/oct/14/refineries-record-profits-diesel-shortage-fuel-crude-oil",
-      "published": "2026-10-14T12:26:27+00:00",
-      "compound": -0.872,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Israeli officials believe no strike on Iran will take place before the elections",
-      "source": "Ynetnews",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1sY0I4UEhfRktPUlpRWGVaU0NvT2p4TTluX3dPRkRLbEFFNVRaX1NaSk9Mb1ROMTRORlhNX3J1a1NkeGVTRTNiUFh5WDhKMHdIOXVFTkJn?oc=5",
-      "published": "2026-10-14T12:22:27+00:00",
-      "compound": 0.1877,
-      "label": "positive",
-      "entities": [
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Zelenskyy sits down with NPR. And, Pope Leo diagnosed with lung cancer",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/14/g-s1-148040/up-first-newsletter-volodymyr-zelenskyy-pope-leo-kimberly-guilfoyle-media-free-speech",
-      "published": "2026-10-14T11:38:51+00:00",
-      "compound": -0.8689,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Starlink restrictions affecting Ukraine's front line operations, Kyiv says",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-14T11:32:07+00:00",
-      "compound": 0.6705,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Report: Houthis Aim to Build Advanced Iran-Designed Missiles Able to Hit Israel",
-      "source": "Haaretz",
-      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQMFpxa21rRHZiV1BXX19BLWFINmRPQlowLTV2ODhydnY4Qk1NeWlGVEhmdm11aWc1a19sWjFtclk2aEM5bTkwa3V0M3l6Um94ZmlEQzg1TExxeTVtRU9VYTVySGhoU2dDRHN5S1BpV2xDdS15SzVQYnVfQ3lQLV8xdnVhMnlrbE5vaUs3YXFmbXRsblppR0d3VEFCbXBwNTNuaV9XUXR6SUplTmtMTVJES1djU3Bzc3J5OFZkVXhHR3EyS3V1YV9NQ3dHNlpfcnNpamhzbzdyb1pXdlF4ME91dllLcjV3V1ZOZUw4cDVZZG50OERTS2ZmVG02bVdreE9NQ0duRnZjYncydw?oc=5",
-      "published": "2026-10-14T11:27:00+00:00",
-      "compound": 0.4588,
-      "label": "positive",
-      "entities": [
-        "Houthis",
-        "Iran",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Iran steps up Hormuz surveillance: Attacks soar, oil flows crash again",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZEoydG9jdlpqSFV4N3RwNzZULXNUMEgwVW54MjZad0U5TWI0MVlSemdzNG90X3YtaVp2cEhHRm1FMDRqUjZtaUs1MjZtdlY0d0l2amZLTS1MMUkzakNHMzV4b0hoYktXWHo1ckwwSkVCUG1vRzF1X1p6VUJZYXUtYndkRHRoZnIwbUczS2dmc2pHYzdQSlhYNWJoZXd1T050bzBYNEx3UGlvX0JKWWxF0gG0AUFVX3lxTFBuRVdqTEhtSEJaRjhiSjU3eTBYRHVBbjllR1lhMndWOFFHMENQLXhtNXF4SHl5WjlVWWdhdWJnSU0zR1QtNmQ2MldNdzgtTWg0ZzdsNkpkS2kyMzlyZmg4NkZiOFQtVURiUEhSMGw2WFJEOGp0Z05ZbmQzVi11andqNjRJT3l4V1hQSERpNTduWTNkc2NQTUI2MGt4R29xMTlBQkNYMTFheUI0ZkdsdnRVOVluaA?oc=5",
-      "published": "2026-10-14T11:26:57+00:00",
-      "compound": -0.8807,
-      "label": "negative",
-      "entities": [
-        "Iran",
-        "Strait of Hormuz"
-      ]
-    },
-    {
-      "title": "Mauritius reels from worst riots in decades after woman shot by police",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cm4g1rnj5qweo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-14T11:24:25+00:00",
-      "compound": -0.8519,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Iran steps up Hormuz surveillance: Attacks soar, oil flows crash again",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/14/iran-steps-up-hormuz-surveillance-attacks-soar-oil-flows-crash-again?traffic_source=rss",
-      "published": "2026-10-14T11:16:21+00:00",
-      "compound": -0.9477,
-      "label": "negative",
-      "entities": [
-        "Iran",
-        "Strait of Hormuz"
-      ]
-    },
-    {
-      "title": "Netanyahu has changed the Middle East. Will Israel ensure it lasts?",
-      "source": "The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNGc3TVIxaE5vdDNjeTc2WHFCQlJfLUlSUF82VmUyOU5wMGI5eWFQX3BBS2I3aldBNHNEM1lRbDhNWkwtTEV3RmotWTRWZ1V1ZDE1S3daNzhtUkg3a0Qxd0VCa1p4aTZvdDBIbnJwbFV6eWJzeFFDVVRwUmtMcnNFSnhwZzVnVUxCUUQ3UXNwYjE0Qlg2dUZZRXc1eUx3dUE?oc=5",
-      "published": "2026-10-14T11:07:00+00:00",
-      "compound": 0.6767,
-      "label": "positive",
-      "entities": [
-        "Benjamin Netanyahu",
-        "Israel"
-      ]
-    },
-    {
-      "title": "Trump plans for ‘massive’ resource exploration in Greenland",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/trump-plans-for-massive-resource-exploration-in-greenland?traffic_source=rss",
-      "published": "2026-10-14T11:05:07+00:00",
-      "compound": 0.6249,
-      "label": "positive",
-      "entities": [
-        "Donald Trump"
-      ]
     }
   ]
 }

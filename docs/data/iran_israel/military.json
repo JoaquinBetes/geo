@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-10-14T04:54:05+00:00",
+  "updated": "2026-10-14T11:52:16+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-10-14"
   },
   "kpis": {
-    "events_total": 534,
-    "events_unlocated": 2544,
-    "events_7d": 13,
+    "events_total": 535,
+    "events_unlocated": 2555,
+    "events_7d": 14,
     "events_prev_7d": 11,
     "hottest_place": "Strait of Hormuz"
   },
@@ -945,6 +945,15 @@
       "strike": 1,
       "ground": 1,
       "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-14",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -6279,6 +6288,16 @@
       "title": "Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "date": "2026-10-14",
+      "type": "strike",
+      "place": "Jerusalem",
+      "lat": 31.7683,
+      "lon": 35.2137,
+      "title": "Yemen's Houthis use Chinese parts to build Iranian ballistic missile, boost attack range - report",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1BVllrZV9OVEtGcVo3NUE0R1ZBbWlSYmRodWlUZXZvWWdxZzEyY1NIdVhpSFoxLUl6TFJleXQ4eHdlb0M2QS1pTlBlbXlBOW1tRVZhUy00TXFKTllDcTRR?oc=5"
     }
   ],
   "top_places": [
@@ -6292,7 +6311,7 @@
     },
     {
       "place": "Jerusalem",
-      "count": 11
+      "count": 12
     },
     {
       "place": "Bab el-Mandeb",

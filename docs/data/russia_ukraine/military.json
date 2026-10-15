@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-10-14T21:41:22+00:00",
+  "updated": "2026-10-15T04:39:06+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-10-23",
-    "to": "2026-10-14"
+    "to": "2026-10-15"
   },
   "kpis": {
-    "events_total": 1011,
-    "events_unlocated": 2852,
-    "events_7d": 72,
-    "events_prev_7d": 68,
+    "events_total": 1012,
+    "events_unlocated": 2854,
+    "events_7d": 64,
+    "events_prev_7d": 64,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -1161,19 +1161,18 @@
       "infrastructure": 4,
       "air_defense": 0,
       "anomaly": false
+    },
+    {
+      "date": "2026-10-15",
+      "total": 1,
+      "strike": 0,
+      "ground": 0,
+      "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-07-07",
-      "type": "strike",
-      "place": "Moscow",
-      "lat": 55.7558,
-      "lon": 37.6173,
-      "title": "Dozens of Ukrainian drones target Moscow, mayor says, as Zelenskyy vows more strikes",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNE9nZ25pbTZhbFd1cEEtWkZUc1I0U1JKN3VrTHMzU2JjRlV1ZEJQV1pvRTZ1d1JpVUVNMkRqN2xjSkZRYlN5WnBITXB4T3dhQ2plY3N5dXQtdzVNckFmNWUtOExsak5ZOTBqR1dqSWlHMjJXQzVmazlEY21GNGxrcEZGVGJ5eW8tSl9qaFJsd1Y4OWt2SldGMFR5UlozSmNYb1doWFp6VDhKSWl1akxGNdIBtgFBVV95cUxPdVM3UWVSSVJzS2hKbjMzaHR1T3RPd2hpWFFOV2RjOVFqaV9jUWFDbGpFYjhwQjF3U3l3R182Zi0xa3p0ci1ZVkxpUl92U1laYjBseUMwWUhTZkwyNkM3bTA4UWhzZDk0VE9qa29McnB3ZS10UllYWllGamVKOERfSTl3Z3hzZlJscXZvY2xndS0wc1BrYm5YT1dhOFZ2LVB4dnNZQnlTUWlOUXZHbzR3aVhYNjJpUQ?oc=5"
-    },
     {
       "date": "2026-07-07",
       "type": "strike",
@@ -10163,16 +10162,26 @@
       "title": "The Guardian view on Trump’s deal with Putin: grim and grubby, but not gamechanging | Editorial",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/commentisfree/2026/oct/14/the-guardian-view-on-trumps-deal-with-putin-grim-and-grubby-but-not-gamechanging"
+    },
+    {
+      "date": "2026-10-15",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: UK pledges £17m to repair Chornobyl attack damage amid fears of slipping US support",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/15/ukraine-war-briefing-uk-pledges-17m-to-repair-chornobyl-attack-damage-amid-fears-of-slipping-us-support"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 149
+      "count": 147
     },
     {
       "place": "Moscow",
-      "count": 48
+      "count": 47
     },
     {
       "place": "Dnipro",
@@ -10187,12 +10196,12 @@
       "count": 8
     },
     {
-      "place": "Donetsk",
+      "place": "Kharkiv",
       "count": 7
     },
     {
-      "place": "Kharkiv",
-      "count": 7
+      "place": "Donetsk",
+      "count": 6
     },
     {
       "place": "Chernihiv",

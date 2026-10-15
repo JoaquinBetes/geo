@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-10-14T21:41:56+00:00",
+  "updated": "2026-10-15T04:39:40+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -43,13 +43,13 @@
   },
   "window": {
     "from": "2026-01-12",
-    "to": "2026-10-14"
+    "to": "2026-10-15"
   },
   "kpis": {
-    "events_total": 255,
-    "events_unlocated": 2828,
-    "events_7d": 44,
-    "events_prev_7d": 81,
+    "events_total": 256,
+    "events_unlocated": 2872,
+    "events_7d": 37,
+    "events_prev_7d": 68,
     "hottest_place": "DMZ"
   },
   "daily": [
@@ -534,6 +534,15 @@
       "date": "2026-10-14",
       "total": 2,
       "strike": 2,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-15",
+      "total": 1,
+      "strike": 1,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -3080,6 +3089,16 @@
       "title": "Defense Committee Adopts Resolution Condemning North Korea's DMZ Mine Blast",
       "source": "Seoul Economic Daily",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRk9fVGlGdFZmd2NpM0xlM2JvTUFzNTdkNU5OeFl0YjdKYWsyTWM5RHc4aUtMdFk5WEozcS1OOWZ1N1AxampMYkVBdzdPb0JCSHY4Nmw4NlcwTlFxcUFrWUFCSE5ZNGkyMkdoQm1XemxaN2pvb3hpRWJRMGttd2pleElfNDdYOFpFYVFPYjJqdkJJajQ5SEVhRHhYSnRjSHE0YUJQSA?oc=5"
+    },
+    {
+      "date": "2026-10-15",
+      "type": "strike",
+      "place": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "title": "North Korea tests submarine-launched cruise missiles, heightening tensions with Seoul",
+      "source": "South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObWs5OVRnRlMzMmRCVjA3YmtYTXlTZmp1SV9tSUVRVzZvRWVDaE5xdklycHl1OWJPRHVGdU9ZWmZydk1XTXlfTEVidVNGVFlVaWtZSkd0VV9IVXZISWk5VXhxUlNuMUtGaDlHeEpkSkdzeEhDa0pYV2J6aWl5Z3dHWEd2MnBZc2pZaVU0Q0NxSWY4LThVV1RoU0VIdmkwWEk4X3FHNUhYMkNPd1Vma2xLcVJzWHpQb0FZSi04d1RneUZEYWszSDR5MmhkdktnaUR2SWc?oc=5"
     }
   ],
   "top_places": [
@@ -3089,11 +3108,11 @@
     },
     {
       "place": "Seoul",
-      "count": 53
+      "count": 54
     },
     {
       "place": "Pyongyang",
-      "count": 4
+      "count": 3
     },
     {
       "place": "Yeonpyeong",

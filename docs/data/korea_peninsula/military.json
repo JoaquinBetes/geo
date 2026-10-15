@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-10-15T11:29:42+00:00",
+  "updated": "2026-10-15T17:01:40+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -46,9 +46,9 @@
     "to": "2026-10-15"
   },
   "kpis": {
-    "events_total": 258,
-    "events_unlocated": 2930,
-    "events_7d": 39,
+    "events_total": 261,
+    "events_unlocated": 2958,
+    "events_7d": 42,
     "events_prev_7d": 68,
     "hottest_place": "DMZ"
   },
@@ -541,10 +541,10 @@
     },
     {
       "date": "2026-10-15",
-      "total": 3,
-      "strike": 1,
+      "total": 6,
+      "strike": 2,
       "ground": 0,
-      "infrastructure": 2,
+      "infrastructure": 4,
       "air_defense": 0,
       "anomaly": false
     }
@@ -3119,6 +3119,36 @@
       "title": "North Korea and China open new bridge after 12-year delay",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/articles/ck1exgw3j115o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "date": "2026-10-15",
+      "type": "infrastructure",
+      "place": "Sinuiju",
+      "lat": 40.1,
+      "lon": 124.4,
+      "title": "China and North Korea Open New Yalu River Bridge Linking Dandong and Sinuiju After 12 Years",
+      "source": "NewsCord",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOYU5OU3lyRTNtSHNJZTVWaVc1enF5NG12U3ZnWTRqUDl0SFE1aDN1YV9UaHE4aE9DTHZobFAybXV5LVo5c1V2VnFwV0IycE5sWVVoQlQ3X3FiVFFWUUsyLWVSTFRwYkpJUlI0ekhjM0lNb1ZyM0Nkd1dOWEpLalFIa3JmN3Y0R2JSZ29zOVFaZEczbTdGSFR5YUtTUVBoNlNsbGdTZkJ2WWZLWGRYS29rOU5qdWQxUkZIY19HVngxZGg4X2k1ZzVjclZiVEVvZlZETmVjbWl0MjhGVWgtRGxaR2FxSmlVYk5hSGc?oc=5"
+    },
+    {
+      "date": "2026-10-15",
+      "type": "strike",
+      "place": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "title": "North Korea tests submarine-launched missiles, heightening tensions with Seoul",
+      "source": "South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObWs5OVRnRlMzMmRCVjA3YmtYTXlTZmp1SV9tSUVRVzZvRWVDaE5xdklycHl1OWJPRHVGdU9ZWmZydk1XTXlfTEVidVNGVFlVaWtZSkd0VV9IVXZISWk5VXhxUlNuMUtGaDlHeEpkSkdzeEhDa0pYV2J6aWl5Z3dHWEd2MnBZc2pZaVU0Q0NxSWY4LThVV1RoU0VIdmkwWEk4X3FHNUhYMkNPd1Vma2xLcVJzWHpQb0FZSi04d1RneUZEYWszSDR5MmhkdktnaUR2SWfSAdIBQVVfeXFMT2Vkb2VNVVhFREtpOEN5SEhyWkRHNkl1RnVWbjB0bEp6OFp0QnY4LU0xSVFUeU41WnNmNzJ1aFlhOGNRbmVPYkdTSU5BM2UtQTNIRU9pLXR4LThsZmh5SkRDZDBWYVl4dTNOaVNmNXNGZmp0U1Z1RkQwamotNE4tYzNBNWhWZHJfX2J0NXpQTnJfY3lUOGROamxTNGVvWW10U0puNGNwNjFDX2dSR3lOSWp2Y21lbU1teFFMYklWcTRCeGc3ZWdZSlRjQnNZaXlGakNR?oc=5"
+    },
+    {
+      "date": "2026-10-15",
+      "type": "infrastructure",
+      "place": "Sinuiju",
+      "lat": 40.1,
+      "lon": 124.4,
+      "title": "Photos: China and North Korea open new border bridge amid deepening ties",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/gallery/2026/10/15/photos-china-and-north-korea-open-new-border-bridge-amid-deepening-ties?traffic_source=rss"
     }
   ],
   "top_places": [
@@ -3128,11 +3158,15 @@
     },
     {
       "place": "Seoul",
-      "count": 54
+      "count": 55
     },
     {
       "place": "Pyongyang",
       "count": 5
+    },
+    {
+      "place": "Sinuiju",
+      "count": 2
     },
     {
       "place": "Yeonpyeong",

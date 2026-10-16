@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-10-15T21:22:49+00:00",
+  "updated": "2026-10-16T04:31:57+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-10-23",
-    "to": "2026-10-15"
+    "to": "2026-10-16"
   },
   "kpis": {
-    "events_total": 1019,
-    "events_unlocated": 2897,
-    "events_7d": 71,
-    "events_prev_7d": 64,
+    "events_total": 1021,
+    "events_unlocated": 2903,
+    "events_7d": 59,
+    "events_prev_7d": 71,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -1164,35 +1164,24 @@
     },
     {
       "date": "2026-10-15",
-      "total": 8,
-      "strike": 5,
+      "total": 9,
+      "strike": 6,
       "ground": 0,
       "infrastructure": 3,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-16",
+      "total": 1,
+      "strike": 0,
+      "ground": 0,
+      "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-07-08",
-      "type": "infrastructure",
-      "place": "Odesa",
-      "lat": 46.4825,
-      "lon": 30.7233,
-      "title": "Ukraine war briefing: Kyiv targets Kremlin ‘shadow’ tankers as Russian strikes continue in capital",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/jul/08/ukraine-war-briefing-kyiv-targets-kremlin-shadow-tankers-as-russian-strikes-continue-in-capital"
-    },
-    {
-      "date": "2026-07-08",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Ukraine war latest: 'Make them yourself': Trump gives Zelensky green light to produce Patriot missiles",
-      "source": "The Kyiv Independent",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMVdKVlVMdE12WFhWaDV6VEhJNEc0VmNXWVdBd3VXaGphTVhaZTNyV1FiQ0ZqdHk0MXllZktUZW45a1Y2azd1Y19BQlRCbWQ3SVNOd2hNdF9RWF9yNkFDTEJBdDZpbVF3bmpTdTdKTFFFLS1rc0dRU09jSFdvTHVjX3Z2Y1o0X1YyMU0yNXNnWjNrbXRpdFpZaTJsLTl1TU44REtYejJ6aGhYelVGUTItRzd0bDdueTJMZkMteVhtZW1DUjAtLXc?oc=5"
-    },
     {
       "date": "2026-07-09",
       "type": "infrastructure",
@@ -10172,12 +10161,32 @@
       "title": "Ukraine destroys 4 Russian Su-34 bomber jets, damages 2 with Neptune missile, Zelensky says",
       "source": "The Kyiv Independent",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUnotY1ZwTTJwcDF2cWVSMmdMaWJqZExWRExkdnJXTzluWUhXenpYVF9vVGlsSl91bGRvdUxhektUTmhxQ2ZNSFJkZXJLMjI5QTYwdDRHTkpQUG9iNDZrRlBBY3lTRnVmd1h4NGlCbE03VmxIbEcwOVAwalNMNklEYkpjQ0hHWkp2eXJsR2JRc285d0RleVBvMkZhbENfLU1sMGxwR1diYw?oc=5"
+    },
+    {
+      "date": "2026-10-15",
+      "type": "strike",
+      "place": "Odesa",
+      "lat": 46.4825,
+      "lon": 30.7233,
+      "title": "Watch: Moment drone hits supermarket in Odesa",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/videos/cmwyq62z0n19o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "date": "2026-10-16",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: Starlink access restored, says UK’s Streeting after Hegseth meeting",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/16/ukraine-war-briefing-starlink-access-restored-says-uks-streeting-as-zelenskyy-rallies-support-in-brussels"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 151
+      "count": 149
     },
     {
       "place": "Moscow",
@@ -10200,16 +10209,16 @@
       "count": 7
     },
     {
-      "place": "Donetsk",
-      "count": 6
+      "place": "Odesa",
+      "count": 5
     },
     {
-      "place": "Odesa",
-      "count": 4
+      "place": "Donetsk",
+      "count": 5
     },
     {
       "place": "Chernihiv",
-      "count": 3
+      "count": 2
     },
     {
       "place": "Nikopol",

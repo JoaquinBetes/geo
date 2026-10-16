@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-10-16T11:24:29+00:00",
+  "updated": "2026-10-16T16:39:36+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -48,9 +48,9 @@
     "to": "2026-10-16"
   },
   "kpis": {
-    "events_total": 1023,
-    "events_unlocated": 2914,
-    "events_7d": 61,
+    "events_total": 1024,
+    "events_unlocated": 2922,
+    "events_7d": 62,
     "events_prev_7d": 71,
     "hottest_place": "Kyiv"
   },
@@ -1173,25 +1173,15 @@
     },
     {
       "date": "2026-10-16",
-      "total": 3,
+      "total": 4,
       "strike": 1,
       "ground": 0,
-      "infrastructure": 2,
+      "infrastructure": 3,
       "air_defense": 0,
       "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-07-09",
-      "type": "infrastructure",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Kremlin Pushes Back on Trump Over Claims Ukrainian Refinery Strikes Help End Russia’s War",
-      "source": "Kyiv Post",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5SVk9MeU5teEgydUdQS1VnY0JyS1JVdW5BYlZnQmxzdmN0aTVpSldRU0Z5QVBYSk84bTA0UFZFZHJYZUF6enR6Zm9xOA?oc=5"
-    },
     {
       "date": "2026-07-09",
       "type": "strike",
@@ -10181,6 +10171,16 @@
       "title": "Russia's view amid Ukraine's strikes and Zelenskyy's growing rift with the U.S.",
       "source": "NPR",
       "url": "https://www.npr.org/2026/10/16/nx-s1-6004281/russias-view-amid-ukraines-strikes-and-zelenskyys-growing-rift-with-the-u-s"
+    },
+    {
+      "date": "2026-10-16",
+      "type": "infrastructure",
+      "place": "Kharkiv",
+      "lat": 49.9935,
+      "lon": 36.2304,
+      "title": "Power plant attacks reflect Russian blueprint to make Ukrainian cities unliveable",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/16/attacks-on-ukraine-power-plants-show-russia-has-given-up-on-military-victory"
     }
   ],
   "top_places": [
@@ -10201,12 +10201,12 @@
       "count": 8
     },
     {
-      "place": "Kramatorsk",
+      "place": "Kharkiv",
       "count": 8
     },
     {
-      "place": "Kharkiv",
-      "count": 7
+      "place": "Kramatorsk",
+      "count": 8
     },
     {
       "place": "Odesa",

@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-10-17T04:26:06+00:00",
+  "updated": "2026-10-17T10:44:03+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -48,9 +48,9 @@
     "to": "2026-10-17"
   },
   "kpis": {
-    "events_total": 1030,
-    "events_unlocated": 2936,
-    "events_7d": 63,
+    "events_total": 1031,
+    "events_unlocated": 2940,
+    "events_7d": 64,
     "events_prev_7d": 68,
     "hottest_place": "Kyiv"
   },
@@ -1182,25 +1182,15 @@
     },
     {
       "date": "2026-10-17",
-      "total": 1,
+      "total": 2,
       "strike": 1,
       "ground": 0,
-      "infrastructure": 0,
+      "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-07-10",
-      "type": "ground",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "US Senators, Administration Agree To Advance Russia Sanctions Bill; Kyiv Hails Move",
-      "source": "Radio Free Europe/Radio Liberty",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVHdDUTJ1QW1mMlRfTmp1czNETXhlVXYtRkhPRjF1U1NIaDZTcjFGOWkwUl9tWDJWMFpaclg0czgwckdyaDJ3dmlGQWxGY1IwZWt0S0F2LXd0WHhYLUdCbUNncHdqOWxjR1prZFc1U0ZzbFVhVE13T0puR2xKSGhqWTZWeXE1bEZpTEHSAYwBQVVfeXFMTnB1Qmk3QWJUdTdiNk1EMnV6S2laUmU5NVJ6azNUV1hNSGVmOTBaam9ISXlhNTFIOWdBcTlXaE44bFNQWWN2VktoZ3k4bzlHS1YzTEZqNlJzeUpDYm1vcUpnUjFlS0tqU2o0S2FNMWZEMzNfSUhERDhKb1BhaHdZUHZtRWxWZGVOSXVydlI?oc=5"
-    },
     {
       "date": "2026-07-10",
       "type": "strike",
@@ -10190,6 +10180,16 @@
       "title": "Ukraine war briefing: Russia building non-negotiable ‘security zone’ inside Ukrainian border, Putin declares",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/oct/17/ukraine-war-briefing-russia-building-non-negotiable-security-zone-inside-ukrainian-border-putin-declares"
+    },
+    {
+      "date": "2026-10-17",
+      "type": "infrastructure",
+      "place": "Kharkiv",
+      "lat": 49.9935,
+      "lon": 36.2304,
+      "title": "Russian attacks in Ukraine kill at least 8, cut power to 1 million",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/17/russian-attacks-in-ukraine-kill-at-least-8-cut-power-to-1-million?traffic_source=rss"
     }
   ],
   "top_places": [
@@ -10206,11 +10206,11 @@
       "count": 9
     },
     {
-      "place": "Zaporizhzhia",
-      "count": 8
+      "place": "Kharkiv",
+      "count": 9
     },
     {
-      "place": "Kharkiv",
+      "place": "Zaporizhzhia",
       "count": 8
     },
     {

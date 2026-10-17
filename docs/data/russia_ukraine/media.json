@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-10-17T04:26:02+00:00",
+  "updated": "2026-10-17T10:44:00+00:00",
   "overall_tone": -0.3948,
   "rsf_as_of": "2025 (aprox.)",
   "outlets": [
@@ -15,9 +15,9 @@
       "lat": 25.2867,
       "lon": 51.5333,
       "rsf": 84,
-      "articles": 8344,
-      "tone_avg": -0.2786,
-      "tone_delta": 0.1162
+      "articles": 8369,
+      "tone_avg": -0.2791,
+      "tone_delta": 0.1157
     },
     {
       "name": "BBC",
@@ -30,7 +30,7 @@
       "lat": 51.5188,
       "lon": -0.144,
       "rsf": 20,
-      "articles": 2725,
+      "articles": 2729,
       "tone_avg": -0.3093,
       "tone_delta": 0.0855
     },
@@ -45,9 +45,9 @@
       "lat": 38.899,
       "lon": -77.008,
       "rsf": 57,
-      "articles": 782,
-      "tone_avg": -0.2866,
-      "tone_delta": 0.1082
+      "articles": 783,
+      "tone_avg": -0.2855,
+      "tone_delta": 0.1093
     },
     {
       "name": "The Guardian",
@@ -90,9 +90,9 @@
       "lat": 51.5074,
       "lon": -0.1278,
       "rsf": 20,
-      "articles": 241,
-      "tone_avg": -0.7525,
-      "tone_delta": -0.3577
+      "articles": 242,
+      "tone_avg": -0.7464,
+      "tone_delta": -0.3516
     },
     {
       "name": "Reuters",
@@ -105,9 +105,9 @@
       "lat": 51.5033,
       "lon": -0.0195,
       "rsf": 20,
-      "articles": 214,
-      "tone_avg": -0.4108,
-      "tone_delta": -0.016
+      "articles": 216,
+      "tone_avg": -0.407,
+      "tone_delta": -0.0122
     },
     {
       "name": "The Kyiv Independent",
@@ -150,9 +150,9 @@
       "lat": 40.7561,
       "lon": -73.9903,
       "rsf": 57,
-      "articles": 155,
-      "tone_avg": -0.439,
-      "tone_delta": -0.0442
+      "articles": 157,
+      "tone_avg": -0.4355,
+      "tone_delta": -0.0407
     },
     {
       "name": "Institute for the Study of War",
@@ -215,6 +215,21 @@
       "tone_delta": -0.2086
     },
     {
+      "name": "Ukrinform",
+      "url": "https://www.ukrinform.net",
+      "city": "Kyiv",
+      "country": "Ucrania",
+      "iso3": "UKR",
+      "type": "estatal",
+      "desc": "La agencia estatal de noticias de Ucrania.",
+      "lat": 50.444,
+      "lon": 30.51,
+      "rsf": 62,
+      "articles": 101,
+      "tone_avg": -0.8417,
+      "tone_delta": -0.4469
+    },
+    {
       "name": "Defense Express",
       "url": "https://en.defence-ua.com",
       "city": "Kyiv",
@@ -228,21 +243,6 @@
       "articles": 100,
       "tone_avg": -0.8083,
       "tone_delta": -0.4135
-    },
-    {
-      "name": "Ukrinform",
-      "url": "https://www.ukrinform.net",
-      "city": "Kyiv",
-      "country": "Ucrania",
-      "iso3": "UKR",
-      "type": "estatal",
-      "desc": "La agencia estatal de noticias de Ucrania.",
-      "lat": 50.444,
-      "lon": 30.51,
-      "rsf": 62,
-      "articles": 100,
-      "tone_avg": -0.8407,
-      "tone_delta": -0.4459
     },
     {
       "name": "Associated Press",
@@ -305,6 +305,21 @@
       "tone_delta": -0.12
     },
     {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com",
+      "city": "Englewood Cliffs",
+      "country": "Estados Unidos",
+      "iso3": "USA",
+      "type": "privado",
+      "desc": "Canal financiero de Comcast.",
+      "lat": 40.885,
+      "lon": -73.95,
+      "rsf": 57,
+      "articles": 71,
+      "tone_avg": -0.4148,
+      "tone_delta": -0.02
+    },
+    {
       "name": "NBC News",
       "url": "https://www.nbcnews.com",
       "city": "Nueva York",
@@ -318,21 +333,6 @@
       "articles": 70,
       "tone_avg": -0.4334,
       "tone_delta": -0.0386
-    },
-    {
-      "name": "CNBC",
-      "url": "https://www.cnbc.com",
-      "city": "Englewood Cliffs",
-      "country": "Estados Unidos",
-      "iso3": "USA",
-      "type": "privado",
-      "desc": "Canal financiero de Comcast.",
-      "lat": 40.885,
-      "lon": -73.95,
-      "rsf": 57,
-      "articles": 70,
-      "tone_avg": -0.4113,
-      "tone_delta": -0.0165
     },
     {
       "name": "The Jerusalem Post",
@@ -1083,24 +1083,39 @@
       "articles": 1,
       "tone_avg": -0.4939,
       "tone_delta": -0.0991
+    },
+    {
+      "name": "Voice of America",
+      "url": "https://www.voanews.com",
+      "city": "Washington D.C.",
+      "country": "Estados Unidos",
+      "iso3": "USA",
+      "type": "estatal",
+      "desc": "El servicio exterior de radiodifusión del gobierno estadounidense.",
+      "lat": 38.887,
+      "lon": -77.014,
+      "rsf": 57,
+      "articles": 1,
+      "tone_avg": -0.875,
+      "tone_delta": -0.4802
     }
   ],
   "by_country": {
     "QAT": {
       "outlets": 1,
-      "articles": 8344
+      "articles": 8369
     },
     "GBR": {
       "outlets": 8,
-      "articles": 4107
+      "articles": 4114
     },
     "USA": {
-      "outlets": 24,
-      "articles": 2245
+      "outlets": 25,
+      "articles": 2250
     },
     "UKR": {
       "outlets": 5,
-      "articles": 948
+      "articles": 949
     },
     "DEU": {
       "outlets": 1,
@@ -1229,7 +1244,7 @@
       "articles": 35
     }
   ],
-  "others_total": 2767,
-  "matched_articles": 16435,
-  "total_articles": 19202
+  "others_total": 2768,
+  "matched_articles": 16473,
+  "total_articles": 19241
 }

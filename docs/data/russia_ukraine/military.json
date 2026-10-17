@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-10-16T21:08:30+00:00",
+  "updated": "2026-10-17T04:26:06+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-10-23",
-    "to": "2026-10-16"
+    "to": "2026-10-17"
   },
   "kpis": {
-    "events_total": 1028,
-    "events_unlocated": 2929,
-    "events_7d": 65,
-    "events_prev_7d": 72,
+    "events_total": 1030,
+    "events_unlocated": 2936,
+    "events_7d": 63,
+    "events_prev_7d": 68,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -1173,35 +1173,24 @@
     },
     {
       "date": "2026-10-16",
-      "total": 6,
-      "strike": 1,
+      "total": 7,
+      "strike": 2,
       "ground": 2,
       "infrastructure": 3,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-17",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-07-10",
-      "type": "strike",
-      "place": "Kherson",
-      "lat": 46.6354,
-      "lon": 32.6169,
-      "title": "Russian Forces Face Boat Shortage in Kherson After Ukrainian Drone Strikes, ATESH Says",
-      "source": "UNITED24 Media",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRDV3T0NIZTgxTm9aNndkUEcwaUdCNW1MWjFOODFyeEdKS0tScDVwRGxhVW5jVWlVaFhhb01vYTJRYWxGRktpemRyUDRXX01vMkgyUlNXYjZmSzBVa1o2Q2pSWXJ0VjdLVmF3S3JNdHZYZXljcDNYN3I3b0c1SWVNU1pldmI5QTZoaHdFTzU4dE5aZ0tVX0U3SmgzM2RkbXZBRFNjWTNvV2tKaFU3Ym9nUXdTWXd3SUlIN3dMYlF5RWFQY1FzUFBzUXlwY2I?oc=5"
-    },
-    {
-      "date": "2026-07-10",
-      "type": "strike",
-      "place": "Kramatorsk",
-      "lat": 48.7389,
-      "lon": 37.5848,
-      "title": "Russian attacks kill five as Ukraine continues to target oil infrastructure",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/10/russian-attacks-kill-four-as-ukraine-continues-to-target-oil-infrastructure?traffic_source=rss"
-    },
     {
       "date": "2026-07-10",
       "type": "ground",
@@ -10181,12 +10170,32 @@
       "title": "Ukraine advances in occupied Donetsk as Trump hands Putin diesel deal",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/10/16/ukraine-repels-russian-forces-as-us-support-wavers-energy-strikes-escalate?traffic_source=rss"
+    },
+    {
+      "date": "2026-10-16",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war latest: Drone attack sparks fire at industrial facility in Russia's Surgut district",
+      "source": "The Kyiv Independent",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbUJkU2R3ZlpXa3o5ZklNT1JselZmVDI1a3VhSF9nU3kwUGJfOGdBNzd2cG9saWFNamVrRzl6TzJ4Q3lMRUxrb0hKQU52N29LSFhOUGR4VmUwNHpDNkoxVnVDQWFic3ZRekZvUmRZSUlyQlRxQzcxUVZ4cl9INGJ5TjE4QWZneUw5a0t3bW90c3pLd0llOEhiRTcwNHQxdlQwamJUWTNJbWRUSlJMbXRKRm54dzNGWUNkUi1YbVhsUQ?oc=5"
+    },
+    {
+      "date": "2026-10-17",
+      "type": "strike",
+      "place": "Kursk",
+      "lat": 51.7304,
+      "lon": 36.1926,
+      "title": "Ukraine war briefing: Russia building non-negotiable ‘security zone’ inside Ukrainian border, Putin declares",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/17/ukraine-war-briefing-russia-building-non-negotiable-security-zone-inside-ukrainian-border-putin-declares"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 152
+      "count": 153
     },
     {
       "place": "Moscow",
@@ -10217,12 +10226,12 @@
       "count": 5
     },
     {
-      "place": "Chernihiv",
+      "place": "Kursk",
       "count": 2
     },
     {
-      "place": "Nikopol",
-      "count": 1
+      "place": "Chernihiv",
+      "count": 2
     }
   ],
   "losses": {

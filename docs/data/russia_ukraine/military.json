@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-10-18T11:05:03+00:00",
+  "updated": "2026-10-18T15:52:05+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -48,9 +48,9 @@
     "to": "2026-10-18"
   },
   "kpis": {
-    "events_total": 1037,
-    "events_unlocated": 2967,
-    "events_7d": 64,
+    "events_total": 1039,
+    "events_unlocated": 2973,
+    "events_7d": 66,
     "events_prev_7d": 61,
     "hottest_place": "Kyiv"
   },
@@ -1191,35 +1191,15 @@
     },
     {
       "date": "2026-10-18",
-      "total": 2,
-      "strike": 2,
-      "ground": 0,
+      "total": 4,
+      "strike": 3,
+      "ground": 1,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-07-11",
-      "type": "strike",
-      "place": "Zaporizhzhia",
-      "lat": 47.8388,
-      "lon": 35.1396,
-      "title": "Zaporizhzhia’s mayor says Russian advance reaches city’s outskirts",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/zaporizhzhias-mayor-says-russian-advance-reaches-citys-outskirts?traffic_source=rss"
-    },
-    {
-      "date": "2026-07-11",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Russian overnight strikes on Kyiv injure ten",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPc0VPWWVGVlZZU2o4ZFBNS1R0dF9mZ0hJMkpLUGRpbEN1cFo4Q0dRVGMtTVMzazJoOGpoTGVaYnJwbURhdnprWUhIOW93dlZvUjVhWENaNlRER3NVV2hiLVpSQ1ljVkctSi0wVXkza29hQ2dSQW9HNTVGVXlmZlY4cjVncmxhRUZPajJHdUhCc25WRllHVEF0QTU3d9IBoAFBVV95cUxOSEtZSE1oQkt2RUtqbEtPZVZyalNLOHRUNU9pUmVodVo1LWpKbWFmcUpUUDA0VUgtVkhBQzlzZFVEMkdEQ2l1N1YwVU5wOG91MlNsOEFpQl9neXZJSml4eUpMdHREZkllNDJycU1XUkRDS0swLTZBWmk4V0trQnVMUVQxQXNpcXZjNmNadFBJSks1T1BVVlRSSDViRE1fWjBY?oc=5"
-    },
     {
       "date": "2026-07-11",
       "type": "infrastructure",
@@ -10199,12 +10179,32 @@
       "title": "Ukrainian drone attack on Russia’s St Petersburg kills 1, hits energy sites",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/10/18/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites?traffic_source=rss"
+    },
+    {
+      "date": "2026-10-18",
+      "type": "ground",
+      "place": "Zaporizhzhia",
+      "lat": 47.8388,
+      "lon": 35.1396,
+      "title": "Russia’s Troops Capture Ukrainian Soldiers, Then Execute Them in Zaporizhzhia Region",
+      "source": "UNITED24 Media",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZVBXaU5rdk1JeWh5TlVDNVpHV1dnckZ1UmV0cVVBQzUyQTNxRGFlbHpYLUJsS1pMWTVvRHhhaUd2M2NWN3RrdkZBeC1pbm50cEJDY3VadGFrTlBfZElzMF9SOExwTGZ4dkVOcWtNOXpGUmNwc0NRVXFKcEVEUnZHY1ZZZGg4X1VEVzJfRGNYakJhMHYtQnRFYm1kRDhWUXF3b1hueDZmYU9HZUNienhKdzhURkZablFHdnV1ampTQzNnWDRtcHVSTA?oc=5"
+    },
+    {
+      "date": "2026-10-18",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Blaze at St Petersburg oil sites as Kyiv launches more than 1,000 drones at Russia",
+      "source": "Audacy",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMjB5QXVvaWFLb09NY3J5UWlIcVJJMWp4RlJJV0xHSjNnMTg0QnEtUGNNR3Y0OXJqTHpmdGVmSUxJMjlkaGVlRFloNTdWYU9jcm5iM1pZTVVUVDRVZm0wTzFyLWlIcjBDdFRFOWRPTnBfQ2Z6LTJnQ0V1S0ZsZi1RcEZWXzc1eGcweUNlREhRTXFSOGdMSWdla29XMG9vM1cwLVY2R3l4eF9hc3hWQzFV?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 149
+      "count": 150
     },
     {
       "place": "Moscow",
@@ -10224,7 +10224,7 @@
     },
     {
       "place": "Zaporizhzhia",
-      "count": 6
+      "count": 7
     },
     {
       "place": "Donetsk",

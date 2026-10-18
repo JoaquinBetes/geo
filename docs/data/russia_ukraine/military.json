@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-10-17T20:36:43+00:00",
+  "updated": "2026-10-18T04:34:02+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-10-23",
-    "to": "2026-10-17"
+    "to": "2026-10-18"
   },
   "kpis": {
-    "events_total": 1035,
-    "events_unlocated": 2954,
-    "events_7d": 68,
-    "events_prev_7d": 68,
+    "events_total": 1036,
+    "events_unlocated": 2961,
+    "events_7d": 63,
+    "events_prev_7d": 61,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -1188,19 +1188,18 @@
       "infrastructure": 3,
       "air_defense": 0,
       "anomaly": false
+    },
+    {
+      "date": "2026-10-18",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-07-11",
-      "type": "ground",
-      "place": "Zaporizhzhia",
-      "lat": 47.8388,
-      "lon": 35.1396,
-      "title": "Zaporizhzhia’s mayor says Russian advance reaches city’s outskirts",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPd08xTk44YjRLY2FXeTZDNERMeW5SY0dyZEgtMGRGaG5raVg0UkU5UGQ1VjZTZzNnaEFpaE1nLUV6Q1Vjelc0dlE1cVByWnJKVndCTS00WmEybTMzQWJHSjBoUzZWanoyazJJUnozMUFVd1pwQTVVUm9Ud0h5cGNiQUlyUGhYS3F0SjNjUWt0Ui1IcjB3R1A2eFFUSWpnRW00VzZIVnRlVF9fMm41UUxlNEd6NlgtQdIBuwFBVV95cUxQa3FoNnI2eEppLWJIVVhrMXA4Vk5ESEFKaGlzRktZZHd2eUswU3J4WlFBOGFBN0ExUlBxT1JHbXBsbVB2Y0dsWU9KanRWZWtqS0xHOEVGVnlZUHhYWHpZcDNYQzNmWWNKUXExRzlUM052UzItaXlUVEFwOXZsOEF5Sm9WdnhvOVNlNmk5bHAzbVpuUGNCNlQ1WmdTVm56V0dzUDJINm9WWmxLNk5IcWhQTFBuUnNSZmNsanBV?oc=5"
-    },
     {
       "date": "2026-07-11",
       "type": "strike",
@@ -10190,16 +10189,26 @@
       "title": "‘Drones all night. By morning, you smell the smoke’: life in the last hotel on Ukraine’s frontline",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/oct/17/ukraine-kherson-richelievsky-displaced-drones-last-hotel-frontline"
+    },
+    {
+      "date": "2026-10-18",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Ukraine war briefing: Trump’s sanctions waiver is a ‘60-day pause’ to analyse economic impact, says Rubio",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/18/ukraine-war-briefing-trumps-sanctions-waiver-is-a-60-day-pause-to-analyse-economic-impact-says-rubio"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 153
+      "count": 149
     },
     {
       "place": "Moscow",
-      "count": 51
+      "count": 50
     },
     {
       "place": "Dnipro",
@@ -10210,20 +10219,20 @@
       "count": 9
     },
     {
-      "place": "Zaporizhzhia",
-      "count": 8
-    },
-    {
       "place": "Kramatorsk",
       "count": 8
     },
     {
+      "place": "Zaporizhzhia",
+      "count": 6
+    },
+    {
       "place": "Donetsk",
-      "count": 7
+      "count": 6
     },
     {
       "place": "Odesa",
-      "count": 5
+      "count": 4
     },
     {
       "place": "Kursk",

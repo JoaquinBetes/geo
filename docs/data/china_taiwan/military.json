@@ -1,6 +1,6 @@
 {
   "id": "china_taiwan",
-  "updated": "2026-10-18T15:52:25+00:00",
+  "updated": "2026-10-18T20:43:41+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -43,12 +43,12 @@
   },
   "window": {
     "from": "2026-01-30",
-    "to": "2026-10-18"
+    "to": "2026-10-19"
   },
   "kpis": {
-    "events_total": 83,
-    "events_unlocated": 2049,
-    "events_7d": 7,
+    "events_total": 85,
+    "events_unlocated": 2055,
+    "events_7d": 9,
     "events_prev_7d": 3,
     "hottest_place": "Taipei"
   },
@@ -571,6 +571,15 @@
       "total": 1,
       "strike": 1,
       "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-18",
+      "total": 2,
+      "strike": 0,
+      "ground": 2,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -1406,12 +1415,32 @@
       "title": "Taiwan to buy 292 VTOL drones from Shield AI",
       "source": "Taipei Times",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9uTWVyd1QwcGhZdVlVRGgzNW8xY215RFpYMXU1aVVxM0MzU28wOUgyQUk5SXA4enBOc1ZMNVh4VFNER3dPNXVIVVlnOVhkSzBsY0J2Um9GNVQyMHhaS0Q3RGFpbXJBTEVIVHVlOG44UDROZG9zSHFpTmNn?oc=5"
+    },
+    {
+      "date": "2026-10-18",
+      "type": "ground",
+      "place": "Taipei",
+      "lat": 25.033,
+      "lon": 121.5654,
+      "title": "Dragons seize 2-0 advantage in Taiwan Series",
+      "source": "Taipei Times",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9RYVg3S3FOUGIxSm0xNXdodENTaDBvTmRkTnM3QmhmZFdrVktteTF6TWFXRHBId1U3dHZNUmFMTng3S25DZS02dDIzcGhZUTNGdzlCTkl1NWRhc1JFNG5YS2pPVFNPajZEcWlNdGZRMmN1V21rMUJkUQ?oc=5"
+    },
+    {
+      "date": "2026-10-18",
+      "type": "ground",
+      "place": "Taipei",
+      "lat": 25.033,
+      "lon": 121.5654,
+      "title": "Two held in deadly assault case",
+      "source": "Taipei Times",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1qYjhJVG5yX1BiczlvVGNJMU1TWXJZNmI3aGlUVk5YWmpjTGVFTXd0TERhQ1BOSXJoeGJEOWNBZW1USTY1NjBpekNUVi1GNWR6aV8tMFMxb0FHM2ZKNHZmZVY2RFR2TjRTZ2pFT0FNeS13bUU5T0dDdklB?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Taipei",
-      "count": 15
+      "count": 17
     },
     {
       "place": "Kaohsiung",

@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-10-18T04:34:12+00:00",
+  "updated": "2026-10-18T11:05:12+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-10-18"
   },
   "kpis": {
-    "events_total": 544,
-    "events_unlocated": 2643,
-    "events_7d": 15,
+    "events_total": 545,
+    "events_unlocated": 2648,
+    "events_7d": 16,
     "events_prev_7d": 14,
     "hottest_place": "Strait of Hormuz"
   },
@@ -979,6 +979,15 @@
       "date": "2026-10-17",
       "total": 2,
       "strike": 2,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-18",
+      "total": 1,
+      "strike": 1,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -6415,6 +6424,16 @@
       "title": "Iranian TV airs video said to show tanker explosion in Hormuz",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/iranian-tv-airs-video-said-to-show-tanker-explosion-in-hormuz?traffic_source=rss"
+    },
+    {
+      "date": "2026-10-18",
+      "type": "strike",
+      "place": "Jerusalem",
+      "lat": 31.7683,
+      "lon": 35.2137,
+      "title": "'You are the real target': Netanyahu warns Iran may attempt to develop missiles able to reach US",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9Qa0x3MUZCcVpESlhBNGhWTml1RnpZYkVpNFlKMVlUT3lJYkEtY3lsbkp5M1Rxem5Xbk02VGJWZGpUYVlOYlJKY05EODVCd0lFRWE2UXM2RlpEWS0yTWUtOWtka1RPeG1Dd3loeW5BMUJ1am5lcHVLVUkwOA?oc=5"
     }
   ],
   "top_places": [
@@ -6423,11 +6442,11 @@
       "count": 22
     },
     {
-      "place": "Tehran",
-      "count": 13
+      "place": "Jerusalem",
+      "count": 14
     },
     {
-      "place": "Jerusalem",
+      "place": "Tehran",
       "count": 13
     },
     {

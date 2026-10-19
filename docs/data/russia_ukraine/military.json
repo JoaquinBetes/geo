@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-10-18T20:43:23+00:00",
+  "updated": "2026-10-19T04:40:45+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-10-23",
-    "to": "2026-10-18"
+    "to": "2026-10-19"
   },
   "kpis": {
-    "events_total": 1040,
-    "events_unlocated": 2977,
-    "events_7d": 67,
-    "events_prev_7d": 61,
+    "events_total": 1042,
+    "events_unlocated": 2980,
+    "events_7d": 59,
+    "events_prev_7d": 56,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -1191,35 +1191,24 @@
     },
     {
       "date": "2026-10-18",
-      "total": 5,
+      "total": 6,
       "strike": 4,
       "ground": 1,
+      "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-19",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-07-11",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "At least 11 people injured in overnight Russian strikes on Kyiv",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBrdWZuSktIdmNTUmMxVEVkc1k4bXlhRTNvQkNTVTNoVldJQnVKSTFBaFFJX3NMTjlGNE5OMnV2OUxUNUJIaVl1Vk11TFhwWGxOWF9oRl9pMkZyU1dhSlRvVHpuSU1OUk5JN192RWY0akZaX0ZrYUt6dmhR?oc=5"
-    },
-    {
-      "date": "2026-07-11",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "10 injured in overnight Russian missile and drone strikes on Kyiv",
-      "source": "Audacy",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ0p6VjlYM1hhWXFiU2VxQzdTUHc0N0E5NmF4VDVkb2VOV0t1M01mMjFQOUtmUHRZUmxvRncwMWxrRE9NM2Z5M1JiTy1tMXlnd19vVUlhQUZaeThYdEczZTR1SENBMENKdUhBNldhdFRzTDY2QlQ5Nk5xOGRrQUJjZ0p6RUZXSGF5aXphaHZzQWVUUEhYNW9mOXBfOVFYbktiN3ZYRzhoSzVEMTRVYkZCd01ON0N6Rlk?oc=5"
-    },
     {
       "date": "2026-07-11",
       "type": "strike",
@@ -10199,12 +10188,32 @@
       "title": "Ukraine war latest: St. Petersburg slammed by drones in mass Ukrainian attack",
       "source": "The Kyiv Independent",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOR3cxZ1JTVWhWYV9uRzE1Ymp1MkoyN3VINW5fQXFmSTdSbGVJb1ZfVHBJRVJwRmphaVpLWEY0Rkx4MTc2WHZJNG82T0hxVGNCZ2dDRjVtY1lXV2JFNW9wQlNieG53SncwVGc2RzN2bUZVM01MUDlWa0xxa0ZUeXJhSm5lcTRuQzNRUEVQUWZ6b01yR2pwaXZlZnI2VHh6ZE9GczdIN2lOVQ?oc=5"
+    },
+    {
+      "date": "2026-10-18",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: Trump accuses Zelenskyy of not wanting to end war as feud rumbles on",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/19/ukraine-war-briefing-trump-accuses-zelenskyy-of-not-wanting-to-end-war-as-feud-rumbles-on"
+    },
+    {
+      "date": "2026-10-19",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine launches over 1,000 drones at Russia, setting oil facilities ablaze",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/19/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 151
+      "count": 148
     },
     {
       "place": "Moscow",
@@ -10223,12 +10232,12 @@
       "count": 8
     },
     {
-      "place": "Zaporizhzhia",
-      "count": 7
+      "place": "Donetsk",
+      "count": 5
     },
     {
-      "place": "Donetsk",
-      "count": 6
+      "place": "Zaporizhzhia",
+      "count": 5
     },
     {
       "place": "Odesa",

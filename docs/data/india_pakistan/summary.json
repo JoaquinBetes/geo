@@ -2,13 +2,13 @@
   "id": "india_pakistan",
   "name": "India–Pakistán",
   "description": "Cobertura mediática del conflicto entre India y Pakistán",
-  "updated": "2026-10-18T20:43:46+00:00",
-  "total_articles": 18932,
-  "overall_avg": -0.245,
+  "updated": "2026-10-19T04:41:04+00:00",
+  "total_articles": 18970,
+  "overall_avg": -0.2452,
   "distribution": {
-    "pos": 4573,
-    "neu": 3724,
-    "neg": 10635
+    "pos": 4580,
+    "neu": 3730,
+    "neg": 10660
   },
   "sources": [
     "Al Jazeera",
@@ -35,9 +35,9 @@
     "Deccan Herald",
     "The New Indian Express",
     "organiser.org",
+    "Yahoo Sports",
     "ANI News",
     "The Guardian",
-    "Yahoo Sports",
     "Arab News PK",
     "Eurasia Review",
     "Gulf News",
@@ -731,7 +731,9 @@
     "Goodreturns",
     "Quwa",
     "X",
-    "Airways Magazine"
+    "Airways Magazine",
+    "AeroTime",
+    "Fubo"
   ],
   "daily": [
     {
@@ -776,10 +778,10 @@
     },
     {
       "date": "2026-02-14",
-      "count": 1,
+      "count": 2,
       "avg": 0.0,
       "pos": 0,
-      "neu": 1,
+      "neu": 2,
       "neg": 0
     },
     {
@@ -2088,46 +2090,54 @@
     },
     {
       "date": "2026-10-17",
-      "count": 129,
-      "avg": -0.4196,
-      "pos": 21,
+      "count": 131,
+      "avg": -0.4016,
+      "pos": 23,
       "neu": 16,
       "neg": 92
     },
     {
       "date": "2026-10-18",
-      "count": 120,
-      "avg": -0.3648,
-      "pos": 22,
-      "neu": 14,
-      "neg": 84
+      "count": 137,
+      "avg": -0.3748,
+      "pos": 25,
+      "neu": 16,
+      "neg": 96
+    },
+    {
+      "date": "2026-10-19",
+      "count": 18,
+      "avg": -0.351,
+      "pos": 2,
+      "neu": 3,
+      "neg": 13
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 7886,
-      "avg": -0.2759
+      "count": 7902,
+      "avg": -0.2762
     },
     {
       "source": "BBC",
-      "count": 2468,
-      "avg": -0.2974
+      "count": 2481,
+      "avg": -0.2981
     },
     {
       "source": "The Times of India",
-      "count": 734,
-      "avg": -0.2412
+      "count": 735,
+      "avg": -0.2409
     },
     {
       "source": "NPR",
-      "count": 715,
-      "avg": -0.2766
+      "count": 717,
+      "avg": -0.2771
     },
     {
       "source": "India Today",
-      "count": 678,
-      "avg": -0.2339
+      "count": 679,
+      "avg": -0.2336
     },
     {
       "source": "The Tribune",
@@ -2151,8 +2161,8 @@
     },
     {
       "source": "News18",
-      "count": 213,
-      "avg": -0.2354
+      "count": 214,
+      "avg": -0.2343
     },
     {
       "source": "The Indian Express",
@@ -2225,6 +2235,11 @@
       "avg": -0.3648
     },
     {
+      "source": "Yahoo Sports",
+      "count": 56,
+      "avg": 0.0761
+    },
+    {
       "source": "ANI News",
       "count": 56,
       "avg": -0.2125
@@ -2233,11 +2248,6 @@
       "source": "The Guardian",
       "count": 56,
       "avg": -0.3247
-    },
-    {
-      "source": "Yahoo Sports",
-      "count": 54,
-      "avg": 0.0507
     },
     {
       "source": "Arab News PK",
@@ -5708,32 +5718,42 @@
       "source": "Airways Magazine",
       "count": 1,
       "avg": -0.7351
+    },
+    {
+      "source": "AeroTime",
+      "count": 1,
+      "avg": -0.7351
+    },
+    {
+      "source": "Fubo",
+      "count": 1,
+      "avg": 0.0
     }
   ],
   "top_entities": [
     {
       "name": "Pakistan",
       "type": "LOCATION",
-      "count": 6772,
-      "avg": -0.191
+      "count": 6778,
+      "avg": -0.1907
     },
     {
       "name": "India",
       "type": "LOCATION",
-      "count": 6195,
+      "count": 6200,
       "avg": -0.1883
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 1354,
-      "avg": -0.1705
+      "count": 1356,
+      "avg": -0.1704
     },
     {
       "name": "China",
       "type": "LOCATION",
-      "count": 749,
-      "avg": -0.14
+      "count": 750,
+      "avg": -0.1398
     },
     {
       "name": "Kashmir",
@@ -5744,8 +5764,8 @@
     {
       "name": "United States",
       "type": "LOCATION",
-      "count": 388,
-      "avg": -0.1417
+      "count": 390,
+      "avg": -0.1443
     },
     {
       "name": "Indus Waters Treaty",
@@ -5798,11 +5818,326 @@
   ],
   "recent": [
     {
+      "title": "Anthropic says it will commit 5% of its shares to 'public benefit fund'",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-19T04:30:59+00:00",
+      "compound": 0.8834,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Lula and Bolsonaro spar in Brazil’s fiery first presidential run-off debate",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/19/lula-and-bolsonaro-spar-in-brazils-fiery-first-presidential-run-off-debate?traffic_source=rss",
+      "published": "2026-10-19T04:27:00+00:00",
+      "compound": -0.6486,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "France's government under pressure after weekend of widespread violence",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/crwyd02yz22vo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-19T04:16:46+00:00",
+      "compound": -0.9062,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Maldivian President Mohamed Muizzu To Visit Pakistan, 1st Prez Trip In Over A Decade: Should India Be Conce",
+      "source": "News18",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQM0dJa2lBQmlsYmgtWFk4WE8yRXBWS0d1X1k0WGw3VjN3RmNNOUswd0o4dFhIWDdmVTVScU1Sei1yVEVyWXpiZ0dTOXExbEYtRXExQVNfeEt0SVhEVlVESDFsYmdGSk1xZU5wd0NJd1BKQl9PdFBucWQzUEg0WW5lVy14Tk9VN0pZT3dOS1hfTW9nLXhFWTMxQ3ZPdzBDUVRnT0ViWW1JNFNBMGt2RnVLNWNnZVNLYnduNWhTTVpSbk80ZFhBVXJxQ2FGMkJGWU5iREtKS3NwQk55Y05OLXdKVHRFMGxuaGNBMGhGTDZXelbSAfYBQVVfeXFMTk83OE83NEg3d3FJdkpBVzQ2aWM4VXNxZHdrTjUxLUhmNTFFLS1oVFVERzRCdXk1d1lESWwybzRSVEljUjFEWTFTTFg4MVBibGYzZkNHQmZxbGVRRkZ2OUQ0RXZrY25tU3J0NzZaeHhpaTgyZ0NQOVc4aTctR3YxRzU3X1liT3htQWxZcERBTTMzcHNvNlNhVDBRMGJjVXhfNzBDT2tIZUUzZGpvdUtwczNOOFBZdFd5S0NRem5VWGlyTktvX29PVVhfb29tTGtpQ0RrcnQwNEJEeU95N1k1eC1qQnZieko2Z0ZJMkQ0b2JtcVg4YnF3?oc=5",
+      "published": "2026-10-19T04:12:47+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "India",
+        "Pakistan"
+      ]
+    },
+    {
+      "title": "Kenya pastor accused of ordering parents to starve their children to death faces verdict",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-19T03:44:02+00:00",
+      "compound": -0.9186,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "‘It broke my heart’: Limoges residents reel after town hall fire",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/it-broke-my-heart-limoges-residents-reel-after-town-hall-fire?traffic_source=rss",
+      "published": "2026-10-19T03:40:52+00:00",
+      "compound": -0.9081,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Anthropic says it will commit 5% of shares to ‘public benefit’ fund",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/10/19/anthropic-says-it-will-commit-5-of-shares-to-public-benefit-fund?traffic_source=rss",
+      "published": "2026-10-19T03:23:54+00:00",
+      "compound": 0.5267,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Trump defends Russian sanctions relief, lashes out at Zelenskyy",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/19/trump-defends-russian-sanctions-relief-lashes-out-at-zelenskyy?traffic_source=rss",
+      "published": "2026-10-19T03:10:05+00:00",
+      "compound": -0.4939,
+      "label": "negative",
+      "entities": [
+        "Donald Trump",
+        "United States"
+      ]
+    },
+    {
+      "title": "Fast-moving grass fire caused Canada’s military base tragedy",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/fast-moving-grass-fire-caused-canadas-military-base-tragedy?traffic_source=rss",
+      "published": "2026-10-19T03:07:16+00:00",
+      "compound": -0.9274,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Threat forces Israel to Austria flight into emergency landing",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c680zdmn100lo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-19T02:41:50+00:00",
+      "compound": -0.4019,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Ukraine launches over 1,000 drones at Russia, setting oil facilities ablaze",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/19/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites?traffic_source=rss",
+      "published": "2026-10-19T02:10:09+00:00",
+      "compound": -0.7964,
+      "label": "negative",
+      "entities": [
+        "United States"
+      ]
+    },
+    {
+      "title": "Muizzu begins 3-day Pak visit tomorrow, 1st Maldives prez trip in over a decade",
+      "source": "The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPaEM2dTFhUUlJdEhBVk5iNzRMb0REc1lDSzRRV1c4UE1ocmFROUdCcVI3UF9BZDFoVzdZMjFxeVJrZWZFaFppX1ZUQ25PNHhMendFSVN2TUtaWnRraTZnaWwyZUd5MjQtemg4V3dCTFYtZUNmXzhlUy1WZDFadU93YTBnelI1aFFUcGJwdEdGRWFBU3RzekNET0g3N3lVS0JiX0FVNWlOdVd4VklOU3VTRkJnVVdaejNmUDdwczFYbEVQQlJ1RUw4QUluY3lzUGZmaE5yMGpOUVN6YXpyanpQOE1JVmtlNEtKaE44VHN6UGFxUdIB9wFBVV95cUxQWjNGV1dURE1SXzVDOFQydXFiRk5DM2lOSmhvaGFHLVNzaDU3NnZLcmxaTVV3VWdCNXlLZnNwb1d2SXRGYTdlbzItTk14eV9QVEozRUFFY3FqQkpxd2xDVlNzbVIwNE1GMW1xTFJhT2pqUGh0djVVaENPTGV1RVltYnQ4Q2hIcnVhano2eGU1MjBwRHNMZHYteDNPd1BVWUsyREtqZ055R3JQOERnN0Zjc3RWdzlValZMYXA1TDNiWGc2X3ZxR1pDOWxNUHJCR0ZaalFXV21DSjlHV1AwUHhEOFhRYnpvLTJNX0E1cklXQ3BCaHlVN01j?oc=5",
+      "published": "2026-10-19T02:04:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "India"
+      ]
+    },
+    {
+      "title": "Bollywood actor Tiger Shroff survives shooting in Mumbai",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c6jdmy872r7vo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-19T01:50:48+00:00",
+      "compound": -0.34,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Australian Greens senator denies claims of misconduct towards women",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cmpdgj8z8v2do?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-19T01:32:40+00:00",
+      "compound": -0.5267,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Kenya confirms eighth Ebola case amid widening regional outbreak",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/19/kenya-confirms-eighth-ebola-case-amid-widening-regional-outbreak?traffic_source=rss",
+      "published": "2026-10-19T01:07:52+00:00",
+      "compound": -0.0772,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Serial-borrower Pak is chief of global borrowers' club. What it brings to the table",
+      "source": "India Today",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWWo0WE1hSjhDanFIY1duOWpvZi1hS1FINE5sUkROSVhtVmVvM2RvblhweDFDV2FnQndrRzBta1lubGlVX0NGSHlSTFg4aWZxc1VCUVJBaUNzRkcySjFLRkdwSmVvSGJrS2xKSVRtS29aQk5ZR3RXVG1KbWdPckRieWhleWdDemU5dmdjaV8xdUkwNTlQSG1fQmlVb1ZBZGRtUXlTdnhBQzBFNFZyMHdjcFhLa2hGd3kwSEdGVEpnSm1MRHZ3NHNReFFiZ0NWVlNaR3JV0gHTAUFVX3lxTFBZajRYTWFKOENqcUhjV245am9mLWFLUUg0TmxSRE5JWG1WZW8zZG9uWHB4MUNXYWdCd2tHMG1rWW5saVVfQ0ZIeVJMWDhpZnFzVUJRUkFpQ3NGRzJKMUtGR3BKZW9IYmtLbEpJVG1Lb1pCTllHdFdUbUptZ09yRGJ5aGV5Z0N6ZTl2Z2NpXzF1STA1OVBIbV9CaVVvVkFkZG1ReVN2eEFDMEU0VnIwd2NwWEtraEZ3eTBIR0ZUSmdKbUxEdnc0c1F4UWJnQ1ZWU1pHclU?oc=5",
+      "published": "2026-10-19T01:00:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "India"
+      ]
+    },
+    {
+      "title": "Kinship and surveillance: The return of Somali piracy",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/19/kinship-and-surveillance-the-return-of-somali-piracy?traffic_source=rss",
+      "published": "2026-10-19T00:56:17+00:00",
+      "compound": -0.4215,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Inside the shadowy world of anti-Putin sabotage from within Russia",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c6pwgzkj8zzgo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-19T00:06:25+00:00",
+      "compound": -0.3612,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Iran war live: Tehran says Netanyahu seeks more war; Yemen fighting flares",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/18/iran-war-live-tehran-says-netanyahu-seeks-more-war-yemen-fighting-flares?traffic_source=rss",
+      "published": "2026-10-18T23:59:34+00:00",
+      "compound": -0.9437,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Flight from Israel makes emergency landing in Bulgaria after bomb threat",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/18/flight-from-israel-makes-emergency-landing-in-bulgaria-after-bomb-threat?traffic_source=rss",
+      "published": "2026-10-18T23:58:05+00:00",
+      "compound": -0.9413,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "EU tariffs aimed at China hitting Ukraine, steel boss says",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cwdd8z6gyy96o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-18T23:28:45+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "China"
+      ]
+    },
+    {
+      "title": "Trump says suspension of Russia sanctions is to keep peace negotiations going",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-18T23:20:15+00:00",
+      "compound": 0.34,
+      "label": "positive",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Protesters disrupt Ben-Gvir event forcing him off stage",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/protesters-disrupt-ben-gvir-event-forcing-him-off-stage?traffic_source=rss",
+      "published": "2026-10-18T23:06:16+00:00",
+      "compound": -0.1027,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Major fire at Canada military base leaves four dead, dozens injured",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cxj0ly1m3q81o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-18T23:06:09+00:00",
+      "compound": -0.9565,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Venezuela opposition renews support for Maria Corina Machado as leader",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/18/venezuela-opposition-renews-support-for-maria-corina-machado-as-leader?traffic_source=rss",
+      "published": "2026-10-18T22:41:49+00:00",
+      "compound": 0.5574,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "'Very upsetting': Residents in shock after historic French town hall set alight",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/videos/c9dr8kem27zeo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-18T22:22:51+00:00",
+      "compound": -0.9168,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Alberta independence referendum: Will separatists survive a loss?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/18/alberta-independence-referendum-will-separatists-survive-a-loss?traffic_source=rss",
+      "published": "2026-10-18T21:53:13+00:00",
+      "compound": -0.5063,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Macron condemns violence after riots lead to looting and mass arrests",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/macron-condemns-violence-after-riots-lead-to-looting-and-mass-arrests?traffic_source=rss",
+      "published": "2026-10-18T21:10:47+00:00",
+      "compound": -0.9578,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Inside Chicago's battle against the synthetic drugs flooding the US",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/videos/c84g166kz003o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-18T21:00:22+00:00",
+      "compound": -0.5719,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Political rivals implicated under Pakistan's anti-terror law",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/18/nx-s1-6004833/political-rivals-implicated-under-pakistans-anti-terror-law",
+      "published": "2026-10-18T21:00:11+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Pakistan"
+      ]
+    },
+    {
+      "title": "'Life is absolutely brutal in Gaza,' says World Food Programme head",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/18/nx-s1-6001709/life-is-absolutely-brutal-in-gaza-says-world-food-programme-head",
+      "published": "2026-10-18T21:00:08+00:00",
+      "compound": -0.8858,
+      "label": "negative",
+      "entities": []
+    },
+    {
       "title": "Macron calls for 'calm and order' after riots across France",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/articles/cw240zl08dm5o?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-18T20:33:21+00:00",
       "compound": -0.5719,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Fire engulfs Albania’s Supreme Court as protests enter fifth day",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/albania-protests-supreme-court-fire?traffic_source=rss",
+      "published": "2026-10-18T20:26:03+00:00",
+      "compound": 0.4588,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "‘Anger and shame’: Macron denounces France’s nationwide rioting, looting",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/18/macron-denounces-frances-nationwide-rioting-looting?traffic_source=rss",
+      "published": "2026-10-18T20:19:22+00:00",
+      "compound": -0.4767,
       "label": "negative",
       "entities": []
     },
@@ -5826,6 +6161,15 @@
         "India",
         "Pakistan"
       ]
+    },
+    {
+      "title": "Cindy Crawford 'beyond heartbroken' after death of son Presley at 27",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cwzrd6123jyyo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-18T19:53:27+00:00",
+      "compound": -0.9325,
+      "label": "negative",
+      "entities": []
     },
     {
       "title": "Russia's Pakistan signal?",
@@ -6061,358 +6405,6 @@
       "compound": -0.8779,
       "label": "negative",
       "entities": []
-    },
-    {
-      "title": "Pakistan’s decades of backing terror comes full circle as Khyber Pakhtunkhwa falls under emergency rule",
-      "source": "The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQYTZZXzRCOGVZcGg1RG9hM1AzWlY1dzB0cDJFaHRMNVZ4R1BEY0pRaS0xeGlTVWdOUTIwWEZkTGdQalhUcVE2N05CRlVyTGpkYzFmNmtqb1pGNU5YZXhUVFJrVnlWOExnR01pbkZ1Z21hZElKNTZjSTcwclJzVnNZMGh5X2xsY2xDOGM4bmRBeS0xeVVKVmNhcGJEdE5MN1VNaUgwNHVwSVFNMk1neUFzdTVvdUllOUtIaW1KQnl5bDBpM0dub3ZvcXdLZktlWlRMQjBPQVBoX19XQ0FZRmIxdTNOLVd6RW9rbm5Wal8tbURrM2VDTDNwSWE3dFFzNjRlYkNaRGFwMVAyQU3SAZACQVVfeXFMTWVPR3RINV92X2trYTQ4UU13Wk92T1ZUUVZreXZJRVVaS2NkdjFVSE5MS19LWjlsQW9tdmZ4b3pXRXhGSFNodk45VmpDOXVyU3RmNGtJelVlYmdyYzdfd2tvV0dCSjJ6UDNjVUV1WGFiUWljVDlVSElxVmFmaUktanJVZ0xDYmljOXNDS2N4UTZMeHh5NmlzbzdzTzdWTGpKZ2lMUjJ5TUJxUnlkMF9HeTVJenhWdEVyaGd0R2lNc3FBUVFQUGJLSDVyRGpvRWh2NFBob2J2LWREYWU1dHJ5VGl3R3BwejV2NTdzX3k2RFFhTU16c2trYzFvNGVNV2FpUTJ1NkgxYlhlR0NwM2E4V0Y?oc=5",
-      "published": "2026-10-18T15:38:00+00:00",
-      "compound": -0.8957,
-      "label": "negative",
-      "entities": [
-        "India",
-        "Pakistan"
-      ]
-    },
-    {
-      "title": "Photos: Antigovernment protesters clash with police in Albania’s capital",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/gallery/2026/10/18/photos-antigovernment-protesters-clash-with-police-in-albanias-capital?traffic_source=rss",
-      "published": "2026-10-18T15:30:44+00:00",
-      "compound": -0.5106,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Manchester United held at Leeds despite improved performance for Carrick",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/10/18/manchester-united-held-at-leeds-despite-improved-performance-under-carrick?traffic_source=rss",
-      "published": "2026-10-18T15:28:30+00:00",
-      "compound": -0.0067,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "EU condemns Israeli settler attack on diplomats in occupied West Bank",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/18/eu-condemns-israeli-settler-attack-on-diplomats-in-occupied-west-bank?traffic_source=rss",
-      "published": "2026-10-18T15:10:05+00:00",
-      "compound": -0.9274,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Tirana sees sixth day of violent protests as Albania’s PM refuses to resign",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/18/chaos-in-tirana-demonstrators-determined-to-not-give-up-so-easily?traffic_source=rss",
-      "published": "2026-10-18T15:08:18+00:00",
-      "compound": -0.8442,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Pakistan plans Moon landing by 2035, expands space cooperation with China",
-      "source": "The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPSV9HZ21KRC1mLVhndGZXNVVMX0R4a1FrLVRJOW1BbFBBWWlCTWxLWkI5dE03YjZ4UkxiZnUzeERpajFGWGt2YzBhZlFuN0MzN2lDZWdIbWdiZGZQa3dKM212b09jaGlFUkctWHVBME14VTZ5V1pVaGx1dUJwR2o2bC1xQTVEc0ZrNFlZNVIwYjI0OHNFYWVydm1QRFRrYUhuLVVxZ2dIVmk0VmI2bHRUY3JzWXVPeXpCNnBka1ZqQUhtU3J6ajJGMWJVWTVZb0UwbWJfWDVGVmEyWGZKZ3lzTnNHMNIB6AFBVV95cUxPRUdTUmdBSTh2eFotQnJQTHlmSjlzWFZiTnJLb1JaMkN6WmtYYWk2MXhTZFBLNnBGTTMwQ3lGY25ROGs2R3lYb2JnSThXbUlXVHd1RTlEOVlvcV9XNGoybXJ4ZS0xNWMzYkZXeFVJaF95YzFVa3Z5UE5DTVZBN3pSUkVrSFJQX09KTlVYYzNsSThmaXBEWm5zRXgzb2Y1T25WN2FMdUtJNEdxVXh2Z1IwOVdmbTRsanhxM3RuVkdSTWlWQW1nQlVFTVVWbnNMcl82VlVBZGw4RS1jbG1BUGxjaDhIMmdSZFUw?oc=5",
-      "published": "2026-10-18T14:58:00+00:00",
-      "compound": 0.2023,
-      "label": "positive",
-      "entities": [
-        "India",
-        "Pakistan",
-        "China"
-      ]
-    },
-    {
-      "title": "A timeline of West Bank attacks on Palestinians and foreign officials",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/18/a-timeline-of-west-bank-attacks-on-palestinians-and-foreign-officials?traffic_source=rss",
-      "published": "2026-10-18T14:42:01+00:00",
-      "compound": -0.4404,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "France protests live: Macron to address nation after protests",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/18/france-protests-live-macron-to-address-nation-after-deadly-protests?traffic_source=rss",
-      "published": "2026-10-18T14:26:11+00:00",
-      "compound": -0.8885,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Ashok Gehlot seeks Rajasthan BJP chief's apology over 'stand with Pakistan' remark",
-      "source": "India Today",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQbVBnLXlRMm9fV1VxcXZUTVlKVG5aQ3RwbThwSUp1U2NBdk5wU0pPSllDZzF2czcyWmlRZHBtVWhOcXlKMVQ0THBHNUF3Y3ZfZ1Y2dzByblBtOGNpVWw0ZmROT2twN0tfV2J0Qm9GaVJwX0QxSjJtdDhrcXVJSDFnZ2NLd0hjdlUzekZQRllORlBZRzJhUWFPUU1tNGdLQkxpZ3JaQWpqTEJSOGRMQ0VsOVdnN0NWRVFJRUtETlkwRndVTmEwejhCRUxvNHVQTXh3cmhaXzJqX21KWE1TN1BNTHB0SGNNSUZqSW5MbjZBbkhQa2xFcXcyVlF0M3RGTTDSAYQCQVVfeXFMT2dONjJYeDNaZkZyQUFodmNORzVWWGJVMmhTbFFiS2stY292WTV1WlA2dnd4cVVnNVIxcWprNGF1ZXRlYzRlaVdvX093YjBOQXhUTFk5b1pnWFoxWUJhODAxOVVrZVRIdVB4dWo3YjVHQTJ2NndOSkh2bTBwN1pKa3dJSllVWFBhSTA1VTRYbGFKeFR4R2dKVVR3NFpoTU1FZ25TRnRnU0FPemhSaU5TbDVfb3RaQkIyNF9xWFc4dGpRY1pHaElfTXIwbVJ6XzJtanB0RXVVbklyZ2pHZndXbUMxd1lRSnB0TFhOZDMxdmJ2eF85VHBIa2tWcVpaS0QxNGNWMGQ?oc=5",
-      "published": "2026-10-18T14:17:09+00:00",
-      "compound": 0.1027,
-      "label": "positive",
-      "entities": [
-        "India",
-        "Pakistan"
-      ]
-    },
-    {
-      "title": "Pakistan's 'historic milestone' claim gets a reality check from ex-IMF director",
-      "source": "India Today",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORUZWUEhzU00yVXlmNlNGWmtyM3RldHZGb0tnTlZTUnYzb0pTVGxZNGMyTFQ5SUF6NEFhaE9mLVFYZ3JuZmlxcjVURWF2N0FZanNDTDV6T08xM2x1Nko1VngzRy0tdzhkUy1GMzg0dDFVTkwyTVFSUTdrSk1SZ2YySnJxM194VEN4NHdoa3NpWkd1bzZTWkpxVmZlWFBRdlQxTXhsbkJXN2puamZURFFCbHNlY1hJVjNIc3U4TUpweDRLRnZ3RmgwUmxlMG9Nd9IB0wFBVV95cUxOTy1xeWhkNHQ1Mk41VTlWRHUtcGRabVBBSFFSVnBaWl9pSXZMY0R5cFZKR0xib2xFV0xoMVJlT3hPeXpfSmRCUU8wWng1MlVtenY4Yl9OekhQSlpiSG1vS2MzZ1dhaHUzdHZLeENoYjBxaUVPeVhvRlpzcUtiTGJ2cXZTZDRid2hsd0xGeWZ3RE5QWHJkbDhDcFZMLWpqNFZrTnVtWnBudkRWZ2NybzZTTXVieDl1WG4tYmJpUFYtdEVFd1lKN3ZRMS1uTVZFbGgyUFJz?oc=5",
-      "published": "2026-10-18T14:12:27+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "India",
-        "Pakistan"
-      ]
-    },
-    {
-      "title": "Why is Trump now encouraging mail-in voting?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/why-is-trump-now-encouraging-mail-in-voting?traffic_source=rss",
-      "published": "2026-10-18T14:09:16+00:00",
-      "compound": 0.5267,
-      "label": "positive",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Pak suspends border trade with Iran; hundreds of freight vehicles left stranded",
-      "source": "India Today",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWk1KdG93bTJsTi0xbUVCN1lGOUFZSTFab2UwUFNFSDlXNHdsbHhjMGRrMk1sSTJ5QUlXSDVfc2kzV0NRS0k5QTVzcEJraUNMWWlFUDNodDB1TkhTbHhlWkE1bk1KeUFfVkNwNjh0YTVYQnJrQ1dMM1ZQYzdDVVRCWWR0emFCbzdaaE9NRWs5V0hYaklhUGlfM2RQN1JrcGx3R1FId1ZGcWRyVkNNbWNXaG5VMnMzN0wyOElUR1RXUW1xZ9IBxwFBVV95cUxPN0NyZ2xLZ0JJWnE3eUk5VkdFSzlLZGhzVFdsRlJFR2l1WWN0dFhIN1NDVENzMDQ1SkxNdHZpaHh6TTVOOG96WU4wdllLZE45Q3Bvb2dTTFlTMnAwcDk0RlV6ZjlSWTVVczUxYkozNktzV2NKUE9nYjkxN0ZNWVRWVnh1VEo1MlAtdVdGbWtOOUx0dW96dWwtcHJMRnltTUhVeVNXR2hQakF5V2MwZW9URFNmVlYtOFV5c0dXZlJoNmE5TlRJTWw4?oc=5",
-      "published": "2026-10-18T14:05:03+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "India"
-      ]
-    },
-    {
-      "title": "Why have France’s school protests become a wider political crisis?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/18/why-have-frances-school-protests-become-a-wider-political-crisis?traffic_source=rss",
-      "published": "2026-10-18T13:48:04+00:00",
-      "compound": -0.7269,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Search for Amelia Earhart's plane resumes after stormy weather",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cv70pxe5j90eo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-18T13:47:07+00:00",
-      "compound": 0.4215,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Sudan army accused of drone strike on livestock market",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/sudan-army-accused-of-drone-strike-on-livestock-market?traffic_source=rss",
-      "published": "2026-10-18T13:37:03+00:00",
-      "compound": -0.3291,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Was ancient India the world’s forgotten superpower?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/deja-vu-2/2026/10/18/was-ancient-india-the-worlds-forgotten-superpower?traffic_source=rss",
-      "published": "2026-10-18T13:17:31+00:00",
-      "compound": -0.25,
-      "label": "negative",
-      "entities": [
-        "India"
-      ]
-    },
-    {
-      "title": "Gaza families fear food shortages as Israel halts commercial shipments",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/18/gaza-families-fear-food-shortages-as-israel-halts-commercial-shipments?traffic_source=rss",
-      "published": "2026-10-18T13:16:13+00:00",
-      "compound": -0.5859,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Pakistan seals 200-year-old Hindu temple after demolition attempt sparks protests",
-      "source": "The New Indian Express",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOV3JvOTYzQ3RfSDJqVEZUbmY4LWxHMVhkWlpVdDNOY2hVOWl4QzU2ZnNyajV5ZWlGSmpzemJWSEJ2WllHdDU5NkJiel9uM25zTk1jQW5fejJJWTVNN0V2Y1pWV0QxVTNYMkhUSVJ6dnR6djU5X2paY2JIWTFWb0F5Y3hjTU1CQWVqaXFOZVBITWRSNFNKWkozdkpxdFRvTkM3ZDdTbnYwRm5TZC1DVExzeWpNeGFBQWdwLUJkYlR0OVgySEtXRVRESWNSRmrSAdoBQVVfeXFMTVp2U2tpUWxJcHVIQXM1Ry0wSERxVWlEOFNWdHhGdUVlRjhRMHRrZGIyMzNBbHcyOFdlVTA3VG1hekkxVXBqMWh0bmwzVW5mWFI0elNZMXN0Q2VSWldwNEtPdGRnWV92WUFNWF9LMjNkcm5OZThwS1NaQkdPR0dzMWdyMkdkU1ZwZGUzU0VmVHU1a3dwenBIV09XbnU1dFdZeUVCNjFrYzduRkxNNUs2V0t5ZDU5RlBDOFhGVjdLWS1xSFhNV3JpQ0RMRjdFWTNtTXhYeGlNQjZWaVE?oc=5",
-      "published": "2026-10-18T13:12:25+00:00",
-      "compound": -0.4215,
-      "label": "negative",
-      "entities": [
-        "India",
-        "Pakistan"
-      ]
-    },
-    {
-      "title": "Paris left reeling as student-led protests turn chaotic",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/18/paris-left-reeling-as-student-led-protests-turn-chaotic?traffic_source=rss",
-      "published": "2026-10-18T13:08:06+00:00",
-      "compound": -0.872,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Pope Leo says he will gradually resume duties after cancer surgery",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/18/g-s1-148654/pope-leo-says-he-will-gradually-resume-duties-after-cancer-surgery",
-      "published": "2026-10-18T12:55:01+00:00",
-      "compound": 0.1027,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Is FIFA scrapping its peace prize after awarding it to US President Trump?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/10/18/fifa-peace-prize-football-us-president-donald-trump?traffic_source=rss",
-      "published": "2026-10-18T12:49:57+00:00",
-      "compound": 0.9371,
-      "label": "positive",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Paris residents tell Al Jazeera they’re dismayed by protest damage",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/paris-residents-tell-al-jazeera-theyre-dismayed-by-protest-damage?traffic_source=rss",
-      "published": "2026-10-18T12:44:26+00:00",
-      "compound": -0.9584,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Pakistan hails IMF-World Bank chairmanship as ‘historic’; former Indian IMF director rebuts",
-      "source": "Telegraph India",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONXZOVEVaaTRMRE9qbEVIUl9FdzlkcE9NeHVoMlJhcVpsQlRiczJDWUdSTHQ1MEo5V3ZrRE0zN3pqYXdqOGtWQm9PMjk0RW1CN1I0QWktU3VRVU9LWEtDdDliMlRBUXR0bjlBaWZ4d0QtS0NGYlhFTUdjQUxRLU5nNjdXNndtSWphSXZaOHVPR2E3QjdxV3FrSmlUVE1OZWx5anAzSEY4Y2piZHA4ZkRka2VESE9fU21TWEd4RTlhRFAtcTRoX2pReGpiZThPVE9uaDNJ0gHYAUFVX3lxTE1qdGNyVWotMVl5ZExMRmRseFRaZnVHbndnd3RZQXp1b1dkYjg4RlpkcmdONEw0VXZuR2kyUE5lakRZWnlWNV9hWUNFOGFJUDlZQjJ1eHZwQ0JqcE44VkQ0azNvYkkya19nQk9IT0VUYjZwcnUyZjJCN3c5YUFPZEdyN3QydWRRWkRxUDRja2JXWlpsLUh4a1RMWWZQdVU0Y203akxpdVZ0UlZOQVBEYnk3YjYwcWM1YmZ5S3E3WFJVZlNJSUQtQ0gwYUQtUXBwS3hjVXN1bXU4aQ?oc=5",
-      "published": "2026-10-18T12:37:43+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "India",
-        "Pakistan"
-      ]
-    },
-    {
-      "title": "Why have settler pogroms surged during olive harvest season in West Bank?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/18/why-have-settler-pogroms-surged-during-olive-harvest-season-in-west-bank?traffic_source=rss",
-      "published": "2026-10-18T12:35:56+00:00",
-      "compound": -0.8968,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Nottingham Forest vs Arsenal LIVE: Premier League",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/liveblog/2026/10/18/nottingham-forest-vs-arsenal-live-premier-league?traffic_source=rss",
-      "published": "2026-10-18T12:30:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Ex-IMF Director KV Subramanian dismisses Pakistan's global financial leadership claim",
-      "source": "DT Next",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWDc2UmkzTmdud0E2Z2hoeGRSRUwyTklvZUFzamdwSkZXMXRrOGw3Mk45S0NET0JYNHdIZG4wUm13RG4wVmtIZ084V0MyaDVuSXFoNWNzbzVGMktORjJFSXdtSHplYVVwSHJoZ0MyVVFLX3VNcXd3V0xKRktJdnNsWFdHc3BPMm1xa090MW0zRWY4azJUdUtHc1FaeHIwT3kzT2tqSUpTZi0tYU8wa2R2ZVBiWGZUMVlWN3oyYg?oc=5",
-      "published": "2026-10-18T12:08:28+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Pakistan"
-      ]
-    },
-    {
-      "title": "There’s a ‘New Middle East’, but not the one Israel planned",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/pinch-point/2026/10/18/pp-new-middle-east?traffic_source=rss",
-      "published": "2026-10-18T12:07:34+00:00",
-      "compound": -0.7096,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Who is Mehrdad Akhlaghi, Iran’s new tech-focused defence minister?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/18/who-is-mehrdad-akhlagh-irans-new-tech-focused-defence-minister?traffic_source=rss",
-      "published": "2026-10-18T12:00:04+00:00",
-      "compound": 0.1027,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "🇮🇱🇮🇳 He made 4 jokes about Pakistan and India, and when the punchline was Israel, someone in the crowd promptly made DEATH THREATS, suggesting that joking about Israel is 'antisemitism.' Writer: Mhedi",
-      "source": "X",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE15MTh5NDQwSmt1OUYyanJDWkJmSV9rcmFqeWhTXzY0M0o3al81NzBER0tEdThlQlE3TFB1MWJCYUdqdVFTdHR6azlCY2xVb2F5aXlDaWdIVEdxb0RHZDg1SDNmQUFaLTFzMUl0MA?oc=5",
-      "published": "2026-10-18T12:00:02+00:00",
-      "compound": -0.9106,
-      "label": "negative",
-      "entities": [
-        "India",
-        "Pakistan"
-      ]
-    },
-    {
-      "title": "Russia Offers Su-57 Tech Transfer As Pakistan’s J-35 Plans Put Pressure On India’s AMCA Timeline",
-      "source": "The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOelEtQjFZQ1I4LWU0dV9mM1VCejA2VXoxQ0ZWam5mX3NPeDVmU25JeDFGcUtTR2NxdFo3dnRNcDVqVjZicTZOdFZkVTNzX3ZlSU5oaWtKaHFiZDA2VWp3dWxaWjhGejhBXzhHOTljaG1YcWNQNjltQ1RZWEprVHlGSzcteGFtbzlVakVIMVdkM3I2eWZYUERtdVVkRERmeUZDQ2h1YW1aZHZYR0lIUlM0TVoxMjVVTHJhZk52X0JYMURhRTkwcDdVWWlieTYxMEdONTdJcGxFY0NHV19zZnQ1dU1vcC1UQmhTYW9kaW1CU1pYTGVFQmhGMi1GUkU0QkRIUUhYX9IBigJBVV95cUxPOWNpQXpzX1lUREh6MzFQVjJjVzdEbUF3emIwV2NCMHhaV3pNM0VSNGdSRUR6eHJESEZKS1ZSS2tPRWJkNzd3ZzY5cnVyTmR1RDhCNHV6Xy1BWGhvZ1VTa2RmN2FxOGtNcXBkOVFTNEZQUWRYdVhxcmtnVE9jVUZndW9KYUVTQ0tmTWFHR1djSjh2WHBwbzVmR1FoVF9DUGRidm1DWEpyVE5xc2FPLVM3Ym1Ba05mX19BaTFSOFBQdUtDNzNIbW13V3p4Y0lrNm5mbW9uZ3l3b19GU1UzYi1EZWM2b2c2UUttenJpWkU0YkxOS3R3c3oyenRObno5U1QwZWRUQTMxYWRZUQ?oc=5",
-      "published": "2026-10-18T11:50:35+00:00",
-      "compound": -0.5267,
-      "label": "negative",
-      "entities": [
-        "India",
-        "Pakistan"
-      ]
-    },
-    {
-      "title": "Pakistan seals 200-year-old Ram Leela temple after demolition attempt",
-      "source": "The Tribune",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZHktRVU1NElRc2F5dTFZVVNjMEdlZHFVQWRFak1CcDNXUVhTdGRBSUlndTZ5bjd2R3VWZzlxWXNLQnlTZ2NYNkR0YkdrWE5udk9YQzQ3NnVNNHJ5T0NlaGplVnloSk9lYlpwXzhtbUxrd3pqeEFpZURuVkhNcTdRaTNkUzU3TF8tWmZGY1Y3UFVNVUNQTk5DS0ZEOHBzNEFQRGJlRC16NU01dllxaHNJ0gGzAUFVX3lxTE1ZNG9VT0VwRkN5cGNtRlVTVG51a092QlVPMDFUdi1xUGZYUE11UnJITUtUVU5vVXFZUlB4V2VUUEdCOGFrQWoyYnFQNElMT3NoX1llQUxnaloxRk5CWWZDdDlpdUdqWFdJbFpqdmpQREV1V3VmSGJzaDUzdTJ3TnRjWkctTDJJcnlRaGJBcmJQVk5icm9IMDd4YkZfZHJrYm5rdE9IY24waF9lNlpBQUZrbThj?oc=5",
-      "published": "2026-10-18T11:48:58+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Pakistan"
-      ]
-    },
-    {
-      "title": "Pakistan allows Muhammad Rizwan to play domestic cricket despite ongoing inquiry",
-      "source": "India Today",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNc0lrLXlYeFd2b25ESEZWZktMaVZXUC1DNENvaUpySndqRVFMZ1lLZzFZSTJPZHpVNVd3SDN5WG10R3l2am5IWWpKTFlreTE2dEozYmF5QWZtUFJsZUw3aGhGeEhUeVdKQmJkN29mcjJEcEFjX3JTODRKbUYxalkzUU5pOWt0SW8xajFjTEJhWThobFlEQlZIcHFiSE5sU0d2a3pQcnNuTmtXUlpyRF9uTkhhYXp1TXItX1FFZXlqaEJ1ZXPSAcgBQVVfeXFMUEctOG9WaENGa1U0RVp1TElHZTk1Z2tTMUphSXl3bmFOdzhhc0ZxeXF1UzhhSXVabkR3S3VVblVHeWtPTHQ3MTNtNExXUkxZaGJ2UVMwbXlJWENFV3pqNG1XM3AwYlNVMW8yVnRrU3hnUGtLMXdISXlCUGY0Nmhfd0FULWJPOGNzS3JnaXQyNVdMWU5zR0YxNEhCSmlaYVhTS0NTV3hJZzVsLTNacllsU0piWk1zTFR6NGw4NGpfNnVpbF9SU21WczQ?oc=5",
-      "published": "2026-10-18T11:41:06+00:00",
-      "compound": 0.5859,
-      "label": "positive",
-      "entities": [
-        "India",
-        "Pakistan"
-      ]
-    },
-    {
-      "title": "Pakistan Extends Ban On Indian Flights Using Its Airspace By Another Month",
-      "source": "NDTV Profit",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPM2VIZC1nNEpzUnB0WEstVnlPcVhOVHNnZ0g5YjBHNXhfbTcxUEYyR1l5TW5Gc1U3N0VaOG1oRGMySkZwbm1RN3N5RUJBUjByMnAzTVBFaGNtTjc5ZlZDS01fUTBTYTRGNjJhRjdIdUgyWGY4cG9pNnlRY2lYSE9PbGJDZ0gtUUZTV0d1VURoUHotV0JMUWZkWjFlU19Yc3hMemd6NzJCMGVNVm05TGhCZjNIbFdzemPSAb8BQVVfeXFMTkl5dzdyWUEyakhaNUU3OVV1VnRkX1JZT01FeVFUYXZHejM3U3kyZjM3WHdla2NpdmVaeE1OR1c3U01fcFJ4YXpWTFVZZlBZemZ6MFRCdGFRcThWVjcxcm5CZmNCcmFXc0RBUU9vYnpKd1hGSW9ObUU3NHJjWHFfR1FVa25RWWc5d181dDlpZTRGTU9UVGE2c203NmlIZnpqTGl1SHVwYXYwNFVEa1pDclJ0dmN2b1FHRUJ5ZFQ1bFU?oc=5",
-      "published": "2026-10-18T11:39:01+00:00",
-      "compound": -0.5106,
-      "label": "negative",
-      "entities": [
-        "India",
-        "Pakistan"
-      ]
-    },
-    {
-      "title": "Pakistan seals 200-year-old Hindu temple after demolition protests",
-      "source": "India Today",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOLS1NbGZ6bFB1OHA3enRZb0M2dzVNVlRmVDVmOXA0bUpxQ1l3cFJjSDRPN0FiMlBUdTcyUmxUUFpTc0JKaWdpdXJZTjVBYk9xeGszdHZlQUYzbnc4dVhaU3RvOERTOTc2NW9nSHhWb19GdGRSU0VhaGFRTDNSRUFmWnVXUFlBUlNUMXNHdnAtbzhYWUhWU24zbk1xcmtWU2hXcHpkb0VORHFtd093QWMzLVdqbEPSAboBQVVfeXFMUFJrYWRocHV0ZVBxaHRxeGhIMmJ3NXVKNFQzc2tjN2lLZmcwZkd4Skw3dlRWMzV1ZXJlVk9XeDZobG01Qkx4WkVsLWtLX0hlcE81QlhtUDJ0cHN0VDBoTC1Fb0Q5b0xneFBZXzFiWkpIYnF3UVNJNzlKdjJBQ3R5ZnZfMmRyc2cySVQ4WmlhQ0tjMFVhMlhnQXF1MWM2aG5DUGppSGhZZ1c5dmFlQ3pEQURzVnh1ZlVOcktR?oc=5",
-      "published": "2026-10-18T11:36:23+00:00",
-      "compound": -0.4215,
-      "label": "negative",
-      "entities": [
-        "India",
-        "Pakistan"
-      ]
     }
   ]
 }

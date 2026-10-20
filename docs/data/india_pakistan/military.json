@@ -1,6 +1,6 @@
 {
   "id": "india_pakistan",
-  "updated": "2026-10-20T11:37:13+00:00",
+  "updated": "2026-10-20T17:04:22+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-10-20"
   },
   "kpis": {
-    "events_total": 41,
-    "events_unlocated": 1985,
-    "events_7d": 1,
+    "events_total": 42,
+    "events_unlocated": 1989,
+    "events_7d": 2,
     "events_prev_7d": 3,
     "hottest_place": "Islamabad"
   },
@@ -323,6 +323,15 @@
       "total": 1,
       "strike": 1,
       "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-20",
+      "total": 1,
+      "strike": 0,
+      "ground": 1,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -738,12 +747,22 @@
       "title": "4 killed in landmine explosion near Kashmir’s Line of Control: Pakistani officials",
       "source": "Anadolu Ajansı",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVzY5N0NKbGxjdEpCUkxPbTFjSHRTcld4RUFpeGdXbEZac0dPbFpoSmNRdjh5amljeEUtLU5JWExQeUQwbzZCQnNjQXVySWN0Ty1hZTVYaTJWa2paMGt4aDhxd0o3b2RsaGVrcUdiaHFhUTAweHlXdk13YnY5Ymc4dnB0T2VCTHFtTV96eW1UN2FLdVFhZW1FcW5jOHl1b0YzV1daenQwTXE5RHdCekJQQjEtRGptZU9ESWhtbk5rYkdPc1VERVE?oc=5"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "ground",
+      "place": "Islamabad",
+      "lat": 33.6844,
+      "lon": 73.0479,
+      "title": "Pakistan army chief in Tehran: Can diplomacy prevent new US-Iran fighting?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/20/pakistan-army-chief-in-tehran-can-diplomacy-prevent-new-us-iran-fighting?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Islamabad",
-      "count": 3
+      "count": 4
     },
     {
       "place": "Gwadar",

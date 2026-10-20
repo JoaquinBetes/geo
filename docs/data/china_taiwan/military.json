@@ -1,6 +1,6 @@
 {
   "id": "china_taiwan",
-  "updated": "2026-10-20T11:37:05+00:00",
+  "updated": "2026-10-20T17:04:15+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -43,12 +43,12 @@
   },
   "window": {
     "from": "2026-01-30",
-    "to": "2026-10-20"
+    "to": "2026-10-21"
   },
   "kpis": {
-    "events_total": 85,
-    "events_unlocated": 2075,
-    "events_7d": 8,
+    "events_total": 86,
+    "events_unlocated": 2083,
+    "events_7d": 9,
     "events_prev_7d": 4,
     "hottest_place": "Taipei"
   },
@@ -580,6 +580,15 @@
       "total": 2,
       "strike": 0,
       "ground": 2,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-21",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -1435,6 +1444,16 @@
       "title": "Two held in deadly assault case",
       "source": "Taipei Times",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1qYjhJVG5yX1BiczlvVGNJMU1TWXJZNmI3aGlUVk5YWmpjTGVFTXd0TERhQ1BOSXJoeGJEOWNBZW1USTY1NjBpekNUVi1GNWR6aV8tMFMxb0FHM2ZKNHZmZVY2RFR2TjRTZ2pFT0FNeS13bUU5T0dDdklB?oc=5"
+    },
+    {
+      "date": "2026-10-21",
+      "type": "strike",
+      "place": "Taoyuan",
+      "lat": 24.9936,
+      "lon": 121.301,
+      "title": "Taoyuan Micron workers’ union goes on strike",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/10/21/2003866321"
     }
   ],
   "top_places": [
@@ -1460,6 +1479,10 @@
     },
     {
       "place": "Guam",
+      "count": 1
+    },
+    {
+      "place": "Taoyuan",
       "count": 1
     }
   ],

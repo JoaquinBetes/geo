@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-10-21T11:49:01+00:00",
+  "updated": "2026-10-21T17:12:28+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -48,9 +48,9 @@
     "to": "2026-10-21"
   },
   "kpis": {
-    "events_total": 1055,
-    "events_unlocated": 3030,
-    "events_7d": 54,
+    "events_total": 1056,
+    "events_unlocated": 3035,
+    "events_7d": 55,
     "events_prev_7d": 61,
     "hottest_place": "Kyiv"
   },
@@ -1218,25 +1218,15 @@
     },
     {
       "date": "2026-10-21",
-      "total": 2,
+      "total": 3,
       "strike": 1,
-      "ground": 1,
+      "ground": 2,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-07-12",
-      "type": "strike",
-      "place": "Moscow",
-      "lat": 55.7558,
-      "lon": 37.6173,
-      "title": "9 Dead as Russia, Ukraine Exchange Strikes",
-      "source": "The Moscow Times",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaHpaekdlNlg2cnB6ZTlwT01PRXlHMW9jVUVQY056aWhKWTN4d0UxYTAwd194YnV4cGVIUTl6U0xNYUU4WnhjZGxfTnZSUVZYbXctVGNWWHNZSlFDejlla3Y3bWR4ck9pRkpCbjBsNkFMLU9nWWZDamdlMmlXUXo4aW5qaXRmNG5FMldxTzFpMmRoT3Zs?oc=5"
-    },
     {
       "date": "2026-07-12",
       "type": "infrastructure",
@@ -10226,6 +10216,16 @@
       "title": "Macron blasts ‘unacceptable’ and ‘stupid’ commentary on protests from other leaders – Europe live",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/live/2026/oct/21/us-russia-ukraine-putin-witkoff-zelenskyy-france-italy-protests-europe-latest-news-updates"
+    },
+    {
+      "date": "2026-10-21",
+      "type": "ground",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Putin orders release of jailed American as he meets Trump envoy for Ukraine talks",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/21/putin-witkoff-russia-ukraine-trump-stephen-hubbard-release"
     }
   ],
   "top_places": [
@@ -10235,7 +10235,7 @@
     },
     {
       "place": "Moscow",
-      "count": 32
+      "count": 33
     },
     {
       "place": "Kharkiv",

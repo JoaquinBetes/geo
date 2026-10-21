@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-10-20T21:37:18+00:00",
+  "updated": "2026-10-21T04:47:00+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-10-23",
-    "to": "2026-10-20"
+    "to": "2026-10-21"
   },
   "kpis": {
-    "events_total": 1052,
-    "events_unlocated": 3020,
-    "events_7d": 62,
-    "events_prev_7d": 57,
+    "events_total": 1053,
+    "events_unlocated": 3024,
+    "events_7d": 52,
+    "events_prev_7d": 61,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -1209,25 +1209,15 @@
     },
     {
       "date": "2026-10-20",
-      "total": 5,
+      "total": 6,
       "strike": 4,
       "ground": 0,
-      "infrastructure": 1,
+      "infrastructure": 2,
       "air_defense": 0,
       "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-07-12",
-      "type": "strike",
-      "place": "Donetsk",
-      "lat": 48.0159,
-      "lon": 37.8029,
-      "title": "Ukraine Strikes Secret Russian Fuel Base Hidden Inside Cement Plant in Occupied Donetsk",
-      "source": "UNITED24 Media",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxONXZjWGNLZmwyQzVjSm50bmU1cXFOZ1o4eDVzR19qSlRTMUhPZm4xbVNseklNZFR4aWdiUnd2RDh2WFhpVjlmZW9Sc3RqbmJxMnhXU21iNDF3amRfejFyaWx1T05vcldBelMxT05rRU9JSnp4NWxIYzdOaTMxS25NZ3RsQk1RNnBJWjNYZEZHa3hsblYwQTk3X0oyME8wa3NYeVB2V1I5SjM5UFItV293bEJQMmZJZnJQdmh5dXBNX0JwM1RGWTY0OGhyYXVnb1k?oc=5"
-    },
     {
       "date": "2026-07-12",
       "type": "strike",
@@ -10217,16 +10207,26 @@
       "title": "Nato increases Black Sea deployment amid escalating deadly Russian attacks",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/oct/20/nato-black-sea-deployment-escalating-russian-attacks-ships"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "infrastructure",
+      "place": "Odesa",
+      "lat": 46.4825,
+      "lon": 30.7233,
+      "title": "Ukraine war briefing: US envoy Witkoff to meet Putin after ‘constructive’ talks with Zelenskyy in Norway",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/21/ukraine-war-briefing-us-envoy-witkoff-to-meet-putin-after-constructive-talks-with-zelenskyy-in-norway"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 153
+      "count": 152
     },
     {
       "place": "Moscow",
-      "count": 51
+      "count": 31
     },
     {
       "place": "Kharkiv",
@@ -10241,15 +10241,15 @@
       "count": 8
     },
     {
+      "place": "Odesa",
+      "count": 6
+    },
+    {
       "place": "Donetsk",
       "count": 5
     },
     {
       "place": "Zaporizhzhia",
-      "count": 5
-    },
-    {
-      "place": "Odesa",
       "count": 5
     },
     {

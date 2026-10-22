@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-10-21T21:43:09+00:00",
+  "updated": "2026-10-22T04:45:41+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -38,13 +38,13 @@
   },
   "window": {
     "from": "2026-02-27",
-    "to": "2026-10-21"
+    "to": "2026-10-22"
   },
   "kpis": {
-    "events_total": 555,
-    "events_unlocated": 2716,
-    "events_7d": 21,
-    "events_prev_7d": 13,
+    "events_total": 557,
+    "events_unlocated": 2732,
+    "events_7d": 19,
+    "events_prev_7d": 14,
     "hottest_place": "Strait of Hormuz"
   },
   "daily": [
@@ -1016,6 +1016,15 @@
       "total": 3,
       "strike": 1,
       "ground": 2,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-22",
+      "total": 2,
+      "strike": 2,
+      "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -6561,6 +6570,26 @@
       "title": "Two Jewish candidates in Florida battle over who is more pro-Israel",
       "source": "The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Lc3VxQ09PSEF4Q1ZvUGw3eGdrOW54MlpuQTc0T1JtTHgzdkF2S29LczdJMnl3VFozUDQtVE45eFlPTURPbHVTeHk1MUVnZU5RWWtITGZSZDVQa3VmSm4xWjN1MEc?oc=5"
+    },
+    {
+      "date": "2026-10-22",
+      "type": "strike",
+      "place": "Jerusalem",
+      "lat": 31.7683,
+      "lon": 35.2137,
+      "title": "US, Israel have detailed plans for renewed Iran strikes focusing on short, intense attacks - report",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VWmlfQ1hBVlVBX1JjQ0xkR25hSVA2UU93UmRvRVVKelJucUNHRDZUcUhtWXg1OGxMSkd4a18zZEMzU3RwZy1YdkNSV3dZS1c3ekV4X0xIUXZNVmUtNEUwMkF2eE9Va3lHRGc?oc=5"
+    },
+    {
+      "date": "2026-10-22",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "US Plans Fresh Strikes on Iran After Midterms; Tehran Warns of ‘Father of All Bombs’",
+      "source": "Open Magazine",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVEFISXVrMTA3Sm16UXNLWXFkS3JlX2lfMkc2M1huMWNwTGxPRnRxcTFhSllkWF9kMGo1Tno3ODhFSTdPLTBVd2dpUENtdFBfa1FqQ3hmeFFLSW5GbHY5bVZvankxZTFFSkNXMnNvYm53YVVOQWZxMkhEamE5SllodXZuVXlOdl9RVTRwX0lUT3piWmp6a0NicGdPWHkwYVItc3FGR0FfM2dfeHp5NlNoQ0tLemtOUQ?oc=5"
     }
   ],
   "top_places": [
@@ -6570,19 +6599,19 @@
     },
     {
       "place": "Jerusalem",
-      "count": 18
+      "count": 19
     },
     {
       "place": "Tehran",
-      "count": 16
-    },
-    {
-      "place": "Bab el-Mandeb",
-      "count": 3
+      "count": 14
     },
     {
       "place": "Sanaa",
       "count": 3
+    },
+    {
+      "place": "Bab el-Mandeb",
+      "count": 1
     },
     {
       "place": "Dimona",

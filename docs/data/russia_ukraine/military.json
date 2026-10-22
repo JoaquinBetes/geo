@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-10-21T21:42:59+00:00",
+  "updated": "2026-10-22T04:45:31+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-10-23",
-    "to": "2026-10-21"
+    "to": "2026-10-22"
   },
   "kpis": {
-    "events_total": 1057,
-    "events_unlocated": 3039,
-    "events_7d": 56,
-    "events_prev_7d": 61,
+    "events_total": 1059,
+    "events_unlocated": 3044,
+    "events_7d": 45,
+    "events_prev_7d": 65,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -1218,35 +1218,24 @@
     },
     {
       "date": "2026-10-21",
-      "total": 4,
-      "strike": 2,
+      "total": 5,
+      "strike": 3,
       "ground": 2,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-22",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-07-13",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Leaders give press conference after ‘coalition of the willing’ meeting in Paris – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/live/2026/jul/13/emmanuel-macron-keir-starmer-friedrich-merz-volodymyr-zelenskyy-coalition-of-the-willing-ukraine-russia-latest-news-updates"
-    },
-    {
-      "date": "2026-07-13",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "‘Coalition of the willing’ to build shared European anti-ballistic programme",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/jul/13/coalition-of-the-willing-build-shared-european-anti-ballistic-programme"
-    },
     {
       "date": "2026-07-13",
       "type": "strike",
@@ -10226,20 +10215,40 @@
       "title": "\"We are closer to ending the war than ever\": Trump makes a major statement on peace in Ukraine amid the shelling of Kyiv",
       "source": "Українські Національні Новини (УНН)",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTDJLeHZxcjlmSERtbGNLTElJUnZVUGZaOWJId0VPYmlibEVmcGE1dG80amxYano4S2kwcm1QREJqR2stTFBJOVc2Y1d3NmF1MFdzXzJxMGxKZF9tV1F6UUF3VEt2MTBEV0RZZHZoR1Q4N0VfN1lybHNwMnVmdUs4bUlHaS1IUWZXXzExLUo4OWoyanZwUER0d0VXa3N5bXdxZmtvUkt2OUdJZmJBSjI0MExTanFPY1R6S1Q0bVQwSGt2TXNVUjZMS3A3bEo4NEZGZFHSAdABQVVfeXFMTmVWdWVKRmVwVTZabVlDRldva2h5aXFLU3RRd29oS0JlZlNyZWVXdFdyYUdlbE5LanFEZFlmVzJuenRtNHV6ZnFBWlc1MHlkY2dROFFZUDhyVU1fdFVlLTJQZlMxSlptN1l0M20za29WaGMzMFVOd0NJVFNnQklDNE5lZDk0ODVfa2Q5UTdGckFuQjBNRHFNR3Zfa3R4c1BCVUxIZ1d6QWVVNkdndlk4aVR1OS1UWFJpaURsOUUxNk5tR0cwQU5NbGo4a0tFRWplNw?oc=5"
+    },
+    {
+      "date": "2026-10-21",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "‘WTF, Steve?’ – Republicans Blast Witkoff Over ‘Humanitarian’ Praise for Putin",
+      "source": "Kyiv Post",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5Wcl83dEY4a0tBd0JCVUp6d2ZubXJVLXpRa19jU3JaczN1YjdMVHJmOEFXQ3BHekRBZDFCYVpmM0tlLVdlQXQ5YW42Yw?oc=5"
+    },
+    {
+      "date": "2026-10-22",
+      "type": "strike",
+      "place": "Kharkiv",
+      "lat": 49.9935,
+      "lon": 36.2304,
+      "title": "Ukraine war briefing: New peace proposals lack ‘substance’, says Kremlin after Witkoff-Putin meeting in Russia",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/22/ukraine-war-briefing-peace-proposals-lack-substance-witkoff-putin-meeting"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 154
+      "count": 153
     },
     {
       "place": "Moscow",
-      "count": 33
+      "count": 30
     },
     {
       "place": "Kharkiv",
-      "count": 10
+      "count": 11
     },
     {
       "place": "Kramatorsk",

@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-10-23T04:49:29+00:00",
+  "updated": "2026-10-23T11:39:14+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-10-23"
   },
   "kpis": {
-    "events_total": 564,
-    "events_unlocated": 2766,
-    "events_7d": 23,
+    "events_total": 566,
+    "events_unlocated": 2784,
+    "events_7d": 25,
     "events_prev_7d": 15,
     "hottest_place": "Strait of Hormuz"
   },
@@ -1022,12 +1022,21 @@
     },
     {
       "date": "2026-10-22",
-      "total": 9,
-      "strike": 9,
+      "total": 10,
+      "strike": 10,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": true
+    },
+    {
+      "date": "2026-10-23",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
     }
   ],
   "events": [
@@ -6660,6 +6669,26 @@
       "title": "Netanyahu, Katz's warnings of Iranian strikes could spur regime into attacking first, officials say",
       "source": "The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnSEUweENJV0J2dDlKSkVJZ2dkWkJTbEc3ODA5V0FhSjhacVRqNlpmbmNodnVmZ2NfN2t1d2VYNjdsLUMzV1pRN0ppZk5mS3ZKNHNCVWFmVXoxVTVqRGV1d2d1YS1rVnl2NVVkeVNB?oc=5"
+    },
+    {
+      "date": "2026-10-22",
+      "type": "strike",
+      "place": "Jerusalem",
+      "lat": 31.7683,
+      "lon": 35.2137,
+      "title": "Israel and U.S. Unlikely to Strike Iran Before Elections",
+      "source": "Jerusalem Center for Security and Foreign Affairs",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE95NkxjX2h2aEFqTVhvZnp0NGRRZmpUOVl4VUhvZEhNMUhlN0dvVXF4RndYOFN4ai1KNnVpNkRwcmRpS3JVZnZwc1FJUXFkbVV4eFFvakRQYm1yYnNNQmUxNjI3eDBFOVVkY1FUMTBXOExpdEtCb2Npdl9kZHMyUQ?oc=5"
+    },
+    {
+      "date": "2026-10-23",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Oil hits five-month high amid fears US will renew strikes on Iran",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran"
     }
   ],
   "top_places": [
@@ -6669,11 +6698,11 @@
     },
     {
       "place": "Jerusalem",
-      "count": 18
+      "count": 19
     },
     {
       "place": "Tehran",
-      "count": 18
+      "count": 19
     },
     {
       "place": "Sanaa",

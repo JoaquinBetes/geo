@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-10-22T21:35:58+00:00",
+  "updated": "2026-10-23T04:49:20+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-10-23",
-    "to": "2026-10-22"
+    "to": "2026-10-23"
   },
   "kpis": {
-    "events_total": 1075,
-    "events_unlocated": 3060,
-    "events_7d": 61,
-    "events_prev_7d": 65,
+    "events_total": 1080,
+    "events_unlocated": 3067,
+    "events_7d": 57,
+    "events_prev_7d": 59,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -1227,65 +1227,24 @@
     },
     {
       "date": "2026-10-22",
-      "total": 14,
-      "strike": 12,
+      "total": 17,
+      "strike": 15,
       "ground": 1,
+      "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": true
+    },
+    {
+      "date": "2026-10-23",
+      "total": 2,
+      "strike": 1,
+      "ground": 0,
       "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-07-16",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Two killed in Russian missile attacks on Kyiv after Ukraine-EU drone deal",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOGVlTElzajRUSklORUVFZ1Fka2lFYnM5VEdrVVFjQ1ZrOFVBLTdLRXFRY2Vzd3I3UWphbXlUNWg0VXhhTUZmSVAxQURxUGhBMWZBZ3QtNmZLanVKVExIdnZxNjZfZmtSQml1R1o5VkJPWTRJblNDc2VURVhZYXJpZFJOdV9OWTRXX3ZrSVdPWWdGbWd5TDRkMkN0Tk02MndpU0ZTNVRkUGpFYzMza2hzaNIBtgFBVV95cUxQWklXN1BOZ013YkZ1ZzBYWmppbVpZczdhV0pkRUstSjFnaEY3ak5qVEZhMmpETGdiSkJsY25tUVFBLTJjYVdINThMSUZYakxsTlFZbDM5YmxBSG50M2VWT2dlR1NkeE1QS2pNNkctN3BwaE04b2FFbVg1VjVxcl9GWXl5MVpQaHVHN0ttSl9Yb1BsTENZbEFHMEFJTGZXY1lzVHNaMXdtdVIta2lEM0Y3T2JiU2N3dw?oc=5"
-    },
-    {
-      "date": "2026-07-16",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Ukraine war briefing: Sheffield steel for Kyiv’s guns as artillery barrels ship out",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTXVWSEpWSWhaWHpqNFNCU0w5ZzBITlVSZ3U4czhQSk1wWVhfYWprWHBqUFMyV3ZwbS1SdjFCcWF6MWlzdk52LW5uVmE5eFRsMFVmMXNNUmFKSUctVjZRb1JpSE4zNFFseGpxSV96WjMwZXZJclJSZ19pdWdhZzRiTVFtOUQ2SUxnSUF2VmZuWHVEc3JxSFpQOG5tNGlPT1c1SVhLZ09WTk9ta2xtbmlYenowUUlzWm8yVVpFVVcweHRqZ0N3Q2c?oc=5"
-    },
-    {
-      "date": "2026-07-16",
-      "type": "strike",
-      "place": "Moscow",
-      "lat": 55.7558,
-      "lon": 37.6173,
-      "title": "Ukraine targets Moscow with 200 drones in large-scale attack, mayor says",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNU01DeUw5RWZlRVVTbHQ3R25vZ2FhVDI2NlhwX1lRT0E3dFpmRzV4NVlMYkY0TnVCYU9jZlNoZ0kxUjdQN2ZUQlZ2RkpLeWdiZ2hBOGt4d0FubnNhU1VySmw2YjREQXJrZ3pJT1FTbHB5SGdBOEZ6cHFzaF9FSkpzME5FQ1BLYTZuUUlZbUtXNzlUdkZ1UzM3WnhMRkVkNWhmeGdkSDUtYVHSAa4BQVVfeXFMTmp5YVdHbXJTLVN4WVdSeXQ5WmNqQWNTcFA5V2lSSVBSS21IeWs3YmZiOVc3US0xOVpiLWQxaWVkZXZoaE1TU093VmNnbWtSS2RNZTBiaEJpaHpPcGZVclZRcnVtdnB0cU8wX0tLTzNHT2ozLXNNelRZdmgzN2dpV2lIc1JCVDNxY2M1MUVJUlE3MU0yNjVMWUh3bWJzYXI1X2x6UkhLdjhiSktqX0hn?oc=5"
-    },
-    {
-      "date": "2026-07-16",
-      "type": "strike",
-      "place": "Sumy",
-      "lat": 50.9077,
-      "lon": 34.7981,
-      "title": "CCTV footage shows the moment when Russian strikes hit the northeastern Ukrainian city of Sumy on Saturday. Russian attacks on Ukraine killed six people and wounded 29, officials said. https://wapo.st/4aXXg0p",
-      "source": "facebook.com",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVXltRGg1SHdoNVloLUpnVFZySkh5WTVYcE1JWWZLUzhZenRvOW1TN1ZRck9zQkhHc0Rkc3ZVTVZEbWgteDVLN0tkOXZRdll1TnFpRWJsWVVkMkQ0dlVWRmstenFTSnU2bHZpaGlLWnlPOGJNa3U1azFEZjFYUWc5ZUM5NUVKYlNpQ0UwbUF3QXNkd2VoaG1vM3hWdE9kN2FMTXpmUTdiY2U4amE5U3JULUZsQktrVEZBdkI1U3o3Yk9GWnNTTnVHbTM0WGZkcXdVU1NCWFY3dFpoMlAw?oc=5"
-    },
-    {
-      "date": "2026-07-16",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Ukraine war briefing: Two killed in Russian ballistic missile attack on Kyiv",
-      "source": "The Independent",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYlBKa3JJOEQ4TW5NdFB6cTM5MGpSMjFZcGR3QWI0Ul9oMFBFU3k0U2tObWVycXNyS1NQamVKN2VfZXEyNjRzS21mTW5RcUdMd0ZBd0Q2Zzk1X1FEM25MVEp0LWVHa255bnZkbGNQZDVWdDdWTmIxXzFGYjZuclRGaWlGUjVRM2RjZHIxdWtOUURJOUNPREV0dFd2TFo?oc=5"
-    },
     {
       "date": "2026-07-16",
       "type": "strike",
@@ -10235,12 +10194,62 @@
       "title": "Russia strikes Kyiv hours after agreeing to US-brokered peace talks – video",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/video/2026/oct/22/russia-strikes-kyiv-hours-after-agreeing-to-us-brokered-peace-talks-video"
+    },
+    {
+      "date": "2026-10-22",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russian strikes hit Kyiv after Witkoff meets Putin",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWmJwWHBSdTZDQ3F5dGxvRFM2UkY3NDRWX2RCN0hWMnNWeDUtN0twVzlQUjdfTzBpWmR0d0lEYzlKODVoYllyaV9LLUZaeVg3RnFaQ1FuV2ZTdnlXUkYtQ0xYS0NsYW9Tb0lsQVI2NGNXNjV2WW95NkIwYW9xUXg4ZnJ0MGl6OV9fNE5zWU5LYS16eG1NOVJN0gGcAUFVX3lxTFAwQWVoRUJLMUZmdVpINHhTcHY3MncwcG9ucVkzNy1INXYzUlBweE5TaHk2RXJpLU5IUzg0a0JTaU1wOEczS1JQV2tsbnczX192Rm9qYTlqU0dET0U4WlVGRWpYczVNZUt5a0d1U3ZmY1Zwa2xMQUVhMVNZa1FwdDFJTjBQcHQ5bGNJQlJ3YjVUU083QVZQRFBTT2VQbw?oc=5"
+    },
+    {
+      "date": "2026-10-22",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russia pounds Kyiv with missiles and drones, hours after agreeing to peace talks",
+      "source": "NBC News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOEdGTWtjTl9xZ0UwUDlueUFBSG5PaXNRZW1oN0o4ZXF6Q1pjbEhrb2RmWkdVVUJTeEQ3ODQ0R1hoSFNjbTFVSEN0aEQ1SF9DeExXSmRubWNLcXhvWG4wSGs5Q0pKM1BjZWd2SExwNUprNWdzeFNBR2hLRjYxVnFCN2stOGh4WmYyb2JZZzZsNVVUdzRENFIxeXFDZVZVRm9Zd0N5N19IY3ZmYzYzbjA4?oc=5"
+    },
+    {
+      "date": "2026-10-22",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russian missiles hit Kyiv as Moscow says it downed 800+ Ukrainian drones",
+      "source": "Spectrum News",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWHpiQUExNnF3SFctM3VsYVJwdWEzXy1RUDBUcUhidlNKZXl0RmxYMFdRMnJWSzRoNDRhMnE1QmxaZzB2RnN2M3lzQUs4QTVXbVUwQU1DSUhjX3JfY2hQNExRTjdxbU9NOGoyTEZSM1pyZFRsSHZ0S3VLbEJMUndaRjV6Ym9fMlp1Wkd1V0U2TmNCTVdWYkJTYXdoLTFUSTk0TE5tdS0yWHBCTVV0QTBPMnE4M2ZrYU02ODJ3?oc=5"
+    },
+    {
+      "date": "2026-10-23",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Trump, Musk, Zelenskyy: who is blaming who in the Ukraine-Starlink row?",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/23/trump-musk-zelenskyy-who-is-blaming-who-in-ukraine-starlink-row"
+    },
+    {
+      "date": "2026-10-23",
+      "type": "infrastructure",
+      "place": "Kharkiv",
+      "lat": 49.9935,
+      "lon": 36.2304,
+      "title": "Ukraine war briefing: Uncertainty over Kyiv’s Starlink access after Trump claims Musk restored service",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/23/ukraine-war-briefing-uncertainty-over-kyivs-starlink-access-after-trump-claims-musk-restored-service"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 166
+      "count": 170
     },
     {
       "place": "Moscow",

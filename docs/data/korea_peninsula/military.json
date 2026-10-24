@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-10-24T04:37:00+00:00",
+  "updated": "2026-10-24T11:00:36+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -46,9 +46,9 @@
     "to": "2026-10-24"
   },
   "kpis": {
-    "events_total": 267,
-    "events_unlocated": 3167,
-    "events_7d": 5,
+    "events_total": 268,
+    "events_unlocated": 3177,
+    "events_7d": 6,
     "events_prev_7d": 35,
     "hottest_place": "DMZ"
   },
@@ -581,6 +581,15 @@
       "strike": 1,
       "ground": 0,
       "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-24",
+      "total": 1,
+      "strike": 0,
+      "ground": 0,
+      "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
     }
@@ -3235,6 +3244,16 @@
       "title": "Seoul brings DMZ mine blast to UN Security Council",
       "source": "Korea JoongAng Daily",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNc3RLWFlSc1BzXzZHR1UycHhhN0xBbDlTSzZ3eHNZVmhiVHAtanlPWW1CcF8xWlZxS2gyaGNQanNYQ1JyRE96al9sMXRMTDFPWUJtWnRWMXUwRXNzWnZadXo0eUlKNzNxSG1ONVdpQ2JIMFE4VHpmLVAxRjlPTEZYb0VicDF6ZFVUVmk4Y3BiZDFOMElhSTRiSE5yUzVCM2lKUVE?oc=5"
+    },
+    {
+      "date": "2026-10-24",
+      "type": "infrastructure",
+      "place": "Sinuiju",
+      "lat": 40.1,
+      "lon": 124.4,
+      "title": "Kim Jong-un crosses over newly opened bridge into China",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/24/kim-jong-un-crosses-newly-opened-bridge-into-china"
     }
   ],
   "top_places": [
@@ -3252,7 +3271,7 @@
     },
     {
       "place": "Sinuiju",
-      "count": 2
+      "count": 3
     },
     {
       "place": "Wonsan",

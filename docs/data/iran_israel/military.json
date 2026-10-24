@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-10-24T15:57:31+00:00",
+  "updated": "2026-10-24T20:49:47+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-10-24"
   },
   "kpis": {
-    "events_total": 568,
-    "events_unlocated": 2808,
-    "events_7d": 26,
+    "events_total": 569,
+    "events_unlocated": 2813,
+    "events_7d": 27,
     "events_prev_7d": 14,
     "hottest_place": "Tehran"
   },
@@ -1033,6 +1033,15 @@
       "date": "2026-10-23",
       "total": 2,
       "strike": 2,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-24",
+      "total": 1,
+      "strike": 1,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -6709,6 +6718,16 @@
       "title": "US and Israel are warned against launching fresh strikes on Iran",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/oct/23/european-middle-eastern-ministers-summit-iran-us-israel"
+    },
+    {
+      "date": "2026-10-24",
+      "type": "strike",
+      "place": "Jerusalem",
+      "lat": 31.7683,
+      "lon": 35.2137,
+      "title": "Iraq believes Israel may have struck militia weapons supplied by Iran - report",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5uZXdZRlZvWkJtLWJudFJhdEZPOWNtMjhyMnNDTjlOSHVha2w2T2tiTXFGSVNKRHlPNGQ5cGx4ZncxQkVoUzFkWVZFYXowQXFlRVVzLWlHSnlnR0c1?oc=5"
     }
   ],
   "top_places": [
@@ -6717,12 +6736,12 @@
       "count": 21
     },
     {
-      "place": "Strait of Hormuz",
+      "place": "Jerusalem",
       "count": 20
     },
     {
-      "place": "Jerusalem",
-      "count": 19
+      "place": "Strait of Hormuz",
+      "count": 20
     },
     {
       "place": "Sanaa",

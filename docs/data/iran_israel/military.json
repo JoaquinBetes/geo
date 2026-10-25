@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-10-24T20:49:47+00:00",
+  "updated": "2026-10-25T04:41:27+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -38,13 +38,13 @@
   },
   "window": {
     "from": "2026-02-27",
-    "to": "2026-10-24"
+    "to": "2026-10-25"
   },
   "kpis": {
-    "events_total": 569,
-    "events_unlocated": 2813,
-    "events_7d": 27,
-    "events_prev_7d": 14,
+    "events_total": 570,
+    "events_unlocated": 2818,
+    "events_7d": 26,
+    "events_prev_7d": 15,
     "hottest_place": "Tehran"
   },
   "daily": [
@@ -1040,8 +1040,8 @@
     },
     {
       "date": "2026-10-24",
-      "total": 1,
-      "strike": 1,
+      "total": 2,
+      "strike": 2,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -6728,20 +6728,30 @@
       "title": "Iraq believes Israel may have struck militia weapons supplied by Iran - report",
       "source": "The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5uZXdZRlZvWkJtLWJudFJhdEZPOWNtMjhyMnNDTjlOSHVha2w2T2tiTXFGSVNKRHlPNGQ5cGx4ZncxQkVoUzFkWVZFYXowQXFlRVVzLWlHSnlnR0c1?oc=5"
+    },
+    {
+      "date": "2026-10-24",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Iran blames US for deal failure, urges new try amid fear of new attacks",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/24/iran-blames-us-for-deal-failure-urges-new-try-amid-fear-of-new-attacks?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Tehran",
-      "count": 21
-    },
-    {
-      "place": "Jerusalem",
-      "count": 20
+      "count": 22
     },
     {
       "place": "Strait of Hormuz",
       "count": 20
+    },
+    {
+      "place": "Jerusalem",
+      "count": 18
     },
     {
       "place": "Sanaa",

@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-10-25T04:41:27+00:00",
+  "updated": "2026-10-25T11:29:26+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-10-25"
   },
   "kpis": {
-    "events_total": 570,
-    "events_unlocated": 2818,
-    "events_7d": 26,
+    "events_total": 572,
+    "events_unlocated": 2824,
+    "events_7d": 28,
     "events_prev_7d": 15,
     "hottest_place": "Tehran"
   },
@@ -1040,6 +1040,15 @@
     },
     {
       "date": "2026-10-24",
+      "total": 2,
+      "strike": 2,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-25",
       "total": 2,
       "strike": 2,
       "ground": 0,
@@ -6738,12 +6747,32 @@
       "title": "Iran blames US for deal failure, urges new try amid fear of new attacks",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/10/24/iran-blames-us-for-deal-failure-urges-new-try-amid-fear-of-new-attacks?traffic_source=rss"
+    },
+    {
+      "date": "2026-10-25",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Tehran warns of nuclear options and infrastructure strikes if US attacks Iran",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CeVBKZWd6VHJ4QjdOdFdSTzNVT2NDQUlsaUpfLXdvbjB6RndMSG4wUFZEbUk2R0M1MVRfOXBNTTU0NU1XRnNpVWxCaUlqUWVEd3B6ZTktX1VENnI2Q2E2cTN5RkxiN1BWVlE?oc=5"
+    },
+    {
+      "date": "2026-10-25",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Trump mocks reporter asking about Iran strikes, as Tehran says US derailed",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/trump-mocks-reporter-asking-about-iran-strikes-as-tehran-says-us-derailed?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Tehran",
-      "count": 22
+      "count": 24
     },
     {
       "place": "Strait of Hormuz",

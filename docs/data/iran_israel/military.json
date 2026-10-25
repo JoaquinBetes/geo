@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-10-25T16:19:34+00:00",
+  "updated": "2026-10-25T20:51:04+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-10-25"
   },
   "kpis": {
-    "events_total": 572,
-    "events_unlocated": 2828,
-    "events_7d": 28,
+    "events_total": 574,
+    "events_unlocated": 2837,
+    "events_7d": 30,
     "events_prev_7d": 15,
     "hottest_place": "Tehran"
   },
@@ -1049,11 +1049,11 @@
     },
     {
       "date": "2026-10-25",
-      "total": 2,
-      "strike": 2,
+      "total": 4,
+      "strike": 3,
       "ground": 0,
       "infrastructure": 0,
-      "air_defense": 0,
+      "air_defense": 1,
       "anomaly": false
     }
   ],
@@ -6767,6 +6767,26 @@
       "title": "Trump mocks reporter asking about Iran strikes, as Tehran says US derailed",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/trump-mocks-reporter-asking-about-iran-strikes-as-tehran-says-us-derailed?traffic_source=rss"
+    },
+    {
+      "date": "2026-10-25",
+      "type": "strike",
+      "place": "Tel Aviv",
+      "lat": 32.0853,
+      "lon": 34.7818,
+      "title": "'Israel is in existential danger,' Netanyahu shares AI image of nuclear blast over Tel Aviv ahead of elections",
+      "source": "i24NEWS",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOXzVZY3hrQ0IxTVoyMEVWMjJ5bDdTQU5Fbm8wZjR5TXc0cVJDbVk2aDg3a2dMUW43cWt2bU5wdndwMmI2RGpEcDZxQThYZkdkMi02UktCVjMzRzBJZkVSM3M2Yi02YVc5Y0FBSEs0eFNwNTNtYXFvUXdyUWh1OU5SdWZYNWhGUDVxZ1dmNHcxdjdCM2tDeTlVM21zZVIzcUljV2h4c0hJdkJNOVZhb2lOTF94YURQcmlMRHAyWDNqNk43VnI0Q1JUN3VvNklVdjhjX0p3VzBubUdqWGNoYnh3SU41Y01hVmpkeTNkMWItNl9lQ2hnMVNZOFN3?oc=5"
+    },
+    {
+      "date": "2026-10-25",
+      "type": "air_defense",
+      "place": "Baghdad",
+      "lat": 33.3152,
+      "lon": 44.3661,
+      "title": "Baghdad Suspects Israel of Striking Warehouses Storing Air Defense Systems",
+      "source": "Мілітарний",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVjZsa0VQLXpyOFdSUVZpMTE4UjRDaEI1WHlXbUF6d1ZFNTVlZ09SbTNzSXM3RHpmOHVhMERLUmxySXVTcHB5STZMV2RucnFUdjJTQ2Q4TzlHYVcwZmI3ZkVSc25ySzVWQU1XY1hqa2RyXzBBQ2VZelpOSkhJLVVsODJMTWM2Z1pGV1lXZHNTd1JRZ01YMjJqcHhBSEd0eVpDN0RtUTNPdndFcFE?oc=5"
     }
   ],
   "top_places": [
@@ -6796,6 +6816,14 @@
     },
     {
       "place": "Chabahar",
+      "count": 1
+    },
+    {
+      "place": "Tel Aviv",
+      "count": 1
+    },
+    {
+      "place": "Baghdad",
       "count": 1
     }
   ],

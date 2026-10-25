@@ -2,13 +2,13 @@
   "id": "korea_peninsula",
   "name": "Corea del Norte–Corea del Sur",
   "description": "Cobertura mediática de la tensión en la península coreana",
-  "updated": "2026-10-25T16:19:54+00:00",
-  "total_articles": 20972,
-  "overall_avg": -0.2089,
+  "updated": "2026-10-25T20:51:21+00:00",
+  "total_articles": 21000,
+  "overall_avg": -0.209,
   "distribution": {
-    "pos": 4987,
-    "neu": 5126,
-    "neg": 10859
+    "pos": 4992,
+    "neu": 5134,
+    "neg": 10874
   },
   "sources": [
     "Al Jazeera",
@@ -77,11 +77,11 @@
     "Goshen News",
     "Taipei Times",
     "Toronto Star",
+    "The Lufkin Daily News",
     "CBS News",
     "The Hill",
     "UNITED24 Media",
     "NDTV",
-    "The Lufkin Daily News",
     "Українська правда",
     "Мілітарний",
     "en.yna.co.kr",
@@ -273,6 +273,7 @@
     "Los Angeles Times",
     "CoastTV",
     "Central Oregon Daily",
+    "MiGFlug",
     "Business Insider Africa",
     "livetube.tv",
     "gCaptain",
@@ -331,7 +332,6 @@
     "scmp.com",
     "WKMG",
     "www.christiandaily.com",
-    "MiGFlug",
     "Dark Reading",
     "Security Affairs",
     "Global Banking & Finance Review",
@@ -2646,41 +2646,41 @@
     },
     {
       "date": "2026-10-24",
-      "count": 223,
-      "avg": -0.0839,
+      "count": 224,
+      "avg": -0.0862,
       "pos": 48,
       "neu": 108,
-      "neg": 67
+      "neg": 68
     },
     {
       "date": "2026-10-25",
-      "count": 116,
-      "avg": -0.0909,
-      "pos": 37,
-      "neu": 30,
-      "neg": 49
+      "count": 143,
+      "avg": -0.124,
+      "pos": 42,
+      "neu": 38,
+      "neg": 63
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 8456,
-      "avg": -0.2726
+      "count": 8476,
+      "avg": -0.2727
     },
     {
       "source": "BBC",
-      "count": 2663,
-      "avg": -0.2998
+      "count": 2664,
+      "avg": -0.2997
     },
     {
       "source": "NPR",
-      "count": 777,
-      "avg": -0.2762
+      "count": 778,
+      "avg": -0.2758
     },
     {
       "source": "조선일보",
-      "count": 605,
-      "avg": -0.086
+      "count": 607,
+      "avg": -0.0871
     },
     {
       "source": "NK News",
@@ -2704,8 +2704,8 @@
     },
     {
       "source": "The Korea Herald",
-      "count": 210,
-      "avg": -0.0397
+      "count": 211,
+      "avg": -0.0395
     },
     {
       "source": "upi.com",
@@ -2984,13 +2984,18 @@
     },
     {
       "source": "Taipei Times",
-      "count": 26,
-      "avg": -0.0771
+      "count": 27,
+      "avg": -0.0459
     },
     {
       "source": "Toronto Star",
       "count": 26,
       "avg": -0.2313
+    },
+    {
+      "source": "The Lufkin Daily News",
+      "count": 26,
+      "avg": -0.2233
     },
     {
       "source": "CBS News",
@@ -3011,11 +3016,6 @@
       "source": "NDTV",
       "count": 25,
       "avg": -0.0651
-    },
-    {
-      "source": "The Lufkin Daily News",
-      "count": 25,
-      "avg": -0.199
     },
     {
       "source": "Українська правда",
@@ -3973,6 +3973,11 @@
       "avg": -0.3064
     },
     {
+      "source": "MiGFlug",
+      "count": 5,
+      "avg": -0.245
+    },
+    {
       "source": "Business Insider Africa",
       "count": 5,
       "avg": 0.0432
@@ -4261,11 +4266,6 @@
       "source": "www.christiandaily.com",
       "count": 4,
       "avg": -0.2156
-    },
-    {
-      "source": "MiGFlug",
-      "count": 4,
-      "avg": -0.1531
     },
     {
       "source": "Dark Reading",
@@ -9382,14 +9382,14 @@
     {
       "name": "North Korea",
       "type": "LOCATION",
-      "count": 6685,
-      "avg": -0.1333
+      "count": 6688,
+      "avg": -0.1334
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 2141,
-      "avg": -0.1086
+      "count": 2142,
+      "avg": -0.1089
     },
     {
       "name": "South Korea",
@@ -9406,8 +9406,8 @@
     {
       "name": "China",
       "type": "LOCATION",
-      "count": 1234,
-      "avg": -0.0397
+      "count": 1236,
+      "avg": -0.041
     },
     {
       "name": "Japan",
@@ -9418,8 +9418,8 @@
     {
       "name": "Kim Jong-un",
       "type": "PERSON",
-      "count": 685,
-      "avg": -0.0455
+      "count": 689,
+      "avg": -0.0477
     },
     {
       "name": "United States",
@@ -9460,6 +9460,217 @@
   ],
   "recent": [
     {
+      "title": "[Ruth Pollard] The world courts Kim Jong-un",
+      "source": "The Korea Herald",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBaWlZ2cDR6ajR2UTI5YVJrYmRNUExlZnluMkJEU3VjQkdKdThDVkpZVFdYZ1BpcnJ2UW1jZUVCYkFMMG9CaVlGSDc1d1BNaFYxUVpZOVNZZw?oc=5",
+      "published": "2026-10-25T20:30:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Kim Jong-un"
+      ]
+    },
+    {
+      "title": "Can Carrick survive Man United’s slump and Fernandes fallout?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/10/25/can-carrick-survive-man-united-slump-and-fernandes-fallout?traffic_source=rss",
+      "published": "2026-10-25T20:01:00+00:00",
+      "compound": -0.6818,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Brazil election results 2026 live: Top court extends voting for two hours",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/25/brazil-election-results-2026-live-polls-close-in-lula-bolsonaro-face-off?traffic_source=rss",
+      "published": "2026-10-25T20:00:04+00:00",
+      "compound": 0.3182,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "The narrative battle over France’s unrest",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/the-listening-post/2026/10/25/the-narrative-battle-over-frances-unrest?traffic_source=rss",
+      "published": "2026-10-25T19:36:14+00:00",
+      "compound": -0.8519,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Iraqis mark seven years since Tishreen protests with reform demands",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/iraqis-mark-seven-years-since-tishreen-protests-with-reform-demands?traffic_source=rss",
+      "published": "2026-10-25T19:36:05+00:00",
+      "compound": -0.4215,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Serbia voter turnout highest in decades as students oppose longtime leader",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/25/serbia-voter-turnout-highest-in-decades-as-students-oppose-longtime-leader?traffic_source=rss",
+      "published": "2026-10-25T19:19:54+00:00",
+      "compound": -0.7717,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Venezuela’s opposition leader Maria Corina Machado returns from exile",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/25/venezuelas-opposition-leader-maria-corina-machado-returns-from-exile?traffic_source=rss",
+      "published": "2026-10-25T18:55:39+00:00",
+      "compound": 0.128,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "When is the 2026 Ballon d’Or, who are the favourites, and how can you watch it?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/10/25/when-is-the-2026-ballon-dor-who-are-the-favourites-and-how-can-you-watch-it?traffic_source=rss",
+      "published": "2026-10-25T18:34:19+00:00",
+      "compound": 0.2023,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Venezuelan opposition leader María Machado returns after months in exile",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-25T18:29:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Will Michael Carrick be sacked? Man United manager says he doesn’t know",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/10/25/will-michael-carrick-be-sacked-man-united-manager-says-he-doesnt-know?traffic_source=rss",
+      "published": "2026-10-25T18:27:53+00:00",
+      "compound": 0.5994,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Uganda orders 21-day Ebola quarantine for citizens returning from DR Congo",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/25/uganda-orders-21-day-ebola-quarantine-for-citizens-returning-from-dr-congo?traffic_source=rss",
+      "published": "2026-10-25T18:20:26+00:00",
+      "compound": -0.4854,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Israeli air strike on Gaza City university kills three people",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/israeli-air-strike-on-gaza-city-university-kills-three-people?traffic_source=rss",
+      "published": "2026-10-25T18:12:13+00:00",
+      "compound": -0.6249,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Jordan FA chief says AFC Congress ‘pure politics’ at behest of Infantino",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/10/25/jordan-fa-chief-says-afc-congress-pure-politics-at-behest-of-infantino?traffic_source=rss",
+      "published": "2026-10-25T18:05:14+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "US and Israel elections: New leaders, same policies?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/us-and-israel-elections-new-leaders-same-policies?traffic_source=rss",
+      "published": "2026-10-25T17:53:23+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Can protests in Europe bring about change?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/10/25/can-protests-in-europe-bring-about-change?traffic_source=rss",
+      "published": "2026-10-25T17:39:42+00:00",
+      "compound": -0.34,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "AI’s ‘opportunity divide’ could deepen global inequality, UN official warns",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/25/ais-opportunity-divide-could-deepen-global-inequality-un-official-warns?traffic_source=rss",
+      "published": "2026-10-25T17:26:22+00:00",
+      "compound": -0.6486,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Jerusalem Daily: Israel expels thousands from Hebron",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/jerusalem-daily-israel-expels-thousands-from-hebron?traffic_source=rss",
+      "published": "2026-10-25T17:12:59+00:00",
+      "compound": -0.6369,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Trump’s tariff pause angers some US ranchers, boosts Brazilian beef imports",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/10/25/trumps-tariff-pause-angers-some-us-ranchers-boosts-brazil-beef-imports?traffic_source=rss",
+      "published": "2026-10-25T16:42:33+00:00",
+      "compound": -0.7269,
+      "label": "negative",
+      "entities": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "title": "Israel’s ‘Generation Right’ could shape Netanyahu’s future",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/israels-generation-right-could-shape-netanyahus-future?traffic_source=rss",
+      "published": "2026-10-25T16:30:51+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Barcelona vs Real Madrid LIVE: La Liga El Clasico",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/liveblog/2026/10/25/barcelona-vs-real-madrid-live-la-liga-el-clasico?traffic_source=rss",
+      "published": "2026-10-25T16:30:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Venezuela's opposition leader María Corina Machado returns after months in exile",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/25/nx-s1-6016222/venezuela-maria-corina-machado-leader-returns-exile",
+      "published": "2026-10-25T16:18:41+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Jordanians mourn victims of deadly church attack",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/jordanians-mourn-victims-of-deadly-church-attack?traffic_source=rss",
+      "published": "2026-10-25T16:16:48+00:00",
+      "compound": -0.9371,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Israeli soldiers beat elderly Palestinian in Hebron",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/israeli-soldiers-beat-elderly-palestinian-in-hebron?traffic_source=rss",
+      "published": "2026-10-25T16:11:37+00:00",
+      "compound": -0.4019,
+      "label": "negative",
+      "entities": []
+    },
+    {
       "title": "Early reports suggest record high turnout in Serbia elections",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/articles/c6jdmj1ej715o?at_medium=RSS&at_campaign=rss",
@@ -9478,6 +9689,17 @@
       "entities": []
     },
     {
+      "title": "‘Call of Duty’ North Korea invasion edition tops sales",
+      "source": "Taipei Times",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Ca2xEVW91Z2o0b0hRMmF5c0RxcGNIUlJGeDhxSEtLZmhmaGNFZHNTYS14UFNTeVF2ekt5Ylg3REV5R256OHRwZHZyNjlVZWk3Vkd3WnFHSTlKbWFXN1FZQnc1WlJnNFNRODFYODV1aGJJQlh1QjNMaw?oc=5",
+      "published": "2026-10-25T16:00:00+00:00",
+      "compound": 0.765,
+      "label": "positive",
+      "entities": [
+        "North Korea"
+      ]
+    },
+    {
       "title": "Kim Meets Wang Huning as Xi Skips Summit for Diplomatic Strategy",
       "source": "조선일보",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONHcxc2k4S0toNTVhOEIxazVRakRHZ0xyU0hCaTVXVVp5UXlRRzR0VWNPYnlhRTVBZkt6NFV1Zjk3a2ZzYUVtS0pUY0tPZkZOWXRiSzA1S1QxdXcxcHc5cU5qc000RnlfZklWc2wwOWFmOVktMzFlSUdUVk40XzNRUEgyTm4?oc=5",
@@ -9485,6 +9707,17 @@
       "compound": 0.0,
       "label": "neutral",
       "entities": []
+    },
+    {
+      "title": "Kim Jong-un Crosses New Yalu Bridge, Ending 12-Year Wait",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQLWNBY3BVcFhMRUd4XzR4SV9nZ2tFdXU1SmYyTHRKUVR1dEYzYzFYWU9OUUtiU01IZDRfUGxEcjFWN005cWROTEZrb0NxUGVaSlJXb2FjZ2gzejZFUUVjVnY3QU9HZEJPWUVwaU1sd2dla3RmRG9GN1dlU1JJMk9PSFZCQ29QU2dTNkxjeA?oc=5",
+      "published": "2026-10-25T15:48:18+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Kim Jong-un"
+      ]
     },
     {
       "title": "USS Pueblo Crew Wins $400M Judgment Against North Korea",
@@ -9495,6 +9728,18 @@
       "label": "positive",
       "entities": [
         "North Korea"
+      ]
+    },
+    {
+      "title": "Kim Jong-un Inspects Chinese Bus Factory Rooted in Korean War",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaGVnNFBNSzN5ZTdFcmdxZ0NBbjdzN3IyOFFMeTVLbkdHU1B5Wl82TmkxeUR1d0U0V3ZtV2NrY0hmaUlDNUktSDI3bWpCS1JPTDI5MThOOWhTQjRvYzdYeHdaLXpZb1A4TTRKdGNiY3pBTXREcGFEWXBOd3NEcVo4d2FsSGk?oc=5",
+      "published": "2026-10-25T15:46:13+00:00",
+      "compound": -0.8316,
+      "label": "negative",
+      "entities": [
+        "Kim Jong-un",
+        "China"
       ]
     },
     {
@@ -9793,265 +10038,6 @@
       "entities": [
         "Donald Trump",
         "United States"
-      ]
-    },
-    {
-      "title": "The College of Magic turns ordinary kids into confident, top-hat wearing magicians",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/25/g-s1-149089/magic-magicians-south-africa-school-students",
-      "published": "2026-10-25T11:24:58+00:00",
-      "compound": 0.8316,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Kim returns from China visit praising Xi as Pyongyang seeks closer Beijing ties",
-      "source": "The Independent",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcXU0eERSUUFNbXBiUHBaelgtaGJWcm9HQUJxVF9ianYyRkxYRXN4azAyMnpSRkVVWFVXZVVIYmx0NlE0NHRfQzZ3V2x3a3ZSNDI0RzZKUXpXTjVfTVVBSk91LTRpVGhNVjl6ci0xbVNiQWZ4U21rd3NTWkh6aVRMb3k5b0RuQW84QlROanlkUjRfYUE?oc=5",
-      "published": "2026-10-25T11:14:00+00:00",
-      "compound": 0.7906,
-      "label": "positive",
-      "entities": [
-        "China"
-      ]
-    },
-    {
-      "title": "Voters in Brazil head to polls as Lula goes up against Bolsonaro's son",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cxp8g21j4648o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-25T11:00:26+00:00",
-      "compound": -0.34,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "El Salvador president says bodies found in Haiti are not those of hostages",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c8ly097zw1xwo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-25T10:55:33+00:00",
-      "compound": -0.5106,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Iran’s authorities take ‘self-sacrifice’ mobilisation campaign nationwide",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/25/irans-authorities-take-self-sacrifice-mobilisation-campaign-nationwide?traffic_source=rss",
-      "published": "2026-10-25T10:50:38+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Police in Albania filmed beating protester unconscious",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/police-in-albania-filmed-beating-protester-unconscious?traffic_source=rss",
-      "published": "2026-10-25T10:45:51+00:00",
-      "compound": -0.8555,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Saudi Arabia intercepts missiles and drones as fighting with Houthis rages",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/25/saudi-arabia-intercepts-missiles-and-drones-as-fighting-with-houthis-rages?traffic_source=rss",
-      "published": "2026-10-25T10:42:51+00:00",
-      "compound": -0.6249,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Pakistan drops Shan Masood from Sri Lanka Test squad as Agha, Rizwan return",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/10/25/pakistan-axe-shan-masood-from-sri-lanka-test-squad-as-agha-rizwan-return?traffic_source=rss",
-      "published": "2026-10-25T10:27:36+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Trump mocks reporter asking about Iran strikes, as Tehran says US derailed",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/trump-mocks-reporter-asking-about-iran-strikes-as-tehran-says-us-derailed?traffic_source=rss",
-      "published": "2026-10-25T10:14:43+00:00",
-      "compound": -0.8979,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "Alive and rolling: Kim crosses new Yalu bridge by car as false death rumors spread",
-      "source": "Korea JoongAng Daily",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdU5Kdzl3cVZDU0MxUHQ1MEtxTkkyOWE5SF9ma3BETGdORl8tRGdiWGgtUVNtV21sM0xrWEdLdUZoWldLUmw5cTZiVEZEaHVjZTYtMkRUb3V1UFVmSHgtOXVUaTRlellWbE1IYWZFdzRsQVNYX0RpTjZPM2ljZFU3U1VnTUllOW5BWTBYbkxUZVRMVGdsZGFCLTZUMTA0OFJOQXZDSmhrWGFjbVR5YWxSQkZmcFVzdU1qRUR5S1lFLThER0NsdDRXMFBrOA?oc=5",
-      "published": "2026-10-25T10:01:41+00:00",
-      "compound": -0.5574,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Qatar official calls for peace and security to boost trade, investment",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/25/qatar-official-calls-for-peace-and-security-to-boost-trade-investment?traffic_source=rss",
-      "published": "2026-10-25T09:57:40+00:00",
-      "compound": 0.926,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "North Korea Expands Missiles and Drones With Russian Help",
-      "source": "Kyiv Post",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBlVHdBM0YwbW9US1ZRYUl0dDh4RWdMQXhpYXctd25BRmJLRklDaHp6Y0VjTEY0YVZyQVpnaFRObDJHanN4YWxsQjN0dw?oc=5",
-      "published": "2026-10-25T09:41:31+00:00",
-      "compound": 0.7351,
-      "label": "positive",
-      "entities": [
-        "North Korea",
-        "Russia"
-      ]
-    },
-    {
-      "title": "Kim Jong-un showcases China ties in possible message to Trump",
-      "source": "Korea JoongAng Daily",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZTNfbWlua1h3NUlTZEtnWmlqSjdTYjNqYTNEc3ctLWJGUTdlTXFCUG5GdXlzSWJxTzBWVmJyb3d3VDJEbzk5dWdHOG90ZGtFbkgwVGFicGJUeHpISVJvODl1aFJhenFUWFFpSDlHSGM0VkV3UW1RZXZHZnE2MzdxTlFYUDczblZ4QURZR1NxU21jMWZhUkZGQ3ZLMU1UdzVjdkdZbW5OcnBiUmlDSXNn?oc=5",
-      "published": "2026-10-25T09:34:41+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Kim Jong-un",
-        "Donald Trump",
-        "China"
-      ]
-    },
-    {
-      "title": "Kim Jong-un flexes China ties in possible message to Trump",
-      "source": "Korea JoongAng Daily",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVUpNRFZDYjBlb09qN2V3Tm1acDExN0hnX1BYTTJvbkYtMnliamhOdDFvWlVwZkhJa1FtMVVNYmtkRElwcU42WGRkY01zOElmWThvSXdGSVNWa05od3NDc2pHbXhDNmN0Wk9yUU40RW1UbUU5U1pyQ3U2bVlMMkZhX0dlbTctdUFKNV9RbVpzOTRnaG1WUU1PQVI4RldadjlhbC1DWXlqV3VuWWs?oc=5",
-      "published": "2026-10-25T09:34:41+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Kim Jong-un",
-        "Donald Trump",
-        "China"
-      ]
-    },
-    {
-      "title": "Israeli forces turn Hebron homes into military posts amid lockdown",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/25/israeli-forces-turn-hebron-homes-into-military-posts-amid-lockdown?traffic_source=rss",
-      "published": "2026-10-25T09:27:03+00:00",
-      "compound": -0.4019,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Australian Grand Prix called off as rain spoils Phillip Island sendoff",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/10/25/australian-grand-prix-called-off-as-rain-spoils-phillip-island-sendoff?traffic_source=rss",
-      "published": "2026-10-25T09:26:57+00:00",
-      "compound": -0.25,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Thousands of Northern Irish Protestants march ahead of court ruling",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/northern-ireland-orange-order-parade-legal-challenge?traffic_source=rss",
-      "published": "2026-10-25T09:14:07+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Brazil 2026 election live: Lula and Bolsonaro in tight race",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/25/brazil-election-2026-live-lula-and-bolsonaro-in-tight-race?traffic_source=rss",
-      "published": "2026-10-25T09:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-25T09:00:00+00:00",
-      "compound": -0.7269,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Indigenous communities worry Brazil’s election could hurt environment",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/indigenous-communities-worry-brazils-election-could-hurt-environment?traffic_source=rss",
-      "published": "2026-10-25T08:54:47+00:00",
-      "compound": -0.743,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Obama’s Ohio, Michigan speeches: Key takeaways on Trump, Iran war, midterms",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/25/obamas-ohio-michigan-speeches-key-takeaways-on-trump-iran-war-midterms?traffic_source=rss",
-      "published": "2026-10-25T08:44:17+00:00",
-      "compound": -0.6597,
-      "label": "negative",
-      "entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "title": "North Korea’s Kim Jong-un makes surprise visit to China",
-      "source": "Michael West Media",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNa1RoQzNKZ2JrTzdNc25nUV9kc3Y4MlFURFA2MUxTTF9kNEJjUTVrRW82VVRVcWsyaTRQVk1oTmpxbktFRnBXMVNVU1lPcEc2dkJSelRKUkZVaGR4d0QzMFpqZVVZUkFTQTMybGE2cG8xanVzeWt2bS1UN2RtWVJ3aTZUOVVTWV9xMmc?oc=5",
-      "published": "2026-10-25T08:43:08+00:00",
-      "compound": 0.4939,
-      "label": "positive",
-      "entities": [
-        "Kim Jong-un",
-        "North Korea",
-        "China"
-      ]
-    },
-    {
-      "title": "'I cannot teach you integrity': How employee theft is hurting small businesses in Africa",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cmz98plpjzplo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-25T08:36:47+00:00",
-      "compound": -0.2695,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "UFC 333: Volkanovski knocks out Evloev to retain featherweight title",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/10/25/ufc-333-volkanovski-knocks-out-evloev-to-retain-featherweight-title?traffic_source=rss",
-      "published": "2026-10-25T08:26:19+00:00",
-      "compound": 0.3182,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Who are the best players never to win the Ballon d’Or?",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/who-are-the-best-players-never-to-win-the-ballon?traffic_source=rss",
-      "published": "2026-10-25T08:20:20+00:00",
-      "compound": 0.5033,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "North Korea’s Kim Jong Un makes surprise China visit as ties strengthen",
-      "source": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYkozek1icE5qbFRtMDZfWkhhUG5DMTlFR1lmOTZ1bnJXUzFOajF2c1lsN1ZLZjFldEs0TVk1M2lreEZLMFZwTTdhZWt1X1ptX0phbTJCZHZXejB3dkRoeWlZTEdIelR0TFUzZ01BZVZsZUtzUVZkbTJSZ3c3Zmk4QlpVZWZWd2lMTG9HUWkzWW9uck90Yzh4RFlReGF0OEVSRVBvQ2pibndLSlJOUFpMYVI3UGRwVFNPV2JaQU9XSQ?oc=5",
-      "published": "2026-10-25T08:20:02+00:00",
-      "compound": 0.7783,
-      "label": "positive",
-      "entities": [
-        "Kim Jong-un",
-        "North Korea",
-        "China"
       ]
     }
   ]

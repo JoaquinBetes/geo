@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-10-27T05:05:23+00:00",
+  "updated": "2026-10-27T12:12:05+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -46,9 +46,9 @@
     "to": "2026-10-27"
   },
   "kpis": {
-    "events_total": 281,
-    "events_unlocated": 3276,
-    "events_7d": 18,
+    "events_total": 282,
+    "events_unlocated": 3287,
+    "events_7d": 19,
     "events_prev_7d": 11,
     "hottest_place": "DMZ"
   },
@@ -606,6 +606,15 @@
       "date": "2026-10-26",
       "total": 9,
       "strike": 9,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-27",
+      "total": 1,
+      "strike": 1,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -3392,12 +3401,22 @@
       "title": "North Korea flaunts howitzer after saying Seoul faked landmine blast",
       "source": "The Independent",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUkg0LXU0RzVWUDB5dzFjRUY3d0JhQ09iWGVmeFAyQmF5RmlmbXBSVGxTdXVyWWdxdDNXbW14LWR3NmN4cG1GVGUyX2t4RWVfSi1TN05TT2JqRDAzQmhISGd3WU15SV9LeDNHSHNjRzIyNGFyeUVFYkRubXJIclZhRmljUk5pQXNzSk4yR2tPVEpKakE?oc=5"
+    },
+    {
+      "date": "2026-10-27",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "Borderline worrying: North Korea's artillery antics unsettle the DMZ",
+      "source": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWUdrSUdOc0JrX3FJd0llS2tHaWFERmVpRWNlTDZrNmZ5XzlWS3RPbU5FVnFQcjVESFNPMm9MMDExNktmZlFNeFZxU1NKcU1SVUVrQTc5TjU0TFNJMno1b01NSjlVRHBxMHNzM2V1dl84Zk1TTWo1enFpNVFackFoeEZpdHUtZTlKMGNMSU1EYWxmUjRYbkE?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "DMZ",
-      "count": 125
+      "count": 126
     },
     {
       "place": "Seoul",

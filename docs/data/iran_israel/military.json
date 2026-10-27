@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-10-27T05:05:01+00:00",
+  "updated": "2026-10-27T12:11:42+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-10-27"
   },
   "kpis": {
-    "events_total": 578,
-    "events_unlocated": 2872,
-    "events_7d": 29,
+    "events_total": 579,
+    "events_unlocated": 2878,
+    "events_7d": 30,
     "events_prev_7d": 18,
     "hottest_place": "Tehran"
   },
@@ -1060,6 +1060,15 @@
       "date": "2026-10-26",
       "total": 3,
       "strike": 3,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-27",
+      "total": 1,
+      "strike": 1,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -6836,6 +6845,16 @@
       "title": "Exclusive: U.S. Warns Baghdad It Will Strike Iraqi Militias if They Join Iran War",
       "source": "الحرة",
       "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5jdDI1cWd0dmFpX0Z3QUwwQ19MeS1MVThoZEZmZHR4U1RYcFhVVnpldFB3Rkd0TWp4Y0lualpYMk1NQQ?oc=5"
+    },
+    {
+      "date": "2026-10-27",
+      "type": "strike",
+      "place": "Damascus",
+      "lat": 33.5138,
+      "lon": 36.2765,
+      "title": "Why Jordan has struck Syria: What we know",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/27/why-jordan-has-struck-syria-what-we-know?traffic_source=rss"
     }
   ],
   "top_places": [
@@ -6873,6 +6892,10 @@
     },
     {
       "place": "Chabahar",
+      "count": 1
+    },
+    {
+      "place": "Damascus",
       "count": 1
     }
   ],

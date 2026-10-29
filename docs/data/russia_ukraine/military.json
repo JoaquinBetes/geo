@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-10-28T22:35:04+00:00",
+  "updated": "2026-10-29T05:48:08+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-10-23",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
   },
   "kpis": {
-    "events_total": 1103,
-    "events_unlocated": 3174,
-    "events_7d": 48,
-    "events_prev_7d": 53,
+    "events_total": 1105,
+    "events_unlocated": 3177,
+    "events_7d": 43,
+    "events_prev_7d": 47,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -1278,29 +1278,18 @@
       "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
+    },
+    {
+      "date": "2026-10-29",
+      "total": 2,
+      "strike": 2,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-07-19",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Dozens of Russian missiles pound Kyiv in major attack",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/jul/19/dozens-of-russian-missiles-pound-kyiv-ukraine-in-major-attack"
-    },
-    {
-      "date": "2026-07-19",
-      "type": "strike",
-      "place": "Kharkiv",
-      "lat": 49.9935,
-      "lon": 36.2304,
-      "title": "Russia launches major ballistic-missile attack on Kyiv and Kharkiv",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84QTBiR1JBa1FZRGJFaWJiLUFIUjZxQlFHQkxUMWFWQTdSbFFOYmItNTBfLTROczJXTFFjWGhaSXZSTjhrWEtoU2dvOFVWVFU4UGZaT0Y2Y2lFdw?oc=5"
-    },
     {
       "date": "2026-07-19",
       "type": "strike",
@@ -10280,24 +10269,44 @@
       "title": "Ukraine war briefing: Kyiv retaking territory, Zelenskyy says, as Nordic leaders urge Putin to end the conflict",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/oct/28/ukraine-war-briefing-kyiv-retaking-territory-zelenskyy-says-as-nordic-leaders-urge-putin-to-end-the-conflict"
+    },
+    {
+      "date": "2026-10-29",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Russia says more than 600 drones launched towards Moscow overnight",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/29/russia-says-more-than-600-drones-launched-towards-moscow-overnight?traffic_source=rss"
+    },
+    {
+      "date": "2026-10-29",
+      "type": "strike",
+      "place": "Kherson",
+      "lat": 46.6354,
+      "lon": 32.6169,
+      "title": "Ukraine war briefing: Oleshky truce holding and demining under way to enable humanitarian corridor, Kyiv says",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/29/ukraine-war-briefing-oleshky-truce-holding-and-demining-under-way-to-enable-humanitarian-corridor-kyiv-says"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 166
+      "count": 157
     },
     {
       "place": "Moscow",
       "count": 22
     },
     {
-      "place": "Kharkiv",
+      "place": "Dnipro",
       "count": 11
     },
     {
-      "place": "Dnipro",
-      "count": 11
+      "place": "Kharkiv",
+      "count": 10
     },
     {
       "place": "Odesa",
@@ -10312,11 +10321,11 @@
       "count": 6
     },
     {
-      "place": "Donetsk",
-      "count": 4
+      "place": "Kherson",
+      "count": 5
     },
     {
-      "place": "Kherson",
+      "place": "Donetsk",
       "count": 4
     },
     {

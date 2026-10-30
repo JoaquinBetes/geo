@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-10-29T22:45:23+00:00",
+  "updated": "2026-10-30T05:49:06+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-10-23",
-    "to": "2026-10-29"
+    "to": "2026-10-30"
   },
   "kpis": {
-    "events_total": 1115,
-    "events_unlocated": 3190,
-    "events_7d": 53,
-    "events_prev_7d": 47,
+    "events_total": 1118,
+    "events_unlocated": 3193,
+    "events_7d": 39,
+    "events_prev_7d": 55,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -1281,45 +1281,24 @@
     },
     {
       "date": "2026-10-29",
-      "total": 12,
-      "strike": 9,
+      "total": 13,
+      "strike": 10,
       "ground": 2,
+      "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-30",
+      "total": 2,
+      "strike": 1,
+      "ground": 0,
       "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-07-19",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Russia launches major ballistic missile attack on Ukrainian cities",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c2el7xpnzrpo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "date": "2026-07-19",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Russia launches one of the war’s biggest ballistic missile attacks: Kyiv",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZ0hJb1dBdzN6VUxpZVFUNHRmazNvVmI4YUtGS3pQaWk1cG5tTklJczU1U0o0LUtDWnRJOUxVZ0FhTXlaWjU0eTZMd1hWakZtUXk2YmIzdTVZQ29kUndPYi11QzdBdDEzMHNHUFhub0R2TWpKc2ZwOWZQSVJycDF3SFBvNnMwTnVyV0NlaS1NMEk0blpzZUxDUHB0LXc3N1RlOFhsel9kT1ltejJVbjVndUVTYi1kUm9MeEpjZjY4bU9zVXBOc2YzYg?oc=5"
-    },
-    {
-      "date": "2026-07-19",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Russia unleashes one of the biggest ballistic missile attacks of the Ukraine war, Kyiv says",
-      "source": "WISN",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1XOHpnS3JEcW1fdS1UWWJCV2dlX0hFTVlHT1NGMWQyYUZIbUhCdDhVY0g3YXVzeW9qS2s0VFZRTzgtY3N6VmpDN20zNUNfdXM3Wm5ESENQdWtZVW1Cck5mVEJyZE1aQlNzaGM1ODA5MGNQWmhBNk5IZllQc2cwQQ?oc=5"
-    },
     {
       "date": "2026-07-19",
       "type": "strike",
@@ -10289,20 +10268,50 @@
       "title": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "date": "2026-10-29",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Russian Military Intercepts Record 1.2K Ukrainian Drones Overnight",
+      "source": "The Moscow Times",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPOFQ4Vk9MbVcwcW81elZreHJ2UE9ob3ZmckU2bDEyLUZXNDVGeVBudUFpTWo4c2VOWHVQVU5EVTBjZ0NUOTYyVW91dzdBeWhQYlNYbHRVWnZILW9iUVp0d2ZIb2NGcG9WREZCazFjMjVlTWxQb3NUeFM3ZHFWNkxwQWpJWjRjTTA0X0pHWEJhWUp0SU5YZTZ4TGlDUk9ZcFJQSkhldXh2U0xlUTAwc2I0RnZxcjU?oc=5"
+    },
+    {
+      "date": "2026-10-30",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war live: Kyiv ‘pauses oil strikes’ under pressure from Trump",
+      "source": "The Independent",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUGhEdS1hVDFkalg3TWQ2MWFxQTRtNXhuRXV2ZDBhbXBJeXVzTE9JQmZCeVFwNlF6dmlXS1U0bGJEb2FLS3Rwc01La3BoQ0tZS2NFUDlXUGpCOHcyNENhTXZnMThsRlVyd2tYTjk1NlF4NUl5Vm1Ub0ZPN28zRjdQMEZuRUhnSXJHN1JnVDRUdFFLa0N0SllEaTBNY3FxS3U2VUVSc0FDTTdrNGNPN3NheWhMcmk4Zw?oc=5"
+    },
+    {
+      "date": "2026-10-30",
+      "type": "infrastructure",
+      "place": "Dnipro",
+      "lat": 48.4647,
+      "lon": 35.0462,
+      "title": "Ukraine war briefing: Outrage in Europe after Russian drone kills 14 on rail platform in Dnipro",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/30/ukraine-war-briefing-russian-drone-attack-dnipro-rail-platform"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 159
+      "count": 153
     },
     {
       "place": "Moscow",
-      "count": 24
+      "count": 25
     },
     {
       "place": "Dnipro",
-      "count": 16
+      "count": 17
     },
     {
       "place": "Kharkiv",
@@ -10329,7 +10338,7 @@
       "count": 4
     },
     {
-      "place": "Kursk",
+      "place": "Chernihiv",
       "count": 2
     }
   ],

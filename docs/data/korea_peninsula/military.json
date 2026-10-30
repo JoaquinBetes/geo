@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-10-29T22:46:00+00:00",
+  "updated": "2026-10-30T05:49:41+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -43,13 +43,13 @@
   },
   "window": {
     "from": "2026-01-12",
-    "to": "2026-10-29"
+    "to": "2026-10-30"
   },
   "kpis": {
-    "events_total": 291,
-    "events_unlocated": 3379,
+    "events_total": 293,
+    "events_unlocated": 3388,
     "events_7d": 27,
-    "events_prev_7d": 9,
+    "events_prev_7d": 4,
     "hottest_place": "DMZ"
   },
   "daily": [
@@ -631,10 +631,19 @@
     },
     {
       "date": "2026-10-29",
-      "total": 8,
-      "strike": 7,
+      "total": 9,
+      "strike": 8,
       "ground": 0,
       "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-30",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
@@ -3519,16 +3528,36 @@
       "title": "North Korea fires around 10 ballistic missiles toward sea off east coast, Seoul says",
       "source": "Daily Maverick",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdS1CZUZwblhYYnBGRThYYU1zWHBfV05QeDk5SW1ubkQ2ZTNkSHp5Y1VwZE5ydW5yMkJPa2VkeC1DcUt1ci1MTTgxbUcxS2ZETGxOQkNRSlRaWjBHNjNLSDdRUS11OHpOdFFOSG5mLWtmWHpPcUdrUVFJeG1RR2lkOVJKNDFib1JWQjU2d1ZnM0VkcHBvenR0MUc2d05pc0pRcUVra3lld2t0aVFkbVVuT3BLalhfclJTMTlZdk12WHA2bDJOVXNXcEtqLWtGby13?oc=5"
+    },
+    {
+      "date": "2026-10-29",
+      "type": "strike",
+      "place": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "title": "North Korea fires salvo of around 10 ballistic missiles toward sea: Seoul",
+      "source": "NK News",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9XQkJNRkZWMXhkVUd2ekg0aGoydFBOckFCZGhtMDkyTDdrck9EV0hTc0F6eTBLem9zTHM2RVc2ZGpxSmJGS21r?oc=5"
+    },
+    {
+      "date": "2026-10-30",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "Why is North Korea fortifying its border with South Korea?",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/30/why-is-north-korea-fortifying-its-border-with-south-korea"
     }
   ],
   "top_places": [
     {
       "place": "DMZ",
-      "count": 104
+      "count": 88
     },
     {
       "place": "Seoul",
-      "count": 61
+      "count": 62
     },
     {
       "place": "Pyongyang",

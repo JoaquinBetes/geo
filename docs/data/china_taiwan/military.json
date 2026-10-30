@@ -1,6 +1,6 @@
 {
   "id": "china_taiwan",
-  "updated": "2026-10-30T12:56:10+00:00",
+  "updated": "2026-10-30T22:20:12+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -43,12 +43,12 @@
   },
   "window": {
     "from": "2026-01-30",
-    "to": "2026-10-30"
+    "to": "2026-10-31"
   },
   "kpis": {
-    "events_total": 88,
-    "events_unlocated": 2235,
-    "events_7d": 2,
+    "events_total": 89,
+    "events_unlocated": 2238,
+    "events_7d": 3,
     "events_prev_7d": 5,
     "hottest_place": "Taipei"
   },
@@ -607,6 +607,15 @@
       "total": 1,
       "strike": 1,
       "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-10-30",
+      "total": 1,
+      "strike": 0,
+      "ground": 1,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -1492,12 +1501,22 @@
       "title": "Taiwan’s AerosoarX collaborates with U.S. firms on AI drones",
       "source": "Taipei Times",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE16Z3AtY21ua3VGSE93a3duNTQtdjQ5RVdrNl9RNTI4ZENuZjFrVHp2ckc1WkVObHpqMnBxN2M3QzB4Nm1PQm9vX1M2RjY0NVVUYTVHLWVFNWs2eWRqNmx4b201RjR2M0tyTUVQNXBsSUw2bkNFUkw5Q0tB?oc=5"
+    },
+    {
+      "date": "2026-10-30",
+      "type": "ground",
+      "place": "Taipei",
+      "lat": 25.033,
+      "lon": 121.5654,
+      "title": "Battle for the Capital: Inside the 2026 Taipei Mayoral Race, Part 1",
+      "source": "Global Taiwan Institute",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaHFfM01fVzBLWGg0Rm5mVFBFa3k3TjBsakR1YjFjSkg4b0FYX01LNTRpNDRGVHVQT0Flc2tSd0FabVl1STBBbTZ5QWZ0T3pCYnlSRFhsUThLUTBsdGdNVlhfZWFrU2hiYllRYmlxcGR3WUVoZkxVaml1XzVfRm5zakZ3?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Taipei",
-      "count": 15
+      "count": 16
     },
     {
       "place": "Taiwan Strait",

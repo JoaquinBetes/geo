@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-10-31T21:34:26+00:00",
+  "updated": "2026-11-01T06:04:08+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-10-23",
-    "to": "2026-10-31"
+    "to": "2026-11-01"
   },
   "kpis": {
-    "events_total": 1129,
-    "events_unlocated": 3226,
-    "events_7d": 45,
-    "events_prev_7d": 53,
+    "events_total": 1130,
+    "events_unlocated": 3231,
+    "events_7d": 46,
+    "events_prev_7d": 46,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -1305,19 +1305,18 @@
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
+    },
+    {
+      "date": "2026-11-01",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-07-20",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Russia unleashes one of the biggest ballistic missile attacks of the Ukraine war, Kyiv says",
-      "source": "WBAL-TV",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQT1pqdk5mWHVvcUVqYTNpZ24wWUpvQ01hMHphaGp1c3J1M0F0cl9IMVhybktIaXR2QlVsVXozUFMzTURXbzlnU190WjhLaVRHRUFGckhzd1oyZkw1ZzZ1RDNlb1ZhMmlEQ2ZIUGFJUlpLZHdKcnZFR0Q1dkVwVFZRSA?oc=5"
-    },
     {
       "date": "2026-07-20",
       "type": "strike",
@@ -10307,12 +10306,22 @@
       "title": "Ukraine war briefing: Moscow’s Lavrov snubbed at G20 in Atlanta",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/oct/31/ukraine-war-briefing-moscows-lavrov-snubbed-at-g20-in-atlanta"
+    },
+    {
+      "date": "2026-11-01",
+      "type": "strike",
+      "place": "Kherson",
+      "lat": 46.6354,
+      "lon": 32.6169,
+      "title": "Ukraine war briefing: Oleshky truce shows de-escalation is possible, says Zelenskyy",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/01/ukraine-war-briefing-oleshky-truce-shows-de-escalation-is-possible-says-zelenskyy"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 146
+      "count": 139
     },
     {
       "place": "Moscow",
@@ -10335,11 +10344,11 @@
       "count": 7
     },
     {
-      "place": "Zaporizhzhia",
-      "count": 6
+      "place": "Kherson",
+      "count": 7
     },
     {
-      "place": "Kherson",
+      "place": "Zaporizhzhia",
       "count": 6
     },
     {

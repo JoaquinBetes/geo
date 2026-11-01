@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-11-01T13:24:51+00:00",
+  "updated": "2026-11-01T22:01:38+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-11-01"
   },
   "kpis": {
-    "events_total": 588,
-    "events_unlocated": 2978,
-    "events_7d": 18,
+    "events_total": 589,
+    "events_unlocated": 2982,
+    "events_7d": 19,
     "events_prev_7d": 26,
     "hottest_place": "Jerusalem"
   },
@@ -1106,6 +1106,15 @@
       "total": 4,
       "strike": 3,
       "ground": 1,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-11-01",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -6981,12 +6990,22 @@
       "title": "Israel expects US to delay strike on Iran until elections — Jerusalem Post",
       "source": "UA.NEWS",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQU9uaXdNbVJHOHM5ZVpneDVNc3JLVkFDVHZiUGJRNHlKU21PY3A3UW5hSzAwOE40QjhtUHk2dk1TcTAtY05Pai0zOERvUElSdlI1cDVVRnBqdlB5UDRrTWpVdW5JZFVIUWFHR3ROdDV5bUh6TmtlWEYyZW5pZDFzZFRWcEc4elUtZ2ZpcXFMeG1SUTktSmFoWjI3WkJ2REppTGkzV3NZN0JkNGpTMENSc3Qxc24?oc=5"
+    },
+    {
+      "date": "2026-11-01",
+      "type": "strike",
+      "place": "Jerusalem",
+      "lat": 31.7683,
+      "lon": 35.2137,
+      "title": "Israel ready to strike Iran with US, but specific joint goals remain unclear - sources",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBGX2VYMjFxQXZSTmE4UWlLZFBSSHJ4M01CUzdOOGlQdjZJeDJKQlFpWWNaMC1PbmVXVUFRSmR2d2hsOWtfcU9Zc0oxc0YyVU9HWTVia0EycTlRNldRWGpPUkh1LU4xV1k4NXc?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Jerusalem",
-      "count": 24
+      "count": 25
     },
     {
       "place": "Tehran",

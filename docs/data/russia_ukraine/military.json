@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-11-01T22:01:29+00:00",
+  "updated": "2026-11-02T06:02:04+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-10-23",
-    "to": "2026-11-01"
+    "to": "2026-11-02"
   },
   "kpis": {
-    "events_total": 1137,
-    "events_unlocated": 3244,
-    "events_7d": 53,
-    "events_prev_7d": 46,
+    "events_total": 1142,
+    "events_unlocated": 3246,
+    "events_7d": 54,
+    "events_prev_7d": 44,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -1308,65 +1308,24 @@
     },
     {
       "date": "2026-11-01",
-      "total": 8,
-      "strike": 4,
+      "total": 11,
+      "strike": 6,
       "ground": 1,
-      "infrastructure": 3,
+      "infrastructure": 4,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-11-02",
+      "total": 2,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-07-20",
-      "type": "infrastructure",
-      "place": "Moscow",
-      "lat": 55.7558,
-      "lon": 37.6173,
-      "title": "Ukraine hits Russian oil depot, logistics facilities in Moscow Oblast, 6 Black Sea vessels, Zelensky confirms",
-      "source": "The Kyiv Independent",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE02Qy1zUTlodXBLOFVaWXVwVDVJWmlKVkZrQnYxVWs3aFlhWC03Q2hsMDRfdHZKcHUtc09KRGUxcjU4U0FCMVBNck14SUNCS1I1VlhrME1qdVJqanZuVGUyTHl3WTl2M180dXJUNjVDMA?oc=5"
-    },
-    {
-      "date": "2026-07-20",
-      "type": "strike",
-      "place": "Odesa",
-      "lat": 46.4825,
-      "lon": 30.7233,
-      "title": "Russian strike on ship near Odesa kills 10, Ukraine hits Moscow with drones",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/20/russian-strike-on-ship-near-odesa-kills-10-ukraine-hits-moscow-with-drones?traffic_source=rss"
-    },
-    {
-      "date": "2026-07-20",
-      "type": "strike",
-      "place": "Moscow",
-      "lat": 55.7558,
-      "lon": 37.6173,
-      "title": "Ukraine fires 400 drones toward Moscow as Zelenskyy grapples with protests",
-      "source": "PBS",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZVBZS0Y4NXZnZkU1c1oxeVhiNEJZWUt6ZXcxeHVfQjVSRDd4WHc5U2dkMHBuUUlucmZUZ1FxLUdqVFRHME5sUXpsWXpZVUVXQjA1VWQtVW5NbGE5UEJjMUtpd0F1N1dWa2NuLXhOaVBrYXdmNWNIc1E5Nm5fY2tuUTBBaERlaVFrWVJHTmJIS1IyTHV5ajZvc3F0NHBrMFNLUUd0R19lbkloQlAwalE?oc=5"
-    },
-    {
-      "date": "2026-07-20",
-      "type": "infrastructure",
-      "place": "Moscow",
-      "lat": 55.7558,
-      "lon": 37.6173,
-      "title": "Ukraine war latest: Zelensky confirms Ukrainian strikes on Russian oil depot, Moscow Oblast logistics facilities, 6 Black Sea vessels",
-      "source": "Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMXY2SHh4TEFvUkFnUUpuOUpleHRNZmxMTFhXd3FJVC1uQ3R5NGlmRExzZTlCNXpET3dDbGtnMmlWVjZlUngzeWg1aUhEeURxUjhQQWE3MmRDNEZScGNnT1Ixamx2Uk5NMFYwUjU4ZXVzbmJUNlladmF4aFZ0cjNUYUtoWmZoR2VUaXQzeDlGa0VBd2ZPQkJRdQ?oc=5"
-    },
-    {
-      "date": "2026-07-20",
-      "type": "strike",
-      "place": "Odesa",
-      "lat": 46.4825,
-      "lon": 30.7233,
-      "title": "Ten killed as Russian attacks on merchant ships in Black Sea intensify",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c4gvpv3ewv2o?at_medium=RSS&at_campaign=rss"
-    },
     {
       "date": "2026-07-20",
       "type": "strike",
@@ -10316,28 +10275,78 @@
       "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/articles/c64g1y90p71eo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "date": "2026-11-01",
+      "type": "strike",
+      "place": "Kherson",
+      "lat": 46.6354,
+      "lon": 32.6169,
+      "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ENHI1LTZhR1pHYUFaTjhiQ1VyTy04ODc0dzdaYTk0QkFZdDRPa1RIZ0hoUy0xdzBBOUhMSGdjbFgzWDdyZmJXV0hSSVpZRVBlVDcxUmFVRjhZVVk?oc=5"
+    },
+    {
+      "date": "2026-11-01",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russia suffers ‘deadliest month of war’ as Kyiv hits missile plant and oil refinery",
+      "source": "The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNekJFSmtadHFBVkMyWmJBaUlhNnM0WUgyUGh2eWI1SmlTQzd5YUNScm9ORXpwVnBSbXNJZi1iX3M5aFNBRE1yZWFabzJ6UVlHeXRKbmlOMFVDcFpubHJXampIUGhKT2ZiS3V6S1h2cVo1dEZ6RFFJTGlROTNjWjYxSGNRay1yX3JrUGtKOU00MmxtV05oeHQ3ZkZheDVtc0g0THBLQTU2YTFzc00?oc=5"
+    },
+    {
+      "date": "2026-11-01",
+      "type": "strike",
+      "place": "Kherson",
+      "lat": 46.6354,
+      "lon": 32.6169,
+      "title": "Kherson braces for return of war as localised Russia-Ukraine truce ends",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/1/ukraine-evacuates-civilians-in-kherson-region-as-localised-ceasefire-ends?traffic_source=rss"
+    },
+    {
+      "date": "2026-11-02",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukrainian forces reportedly strike oil facility in Russia's Samara Oblast in overnight attack",
+      "source": "The Kyiv Independent",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOQk1za3pneUpjbDZtVlk1azBnRUxFNzdLRExDMkpjZUdqbjczU3h2WnZ2MWo5akNMYUl4YkFDQzBLRGtpWFhqYXQyMUFQTVZIV01HU2NJa0VvbnRLSklYa2h6ZzBqRGtqSWFFOFdaazU0STRtbEtjSFZBT3VoV1BuaVgxOGlPdC1ycjhmV0pDYlZ4dlFydDVQM0VVUG5kTHkzUXAyUWFXN1k2OHc2c2ZvRnNWZlpjR0lXam9DcGRn?oc=5"
+    },
+    {
+      "date": "2026-11-02",
+      "type": "infrastructure",
+      "place": "Kherson",
+      "lat": 46.6354,
+      "lon": 32.6169,
+      "title": "Ukraine war briefing: Kyiv says air raid warning app likely hacked after users receive false alerts",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/02/ukraine-war-briefing-kyiv-says-air-raid-warning-app-likely-hacked-after-users-receive-false-alerts"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 144
+      "count": 140
     },
     {
       "place": "Moscow",
-      "count": 25
+      "count": 24
     },
     {
       "place": "Dnipro",
       "count": 22
     },
     {
-      "place": "Kharkiv",
-      "count": 10
+      "place": "Kherson",
+      "count": 11
     },
     {
-      "place": "Kherson",
-      "count": 8
+      "place": "Kharkiv",
+      "count": 10
     },
     {
       "place": "Odesa",

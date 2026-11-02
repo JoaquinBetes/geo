@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-11-02T06:02:14+00:00",
+  "updated": "2026-11-02T15:52:53+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-11-02"
   },
   "kpis": {
-    "events_total": 589,
-    "events_unlocated": 2984,
-    "events_7d": 14,
+    "events_total": 590,
+    "events_unlocated": 2992,
+    "events_7d": 15,
     "events_prev_7d": 29,
     "hottest_place": "Jerusalem"
   },
@@ -1115,6 +1115,15 @@
       "total": 1,
       "strike": 1,
       "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-11-02",
+      "total": 1,
+      "strike": 0,
+      "ground": 1,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -7000,6 +7009,16 @@
       "title": "Israel ready to strike Iran with US, but specific joint goals remain unclear - sources",
       "source": "The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBGX2VYMjFxQXZSTmE4UWlLZFBSSHJ4M01CUzdOOGlQdjZJeDJKQlFpWWNaMC1PbmVXVUFRSmR2d2hsOWtfcU9Zc0oxc0YyVU9HWTVia0EycTlRNldRWGpPUkh1LU4xV1k4NXc?oc=5"
+    },
+    {
+      "date": "2026-11-02",
+      "type": "ground",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "How would Tehran respond if the US and Israel bomb Iran again?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/2/how-would-tehran-respond-if-the-us-and-israel-bomb-iran?traffic_source=rss"
     }
   ],
   "top_places": [
@@ -7009,7 +7028,7 @@
     },
     {
       "place": "Tehran",
-      "count": 21
+      "count": 22
     },
     {
       "place": "Strait of Hormuz",

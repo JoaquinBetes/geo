@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-11-03T23:23:35+00:00",
+  "updated": "2026-11-04T06:21:56+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-10-23",
-    "to": "2026-11-03"
+    "to": "2026-11-04"
   },
   "kpis": {
-    "events_total": 1154,
-    "events_unlocated": 3269,
-    "events_7d": 64,
-    "events_prev_7d": 41,
+    "events_total": 1159,
+    "events_unlocated": 3284,
+    "events_7d": 58,
+    "events_prev_7d": 46,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -1326,65 +1326,24 @@
     },
     {
       "date": "2026-11-03",
-      "total": 4,
+      "total": 6,
       "strike": 3,
       "ground": 1,
-      "infrastructure": 0,
+      "infrastructure": 2,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-11-04",
+      "total": 3,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 2,
       "air_defense": 0,
       "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-07-21",
-      "type": "strike",
-      "place": "Zaporizhzhia",
-      "lat": 47.8388,
-      "lon": 35.1396,
-      "title": "Daytime Russian strike kills three in Zaporizhzhia",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/21/daytime-russian-strike-kills-three-in-zaporizhzhia?traffic_source=rss"
-    },
-    {
-      "date": "2026-07-22",
-      "type": "infrastructure",
-      "place": "Kursk",
-      "lat": 51.7304,
-      "lon": 36.1926,
-      "title": "Ukraine war briefing: Mykhailo Drapatyi takes over as Kyiv’s top commander",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/jul/22/ukraine-war-briefing-mykhailo-drapatyi-takes-over-as-kyivs-top-commander"
-    },
-    {
-      "date": "2026-07-22",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Ukraine-Russia war latest: Kyiv vows to step up counteroffensives as Russian strikes leave 100,000 without power",
-      "source": "The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNd21PeEpWcDJiSHRLbm1jUmI1UTNfWG9GMTdGTkh2NXpobXhXSVE0RXh4X2ZmYnVERHNMa0hSWk9DVi1CV0NhbGcza3JQVGd2dGlfLWk4cmRqMGdJaGZ3dHN1VVhPMlBtbmpmRzA4WVltQUdOSnZJSTBpSFY1NjNJZGhxY0E0OUxFZ2NVcFBucklmM2R1LUVIQXdEU1ozUUthMWNuUHlUTlVRN1l2T21FU0EyZ2FMeTJhamJkbVJlU1g?oc=5"
-    },
-    {
-      "date": "2026-07-22",
-      "type": "ground",
-      "place": "Mariupol",
-      "lat": 47.0971,
-      "lon": 37.5434,
-      "title": "Mykhailo Drapatyi: Ukrainians hope new commander will end army’s ‘Soviet culture’",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/jul/22/mykhailo-drapatyi-ukrainians-hope-new-commander-will-end-armys-soviet-culture"
-    },
-    {
-      "date": "2026-07-23",
-      "type": "infrastructure",
-      "place": "Mariupol",
-      "lat": 47.0971,
-      "lon": 37.5434,
-      "title": "Ukraine war briefing: War on Wildberries burns two more warehouses",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/jul/23/ukraine-war-briefing-wildberries-more-warehouses-attacked"
-    },
     {
       "date": "2026-07-24",
       "type": "strike",
@@ -10334,32 +10293,82 @@
       "title": "For Ukraine's Kherson region, a short ceasefire meant a momentary return to normal life",
       "source": "NPR",
       "url": "https://www.npr.org/2026/11/03/g-s1-151238/ukraine-russia-ceasefire-oleshky-kherson"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "infrastructure",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Russia bombards Ukraine power grid before Abu Dhabi talks; Merz urges Moscow to engage",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdVM1a0dLRmw1LWNRb012WDk0dW80Sy1LMTEtanZwZkhpdF9OUVBhbkJSREx1a2dRdk1EMGFWZHZoblRaZW1WRnFKOXlHM3RhQUdFck5pUUNpUklyd2o2WHBrbXZWaWo2ZmpIRW9IVmZSODNpQlB1NWg5Z3FRcnVRb2lLcVlZRGtTcEExeDNWM3ROT0lPY2hPZ3ljR19FNHJMMXJ6TXJhVE9LQlBmbVF5TFJhajQtY3VQXzdEb0J0bkdYdw?oc=5"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war latest: Russia launches biggest mass attack on Ukraine's energy infrastructure this year",
+      "source": "The Kyiv Independent",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMGZ3RkozMGJZTHk3a0Nldm5sTHkxWkhOakt3RjJ6MUZlem5yZ3NMR2hNYXFMRm5KZ3JfRUNEbzdaV3dEUGlDZEtBLVo1RGpsc3JiU0V0c0VJaVBDcDFkdFh0TlJuR25nOTd0NThMWjFTRUQyczR1UTBlWEs3X185UmR2cW5YSm52RTZDU0daTDR3NGdWQWlNUVZ3aWc0OVdmUWtzZVhEdWoyNFZIRG40cldDa3J6N1YycWNJYTlzT25mazEtOEE?oc=5"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "strike",
+      "place": "Zaporizhzhia",
+      "lat": 47.8388,
+      "lon": 35.1396,
+      "title": "Russia struck a humanitarian hub in the Zaporizhzhia region of Ukraine while people were distributing medicine and food, killing dozens and leaving many more missing, officials said. https://nyti.ms/4jS73ug",
+      "source": "Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTGFSTWs3QXlTMktCWjNwbmhsODh2cVFfejROSzduekh1SThkU0daQnhFNnh3YzlqQUlvMTJYb0UtR0J0c2lYcW1kcHlic3B2dmd1eG45TlJHMW9iLUVOVkF6bmMtdlBIOE1DS0RsQ2xHSFBBYm4wemFoZ1RfUHpyakVTMTlDQ1pJWkgzZW9OMkc4WU96WHdwM1VPLW1qX0VHcVpjOWFGdTFGbDh1b09MbU1aMmM4N19adzFBVk1xSHozdVhxWU5XRXhwdVhhVW1qMkJn?oc=5"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "infrastructure",
+      "place": "Mariupol",
+      "lat": 47.0971,
+      "lon": 37.5434,
+      "title": "In Kyiv, hackers sent fake alerts about a nuclear apocalypse. We hardly noticed | Diana Berg",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/04/in-kyiv-hackers-sent-fake-alerts-about-a-nuclear-apocalypse-we-hardly-noticed"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "infrastructure",
+      "place": "Kherson",
+      "lat": 46.6354,
+      "lon": 32.6169,
+      "title": "Ukraine war briefing: race to free dozens trapped under rubble of Russian strikes on aid hub",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/04/ukraine-war-briefing-dozens-trapped-komyshuvakha-russian-strikes"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 132
+      "count": 121
     },
     {
       "place": "Moscow",
-      "count": 23
+      "count": 24
     },
     {
       "place": "Dnipro",
-      "count": 21
+      "count": 19
     },
     {
       "place": "Kherson",
-      "count": 16
+      "count": 17
+    },
+    {
+      "place": "Zaporizhzhia",
+      "count": 10
     },
     {
       "place": "Kharkiv",
       "count": 10
-    },
-    {
-      "place": "Zaporizhzhia",
-      "count": 9
     },
     {
       "place": "Odesa",

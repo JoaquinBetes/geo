@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-11-03T23:23:52+00:00",
+  "updated": "2026-11-04T06:22:07+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -38,13 +38,13 @@
   },
   "window": {
     "from": "2026-02-27",
-    "to": "2026-11-03"
+    "to": "2026-11-04"
   },
   "kpis": {
-    "events_total": 596,
-    "events_unlocated": 3023,
-    "events_7d": 18,
-    "events_prev_7d": 29,
+    "events_total": 600,
+    "events_unlocated": 3040,
+    "events_7d": 20,
+    "events_prev_7d": 28,
     "hottest_place": "Jerusalem"
   },
   "daily": [
@@ -1130,8 +1130,17 @@
     },
     {
       "date": "2026-11-03",
-      "total": 6,
-      "strike": 6,
+      "total": 7,
+      "strike": 7,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": true
+    },
+    {
+      "date": "2026-11-04",
+      "total": 3,
+      "strike": 3,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -7088,6 +7097,46 @@
       "title": "US conducts series of ‘defensive strikes’ against Iran",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/us-conducts-series-of-defensive-strikes-against-iran?traffic_source=rss"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "US launches 'defensive' strikes on Iranian island as Tehran talks hang in balance",
+      "source": "Fox News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNHdvem0tVUZ1NVlqZFQ2NTFqdmNwWFZpUWtVR1VEclNOWkNGbGliOHN1MVhCMzRkNElQaWNGbUwxWkx0TDRBc2pXYWRFMVVzNjQ0a2hHTHkyZndLZ2NNZEIwQl8xMS0tUGxQaE9ZMDFLbGtLMjZPZnU5ZThQRnNUd1l1S1lGZXBCcF9QZHZtd1RRdGZQd0E?oc=5"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Trump confirms strikes on Iran as Tehran warns against return to war",
+      "source": "AFP.com",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMzRNMk9XMXBCU3hrZFo3Z1NKcFVKYlF3Q251cXZnZ0U3eFI5TmFUaU1SUWV6VFFNWUh2YjRZOGhIanBPb1lzLUp6NHhFY1JqWUprdDNEczhjSEI1MG4yMnRNbWVCSkdrTnE4MEVMMlNEMFVYTHhZYnZ2TWl5dTJybllGZXB0OUQxelE?oc=5"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iran says US reply to Hormuz plan ‘unconvincing’; Trump confirms strikes",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxON1ZqTGJfa3lWVVdvUzRRRUc3TlVVYUNFMHhkWlREdDZsYUFzSmdJVjBhcU9PaEptVWRxRm9QMnRGcmpkYkNHVXgydHhJYTd6X0d5dF9JMG1vc1dVOWtBWWxBUTB3VjhkZlAyUEt4cGhPUlJIRzR2cFhkdFVoOEc4SkRkM1FRQ0FpblBPZHh5S3JKMl9zbUhjeUlVazhmdkJ5QjRaUXJ6eV8taGNpV3lv0gG0AUFVX3lxTE1qMndoTmRKR0xGNDZnMVJYWmdselZrTXdiXzFKVjgwQW9OZ242eHJDWFlMa2x5MU1mbGVGdFIwV2V5Q2V2OVpfYmtfd0RLUnhmN01vTjZMdHgzVnVaMlZfelBSajJHOWVJOXZ0UTlQZEMwR0RsalU2bThPekFSRDExWG9KUUVMdFlVSFRPNTgteTdyNGxZMmhCMU9aUjU1SnNaTWJETmdSTlFyeHUwQmRUOGpRMw?oc=5"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iran says US reply to Hormuz plan ‘unconvincing’; Trump confirms strikes",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes?traffic_source=rss"
     }
   ],
   "top_places": [
@@ -7097,15 +7146,15 @@
     },
     {
       "place": "Tehran",
-      "count": 22
+      "count": 24
     },
     {
       "place": "Strait of Hormuz",
-      "count": 21
+      "count": 23
     },
     {
       "place": "Sanaa",
-      "count": 4
+      "count": 3
     },
     {
       "place": "Tel Aviv",

@@ -1,6 +1,6 @@
 {
   "id": "china_taiwan",
-  "updated": "2026-11-03T23:24:08+00:00",
+  "updated": "2026-11-04T06:22:17+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -46,10 +46,10 @@
     "to": "2026-11-04"
   },
   "kpis": {
-    "events_total": 91,
-    "events_unlocated": 2280,
-    "events_7d": 5,
-    "events_prev_7d": 1,
+    "events_total": 93,
+    "events_unlocated": 2284,
+    "events_7d": 6,
+    "events_prev_7d": 2,
     "hottest_place": "Taipei"
   },
   "daily": [
@@ -625,6 +625,24 @@
       "total": 2,
       "strike": 1,
       "ground": 1,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-11-03",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-11-04",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -1540,12 +1558,32 @@
       "title": "Align director detained in Taiwan over suspected Chinese chips in drones — Taipei Times",
       "source": "UA.NEWS",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQcmxTblZJbG4zajBfaHpld0tUYjZCOWRMRHZ0YVJjMUJDV2lUdWQxNlpSUzA2QWxnUUtISXJwWlN5c3N0NGtNOWFJSXZ4bFBBSkh4NE5wdVJfRE12QjNHZVMwSWxUcS1MZWlONW1id3Y2WXY2YjZRMlRoaS01bjg5RWpZSEFLRmNkdDZaMm5SYlRYVWxzaGhhaEF6UFk0WXZlZHpZODlSOTlCaXFSRlphVDhJWF9lNEhLNXVIQlJObnpfdWh5VmlTb0NpTW5tRHVoNjRjRzl3?oc=5"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "strike",
+      "place": "Taipei",
+      "lat": 25.033,
+      "lon": 121.5654,
+      "title": "Washington strikes Iranian targets in the Strait of Hormuz: US official",
+      "source": "Taipei Times",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ZWktBN1RnYVVQRU04em5RanlYd2xiRDR3Mk9UcFRkTGhBTTBUcFBTWFI4Y3ZMeDF6V1EzazR5LWhtM1h0Rm9ZYk5Hak45cmtrZkNfZG1MT3hXQzJtYjJZLUloU243WUt4bVNkdm1TYTQ5MXFTdzh4OA?oc=5"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "strike",
+      "place": "Taiwan Strait",
+      "lat": 24.0,
+      "lon": 119.5,
+      "title": "Japan to integrate missile command systems amid Taiwan Strait concerns",
+      "source": "Taiwan News",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBRRVJLRG9GLUE0RTJ0enVRdGEyMzJWR0VSOWVCQ21hekNpdVVfQi1VQUR3OTVTTWdSY1hOelhSZXNJRVVmWmlUZVdObE5FQjdzWmpmQm96dnI?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Taipei",
-      "count": 14
+      "count": 15
     },
     {
       "place": "Taichung",
@@ -1561,6 +1599,10 @@
     },
     {
       "place": "Beijing",
+      "count": 1
+    },
+    {
+      "place": "Taiwan Strait",
       "count": 1
     }
   ],

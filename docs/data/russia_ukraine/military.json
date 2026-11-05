@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-11-04T19:45:09+00:00",
+  "updated": "2026-11-05T06:45:53+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2025-10-23",
-    "to": "2026-11-04"
+    "to": "2026-11-05"
   },
   "kpis": {
-    "events_total": 1165,
-    "events_unlocated": 3291,
+    "events_total": 1167,
+    "events_unlocated": 3293,
     "events_7d": 64,
-    "events_prev_7d": 46,
+    "events_prev_7d": 41,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -1335,35 +1335,15 @@
     },
     {
       "date": "2026-11-04",
-      "total": 9,
-      "strike": 6,
-      "ground": 0,
+      "total": 11,
+      "strike": 7,
+      "ground": 1,
       "infrastructure": 3,
       "air_defense": 0,
       "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-07-24",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Ukraine war latest: Russian ballistic missile strikes Kyiv arms exhibition, killing at least 10, injuring 100",
-      "source": "Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWTFISFFaQ280d0EySEhCMUdVVUM5YVZCZ2FzMmxRSTRUNTlGSWZiUms1dG41ajBBNWd5R1pDb2c2ZTZ3ZjZ2VHVZdzQ5ZU93WFhrNC1uZ1ByVTFlMWx0OXBaRElkT0wyVXNUbGZFajNZVzF1M1Zrc3ZCdmk5LXY0RXZ0ZklpTy1LRV9FOG1wRjdJZlhicUpTbw?oc=5"
-    },
-    {
-      "date": "2026-07-24",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Russo-Ukrainian war, day 1612: Russia kills 10 in rare daytime ballistic strike on Kyiv defense industry event",
-      "source": "Euromaidan Press",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9DYlQzWE1Sckh3T3hKZFR6d0dKc21JRDFjOEswWVlSLUJIZTJOeE9oaXVDMThCMEtqel94XzBrYk5FZWg5Znp4ZXNaWDFxa2N4NzRBRzZiSW96S3VES3FDeVFUdU5sNHREVUNfTUF2RjRnQ0laRFRR?oc=5"
-    },
     {
       "date": "2026-07-25",
       "type": "strike",
@@ -10343,20 +10323,40 @@
       "title": "Zelenskyy says 40 now confirmed dead after ‘insane’ Russian attack on school – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/live/2026/nov/04/eu-ukraine-russia-france-germany-us-nato-europe-latest-news"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "strike",
+      "place": "Zaporizhzhia",
+      "lat": 47.8388,
+      "lon": 35.1396,
+      "title": "Ukraine raises death toll from Russian strike on Zaporizhia to 40 people",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcVRFdTRVRUpQZXAtOU5PSVZiR0g2SFFzMktoWHlJeXRNdjI3VXpsRlpqam1MV1J1NEFmNEZFYzhfNFdoTFN4WDZhdUJYQXV0TWFDb0NudVpyOXhPaWZlcTBtTWVZRXFvWXZCb2I5dzd2YTZkRkkwWnBMLS1GODFXX2VKMHNiUWpUbmVuOWg1bTQ5NmRUaEJLY1dvUEdnX3MzczFNeF9NeWZjZ2xuVURac21nNNIBuAFBVV95cUxQeng1QzJNVi1pdnV4Y0JZQWNkTVRiQ3JMbDJuTkxNUEsxZnJKSVlMMUZGcVZVVHpzRVRYZFdpbF9NZ215MlZMS0pERFZISThJeWRPanNpb0tMa3ZMeERwbC0tSEp0bElncFh5cWhsR25mU2h4MG5URF9xUGxpNWdvZjI1X3NobWRfQi13Q3dlTTJHeUUweHFTcFZsZWQzOVVNQm0yUmpuVGhUM2NOcTlZeHJZRkFraVpJ?oc=5"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "ground",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war latest: Kyiv suffers worst water outage of full-scale war after mass Russian assault",
+      "source": "The Kyiv Independent",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQLWViMXJFNzFBMlVxQlNUYU5RY0ZsSXVxVFhZMmpGMkVvbkxvbmRBcDBfbVBqVmo0amlXUjNHMU5RTWNzeGU5bS1UZVBENGZIYm14SFl0SnRrMTRiai1Oa0tweEJsNWFiVGtwOFVPSlBJWWFQdHlzaXREU3Y1ZlEwbWtpbk5OTDRPQjdBUHB4aFJZc2Rza2VhNXpPbTJsZ2hyZy1QTmhvWHhFVVF5U3lmTWFfSnRGcUVnaVlnSURYcEw2dw?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 123
+      "count": 122
     },
     {
       "place": "Moscow",
-      "count": 25
+      "count": 24
     },
     {
       "place": "Dnipro",
-      "count": 19
+      "count": 17
     },
     {
       "place": "Kherson",
@@ -10364,7 +10364,7 @@
     },
     {
       "place": "Zaporizhzhia",
-      "count": 11
+      "count": 12
     },
     {
       "place": "Kharkiv",

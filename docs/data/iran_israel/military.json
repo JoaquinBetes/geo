@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-11-05T06:46:04+00:00",
+  "updated": "2026-11-05T19:57:21+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-11-05"
   },
   "kpis": {
-    "events_total": 601,
-    "events_unlocated": 3050,
-    "events_7d": 19,
+    "events_total": 604,
+    "events_unlocated": 3053,
+    "events_7d": 22,
     "events_prev_7d": 27,
     "hottest_place": "Jerusalem"
   },
@@ -1141,6 +1141,15 @@
       "date": "2026-11-04",
       "total": 4,
       "strike": 4,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-11-05",
+      "total": 3,
+      "strike": 3,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -7147,6 +7156,36 @@
       "title": "Tehran's war debate turns to wider strikes and nuclear threats",
       "source": "Iran International",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1TaE5GclZpZUtpb3dWN2lDMEVXSFQ5bUNsUC1kV1pva2wtemxoMzh1S3pnVjJUMlRuVEt0MTdhbGVTTUtJSzBMS2lpRDB6STFydVE?oc=5"
+    },
+    {
+      "date": "2026-11-05",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iran says tankers struck in Hormuz amid fears of new US attack",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSndUR0pGRi1MMEthNENuNFlReHRUcGJUVjdxMm9mbEp0bnVncHFlX0ZyMTVXUkR0Ql9CR2lLRElpcnRvQU5mUVFuT2oyakMxaEdGeHZqMnd5dTJyN3hhaFoyX1Z6NS03eUpMTmlCSFd2NktOeU43b0hhRXFKY0tqWHhKYW9FRzNibFFTVHdjSGFTVDhzMnZwak1MMGhTY1N0X3hCZkV30gGrAUFVX3lxTE5jd3JPYU1KcGFXeEJsc0VoM1FsaklHcnVnMkkwTmpZbkNNM2owMDlIOFViMmxWaTlwSzFSX0lqd2FCTWhNejlPeWE1QWxpcFEtbHZ5eklHbXJhTW0yWWlwQ05PeU04OVFLamJvcjBvUHI4ZW9INDFILXVGUHZFQmUwd3hVeW1NUFVmdVZTMGJMSUJfeEtFZS16bTI1SkhKZ3pIVzZaWWd0VG13aw?oc=5"
+    },
+    {
+      "date": "2026-11-05",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Russia agreed to supply Iran with 90 helicopter missile launchers",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/05/russia-agreed-to-supply-iran-90-helicopter-missile-launchers"
+    },
+    {
+      "date": "2026-11-05",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iran says tankers struck in Hormuz amid fears of new US attack",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack?traffic_source=rss"
     }
   ],
   "top_places": [
@@ -7156,11 +7195,11 @@
     },
     {
       "place": "Strait of Hormuz",
-      "count": 23
+      "count": 25
     },
     {
       "place": "Tehran",
-      "count": 23
+      "count": 24
     },
     {
       "place": "Sanaa",

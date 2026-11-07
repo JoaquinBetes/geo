@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-11-06T19:25:05+00:00",
+  "updated": "2026-11-07T05:58:48+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -43,13 +43,13 @@
   },
   "window": {
     "from": "2026-01-12",
-    "to": "2026-11-06"
+    "to": "2026-11-07"
   },
   "kpis": {
-    "events_total": 309,
-    "events_unlocated": 3546,
-    "events_7d": 17,
-    "events_prev_7d": 26,
+    "events_total": 310,
+    "events_unlocated": 3550,
+    "events_7d": 15,
+    "events_prev_7d": 28,
     "hottest_place": "Seoul"
   },
   "daily": [
@@ -676,6 +676,15 @@
     },
     {
       "date": "2026-11-05",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-11-06",
       "total": 1,
       "strike": 1,
       "ground": 0,
@@ -3734,6 +3743,16 @@
       "title": "North Korea says it tested air defense missile and staged cruise missile drill",
       "source": "NBC News",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVWd3M1lsTG1iVzJSX1U3N2hCR3hWZHVYRkt5UThvNkZRd0pOUTI5dzJvcEhQemlaU3o2RTJVaVlmdl95VHh6TU1HMFpWLWxYV1dDWG0wV0hOQWpFQlg1TkZxd1F6a0JYajJHZ08teXlhVzR6Nk93d01PMThaRGZFbU9lNnZGMmFwcElQRV80LUxKRWFvY2xYbzBhNjVyVWlHYnR2c2c4VnI2WnB0cFhj?oc=5"
+    },
+    {
+      "date": "2026-11-06",
+      "type": "strike",
+      "place": "Pyongyang",
+      "lat": 39.0392,
+      "lon": 125.7625,
+      "title": "Here’s why Pyongyang is testing an array of missile capabilities",
+      "source": "Asia Times",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZEpHdW9EVzJhY1BCUjVidDJzdXN1SWZ5NHI0TFlLeEo1dEwyeW1VVFhycFlVandTbGw5NmpYLTBSRXp0UUlsaXdoVnRXcWhMV2tmOFpHY3JKNWotajVlRkhVbnpYZ2J2Z0pMUldiWEV3ZzVsb19ERW01R1RUQ25sNVpNRS1MZGJwajZMV3B6VnI0dHlvSkVtendn?oc=5"
     }
   ],
   "top_places": [
@@ -3743,11 +3762,11 @@
     },
     {
       "place": "DMZ",
-      "count": 31
+      "count": 23
     },
     {
       "place": "Pyongyang",
-      "count": 9
+      "count": 10
     },
     {
       "place": "Sinuiju",

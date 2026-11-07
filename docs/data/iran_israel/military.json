@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-11-06T19:24:38+00:00",
+  "updated": "2026-11-07T05:58:24+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -38,14 +38,14 @@
   },
   "window": {
     "from": "2026-02-27",
-    "to": "2026-11-06"
+    "to": "2026-11-07"
   },
   "kpis": {
-    "events_total": 605,
-    "events_unlocated": 3067,
-    "events_7d": 22,
-    "events_prev_7d": 17,
-    "hottest_place": "Jerusalem"
+    "events_total": 607,
+    "events_unlocated": 3077,
+    "events_7d": 23,
+    "events_prev_7d": 16,
+    "hottest_place": "Strait of Hormuz"
   },
   "daily": [
     {
@@ -1162,6 +1162,15 @@
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 1,
+      "anomaly": false
+    },
+    {
+      "date": "2026-11-07",
+      "total": 2,
+      "strike": 2,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
       "anomaly": false
     }
   ],
@@ -7205,19 +7214,39 @@
       "title": "Iran claims it downed US drone over Hormuz’s Qeshm Island",
       "source": "The Times of Israel",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOa2RoQVVWYjR5OG51UjVZdTlsQW54UDNVcW1ZZVVVU0dGS1N3TzRQMl9tM1hHZVNJSGZDb25Fd0laeHhmRWdLUXRFeU5PbzFXc1N5Q0QtRHNLV0gwdFFWdUVGcmI0RUZWQk8zQXNKS1JMOFJlQllZVVluMXlWeUtyWTdFWW1SdmZsaGRDT2RROGg1dEt3NVpxV2JxZmc0SU5QUHlmcg?oc=5"
+    },
+    {
+      "date": "2026-11-07",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "US carries out another round of ‘minor’ strikes on Iran, Trump says",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/07/us-carries-out-another-round-of-minor-strikes-on-iran-trump-says"
+    },
+    {
+      "date": "2026-11-07",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Trump confirms new US strikes on Iran’s Qeshm Island",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island?traffic_source=rss"
     }
   ],
   "top_places": [
-    {
-      "place": "Jerusalem",
-      "count": 26
-    },
     {
       "place": "Strait of Hormuz",
       "count": 25
     },
     {
       "place": "Tehran",
+      "count": 25
+    },
+    {
+      "place": "Jerusalem",
       "count": 24
     },
     {

@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-11-08T06:00:19+00:00",
+  "updated": "2026-11-08T13:24:42+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,11 +41,11 @@
     "to": "2026-11-08"
   },
   "kpis": {
-    "events_total": 612,
-    "events_unlocated": 3102,
-    "events_7d": 24,
+    "events_total": 613,
+    "events_unlocated": 3105,
+    "events_7d": 25,
     "events_prev_7d": 18,
-    "hottest_place": "Strait of Hormuz"
+    "hottest_place": "Tehran"
   },
   "daily": [
     {
@@ -1168,6 +1168,15 @@
       "date": "2026-11-07",
       "total": 6,
       "strike": 6,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-11-08",
+      "total": 1,
+      "strike": 1,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -7284,15 +7293,25 @@
       "title": "Yemeni gov’t forces report advances as Houthis say deadly strikes hit Sanaa",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/11/7/yemeni-govt-forces-report-advances-as-houthis-say-deadly-strikes-hit-sanaa?traffic_source=rss"
+    },
+    {
+      "date": "2026-11-08",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Donald Trump’s power is on the wane. What next for Russia, Israel – and the rest of us? | Simon Tisdall",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/08/donald-trump-power-russia-israel-us-president"
     }
   ],
   "top_places": [
     {
-      "place": "Strait of Hormuz",
-      "count": 26
+      "place": "Tehran",
+      "count": 27
     },
     {
-      "place": "Tehran",
+      "place": "Strait of Hormuz",
       "count": 26
     },
     {

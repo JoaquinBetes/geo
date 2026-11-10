@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-11-10T07:17:46+00:00",
+  "updated": "2026-11-10T19:43:49+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -41,9 +41,9 @@
     "to": "2026-11-10"
   },
   "kpis": {
-    "events_total": 615,
-    "events_unlocated": 3135,
-    "events_7d": 25,
+    "events_total": 616,
+    "events_unlocated": 3146,
+    "events_7d": 26,
     "events_prev_7d": 12,
     "hottest_place": "Tehran"
   },
@@ -1187,6 +1187,15 @@
       "total": 1,
       "strike": 1,
       "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-11-10",
+      "total": 1,
+      "strike": 0,
+      "ground": 1,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -7332,6 +7341,16 @@
       "title": "IRGC strikes three tankers near Hormuz over ‘US links’",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNem9kRXY3QksycTNtTXVCb2ZRTGtMSUwwYnBpU3M1bG5wUHFQZmNsZUtQT0c2alFWNWI2ZzVqdVh3eERYQW90cnZhRjhpdzllbDlpanVKVHR5VC14dTlKV1R4NlpyeGpLdzM4MnVvam9kS3lDMU5tZ2U0VnNXTy0yR1ZCdUgtWWZQaUMtY0NfM1RSMWJ6U2lfd2VyYTNOQdIBowFBVV95cUxNVGVYMHhUanFDYXNJWHVBQjhhOXFFYVNrOUsyV0oyY3hPMXhpQWkyUnF3ZGFWRDJCVlNsTC1mS1BCcDVzU3BaNm82TTFvR2FWYVcxRnBPdXNNZlJndDRrekJQZVZBREZwTGh4VV9mZEpWS3RCaHBBYVhOVmRhWHcyRTVsdTRDWTcwNU4zbW9NdTFaRl9VMmlNQU1XeUo1cV9Da21v?oc=5"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "ground",
+      "place": "Jerusalem",
+      "lat": 31.7683,
+      "lon": 35.2137,
+      "title": "Jerusalem Daily: 14-year-old killed in West Bank raid",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/jerusalem-daily-14-year-old-killed-in-west-bank-raid?traffic_source=rss"
     }
   ],
   "top_places": [
@@ -7340,12 +7359,12 @@
       "count": 27
     },
     {
-      "place": "Strait of Hormuz",
+      "place": "Jerusalem",
       "count": 25
     },
     {
-      "place": "Jerusalem",
-      "count": 24
+      "place": "Strait of Hormuz",
+      "count": 25
     },
     {
       "place": "Sanaa",

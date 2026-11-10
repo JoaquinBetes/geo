@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-11-09T22:21:31+00:00",
+  "updated": "2026-11-10T07:17:38+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2022-03-14",
-    "to": "2026-11-09"
+    "to": "2026-11-10"
   },
   "kpis": {
-    "events_total": 1199,
-    "events_unlocated": 3382,
-    "events_7d": 58,
-    "events_prev_7d": 53,
+    "events_total": 1201,
+    "events_unlocated": 3388,
+    "events_7d": 51,
+    "events_prev_7d": 60,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -1386,29 +1386,18 @@
       "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
+    },
+    {
+      "date": "2026-11-10",
+      "total": 2,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-07-30",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Ukraine war latest: Heartbreak in Ukrainian village as Russian missile kills at least 6 family members",
-      "source": "The Kyiv Independent",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNWhTNDFITnRqdTBJVjdVb2tRbUVDYmdFeTBMSWpRMG1CcWRhX3hkSDl2RDNfMmM1OXV3aFF1N1ZtMnQta3JPTzYyS0NhdUMtTEczUE5FdndkRUc4Z2dsbFRPWEllcmxCamkxVGZGaFJGNXg2TlhZN0xYbkhIM0lEeDhkZ1JEQ29SS2Y1TGRGa1RjOVZnX09Ybm9wTUlDQUpHQi0wQUpCbHJVTDdCSmFpR2ViVTAwcVpvb1BpVnRFQXZTUQ?oc=5"
-    },
-    {
-      "date": "2026-07-30",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Russian missile destroys US firm’s Kyiv drone factory",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/jul/30/us-firm-drone-factory-terminal-autonomy-ukraine-russia"
-    },
     {
       "date": "2026-07-31",
       "type": "strike",
@@ -10388,28 +10377,48 @@
       "title": "More than 400,000 Russians killed fighting in Ukraine war, leaked data suggests",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/nov/09/russians-killed-ukraine-war-leaked-data"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "US officials seek ‘final end’ to Russia-Ukraine war as Abu Dhabi talks begin",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/10/us-officials-russia-ukraine-war-abu-dhabi-talks"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "infrastructure",
+      "place": "Dnipro",
+      "lat": 48.4647,
+      "lon": 35.0462,
+      "title": "Ukraine war briefing: battlefield gains bolstering Kyiv’s hand in US-led peace talks, Zelenskyy says",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/10/ukraine-war-briefing-battlefield-gains-bolstering-kyivs-hand-in-us-led-peace-talks-zelenskyy-says"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 122
+      "count": 121
     },
     {
       "place": "Moscow",
-      "count": 21
+      "count": 22
     },
     {
       "place": "Dnipro",
       "count": 19
     },
     {
-      "place": "Zaporizhzhia",
-      "count": 18
-    },
-    {
       "place": "Kherson",
       "count": 17
+    },
+    {
+      "place": "Zaporizhzhia",
+      "count": 15
     },
     {
       "place": "Kharkiv",

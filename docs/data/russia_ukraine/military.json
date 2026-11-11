@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-11-10T19:43:39+00:00",
+  "updated": "2026-11-11T06:20:21+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2022-03-14",
-    "to": "2026-11-10"
+    "to": "2026-11-11"
   },
   "kpis": {
-    "events_total": 1204,
-    "events_unlocated": 3398,
-    "events_7d": 54,
-    "events_prev_7d": 60,
+    "events_total": 1205,
+    "events_unlocated": 3401,
+    "events_7d": 49,
+    "events_prev_7d": 55,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -1395,19 +1395,18 @@
       "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
+    },
+    {
+      "date": "2026-11-11",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-07-31",
-      "type": "strike",
-      "place": "Moscow",
-      "lat": 55.7558,
-      "lon": 37.6173,
-      "title": "Russian Authorities Quietly Prepare Moscow Suburbs for Possible Ballistic Missile Strikes",
-      "source": "UNITED24 Media",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZTJNb2N2TEJ6MktMOGpQaWlEelpodm12VGZRUkpLMmZBcjVuMUVPQmE3NFFjTjJlLW5wYThPMlZ0VFZiRHgwaC1qVjhDcmdCUzJSTWZOaHRkVTBkUDBqSjJNUmFsdVpVV0g2UTd5LXAxcDdPV3hZQ2IyMVVtaHVCZWx1ektNVXNNckdnUkpXanNuaUNSS2pYalctbzlOVXdkWW1zcXFOWGNYMElnUGlaSkEzb3lkTVBzSkVNSVdYV1BZNi05RTBxT0lEU2UtYlY0eUE?oc=5"
-    },
     {
       "date": "2026-07-31",
       "type": "infrastructure",
@@ -10397,16 +10396,26 @@
       "title": "Russian Soldiers Detained in Armenia Over Alleged Assault of Ukrainian Man",
       "source": "The Moscow Times",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVDcwSGhZSUp3dXdTMnFHRFVrbGxBV1VCcUZGa2d2ZmltZzNtT3UzV016cjZaQm5sWlNTaHZMeHFjVHNwTDBkdi15amJ6c2xzSVdjQi1Ca1hrdnFDVGYzSUJrbnhzZFlhN0VPSFJuYURFOWtSMzFHY28yZWZiSEdnbklCNk44VDRYUmN1cmRwc0dMdGtxMUdJZl9qaHlJZW1Nb0dxdVd6bFdjakx3SVFPV25VZFRJdXh4cGZsV2JrUE8?oc=5"
+    },
+    {
+      "date": "2026-11-11",
+      "type": "strike",
+      "place": "Zaporizhzhia",
+      "lat": 47.8388,
+      "lon": 35.1396,
+      "title": "Ukraine captures first Indonesian prisoner of war amid surge in Russian recruitment",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/11/ukraine-indonesian-pow-prisoner-of-war-russia"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 122
+      "count": 115
     },
     {
       "place": "Moscow",
-      "count": 23
+      "count": 22
     },
     {
       "place": "Dnipro",
@@ -10418,15 +10427,15 @@
     },
     {
       "place": "Zaporizhzhia",
-      "count": 15
+      "count": 16
     },
     {
       "place": "Kharkiv",
-      "count": 11
+      "count": 10
     },
     {
       "place": "Odesa",
-      "count": 6
+      "count": 5
     },
     {
       "place": "Belgorod",

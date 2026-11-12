@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-11-11T19:35:20+00:00",
+  "updated": "2026-11-12T07:09:57+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2022-03-14",
-    "to": "2026-11-11"
+    "to": "2026-11-12"
   },
   "kpis": {
-    "events_total": 1206,
-    "events_unlocated": 3410,
-    "events_7d": 50,
-    "events_prev_7d": 55,
+    "events_total": 1208,
+    "events_unlocated": 3422,
+    "events_7d": 41,
+    "events_prev_7d": 64,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -1404,29 +1404,18 @@
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
+    },
+    {
+      "date": "2026-11-12",
+      "total": 2,
+      "strike": 0,
+      "ground": 1,
+      "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-07-31",
-      "type": "strike",
-      "place": "Dnipro",
-      "lat": 48.4647,
-      "lon": 35.0462,
-      "title": "Russia and Ukraine report casualties as they continue to trade attacks",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/31/russia-and-ukraine-report-casualties-as-they-continue-to-trade-attacks?traffic_source=rss"
-    },
-    {
-      "date": "2026-08-01",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Ukraine war briefing: Missile attack on Kyiv kills at least four as Zelenskyy pushes to use Starlink for attacks in Russia",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPNUg0Y1BnVm9iZmtSRVVNelQxUmxLSVg4WG56dWNQYXoxd1ZXdVlEc1pTNENtZHdkRl96UGhiaTlVSDh5MWNhb1FrYXY0WldPR3hsVFJTNnpwTGhJUlpMWVgycmpFT3RuUl9nTHNGanJBOGZUNTRLbUFIaHlyWE0xQWtOWnRfOTRfbWIyLTRQMkRtZG93cUFnQUFDRVZXakZTanNrakhRSzhzVk1ZbmhHVHNadnlVNGpfLU9QUnZwOEwzdnNDOEtKSjE1VkRsRm1OX3RJNU4ySWRfNlNSZXBYcGJFb2FDSGFKVkp2OUx6VTVVeUN3dHgwcVJVSTY?oc=5"
-    },
     {
       "date": "2026-08-01",
       "type": "strike",
@@ -10406,16 +10395,36 @@
       "title": "Russian Military Trucks and Troop Buses Go Up in Flames After Ukrainian Strike on Donetsk Depot",
       "source": "UNITED24 Media",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQV2xWUi15ZjVjOUgzT0hIX0MzVXlCMWs1SjZWQ1ZMWlJPalRqX0RFX1VYMDZMSEVaNG1VczBzWHg2c3JKOFZpckU2QXE1Y0I5TG1RUGVleFdrelRVVVRnUVo5bkZsNk0xZEdGVm5uSmZQWXVNN1Z6OF9xMTZ3c01ycTk1UTM5MTFubmlfeE0xYW0wbWc2WWE2QUI3S0RUVzU3U1Fva21qTmJNWXB0bDBzZFpnOXYxdUg2UmowU0NBM2xPU0xUNlBVeE1GcUJCazJ5ZHF4dHA4bjNvUQ?oc=5"
+    },
+    {
+      "date": "2026-11-12",
+      "type": "ground",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war live: Kyiv says ‘fighting could end this year’ after peace talks",
+      "source": "The Independent",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQV0hZVlFGTHNNY3NsNGhCSWY4amsxWGxEczRTQlRibGwwdU04cGpIUzdQVDBPNXhBVGI5RnlYY3JuTlFNM2ZsdmVKSjVxTTl0bDBUUklMSmhBcXFONnpPMTZKcE9kdjBvOHJCdml3MktFWTRjTmRkX2kxZjNrUXJKeUZTcVc2X0J1T3JjU0RHeFAwS3Eyb0hEaUhtVFA4MEVoZFFRNUw5UzNiUmhnR3JCaGs5WG9NM3RnaU50djFGbw?oc=5"
+    },
+    {
+      "date": "2026-11-12",
+      "type": "infrastructure",
+      "place": "Odesa",
+      "lat": 46.4825,
+      "lon": 30.7233,
+      "title": "Ukraine war briefing: Zelenskyy sees ‘window of opportunity’ for peace as US envoys to meet Putin",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/12/ukraine-war-briefing-zelenskyy-sees-window-of-opportunity-for-peace-as-us-envoys-to-meet-putin"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 115
+      "count": 113
     },
     {
       "place": "Moscow",
-      "count": 22
+      "count": 21
     },
     {
       "place": "Dnipro",
@@ -10431,11 +10440,11 @@
     },
     {
       "place": "Kharkiv",
-      "count": 10
+      "count": 8
     },
     {
       "place": "Odesa",
-      "count": 5
+      "count": 6
     },
     {
       "place": "Belgorod",

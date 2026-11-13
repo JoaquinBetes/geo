@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-11-12T19:54:19+00:00",
+  "updated": "2026-11-13T06:45:01+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -38,13 +38,13 @@
   },
   "window": {
     "from": "2026-02-27",
-    "to": "2026-11-12"
+    "to": "2026-11-13"
   },
   "kpis": {
-    "events_total": 621,
-    "events_unlocated": 3181,
-    "events_7d": 20,
-    "events_prev_7d": 19,
+    "events_total": 622,
+    "events_unlocated": 3192,
+    "events_7d": 18,
+    "events_prev_7d": 21,
     "hottest_place": "Tehran"
   },
   "daily": [
@@ -1213,6 +1213,15 @@
       "date": "2026-11-12",
       "total": 4,
       "strike": 4,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-11-13",
+      "total": 1,
+      "strike": 1,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -7419,24 +7428,30 @@
       "title": "Jerusalem Daily: Gaza’s Nasser Hospital hit by Israeli air strike",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/jerusalem-daily-gazas-nasser-hospital-hit-by-israeli-air-strike?traffic_source=rss"
+    },
+    {
+      "date": "2026-11-13",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Iran war live: Trump says Gulf allies urged pause in Iran strikes",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/iran-war-live-riyadh-china-discuss-houthis-as-group-claims-aramco-attacks?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Tehran",
-      "count": 28
+      "count": 29
     },
     {
       "place": "Jerusalem",
-      "count": 27
+      "count": 26
     },
     {
       "place": "Strait of Hormuz",
       "count": 25
-    },
-    {
-      "place": "Sanaa",
-      "count": 3
     },
     {
       "place": "Tel Aviv",
@@ -7447,8 +7462,8 @@
       "count": 2
     },
     {
-      "place": "Dimona",
-      "count": 1
+      "place": "Sanaa",
+      "count": 2
     },
     {
       "place": "Chabahar",

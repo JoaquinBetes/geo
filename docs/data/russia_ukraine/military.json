@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-11-13T19:41:45+00:00",
+  "updated": "2026-11-14T06:22:46+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2022-03-14",
-    "to": "2026-11-13"
+    "to": "2026-11-14"
   },
   "kpis": {
-    "events_total": 1217,
-    "events_unlocated": 3460,
-    "events_7d": 44,
-    "events_prev_7d": 55,
+    "events_total": 1220,
+    "events_unlocated": 3468,
+    "events_7d": 43,
+    "events_prev_7d": 49,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -1425,45 +1425,24 @@
     },
     {
       "date": "2026-11-13",
-      "total": 5,
-      "strike": 4,
+      "total": 7,
+      "strike": 5,
       "ground": 1,
+      "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-11-14",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-08-01",
-      "type": "strike",
-      "place": "Moscow",
-      "lat": 55.7558,
-      "lon": 37.6173,
-      "title": "Moscow mayor says over 6,000 Ukrainian drones targeted Russian capital in July",
-      "source": "Anadolu Ajansı",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWXI4OHZMV1gySGpJT2pSMkZsN2ZWaFJmVW9EOTJoSkJYUG00REVvSVFsd0dLeDlFSFNXVEpYOTBLWUxZQ0ZVM29JSEVJVDMyVlN2SzVLd3ZpZW5WQU9aUGtVMVhqZEN5U1hrVVVnOUgzZ3BtU0JRQ3dwdTEtbEd0Wk5EQzNwRFcxUVp4d0p6cnVUSDJPTkpnbFNfR2ZBOS1NcWJya1l4YmYwT19FZHEtTXJRS2dWeU42ZHJRNnNpT0l0a2NJT1R5UVZB?oc=5"
-    },
-    {
-      "date": "2026-08-01",
-      "type": "infrastructure",
-      "place": "Moscow",
-      "lat": 55.7558,
-      "lon": 37.6173,
-      "title": "Moscow claims capture of another village in Ukraine, Kyiv claims hit on Russian oil refinery",
-      "source": "Anadolu Ajansı",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPU0hxVDNBc1RFWUVkT001VnJXNm12dERGbVI5RGVERTJtWkFIN001YVVHTUFLUkxEYjBXbFN5RlV5RWlZOXV1V2pXdHVMTmlfQUVibmtMMk5EVlRsbVNxclVMdXJOVlJ6eDE3Z2dINW9yQnJET0NKQlZxX1hJQUZrbzFCWS1ldFRVb3VwVXJIYUFiT2RvRDNPUmtLbzBoT09SYkh0a2JMdDF6QXc2czdCVzlHeEhoQXBaOWw5dm5xQ3pqczcwWmZmWHp2UzBCa2ktYXozSXV2Yzc2UXM?oc=5"
-    },
-    {
-      "date": "2026-08-01",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Russia Unleashes 27 Ballistic Missiles at Kyiv, Only One Is Intercepted",
-      "source": "UNITED24 Media",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQ2J2OGM3WGpXS0VWZXJuWFpPSVl6ZnRhR0RpNWJKLTEtRV94bXEzek82QUI0bUVXWFlUT3VWOVNtQTdEVDdZeGd4dTVnVXRxSXJldjlCam92WjZQX1BQSFVaT0xNMXlwa09kdjN5bm1nTl8wR2R1eU02N1RwZWIwSVZJeWYyR3BoV3JkOXJ3VHM2bjN3aks0S0NtcHV2X1lTMzVtMDRDb1ZKcnlPQ1l3Z01aOGZJY1V6?oc=5"
-    },
     {
       "date": "2026-08-01",
       "type": "strike",
@@ -10433,16 +10412,46 @@
       "title": "Moscow car bomb severely injures former aide to Ukraine’s pro-Russia ex-PM",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/nov/13/car-bomb-attack-moscow-russia"
+    },
+    {
+      "date": "2026-11-13",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Ukraine war latest: Ex-PM press secretary reportedly injured in Moscow car explosion",
+      "source": "The Kyiv Independent",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNR3VfZnRYOVFiV3RpT1VES01nNFNKVGVhd1hha3QyU0sxNWZDVE5Oc2xiR2paZlo5SEhxUmliQkNqVG5Ua0hZdlVIU1RJYTEtUGRtVTJienZGbWNlbl9YSVZlc25MYWg3R1p1bDRwOU1ZOHE0elVtQWVpN0dham1uZnFiQmpBT2I4bjVRYXNHTks3ck05Zjg2djFac1NnYjBpUzRBNTAzd1dHa0VhOXQzX0JR?oc=5"
+    },
+    {
+      "date": "2026-11-13",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Latest news on the war in Ukraine. Kiev General Staff: ‘Russian mega-refinery hit in Volgograd’",
+      "source": "Il Sole 24 ORE",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOc3JIaENWNHBPdzJ5VW9jNlFsa2ZBTnBRdnBFa20tbGJJSGVpQV80MHlKV2R5b0lpcldhNmFVSk92cHNaend1LXl4dElSV0RiQXYtTWhQY3lweVludkhWZVZ5NU1uLWJVb1NBX2Fpd3hla0ZBbnBfWHRTUGtwRFg5YTVEbUJOT3pGYVhjQXhWNGstRDRWQS1UdGpqMXZ2SjFGbTFaRFotQ19OT1ZKSU41amVFQWpic1VOZzdKaTliZGROdw?oc=5"
+    },
+    {
+      "date": "2026-11-14",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Ukraine-Russia war latest: Moscow strikes hospital in central Kyiv as Zelensky says Starshield restrictions continue",
+      "source": "The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLUdDWFpKYTFpLXBKakFwVW5DYjA5eXdONUZZUi1vVGlpcjZlSlJaQmFCNmk0ZDAyOWZMSlh4T2FwZVFCMVRYLWxQb3MwdmMzUHNhQWdFWGV2RHdsZmZPYzdMd3RTdHZ4QzFxazlDVzE4cll5MnBOSHFnM2IwX1Q5RHJPbW1DOXpmMFVJVzFTMVhvc0NuWmlYWEhFeFpaZ1dEN0hTUkJQS2x3Ql9IV2VVMWtvUWlYTndJbVRETFhvT2tCUQ?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 106
+      "count": 95
     },
     {
       "place": "Moscow",
-      "count": 23
+      "count": 25
     },
     {
       "place": "Dnipro",
@@ -10470,7 +10479,7 @@
     },
     {
       "place": "Donetsk",
-      "count": 4
+      "count": 3
     },
     {
       "place": "Kursk",

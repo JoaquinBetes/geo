@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-11-14T22:24:17+00:00",
+  "updated": "2026-11-15T06:31:28+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -38,13 +38,13 @@
   },
   "window": {
     "from": "2026-02-27",
-    "to": "2026-11-14"
+    "to": "2026-11-15"
   },
   "kpis": {
-    "events_total": 628,
-    "events_unlocated": 3213,
-    "events_7d": 22,
-    "events_prev_7d": 22,
+    "events_total": 630,
+    "events_unlocated": 3225,
+    "events_7d": 18,
+    "events_prev_7d": 24,
     "hottest_place": "Tehran"
   },
   "daily": [
@@ -1229,8 +1229,17 @@
     },
     {
       "date": "2026-11-14",
-      "total": 4,
-      "strike": 4,
+      "total": 5,
+      "strike": 5,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-11-15",
+      "total": 1,
+      "strike": 1,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -7507,6 +7516,26 @@
       "title": "Deadly car bomb blast kills two near Syria’s capital",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/deadly-car-bomb-blast-kills-two-near-syrias-capital?traffic_source=rss"
+    },
+    {
+      "date": "2026-11-14",
+      "type": "strike",
+      "place": "Damascus",
+      "lat": 33.5138,
+      "lon": 36.2765,
+      "title": "Explosion near Syria’s capital kills father and child",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/14/explosion-near-syrias-capital-kills-father-and-child?traffic_source=rss"
+    },
+    {
+      "date": "2026-11-15",
+      "type": "strike",
+      "place": "Jerusalem",
+      "lat": 31.7683,
+      "lon": 35.2137,
+      "title": "Israel's defense establishment sees no urgent need to strike Iran until new gov't formed - report",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1SSkdqMjRWeXlLVzV0NllGeDdnM3k0bTJRaFg5cEMyUjh2VzR1eGFzbWo1cDdpbUY1T3A1RW1Ua3NHWkhXZDdkR0k4VTRtLWU0bWRVVDBSYjBLNTVWWjBWeURfLWdoTzdhNF9FU3RR?oc=5"
     }
   ],
   "top_places": [
@@ -7516,11 +7545,15 @@
     },
     {
       "place": "Strait of Hormuz",
-      "count": 27
+      "count": 26
     },
     {
       "place": "Jerusalem",
-      "count": 25
+      "count": 24
+    },
+    {
+      "place": "Damascus",
+      "count": 3
     },
     {
       "place": "Tel Aviv",
@@ -7532,10 +7565,6 @@
     },
     {
       "place": "Sanaa",
-      "count": 2
-    },
-    {
-      "place": "Damascus",
       "count": 2
     }
   ],

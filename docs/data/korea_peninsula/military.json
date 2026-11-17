@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-11-17T07:55:23+00:00",
+  "updated": "2026-11-17T20:55:49+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -46,9 +46,9 @@
     "to": "2026-11-17"
   },
   "kpis": {
-    "events_total": 313,
-    "events_unlocated": 3699,
-    "events_7d": 2,
+    "events_total": 314,
+    "events_unlocated": 3718,
+    "events_7d": 3,
     "events_prev_7d": 15,
     "hottest_place": "Seoul"
   },
@@ -705,6 +705,15 @@
       "date": "2026-11-10",
       "total": 2,
       "strike": 2,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-11-16",
+      "total": 1,
+      "strike": 1,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -3801,12 +3810,22 @@
       "title": "Pyongyang rejects UN chief’s call for inter-Korean dialogue in wake of DMZ mine blast",
       "source": "Korea JoongAng Daily",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQYnlJekZTSEpsR0ktQXlPcU9nVWxDM2FzZ1ZpdldGTFcxdVN0UU1VRng2WjgyQlluNUwyZ3d6MDdnT0xtVjhvWE5xZENIMUg1dVluOEJBb29oeWtReWNkY2liMV9FQjRhbEtBdGhPam9KQVpoYllORVh2a3NTcExpZGNFNUZkcUJYZGk0Sk5aU2N1SU1GVy1ELUo2bXBsQXlRZUk5R3lSYnVRekQ3RTZ6N2RHN1ZyeVNJWmxJVkZ5a01VWmJ6c0NQZnlheURvdw?oc=5"
+    },
+    {
+      "date": "2026-11-16",
+      "type": "strike",
+      "place": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "title": "With US alliance less certain, Seoul needs to fix missile defense",
+      "source": "Asia Times",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQN3NSdHJacmdNa1BjYUp5ZldibGoyOEx5NEZKOVg4Y0NrZnFhQ1paVmZJVzBQenB5endPWUhsVGtBeUYwdlFxQXlPNXRFaEtrNktXY0M1RUU2QTBmQnRPVHctNXRaNlpxQ3BxWUZPRG5QUHRJWjZHdmpSTUl0aV9MdlNUWklEVmhuMGt6eEVJc3dFMk1lWnNWdjcyMA?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Seoul",
-      "count": 25
+      "count": 26
     },
     {
       "place": "DMZ",

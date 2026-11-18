@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-11-17T20:55:11+00:00",
+  "updated": "2026-11-18T07:28:13+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2022-03-14",
-    "to": "2026-11-17"
+    "to": "2026-11-18"
   },
   "kpis": {
-    "events_total": 1255,
-    "events_unlocated": 3552,
-    "events_7d": 55,
-    "events_prev_7d": 49,
+    "events_total": 1266,
+    "events_unlocated": 3569,
+    "events_7d": 61,
+    "events_prev_7d": 48,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -1452,134 +1452,33 @@
     },
     {
       "date": "2026-11-16",
-      "total": 6,
+      "total": 8,
       "strike": 1,
       "ground": 0,
-      "infrastructure": 5,
+      "infrastructure": 7,
       "air_defense": 0,
       "anomaly": false
     },
     {
       "date": "2026-11-17",
-      "total": 22,
-      "strike": 2,
+      "total": 29,
+      "strike": 3,
       "ground": 0,
-      "infrastructure": 20,
+      "infrastructure": 26,
       "air_defense": 0,
       "anomaly": true
+    },
+    {
+      "date": "2026-11-18",
+      "total": 2,
+      "strike": 2,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-08-04",
-      "type": "strike",
-      "place": "Moscow",
-      "lat": 55.7558,
-      "lon": 37.6173,
-      "title": "Five dead in Moscow as Ukraine continues warehouse strikes",
-      "source": "bbc.com",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE13a2ZCWUQ0NFZBV1JhLXp3T1hPOUoyM3g5SzFELUk1NFRNWUVPam1SSVFLSXhMZVFkLXJVd1BGclZtRUp1VzNPYjRnZjBGVG10RlgyRkFZakFwQQ?oc=5"
-    },
-    {
-      "date": "2026-08-04",
-      "type": "strike",
-      "place": "Moscow",
-      "lat": 55.7558,
-      "lon": 37.6173,
-      "title": "Five dead in Moscow region as Ukraine continues warehouse strikes",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c151pkww79zo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "date": "2026-08-04",
-      "type": "strike",
-      "place": "Moscow",
-      "lat": 55.7558,
-      "lon": 37.6173,
-      "title": "Ukrainian drone strike on Russian warehouses in Moscow region kills 5, local official says",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPamNubFFLdEI3Y2kzUzQ4cklzWlJHQmpTaEwyb3lXTU14UHNhMjZKUHA4TkhaMDZIRGg3Q0hzX3NlOUdzTFZyRTdpR2xLaXVwWmdHRE1ZMk5PMTMzaTNMcm4xaGtfN0owekNLWU5Ndlhoem50X0tZUWxpTC1md0dxdTducWUtXzFRV3JCRE1PbGZ5Wmpscnc?oc=5"
-    },
-    {
-      "date": "2026-08-04",
-      "type": "strike",
-      "place": "Kherson",
-      "lat": 46.6354,
-      "lon": 32.6169,
-      "title": "Ukraine war latest: Video shows Russian drone attack on civilian in Kherson as more Wildberries warehouses hit",
-      "source": "The Kyiv Independent",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9PYzlOekQ5TmJaampmWFZORC1HcjN0OFUzMWo4N0czMlY1SDltQlA0dFdTQUlYWVpQWXB1UDItMndwV01qMWRmV3Q0dGZGUUJYR0VDRjNWZ1M0bmh6WkhDbUpFT2E3T0Fxa1E?oc=5"
-    },
-    {
-      "date": "2026-08-04",
-      "type": "strike",
-      "place": "Kherson",
-      "lat": 46.6354,
-      "lon": 32.6169,
-      "title": "Ukrainian vegetable seller targeted in 'human safari' drone attack",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/videos/clye173d533o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "date": "2026-08-04",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "One killed, 12 injured in Russian ballistic missile attack on Kyiv",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/4/russia-strikes-ukrainian-capital-kyiv-with-ballistic-missiles?traffic_source=rss"
-    },
-    {
-      "date": "2026-08-05",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "One killed, 12 injured in Russian ballistic missile attack on Kyiv",
-      "source": "aljazeera.com",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQakxadDBaakxEWXBQMjZpMWdLekt6T01HRHVnWkgyVHdPVE1kRU9kRnczLVpNak5jVEZ1bGp4Snd2NWVlaDhGQWEtNUI5bC16SU5sNHJPN2laeHhRckR2VlliQkZJSWNnZGZ6OHJLdFJEVVVRaDM5ZmJrVUZ6emVMM21ualhfU2JlVFVKRE1LZHYtYzA3c2xTOWsxbjlvX2Z3LThJ0gGoAUFVX3lxTFBQZ0JQdGt6V3RQUmVxdGhGMFBmMHlLSHl0WUpCNG1vRlBoMkZGX0s0RFNzZ3Bxam8tcnVYTkN3RU1idk9LLVFJSW84aWZaQ2hRZkhXRnVtbjMxdkI3N3hackhyY2FaZl9zWjBub2FySXo2d3JmRHhCbkprcmwxNEtYVmRSTFpRcFJ3YkNTOGxkeFBCOTJrdDNRcjNVaThLdXhGM3QxRFFSNw?oc=5"
-    },
-    {
-      "date": "2026-08-05",
-      "type": "strike",
-      "place": "Sevastopol",
-      "lat": 44.6166,
-      "lon": 33.5254,
-      "title": "Ukraine war briefing: Russian soldier in Crimea shoots comrades and civilians",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/aug/05/ukraine-war-briefing-russian-soldier-crimea-shoots-comrades-civilians"
-    },
-    {
-      "date": "2026-08-05",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Russian ballistic missile strike on Kyiv kills two and injures others, officials say",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c330pxyvzzyo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "date": "2026-08-05",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "EXCLUSIVE: North Korean missile unit deploys in Russia for Ukraine war, Kyiv says",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPaFRSNUJ4Q1ZaYlI0cVl1UjMyRHBNdE40MEYtTGJ6YXplZTdyTG9XTkRDSzg3NUNhUGVTTkY3c1I1MThScU1pZF9Ta1hDYzlHeklKZU8xVTdpUE5xemw4eU4wcUxBUXQ4N1VmMTMxM1N1dXo0SXNMWklQc21EeTFUdnpvTlF4QXRlNGpQM1FySkQ5eDhCWDRLVDVRd1VlaUlpUmtuRS1TVkNEOXRhalVyOXF6VUhFM0JxdzVMaUlXWkpNM2s?oc=5"
-    },
-    {
-      "date": "2026-08-05",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Russian ballistic missile strike on Kyiv kills at least 17",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90dnd6Z0NpTWFCbzRGLXBEVXh1bUpXcnREWU8xWjBnc1hDWEFpWlhRU2loem5xYS16eUIyeGViSEc4c0U5STBJdk5qX0VqeS0yX1dVakFxbkZ5dw?oc=5"
-    },
     {
       "date": "2026-08-05",
       "type": "strike",
@@ -10251,6 +10150,26 @@
       "url": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss"
     },
     {
+      "date": "2026-11-16",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war latest: US-Europe split deepens over Kyiv's long-range strikes into Russia - as part of Putin's prized Crimea bridge collapses",
+      "source": "Sky News",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQN194QW0tb1BJblZuN0dybWtuLVIwdVNmdVgxWE9Kb1paNlFGWmFpSmk1QXg0RW1id0tBV1hXYldsMkdYZlZuanQxc2dVTXZRYk1jRGNZTjR3NVFTVzBJQWpBSXJVYXoyaDZ0cEdISnZRdDBJZ3lmTGJjaV9ibEdOcllDSmhfUzc5Si1sdDVTQQ?oc=5"
+    },
+    {
+      "date": "2026-11-16",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine-Russia war latest: Kyiv strikes Crimean bridge as it launches huge assault on Moscow",
+      "source": "The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNWlTSmtsWjdYMVdaaFVoZm1OXzlKSXMyd0ZmZnZYdEZBTnBHQ1c3OXpid1dnZl85M2xuUUE2dC1oWnM1cFctY1d2dUhOQWx6WmNBMXg0TVY3LTRySlFkcVRKckl3UnFZcEVzTDVtX2JYellUQ29hWk9DMGFpaUFocXZkYWVJZXVGd0U4eDJaZmd2S21nZVktNzBhNWdETWlCaDVxcDZibDM?oc=5"
+    },
+    {
       "date": "2026-11-17",
       "type": "infrastructure",
       "place": "Kerch",
@@ -10469,27 +10388,117 @@
       "title": "Ukraine strikes major Russian bridge with drones and missiles as aerial attacks escalate",
       "source": "NPR",
       "url": "https://www.npr.org/2026/11/17/g-s1-153946/russia-ukraine-war"
+    },
+    {
+      "date": "2026-11-17",
+      "type": "infrastructure",
+      "place": "Kerch",
+      "lat": 45.3531,
+      "lon": 36.4545,
+      "title": "Ukraine Attacks Kerch Bridge Linking Russia to Occupied Crimea",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSWtLTm1oUmtNWG42UWhuQ0l1Q05RS2pJd1NZaHBRTjNPYmpBYUV2cEJ2VkhySDZpa3RjV0dpd25WaTFCbERTdVNpZU9IQ1Y0OHVZUHZiTjc2c1hURGN6STBLRC04eTYzclJIanh2cllwM2pZRDJQanpFeERPWlN1Zjc3TXZkZXhwZWk1YllzVlk3bGRGQ0s0?oc=5"
+    },
+    {
+      "date": "2026-11-17",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war latest: Entire section of Crimean Bridge collapses after 'seven-phase operation,' Zelensky reveals",
+      "source": "The Kyiv Independent",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPYUhqQUVuOERUckRHcVpNTGFqcW9xMThWWWp6RHRSeHYxcWNPQWZ1ZWRqcUoxZVFHSDNxcTYySjhfZ1JtazlLZEV3Z0FacWVXcUJUeDFVNjZiUl96c2pHTEZvYXVCVkw1M0Vqejk1bXo3SHl1NElSRDlMVnBlSjRhblViWTF0MlU2endSdDZxM2h0Nmhyb3NhWk4zc1Jqb0lxWEduYkliQ2Qta3cxY1pJTjY5QVZWTTNTaXBQUTRyOGJHd0FlSmdTSjFDZjZJV3Vh?oc=5"
+    },
+    {
+      "date": "2026-11-17",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "BBC reports from Kyiv bridge hit by Russian attack",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8zM01OVnFZdTNJQkdwMmllNmdhNkdFNUN6VFJXUElqa1k4OHlhY1lSZHpJb2NOWGo3a2s5aENaVDhoT2JScXNOOVExcHlBSkpoeUd5QVJXajc?oc=5"
+    },
+    {
+      "date": "2026-11-17",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: Crimea bridge attacked again after Russia strikes major Kyiv bridges",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTmg0aDByRUM0SnpqOVZlZmZncVpLOW5zZGl0SG9xemhVbVNhcndfNGNCZHhxdVdRZGZ1U3NiN2JfWTBMcGhHQnlCa2lGRWxpNUxlcmxENzFteHJiZzhzV3ZrZ0tkZ2tUVG1ZOEpDS1M4UnJFQ01PdVYwM3RUTWE5Ykh0WHhua3J6Skx5RWVEcHVzVDlMRmRESksxNlNPSS01RFRyZUNWM0wyQjFoYlVkbjNzM1VUZHJJUGhJSlZLbzczWmFDRXJTV2JfQlZaSnps?oc=5"
+    },
+    {
+      "date": "2026-11-17",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "German minister rejects US criticism of Kyiv's deep strikes as 'stupid'",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRmdnNC1aejdXR1ZzZFEzSGVBNEJ5T2VRZTdHTU1mVGlrcnJkZTlacmJ2V3UteWNQZkNKTUpQa1gtRGxNaGV6ejVaM1JQZkszX2FZeWs0RXlQM09aYnBvdllESnktVEZMclBBcnZDNVdremViZjZmSlZHcGRLeHpCLWc3VnQ3M0psWXBReEg2SEZzSmQ0dkVBbU1ZOTVaVGI1Yld6cWNiaXBGeFB5OFZCTA?oc=5"
+    },
+    {
+      "date": "2026-11-17",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine drone attack kills two in Crimea as Kyiv targets bridge to Russia",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVzBfcTd0dGtoRnJmelJGSUhydE9IdTBfejEwYVhrdFB3OG1qMkV2VEVPXzJXQkdZR3h6LVNfM1JEMWxBTTFPV2JPb01Vc1BFV2lQbThfTmVfUS1ReWNYZ2I2WTF5LWhGRm8zOTYtTXhoUmlrcjVxTkJHbjZ3TXdLQjE0VnhONnUtUnNjdGlESmR5dDgtNHBJa1h6RXFCYjdQMFNCcjJXTkpkZV9HbHNHVXBlWdIBuAFBVV95cUxOYTA4MG44OTJSdkxmODdjLTJ2SnhtQXRoNzZodTdDRC1lRUtXeGFTNzl3dGQ1UFpkTWQxRUxkQVY1d24tNXhMdGUydlpCWkZpdnRpTnpOSXVrbHBjSDRmZ3drUF93Rm0zRzJDRFhpWW5XaG8tNlNwc0FGSHBTVERvVjNyZS1FV016MkRJdW1VSHUyWXlEcHRsMnNabm9nRml1ejJ1czhMb2Rlbm5nQ2cwbHNzSmZHa0xB?oc=5"
+    },
+    {
+      "date": "2026-11-17",
+      "type": "infrastructure",
+      "place": "Kerch",
+      "lat": 45.3531,
+      "lon": 36.4545,
+      "title": "The Kerch Bridge is crucial to Russia’s war effort and for asserting Moscow’s control of Crimea",
+      "source": "WTOP News",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPX2NmUFNrQzJPaGw5SFFvb1hkdWJiblpkVDc2Tl9XTHlaOWRobm9sMzNPNmNjd1lQN0tpTkNHWnp6VnJhS3M1el9mWVg1TlhSN3BOTEZzNDNoYS1PZDlHMVc4eWRuc2lZeWV4TmxZY1pxSmJFdFhvMTZZeWp0Yzh2Mjd2WTZxY2w5Skh6aHFsYmIxa296d2VPa0hqWWJmWWJrUFh0SGRRNGZHb3lpMGNydl81QkFncjd3eF8wUXVJLTlGSDZhZC1r?oc=5"
+    },
+    {
+      "date": "2026-11-18",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: US criticism of Kyiv’s deep strikes in Russia is ‘quite stupid’, says Germany",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTU1EdklyeEdxbTVJV280d3ZRYWVNamFOSjJiY0Z2SHVaVVlKZW9sa3FMQUVHMU5VSWgyWVZhQmVaUmZmdnNvbUxxUzU0aTVRMFkydGs5V1FLME5YeFNVcXAzVEFjcmVxajJmLW1xZGhGbngzcV8xWnJvWnlCdEFydVE0akFHbk9qd0tjTUNPckdhem5DMi1fellPV1Q3ejY3NWpHLU92LVg?oc=5"
+    },
+    {
+      "date": "2026-11-18",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: US criticism of Kyiv’s deep strikes in Russia is ‘quite stupid’, says Germany",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/18/ukraine-war-briefing-us-criticises-kyiv-deep-strikes-russia"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 97
+      "count": 103
     },
     {
       "place": "Moscow",
-      "count": 24
+      "count": 22
     },
     {
       "place": "Dnipro",
       "count": 20
     },
     {
-      "place": "Zaporizhzhia",
-      "count": 18
+      "place": "Kerch",
+      "count": 19
     },
     {
-      "place": "Kerch",
+      "place": "Zaporizhzhia",
       "count": 17
     },
     {

@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-11-20T20:19:25+00:00",
+  "updated": "2026-11-21T07:07:23+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -38,13 +38,13 @@
   },
   "window": {
     "from": "2026-02-27",
-    "to": "2026-11-20"
+    "to": "2026-11-21"
   },
   "kpis": {
-    "events_total": 648,
-    "events_unlocated": 3371,
-    "events_7d": 27,
-    "events_prev_7d": 17,
+    "events_total": 650,
+    "events_unlocated": 3384,
+    "events_7d": 26,
+    "events_prev_7d": 18,
     "hottest_place": "Tehran"
   },
   "daily": [
@@ -1265,9 +1265,18 @@
     },
     {
       "date": "2026-11-20",
-      "total": 5,
-      "strike": 4,
+      "total": 6,
+      "strike": 5,
       "ground": 1,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-11-21",
+      "total": 1,
+      "strike": 1,
+      "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -7743,19 +7752,39 @@
       "title": "Jerusalem Daily: Palestinians return home to ruins",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/jerusalem-daily-palestinians-return-home-to-ruins?traffic_source=rss"
+    },
+    {
+      "date": "2026-11-20",
+      "type": "strike",
+      "place": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "title": "Clock ticking on Iran strike as Tehran races to fortify nuclear sites",
+      "source": "Ynetnews",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9WdGlQNHFfQjhjZWhVQXZyZ0cwTVVReW1ySG9nOGRDQU5vZFg3cGFBX3Q4MlJESTZybHhMRE9Nc2NsYXBxdXZFdDgxV2dNSkE3X2drQkswTWpIVjhjem5ZVlMtTWNmejlRUlVrOWhB?oc=5"
+    },
+    {
+      "date": "2026-11-21",
+      "type": "strike",
+      "place": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
+      "title": "Iran war live: Saudi-led coalition downs Houthi missiles",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles?traffic_source=rss"
     }
   ],
   "top_places": [
     {
       "place": "Tehran",
-      "count": 32
-    },
-    {
-      "place": "Jerusalem",
-      "count": 29
+      "count": 33
     },
     {
       "place": "Strait of Hormuz",
+      "count": 27
+    },
+    {
+      "place": "Jerusalem",
       "count": 26
     },
     {

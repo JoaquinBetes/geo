@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-11-20T20:19:15+00:00",
+  "updated": "2026-11-21T07:07:11+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2022-03-14",
-    "to": "2026-11-20"
+    "to": "2026-11-21"
   },
   "kpis": {
-    "events_total": 1305,
-    "events_unlocated": 3635,
-    "events_7d": 93,
-    "events_prev_7d": 39,
+    "events_total": 1306,
+    "events_unlocated": 3648,
+    "events_7d": 87,
+    "events_prev_7d": 42,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -1494,19 +1494,18 @@
       "infrastructure": 6,
       "air_defense": 0,
       "anomaly": false
+    },
+    {
+      "date": "2026-11-21",
+      "total": 1,
+      "strike": 0,
+      "ground": 0,
+      "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-08-08",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Ukraine war briefing: Wildberries warehouse struck by Kyiv’s drones more than 2,000km from Russian border",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/aug/08/ukraine-war-briefing-wildberries-warehouse-struck-by-kyivs-drones-more-than-2000km-from-russian-border"
-    },
     {
       "date": "2026-08-08",
       "type": "strike",
@@ -10496,12 +10495,22 @@
       "title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "date": "2026-11-21",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "‘So what if there’s a hole? It hasn’t collapsed’: Kyiv residents unbothered by Russian attacks on city’s bridges",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/21/kyiv-russian-attacks-bridges"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 112
+      "count": 108
     },
     {
       "place": "Kerch",
@@ -10509,7 +10518,7 @@
     },
     {
       "place": "Moscow",
-      "count": 25
+      "count": 23
     },
     {
       "place": "Dnipro",

@@ -1,6 +1,6 @@
 {
   "id": "china_taiwan",
-  "updated": "2026-11-21T19:16:14+00:00",
+  "updated": "2026-11-22T06:47:54+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -43,12 +43,12 @@
   },
   "window": {
     "from": "2026-01-30",
-    "to": "2026-11-21"
+    "to": "2026-11-22"
   },
   "kpis": {
-    "events_total": 97,
-    "events_unlocated": 2488,
-    "events_7d": 2,
+    "events_total": 98,
+    "events_unlocated": 2495,
+    "events_7d": 3,
     "events_prev_7d": 0,
     "hottest_place": "Taipei"
   },
@@ -651,6 +651,15 @@
       "date": "2026-11-15",
       "total": 2,
       "strike": 2,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-11-22",
+      "total": 1,
+      "strike": 1,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -1587,6 +1596,16 @@
       "title": "China’s HQ-17A air-defense network offers mobile missile protection for troops near Taiwan Strait",
       "source": "Interesting Engineering",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTUxxRmJkZ1dnNjBEanhpWTR5ck1hRXNGX3FMZ0hTZVhnLUtCLS1rT1RlVlR6cHNoRUFqQ1QxZElRb3dkVDVlUmp2REVhQmk1a2hRYUxjLXBQellKcFBXbDJkY2MyUHVUT2pvWDVXWnd4YXZDMm9iYnc2cUFSYmJDa0JIWUxhanlBQ2c?oc=5"
+    },
+    {
+      "date": "2026-11-22",
+      "type": "strike",
+      "place": "Hsinchu",
+      "lat": 24.8138,
+      "lon": 120.9675,
+      "title": "2026 Elections: Hsinchu candidate begins hunger strike",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/22/2003868178"
     }
   ],
   "top_places": [
@@ -1601,6 +1620,10 @@
     {
       "place": "Taiwan Strait",
       "count": 2
+    },
+    {
+      "place": "Hsinchu",
+      "count": 1
     }
   ],
   "losses": null

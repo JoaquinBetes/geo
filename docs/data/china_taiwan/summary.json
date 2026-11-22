@@ -2,13 +2,13 @@
   "id": "china_taiwan",
   "name": "China–Taiwán",
   "description": "Cobertura mediática de la tensión entre China y Taiwán",
-  "updated": "2026-11-22T06:47:51+00:00",
-  "total_articles": 31272,
+  "updated": "2026-11-22T19:40:19+00:00",
+  "total_articles": 31369,
   "overall_avg": -0.1485,
   "distribution": {
-    "pos": 7717,
-    "neu": 9457,
-    "neg": 14098
+    "pos": 7743,
+    "neu": 9485,
+    "neg": 14141
   },
   "sources": [
     "Al Jazeera",
@@ -76,12 +76,12 @@
     "Rti 中央廣播電臺",
     "The Economic Times",
     "Modern Ghana",
+    "联合早报",
     "Asia Times",
     "Travel And Tour World",
     "Chosunbiz",
     "Seoul Economic Daily",
     "The Hindu",
-    "联合早报",
     "CNA",
     "Asia News Network",
     "The New York Times",
@@ -159,6 +159,7 @@
     "AccuWeather",
     "Korea JoongAng Daily",
     "Military Watch Magazine",
+    "毎日新聞",
     "The Hill",
     "Interesting Engineering",
     "USNI News",
@@ -169,7 +170,6 @@
     "Defence Security Asia",
     "The Herald Journal",
     "Forbes",
-    "毎日新聞",
     "WTVB",
     "The Maritime Executive",
     "Rappler",
@@ -187,6 +187,7 @@
     "gCaptain",
     "Brookings",
     "Marine News Magazine",
+    "Oskaloosa Herald",
     "RFI",
     "ING Think",
     "صوت الإمارات",
@@ -207,7 +208,6 @@
     "NST Online",
     "Bangkok Post",
     "Council on Foreign Relations",
-    "Oskaloosa Herald",
     "Temple Daily Telegram",
     "TRT World",
     "Cambodianess",
@@ -275,9 +275,11 @@
     "Zona Militar",
     "FXStreet",
     "The Seattle Times",
+    "IndexBox",
     "24/7 Wall St.",
     "PBS",
     "RBC-Ukraine",
+    "China Daily Global Edition",
     "Yonhap News Agency",
     "globaltimes.cn",
     "The Indian Express",
@@ -329,10 +331,9 @@
     "ASHARQ AL-AWSAT English",
     "Breaking Defense",
     "CCTV.com English",
-    "IndexBox",
+    "Mothership",
     "Asia Sentinel",
     "Taylorville Daily News",
-    "China Daily Global Edition",
     "The East is Read",
     "NDTV Profit",
     "The New Voice of Ukraine",
@@ -392,7 +393,6 @@
     "Quiver Quantitative",
     "Indo-Pacific Defense FORUM",
     "Mexico Business News",
-    "Mothership",
     "Euronews.com",
     "Defense.info",
     "NewsNation",
@@ -1286,7 +1286,9 @@
     "cyfirma",
     "IDNFinancials",
     "Bilyonaryo Business",
-    "itemonline.com"
+    "itemonline.com",
+    "cwibc.co.id",
+    "Daily Voice Of Asia"
   ],
   "daily": [
     {
@@ -2859,54 +2861,62 @@
     },
     {
       "date": "2026-11-20",
-      "count": 201,
-      "avg": -0.0928,
+      "count": 202,
+      "avg": -0.0923,
       "pos": 56,
-      "neu": 70,
+      "neu": 71,
       "neg": 75
     },
     {
       "date": "2026-11-21",
-      "count": 145,
-      "avg": -0.233,
+      "count": 147,
+      "avg": -0.234,
       "pos": 32,
-      "neu": 38,
-      "neg": 75
+      "neu": 39,
+      "neg": 76
     },
     {
       "date": "2026-11-22",
-      "count": 69,
-      "avg": -0.1074,
-      "pos": 13,
-      "neu": 30,
-      "neg": 26
+      "count": 116,
+      "avg": -0.1839,
+      "pos": 25,
+      "neu": 38,
+      "neg": 53
+    },
+    {
+      "date": "2026-11-23",
+      "count": 47,
+      "avg": 0.0077,
+      "pos": 14,
+      "neu": 18,
+      "neg": 15
     }
   ],
   "by_source": [
     {
       "source": "Al Jazeera",
-      "count": 10332,
-      "avg": -0.2578
+      "count": 10357,
+      "avg": -0.2582
     },
     {
       "source": "Taipei Times",
-      "count": 8689,
-      "avg": -0.006
+      "count": 8740,
+      "avg": -0.0061
     },
     {
       "source": "BBC",
-      "count": 3401,
-      "avg": -0.287
+      "count": 3409,
+      "avg": -0.2871
     },
     {
       "source": "NPR",
-      "count": 965,
-      "avg": -0.2606
+      "count": 967,
+      "avg": -0.2599
     },
     {
       "source": "Taiwan News",
-      "count": 563,
-      "avg": -0.1358
+      "count": 565,
+      "avg": -0.1345
     },
     {
       "source": "Focus Taiwan",
@@ -3060,8 +3070,8 @@
     },
     {
       "source": "巴士的報",
-      "count": 41,
-      "avg": -0.0187
+      "count": 42,
+      "avg": -0.0183
     },
     {
       "source": "Modern Diplomacy",
@@ -3209,6 +3219,11 @@
       "avg": -0.2571
     },
     {
+      "source": "联合早报",
+      "count": 23,
+      "avg": 0.0609
+    },
+    {
       "source": "Asia Times",
       "count": 22,
       "avg": -0.1626
@@ -3232,11 +3247,6 @@
       "source": "The Hindu",
       "count": 22,
       "avg": -0.0481
-    },
-    {
-      "source": "联合早报",
-      "count": 22,
-      "avg": 0.0328
     },
     {
       "source": "CNA",
@@ -3624,6 +3634,11 @@
       "avg": -0.3048
     },
     {
+      "source": "毎日新聞",
+      "count": 10,
+      "avg": -0.1823
+    },
+    {
       "source": "The Hill",
       "count": 10,
       "avg": 0.1369
@@ -3672,11 +3687,6 @@
       "source": "Forbes",
       "count": 9,
       "avg": 0.1829
-    },
-    {
-      "source": "毎日新聞",
-      "count": 9,
-      "avg": -0.2026
     },
     {
       "source": "WTVB",
@@ -3762,6 +3772,11 @@
       "source": "Marine News Magazine",
       "count": 8,
       "avg": -0.2344
+    },
+    {
+      "source": "Oskaloosa Herald",
+      "count": 8,
+      "avg": -0.2644
     },
     {
       "source": "RFI",
@@ -3862,11 +3877,6 @@
       "source": "Council on Foreign Relations",
       "count": 7,
       "avg": -0.06
-    },
-    {
-      "source": "Oskaloosa Herald",
-      "count": 7,
-      "avg": -0.2147
     },
     {
       "source": "Temple Daily Telegram",
@@ -4204,6 +4214,11 @@
       "avg": -0.3131
     },
     {
+      "source": "IndexBox",
+      "count": 5,
+      "avg": -0.2762
+    },
+    {
       "source": "24/7 Wall St.",
       "count": 5,
       "avg": 0.1527
@@ -4217,6 +4232,11 @@
       "source": "RBC-Ukraine",
       "count": 5,
       "avg": 0.1297
+    },
+    {
+      "source": "China Daily Global Edition",
+      "count": 5,
+      "avg": 0.0507
     },
     {
       "source": "Yonhap News Agency",
@@ -4474,9 +4494,9 @@
       "avg": 0.0256
     },
     {
-      "source": "IndexBox",
+      "source": "Mothership",
       "count": 4,
-      "avg": -0.3453
+      "avg": -0.3824
     },
     {
       "source": "Asia Sentinel",
@@ -4487,11 +4507,6 @@
       "source": "Taylorville Daily News",
       "count": 4,
       "avg": -0.2098
-    },
-    {
-      "source": "China Daily Global Edition",
-      "count": 4,
-      "avg": 0.1877
     },
     {
       "source": "The East is Read",
@@ -4787,11 +4802,6 @@
       "source": "Mexico Business News",
       "count": 3,
       "avg": 0.0674
-    },
-    {
-      "source": "Mothership",
-      "count": 3,
-      "avg": -0.2829
     },
     {
       "source": "Euronews.com",
@@ -9262,38 +9272,48 @@
       "source": "itemonline.com",
       "count": 1,
       "avg": -0.6124
+    },
+    {
+      "source": "cwibc.co.id",
+      "count": 1,
+      "avg": 0.1531
+    },
+    {
+      "source": "Daily Voice Of Asia",
+      "count": 1,
+      "avg": 0.0
     }
   ],
   "top_entities": [
     {
       "name": "Taiwan",
       "type": "LOCATION",
-      "count": 8690,
+      "count": 8704,
       "avg": -0.0649
     },
     {
       "name": "China",
       "type": "LOCATION",
-      "count": 6280,
-      "avg": -0.1507
+      "count": 6291,
+      "avg": -0.1508
     },
     {
       "name": "Donald Trump",
       "type": "PERSON",
-      "count": 2241,
+      "count": 2242,
       "avg": -0.1321
     },
     {
       "name": "Japan",
       "type": "LOCATION",
-      "count": 941,
-      "avg": -0.0668
+      "count": 944,
+      "avg": -0.0679
     },
     {
       "name": "Xi Jinping",
       "type": "PERSON",
-      "count": 767,
-      "avg": -0.0162
+      "count": 769,
+      "avg": -0.018
     },
     {
       "name": "United States",
@@ -9310,20 +9330,20 @@
     {
       "name": "Taiwan Strait",
       "type": "LOCATION",
-      "count": 157,
-      "avg": -0.0948
+      "count": 159,
+      "avg": -0.0894
     },
     {
       "name": "KMT",
       "type": "ORG",
-      "count": 132,
-      "avg": -0.1276
+      "count": 133,
+      "avg": -0.1266
     },
     {
       "name": "TSMC",
       "type": "ORG",
-      "count": 122,
-      "avg": 0.0815
+      "count": 123,
+      "avg": 0.0832
     },
     {
       "name": "DPP",
@@ -9358,47 +9378,20 @@
   ],
   "recent": [
     {
-      "title": "Dozens missing after fire at Indonesian factory",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-22T06:05:00+00:00",
-      "compound": -0.9217,
+      "title": "CCP legal warfare evolving: minister",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/front/archives/2026/11/23/2003868215",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": -0.1779,
       "label": "negative",
       "entities": []
     },
     {
-      "title": "Kenya’s internet metering bill raises privacy and affordability concerns",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/22/kenyas-internet-metering-bill-raises-privacy-and-affordability-concerns?traffic_source=rss",
-      "published": "2026-11-22T05:38:52+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "New draft deal aims to avert collapse of talks at climate summit",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cq7827z2841zo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-22T05:26:10+00:00",
-      "compound": -0.4404,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Displaced Darfur families face volatile winter as Sudan aid cuts bite",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/2026/11/22/displaced-from-darfur-sudan-families-face-volatile-winter-as-aid-cuts-loom?traffic_source=rss",
-      "published": "2026-11-22T05:21:46+00:00",
-      "compound": -0.8625,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "China's drills expose cost of inaction on Taiwan",
-      "source": "Taiwan News",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9lOHA4bVBxcFZSWXBTMndjaDdNaDl0eGtPYUt2UkpfN0lsWlZNSUJ4T05fVW9LNkd2SUR6UWhZUmx5akJiVndNaFY2TjJEUF9ka1dsSExESjk?oc=5",
-      "published": "2026-11-22T05:15:00+00:00",
-      "compound": -0.6369,
+      "title": "Taiwan warns Canada over dependence on China",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/front/archives/2026/11/23/2003868216",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": -0.1027,
       "label": "negative",
       "entities": [
         "China",
@@ -9406,283 +9399,111 @@
       ]
     },
     {
-      "title": "ICE agents detain two people at Seattle airport",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/ice-agents-detain-two-people-at-seattle-airport?traffic_source=rss",
-      "published": "2026-11-22T05:06:32+00:00",
-      "compound": -0.6705,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Attacked for Mocking China’s Leader, His Shows Are Now Selling Out",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR2xZazhkZkE1OURVZV85NlBWeWJ6enlIQ1FUQTllaGlMYUMwWE5aazZTRV8yS01BelpTTFhJN0NNYTlMOEdqVW1QWTItdXZCeGZpWE81M1NvdEx2SFZQY2ZDUEV5ZkFzTE1hbmZaX2lpQ1JFbnBvYW5zLWtCay1hSl9xNmtaV0V3U0Nv?oc=5",
-      "published": "2026-11-22T05:01:10+00:00",
-      "compound": -0.886,
-      "label": "negative",
-      "entities": [
-        "China"
-      ]
-    },
-    {
-      "title": "Fossil fuel impasse pushes COP31 climate talks into second day of overtime",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime?traffic_source=rss",
-      "published": "2026-11-22T04:51:35+00:00",
-      "compound": 0.5106,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "First images of Mexican cartel boss ‘El Chapo Isidro’ after arrest",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/first-images-of-mexican-cartel-boss-el-chapo-isidro-after-arrest?traffic_source=rss",
-      "published": "2026-11-22T04:42:02+00:00",
-      "compound": -0.5859,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "China Sees Trump-Xi Talks As Reaffirmation Of Taiwan Position",
-      "source": "BusinessToday Malaysia",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMUZlSjd6cnE4NDZSd0UxT1llc3VjNDBKcnVndzlEYzJWWTZ3QlJTdVZMOVFNRVB6QnhLOUpuQ0lyUU9TMlc0YW9fWWNDWmhudWxkYXhBcnpWU1JGdWxoVW9TRDJ0XzVNRVdOaGR4aHNPN09RNUU0ZnA0anNqMHNmUVhCS1Uxb2dyRUVrVF9RTlF1bHZZdWVfM0RPUzNPU3U4Ym5RUGoxUG4wUQ?oc=5",
-      "published": "2026-11-22T04:09:16+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Xi Jinping",
-        "Donald Trump",
-        "China",
-        "Taiwan"
-      ]
-    },
-    {
-      "title": "Lin says Taiwan is neither a geopolitical obstacle nor a bargaining chip",
-      "source": "Taiwan News",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB0NkE4ZkRTeWg1Z3VyRFdDT0llNXV0NExtMUVMT2hDNDZ4VlVRT1lXaG93U0xsN21jUDFnZk5ZVzRLbkd6VW1Uczg4b21jdUlVdXE2RHludDA?oc=5",
-      "published": "2026-11-22T04:05:00+00:00",
-      "compound": 0.4973,
-      "label": "positive",
-      "entities": [
-        "Taiwan"
-      ]
-    },
-    {
-      "title": "Eleven killed in burst of violence during Mexican cartel leader’s capture",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/22/eleven-killed-in-burst-of-violence-during-mexican-cartel-leaders-capture?traffic_source=rss",
-      "published": "2026-11-22T03:34:02+00:00",
-      "compound": -0.9477,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Overturned boat carrying mourners to funeral kills at least 24 in Nigeria",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/22/overturned-boat-carrying-mourners-to-funeral-kills-at-least-four-in-nigeria?traffic_source=rss",
-      "published": "2026-11-22T02:45:36+00:00",
-      "compound": -0.8316,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Displaced Palestinians protest as Israeli air strikes continue in Gaza",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/22/displaced-palestinians-protest-as-israeli-air-strikes-continue-in-gaza?traffic_source=rss",
-      "published": "2026-11-22T02:14:18+00:00",
-      "compound": -0.7906,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Bessent confirms he’s living on US military base over Iran fears",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/bessent-confirms-hes-living-on-us-military-base-over-iran-fears?traffic_source=rss",
-      "published": "2026-11-22T02:05:50+00:00",
-      "compound": -0.5267,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Pursuit of Jade stars Zhang Linghe and Tian Xiwei hope to meet fans in Taiwan",
-      "source": "联合早报",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSnloNFJqODJXR1VfOTZOV0Yta0VWNjVaQTNXLXZ5MWtqZ3hiYzYtNG9DTHdncDZtRVdpMFBsblpEQUJtdFFWeWRiX3R2OHlyWVZ1ZkFiWE9SZDBMc1FZQldWR0dMT0w3eW5nRU80LWdOeDQ3QUVUVFo3cGV0V0E2VkkzbDZyODR1YjdfSGVRSmgtRmVOYWg5VXZhR1B4TFJqRkhnRDhxUGRCcEJV?oc=5",
-      "published": "2026-11-22T01:08:39+00:00",
-      "compound": 0.7003,
-      "label": "positive",
-      "entities": [
-        "Taiwan"
-      ]
-    },
-    {
-      "title": "Moviegoers head for the exits as quake strikes Peru",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/moviegoers-head-for-the-exits-as-quake-strikes-peru?traffic_source=rss",
-      "published": "2026-11-22T01:07:19+00:00",
-      "compound": -0.6124,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Tokyo exhibition explores century-long history of Japan, China, Taiwan",
-      "source": "毎日新聞",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5SUEczWnExQjJRaFp4U2V6T2o5cGJ1dE1ySGJOUUNSeE56Z040Tm9QUkdKdElmaV92ZWQ0a3diNFROanozV3Q4NGRweG5nSExlSWdCV0I0UmF0b2FrT3cwbWU0dlFRTGpyRVZYU2E4cFhncGM?oc=5",
-      "published": "2026-11-22T00:52:44+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "China",
-        "Taiwan",
-        "Japan"
-      ]
-    },
-    {
-      "title": "Clashes erupt across France in another night of protest",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/clashes-erupt-across-france-in-another-night-of-protest?traffic_source=rss",
-      "published": "2026-11-22T00:37:32+00:00",
-      "compound": -0.4215,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Tokyo exhibition explores century-long history of Japan, China, Taiwan",
-      "source": "Japan Wire by Kyodo News",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Pd2tYYVpYUmtESklfYnZ6ZFVsX3dHdUFxeGcwOW9oaDk0Y29PZEtJaW96dmdKY3JUUUllak52MHFfMUdMVU9zSFdaOW9NU1V0N19nSHVoLVJFQQ?oc=5",
-      "published": "2026-11-22T00:30:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "China",
-        "Taiwan",
-        "Japan"
-      ]
-    },
-    {
-      "title": "Nigerian youth have shown their power in the past - why aren't they shaping this election?",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/ck4g174n020eo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-22T00:10:37+00:00",
-      "compound": 0.1431,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "How a teen gamer and his mother helped rescue a missing girl",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cmq8lyv8lkjwo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-22T00:09:58+00:00",
-      "compound": 0.765,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "US lawmaker upbeat on Taiwan ties",
+      "title": "2026 Elections: Parties hold ‘Super Sunday’ events ahead of elections",
       "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/front/archives/2026/11/22/2003868165",
-      "published": "2026-11-22T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Taiwan"
-      ]
-    },
-    {
-      "title": "FSC announces measures after stock market losses",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/front/archives/2026/11/22/2003868166",
-      "published": "2026-11-22T00:00:00+00:00",
-      "compound": -0.4019,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "COP31 extended as countries unable to reach an agreement",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/front/archives/2026/11/22/2003868167",
-      "published": "2026-11-22T00:00:00+00:00",
-      "compound": 0.5106,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Temperatures could drop to 11°C in low areas: CWA",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/front/archives/2026/11/22/2003868168",
-      "published": "2026-11-22T00:00:00+00:00",
-      "compound": -0.4939,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Houthis launch strikes after coalition operation",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/front/archives/2026/11/22/2003868169",
-      "published": "2026-11-22T00:00:00+00:00",
-      "compound": -0.3612,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "2026 Elections: Parties ramp up campaigning on final Saturday before local elections",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/22/2003868197",
-      "published": "2026-11-22T00:00:00+00:00",
+      "url": "https://www.taipeitimes.com/News/front/archives/2026/11/23/2003868217",
+      "published": "2026-11-23T00:00:00+00:00",
       "compound": 0.4019,
       "label": "positive",
       "entities": []
     },
     {
-      "title": "2026 Elections: Chiang, Shen clash at second policy presentation",
+      "title": "UN climate talks in Turkey collapse as nations reject deal",
       "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/22/2003868177",
-      "published": "2026-11-22T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "2026 Elections: Hsinchu candidate begins hunger strike",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/22/2003868178",
-      "published": "2026-11-22T00:00:00+00:00",
-      "compound": -0.3612,
+      "url": "https://www.taipeitimes.com/News/front/archives/2026/11/23/2003868218",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": -0.7096,
       "label": "negative",
       "entities": []
     },
     {
-      "title": "2026 Elections: Chiayi City candidate urges focus on policy issues",
+      "title": "Claude deciphered math’s greatest riddle: researcher",
       "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/22/2003868179",
-      "published": "2026-11-22T00:00:00+00:00",
+      "url": "https://www.taipeitimes.com/News/front/archives/2026/11/23/2003868219",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": 0.6369,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Travel agencies are facing risks from data breaches",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/23/2003868226",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": -0.2732,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Agency warns of severe Web vulnerabilities",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/23/2003868227",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": -0.5574,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Two killed in multi-vehicle collision",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/23/2003868228",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": -0.7906,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Police officer raises concerns over release of suspect",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/23/2003868229",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": -0.296,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Dasyueshan forest road closed after black bear sighting",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/23/2003868230",
+      "published": "2026-11-23T00:00:00+00:00",
       "compound": 0.0,
       "label": "neutral",
       "entities": []
     },
     {
-      "title": "2026 Elections: Tainan candidate posts bail amid infiltration case",
+      "title": "Liu Kuan-ting, Shu Qi among winners at Golden Horse Awards",
       "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/22/2003868180",
-      "published": "2026-11-22T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/23/2003868231",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": 0.7269,
+      "label": "positive",
       "entities": []
     },
     {
-      "title": "High speed rail firm vows fairness for employees",
+      "title": "Health minister praises BTS fans’ charity initiative",
       "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/22/2003868181",
-      "published": "2026-11-22T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/23/2003868232",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": 0.7351,
+      "label": "positive",
       "entities": []
     },
     {
-      "title": "China on verge of launching new nuclear sub: report",
+      "title": "Officials slam Xi’s contradictory actions",
       "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/22/2003868182",
-      "published": "2026-11-22T00:00:00+00:00",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/23/2003868233",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": -0.6124,
+      "label": "negative",
+      "entities": [
+        "Xi Jinping"
+      ]
+    },
+    {
+      "title": "MND detects 10 Chinese balloons over three days",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/23/2003868234",
+      "published": "2026-11-23T00:00:00+00:00",
       "compound": 0.0,
       "label": "neutral",
       "entities": [
@@ -9690,154 +9511,10 @@
       ]
     },
     {
-      "title": "Lai expresses hope for deeper ties with France over cables",
+      "title": "2026 Elections: KMT to step up nuclear referendum campaign efforts",
       "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/22/2003868183",
-      "published": "2026-11-22T00:00:00+00:00",
-      "compound": 0.4404,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Taiwan to cooperate in joint circular economy",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/22/2003868184",
-      "published": "2026-11-22T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Taiwan"
-      ]
-    },
-    {
-      "title": "FEATURE: Farmer revives climate-resilient oil millet",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/22/2003868185",
-      "published": "2026-11-22T00:00:00+00:00",
-      "compound": 0.3818,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "Taiwan’s stop-motion animation ‘Pai Pai’ wins Grand Prix at Japan Prize",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/22/2003868186",
-      "published": "2026-11-22T00:00:00+00:00",
-      "compound": 0.875,
-      "label": "positive",
-      "entities": [
-        "Taiwan",
-        "Japan"
-      ]
-    },
-    {
-      "title": "Do not sit on toilet for too long to avoid hemorrhoids: doctor",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/22/2003868187",
-      "published": "2026-11-22T00:00:00+00:00",
-      "compound": -0.296,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Veteran Taiwanese poet Xiang Ming dies, leaving literary legacy",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/22/2003868188",
-      "published": "2026-11-22T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Taiwan"
-      ]
-    },
-    {
-      "title": "Story time",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/22/2003868189",
-      "published": "2026-11-22T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Fun fur all",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/22/2003868190",
-      "published": "2026-11-22T00:00:00+00:00",
-      "compound": 0.5106,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "‘GTA VI’ to supercharge Sony — but not so much in Japan",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/22/2003868152",
-      "published": "2026-11-22T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": [
-        "Japan"
-      ]
-    },
-    {
-      "title": "US visa holders are fed up and leaving tech jobs",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/22/2003868153",
-      "published": "2026-11-22T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Asian American women face fallout of Nvidia affair scandal",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/22/2003868154",
-      "published": "2026-11-22T00:00:00+00:00",
-      "compound": -0.4404,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "EDITORIAL: The ‘peace initiative’ is a trap",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/11/22/2003868155",
-      "published": "2026-11-22T00:00:00+00:00",
-      "compound": -0.3182,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Significance of Takaichi’s position",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/11/22/2003868156",
-      "published": "2026-11-22T00:00:00+00:00",
-      "compound": 0.2732,
-      "label": "positive",
-      "entities": []
-    },
-    {
-      "title": "No to sexual jokes in campaigns",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/11/22/2003868157",
-      "published": "2026-11-22T00:00:00+00:00",
-      "compound": -0.0516,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "Indigenous voices deserve a say",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/11/22/2003868158",
-      "published": "2026-11-22T00:00:00+00:00",
-      "compound": 0.0,
-      "label": "neutral",
-      "entities": []
-    },
-    {
-      "title": "Flaws in the KMT’s 10-year ‘peace initiative’",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/11/22/2003868159",
-      "published": "2026-11-22T00:00:00+00:00",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/23/2003868235",
+      "published": "2026-11-23T00:00:00+00:00",
       "compound": 0.0,
       "label": "neutral",
       "entities": [
@@ -9845,55 +9522,125 @@
       ]
     },
     {
-      "title": "EDITORIAL CARTOON",
+      "title": "2026 Elections: Puma Shen’s passion, warmth has reached people: aides",
       "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/11/22/2003868160",
-      "published": "2026-11-22T00:00:00+00:00",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/23/2003868236",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": 0.7506,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "2026 Elections: Chiang Wan-an a gentle but firm leader, aides say",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/23/2003868237",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": 0.2382,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Victory lap",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/23/2003868238",
+      "published": "2026-11-23T00:00:00+00:00",
       "compound": 0.0,
       "label": "neutral",
       "entities": []
     },
     {
-      "title": "Demography is the Achilles’ heel of dictatorships",
+      "title": "Bridge inauguration",
       "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/11/22/2003868161",
-      "published": "2026-11-22T00:00:00+00:00",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/23/2003868239",
+      "published": "2026-11-23T00:00:00+00:00",
       "compound": 0.0,
       "label": "neutral",
       "entities": []
     },
     {
-      "title": "Bond has Robert Pattinson, but he needs a villain",
+      "title": "No new curbs on Nvidia chips",
       "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/11/22/2003868162",
-      "published": "2026-11-22T00:00:00+00:00",
-      "compound": -0.7096,
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/23/2003868201",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": -0.296,
       "label": "negative",
       "entities": []
     },
     {
-      "title": "Australia’s secrecy reputation might be about to worsen",
+      "title": "Export boom sends Q3 surplus soaring",
       "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/11/22/2003868163",
-      "published": "2026-11-22T00:00:00+00:00",
-      "compound": -0.5106,
-      "label": "negative",
-      "entities": []
-    },
-    {
-      "title": "A Lim Kim leads after hole-in-one",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/sport/archives/2026/11/22/2003868170",
-      "published": "2026-11-22T00:00:00+00:00",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/23/2003868202",
+      "published": "2026-11-23T00:00:00+00:00",
       "compound": 0.0,
       "label": "neutral",
       "entities": []
     },
     {
-      "title": "Taiwan archers claim women’s team silver at Asian Cup",
+      "title": "Philippine business organizations to combine operations",
       "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/sport/archives/2026/11/22/2003868171",
-      "published": "2026-11-22T00:00:00+00:00",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/23/2003868203",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Fuel prices unchanged for 10th week",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/23/2003868204",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Retail investors grab odd-lot shares as TSMC plunges",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/23/2003868205",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": 0.296,
+      "label": "positive",
+      "entities": [
+        "TSMC"
+      ]
+    },
+    {
+      "title": "Taiwan banks deploy AI to prevent cyberattacks",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/23/2003868206",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": 0.0258,
+      "label": "neutral",
+      "entities": [
+        "Taiwan"
+      ]
+    },
+    {
+      "title": "EDITORIAL: Taipei’s Chiang eyes TPP support",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/11/23/2003868207",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": 0.4019,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "A response to Elon Musk’s misconstruction of relations across the Taiwan Strait",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/11/23/2003868208",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "Taiwan",
+        "Taiwan Strait"
+      ]
+    },
+    {
+      "title": "Guermantes Lailari On Taiwan: A Proposal for Taiwan’s Whole-of-Society Deterrence Framework",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/11/23/2003868209",
+      "published": "2026-11-23T00:00:00+00:00",
       "compound": 0.0,
       "label": "neutral",
       "entities": [
@@ -9901,39 +9648,296 @@
       ]
     },
     {
-      "title": "Ships explode as swimmer braves war for wildlife",
+      "title": "The lessons from Shen’s ‘Ocean Wave’ campaign",
       "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/sport/archives/2026/11/22/2003868172",
-      "published": "2026-11-22T00:00:00+00:00",
-      "compound": -0.25,
+      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/11/23/2003868210",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "EDITORIAL CARTOON",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/11/23/2003868211",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "France was ablaze after it banned phones in schools. Could they be connected?",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/11/23/2003868212",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": -0.4588,
       "label": "negative",
       "entities": []
     },
     {
-      "title": "Minister hits back against gene testing on athletes",
+      "title": "The true scandal of the Nvidia saga",
       "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/sport/archives/2026/11/22/2003868173",
-      "published": "2026-11-22T00:00:00+00:00",
+      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/11/23/2003868213",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": -0.0258,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Shimada takes quick second victory",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/sport/archives/2026/11/23/2003868220",
+      "published": "2026-11-23T00:00:00+00:00",
       "compound": 0.0,
       "label": "neutral",
       "entities": []
     },
     {
-      "title": "Price becomes Wales’ first undisputed boxing champ",
+      "title": "Flyers take out Canadiens 4-3",
       "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/sport/archives/2026/11/22/2003868174",
-      "published": "2026-11-22T00:00:00+00:00",
-      "compound": 0.4767,
+      "url": "https://www.taipeitimes.com/News/sport/archives/2026/11/23/2003868221",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Fiji beat Italy for first Nations Championship win",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/sport/archives/2026/11/23/2003868222",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": 0.7717,
       "label": "positive",
       "entities": []
     },
     {
-      "title": "SPORTS BRIEFS",
+      "title": "Real Madrid beat Celta Vigo despite penalty shot misses",
       "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/sport/archives/2026/11/22/2003868175",
-      "published": "2026-11-22T00:00:00+00:00",
+      "url": "https://www.taipeitimes.com/News/sport/archives/2026/11/23/2003868223",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": 0.4847,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Kansas City beat DC to win NWSL championship",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/sport/archives/2026/11/23/2003868224",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": 0.7717,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Verstappen wins ‘Mario Kart’ in Las Vegas GP",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/sport/archives/2026/11/23/2003868225",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": 0.5719,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Mexico captures wanted drug kingpin",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/world/archives/2026/11/23/2003868240",
+      "published": "2026-11-23T00:00:00+00:00",
       "compound": 0.0,
       "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Countries agree to work toward ‘killer robots’ pact",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/world/archives/2026/11/23/2003868241",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": 0.3612,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Influencer deepfakes used to stoke Canada-US tensions",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/world/archives/2026/11/23/2003868242",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": -0.4019,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Russian cargo ship catches fire in Baltic after strike",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/world/archives/2026/11/23/2003868243",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": -0.4404,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "S Korean minister resigns amid AI cheating scandal",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/world/archives/2026/11/23/2003868244",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": -0.8316,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Three dead, 36 missing after Indonesia fire",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/world/archives/2026/11/23/2003868245",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": -0.836,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Marketplace portrait",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/world/archives/2026/11/23/2003868246",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Notes from Central Taiwan: The debt behind Taiwan’s local building boom",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/feat/archives/2026/11/23/2003868214",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": -0.3612,
+      "label": "negative",
+      "entities": [
+        "Taiwan"
+      ]
+    },
+    {
+      "title": "BOOKMAN BILINGUAL 雙語書林： Chinglish or Natural English? 中式英語或道地英語？",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/lang/archives/2026/11/23/2003868200",
+      "published": "2026-11-23T00:00:00+00:00",
+      "compound": 0.3612,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-22T19:26:54+00:00",
+      "compound": -0.7096,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "CHK_Aber Kawas becomes first Palestinian in New York state Senate history",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/22/chk_aber-kawas-becomes-first-palestinian-in-new-york-state-senate-history?traffic_source=rss",
+      "published": "2026-11-22T19:18:29+00:00",
+      "compound": 0.7579,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "‘Horrific’ and ‘chilling’: Officials condemn ICE arrests at Seattle airport",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/22/horrific-and-chilling-officials-condemn-ice-arrests-at-seattle-airport?traffic_source=rss",
+      "published": "2026-11-22T19:10:00+00:00",
+      "compound": -0.6705,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "What's next after no deal at COP31 climate talks?",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-22T18:57:24+00:00",
+      "compound": -0.4588,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Liverpool thrash 10-man Man United in nightmare start for Pochettino",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/11/22/liverpool-thrash-10-man-man-united-in-nightmare-start-for-pochettino?traffic_source=rss",
+      "published": "2026-11-22T18:44:24+00:00",
+      "compound": 0.3818,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "Asia Week Ahead: Central Bank Decisions and Key Data Releases",
+      "source": "IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMXV1a1BVSmFkWUpfc0xrem9BQUthNHZJTjgxSVQ5d0RiLTdTVWZKUmtIQ2diZlpNaWlROWF5MUhzUVNnVTh5QVpHRGIyVVJYcG9VcDFHRFVSV1dOZTdDZjVCRmxuT3VKekVvc2JFUE1nLXVPUVNpUHp4VVdiQmk4R3k3Ri1KLXZRUFFCbE50emR0ZExC?oc=5",
+      "published": "2026-11-22T18:40:31+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": []
+    },
+    {
+      "title": "Taiwan Envoy Urges Canada to Guard Against China's Gray-Zone Tactics",
+      "source": "Daily Voice Of Asia",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMnRpV2loXzVNcFUyX1hTYlpyb0tfeE5uRVV3ZVF6Z3h0M01BdHdlT2pMQlVpSlJseVhxbnRELWxMQWhaWGt4M1VSbC1aZ3plSmgwQTUzVVNMQkx1T0ppMmVqaUJRcGxUQWJJR0FzU05nbjd6ODhkVkFZd2RKekItMkhEbWhRQk1LTWtqOHMxS2pSWmc?oc=5",
+      "published": "2026-11-22T18:32:07+00:00",
+      "compound": 0.0,
+      "label": "neutral",
+      "entities": [
+        "China",
+        "Taiwan"
+      ]
+    },
+    {
+      "title": "US Army to detonate tonnes of unstable explosives in Iowa despite court order",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cvglrx764gdxo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-22T18:29:46+00:00",
+      "compound": 0.2263,
+      "label": "positive",
+      "entities": []
+    },
+    {
+      "title": "COP31 fails to reach major climate deal as talks expose deep divisions",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-22T18:17:59+00:00",
+      "compound": -0.7783,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Civilians killed in RSF drone strikes in Sudan",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/civilians-killed-in-rsf-drone-strikes-in-sudan?traffic_source=rss",
+      "published": "2026-11-22T18:12:07+00:00",
+      "compound": -0.9349,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Suspected drone attack causes explosion on Russian ship in Libya",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/suspected-drone-attack-causes-explosion-on-russian-ship-in-libya?traffic_source=rss",
+      "published": "2026-11-22T18:11:30+00:00",
+      "compound": -0.875,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "UN climate talks collapse without a deal",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/un-climate-talks-collapse-without-a-deal?traffic_source=rss",
+      "published": "2026-11-22T18:04:25+00:00",
+      "compound": -0.7579,
+      "label": "negative",
+      "entities": []
+    },
+    {
+      "title": "Cox’s Bazar: Rohingya Life in Exile",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/al-jazeera-world/2026/11/22/coxs-bazar-rohingya-life-in-exile?traffic_source=rss",
+      "published": "2026-11-22T18:02:06+00:00",
+      "compound": -0.6705,
+      "label": "negative",
       "entities": []
     }
   ]

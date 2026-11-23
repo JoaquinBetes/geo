@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-11-22T19:40:05+00:00",
+  "updated": "2026-11-23T07:38:18+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2022-03-14",
-    "to": "2026-11-22"
+    "to": "2026-11-23"
   },
   "kpis": {
-    "events_total": 1321,
-    "events_unlocated": 3704,
-    "events_7d": 101,
-    "events_prev_7d": 27,
+    "events_total": 1323,
+    "events_unlocated": 3724,
+    "events_7d": 96,
+    "events_prev_7d": 29,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -1506,35 +1506,24 @@
     },
     {
       "date": "2026-11-22",
-      "total": 10,
-      "strike": 8,
+      "total": 11,
+      "strike": 9,
       "ground": 0,
       "infrastructure": 2,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-11-23",
+      "total": 1,
+      "strike": 0,
+      "ground": 0,
+      "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-08-09",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Ukraine war latest: Ukrainian-made ballistic missiles could hit Russia in the fall, Zelensky says",
-      "source": "The Kyiv Independent",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRm94WHkyQ3FGbXBLSDhObGY2RThMOGZhTmZVeUtudzlwaU9nRUg4VjNwd3ZPc0k0dUoyVXlCWGE4SkdEMlFzbV9YUjU5LVJSNjVFNVhnRmpzSFdPR3J0ZWhWTXlrczJMWWVwQ1lVYzhyVXA5dzI2Rno5bmdnQnZtQUNjNTloUlNkcnp3cGU3Rk8yYTNKX2VsRHNaam9HdjEwQkxmYk5NT253QmptYk5NaUlrV1JBNzZ6azNrUWRKTk1nUQ?oc=5"
-    },
-    {
-      "date": "2026-08-09",
-      "type": "infrastructure",
-      "place": "Odesa",
-      "lat": 46.4825,
-      "lon": 30.7233,
-      "title": "Ukraine, Russia accuse each other of lethal attacks, Odesa port damaged",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYkNMLVhYYm1zdG9veTFxQlIxY3IzNHpyOFZGMzAzWVZVWU9xU0xTUzdGMUplZmlzZTlPbEZCV3Fsb3pPa1J2MWhuU0Vhc0xoSDhsZXpLWUh6ektRLUItdUVUd2g4Q1lTSmtLZWlNd1p4ZnhhYUxlRFdCVjZlOUtQaU5qX1U4Ql9DRUtvNWZOVnRJMjNOOHJMSmFkQzNqTThMY2ZFamxQV0dqemsyRlhmaGFHZHgzLXd0b081dDZKRVRfTE9PeVhj?oc=5"
-    },
     {
       "date": "2026-08-09",
       "type": "strike",
@@ -10514,12 +10503,32 @@
       "title": "'Danger seems greater all the time': Ukrainians search for missing after Russian strikes",
       "source": "BBC",
       "url": "https://www.bbc.co.uk/news/videos/cre3dvd1k9y1o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "date": "2026-11-22",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Russian strike kills 2 in Kyiv",
+      "source": "France 24",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5PeG9mUUY1VUhpMk9lQy0yaFNwaVo3LTdPUjhBZmJNa0ZEaDctRncwYUdOaXZ3YUx5emphbWNlbVhIYTB6M1MzQ054cldyWVBSeWxBYkFlSklwYVIwc0ZhRkpseUR6VVNFUHc?oc=5"
+    },
+    {
+      "date": "2026-11-23",
+      "type": "infrastructure",
+      "place": "Dnipro",
+      "lat": 48.4647,
+      "lon": 35.0462,
+      "title": "Ukraine war briefing: Race to find survivors after Russian attack on apartment block kills at least 11",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/23/ukraine-war-briefing-race-to-find-survivors-after-russian-attack-on-apartment-block-kills-at-least-nine"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 102
+      "count": 99
     },
     {
       "place": "Kerch",
@@ -10531,7 +10540,7 @@
     },
     {
       "place": "Dnipro",
-      "count": 19
+      "count": 20
     },
     {
       "place": "Zaporizhzhia",
@@ -10551,7 +10560,7 @@
     },
     {
       "place": "Kharkiv",
-      "count": 4
+      "count": 3
     },
     {
       "place": "Luhansk",

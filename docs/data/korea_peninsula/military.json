@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-11-23T07:38:48+00:00",
+  "updated": "2026-11-23T23:54:13+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -46,9 +46,9 @@
     "to": "2026-11-23"
   },
   "kpis": {
-    "events_total": 316,
-    "events_unlocated": 3799,
-    "events_7d": 3,
+    "events_total": 317,
+    "events_unlocated": 3810,
+    "events_7d": 4,
     "events_prev_7d": 2,
     "hottest_place": "Seoul"
   },
@@ -723,6 +723,15 @@
       "date": "2026-11-19",
       "total": 2,
       "strike": 2,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-11-23",
+      "total": 1,
+      "strike": 1,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -3849,6 +3858,16 @@
       "title": "Seoul dispatches team to Myanmar to search for plane bombed by North Korea",
       "source": "NK News",
       "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1DVzZWZnJCZHNOMzdoLUFEeVpxbEpiOTFtVVBzQzM4RW4zWkdoaUNKLXdPRmRPUkFzSjBqTUMtWUtvaUszc0Vj?oc=5"
+    },
+    {
+      "date": "2026-11-23",
+      "type": "strike",
+      "place": "Yeonpyeong",
+      "lat": 37.66,
+      "lon": 125.7,
+      "title": "South marks 16 years since Yeonpyeong shelling victory over North",
+      "source": "Korea JoongAng Daily",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNN2NObmRYeUgxMjB3dnRucjljQTRQcXYwcjlJdzBLWDc0R0I2SVA2Tk91Mk5hb3dTLW9pR19hUFJRRnN4MlBIaTBGM1huaVhXc0dRV3BZaU95UEZBMnRVOFZNdkVUQVBPd0xaZlFRMThFQVZtenp1RDRNNE5WdENMUHBUSjBORjNuQW5hYkR4VFEydnM2Y3UxSkJvNnBZNzBMbTVjMnh1V3I5V3NKTHk4bTVGd3ZVQQ?oc=5"
     }
   ],
   "top_places": [
@@ -3878,6 +3897,10 @@
     },
     {
       "place": "Panmunjom",
+      "count": 1
+    },
+    {
+      "place": "Yeonpyeong",
       "count": 1
     }
   ],

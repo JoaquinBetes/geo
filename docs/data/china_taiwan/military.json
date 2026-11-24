@@ -1,6 +1,6 @@
 {
   "id": "china_taiwan",
-  "updated": "2026-11-24T09:54:43+00:00",
+  "updated": "2026-11-24T22:26:54+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -43,12 +43,12 @@
   },
   "window": {
     "from": "2026-01-30",
-    "to": "2026-11-24"
+    "to": "2026-11-25"
   },
   "kpis": {
-    "events_total": 98,
-    "events_unlocated": 2538,
-    "events_7d": 1,
+    "events_total": 99,
+    "events_unlocated": 2545,
+    "events_7d": 2,
     "events_prev_7d": 2,
     "hottest_place": "Taipei"
   },
@@ -661,6 +661,15 @@
       "total": 1,
       "strike": 1,
       "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-11-24",
+      "total": 1,
+      "strike": 0,
+      "ground": 1,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
@@ -1606,12 +1615,22 @@
       "title": "2026 Elections: Hsinchu candidate begins hunger strike",
       "source": "Taipei Times",
       "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/22/2003868178"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "ground",
+      "place": "Taipei",
+      "lat": 25.033,
+      "lon": 121.5654,
+      "title": "‘They Never Stop’: Taipei Mayoral Candidate Puma Shen on Fighting Chinese Cognitive Warfare",
+      "source": "Time Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeWZBMG9mcEFKQU5rVTJ6SGdpSDh6TkhoOGFHTDJscTJjbzFMN3d6WVdTZ2xDWnowTU9UU3VKR2QyNXl3aUxmVnpQd1F6cEl6VmRIRDlsdFpYNlo3c2dtYzJUUDFnMDJjX2dJTWNzeUoxdjhWZHg3aExjTDg0SDd2RWdWai1XekpWOWc?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Taipei",
-      "count": 7
+      "count": 8
     },
     {
       "place": "Beijing",

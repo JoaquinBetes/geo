@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-11-23T23:53:40+00:00",
+  "updated": "2026-11-24T09:54:25+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2022-03-14",
-    "to": "2026-11-23"
+    "to": "2026-11-24"
   },
   "kpis": {
-    "events_total": 1323,
-    "events_unlocated": 3746,
-    "events_7d": 96,
-    "events_prev_7d": 29,
+    "events_total": 1330,
+    "events_unlocated": 3764,
+    "events_7d": 95,
+    "events_prev_7d": 35,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -1515,85 +1515,24 @@
     },
     {
       "date": "2026-11-23",
-      "total": 1,
-      "strike": 0,
+      "total": 3,
+      "strike": 2,
       "ground": 0,
       "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-11-24",
+      "total": 5,
+      "strike": 3,
+      "ground": 0,
+      "infrastructure": 2,
       "air_defense": 0,
       "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-08-09",
-      "type": "strike",
-      "place": "Odesa",
-      "lat": 46.4825,
-      "lon": 30.7233,
-      "title": "Russia Says It Struck Vessels And Military Facilities Supporting Ukraine In Odesa",
-      "source": "gCaptain",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMUt2U0t0Q3pJaHp0QlY3TDdGWTVIM1FSMWZjdXUwRlhpRXVCLVBleTlMdDhVeE1nX09TSS1VeVZsa3AxYzB2dk83QXhhZXBIbE1RTXhpZVZuUnFERmczVFNjSEx2THd1QThCZkhpc0tFaVJNSml1NUZlU1NtcDFiaXRuRGtZbVp2NUJJY0FmSzFtLTVPTzlnbUd6b3M3eHVYQmUzcjhn?oc=5"
-    },
-    {
-      "date": "2026-08-09",
-      "type": "strike",
-      "place": "Odesa",
-      "lat": 46.4825,
-      "lon": 30.7233,
-      "title": "Ukraine targets Russian oil refineries as Moscow strikes Odesa",
-      "source": "anewz.tv",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbFpFYnN3bEtNdC1ZTHctX2ppbGdiREgxU09KS1FOX2FiTldVTDVSdWUyc2RXaGpUOHpSdjNfOEg2Ml8tLTZjbzktaE5hSnFMVVJibHFOS25UbV9XakFaTE1kdE5LRjhUXzhqTHR0dmxJYUlrT3hCZ0d5ekdUbEc1ZzBNUU9CWFRObTN4Uk1SRHFXZ3Z6SWdtZDdNWHEycVQ3ck15OEFR?oc=5"
-    },
-    {
-      "date": "2026-08-10",
-      "type": "strike",
-      "place": "Belgorod",
-      "lat": 50.5977,
-      "lon": 36.5858,
-      "title": "'Putin won't freeze war...': Ukraine drone attack on Russia’s Belgorod kills at least 6",
-      "source": "WION",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOHk1bnhRSVVQZ3VjM0QzeGcwZjRiUHl5Rmw0djRNY2xOVVdmUVBUaVQzVVc5WUFzRGtpWEhfYVd1LTR2YzNpNWlkalc0eW1DYmRuM1ZYMHlhdHlGeVRlVUhpeVppRkZoa3oyUjNEVTRNZXNSOFBUVm1XWVZzU1ltUzUtMWZyLUZMMjNzZ05hMFBrNkNtRUZXcFlJa1pwQzhsX19PQWdHRHJvN0MzU3BHSUl2QU01UjRkTDVJYTRqczVneVnSAcgBQVVfeXFMUDRENzRqQmliZXI3RkdTdGRxM3dQYWxpT3NueDdGVU53ZE1KbmJNQWExYnJWN092bGxHM0hyTzhRR2RkaXhzNDAxR0Q1MG9qc09UR3lUNzQySzhDNkdscmZ6TDJoZFFncHNKY0VMTHo0V2RVWVViSC1oYTFlMTlKUXBzM0xuUTV0UGJ0eVY3MDBvUUhTb1dNM0ZDN19YaUFSU2RuNTl6Zkd6cjYwSGJsS3F5T3ZiQTRaS2JsUHBuQmxiTFdzTmc1TFE?oc=5"
-    },
-    {
-      "date": "2026-08-10",
-      "type": "infrastructure",
-      "place": "Moscow",
-      "lat": 55.7558,
-      "lon": 37.6173,
-      "title": "Ukraine confirms strikes on oil refinery in Russia’s Tatarstan – Europe live",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/live/2026/aug/10/ukraine-drones-russia-oil-facilities-europe-heat-drought-latest-updates-news"
-    },
-    {
-      "date": "2026-08-10",
-      "type": "strike",
-      "place": "Moscow",
-      "lat": 55.7558,
-      "lon": 37.6173,
-      "title": "At least 13 killed in Ukrainian drone strike deep into Russia",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "date": "2026-08-10",
-      "type": "strike",
-      "place": "Moscow",
-      "lat": 55.7558,
-      "lon": 37.6173,
-      "title": "Ukraine war latest: Ukraine continues strikes on Russia's oil industry as Moscow races to expand missile production",
-      "source": "kyivindependent.com",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8tSG9ia2NXS0k5MXpILVlfSlR6US1GWEZoUFRYVlp1MUwxM0o3TlNYemRhZ3h0LXhneVNkMXJuZTY3M090VnN6NllENmliU2RHNHRMbEdFWEE4R3Ywb2NCTg?oc=5"
-    },
-    {
-      "date": "2026-08-10",
-      "type": "infrastructure",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Ukraine drone strike on oil refinery deep inside Russia kills at least 13",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/aug/10/ukraine-drone-strike-on-oil-refinery-russia"
-    },
     {
       "date": "2026-08-11",
       "type": "strike",
@@ -10523,12 +10462,82 @@
       "title": "Ukraine war briefing: Race to find survivors after Russian attack on apartment block kills at least 11",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/nov/23/ukraine-war-briefing-race-to-find-survivors-after-russian-attack-on-apartment-block-kills-at-least-nine"
+    },
+    {
+      "date": "2026-11-23",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine updates: Kyiv claims strike that sank Russian ship off Libya",
+      "source": "DW.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWDhrMTltOFVXcFo3ZXhzNjZLeThPT3ZreFlXYjN1cmN3S3VNa01iOE5DMlNVM2IwQk00dEdaaDk2V01SRmJJZTA5RHlYUVBva3R3NkRfMXpid2JveDg1SFRjVlpTaklIVXA3OFVxd2ktZVJSMHQ0cUpGV2FwRmlwWGp6SXNwS0hQNjY2S2xFaHVGR0FlNTlPbFY2RDMxVVNBeHVPZ0t3?oc=5"
+    },
+    {
+      "date": "2026-11-23",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war latest: Russian warship sinks off Libyan coast following 'exemplary' Ukrainian drone attack",
+      "source": "The Kyiv Independent",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOalF0cHFoM1RJTEEtbUh3QnRwdW90RUV6UFlJbWNYbmdBOGs5bGhhOHFuX3hkZlktOUN6MFhpTW45ckhReUxJZk8tSEhVMGhwcTBPeXJlejZQNW00MGRUeFE1ajhDMFROSzZSUS1mWU84dmVsYjFZdWRkbGFDSEQ1UkphaU1pVjVmNDJraXVKREJrcEFhVFQybXRQLTFFbDFPVTNaOHRCV0RkRHNRLXJ6cUlTMVd4RThZM1ZaTzYwMzA1aXp0NDk4Vg?oc=5"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: Kyiv’s strike on Russian ships in Benghazi condemned by Libya’s UN-backed government",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNWHdha3RzX1VGNFF5Y0pKOHBlaTM1eGJ5ZHpGQUdDMGJXSmgzcjAzcGlzMEJQOEZ3MXo2RjBWRmJrWG01MUY0NGVOaFNsVWdpdVF1OFpkMHNvNmY3QVRwZ3pQMGFtdHFkLTRBM3FLOEhTaE8xdXpEdENkM21DSDNmU1BJdFZCY1hxbDZKMVNnbi1Vblo2QnM0RGJKbnhpQmNfSkxXYWJVdEg3a3AzWW9sNWdYVzd3LW1FdnZYQjdRNXJPMW1LRkRFOEZ2dS1UX0U1NEc0aEhINGtXZ1ZNdDI4cg?oc=5"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine strike on Russian warship off Libya highlights Kyiv’s broadened reach",
+      "source": "The Japan Times",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVzd6dmhjT0lhNWRNMzNYdmZSSm5qeWxiV09jZ3BwTldXeVpLcVhHall3MzQ1b0hvUGtYbU5QRVdyUkgtUmlDN3NVLVhKOXZvSWxGbGRsLTBWUWhRcmE5aUJjanIwZUYtU3J1ekFFTkFHZVBLSTBlNndLMGszMGlKUlBuWUphU1dSd3gyc1ZBc242dw?oc=5"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "infrastructure",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Russian drone violates Polish airspace days after cruise missiles fell on country – Europe live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/live/2026/nov/24/russia-ukraine-poland-drone-patriots-latest-news-updates"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "The Ukraine-Russia war is escalating – and it will go global unless Europe speaks with one voice | Simon Tisdall",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/24/ukraine-russia-war-escalating-global-europe-trump"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: Kyiv’s strike on Russian ships in Benghazi condemned by Libya’s UN-backed government",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/24/ukraine-war-briefing-kyiv-strike-on-russian-ships-in-benghazi-condemned-by-un-backed-libya-government"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 99
+      "count": 105
     },
     {
       "place": "Kerch",
@@ -10536,7 +10545,7 @@
     },
     {
       "place": "Moscow",
-      "count": 24
+      "count": 25
     },
     {
       "place": "Dnipro",

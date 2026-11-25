@@ -1,6 +1,6 @@
 {
   "id": "iran_israel",
-  "updated": "2026-11-24T22:26:44+00:00",
+  "updated": "2026-11-25T08:34:06+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -38,13 +38,13 @@
   },
   "window": {
     "from": "2026-02-27",
-    "to": "2026-11-24"
+    "to": "2026-11-25"
   },
   "kpis": {
-    "events_total": 656,
-    "events_unlocated": 3483,
-    "events_7d": 24,
-    "events_prev_7d": 17,
+    "events_total": 657,
+    "events_unlocated": 3496,
+    "events_7d": 18,
+    "events_prev_7d": 23,
     "hottest_place": "Jerusalem"
   },
   "daily": [
@@ -1294,6 +1294,15 @@
       "date": "2026-11-24",
       "total": 2,
       "strike": 2,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-11-25",
+      "total": 1,
+      "strike": 1,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -7850,12 +7859,22 @@
       "title": "Israel can strike Iran without help from allies, Energy Minister Eli Cohen says",
       "source": "The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXLS1wbGN2TEdUOFVmZUR1WnVqV3ZrX1pLcEdnX0dvazhGcnFtd1lJMUdNSUJqNTN4eVN3QmltNDZPNWVyeURLelJnQUxCRW5pb0dWUTBpZ0JUOUY4Y1Foc2R0c3VWZHloS3BKeDJn?oc=5"
+    },
+    {
+      "date": "2026-11-25",
+      "type": "strike",
+      "place": "Jerusalem",
+      "lat": 31.7683,
+      "lon": 35.2137,
+      "title": "Reconstruction stalls in Rehovot 17 months after Iranian missile strike",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5tZDJYcDhRYVBBenVCd2c5aXdycjB2Z2RYZ2RjSjA4ZEVsVzlVeEJWUW4tQjRjRElWenBlRlBfck96RjlfWUJvQl80OHFNeUlkT21QU01FbGlvazR6?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Jerusalem",
-      "count": 27
+      "count": 28
     },
     {
       "place": "Strait of Hormuz",
@@ -7863,23 +7882,19 @@
     },
     {
       "place": "Tehran",
-      "count": 23
+      "count": 21
     },
     {
       "place": "Damascus",
       "count": 3
     },
     {
-      "place": "Tel Aviv",
+      "place": "Sanaa",
       "count": 2
     },
     {
       "place": "Baghdad",
-      "count": 2
-    },
-    {
-      "place": "Sanaa",
-      "count": 2
+      "count": 1
     }
   ],
   "losses": null

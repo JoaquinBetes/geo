@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-11-24T22:26:31+00:00",
+  "updated": "2026-11-25T08:33:57+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2022-03-14",
-    "to": "2026-11-24"
+    "to": "2026-11-25"
   },
   "kpis": {
-    "events_total": 1330,
-    "events_unlocated": 3776,
-    "events_7d": 95,
-    "events_prev_7d": 35,
+    "events_total": 1333,
+    "events_unlocated": 3785,
+    "events_7d": 68,
+    "events_prev_7d": 60,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -1530,39 +1530,18 @@
       "infrastructure": 2,
       "air_defense": 0,
       "anomaly": false
+    },
+    {
+      "date": "2026-11-25",
+      "total": 3,
+      "strike": 3,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-08-11",
-      "type": "strike",
-      "place": "Zaporizhzhia",
-      "lat": 47.8388,
-      "lon": 35.1396,
-      "title": "Russian attacks kill six in Ukraine’s Zaporizhzhia",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/11/russian-attacks-kill-six-in-ukraines-zaporizhzhia?traffic_source=rss"
-    },
-    {
-      "date": "2026-08-11",
-      "type": "strike",
-      "place": "Moscow",
-      "lat": 55.7558,
-      "lon": 37.6173,
-      "title": "Russian attacks kill 9 in Ukraine as Zelenskyy says Moscow is getting more North Korean missiles",
-      "source": "WSOC TV",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOOGp0WTN6OFdxcm1lRFQ3dGE2Z3lFTjlQZ1p6Wl9RWTI3MUhaVnpSNW1mbWgtbWJxeFUtZ0FwNDdkdHBuTThQbjkxNW1ORnNSckVHV1RZZndrUUQ0U1BiWE5IUXpJYnozRG5KYzh5elQwUnAyRHhlY09zZ2dKeFFrOXZn0gGWAUFVX3lxTE9maUZXZ3AtSDRkSWhKSDZkMkIyMUx1cGlDX1JYODhRWGdCTWoxRTdMWFZTSTlwTUZmS1JuZ1phdzNOOE4wTW5BR0pfMjFJS2pERXVfZVVKRUNUVjFGb2g3Rm84MVRYTXFBYVFVZTN1bTkxYkpnaE1IOXZDT3JoY0FSMEotb1kxQ3VyR2ZxTC1YR044SU1WUQ?oc=5"
-    },
-    {
-      "date": "2026-08-11",
-      "type": "strike",
-      "place": "Zaporizhzhia",
-      "lat": 47.8388,
-      "lon": 35.1396,
-      "title": "Russia using North Korean missiles to strike Ukraine, Zelensky says",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c151dpzwnvxo?at_medium=RSS&at_campaign=rss"
-    },
     {
       "date": "2026-08-11",
       "type": "strike",
@@ -10532,12 +10511,42 @@
       "title": "Ukraine war briefing: Kyiv’s strike on Russian ships in Benghazi condemned by Libya’s UN-backed government",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/nov/24/ukraine-war-briefing-kyiv-strike-on-russian-ships-in-benghazi-condemned-by-un-backed-libya-government"
+    },
+    {
+      "date": "2026-11-25",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine-Russia war latest: Putin threatens retaliation as Kyiv strikes two major oil refineries deep inside Russia",
+      "source": "The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNQ0RQSi1XVFRWaTFjbzRKSVJwTU5yNEtFX0M5YUpVcktOUmhyYnBkWkZFaDliNjBlZE1kaXVyVnJSVWZtdmxPWURoX1RwejZiQWZxVFI0U1VkWXpiYzlfV2ZCbjc0MkVFWHFpTE9DVmJ6cVJhOE9PWEhhbGRmdEZyczNUWDRzQ1FOczJnbUZfY0JfUXFPc1poRDRfdVZZdmhtTnFONUVPVzVvRDdUNVc4VUNQSlBfU3ZMSk91eXEyazlBSUQ1SkhKVkhn?oc=5"
+    },
+    {
+      "date": "2026-11-25",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine War, Day 1,735: Kyiv Strikes 2 Russian Refineries as Putin Fumes",
+      "source": "EA WorldView",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSzZ5MWdLZmRmT3hENm8tZXh3ci1LbVJVVV9DNndKREFyeUYzVTljWUI0eEFWbjBhZVRmQjdVQzZNNUg3RUtoVHR4RUgxR0pyOE91YnBadHlYRkNONnB0Q3RkUXpwVVEwYXdmczhEcGpQZGtjb3RXQXlDa2VodnVyVnpTWDZtNk56?oc=5"
+    },
+    {
+      "date": "2026-11-25",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: Zelenskyy and Hungary PM hail new era of cooperation after Orbán",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/25/ukraine-war-briefing-zelenskyy-and-hungary-pm-hail-new-era-of-cooperation-after-orban"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 105
+      "count": 107
     },
     {
       "place": "Kerch",
@@ -10565,15 +10574,15 @@
     },
     {
       "place": "Belgorod",
-      "count": 5
-    },
-    {
-      "place": "Kharkiv",
       "count": 3
     },
     {
       "place": "Luhansk",
       "count": 3
+    },
+    {
+      "place": "Kharkiv",
+      "count": 2
     }
   ],
   "losses": {

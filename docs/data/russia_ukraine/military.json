@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-11-25T21:41:58+00:00",
+  "updated": "2026-11-26T08:17:04+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2022-03-14",
-    "to": "2026-11-25"
+    "to": "2026-11-26"
   },
   "kpis": {
-    "events_total": 1335,
-    "events_unlocated": 3796,
-    "events_7d": 70,
-    "events_prev_7d": 60,
+    "events_total": 1338,
+    "events_unlocated": 3804,
+    "events_7d": 58,
+    "events_prev_7d": 73,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -1533,45 +1533,24 @@
     },
     {
       "date": "2026-11-25",
-      "total": 5,
-      "strike": 5,
+      "total": 6,
+      "strike": 6,
       "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-11-26",
+      "total": 2,
+      "strike": 1,
+      "ground": 1,
       "infrastructure": 0,
       "air_defense": 0,
       "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-08-12",
-      "type": "strike",
-      "place": "Zaporizhzhia",
-      "lat": 47.8388,
-      "lon": 35.1396,
-      "title": "Ukraine war briefing: North Korean missiles hit Zaporizhzhia in deadly attack",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaGJ5LUMtXzVZLVByN1VPYzRoc2x4NzFYeFE1MnJyRjkxZnFPX1RodXlqQ3g0UVdKazFnN0NYTmwyR2dSZHlqMDZhbk5lOV9FdHcwb2o1RE1zSV92bTZiSXQ2TDdfcDg5Y21XY3VkUlhLWjdrM1FCUWpHZXlCTkpDb3dJOGk5dHlKVm1kOEtYc2NNeG96cVR4MGhyZDhhR2NYem8yQkVaQkRoUDdm?oc=5"
-    },
-    {
-      "date": "2026-08-12",
-      "type": "infrastructure",
-      "place": "Zaporizhzhia",
-      "lat": 47.8388,
-      "lon": 35.1396,
-      "title": "Ukraine war briefing: North Korean missiles hit Zaporizhzhia in deadly attack",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/aug/12/ukraine-war-briefing-north-korean-missiles-attack-zaporizhzhia"
-    },
-    {
-      "date": "2026-08-12",
-      "type": "ground",
-      "place": "Moscow",
-      "lat": 55.7558,
-      "lon": 37.6173,
-      "title": "Putin warns of tit-for-tat seizures of European vessels",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/12/putin-warns-of-tit-for-tat-seizures-of-european-vessels?traffic_source=rss"
-    },
     {
       "date": "2026-08-12",
       "type": "infrastructure",
@@ -10541,12 +10520,42 @@
       "title": "Ukraine-Russia war latest: Putin threatens retaliation as Kyiv strikes two major oil refineries deep inside Russia",
       "source": "Yahoo News UK",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xLWM4S1B5bVhuclVCM2ZYQjdoc0NDbXBWck5KV1JST3VKaVUtaXFQaUU2RkdIaVprVW1Dem1RNzlaRkltYzhpbkdUMFpxY2hGTlluM2RxY01SbWxLVVk0VUcyUlUxV2hJZWZ5aVdSUWk1Y29mMzR3Z1VVMVJ3UQ?oc=5"
+    },
+    {
+      "date": "2026-11-25",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine-Russia war latest: Kyiv says five military aircraft damaged in strike on airbase east of Moscow",
+      "source": "The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeWl2OWpLLXZ2LUxGcWdadEtpeGJLQm5qeDFSUjFoYVBtdEFOTlBjRm1ILUVGS3RmblZCa0pMOFNHMzFSMy1aX2c0QmZNR1JGUjNqLWVxYjZRLWNWVzRKWVNoLXgySTlqV2J4Wk53Sko4RnR4b2I4WVMzZ01FZzQxSklYZmhkS0RrLUdrTXVnd2lxeEJ4THFiZkZwTEU5eFdHSmJ6T0RhY01YZXFZNmJ1QnhFbGJIeUVmc3p1Q2pSc1g1bUU?oc=5"
+    },
+    {
+      "date": "2026-11-26",
+      "type": "strike",
+      "place": "Moscow",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "title": "Ukraine says five jets damaged in attack on Russia’s Savasleyka airbase",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/26/ukraine-attacks-russian-military-base-says-five-planes-struck?traffic_source=rss"
+    },
+    {
+      "date": "2026-11-26",
+      "type": "ground",
+      "place": "Lviv",
+      "lat": 49.8397,
+      "lon": 24.0297,
+      "title": "‘Just taking part was a victory’: veterans’ sport helps recovery in Ukraine",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/sport/2026/nov/26/veterans-sport-helps-recovery-ukraine-war-invictus-games-disability"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 109
+      "count": 110
     },
     {
       "place": "Kerch",
@@ -10554,7 +10563,7 @@
     },
     {
       "place": "Moscow",
-      "count": 25
+      "count": 26
     },
     {
       "place": "Dnipro",
@@ -10562,7 +10571,7 @@
     },
     {
       "place": "Zaporizhzhia",
-      "count": 18
+      "count": 17
     },
     {
       "place": "Kherson",
@@ -10570,7 +10579,7 @@
     },
     {
       "place": "Odesa",
-      "count": 7
+      "count": 6
     },
     {
       "place": "Belgorod",

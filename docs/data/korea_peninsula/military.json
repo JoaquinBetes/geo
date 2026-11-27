@@ -1,6 +1,6 @@
 {
   "id": "korea_peninsula",
-  "updated": "2026-11-27T08:33:43+00:00",
+  "updated": "2026-11-27T21:17:49+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -46,9 +46,9 @@
     "to": "2026-11-27"
   },
   "kpis": {
-    "events_total": 317,
-    "events_unlocated": 3891,
-    "events_7d": 1,
+    "events_total": 319,
+    "events_unlocated": 3900,
+    "events_7d": 3,
     "events_prev_7d": 3,
     "hottest_place": "Seoul"
   },
@@ -732,6 +732,15 @@
       "date": "2026-11-23",
       "total": 1,
       "strike": 1,
+      "ground": 0,
+      "infrastructure": 0,
+      "air_defense": 0,
+      "anomaly": false
+    },
+    {
+      "date": "2026-11-27",
+      "total": 2,
+      "strike": 2,
       "ground": 0,
       "infrastructure": 0,
       "air_defense": 0,
@@ -3868,12 +3877,32 @@
       "title": "South marks 16 years since Yeonpyeong shelling victory over North",
       "source": "Korea JoongAng Daily",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNN2NObmRYeUgxMjB3dnRucjljQTRQcXYwcjlJdzBLWDc0R0I2SVA2Tk91Mk5hb3dTLW9pR19hUFJRRnN4MlBIaTBGM1huaVhXc0dRV3BZaU95UEZBMnRVOFZNdkVUQVBPd0xaZlFRMThFQVZtenp1RDRNNE5WdENMUHBUSjBORjNuQW5hYkR4VFEydnM2Y3UxSkJvNnBZNzBMbTVjMnh1V3I5V3NKTHk4bTVGd3ZVQQ?oc=5"
+    },
+    {
+      "date": "2026-11-27",
+      "type": "strike",
+      "place": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "title": "North Korea halts Russia military aid over Seoul row, Kyiv says",
+      "source": "Euronews.com",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWVNIZ0d2OHBnRERBR05hTDN3ZVFtVnJWRXBVTmxrdTk1bHBSMjViVF9WY0N1eWdYSzFyRmdub09HWHRHT1dHMlRSZVJzeG5FX0J1N21rcnY2WXNUeWtBUUUwbTVJV21tYWMyU2wwczJKNHYwWjhzRFFQNnEwRmQ4ZzFERmstQjljODFYdmVGQzM3dTVzRklpakRoeHpWUzg?oc=5"
+    },
+    {
+      "date": "2026-11-27",
+      "type": "strike",
+      "place": "DMZ",
+      "lat": 38.05,
+      "lon": 127.2,
+      "title": "North Korean troops cross border 40 times after DMZ mine blast",
+      "source": "upi",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT3M3UkxiU2p5MDJhSlBDUk5uQUJ1YmMtc3RtdG1PbUp5S3gwTGNCUk4wV3p1Y3pJUG1JZFVTblBBT3h1YW5abG4yY2xrVmJ1ZlpJWFRLYzQ5dTFEMUROTTlOWXpiejZDOWhiRGlJTmJyZV9rM0d4NTJaaHQ4RkhvUjBqckJNVHRqX1VuT1JUVDg5aHVYSFlybDNiakFvTFkwZDF0WDk4bll2OUXSAbABQVVfeXFMUGw1TFV3VFNfdUlNRFdheTVpbFpwTEZEUFFIcDF2RE4yM2RpUkNyYnAxSTdwWUVVZGZRV3NKVVNGb29lSnlhYjBQTTNUQmx3aF9BQWlzd3VCcl9NWFJhbnZXbVY0UDR3MzZCdDc5eTkwSzRyQVF5X2N1bm9kZG1sOEIyNU42azhGSWozYnhVMTRkYUsxeTRmVVA2aVlWQ3R3YThIdm5EUUJTM1F0Z2ZVRko?oc=5"
     }
   ],
   "top_places": [
     {
       "place": "Seoul",
-      "count": 20
+      "count": 21
     },
     {
       "place": "Pyongyang",
@@ -3881,7 +3910,7 @@
     },
     {
       "place": "DMZ",
-      "count": 3
+      "count": 4
     },
     {
       "place": "Wonsan",

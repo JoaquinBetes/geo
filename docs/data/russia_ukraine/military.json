@@ -1,6 +1,6 @@
 {
   "id": "russia_ukraine",
-  "updated": "2026-11-26T21:31:19+00:00",
+  "updated": "2026-11-27T08:33:01+00:00",
   "balance": {
     "as_of": "2025",
     "source": "Estimaciones abiertas (IISS Military Balance / SIPRI, aprox.)",
@@ -45,13 +45,13 @@
   },
   "window": {
     "from": "2022-03-14",
-    "to": "2026-11-26"
+    "to": "2026-11-27"
   },
   "kpis": {
-    "events_total": 1340,
-    "events_unlocated": 3819,
-    "events_7d": 60,
-    "events_prev_7d": 73,
+    "events_total": 1342,
+    "events_unlocated": 3824,
+    "events_7d": 49,
+    "events_prev_7d": 81,
     "hottest_place": "Kyiv"
   },
   "daily": [
@@ -1548,29 +1548,18 @@
       "infrastructure": 1,
       "air_defense": 0,
       "anomaly": false
+    },
+    {
+      "date": "2026-11-27",
+      "total": 2,
+      "strike": 1,
+      "ground": 0,
+      "infrastructure": 1,
+      "air_defense": 0,
+      "anomaly": false
     }
   ],
   "events": [
-    {
-      "date": "2026-08-12",
-      "type": "infrastructure",
-      "place": "Novorossiysk",
-      "lat": 44.7239,
-      "lon": 37.7708,
-      "title": "Ukraine pounds naval base, grain terminals at Russia's Black Sea port of Novorossiysk",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMjdHV1FOZTRQMUpIMS1PME52VGlXWXJPTmppZl9IVnkyeEhHQkFnTVBfVWlrc3oyaGw3RDlDb0dfN3Jndmx6cUY1eXVNQmdzbFRzcy1aNWZqdUJoZE9POGFQbUFWR2U5MmhWT0QzV2RPOTBHdEd5ZmtrMGNSb2doYk1MalVxaXFfdGRSVURlVnZUdkNHMTlLZ2VpNHlvaFdpTWR1MzQxdVlnUHdIS1dpLWJpaDZfOHBCeGg3dWJ3?oc=5"
-    },
-    {
-      "date": "2026-08-12",
-      "type": "strike",
-      "place": "Kyiv",
-      "lat": 50.4501,
-      "lon": 30.5234,
-      "title": "Zelensky speaks to CNN in Kyiv about recent surge of Russian ballistic attacks and the need for more interceptors missiles",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZk1MQTVwTXJKcWE5Sm5IZlY5V1BtQWg4RmlXeU1mdGNrYXU0TERlVXNRYnlMOTBpZkY4WVA5d3BRaVplVU8zSHlhbTFZU1ZsUEZ5NG1ZOTJ2WjJIcmNkdFR4N3RFbnpnc1RjMGp3bnprR010clVndS1LVGZ6SVlxSHl4bVM3STBKSjZxSVA0UGpTcFlvQkFDREs5dUo4aGxkbmJvQXdIQS1jdUJNakE?oc=5"
-    },
     {
       "date": "2026-08-13",
       "type": "ground",
@@ -10550,12 +10539,32 @@
       "title": "‘Trucks on fire and drones overhead’: the Russians risking the long road to Crimea",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/nov/26/russians-long-road-to-crimea-ukraine-drones"
+    },
+    {
+      "date": "2026-11-27",
+      "type": "strike",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: Kyiv launched more long-range strikes in 2026 than rest of war combined, data shows",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQOEVienFUcEhQaDhycjBhVEhBWmNKLWpIVXF2SmtKMnBHd1VhOTViamZ2eFRfQlR5YTVBQTdmc1RCMEpTOGpyOTJiUFQtMXRmejJTcEFYMUtGWEdxZVNMYjZwR3Rxd1Jubl81TVJlZnFxYjhxQkZldDUyQUJKMVpPUWs0clJHUXZiNm5IY3lLaF83dHlMem9CZl9ESVdTeE0tamp6OEZReDl2eEpLZ1BVM0tsdzdWTTNTOTFMeGNtOGpRNnVoYUh0U25YUEJEUlZxektTa2JpMHBSdFRCeGVKbjhTOA?oc=5"
+    },
+    {
+      "date": "2026-11-27",
+      "type": "infrastructure",
+      "place": "Kyiv",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "title": "Ukraine war briefing: Kyiv launched more long-range strikes in 2026 than rest of war combined, data shows",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/27/ukraine-war-briefing-kyiv-launched-more-long-range-strikes-in-2026-than-rest-of-war-combined-data-shows"
     }
   ],
   "top_places": [
     {
       "place": "Kyiv",
-      "count": 111
+      "count": 106
     },
     {
       "place": "Kerch",
@@ -10567,7 +10576,7 @@
     },
     {
       "place": "Dnipro",
-      "count": 20
+      "count": 19
     },
     {
       "place": "Zaporizhzhia",
@@ -10575,7 +10584,7 @@
     },
     {
       "place": "Kherson",
-      "count": 16
+      "count": 13
     },
     {
       "place": "Odesa",
